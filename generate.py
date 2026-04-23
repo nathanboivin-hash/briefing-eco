@@ -2,17 +2,81 @@ import anthropic
 import json
 import re
 import urllib.parse
-from datetime import datetime
+import urllib.request
+from datetime import datetime, timezone
 
+PERIGON_KEY = "51d90d54-03df-4bec-910e-ac40924fb42e"
 client = anthropic.Anthropic()
+
+# ── PERIGON ──
+def perigon_fetch(params):
+    """Fetch articles from Perigon API."""
+    base = "https://api.goperigon.com/v1/all?"
+    params["apiKey"] = PERIGON_KEY
+    params["language"] = "fr"
+    params["sortBy"] = "date"
+    params["pageSize"] = params.get("pageSize", 10)
+    url = base + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        return json.loads(resp.read())
+
+def get_articles():
+    """Fetch articles by topic from Perigon."""
+    all_articles = []
+
+    queries = [
+        # Marchés & Finance
+        {"q": "bourse CAC marchés financiers taux", "pageSize": 8},
+        # Entreprises
+        {"q": "résultats entreprise stratégie acquisition France", "pageSize": 8},
+        # M&A
+        {"q": "fusion acquisition rachat cession LBO private equity", "pageSize": 8},
+        # Macro
+        {"q": "BCE inflation croissance conjoncture économie France zone euro", "pageSize": 8},
+        # Politique
+        {"q": "politique économique budget France gouvernement géopolitique", "pageSize": 8},
+    ]
+
+    for q in queries:
+        try:
+            data = perigon_fetch(q)
+            arts = data.get("articles", [])
+            for a in arts:
+                source = a.get("source", {}).get("name", "")
+                titre  = (a.get("title") or "").strip()
+                url    = (a.get("url") or "").strip()
+                desc   = (a.get("description") or a.get("summary") or "").strip()
+                pub    = (a.get("pubDate") or "").strip()
+                if titre and url and source:
+                    all_articles.append({
+                        "source": source,
+                        "titre":  titre,
+                        "url":    url,
+                        "resume": desc[:200] if desc else "",
+                        "pub":    pub,
+                        "query":  q["q"]
+                    })
+            print(f"  '{q['q'][:40]}': {len(arts)} articles")
+        except Exception as e:
+            print(f"  Erreur Perigon ({q['q'][:30]}): {e}")
+
+    # Dédoublonnage par URL
+    seen = set()
+    unique = []
+    for a in all_articles:
+        if a["url"] not in seen:
+            seen.add(a["url"])
+            unique.append(a)
+
+    print(f"  Total unique: {len(unique)} articles")
+    return unique
 
 def parse_json(text):
     s = text.find('{')
     if s == -1:
-        raise ValueError(f"No JSON in: {text[:200]}")
-    depth = 0
-    in_str = False
-    i = s
+        raise ValueError(f"No JSON: {text[:200]}")
+    depth, in_str, i = 0, False, s
     while i < len(text):
         c = text[i]
         if c == '"' and (i == 0 or text[i-1] != '\\'):
@@ -25,182 +89,152 @@ def parse_json(text):
                     raw = text[s:i+1]
                     try:
                         return json.loads(raw)
-                    except json.JSONDecodeError:
+                    except:
                         raw = re.sub(r',(\s*[}\]])', r'\1', raw)
                         return json.loads(raw)
         i += 1
     raise ValueError("Unmatched braces")
 
-def call_with_search(prompt):
-    messages = [{"role": "user", "content": prompt}]
-    while True:
-        response = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=5000,
-            tools=[{"type": "web_search_20250305", "name": "web_search"}],
-            messages=messages
-        )
-        if response.stop_reason == "tool_use":
-            messages.append({"role": "assistant", "content": response.content})
-            tool_results = [
-                {"type": "tool_result", "tool_use_id": b.id, "content": "ok"}
-                for b in response.content if b.type == "tool_use"
-            ]
-            messages.append({"role": "user", "content": tool_results})
-        else:
-            return "".join(b.text for b in response.content if hasattr(b, "text"))
+def synthesize(articles, today, ts):
+    """Single Haiku call: classify articles into sections + generate synthesis."""
 
-def make_link(source, titre):
-    q = urllib.parse.quote_plus(titre)
-    s = source.lower()
-    if 'reuters' in s:    return f"https://fr.reuters.com/search/news?blob={q}"
-    if 'bfm' in s:        return f"https://www.bfmtv.com/recherche/?q={q}"
-    if 'tribune' in s:    return f"https://www.latribune.fr/recherche/?q={q}"
-    if 'agefi' in s:      return f"https://www.agefi.fr/search?q={q}"
-    if 'capital' in s:    return f"https://www.capital.fr/search?q={q}"
-    if 'challenges' in s: return f"https://www.challenges.fr/search?q={q}"
-    if 'boursorama' in s: return f"https://www.boursorama.com/bourse/actualites/recherche/?q={q}"
-    if 'monde' in s:      return f"https://www.lemonde.fr/recherche/?keywords={q}"
-    if 'politico' in s:   return f"https://www.politico.eu/search/{urllib.parse.quote(titre)}/"
-    if 'echo' in s:       return f"https://www.lesechos.fr/recherche?keywords={q}"
-    if 'figaro' in s:     return f"https://recherche.lefigaro.fr/recherche/?q={q}"
-    return f"https://www.google.com/search?q={urllib.parse.quote(source+' '+titre)}"
+    # Pass articles as numbered list
+    ctx = "\n".join(
+        f"[{i}] {a['source']} | {a['titre']}" + (f" | {a['resume'][:80]}" if a['resume'] else "")
+        for i, a in enumerate(articles)
+    )
 
-def main():
-    now = datetime.now()
-    days = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"]
-    months = ["janvier","février","mars","avril","mai","juin",
-              "juillet","août","septembre","octobre","novembre","décembre"]
-    today = f"{days[now.weekday()]} {now.day} {months[now.month-1]} {now.year}"
-    ts = now.strftime("%Hh%M")
-    date_short = now.strftime("%d/%m/%Y")
+    date_short = datetime.now().strftime("%d/%m/%Y")
 
-    print(f"Génération — {today} {ts}")
+    prompt = f"""Tu es analyste financier senior à Paris. Date: {today} {ts}.
 
-    prompt = f"""Tu es un journaliste économique senior à Paris. Date du jour : {today}, {ts}.
+Voici {len(articles)} vrais articles récupérés aujourd'hui :
+{ctx}
 
-MISSION : Génère un briefing économique et financier matinal en cherchant les VRAIES actualités du jour.
+Génère un briefing JSON. Pour chaque section, utilise les INDEX des articles les plus pertinents.
+Les articles gardent leur URL originale — ne les modifie pas.
 
-SOURCES AUTORISÉES (toutes gratuites, françaises prioritaires) :
-- Reuters France (fr.reuters.com)
-- BFM Business (bfmtv.com)  
-- La Tribune (latribune.fr)
-- L'Agefi (agefi.fr)
-- Boursorama (boursorama.com)
-- Capital (capital.fr)
-- Challenges (challenges.fr)
-- Le Monde Économie (lemonde.fr/economie)
-- Politico Europe (politico.eu)
-- AFP via Boursorama
-
-RÈGLES STRICTES :
-1. Cherche sur le web les articles publiés AUJOURD'HUI ({today})
-2. Utilise UNIQUEMENT des articles réels trouvés — pas d'inventions
-3. Si pas d'article trouvé pour une section, mets 3 articles minimum avec ce que tu trouves
-4. Données marchés : cherche les cours actuels du jour
-5. Titres : copie le titre EXACT de l'article trouvé
-6. URLs : NE PAS inclure d'URL dans le JSON (elles seront générées automatiquement)
-
-Génère ce JSON (sans backticks, sans texte autour) :
+JSON uniquement sans backticks :
 {{
   "timestamp": "{ts} le {date_short}",
   "alerte": null,
   "synthese": {{
-    "resume": "4-5 phrases résumant l'essentiel du jour : marchés, macro, entreprises, géopolitique. Chiffres précis.",
+    "resume": "4 phrases synthèse de l'actu éco du jour avec chiffres clés",
     "points": [
-      {{"titre": "Marchés — [titre précis]", "detail": "analyse avec chiffres, angle professionnel M&A"}},
-      {{"titre": "Macro — [titre précis]", "detail": "analyse avec chiffres, angle professionnel M&A"}},
-      {{"titre": "M&A / Entreprises — [titre précis]", "detail": "deal ou tendance avec montant si possible"}},
-      {{"titre": "Géopolitique / Politique — [titre précis]", "detail": "impact économique concret"}}
+      {{"titre": "Marchés", "detail": "analyse marchés avec chiffres"}},
+      {{"titre": "Macro", "detail": "conjoncture avec chiffres"}},
+      {{"titre": "Entreprises / M&A", "detail": "actu corporate du jour"}},
+      {{"titre": "Politique / Géo", "detail": "impact politique-économique"}}
     ]
   }},
   "marches": {{
     "metrics": [
-      {{"label": "CAC 40", "value": "XXXX", "change": "+X.X%", "dir": "up|down|flat"}},
-      {{"label": "Eurostoxx 50", "value": "XXXX", "change": "+X.X%", "dir": "up|down|flat"}},
-      {{"label": "OAT 10 ans", "value": "X.XX%", "change": "+X pb", "dir": "up|down|flat"}},
-      {{"label": "Bund 10 ans", "value": "X.XX%", "change": "+X pb", "dir": "up|down|flat"}},
-      {{"label": "Spread OAT/Bund", "value": "XX pb", "change": "+X pb", "dir": "up|down|flat"}},
-      {{"label": "EUR/USD", "value": "X.XXXX", "change": "+X.X%", "dir": "up|down|flat"}},
-      {{"label": "Brent", "value": "XXX $", "change": "+X.X%", "dir": "up|down|flat"}},
-      {{"label": "S&P 500", "value": "XXXX", "change": "+X.X%", "dir": "up|down|flat"}}
+      {{"label": "CAC 40", "value": "?", "change": "?", "dir": "up"}},
+      {{"label": "Eurostoxx 50", "value": "?", "change": "?", "dir": "up"}},
+      {{"label": "OAT 10 ans", "value": "?%", "change": "? pb", "dir": "up"}},
+      {{"label": "Bund 10 ans", "value": "?%", "change": "? pb", "dir": "up"}},
+      {{"label": "Spread OAT/Bund", "value": "? pb", "change": "? pb", "dir": "flat"}},
+      {{"label": "EUR/USD", "value": "?", "change": "?", "dir": "flat"}},
+      {{"label": "Brent", "value": "? $", "change": "?", "dir": "up"}},
+      {{"label": "S&P 500", "value": "?", "change": "?", "dir": "up"}}
     ],
-    "articles": [
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT article trouvé"}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT article trouvé"}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT article trouvé"}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT article trouvé"}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT article trouvé"}}
-    ]
+    "indices": [0,1,2,3,4]
   }},
-  "entreprises": {{
-    "articles": [
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT", "resume": "2 phrases résumé."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT", "resume": "2 phrases résumé."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT", "resume": "2 phrases résumé."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT", "resume": "2 phrases résumé."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT", "resume": "2 phrases résumé."}}
-    ]
-  }},
-  "ma": {{
-    "articles": [
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT deal M&A", "resume": "acquéreur, cible, montant."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT deal M&A", "resume": "acquéreur, cible, montant."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT deal M&A", "resume": "acquéreur, cible, montant."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT deal M&A", "resume": "acquéreur, cible, montant."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT deal M&A", "resume": "acquéreur, cible, montant."}}
-    ]
-  }},
-  "macro": {{
-    "articles": [
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT macro", "resume": "2 phrases avec chiffres."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT macro", "resume": "2 phrases avec chiffres."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT macro", "resume": "2 phrases avec chiffres."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT macro", "resume": "2 phrases avec chiffres."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT macro", "resume": "2 phrases avec chiffres."}}
-    ]
-  }},
-  "politique": {{
-    "articles": [
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT politique", "resume": "2 phrases impact éco."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT politique", "resume": "2 phrases impact éco."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT politique", "resume": "2 phrases impact éco."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT politique", "resume": "2 phrases impact éco."}},
-      {{"source": "SOURCE", "heure": "HHhMM", "titre": "TITRE EXACT politique", "resume": "2 phrases impact éco."}}
-    ]
-  }}
-}}"""
+  "entreprises": {{"indices": [0,1,2,3,4]}},
+  "ma":          {{"indices": [0,1,2,3,4]}},
+  "macro":       {{"indices": [0,1,2,3,4]}},
+  "politique":   {{"indices": [0,1,2,3,4]}}
+}}
 
-    print("→ Appel Claude Sonnet + web_search...")
-    text = call_with_search(prompt)
-    print(f"  Réponse: {len(text)} chars")
+Choisis les indices les plus pertinents pour chaque section (5-7 par section).
+Remplis absolument toutes les sections."""
 
-    briefing = parse_json(text)
+    response = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=2000,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    text = "".join(b.text for b in response.content if hasattr(b, "text"))
+    print(f"  Haiku réponse: {len(text)} chars")
+    return parse_json(text)
 
-    # Vérification et fallback sections manquantes
-    for key in ["synthese","marches","entreprises","ma","macro","politique"]:
-        if key not in briefing:
-            print(f"  MANQUANT: {key} — ajout vide")
-            briefing[key] = {"articles":[]} if key != "synthese" else {"resume":"","points":[]}
+def build_briefing(classified, articles):
+    """Replace indices with real article objects."""
+    briefing = {
+        "timestamp":  classified.get("timestamp", ""),
+        "alerte":     classified.get("alerte"),
+        "synthese":   classified.get("synthese", {}),
+        "marches":    {"metrics": classified.get("marches", {}).get("metrics", []), "articles": []},
+        "entreprises":{"articles": []},
+        "ma":         {"articles": []},
+        "macro":      {"articles": []},
+        "politique":  {"articles": []},
+    }
 
-    # Ajout URLs de recherche pour chaque article
-    for key in ["marches","entreprises","ma","macro","politique"]:
-        section = briefing.get(key, {})
-        articles = section.get("articles", []) if isinstance(section, dict) else []
-        for a in articles:
-            titre = a.get("titre","")
-            source = a.get("source","")
-            if titre and source:
-                a["url"] = make_link(source, titre)
-            # Ajouter résumé vide si manquant (section marchés n'en a pas)
-            if "resume" not in a:
-                a["resume"] = ""
+    sections = ["marches", "entreprises", "ma", "macro", "politique"]
+    for key in sections:
+        indices = classified.get(key, {}).get("indices", [])
+        seen = set()
+        for idx in indices:
+            if isinstance(idx, int) and 0 <= idx < len(articles):
+                a = articles[idx]
+                if a["url"] not in seen:
+                    seen.add(a["url"])
+                    briefing[key]["articles"].append({
+                        "source": a["source"],
+                        "heure":  fmt_date(a.get("pub","")),
+                        "titre":  a["titre"],
+                        "resume": a["resume"],
+                        "url":    a["url"],
+                    })
 
-    # Stats
+    return briefing
+
+def fmt_date(pub):
+    """Extract HHhMM from ISO date string."""
+    if not pub:
+        return ""
+    try:
+        # Handle various ISO formats
+        pub = pub.replace("Z", "+00:00")
+        dt = datetime.fromisoformat(pub)
+        # Convert to Paris time (UTC+2 in summer, +1 in winter — approx)
+        local_hour = (dt.hour + 2) % 24
+        return f"{local_hour:02d}h{dt.minute:02d}"
+    except:
+        return ""
+
+def main():
+    now = datetime.now()
+    days   = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"]
+    months = ["janvier","février","mars","avril","mai","juin",
+              "juillet","août","septembre","octobre","novembre","décembre"]
+    today = f"{days[now.weekday()]} {now.day} {months[now.month-1]} {now.year}"
+    ts    = now.strftime("%Hh%M")
+
+    print(f"Génération — {today} {ts}")
+
+    # 1. Fetch real articles from Perigon
+    print("→ Perigon: récupération des articles...")
+    articles = get_articles()
+
+    if not articles:
+        print("ERREUR: aucun article Perigon — vérifier la clé API")
+        raise SystemExit(1)
+
+    # 2. Single Haiku call for classification + synthesis
+    print("→ Haiku: classification et synthèse...")
+    classified = synthesize(articles, today, ts)
+
+    # 3. Build final briefing with real URLs
+    briefing = build_briefing(classified, articles)
+
+    # 4. Stats
     for k in ["marches","entreprises","ma","macro","politique"]:
         n = len(briefing.get(k,{}).get("articles",[]))
         print(f"  {k}: {n} articles")
 
+    # 5. Save
     with open("briefing.json", "w", encoding="utf-8") as f:
         json.dump(briefing, f, ensure_ascii=False, indent=2)
 
