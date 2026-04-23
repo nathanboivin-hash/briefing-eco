@@ -110,6 +110,7 @@ a.art:active { background:var(--cream) }
       <button class="tab"     onclick="sw(this,'a')">M&amp;A</button>
       <button class="tab"     onclick="sw(this,'k')">Macro</button>
       <button class="tab"     onclick="sw(this,'p')">Politique</button>
+      <button class="tab"     onclick="sw(this,'x')">Taux</button>
     </div>
   </div>
   <div class="cnt" id="cnt"></div>
@@ -232,7 +233,8 @@ function render(t) {
       e: {key:'entreprises', label:'Resultats et vie des entreprises'},
       a: {key:'ma',          label:'Fusions, acquisitions et PE'},
       k: {key:'macro',       label:'Macroeconomie France et Europe'},
-      p: {key:'politique',   label:'Politique economique et geopolitique'}
+      p: {key:'politique',   label:'Politique economique et geopolitique'},
+      x: {key:'taux',        label:'Taux, OAT, spreads et obligations'}
     };
     var c = cfg[t];
     el.innerHTML = '<div class="art-rule">' + c.label + '</div>' + artList(c.key);
