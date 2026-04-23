@@ -64,21 +64,46 @@ def get_articles():
                 print(f"  Sample keys: {list(arts[0].keys())}")
                 print(f"  Sample values: { {k: str(v)[:50] for k,v in arts[0].items()} }")
             for a in arts:
-                # Perigon field mapping (from observed keys)
-                src_obj = a.get("source", {})
-                source = src_obj.get("name","") if isinstance(src_obj, dict) else str(src_obj)
-                titre  = (a.get("title") or a.get("name") or a.get("headline") or a.get("authorsByline") or "").strip()
-                url    = (a.get("url") or a.get("link") or "").strip()
-                desc   = (a.get("description") or a.get("summary") or a.get("content") or "").strip()
-                pub    = (a.get("pubDate") or a.get("publishedAt") or a.get("addDate") or "").strip()
-                if url and source:  # au minimum URL + source
+                # source est une string repr de dict ex: "{'domain': 'lesechos.fr', ...}"
+                src_raw = a.get("source", "")
+                import re as _re
+                domain_match = _re.search(r"'domain': '([^']+)'", str(src_raw))
+                source = domain_match.group(1) if domain_match else str(src_raw)[:30]
+                # Simplifier le nom de domaine
+                source = source.replace("www.","").split(".")[0].title()
+                # Noms connus
+                domain_names = {
+                    "lesechos": "Les Echos",
+                    "lefigaro": "Le Figaro",
+                    "latribune": "La Tribune",
+                    "bfmtv": "BFM Business",
+                    "boursorama": "Boursorama",
+                    "reuters": "Reuters",
+                    "lemonde": "Le Monde",
+                    "capital": "Capital",
+                    "challenges": "Challenges",
+                    "agefi": "L'Agefi",
+                    "laprovence": "La Provence",
+                    "leparisien": "Le Parisien",
+                }
+                raw_domain = domain_match.group(1).replace("www.","").split(".")[0] if domain_match else ""
+                source = domain_names.get(raw_domain, source)
+
+                titre = (a.get("title") or "").strip()
+                url   = (a.get("url") or "").strip()
+                desc  = (a.get("description") or a.get("shortSummary") or a.get("summary") or "").strip()
+                pub   = (a.get("pubDate") or a.get("addDate") or "").strip()
+                country = a.get("country","")
+
+                # Garder seulement articles FR ou sources françaises connues
+                is_fr = country == "fr" or raw_domain in domain_names
+                if titre and url and is_fr:
                     all_articles.append({
                         "source": source,
-                        "titre":  titre or url,
+                        "titre":  titre,
                         "url":    url,
-                        "resume": desc[:200] if desc else "",
+                        "resume": desc[:250] if desc else "",
                         "pub":    pub,
-                        "query":  q["q"]
                     })
             print(f"  '{q['q'][:40]}': {len(arts)} articles")
         except Exception as e:
