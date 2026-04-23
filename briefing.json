@@ -1,113 +1,71 @@
 {
-  "timestamp": "14h16 le 23/04/2026",
-  "alerte": "Tensions géopolitiques croissantes impactant les marchés asiatiques et prix du pétrole",
+  "timestamp": "14h48 le 23/04/2026",
+  "alerte": {
+    "titre": "Contraction PMI zone euro",
+    "detail": "Indices PMI en baisse surprise en avril signalant un ralentissement économique inattendu",
+    "indices": [
+      2,
+      3
+    ]
+  },
   "synthese": {
-    "resume": "Les marchés asiatiques reculent après avoir atteint des sommets historiques en raison de tensions géopolitiques et hausses des prix du pétrole. IBM chute sur ses résultats, créant une pression sur le secteur logiciel. Le secteur financier américain montre des signes de faiblesse avec SoFi Technologies en baisse. L'UE débloque enfin son prêt de 90 milliards d'euros pour l'Ukraine, marquant une avancée majeure du soutien européen.",
+    "resume": "La zone euro affiche une contraction surprise des PMI en avril, contredisant les attentes de reprise. Les valeurs défensives (L'Oréal, GTT) résistent tandis que le secteur technologique fléchit (IBM). Sur le front géopolitique, le prêt de 90 Mds€ à l'Ukraine est validé et les tensions Iran-Israël influencent les prix énergétiques (Brent >100$/bl). Le marché se déconnecte de la réalité macro selon les analystes.",
     "points": [
       {
-        "titre": "Marchés",
-        "detail": "Repli des marchés asiatiques malgré records antérieurs; tensions géopolitiques et volatilité pétrolière créent un contexte d'incertitude. IBM subit une chute significative post-résultats, impactant le secteur technologique et logiciel. Secteur financier américain sous pression (SoFi Technologies en baisse)."
+        "titre": "Marchés boursiers",
+        "detail": "L'Oréal s'envole porté par l'effet 'rouge à lèvres' (consommation défensive). IBM chute post-résultats, révélant une pression accrue sur les logiciels. GTT reçoit de multiples commandes. Actions déconnectées de la réalité économique selon les experts."
       },
       {
-        "titre": "Macro",
-        "detail": "Tensions géopolitiques majeures perturbent la trajectoire économique régionale. Hausse continue des prix du pétrole, créant des risques inflationnistes. Ukraine reçoit finalement 90 milliards d'euros de l'UE, soutien critique pour la reconstruction et stabilité régionale."
+        "titre": "Macroéconomie",
+        "detail": "Contraction-surprise des PMI zone euro en avril signalant un ralentissement. Brent clôture >100$/bl pour la 1ère fois en 2+ semaines (tensions géopolitiques). Suède envisage le rationnement de carburant si conflit Moyen-Orient prolongé."
       },
       {
-        "titre": "Entreprises / M&A",
-        "detail": "IBM: résultats décevants provoquant repli titre et inquiétudes secteur logiciel. SoFi Technologies en baisse jeudi. SpaceX acquiert Cursor (génération code IA), défi direct à Microsoft. Kurma Partners clôture Biofund IV à 215M€ et franchit le milliard d'euros d'AUM. ITA Airways renforce sa stratégie méditerranéenne."
+        "titre": "M&A et Corporate",
+        "detail": "Servier rachète Day One (USA) pour 2,5 Mds$ pour renforcer oncologie. TAP Air Portugal : verdict de privatisation (AF-KLM vs Lufthansa) en septembre. Succession LVMH repoussée 7-8 ans par Arnault. Ubisoft quasi-fin du télétravail."
       },
       {
-        "titre": "Politique / Géo",
-        "detail": "Tensions géopolitiques croissantes affectent les bourses asiatiques. MiCA: harmonisation crypto européenne approche échéance 1er juillet avec agréments concentrés. Ukraine: déblocage des 90 milliards d'euros européens après mois de négociations. Dossier TAP Air Portugal: privatisation en septembre (Air France-KLM vs Lufthansa)."
+        "titre": "Politique et géopolitique",
+        "detail": "Prêt UE 90 Mds€ à Ukraine validé après levée véto hongrois. Trump prolonge trêve Iran (négocie proposition finale). Tensions Moyen-Orient impactent énergie. Blocus Iran inefficace selon experts malgré baisse recettes pétrolières."
       }
     ]
   },
   "marches": {
-    "metrics": [
-      {
-        "label": "CAC 40",
-        "value": "N/D",
-        "change": "N/D",
-        "dir": "down"
-      },
-      {
-        "label": "Eurostoxx 50",
-        "value": "N/D",
-        "change": "N/D",
-        "dir": "down"
-      },
-      {
-        "label": "OAT 10 ans",
-        "value": "N/D%",
-        "change": "N/D pb",
-        "dir": "flat"
-      },
-      {
-        "label": "Bund 10 ans",
-        "value": "N/D%",
-        "change": "N/D pb",
-        "dir": "flat"
-      },
-      {
-        "label": "Spread OAT/Bund",
-        "value": "N/D pb",
-        "change": "N/D pb",
-        "dir": "flat"
-      },
-      {
-        "label": "EUR/USD",
-        "value": "N/D",
-        "change": "N/D",
-        "dir": "flat"
-      },
-      {
-        "label": "Brent",
-        "value": "N/D $",
-        "change": "up",
-        "dir": "up"
-      },
-      {
-        "label": "S&P 500",
-        "value": "N/D",
-        "change": "N/D",
-        "dir": "down"
-      }
-    ],
+    "metrics": [],
     "articles": [
       {
         "source": "BFM Business",
-        "heure": "15h57",
-        "titre": "PODCAST : USA Today : IBM chute après ses résultats, retour de la pression sur les logiciels, par John Plassard – 23/04",
-        "resume": "Ce jeudi 23 avril, dans sa chronique USA Today, John Plassard, associé et responsable de la stratégie d'investissement de Cité Gestion, s'est penché sur l'enchaînement des records sur le S&P malgré le conflit au Moyen-Orient, le limogeage du secrétai",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/usa-today-ibm-chute-apres-ses-resultats-retour-de-la-pression-sur-les-logiciels-par-john-plassard-23-04_EN-202604230576.html"
-      },
-      {
-        "source": "Fr",
-        "heure": "15h48",
-        "titre": "Les marchés asiatiques reculent après avoir atteint des sommets historiques en raison des inquiétudes géopolitiques",
-        "resume": "Principaux renseignements Les tensions géopolitiques et la hausse des prix du pétrole ont provoqué un recul des marchés boursiers asiatiques après que",
-        "url": "https://fr.businessam.be/les-marches-asiatiques-reculent-apres-avoir-atteint-des-sommets-historiques-en-raison-des-inquietudes-geopolitiques/"
-      },
-      {
-        "source": "Fr",
-        "heure": "15h53",
-        "titre": "Qu'est-ce qui se passe avec l'action de SoFi Technologies jeudi ?",
-        "resume": "Le titre de SoFi Technologies, Inc. (NASDAQ:SOFI) connaît une baisse ce jeudi, la prise de risque se refroidissant sur plusieurs segments du marché et exerç…",
-        "url": "https://fr.benzinga.com/news/france/general/quest-ce-qui-se-passe-avec-laction-de-sofi-technologies-jeudi/"
+        "heure": "16h31",
+        "titre": "L'Oréal s'envole, porté par l'\"effet rouge à lèvres – 23/04",
+        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, s'est penché sur les perspectives sur les publications en Europe, la supériorité face aux attentes des revenus de Renault, l'insuffisance de la hausse du CA d'EssilorLuxottica au T1",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/l-oreal-s-envole-porte-par-l-effet-rouge-a-levres-23-04_EN-202604230599.html"
       },
       {
         "source": "BFM Business",
-        "heure": "17h51",
-        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
-        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes.",
-        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
+        "heure": "16h27",
+        "titre": "L'Oréal s'envole, porté par l'\"effet rouge à lèvres - 23/04",
+        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, s'est penché sur les perspectives sur les publications en Europe, la supériorité face aux attentes des revenus de Renault, l'insuffisance de la hausse du CA d'EssilorLuxottica au T1",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-l-oreal-s-envole-porte-par-l-effet-rouge-a-levres-23-04_VN-202604230598.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "17h57",
-        "titre": "Guerre en Ukraine : le prêt européen de 90 milliards d'euros enfin débloqué",
-        "resume": "L'UE débloque enfin le prêt de 90 milliards d'euros pour l'Ukraine, après des mois de blocage par la Hongrie. Ce soutien financier, crucial pour Kiev, marque un tournant dans l'aide européenne face à la guerre.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/guerre-en-ukraine-le-pret-europeen-de-90-milliards-deuros-enfin-debloque-2228164"
+        "source": "BFM Business",
+        "heure": "13h08",
+        "titre": "Le prix du baril de Brent a clôturé à plus de 100 dollars pour la première fois en plus de deux semaines",
+        "resume": "Le prix du baril de Brent de la mer du Nord, pour livraison en juin, a avancé de 3,48% à 101,91 dollars, clôturant pour la première fois en plus de deux semaines au-delà des 100 dollars.",
+        "url": "https://www.bfmtv.com/economie/video-le-prix-du-baril-de-brent-a-cloture-a-plus-de-100-dollars-pour-la-premiere-fois-en-plus-de-deux-semaines_VN-202604230452.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "16h03",
+        "titre": "La bourse cash : « Les actions se déconnectent de la réalité économique et géopolitique. » - 23/04",
+        "resume": "Ce jeudi 23 avril, Alexandre Hezez, stratégiste indépendant, s'est penché sur les marchés actions déconnectés des contextes macroéconomique et géopolitique, l'Euro Stoxx 600 battu par le S&P depuis janvier, et le chiffre d'affaires de L’Oréal supérie",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-la-bourse-cash-les-actions-se-deconnectent-de-la-realite-economique-et-geopolitique-23-04_VN-202604230584.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "15h57",
+        "titre": "USA Today : IBM chute après ses résultats, retour de la pression sur les logiciels, par John Plassard – 23/04",
+        "resume": "Ce jeudi 23 avril, dans sa chronique USA Today, John Plassard, associé et responsable de la stratégie d'investissement de Cité Gestion, s'est penché sur l'enchaînement des records sur le S&P malgré le conflit au Moyen-Orient, le limogeage du secrétai",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/usa-today-ibm-chute-apres-ses-resultats-retour-de-la-pression-sur-les-logiciels-par-john-plassard-23-04_EN-202604230576.html"
       }
     ]
   },
@@ -115,45 +73,38 @@
     "articles": [
       {
         "source": "BFM Business",
-        "heure": "15h57",
-        "titre": "PODCAST : USA Today : IBM chute après ses résultats, retour de la pression sur les logiciels, par John Plassard – 23/04",
-        "resume": "Ce jeudi 23 avril, dans sa chronique USA Today, John Plassard, associé et responsable de la stratégie d'investissement de Cité Gestion, s'est penché sur l'enchaînement des records sur le S&P malgré le conflit au Moyen-Orient, le limogeage du secrétai",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/usa-today-ibm-chute-apres-ses-resultats-retour-de-la-pression-sur-les-logiciels-par-john-plassard-23-04_EN-202604230576.html"
+        "heure": "15h22",
+        "titre": "Le français veut accélérer dans l'oncologie : Servier rachète l'américain Day One pour 2,5 milliards de dollars et renforce ses capacités dans les médicaments contre le cancer",
+        "resume": "Le groupe pharmaceutique français Servier, recentré depuis plusieurs années sur les médicaments anti-cancer, se renforce dans le domaine avec le rachat de la société américaine Day One Biopharmaceuticals, une opération évaluée à 2,5 milliards de doll",
+        "url": "https://www.bfmtv.com/economie/entreprises/le-francais-veut-accelerer-dans-l-oncologie-servier-rachete-l-americain-day-one-pour-2-5-milliards-de-dollars-et-renforce-ses-capacites-dans-les-medicaments-contre-le-cancer_AD-202604230558.html"
       },
       {
-        "source": "Fr",
-        "heure": "15h53",
-        "titre": "Qu'est-ce qui se passe avec l'action de SoFi Technologies jeudi ?",
-        "resume": "Le titre de SoFi Technologies, Inc. (NASDAQ:SOFI) connaît une baisse ce jeudi, la prise de risque se refroidissant sur plusieurs segments du marché et exerç…",
-        "url": "https://fr.benzinga.com/news/france/general/quest-ce-qui-se-passe-avec-laction-de-sofi-technologies-jeudi/"
+        "source": "BFM Business",
+        "heure": "15h41",
+        "titre": "\"Il y a de la sidération\": Ubisoft acte la quasi-fin du télétravail pour ses salariés",
+        "resume": "Les salariés ont été informés qu'ils disposeraient désormais d'un quota de moins d'un jour par semaine, alors que jusqu'à présent ils bénéficiaient de deux jours de télétravail par semaine,",
+        "url": "https://www.bfmtv.com/economie/emploi/il-y-a-de-la-sideration-ubisoft-acte-la-quasi-fin-du-teletravail-pour-ses-salaries_AD-202604230568.html"
       },
       {
-        "source": "Zdnet",
-        "heure": "15h43",
-        "titre": "SpaceX s'offre Cursor : Microsoft a jeté l'éponge - ZDNET",
-        "resume": "En achetant cet outil de génération de code par IA, Elon Musk défie frontalement Microsoft. Qui a préféré décliner.",
-        "url": "https://www.zdnet.fr/actualites/spacex-soffre-cursor-microsoft-a-jete-leponge-494193.htm"
+        "source": "BFM Business",
+        "heure": "16h31",
+        "titre": "L'Oréal s'envole, porté par l'\"effet rouge à lèvres – 23/04",
+        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, s'est penché sur les perspectives sur les publications en Europe, la supériorité face aux attentes des revenus de Renault, l'insuffisance de la hausse du CA d'EssilorLuxottica au T1",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/l-oreal-s-envole-porte-par-l-effet-rouge-a-levres-23-04_EN-202604230599.html"
       },
       {
-        "source": "Finyear",
-        "heure": "17h51",
-        "titre": "Kurma Partners clôture Biofund IV à 215 M€ et franchit le milliard d’euros d’actifs sous gestion",
-        "resume": "Kurma Partners, membre du groupe Eurazeo, annonce le closing final de son fonds Biofund IV à 215 millions d’euros, en hausse de près de 35 % par rapport au précédent millésime (160 M€). Le fonds…",
-        "url": "https://finyear.com/kurma-partners-cloture-biofund-iv-a-215-me-et-franchit-le-milliard-deuros-dactifs-sous-gestion"
+        "source": "BFM Business",
+        "heure": "16h17",
+        "titre": "Culture Bourse : « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? », par Julie Cohen-Heurton - 23/04",
+        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, a répondu à la question « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? » dans la chronique Culture Bourse présentée par Julie Cohen",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-culture-bourse-gtt-recoit-de-multiples-commandes-et-ca-se-ressent-en-bourse-comment-percevez-vous-le-titre-par-julie-cohen-heurton-23-04_VN-202604230592.html"
       },
       {
-        "source": "Pharmaceutiques",
-        "heure": "15h48",
-        "titre": "Kurma Partners boucle Biofund IV à 215 M€ et confirme son modèle",
-        "resume": "Kurma Partners annonce le closing final à 215 millions d’euros de son fonds Biofund IV, dédié à la création et au développement de biotech innovantes. Une",
-        "url": "https://pharmaceutiques.com/actualites/economie-et-ecosysteme/kurma-partners-boucle-biofund-iv-a-215-me-et-confirme-son-modele/"
-      },
-      {
-        "source": "Zonebourse",
-        "heure": "17h34",
-        "titre": "Oddo BHF salue les trimestriels de Sanofi et voit toujours du potentiel",
-        "resume": "Sanofi se distingue à la hausse  au sein d'un marché plus prudent . Le laboratoire est soutenu par sa publication trimestrielle marquée par une hausse des ventes de 13,6% à taux de change...",
-        "url": "https://www.zonebourse.com/actualite-bourse/oddo-bhf-salue-les-trimestriels-de-sanofi-et-voit-toujours-du-potentiel-ce7f59ded98af427"
+        "source": "BFM Business",
+        "heure": "15h14",
+        "titre": "\"Une réponse directe à la hausse de la demande\": Tesla va créer 1.000 emplois d'ici fin juin dans son usine allemande",
+        "resume": "Elle compte aujourd'hui 10.700 salariés, selon le groupe, et produit de grandes quantités du Model Y, son SUV grand public, ainsi que des cellules de batterie.",
+        "url": "https://www.bfmtv.com/economie/entreprises/industries/une-reponse-directe-a-la-hausse-de-la-demande-tesla-va-creer-1-000-emplois-d-ici-fin-juin-dans-son-usine-allemande_AD-202604230553.html"
       }
     ]
   },
@@ -161,102 +112,109 @@
     "articles": [
       {
         "source": "BFM Business",
-        "heure": "17h51",
+        "heure": "15h22",
+        "titre": "Le français veut accélérer dans l'oncologie : Servier rachète l'américain Day One pour 2,5 milliards de dollars et renforce ses capacités dans les médicaments contre le cancer",
+        "resume": "Le groupe pharmaceutique français Servier, recentré depuis plusieurs années sur les médicaments anti-cancer, se renforce dans le domaine avec le rachat de la société américaine Day One Biopharmaceuticals, une opération évaluée à 2,5 milliards de doll",
+        "url": "https://www.bfmtv.com/economie/entreprises/le-francais-veut-accelerer-dans-l-oncologie-servier-rachete-l-americain-day-one-pour-2-5-milliards-de-dollars-et-renforce-ses-capacites-dans-les-medicaments-contre-le-cancer_AD-202604230558.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "15h51",
         "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
-        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes.",
+        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes. ",
         "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
       },
       {
-        "source": "Zdnet",
-        "heure": "15h43",
-        "titre": "SpaceX s'offre Cursor : Microsoft a jeté l'éponge - ZDNET",
-        "resume": "En achetant cet outil de génération de code par IA, Elon Musk défie frontalement Microsoft. Qui a préféré décliner.",
-        "url": "https://www.zdnet.fr/actualites/spacex-soffre-cursor-microsoft-a-jete-leponge-494193.htm"
+        "source": "BFM Business",
+        "heure": "13h16",
+        "titre": "À qui Bernard Arnault va-t-il passer le flambeau à la tête de l'empire LVMH? \"On reparlera de tout ça dans 7-8 ans\", écarte le milliardaire français devant ses actionnaires",
+        "resume": "Bernard Arnault repousse toute discussion sur sa succession chez LVMH à plusieurs années, malgré les interrogations croissantes des actionnaires, alors que ses enfants sont déjà impliqués dans le groupe sans qu’aucun successeur clair ne se dégage.",
+        "url": "https://www.bfmtv.com/economie/a-qui-bernard-arnault-va-passer-le-flambeau-a-la-tete-de-l-empire-lvmh-on-reparlera-de-tout-ca-dans-7-8-ans-ecarte-le-milliardaire-francais-devant-ses-actionnaires_AD-202604230459.html"
       },
       {
-        "source": "Finyear",
-        "heure": "17h51",
-        "titre": "Kurma Partners clôture Biofund IV à 215 M€ et franchit le milliard d’euros d’actifs sous gestion",
-        "resume": "Kurma Partners, membre du groupe Eurazeo, annonce le closing final de son fonds Biofund IV à 215 millions d’euros, en hausse de près de 35 % par rapport au précédent millésime (160 M€). Le fonds…",
-        "url": "https://finyear.com/kurma-partners-cloture-biofund-iv-a-215-me-et-franchit-le-milliard-deuros-dactifs-sous-gestion"
-      },
-      {
-        "source": "Pharmaceutiques",
-        "heure": "15h48",
-        "titre": "Kurma Partners boucle Biofund IV à 215 M€ et confirme son modèle",
-        "resume": "Kurma Partners annonce le closing final à 215 millions d’euros de son fonds Biofund IV, dédié à la création et au développement de biotech innovantes. Une",
-        "url": "https://pharmaceutiques.com/actualites/economie-et-ecosysteme/kurma-partners-boucle-biofund-iv-a-215-me-et-confirme-son-modele/"
-      },
-      {
-        "source": "Air-Journal",
-        "heure": "18h00",
-        "titre": "Hiver 2026-2027 : ITA Airways mise sur la République dominicaine pour renforcer son hub de Rome",
-        "resume": "ITA Airways ouvrira à l’hiver 2026-2027 une nouvelle liaison directe saisonnière entre Rome-Fiumicino et Saint-Domingue, sa première destination vers",
-        "url": "https://www.air-journal.fr/2026-04-23-hiver-2026-2027-ita-airways-mise-sur-la-republique-dominicaine-pour-renforcer-son-hub-de-rome-5274744.html"
+        "source": "BFM Business",
+        "heure": "14h56",
+        "titre": "Un \"Tinder de la reprise\" pour mettre en relation des acheteurs et des patrons: alors que 500.000 dirigeants vont partir à la retraite dans les 10 ans, le gouvernement présente son plan pour faciliter les reprises d'entreprises",
+        "resume": "Pour le ministre des PME, Serge Papin, le sujet des reprises d'entreprises qui vont exploser compte tenu du choc démographique doit devenir \"la grande cause économique nationale\". ",
+        "url": "https://www.bfmtv.com/economie/entreprises/un-tinder-de-la-reprise-pour-mettre-en-relation-des-acheteurs-et-des-patrons-alors-que-500-000-dirigeants-vont-partir-a-la-retraite-dans-les-10-ans-le-gouvernement-presente-son-plan-pour-faciliter-les-reprises-d-entreprises_AD-202604230542.html"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Fr",
-        "heure": "15h48",
-        "titre": "Les marchés asiatiques reculent après avoir atteint des sommets historiques en raison des inquiétudes géopolitiques",
-        "resume": "Principaux renseignements Les tensions géopolitiques et la hausse des prix du pétrole ont provoqué un recul des marchés boursiers asiatiques après que",
-        "url": "https://fr.businessam.be/les-marches-asiatiques-reculent-apres-avoir-atteint-des-sommets-historiques-en-raison-des-inquietudes-geopolitiques/"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "17h57",
-        "titre": "Guerre en Ukraine : le prêt européen de 90 milliards d'euros enfin débloqué",
-        "resume": "L'UE débloque enfin le prêt de 90 milliards d'euros pour l'Ukraine, après des mois de blocage par la Hongrie. Ce soutien financier, crucial pour Kiev, marque un tournant dans l'aide européenne face à la guerre.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/guerre-en-ukraine-le-pret-europeen-de-90-milliards-deuros-enfin-debloque-2228164"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "17h55",
-        "titre": "MiCA : la difficile harmonisation d'une Europe de la crypto à géométrie variable",
-        "resume": "A l'approche de l'échéance du 1er juillet, les agréments se concentrent dans une poignée de pays. Dans ce contexte, les acteurs arbitrent leur implantation, jusqu'aux plus grands du secteur.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/mica-la-difficile-harmonisation-dune-europe-de-la-crypto-a-geometrie-variable-2228163"
+        "source": "BFM Business",
+        "heure": "16h30",
+        "titre": "L'éco du monde : \"Zone euro : contraction-surprise des indices PMI en avril\" - 23/04",
+        "resume": "Ce jeudi 23 avril, Gilles Moëc, chef économiste du Groupe AXA, a abordé la contraction surprise sur les indices PMI dans la Zone Euro, la prévision de croissance en Allemagne, et les annonces de Kevin Warsh au Sénat, dans l'émission BFM Bourse présen",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-l-eco-du-monde-zone-euro-contraction-surprise-des-indices-pmi-en-avril-23-04_VN-202604230600.html"
       },
       {
         "source": "BFM Business",
-        "heure": "17h51",
-        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
-        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes.",
-        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
+        "heure": "16h29",
+        "titre": "L'éco du monde : \"Zone euro : contraction-surprise des indices PMI en avril\" - 23/04",
+        "resume": "Ce jeudi 23 avril, Gilles Moëc, chef économiste du Groupe AXA, a abordé la contraction surprise sur les indices PMI dans la Zone Euro, la prévision de croissance en Allemagne, et les annonces de Kevin Warsh au Sénat, dans l'émission BFM Bourse présen",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/l-eco-du-monde-zone-euro-contraction-surprise-des-indices-pmi-en-avril-23-04_EN-202604230597.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "13h08",
+        "titre": "Le prix du baril de Brent a clôturé à plus de 100 dollars pour la première fois en plus de deux semaines",
+        "resume": "Le prix du baril de Brent de la mer du Nord, pour livraison en juin, a avancé de 3,48% à 101,91 dollars, clôturant pour la première fois en plus de deux semaines au-delà des 100 dollars.",
+        "url": "https://www.bfmtv.com/economie/video-le-prix-du-baril-de-brent-a-cloture-a-plus-de-100-dollars-pour-la-premiere-fois-en-plus-de-deux-semaines_VN-202604230452.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "14h27",
+        "titre": "\"C'est la pire crise depuis très, très longtemps\": la Suède prévient qu'elle pourrait rationner le carburant si la guerre au Moyen-Orient se prolongeait",
+        "resume": "\"Nous sommes prêts à cette éventualité\", a déclaré le Premier ministre suédois Ulf Kristersson.",
+        "url": "https://www.bfmtv.com/economie/entreprises/energie/c-est-la-pire-crise-depuis-tres-tres-longtemps-la-suede-previent-qu-elle-pourrait-rationner-le-carburant-si-la-guerre-au-moyen-orient-se-prolongeait_AD-202604230508.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "13h18",
+        "titre": "L'électricité devra représenter plus de 50% de la consommation énergétique en 2050 (27% aujourd'hui): le gouvernement dévoile un cocktail de 22 mesures pour réduire la dépendance de la France aux énergies fossiles",
+        "resume": "Le gouvernement a dévoilé ce jeudi son plan d'électrification de l'économie. 4,5 milliards d'euros par an supplémentaires seront alloués d'ici 2030 pour réduire la part des énergies fossiles dans la consommation à moins de 30% en 2035. ",
+        "url": "https://www.bfmtv.com/economie/entreprises/energie/l-electricite-devra-representer-plus-de-50-de-la-consommation-energetique-en-2050-27-aujourd-hui-le-gouvernement-devoile-un-cocktail-de-22-mesures-pour-reduire-la-dependance-de-la-france-aux-energies-fossiles_AD-202604230462.html"
       }
     ]
   },
   "politique": {
     "articles": [
       {
-        "source": "Fr",
-        "heure": "15h48",
-        "titre": "Les marchés asiatiques reculent après avoir atteint des sommets historiques en raison des inquiétudes géopolitiques",
-        "resume": "Principaux renseignements Les tensions géopolitiques et la hausse des prix du pétrole ont provoqué un recul des marchés boursiers asiatiques après que",
-        "url": "https://fr.businessam.be/les-marches-asiatiques-reculent-apres-avoir-atteint-des-sommets-historiques-en-raison-des-inquietudes-geopolitiques/"
+        "source": "BFM Business",
+        "heure": "14h11",
+        "titre": "Après la levée du véto hongrois, le prêt européen de 90 milliards d'euros à l'Ukraine définitivement validé",
+        "resume": "La Hongrie bloquait ce prêt en attendant que les livraisons de pétrole russe transitant par l'Ukraine reprennent. ",
+        "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/apres-la-levee-du-veto-hongrois-le-pret-europeen-de-90-milliards-d-euros-a-l-ukraine-definitivement-valide_AD-202604230491.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "17h57",
-        "titre": "Guerre en Ukraine : le prêt européen de 90 milliards d'euros enfin débloqué",
-        "resume": "L'UE débloque enfin le prêt de 90 milliards d'euros pour l'Ukraine, après des mois de blocage par la Hongrie. Ce soutien financier, crucial pour Kiev, marque un tournant dans l'aide européenne face à la guerre.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/guerre-en-ukraine-le-pret-europeen-de-90-milliards-deuros-enfin-debloque-2228164"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "17h55",
-        "titre": "MiCA : la difficile harmonisation d'une Europe de la crypto à géométrie variable",
-        "resume": "A l'approche de l'échéance du 1er juillet, les agréments se concentrent dans une poignée de pays. Dans ce contexte, les acteurs arbitrent leur implantation, jusqu'aux plus grands du secteur.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/mica-la-difficile-harmonisation-dune-europe-de-la-crypto-a-geometrie-variable-2228163"
+        "source": "Challenges",
+        "heure": "08h43",
+        "titre": "Guerre au Moyen-Orient : Donald Trump prolonge la trêve jusqu’à ce que « l’Iran présente une proposition » pour mettre fin au conflit",
+        "resume": "Le président américain a annoncé, dans la soirée du mardi 21 avril, une prolongation du cessez-le-feu entre les Etats-Unis et l’Iran jusqu’à ce que Téhéran « présente une proposition » pour mettre fin au conflit. Donald Trump a toutefois indiqué que ",
+        "url": "https://www.challenges.fr/monde/guerre-au-moyen-orient-donald-trump-prolonge-la-treve-jusqua-ce-que-liran-presente-une-proposition-pour-mettre-fin-au-conflit_642900"
       },
       {
         "source": "BFM Business",
-        "heure": "17h51",
-        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
-        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes.",
-        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
+        "heure": "12h47",
+        "titre": "\"J'ai été félicité par le secrétaire général du Parti communiste, ça ne serait jamais arrivé en France\": Bernard Arnault assure devant ses actionnaires qu'il est mieux accueilli en Chine que dans son pays",
+        "resume": "Bernard Arnault dresse un bilan 2025 \"correct\" pour LVMH, soulignant la solidité du groupe malgré un contexte mondial tendu, sa forte contribution à l’économie française et sa stratégie d’expansion internationale, tout en pointant les freins fiscaux ",
+        "url": "https://www.bfmtv.com/economie/j-ai-ete-felicite-par-le-secretaire-general-du-parti-communiste-ca-ne-serait-jamais-arrive-en-france-bernard-arnault-assure-devant-ses-actionnaires-qu-il-est-mieux-accueilli-en-chine-que-dans-son-pays_AN-202604230439.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h00",
+        "titre": "Union européenne : « La politique industrielle est de retour sur le continent »",
+        "resume": "Les professeurs de droit Paul Dermine et d’économie Donato Di Carlo dénoncent, dans une tribune au « Monde », un dysfonctionnement majeur de la politique industrielle conduite par l’Union européenne, puisque l’assouplissement des subventions publique",
+        "url": "https://www.lemonde.fr/idees/article/2026/04/23/union-europeenne-la-politique-industrielle-est-de-retour-sur-le-continent_6682780_3232.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h30",
+        "titre": "Emmanuel Macron veut appliquer la méthode « Notre-Dame » à 150 projets industriels stratégiques dans toute la France",
+        "resume": "Inaugurant, mercredi, une mine de lithium dans l’Allier, le chef de l’Etat veut s’inspirer de la simplification et de l’accélération des procédures pour la reconstruction de la cathédrale de Paris.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/emmanuel-macron-veut-appliquer-la-methode-notre-dame-a-150-projets-industriels-strategiques_6682700_3234.html"
       }
     ]
   }
