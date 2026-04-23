@@ -59,18 +59,22 @@ def get_articles():
         try:
             data = perigon_fetch(q)
             arts = data.get("articles", [])
-            if arts and len(all_articles) == 0:
-                print(f"  Sample keys: {list(arts[0].keys())[:8]}")
+            if arts:
+                # Log all keys on first article for debugging
+                print(f"  Sample keys: {list(arts[0].keys())}")
+                print(f"  Sample values: { {k: str(v)[:50] for k,v in arts[0].items()} }")
             for a in arts:
-                source = a.get("source", {}).get("name", "") if isinstance(a.get("source"), dict) else str(a.get("source",""))
-                titre  = (a.get("title") or "").strip()
+                # Perigon field mapping (from observed keys)
+                src_obj = a.get("source", {})
+                source = src_obj.get("name","") if isinstance(src_obj, dict) else str(src_obj)
+                titre  = (a.get("title") or a.get("name") or a.get("headline") or a.get("authorsByline") or "").strip()
                 url    = (a.get("url") or a.get("link") or "").strip()
-                desc   = (a.get("description") or a.get("summary") or "").strip()
-                pub    = (a.get("pubDate") or a.get("publishedAt") or "").strip()
-                if titre and source:
+                desc   = (a.get("description") or a.get("summary") or a.get("content") or "").strip()
+                pub    = (a.get("pubDate") or a.get("publishedAt") or a.get("addDate") or "").strip()
+                if url and source:  # au minimum URL + source
                     all_articles.append({
                         "source": source,
-                        "titre":  titre,
+                        "titre":  titre or url,
                         "url":    url,
                         "resume": desc[:200] if desc else "",
                         "pub":    pub,
