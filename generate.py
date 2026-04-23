@@ -59,13 +59,15 @@ def get_articles():
         try:
             data = perigon_fetch(q)
             arts = data.get("articles", [])
+            if arts and len(all_articles) == 0:
+                print(f"  Sample keys: {list(arts[0].keys())[:8]}")
             for a in arts:
-                source = a.get("source", {}).get("name", "")
+                source = a.get("source", {}).get("name", "") if isinstance(a.get("source"), dict) else str(a.get("source",""))
                 titre  = (a.get("title") or "").strip()
-                url    = (a.get("url") or "").strip()
+                url    = (a.get("url") or a.get("link") or "").strip()
                 desc   = (a.get("description") or a.get("summary") or "").strip()
-                pub    = (a.get("pubDate") or "").strip()
-                if titre and url and source:
+                pub    = (a.get("pubDate") or a.get("publishedAt") or "").strip()
+                if titre and source:
                     all_articles.append({
                         "source": source,
                         "titre":  titre,
@@ -78,12 +80,15 @@ def get_articles():
         except Exception as e:
             print(f"  Erreur Perigon ({q['q'][:30]}): {e}")
 
-    # Dédoublonnage par URL
+    # Dédoublonnage par URL (garder même si URL vide)
     seen = set()
     unique = []
     for a in all_articles:
-        if a["url"] not in seen:
-            seen.add(a["url"])
+        key = a["url"] if a["url"] else a["titre"]
+        if key and key not in seen:
+            seen.add(key)
+            unique.append(a)
+        elif not key:
             unique.append(a)
 
     print(f"  Total unique: {len(unique)} articles")
@@ -236,8 +241,9 @@ def main():
     articles = get_articles()
 
     if not articles:
-        print("ERREUR: aucun article Perigon — vérifier la clé API")
+        print("ERREUR: aucun article récupéré")
         raise SystemExit(1)
+    print(f"  {len(articles)} articles uniques récupérés")
 
     # 2. Single Haiku call for classification + synthesis
     print("→ Haiku: classification et synthèse...")
