@@ -5,350 +5,497 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Briefing Éco">
-<title>Briefing Éco & Finance</title>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<meta name="apple-mobile-web-app-title" content="Morning Brief">
+<title>Morning Brief</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{
-  --bg:#0d0f12;--s1:#141720;--s2:#1a1e28;
-  --b1:rgba(255,255,255,0.07);--b2:rgba(255,255,255,0.13);
-  --tx:#eeeae3;--mu:#72706a;--ac:#c9a96e;
-  --gn:#4db87a;--rd:#e05656;
-  --ec-bg:rgba(70,130,210,0.14);--ec-tx:#7ab5e8;
-  --fi-bg:rgba(210,170,90,0.14);--fi-tx:#c9a96e;
-  --ag-bg:rgba(90,180,100,0.13);--ag-tx:#72c87a;
-  --tr-bg:rgba(150,90,210,0.13);--tr-tx:#b87ae8;
-  --ft-bg:rgba(220,60,60,0.11);--ft-tx:#e07070;
-  --wb-bg:rgba(255,255,255,0.07);--wb-tx:#888078;
+:root {
+  --ink: #1a1a1a;
+  --paper: #f5f2ed;
+  --cream: #ede9e2;
+  --warm: #e8e2d8;
+  --rule: rgba(26,26,26,0.12);
+  --rule2: rgba(26,26,26,0.06);
+  --accent: #b5602a;
+  --accent2: #8a4820;
+  --muted: #7a7570;
+  --green: #2d6e45;
+  --red: #c0392b;
+  --surface: #fff;
+  --tag-r: rgba(181,96,42,0.1);
+  --tag-r-t: #8a4820;
+  --tag-b: rgba(45,110,69,0.1);
+  --tag-b-t: #1e5232;
+  --tag-t: rgba(100,80,160,0.1);
+  --tag-t-t: #5a3e8a;
+  --tag-g: rgba(0,0,0,0.07);
+  --tag-g-t: #4a4542;
 }
-*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html,body{height:100%}
-body{background:var(--bg);color:var(--tx);font-family:'DM Sans',sans-serif;overflow:hidden;position:fixed;width:100%;font-size:15px}
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html, body { height: 100%; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
 
-#app{height:100%;display:flex;flex-direction:column}
+/* ── MASTHEAD ── */
+#app { height: 100%; display: flex; flex-direction: column; }
 
-/* HEADER */
-.hdr{padding-top:max(env(safe-area-inset-top,44px),48px);flex-shrink:0;border-bottom:1px solid var(--b1)}
-.hdr-inner{padding:10px 18px 14px;display:flex;justify-content:space-between;align-items:flex-end}
-.hdr-left .date{font-size:11px;color:var(--mu);letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px}
-.hdr-left .title{font-family:'Instrument Serif',serif;font-size:28px;color:var(--tx);line-height:1}
-.hdr-right{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
-.btn-refresh{background:var(--ac);color:#0d0f12;border:none;border-radius:20px;padding:9px 16px;font-size:13px;font-weight:500;font-family:'DM Sans',sans-serif;cursor:pointer;display:flex;align-items:center;gap:5px}
-.btn-refresh:disabled{opacity:.4}
-.btn-refresh .spin{display:none;animation:ro .6s linear infinite}
-.btn-refresh.loading .spin{display:inline}
-.btn-refresh.loading .lbl{display:none}
-@keyframes ro{to{transform:rotate(360deg)}}
-.hdr-ts{font-size:10px;color:var(--mu)}
+.masthead {
+  padding-top: max(env(safe-area-inset-top, 44px), 44px);
+  background: var(--ink);
+  flex-shrink: 0;
+}
+.masthead-inner {
+  padding: 14px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.masthead-left {}
+.masthead-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.4);
+  margin-bottom: 4px;
+}
+.masthead-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: -.01em;
+  line-height: 1;
+}
+.masthead-title em { font-style: italic; color: #d4924e; }
+.masthead-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  padding-bottom: 2px;
+}
+.btn-refresh {
+  background: none;
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 4px;
+  padding: 7px 14px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.7);
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: border-color .15s, color .15s;
+}
+.btn-refresh:active { border-color: rgba(255,255,255,.5); color: #fff; }
+.btn-refresh:disabled { opacity: .35; }
+.masthead-ts { font-size: 10px; color: rgba(255,255,255,.3); letter-spacing: .05em; }
 
-/* TABS */
-.tabs{display:flex;overflow-x:auto;padding:0 18px;scrollbar-width:none;flex-shrink:0;gap:2px}
-.tabs::-webkit-scrollbar{display:none}
-.tab{flex-shrink:0;padding:10px 14px;font-size:13px;color:var(--mu);border:none;border-bottom:2px solid transparent;background:none;cursor:pointer;white-space:nowrap;font-family:'DM Sans',sans-serif;transition:color .15s}
-.tab.on{color:var(--tx);font-weight:500;border-bottom-color:var(--ac)}
+/* ── TABS ── */
+.tabs {
+  background: var(--ink);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  display: flex;
+  overflow-x: auto;
+  padding: 0 20px;
+  scrollbar-width: none;
+  flex-shrink: 0;
+  margin-top: 12px;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab {
+  flex-shrink: 0;
+  padding: 10px 14px 12px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.35);
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: none;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+  transition: color .15s;
+}
+.tab.on { color: #fff; border-bottom-color: #d4924e; }
 
-/* CONTENT */
-.cnt{flex:1;overflow-y:auto;padding:16px 18px;padding-bottom:max(env(safe-area-inset-bottom,16px),36px);-webkit-overflow-scrolling:touch}
+/* ── CONTENT ── */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  background: var(--paper);
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: max(env(safe-area-inset-bottom, 20px), 32px);
+}
 
-/* SKELETON */
-.sk{background:linear-gradient(90deg,var(--s1) 25%,var(--s2) 50%,var(--s1) 75%);background-size:200% 100%;animation:sh 1.3s infinite;border-radius:4px}
-@keyframes sh{0%{background-position:200% 0}100%{background-position:-200% 0}}
-.sk-card{background:var(--s1);border:1px solid var(--b1);border-radius:14px;padding:14px 16px;margin-bottom:8px}
+/* ── SKELETON ── */
+.sk-wrap { padding: 20px 20px 0; }
+.sk {
+  background: linear-gradient(90deg, var(--cream) 25%, var(--warm) 50%, var(--cream) 75%);
+  background-size: 200% 100%;
+  animation: sh 1.3s infinite;
+  border-radius: 2px;
+}
+@keyframes sh { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
+.sk-item { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--rule2); }
 
-/* ALERT */
-.alert{background:rgba(201,169,110,.09);border:1px solid rgba(201,169,110,.22);border-radius:10px;padding:11px 14px;margin-bottom:14px;font-size:13px;color:var(--ac);line-height:1.6}
+/* ── ALERT ── */
+.alert-bar {
+  margin: 16px 20px 0;
+  background: #fff3e0;
+  border-left: 3px solid var(--accent);
+  padding: 10px 14px;
+  font-size: 13px;
+  color: var(--accent2);
+  line-height: 1.55;
+  border-radius: 0 4px 4px 0;
+}
 
-/* SUMMARY */
-.summary{background:var(--s1);border:1px solid var(--b1);border-radius:14px;padding:18px;margin-bottom:14px;font-size:14px;line-height:1.85;color:#c8c3ba}
+/* ── SUMMARY ── */
+.summary-block {
+  padding: 20px 20px 0;
+}
+.summary-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #2a2520;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+.points-list { padding: 0 20px; }
+.point-item {
+  border-bottom: 1px solid var(--rule2);
+  padding: 14px 0;
+}
+.point-item:last-child { border-bottom: none; }
+.point-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+.point-detail { font-size: 13px; color: var(--muted); line-height: 1.65; }
+.ts-line { text-align: center; font-size: 10px; color: rgba(26,26,26,.25); letter-spacing: .08em; padding: 16px 20px; }
 
-/* SECTION */
-.sec{margin-bottom:20px}
-.sec-title{font-size:11px;font-weight:500;color:var(--mu);text-transform:uppercase;letter-spacing:.09em;margin-bottom:10px;padding-left:2px}
+/* ── METRICS ── */
+.metrics-section { padding: 20px 20px 0; }
+.section-rule {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+}
+.met-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 4px; }
+.met {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: box-shadow .15s;
+  -webkit-user-select: none;
+}
+.met:active { box-shadow: inset 0 0 0 1px rgba(26,26,26,.15); }
+.met-label { font-size: 10px; letter-spacing: .06em; color: var(--muted); margin-bottom: 5px; text-transform: uppercase; }
+.met-row { display: flex; justify-content: space-between; align-items: baseline; }
+.met-val { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 600; color: var(--ink); letter-spacing: -.01em; }
+.met-chg { font-size: 12px; font-weight: 500; }
+.up { color: var(--green); } .dn { color: var(--red); } .fl { color: var(--muted); }
+.sparkline { margin-top: 8px; width: 100%; height: 26px; display: block; }
+.live-pip {
+  display: inline-block;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--green);
+  margin-left: 4px;
+  vertical-align: middle;
+  animation: pulse 1.4s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
 
-/* POINT CARD */
-.pt-card{background:var(--s1);border:1px solid var(--b1);border-radius:14px;padding:14px 16px;margin-bottom:8px}
-.pt-title{font-size:14px;font-weight:500;color:var(--tx);margin-bottom:5px;line-height:1.4}
-.pt-body{font-size:13px;color:#8a867e;line-height:1.65}
+/* ── ARTICLES ── */
+.articles-section { padding: 0 20px; }
+.art-rule { font-size: 10px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin: 20px 0 0; }
+.art {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule2);
+  padding: 14px 0;
+  transition: background .1s;
+}
+.art:last-child { border-bottom: 1px solid var(--rule); }
+a.art:active { background: var(--cream); margin: 0 -20px; padding: 14px 20px; }
+.art-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+.badge {
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+.b-re { background: var(--tag-r); color: var(--tag-r-t); }
+.b-gr { background: var(--tag-b); color: var(--tag-b-t); }
+.b-pu { background: var(--tag-t); color: var(--tag-t-t); }
+.b-gy { background: var(--tag-g); color: var(--tag-g-t); }
+.art-time { font-size: 10px; color: var(--muted); letter-spacing: .03em; }
+.art-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--ink);
+  margin-bottom: 5px;
+}
+.art-body { font-size: 12px; color: var(--muted); line-height: 1.65; }
+.art-cta { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-top: 7px; font-weight: 500; }
 
-/* ARTICLE CARD */
-.art{background:var(--s1);border:1px solid var(--b1);border-radius:14px;padding:14px 16px;margin-bottom:8px;display:block;color:inherit;text-decoration:none;transition:border-color .12s}
-a.art:active{border-color:var(--b2);background:var(--s2)}
-.art-meta{display:flex;align-items:center;gap:6px;margin-bottom:7px;flex-wrap:wrap}
-.badge{font-size:10px;font-weight:500;padding:3px 9px;border-radius:20px;white-space:nowrap;letter-spacing:.02em}
-.b-ec{background:var(--ec-bg);color:var(--ec-tx)}
-.b-fi{background:var(--fi-bg);color:var(--fi-tx)}
-.b-ag{background:var(--ag-bg);color:var(--ag-tx)}
-.b-tr{background:var(--tr-bg);color:var(--tr-tx)}
-.b-ft{background:var(--ft-bg);color:var(--ft-tx)}
-.b-wb{background:var(--wb-bg);color:var(--wb-tx)}
-.art-time{font-size:11px;color:var(--mu)}
-.art-title{font-size:14px;font-weight:500;color:var(--tx);line-height:1.45;margin-bottom:5px}
-.art-body{font-size:13px;color:#8a867e;line-height:1.65}
-.art-link{font-size:11px;color:var(--ac);margin-top:8px;opacity:.85}
-
-/* METRICS GRID */
-.met-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:14px}
-.met{background:var(--s1);border:1px solid var(--b1);border-radius:12px;padding:13px 14px;cursor:pointer;transition:border-color .12s;position:relative;overflow:hidden}
-.met:active{border-color:var(--b2)}
-.met-label{font-size:11px;color:var(--mu);margin-bottom:3px}
-.met-row{display:flex;justify-content:space-between;align-items:baseline}
-.met-val{font-size:19px;font-weight:300;color:var(--tx);letter-spacing:-.02em}
-.met-chg{font-size:12px;font-weight:500}
-.up{color:var(--gn)}.dn{color:var(--rd)}.fl{color:var(--mu)}
-.sparkline{margin-top:8px;height:28px;width:100%}
-
-/* LIVE BADGE */
-.live-badge{display:inline-flex;align-items:center;gap:4px;font-size:10px;color:var(--gn);background:rgba(77,184,122,.1);border-radius:20px;padding:2px 8px;margin-left:6px}
-.live-dot{width:5px;height:5px;border-radius:50%;background:var(--gn);animation:pulse 1.5s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-
-.divider{height:1px;background:var(--b1);margin:14px 0}
-.ts{font-size:11px;color:var(--mu);text-align:center;padding:10px 0 2px}
-.empty-sec{padding:32px 0;text-align:center;font-size:13px;color:var(--mu)}
+.empty-note { padding: 32px 20px; text-align: center; font-size: 13px; color: var(--muted); }
 </style>
 </head>
 <body>
 <div id="app">
-  <div class="hdr">
-    <div class="hdr-inner">
-      <div class="hdr-left">
-        <div class="date" id="hdate"></div>
-        <div class="title">Briefing <em>Éco</em></div>
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div class="masthead-left">
+        <div class="masthead-date" id="hdate">—</div>
+        <div class="masthead-title">Morning <em>Brief</em></div>
       </div>
-      <div class="hdr-right">
-        <button class="btn-refresh" id="rbtn" onclick="refresh()">
-          <span class="spin">↻</span>
-          <span class="lbl">Actualiser ↻</span>
-        </button>
-        <div class="hdr-ts" id="hts"></div>
+      <div class="masthead-right">
+        <button class="btn-refresh" id="rbtn" onclick="refresh()">Actualiser</button>
+        <div class="masthead-ts" id="hts"></div>
       </div>
     </div>
+    <div class="tabs">
+      <button class="tab on"  onclick="sw(this,'s')">Synthèse</button>
+      <button class="tab"     onclick="sw(this,'m')">Marchés</button>
+      <button class="tab"     onclick="sw(this,'e')">Entreprises</button>
+      <button class="tab"     onclick="sw(this,'a')">M&A</button>
+      <button class="tab"     onclick="sw(this,'k')">Macro</button>
+      <button class="tab"     onclick="sw(this,'p')">Politique</button>
+    </div>
   </div>
-  <div class="tabs">
-    <button class="tab on" onclick="sw(this,'s')">Synthèse</button>
-    <button class="tab" onclick="sw(this,'m')">Marchés</button>
-    <button class="tab" onclick="sw(this,'e')">Entreprises</button>
-    <button class="tab" onclick="sw(this,'a')">M&A</button>
-    <button class="tab" onclick="sw(this,'k')">Macro</button>
-    <button class="tab" onclick="sw(this,'p')">Politique</button>
-  </div>
-  <div class="cnt" id="cnt"></div>
+  <div class="content" id="cnt"></div>
 </div>
 
 <script>
-let B = null, tab = 's', liveMetrics = {};
+let B = null, tab = 's', live = {};
 
-// ── DATE ──
+// Date
 const d = new Date();
 const DAYS = ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'];
 const MONTHS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
-document.getElementById('hdate').textContent = `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`;
+document.getElementById('hdate').textContent =
+  `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
 
-// ── TABS ──
 function sw(el, t) {
   document.querySelectorAll('.tab').forEach(x => x.classList.remove('on'));
   el.classList.add('on'); tab = t;
   B ? render(t) : showSkel();
 }
 
-// ── SKELETON ──
-function showSkel(n=4) {
-  document.getElementById('cnt').innerHTML = Array(n).fill(0).map(()=>`
-    <div class="sk-card">
-      <div class="sk" style="height:16px;width:60px;border-radius:20px;margin-bottom:10px"></div>
-      <div class="sk" style="height:14px;width:88%;margin-bottom:8px"></div>
-      <div class="sk" style="height:14px;width:65%;margin-bottom:8px"></div>
-      <div class="sk" style="height:12px;width:100%;margin-bottom:5px"></div>
-      <div class="sk" style="height:12px;width:72%"></div>
-    </div>`).join('');
+function showSkel() {
+  const item = `<div class="sk-item">
+    <div class="sk" style="height:10px;width:50px;margin-bottom:10px"></div>
+    <div class="sk" style="height:16px;width:90%;margin-bottom:8px"></div>
+    <div class="sk" style="height:16px;width:70%;margin-bottom:10px"></div>
+    <div class="sk" style="height:12px;width:100%;margin-bottom:5px"></div>
+    <div class="sk" style="height:12px;width:75%"></div>
+  </div>`;
+  document.getElementById('cnt').innerHTML =
+    `<div class="sk-wrap">${item.repeat(5)}</div>`;
 }
 
-// ── BADGE ──
-function badge(src='') {
-  const s = src.toLowerCase();
-  if (s.includes('echo'))    return `<span class="badge b-ec">Les Échos</span>`;
-  if (s.includes('figaro'))  return `<span class="badge b-fi">Le Figaro</span>`;
-  if (s.includes('agefi'))   return `<span class="badge b-ag">L'Agefi</span>`;
-  if (s.includes('tribune')) return `<span class="badge b-tr">La Tribune</span>`;
-  if (s.includes('ft') || s.includes('financial')) return `<span class="badge b-ft">FT</span>`;
-  return `<span class="badge b-wb">${src}</span>`;
+// Badge mapping
+function badge(src) {
+  const s = (src||'').toLowerCase();
+  if (s.includes('reuters') || s.includes('afp'))    return `<span class="badge b-re">${src}</span>`;
+  if (s.includes('tribune') || s.includes('bfm') || s.includes('agefi')) return `<span class="badge b-gr">${src}</span>`;
+  if (s.includes('politico') || s.includes('capital') || s.includes('challenges')) return `<span class="badge b-pu">${src}</span>`;
+  return `<span class="badge b-gy">${src}</span>`;
 }
 
-// ── ARTICLE CARD ──
 function artCard(a) {
   const url = a.url && a.url.startsWith('http') ? a.url : null;
   const tag = url ? 'a' : 'div';
   const attr = url ? `href="${url}" target="_blank"` : '';
-  const isSearch = url && (url.includes('/recherche') || url.includes('/search') || url.includes('google.com'));
-  const linkTxt = isSearch ? (
-    a.source?.toLowerCase().includes('echo') ? "Rechercher sur Les Échos →" :
-    a.source?.toLowerCase().includes('figaro') ? "Rechercher sur Le Figaro →" :
-    "Rechercher →"
-  ) : "Lire →";
-  const link = url ? `<div class="art-link">${linkTxt}</div>` : '';
+  const isSearch = url && (url.includes('/recherche') || url.includes('/search'));
+  const cta = url
+    ? `<div class="art-cta">${isSearch ? 'Rechercher →' : 'Lire →'}</div>`
+    : '';
+  const body = a.resume ? `<div class="art-body">${a.resume}</div>` : '';
   return `<${tag} class="art" ${attr}>
     <div class="art-meta">${badge(a.source)}<span class="art-time">${a.heure||''}</span></div>
     <div class="art-title">${a.titre||''}</div>
-    <div class="art-body">${a.resume||''}</div>
-    ${link}
+    ${body}${cta}
   </${tag}>`;
 }
 
-// ── SPARKLINE ──
+// Sparkline
 function sparkline(vals, dir) {
   if (!vals || vals.length < 2) return '';
-  const min = Math.min(...vals), max = Math.max(...vals);
-  const range = max - min || 1;
-  const w = 120, h = 28;
+  const min = Math.min(...vals), max = Math.max(...vals), range = max - min || 1;
+  const W = 120, H = 26;
   const pts = vals.map((v,i) => {
-    const x = (i / (vals.length-1)) * w;
-    const y = h - ((v - min) / range) * (h - 4) - 2;
-    return `${x},${y}`;
+    const x = (i / (vals.length-1)) * W;
+    const y = H - ((v-min)/range) * (H-4) - 2;
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
   }).join(' ');
-  const color = dir === 'up' ? 'var(--gn)' : dir === 'down' ? 'var(--rd)' : 'var(--mu)';
-  return `<svg class="sparkline" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
-    <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  const col = dir==='up' ? 'var(--green)' : dir==='down' ? 'var(--red)' : 'var(--muted)';
+  return `<svg class="sparkline" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+    <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
   </svg>`;
 }
 
-// ── METRICS ──
+// Metrics card
 function metCard(m) {
-  const dir = m.dir === 'up' ? 'up' : m.dir === 'down' ? 'dn' : 'fl';
-  // Use live value if available
-  const live = liveMetrics[m.label];
-  const val = live ? live.value : m.value;
-  const chg = live ? live.change : m.change;
-  const hist = live ? live.history : null;
-  const sp = hist ? sparkline(hist, m.dir) : '';
-  const liveBadge = live ? `<span class="live-badge"><span class="live-dot"></span>live</span>` : '';
-  return `<div class="met" onclick="fetchMetric('${m.label}')">
-    <div class="met-label">${m.label}${liveBadge}</div>
+  const dir = m.dir==='up'?'up':m.dir==='down'?'dn':'fl';
+  const L = live[m.label];
+  const val  = L ? L.value  : m.value;
+  const chg  = L ? L.change : m.change;
+  const hist = L ? L.history : null;
+  const pip  = L ? '<span class="live-pip"></span>' : '';
+  return `<div class="met" onclick="fetchLive('${m.label}')">
+    <div class="met-label">${m.label}${pip}</div>
     <div class="met-row">
       <div class="met-val">${val}</div>
       <div class="met-chg ${dir}">${chg}</div>
     </div>
-    ${sp}
+    ${sparkline(hist, m.dir)}
   </div>`;
 }
 
-// ── YAHOO FINANCE (live, no CORS issue from browser) ──
+// Yahoo Finance
 const TICKERS = {
-  'CAC 40':        '^FCHI',
-  'Eurostoxx 50':  '^STOXX50E',
-  'S&P 500':       '^GSPC',
-  'Brent':         'BZ=F',
-  'EUR/USD':       'EURUSD=X',
-  'OAT 10 ans':    null,
-  'Bund 10 ans':   null,
-  'Spread OAT/Bund': null
+  'CAC 40':'^FCHI','Eurostoxx 50':'^STOXX50E','S&P 500':'^GSPC',
+  'Brent':'BZ=F','EUR/USD':'EURUSD=X'
 };
-
-async function fetchMetric(label) {
-  const ticker = TICKERS[label];
-  if (!ticker) return;
+async function fetchLive(label) {
+  const tk = TICKERS[label]; if (!tk) return;
   try {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=7d`;
-    const r = await fetch(url);
+    const r = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${tk}?interval=1d&range=10d`);
     if (!r.ok) return;
     const data = await r.json();
     const result = data.chart.result[0];
     const meta = result.meta;
     const closes = result.indicators.quote[0].close.filter(Boolean);
-    const current = meta.regularMarketPrice;
-    const prev = meta.previousClose || closes[closes.length-2];
-    const chgPct = ((current - prev) / prev * 100).toFixed(2);
-    const dir = current >= prev ? 'up' : 'down';
-    const fmt = label.includes('USD') ? current.toFixed(4) :
-                label === 'Brent' ? `${current.toFixed(1)} $` :
-                Math.round(current).toLocaleString('fr-FR');
-    liveMetrics[label] = {
-      value: fmt,
-      change: `${chgPct > 0 ? '+' : ''}${chgPct}%`,
-      history: closes
-    };
-    render(tab);
+    const cur = meta.regularMarketPrice;
+    const prev = meta.previousClose || closes[closes.length-2] || cur;
+    const pct = ((cur-prev)/prev*100).toFixed(2);
+    const fv = label.includes('USD') ? cur.toFixed(4)
+             : label==='Brent'       ? `${cur.toFixed(1)} $`
+             : Math.round(cur).toLocaleString('fr-FR');
+    live[label] = { value: fv, change: `${pct>0?'+':''}${pct}%`, history: closes };
+    if (tab==='m') render('m');
   } catch(e) {}
 }
-
-async function fetchAllMetrics() {
-  const tickers = Object.entries(TICKERS).filter(([,v]) => v);
-  await Promise.allSettled(tickers.map(([label]) => fetchMetric(label)));
+async function fetchAllLive() {
+  await Promise.allSettled(Object.keys(TICKERS).map(l => fetchLive(l)));
 }
 
-// ── RENDER ──
+// Render
 function render(t) {
   const el = document.getElementById('cnt');
   if (!B) { showSkel(); return; }
 
-  if (t === 's') {
-    const pts = (B.synthese?.points||[]).map(p=>`
-      <div class="pt-card">
-        <div class="pt-title">${p.titre||''}</div>
-        <div class="pt-body">${p.detail||''}</div>
-      </div>`).join('');
+  if (t==='s') {
+    const pts = (B.synthese?.points||[]).map(p => {
+      const parts = (p.titre||'').split('—');
+      const label = parts[0]?.trim() || '';
+      const rest  = parts[1]?.trim() || p.titre || '';
+      return `<div class="point-item">
+        <div class="point-label">${label}</div>
+        <div class="art-title" style="font-size:14px;margin-bottom:5px">${rest}</div>
+        <div class="point-detail">${p.detail||''}</div>
+      </div>`;
+    }).join('');
     el.innerHTML = `
-      ${B.alerte ? `<div class="alert">⚡ ${B.alerte}</div>` : ''}
-      <div class="sec">
-        <div class="sec-title">Résumé du jour</div>
-        <div class="summary">${B.synthese?.resume||''}</div>
+      ${B.alerte ? `<div class="alert-bar">⚡ ${B.alerte}</div>` : ''}
+      <div class="summary-block">
+        <div class="summary-text">${B.synthese?.resume||''}</div>
       </div>
-      <div class="sec">
-        <div class="sec-title">Points clés</div>${pts}
+      <div class="articles-section">
+        <div class="art-rule">Points clés</div>
+        ${pts}
       </div>
-      <div class="ts">Généré le ${B.timestamp||''}</div>`;
+      <div class="ts-line">Généré le ${B.timestamp||''}</div>`;
   }
-  else if (t === 'm') {
+
+  else if (t==='m') {
     const mx = (B.marches?.metrics||[]).map(metCard).join('');
-    const arts = (B.marches?.articles||[]).map(artCard).join('') || '<div class="empty-sec">Aucun article</div>';
+    const arts = (B.marches?.articles||[]).map(artCard).join('');
     el.innerHTML = `
-      <div class="sec">
-        <div class="sec-title">Indices & taux — cliquer pour données live</div>
+      <div class="metrics-section">
+        <div class="section-rule">Indices & taux — tap pour données live</div>
         <div class="met-grid">${mx}</div>
       </div>
-      <div class="divider"></div>
-      <div class="sec"><div class="sec-title">Actualités marchés</div>${arts}</div>`;
+      <div class="articles-section">
+        <div class="art-rule">Actualités marchés</div>
+        ${arts||'<div class="empty-note">Aucun article</div>'}
+      </div>`;
   }
+
   else {
     const cfg = {
-      e: {key:'entreprises', title:'Résultats & vie des entreprises'},
-      a: {key:'ma',          title:'Fusions, acquisitions & PE'},
-      k: {key:'macro',       title:'Macroéconomie France & Europe'},
-      p: {key:'politique',   title:'Politique économique & géopolitique'}
+      e:{key:'entreprises', label:'Résultats & entreprises'},
+      a:{key:'ma',          label:'Fusions, acquisitions & PE'},
+      k:{key:'macro',       label:'Macroéconomie France & Europe'},
+      p:{key:'politique',   label:'Politique économique & géopolitique'}
     };
     const c = cfg[t];
     const list = B[c.key]?.articles || [];
-    const arts = list.length ? list.map(artCard).join('') : '<div class="empty-sec">Aucun article disponible</div>';
-    el.innerHTML = `<div class="sec"><div class="sec-title">${c.title}</div>${arts}</div>`;
+    el.innerHTML = `
+      <div class="articles-section">
+        <div class="art-rule">${c.label}</div>
+        ${list.length ? list.map(artCard).join('') : '<div class="empty-note">Aucun article disponible</div>'}
+      </div>`;
   }
 }
 
-// ── LOAD & REFRESH ──
+// Load
 async function refresh() {
   const btn = document.getElementById('rbtn');
-  btn.disabled = true; btn.classList.add('loading');
+  btn.disabled = true; btn.textContent = '…';
   showSkel();
-
-  // Load briefing.json
   try {
     const r = await fetch(`briefing.json?t=${Date.now()}`);
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     B = await r.json();
-    if (B.timestamp) document.getElementById('hts').textContent = B.timestamp;
+    document.getElementById('hts').textContent = `Mis à jour ${B.timestamp||''}`;
     render(tab);
+    // Live data en arrière-plan
+    fetchAllLive().then(() => { if (tab==='m') render('m'); });
   } catch(e) {
     document.getElementById('cnt').innerHTML = `
-      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:60vh;gap:10px;text-align:center;padding:0 24px">
-        <div style="font-family:'Instrument Serif',serif;font-size:24px;color:var(--mu)">Pas encore de briefing</div>
-        <div style="font-size:13px;color:var(--mu);line-height:1.7">Le briefing est généré chaque matin à 7h.<br>GitHub → Actions → Générer le briefing → Run workflow</div>
+      <div class="empty-note" style="padding:48px 20px">
+        <div style="font-family:'Playfair Display',serif;font-size:20px;margin-bottom:10px;color:var(--ink)">Pas encore de briefing</div>
+        <div style="line-height:1.7">Le briefing est généré à 7h chaque matin.<br>GitHub → Actions → Run workflow</div>
       </div>`;
-    btn.disabled = false; btn.classList.remove('loading');
-    return;
   }
-
-  // Fetch live market data in background
-  fetchAllMetrics().then(() => { if (tab === 'm') render('m'); });
-
-  btn.disabled = false; btn.classList.remove('loading');
+  btn.disabled = false; btn.textContent = 'Actualiser';
 }
 
 refresh();
