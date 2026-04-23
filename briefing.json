@@ -1,24 +1,24 @@
 {
-  "timestamp": "23 avril 2026 13h32",
-  "alerte": "Tensions Iran/USA maintiennent volatilité pétrole (+4.2% à 89$/bl) ; spread OAT/Bund stable malgré contexte macro dégradé (déficit FR 5% PIB)",
+  "timestamp": "14h16 le 23/04/2026",
+  "alerte": "Tensions géopolitiques croissantes impactant les marchés asiatiques et prix du pétrole",
   "synthese": {
-    "resume": "Les marchés européens reculent de 1.8% (CAC 8000, -144 pts) face aux tensions géopolitiques et au renchérissement de l'énergie ; la BCE reste attentiste malgré l'inflation importée, maintenant OAT 10Y à 3.7% (+8pb) ; le M&A français s'accélère avec cessions non-core et LBO mid-market (montants +23% YoY) ; le déficit budgétaire français à 5% du PIB pèse sur les anticipations de taux long terme.",
+    "resume": "Les marchés asiatiques reculent après avoir atteint des sommets historiques en raison de tensions géopolitiques et hausses des prix du pétrole. IBM chute sur ses résultats, créant une pression sur le secteur logiciel. Le secteur financier américain montre des signes de faiblesse avec SoFi Technologies en baisse. L'UE débloque enfin son prêt de 90 milliards d'euros pour l'Ukraine, marquant une avancée majeure du soutien européen.",
     "points": [
       {
-        "titre": "Marchés: hausse de la prime de risque géopolitique",
-        "detail": "Le Brent grimpe à 89.4$/bl (+4.2%) suite aux frappes de drones contre infrastructures pétrolières iraniennes ; le spread OAT/Bund se maintient à 70pb malgré la nervosité, reflétant une certaine sérénité sur la notation française vs allemande."
+        "titre": "Marchés",
+        "detail": "Repli des marchés asiatiques malgré records antérieurs; tensions géopolitiques et volatilité pétrolière créent un contexte d'incertitude. IBM subit une chute significative post-résultats, impactant le secteur technologique et logiciel. Secteur financier américain sous pression (SoFi Technologies en baisse)."
       },
       {
-        "titre": "Macro: déficit français pèse sur les courbes obligataires",
-        "detail": "Les OAT 10 ans atteignent 3.7% (+8pb en 3 jours) ; le déficit budgétaire français à 5% du PIB (vs 3.2% en 2025) inquiète les investisseurs ; la BCE adopte une posture d'attente face aux chocs d'offre énergétiques."
+        "titre": "Macro",
+        "detail": "Tensions géopolitiques majeures perturbent la trajectoire économique régionale. Hausse continue des prix du pétrole, créant des risques inflationnistes. Ukraine reçoit finalement 90 milliards d'euros de l'UE, soutien critique pour la reconstruction et stabilité régionale."
       },
       {
-        "titre": "M&A: accélération des cessions non-core et LBO",
-        "detail": "Volume M&A France +23% YoY à 12.4Mds€ (avril) ; trois deals mid-market notables dont cession de divisions non-stratégiques ; activité PE soutenue par liquidités abondantes et taux stabilisés."
+        "titre": "Entreprises / M&A",
+        "detail": "IBM: résultats décevants provoquant repli titre et inquiétudes secteur logiciel. SoFi Technologies en baisse jeudi. SpaceX acquiert Cursor (génération code IA), défi direct à Microsoft. Kurma Partners clôture Biofund IV à 215M€ et franchit le milliard d'euros d'AUM. ITA Airways renforce sa stratégie méditerranéenne."
       },
       {
-        "titre": "Géopolitique: escalade Iran/USA impacte l'énergie et les marchés",
-        "detail": "Frappes aériennes confirmées 22 avril ; cours Brent +89.4$ et volatilité implicite +3.2 points ; assurance transport maritime +25% sur détroit d'Ormuz ; répercussions sur chaînes d'approvisionnement industrielles européennes."
+        "titre": "Politique / Géo",
+        "detail": "Tensions géopolitiques croissantes affectent les bourses asiatiques. MiCA: harmonisation crypto européenne approche échéance 1er juillet avec agréments concentrés. Ukraine: déblocage des 90 milliards d'euros européens après mois de négociations. Dossier TAP Air Portugal: privatisation en septembre (Air France-KLM vs Lufthansa)."
       }
     ]
   },
@@ -26,308 +26,237 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "7856",
-        "change": "-1.8%",
+        "value": "N/D",
+        "change": "N/D",
         "dir": "down"
       },
       {
         "label": "Eurostoxx 50",
-        "value": "4923",
-        "change": "-1.6%",
+        "value": "N/D",
+        "change": "N/D",
         "dir": "down"
       },
       {
         "label": "OAT 10 ans",
-        "value": "3.70%",
-        "change": "+8 pb",
-        "dir": "up"
+        "value": "N/D%",
+        "change": "N/D pb",
+        "dir": "flat"
       },
       {
         "label": "Bund 10 ans",
-        "value": "2.98%",
-        "change": "+6 pb",
-        "dir": "up"
+        "value": "N/D%",
+        "change": "N/D pb",
+        "dir": "flat"
       },
       {
         "label": "Spread OAT/Bund",
-        "value": "72 pb",
-        "change": "+2 pb",
+        "value": "N/D pb",
+        "change": "N/D pb",
         "dir": "flat"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1682",
-        "change": "-0.3%",
+        "value": "N/D",
+        "change": "N/D",
         "dir": "flat"
       },
       {
         "label": "Brent",
-        "value": "89.4 $",
-        "change": "+4.2%",
+        "value": "N/D $",
+        "change": "up",
         "dir": "up"
       },
       {
         "label": "S&P 500",
-        "value": "5847",
-        "change": "-1.2%",
+        "value": "N/D",
+        "change": "N/D",
         "dir": "down"
       }
     ],
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "12h54",
-        "titre": "Tensions Iran/USA: le Brent frôle les 90$ pour la première fois en 8 mois",
-        "resume": "Les frappes aériennes iraniennes et la riposte américaine partielle entraînent une volatilité accrue sur le marché pétrolier ; le Brent atteint 89.4$ (+4.2%), impactant les valorisations en M&A des secteurs à forte intensité énergétique (chimie, sidérurgie).",
-        "url": "https://www.lesechos.fr/recherche?keywords=Tensions+Iran%2FUSA%3A+le+Brent+fr%C3%B4le+les+90%24+pour+la+premi%C3%A8re+fois+en+8+mois"
+        "source": "BFM Business",
+        "heure": "15h57",
+        "titre": "PODCAST : USA Today : IBM chute après ses résultats, retour de la pression sur les logiciels, par John Plassard – 23/04",
+        "resume": "Ce jeudi 23 avril, dans sa chronique USA Today, John Plassard, associé et responsable de la stratégie d'investissement de Cité Gestion, s'est penché sur l'enchaînement des records sur le S&P malgré le conflit au Moyen-Orient, le limogeage du secrétai",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/usa-today-ibm-chute-apres-ses-resultats-retour-de-la-pression-sur-les-logiciels-par-john-plassard-23-04_EN-202604230576.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "11h28",
-        "titre": "La BCE abandonne les projets de baisse de taux, face à la stagflation latente",
-        "resume": "Christine Lagarde signale une pause prolongée malgré l'inflation importée ; les OAT montent à 3.7% (-10pb attendus fin Q2), compliquant le refinancement des ETI en LBO à effet de levier.",
-        "url": "https://recherche.lefigaro.fr/recherche/?q=La+BCE+abandonne+les+projets+de+baisse+de+taux%2C+face+%C3%A0+la+stagflation+latente"
+        "source": "Fr",
+        "heure": "15h48",
+        "titre": "Les marchés asiatiques reculent après avoir atteint des sommets historiques en raison des inquiétudes géopolitiques",
+        "resume": "Principaux renseignements Les tensions géopolitiques et la hausse des prix du pétrole ont provoqué un recul des marchés boursiers asiatiques après que",
+        "url": "https://fr.businessam.be/les-marches-asiatiques-reculent-apres-avoir-atteint-des-sommets-historiques-en-raison-des-inquietudes-geopolitiques/"
       },
       {
-        "source": "Reuters",
-        "heure": "13h02",
-        "titre": "EUR/USD recule à 1.168, première baisse en 5 jours; safe haven flows vers USD",
-        "resume": "L'incertitude géopolitique provoque une fuite vers le dollar ; l'euro perd 0.3% face aux anticipations de divergence BCE/Fed ; impact négatif pour les cibles M&A cotées en EUR.",
-        "url": "https://fr.reuters.com/search/news?blob=EUR%2FUSD+recule+%C3%A0+1.168%2C+premi%C3%A8re+baisse+en+5+jours%3B+safe+haven+flows+vers+USD"
-      },
-      {
-        "source": "Bloomberg",
-        "heure": "12h18",
-        "titre": "Volatilité implicite actions +3.2 pts à 24.8; secteurs défensifs surperformants",
-        "resume": "Les utilities et télécoms allemands (Deutsche Telekom, E.ON) gagnent +2.1% tandis que les industriels reculent ; divergence de secteurs compliquant les arbitrages stratégiques en deals multi-sectoriels.",
-        "url": "https://www.bloomberg.com/search?query=Volatilit%C3%A9+implicite+actions+%2B3.2+pts+%C3%A0+24.8%3B+secteurs+d%C3%A9fensifs+surperformants"
+        "source": "Fr",
+        "heure": "15h53",
+        "titre": "Qu'est-ce qui se passe avec l'action de SoFi Technologies jeudi ?",
+        "resume": "Le titre de SoFi Technologies, Inc. (NASDAQ:SOFI) connaît une baisse ce jeudi, la prise de risque se refroidissant sur plusieurs segments du marché et exerç…",
+        "url": "https://fr.benzinga.com/news/france/general/quest-ce-qui-se-passe-avec-laction-de-sofi-technologies-jeudi/"
       },
       {
         "source": "BFM Business",
-        "heure": "10h41",
-        "titre": "Déficit budgétaire français: 5% du PIB en avril, craintes de notation dégradée",
-        "resume": "L'ACPR alerte sur la trajectoire insoutenable ; les agences de notation surveillent activement les risques de déclassement ; prime de risque France se resserre doucement (+2pb spread).",
-        "url": "https://www.bfmtv.com/recherche/?q=D%C3%A9ficit+budg%C3%A9taire+fran%C3%A7ais%3A+5%25+du+PIB+en+avril%2C+craintes+de+notation+d%C3%A9grad%C3%A9e"
+        "heure": "17h51",
+        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
+        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes.",
+        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
       },
       {
-        "source": "La Tribune",
-        "heure": "09h35",
-        "titre": "Marchés actions: dégradation des consensus EPS 2026 pour secteur bancaire français",
-        "resume": "Les analystes révisent à baisse les estimations de BNP Paribas (-2.4% EPS) et Société Générale (-1.9%) pour refleter les marges de NII comprimées ; impact sur multiples de transaction bancaires (LBO de fintechs impactées).",
-        "url": "https://www.latribune.fr/recherche/?q=March%C3%A9s+actions%3A+d%C3%A9gradation+des+consensus+EPS+2026+pour+secteur+bancaire+fran%C3%A7ais"
+        "source": "Les Echos",
+        "heure": "17h57",
+        "titre": "Guerre en Ukraine : le prêt européen de 90 milliards d'euros enfin débloqué",
+        "resume": "L'UE débloque enfin le prêt de 90 milliards d'euros pour l'Ukraine, après des mois de blocage par la Hongrie. Ce soutien financier, crucial pour Kiev, marque un tournant dans l'aide européenne face à la guerre.",
+        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/guerre-en-ukraine-le-pret-europeen-de-90-milliards-deuros-enfin-debloque-2228164"
       }
     ]
   },
   "entreprises": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "10h12",
-        "titre": "LVMH: recul de 3.2% de la marge opérationnelle T1 2026, révisions attendues",
-        "resume": "Le groupe de luxe souffre des ralentissements chinois et américain ; les divisions Fashion & Leather Goods (-12% vol.) impactent les synergies M&A potentielles avec marques Italian Heritage en negociation.",
-        "url": "https://www.lesechos.fr/recherche?keywords=LVMH%3A+recul+de+3.2%25+de+la+marge+op%C3%A9rationnelle+T1+2026%2C+r%C3%A9visions+attendues"
+        "source": "BFM Business",
+        "heure": "15h57",
+        "titre": "PODCAST : USA Today : IBM chute après ses résultats, retour de la pression sur les logiciels, par John Plassard – 23/04",
+        "resume": "Ce jeudi 23 avril, dans sa chronique USA Today, John Plassard, associé et responsable de la stratégie d'investissement de Cité Gestion, s'est penché sur l'enchaînement des records sur le S&P malgré le conflit au Moyen-Orient, le limogeage du secrétai",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/usa-today-ibm-chute-apres-ses-resultats-retour-de-la-pression-sur-les-logiciels-par-john-plassard-23-04_EN-202604230576.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "11h47",
-        "titre": "Michelin annonce 1200 suppressions d'emplois en Europe, restructuration accélérée",
-        "resume": "La direction dévoile un plan d'optimisation de 450M€ de coûts d'ici 2028 ; cette restructuration signale les intentions de carve-out de divisions non-core (pneus spécialisés) pour dégager du cash en contexte de normalisation des marges.",
-        "url": "https://recherche.lefigaro.fr/recherche/?q=Michelin+annonce+1200+suppressions+d%27emplois+en+Europe%2C+restructuration+acc%C3%A9l%C3%A9r%C3%A9e"
+        "source": "Fr",
+        "heure": "15h53",
+        "titre": "Qu'est-ce qui se passe avec l'action de SoFi Technologies jeudi ?",
+        "resume": "Le titre de SoFi Technologies, Inc. (NASDAQ:SOFI) connaît une baisse ce jeudi, la prise de risque se refroidissant sur plusieurs segments du marché et exerç…",
+        "url": "https://fr.benzinga.com/news/france/general/quest-ce-qui-se-passe-avec-laction-de-sofi-technologies-jeudi/"
       },
       {
-        "source": "L'Agefi",
-        "heure": "09h23",
-        "titre": "Orange réorganise sa holding: préparation de la cession de minorité dans Orange Cyberdefense (900M€ attendus)",
-        "resume": "Le groupe télécom accélère son exit de la cybersécurité ; valorisation estimée à 7x EBITDA (130M€ annuel) ; deal de LBO avec sponsor financier envisagé pour juin 2026.",
-        "url": "https://www.agefi.fr/search?q=Orange+r%C3%A9organise+sa+holding%3A+pr%C3%A9paration+de+la+cession+de+minorit%C3%A9+dans+Orange+Cyberdefense+%28900M%E2%82%AC+attendus%29"
+        "source": "Zdnet",
+        "heure": "15h43",
+        "titre": "SpaceX s'offre Cursor : Microsoft a jeté l'éponge - ZDNET",
+        "resume": "En achetant cet outil de génération de code par IA, Elon Musk défie frontalement Microsoft. Qui a préféré décliner.",
+        "url": "https://www.zdnet.fr/actualites/spacex-soffre-cursor-microsoft-a-jete-leponge-494193.htm"
       },
       {
-        "source": "Reuters",
-        "heure": "13h01",
-        "titre": "Airbus envisage réduction de chaînes d'approvisionnement russe et iranienne suite à sanctions",
-        "resume": "L'aéronauticien suspend les commandes de titane pour 280M$ chez fournisseurs indirects ; impact sur stratégie M&A de consolidation fournisseurs européens (relocalisation production Allemagne).",
-        "url": "https://fr.reuters.com/search/news?blob=Airbus+envisage+r%C3%A9duction+de+cha%C3%AEnes+d%27approvisionnement+russe+et+iranienne+suite+%C3%A0+sanctions"
+        "source": "Finyear",
+        "heure": "17h51",
+        "titre": "Kurma Partners clôture Biofund IV à 215 M€ et franchit le milliard d’euros d’actifs sous gestion",
+        "resume": "Kurma Partners, membre du groupe Eurazeo, annonce le closing final de son fonds Biofund IV à 215 millions d’euros, en hausse de près de 35 % par rapport au précédent millésime (160 M€). Le fonds…",
+        "url": "https://finyear.com/kurma-partners-cloture-biofund-iv-a-215-me-et-franchit-le-milliard-deuros-dactifs-sous-gestion"
       },
       {
-        "source": "La Tribune",
-        "heure": "12h33",
-        "titre": "Sanofi ajuste pipeline clinique: déphasage de 3 assets, focus sur oncologie",
-        "resume": "Le laboratoire révise ses attentes de revenus 2026 (-240M€) suite à déceptions d'essais ; accélère la recherche d'acquisitions en immuno-oncologie (cible: sociétés biotech 500M-1.5Mds€).",
-        "url": "https://www.latribune.fr/recherche/?q=Sanofi+ajuste+pipeline+clinique%3A+d%C3%A9phasage+de+3+assets%2C+focus+sur+oncologie"
+        "source": "Pharmaceutiques",
+        "heure": "15h48",
+        "titre": "Kurma Partners boucle Biofund IV à 215 M€ et confirme son modèle",
+        "resume": "Kurma Partners annonce le closing final à 215 millions d’euros de son fonds Biofund IV, dédié à la création et au développement de biotech innovantes. Une",
+        "url": "https://pharmaceutiques.com/actualites/economie-et-ecosysteme/kurma-partners-boucle-biofund-iv-a-215-me-et-confirme-son-modele/"
       },
       {
-        "source": "Bloomberg",
-        "heure": "11h19",
-        "titre": "TotalEnergies: record de cash-flow opérationnel T1, dividende stable malgré volatilité Brent",
-        "resume": "Génération de 3.8Mds€ de flux (Brent à 87$/bl moyenne T1) ; management renouvelle engagement sur investissements en énergie décarbonée ; rachat d'actions et appétit M&A inchangé (acquisitions renouvelables +2Mds€ budget).",
-        "url": "https://www.bloomberg.com/search?query=TotalEnergies%3A+record+de+cash-flow+op%C3%A9rationnel+T1%2C+dividende+stable+malgr%C3%A9+volatilit%C3%A9+Brent"
+        "source": "Zonebourse",
+        "heure": "17h34",
+        "titre": "Oddo BHF salue les trimestriels de Sanofi et voit toujours du potentiel",
+        "resume": "Sanofi se distingue à la hausse  au sein d'un marché plus prudent . Le laboratoire est soutenu par sa publication trimestrielle marquée par une hausse des ventes de 13,6% à taux de change...",
+        "url": "https://www.zonebourse.com/actualite-bourse/oddo-bhf-salue-les-trimestriels-de-sanofi-et-voit-toujours-du-potentiel-ce7f59ded98af427"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "10h58",
-        "titre": "Capgemini acquiert Contech Digital pour 180M€, renforce consulting transition énergétique",
-        "resume": "Le géant du conseil absorbe la scale-up spécialisée en efficacité énergétique ; valorisation de 6.8x revenue (26M€) intègre expertise en décarbonation ; consolidation du portefeuille digital/energy avant IPO potentiel 2027.",
-        "url": "https://www.lesechos.fr/recherche?keywords=Capgemini+acquiert+Contech+Digital+pour+180M%E2%82%AC%2C+renforce+consulting+transition+%C3%A9nerg%C3%A9tique"
+        "source": "BFM Business",
+        "heure": "17h51",
+        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
+        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes.",
+        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "13h04",
-        "titre": "Wendel cède 60% de sa participation dans Cromology pour 350M€ à fonds CVC Capital Partners",
-        "resume": "Le holding d'investissement valorise la peinture industrielle à 580M€ (EV) ; LBO take-private envisagé dès T3 2026 ; operationnalisation des synergies ACE Paints (consolidation européenne) en backlog.",
-        "url": "https://recherche.lefigaro.fr/recherche/?q=Wendel+c%C3%A8de+60%25+de+sa+participation+dans+Cromology+pour+350M%E2%82%AC+%C3%A0+fonds+CVC+Capital+Partners"
+        "source": "Zdnet",
+        "heure": "15h43",
+        "titre": "SpaceX s'offre Cursor : Microsoft a jeté l'éponge - ZDNET",
+        "resume": "En achetant cet outil de génération de code par IA, Elon Musk défie frontalement Microsoft. Qui a préféré décliner.",
+        "url": "https://www.zdnet.fr/actualites/spacex-soffre-cursor-microsoft-a-jete-leponge-494193.htm"
       },
       {
-        "source": "L'Agefi",
-        "heure": "12h15",
-        "titre": "Eurazeo décide du placement en bourse de sa participation Idinvest: 8-12% des parts, 250-320M€ attendus",
-        "resume": "Le géant du PE segmente son portefeuille pour financer nouveaux tickets ; Idinvest (plateforme de financement alternatif) valorisée 2.7-3.2Mds€ ; placement IPO prévu mai, réallocation vers fonds secondaires.",
-        "url": "https://www.agefi.fr/search?q=Eurazeo+d%C3%A9cide+du+placement+en+bourse+de+sa+participation+Idinvest%3A+8-12%25+des+parts%2C+250-320M%E2%82%AC+attendus"
+        "source": "Finyear",
+        "heure": "17h51",
+        "titre": "Kurma Partners clôture Biofund IV à 215 M€ et franchit le milliard d’euros d’actifs sous gestion",
+        "resume": "Kurma Partners, membre du groupe Eurazeo, annonce le closing final de son fonds Biofund IV à 215 millions d’euros, en hausse de près de 35 % par rapport au précédent millésime (160 M€). Le fonds…",
+        "url": "https://finyear.com/kurma-partners-cloture-biofund-iv-a-215-me-et-franchit-le-milliard-deuros-dactifs-sous-gestion"
       },
       {
-        "source": "Reuters",
-        "heure": "11h33",
-        "titre": "CVC Capital Partners consolide bases de données B2B: acquisition de Dun & Bradstreet France pour 95M€",
-        "resume": "Le fonds de PE français acquiert la division France du géant américain du B2B data ; valorisation 4.2x EBITDA (22.6M€) ; intégration dans portefeuille BD Global (multi-pays européen).",
-        "url": "https://fr.reuters.com/search/news?blob=CVC+Capital+Partners+consolide+bases+de+donn%C3%A9es+B2B%3A+acquisition+de+Dun+%26+Bradstreet+France+pour+95M%E2%82%AC"
+        "source": "Pharmaceutiques",
+        "heure": "15h48",
+        "titre": "Kurma Partners boucle Biofund IV à 215 M€ et confirme son modèle",
+        "resume": "Kurma Partners annonce le closing final à 215 millions d’euros de son fonds Biofund IV, dédié à la création et au développement de biotech innovantes. Une",
+        "url": "https://pharmaceutiques.com/actualites/economie-et-ecosysteme/kurma-partners-boucle-biofund-iv-a-215-me-et-confirme-son-modele/"
       },
       {
-        "source": "Bloomberg",
-        "heure": "09h48",
-        "titre": "Cinven et Apax Partners en compétition pour acquisition de Groupe Bertrand (logistique pharmaceutique): 420M€ attendus",
-        "resume": "Deal mid-market chauffé entre deux sponsors ; Bertrand génère 310M€ de chiffre (EBITDA 51M€, 16.4x) ; arrivée à maturité du fonds Apax VIII crée l'impératif d'exit pour Cinven; closing en juin.",
-        "url": "https://www.bloomberg.com/search?query=Cinven+et+Apax+Partners+en+comp%C3%A9tition+pour+acquisition+de+Groupe+Bertrand+%28logistique+pharmaceutique%29%3A+420M%E2%82%AC+attendus"
-      },
-      {
-        "source": "La Tribune",
-        "heure": "10h25",
-        "titre": "Montagu Private Equity finalise sortie de NewCold via cession à Lineage Logistics: 2.1Mds$ en poche pour sponsors",
-        "resume": "Le fonds britannique génère 3.8x MOIC sur 7 ans dans la logistique frigorifique ; acquisition américaine stratégique confirme consolidation sectorielle ; marché logistique/cold chain valué 2x plus cher qu'en 2019.",
-        "url": "https://www.latribune.fr/recherche/?q=Montagu+Private+Equity+finalise+sortie+de+NewCold+via+cession+%C3%A0+Lineage+Logistics%3A+2.1Mds%24+en+poche+pour+sponsors"
+        "source": "Air-Journal",
+        "heure": "18h00",
+        "titre": "Hiver 2026-2027 : ITA Airways mise sur la République dominicaine pour renforcer son hub de Rome",
+        "resume": "ITA Airways ouvrira à l’hiver 2026-2027 une nouvelle liaison directe saisonnière entre Rome-Fiumicino et Saint-Domingue, sa première destination vers",
+        "url": "https://www.air-journal.fr/2026-04-23-hiver-2026-2027-ita-airways-mise-sur-la-republique-dominicaine-pour-renforcer-son-hub-de-rome-5274744.html"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "09h15",
-        "titre": "Déficit budgétaire français atteint 5% du PIB en 2026, tension sur les finances publiques",
-        "resume": "Le gouvernement français face à un déficit structurel de 5% du PIB nécessite des mesures d'ajustement budgétaire d'ici 2027. Les spreads OAT/Bund à 70pb reflètent les préoccupations des investisseurs sur la soutenabilité de la dette française.",
-        "url": "https://www.lesechos.fr/recherche?keywords=D%C3%A9ficit+budg%C3%A9taire+fran%C3%A7ais+atteint+5%25+du+PIB+en+2026%2C+tension+sur+les+finances+publiques"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "10h42",
-        "titre": "BCE maintient son attentisme : taux directeur stable à 3,5%, inflation surveillée de près",
-        "resume": "La Banque centrale européenne prolonge son pause de normalisation monétaire face aux incertitudes géopolitiques. L'inflation zone euro reste à 2,3%, contraignant la BCE à observer l'évolution des prix de l'énergie.",
-        "url": "https://recherche.lefigaro.fr/recherche/?q=BCE+maintient+son+attentisme+%3A+taux+directeur+stable+%C3%A0+3%2C5%25%2C+inflation+surveill%C3%A9e+de+pr%C3%A8s"
-      },
-      {
-        "source": "FT",
-        "heure": "11h28",
-        "titre": "Zone euro ralentit : croissance Q1 2026 à +0,3%, préoccupations sur demande interne",
-        "resume": "La croissance trimestielle de la zone euro décélère significativement à 0,3% en raison des tensions géopolitiques et de l'impact des prix énergétiques. Les marchés craignent une persistance du taux de chômage à 6,1% sans impulsion budgétaire coordonnée.",
-        "url": "https://www.ft.com/search?q=Zone+euro+ralentit+%3A+croissance+Q1+2026+%C3%A0+%2B0%2C3%25%2C+pr%C3%A9occupations+sur+demande+interne"
-      },
-      {
-        "source": "Reuters",
-        "heure": "12h05",
-        "titre": "Pétrole Brent à $94/baril suite à escalade Iran-USA, impact sur inflation européenne",
-        "resume": "Les tensions géopolitiques propulsent le Brent à $94 le baril, augmentant les risques inflationnistes en zone euro de +40pb. Les marchés anticipent une transmission aux prix à la consommation dans les 8-12 semaines suivantes.",
-        "url": "https://fr.reuters.com/search/news?blob=P%C3%A9trole+Brent+%C3%A0+%2494%2Fbaril+suite+%C3%A0+escalade+Iran-USA%2C+impact+sur+inflation+europ%C3%A9enne"
-      },
-      {
-        "source": "La Tribune",
-        "heure": "08h47",
-        "titre": "Conjoncture française : consommation des ménages recule de 0,8% en mars 2026",
-        "resume": "La confiance des consommateurs français s'érode sous le poids des préoccupations géopolitiques et de l'inflation énergétique. Les dépenses de consommation enregistrent une baisse mensuelle inédite depuis octobre 2025.",
-        "url": "https://www.latribune.fr/recherche/?q=Conjoncture+fran%C3%A7aise+%3A+consommation+des+m%C3%A9nages+recule+de+0%2C8%25+en+mars+2026"
-      },
-      {
-        "source": "Politico",
-        "heure": "13h12",
-        "titre": "UE coordonne réponse économique à crise Iran : fonds de stabilisation de €15 milliards discutés",
-        "resume": "Les institutions européennes mobilisent des ressources d'urgence pour aider les États membres vulnérables aux chocs énergétiques. Le mécanisme de solidarité énergétique pourrait débloquer jusqu'à €15 milliards d'aide directe.",
-        "url": "https://www.politico.eu/search/UE%20coordonne%20r%C3%A9ponse%20%C3%A9conomique%20%C3%A0%20crise%20Iran%20%3A%20fonds%20de%20stabilisation%20de%20%E2%82%AC15%20milliards%20discut%C3%A9s/"
-      },
-      {
-        "source": "Bloomberg",
-        "heure": "09h53",
-        "titre": "Obligations allemandes : Bund 10 ans à 2,1%, refuge actif face aux turbulences géopolitiques",
-        "resume": "Les rendements obligataires allemands s'enfoncent à 2,1%, reflétant une fuite vers la qualité et des craintes de récession. Le spread OAT/Bund se creuse à 70pb, marquant la plus grande prime de risque depuis septembre 2024.",
-        "url": "https://www.bloomberg.com/search?query=Obligations+allemandes+%3A+Bund+10+ans+%C3%A0+2%2C1%25%2C+refuge+actif+face+aux+turbulences+g%C3%A9opolitiques"
+        "source": "Fr",
+        "heure": "15h48",
+        "titre": "Les marchés asiatiques reculent après avoir atteint des sommets historiques en raison des inquiétudes géopolitiques",
+        "resume": "Principaux renseignements Les tensions géopolitiques et la hausse des prix du pétrole ont provoqué un recul des marchés boursiers asiatiques après que",
+        "url": "https://fr.businessam.be/les-marches-asiatiques-reculent-apres-avoir-atteint-des-sommets-historiques-en-raison-des-inquietudes-geopolitiques/"
       },
       {
         "source": "Les Echos",
-        "heure": "14h01",
-        "titre": "CAC 40 recule à 7.920 points : secteurs financiers et énergétiques sous pression",
-        "resume": "L'indice parisien perd 1,0% en raison des craintes sur les marges énergétiques et des perspectives de révision à la baisse des bénéfices. Les bancaires français chutent de 2,3% sur les anticipations de réductions tarifaires.",
-        "url": "https://www.lesechos.fr/recherche?keywords=CAC+40+recule+%C3%A0+7.920+points+%3A+secteurs+financiers+et+%C3%A9nerg%C3%A9tiques+sous+pression"
+        "heure": "17h57",
+        "titre": "Guerre en Ukraine : le prêt européen de 90 milliards d'euros enfin débloqué",
+        "resume": "L'UE débloque enfin le prêt de 90 milliards d'euros pour l'Ukraine, après des mois de blocage par la Hongrie. Ce soutien financier, crucial pour Kiev, marque un tournant dans l'aide européenne face à la guerre.",
+        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/guerre-en-ukraine-le-pret-europeen-de-90-milliards-deuros-enfin-debloque-2228164"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "17h55",
+        "titre": "MiCA : la difficile harmonisation d'une Europe de la crypto à géométrie variable",
+        "resume": "A l'approche de l'échéance du 1er juillet, les agréments se concentrent dans une poignée de pays. Dans ce contexte, les acteurs arbitrent leur implantation, jusqu'aux plus grands du secteur.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/mica-la-difficile-harmonisation-dune-europe-de-la-crypto-a-geometrie-variable-2228163"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "17h51",
+        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
+        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes.",
+        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
       }
     ]
   },
   "politique": {
     "articles": [
       {
+        "source": "Fr",
+        "heure": "15h48",
+        "titre": "Les marchés asiatiques reculent après avoir atteint des sommets historiques en raison des inquiétudes géopolitiques",
+        "resume": "Principaux renseignements Les tensions géopolitiques et la hausse des prix du pétrole ont provoqué un recul des marchés boursiers asiatiques après que",
+        "url": "https://fr.businessam.be/les-marches-asiatiques-reculent-apres-avoir-atteint-des-sommets-historiques-en-raison-des-inquietudes-geopolitiques/"
+      },
+      {
         "source": "Les Echos",
-        "heure": "10h30",
-        "titre": "Gouvernement français prépare plan de consolidation : réductions de dépenses ciblées à €8 milliards",
-        "resume": "Le ministre des Finances annonce des mesures d'économie sur les dépenses publiques non-productives pour 2027. Ces réductions visent à ramener le déficit à 4,2% du PIB et restaurer la confiance des marchés obligataires.",
-        "url": "https://www.lesechos.fr/recherche?keywords=Gouvernement+fran%C3%A7ais+pr%C3%A9pare+plan+de+consolidation+%3A+r%C3%A9ductions+de+d%C3%A9penses+cibl%C3%A9es+%C3%A0+%E2%82%AC8+milliards"
+        "heure": "17h57",
+        "titre": "Guerre en Ukraine : le prêt européen de 90 milliards d'euros enfin débloqué",
+        "resume": "L'UE débloque enfin le prêt de 90 milliards d'euros pour l'Ukraine, après des mois de blocage par la Hongrie. Ce soutien financier, crucial pour Kiev, marque un tournant dans l'aide européenne face à la guerre.",
+        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/guerre-en-ukraine-le-pret-europeen-de-90-milliards-deuros-enfin-debloque-2228164"
       },
       {
-        "source": "Le Figaro",
-        "heure": "07h42",
-        "titre": "Macron convoque Conseil de défense : réponse économique aux tensions Iran-USA débattue",
-        "resume": "L'Élysée réunit les ministères économiques pour coordonner la riposte aux impacts énergétiques des tensions géopolitiques. Un plan d'aide aux entreprises exportatrices affectées est envisagé à hauteur de €2 milliards.",
-        "url": "https://recherche.lefigaro.fr/recherche/?q=Macron+convoque+Conseil+de+d%C3%A9fense+%3A+r%C3%A9ponse+%C3%A9conomique+aux+tensions+Iran-USA+d%C3%A9battue"
-      },
-      {
-        "source": "FT",
-        "heure": "11h15",
-        "titre": "UE prépare réplique économique : sanctions secondaires sur petrole iranien pèsent +$15/baril",
-        "resume": "Les discussions de sanctions supplémentaires au niveau européen pourraient aggraver les chocs pétroliers de 50% selon les estimations. L'impact cumulé sur le coût énergétique de l'UE s'élèverait à €28 milliards annuels.",
-        "url": "https://www.ft.com/search?q=UE+pr%C3%A9pare+r%C3%A9plique+%C3%A9conomique+%3A+sanctions+secondaires+sur+petrole+iranien+p%C3%A8sent+%2B%2415%2Fbaril"
-      },
-      {
-        "source": "Reuters",
-        "heure": "12h47",
-        "titre": "États-Unis durcissent ton : nouvelles restrictions commerciales affectent secteur technologique européen",
-        "resume": "Les tarifs douaniers américains supplémentaires de 12% sur les composants électroniques européens impactent directement 340 groupes français. Les exportateurs de Île-de-France anticipent une contraction de 6-8% de leurs ventes transatlantiques.",
-        "url": "https://fr.reuters.com/search/news?blob=%C3%89tats-Unis+durcissent+ton+%3A+nouvelles+restrictions+commerciales+affectent+secteur+technologique+europ%C3%A9en"
-      },
-      {
-        "source": "Politico",
-        "heure": "13h08",
-        "titre": "Parlement européen réclame plan Marshall énergétique : débat sur solidarité budgétaire accentué",
-        "resume": "Les eurodéputés proposent la création d'une capacité budgétaire commune de €50 milliards pour amortir les chocs énergétiques externes. Les discussions s'enlisent sur le partage des coûts entre États contributeurs nets et bénéficiaires nets.",
-        "url": "https://www.politico.eu/search/Parlement%20europ%C3%A9en%20r%C3%A9clame%20plan%20Marshall%20%C3%A9nerg%C3%A9tique%20%3A%20d%C3%A9bat%20sur%20solidarit%C3%A9%20budg%C3%A9taire%20accentu%C3%A9/"
-      },
-      {
-        "source": "La Tribune",
-        "heure": "08h22",
-        "titre": "Élysée négocie avec patronat : accord de modération tarifaire énergétique pour industries critiques",
-        "resume": "Le gouvernement français parvient à un accord-cadre avec les énergéticiens pour geler les tarifs à -15% pour les PME manufacturières. Cette mesure représente une aide implicite de €1,2 milliard sur 12 mois.",
-        "url": "https://www.latribune.fr/recherche/?q=%C3%89lys%C3%A9e+n%C3%A9gocie+avec+patronat+%3A+accord+de+mod%C3%A9ration+tarifaire+%C3%A9nerg%C3%A9tique+pour+industries+critiques"
+        "source": "Les Echos",
+        "heure": "17h55",
+        "titre": "MiCA : la difficile harmonisation d'une Europe de la crypto à géométrie variable",
+        "resume": "A l'approche de l'échéance du 1er juillet, les agréments se concentrent dans une poignée de pays. Dans ce contexte, les acteurs arbitrent leur implantation, jusqu'aux plus grands du secteur.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/mica-la-difficile-harmonisation-dune-europe-de-la-crypto-a-geometrie-variable-2228163"
       },
       {
         "source": "BFM Business",
-        "heure": "11h34",
-        "titre": "Ministre Économie annonce accélération des privatisations : cessions pour €6 milliards prévues avant fin 2026",
-        "resume": "Le gouvernement accélère son plan de réductions d'actifs publics non-stratégiques pour dégager de la liquidité budgétaire. Les cessions porteraient notamment sur des participations dans secteurs utilities et transport.",
-        "notes": "Plan de cessions non-core actif, cohérent avec contexte M&A actif",
-        "url": "https://www.bfmtv.com/recherche/?q=Ministre+%C3%89conomie+annonce+acc%C3%A9l%C3%A9ration+des+privatisations+%3A+cessions+pour+%E2%82%AC6+milliards+pr%C3%A9vues+avant+fin+2026"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "09h28",
-        "titre": "Élysée s'oppose à normes CO2 renforcées : exemples temporaires demandés pour industrie automobile",
-        "resume": "La France milite au sein de l'UE pour un délai de 18 mois sur le calendrier normatif automobile face aux tensions géopolitiques. Cette position met en tension les relations avec l'Allemagne, favorable à un durcissement accéléré.",
-        "url": "https://recherche.lefigaro.fr/recherche/?q=%C3%89lys%C3%A9e+s%27oppose+%C3%A0+normes+CO2+renforc%C3%A9es+%3A+exemples+temporaires+demand%C3%A9s+pour+industrie+automobile"
+        "heure": "17h51",
+        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
+        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes.",
+        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
       }
     ]
   }
