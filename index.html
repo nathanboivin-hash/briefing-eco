@@ -10,546 +10,263 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 :root {
-  --ink: #1a1a1a;
-  --paper: #f5f2ed;
-  --cream: #ede9e2;
-  --warm: #e8e2d8;
-  --rule: rgba(26,26,26,0.12);
-  --rule2: rgba(26,26,26,0.06);
-  --accent: #b5602a;
-  --accent2: #8a4820;
-  --muted: #7a7570;
-  --green: #2d6e45;
-  --red: #c0392b;
-  --surface: #fff;
-  --tag-r: rgba(181,96,42,0.1);
-  --tag-r-t: #8a4820;
-  --tag-b: rgba(45,110,69,0.1);
-  --tag-b-t: #1e5232;
-  --tag-t: rgba(100,80,160,0.1);
-  --tag-t-t: #5a3e8a;
-  --tag-g: rgba(0,0,0,0.07);
-  --tag-g-t: #4a4542;
+  --ink:#1a1a1a; --paper:#f5f2ed; --cream:#ede9e2; --warm:#e8e2d8;
+  --rule:rgba(26,26,26,0.12); --rule2:rgba(26,26,26,0.06);
+  --accent:#b5602a; --muted:#7a7570; --green:#2d6e45; --red:#c0392b;
 }
-* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-html, body { height: 100%; }
-body {
-  background: var(--paper);
-  color: var(--ink);
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
-}
+* { box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent }
+html, body { height:100%; background:var(--paper); color:var(--ink); font-family:'Inter',sans-serif; font-size:15px; -webkit-font-smoothing:antialiased }
+body { overflow:hidden; position:fixed; width:100% }
+#app { height:100%; display:flex; flex-direction:column }
 
-/* ── MASTHEAD ── */
-#app { height: 100%; display: flex; flex-direction: column; }
+/* MASTHEAD */
+.mh { background:var(--ink); flex-shrink:0; padding-top:max(env(safe-area-inset-top,44px),44px) }
+.mh-inner { padding:12px 20px 0; display:flex; justify-content:space-between; align-items:flex-end }
+.mh-date { font-size:10px; letter-spacing:.18em; text-transform:uppercase; color:rgba(255,255,255,.35); margin-bottom:4px }
+.mh-title { font-family:'Playfair Display',serif; font-size:28px; color:#fff; font-weight:400; line-height:1 }
+.mh-title em { font-style:italic; color:#d4924e }
+.mh-right { display:flex; flex-direction:column; align-items:flex-end; gap:5px; padding-bottom:2px }
+.btn-ref { background:none; border:1px solid rgba(255,255,255,.25); border-radius:4px; padding:7px 14px; font-size:11px; font-weight:500; letter-spacing:.06em; text-transform:uppercase; color:rgba(255,255,255,.7); cursor:pointer; font-family:'Inter',sans-serif }
+.btn-ref:disabled { opacity:.3 }
+.mh-ts { font-size:10px; color:rgba(255,255,255,.25); letter-spacing:.04em }
 
-.masthead {
-  padding-top: max(env(safe-area-inset-top, 44px), 44px);
-  background: var(--ink);
-  flex-shrink: 0;
-}
-.masthead-inner {
-  padding: 14px 20px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-.masthead-left {}
-.masthead-date {
-  font-family: 'Inter', sans-serif;
-  font-size: 10px;
-  font-weight: 400;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,.4);
-  margin-bottom: 4px;
-}
-.masthead-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #fff;
-  letter-spacing: -.01em;
-  line-height: 1;
-}
-.masthead-title em { font-style: italic; color: #d4924e; }
-.masthead-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 6px;
-  padding-bottom: 2px;
-}
-.btn-refresh {
-  background: none;
-  border: 1px solid rgba(255,255,255,.25);
-  border-radius: 4px;
-  padding: 7px 14px;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,.7);
-  cursor: pointer;
-  font-family: 'Inter', sans-serif;
-  transition: border-color .15s, color .15s;
-}
-.btn-refresh:active { border-color: rgba(255,255,255,.5); color: #fff; }
-.btn-refresh:disabled { opacity: .35; }
-.masthead-ts { font-size: 10px; color: rgba(255,255,255,.3); letter-spacing: .05em; }
+/* TABS */
+.tabs { background:var(--ink); border-bottom:1px solid rgba(255,255,255,.08); display:flex; overflow-x:auto; padding:0 20px; margin-top:10px; scrollbar-width:none; flex-shrink:0 }
+.tabs::-webkit-scrollbar { display:none }
+.tab { flex-shrink:0; padding:10px 14px 12px; font-size:11px; font-weight:500; letter-spacing:.08em; text-transform:uppercase; color:rgba(255,255,255,.3); border:none; border-bottom:2px solid transparent; background:none; cursor:pointer; white-space:nowrap; font-family:'Inter',sans-serif }
+.tab.on { color:#fff; border-bottom-color:#d4924e }
 
-/* ── TABS ── */
-.tabs {
-  background: var(--ink);
-  border-bottom: 1px solid rgba(255,255,255,.08);
-  display: flex;
-  overflow-x: auto;
-  padding: 0 20px;
-  scrollbar-width: none;
-  flex-shrink: 0;
-  margin-top: 12px;
-}
-.tabs::-webkit-scrollbar { display: none; }
-.tab {
-  flex-shrink: 0;
-  padding: 10px 14px 12px;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,.35);
-  border: none;
-  border-bottom: 2px solid transparent;
-  background: none;
-  cursor: pointer;
-  white-space: nowrap;
-  font-family: 'Inter', sans-serif;
-  transition: color .15s;
-}
-.tab.on { color: #fff; border-bottom-color: #d4924e; }
+/* CONTENT */
+.cnt { flex:1; overflow-y:auto; background:var(--paper); -webkit-overflow-scrolling:touch; padding-bottom:max(env(safe-area-inset-bottom,16px),32px) }
 
-/* ── CONTENT ── */
-.content {
-  flex: 1;
-  overflow-y: auto;
-  background: var(--paper);
-  -webkit-overflow-scrolling: touch;
-  padding-bottom: max(env(safe-area-inset-bottom, 20px), 32px);
-}
+/* SKELETON */
+.sk { background:linear-gradient(90deg,var(--cream) 25%,var(--warm) 50%,var(--cream) 75%); background-size:200% 100%; animation:sh 1.3s infinite; border-radius:2px }
+@keyframes sh { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+.sk-item { border-bottom:1px solid var(--rule2); padding:16px 20px }
 
-/* ── SKELETON ── */
-.sk-wrap { padding: 20px 20px 0; }
-.sk {
-  background: linear-gradient(90deg, var(--cream) 25%, var(--warm) 50%, var(--cream) 75%);
-  background-size: 200% 100%;
-  animation: sh 1.3s infinite;
-  border-radius: 2px;
-}
-@keyframes sh { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
-.sk-item { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--rule2); }
+/* ALERT */
+.alert-bar { margin:14px 20px 0; background:#fff3e0; border-left:3px solid var(--accent); padding:10px 14px; font-size:12px; color:#7a3a10; line-height:1.6; border-radius:0 4px 4px 0 }
 
-/* ── ALERT ── */
-.alert-bar {
-  margin: 16px 20px 0;
-  background: #fff3e0;
-  border-left: 3px solid var(--accent);
-  padding: 10px 14px;
-  font-size: 13px;
-  color: var(--accent2);
-  line-height: 1.55;
-  border-radius: 0 4px 4px 0;
-}
+/* SUMMARY */
+.sum-block { padding:18px 20px 0 }
+.sum-text { font-family:'Playfair Display',serif; font-size:16px; line-height:1.8; color:#2a2520; border-bottom:1px solid var(--rule); padding-bottom:16px }
+.sec-rule { font-size:10px; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--rule); padding:16px 20px 8px }
+.pt-item { border-bottom:1px solid var(--rule2); padding:13px 20px }
+.pt-label { font-size:10px; font-weight:500; letter-spacing:.1em; text-transform:uppercase; color:var(--accent); margin-bottom:3px }
+.pt-title { font-family:'Playfair Display',serif; font-size:14px; color:var(--ink); margin-bottom:4px }
+.pt-body { font-size:12px; color:var(--muted); line-height:1.65 }
+.ts-line { text-align:center; font-size:10px; color:rgba(26,26,26,.2); letter-spacing:.08em; padding:14px 20px }
 
-/* ── SUMMARY ── */
-.summary-block {
-  padding: 20px 20px 0;
-}
-.summary-text {
-  font-family: 'Playfair Display', serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.75;
-  color: #2a2520;
-  border-bottom: 1px solid var(--rule);
-  padding-bottom: 18px;
-  margin-bottom: 18px;
-}
-.points-list { padding: 0 20px; }
-.point-item {
-  border-bottom: 1px solid var(--rule2);
-  padding: 14px 0;
-}
-.point-item:last-child { border-bottom: none; }
-.point-label {
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 4px;
-}
-.point-detail { font-size: 13px; color: var(--muted); line-height: 1.65; }
-.ts-line { text-align: center; font-size: 10px; color: rgba(26,26,26,.25); letter-spacing: .08em; padding: 16px 20px; }
+/* METRICS */
+.met-sec { padding:14px 20px 0 }
+.met-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; margin-bottom:4px }
+.met { background:#fff; border:1px solid var(--rule); border-radius:6px; padding:12px 13px }
+.met-label { font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:4px }
+.met-row { display:flex; justify-content:space-between; align-items:baseline }
+.met-val { font-family:'Playfair Display',serif; font-size:18px; font-weight:600; color:var(--ink) }
+.met-chg { font-size:12px; font-weight:500 }
+.met-sub { font-size:10px; color:var(--muted); margin-top:3px }
+.up { color:var(--green) } .dn { color:var(--red) } .fl { color:var(--muted) }
 
-/* ── METRICS ── */
-.metrics-section { padding: 20px 20px 0; }
-.section-rule {
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--muted);
-  border-bottom: 1px solid var(--rule);
-  padding-bottom: 8px;
-  margin-bottom: 14px;
-}
-.met-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 4px; }
-.met {
-  background: var(--surface);
-  border: 1px solid var(--rule);
-  border-radius: 6px;
-  padding: 12px 14px;
-  cursor: pointer;
-  transition: box-shadow .15s;
-  -webkit-user-select: none;
-}
-.met:active { box-shadow: inset 0 0 0 1px rgba(26,26,26,.15); }
-.met-label { font-size: 10px; letter-spacing: .06em; color: var(--muted); margin-bottom: 5px; text-transform: uppercase; }
-.met-row { display: flex; justify-content: space-between; align-items: baseline; }
-.met-val { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 600; color: var(--ink); letter-spacing: -.01em; }
-.met-chg { font-size: 12px; font-weight: 500; }
-.up { color: var(--green); } .dn { color: var(--red); } .fl { color: var(--muted); }
-.sparkline { margin-top: 8px; width: 100%; height: 26px; display: block; }
-.live-pip {
-  display: inline-block;
-  width: 5px; height: 5px;
-  border-radius: 50%;
-  background: var(--green);
-  margin-left: 4px;
-  vertical-align: middle;
-  animation: pulse 1.4s ease-in-out infinite;
-}
-@keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
-
-/* ── ARTICLES ── */
-.articles-section { padding: 0 20px; }
-.art-rule { font-size: 10px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin: 20px 0 0; }
-.art {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px solid var(--rule2);
-  padding: 14px 0;
-  transition: background .1s;
-}
-.art:last-child { border-bottom: 1px solid var(--rule); }
-a.art:active { background: var(--cream); margin: 0 -20px; padding: 14px 20px; }
-.art-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
-.badge {
-  font-size: 9px;
-  font-weight: 500;
-  letter-spacing: .07em;
-  text-transform: uppercase;
-  padding: 2px 7px;
-  border-radius: 2px;
-}
-.b-re { background: var(--tag-r); color: var(--tag-r-t); }
-.b-gr { background: var(--tag-b); color: var(--tag-b-t); }
-.b-pu { background: var(--tag-t); color: var(--tag-t-t); }
-.b-gy { background: var(--tag-g); color: var(--tag-g-t); }
-.art-time { font-size: 10px; color: var(--muted); letter-spacing: .03em; }
-.art-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.45;
-  color: var(--ink);
-  margin-bottom: 5px;
-}
-.art-body { font-size: 12px; color: var(--muted); line-height: 1.65; }
-.art-cta { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-top: 7px; font-weight: 500; }
-
-.empty-note { padding: 32px 20px; text-align: center; font-size: 13px; color: var(--muted); }
+/* ARTICLES */
+.art-rule { font-size:10px; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--rule); padding:16px 20px 8px }
+.art { display:block; color:inherit; text-decoration:none; border-bottom:1px solid var(--rule2); padding:13px 20px }
+a.art:active { background:var(--cream) }
+.art-meta { display:flex; align-items:center; gap:6px; margin-bottom:6px; flex-wrap:wrap }
+.badge { font-size:9px; font-weight:500; letter-spacing:.07em; text-transform:uppercase; padding:2px 8px; border-radius:2px }
+.b-ec  { background:rgba(181,96,42,0.12); color:#7a3a10 }
+.b-fi  { background:rgba(20,60,150,0.1);  color:#1a3a80 }
+.b-bfm { background:rgba(30,100,200,0.1); color:#1a50a0 }
+.b-lt  { background:rgba(80,40,140,0.1);  color:#4a2080 }
+.b-ch  { background:rgba(40,120,60,0.1);  color:#206030 }
+.b-lm  { background:rgba(0,0,0,0.08);     color:#444 }
+.b-re  { background:rgba(200,60,30,0.1);  color:#a03020 }
+.b-ag  { background:rgba(0,100,80,0.1);   color:#006050 }
+.b-def { background:rgba(0,0,0,0.06);     color:#555 }
+.art-time { font-size:10px; color:var(--muted) }
+.art-title { font-family:'Playfair Display',serif; font-size:15px; line-height:1.45; color:var(--ink); margin-bottom:5px }
+.art-body { font-size:12px; color:var(--muted); line-height:1.65 }
+.art-cta { font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); margin-top:7px; font-weight:500 }
+.empty-note { padding:32px 20px; text-align:center; font-size:13px; color:var(--muted) }
 </style>
 </head>
 <body>
 <div id="app">
-  <div class="masthead">
-    <div class="masthead-inner">
-      <div class="masthead-left">
-        <div class="masthead-date" id="hdate">—</div>
-        <div class="masthead-title">Morning <em>Brief</em></div>
+  <div class="mh">
+    <div class="mh-inner">
+      <div>
+        <div class="mh-date" id="hdate"></div>
+        <div class="mh-title">Morning <em>Brief</em></div>
       </div>
-      <div class="masthead-right">
-        <button class="btn-refresh" id="rbtn" onclick="refresh()">Actualiser</button>
-        <div class="masthead-ts" id="hts"></div>
+      <div class="mh-right">
+        <button class="btn-ref" id="rbtn" onclick="load()">Actualiser</button>
+        <div class="mh-ts" id="hts"></div>
       </div>
     </div>
     <div class="tabs">
-      <button class="tab on"  onclick="sw(this,'s')">Synthèse</button>
-      <button class="tab"     onclick="sw(this,'m')">Marchés</button>
+      <button class="tab on"  onclick="sw(this,'s')">Synthese</button>
+      <button class="tab"     onclick="sw(this,'m')">Marches</button>
       <button class="tab"     onclick="sw(this,'e')">Entreprises</button>
-      <button class="tab"     onclick="sw(this,'a')">M&A</button>
+      <button class="tab"     onclick="sw(this,'a')">M&amp;A</button>
       <button class="tab"     onclick="sw(this,'k')">Macro</button>
       <button class="tab"     onclick="sw(this,'p')">Politique</button>
     </div>
   </div>
-  <div class="content" id="cnt"></div>
+  <div class="cnt" id="cnt"></div>
 </div>
-
 <script>
-let B = null, tab = 's', live = {};
+var B = null, tab = 's';
 
-// Date
-const d = new Date();
-const DAYS = ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'];
-const MONTHS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
-document.getElementById('hdate').textContent =
-  `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+// Date header
+var d = new Date();
+var DAYS = ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'];
+var MONTHS = ['janvier','fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre'];
+document.getElementById('hdate').textContent = DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()] + ' ' + d.getFullYear();
 
 function sw(el, t) {
-  document.querySelectorAll('.tab').forEach(x => x.classList.remove('on'));
-  el.classList.add('on'); tab = t;
-  if (t === 'm') render('m');  // Marchés always renderable (live data)
-  else B ? render(t) : showSkel();
+  var tabs = document.querySelectorAll('.tab');
+  for (var i = 0; i < tabs.length; i++) tabs[i].classList.remove('on');
+  el.classList.add('on');
+  tab = t;
+  B ? render(t) : showSkel();
 }
 
 function showSkel() {
-  const item = `<div class="sk-item">
-    <div class="sk" style="height:10px;width:50px;margin-bottom:10px"></div>
-    <div class="sk" style="height:16px;width:90%;margin-bottom:8px"></div>
-    <div class="sk" style="height:16px;width:70%;margin-bottom:10px"></div>
-    <div class="sk" style="height:12px;width:100%;margin-bottom:5px"></div>
-    <div class="sk" style="height:12px;width:75%"></div>
-  </div>`;
-  document.getElementById('cnt').innerHTML =
-    `<div class="sk-wrap">${item.repeat(5)}</div>`;
+  var html = '';
+  for (var i = 0; i < 5; i++) {
+    html += '<div class="sk-item">' +
+      '<div class="sk" style="height:10px;width:55px;border-radius:20px;margin-bottom:10px"></div>' +
+      '<div class="sk" style="height:15px;width:88%;margin-bottom:8px"></div>' +
+      '<div class="sk" style="height:15px;width:65%;margin-bottom:10px"></div>' +
+      '<div class="sk" style="height:12px;width:100%;margin-bottom:5px"></div>' +
+      '<div class="sk" style="height:12px;width:72%"></div>' +
+      '</div>';
+  }
+  document.getElementById('cnt').innerHTML = html;
 }
 
-// Badge mapping
 function badge(src) {
-  const s = (src||'').toLowerCase();
-  if (s.includes('reuters') || s.includes('afp'))    return `<span class="badge b-re">${src}</span>`;
-  if (s.includes('tribune') || s.includes('bfm') || s.includes('agefi')) return `<span class="badge b-gr">${src}</span>`;
-  if (s.includes('politico') || s.includes('capital') || s.includes('challenges')) return `<span class="badge b-pu">${src}</span>`;
-  return `<span class="badge b-gy">${src}</span>`;
+  var s = (src || '').toLowerCase();
+  if (s.indexOf('echos') >= 0 || s.indexOf('echos') >= 0) return '<span class="badge b-ec">Les Echos</span>';
+  if (s.indexOf('figaro') >= 0)  return '<span class="badge b-fi">Le Figaro</span>';
+  if (s.indexOf('bfm') >= 0)     return '<span class="badge b-bfm">BFM Business</span>';
+  if (s.indexOf('tribune') >= 0) return '<span class="badge b-lt">La Tribune</span>';
+  if (s.indexOf('challenges') >= 0) return '<span class="badge b-ch">Challenges</span>';
+  if (s.indexOf('monde') >= 0)   return '<span class="badge b-lm">Le Monde</span>';
+  if (s.indexOf('reuters') >= 0) return '<span class="badge b-re">Reuters</span>';
+  if (s.indexOf('agefi') >= 0)   return '<span class="badge b-ag">L\'Agefi</span>';
+  if (s.indexOf('boursorama') >= 0) return '<span class="badge b-def">Boursorama</span>';
+  if (s.indexOf('capital') >= 0) return '<span class="badge b-def">Capital</span>';
+  if (s.indexOf('politico') >= 0) return '<span class="badge b-def">Politico</span>';
+  return '<span class="badge b-def">' + (src || 'Web') + '</span>';
 }
 
 function artCard(a) {
-  const url = a.url && a.url.startsWith('http') ? a.url : null;
-  const tag = url ? 'a' : 'div';
-  const attr = url ? `href="${url}" target="_blank"` : '';
-  const isSearch = url && (url.includes('/recherche') || url.includes('/search'));
-  const cta = url
-    ? `<div class="art-cta">${isSearch ? 'Rechercher →' : 'Lire →'}</div>`
-    : '';
-  const body = a.resume ? `<div class="art-body">${a.resume}</div>` : '';
-  return `<${tag} class="art" ${attr}>
-    <div class="art-meta">${badge(a.source)}<span class="art-time">${a.heure||''}</span></div>
-    <div class="art-title">${a.titre||''}</div>
-    ${body}${cta}
-  </${tag}>`;
+  var url = (a.url && a.url.indexOf('http') === 0) ? a.url : null;
+  var tag = url ? 'a' : 'div';
+  var attr = url ? ' href="' + url + '" target="_blank"' : '';
+  var cta = url ? '<div class="art-cta">Lire &rarr;</div>' : '';
+  var body = a.resume ? '<div class="art-body">' + a.resume + '</div>' : '';
+  return '<' + tag + ' class="art"' + attr + '>' +
+    '<div class="art-meta">' + badge(a.source) + '<span class="art-time">' + (a.heure || '') + '</span></div>' +
+    '<div class="art-title">' + (a.titre || '') + '</div>' +
+    body + cta +
+    '</' + tag + '>';
 }
 
-// Sparkline
-function sparkline(vals, dir) {
-  if (!vals || vals.length < 2) return '';
-  const min = Math.min(...vals), max = Math.max(...vals), range = max - min || 1;
-  const W = 120, H = 26;
-  const pts = vals.map((v,i) => {
-    const x = (i / (vals.length-1)) * W;
-    const y = H - ((v-min)/range) * (H-4) - 2;
-    return `${x.toFixed(1)},${y.toFixed(1)}`;
-  }).join(' ');
-  const col = dir==='up' ? 'var(--green)' : dir==='down' ? 'var(--red)' : 'var(--muted)';
-  return `<svg class="sparkline" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
-    <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
-  </svg>`;
+function artList(key) {
+  var list = B[key] && B[key].articles ? B[key].articles : [];
+  if (!list.length) return '<div class="empty-note">Aucun article disponible</div>';
+  var html = '';
+  for (var i = 0; i < list.length; i++) html += artCard(list[i]);
+  return html;
 }
 
-// Metrics card — always shows live data
-const DEFAULT_METRICS = [
-  'CAC 40', 'Eurostoxx 50', 'S&P 500', 'Nasdaq', 'Brent', 'EUR/USD', 'Or'
-];
-
-function metCard(label) {
-  const L = live[label];
-  const val  = L ? L.value  : '—';
-  const chg  = L ? L.change : '...';
-  const dir  = L ? (L.dir==='up'?'up':L.dir==='down'?'dn':'fl') : 'fl';
-  const hist = L ? L.history : null;
-  const pip  = L ? '<span class="live-pip"></span>' : '<span style="font-size:9px;color:var(--mu);margin-left:4px">↻</span>';
-  return `<div class="met" onclick="fetchLive('${label}')">
-    <div class="met-label">${label}${pip}</div>
-    <div class="met-row">
-      <div class="met-val">${val}</div>
-      <div class="met-chg ${dir}">${chg}</div>
-    </div>
-    ${sparkline(hist, L?.dir)}
-  </div>`;
+function metCard(m) {
+  var dir = m.dir === 'up' ? 'up' : m.dir === 'down' ? 'dn' : 'fl';
+  return '<div class="met">' +
+    '<div class="met-label">' + m.label + '</div>' +
+    '<div class="met-row">' +
+    '<div class="met-val">' + m.value + '</div>' +
+    '<div class="met-chg ' + dir + '">' + m.change + '</div>' +
+    '</div>' +
+    '</div>';
 }
 
-// Données de marché live via plusieurs sources
-const MARKET_DATA = {
-  'CAC 40':       {symbol:'CAC', fmt: v => Math.round(v).toLocaleString('fr-FR')},
-  'Eurostoxx 50': {symbol:'SX5E', fmt: v => Math.round(v).toLocaleString('fr-FR')},
-  'S&P 500':      {symbol:'INX', fmt: v => Math.round(v).toLocaleString('fr-FR')},
-  'Nasdaq':       {symbol:'IXIC', fmt: v => Math.round(v).toLocaleString('fr-FR')},
-  'Brent':        {symbol:'BRENT', fmt: v => `${v.toFixed(1)} $`},
-  'EUR/USD':      {symbol:'EURUSD', fmt: v => v.toFixed(4)},
-  'Or':           {symbol:'GOLD', fmt: v => `${Math.round(v).toLocaleString('fr-FR')} $`},
-};
-
-// Stooq API - fonctionne sans auth depuis navigateur
-async function fetchStooq(label) {
-  const stooq = {
-    'CAC 40': '^cac', 'Eurostoxx 50': '^sx5e', 'S&P 500': '^spx',
-    'Nasdaq': '^ndq', 'Brent': 'lcoj25.f', 'EUR/USD': 'eurusd',
-    'Or': 'xauusd'
-  };
-  const sym = stooq[label];
-  if (!sym) return null;
-  const r = await fetch(`https://stooq.com/q/l/?s=${sym}&f=sd2t2ohlcv&h&e=csv`);
-  if (!r.ok) return null;
-  const text = await r.text();
-  const lines = text.trim().split('\n');
-  if (lines.length < 2) return null;
-  const vals = lines[1].split(',');
-  const close = parseFloat(vals[4]);
-  const open  = parseFloat(vals[3]);
-  if (!close || !open) return null;
-  return { price: close, prev: open };
-}
-
-// Frankfurter pour EUR/USD (fallback)
-async function fetchFrankfurter() {
-  const r = await fetch('https://api.frankfurter.app/latest?from=EUR&to=USD');
-  if (!r.ok) return null;
-  const d = await r.json();
-  return d.rates?.USD;
-}
-
-async function fetchLive(label) {
-  try {
-    let cur, prev;
-    if (label === 'EUR/USD') {
-      // Try Frankfurter first for EUR/USD
-      try {
-        const rate = await fetchFrankfurter();
-        if (rate) { cur = rate; prev = rate * 0.999; }
-      } catch(e) {}
-    }
-    if (!cur) {
-      const s = await fetchStooq(label);
-      if (!s) return;
-      cur = s.price; prev = s.prev;
-    }
-    const pct = ((cur-prev)/prev*100).toFixed(2);
-    const dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
-    const fmt = MARKET_DATA[label]?.fmt || (v => v.toFixed(2));
-    live[label] = {
-      value:  fmt(cur),
-      change: `${pct>0?'+':''}${pct}%`,
-      dir:    dir,
-      history: null
-    };
-    if (tab==='m') render('m');
-  } catch(e) {
-    console.log(`Market ${label}:`, e.message);
-  }
-}
-
-async function fetchAllLive() {
-  await Promise.allSettled(Object.keys(MARKET_DATA).map(l => fetchLive(l)));
-}
-
-// Render
 function render(t) {
-  const el = document.getElementById('cnt');
+  var el = document.getElementById('cnt');
   if (!B) { showSkel(); return; }
 
-  if (t==='s') {
-    const pts = (B.synthese?.points||[]).map(p => {
-      const parts = (p.titre||'').split('—');
-      const label = parts[0]?.trim() || '';
-      const rest  = parts[1]?.trim() || p.titre || '';
-      return `<div class="point-item">
-        <div class="point-label">${label}</div>
-        <div class="art-title" style="font-size:14px;margin-bottom:5px">${rest}</div>
-        <div class="point-detail">${p.detail||''}</div>
-      </div>`;
-    }).join('');
-    el.innerHTML = `
-      ${B.alerte ? `<div class="alert-bar">⚡ ${B.alerte}</div>` : ''}
-      <div class="summary-block">
-        <div class="summary-text">${B.synthese?.resume||''}</div>
-      </div>
-      <div class="articles-section">
-        <div class="art-rule">Points clés</div>
-        ${pts}
-      </div>
-      <div class="ts-line">Généré le ${B.timestamp||''}</div>`;
+  if (t === 's') {
+    var alert = B.alerte ? '<div class="alert-bar">' + B.alerte + '</div>' : '';
+    var pts = '';
+    var points = B.synthese && B.synthese.points ? B.synthese.points : [];
+    for (var i = 0; i < points.length; i++) {
+      var p = points[i];
+      var parts = (p.titre || '').split('—');
+      var lbl = parts[0] ? parts[0].trim() : '';
+      var rest = parts[1] ? parts[1].trim() : (p.titre || '');
+      pts += '<div class="pt-item">' +
+        '<div class="pt-label">' + lbl + '</div>' +
+        '<div class="pt-title">' + rest + '</div>' +
+        '<div class="pt-body">' + (p.detail || '') + '</div>' +
+        '</div>';
+    }
+    el.innerHTML = alert +
+      '<div class="sum-block"><div class="sum-text">' + (B.synthese && B.synthese.resume ? B.synthese.resume : '') + '</div></div>' +
+      '<div class="sec-rule">Points cles</div>' + pts +
+      '<div class="ts-line">Genere le ' + (B.timestamp || '') + '</div>';
   }
-
-  else if (t==='m') {
-    const mx = DEFAULT_METRICS.map(l => metCard(l)).join('');
-    const arts = (B.marches?.articles||[]).map(artCard).join('');
-    el.innerHTML = `
-      <div class="metrics-section">
-        <div class="section-rule">Données en temps réel — tap pour rafraîchir</div>
-        <div class="met-grid">${mx}</div>
-      </div>
-      <div class="articles-section">
-        <div class="art-rule">Actualités marchés</div>
-        ${arts||'<div class="empty-note">Aucun article</div>'}
-      </div>`;
+  else if (t === 'm') {
+    var metrics = B.marches && B.marches.metrics ? B.marches.metrics : [];
+    var mx = '';
+    for (var i = 0; i < metrics.length; i++) mx += metCard(metrics[i]);
+    var arts = artList('marches');
+    el.innerHTML =
+      '<div class="met-sec"><div class="sec-rule" style="padding:0 0 8px;margin-bottom:8px">Indices et taux du jour</div>' +
+      '<div class="met-grid">' + mx + '</div></div>' +
+      '<div class="art-rule">Actualites marches</div>' + arts;
   }
-
   else {
-    const cfg = {
-      e:{key:'entreprises', label:'Résultats & entreprises'},
-      a:{key:'ma',          label:'Fusions, acquisitions & PE'},
-      k:{key:'macro',       label:'Macroéconomie France & Europe'},
-      p:{key:'politique',   label:'Politique économique & géopolitique'}
+    var cfg = {
+      e: {key:'entreprises', label:'Resultats et vie des entreprises'},
+      a: {key:'ma',          label:'Fusions, acquisitions et PE'},
+      k: {key:'macro',       label:'Macroeconomie France et Europe'},
+      p: {key:'politique',   label:'Politique economique et geopolitique'}
     };
-    const c = cfg[t];
-    const list = B[c.key]?.articles || [];
-    el.innerHTML = `
-      <div class="articles-section">
-        <div class="art-rule">${c.label}</div>
-        ${list.length ? list.map(artCard).join('') : '<div class="empty-note">Aucun article disponible</div>'}
-      </div>`;
+    var c = cfg[t];
+    el.innerHTML = '<div class="art-rule">' + c.label + '</div>' + artList(c.key);
   }
 }
 
-// Load
-async function refresh() {
-  const btn = document.getElementById('rbtn');
-  btn.disabled = true; btn.textContent = '…';
+function load() {
+  document.getElementById('rbtn').disabled = true;
+  document.getElementById('rbtn').textContent = '...';
   showSkel();
-  try {
-    const r = await fetch(`briefing.json?t=${Date.now()}`);
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    B = await r.json();
-    document.getElementById('hts').textContent = `Mis à jour ${B.timestamp||''}`;
-    render(tab);
-    // Live data en arrière-plan
-    fetchAllLive().then(() => { if (tab==='m') render('m'); });
-  } catch(e) {
-    document.getElementById('cnt').innerHTML = `
-      <div class="empty-note" style="padding:48px 20px">
-        <div style="font-family:'Playfair Display',serif;font-size:20px;margin-bottom:10px;color:var(--ink)">Pas encore de briefing</div>
-        <div style="line-height:1.7">Le briefing est généré à 7h chaque matin.<br>GitHub → Actions → Run workflow</div>
-      </div>`;
-  }
-  btn.disabled = false; btn.textContent = 'Actualiser';
+  fetch('briefing.json?t=' + Date.now())
+    .then(function(r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function(data) {
+      B = data;
+      if (B.timestamp) document.getElementById('hts').textContent = B.timestamp;
+      render(tab);
+    })
+    .catch(function(e) {
+      document.getElementById('cnt').innerHTML =
+        '<div class="empty-note" style="padding:48px 20px">' +
+        '<div style="font-family:\'Playfair Display\',serif;font-size:20px;margin-bottom:10px">Pas encore de briefing</div>' +
+        '<div style="line-height:1.7">Le briefing est genere a 7h chaque matin.<br>GitHub &rarr; Actions &rarr; Run workflow</div>' +
+        '</div>';
+    })
+    .finally(function() {
+      document.getElementById('rbtn').disabled = false;
+      document.getElementById('rbtn').textContent = 'Actualiser';
+    });
 }
 
-refresh();
+load();
 </script>
 </body>
 </html>
