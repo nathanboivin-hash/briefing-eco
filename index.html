@@ -416,8 +416,7 @@ async function fetchStooq(label) {
   const r = await fetch(`https://stooq.com/q/l/?s=${sym}&f=sd2t2ohlcv&h&e=csv`);
   if (!r.ok) return null;
   const text = await r.text();
-  const lines = text.trim().split('
-');
+  const lines = text.trim().split('\n');
   if (lines.length < 2) return null;
   const vals = lines[1].split(',');
   const close = parseFloat(vals[4]);
