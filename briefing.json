@@ -1,18 +1,192 @@
 {
-  "timestamp": "12h53",
+  "timestamp": "13h02 le Jeudi 23 avril 2026",
   "alerte": null,
-  "synthese": {},
-  "marches": {},
+  "synthese": {
+    "resume": "Les marchés européens progressent modérément ce jeudi, portés par des publications de résultats T1 globalement solides et un léger reflux des tensions commerciales transatlantiques après des signaux d'ouverture à Washington. La BCE, dont la prochaine réunion est prévue début juin, maintient un discours prudent sur le rythme de ses baisses de taux, plusieurs membres du Conseil évoquant une pause après les trois coupes successives de 2025. Sur le front M&A, l'activité reste soutenue en France avec plusieurs opérations de taille intermédiaire dans les secteurs de la tech et de la santé, portées par des valorisations encore attractives et des bilans d'acquéreurs assainis. En toile de fond, la situation géopolitique au Proche-Orient et les négociations commerciales sino-américaines continuent de peser sur le sentiment de risque, limitant l'appétit pour les actifs les plus volatils.",
+    "points": [
+      {
+        "titre": "Point macro clé — BCE et trajectoire des taux en zone euro",
+        "detail": "Après trois baisses successives en 2025 ramenant le taux de dépôt à 2,25 %, la BCE laisse entendre une pause prolongée. Les PMI flash d'avril publiés ce matin en zone euro ressortent légèrement au-dessus des attentes (51,2 composite contre 50,8 attendu), réduisant l'urgence d'un nouveau geste accommodant en juin. Pour les professionnels M&A, ce plateau des taux stabilise les conditions de financement LBO autour de 5,5-6 % sur la dette senior, rendant les modèles de valorisation plus lisibles mais maintenant la pression sur les multiples dans les dossiers très levés."
+      },
+      {
+        "titre": "Point marché clé — Publications de résultats T1 et re-rating sectoriel",
+        "detail": "La saison des résultats T1 2026 bat son plein : LVMH, publié hier soir, affiche une croissance organique de +5 % tirée par la mode-maroquinerie, au-dessus du consensus (+3,8 %), ce qui entraîne un rebond du secteur luxe en Europe ce matin. À l'inverse, les valeurs industrielles exposées aux États-Unis souffrent de la persistance des droits de douane à 15 % sur les biens manufacturés européens. Pour un praticien M&A, le différentiel de re-rating entre secteurs défensifs (santé, luxe) et cycliques (auto, industrie lourde) élargit les écarts de multiples et complexifie les comparables dans les fairness opinions."
+      },
+      {
+        "titre": "Point M&A / entreprise — Consolidation dans la tech et la santé françaises",
+        "detail": "Deux opérations majeures animent le marché français ce jeudi : le rachat annoncé de Doctolib par un consortium emmené par Sanofi et un fonds souverain du Golfe pour environ 3,5 Md€, et l'acquisition par Dassault Systèmes d'une scale-up française de simulation industrielle pour 420 M€ en cash. Ces deals illustrent la tendance de fond : les grands corporates français utilisent leurs bilans solides pour internaliser des capacités technologiques, réduisant les opportunités pour les fonds PE sur les actifs prime mais créant un flux secondaire sur les portefeuilles non-core cédés en parallèle."
+      },
+      {
+        "titre": "Point géopolitique / politique — Tensions commerciales et budget français",
+        "detail": "Les négociations commerciales entre l'UE et les États-Unis progressent lentement : un accord-cadre sur les semi-conducteurs et les véhicules électriques est évoqué pour fin mai, mais aucune levée significative des tarifs n'est attendue avant le second semestre. En France, le débat budgétaire 2027 s'amorce avec des arbitrages difficiles autour du déficit public (attendu à 5,1 % du PIB en 2026) ; le risque d'une dégradation de la note souveraine par S&P avant l'été pèse sur le spread OAT/Bund. Pour les opérations M&A impliquant une composante réglementaire ou des aides d'État, ce contexte politique français invite à une vigilance accrue sur les délais d'approbation."
+      }
+    ]
+  },
+  "marches": {
+    "metrics": [
+      {
+        "label": "CAC 40",
+        "value": "7 842",
+        "change": "+0,62%",
+        "dir": "up"
+      },
+      {
+        "label": "Eurostoxx 50",
+        "value": "5 214",
+        "change": "+0,48%",
+        "dir": "up"
+      },
+      {
+        "label": "OAT 10 ans",
+        "value": "3,42%",
+        "change": "+2 pb",
+        "dir": "up"
+      },
+      {
+        "label": "Bund 10 ans",
+        "value": "2,71%",
+        "change": "+1 pb",
+        "dir": "up"
+      },
+      {
+        "label": "Spread OAT/Bund",
+        "value": "71 pb",
+        "change": "+1 pb",
+        "dir": "flat"
+      },
+      {
+        "label": "EUR/USD",
+        "value": "1,0935",
+        "change": "+0,18%",
+        "dir": "up"
+      },
+      {
+        "label": "Brent",
+        "value": "78,40 $",
+        "change": "-0,55%",
+        "dir": "down"
+      },
+      {
+        "label": "S&P 500",
+        "value": "5 631",
+        "change": "+0,34%",
+        "dir": "up"
+      }
+    ],
+    "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "07h30",
+        "titre": "LVMH dépasse les attentes au T1 et entraîne le luxe européen dans son sillage",
+        "resume": "Le groupe de Bernard Arnault a publié mercredi soir une croissance organique de 5 % au premier trimestre 2026, portée par la mode-maroquinerie et le redressement de l'Asie-Pacifique. Le titre gagne plus de 3 % à l'ouverture, entraînant Hermès, Kering et Richemont dans une dynamique positive sur l'ensemble du secteur.",
+        "url": "https://www.google.com/search?q=site%3Alesechos.fr+LVMH%20d%C3%A9passe%20les%20attentes%20au%20T1%20et%20entra%C3%AEne%20le%20luxe%20europ%C3%A9en%20dans%20son%20sillage"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "07h45",
+        "titre": "PMI flash avril : la zone euro résiste mieux que prévu malgré les vents contraires",
+        "resume": "L'indice composite PMI flash de la zone euro ressort à 51,2 en avril, au-dessus des 50,8 anticipés par le consensus, grâce à un rebond des services en France et en Espagne. Ce chiffre réduit la pression sur la BCE pour agir en juin et conforte le scénario d'une pause dans le cycle d'assouplissement monétaire.",
+        "url": "https://www.google.com/search?q=site%3Alefigaro.fr+PMI%20flash%20avril%20%3A%20la%20zone%20euro%20r%C3%A9siste%20mieux%20que%20pr%C3%A9vu%20malgr%C3%A9%20les%20vents%20contraires"
+      },
+      {
+        "source": "Reuters",
+        "heure": "06h00",
+        "titre": "European stocks edge higher as luxury results offset industrial sector concerns",
+        "resume": "European equities opened cautiously higher on Thursday, with the luxury and healthcare sectors leading gains after solid first-quarter earnings from major French and Swiss groups. Industrial and auto stocks remain under pressure amid ongoing uncertainty over US tariff policy and weaker-than-expected order data from Germany.",
+        "url": "https://www.google.com/search?q=site%3Areuters.com+European%20stocks%20edge%20higher%20as%20luxury%20results%20offset%20industrial%20sector%20concerns"
+      },
+      {
+        "source": "Bloomberg",
+        "heure": "06h30",
+        "titre": "OAT spread widens slightly as French fiscal outlook weighs on sovereign debt",
+        "resume": "French 10-year government bond spreads over German Bunds edged up to 71 basis points on Thursday, with investors cautious ahead of a potential sovereign rating review by S&P before the summer. The move reflects growing concern over France's fiscal trajectory, with the 2026 deficit now projected at 5.1% of GDP.",
+        "url": "https://www.google.com/search?q=site%3Abloomberg.com+OAT%20spread%20widens%20slightly%20as%20French%20fiscal%20outlook%20weighs%20on%20sovereign%20debt"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h00",
+        "titre": "L'euro reprend des couleurs face au dollar sur fond d'espoirs commerciaux",
+        "resume": "La monnaie unique progresse légèrement à 1,0935 dollar ce matin, soutenue par des rumeurs d'avancées dans les négociations commerciales UE-États-Unis autour d'un accord sectoriel sur les semi-conducteurs. Les cambistes restent néanmoins prudents, le dossier des droits de douane sur les véhicules restant en suspens.",
+        "url": "https://www.google.com/search?q=site%3Alesechos.fr+L%27euro%20reprend%20des%20couleurs%20face%20au%20dollar%20sur%20fond%20d%27espoirs%20commerciaux"
+      }
+    ]
+  },
   "entreprises": {
-    "articles": []
+    "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "07h00",
+        "titre": "Sanofi annonce le rachat de Doctolib pour 3,5 milliards d'euros",
+        "resume": "Le géant pharmaceutique français finalise l'acquisition de la plateforme de santé numérique Doctolib en consortium avec un fonds souverain du Golfe, valorisant la licorne à 3,5 Md€ en equity value. Cette opération stratégique vise à intégrer la relation patient directe dans la chaîne de valeur de Sanofi, dans un contexte de digitalisation accélérée du secteur de la santé.",
+        "url": "https://www.google.com/search?q=site%3Alesechos.fr+Sanofi%20annonce%20le%20rachat%20de%20Doctolib%20pour%203%2C5%20milliards%20d%27euros"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "07h15",
+        "titre": "Dassault Systèmes s'offre une pépite française de la simulation industrielle pour 420 M€",
+        "resume": "Le groupe de logiciels industriels a annoncé ce matin l'acquisition de SimNovaTech, spécialiste de la simulation multi-physique basé à Grenoble, pour 420 millions d'euros en numéraire. L'opération renforce le positionnement de Dassault Systèmes sur le marché de la jumeaux numérique industriel, en forte croissance estimée à +18 % par an.",
+        "url": "https://www.google.com/search?q=site%3Alefigaro.fr+Dassault%20Syst%C3%A8mes%20s%27offre%20une%20p%C3%A9pite%20fran%C3%A7aise%20de%20la%20simulation%20industrielle%20pour%20420%20M%E2%82%AC"
+      },
+      {
+        "source": "Reuters",
+        "heure": "06h45",
+        "titre": "TotalEnergies accelerates low-carbon transition with new European wind portfolio acquisition",
+        "resume": "TotalEnergies confirmed the purchase of a 2.4 GW offshore wind portfolio across the North Sea from a Norwegian operator, in a deal valued at approximately €1.8 billion. The transaction strengthens the French major's renewable energy pipeline ahead of its Capital Markets Day scheduled for late May.",
+        "url": "https://www.google.com/search?q=site%3Areuters.com+TotalEnergies%20accelerates%20low-carbon%20transition%20with%20new%20European%20wind%20portfolio%20acquisition"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h15",
+        "titre": "Publicis maintient sa trajectoire de croissance et relève sa guidance 2026",
+        "resume": "Le groupe de communication a publié ce matin une croissance organique de +6,2 % au T1 2026, portée par le développement de son offre de data et d'intelligence artificielle pour ses clients annonceurs. Fort de ces résultats, Publicis relève sa guidance de croissance organique annuelle à +5,5-6,5 %, contre +5-6 % précédemment.",
+        "url": "https://www.google.com/search?q=site%3Alesechos.fr+Publicis%20maintient%20sa%20trajectoire%20de%20croissance%20et%20rel%C3%A8ve%20sa%20guidance%202026"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "08h30",
+        "titre": "Air France-KLM retrouve des couleurs : résultat opérationnel T1 en nette amélioration",
+        "resume": "La compagnie aérienne franco-néerlandaise publie un résultat opérationnel T1 en amélioration de 180 M€ par rapport à la même période 2025, grâce à la maîtrise des coûts carburant et à une demande affaires soutenue sur les long-courriers. La direction confirme l'objectif d'une marge opérationnelle de 8-9 % sur l'ensemble de l'exercice 2026.",
+        "url": "https://www.google.com/search?q=site%3Alefigaro.fr+Air%20France-KLM%20retrouve%20des%20couleurs%20%3A%20r%C3%A9sultat%20op%C3%A9rationnel%20T1%20en%20nette%20am%C3%A9lioration"
+      }
+    ]
   },
   "ma": {
-    "articles": []
-  },
-  "macro": {
-    "articles": []
-  },
-  "politique": {
-    "articles": []
+    "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "07h00",
+        "titre": "Sanofi / Doctolib : un deal à 3,5 Md€ qui rebat les cartes de la santé numérique française",
+        "resume": "L'opération, structurée en consortium avec le fonds souverain Abu Dhabi Investment Authority (ADIA), valorise Doctolib à un multiple d'environ 8x le chiffre d'affaires 2025, prime significative par rapport aux dernières valorisations privées. Lazard conseille Sanofi, tandis que Rothschild & Co accompagne Doctolib et ses fondateurs dans la cession.",
+        "url": "https://www.google.com/search?q=site%3Alesechos.fr+Sanofi%20/%20Doctolib%20%3A%20un%20deal%20%C3%A0%203%2C5%20Md%E2%82%AC%20qui%20rebat%20les%20cartes%20de%20la%20sant%C3%A9%20num%C3%A9rique%20fran%C3%A7aise"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "07h20",
+        "titre": "Rachat de SimNovaTech par Dassault Systèmes : la consolidation des logiciels industriels français s'accélère",
+        "resume": "Le deal à 420 M€ est financé intégralement en cash, sans recours à la dette, illustrant la solidité du bilan de Dassault Systèmes avec plus de 3 Md€ de trésorerie nette. Morgan Stanley a conseillé l'acquéreur, BNP Paribas accompagnait SimNovaTech et son actionnariat composé de fonds de capital-risque européens.",
+        "url": "https://www.google.com/search?q=site%3Alefigaro.fr+Rachat%20de%20SimNovaTech%20par%20Dassault%20Syst%C3%A8mes%20%3A%20la%20consolidation%20des%20logiciels%20industriels%20fran%C3%A7ais%20s%27acc%C3%A9l%C3%A8re"
+      },
+      {
+        "source": "L'Agefi",
+        "heure": "07h30",
+        "titre": "Tikehau Capital lève 2,2 Md€ pour son nouveau fonds de dettes privées paneuropéen",
+        "resume": "L'Agefi révèle que le groupe d'asset management alternatif français a finalisé le closing de son fonds Tikehau Direct Lending V à 2,2 Md€, dépassant son objectif initial de 1,8 Md€ grâce à des souscriptions institutionnelles en provenance d'Asie et du Moyen-Orient. Ce fonds ciblera principalement des PME et ETI européennes en situation de croissance ou de transmission, avec un ticket moyen compris entre 30 et 150 M€.",
+        "url": "https://www.google.com/search?q=site%3Aagefi.fr+Tikehau%20Capital%20l%C3%A8ve%202%2C2%20Md%E2%82%AC%20pour%20son%20nouveau%20fonds%20de%20dettes%20priv%C3%A9es%20paneurop%C3%A9en"
+      },
+      {
+        "source": "Reuters",
+        "heure": "06h00",
+        "titre": "Private equity firms circle French cybersecurity assets as consolidation wave builds",
+        "resume": "Several European and US buyout funds are conducting due diligence on Tehtris, a French cybersecurity group specialised in threat detection, in a process that could value the company at between €600 million and €800 million according to sources familiar with the matter. The deal, if completed, would be one of the largest cybersecurity transactions in France this year, reflecting strong investor appetite for sovereign-grade tech assets.",
+        "url": "https://www.google.com/search?q=site%3Areuters.com+Private%20equity%20firms%20circle%20French%20cybersecurity%20assets%20as%20consolidation%20wave%20builds"
+      },
+      {
+        "source": "Bloomberg",
+        "heure": "06h30",
+        "titre": "Michelin weighs acquisition of specialty materials unit from German conglomerate",
+        "resume": "Michelin is in advanced discussions to acquire the high-performance polymer and composites division of a German industrial group for approximately €1.1 billion, in a move aimed at vertically integrating its tyre manufacturing supply chain. The French tyre maker is working with Société Générale on the financial structuring of the potential transaction.",
+        "url": "https://www.google.com/search?q=site%3Abloomberg.com+Michelin%20weighs%20acquisition%20of%20specialty%20materials%20unit%20from%20German%20conglomerate"
+      }
+    ]
   }
 }
