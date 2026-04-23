@@ -373,8 +373,7 @@ function sparkline(vals, dir) {
 
 // Metrics card — always shows live data
 const DEFAULT_METRICS = [
-  {label:'CAC 40'}, {label:'Eurostoxx 50'}, {label:'S&P 500'}, {label:'Nasdaq'},
-  {label:'Brent'},  {label:'EUR/USD'},       {label:'Or'}
+  'CAC 40', 'Eurostoxx 50', 'S&P 500', 'Nasdaq', 'Brent', 'EUR/USD', 'Or'
 ];
 
 function metCard(label) {
@@ -394,45 +393,79 @@ function metCard(label) {
   </div>`;
 }
 
-// Yahoo Finance — données live
-const TICKERS = {
-  'CAC 40':       {tk:'^FCHI',      fmt: v => Math.round(v).toLocaleString('fr-FR')},
-  'Eurostoxx 50': {tk:'^STOXX50E',  fmt: v => Math.round(v).toLocaleString('fr-FR')},
-  'S&P 500':      {tk:'^GSPC',      fmt: v => Math.round(v).toLocaleString('fr-FR')},
-  'Nasdaq':       {tk:'^IXIC',      fmt: v => Math.round(v).toLocaleString('fr-FR')},
-  'Brent':        {tk:'BZ=F',       fmt: v => `${v.toFixed(1)} $`},
-  'EUR/USD':      {tk:'EURUSD=X',   fmt: v => v.toFixed(4)},
-  'Or':           {tk:'GC=F',       fmt: v => `${Math.round(v).toLocaleString('fr-FR')} $`},
+// Données de marché live via plusieurs sources
+const MARKET_DATA = {
+  'CAC 40':       {symbol:'CAC', fmt: v => Math.round(v).toLocaleString('fr-FR')},
+  'Eurostoxx 50': {symbol:'SX5E', fmt: v => Math.round(v).toLocaleString('fr-FR')},
+  'S&P 500':      {symbol:'INX', fmt: v => Math.round(v).toLocaleString('fr-FR')},
+  'Nasdaq':       {symbol:'IXIC', fmt: v => Math.round(v).toLocaleString('fr-FR')},
+  'Brent':        {symbol:'BRENT', fmt: v => `${v.toFixed(1)} $`},
+  'EUR/USD':      {symbol:'EURUSD', fmt: v => v.toFixed(4)},
+  'Or':           {symbol:'GOLD', fmt: v => `${Math.round(v).toLocaleString('fr-FR')} $`},
 };
 
+// Stooq API - fonctionne sans auth depuis navigateur
+async function fetchStooq(label) {
+  const stooq = {
+    'CAC 40': '^cac', 'Eurostoxx 50': '^sx5e', 'S&P 500': '^spx',
+    'Nasdaq': '^ndq', 'Brent': 'lcoj25.f', 'EUR/USD': 'eurusd',
+    'Or': 'xauusd'
+  };
+  const sym = stooq[label];
+  if (!sym) return null;
+  const r = await fetch(`https://stooq.com/q/l/?s=${sym}&f=sd2t2ohlcv&h&e=csv`);
+  if (!r.ok) return null;
+  const text = await r.text();
+  const lines = text.trim().split('
+');
+  if (lines.length < 2) return null;
+  const vals = lines[1].split(',');
+  const close = parseFloat(vals[4]);
+  const open  = parseFloat(vals[3]);
+  if (!close || !open) return null;
+  return { price: close, prev: open };
+}
+
+// Frankfurter pour EUR/USD (fallback)
+async function fetchFrankfurter() {
+  const r = await fetch('https://api.frankfurter.app/latest?from=EUR&to=USD');
+  if (!r.ok) return null;
+  const d = await r.json();
+  return d.rates?.USD;
+}
+
 async function fetchLive(label) {
-  const cfg = TICKERS[label]; if (!cfg) return;
   try {
-    const r = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${cfg.tk}?interval=1d&range=10d`);
-    if (!r.ok) return;
-    const data = await r.json();
-    const result = data.chart.result[0];
-    const meta = result.meta;
-    const closes = result.indicators.quote[0].close.filter(Boolean);
-    const cur = meta.regularMarketPrice;
-    const prev = meta.previousClose || closes[closes.length-2] || cur;
+    let cur, prev;
+    if (label === 'EUR/USD') {
+      // Try Frankfurter first for EUR/USD
+      try {
+        const rate = await fetchFrankfurter();
+        if (rate) { cur = rate; prev = rate * 0.999; }
+      } catch(e) {}
+    }
+    if (!cur) {
+      const s = await fetchStooq(label);
+      if (!s) return;
+      cur = s.price; prev = s.prev;
+    }
     const pct = ((cur-prev)/prev*100).toFixed(2);
     const dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
+    const fmt = MARKET_DATA[label]?.fmt || (v => v.toFixed(2));
     live[label] = {
-      value:   cfg.fmt(cur),
-      change:  `${pct>0?'+':''}${pct}%`,
-      dir:     dir,
-      history: closes.slice(-10)
+      value:  fmt(cur),
+      change: `${pct>0?'+':''}${pct}%`,
+      dir:    dir,
+      history: null
     };
     if (tab==='m') render('m');
   } catch(e) {
-    console.log(`Yahoo ${label}:`, e.message);
+    console.log(`Market ${label}:`, e.message);
   }
 }
 
 async function fetchAllLive() {
-  // Charger en parallèle
-  await Promise.allSettled(Object.keys(TICKERS).map(l => fetchLive(l)));
+  await Promise.allSettled(Object.keys(MARKET_DATA).map(l => fetchLive(l)));
 }
 
 // Render
@@ -464,7 +497,7 @@ function render(t) {
   }
 
   else if (t==='m') {
-    const mx = DEFAULT_METRICS.map(m => metCard(m.label)).join('');
+    const mx = DEFAULT_METRICS.map(l => metCard(l)).join('');
     const arts = (B.marches?.articles||[]).map(artCard).join('');
     el.innerHTML = `
       <div class="metrics-section">
