@@ -3,126 +3,152 @@ import json
 import re
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+import urllib.error
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone, timedelta
 
 PERIGON_KEY = "51d90d54-03df-4bec-910e-ac40924fb42e"
 client = anthropic.Anthropic()
 
-# ── PERIGON ──
-def perigon_fetch(params):
-    """Fetch articles from Perigon API."""
-    base = "https://api.goperigon.com/v1/all?"
-    params["language"] = "fr"
-    params["sortBy"] = "date"
-    params["pageSize"] = params.get("pageSize", 10)
-    url = base + urllib.parse.urlencode(params)
-    # Try both auth methods
-    for headers in [
-        {"User-Agent": "Mozilla/5.0", "x-api-key": PERIGON_KEY},
-        {"User-Agent": "Mozilla/5.0", "Authorization": f"Bearer {PERIGON_KEY}"},
-    ]:
-        try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                data = json.loads(resp.read())
-                if data.get("articles"):
-                    return data
-        except urllib.error.HTTPError as e:
-            body = e.read().decode()[:200]
-            print(f"  HTTP {e.code}: {body}")
-        except Exception as e:
-            print(f"  Erreur: {e}")
-    # Last attempt with apiKey param
-    url2 = url + f"&apiKey={PERIGON_KEY}"
-    req = urllib.request.Request(url2, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=10) as resp:
-        return json.loads(resp.read())
-
-def get_articles():
-    """Fetch articles by topic from Perigon."""
-    all_articles = []
-
-    queries = [
-        # Marchés & Finance
-        {"q": "bourse CAC marchés financiers taux", "pageSize": 8},
-        # Entreprises
-        {"q": "résultats entreprise stratégie acquisition France", "pageSize": 8},
-        # M&A
-        {"q": "fusion acquisition rachat cession LBO private equity", "pageSize": 8},
-        # Macro
-        {"q": "BCE inflation croissance conjoncture économie France zone euro", "pageSize": 8},
-        # Politique
-        {"q": "politique économique budget France gouvernement géopolitique", "pageSize": 8},
+# ── DATE HELPERS ──
+def parse_date(s):
+    if not s:
+        return None
+    s = s.strip()
+    formats = [
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%a, %d %b %Y %H:%M:%S GMT",
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%S.%f%z",
+        "%Y-%m-%dT%H:%M:%SZ",
     ]
+    for fmt in formats:
+        try:
+            return datetime.strptime(s, fmt).replace(tzinfo=timezone.utc)
+        except:
+            pass
+    # Try fromisoformat
+    try:
+        s2 = s.replace("Z", "+00:00")
+        return datetime.fromisoformat(s2).astimezone(timezone.utc)
+    except:
+        pass
+    return None
 
+def is_recent(pub_str, hours=36):
+    """True if article published within last N hours."""
+    dt = parse_date(pub_str)
+    if not dt:
+        return True  # keep if can't parse
+    now = datetime.now(timezone.utc)
+    return (now - dt) < timedelta(hours=hours)
+
+def fmt_heure(pub_str):
+    dt = parse_date(pub_str)
+    if not dt:
+        return ""
+    paris = dt + timedelta(hours=2)
+    return f"{paris.hour:02d}h{paris.minute:02d}"
+
+# ── RSS SOURCES (gratuits, fiables, économie FR) ──
+RSS_SOURCES = [
+    ("Reuters France",  "https://fr.reuters.com/news/rss/topNews"),
+    ("Reuters France",  "https://fr.reuters.com/news/rss/businessNews"),
+    ("BFM Business",    "https://www.bfmtv.com/rss/economie/"),
+    ("BFM Business",    "https://www.bfmtv.com/rss/bourse/"),
+    ("La Tribune",      "https://www.latribune.fr/rss/rubriques/economie.html"),
+    ("La Tribune",      "https://www.latribune.fr/rss/rubriques/entreprises-finance.html"),
+    ("Boursorama",      "https://www.boursorama.com/rss/actualites/"),
+    ("Le Monde Éco",    "https://www.lemonde.fr/economie/rss_full.xml"),
+    ("Le Monde Éco",    "https://www.lemonde.fr/entreprises/rss_full.xml"),
+    ("Challenges",      "https://www.challenges.fr/rss.xml"),
+    ("Capital",         "https://www.capital.fr/feed"),
+    ("L'Agefi",         "https://www.agefi.fr/rss/finance.xml"),
+    ("Politico EU",     "https://www.politico.eu/rss"),
+]
+
+def fetch_rss(source, url):
+    try:
+        req = urllib.request.Request(
+            url, headers={"User-Agent": "Mozilla/5.0 (compatible; briefing-bot/1.0)"}
+        )
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            data = resp.read()
+        root = ET.fromstring(data)
+        items = []
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            link  = (item.findtext("link")  or "").strip()
+            pub   = (item.findtext("pubDate") or "").strip()
+            desc  = (item.findtext("description") or "").strip()
+            # Strip HTML from description
+            desc = re.sub(r"<[^>]+>", "", desc)[:250]
+            if title and link and is_recent(pub, hours=36):
+                items.append({
+                    "source": source, "titre": title,
+                    "url": link, "resume": desc,
+                    "pub": pub, "heure": fmt_heure(pub)
+                })
+        return items
+    except Exception as e:
+        print(f"  RSS {source}: {e}")
+        return []
+
+def get_rss_articles():
+    all_articles = []
+    seen_urls = set()
+    for source, url in RSS_SOURCES:
+        items = fetch_rss(source, url)
+        for a in items:
+            if a["url"] not in seen_urls:
+                seen_urls.add(a["url"])
+                all_articles.append(a)
+    print(f"  RSS total: {len(all_articles)} articles")
+    return all_articles
+
+# ── PERIGON (uniquement Les Echos + Le Figaro) ──
+def get_perigon_articles():
+    articles = []
+    queries = [
+        {"source": "lesechos.fr",  "nom": "Les Echos",  "q": "économie finance marchés entreprises"},
+        {"source": "lefigaro.fr",  "nom": "Le Figaro",  "q": "économie finance marchés entreprises"},
+    ]
     for q in queries:
         try:
-            data = perigon_fetch(q)
+            params = urllib.parse.urlencode({
+                "apiKey":   PERIGON_KEY,
+                "language": "fr",
+                "sortBy":   "date",
+                "pageSize": 15,
+                "source":   q["source"],
+            })
+            url = f"https://api.goperigon.com/v1/all?{params}"
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = json.loads(resp.read())
             arts = data.get("articles", [])
-            if arts:
-                # Log all keys on first article for debugging
-                print(f"  Sample keys: {list(arts[0].keys())}")
-                print(f"  Sample values: { {k: str(v)[:50] for k,v in arts[0].items()} }")
+            count = 0
             for a in arts:
-                # source est une string repr de dict ex: "{'domain': 'lesechos.fr', ...}"
-                src_raw = a.get("source", "")
-                import re as _re
-                domain_match = _re.search(r"'domain': '([^']+)'", str(src_raw))
-                source = domain_match.group(1) if domain_match else str(src_raw)[:30]
-                # Simplifier le nom de domaine
-                source = source.replace("www.","").split(".")[0].title()
-                # Noms connus
-                domain_names = {
-                    "lesechos": "Les Echos",
-                    "lefigaro": "Le Figaro",
-                    "latribune": "La Tribune",
-                    "bfmtv": "BFM Business",
-                    "boursorama": "Boursorama",
-                    "reuters": "Reuters",
-                    "lemonde": "Le Monde",
-                    "capital": "Capital",
-                    "challenges": "Challenges",
-                    "agefi": "L'Agefi",
-                    "laprovence": "La Provence",
-                    "leparisien": "Le Parisien",
-                }
-                raw_domain = domain_match.group(1).replace("www.","").split(".")[0] if domain_match else ""
-                source = domain_names.get(raw_domain, source)
-
                 titre = (a.get("title") or "").strip()
-                url   = (a.get("url") or "").strip()
-                desc  = (a.get("description") or a.get("shortSummary") or a.get("summary") or "").strip()
+                url_  = (a.get("url") or "").strip()
                 pub   = (a.get("pubDate") or a.get("addDate") or "").strip()
-                country = a.get("country","")
-
-                # Garder seulement articles FR ou sources françaises connues
-                is_fr = country == "fr" or raw_domain in domain_names
-                if titre and url and is_fr:
-                    all_articles.append({
-                        "source": source,
+                desc  = (a.get("description") or a.get("shortSummary") or "").strip()
+                if titre and url_ and is_recent(pub, hours=36):
+                    articles.append({
+                        "source": q["nom"],
                         "titre":  titre,
-                        "url":    url,
-                        "resume": desc[:250] if desc else "",
+                        "url":    url_,
+                        "resume": desc[:250],
                         "pub":    pub,
+                        "heure":  fmt_heure(pub),
                     })
-            print(f"  '{q['q'][:40]}': {len(arts)} articles")
+                    count += 1
+            print(f"  Perigon {q['nom']}: {count} articles récents")
         except Exception as e:
-            print(f"  Erreur Perigon ({q['q'][:30]}): {e}")
+            print(f"  Perigon {q['nom']}: {e}")
+    return articles
 
-    # Dédoublonnage par URL (garder même si URL vide)
-    seen = set()
-    unique = []
-    for a in all_articles:
-        key = a["url"] if a["url"] else a["titre"]
-        if key and key not in seen:
-            seen.add(key)
-            unique.append(a)
-        elif not key:
-            unique.append(a)
-
-    print(f"  Total unique: {len(unique)} articles")
-    return unique
-
+# ── CLAUDE HAIKU : classification + synthèse ──
 def parse_json(text):
     s = text.find('{')
     if s == -1:
@@ -147,58 +173,37 @@ def parse_json(text):
     raise ValueError("Unmatched braces")
 
 def synthesize(articles, today, ts):
-    """Single Haiku call: classify articles into sections + generate synthesis."""
-
-    # Pass articles as numbered list
+    date_short = datetime.now().strftime("%d/%m/%Y")
     ctx = "\n".join(
-        f"[{i}] {a['source']} | {a['titre']}" + (f" | {a['resume'][:80]}" if a['resume'] else "")
+        f"[{i}] {a['source']} | {a['heure']} | {a['titre']}"
         for i, a in enumerate(articles)
     )
+    prompt = f"""Analyste M&A senior à Paris. Date: {today} {ts}.
 
-    date_short = datetime.now().strftime("%d/%m/%Y")
-
-    prompt = f"""Tu es analyste financier senior à Paris. Date: {today} {ts}.
-
-Voici {len(articles)} vrais articles récupérés aujourd'hui :
+{len(articles)} vrais articles d'aujourd'hui :
 {ctx}
 
-Génère un briefing JSON. Pour chaque section, utilise les INDEX des articles les plus pertinents.
-Les articles gardent leur URL originale — ne les modifie pas.
+Génère le briefing JSON. Pour chaque section mets les INDEX les plus pertinents (5-7 par section, pas de répétition inutile). Remplis TOUTES les sections.
 
-JSON uniquement sans backticks :
+JSON sans backticks :
 {{
   "timestamp": "{ts} le {date_short}",
   "alerte": null,
   "synthese": {{
-    "resume": "4 phrases synthèse de l'actu éco du jour avec chiffres clés",
+    "resume": "4 phrases synthèse actu éco du jour, chiffres précis",
     "points": [
-      {{"titre": "Marchés", "detail": "analyse marchés avec chiffres"}},
+      {{"titre": "Marchés", "detail": "analyse avec chiffres"}},
       {{"titre": "Macro", "detail": "conjoncture avec chiffres"}},
-      {{"titre": "Entreprises / M&A", "detail": "actu corporate du jour"}},
-      {{"titre": "Politique / Géo", "detail": "impact politique-économique"}}
+      {{"titre": "Entreprises / M&A", "detail": "actu corporate"}},
+      {{"titre": "Politique / Géo", "detail": "impact économique"}}
     ]
   }},
-  "marches": {{
-    "metrics": [
-      {{"label": "CAC 40", "value": "?", "change": "?", "dir": "up"}},
-      {{"label": "Eurostoxx 50", "value": "?", "change": "?", "dir": "up"}},
-      {{"label": "OAT 10 ans", "value": "?%", "change": "? pb", "dir": "up"}},
-      {{"label": "Bund 10 ans", "value": "?%", "change": "? pb", "dir": "up"}},
-      {{"label": "Spread OAT/Bund", "value": "? pb", "change": "? pb", "dir": "flat"}},
-      {{"label": "EUR/USD", "value": "?", "change": "?", "dir": "flat"}},
-      {{"label": "Brent", "value": "? $", "change": "?", "dir": "up"}},
-      {{"label": "S&P 500", "value": "?", "change": "?", "dir": "up"}}
-    ],
-    "indices": [0,1,2,3,4]
-  }},
+  "marches": {{"indices": [0,1,2,3,4]}},
   "entreprises": {{"indices": [0,1,2,3,4]}},
   "ma":          {{"indices": [0,1,2,3,4]}},
   "macro":       {{"indices": [0,1,2,3,4]}},
   "politique":   {{"indices": [0,1,2,3,4]}}
-}}
-
-Choisis les indices les plus pertinents pour chaque section (5-7 par section).
-Remplis absolument toutes les sections."""
+}}"""
 
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
@@ -206,24 +211,21 @@ Remplis absolument toutes les sections."""
         messages=[{"role": "user", "content": prompt}]
     )
     text = "".join(b.text for b in response.content if hasattr(b, "text"))
-    print(f"  Haiku réponse: {len(text)} chars")
+    print(f"  Haiku: {len(text)} chars")
     return parse_json(text)
 
 def build_briefing(classified, articles):
-    """Replace indices with real article objects."""
     briefing = {
-        "timestamp":  classified.get("timestamp", ""),
-        "alerte":     classified.get("alerte"),
-        "synthese":   classified.get("synthese", {}),
-        "marches":    {"metrics": classified.get("marches", {}).get("metrics", []), "articles": []},
-        "entreprises":{"articles": []},
-        "ma":         {"articles": []},
-        "macro":      {"articles": []},
-        "politique":  {"articles": []},
+        "timestamp":   classified.get("timestamp", ""),
+        "alerte":      classified.get("alerte"),
+        "synthese":    classified.get("synthese", {}),
+        "marches":     {"metrics": [], "articles": []},
+        "entreprises": {"articles": []},
+        "ma":          {"articles": []},
+        "macro":       {"articles": []},
+        "politique":   {"articles": []},
     }
-
-    sections = ["marches", "entreprises", "ma", "macro", "politique"]
-    for key in sections:
+    for key in ["marches", "entreprises", "ma", "macro", "politique"]:
         indices = classified.get(key, {}).get("indices", [])
         seen = set()
         for idx in indices:
@@ -233,27 +235,12 @@ def build_briefing(classified, articles):
                     seen.add(a["url"])
                     briefing[key]["articles"].append({
                         "source": a["source"],
-                        "heure":  fmt_date(a.get("pub","")),
+                        "heure":  a.get("heure", ""),
                         "titre":  a["titre"],
-                        "resume": a["resume"],
+                        "resume": a.get("resume", ""),
                         "url":    a["url"],
                     })
-
     return briefing
-
-def fmt_date(pub):
-    """Extract HHhMM from ISO date string."""
-    if not pub:
-        return ""
-    try:
-        # Handle various ISO formats
-        pub = pub.replace("Z", "+00:00")
-        dt = datetime.fromisoformat(pub)
-        # Convert to Paris time (UTC+2 in summer, +1 in winter — approx)
-        local_hour = (dt.hour + 2) % 24
-        return f"{local_hour:02d}h{dt.minute:02d}"
-    except:
-        return ""
 
 def main():
     now = datetime.now()
@@ -265,28 +252,46 @@ def main():
 
     print(f"Génération — {today} {ts}")
 
-    # 1. Fetch real articles from Perigon
-    print("→ Perigon: récupération des articles...")
-    articles = get_articles()
+    # 1. RSS (sources gratuites)
+    print("→ RSS...")
+    rss_articles = get_rss_articles()
+
+    # 2. Perigon (Les Echos + Le Figaro uniquement)
+    print("→ Perigon (Echos + Figaro)...")
+    perigon_articles = get_perigon_articles()
+
+    # 3. Merge + dédoublonnage
+    all_articles = rss_articles + perigon_articles
+    seen = set()
+    articles = []
+    for a in all_articles:
+        if a["url"] not in seen:
+            seen.add(a["url"])
+            articles.append(a)
+
+    print(f"→ Total: {len(articles)} articles uniques et récents")
 
     if not articles:
-        print("ERREUR: aucun article récupéré")
+        print("ERREUR: aucun article")
         raise SystemExit(1)
-    print(f"  {len(articles)} articles uniques récupérés")
 
-    # 2. Single Haiku call for classification + synthesis
-    print("→ Haiku: classification et synthèse...")
+    # 4. Haiku: classification + synthèse
+    print("→ Haiku classification...")
     classified = synthesize(articles, today, ts)
 
-    # 3. Build final briefing with real URLs
+    # 5. Build final briefing
     briefing = build_briefing(classified, articles)
 
-    # 4. Stats
+    # 6. Vérification sections vides
+    for key in ["synthese","marches","entreprises","ma","macro","politique"]:
+        if key not in briefing:
+            briefing[key] = {"articles":[]} if key != "synthese" else {"resume":"","points":[]}
+
+    # 7. Stats
     for k in ["marches","entreprises","ma","macro","politique"]:
         n = len(briefing.get(k,{}).get("articles",[]))
         print(f"  {k}: {n} articles")
 
-    # 5. Save
     with open("briefing.json", "w", encoding="utf-8") as f:
         json.dump(briefing, f, ensure_ascii=False, indent=2)
 
