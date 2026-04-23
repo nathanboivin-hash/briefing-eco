@@ -9,69 +9,83 @@
 <title>Briefing Éco & Finance</title>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
 <style>
-:root {
-  --bg:#0d0e10;--surface:#15171b;--border:rgba(255,255,255,0.06);--border2:rgba(255,255,255,0.11);
+:root{
+  --bg:#0d0e10;--surface:#15171b;--surface2:#1c1f25;
+  --border:rgba(255,255,255,0.06);--border2:rgba(255,255,255,0.12);
   --text:#ede9e3;--muted:#6b6860;--accent:#c8a46a;--green:#52a876;--red:#d95f5f;
-  --tag-ec:rgba(80,140,210,0.13);--tag-ec-t:#82b8e6;
-  --tag-fi:rgba(200,164,106,0.13);--tag-fi-t:#c8a46a;
-  --tag-ft:rgba(255,60,60,0.10);--tag-ft-t:#e88080;
-  --tag-ag:rgba(120,180,120,0.12);--tag-ag-t:#7dc87d;
-  --tag-web:rgba(255,255,255,0.07);--tag-web-t:#888580;
+  --ec:rgba(80,140,210,0.14);--ec-t:#82b8e6;
+  --fi:rgba(200,164,106,0.14);--fi-t:#c8a46a;
+  --ft:rgba(220,60,60,0.10);--ft-t:#e88080;
+  --ag:rgba(100,180,110,0.12);--ag-t:#7dc87d;
+  --tr:rgba(160,100,200,0.12);--tr-t:#c090e0;
+  --wb:rgba(255,255,255,0.07);--wb-t:#888580;
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html{height:100%}
 body{height:100%;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px;overflow:hidden;position:fixed;width:100%}
-
 #app{height:100%;display:flex;flex-direction:column}
+
+/* HEADER */
 .header{padding-top:max(env(safe-area-inset-top,44px),44px);flex-shrink:0}
-.header-inner{padding:14px 20px 0;display:flex;justify-content:space-between;align-items:flex-start}
+.header-inner{padding:12px 20px 0;display:flex;justify-content:space-between;align-items:flex-start}
+.h-left{}
 .h-date{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
 .h-title{font-family:'Instrument Serif',serif;font-size:26px;color:var(--text);margin-top:2px;line-height:1.1}
-.h-right{display:flex;flex-direction:column;align-items:flex-end;gap:8px;padding-top:2px}
+.h-right{display:flex;flex-direction:column;align-items:flex-end;gap:6px;padding-top:2px}
 .refresh-btn{background:var(--accent);color:#0d0e10;border:none;border-radius:20px;padding:9px 18px;font-size:13px;font-weight:500;font-family:'DM Sans',sans-serif;cursor:pointer;white-space:nowrap}
 .refresh-btn:disabled{opacity:.4}
-.h-status{font-size:11px;color:var(--muted)}
+.h-status{font-size:10px;color:var(--muted);text-align:right}
 
-.tabs{display:flex;overflow-x:auto;padding:0 20px;border-bottom:1px solid var(--border);margin-top:14px;scrollbar-width:none;flex-shrink:0}
+/* TABS */
+.tabs{display:flex;overflow-x:auto;padding:0 20px;border-bottom:1px solid var(--border);margin-top:12px;scrollbar-width:none;flex-shrink:0}
 .tabs::-webkit-scrollbar{display:none}
-.tab{flex-shrink:0;padding:10px 14px 11px;font-size:13px;color:var(--muted);border:none;border-bottom:2px solid transparent;background:none;cursor:pointer;white-space:nowrap;font-family:'DM Sans',sans-serif}
+.tab{flex-shrink:0;padding:10px 13px 11px;font-size:13px;color:var(--muted);border:none;border-bottom:2px solid transparent;background:none;cursor:pointer;white-space:nowrap;font-family:'DM Sans',sans-serif}
 .tab.on{color:var(--text);font-weight:500;border-bottom-color:var(--accent)}
 
-.content{flex:1;overflow-y:auto;padding:18px 20px;padding-bottom:max(env(safe-area-inset-bottom,20px),40px);-webkit-overflow-scrolling:touch}
+/* CONTENT */
+.content{flex:1;overflow-y:auto;padding:16px 20px;padding-bottom:max(env(safe-area-inset-bottom,20px),40px);-webkit-overflow-scrolling:touch}
 
-.empty{display:flex;flex-direction:column;align-items:center;justify-content:center;height:60vh;gap:12px;text-align:center}
+/* EMPTY / SKELETON */
+.empty{display:flex;flex-direction:column;align-items:center;justify-content:center;height:60vh;gap:10px;text-align:center}
 .empty-title{font-family:'Instrument Serif',serif;font-size:24px;color:var(--muted)}
 .empty-sub{font-size:13px;color:var(--muted);line-height:1.65;max-width:260px}
+.skel{background:linear-gradient(90deg,var(--surface) 25%,#1e2128 50%,var(--surface) 75%);background-size:200% 100%;animation:sh 1.4s infinite;border-radius:4px}
+@keyframes sh{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.sk-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:15px 16px;margin-bottom:8px}
+.sk-b{height:18px;width:64px;border-radius:20px;margin-bottom:10px}
+.sk-t{height:14px;width:85%;margin-bottom:8px}
+.sk-t2{height:14px;width:60%;margin-bottom:8px}
+.sk-d{height:12px;width:100%;margin-bottom:5px}
+.sk-d2{height:12px;width:70%}
 
-.skel{background:linear-gradient(90deg,var(--surface) 25%,#1e2128 50%,var(--surface) 75%);background-size:200% 100%;animation:shimmer 1.4s infinite;border-radius:4px}
-@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
-.skeleton-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:15px 16px;margin-bottom:8px}
-.skel-badge{height:18px;width:64px;border-radius:20px;margin-bottom:10px}
-.skel-title{height:14px;width:85%;margin-bottom:8px}
-.skel-title2{height:14px;width:60%;margin-bottom:8px}
-.skel-body{height:12px;width:100%;margin-bottom:5px}
-.skel-body2{height:12px;width:70%}
+/* ALERT */
+.alert-bar{background:rgba(200,164,106,.09);border:1px solid rgba(200,164,106,.2);border-radius:10px;padding:11px 14px;margin-bottom:14px;font-size:13px;color:var(--accent);line-height:1.55}
 
-.alert-bar{background:rgba(200,164,106,.09);border:1px solid rgba(200,164,106,.18);border-radius:10px;padding:11px 14px;margin-bottom:14px;font-size:13px;color:var(--accent);line-height:1.55}
+/* SUMMARY */
 .summary-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px;margin-bottom:14px;font-size:14px;line-height:1.8;color:#c5c0b8}
-.section{margin-bottom:22px}
+
+/* SECTION */
+.section{margin-bottom:20px}
 .section-title{font-size:11px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:.09em;margin-bottom:10px}
 
-.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:15px 16px;margin-bottom:8px;display:block;color:inherit;text-decoration:none}
-a.card:active{border-color:var(--border2);background:#1a1c21}
-.card-meta{display:flex;align-items:center;gap:7px;margin-bottom:7px;flex-wrap:wrap}
+/* CARD */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 16px;margin-bottom:8px;display:block;color:inherit;text-decoration:none;-webkit-user-select:none}
+a.card:active{border-color:var(--border2);background:#191c22}
+.card-meta{display:flex;align-items:center;gap:6px;margin-bottom:6px;flex-wrap:wrap}
 .badge{font-size:10px;font-weight:500;padding:3px 9px;border-radius:20px;letter-spacing:.03em;white-space:nowrap}
-.b-ec{background:var(--tag-ec);color:var(--tag-ec-t)}
-.b-fi{background:var(--tag-fi);color:var(--tag-fi-t)}
-.b-ft{background:var(--tag-ft);color:var(--tag-ft-t)}
-.b-ag{background:var(--tag-ag);color:var(--tag-ag-t)}
-.b-web{background:var(--tag-web);color:var(--tag-web-t)}
+.b-ec{background:var(--ec);color:var(--ec-t)}
+.b-fi{background:var(--fi);color:var(--fi-t)}
+.b-ft{background:var(--ft);color:var(--ft-t)}
+.b-ag{background:var(--ag);color:var(--ag-t)}
+.b-tr{background:var(--tr);color:var(--tr-t)}
+.b-wb{background:var(--wb);color:var(--wb-t)}
 .card-time{font-size:11px;color:var(--muted)}
 .card-title{font-size:14px;font-weight:500;color:var(--text);line-height:1.45;margin-bottom:5px}
 .card-body{font-size:13px;color:#8a8680;line-height:1.6}
 .card-link{font-size:11px;color:var(--accent);margin-top:8px}
 
-.metrics-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:10px}
+/* METRICS */
+.metrics-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:12px}
 .metric{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px}
 .metric-label{font-size:11px;color:var(--muted);margin-bottom:4px}
 .metric-value{font-size:20px;font-weight:300;color:var(--text);letter-spacing:-.02em}
@@ -85,7 +99,7 @@ a.card:active{border-color:var(--border2);background:#1a1c21}
 <div id="app">
   <div class="header">
     <div class="header-inner">
-      <div>
+      <div class="h-left">
         <div class="h-date" id="h-date"></div>
         <div class="h-title">Briefing <em>Éco</em></div>
       </div>
@@ -95,24 +109,20 @@ a.card:active{border-color:var(--border2);background:#1a1c21}
       </div>
     </div>
   </div>
-
   <div class="tabs">
     <button class="tab on" onclick="sw(this,'s')">Synthèse</button>
     <button class="tab" onclick="sw(this,'m')">Marchés</button>
     <button class="tab" onclick="sw(this,'e')">Entreprises</button>
     <button class="tab" onclick="sw(this,'a')">M&A</button>
     <button class="tab" onclick="sw(this,'k')">Macro</button>
-    <button class="tab" onclick="sw(this,'p')">Politique & Monde</button>
+    <button class="tab" onclick="sw(this,'p')">Politique</button>
   </div>
-
   <div class="content" id="content"></div>
 </div>
 
 <script>
-let briefing = null;
-let currentTab = 's';
-
-const TAB_KEYS = {s:'synthese', m:'marches', e:'entreprises', a:'ma', k:'macro', p:'politique'};
+let B = null;
+let tab = 's';
 
 function init() {
   const d = new Date();
@@ -124,41 +134,38 @@ function init() {
 
 function sw(el, t) {
   document.querySelectorAll('.tab').forEach(x => x.classList.remove('on'));
-  el.classList.add('on'); currentTab = t;
-  briefing ? renderTab(t) : showLoading();
+  el.classList.add('on'); tab = t;
+  B ? render(t) : showSkeleton();
 }
 
-function skeletons(n) {
-  return Array(n).fill(0).map(() => `
-    <div class="skeleton-card">
-      <div class="skel skel-badge"></div>
-      <div class="skel skel-title"></div><div class="skel skel-title2"></div>
-      <div class="skel skel-body"></div><div class="skel skel-body2"></div>
+function showSkeleton() {
+  const sk = Array(5).fill(0).map(() => `
+    <div class="sk-card">
+      <div class="skel sk-b"></div>
+      <div class="skel sk-t"></div><div class="skel sk-t2"></div>
+      <div class="skel sk-d"></div><div class="skel sk-d2"></div>
     </div>`).join('');
-}
-
-function showLoading() {
-  document.getElementById('content').innerHTML = `<div class="section"><div class="section-title">Chargement</div>${skeletons(4)}</div>`;
+  document.getElementById('content').innerHTML = `<div class="section"><div class="section-title">Chargement</div>${sk}</div>`;
 }
 
 function badge(src) {
-  if (!src) return `<span class="badge b-web">Web</span>`;
+  if (!src) return `<span class="badge b-wb">Web</span>`;
   const s = src.toLowerCase();
   if (s.includes('echo'))    return `<span class="badge b-ec">Les Échos</span>`;
   if (s.includes('figaro'))  return `<span class="badge b-fi">Le Figaro</span>`;
   if (s.includes('agefi'))   return `<span class="badge b-ag">L'Agefi</span>`;
+  if (s.includes('tribune')) return `<span class="badge b-tr">La Tribune</span>`;
   if (s.includes('ft') || s.includes('financial')) return `<span class="badge b-ft">FT</span>`;
-  return `<span class="badge b-web">${src}</span>`;
+  return `<span class="badge b-wb">${src}</span>`;
 }
 
-function artCard(a) {
-  const hasUrl = a.url && a.url.startsWith('http');
-  const isSearch = a.url && a.url.includes('google.com/search');
-  const tag = hasUrl ? 'a' : 'div';
-  const attr = hasUrl ? `href="${a.url}" target="_blank"` : '';
-  const linkLabel = isSearch ? "Rechercher sur Google →" : "Lire l'article →";
-  const linkStyle = isSearch ? 'opacity:0.6' : '';
-  const link = hasUrl ? `<div class="card-link" style="${linkStyle}">${linkLabel}</div>` : '';
+function card(a) {
+  const url = a.url && a.url.startsWith('http') ? a.url : null;
+  const isSearch = url && (url.includes('/recherche') || url.includes('/search') || url.includes('google.com'));
+  const tag = url ? 'a' : 'div';
+  const attr = url ? `href="${url}" target="_blank"` : '';
+  const linkLabel = isSearch ? "Rechercher sur le site →" : "Lire l'article →";
+  const link = url ? `<div class="card-link">${linkLabel}</div>` : '';
   return `<${tag} class="card" ${attr}>
     <div class="card-meta">${badge(a.source)}<span class="card-time">${a.heure||''}</span></div>
     <div class="card-title">${a.titre||''}</div>
@@ -167,22 +174,35 @@ function artCard(a) {
   </${tag}>`;
 }
 
-function renderTab(t) {
+function articles(key) {
+  const s = B[key];
+  if (!s) return '<div class="empty" style="height:30vh"><div class="empty-title">Aucun contenu</div></div>';
+  const list = Array.isArray(s) ? s : (s.articles || []);
+  if (!list.length) return '<div class="empty" style="height:30vh"><div class="empty-title">Aucun article</div></div>';
+  return list.map(card).join('');
+}
+
+function render(t) {
   const el = document.getElementById('content');
-  const b = briefing;
   if (t === 's') {
-    const pts = (b.synthese?.points||[]).map(p=>`
+    const pts = (B.synthese?.points||[]).map(p=>`
       <div class="card">
-        <div class="card-title">${p.titre}</div>
-        <div class="card-body">${p.detail}</div>
+        <div class="card-title">${p.titre||''}</div>
+        <div class="card-body">${p.detail||''}</div>
       </div>`).join('');
     el.innerHTML = `
-      ${b.alerte ? `<div class="alert-bar">⚡ ${b.alerte}</div>` : ''}
-      <div class="section"><div class="section-title">Résumé du jour</div><div class="summary-card">${b.synthese?.resume||''}</div></div>
-      <div class="section"><div class="section-title">Points clés à surveiller</div>${pts}</div>
-      <div class="timestamp">Généré le ${b.timestamp||''}</div>`;
-  } else if (t === 'm') {
-    const mx = (b.marches?.metrics||[]).map(m=>`
+      ${B.alerte ? `<div class="alert-bar">⚡ ${B.alerte}</div>` : ''}
+      <div class="section">
+        <div class="section-title">Résumé du jour</div>
+        <div class="summary-card">${B.synthese?.resume||''}</div>
+      </div>
+      <div class="section">
+        <div class="section-title">Points clés à surveiller</div>${pts}
+      </div>
+      <div class="timestamp">Généré le ${B.timestamp||''}</div>`;
+  }
+  else if (t === 'm') {
+    const mx = (B.marches?.metrics||[]).map(m=>`
       <div class="metric">
         <div class="metric-label">${m.label}</div>
         <div class="metric-value">${m.value}</div>
@@ -191,40 +211,34 @@ function renderTab(t) {
     el.innerHTML = `
       <div class="section"><div class="section-title">Indices & taux clés</div><div class="metrics-grid">${mx}</div></div>
       <div class="divider"></div>
-      <div class="section"><div class="section-title">Actualités marchés</div>${(b.marches?.articles||[]).map(artCard).join('')}</div>`;
-  } else {
+      <div class="section"><div class="section-title">Actualités marchés</div>${articles('marches')}</div>`;
+  }
+  else {
     const cfg = {
-      e: {key:'entreprises', title:'Résultats & vie des entreprises'},
-      a: {key:'ma',          title:'Fusions, acquisitions & PE'},
-      k: {key:'macro',       title:'Macroéconomie France & Europe'},
-      p: {key:'politique',   title:'Politique économique & géopolitique'}
+      e:{key:'entreprises',title:'Résultats & vie des entreprises'},
+      a:{key:'ma',title:'Fusions, acquisitions & private equity'},
+      k:{key:'macro',title:'Macroéconomie France & Europe'},
+      p:{key:'politique',title:'Politique économique & géopolitique'}
     };
     const c = cfg[t];
-    el.innerHTML = `<div class="section"><div class="section-title">${c.title}</div>${(b[c.key]?.articles||[]).map(artCard).join('')}</div>`;
+    el.innerHTML = `<div class="section"><div class="section-title">${c.title}</div>${articles(c.key)}</div>`;
   }
 }
 
 async function loadBriefing() {
   document.getElementById('refresh-btn').disabled = true;
-  document.getElementById('h-status').textContent = '';
-  showLoading();
-
+  showSkeleton();
   try {
-    // Cache busting pour forcer le rechargement
     const r = await fetch(`briefing.json?t=${Date.now()}`);
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    briefing = await r.json();
-
-    // Affiche l'heure de génération
-    if (briefing.timestamp) {
-      document.getElementById('h-status').textContent = briefing.timestamp;
-    }
-    renderTab(currentTab);
+    B = await r.json();
+    if (B.timestamp) document.getElementById('h-status').textContent = B.timestamp;
+    render(tab);
   } catch(e) {
     document.getElementById('content').innerHTML = `
       <div class="empty">
         <div class="empty-title">Pas encore de briefing</div>
-        <div class="empty-sub">Le briefing est généré automatiquement chaque matin à 7h.<br><br>Pour en générer un maintenant, va sur ton repo GitHub → Actions → "Générer le briefing" → Run workflow.</div>
+        <div class="empty-sub">Le briefing est généré chaque matin à 7h.<br><br>Pour en générer un maintenant :<br>GitHub → Actions → Générer le briefing → Run workflow</div>
       </div>`;
   }
   document.getElementById('refresh-btn').disabled = false;
