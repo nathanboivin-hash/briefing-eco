@@ -1,27 +1,24 @@
 {
-  "timestamp": "14h56 le 23/04/2026",
-  "alerte": {
-    "titre": "Servier acquiert Day One pour 2,5 Mds$ en oncologie",
-    "detail": "Opération majeure de consolidation dans le secteur pharma. Le français accélère sa stratégie dans les cancers via acquisition américaine significative."
-  },
+  "timestamp": "15h00 le 23/04/2026",
+  "alerte": "Fonds souverain norvégien : -116 Mds€ au T1 | Succession LVMH reportée 7-8 ans | Plan électrification 22 mesures | Brent >100$/baril",
   "synthese": {
-    "resume": "Servier franchit le cap des 2,5 milliards de dollars pour renforcer sa présence en oncologie via l'acquisition de Day One. Le fonds souverain norvégien (plus gros au monde) a perdu 116 milliards d'euros au T1 2026 sur ses positions tech américaines. L'UE débloque enfin son prêt de 90 milliards d'euros à l'Ukraine après levée du véto hongrois. Le gouvernement français accélère l'électrification énergétique avec 22 mesures visant 50% de consommation électrique en 2050.",
+    "resume": "Le fonds souverain norvégien accuse une perte record de 116 milliards d'euros au premier trimestre sur ses expositions technologiques américaines. Bernard Arnault repousse la question de sa succession à LVMH de 7-8 ans devant les actionnaires. Le gouvernement français déploie un plan ambitieux de 22 mesures pour électrifier l'économie et atteindre 50% d'électricité en 2050. Le Brent franchit les 100$/baril pour la première fois en deux semaines, amplifié par les tensions géopolitiques au Moyen-Orient.",
     "points": [
       {
-        "titre": "M&A pharma",
-        "detail": "Servier-Day One (2,5 Mds$) confirme la consolidation du secteur oncologique français en position d'exportateur"
+        "titre": "Marchés & Energie",
+        "detail": "Brent +100$/baril (1ère fois en 15j) ; Fonds souverain NO perd 116 Mds€ (tech US) ; volatilité accrue geopolitique ; positions défensives privilégiées"
       },
       {
-        "titre": "Géopolitique énergétique",
-        "detail": "La Suède prévient un rationnement possible du carburant si la guerre au Moyen-Orient s'intensifie ; tensions sur appels d'offres militaires"
+        "titre": "Macro France",
+        "detail": "Plan électrification 22 mesures (50% électricité 2050 vs 27% aujourd'hui) ; déficit public 2025 : France pénultième zone euro ; restructuration énergétique massive lancée"
       },
       {
-        "titre": "Macro-financier",
-        "detail": "Brent >100$/bl après 2 semaines ; fonds souverain norvégien -116 Mds€ en tech US ; tensions sur déficit européen"
+        "titre": "Entreprises cotées",
+        "detail": "LVMH : succession repoussée (Arnault 7-8 ans) ; Samsung : 40K salariés en grève pour part aux profits IA ; Renault : CA T1 en hausse ; Nestlé réduit voilure en France"
       },
       {
-        "titre": "Politique budgétaire",
-        "detail": "Plan électrification gouvernemental + 22 mesures ; débat déficit public 2025 (France avant-dernière zone euro)"
+        "titre": "Géopolitique / Sanctions",
+        "detail": "Prêt UE 90 Mds€ Ukraine validé (véto hongrois levé) ; Iran : blocus Trump, experts doutent 'effondrement' ; stocks missiles US fondent (Patriot -50%) ; Suède envisage rationnement carburant"
       }
     ]
   },
@@ -44,24 +41,24 @@
       },
       {
         "source": "BFM Business",
-        "heure": "14h27",
-        "titre": "\"C'est la pire crise depuis très, très longtemps\": la Suède prévient qu'elle pourrait rationner le carburant si la guerre au Moyen-Orient se prolongeait",
-        "resume": "\"Nous sommes prêts à cette éventualité\", a déclaré le Premier ministre suédois Ulf Kristersson.",
-        "url": "https://www.bfmtv.com/economie/entreprises/energie/c-est-la-pire-crise-depuis-tres-tres-longtemps-la-suede-previent-qu-elle-pourrait-rationner-le-carburant-si-la-guerre-au-moyen-orient-se-prolongeait_AD-202604230508.html"
+        "heure": "12h04",
+        "titre": "Selon le Washington Post, l'Iran a placé au moins 20 mines dans le détroit d'Ormuz et le sécuriser prendrait six mois, le Pentagone dément",
+        "resume": "Le Pentagone a ensuite démenti les informations du Washington Post selon lesquelles le déminage du détroit d'Ormuz prendrait six mois et que l'Iran y a disposé au moins 20 mines.",
+        "url": "https://www.bfmtv.com/economie/entreprises/defense/selon-le-washington-post-l-iran-a-place-au-moins-20-mines-dans-le-detroit-d-ormuz-et-le-securiser-prendrait-six-mois-le-pentagone-dement_AD-202604230401.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h45",
+        "titre": "Ormuz : l’armée américaine a ordonné à 31 navires de faire demi-tour, Renault : un chiffre d’affaires en hausse au premier trimestre, Le Liban va demander de prolonger la trêve… Ça s’est passé cette nuit",
+        "resume": "Ormuz : l’armée américaine a ordonné à 31 navires de faire demi-tour, Renault : un chiffre d’affaires en hausse au premier trimestre, Le Liban va demander de prolonger la trêve",
+        "url": "https://www.challenges.fr/monde/ormuz-larmee-americaine-a-ordonne-a-31-navires-de-faire-demi-tour-renault-un-chiffre-daffaires-en-hausse-au-premier-trimestre-le-liban-va-demander-de-prolonger-la-treve-ca-sest-passe-cette-nuit_642928"
       },
       {
         "source": "BFM Business",
-        "heure": "12h35",
-        "titre": "La récession en Russie, les sanctions occidentales les plus sévères de l'Histoire et la guerre n'y font rien: les milliardaires russes n'ont jamais été aussi riches (ils pèsent désormais près de 600 milliards d'euros)",
-        "resume": "Malgré la guerre, les sanctions et la récession, la fortune des milliardaires russes a augmenté grâce à la hausse des prix des matières premières, à la réorientation des exportations vers l’Asie, au rachat d’actifs occidentaux à bas coût et à une éco",
-        "url": "https://www.bfmtv.com/economie/international/la-recession-en-russie-les-sanctions-occidentales-les-plus-severes-de-l-histoire-et-la-guerre-n-y-font-rien-les-milliardaires-russes-n-ont-jamais-ete-aussi-riches-ils-pesent-desormais-pres-de-600-milliards-d-euros_AN-202604230427.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "11h47",
-        "titre": "La moitié des missiles Patriot, des THAAD, des SM-3 et des PrSM: en à peine 39 jours contre l'Iran, les États-Unis ont vu fondre leurs stocks de missiles de précision (Trump assure que le cessez-le-feu sert à le reconstituer)",
-        "resume": "Les États-Unis ont largement puisé dans ses stocks de missiles dans sa guerre contre l'Iran, sans pour autant enfreindre sa capacité à reprendre des frappes contre le régime des Mollahs. Mais un conflit contre la Chine pourrait mettre l'armée américa",
-        "url": "https://www.bfmtv.com/economie/entreprises/defense/la-moitie-des-missiles-patriot-des-thaad-des-sm-3-et-des-pr-sm-en-a-peine-39-jours-contre-l-iran-les-etats-unis-ont-vu-fondre-leurs-stocks-de-missiles-de-precision-trump-assure-que-le-cessez-le-feu-sert-a-le-reconstituer_AN-202604230386.html"
+        "heure": "14h19",
+        "titre": "Trump assure que son blocus provoque un \"effondrement financier\" de l'Iran: les experts en doutent sérieusement, l'Iran peut tenir des mois malgré la baisse des recettes pétrolières",
+        "resume": "Washington a imposé un blocus des ports iraniens pour contraindre la République islamique à des compromis. Ce pari pourrait toutefois ne pas porter ses fruits, du moins à court terme. ",
+        "url": "https://www.bfmtv.com/economie/international/trump-assure-que-son-blocus-provoque-un-effondrement-financier-l-iran-les-experts-en-doutent-serieusement-l-iran-peut-tenir-des-mois-malgre-la-baisse-des-recettes-petrolieres_AD-202604230500.html"
       }
     ]
   },
@@ -70,9 +67,23 @@
       {
         "source": "BFM Business",
         "heure": "13h16",
-        "titre": "À qui Bernard Arnault va-t-il passer le flambeau à la tête de l'empire LVMH? \"On reparlera de tout ça dans 7-8 ans\", écarte le milliardaire français devant ses actionnaires",
+        "titre": "À qui Bernard Arnault va passer le flambeau à la tête de l'empire LVMH? \"On reparlera de tout ça dans 7-8 ans\", écarte le milliardaire français devant ses actionnaires",
         "resume": "Bernard Arnault repousse toute discussion sur sa succession chez LVMH à plusieurs années, malgré les interrogations croissantes des actionnaires, alors que ses enfants sont déjà impliqués dans le groupe sans qu’aucun successeur clair ne se dégage.",
         "url": "https://www.bfmtv.com/economie/a-qui-bernard-arnault-va-passer-le-flambeau-a-la-tete-de-l-empire-lvmh-on-reparlera-de-tout-ca-dans-7-8-ans-ecarte-le-milliardaire-francais-devant-ses-actionnaires_AD-202604230459.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "12h47",
+        "titre": "\"J'ai été félicité par le secrétaire général du Parti communiste, ça ne serait jamais arrivé en France\": Bernard Arnault assure devant ses actionnaires qu'il est mieux accueilli en Chine que dans son pays",
+        "resume": "Bernard Arnault dresse un bilan 2025 \"correct\" pour LVMH, soulignant la solidité du groupe malgré un contexte mondial tendu, sa forte contribution à l’économie française et sa stratégie d’expansion internationale, tout en pointant les freins fiscaux ",
+        "url": "https://www.bfmtv.com/economie/j-ai-ete-felicite-par-le-secretaire-general-du-parti-communiste-ca-ne-serait-jamais-arrive-en-france-bernard-arnault-assure-devant-ses-actionnaires-qu-il-est-mieux-accueilli-en-chine-que-dans-son-pays_AN-202604230439.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "10h15",
+        "titre": "Les images impressionnantes de ces 40.000 salariés de Samsung qui manifestent pour obtenir leur part des profit colossaux de l'IA (quand le fondateur interdisait les syndicats)",
+        "resume": "Des dizaines de milliers d’employés de Samsung Electronics ont manifesté en Corée du Sud pour exiger de meilleures rémunérations et des primes plus transparentes, menaçant de déclencher une grève majeure susceptible de perturber la production mondial",
+        "url": "https://www.bfmtv.com/economie/international/les-images-impressionnantes-de-ces-40-000-salaries-de-samsung-qui-manifestent-pour-obtenir-leur-part-des-profit-colossaux-de-l-ia-quand-le-fondateur-interdisait-les-syndicats_AN-202604230315.html"
       },
       {
         "source": "Le Monde Éco",
@@ -90,17 +101,10 @@
       },
       {
         "source": "Challenges",
-        "heure": "15h21",
-        "titre": "Yohan Abou : de l’autodidacte du digital à la création de Noyz Academy, la méthode pour capter l’attention et générer des clients",
-        "resume": "À seulement 25 ans, Yohan Abou incarne une nouvelle génération d’entrepreneurs du digital : autodidactes, agiles et orientés résultats. Installé entre la France et l’international, il a construit son expertise loin des parcours académiques traditionn",
-        "url": "https://www.challenges.fr/partenaires/yohan-abou-de-lautodidacte-du-digital-a-la-creation-de-noyz-academy-la-methode-pour-capter-lattention-et-generer-des-clients_642939"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h15",
-        "titre": "« La Chine est le fitness center de l’industrie automobile » : comment Pékin a forcé l’Occident à se transformer",
-        "resume": "PODCAST&nbsp;–&nbsp;Pendant cinq ans à la présidence de Valeo Chine, François Marion a observé, au plus près, la bascule électrique qui a rebattu les cartes de l’industrie automobile mondiale. Un témoignage de l’intérieur, précieux et sans fard. Il e",
-        "url": "https://www.challenges.fr/automobile/la-chine-est-le-fitness-center-de-lindustrie-automobile-comment-pekin-a-force-loccident-a-se-transformer_642927"
+        "heure": "16h00",
+        "titre": "Velvet, futur rival de la SNCF, sort sa première rame",
+        "resume": "Un nouvel acteur veut bousculer le monopole de fait de la grande vitesse en France. Baptisé Velvet, cet opérateur privé porté par deux anciens du secteur ferroviaire prépare son arrivée sur des lignes très fréquentées à l’horizon 2028.",
+        "url": "https://www.challenges.fr/economie/velvet-futur-rival-de-la-sncf-sort-sa-premiere-rame_642940"
       }
     ]
   },
@@ -108,10 +112,24 @@
     "articles": [
       {
         "source": "BFM Business",
-        "heure": "15h22",
-        "titre": "Le français veut accélérer dans l'oncologie : Servier rachète l'américain Day One pour 2,5 milliards de dollars et renforce ses capacités dans les médicaments contre le cancer",
-        "resume": "Le groupe pharmaceutique français Servier, recentré depuis plusieurs années sur les médicaments anti-cancer, se renforce dans le domaine avec le rachat de la société américaine Day One Biopharmaceuticals, une opération évaluée à 2,5 milliards de doll",
-        "url": "https://www.bfmtv.com/economie/entreprises/le-francais-veut-accelerer-dans-l-oncologie-servier-rachete-l-americain-day-one-pour-2-5-milliards-de-dollars-et-renforce-ses-capacites-dans-les-medicaments-contre-le-cancer_AD-202604230558.html"
+        "heure": "14h56",
+        "titre": "Un \"Tinder de la reprise\" pour mettre en relation des acheteurs et des patrons: alors que 500.000 dirigeants vont partir à la retraite dans les 10 ans, le gouvernement présente son plan pour faciliter les reprises d'entreprises",
+        "resume": "Pour le ministre des PME, Serge Papin, le sujet des reprises d'entreprises qui vont exploser compte tenu du choc démographique doit devenir \"la grande cause économique nationale\". ",
+        "url": "https://www.bfmtv.com/economie/entreprises/un-tinder-de-la-reprise-pour-mettre-en-relation-des-acheteurs-et-des-patrons-alors-que-500-000-dirigeants-vont-partir-a-la-retraite-dans-les-10-ans-le-gouvernement-presente-son-plan-pour-faciliter-les-reprises-d-entreprises_AD-202604230542.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "23h56",
+        "titre": "Le groupe belge John Cockerill monte en puissance, profitant des investissements massifs dans la défense de nombreux pays",
+        "resume": "L’industriel a engrangé, en 2025, des commandes d’une valeur de 2 milliards d’euros.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/22/dans-la-defense-le-groupe-belge-john-cockerill-monte-en-puissance_6682462_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h30",
+        "titre": "« Ce repreneur va acter la désintégration de Polytechnyl » : la face cachée du naufrage industriel d’un ex-fleuron de la chimie française",
+        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel.&nbsp;À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. À l’arrivée, une chaîne de valeur dis",
+        "url": "https://www.challenges.fr/entreprise/industrie/ce-repreneur-va-acter-la-desintegration-de-lentreprise-la-face-cachee-du-naufrage-industriel-du-fleuron-de-la-chimie-polytechnyl_642923"
       },
       {
         "source": "BFM Business",
@@ -122,24 +140,10 @@
       },
       {
         "source": "Challenges",
-        "heure": "08h59",
-        "titre": "Ukraine : le prêt de 90 milliards d’euros de l’UE validé, les premiers versements attendus « d'ici à fin mai, début juin »",
-        "resume": "La validation officielle du prêt de 90 milliards d’euros de l’UE à l’Ukraine est intervenue à la mi-journée, ce jeudi 23 avril, après que la Hongrie a levé son veto. Elle sera suivie d’un sommet des dirigeants européens à Chypre dans la soirée, en pr",
-        "url": "https://www.challenges.fr/monde/ukraine-le-pret-de-90-milliards-deuros-de-lue-bientot-valide_642929"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h30",
-        "titre": "« Ce repreneur va acter la désintégration de Polytechnyl » : la face cachée du naufrage industriel d’un ex-fleuron de la chimie française",
-        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel.&nbsp;À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. À l’arrivée, une chaîne de valeur dis",
-        "url": "https://www.challenges.fr/entreprise/industrie/ce-repreneur-va-acter-la-desintegration-de-lentreprise-la-face-cachee-du-naufrage-industriel-du-fleuron-de-la-chimie-polytechnyl_642923"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "23h56",
-        "titre": "Le groupe belge John Cockerill monte en puissance, profitant des investissements massifs dans la défense de nombreux pays",
-        "resume": "L’industriel a engrangé, en 2025, des commandes d’une valeur de 2 milliards d’euros.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/22/dans-la-defense-le-groupe-belge-john-cockerill-monte-en-puissance_6682462_3234.html"
+        "heure": "14h19",
+        "titre": "471 millions d’euros : cet appartement vendu pour un prix stratosphérique est devenu le plus cher de l’histoire immobilière",
+        "resume": "A Monaco, le milliardaire ukrainien Rinat Akhmetov s’est offert un appartement de 2 500 m² dans le nouveau quartier de Mareterra.",
+        "url": "https://www.challenges.fr/immobilier/471-millions-deuros-cet-appartement-vendu-pour-un-prix-stratospherique-est-devenu-le-plus-cher-de-lhistoire-immobiliere_642910"
       }
     ]
   },
@@ -179,18 +183,18 @@
         "titre": "Budget : la réduction du déficit en 2025 « résulte d’abord d’une forte hausse des impôts », avertit la Cour des comptes",
         "resume": "Après deux années noires pour les finances publiques, le déficit budgétaire s’est réduit l’an passé. Mais cet effort reste « fragile » et a surtout reposé sur des hausses d’impôts sans mesures d’économies pérennes, critique la Cour des comptes.",
         "url": "https://www.challenges.fr/economie/budget-la-reduction-du-deficit-en-2025-resulte-dabord-dune-forte-hausse-des-impots-avertit-la-cour-des-comptes_642915"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "18h12",
+        "titre": "Les ateliers Pro-Découpe passent sous pavillon corrézien",
+        "resume": "Installée à Baud, dans le Morbihan, le spécialiste de la découpe et la transformation de viandes bovines et porcines, vient d'être cédé au groupe Cheville Française, dont le siège est à Meyssac, en Corrèze.",
+        "url": "https://www.lesechos.fr/pme-regions/bretagne/les-ateliers-pro-decoupe-passent-sous-pavillon-correzien-2228169"
       }
     ]
   },
   "politique": {
     "articles": [
-      {
-        "source": "BFM Business",
-        "heure": "15h01",
-        "titre": "On exclut l'Iran de la Coupe du monde pour y mettre l'Italie éliminée: le coup diplomatique hors-norme de Donald Trump pour se rabibocher avec Giorgia Meloni",
-        "resume": "Un proche de Donald Trump propose d’exclure l’Iran du Mondial… pour repêcher l’Italie, au cœur d’une Coupe du monde organisée aux États-Unis. Un lobbying géopolitique qui dépasse largement le cadre du terrain.",
-        "url": "https://www.bfmtv.com/economie/on-exclut-l-iran-de-la-coupe-du-monde-pour-y-mettre-l-italie-eliminee-le-coup-diplomatique-hors-norme-de-donald-trump-pour-se-rabibocher-avec-giorgia-meloni_AN-202604230547.html"
-      },
       {
         "source": "BFM Business",
         "heure": "14h11",
@@ -200,17 +204,17 @@
       },
       {
         "source": "BFM Business",
-        "heure": "12h02",
-        "titre": "L'Islande enfin dans l'UE? À 4 mois d'un nouveau référendum, Bruxelles est prête à des compromis sur la pêche, car le poisson représente 40% des exportations islandaises",
-        "resume": "Dans un contexte géopolitique toujours plus incertain, un référendum sur la reprise des négociations d'adhésion à l'Union européenne est organisé en août en Islande. La pêche est un des principaux points de blocage, mais la Commission est prête à des",
-        "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/l-islande-enfin-dans-l-ue-a-4-mois-d-un-nouveau-referendum-bruxelles-est-prete-a-des-compromis-sur-la-peche-car-le-poisson-represente-40-des-exportations-islandaises_AV-202604230399.html"
+        "heure": "12h00",
+        "titre": "Macron veut activer le mode \"Notre-Dame\" pour l'industrie",
+        "resume": "Emmanuel Macron veut simplifier l'implantation de sites industriels en s'inspirant du mode commando qui a permis la restauration de Notre-Dame de Paris en cinq ans ou le succès des Jeux olympiques de Paris.\n\n",
+        "url": "https://www.bfmtv.com/economie/video-macron-veut-activer-le-mode-notre-dame-pour-l-industrie_VN-202604230395.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "07h30",
-        "titre": "Emmanuel Macron veut appliquer la méthode « Notre-Dame » à 150 projets industriels stratégiques dans toute la France",
-        "resume": "Inaugurant, mercredi, une mine de lithium dans l’Allier, le chef de l’Etat veut s’inspirer de la simplification et de l’accélération des procédures pour la reconstruction de la cathédrale de Paris.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/23/emmanuel-macron-veut-appliquer-la-methode-notre-dame-a-150-projets-industriels-strategiques_6682700_3234.html"
+        "source": "BFM Business",
+        "heure": "10h23",
+        "titre": "Raphaël Glucksmann appelle à taxer les \"profits liés à la guerre\" des entreprises pétrolières et fustige la proposition du RN de baisser la TVA qui conduirait à \"la faillite du pays\"",
+        "resume": "Invité sur TF1, le député européen et probable candidat à l'élection présidentielle a plaidé pour une taxation des \"super-profits\" qu'il estime avoir été réalisés par les entreprises pétrolières en raison de la guerre au Moyen-Orient.",
+        "url": "https://www.bfmtv.com/economie/entreprises/energie/raphael-glucksmann-appelle-a-taxer-profits-lies-a-la-guerre-des-entreprises-petrolieres-et-fustige-la-proposition-du-rn-de-baisser-la-tva-qui-conduirait-a-la-faillite-du-pays_AD-202604230319.html"
       },
       {
         "source": "Le Monde Éco",
@@ -218,6 +222,20 @@
         "titre": "Le gouvernement limite la durée des recours contre les projets industriels, en les confiant directement aux cours administratives d’appel",
         "resume": "L’objectif est « d’accélérer les implantations d’entreprises » pour soutenir l’effort de réindustrialisation du pays, en renforçant l’attractivité du territoire et en accélérant la réalisation des investissements",
         "url": "https://www.lemonde.fr/planete/article/2026/04/22/le-gouvernement-limite-la-duree-des-recours-contre-les-projets-industriels-en-les-confiant-directement-aux-cours-administratives-d-appel_6682388_3244.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h00",
+        "titre": "Une « faute politique » pour les ONG : la France compte éluder le climat lors du G7 environnement pour ne pas froisser les Etats-Unis",
+        "resume": "Biodiversité, océans, pollution de l’eau… sont au programme du G7 Environnement qui se déroule à Paris ces 23 et 24 avril 2026. Le climat et les énergies fossiles ne sont en revanche pas à l’ordre du jour, pour ne pas braquer les Etats-Unis devenus c",
+        "url": "https://www.challenges.fr/entreprise/green-economie/une-faute-politique-pour-les-ong-la-france-compte-eluder-le-climat-lors-du-g7-environnement-pour-ne-pas-froisser-les-etats-unis_642916"
+      },
+      {
+        "source": "Politico EU",
+        "heure": "14h28",
+        "titre": "Pluralisme politique : qui veut la peau de l’Arcom ?",
+        "resume": "A un an de la présidentielle, l’autorité chargée de la régulation de l’audiovisuel et des plateformes se retrouve sous les tirs croisés des politiques. En cause : sa mission de contrôle du pluralisme des chaînes.",
+        "url": "https://www.politico.eu/article/pluralisme-politique-qui-veut-la-peau-de-larcom/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
       }
     ]
   }
