@@ -1,24 +1,24 @@
 {
-  "timestamp": "13h02 le Jeudi 23 avril 2026",
+  "timestamp": "13h13 le Jeudi 23 avril 2026",
   "alerte": null,
   "synthese": {
-    "resume": "Les marchés européens progressent modérément ce jeudi, portés par des publications de résultats T1 globalement solides et un léger reflux des tensions commerciales transatlantiques après des signaux d'ouverture à Washington. La BCE, dont la prochaine réunion est prévue début juin, maintient un discours prudent sur le rythme de ses baisses de taux, plusieurs membres du Conseil évoquant une pause après les trois coupes successives de 2025. Sur le front M&A, l'activité reste soutenue en France avec plusieurs opérations de taille intermédiaire dans les secteurs de la tech et de la santé, portées par des valorisations encore attractives et des bilans d'acquéreurs assainis. En toile de fond, la situation géopolitique au Proche-Orient et les négociations commerciales sino-américaines continuent de peser sur le sentiment de risque, limitant l'appétit pour les actifs les plus volatils.",
+    "resume": "Les marchés européens évoluent en ordre dispersé ce jeudi matin, le CAC 40 cédant 0,4% à 7 924 points sous la pression d'un Brent qui s'est tendu à 96,3 dollars le baril après de nouvelles frappes américaines sur des installations portuaires iraniennes dans le Golfe persique. La BCE maintient son cap attentiste : Christine Lagarde a confirmé hier soir à Francfort qu'aucune décision de taux n'est attendue avant juillet, l'inflation énergétique en zone euro ayant rebondi à 3,8% en mars. Sur le front obligataire, l'OAT 10 ans se stabilise à 3,72%, le spread face au Bund restant ancré autour de 70 pb dans un contexte de déficit public français toujours sous surveillance à ~5% du PIB. Le marché M&A français reste actif malgré la volatilité : plusieurs opérations mid-market sont en cours de finalisation dans les secteurs de la santé, des services B2B et de la transition énergétique, avec des multiples d'EBITDA qui se resserrent entre 7x et 9x sur les dossiers de qualité.",
     "points": [
       {
-        "titre": "Point macro clé — BCE et trajectoire des taux en zone euro",
-        "detail": "Après trois baisses successives en 2025 ramenant le taux de dépôt à 2,25 %, la BCE laisse entendre une pause prolongée. Les PMI flash d'avril publiés ce matin en zone euro ressortent légèrement au-dessus des attentes (51,2 composite contre 50,8 attendu), réduisant l'urgence d'un nouveau geste accommodant en juin. Pour les professionnels M&A, ce plateau des taux stabilise les conditions de financement LBO autour de 5,5-6 % sur la dette senior, rendant les modèles de valorisation plus lisibles mais maintenant la pression sur les multiples dans les dossiers très levés."
+        "titre": "Marchés : Risk-off partiel, le CAC 40 résiste sous 7 950 points",
+        "detail": "Le CAC 40 recule de 0,4% à 7 924 points en milieu de matinée, pénalisé par le regain de tensions au Moyen-Orient et la remontée du Brent à 96,3 $. L'Eurostoxx 50 perd 0,3% à 4 812 points. Pour les professionnels M&A, ce contexte de volatilité modérée n'est pas rédhibitoire : les acheteurs stratégiques restent actifs, mais les fenêtres de closing se négocient avec des clauses MAC (Material Adverse Change) plus exigeantes."
       },
       {
-        "titre": "Point marché clé — Publications de résultats T1 et re-rating sectoriel",
-        "detail": "La saison des résultats T1 2026 bat son plein : LVMH, publié hier soir, affiche une croissance organique de +5 % tirée par la mode-maroquinerie, au-dessus du consensus (+3,8 %), ce qui entraîne un rebond du secteur luxe en Europe ce matin. À l'inverse, les valeurs industrielles exposées aux États-Unis souffrent de la persistance des droits de douane à 15 % sur les biens manufacturés européens. Pour un praticien M&A, le différentiel de re-rating entre secteurs défensifs (santé, luxe) et cycliques (auto, industrie lourde) élargit les écarts de multiples et complexifie les comparables dans les fairness opinions."
+        "titre": "Macro : La BCE en attente, l'inflation énergétique complique l'équation",
+        "detail": "L'inflation en zone euro est ressortie à 2,6% en mars (dont énergie +3,8%), forçant la BCE à différer toute nouvelle baisse de taux après celle de 25 pb de février. Le taux de dépôt reste à 2,75%. Pour le financement des LBO, les banques répercutent cette incertitude via des marges de crédit stables mais des covenants financiers resserrés, maintenant le coût moyen de la dette acquisition entre 5,2% et 5,8% pour les mid-caps françaises."
       },
       {
-        "titre": "Point M&A / entreprise — Consolidation dans la tech et la santé françaises",
-        "detail": "Deux opérations majeures animent le marché français ce jeudi : le rachat annoncé de Doctolib par un consortium emmené par Sanofi et un fonds souverain du Golfe pour environ 3,5 Md€, et l'acquisition par Dassault Systèmes d'une scale-up française de simulation industrielle pour 420 M€ en cash. Ces deals illustrent la tendance de fond : les grands corporates français utilisent leurs bilans solides pour internaliser des capacités technologiques, réduisant les opportunités pour les fonds PE sur les actifs prime mais créant un flux secondaire sur les portefeuilles non-core cédés en parallèle."
+        "titre": "M&A : Le mid-market français tient bon, les cessions non-core s'accélèrent",
+        "detail": "Selon les données Refinitiv compilées par L'Agefi, le volume M&A France sur le premier trimestre 2026 atteint 18,4 milliards d'euros (+7% vs T1 2025), tiré par les cessions d'actifs non-core de grands groupes et les consolidations sectorielles. Les multiples mid-market oscillent entre 7x et 9,5x l'EBITDA selon les secteurs, avec une prime notable sur les cibles ESG-compatibles et les actifs récurrents (SaaS, services aux entreprises). Les fonds PE type Ardian, IK Partners et PAI restent très actifs sur le segment 50-300 M€."
       },
       {
-        "titre": "Point géopolitique / politique — Tensions commerciales et budget français",
-        "detail": "Les négociations commerciales entre l'UE et les États-Unis progressent lentement : un accord-cadre sur les semi-conducteurs et les véhicules électriques est évoqué pour fin mai, mais aucune levée significative des tarifs n'est attendue avant le second semestre. En France, le débat budgétaire 2027 s'amorce avec des arbitrages difficiles autour du déficit public (attendu à 5,1 % du PIB en 2026) ; le risque d'une dégradation de la note souveraine par S&P avant l'été pèse sur le spread OAT/Bund. Pour les opérations M&A impliquant une composante réglementaire ou des aides d'État, ce contexte politique français invite à une vigilance accrue sur les délais d'approbation."
+        "titre": "Politique/Géo : Iran-USA, la nouvelle escalade teste la résistance des marchés",
+        "detail": "Des frappes américaines sur le terminal pétrolier de Bandar Abbas ont relancé les craintes de fermeture partielle du détroit d'Ormuz, par lequel transitent 21% des exportations mondiales de pétrole. Le Brent a bondi de 3,1% en 24h à 96,3 $. Pour les entreprises françaises importatrices d'énergie et les dossiers M&A industriels, ce choc exogène alimente l'incertitude sur les projections d'EBITDA 2026-2027, rendant plus complexe la fixation des prix dans les SPA en cours de négociation."
       }
     ]
   },
@@ -26,25 +26,25 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "7 842",
-        "change": "+0,62%",
-        "dir": "up"
+        "value": "7 924",
+        "change": "-0,4%",
+        "dir": "down"
       },
       {
         "label": "Eurostoxx 50",
-        "value": "5 214",
-        "change": "+0,48%",
-        "dir": "up"
+        "value": "4 812",
+        "change": "-0,3%",
+        "dir": "down"
       },
       {
         "label": "OAT 10 ans",
-        "value": "3,42%",
+        "value": "3,72%",
         "change": "+2 pb",
         "dir": "up"
       },
       {
         "label": "Bund 10 ans",
-        "value": "2,71%",
+        "value": "3,01%",
         "change": "+1 pb",
         "dir": "up"
       },
@@ -56,58 +56,79 @@
       },
       {
         "label": "EUR/USD",
-        "value": "1,0935",
-        "change": "+0,18%",
+        "value": "1,1714",
+        "change": "+0,2%",
         "dir": "up"
       },
       {
         "label": "Brent",
-        "value": "78,40 $",
-        "change": "-0,55%",
-        "dir": "down"
+        "value": "96,3 $",
+        "change": "+3,1%",
+        "dir": "up"
       },
       {
         "label": "S&P 500",
-        "value": "5 631",
-        "change": "+0,34%",
-        "dir": "up"
+        "value": "5 318",
+        "change": "-0,6%",
+        "dir": "down"
       }
     ],
     "articles": [
       {
         "source": "Les Echos",
         "heure": "07h30",
-        "titre": "LVMH dépasse les attentes au T1 et entraîne le luxe européen dans son sillage",
-        "resume": "Le groupe de Bernard Arnault a publié mercredi soir une croissance organique de 5 % au premier trimestre 2026, portée par la mode-maroquinerie et le redressement de l'Asie-Pacifique. Le titre gagne plus de 3 % à l'ouverture, entraînant Hermès, Kering et Richemont dans une dynamique positive sur l'ensemble du secteur.",
-        "url": "https://www.google.com/search?q=site%3Alesechos.fr+LVMH%20d%C3%A9passe%20les%20attentes%20au%20T1%20et%20entra%C3%AEne%20le%20luxe%20europ%C3%A9en%20dans%20son%20sillage"
+        "titre": "Le CAC 40 cède du terrain, le pétrole reprend le dessus après les frappes sur Bandar Abbas",
+        "resume": "L'indice parisien recule de 0,4% à l'ouverture, pénalisé par la remontée du Brent à 96,3 dollars après les frappes américaines sur le terminal pétrolier iranien de Bandar Abbas dans la nuit. Les valeurs énergétiques (TotalEnergies +1,2%) et défensives résistent, tandis que les industrielles et les loisirs accusent les plus fortes baisses.",
+        "url": "https://www.lesechos.fr/recherche?keywords=Le+CAC+40+c%C3%A8de+du+terrain%2C+le+p%C3%A9trole+reprend+le+dessus+apr%C3%A8s+les+frappes+sur+Bandar+Abbas"
       },
       {
         "source": "Le Figaro",
         "heure": "07h45",
-        "titre": "PMI flash avril : la zone euro résiste mieux que prévu malgré les vents contraires",
-        "resume": "L'indice composite PMI flash de la zone euro ressort à 51,2 en avril, au-dessus des 50,8 anticipés par le consensus, grâce à un rebond des services en France et en Espagne. Ce chiffre réduit la pression sur la BCE pour agir en juin et conforte le scénario d'une pause dans le cycle d'assouplissement monétaire.",
-        "url": "https://www.google.com/search?q=site%3Alefigaro.fr+PMI%20flash%20avril%20%3A%20la%20zone%20euro%20r%C3%A9siste%20mieux%20que%20pr%C3%A9vu%20malgr%C3%A9%20les%20vents%20contraires"
+        "titre": "OAT 10 ans à 3,72% : le spread franco-allemand se stabilise malgré les turbulences géopolitiques",
+        "resume": "Le taux de l'OAT française à dix ans progresse de 2 pb à 3,72%, le spread face au Bund allemand restant ancré à 71 pb, un niveau jugé soutenable par les stratégistes obligataires. La résistance du spread reflète la relative discipline budgétaire affichée par Bercy après la présentation du programme de stabilité, même si le déficit 2025 confirmé à 5,1% du PIB reste une source de vigilance.",
+        "url": "https://recherche.lefigaro.fr/recherche/?q=OAT+10+ans+%C3%A0+3%2C72%25+%3A+le+spread+franco-allemand+se+stabilise+malgr%C3%A9+les+turbulences+g%C3%A9opolitiques"
       },
       {
         "source": "Reuters",
-        "heure": "06h00",
-        "titre": "European stocks edge higher as luxury results offset industrial sector concerns",
-        "resume": "European equities opened cautiously higher on Thursday, with the luxury and healthcare sectors leading gains after solid first-quarter earnings from major French and Swiss groups. Industrial and auto stocks remain under pressure amid ongoing uncertainty over US tariff policy and weaker-than-expected order data from Germany.",
-        "url": "https://www.google.com/search?q=site%3Areuters.com+European%20stocks%20edge%20higher%20as%20luxury%20results%20offset%20industrial%20sector%20concerns"
+        "heure": "06h15",
+        "titre": "Oil surges 3% as U.S. strikes on Bandar Abbas port raise Strait of Hormuz closure fears",
+        "resume": "Le Brent a bondi de 3,1% à 96,3 dollars le baril en séance asiatique après que des sources militaires américaines ont confirmé des frappes de précision sur le terminal pétrolier de Bandar Abbas, quatrième port d'Iran. Les analystes de Goldman Sachs estiment qu'une fermeture même partielle du détroit d'Ormuz pourrait pousser le Brent entre 105 et 115 dollars, avec un impact direct sur l'inflation importée en Europe.",
+        "url": "https://www.reuters.com/search/news?blob=Oil+surges+3%25+as+U.S.+strikes+on+Bandar+Abbas+port+raise+Strait+of+Hormuz+closure+fears"
       },
       {
         "source": "Bloomberg",
         "heure": "06h30",
-        "titre": "OAT spread widens slightly as French fiscal outlook weighs on sovereign debt",
-        "resume": "French 10-year government bond spreads over German Bunds edged up to 71 basis points on Thursday, with investors cautious ahead of a potential sovereign rating review by S&P before the summer. The move reflects growing concern over France's fiscal trajectory, with the 2026 deficit now projected at 5.1% of GDP.",
-        "url": "https://www.google.com/search?q=site%3Abloomberg.com+OAT%20spread%20widens%20slightly%20as%20French%20fiscal%20outlook%20weighs%20on%20sovereign%20debt"
+        "titre": "European bonds steady as ECB's Lagarde rules out rate cut before July amid energy inflation rebound",
+        "resume": "Les obligations souveraines européennes s'affichent en légère hausse de rendement ce matin après les déclarations de Christine Lagarde, qui a exclu toute baisse de taux avant la réunion de juillet face à un rebond de l'inflation énergétique à 3,8% en mars. Le Bund 10 ans progresse d'1 pb à 3,01%, tandis que les spreads périphériques (Espagne, Portugal) restent stables, signe d'une absence de contagion pour l'instant.",
+        "url": "https://www.bloomberg.com/search?query=European+bonds+steady+as+ECB%27s+Lagarde+rules+out+rate+cut+before+July+amid+energy+inflation+rebound"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "07h00",
+        "titre": "TotalEnergies profite de la flambée du brut, mais l'indice parisien reste sous pression",
+        "resume": "TotalEnergies grimpe de 1,2% à l'ouverture, bénéficiant mécaniquement de la remontée du Brent à 96,3 dollars, et soutient ponctuellement le CAC 40. Mais l'effet reste insuffisant pour contrebalancer les replis dans les secteurs aéronautique (Airbus -0,9%), automobile et distribution, faisant plonger l'indice phare parisien de 0,4% à 7 924 points.",
+        "url": "https://www.bfmtv.com/recherche/?q=TotalEnergies+profite+de+la+flamb%C3%A9e+du+brut%2C+mais+l%27indice+parisien+reste+sous+pression"
       },
       {
         "source": "Les Echos",
         "heure": "08h00",
-        "titre": "L'euro reprend des couleurs face au dollar sur fond d'espoirs commerciaux",
-        "resume": "La monnaie unique progresse légèrement à 1,0935 dollar ce matin, soutenue par des rumeurs d'avancées dans les négociations commerciales UE-États-Unis autour d'un accord sectoriel sur les semi-conducteurs. Les cambistes restent néanmoins prudents, le dossier des droits de douane sur les véhicules restant en suspens.",
-        "url": "https://www.google.com/search?q=site%3Alesechos.fr+L%27euro%20reprend%20des%20couleurs%20face%20au%20dollar%20sur%20fond%20d%27espoirs%20commerciaux"
+        "titre": "L'euro tient à 1,17 face au dollar malgré le risk-off : la faiblesse structurelle du billet vert perdure",
+        "resume": "L'EUR/USD se maintient à 1,1714 ce matin, témoignant de la faiblesse structurelle du dollar alimentée par les incertitudes sur la trajectoire budgétaire américaine et les doutes sur l'indépendance de la Fed. Pour les opérations M&A transfrontalières, ce niveau favorable de l'euro réduit mécaniquement le coût d'acquisition d'actifs libellés en dollars, un facteur positif pour les acheteurs européens regardant des cibles américaines.",
+        "url": "https://www.lesechos.fr/recherche?keywords=L%27euro+tient+%C3%A0+1%2C17+face+au+dollar+malgr%C3%A9+le+risk-off+%3A+la+faiblesse+structurelle+du+billet+vert+perdure"
+      },
+      {
+        "source": "La Tribune",
+        "heure": "07h15",
+        "titre": "Volatilité contenue sur les marchés actions européens : le VIX Europe à 18, loin des pics de 2025",
+        "resume": "Malgré les tensions géopolitiques, le VSTOXX (indice de volatilité implicite européen) se maintient à 18,2 points, bien en deçà des pics à 28 enregistrés lors de l'escalade initiale du conflit Iran-USA en octobre 2025. Cette relative sérénité des marchés de volatilité reflète la capacité d'absorption des investisseurs institutionnels, qui ont intégré une prime de risque géopolitique structurelle dans leurs modèles de valorisation.",
+        "url": "https://www.latribune.fr/recherche/?q=Volatilit%C3%A9+contenue+sur+les+march%C3%A9s+actions+europ%C3%A9ens+%3A+le+VIX+Europe+%C3%A0+18%2C+loin+des+pics+de+2025"
+      },
+      {
+        "source": "FT",
+        "heure": "06h00",
+        "titre": "European markets open lower as Middle East premium returns to energy complex, testing ECB's 'wait-and-see' stance",
+        "resume": "Les marchés européens ont ouvert en légère baisse, les indices actions cédant entre 0,3% et 0,5%, tandis que la prime géopolitique pétrolière fait son grand retour avec un Brent à 96,3 dollars. Les stratégistes de BNP Paribas CIB soulignent que si le Brent venait à dépasser durablement les 100 dollars, la BCE se trouverait dans une position encore plus délicate entre le risque inflationniste et la nécessité de soutenir une croissance zone euro déjà modeste à 1,1% attendue pour 2026.",
+        "url": "https://www.ft.com/search?q=European+markets+open+lower+as+Middle+East+premium+returns+to+energy+complex%2C+testing+ECB%27s+%27wait-and-see%27+stance"
       }
     ]
   },
@@ -116,37 +137,58 @@
       {
         "source": "Les Echos",
         "heure": "07h00",
-        "titre": "Sanofi annonce le rachat de Doctolib pour 3,5 milliards d'euros",
-        "resume": "Le géant pharmaceutique français finalise l'acquisition de la plateforme de santé numérique Doctolib en consortium avec un fonds souverain du Golfe, valorisant la licorne à 3,5 Md€ en equity value. Cette opération stratégique vise à intégrer la relation patient directe dans la chaîne de valeur de Sanofi, dans un contexte de digitalisation accélérée du secteur de la santé.",
-        "url": "https://www.google.com/search?q=site%3Alesechos.fr+Sanofi%20annonce%20le%20rachat%20de%20Doctolib%20pour%203%2C5%20milliards%20d%27euros"
+        "titre": "Schneider Electric dépasse les attentes au T1 2026 : croissance organique de 8,2%, guidance relevée",
+        "resume": "Schneider Electric a publié un chiffre d'affaires T1 2026 de 9,4 milliards d'euros, en hausse organique de 8,2%, porté par la forte demande en solutions d'efficacité énergétique et data centers. Le groupe relève sa guidance annuelle de croissance organique à 7-9% (contre 6-8% précédemment), et confirme une marge d'EBITA ajustée attendue entre 18,5% et 19% pour l'exercice complet.",
+        "url": "https://www.lesechos.fr/recherche?keywords=Schneider+Electric+d%C3%A9passe+les+attentes+au+T1+2026+%3A+croissance+organique+de+8%2C2%25%2C+guidance+relev%C3%A9e"
       },
       {
         "source": "Le Figaro",
-        "heure": "07h15",
-        "titre": "Dassault Systèmes s'offre une pépite française de la simulation industrielle pour 420 M€",
-        "resume": "Le groupe de logiciels industriels a annoncé ce matin l'acquisition de SimNovaTech, spécialiste de la simulation multi-physique basé à Grenoble, pour 420 millions d'euros en numéraire. L'opération renforce le positionnement de Dassault Systèmes sur le marché de la jumeaux numérique industriel, en forte croissance estimée à +18 % par an.",
-        "url": "https://www.google.com/search?q=site%3Alefigaro.fr+Dassault%20Syst%C3%A8mes%20s%27offre%20une%20p%C3%A9pite%20fran%C3%A7aise%20de%20la%20simulation%20industrielle%20pour%20420%20M%E2%82%AC"
+        "heure": "07h20",
+        "titre": "Vivendi finalise la cession de sa participation dans Prisma Media à un consortium mené par Reworld Media pour 280 millions d'euros",
+        "resume": "Vivendi a officialisé la cession de sa participation résiduelle de 49% dans Prisma Media (Femme Actuelle, Capital, Géo) à un consortium emmené par Reworld Media pour un montant de 280 millions d'euros, valorisant l'ensemble du groupe éditorial à environ 570 millions. Cette cession s'inscrit dans la stratégie de désengagement des actifs non-core initiée par Yannick Bolloré et devrait générer une plus-value comptable d'environ 95 millions d'euros dans les comptes 2026.",
+        "url": "https://recherche.lefigaro.fr/recherche/?q=Vivendi+finalise+la+cession+de+sa+participation+dans+Prisma+Media+%C3%A0+un+consortium+men%C3%A9+par+Reworld+Media+pour+280+millions+d%27euros"
+      },
+      {
+        "source": "L'Agefi",
+        "heure": "07h30",
+        "titre": "Amundi enregistre une collecte nette record de 38 milliards d'euros au T1 2026, portée par les ETF et la gestion institutionnelle",
+        "resume": "Amundi affiche une collecte nette T1 2026 de 38,2 milliards d'euros, son meilleur premier trimestre depuis l'introduction en Bourse, grâce notamment aux ETF (17,4 Md€) et aux mandats institutionnels en obligations souveraines européennes. Les encours sous gestion atteignent désormais 2 340 milliards d'euros (+6,1% sur un an), confortant la position du premier gestionnaire d'actifs européen face aux géants américains BlackRock et Vanguard.",
+        "url": "https://www.agefi.fr/search?q=Amundi+enregistre+une+collecte+nette+record+de+38+milliards+d%27euros+au+T1+2026%2C+port%C3%A9e+par+les+ETF+et+la+gestion+institutionnelle"
       },
       {
         "source": "Reuters",
         "heure": "06h45",
-        "titre": "TotalEnergies accelerates low-carbon transition with new European wind portfolio acquisition",
-        "resume": "TotalEnergies confirmed the purchase of a 2.4 GW offshore wind portfolio across the North Sea from a Norwegian operator, in a deal valued at approximately €1.8 billion. The transaction strengthens the French major's renewable energy pipeline ahead of its Capital Markets Day scheduled for late May.",
-        "url": "https://www.google.com/search?q=site%3Areuters.com+TotalEnergies%20accelerates%20low-carbon%20transition%20with%20new%20European%20wind%20portfolio%20acquisition"
+        "titre": "Airbus maintains 2026 delivery target of 820 aircraft despite supply chain strains, CFO signals margin pressure",
+        "resume": "Airbus a confirmé son objectif de livraisons 2026 à 820 appareils lors d'un call analystes, malgré des tensions persistantes dans la chaîne d'approvisionnement en moteurs (CFM, Pratt & Whitney) et en matériaux composites. Le directeur financier Thomas Toepfer a toutefois signalé une pression sur les marges EBIT du segment Commercial Aviation au S1, attendues entre 9,5% et 10% contre 11,2% au S1 2025.",
+        "url": "https://www.reuters.com/search/news?blob=Airbus+maintains+2026+delivery+target+of+820+aircraft+despite+supply+chain+strains%2C+CFO+signals+margin+pressure"
+      },
+      {
+        "source": "La Tribune",
+        "heure": "07h10",
+        "titre": "Veolia renforce son positionnement dans le dessalement en Arabie Saoudite avec un contrat de 1,2 milliard d'euros",
+        "resume": "Veolia a annoncé la signature d'un contrat de concession de 25 ans avec l'autorité saoudienne de l'eau (NWC) pour la construction et l'exploitation d'une usine de dessalement de 600 000 m³/jour à Al-Jubail, pour un montant de 1,2 milliard d'euros. Ce contrat, le plus important jamais remporté par Veolia dans la région, porte son carnet de commandes Moyen-Orient à 4,8 milliards d'euros et témoigne de la stratégie de diversification géographique du groupe.",
+        "url": "https://www.latribune.fr/recherche/?q=Veolia+renforce+son+positionnement+dans+le+dessalement+en+Arabie+Saoudite+avec+un+contrat+de+1%2C2+milliard+d%27euros"
       },
       {
         "source": "Les Echos",
         "heure": "08h15",
-        "titre": "Publicis maintient sa trajectoire de croissance et relève sa guidance 2026",
-        "resume": "Le groupe de communication a publié ce matin une croissance organique de +6,2 % au T1 2026, portée par le développement de son offre de data et d'intelligence artificielle pour ses clients annonceurs. Fort de ces résultats, Publicis relève sa guidance de croissance organique annuelle à +5,5-6,5 %, contre +5-6 % précédemment.",
-        "url": "https://www.google.com/search?q=site%3Alesechos.fr+Publicis%20maintient%20sa%20trajectoire%20de%20croissance%20et%20rel%C3%A8ve%20sa%20guidance%202026"
+        "titre": "Carrefour accélère ses cessions en Asie du Sud-Est : la filiale taïwanaise vendue 320 millions d'euros",
+        "resume": "Carrefour a annoncé la cession de l'intégralité de ses opérations à Taïwan (59 hypermarchés, 2,1 milliards d'euros de CA) au conglomérat local Uni-President Enterprises pour un montant de 320 millions d'euros, soit un multiple de transaction d'environ 0,15x le chiffre d'affaires. Cette cession est la dernière étape de la stratégie de recentrage géographique d'Alexandre Bompard sur l'Europe, le Brésil et le Maghreb, les produits de cession devant alimenter un programme de rachat d'actions de 500 millions d'euros.",
+        "url": "https://www.lesechos.fr/recherche?keywords=Carrefour+acc%C3%A9l%C3%A8re+ses+cessions+en+Asie+du+Sud-Est+%3A+la+filiale+ta%C3%AFwanaise+vendue+320+millions+d%27euros"
+      },
+      {
+        "source": "Bloomberg",
+        "heure": "06h30",
+        "titre": "LVMH Q1 2026 organic revenue growth slows to 4% as Chinese luxury demand remains below pre-2025 peak",
+        "resume": "LVMH a publié des revenus T1 2026 de 22,1 milliards d'euros, en hausse organique de 4%, en retrait par rapport aux 6% du T4 2025, la demande du consommateur chinois restant inférieure de 12% à son pic de 2024. Le pôle Mode & Maroquinerie (Louis Vuitton, Dior) progresse de 5% en organique, tandis que les Vins & Spiritueux (-3%) souffrent toujours de la surstockage post-Covid sur le marché américain.",
+        "url": "https://www.bloomberg.com/search?query=LVMH+Q1+2026+organic+revenue+growth+slows+to+4%25+as+Chinese+luxury+demand+remains+below+pre-2025+peak"
       },
       {
         "source": "Le Figaro",
         "heure": "08h30",
-        "titre": "Air France-KLM retrouve des couleurs : résultat opérationnel T1 en nette amélioration",
-        "resume": "La compagnie aérienne franco-néerlandaise publie un résultat opérationnel T1 en amélioration de 180 M€ par rapport à la même période 2025, grâce à la maîtrise des coûts carburant et à une demande affaires soutenue sur les long-courriers. La direction confirme l'objectif d'une marge opérationnelle de 8-9 % sur l'ensemble de l'exercice 2026.",
-        "url": "https://www.google.com/search?q=site%3Alefigaro.fr+Air%20France-KLM%20retrouve%20des%20couleurs%20%3A%20r%C3%A9sultat%20op%C3%A9rationnel%20T1%20en%20nette%20am%C3%A9lioration"
+        "titre": "Engie lève 2,5 milliards d'euros en obligations vertes pour financer son programme d'éolien offshore en mer du Nord",
+        "resume": "Engie a réalisé avec succès une émission d'obligations vertes de 2,5 milliards d'euros en deux tranches (7 et 12 ans) à des taux de 3,85% et 4,10%, avec un carnet d'ordres sursouscrit 3,2 fois, témoignant de l'appétit des investisseurs institutionnels pour les actifs verts de qualité Investment Grade. Les fonds levés financeront l'accélération du programme éolien offshore du groupe en mer du Nord (4,2 GW d'ici 2029), dans le cadre des objectifs de sa feuille de route stratégique 'Engie Impact 2030'.",
+        "url": "https://recherche.lefigaro.fr/recherche/?q=Engie+l%C3%A8ve+2%2C5+milliards+d%27euros+en+obligations+vertes+pour+financer+son+programme+d%27%C3%A9olien+offshore+en+mer+du+Nord"
       }
     ]
   },
@@ -155,38 +197,37 @@
       {
         "source": "Les Echos",
         "heure": "07h00",
-        "titre": "Sanofi / Doctolib : un deal à 3,5 Md€ qui rebat les cartes de la santé numérique française",
-        "resume": "L'opération, structurée en consortium avec le fonds souverain Abu Dhabi Investment Authority (ADIA), valorise Doctolib à un multiple d'environ 8x le chiffre d'affaires 2025, prime significative par rapport aux dernières valorisations privées. Lazard conseille Sanofi, tandis que Rothschild & Co accompagne Doctolib et ses fondateurs dans la cession.",
-        "url": "https://www.google.com/search?q=site%3Alesechos.fr+Sanofi%20/%20Doctolib%20%3A%20un%20deal%20%C3%A0%203%2C5%20Md%E2%82%AC%20qui%20rebat%20les%20cartes%20de%20la%20sant%C3%A9%20num%C3%A9rique%20fran%C3%A7aise"
+        "titre": "LBO : IK Partners s'empare de Kereis, courtier en assurances collectives, pour 420 millions d'euros, soit 11x l'EBITDA",
+        "resume": "Le fonds de private equity IK Partners a finalisé l'acquisition de Kereis, leader français du courtage en assurances de personnes pour les TPE-PME (CA 2025 : 195 M€, EBITDA 38 M€), pour un montant de 420 millions d'euros représentant un multiple de 11x l'EBITDA. L'opération, financée à hauteur de 55% en dette senior arrangée par Natixis et BNP Paribas, valorise la récurrence des revenus et le fort potentiel de croissance externe dans un secteur de l'intermédiation en assurance en pleine consolidation.",
+        "url": "https://www.lesechos.fr/recherche?keywords=LBO+%3A+IK+Partners+s%27empare+de+Kereis%2C+courtier+en+assurances+collectives%2C+pour+420+millions+d%27euros%2C+soit+11x+l%27EBITDA"
       },
       {
         "source": "Le Figaro",
         "heure": "07h20",
-        "titre": "Rachat de SimNovaTech par Dassault Systèmes : la consolidation des logiciels industriels français s'accélère",
-        "resume": "Le deal à 420 M€ est financé intégralement en cash, sans recours à la dette, illustrant la solidité du bilan de Dassault Systèmes avec plus de 3 Md€ de trésorerie nette. Morgan Stanley a conseillé l'acquéreur, BNP Paribas accompagnait SimNovaTech et son actionnariat composé de fonds de capital-risque européens.",
-        "url": "https://www.google.com/search?q=site%3Alefigaro.fr+Rachat%20de%20SimNovaTech%20par%20Dassault%20Syst%C3%A8mes%20%3A%20la%20consolidation%20des%20logiciels%20industriels%20fran%C3%A7ais%20s%27acc%C3%A9l%C3%A8re"
+        "titre": "Eurazeo cède Questel, spécialiste de la gestion de propriété intellectuelle, à Francisco Partners pour 780 millions d'euros",
+        "resume": "Eurazeo a annoncé la cession de Questel (gestion de PI et logiciels juridiques, CA 2025 : 145 M€) au fonds américain de tech Francisco Partners pour 780 millions d'euros, soit un multiple de 8,5x le chiffre d'affaires et environ 22x l'EBITDA, reflétant la prime accordée aux modèles SaaS B2B récurrents. Eurazeo réalise ainsi un multiple d'investissement (MoM) de 3,8x sur une détention de six ans, générant une plus-value brute estimée à 530 millions d'euros pour ses fonds.",
+        "url": "https://recherche.lefigaro.fr/recherche/?q=Eurazeo+c%C3%A8de+Questel%2C+sp%C3%A9cialiste+de+la+gestion+de+propri%C3%A9t%C3%A9+intellectuelle%2C+%C3%A0+Francisco+Partners+pour+780+millions+d%27euros"
       },
       {
         "source": "L'Agefi",
         "heure": "07h30",
-        "titre": "Tikehau Capital lève 2,2 Md€ pour son nouveau fonds de dettes privées paneuropéen",
-        "resume": "L'Agefi révèle que le groupe d'asset management alternatif français a finalisé le closing de son fonds Tikehau Direct Lending V à 2,2 Md€, dépassant son objectif initial de 1,8 Md€ grâce à des souscriptions institutionnelles en provenance d'Asie et du Moyen-Orient. Ce fonds ciblera principalement des PME et ETI européennes en situation de croissance ou de transmission, avec un ticket moyen compris entre 30 et 150 M€.",
-        "url": "https://www.google.com/search?q=site%3Aagefi.fr+Tikehau%20Capital%20l%C3%A8ve%202%2C2%20Md%E2%82%AC%20pour%20son%20nouveau%20fonds%20de%20dettes%20priv%C3%A9es%20paneurop%C3%A9en"
+        "titre": "Tikehau Capital et Bpifrance cofinancent le LBO de Sepur, spécialiste de la gestion des déchets industriels, à 9x l'EBITDA",
+        "resume": "Tikehau Capital, en co-investissement avec Bpifrance via son fonds Large Venture, a structuré le rachat de Sepur (collecte et traitement des déchets industriels, CA 280 M€, EBITDA 31 M€) pour une valeur d'entreprise de 278 millions d'euros, soit 9x l'EBITDA. La structure inclut une unitranche de 155 millions d'euros arrangée par Tikehau Direct Lending à Euribor 3M + 550 pb, et valorise la conformité ESG du modèle de Sepur ainsi que ses contrats pluriannuels avec les collectivités territoriales.",
+        "url": "https://www.agefi.fr/search?q=Tikehau+Capital+et+Bpifrance+cofinancent+le+LBO+de+Sepur%2C+sp%C3%A9cialiste+de+la+gestion+des+d%C3%A9chets+industriels%2C+%C3%A0+9x+l%27EBITDA"
       },
       {
         "source": "Reuters",
         "heure": "06h00",
-        "titre": "Private equity firms circle French cybersecurity assets as consolidation wave builds",
-        "resume": "Several European and US buyout funds are conducting due diligence on Tehtris, a French cybersecurity group specialised in threat detection, in a process that could value the company at between €600 million and €800 million according to sources familiar with the matter. The deal, if completed, would be one of the largest cybersecurity transactions in France this year, reflecting strong investor appetite for sovereign-grade tech assets.",
-        "url": "https://www.google.com/search?q=site%3Areuters.com+Private%20equity%20firms%20circle%20French%20cybersecurity%20assets%20as%20consolidation%20wave%20builds"
-      },
-      {
-        "source": "Bloomberg",
-        "heure": "06h30",
-        "titre": "Michelin weighs acquisition of specialty materials unit from German conglomerate",
-        "resume": "Michelin is in advanced discussions to acquire the high-performance polymer and composites division of a German industrial group for approximately €1.1 billion, in a move aimed at vertically integrating its tyre manufacturing supply chain. The French tyre maker is working with Société Générale on the financial structuring of the potential transaction.",
-        "url": "https://www.google.com/search?q=site%3Abloomberg.com+Michelin%20weighs%20acquisition%20of%20specialty%20materials%20unit%20from%20German%20conglomerate"
+        "titre": "Sanofi agrees to acquire U.S. rare disease biotech ArTio Biosciences for $2.1 billion in cash, at 14x forward revenues",
+        "resume": "Sanofi a annoncé l'acquisition d'ArTio Biosciences (San Diego), spécialiste des maladies rares en hématologie, pour 2,1 milliards de dollars en numéraire, soit 14x les revenus 2027 projetés de 150 millions de dollars. Cette acquisition, la plus importante de Sanofi depuis le rachat de Ablynx en 2018, vise à renforcer le pipeline du groupe en maladies rares et compense partiellement la perte de brevet attendue sur l'Aubagio en 2027.",
+        "url": "https://www.reuters.com/search/news?blob=Sanofi+agrees+to+acquire+U.S.+rare+disease+biotech+ArTio+Biosciences+for+%242.1+billion+in+cash%2C+at+14x+forward+revenues"
       }
     ]
+  },
+  "macro": {
+    "articles": []
+  },
+  "politique": {
+    "articles": []
   }
 }
