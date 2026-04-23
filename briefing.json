@@ -1,31 +1,31 @@
 {
-  "timestamp": "15h09 le 23/04/2026",
+  "timestamp": "15h15 le 23/04/2026",
   "alerte": {
-    "titre": "Contraction surprise des PMI zone euro",
-    "detail": "Les indices PMI affichent une contraction inattendue en avril, signalant un ralentissement conjoncturel préoccupant en Europe. Déconnexion croissante entre valorisations boursières et réalités économiques."
+    "titre": "Contraction PMI eurozone",
+    "detail": "Les indices PMI de la zone euro se contractent en avril (indice composite au plus bas depuis 14 mois en France), signalant un ralentissement économique surprise face aux anticipations de reprise"
   },
   "synthese": {
-    "resume": "La zone euro affiche une contraction surprise des indices PMI en avril, démentant les attentes de reprise. Les marchés restent déconnectés de la réalité économique : le fonds souverain norvégien a perdu 116 Mds€ au T1 sur la tech américaine. Servier acquiert Day One (2,5 Mds$) pour renforcer son oncologie. L'Ukraine obtient enfin son prêt de 90 Mds€ après levée du véto hongrois.",
+    "resume": "La zone euro affiche des signes de ralentissement avec une contraction surprise des PMI en avril, tandis que les marchés actions restent découplés de la réalité macroéconomique selon les analystes. Le fonds souverain norvégien a perdu 116 milliards d'euros au T1 sur ses positions tech américaines. En M&A, Servier confirme l'appétence française pour l'oncologie avec le rachat de Day One pour 2,5 milliards de dollars.",
     "points": [
       {
         "titre": "Marchés",
-        "detail": "Tensions persistantes : IBM s'effondre post-résultats (pression sur les logiciels). L'Oréal s'envole sur l'effet rouge à lèvres. Fonds norvégien : -116 Mds€ au T1 2026 en actions tech. Déconnexion actif/réalité macro."
+        "detail": "L'Oréal s'envole grâce à l'effet cosmétique de luxe. Les indices PMI eurozone contractent en avril (14 mois de low pour la France). Le fonds souverain norvégien perd 116 Mds€ au T1 sur tech US. IBM chute post-résultats, pression sur les logiciels."
       },
       {
         "titre": "Macro",
-        "detail": "PMI zone euro en contraction surprise avril 2026. Allemagne divise par 2 sa prévision croissance 2026 à 0,5%. Suède alerte risque rationnement carburant. Électricité doit atteindre >50% consommation énergétique 2050 vs 27% actuellement."
+        "detail": "PMI composite zone euro au plus bas depuis 14 mois. France en contraction en avril. Suède prévient risque de rationnement carburant si conflit Moyen-Orient s'aggrave. Demande pétrolière géopolitiquement fragile."
       },
       {
-        "titre": "Entreprises / Résultats",
-        "detail": "Nestlé redresse ses ventes (café, culinaire, snacks). Edenred : activité en légère hausse T1. Hasbro : résultats meilleurs qu'attendu T1. BioMérieux dévisse (abaissement prévisions 2026). GTT reçoit multiples commandes (euphorie boursière)."
+        "titre": "Entreprises / Stratégie",
+        "detail": "Servier acquiert Day One (oncologie) pour 2,5 Mds$, renforçant leadership français en cancer. Ubisoft finalise arrêt télétravail pour ses salariés. Tesla crée 1.000 emplois en Allemagne. GTT reçoit multiples commandes. Nestlé réduit voilure en France."
       },
       {
-        "titre": "M&A & Stratégie",
-        "detail": "Servier acquiert Day One (2,5 Mds$, oncologie). TAP Portugal : Air France-KLM vs Lufthansa, décision septembre. Ubisoft accélère fin télétravail. SpaceX + Cursor partnership (60 Mds$ IA potential)."
+        "titre": "M&A / Financement",
+        "detail": "Servier-Day One : 2,5 Mds$ en oncologie. TAP Air Portugal : appel d'offres Air France-KLM vs Lufthansa (résultat septembre). Rachat SFR : intérêt international. Transmission PME : plan gouvernement avec plateforme 'Tinder reprise'."
       },
       {
-        "titre": "Politique / Géopolitique",
-        "detail": "Prêt Ukraine 90 Mds€ enfin validé (levée véto Hongrie). Trump prolonge trêve Iran. Gouvernement France : plan électrification 22 mesures. Lecornu ajoute 2 Mds€ économies budget 2026. Succession LVMH : Arnault repousse débat 7-8 ans."
+        "titre": "Politique / Géo",
+        "detail": "Prêt UE 90 Mds€ Ukraine validé après levée véto Hongrie. Plan électrification gouvernement : 22 mesures, électricité >50% consommation 2050. Budget 2026 : 2 Mds€ économies supplémentaires. Trump prolonge trêve Iran. Sanctions EU contre banques russes."
       }
     ]
   },
@@ -33,44 +33,44 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "—",
-        "change": "—",
+        "value": "-",
+        "change": "-",
         "dir": "flat"
       },
       {
         "label": "Eurostoxx 50",
-        "value": "—",
-        "change": "—",
+        "value": "-",
+        "change": "-",
         "dir": "flat"
       },
       {
         "label": "S&P 500",
-        "value": "—",
-        "change": "—",
+        "value": "-",
+        "change": "-",
         "dir": "flat"
       },
       {
         "label": "Nasdaq",
-        "value": "—",
-        "change": "—",
+        "value": "-",
+        "change": "-",
         "dir": "flat"
       },
       {
         "label": "EUR/USD",
-        "value": "—",
-        "change": "—",
+        "value": "-",
+        "change": "-",
         "dir": "flat"
       },
       {
         "label": "Brent",
-        "value": "—",
-        "change": "—",
+        "value": "-",
+        "change": "-",
         "dir": "flat"
       },
       {
         "label": "Or",
-        "value": "—",
-        "change": "—",
+        "value": "-",
+        "change": "-",
         "dir": "flat"
       }
     ],
@@ -89,137 +89,6 @@
         "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, s'est penché sur les perspectives sur les publications en Europe, la supériorité face aux attentes des revenus de Renault, l'insuffisance de la hausse du CA d'EssilorLuxottica au T1",
         "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-l-oreal-s-envole-porte-par-l-effet-rouge-a-levres-23-04_VN-202604230598.html"
       },
-      {
-        "source": "BFM Business",
-        "heure": "16h03",
-        "titre": "La bourse cash : « Les actions se déconnectent de la réalité économique et géopolitique. » - 23/04",
-        "resume": "Ce jeudi 23 avril, Alexandre Hezez, stratégiste indépendant, s'est penché sur les marchés actions déconnectés des contextes macroéconomique et géopolitique, l'Euro Stoxx 600 battu par le S&P depuis janvier, et le chiffre d'affaires de L’Oréal supérie",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-la-bourse-cash-les-actions-se-deconnectent-de-la-realite-economique-et-geopolitique-23-04_VN-202604230584.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "16h03",
-        "titre": "Alexandre Hezez : « Les actions se déconnectent de la réalité économique et géopolitique. »",
-        "resume": "Ce jeudi 23 avril, Alexandre Hezez, stratégiste indépendant, s'est penché sur les marchés actions déconnectés des contextes macroéconomique et géopolitique, l'Euro Stoxx 600 battu par le S&P depuis janvier, et le chiffre d'affaires de L'oréal supérie",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/alexandre-hezez-les-actions-se-deconnectent-de-la-realite-economique-et-geopolitique_EN-202604230582.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "15h57",
-        "titre": "USA Today : IBM chute après ses résultats, retour de la pression sur les logiciels, par John Plassard – 23/04",
-        "resume": "Ce jeudi 23 avril, dans sa chronique USA Today, John Plassard, associé et responsable de la stratégie d'investissement de Cité Gestion, s'est penché sur l'enchaînement des records sur le S&P malgré le conflit au Moyen-Orient, le limogeage du secrétai",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/usa-today-ibm-chute-apres-ses-resultats-retour-de-la-pression-sur-les-logiciels-par-john-plassard-23-04_EN-202604230576.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "15h52",
-        "titre": "USA Today : IBM chute après ses résultats, retour de la pression sur les logiciels, par John Plassard - 23/04",
-        "resume": "Ce jeudi 23 avril, dans sa chronique USA Today, John Plassard, associé et responsable de la stratégie d'investissement de Cité Gestion, s'est penché sur l'enchaînement des records sur le S&P malgré le conflit au Moyen-Orient, le limogeage du secrétai",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-usa-today-ibm-chute-apres-ses-resultats-retour-de-la-pression-sur-les-logiciels-par-john-plassard-23-04_VN-202604230575.html"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "14h11",
-        "titre": "Norvège : le fonds souverain a perdu 116 milliards d'euros au premier trimestre",
-        "resume": "Le fonds souverain de la Norvège, le plus gros au monde, a perdu 1270 milliards de couronnes (116 milliards d'euros) au premier trimestre, en raison de...",
-        "url": "https://www.lefigaro.fr/flash-eco/norvege-le-fonds-souverain-a-perdu-116-milliards-d-euros-au-premier-trimestre-20260423"
-      }
-    ]
-  },
-  "entreprises": {
-    "articles": [
-      {
-        "source": "BFM Business",
-        "heure": "16h17",
-        "titre": "Culture Bourse : « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? », par Julie Cohen-Heurton - 23/04",
-        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, a répondu à la question « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? » dans la chronique Culture Bourse présentée par Julie Cohen",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-culture-bourse-gtt-recoit-de-multiples-commandes-et-ca-se-ressent-en-bourse-comment-percevez-vous-le-titre-par-julie-cohen-heurton-23-04_VN-202604230592.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "16h13",
-        "titre": "Culture Bourse : « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? », par Julie Cohen-Heurton – 23/04",
-        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, a répondu à la question « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? » dans la chronique Culture Bourse présentée par Julie Cohen",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/culture-bourse-gtt-recoit-de-multiples-commandes-et-ca-se-ressent-en-bourse-comment-percevez-vous-le-titre-par-julie-cohen-heurton-23-04_EN-202604230588.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "15h41",
-        "titre": "\"Il y a de la sidération\": Ubisoft acte la quasi-fin du télétravail pour ses salariés",
-        "resume": "Les salariés ont été informés qu'ils disposeraient désormais d'un quota de moins d'un jour par semaine, alors que jusqu'à présent ils bénéficiaient de deux jours de télétravail par semaine,",
-        "url": "https://www.bfmtv.com/economie/emploi/il-y-a-de-la-sideration-ubisoft-acte-la-quasi-fin-du-teletravail-pour-ses-salaries_AD-202604230568.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "15h22",
-        "titre": "Le français veut accélérer dans l'oncologie : Servier rachète l'américain Day One pour 2,5 milliards de dollars et renforce ses capacités dans les médicaments contre le cancer",
-        "resume": "Le groupe pharmaceutique français Servier, recentré depuis plusieurs années sur les médicaments anti-cancer, se renforce dans le domaine avec le rachat de la société américaine Day One Biopharmaceuticals, une opération évaluée à 2,5 milliards de doll",
-        "url": "https://www.bfmtv.com/economie/entreprises/le-francais-veut-accelerer-dans-l-oncologie-servier-rachete-l-americain-day-one-pour-2-5-milliards-de-dollars-et-renforce-ses-capacites-dans-les-medicaments-contre-le-cancer_AD-202604230558.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "15h14",
-        "titre": "\"Une réponse directe à la hausse de la demande\": Tesla va créer 1.000 emplois d'ici fin juin dans son usine allemande",
-        "resume": "Elle compte aujourd'hui 10.700 salariés, selon le groupe, et produit de grandes quantités du Model Y, son SUV grand public, ainsi que des cellules de batterie.",
-        "url": "https://www.bfmtv.com/economie/entreprises/industries/une-reponse-directe-a-la-hausse-de-la-demande-tesla-va-creer-1-000-emplois-d-ici-fin-juin-dans-son-usine-allemande_AD-202604230553.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "14h11",
-        "titre": "Nestlé voit ses ventes se redresser, portées par le café, les produits culinaires et les snacks",
-        "resume": "Malgré la crise du lait infantile et la hausse des coûts des matières premières, le géant de l'agroalimentaire a maintenu ses objectifs pour 2026. Son chiffre d'affaires du premier trimestre, bien qu'en baisse, a dépassé les attentes.",
-        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/nestle-voit-ses-ventes-se-redresser-portees-par-le-cafe-les-produits-culinaires-et-les-snacks-2228098"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "12h02",
-        "titre": "Bourse de Paris: BioMérieux dévisse après l'abaissement de ses prévisions pour 2026",
-        "resume": "Après la publication de résultats en baisse au 1er trimestre, le titre du spécialiste des tests médicaux perdait 13,46% à l’ouverture des échanges.",
-        "url": "https://www.lefigaro.fr/societes/bourse-de-paris-biomerieux-devisse-apres-l-abaissement-de-ses-previsions-pour-2026-20260423"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
-      {
-        "source": "BFM Business",
-        "heure": "15h22",
-        "titre": "Le français veut accélérer dans l'oncologie : Servier rachète l'américain Day One pour 2,5 milliards de dollars et renforce ses capacités dans les médicaments contre le cancer",
-        "resume": "Le groupe pharmaceutique français Servier, recentré depuis plusieurs années sur les médicaments anti-cancer, se renforce dans le domaine avec le rachat de la société américaine Day One Biopharmaceuticals, une opération évaluée à 2,5 milliards de doll",
-        "url": "https://www.bfmtv.com/economie/entreprises/le-francais-veut-accelerer-dans-l-oncologie-servier-rachete-l-americain-day-one-pour-2-5-milliards-de-dollars-et-renforce-ses-capacites-dans-les-medicaments-contre-le-cancer_AD-202604230558.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "15h51",
-        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
-        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes. ",
-        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h48",
-        "titre": "« On reparlera de tout ça dans 7-8 ans » : lors de l’assemblée générale de LVMH, Bernard Arnault repousse la question de sa succession",
-        "resume": "Ce jeudi se tenait l’assemblée générale de LVMH. Un temps fort particulièrement scruté car Bernard Arnault y répond de façon détaillée aux questions des actionnaires et en profite pour faire passer des messages. Cette année, la question de la success",
-        "url": "https://www.challenges.fr/entreprise/on-reparlera-de-tout-ca-dans-7-8-ans-lors-de-lassemblee-generale-de-lvmh-bernard-arnault-repousse-la-question-de-sa-succession_642933"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h39",
-        "titre": "Elon Musk prêt à miser 60 milliards sur l’IA ? Le pari stratégique de SpaceX qui s’associe avec la start-up Cursor",
-        "resume": "L’entreprise aérospatiale d’Elon Musk a annoncé, mardi 21 avril, avoir conclu un accord avec la start-up de programmation assistée par IA Cursor, qui pourrait aboutir à son rachat pour 60 milliards de dollars. Ce rapprochement intervient alors que Sp",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/elon-musk-pret-a-miser-60-milliards-sur-lia-le-pari-strategique-de-spacex-qui-sassocie-avec-la-start-up-cursor_642908"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "12h14",
-        "titre": "SpaceX mise sur l’IA et noue un partenariat avec l’éditeur de code Cursor",
-        "resume": "Le partenariat est assorti d’une option de rachat à 60 milliards de dollars d’ici à la fin de l’année. Ce partenariat avec Cursor a lieu alors qu’une course est engagée dans la Silicon Valley pour capter les développeurs professionnels, devenus le pr",
-        "url": "https://www.lemonde.fr/pixels/article/2026/04/22/spacex-mise-sur-l-ia-et-noue-un-partenariat-avec-l-editeur-de-code-cursor_6682368_4408996.html"
-      }
-    ]
-  },
-  "macro": {
-    "articles": [
       {
         "source": "BFM Business",
         "heure": "16h30",
@@ -243,6 +112,151 @@
       },
       {
         "source": "BFM Business",
+        "heure": "16h03",
+        "titre": "La bourse cash : « Les actions se déconnectent de la réalité économique et géopolitique. » - 23/04",
+        "resume": "Ce jeudi 23 avril, Alexandre Hezez, stratégiste indépendant, s'est penché sur les marchés actions déconnectés des contextes macroéconomique et géopolitique, l'Euro Stoxx 600 battu par le S&P depuis janvier, et le chiffre d'affaires de L’Oréal supérie",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-la-bourse-cash-les-actions-se-deconnectent-de-la-realite-economique-et-geopolitique-23-04_VN-202604230584.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "15h57",
+        "titre": "USA Today : IBM chute après ses résultats, retour de la pression sur les logiciels, par John Plassard – 23/04",
+        "resume": "Ce jeudi 23 avril, dans sa chronique USA Today, John Plassard, associé et responsable de la stratégie d'investissement de Cité Gestion, s'est penché sur l'enchaînement des records sur le S&P malgré le conflit au Moyen-Orient, le limogeage du secrétai",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/usa-today-ibm-chute-apres-ses-resultats-retour-de-la-pression-sur-les-logiciels-par-john-plassard-23-04_EN-202604230576.html"
+      }
+    ]
+  },
+  "entreprises": {
+    "articles": [
+      {
+        "source": "BFM Business",
+        "heure": "15h41",
+        "titre": "\"Il y a de la sidération\": Ubisoft acte la quasi-fin du télétravail pour ses salariés",
+        "resume": "Les salariés ont été informés qu'ils disposeraient désormais d'un quota de moins d'un jour par semaine, alors que jusqu'à présent ils bénéficiaient de deux jours de télétravail par semaine,",
+        "url": "https://www.bfmtv.com/economie/emploi/il-y-a-de-la-sideration-ubisoft-acte-la-quasi-fin-du-teletravail-pour-ses-salaries_AD-202604230568.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "15h14",
+        "titre": "\"Une réponse directe à la hausse de la demande\": Tesla va créer 1.000 emplois d'ici fin juin dans son usine allemande",
+        "resume": "Elle compte aujourd'hui 10.700 salariés, selon le groupe, et produit de grandes quantités du Model Y, son SUV grand public, ainsi que des cellules de batterie.",
+        "url": "https://www.bfmtv.com/economie/entreprises/industries/une-reponse-directe-a-la-hausse-de-la-demande-tesla-va-creer-1-000-emplois-d-ici-fin-juin-dans-son-usine-allemande_AD-202604230553.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h50",
+        "titre": "Nestlé, géant de l’agroalimentaire, continue à réduire la voilure en France",
+        "resume": "Le groupe suisse a annoncé la suppression de 180 postes de « cols blancs » dans ses filiales françaises.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/le-geant-de-l-agroalimentaire-nestle-continue-a-reduire-la-voilure-en-france_6682820_3234.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "16h17",
+        "titre": "Culture Bourse : « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? », par Julie Cohen-Heurton - 23/04",
+        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, a répondu à la question « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? » dans la chronique Culture Bourse présentée par Julie Cohen",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-culture-bourse-gtt-recoit-de-multiples-commandes-et-ca-se-ressent-en-bourse-comment-percevez-vous-le-titre-par-julie-cohen-heurton-23-04_VN-202604230592.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "10h30",
+        "titre": "Volkswagen réduit encore la voilure  en Allemagne et n’exclut pas des coopérations avec des industriels chinois",
+        "resume": "Le constructeur automobile continue d’investir en Chine, où il lance son premier modèle made in China, et de réduire son activité en Allemagne.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/volkswagen-reduit-encore-la-voilure-et-n-exclut-pas-des-cooperations-avec-des-industriels-chinois-en-allemagne_6682762_3234.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "15h22",
+        "titre": "Le français veut accélérer dans l'oncologie : Servier rachète l'américain Day One pour 2,5 milliards de dollars et renforce ses capacités dans les médicaments contre le cancer",
+        "resume": "Le groupe pharmaceutique français Servier, recentré depuis plusieurs années sur les médicaments anti-cancer, se renforce dans le domaine avec le rachat de la société américaine Day One Biopharmaceuticals, une opération évaluée à 2,5 milliards de doll",
+        "url": "https://www.bfmtv.com/economie/entreprises/le-francais-veut-accelerer-dans-l-oncologie-servier-rachete-l-americain-day-one-pour-2-5-milliards-de-dollars-et-renforce-ses-capacites-dans-les-medicaments-contre-le-cancer_AD-202604230558.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h10",
+        "titre": "Havea muscle sa stratégie environnementale et sociale avec le label B Corp",
+        "resume": "En pleine croissance, le groupe vendéen spécialiste des cosmétiques et compléments alimentaires naturels formalise sa stratégie responsable pour séduire talents, distributeurs et investisseurs.",
+        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/havea-muscle-sa-strategie-environnementale-et-sociale-avec-le-label-b-corp-2228037"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "BFM Business",
+        "heure": "15h22",
+        "titre": "Le français veut accélérer dans l'oncologie : Servier rachète l'américain Day One pour 2,5 milliards de dollars et renforce ses capacités dans les médicaments contre le cancer",
+        "resume": "Le groupe pharmaceutique français Servier, recentré depuis plusieurs années sur les médicaments anti-cancer, se renforce dans le domaine avec le rachat de la société américaine Day One Biopharmaceuticals, une opération évaluée à 2,5 milliards de doll",
+        "url": "https://www.bfmtv.com/economie/entreprises/le-francais-veut-accelerer-dans-l-oncologie-servier-rachete-l-americain-day-one-pour-2-5-milliards-de-dollars-et-renforce-ses-capacites-dans-les-medicaments-contre-le-cancer_AD-202604230558.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "15h51",
+        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
+        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes. ",
+        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "14h56",
+        "titre": "Un \"Tinder de la reprise\" pour mettre en relation des acheteurs et des patrons: alors que 500.000 dirigeants vont partir à la retraite dans les 10 ans, le gouvernement présente son plan pour faciliter les reprises d'entreprises",
+        "resume": "Pour le ministre des PME, Serge Papin, le sujet des reprises d'entreprises qui vont exploser compte tenu du choc démographique doit devenir \"la grande cause économique nationale\". ",
+        "url": "https://www.bfmtv.com/economie/entreprises/un-tinder-de-la-reprise-pour-mettre-en-relation-des-acheteurs-et-des-patrons-alors-que-500-000-dirigeants-vont-partir-a-la-retraite-dans-les-10-ans-le-gouvernement-presente-son-plan-pour-faciliter-les-reprises-d-entreprises_AD-202604230542.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h10",
+        "titre": "Cessions de PME : le coup de frein",
+        "resume": "Le contexte géopolitique et son impact sur les charges des entreprises ont fini par ralentir le marché des cessions acquisitions en France, selon le baromètre annuel d'In Extenso. Leur valorisation est au niveau de 2014.",
+        "url": "https://www.lesechos.fr/pme-regions/actualite-pme/cessions-de-pme-le-coup-de-frein-2227968"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "19h34",
+        "titre": "Rachat de SFR : « Maintenant, tout le monde regarde la France »",
+        "resume": "Vivek Badrinath, le directeur général de la GSMA, l'association qui représente un millier d'opérateurs et équipementiers dans le monde, revient pour les « Echos » sur les enjeux de l'accord entre SFR et Bouygues Telecom, Free et Orange.",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/rachat-de-sfr-maintenant-tout-le-monde-regarde-la-france-2227891"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "23h56",
+        "titre": "Le groupe belge John Cockerill monte en puissance, profitant des investissements massifs dans la défense de nombreux pays",
+        "resume": "L’industriel a engrangé, en 2025, des commandes d’une valeur de 2 milliards d’euros.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/22/dans-la-defense-le-groupe-belge-john-cockerill-monte-en-puissance_6682462_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "18h12",
+        "titre": "Les ateliers Pro-Découpe passent sous pavillon corrézien",
+        "resume": "Installée à Baud, dans le Morbihan, le spécialiste de la découpe et la transformation de viandes bovines et porcines, vient d'être cédé au groupe Cheville Française, dont le siège est à Meyssac, en Corrèze.",
+        "url": "https://www.lesechos.fr/pme-regions/bretagne/les-ateliers-pro-decoupe-passent-sous-pavillon-correzien-2228169"
+      }
+    ]
+  },
+  "macro": {
+    "articles": [
+      {
+        "source": "BFM Business",
+        "heure": "16h30",
+        "titre": "L'éco du monde : \"Zone euro : contraction-surprise des indices PMI en avril\" - 23/04",
+        "resume": "Ce jeudi 23 avril, Gilles Moëc, chef économiste du Groupe AXA, a abordé la contraction surprise sur les indices PMI dans la Zone Euro, la prévision de croissance en Allemagne, et les annonces de Kevin Warsh au Sénat, dans l'émission BFM Bourse présen",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-l-eco-du-monde-zone-euro-contraction-surprise-des-indices-pmi-en-avril-23-04_VN-202604230600.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "16h29",
+        "titre": "L'éco du monde : \"Zone euro : contraction-surprise des indices PMI en avril\" - 23/04",
+        "resume": "Ce jeudi 23 avril, Gilles Moëc, chef économiste du Groupe AXA, a abordé la contraction surprise sur les indices PMI dans la Zone Euro, la prévision de croissance en Allemagne, et les annonces de Kevin Warsh au Sénat, dans l'émission BFM Bourse présen",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/l-eco-du-monde-zone-euro-contraction-surprise-des-indices-pmi-en-avril-23-04_EN-202604230597.html"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "12h02",
+        "titre": "France: l'indice d'activité PMI au plus bas depuis 14 mois en avril",
+        "resume": "L’indice, qui mesure l’activité du secteur privé, est tiré vers le bas par la conjoncture négative du secteur des services.",
+        "url": "https://www.lefigaro.fr/conjoncture/france-l-indice-d-activite-pmi-au-plus-bas-depuis-14-mois-en-avril-20260423"
+      },
+      {
+        "source": "BFM Business",
         "heure": "14h27",
         "titre": "\"C'est la pire crise depuis très, très longtemps\": la Suède prévient qu'elle pourrait rationner le carburant si la guerre au Moyen-Orient se prolongeait",
         "resume": "\"Nous sommes prêts à cette éventualité\", a déclaré le Premier ministre suédois Ulf Kristersson.",
@@ -256,18 +270,18 @@
         "url": "https://www.bfmtv.com/economie/entreprises/energie/l-electricite-devra-representer-plus-de-50-de-la-consommation-energetique-en-2050-27-aujourd-hui-le-gouvernement-devoile-un-cocktail-de-22-mesures-pour-reduire-la-dependance-de-la-france-aux-energies-fossiles_AD-202604230462.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "16h38",
-        "titre": "Allemagne: le gouvernement divise par deux sa prévision de croissance pour 2026, à 0,5%",
-        "resume": "Le gouvernement allemand a réduit de moitié sa prévision de croissance pour 2026, de 1,0% à 0,5%, pénalisée par le choc énergétique provoqué par...",
-        "url": "https://www.lefigaro.fr/flash-eco/allemagne-le-gouvernement-divise-par-deux-sa-prevision-de-croissance-pour-2026-a-0-5-20260422"
+        "source": "Le Monde Éco",
+        "heure": "13h47",
+        "titre": "Le gouvernement a présenté son plan d’électrification de l’économie : MaPrimeRénov’ ne concernera plus les rénovations qui conservent un chauffage au gaz",
+        "resume": "Les 22 mesures de ce plan ont été présentées par le gouvernement, jeudi, dans l’objectif de réduire la dépendance de la France aux énergies fossiles.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/le-dispositif-maprimerenov-ne-concernera-plus-les-renovations-qui-conservent-un-chauffage-au-gaz-annonce-le-gouvernement-dans-son-plan-d-electrification_6682789_3234.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "23h40",
-        "titre": "L'euro miné par le pessimisme économique allemand, le dollar sans élan",
-        "resume": "L'euro était en recul mercredi, plombé par la forte révision à la baisse de la prévision de croissance en Allemagne, tandis que le dollar évoluait...",
-        "url": "https://www.lefigaro.fr/flash-eco/l-euro-mine-par-le-pessimisme-economique-allemand-le-dollar-sans-elan-20260422"
+        "source": "Les Echos",
+        "heure": "17h46",
+        "titre": "Négociations commerciales : le fossé se creuse entre industriels et distributeurs",
+        "resume": "Les industriels, confrontés à des coûts croissants du fait de la guerre en Iran, dénoncent un rapport de force défavorable avec la grande distribution. Malgré des demandes de hausses de 3,5 %, les prix n'ont presque pas bougé. Une réunion est prévue ",
+        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/negociations-commerciales-le-fosse-se-creuse-entre-industriels-et-distributeurs-2228162"
       }
     ]
   },
@@ -289,13 +303,6 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "07h30",
-        "titre": "Emmanuel Macron veut appliquer la méthode « Notre-Dame » à 150 projets industriels stratégiques dans toute la France",
-        "resume": "Inaugurant, mercredi, une mine de lithium dans l’Allier, le chef de l’Etat veut s’inspirer de la simplification et de l’accélération des procédures pour la reconstruction de la cathédrale de Paris.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/23/emmanuel-macron-veut-appliquer-la-methode-notre-dame-a-150-projets-industriels-strategiques_6682700_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
         "heure": "14h31",
         "titre": "Le gouvernement limite la durée des recours contre les projets industriels, en les confiant directement aux cours administratives d’appel",
         "resume": "L’objectif est « d’accélérer les implantations d’entreprises » pour soutenir l’effort de réindustrialisation du pays, en renforçant l’attractivité du territoire et en accélérant la réalisation des investissements",
@@ -309,18 +316,64 @@
         "url": "https://www.lemonde.fr/politique/article/2026/04/22/budget-sebastien-lecornu-ajoute-2-milliards-d-euros-d-economies-en-derniere-minute-la-cour-des-comptes-s-agace_6682391_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "08h59",
-        "titre": "Ukraine : le prêt de 90 milliards d’euros de l’UE validé, les premiers versements attendus « d'ici à fin mai, début juin »",
-        "resume": "La validation officielle du prêt de 90 milliards d’euros de l’UE à l’Ukraine est intervenue à la mi-journée, ce jeudi 23 avril, après que la Hongrie a levé son veto. Elle sera suivie d’un sommet des dirigeants européens à Chypre dans la soirée, en pr",
-        "url": "https://www.challenges.fr/monde/ukraine-le-pret-de-90-milliards-deuros-de-lue-bientot-valide_642929"
+        "source": "Le Monde Éco",
+        "heure": "13h30",
+        "titre": "Budget 2026 : la voie étroite de Sébastien Lecornu",
+        "resume": "Le premier ministre fait le pari risqué d’une rigueur assumée, tiraillé entre l’impératif d’absorber les chocs économiques et sociaux liés au conflit au Moyen-Orient et la nécessité de maintenir la trajectoire budgétaire.",
+        "url": "https://www.lemonde.fr/idees/article/2026/04/22/budget-la-voie-etroite-de-sebastien-lecornu_6682377_3232.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h30",
+        "titre": "Emmanuel Macron veut appliquer la méthode « Notre-Dame » à 150 projets industriels stratégiques dans toute la France",
+        "resume": "Inaugurant, mercredi, une mine de lithium dans l’Allier, le chef de l’Etat veut s’inspirer de la simplification et de l’accélération des procédures pour la reconstruction de la cathédrale de Paris.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/emmanuel-macron-veut-appliquer-la-methode-notre-dame-a-150-projets-industriels-strategiques_6682700_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "17h57",
-        "titre": "Guerre en Ukraine : le prêt européen de 90 milliards d'euros enfin débloqué",
-        "resume": "L'UE débloque enfin le prêt de 90 milliards d'euros pour l'Ukraine, après des mois de blocage par la Hongrie. Ce soutien financier, crucial pour Kiev, marque un tournant dans l'aide européenne face à la guerre.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/guerre-en-ukraine-le-pret-europeen-de-90-milliards-deuros-enfin-debloque-2228164"
+        "heure": "16h23",
+        "titre": "Immigration clandestine : Paris et Londres renforcent leur coopération",
+        "resume": "Un nouvel accord prévoit que le Royaume-Uni soutienne les forces de l'ordre dans le nord de la France à hauteur de 764 millions d'euros.",
+        "url": "https://www.lesechos.fr/monde/europe/immigration-clandestine-paris-et-londres-renforcent-leur-cooperation-2228127"
+      }
+    ]
+  },
+  "taux": {
+    "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "18h15",
+        "titre": "FMI, l'aveu d'échec",
+        "resume": "La directrice générale du FMI a récemment alerté sur la faible marge de manoeuvre budgétaire des pays face à la crise pétrolière. La disparition de l'étalon-or au XXe siècle est à la racine de ce surendettement, explique « La main invisible » dans le",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/fmi-laveu-dechec-2228172"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "17h55",
+        "titre": "MiCA : la difficile harmonisation d'une Europe de la crypto à géométrie variable",
+        "resume": "A l'approche de l'échéance du 1er juillet, les agréments se concentrent dans une poignée de pays. Dans ce contexte, les acteurs arbitrent leur implantation, jusqu'aux plus grands du secteur.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/mica-la-difficile-harmonisation-dune-europe-de-la-crypto-a-geometrie-variable-2228163"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "19h22",
+        "titre": "Rendement moins attractif, inflation... Le désamour pour le livret A se confirme",
+        "resume": "Depuis janvier, les Français se détournent de ce placement phare, devenu moins rentable. En mars la collecte continue de s’enfoncer dans le rouge.",
+        "url": "https://www.lefigaro.fr/economie/rendement-moins-attractif-inflation-le-desamour-pour-le-livret-a-se-confirme-20260422"
+      },
+      {
+        "source": "Challenges",
+        "heure": "16h14",
+        "titre": "Budget : la réduction du déficit en 2025 « résulte d’abord d’une forte hausse des impôts », avertit la Cour des comptes",
+        "resume": "Après deux années noires pour les finances publiques, le déficit budgétaire s’est réduit l’an passé. Mais cet effort reste « fragile » et a surtout reposé sur des hausses d’impôts sans mesures d’économies pérennes, critique la Cour des comptes.",
+        "url": "https://www.challenges.fr/economie/budget-la-reduction-du-deficit-en-2025-resulte-dabord-dune-forte-hausse-des-impots-avertit-la-cour-des-comptes_642915"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "15h00",
+        "titre": "Budget de l’Etat : la Cour des comptes sur la réserve au sujet de la certification des comptes 2025",
+        "resume": "Comme ce fut le cas pour l’année 2024, l’institution de la rue Cambon n’a pas pu certifier certains « postes comptables » en raison de plusieurs « anomalies significatives » et d’« insuffisances d’éléments probants », explique-t-elle dans un rapport ",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/22/budget-de-l-etat-la-cour-des-comptes-sur-la-reserve-au-sujet-de-la-certification-des-comptes-2025_6682393_823448.html"
       }
     ]
   }
