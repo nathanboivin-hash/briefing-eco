@@ -153,9 +153,12 @@ function badge(src) {
 
 function artCard(a) {
   const hasUrl = a.url && a.url.startsWith('http');
+  const isSearch = a.url && a.url.includes('google.com/search');
   const tag = hasUrl ? 'a' : 'div';
   const attr = hasUrl ? `href="${a.url}" target="_blank"` : '';
-  const link = hasUrl ? `<div class="card-link">Lire l'article →</div>` : '';
+  const linkLabel = isSearch ? "Rechercher sur Google →" : "Lire l'article →";
+  const linkStyle = isSearch ? 'opacity:0.6' : '';
+  const link = hasUrl ? `<div class="card-link" style="${linkStyle}">${linkLabel}</div>` : '';
   return `<${tag} class="card" ${attr}>
     <div class="card-meta">${badge(a.source)}<span class="card-time">${a.heure||''}</span></div>
     <div class="card-title">${a.titre||''}</div>
