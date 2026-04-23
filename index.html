@@ -314,7 +314,8 @@ document.getElementById('hdate').textContent =
 function sw(el, t) {
   document.querySelectorAll('.tab').forEach(x => x.classList.remove('on'));
   el.classList.add('on'); tab = t;
-  B ? render(t) : showSkel();
+  if (t === 'm') render('m');  // Marchés always renderable (live data)
+  else B ? render(t) : showSkel();
 }
 
 function showSkel() {
@@ -370,33 +371,44 @@ function sparkline(vals, dir) {
   </svg>`;
 }
 
-// Metrics card
-function metCard(m) {
-  const dir = m.dir==='up'?'up':m.dir==='down'?'dn':'fl';
-  const L = live[m.label];
-  const val  = L ? L.value  : m.value;
-  const chg  = L ? L.change : m.change;
+// Metrics card — always shows live data
+const DEFAULT_METRICS = [
+  {label:'CAC 40'}, {label:'Eurostoxx 50'}, {label:'S&P 500'}, {label:'Nasdaq'},
+  {label:'Brent'},  {label:'EUR/USD'},       {label:'Or'}
+];
+
+function metCard(label) {
+  const L = live[label];
+  const val  = L ? L.value  : '—';
+  const chg  = L ? L.change : '...';
+  const dir  = L ? (L.dir==='up'?'up':L.dir==='down'?'dn':'fl') : 'fl';
   const hist = L ? L.history : null;
-  const pip  = L ? '<span class="live-pip"></span>' : '';
-  return `<div class="met" onclick="fetchLive('${m.label}')">
-    <div class="met-label">${m.label}${pip}</div>
+  const pip  = L ? '<span class="live-pip"></span>' : '<span style="font-size:9px;color:var(--mu);margin-left:4px">↻</span>';
+  return `<div class="met" onclick="fetchLive('${label}')">
+    <div class="met-label">${label}${pip}</div>
     <div class="met-row">
       <div class="met-val">${val}</div>
       <div class="met-chg ${dir}">${chg}</div>
     </div>
-    ${sparkline(hist, m.dir)}
+    ${sparkline(hist, L?.dir)}
   </div>`;
 }
 
-// Yahoo Finance
+// Yahoo Finance — données live
 const TICKERS = {
-  'CAC 40':'^FCHI','Eurostoxx 50':'^STOXX50E','S&P 500':'^GSPC',
-  'Brent':'BZ=F','EUR/USD':'EURUSD=X'
+  'CAC 40':       {tk:'^FCHI',      fmt: v => Math.round(v).toLocaleString('fr-FR')},
+  'Eurostoxx 50': {tk:'^STOXX50E',  fmt: v => Math.round(v).toLocaleString('fr-FR')},
+  'S&P 500':      {tk:'^GSPC',      fmt: v => Math.round(v).toLocaleString('fr-FR')},
+  'Nasdaq':       {tk:'^IXIC',      fmt: v => Math.round(v).toLocaleString('fr-FR')},
+  'Brent':        {tk:'BZ=F',       fmt: v => `${v.toFixed(1)} $`},
+  'EUR/USD':      {tk:'EURUSD=X',   fmt: v => v.toFixed(4)},
+  'Or':           {tk:'GC=F',       fmt: v => `${Math.round(v).toLocaleString('fr-FR')} $`},
 };
+
 async function fetchLive(label) {
-  const tk = TICKERS[label]; if (!tk) return;
+  const cfg = TICKERS[label]; if (!cfg) return;
   try {
-    const r = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${tk}?interval=1d&range=10d`);
+    const r = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${cfg.tk}?interval=1d&range=10d`);
     if (!r.ok) return;
     const data = await r.json();
     const result = data.chart.result[0];
@@ -405,14 +417,21 @@ async function fetchLive(label) {
     const cur = meta.regularMarketPrice;
     const prev = meta.previousClose || closes[closes.length-2] || cur;
     const pct = ((cur-prev)/prev*100).toFixed(2);
-    const fv = label.includes('USD') ? cur.toFixed(4)
-             : label==='Brent'       ? `${cur.toFixed(1)} $`
-             : Math.round(cur).toLocaleString('fr-FR');
-    live[label] = { value: fv, change: `${pct>0?'+':''}${pct}%`, history: closes };
+    const dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
+    live[label] = {
+      value:   cfg.fmt(cur),
+      change:  `${pct>0?'+':''}${pct}%`,
+      dir:     dir,
+      history: closes.slice(-10)
+    };
     if (tab==='m') render('m');
-  } catch(e) {}
+  } catch(e) {
+    console.log(`Yahoo ${label}:`, e.message);
+  }
 }
+
 async function fetchAllLive() {
+  // Charger en parallèle
   await Promise.allSettled(Object.keys(TICKERS).map(l => fetchLive(l)));
 }
 
@@ -445,11 +464,11 @@ function render(t) {
   }
 
   else if (t==='m') {
-    const mx = (B.marches?.metrics||[]).map(metCard).join('');
+    const mx = DEFAULT_METRICS.map(m => metCard(m.label)).join('');
     const arts = (B.marches?.articles||[]).map(artCard).join('');
     el.innerHTML = `
       <div class="metrics-section">
-        <div class="section-rule">Indices & taux — tap pour données live</div>
+        <div class="section-rule">Données en temps réel — tap pour rafraîchir</div>
         <div class="met-grid">${mx}</div>
       </div>
       <div class="articles-section">
