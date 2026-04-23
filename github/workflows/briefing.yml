@@ -1,0 +1,37 @@
+name: Générer le briefing
+
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'  # 7h Paris (UTC+1) du lundi au vendredi
+  workflow_dispatch:         # permet de lancer manuellement
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Générer le briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate.py
+
+      - name: Commit et push briefing.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add briefing.json
+          git diff --staged --quiet || git commit -m "Briefing $(date '+%d/%m/%Y %H:%M')"
+          git push
