@@ -22,51 +22,50 @@ YAHOO_SYMBOLS = {
 }
 
 def fetch_market_data():
-    metrics = []
-    symbols = ",".join(v["sym"] for v in YAHOO_SYMBOLS.values())
-    url = f"https://query1.finance.yahoo.com/v7/finance/quote?symbols={symbols}&fields=regularMarketPrice,regularMarketChangePercent,regularMarketPreviousClose"
+    QUOTES = [
+        ("CAC 40",       "^FCHI",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("Eurostoxx 50", "^STOXX50E",  lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("S&P 500",      "^GSPC",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("Nasdaq",       "^IXIC",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("EUR/USD",      "EURUSD=X",   lambda v: "{:.4f}".format(v)),
+        ("Brent",        "BZ=F",       lambda v: "{:.1f} $".format(v)),
+        ("Or",           "GC=F",       lambda v: "{:,.0f} $".format(v).replace(",", " ")),
+    ]
+    sym_str = ",".join(q[1] for q in QUOTES)
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "application/json",
-        "Referer": "https://finance.yahoo.com/"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "application/json,*/*",
+        "Accept-Language": "fr-FR,fr;q=0.9",
+        "Referer": "https://finance.yahoo.com/",
     }
-    try:
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = json.loads(resp.read())
-        results = {r["symbol"].replace("%3D","=").replace("%5E","^"): r
-                   for r in data.get("quoteResponse", {}).get("result", [])}
-        for label, cfg in YAHOO_SYMBOLS.items():
-            sym_clean = urllib.parse.unquote(cfg["sym"])
-            r = results.get(sym_clean) or results.get(cfg["sym"])
-            if not r:
-                # Try with decoded symbol
-                for k, v in results.items():
-                    if cfg["sym"].replace("%5E","^").replace("%3D","=") in k or k in cfg["sym"]:
-                        r = v
-                        break
-            if r:
-                price = r.get("regularMarketPrice", 0)
-                pct   = r.get("regularMarketChangePercent", 0)
-                dir_  = "up" if pct > 0.05 else "down" if pct < -0.05 else "flat"
-                metrics.append({
-                    "label":  label,
-                    "value":  cfg["fmt"](price),
-                    "change": f"{pct:+.2f}%",
-                    "dir":    dir_
-                })
-                print(f"  {label}: {cfg['fmt'](price)} ({pct:+.2f}%)")
-            else:
-                metrics.append({"label": label, "value": "—", "change": "—", "dir": "flat"})
-                print(f"  {label}: N/A")
-    except Exception as e:
-        print(f"  Yahoo Finance erreur: {e}")
-        # Fallback: empty metrics
-        metrics = [{"label": l, "value": "—", "change": "—", "dir": "flat"}
-                   for l in YAHOO_SYMBOLS.keys()]
+    results = {}
+    for base in ["query1", "query2"]:
+        url = f"https://{base}.finance.yahoo.com/v7/finance/quote?symbols={sym_str}&fields=regularMarketPrice,regularMarketChangePercent"
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = json.loads(resp.read())
+            raw = data.get("quoteResponse", {}).get("result", [])
+            if raw:
+                results = {r["symbol"]: r for r in raw}
+                print(f"  Yahoo OK ({base})")
+                break
+        except Exception as e:
+            print(f"  Yahoo {base}: {e}")
+
+    metrics = []
+    for label, sym, fmt in QUOTES:
+        r = results.get(sym)
+        if r:
+            price = r.get("regularMarketPrice", 0)
+            pct   = r.get("regularMarketChangePercent", 0)
+            dir_  = "up" if pct > 0.05 else "down" if pct < -0.05 else "flat"
+            metrics.append({"label": label, "value": fmt(price), "change": "{:+.2f}%".format(pct), "dir": dir_})
+            print(f"  {label}: {fmt(price)} ({pct:+.2f}%)")
+        else:
+            metrics.append({"label": label, "value": "-", "change": "-", "dir": "flat"})
     return metrics
 
-# ── DATE HELPERS ──
 def parse_date(s):
     if not s:
         return None
@@ -170,12 +169,12 @@ def get_rss_articles():
 def get_perigon_articles():
     articles = []
     queries = [
-        {"source": "lesechos.fr", "nom": "Les Echos", "q": "économie finance", "pageSize": 15},
-        {"source": "lesechos.fr", "nom": "Les Echos", "q": "entreprises marchés bourse", "pageSize": 15},
-        {"source": "lesechos.fr", "nom": "Les Echos", "q": "M&A fusion acquisition", "pageSize": 10},
-        {"source": "lefigaro.fr", "nom": "Le Figaro", "q": "économie finance", "pageSize": 15},
+        {"source": "lesechos.fr", "nom": "Les Echos", "q": "economie finance marches", "pageSize": 20},
+        {"source": "lesechos.fr", "nom": "Les Echos", "q": "entreprises resultats strategie", "pageSize": 15},
+        {"source": "lesechos.fr", "nom": "Les Echos", "q": "fusion acquisition M&A taux BCE", "pageSize": 15},
+        {"source": "lefigaro.fr", "nom": "Le Figaro", "q": "economie finance marches", "pageSize": 20},
         {"source": "lefigaro.fr", "nom": "Le Figaro", "q": "entreprises politique budget", "pageSize": 15},
-        {"source": "lefigaro.fr", "nom": "Le Figaro", "q": "marchés bourse taux", "pageSize": 10},
+        {"source": "lefigaro.fr", "nom": "Le Figaro", "q": "taux OAT BCE inflation conjoncture", "pageSize": 15},
     ]
     for q in queries:
         try:
@@ -267,13 +266,15 @@ JSON sans backticks :
   "entreprises": {{"indices": [0,1,2,3,4]}},
   "ma":          {{"indices": [0,1,2,3,4]}},
   "macro":       {{"indices": [0,1,2,3,4]}},
-  "politique":   {{"indices": [0,1,2,3,4]}}
+  "politique":   {{"indices": [0,1,2,3,4]}},
+  "taux":        {{"indices": [0,1,2,3,4]}}
 }}
 
 RÈGLES IMPORTANTES :
-- "macro" = UNIQUEMENT indicateurs économiques (PIB, inflation, taux, chômage, BCE, Fed, conjoncture)
-- "politique" = UNIQUEMENT politique (gouvernement FR, UE, géopolitique, budget, tensions commerciales)
-- Ces deux sections doivent avoir des articles DIFFÉRENTS
+- "macro" = UNIQUEMENT indicateurs économiques (PIB, inflation, chômage, conjoncture)
+- "politique" = UNIQUEMENT politique (gouvernement FR, UE, géopolitique, budget)
+- "taux" = UNIQUEMENT articles sur taux d'intérêt, OAT, Bund, spread, crédit, BCE, obligations
+- Ces sections doivent avoir des articles DIFFÉRENTS
 - "ma" = UNIQUEMENT deals, transactions, LBO, PE, rachats
 - "entreprises" = résultats, nominations, stratégie (PAS de deals M&A)"""
 
@@ -296,8 +297,9 @@ def build_briefing(classified, articles):
         "ma":          {"articles": []},
         "macro":       {"articles": []},
         "politique":   {"articles": []},
+        "taux":        {"articles": []},
     }
-    for key in ["marches", "entreprises", "ma", "macro", "politique"]:
+    for key in ["marches", "entreprises", "ma", "macro", "politique", "taux"]:
         indices = classified.get(key, {}).get("indices", [])
         seen = set()
         for idx in indices:
@@ -360,12 +362,12 @@ def main():
     briefing["marches"]["metrics"] = market_metrics
 
     # 6. Vérification sections vides
-    for key in ["synthese","marches","entreprises","ma","macro","politique"]:
+    for key in ["synthese","marches","entreprises","ma","macro","politique","taux"]:
         if key not in briefing:
             briefing[key] = {"articles":[]} if key != "synthese" else {"resume":"","points":[]}
 
     # 7. Stats
-    for k in ["marches","entreprises","ma","macro","politique"]:
+    for k in ["marches","entreprises","ma","macro","politique","taux"]:
         n = len(briefing.get(k,{}).get("articles",[]))
         print(f"  {k}: {n} articles")
 
