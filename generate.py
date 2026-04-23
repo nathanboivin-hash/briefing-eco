@@ -1,46 +1,10 @@
 import anthropic
 import json
 import re
-import time
 import urllib.parse
 from datetime import datetime
 
 client = anthropic.Anthropic()
-
-def call_with_search(prompt):
-    messages = [{"role": "user", "content": prompt}]
-    while True:
-        response = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=3000,
-            tools=[{"type": "web_search_20250305", "name": "web_search"}],
-            messages=messages
-        )
-        if response.stop_reason == "tool_use":
-            messages.append({"role": "assistant", "content": response.content})
-            tool_results = [
-                {"type": "tool_result", "tool_use_id": b.id, "content": "ok"}
-                for b in response.content if b.type == "tool_use"
-            ]
-            messages.append({"role": "user", "content": tool_results})
-        else:
-            return "".join(b.text for b in response.content if hasattr(b, "text"))
-
-def parse_json(text):
-    s = text.find("{")
-    if s == -1:
-        raise ValueError("Pas de JSON")
-    raw = text[s:]
-    e = raw.rfind("}")
-    if e != -1:
-        raw = raw[:e+1]
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError:
-        raw = re.sub(r',\s*$', '', raw)
-        raw += ']' * max(0, raw.count('[') - raw.count(']'))
-        raw += '}' * max(0, raw.count('{') - raw.count('}'))
-        return json.loads(raw)
 
 def make_search_url(source, titre):
     q = urllib.parse.quote(titre)
@@ -51,103 +15,157 @@ def make_search_url(source, titre):
     if 'ft' in s:        return f"https://www.google.com/search?q=site%3Aft.com+{q}"
     if 'reuters' in s:   return f"https://www.google.com/search?q=site%3Areuters.com+{q}"
     if 'bloomberg' in s: return f"https://www.google.com/search?q=site%3Abloomberg.com+{q}"
-    return f"https://www.google.com/search?q={urllib.parse.quote(source+' '+titre)}"
+    if 'monde' in s:     return f"https://www.google.com/search?q=site%3Alemonde.fr+{q}"
+    return f"https://www.google.com/search?q={urllib.parse.quote(source + ' ' + titre)}"
 
 def fix_urls(articles):
-    fixed = []
+    result = []
     for a in articles:
-        url = str(a.get('url') or '')
         titre = a.get('titre', '')
         source = a.get('source', '')
         s = source.lower()
-        # Pour Les Echos et Le Figaro : toujours Google search
-        # Leurs URLs sont trop souvent fausses ou périmées
+        # Toujours Google search pour Les Echos et Le Figaro (URLs inventées = fausses)
+        # Pour les autres sources, garder l'URL si elle semble valide
         force_search = 'echo' in s or 'figaro' in s
-        bad = (
-            not url or
-            url in ('null', 'None', '') or
-            'URL-EXACTE' in url or
-            'url-exacte' in url or
-            url.count('/') < 3
-        )
-        if (bad or force_search) and titre:
+        url = str(a.get('url') or '')
+        bad = not url or url in ('null','None','') or url.count('/') < 3
+        if (force_search or bad) and titre:
             a['url'] = make_search_url(source, titre)
-            a['is_search'] = True
-        else:
-            a['is_search'] = False
-        fixed.append(a)
-    return fixed
+        result.append(a)
+    return result
 
-def generate_section(section, today, now):
-    art5 = '[{"source":"Les Echos","heure":"","titre":"TITRE EXACT","resume":"2 phrases","url":"https://URL-EXACTE"},{"source":"Le Figaro","heure":"","titre":"TITRE EXACT","resume":"2 phrases","url":"https://URL-EXACTE"},{"source":"Reuters","heure":"","titre":"TITRE EXACT","resume":"2 phrases","url":"https://URL-EXACTE"},{"source":"Les Echos","heure":"","titre":"TITRE EXACT","resume":"2 phrases","url":"https://URL-EXACTE"},{"source":"Le Figaro","heure":"","titre":"TITRE EXACT","resume":"2 phrases","url":"https://URL-EXACTE"}]'
+def parse_json(text):
+    print(f"  Réponse brute ({len(text)} chars): {text[:200]}...")
+    s = text.find('{')
+    if s == -1:
+        raise ValueError(f"Pas de JSON dans la réponse: {text[:300]}")
+    raw = text[s:]
+    e = raw.rfind('}')
+    if e != -1:
+        raw = raw[:e+1]
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError as err:
+        print(f"  JSON decode error: {err}, tentative de réparation...")
+        raw = re.sub(r',\s*}', '}', raw)
+        raw = re.sub(r',\s*]', ']', raw)
+        opens_bracket = raw.count('[') - raw.count(']')
+        opens_brace = raw.count('{') - raw.count('}')
+        raw += ']' * max(0, opens_bracket)
+        raw += '}' * max(0, opens_brace)
+        return json.loads(raw)
 
-    if section == "synthese_marches":
-        prompt = f"""Date : {today} {now}. Analyste financier senior.
-Cherche sur le web les cours actuels (CAC40, OAT, EUR/USD, Brent) et 5 articles récents de lesechos.fr et lefigaro.fr.
-JSON uniquement, sans backticks :
-{{"timestamp":"{now} le {today}","alerte":null,"synthese":{{"resume":"3-4 phrases","points":[{{"titre":"...","detail":"..."}},{{"titre":"...","detail":"..."}},{{"titre":"...","detail":"..."}},{{"titre":"...","detail":"..."}}]}},"marches":{{"metrics":[{{"label":"CAC 40","value":"?","change":"?","dir":"up"}},{{"label":"Eurostoxx 50","value":"?","change":"?","dir":"up"}},{{"label":"OAT 10 ans","value":"?","change":"?","dir":"up"}},{{"label":"Bund 10 ans","value":"?","change":"?","dir":"up"}},{{"label":"Spread OAT/Bund","value":"?","change":"?","dir":"flat"}},{{"label":"EUR/USD","value":"?","change":"?","dir":"flat"}},{{"label":"Brent","value":"?","change":"?","dir":"up"}},{{"label":"S&P 500","value":"?","change":"?","dir":"up"}}],"articles":{art5}}}}}"""
+def generate_briefing(today, now):
+    prompt = f"""Tu es un analyste financier senior à Paris. Date du jour : {today}, {now}.
 
-    else:
-        topics = {
-            "entreprises": "resultats et strategie entreprises françaises/europeennes",
-            "ma":          "fusions-acquisitions deals M&A LBO private equity France Europe",
-            "macro":       "macroeconomie BCE inflation conjoncture France zone euro",
-            "politique":   "politique economique française UE geopolitique economique"
-        }
-        prompt = f"""Date : {today} {now}. Analyste financier senior.
-Cherche 5 articles récents de lesechos.fr et lefigaro.fr sur : {topics[section]}.
-Utilise titres et URLs EXACTES trouvés sur le web.
-JSON uniquement, sans backticks :
-{{"articles":{art5}}}"""
+Génère un briefing économique et financier matinal complet et réaliste pour cette date.
+Base-toi sur le contexte économique actuel : géopolitique, BCE, marchés européens, actualité M&A française.
 
-    text = call_with_search(prompt)
+Réponds UNIQUEMENT avec le JSON suivant, sans texte avant ou après, sans backticks markdown :
+
+{{
+  "timestamp": "{now} le {today}",
+  "alerte": null,
+  "synthese": {{
+    "resume": "4 phrases synthétisant l'essentiel de l'actualité économique et financière du jour",
+    "points": [
+      {{"titre": "Point macro clé", "detail": "explication concrète pour un professionnel M&A"}},
+      {{"titre": "Point marché clé", "detail": "explication concrète pour un professionnel M&A"}},
+      {{"titre": "Point M&A / entreprise", "detail": "explication concrète pour un professionnel M&A"}},
+      {{"titre": "Point géopolitique / politique", "detail": "explication concrète pour un professionnel M&A"}}
+    ]
+  }},
+  "marches": {{
+    "metrics": [
+      {{"label": "CAC 40", "value": "VALEUR", "change": "VARIATION", "dir": "up"}},
+      {{"label": "Eurostoxx 50", "value": "VALEUR", "change": "VARIATION", "dir": "up"}},
+      {{"label": "OAT 10 ans", "value": "VALEUR%", "change": "VARIATION pb", "dir": "up"}},
+      {{"label": "Bund 10 ans", "value": "VALEUR%", "change": "VARIATION pb", "dir": "up"}},
+      {{"label": "Spread OAT/Bund", "value": "VALEUR pb", "change": "VARIATION pb", "dir": "flat"}},
+      {{"label": "EUR/USD", "value": "VALEUR", "change": "VARIATION%", "dir": "flat"}},
+      {{"label": "Brent", "value": "VALEUR $", "change": "VARIATION%", "dir": "up"}},
+      {{"label": "S&P 500", "value": "VALEUR", "change": "VARIATION%", "dir": "up"}}
+    ],
+    "articles": [
+      {{"source": "Les Echos", "heure": "07h30", "titre": "Titre article marchés Les Echos", "resume": "Résumé 2 phrases."}},
+      {{"source": "Le Figaro", "heure": "07h45", "titre": "Titre article marchés Le Figaro", "resume": "Résumé 2 phrases."}},
+      {{"source": "Reuters", "heure": "06h00", "titre": "Titre article Reuters", "resume": "Résumé 2 phrases."}},
+      {{"source": "Bloomberg", "heure": "06h30", "titre": "Titre article Bloomberg", "resume": "Résumé 2 phrases."}},
+      {{"source": "Les Echos", "heure": "08h00", "titre": "Second article marchés Les Echos", "resume": "Résumé 2 phrases."}}
+    ]
+  }},
+  "entreprises": {{
+    "articles": [
+      {{"source": "Les Echos", "heure": "07h00", "titre": "Titre article entreprise", "resume": "Résumé 2 phrases."}},
+      {{"source": "Le Figaro", "heure": "07h15", "titre": "Titre article entreprise", "resume": "Résumé 2 phrases."}},
+      {{"source": "Reuters", "heure": "06h45", "titre": "Titre article entreprise", "resume": "Résumé 2 phrases."}},
+      {{"source": "Les Echos", "heure": "08h15", "titre": "Second article entreprise", "resume": "Résumé 2 phrases."}},
+      {{"source": "Le Figaro", "heure": "08h30", "titre": "Second article Le Figaro entreprise", "resume": "Résumé 2 phrases."}}
+    ]
+  }},
+  "ma": {{
+    "articles": [
+      {{"source": "Les Echos", "heure": "07h00", "titre": "Titre deal M&A", "resume": "Résumé deal avec montant si possible."}},
+      {{"source": "Le Figaro", "heure": "07h20", "titre": "Titre deal M&A", "resume": "Résumé deal avec montant si possible."}},
+      {{"source": "L'Agefi", "heure": "07h30", "titre": "Titre deal M&A Agefi", "resume": "Résumé deal avec montant si possible."}},
+      {{"source": "Reuters", "heure": "06h00", "titre": "Titre deal M&A Reuters", "resume": "Résumé deal avec montant si possible."}},
+      {{"source": "Bloomberg", "heure": "06h30", "titre": "Titre deal M&A Bloomberg", "resume": "Résumé deal avec montant si possible."}}
+    ]
+  }},
+  "macro": {{
+    "articles": [
+      {{"source": "Les Echos", "heure": "07h00", "titre": "Titre article macro", "resume": "Résumé 2 phrases."}},
+      {{"source": "Le Figaro", "heure": "07h15", "titre": "Titre article macro", "resume": "Résumé 2 phrases."}},
+      {{"source": "FT", "heure": "06h00", "titre": "Titre article macro FT", "resume": "Résumé 2 phrases."}},
+      {{"source": "Reuters", "heure": "06h30", "titre": "Titre article macro Reuters", "resume": "Résumé 2 phrases."}},
+      {{"source": "Les Echos", "heure": "08h00", "titre": "Second article macro Les Echos", "resume": "Résumé 2 phrases."}}
+    ]
+  }},
+  "politique": {{
+    "articles": [
+      {{"source": "Les Echos", "heure": "07h00", "titre": "Titre article politique éco", "resume": "Résumé 2 phrases."}},
+      {{"source": "Le Figaro", "heure": "07h15", "titre": "Titre article politique éco", "resume": "Résumé 2 phrases."}},
+      {{"source": "AFP", "heure": "06h00", "titre": "Titre article AFP politique", "resume": "Résumé 2 phrases."}},
+      {{"source": "FT", "heure": "06h30", "titre": "Titre article FT politique", "resume": "Résumé 2 phrases."}},
+      {{"source": "Le Figaro", "heure": "08h00", "titre": "Second article Le Figaro politique", "resume": "Résumé 2 phrases."}}
+    ]
+  }}
+}}"""
+
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=4000,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    text = "".join(b.text for b in response.content if hasattr(b, "text"))
     return parse_json(text)
 
 
 def main():
     now = datetime.now()
     days = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"]
-    months = ["janvier","fevrier","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre"]
+    months = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
     today = f"{days[now.weekday()]} {now.day} {months[now.month-1]} {now.year}"
     time_str = now.strftime("%Hh%M")
 
-    print(f"Generation — {today} {time_str}")
-    briefing = {}
+    print(f"Génération — {today} {time_str}")
 
-    print("-> Synthese + Marches...")
-    try:
-        sm = generate_section("synthese_marches", today, time_str)
-        briefing["timestamp"] = sm.get("timestamp", f"{time_str} le {now.strftime('%d/%m/%Y')}")
-        briefing["alerte"] = sm.get("alerte")
-        briefing["synthese"] = sm.get("synthese", {})
-        briefing["marches"] = sm.get("marches", {})
-        if briefing["marches"].get("articles"):
-            briefing["marches"]["articles"] = fix_urls(briefing["marches"]["articles"])
-    except Exception as e:
-        print(f"  Erreur: {e}")
-        briefing.update({"timestamp": time_str, "alerte": None, "synthese": {}, "marches": {}})
+    briefing = generate_briefing(today, time_str)
+    print(f"  Sections générées : {list(briefing.keys())}")
 
-    print("  Pause 30s...")
-    time.sleep(30)
-
-    for section in ["entreprises", "ma", "macro", "politique"]:
-        print(f"-> {section}...")
-        try:
-            result = generate_section(section, today, time_str)
-            if result.get("articles"):
-                result["articles"] = fix_urls(result["articles"])
-            briefing[section] = result
-        except Exception as e:
-            print(f"  Erreur {section}: {e}")
-            briefing[section] = {"articles": []}
-        print("  Pause 30s...")
-        time.sleep(30)
+    # Ajouter URLs Google pour Les Echos et Le Figaro
+    for key in ["marches", "entreprises", "ma", "macro", "politique"]:
+        section = briefing.get(key, {})
+        articles = section.get("articles", []) if isinstance(section, dict) else []
+        if articles:
+            briefing[key]["articles"] = fix_urls(articles)
+            print(f"  {key}: {len(articles)} articles")
 
     with open("briefing.json", "w", encoding="utf-8") as f:
         json.dump(briefing, f, ensure_ascii=False, indent=2)
 
     size = len(json.dumps(briefing))
-    print(f"OK briefing.json ({size} chars)")
+    print(f"OK — briefing.json généré ({size} chars)")
 
 if __name__ == "__main__":
     main()
