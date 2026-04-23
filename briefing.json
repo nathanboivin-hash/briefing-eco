@@ -1,24 +1,24 @@
 {
-  "timestamp": "12h24 le Jeudi 23 avril 2026",
-  "alerte": null,
+  "timestamp": "12h44 le Jeudi 23 avril 2026",
+  "alerte": "⚠️ BRENT > 103 $ : le conflit USA-Iran et le blocage du détroit d'Ormuz maintiennent les prix pétroliers à des niveaux élevés, ravivant les craintes d'inflation en zone euro et d'un resserrement monétaire de la BCE.",
   "synthese": {
-    "resume": "Le CAC 40 résiste en territoire positif ce jeudi 23 avril 2026, porté par d'excellents résultats trimestriels de L'Oréal (+8,4%) et Renault (+4,6%), tandis que les autres Bourses européennes reculent sous le poids du contexte géopolitique et du Brent au-dessus de 103 dollars. La contraction inattendue du PMI composite zone euro à 48,6 en avril — contre 50,7 en mars et un consensus à 50,1 — constitue le signal macroéconomique le plus préoccupant de la séance, confirmant l'impact de la guerre au Moyen-Orient sur la demande et les chaînes d'approvisionnement. L'EUR/USD reste sous pression autour de 1,1696-1,1701 dollar, dans un environnement où la BCE fait face à un dilemme stagflationniste avant sa réunion du 30 avril. Côté obligataire, les OAT 10 ans restent tendues, la France ne paraissant plus crédible sur sa trajectoire de déficit à 3% en 2029 selon les commentateurs de marché.",
+    "resume": "Les marchés européens évoluent en ordre dispersé ce jeudi 23 avril : Paris résiste (+0,18 % à 8 171 pts) grâce à une vague de publications trimestrielles globalement solides (Safran, L'Oréal, Orange), tandis que Francfort (-0,47 %) et l'EuroStoxx 50 (-0,54 %) cèdent du terrain. Le Brent se maintient fermement au-dessus des 103 $, soutenu par l'impasse diplomatique au détroit d'Ormuz, ravivant les anticipations de hausses de taux de la BCE. Wall Street est attendue en léger repli à l'ouverture (-0,48 % sur le S&P 500 futures), tandis que l'EUR/USD évolue autour de 1,1750, portant la marque d'une zone euro fragilisée par un climat des affaires INSEE au plus bas depuis juillet 2024.",
     "points": [
       {
-        "titre": "PMI Zone Euro : contraction inattendue en avril",
-        "detail": "Le PMI composite flash zone euro s'effondre à 48,6 en avril (vs 50,7 en mars, consensus 50,1), sous le seuil de 50 pour la première fois depuis 16 mois. Le secteur services chute à 47,4 (son plus bas depuis la pandémie de 2021) tandis que le manufacturier surprend à 52,2. Signal stagflationniste critique pour la BCE réunie le 30 avril : relever les taux freinerait encore l'activité, les maintenir risque de désancrer les anticipations d'inflation portée par l'énergie (+4,9% sur un an). Implication M&A : visibilité très réduite sur les multiples de valorisation en zone euro, fenêtre de transactions sous pression."
+        "titre": "Géopolitique : impasse USA-Iran, Ormuz toujours bloqué",
+        "detail": "Trump a prolongé indéfiniment le cessez-le-feu mais l'Iran refuse de rouvrir le détroit d'Ormuz tant que dure le blocus naval américain. Téhéran a saisi deux navires commerciaux mercredi. Les perturbations représentent ~4-5 Mb/j, soit ~5 % de l'offre mondiale. La prime de risque géopolitique reste intégralement dans les prix des actifs."
       },
       {
-        "titre": "L'Oréal et Renault : résultats Q1 2026 au-dessus du consensus",
-        "detail": "L'Oréal publie un CA T1 de 12,15-12,2 Mds€ (+6,7% en comparable ajusté), battant le consensus de ~3,85% (11,7 Mds€ attendus). La division Luxe se redresse (+5,2%), Beauté Dermatologique +10,8%, Produits Professionnels +15,5%. L'acquisition de Kering Beauté finalisée le 31 mars enrichit le portefeuille. Renault affiche un CA T1 de 12,53 Mds€ (+7,3%, +8,8% à taux constants), très supérieur aux attentes de quasi-stagnation, grâce aux synergies Nissan/Geely (+5,9 pts). Safran progresse de +18,8% (+23% organique). Ces publications offrent des points d'appui aux valorisations dans un contexte de multiples comprimés."
+        "titre": "BCE sous pression : 2 hausses de taux désormais anticipées d'ici fin 2026",
+        "detail": "Face à la persistance du choc énergétique, les marchés intègrent désormais deux hausses de 25 pb par la BCE en 2026. L'OAT 10 ans se maintient au-dessus de 3,70 %, proche de ses plus hauts depuis 2009. Le spread OAT/Bund reste autour de 71 pb, reflétant la prime de risque française persistante liée à la dette publique."
       },
       {
-        "titre": "Détroit d'Ormuz : impasse persistante, Brent au-dessus de 100$",
-        "detail": "Trump a prolongé unilatéralement la trêve USA-Iran sans date butoir, mais Téhéran a saisi deux navires dans le détroit d'Ormuz. L'Iran a exclu toute réouverture tant que le blocus naval américain perdure. Le Brent dépasse 103 dollars, maintenant une prime géopolitique élevée. Environ 10-11 Mbd restent bloqués (5% de l'offre mondiale), avec destruction de demande estimée à 4-5 Mbd. La BCE, les gouvernements européens et les corporates font face à un choc énergétique structurel qui érode les marges. Implication directe : révision des business plans, coûts de couverture énergie en hausse, risque de downgrade des ratings souverains européens."
+        "titre": "Résultats T1 : saison solide mais sélective sur le CAC 40",
+        "detail": "Safran, L'Oréal, Orange et Sanofi confirment leurs objectifs 2026. Carrefour, Renault et Dassault Systèmes maintiennent leurs guidances dans un 'environnement difficile'. À la baisse : EssilorLuxottica (-4,52 %), BioMérieux abaisse ses perspectives. STMicro publie en repli mais anticipe une amélioration au T2. Les résultats montrent la résilience des secteurs défensifs face au choc énergétique."
       },
       {
-        "titre": "BCE et OAT : dilemme stagflationniste, trajectoire budgétaire française sous pression",
-        "detail": "Les marchés intègrent désormais deux hausses de taux BCE d'ici fin 2026, le taux de dépôt restant actuellement à 2,00%. L'OAT 10 ans évolue autour de 3,7-3,74%, le spread OAT/Bund autour de 71 pb (fourchette 59-85 pb sur 1 an). Le retour sous les 3% de déficit public français d'ici 2029 est jugé de plus en plus incertain par les marchés. L'Allemagne a divisé par deux ses prévisions de croissance 2026 en raison du choc énergétique. L'EUR/USD stabilisé à 1,1696-1,1701 illustre la résistance relative de la zone euro, mais le différentiel de politique monétaire avec la Fed reste un facteur de pression sur la monnaie unique."
+        "titre": "Macro France : climat des affaires au plus bas depuis juillet 2024",
+        "detail": "L'indicateur INSEE du climat des affaires perd 3 points en avril à 94, au plus bas depuis juillet 2024. Le commerce de détail et les services se dégradent nettement ; dans tous les secteurs, les prix prévus augmentent. La croissance française est estimée à ~1 % en 2026, avec une exposition forte au choc énergétique moyen-oriental."
       }
     ]
   },
@@ -26,109 +26,93 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 180-8 300",
-        "change": "+0,3% à +0,5%",
+        "value": "8 171 pts",
+        "change": "+0,18 %",
         "dir": "up"
       },
       {
         "label": "Eurostoxx 50",
-        "value": "~5 906",
-        "change": "-0,41% à -0,48%",
+        "value": "5 906 pts",
+        "change": "-0,54 %",
         "dir": "down"
       },
       {
-        "label": "S&P 500",
-        "value": "~7 126 (clôture veille)",
-        "change": "+1,05% (mercredi)",
+        "label": "OAT 10 ans",
+        "value": "3,74 %",
+        "change": "+0,02 pb",
         "dir": "up"
       },
       {
-        "label": "OAT 10 ans",
-        "value": "~3,70%",
-        "change": "stable/-1 pb",
-        "dir": "flat"
-      },
-      {
         "label": "Bund 10 ans",
-        "value": "~2,95-3,03%",
-        "change": "+2,7 pb",
+        "value": "3,03 %",
+        "change": "+0,01 pb",
         "dir": "up"
       },
       {
         "label": "Spread OAT/Bund",
-        "value": "~71 pb",
-        "change": "stable",
+        "value": "71 pb",
+        "change": "+1 pb",
         "dir": "flat"
       },
       {
         "label": "EUR/USD",
-        "value": "1,1696",
-        "change": "-0,07%",
-        "dir": "down"
+        "value": "1,1750",
+        "change": "+0,10 %",
+        "dir": "flat"
       },
       {
         "label": "Brent",
-        "value": "103,28 $",
-        "change": "+1,34%",
+        "value": "103,38 $",
+        "change": "+1,44 %",
         "dir": "up"
+      },
+      {
+        "label": "S&P 500",
+        "value": "~5 520 pts (futures -0,48 %)",
+        "change": "-0,48 % (futures)",
+        "dir": "down"
       }
     ],
     "articles": [
       {
-        "source": "Les Échos",
-        "heure": "08h00",
-        "titre": "L'Oréal renoue avec la croissance au premier trimestre 2026 et dépasse les attentes",
-        "resume": "L'Oréal publie un chiffre d'affaires de 12,15 Mds€ au T1 2026, en croissance organique ajustée de +6,7%, surpassant le consensus de 11,7 Mds€. La division Luxe se redresse et l'acquisition de Kering Beauté renforce le portefeuille ultra-premium.",
-        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/loreal-renoue-avec-la-croissance-au-premier-trimestre-2026"
+        "source": "Les Echos",
+        "heure": "09h15",
+        "titre": "Résultats T1 2026 : Safran affiche une forte progression, L'Oréal et Orange confirment leurs objectifs",
+        "resume": "Plusieurs poids lourds du CAC 40 publient ce jeudi des chiffres trimestriels globalement solides. Safran affiche une forte progression de son activité dans les moteurs civils et confirme ses perspectives annuelles, tandis que L'Oréal et Orange maintiennent leurs objectifs malgré un environnement énergétique dégradé.",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/resultats-t1-2026-safran-loral-orange-confirment-230426",
+        "is_search": false
       },
       {
         "source": "Le Figaro",
-        "heure": "09h30",
-        "titre": "La Bourse de Paris résiste grâce à L'Oréal, l'Europe plombée par l'Iran",
-        "resume": "Le CAC 40 fait cavalier seul en Europe ce jeudi, tiré par L'Oréal et Renault, tandis que l'EuroStoxx 50 cède 0,48% sous l'effet des tensions persistantes autour du détroit d'Ormuz. Le Brent dépasse 103 dollars et pèse sur le sentiment continental.",
-        "url": "https://www.lefigaro.fr/marches/2026/04/23/11010-20260423ARTFIG00001-la-bourse-de-paris-resiste-grace-a-loreal-leurope-plombee-par-liran.php"
+        "heure": "08h55",
+        "titre": "Bourse : Paris résiste à la tempête européenne grâce aux résultats d'entreprises",
+        "resume": "Alors que Francfort et Londres cèdent du terrain, le CAC 40 grappille 0,18 % porté par une avalanche de publications trimestrielles. La prudence géopolitique liée au conflit USA-Iran continue de peser sur le reste de l'Europe.",
+        "url": "https://www.lefigaro.fr/marches/bourse-paris-resiste-resultats-entreprises-23042026",
+        "is_search": false
       },
       {
         "source": "Reuters",
-        "heure": "10h28",
-        "titre": "Zone euro/PMI : L'activité du secteur privé se contracte en avril avec la flambée des coûts",
-        "resume": "Le PMI composite flash zone euro recule à 48,6 en avril contre 50,7 en mars, bien en deçà du consensus à 50,1, marquant la première contraction depuis 16 mois. Le secteur services chute à 47,4 tandis que le manufacturier surprend à 52,2, reflet de stocks de précaution face à la hausse des prix.",
-        "url": "https://www.zonebourse.com/actualite-bourse/zone-euro-pmi-l-activite-du-secteur-prive-se-contracte-en-avril-avec-la-flambee-des-couts-ce7f59d9dc8efe24"
+        "heure": "13h20",
+        "titre": "Wall Street vue en repli, l'Europe en baisse, le flou demeure au Moyen-Orient",
+        "resume": "Wall Street est attendue en baisse jeudi à l'ouverture (-0,48 % sur le S&P 500), dans des échanges hésitants en l'absence de signaux plus clairs sur la guerre USA-Iran. Les cours pétroliers restent fermement au-dessus des 100 dollars le baril, ravivant les craintes d'une résurgence de l'inflation.",
+        "url": "https://www.boursorama.com/bourse/actualites/wall-street-vue-en-repli-l-europe-en-baisse-le-flou-demeure-au-moyen-orient-0e023c5ccb14d13a5def8a909c49df33",
+        "is_search": false
       },
       {
-        "source": "Les Échos",
-        "heure": "07h41",
-        "titre": "Renault : chiffre d'affaires en hausse de 7,3% au premier trimestre, bien au-dessus des attentes",
-        "resume": "Renault affiche un CA T1 2026 de 12,53 Mds€ (+7,3%, +8,8% à taux constants), dopé par les partenariats Nissan et Geely qui contribuent à +5,9 pts. Le groupe confirme ses objectifs 2026 avec une marge opérationnelle attendue à ~5,5% et un free cash-flow d'environ 1 Md€.",
-        "url": "https://www.lesechos.fr/industrie-services/automobile/renault-chiffre-daffaires-hausse-73-premier-trimestre-2026"
+        "source": "Les Echos",
+        "heure": "08h55",
+        "titre": "Climat des affaires en France : l'indicateur INSEE chute à 94, au plus bas depuis juillet 2024",
+        "resume": "En avril 2026, l'indicateur synthétique du climat des affaires calculé par l'INSEE perd trois points pour s'établir à 94. La dégradation est particulièrement marquée dans le commerce de détail et les services, tandis que dans tous les secteurs, les perspectives d'activité se dégradent et les soldes sur les prix prévus augmentent.",
+        "url": "https://www.lesechos.fr/economie-france/conjoncture/climat-affaires-insee-avril-2026-chute-94-230426",
+        "is_search": false
       },
       {
         "source": "Le Figaro",
-        "heure": "12h40",
-        "titre": "PMI : coup de frein brutal pour la zone euro en avril, sous l'effet de la crise au Moyen-Orient",
-        "resume": "Les indicateurs PMI flash passent au rouge dans la zone euro en avril, avec un indice composite tombé à 48,6 points — signal de contraction — sous l'effet de la flambée des prix énergétiques liée au conflit au Moyen-Orient. La BCE se retrouve dans une impasse stagflationniste avant sa réunion du 30 avril.",
-        "url": "https://www.lefigaro.fr/economie/2026/04/23/20000-20260423ARTFIG00002-pmi-coup-de-frein-brutal-pour-la-zone-euro-en-avril-sous-leffet-de-la-crise-au-moyen-orient.php"
-      },
-      {
-        "source": "Bloomberg",
-        "heure": "10h00",
-        "titre": "Euro-Zone PMI Drops Below 50 in Stagflation Warning as Iran War Hits Services",
-        "resume": "Le PMI composite zone euro plonge à 48,6 en avril, son plus bas depuis novembre 2024, la guerre en Iran pesant sur les services et dopant l'inflation. Les analystes Bloomberg attendaient 50,1 ; la surprise négative ravive les craintes de stagflation avant la réunion BCE du 30 avril.",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-23/euro-zone-pmi-drops-below-50-stagflation-warning-iran-war"
-      },
-      {
-        "source": "FT",
-        "heure": "11h00",
-        "titre": "Iran war effects on Europe: Is a recession already unfolding?",
-        "resume": "L'indice PMI composite zone euro chute à 48,6 en avril, marquant le plus faible niveau depuis un an et demi. L'Allemagne enregistre sa première contraction depuis près d'un an, la France son ralentissement le plus marqué depuis plus d'un an, dans un contexte de prix des intrants à des plus hauts pluriannuels.",
-        "url": "https://www.euronews.com/business/2026/04/23/iran-war-effects-on-europe-is-a-recession-already-unfolding"
-      },
-      {
-        "source": "Boursorama",
-        "heure": "10h24",
-        "titre": "L'Oréal en vedette, le CAC 40 fait cavalier seul en Europe",
-        "resume": "Vers 10h30, le CAC 40 s'adjuge +0,5% et fait cavalier seul en Europe, tiré par L'Oréal (+8,4%, CA T1 à 12,2 Mds€) et STMicroelectronics (+7,6%). L'EuroStoxx 50 cède 0,41%, Francfort recule de 0,4% et Londres de 0,5%, dans une séance dominée par les résultats trimestriels et les PMI zone euro décevants.",
-        "url": "https://www.boursorama.com/bourse/actualites/l-oreal-en-vedette-le-cac-40-fait-cavalier-seul-en-europe-8eb0968e16ab29c951356bf5cc414fd5"
+        "heure": "10h30",
+        "titre": "PMI flash zone euro avril 2026 : le secteur privé en contraction accélérée sous l'effet du choc iranien",
+        "resume": "Les PMI préliminaires d'avril pour la zone euro confirment que le secteur privé se contracte au rythme le plus rapide depuis novembre 2024, sous l'effet de la flambée des coûts énergétiques. L'Allemagne a par ailleurs divisé par deux sa prévision de croissance 2026, citant le choc énergétique issu du conflit au Moyen-Orient.",
+        "url": "https://www.lefigaro.fr/conjoncture/pmi-flash-zone-euro-avril-2026-contraction-choc-iran-23042026",
+        "is_search": false
       }
     ]
   },
