@@ -30,18 +30,31 @@ def add_links(sections, keys):
             a["url"] = search_url(a.get("source",""), a.get("titre",""))
 
 def parse_json(text):
+    """Extract first complete JSON object using bracket matching."""
     s = text.find('{')
-    if s == -1: raise ValueError("No JSON")
-    raw = text[s:]
-    e = raw.rfind('}')
-    if e != -1: raw = raw[:e+1]
-    try:
-        return json.loads(raw)
-    except:
-        raw = re.sub(r',(\s*[}\]])', r'\1', raw)
-        raw += ']' * max(0, raw.count('[') - raw.count(']'))
-        raw += '}' * max(0, raw.count('{') - raw.count('}'))
-        return json.loads(raw)
+    if s == -1:
+        raise ValueError("No JSON found")
+    depth = 0
+    in_str = False
+    i = s
+    while i < len(text):
+        c = text[i]
+        if c == '"' and (i == 0 or text[i-1] != '\\'):
+            in_str = not in_str
+        elif not in_str:
+            if c == '{':
+                depth += 1
+            elif c == '}':
+                depth -= 1
+                if depth == 0:
+                    raw = text[s:i+1]
+                    try:
+                        return json.loads(raw)
+                    except json.JSONDecodeError:
+                        raw = re.sub(r',([\s]*[}\]])', r'\1', raw)
+                        return json.loads(raw)
+        i += 1
+    raise ValueError("Unmatched JSON braces")
 
 def call(prompt):
     r = client.messages.create(
