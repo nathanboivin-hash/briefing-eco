@@ -59,6 +59,10 @@ def fix_urls(articles):
         url = str(a.get('url') or '')
         titre = a.get('titre', '')
         source = a.get('source', '')
+        s = source.lower()
+        # Pour Les Echos et Le Figaro : toujours Google search
+        # Leurs URLs sont trop souvent fausses ou périmées
+        force_search = 'echo' in s or 'figaro' in s
         bad = (
             not url or
             url in ('null', 'None', '') or
@@ -66,7 +70,7 @@ def fix_urls(articles):
             'url-exacte' in url or
             url.count('/') < 3
         )
-        if bad and titre:
+        if (bad or force_search) and titre:
             a['url'] = make_search_url(source, titre)
             a['is_search'] = True
         else:
