@@ -58,12 +58,16 @@ RSS_SOURCES = [
     ("BFM Business",    "https://www.bfmtv.com/rss/bourse/"),
     ("La Tribune",      "https://www.latribune.fr/rss/rubriques/economie.html"),
     ("La Tribune",      "https://www.latribune.fr/rss/rubriques/entreprises-finance.html"),
+    ("La Tribune",      "https://www.latribune.fr/rss/rubriques/actualite-des-societes.html"),
     ("Boursorama",      "https://www.boursorama.com/rss/actualites/"),
+    ("Boursorama",      "https://www.boursorama.com/rss/marches/"),
     ("Le Monde Éco",    "https://www.lemonde.fr/economie/rss_full.xml"),
     ("Le Monde Éco",    "https://www.lemonde.fr/entreprises/rss_full.xml"),
+    ("Le Monde Éco",    "https://www.lemonde.fr/politique/rss_full.xml"),
     ("Challenges",      "https://www.challenges.fr/rss.xml"),
     ("Capital",         "https://www.capital.fr/feed"),
     ("L'Agefi",         "https://www.agefi.fr/rss/finance.xml"),
+    ("L'Agefi",         "https://www.agefi.fr/rss/marches.xml"),
     ("Politico EU",     "https://www.politico.eu/rss"),
 ]
 
@@ -110,8 +114,9 @@ def get_rss_articles():
 def get_perigon_articles():
     articles = []
     queries = [
-        {"source": "lesechos.fr",  "nom": "Les Echos",  "q": "économie finance marchés entreprises"},
-        {"source": "lefigaro.fr",  "nom": "Le Figaro",  "q": "économie finance marchés entreprises"},
+        {"source": "lesechos.fr",  "nom": "Les Echos",  "q": "économie finance marchés entreprises M&A"},
+        {"source": "lefigaro.fr",  "nom": "Le Figaro",  "q": "économie finance marchés entreprises politique"},
+        {"source": "lefigaro.fr",  "nom": "Le Figaro",  "q": "bourse taux conjoncture budget France"},
     ]
     for q in queries:
         try:
@@ -203,7 +208,14 @@ JSON sans backticks :
   "ma":          {{"indices": [0,1,2,3,4]}},
   "macro":       {{"indices": [0,1,2,3,4]}},
   "politique":   {{"indices": [0,1,2,3,4]}}
-}}"""
+}}
+
+RÈGLES IMPORTANTES :
+- "macro" = UNIQUEMENT indicateurs économiques (PIB, inflation, taux, chômage, BCE, Fed, conjoncture)
+- "politique" = UNIQUEMENT politique (gouvernement FR, UE, géopolitique, budget, tensions commerciales)
+- Ces deux sections doivent avoir des articles DIFFÉRENTS
+- "ma" = UNIQUEMENT deals, transactions, LBO, PE, rachats
+- "entreprises" = résultats, nominations, stratégie (PAS de deals M&A)"""
 
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
