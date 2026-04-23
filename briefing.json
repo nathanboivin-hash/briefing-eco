@@ -1,51 +1,33 @@
 {
-  "timestamp": "14h48 le 23/04/2026",
+  "timestamp": "14h56 le 23/04/2026",
   "alerte": {
-    "titre": "Contraction PMI zone euro",
-    "detail": "Indices PMI en baisse surprise en avril signalant un ralentissement économique inattendu",
-    "indices": [
-      2,
-      3
-    ]
+    "titre": "Servier acquiert Day One pour 2,5 Mds$ en oncologie",
+    "detail": "Opération majeure de consolidation dans le secteur pharma. Le français accélère sa stratégie dans les cancers via acquisition américaine significative."
   },
   "synthese": {
-    "resume": "La zone euro affiche une contraction surprise des PMI en avril, contredisant les attentes de reprise. Les valeurs défensives (L'Oréal, GTT) résistent tandis que le secteur technologique fléchit (IBM). Sur le front géopolitique, le prêt de 90 Mds€ à l'Ukraine est validé et les tensions Iran-Israël influencent les prix énergétiques (Brent >100$/bl). Le marché se déconnecte de la réalité macro selon les analystes.",
+    "resume": "Servier franchit le cap des 2,5 milliards de dollars pour renforcer sa présence en oncologie via l'acquisition de Day One. Le fonds souverain norvégien (plus gros au monde) a perdu 116 milliards d'euros au T1 2026 sur ses positions tech américaines. L'UE débloque enfin son prêt de 90 milliards d'euros à l'Ukraine après levée du véto hongrois. Le gouvernement français accélère l'électrification énergétique avec 22 mesures visant 50% de consommation électrique en 2050.",
     "points": [
       {
-        "titre": "Marchés boursiers",
-        "detail": "L'Oréal s'envole porté par l'effet 'rouge à lèvres' (consommation défensive). IBM chute post-résultats, révélant une pression accrue sur les logiciels. GTT reçoit de multiples commandes. Actions déconnectées de la réalité économique selon les experts."
+        "titre": "M&A pharma",
+        "detail": "Servier-Day One (2,5 Mds$) confirme la consolidation du secteur oncologique français en position d'exportateur"
       },
       {
-        "titre": "Macroéconomie",
-        "detail": "Contraction-surprise des PMI zone euro en avril signalant un ralentissement. Brent clôture >100$/bl pour la 1ère fois en 2+ semaines (tensions géopolitiques). Suède envisage le rationnement de carburant si conflit Moyen-Orient prolongé."
+        "titre": "Géopolitique énergétique",
+        "detail": "La Suède prévient un rationnement possible du carburant si la guerre au Moyen-Orient s'intensifie ; tensions sur appels d'offres militaires"
       },
       {
-        "titre": "M&A et Corporate",
-        "detail": "Servier rachète Day One (USA) pour 2,5 Mds$ pour renforcer oncologie. TAP Air Portugal : verdict de privatisation (AF-KLM vs Lufthansa) en septembre. Succession LVMH repoussée 7-8 ans par Arnault. Ubisoft quasi-fin du télétravail."
+        "titre": "Macro-financier",
+        "detail": "Brent >100$/bl après 2 semaines ; fonds souverain norvégien -116 Mds€ en tech US ; tensions sur déficit européen"
       },
       {
-        "titre": "Politique et géopolitique",
-        "detail": "Prêt UE 90 Mds€ à Ukraine validé après levée véto hongrois. Trump prolonge trêve Iran (négocie proposition finale). Tensions Moyen-Orient impactent énergie. Blocus Iran inefficace selon experts malgré baisse recettes pétrolières."
+        "titre": "Politique budgétaire",
+        "detail": "Plan électrification gouvernemental + 22 mesures ; débat déficit public 2025 (France avant-dernière zone euro)"
       }
     ]
   },
   "marches": {
     "metrics": [],
     "articles": [
-      {
-        "source": "BFM Business",
-        "heure": "16h31",
-        "titre": "L'Oréal s'envole, porté par l'\"effet rouge à lèvres – 23/04",
-        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, s'est penché sur les perspectives sur les publications en Europe, la supériorité face aux attentes des revenus de Renault, l'insuffisance de la hausse du CA d'EssilorLuxottica au T1",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/l-oreal-s-envole-porte-par-l-effet-rouge-a-levres-23-04_EN-202604230599.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "16h27",
-        "titre": "L'Oréal s'envole, porté par l'\"effet rouge à lèvres - 23/04",
-        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, s'est penché sur les perspectives sur les publications en Europe, la supériorité face aux attentes des revenus de Renault, l'insuffisance de la hausse du CA d'EssilorLuxottica au T1",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-l-oreal-s-envole-porte-par-l-effet-rouge-a-levres-23-04_VN-202604230598.html"
-      },
       {
         "source": "BFM Business",
         "heure": "13h08",
@@ -55,17 +37,31 @@
       },
       {
         "source": "BFM Business",
-        "heure": "16h03",
-        "titre": "La bourse cash : « Les actions se déconnectent de la réalité économique et géopolitique. » - 23/04",
-        "resume": "Ce jeudi 23 avril, Alexandre Hezez, stratégiste indépendant, s'est penché sur les marchés actions déconnectés des contextes macroéconomique et géopolitique, l'Euro Stoxx 600 battu par le S&P depuis janvier, et le chiffre d'affaires de L’Oréal supérie",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-la-bourse-cash-les-actions-se-deconnectent-de-la-realite-economique-et-geopolitique-23-04_VN-202604230584.html"
+        "heure": "14h53",
+        "titre": "Il détient des milliards d'euros en actions dans la tech américaine qui a un coup de mou: le fonds souverain norvégien, le plus gros au monde, a perdu 116 milliards d'euros au premier trimestre",
+        "resume": "Cette perte est principalement liée à la baisse des actions des grandes entreprises américaines ainsi qu'à l'appréciation de la couronne norvégienne, a indiqué le fonds. ",
+        "url": "https://www.bfmtv.com/economie/international/il-detient-des-milliards-d-euros-en-actions-dans-la-tech-americaine-qui-a-un-coup-de-mou-le-fonds-souverain-norvegien-le-plus-gros-au-monde-a-perdu-116-milliards-au-premier-trimestre_AD-202604230535.html"
       },
       {
         "source": "BFM Business",
-        "heure": "15h57",
-        "titre": "USA Today : IBM chute après ses résultats, retour de la pression sur les logiciels, par John Plassard – 23/04",
-        "resume": "Ce jeudi 23 avril, dans sa chronique USA Today, John Plassard, associé et responsable de la stratégie d'investissement de Cité Gestion, s'est penché sur l'enchaînement des records sur le S&P malgré le conflit au Moyen-Orient, le limogeage du secrétai",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/usa-today-ibm-chute-apres-ses-resultats-retour-de-la-pression-sur-les-logiciels-par-john-plassard-23-04_EN-202604230576.html"
+        "heure": "14h27",
+        "titre": "\"C'est la pire crise depuis très, très longtemps\": la Suède prévient qu'elle pourrait rationner le carburant si la guerre au Moyen-Orient se prolongeait",
+        "resume": "\"Nous sommes prêts à cette éventualité\", a déclaré le Premier ministre suédois Ulf Kristersson.",
+        "url": "https://www.bfmtv.com/economie/entreprises/energie/c-est-la-pire-crise-depuis-tres-tres-longtemps-la-suede-previent-qu-elle-pourrait-rationner-le-carburant-si-la-guerre-au-moyen-orient-se-prolongeait_AD-202604230508.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "12h35",
+        "titre": "La récession en Russie, les sanctions occidentales les plus sévères de l'Histoire et la guerre n'y font rien: les milliardaires russes n'ont jamais été aussi riches (ils pèsent désormais près de 600 milliards d'euros)",
+        "resume": "Malgré la guerre, les sanctions et la récession, la fortune des milliardaires russes a augmenté grâce à la hausse des prix des matières premières, à la réorientation des exportations vers l’Asie, au rachat d’actifs occidentaux à bas coût et à une éco",
+        "url": "https://www.bfmtv.com/economie/international/la-recession-en-russie-les-sanctions-occidentales-les-plus-severes-de-l-histoire-et-la-guerre-n-y-font-rien-les-milliardaires-russes-n-ont-jamais-ete-aussi-riches-ils-pesent-desormais-pres-de-600-milliards-d-euros_AN-202604230427.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "11h47",
+        "titre": "La moitié des missiles Patriot, des THAAD, des SM-3 et des PrSM: en à peine 39 jours contre l'Iran, les États-Unis ont vu fondre leurs stocks de missiles de précision (Trump assure que le cessez-le-feu sert à le reconstituer)",
+        "resume": "Les États-Unis ont largement puisé dans ses stocks de missiles dans sa guerre contre l'Iran, sans pour autant enfreindre sa capacité à reprendre des frappes contre le régime des Mollahs. Mais un conflit contre la Chine pourrait mettre l'armée américa",
+        "url": "https://www.bfmtv.com/economie/entreprises/defense/la-moitie-des-missiles-patriot-des-thaad-des-sm-3-et-des-pr-sm-en-a-peine-39-jours-contre-l-iran-les-etats-unis-ont-vu-fondre-leurs-stocks-de-missiles-de-precision-trump-assure-que-le-cessez-le-feu-sert-a-le-reconstituer_AN-202604230386.html"
       }
     ]
   },
@@ -73,38 +69,38 @@
     "articles": [
       {
         "source": "BFM Business",
-        "heure": "15h22",
-        "titre": "Le français veut accélérer dans l'oncologie : Servier rachète l'américain Day One pour 2,5 milliards de dollars et renforce ses capacités dans les médicaments contre le cancer",
-        "resume": "Le groupe pharmaceutique français Servier, recentré depuis plusieurs années sur les médicaments anti-cancer, se renforce dans le domaine avec le rachat de la société américaine Day One Biopharmaceuticals, une opération évaluée à 2,5 milliards de doll",
-        "url": "https://www.bfmtv.com/economie/entreprises/le-francais-veut-accelerer-dans-l-oncologie-servier-rachete-l-americain-day-one-pour-2-5-milliards-de-dollars-et-renforce-ses-capacites-dans-les-medicaments-contre-le-cancer_AD-202604230558.html"
+        "heure": "13h16",
+        "titre": "À qui Bernard Arnault va-t-il passer le flambeau à la tête de l'empire LVMH? \"On reparlera de tout ça dans 7-8 ans\", écarte le milliardaire français devant ses actionnaires",
+        "resume": "Bernard Arnault repousse toute discussion sur sa succession chez LVMH à plusieurs années, malgré les interrogations croissantes des actionnaires, alors que ses enfants sont déjà impliqués dans le groupe sans qu’aucun successeur clair ne se dégage.",
+        "url": "https://www.bfmtv.com/economie/a-qui-bernard-arnault-va-passer-le-flambeau-a-la-tete-de-l-empire-lvmh-on-reparlera-de-tout-ca-dans-7-8-ans-ecarte-le-milliardaire-francais-devant-ses-actionnaires_AD-202604230459.html"
       },
       {
-        "source": "BFM Business",
-        "heure": "15h41",
-        "titre": "\"Il y a de la sidération\": Ubisoft acte la quasi-fin du télétravail pour ses salariés",
-        "resume": "Les salariés ont été informés qu'ils disposeraient désormais d'un quota de moins d'un jour par semaine, alors que jusqu'à présent ils bénéficiaient de deux jours de télétravail par semaine,",
-        "url": "https://www.bfmtv.com/economie/emploi/il-y-a-de-la-sideration-ubisoft-acte-la-quasi-fin-du-teletravail-pour-ses-salaries_AD-202604230568.html"
+        "source": "Le Monde Éco",
+        "heure": "18h50",
+        "titre": "Nestlé, géant de l’agroalimentaire, continue à réduire la voilure en France",
+        "resume": "Le groupe suisse a annoncé la suppression de 180 postes de « cols blancs » dans ses filiales françaises.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/le-geant-de-l-agroalimentaire-nestle-continue-a-reduire-la-voilure-en-france_6682820_3234.html"
       },
       {
-        "source": "BFM Business",
-        "heure": "16h31",
-        "titre": "L'Oréal s'envole, porté par l'\"effet rouge à lèvres – 23/04",
-        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, s'est penché sur les perspectives sur les publications en Europe, la supériorité face aux attentes des revenus de Renault, l'insuffisance de la hausse du CA d'EssilorLuxottica au T1",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/l-oreal-s-envole-porte-par-l-effet-rouge-a-levres-23-04_EN-202604230599.html"
+        "source": "Le Monde Éco",
+        "heure": "10h30",
+        "titre": "Volkswagen réduit encore la voilure  en Allemagne et n’exclut pas des coopérations avec des industriels chinois",
+        "resume": "Le constructeur automobile continue d’investir en Chine, où il lance son premier modèle made in China, et de réduire son activité en Allemagne.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/volkswagen-reduit-encore-la-voilure-et-n-exclut-pas-des-cooperations-avec-des-industriels-chinois-en-allemagne_6682762_3234.html"
       },
       {
-        "source": "BFM Business",
-        "heure": "16h17",
-        "titre": "Culture Bourse : « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? », par Julie Cohen-Heurton - 23/04",
-        "resume": "Ce jeudi 23 avril, François Chaulet, président de Montségur Finance, a répondu à la question « GTT reçoit de multiples commandes et ça se ressent en Bourse. Comment percevez-vous le titre ? » dans la chronique Culture Bourse présentée par Julie Cohen",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-culture-bourse-gtt-recoit-de-multiples-commandes-et-ca-se-ressent-en-bourse-comment-percevez-vous-le-titre-par-julie-cohen-heurton-23-04_VN-202604230592.html"
+        "source": "Challenges",
+        "heure": "15h21",
+        "titre": "Yohan Abou : de l’autodidacte du digital à la création de Noyz Academy, la méthode pour capter l’attention et générer des clients",
+        "resume": "À seulement 25 ans, Yohan Abou incarne une nouvelle génération d’entrepreneurs du digital : autodidactes, agiles et orientés résultats. Installé entre la France et l’international, il a construit son expertise loin des parcours académiques traditionn",
+        "url": "https://www.challenges.fr/partenaires/yohan-abou-de-lautodidacte-du-digital-a-la-creation-de-noyz-academy-la-methode-pour-capter-lattention-et-generer-des-clients_642939"
       },
       {
-        "source": "BFM Business",
-        "heure": "15h14",
-        "titre": "\"Une réponse directe à la hausse de la demande\": Tesla va créer 1.000 emplois d'ici fin juin dans son usine allemande",
-        "resume": "Elle compte aujourd'hui 10.700 salariés, selon le groupe, et produit de grandes quantités du Model Y, son SUV grand public, ainsi que des cellules de batterie.",
-        "url": "https://www.bfmtv.com/economie/entreprises/industries/une-reponse-directe-a-la-hausse-de-la-demande-tesla-va-creer-1-000-emplois-d-ici-fin-juin-dans-son-usine-allemande_AD-202604230553.html"
+        "source": "Challenges",
+        "heure": "18h15",
+        "titre": "« La Chine est le fitness center de l’industrie automobile » : comment Pékin a forcé l’Occident à se transformer",
+        "resume": "PODCAST&nbsp;–&nbsp;Pendant cinq ans à la présidence de Valeo Chine, François Marion a observé, au plus près, la bascule électrique qui a rebattu les cartes de l’industrie automobile mondiale. Un témoignage de l’intérieur, précieux et sans fard. Il e",
+        "url": "https://www.challenges.fr/automobile/la-chine-est-le-fitness-center-de-lindustrie-automobile-comment-pekin-a-force-loccident-a-se-transformer_642927"
       }
     ]
   },
@@ -119,24 +115,31 @@
       },
       {
         "source": "BFM Business",
-        "heure": "15h51",
-        "titre": "Air France-KLM ou Lufthansa? Le gagnant de la privatisation de TAP Air Portugal sera connu en septembre",
-        "resume": "Les deux compagnies aériennes en lice disposent de trois mois pour remettre leurs offres contraigantes. ",
-        "url": "https://www.bfmtv.com/economie/entreprises/transports/air-france-klm-ou-lufthansa-le-gagnant-de-la-privatisation-de-tap-air-portugal-sera-connu-en-septembre_AD-202604230570.html"
+        "heure": "13h50",
+        "titre": "La justice européenne confirme l'annulation de l'aide de 6 milliards d'euros versée à Lufthansa pendant le Covid (mais la compagnie a déjà remboursé cette somme)",
+        "resume": "La Commission avait approuvé la recapitalisation de la compagnie en 2020 mais la justice l'avait jugée non conforme en 2023. Lufthansa avait alors interjeté appel.",
+        "url": "https://www.bfmtv.com/economie/entreprises/la-justice-europeenne-confirme-l-annulation-de-l-aide-de-6-milliards-d-euros-versee-a-lufthansa-pendant-le-covid-mais-la-compagnie-a-deja-rembourse-cette-somme_AD-202604230476.html"
       },
       {
-        "source": "BFM Business",
-        "heure": "13h16",
-        "titre": "À qui Bernard Arnault va-t-il passer le flambeau à la tête de l'empire LVMH? \"On reparlera de tout ça dans 7-8 ans\", écarte le milliardaire français devant ses actionnaires",
-        "resume": "Bernard Arnault repousse toute discussion sur sa succession chez LVMH à plusieurs années, malgré les interrogations croissantes des actionnaires, alors que ses enfants sont déjà impliqués dans le groupe sans qu’aucun successeur clair ne se dégage.",
-        "url": "https://www.bfmtv.com/economie/a-qui-bernard-arnault-va-passer-le-flambeau-a-la-tete-de-l-empire-lvmh-on-reparlera-de-tout-ca-dans-7-8-ans-ecarte-le-milliardaire-francais-devant-ses-actionnaires_AD-202604230459.html"
+        "source": "Challenges",
+        "heure": "08h59",
+        "titre": "Ukraine : le prêt de 90 milliards d’euros de l’UE validé, les premiers versements attendus « d'ici à fin mai, début juin »",
+        "resume": "La validation officielle du prêt de 90 milliards d’euros de l’UE à l’Ukraine est intervenue à la mi-journée, ce jeudi 23 avril, après que la Hongrie a levé son veto. Elle sera suivie d’un sommet des dirigeants européens à Chypre dans la soirée, en pr",
+        "url": "https://www.challenges.fr/monde/ukraine-le-pret-de-90-milliards-deuros-de-lue-bientot-valide_642929"
       },
       {
-        "source": "BFM Business",
-        "heure": "14h56",
-        "titre": "Un \"Tinder de la reprise\" pour mettre en relation des acheteurs et des patrons: alors que 500.000 dirigeants vont partir à la retraite dans les 10 ans, le gouvernement présente son plan pour faciliter les reprises d'entreprises",
-        "resume": "Pour le ministre des PME, Serge Papin, le sujet des reprises d'entreprises qui vont exploser compte tenu du choc démographique doit devenir \"la grande cause économique nationale\". ",
-        "url": "https://www.bfmtv.com/economie/entreprises/un-tinder-de-la-reprise-pour-mettre-en-relation-des-acheteurs-et-des-patrons-alors-que-500-000-dirigeants-vont-partir-a-la-retraite-dans-les-10-ans-le-gouvernement-presente-son-plan-pour-faciliter-les-reprises-d-entreprises_AD-202604230542.html"
+        "source": "Challenges",
+        "heure": "06h30",
+        "titre": "« Ce repreneur va acter la désintégration de Polytechnyl » : la face cachée du naufrage industriel d’un ex-fleuron de la chimie française",
+        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel.&nbsp;À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. À l’arrivée, une chaîne de valeur dis",
+        "url": "https://www.challenges.fr/entreprise/industrie/ce-repreneur-va-acter-la-desintegration-de-lentreprise-la-face-cachee-du-naufrage-industriel-du-fleuron-de-la-chimie-polytechnyl_642923"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "23h56",
+        "titre": "Le groupe belge John Cockerill monte en puissance, profitant des investissements massifs dans la défense de nombreux pays",
+        "resume": "L’industriel a engrangé, en 2025, des commandes d’une valeur de 2 milliards d’euros.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/22/dans-la-defense-le-groupe-belge-john-cockerill-monte-en-puissance_6682462_3234.html"
       }
     ]
   },
@@ -144,43 +147,50 @@
     "articles": [
       {
         "source": "BFM Business",
-        "heure": "16h30",
-        "titre": "L'éco du monde : \"Zone euro : contraction-surprise des indices PMI en avril\" - 23/04",
-        "resume": "Ce jeudi 23 avril, Gilles Moëc, chef économiste du Groupe AXA, a abordé la contraction surprise sur les indices PMI dans la Zone Euro, la prévision de croissance en Allemagne, et les annonces de Kevin Warsh au Sénat, dans l'émission BFM Bourse présen",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-l-eco-du-monde-zone-euro-contraction-surprise-des-indices-pmi-en-avril-23-04_VN-202604230600.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "16h29",
-        "titre": "L'éco du monde : \"Zone euro : contraction-surprise des indices PMI en avril\" - 23/04",
-        "resume": "Ce jeudi 23 avril, Gilles Moëc, chef économiste du Groupe AXA, a abordé la contraction surprise sur les indices PMI dans la Zone Euro, la prévision de croissance en Allemagne, et les annonces de Kevin Warsh au Sénat, dans l'émission BFM Bourse présen",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/l-eco-du-monde-zone-euro-contraction-surprise-des-indices-pmi-en-avril-23-04_EN-202604230597.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "13h08",
-        "titre": "Le prix du baril de Brent a clôturé à plus de 100 dollars pour la première fois en plus de deux semaines",
-        "resume": "Le prix du baril de Brent de la mer du Nord, pour livraison en juin, a avancé de 3,48% à 101,91 dollars, clôturant pour la première fois en plus de deux semaines au-delà des 100 dollars.",
-        "url": "https://www.bfmtv.com/economie/video-le-prix-du-baril-de-brent-a-cloture-a-plus-de-100-dollars-pour-la-premiere-fois-en-plus-de-deux-semaines_VN-202604230452.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "14h27",
-        "titre": "\"C'est la pire crise depuis très, très longtemps\": la Suède prévient qu'elle pourrait rationner le carburant si la guerre au Moyen-Orient se prolongeait",
-        "resume": "\"Nous sommes prêts à cette éventualité\", a déclaré le Premier ministre suédois Ulf Kristersson.",
-        "url": "https://www.bfmtv.com/economie/entreprises/energie/c-est-la-pire-crise-depuis-tres-tres-longtemps-la-suede-previent-qu-elle-pourrait-rationner-le-carburant-si-la-guerre-au-moyen-orient-se-prolongeait_AD-202604230508.html"
-      },
-      {
-        "source": "BFM Business",
         "heure": "13h18",
         "titre": "L'électricité devra représenter plus de 50% de la consommation énergétique en 2050 (27% aujourd'hui): le gouvernement dévoile un cocktail de 22 mesures pour réduire la dépendance de la France aux énergies fossiles",
         "resume": "Le gouvernement a dévoilé ce jeudi son plan d'électrification de l'économie. 4,5 milliards d'euros par an supplémentaires seront alloués d'ici 2030 pour réduire la part des énergies fossiles dans la consommation à moins de 30% en 2035. ",
         "url": "https://www.bfmtv.com/economie/entreprises/energie/l-electricite-devra-representer-plus-de-50-de-la-consommation-energetique-en-2050-27-aujourd-hui-le-gouvernement-devoile-un-cocktail-de-22-mesures-pour-reduire-la-dependance-de-la-france-aux-energies-fossiles_AD-202604230462.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "12h46",
+        "titre": "INFOGRAPHIES. La Belgique a fait pire: la France n'a finalement pas signé le déficit public le plus élevé de la zone euro en 2025 (elle est juste avant-dernière)",
+        "resume": "Avec un déficit moins mauvais que prévu en 2025, à 5,1% du PIB, la France n'a finalement pas affiché la pire performance de la zone euro. ",
+        "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/infographies-la-belgique-a-fait-pire-la-france-n-a-finalement-pas-signe-le-deficit-public-le-plus-eleve-de-la-zone-euro-en-2025-elle-est-juste-avant-derniere_AV-202604230437.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "15h00",
+        "titre": "Budget 2026 : Sébastien Lecornu ajoute 2 milliards d’euros d’économies en dernière minute, la Cour des comptes s’agace",
+        "resume": "En 2025, la réduction du déficit a tenu presque entièrement à l’augmentation des impôts. Pour aller plus loin, la juridiction supérieure de la rue Cambon exhorte le gouvernement à mettre enfin en œuvre des « économies structurelles ».",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/22/budget-sebastien-lecornu-ajoute-2-milliards-d-euros-d-economies-en-derniere-minute-la-cour-des-comptes-s-agace_6682391_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "15h00",
+        "titre": "Budget de l’Etat : la Cour des comptes sur la réserve au sujet de la certification des comptes 2025",
+        "resume": "Comme ce fut le cas pour l’année 2024, l’institution de la rue Cambon n’a pas pu certifier certains « postes comptables » en raison de plusieurs « anomalies significatives » et d’« insuffisances d’éléments probants », explique-t-elle dans un rapport ",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/22/budget-de-l-etat-la-cour-des-comptes-sur-la-reserve-au-sujet-de-la-certification-des-comptes-2025_6682393_823448.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "16h14",
+        "titre": "Budget : la réduction du déficit en 2025 « résulte d’abord d’une forte hausse des impôts », avertit la Cour des comptes",
+        "resume": "Après deux années noires pour les finances publiques, le déficit budgétaire s’est réduit l’an passé. Mais cet effort reste « fragile » et a surtout reposé sur des hausses d’impôts sans mesures d’économies pérennes, critique la Cour des comptes.",
+        "url": "https://www.challenges.fr/economie/budget-la-reduction-du-deficit-en-2025-resulte-dabord-dune-forte-hausse-des-impots-avertit-la-cour-des-comptes_642915"
       }
     ]
   },
   "politique": {
     "articles": [
+      {
+        "source": "BFM Business",
+        "heure": "15h01",
+        "titre": "On exclut l'Iran de la Coupe du monde pour y mettre l'Italie éliminée: le coup diplomatique hors-norme de Donald Trump pour se rabibocher avec Giorgia Meloni",
+        "resume": "Un proche de Donald Trump propose d’exclure l’Iran du Mondial… pour repêcher l’Italie, au cœur d’une Coupe du monde organisée aux États-Unis. Un lobbying géopolitique qui dépasse largement le cadre du terrain.",
+        "url": "https://www.bfmtv.com/economie/on-exclut-l-iran-de-la-coupe-du-monde-pour-y-mettre-l-italie-eliminee-le-coup-diplomatique-hors-norme-de-donald-trump-pour-se-rabibocher-avec-giorgia-meloni_AN-202604230547.html"
+      },
       {
         "source": "BFM Business",
         "heure": "14h11",
@@ -189,25 +199,11 @@
         "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/apres-la-levee-du-veto-hongrois-le-pret-europeen-de-90-milliards-d-euros-a-l-ukraine-definitivement-valide_AD-202604230491.html"
       },
       {
-        "source": "Challenges",
-        "heure": "08h43",
-        "titre": "Guerre au Moyen-Orient : Donald Trump prolonge la trêve jusqu’à ce que « l’Iran présente une proposition » pour mettre fin au conflit",
-        "resume": "Le président américain a annoncé, dans la soirée du mardi 21 avril, une prolongation du cessez-le-feu entre les Etats-Unis et l’Iran jusqu’à ce que Téhéran « présente une proposition » pour mettre fin au conflit. Donald Trump a toutefois indiqué que ",
-        "url": "https://www.challenges.fr/monde/guerre-au-moyen-orient-donald-trump-prolonge-la-treve-jusqua-ce-que-liran-presente-une-proposition-pour-mettre-fin-au-conflit_642900"
-      },
-      {
         "source": "BFM Business",
-        "heure": "12h47",
-        "titre": "\"J'ai été félicité par le secrétaire général du Parti communiste, ça ne serait jamais arrivé en France\": Bernard Arnault assure devant ses actionnaires qu'il est mieux accueilli en Chine que dans son pays",
-        "resume": "Bernard Arnault dresse un bilan 2025 \"correct\" pour LVMH, soulignant la solidité du groupe malgré un contexte mondial tendu, sa forte contribution à l’économie française et sa stratégie d’expansion internationale, tout en pointant les freins fiscaux ",
-        "url": "https://www.bfmtv.com/economie/j-ai-ete-felicite-par-le-secretaire-general-du-parti-communiste-ca-ne-serait-jamais-arrive-en-france-bernard-arnault-assure-devant-ses-actionnaires-qu-il-est-mieux-accueilli-en-chine-que-dans-son-pays_AN-202604230439.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "13h00",
-        "titre": "Union européenne : « La politique industrielle est de retour sur le continent »",
-        "resume": "Les professeurs de droit Paul Dermine et d’économie Donato Di Carlo dénoncent, dans une tribune au « Monde », un dysfonctionnement majeur de la politique industrielle conduite par l’Union européenne, puisque l’assouplissement des subventions publique",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/23/union-europeenne-la-politique-industrielle-est-de-retour-sur-le-continent_6682780_3232.html"
+        "heure": "12h02",
+        "titre": "L'Islande enfin dans l'UE? À 4 mois d'un nouveau référendum, Bruxelles est prête à des compromis sur la pêche, car le poisson représente 40% des exportations islandaises",
+        "resume": "Dans un contexte géopolitique toujours plus incertain, un référendum sur la reprise des négociations d'adhésion à l'Union européenne est organisé en août en Islande. La pêche est un des principaux points de blocage, mais la Commission est prête à des",
+        "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/l-islande-enfin-dans-l-ue-a-4-mois-d-un-nouveau-referendum-bruxelles-est-prete-a-des-compromis-sur-la-peche-car-le-poisson-represente-40-des-exportations-islandaises_AV-202604230399.html"
       },
       {
         "source": "Le Monde Éco",
@@ -215,6 +211,13 @@
         "titre": "Emmanuel Macron veut appliquer la méthode « Notre-Dame » à 150 projets industriels stratégiques dans toute la France",
         "resume": "Inaugurant, mercredi, une mine de lithium dans l’Allier, le chef de l’Etat veut s’inspirer de la simplification et de l’accélération des procédures pour la reconstruction de la cathédrale de Paris.",
         "url": "https://www.lemonde.fr/economie/article/2026/04/23/emmanuel-macron-veut-appliquer-la-methode-notre-dame-a-150-projets-industriels-strategiques_6682700_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "14h31",
+        "titre": "Le gouvernement limite la durée des recours contre les projets industriels, en les confiant directement aux cours administratives d’appel",
+        "resume": "L’objectif est « d’accélérer les implantations d’entreprises » pour soutenir l’effort de réindustrialisation du pays, en renforçant l’attractivité du territoire et en accélérant la réalisation des investissements",
+        "url": "https://www.lemonde.fr/planete/article/2026/04/22/le-gouvernement-limite-la-duree-des-recours-contre-les-projets-industriels-en-les-confiant-directement-aux-cours-administratives-d-appel_6682388_3244.html"
       }
     ]
   }
