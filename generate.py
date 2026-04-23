@@ -52,6 +52,57 @@ def parse_json(text):
         raw += '}' * max(0, openb)
         return json.loads(raw)
 
+def make_search_url(source, titre):
+    """Generate a reliable Google search URL as fallback."""
+    import urllib.parse
+    s = source.lower()
+    q = urllib.parse.quote(titre)
+    if 'echo' in s:
+        return f"https://www.google.com/search?q=site%3Alesechos.fr+{q}"
+    if 'figaro' in s:
+        return f"https://www.google.com/search?q=site%3Alefigaro.fr+{q}"
+    if 'agefi' in s:
+        return f"https://www.google.com/search?q=site%3Aagefi.fr+{q}"
+    if 'ft' in s or 'financial' in s:
+        return f"https://www.google.com/search?q=site%3Aft.com+{q}"
+    if 'reuters' in s:
+        return f"https://www.google.com/search?q=site%3Areuters.com+{q}"
+    if 'bloomberg' in s:
+        return f"https://www.google.com/search?q=site%3Abloomberg.com+{q}"
+    if 'monde' in s:
+        return f"https://www.google.com/search?q=site%3Alemonde.fr+{q}"
+    return f"https://www.google.com/search?q={urllib.parse.quote(source+' '+titre)}"
+
+
+def fix_article_urls(articles):
+    """Verify URLs look real; replace bad ones with Google search fallback."""
+    import re
+    fixed = []
+    for a in articles:
+        url = a.get('url', '')
+        titre = a.get('titre', '')
+        source = a.get('source', '')
+        
+        # Detect fake/placeholder URLs
+        is_fake = (
+            not url or
+            url == 'null' or
+            'URL-EXACTE' in url or
+            'TROUVEE' in url or
+            re.search(r'/article-[0-9]+$', url) and len(url) < 50 or
+            url.count('/') < 3  # too short to be a real article path
+        )
+        
+        if is_fake and titre:
+            a['url'] = make_search_url(source, titre)
+            a['url_type'] = 'search'
+        else:
+            a['url_type'] = 'direct'
+        
+        fixed.append(a)
+    return fixed
+
+
 def generate_section(section, today, now):
     """Generate one section with real web search."""
     
@@ -162,12 +213,18 @@ def main():
     briefing["alerte"] = sm.get("alerte")
     briefing["synthese"] = sm.get("synthese", {})
     briefing["marches"] = sm.get("marches", {})
+    # Fix article URLs
+    if briefing.get("marches", {}).get("articles"):
+        briefing["marches"]["articles"] = fix_article_urls(briefing["marches"]["articles"])
 
     sections = ["entreprises", "ma", "macro", "politique"]
     for s in sections:
         print(f"→ {s}...")
         try:
             result = generate_section(s, today, time_str)
+            # Fix URLs in each section
+            if result.get("articles"):
+                result["articles"] = fix_article_urls(result["articles"])
             briefing[s] = result
         except Exception as e:
             print(f"  Erreur {s}: {e}")
@@ -180,3 +237,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# This is appended - not used directly, see fix_urls below
