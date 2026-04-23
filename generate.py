@@ -12,12 +12,29 @@ client = anthropic.Anthropic()
 def perigon_fetch(params):
     """Fetch articles from Perigon API."""
     base = "https://api.goperigon.com/v1/all?"
-    params["apiKey"] = PERIGON_KEY
     params["language"] = "fr"
     params["sortBy"] = "date"
     params["pageSize"] = params.get("pageSize", 10)
     url = base + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    # Try both auth methods
+    for headers in [
+        {"User-Agent": "Mozilla/5.0", "x-api-key": PERIGON_KEY},
+        {"User-Agent": "Mozilla/5.0", "Authorization": f"Bearer {PERIGON_KEY}"},
+    ]:
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = json.loads(resp.read())
+                if data.get("articles"):
+                    return data
+        except urllib.error.HTTPError as e:
+            body = e.read().decode()[:200]
+            print(f"  HTTP {e.code}: {body}")
+        except Exception as e:
+            print(f"  Erreur: {e}")
+    # Last attempt with apiKey param
+    url2 = url + f"&apiKey={PERIGON_KEY}"
+    req = urllib.request.Request(url2, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=10) as resp:
         return json.loads(resp.read())
 
