@@ -10,6 +10,62 @@ from datetime import datetime, timezone, timedelta
 PERIGON_KEY = "51d90d54-03df-4bec-910e-ac40924fb42e"
 client = anthropic.Anthropic()
 
+# ── DONNÉES DE MARCHÉ (Yahoo Finance depuis GitHub Actions) ──
+YAHOO_SYMBOLS = {
+    "CAC 40":        {"sym": "%5EFCHI",    "fmt": lambda v: f"{v:,.0f}".replace(",", " ")},
+    "Eurostoxx 50":  {"sym": "%5ESTOXX50E","fmt": lambda v: f"{v:,.0f}".replace(",", " ")},
+    "S&P 500":       {"sym": "%5EGSPC",    "fmt": lambda v: f"{v:,.0f}".replace(",", " ")},
+    "Nasdaq":        {"sym": "%5EIXIC",    "fmt": lambda v: f"{v:,.0f}".replace(",", " ")},
+    "EUR/USD":       {"sym": "EURUSD%3DX", "fmt": lambda v: f"{v:.4f}"},
+    "Brent":         {"sym": "BZ%3DF",     "fmt": lambda v: f"{v:.1f} $"},
+    "Or":            {"sym": "GC%3DF",     "fmt": lambda v: f"{v:,.0f}".replace(",", " ") + " $"},
+}
+
+def fetch_market_data():
+    metrics = []
+    symbols = ",".join(v["sym"] for v in YAHOO_SYMBOLS.values())
+    url = f"https://query1.finance.yahoo.com/v7/finance/quote?symbols={symbols}&fields=regularMarketPrice,regularMarketChangePercent,regularMarketPreviousClose"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "application/json",
+        "Referer": "https://finance.yahoo.com/"
+    }
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read())
+        results = {r["symbol"].replace("%3D","=").replace("%5E","^"): r
+                   for r in data.get("quoteResponse", {}).get("result", [])}
+        for label, cfg in YAHOO_SYMBOLS.items():
+            sym_clean = urllib.parse.unquote(cfg["sym"])
+            r = results.get(sym_clean) or results.get(cfg["sym"])
+            if not r:
+                # Try with decoded symbol
+                for k, v in results.items():
+                    if cfg["sym"].replace("%5E","^").replace("%3D","=") in k or k in cfg["sym"]:
+                        r = v
+                        break
+            if r:
+                price = r.get("regularMarketPrice", 0)
+                pct   = r.get("regularMarketChangePercent", 0)
+                dir_  = "up" if pct > 0.05 else "down" if pct < -0.05 else "flat"
+                metrics.append({
+                    "label":  label,
+                    "value":  cfg["fmt"](price),
+                    "change": f"{pct:+.2f}%",
+                    "dir":    dir_
+                })
+                print(f"  {label}: {cfg['fmt'](price)} ({pct:+.2f}%)")
+            else:
+                metrics.append({"label": label, "value": "—", "change": "—", "dir": "flat"})
+                print(f"  {label}: N/A")
+    except Exception as e:
+        print(f"  Yahoo Finance erreur: {e}")
+        # Fallback: empty metrics
+        metrics = [{"label": l, "value": "—", "change": "—", "dir": "flat"}
+                   for l in YAHOO_SYMBOLS.keys()]
+    return metrics
+
 # ── DATE HELPERS ──
 def parse_date(s):
     if not s:
@@ -114,9 +170,12 @@ def get_rss_articles():
 def get_perigon_articles():
     articles = []
     queries = [
-        {"source": "lesechos.fr",  "nom": "Les Echos",  "q": "économie finance marchés entreprises M&A"},
-        {"source": "lefigaro.fr",  "nom": "Le Figaro",  "q": "économie finance marchés entreprises politique"},
-        {"source": "lefigaro.fr",  "nom": "Le Figaro",  "q": "bourse taux conjoncture budget France"},
+        {"source": "lesechos.fr", "nom": "Les Echos", "q": "économie finance", "pageSize": 15},
+        {"source": "lesechos.fr", "nom": "Les Echos", "q": "entreprises marchés bourse", "pageSize": 15},
+        {"source": "lesechos.fr", "nom": "Les Echos", "q": "M&A fusion acquisition", "pageSize": 10},
+        {"source": "lefigaro.fr", "nom": "Le Figaro", "q": "économie finance", "pageSize": 15},
+        {"source": "lefigaro.fr", "nom": "Le Figaro", "q": "entreprises politique budget", "pageSize": 15},
+        {"source": "lefigaro.fr", "nom": "Le Figaro", "q": "marchés bourse taux", "pageSize": 10},
     ]
     for q in queries:
         try:
@@ -124,8 +183,9 @@ def get_perigon_articles():
                 "apiKey":   PERIGON_KEY,
                 "language": "fr",
                 "sortBy":   "date",
-                "pageSize": 15,
+                "pageSize": q.get("pageSize", 15),
                 "source":   q["source"],
+                "q":        q.get("q", ""),
             })
             url = f"https://api.goperigon.com/v1/all?{params}"
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -287,12 +347,17 @@ def main():
         print("ERREUR: aucun article")
         raise SystemExit(1)
 
-    # 4. Haiku: classification + synthèse
+    # 4. Données de marché live
+    print("→ Données de marché...")
+    market_metrics = fetch_market_data()
+
+    # 5. Haiku: classification + synthèse
     print("→ Haiku classification...")
     classified = synthesize(articles, today, ts)
 
     # 5. Build final briefing
     briefing = build_briefing(classified, articles)
+    briefing["marches"]["metrics"] = market_metrics
 
     # 6. Vérification sections vides
     for key in ["synthese","marches","entreprises","ma","macro","politique"]:
