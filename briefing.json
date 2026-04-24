@@ -1,24 +1,24 @@
 {
-  "timestamp": "09h04 le 24/04/2026",
+  "timestamp": "09h24 le 24/04/2026",
   "alerte": null,
   "synthese": {
-    "resume": "La confiance des ménages français chute au plus bas depuis mars 2022 face à la crise moyen-orientale et l'inflation. L'activité économique ralentit en Europe avec un PMI français au plus bas depuis 14 mois. Stellantis réorganise son portefeuille de 14 marques en faveur de Peugeot/Fiat/Jeep/Ram. Bernard Arnault repousse les questions de succession à LVMH et le projet franco-allemand Scaf demeure en suspens malgré les assurances de Macron.",
+    "resume": "L'économie française traverse une phase de fragilité : l'indice PMI s'effondre au plus bas depuis 14 mois, le moral des ménages plonge face à la géopolitique et l'inflation, tandis que Meta et Microsoft annoncent des coupes massives dans leurs effectifs. Le secteur vélos s'enfonce avec les ventes en chute (-2025), contrebalancé par une mobilité durable qui progresse aux cycles de réparation. L'UE débloque 90 Mds€ pour l'Ukraine et valide un 20e paquet de sanctions contre la Russie, recalibrant l'économie de guerre européenne.",
     "points": [
       {
         "titre": "Marchés",
-        "detail": "CAC40 ouvre en légère baisse. PMI avril France au plus bas depuis 14 mois (156). L'euro affaibli par pessimisme allemand, dollar sans direction claire (153, 159)."
+        "detail": "Euro miné par pessimisme allemand; dollar stable mais fragile sur incertitudes géopolitiques. Avis subit violents mouvements en Bourse. Actionnaires BP désavouent direction sur climatique."
       },
       {
-        "titre": "Macro / Conjoncture",
-        "detail": "Confiance ménages plonge (avril enregistre plus forte dégradation depuis mars 2022) - 20. Activité ralentit en Europe - 18. Indice richesse pays exclut France/Allemagne du top 10 mondial - 7."
+        "titre": "Macro",
+        "detail": "PMI France avril au plus bas 14 mois (article 156); moral ménages effondré (42% veulent épargner davantage, sondage Elabe); Allemagne recul économique confirmé; Chili austérité gouvernementale; Iran économie s'effondre."
       },
       {
-        "titre": "Entreprises / Stratégie",
-        "detail": "Stellantis concentre 14 marques sur Peugeot/Fiat/Jeep/Ram (26). Meta/Microsoft annoncent coupes massives IA (41, 78). Nestlé réduit voilure en France (48). Renault hausse CA T1 (98)."
+        "titre": "Entreprises / M&A",
+        "detail": "Meta et Microsoft coupes massives (articles 41,77); Nestlé réduit voilure France (48); Renault CA +T1; Edenred +légèrement; Volkswagen réduit Allemagne; Bernard Arnault repousse succession LVMH 7-8 ans (47,90)."
       },
       {
-        "titre": "Politique / Géopolitique",
-        "detail": "Macron confirme projet SCAF non mort malgré tensions France-Allemagne (3). Plan électrification gouvernement 22 mesures (45). Succession LVMH : Arnault repousse débat 7-8 ans (47, 91). Déficit France critiqué (28)."
+        "titre": "Politique / Géo",
+        "detail": "UE: 90 Mds€ Ukraine (12,14,95), 20e paquet sanctions Russie (9); Zelensky adhésion UE (6); guerre Moyen-Orient impacte consommation FR; Roumanie gouvernement fragilisé (68); investissements privés armes nucléaires +2025 (4)."
       }
     ]
   },
@@ -69,25 +69,18 @@
     ],
     "articles": [
       {
-        "source": "BFM Business",
-        "heure": "09h35",
-        "titre": "En direct des marchés : Le CAC40 ouvre en légère baisse, à suivre STM, L'Oréal, Tesla et EssilorLuxottica - 24/04",
-        "resume": "Ce vendredi 24 avril, ce qui se passe sur les grands indices boursiers d'un point de vue technique, on été abordés par Daniel Cohen de Lara, associé de Next Momentum, dans l'émission Good Morning Market sur BFM Business. Retrouvez l'émission du lundi",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/video-en-direct-des-marches-le-cac40-ouvre-en-legere-baisse-a-suivre-stm-l-oreal-tesla-et-essilor-luxottica-24-04_VN-202604240301.html"
+        "source": "Le Monde Éco",
+        "heure": "12h30",
+        "titre": "Les actionnaires de BP désavouent la direction : « Une partie de la finance a encore des valeurs en matière de lutte contre le changement climatique »",
+        "resume": "Les actionnaires ont massivement rejeté une résolution de la direction de la major pétrolière britannique revenant sur certains engagements en matière climatique, constate Olivier Pinaud, journaliste au service Economie du « Monde ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/les-actionnaires-de-bp-desavouent-la-direction-une-partie-de-la-finance-a-encore-des-valeurs-en-matiere-de-lutte-contre-le-changement-climatique_6683031_3234.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "12h02",
-        "titre": "France: l'indice d'activité PMI au plus bas depuis 14 mois en avril",
-        "resume": "L’indice, qui mesure l’activité du secteur privé, est tiré vers le bas par la conjoncture négative du secteur des services.",
-        "url": "https://www.lefigaro.fr/conjoncture/france-l-indice-d-activite-pmi-au-plus-bas-depuis-14-mois-en-avril-20260423"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "23h40",
-        "titre": "L'euro miné par le pessimisme économique allemand, le dollar sans élan",
-        "resume": "L'euro était en recul mercredi, plombé par la forte révision à la baisse de la prévision de croissance en Allemagne, tandis que le dollar évoluait...",
-        "url": "https://www.lefigaro.fr/flash-eco/l-euro-mine-par-le-pessimisme-economique-allemand-le-dollar-sans-elan-20260422"
+        "heure": "01h46",
+        "titre": "Le loueur automobile Avis subit de violents mouvements en Bourse",
+        "resume": "Après une envolée spéculative spectaculaire, l’action du loueur automobile américain Avis a chuté de près de 50 % en une séance à Wall Street, entraînant la suspension temporaire des échanges.",
+        "url": "https://www.lefigaro.fr/societes/le-loueur-automobile-avis-subit-de-violents-mouvements-en-bourse-20260423"
       },
       {
         "source": "Le Figaro",
@@ -97,23 +90,23 @@
         "url": "https://www.lefigaro.fr/flash-eco/calme-sur-le-marche-des-changes-face-aux-incertitudes-geopolitiques-20260423"
       },
       {
-        "source": "BFM Business",
-        "heure": "10h07",
-        "titre": "Le face à face : Bourse, faut-il accompagner le rallye de la tech américaine ? - 24/04",
-        "resume": "Ce vendredi 24 avril, Daniel Gerino, président chez Carlton Sélection, économiste et actuaire, et François Monnier, directeur de la rédaction chez Investir, parlent des impacts de l'IA sur les marchés, dans l'émission Good Morning Market sur BFM Busi",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/video-le-face-a-face-bourse-faut-il-accompagner-le-rallye-de-la-tech-americaine-24-04_VN-202604240339.html"
+        "source": "Le Figaro",
+        "heure": "23h40",
+        "titre": "L'euro miné par le pessimisme économique allemand, le dollar sans élan",
+        "resume": "L'euro était en recul mercredi, plombé par la forte révision à la baisse de la prévision de croissance en Allemagne, tandis que le dollar évoluait...",
+        "url": "https://www.lefigaro.fr/flash-eco/l-euro-mine-par-le-pessimisme-economique-allemand-le-dollar-sans-elan-20260422"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "12h31",
+        "titre": "Guerre au Moyen-Orient et retour de l'inflation font plonger le moral des ménages",
+        "resume": "Face à la hausse du prix des carburants, l'indicateur de confiance des ménages a chuté de 5 points au moins d'avril selon les données de l'Insee publiées ce vendredi.",
+        "url": "https://www.lesechos.fr/economie-france/conjoncture/guerre-au-moyen-orient-et-retour-de-linflation-font-plonger-le-moral-des-menages-2228363"
       }
     ]
   },
   "entreprises": {
     "articles": [
-      {
-        "source": "BFM Business",
-        "heure": "08h58",
-        "titre": "Stellantis a 14 marques automobiles et c'est beaucoup trop selon les analystes: le groupe va donner la priorité à Peugeot, Fiat, Jeep et Ram (mais sans supprimer les autres comme Citroën ou Opel)",
-        "resume": "Selon plusieurs sources qui se sont exprimées auprès de Reuters, le groupe Stellantis compte consacrer la majorité de ses investissements futurs aux quatres marques Peugeot, Fiat, Jeep et Ram.",
-        "url": "https://www.bfmtv.com/economie/entreprises/industries/stellantis-a-14-marques-automobiles-et-c-est-beaucoup-trop-selon-les-analystes-le-groupe-va-donner-la-priorite-a-peugeot-fiat-jeep-et-ram-mais-sans-supprimer-les-autres-comme-citroen-ou-opel_AV-202604240272.html"
-      },
       {
         "source": "Le Monde Éco",
         "heure": "03h30",
@@ -123,17 +116,17 @@
       },
       {
         "source": "Le Monde Éco",
+        "heure": "20h28",
+        "titre": "Bernard Arnault tente de déminer les spéculations sur sa succession devant les actionnaires de LVMH",
+        "resume": "Agé de 77 ans, le PDG du groupe de luxe refuse de dévoiler la façon dont il sera remplacé.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/bernard-arnault-tente-de-deminer-les-speculations-sur-sa-succession-devant-les-actionnaires-de-lvmh_6682833_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
         "heure": "18h50",
         "titre": "Nestlé, géant de l’agroalimentaire, continue à réduire la voilure en France",
         "resume": "Le groupe suisse a annoncé la suppression de 180 postes de cols blancs dans ses filiales françaises.",
         "url": "https://www.lemonde.fr/economie/article/2026/04/23/le-geant-de-l-agroalimentaire-nestle-continue-a-reduire-la-voilure-en-france_6682820_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "10h30",
-        "titre": "Volkswagen réduit encore la voilure  en Allemagne et n’exclut pas des coopérations avec des industriels chinois",
-        "resume": "Le constructeur automobile continue d’investir en Chine, où il lance son premier modèle made in China, et de réduire son activité en Allemagne.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/23/volkswagen-reduit-encore-la-voilure-et-n-exclut-pas-des-cooperations-avec-des-industriels-chinois-en-allemagne_6682762_3234.html"
       },
       {
         "source": "Challenges",
@@ -143,23 +136,16 @@
         "url": "https://www.challenges.fr/entreprise/tech-numerique/meta-et-microsoft-annoncent-des-coupes-massives-dans-leurs-effectifs-des-milliers-de-postes-supprimes_642948"
       },
       {
-        "source": "Les Echos",
-        "heure": "11h07",
-        "titre": "Nike taille encore dans ses effectifs pour accélérer sa relance",
-        "resume": "L'équipementier sportif est en difficulté sur plusieurs de ses marchés clés. Ses perspectives se sont encore assombries avec la guerre au Moyen-Orient.",
-        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/nike-taille-encore-dans-ses-effectifs-pour-accelerer-sa-relance-2228333"
+        "source": "Le Figaro",
+        "heure": "09h39",
+        "titre": "Edenred: activité en légère hausse au 1er trimestre malgré les réformes en Italie et au Brésil",
+        "resume": "La société française de services prépayés Edenred, qui commercialise le Ticket-restaurant, a annoncé jeudi un chiffre d'affaires en progression de...",
+        "url": "https://www.lefigaro.fr/flash-eco/edenred-activite-en-legere-hausse-au-1er-trimestre-malgre-les-reformes-en-italie-et-au-bresil-20260423"
       }
     ]
   },
   "ma": {
     "articles": [
-      {
-        "source": "Le Monde Éco",
-        "heure": "20h28",
-        "titre": "Bernard Arnault tente de déminer les spéculations sur sa succession devant les actionnaires de LVMH",
-        "resume": "Agé de 77 ans, le PDG du groupe de luxe refuse de dévoiler la façon dont il sera remplacé.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/23/bernard-arnault-tente-de-deminer-les-speculations-sur-sa-succession-devant-les-actionnaires-de-lvmh_6682833_3234.html"
-      },
       {
         "source": "Challenges",
         "heure": "08h00",
@@ -175,44 +161,30 @@
         "url": "https://www.challenges.fr/monde/cherche-heritier-vaillant-et-competent-les-entreprises-familiales-confrontees-au-defi-de-la-succession_642907"
       },
       {
+        "source": "Challenges",
+        "heure": "06h30",
+        "titre": "« Ce repreneur va acter la désintégration de Polytechnyl » : la face cachée du naufrage industriel d’un ex-fleuron de la chimie française",
+        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel.&nbsp;À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. À l’arrivée, une chaîne de valeur dis",
+        "url": "https://www.challenges.fr/entreprise/industrie/ce-repreneur-va-acter-la-desintegration-de-lentreprise-la-face-cachee-du-naufrage-industriel-du-fleuron-de-la-chimie-polytechnyl_642923"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h10",
+        "titre": "Cessions de PME : le coup de frein",
+        "resume": "Le contexte géopolitique et son impact sur les charges des entreprises ont fini par ralentir le marché des cessions acquisitions en France, selon le baromètre annuel d'In Extenso. Leur valorisation est au niveau de 2014.",
+        "url": "https://www.lesechos.fr/pme-regions/actualite-pme/cessions-de-pme-le-coup-de-frein-2227968"
+      },
+      {
         "source": "Les Echos",
         "heure": "19h37",
-        "titre": "Wendel confronté au repli des valorisations dans le crédit privé",
-        "resume": "L'actif net réévalué du groupe a reculé de 3,6 % au premier trimestre, sous l'effet de la baisse des multiples utilisés pour valoriser ses activités dans le non-coté, notamment la dette privée. Une évolution qui fait écho aux secousses observées ces ",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/wendel-confronte-au-repli-des-valorisations-dans-le-credit-prive-2228207"
+        "titre": "Free anticipe l'après-SFR et se voit en trublion du mobile dans les grandes entreprises",
+        "resume": "L'opérateur de Xavier Niel exporte à présent son modèle d'offres mobiles au sein des grands comptes. Si SFR Business est revendu à Bouygues Telecom, il s'agit de ne pas lui laisser se partager tout le marché en duopole avec Orange.",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/free-anticipe-lapres-sfr-et-se-voit-en-trublion-du-mobile-dans-les-grandes-entreprises-2228206"
       }
     ]
   },
   "macro": {
     "articles": [
-      {
-        "source": "BFM Business",
-        "heure": "09h14",
-        "titre": "Les Français accusent sérieusement le coup: la confiance des ménages en avril connait sa plus forte dégradation depuis mars 2022",
-        "resume": "En avril, la confiance des ménages français chute fortement sous l’effet des tensions géopolitiques et de la hausse des prix, avec une dégradation marquée de leur situation financière perçue, de leur propension à consommer et une hausse des craintes ",
-        "url": "https://www.bfmtv.com/economie/les-francais-accusent-serieusement-le-coup-la-confiance-des-menages-en-avril-connait-sa-plus-forte-degradation-depuis-mars-2022_AD-202604240285.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "09h18",
-        "titre": "L'éclaireur : L'activité marque le pas en Europe - 24/04",
-        "resume": "Ce vendredi 24 avril, la situation dans la zone euro notamment les indicateurs montrant que les ménages ont le moral en baisse, ainsi que la fausse impression de résilience aux États-Unis, ont été abordées par Hélène Baudchon, cheffe économiste adjoi",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/video-l-eclaireur-l-activite-marque-le-pas-en-europe-24-04_VN-202604240291.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "09h18",
-        "titre": "L'éclaireur : L'activité marque le pas en Europe - 24/04",
-        "resume": "Ce vendredi 24 avril, la situation dans la zone euro notamment les indicateurs montrant que les ménages ont le moral en baisse, ainsi que la fausse impression de résilience aux États-Unis, ont été abordées par Hélène Baudchon, cheffe économiste adjoi",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/l-eclaireur-l-activite-marque-le-pas-en-europe-24-04_EN-202604240288.html"
-      },
-      {
-        "source": "BFM Business",
-        "heure": "10h12",
-        "titre": "Un nouvel indicateur mesure la richesse des pays et des habitants et ni la France, ni l'Allemagne n'est dans le top 10 mondial",
-        "resume": "Cet indicateur de prospérité, développé par la plateforme Hellosafe, prend en compte la façon dont la richesse bénéficie à l'ensemble des habitants. Dans ce classement, la France pointe à la 20ème place, \"ce qui témoigne d'un niveau de prospérité sol",
-        "url": "https://www.bfmtv.com/economie/international/un-nouvel-indicateur-mesure-la-richesse-des-pays-et-des-habitants-et-ni-la-france-ni-l-allemagne-sont-dans-le-top-10_AN-202604240330.html"
-      },
       {
         "source": "Le Monde Éco",
         "heure": "23h47",
@@ -226,6 +198,27 @@
         "titre": "France: l'indice d'activité PMI au plus bas depuis 14 mois en avril",
         "resume": "L’indice, qui mesure l’activité du secteur privé, est tiré vers le bas par la conjoncture négative du secteur des services.",
         "url": "https://www.lefigaro.fr/conjoncture/france-l-indice-d-activite-pmi-au-plus-bas-depuis-14-mois-en-avril-20260423"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "07h44",
+        "titre": "L'économie iranienne s'effondre",
+        "resume": "\"Ils sont plus de 2 millions d'iraniens à avoir perdu leur emploi depuis le début de la guerre. Un nombre qui pourrait grimper à 10 ou 12 millions, soit la moitié de la population active.\"",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-l-economie-iranienne-s-effondre_VN-202604240168.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "12h32",
+        "titre": "Au Chili, le gouvernement veut diminuer les impôts des grandes entreprises et réduire les dépenses publiques",
+        "resume": "Le gouvernement du président d’extrême droite José Antonio Kast a présenté, mercredi 22 avril, une grande réforme visant à réduire le déficit et la dette du pays.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/au-chili-le-gouvernement-veut-diminuer-les-impots-des-grandes-entreprises-et-reduire-les-depenses-publiques_6683034_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "12h31",
+        "titre": "Guerre au Moyen-Orient et retour de l'inflation font plonger le moral des ménages",
+        "resume": "Face à la hausse du prix des carburants, l'indicateur de confiance des ménages a chuté de 5 points au moins d'avril selon les données de l'Insee publiées ce vendredi.",
+        "url": "https://www.lesechos.fr/economie-france/conjoncture/guerre-au-moyen-orient-et-retour-de-linflation-font-plonger-le-moral-des-menages-2228363"
       }
     ]
   },
@@ -233,45 +226,38 @@
     "articles": [
       {
         "source": "BFM Business",
-        "heure": "10h41",
-        "titre": "Le projet d'avion de combat Scaf est mort? \"Non, pas du tout\", assure Emmanuel Macron après un entretien avec le chancelier allemand, Paris et Berlin vont travailler \"sur plusieurs axes\"",
-        "resume": "Emmanuel Macron s'est entretenu à Chypre avec le chancelier allemand Friedrich Merz, une discussion au cours de laquelle le programme d'avion de combat Scaf a été abordé.",
-        "url": "https://www.bfmtv.com/economie/entreprises/defense/le-projet-d-avion-de-combat-scaf-est-mort-non-pas-du-tout-assure-emmanuel-macron-apres-un-entretien-avec-le-chancelier-allemand-paris-et-berlin-vont-travailler-sur-plusieurs-axes_AD-202604240360.html"
+        "heure": "08h09",
+        "titre": "Zelensky veut une adhésion à l'UE de l'Ukraine",
+        "resume": "\"Il y a une remise en cause du rôle des Américains comme alliés de sécurités. Pour les Ukrainiens, leur principale garantie de sécurité viendrait plutôt de l'intégration à l'UE.\"",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-zelensky-veut-une-adhesion-a-l-ue-de-l-ukraine_VN-202604240209.html"
       },
       {
         "source": "BFM Business",
-        "heure": "11h01",
-        "titre": "Les Experts : Transmission, Bercy dégaine son plan - 24/04",
-        "resume": "Ce vendredi 24 avril, le plan de Serge Papin, ministre chargé des PME, pour la reprise d'entreprises, et l'annonce de Sébastien Lecornu, Premier ministre, sur la promesse d'une grande loi logement avant la fin de l'année, ont été abordés par Anne-Cha",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/les-experts/les-experts-transmission-bercy-degaine-son-plan-24-04_EN-202604240368.html"
+        "heure": "08h03",
+        "titre": "UE : un 20e train de sanctions contre la Russie",
+        "resume": "\"Même au sommet de l'Etat, Vladimir Poutine a dit que l'économie n'allait pas très bien. L'Etat russe manque d'argent, malgré la bouffée d'oxygène donnée par l'augmentation du prix du pétrole dernièrement.\"",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-ue-un-20e-train-de-sanctions-contre-la-russie_VN-202604240200.html"
       },
       {
         "source": "BFM Business",
-        "heure": "08h57",
-        "titre": "Le débrief de l'actu : La France, mauvaise élève du déficit - 24/04",
-        "resume": "Retrouvez le débrief de l'actu du vendredi 24 avril dans l'émission Good Morning Business, présentée par Sandra Gandoin. Retrouvez l'émission du lundi au vendredi et réécoutez la en podcast.",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/le-debrief-de-l-actu-la-france-mauvaise-eleve-du-deficit-24-04_EN-202604240270.html"
+        "heure": "07h56",
+        "titre": "L'UE a validé un prêt de 90 milliards d'euros pour l'Ukraine",
+        "resume": "\"Les 2/3 de cet argent serviront à financer l'industrie de défense ukrainienne et les 30 milliards restants serviront à financer le budget civil de l'Etat ukrainien.\"",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-l-ue-a-valide-un-pret-de-90-milliards-d-euros-pour-l-ukraine_VN-202604240186.html"
+      },
+      {
+        "source": "BFM Business",
+        "heure": "07h37",
+        "titre": "Le Medef en Algérie pour apaiser les tensions",
+        "resume": "\"L'organisation patronale souhaite contribuer au retour d’une relation plus apaisée entre les deux pays comme elle a réussit à le faire en 2024 avec le Maroc.\"",
+        "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-le-medef-en-algerie-pour-apaiser-les-tensions_VN-202604240158.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "21h00",
-        "titre": "Plan d’électrification : le gouvernement présente 22 mesures pour « ne plus importer les crises du monde dans le portefeuille des Français »",
-        "resume": "Pompes à chaleur « clés en main », fours à pain électriques, sélection de 100 territoires pionniers : le plan se veut « large dans les secteurs et les actions ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/23/plan-d-electrification-le-gouvernement-presente-22-mesures-pour-ne-plus-importer-les-crises-du-monde-dans-le-portefeuille-des-francais_6682840_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "13h09",
-        "titre": "La France veut que « le gouvernement israélien change sa politique » en Cisjordanie et à Gaza",
-        "resume": "Paris espère des sanctions européennes « dans les prochains jours » contre les colons israéliens responsables de violences en Cisjordanie, a déclaré le ministre des affaires étrangères, Jean-Noël Barrot, jeudi 23 avril, sur Franceinfo.",
-        "url": "https://www.lemonde.fr/guerre-au-proche-orient/article/2026/04/23/en-cisjordanie-et-a-gaza-la-france-veut-que-le-gouvernement-israelien-change-sa-politique_6682784_6325529.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "12h08",
-        "titre": "Gabriel Attal cherche un élan pour l’élection présidentielle de 2027 mais concentre la défiance et les critiques de ses partenaires",
-        "resume": "En promotion pour la sortie de son livre, l’ancien premier ministre en profite pour lancer sans le dire sa campagne, dans une stratégie solitaire.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/23/gabriel-attal-cherche-un-elan-pour-2027-mais-concentre-la-defiance-et-les-critiques-de-ses-partenaires_6682770_823448.html"
+        "heure": "17h00",
+        "titre": "En Roumanie, les sociaux-démocrates annoncent leur départ du gouvernement, désormais fragilisé",
+        "resume": "Le PSD s’est dit jeudi ouvert à entrer dans « un nouveau gouvernement pro-européen » et à soutenir un autre premier ministre, « qu’il s’agisse d’un politicien ou d’un technocrate ».",
+        "url": "https://www.lemonde.fr/international/article/2026/04/23/en-roumanie-les-sociaux-democrates-annoncent-leur-depart-du-gouvernement-desormais-fragilise_6682809_3210.html"
       }
     ]
   },
@@ -292,11 +278,25 @@
         "url": "https://www.lesechos.fr/finance-marches/banque-assurances/wendel-confronte-au-repli-des-valorisations-dans-le-credit-prive-2228207"
       },
       {
-        "source": "Les Echos",
-        "heure": "19h30",
-        "titre": "Ukraine : la reconstruction suspendue au retour des capitaux privés",
-        "resume": "Alors qu'un sommet des dirigeants européens à Chypre va finalement entériner un prêt de 90 milliards d'euros à l'Ukraine, la guerre continue d'obscurcir le coût final de la reconstruction. Les économistes ukrainiens sont catégoriques : l'aide publiqu",
-        "url": "https://www.lesechos.fr/monde/europe/ukraine-la-reconstruction-suspendue-au-retour-des-capitaux-prives-2228201"
+        "source": "Le Monde Éco",
+        "heure": "12h45",
+        "titre": "Le projet du PS n’est ni nouveau ni complet, mais a le mérite d’exister",
+        "resume": "Le Parti socialiste veut montrer qu’il peut exister à côté de Jean-Luc Mélenchon et La France insoumise pour incarner une alternative à gauche. Et jouer un rôle lors de l’élection présidentielle en 2027.",
+        "url": "https://www.lemonde.fr/idees/article/2026/04/24/le-projet-du-ps-n-est-ni-nouveau-ni-complet-mais-a-le-merite-d-exister_6683037_3232.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "19h56",
+        "titre": "La Cour des comptes lance une nouvelle salve de critiques contre les niches fiscales",
+        "resume": "Avec une facture d’environ 100 milliards d’euros, les quelque 470 niches en vigueur se développent au lieu de se résorber. Elles équivalent à 26 % des recettes fiscales. Cette ampleur « interroge la lisibilité même du système fiscal », juge la Cour d",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/23/la-cour-des-comptes-lance-une-nouvelle-salve-de-critiques-contre-les-niches-fiscales_6682826_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "La crise du crowdfunding remet en cause son modèle",
+        "resume": "La multiplication des contentieux place les plateformes de financement participatif dans une situation délicate.",
+        "url": "https://www.lemonde.fr/argent/article/2026/04/24/la-crise-du-crowdfunding-remet-en-cause-son-modele_6683002_1657007.html"
       }
     ]
   }
