@@ -24,13 +24,13 @@ YAHOO_SYMBOLS = {
 def fetch_market_data():
     """Fetch market data via Stooq CSV API - no auth required."""
     QUOTES = [
-        ("CAC 40",       "^cac",    lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("Eurostoxx 50", "^sx5e",   lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("S&P 500",      "^spx",    lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("Nasdaq",       "^ndq",    lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("EUR/USD",      "eurusd",  lambda v: "{:.4f}".format(v)),
-        ("Brent",        "lcoj25.f",lambda v: "{:.1f} $".format(v)),
-        ("Or",           "xauusd",  lambda v: "{:,.0f} $".format(v).replace(",", " ")),
+        ("CAC 40",       "^cac",   lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("Eurostoxx 50", "^stoxx50", lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("S&P 500",      "^spx",   lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("Nasdaq",       "^ndq",   lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("EUR/USD",      "eurusd", lambda v: "{:.4f}".format(v)),
+        ("Brent",        "lco.f",  lambda v: "{:.1f} $".format(v)),
+        ("Or",           "xauusd", lambda v: "{:,.0f} $".format(v).replace(",", " ")),
     ]
     metrics = []
     for label, sym, fmt in QUOTES:
@@ -362,6 +362,156 @@ def main():
         json.dump(briefing, f, ensure_ascii=False, indent=2)
 
     print(f"✓ briefing.json — {len(json.dumps(briefing))} chars")
+
+def send_email(briefing, today, ts):
+    """Send beautiful HTML briefing email via Resend."""
+    import os
+    api_key = os.environ.get("RESEND_API_KEY", "")
+    recipient = os.environ.get("RECIPIENT_EMAIL", "")
+    if not api_key or not recipient:
+        print("  Email: RESEND_API_KEY ou RECIPIENT_EMAIL manquant, skip")
+        return
+
+    syn = briefing.get("synthese", {})
+    points = syn.get("points", [])
+    metrics = briefing.get("marches", {}).get("metrics", [])
+
+    # Build metrics HTML
+    metrics_html = ""
+    for m in metrics:
+        color = "#2d6e45" if m.get("dir") == "up" else "#c0392b" if m.get("dir") == "down" else "#7a7570"
+        metrics_html += f"""
+        <td style="width:50%;padding:8px 4px;vertical-align:top">
+          <div style="background:#f9f6f1;border:1px solid rgba(26,26,26,0.1);border-radius:6px;padding:12px 14px">
+            <div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#7a7570;margin-bottom:4px">{m.get('label','')}</div>
+            <div style="font-family:Georgia,serif;font-size:20px;font-weight:600;color:#1a1a1a">{m.get('value','—')}</div>
+            <div style="font-size:12px;font-weight:500;color:{color};margin-top:2px">{m.get('change','')}</div>
+          </div>
+        </td>"""
+
+    # Wrap metrics in rows of 2
+    metrics_rows = ""
+    metric_items = metrics_html.split('<td style="width:50%')
+    metric_items = [x for x in metric_items if x.strip()]
+    for i in range(0, len(metric_items), 2):
+        pair = metric_items[i:i+2]
+        row_cells = ''.join(['<td style="width:50%' + p for p in pair])
+        if len(pair) == 1:
+            row_cells += '<td style="width:50%;padding:8px 4px"></td>'
+        metrics_rows += f"<tr>{row_cells}</tr>"
+
+    # Build points HTML
+    points_html = ""
+    for p in points:
+        titre = p.get("titre", "")
+        parts = titre.split("—")
+        label = parts[0].strip() if len(parts) > 1 else ""
+        title = parts[1].strip() if len(parts) > 1 else titre
+        points_html += f"""
+        <div style="border-bottom:1px solid rgba(26,26,26,0.07);padding:12px 0">
+          {"<div style='font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:#b5602a;margin-bottom:3px'>" + label + "</div>" if label else ""}
+          <div style="font-family:Georgia,serif;font-size:14px;color:#1a1a1a;margin-bottom:4px">{title}</div>
+          <div style="font-size:12px;color:#7a7570;line-height:1.6">{p.get('detail','')}</div>
+        </div>"""
+
+    # Build top articles (3 per section)
+    sections = [
+        ("marches",     "Marchés"),
+        ("entreprises", "Entreprises"),
+        ("ma",          "M&A"),
+        ("macro",       "Macro"),
+        ("politique",   "Politique"),
+        ("taux",        "Taux"),
+    ]
+    articles_html = ""
+    for key, label in sections:
+        arts = briefing.get(key, {}).get("articles", [])[:3]
+        if not arts:
+            continue
+        articles_html += f"""
+        <div style="margin-bottom:24px">
+          <div style="font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#7a7570;border-bottom:1px solid rgba(26,26,26,0.12);padding-bottom:6px;margin-bottom:10px">{label}</div>"""
+        for a in arts:
+            url = a.get("url", "")
+            titre = a.get("titre", "")
+            resume = a.get("resume", "")
+            src = a.get("source", "")
+            heure = a.get("heure", "")
+            link_open = f'<a href="{url}" style="text-decoration:none;color:inherit">' if url else ""
+            link_close = "</a>" if url else ""
+            cta = f'<div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#b5602a;margin-top:6px;font-weight:500">Lire →</div>' if url else ""
+            articles_html += f"""
+          <div style="border-bottom:1px solid rgba(26,26,26,0.06);padding:10px 0">
+            <div style="font-size:10px;color:#7a7570;margin-bottom:4px">{src} {heure}</div>
+            {link_open}<div style="font-family:Georgia,serif;font-size:14px;color:#1a1a1a;line-height:1.45;margin-bottom:4px">{titre}</div>{link_close}
+            {"<div style='font-size:12px;color:#7a7570;line-height:1.6'>" + resume + "</div>" if resume else ""}
+            {cta}
+          </div>"""
+        articles_html += "</div>"
+
+    html = f"""<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
+<body style="margin:0;padding:0;background:#f0ede8;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+  <div style="max-width:600px;margin:0 auto;padding:20px 16px">
+
+    <!-- HEADER -->
+    <div style="background:#1a1a1a;border-radius:8px 8px 0 0;padding:24px 28px 20px">
+      <div style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:6px">{today}</div>
+      <div style="font-family:Georgia,serif;font-size:28px;color:#fff;font-weight:400;line-height:1">Morning <em style="font-style:italic;color:#d4924e">Brief</em></div>
+    </div>
+
+    <!-- SYNTHESE -->
+    <div style="background:#fff;padding:24px 28px;border-left:1px solid rgba(26,26,26,0.1);border-right:1px solid rgba(26,26,26,0.1)">
+      <div style="font-family:Georgia,serif;font-size:16px;line-height:1.8;color:#2a2520;border-bottom:1px solid rgba(26,26,26,0.1);padding-bottom:16px;margin-bottom:16px">{syn.get('resume','')}</div>
+      {points_html}
+    </div>
+
+    <!-- MARCHES -->
+    <div style="background:#fff;padding:20px 28px;border-left:1px solid rgba(26,26,26,0.1);border-right:1px solid rgba(26,26,26,0.1);border-top:1px solid rgba(26,26,26,0.06)">
+      <div style="font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#7a7570;margin-bottom:12px">Indices & taux</div>
+      <table style="width:100%;border-collapse:collapse">{metrics_rows}</table>
+    </div>
+
+    <!-- ARTICLES -->
+    <div style="background:#fff;padding:20px 28px 28px;border:1px solid rgba(26,26,26,0.1);border-top:1px solid rgba(26,26,26,0.06);border-radius:0 0 8px 8px">
+      <div style="font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#7a7570;border-bottom:1px solid rgba(26,26,26,0.12);padding-bottom:8px;margin-bottom:16px">Articles du jour</div>
+      {articles_html}
+    </div>
+
+    <!-- FOOTER -->
+    <div style="text-align:center;padding:16px 0;font-size:10px;color:rgba(26,26,26,.3);letter-spacing:.06em">
+      MORNING BRIEF · {ts} · Généré automatiquement
+    </div>
+  </div>
+</body>
+</html>"""
+
+    payload = json.dumps({
+        "from": "Morning Brief <onboarding@resend.dev>",
+        "to": [recipient],
+        "subject": f"Morning Brief — {today}",
+        "html": html
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=payload,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        }
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            result = json.loads(resp.read())
+            print(f"  Email envoyé → {recipient} (id: {result.get('id','')})")
+    except urllib.error.HTTPError as e:
+        body = e.read().decode()
+        print(f"  Email erreur {e.code}: {body[:200]}")
+    except Exception as e:
+        print(f"  Email erreur: {e}")
+
 
 if __name__ == "__main__":
     main()
