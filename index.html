@@ -60,7 +60,8 @@ body { overflow:hidden; position:fixed; width:100% }
 /* METRICS */
 .met-sec { padding:14px 20px 0 }
 .met-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; margin-bottom:4px }
-.met { background:#fff; border:1px solid var(--rule); border-radius:6px; padding:12px 13px }
+.met { background:#fff; border:1px solid var(--rule); border-radius:6px; padding:12px 13px; display:block; text-decoration:none; color:inherit }
+.met:active { background:var(--cream) }
 .met-label { font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:4px }
 .met-row { display:flex; justify-content:space-between; align-items:baseline }
 .met-val { font-family:'Playfair Display',serif; font-size:18px; font-weight:600; color:var(--ink) }
@@ -183,15 +184,28 @@ function artList(key) {
   return html;
 }
 
+var BOURSORAMA_URLS = {
+  'CAC 40':       'https://www.boursorama.com/bourse/indices/cours/1rPCAC/',
+  'Eurostoxx 50': 'https://www.boursorama.com/bourse/indices/cours/1zSX5E/',
+  'S&P 500':      'https://www.boursorama.com/bourse/indices/cours/1zSPX/',
+  'Nasdaq':       'https://www.boursorama.com/bourse/indices/cours/1zCOMP/',
+  'EUR/USD':      'https://www.boursorama.com/bourse/devises/taux-de-change-euro-dollar/',
+  'Brent':        'https://www.boursorama.com/bourse/matieres-premieres/cours/1zLCOQ6/',
+  'Or':           'https://www.boursorama.com/bourse/matieres-premieres/cours/1zXAUUSD/',
+};
+
 function metCard(m) {
   var dir = m.dir === 'up' ? 'up' : m.dir === 'down' ? 'dn' : 'fl';
-  return '<div class="met">' +
-    '<div class="met-label">' + m.label + '</div>' +
+  var url = BOURSORAMA_URLS[m.label] || 'https://www.boursorama.com/bourse/';
+  var val = (m.value && m.value !== '-') ? m.value : '<span style="color:var(--muted);font-size:13px">Tap pour cours live</span>';
+  var chg = (m.change && m.change !== '-') ? '<div class="met-chg ' + dir + '">' + m.change + '</div>' : '';
+  return '<a class="met" href="' + url + '" target="_blank">' +
+    '<div class="met-label">' + m.label + ' <span style="font-size:9px;color:var(--accent);letter-spacing:.04em">BOURSORAMA ↗</span></div>' +
     '<div class="met-row">' +
-    '<div class="met-val">' + m.value + '</div>' +
-    '<div class="met-chg ' + dir + '">' + m.change + '</div>' +
+    '<div class="met-val">' + val + '</div>' +
+    chg +
     '</div>' +
-    '</div>';
+    '</a>';
 }
 
 function render(t) {
