@@ -1,27 +1,30 @@
 {
-  "timestamp": "13h12 le 24/04/2026",
+  "timestamp": "14h36 le 24/04/2026",
   "alerte": {
-    "titre": "Dégradation conjoncturelle française",
-    "detail": "PMI français au plus bas depuis 14 mois (141) ; Allemagne en récession confirmée (17) ; Meta/Microsoft annoncent licenciements massifs (57) - révision baissière de cycle attendue"
+    "titre": "Contraction PMI France au plus bas en 14 mois",
+    "detail": "Indice d'activité PMI avril 2026 au point bas depuis février 2025, signalant une dégradation conjoncturelle prononcée en France. Impact direct sur les valorisations et spreads de crédit mid-cap.",
+    "indices": [
+      139
+    ]
   },
   "synthese": {
-    "resume": "La conjoncture européenne se détériore rapidement : l'indice PMI français atteint son plus bas depuis 14 mois tandis que l'Allemagne voit ses espoirs de reprise s'éloigner. Meta et Microsoft annoncent des coupes massives dans leurs effectifs malgré des investissements IA massifs. La succession chez LVMH reste en suspens avec Arnault repoussant le sujet de 7-8 ans. Les tensions géopolitiques (Liban, Iran, Moyen-Orient) continuent de peser sur les décisions d'investissement.",
+    "resume": "La France enregistre son indice PMI au plus bas depuis 14 mois (avril 2026), reflétant une conjoncture dégradée. L'Allemagne subit également une contraction économique persistante avec un moral patronal en baisse continue. Sur le plan corporate, les géants technologiques Meta et Microsoft annoncent des réductions massives d'effectifs pour financer l'IA, tandis que LVMH voit Bernard Arnault repousser les questions de succession. L'UE intensifie sa politique industrielle face aux défis géopolitiques et à la concurrence chinoise croissante.",
     "points": [
       {
-        "titre": "Conjoncture dégradée",
-        "detail": "PMI France à 14 mois bas (141), Allemagne en difficulté (17), impasse budgétaire UE sur « frugalité » (0)"
+        "titre": "Conjoncture France-Allemagne",
+        "detail": "PMI France avril 2026 au plus bas en 14 mois (139). Allemagne : espoirs de reprise s'éloignent (17), moral des patrons en dégradation (130). Risque de double creux économique zones euro-germaniques, impact valorisations mid-caps françaises."
       },
       {
-        "titre": "Technologie/IA : consolidation douloureuse",
-        "detail": "Meta/Microsoft licenciements massifs malgré investissement IA (57), DeepSeek V4 lance open-source (51), Cohere-Aleph Alpha fusion 20Md$ (96)"
+        "titre": "Technologie & IA",
+        "detail": "Meta et Microsoft annoncent coupes massives d'effectifs pour investir IA (16, 56). DeepSeek (Chine) lance modèle V4 en open source (50). Palantir/SpaceX/Anduril deviennent acteurs clés défense US (60). Consolidation AI en cours : Cohere + Aleph Alpha = 20Md$ (96)."
       },
       {
-        "titre": "Grands groupes français : stabilité mais fragilité",
-        "detail": "LVMH succession reportée (70,22), Renault T1 en hausse (77), EDF fête 80 ans endettée (92), Nestlé réduit en France (21)"
+        "titre": "Successions et stratégies",
+        "detail": "LVMH : Bernard Arnault repousse succession 7-8 ans devant actionnaires (20, 22, 69). Entreprises familiales confrontées défi transmission (78). Nestlé réduit voilure en France (21). Polytech/Polytechnyl : effondrement acquisition (57, 79)."
       },
       {
-        "titre": "Géopolitique / crises d'approvisionnement",
-        "detail": "Liban trêve prolongée (90), Iran/Israël tensions (65), commerce France-UK immigration (94), projets militaires franco-allemands stables (4)"
+        "titre": "Géopolitique & Industrie",
+        "detail": "SCAF franco-allemand : Macron confirme projet \"pas du tout mort\" (4). France pousse politique industrielle UE (24). Chine Geely résiste via thermique (0). Tensions commerciales EU-Mercosur (81). Ukraine : prêt 90Md€ UE validé (74)."
       }
     ]
   },
@@ -41,14 +44,14 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 148",
-        "change": "+0.41%",
-        "dir": "up"
+        "value": "7 137",
+        "change": "+0.00%",
+        "dir": "flat"
       },
       {
         "label": "Nasdaq",
-        "value": "24 665",
-        "change": "+0.45%",
+        "value": "24 638",
+        "change": "+0.14%",
         "dir": "up"
       },
       {
@@ -65,8 +68,8 @@
       },
       {
         "label": "Or",
-        "value": "4 717 $",
-        "change": "+0.36%",
+        "value": "4 740 $",
+        "change": "+0.85%",
         "dir": "up"
       }
     ],
@@ -80,17 +83,10 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "09h45",
-        "titre": "Pourquoi la Suisse exige du géant bancaire UBS qu’il renforce ses réserves",
-        "resume": "Trois ans après la chute traumatisante de Credit Suisse, Berne veut forcer UBS, la dernière grande banque du pays, à renforcer ses fonds propres, ce qu’elle conteste.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/24/pourquoi-la-suisse-exige-du-geant-bancaire-ubs-qu-il-renforce-ses-reserves_6683016_3234.html"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "14h56",
-        "titre": "Russie: la banque centrale abaisse son taux directeur à 14,5% sur fond de ralentissement économique",
-        "resume": "La Banque centrale de Russie (BCR) a abaissé vendredi son taux directeur de 0,5 point, à 14,5%, dans un contexte de ralentissement de la croissance,...",
-        "url": "https://www.lefigaro.fr/flash-eco/russie-la-banque-centrale-abaisse-son-taux-directeur-a-14-5-sur-fond-de-ralentissement-economique-20260424"
+        "heure": "12h30",
+        "titre": "Prix du carburant : suivez le cours du pétrole en temps réel",
+        "resume": "Le cours du pétrole brut ne cesse d’être à un niveau très élevé – autour de 100 dollars du baril –, conséquence de la fermeture du détroit d’Ormuz, qui perturbe l’approvisionnement en or noir du Moyen-Orient vers le reste du monde.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/prix-du-carburant-suivez-le-cours-du-petrole-en-temps-reel_6683033_3234.html"
       },
       {
         "source": "Le Figaro",
@@ -101,10 +97,17 @@
       },
       {
         "source": "Le Figaro",
-        "heure": "13h45",
-        "titre": "Royaume-Uni : le déficit public se réduit, mais la guerre au Moyen-Orient menace",
-        "resume": "Le déficit public du Royaume-Uni s'est réduit à 4,3% au cours de l'année budgétaire achevée fin mars, selon des chiffres officiels publiés jeudi,...",
-        "url": "https://www.lefigaro.fr/flash-eco/royaume-uni-le-deficit-public-se-reduit-mais-la-guerre-au-moyen-orient-menace-20260423"
+        "heure": "14h56",
+        "titre": "Russie: la banque centrale abaisse son taux directeur à 14,5% sur fond de ralentissement économique",
+        "resume": "La Banque centrale de Russie (BCR) a abaissé vendredi son taux directeur de 0,5 point, à 14,5%, dans un contexte de ralentissement de la croissance,...",
+        "url": "https://www.lefigaro.fr/flash-eco/russie-la-banque-centrale-abaisse-son-taux-directeur-a-14-5-sur-fond-de-ralentissement-economique-20260424"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "09h45",
+        "titre": "Pourquoi la Suisse exige du géant bancaire UBS qu’il renforce ses réserves",
+        "resume": "Trois ans après la chute traumatisante de Credit Suisse, Berne veut forcer UBS, la dernière grande banque du pays, à renforcer ses fonds propres, ce qu’elle conteste.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/pourquoi-la-suisse-exige-du-geant-bancaire-ubs-qu-il-renforce-ses-reserves_6683016_3234.html"
       }
     ]
   },
@@ -112,24 +115,24 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "20h28",
-        "titre": "Bernard Arnault tente de déminer les spéculations sur sa succession devant les actionnaires de LVMH",
-        "resume": "Agé de 77 ans, le PDG du groupe de luxe refuse de dévoiler la façon dont il sera remplacé.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/23/bernard-arnault-tente-de-deminer-les-speculations-sur-sa-succession-devant-les-actionnaires-de-lvmh_6682833_3234.html"
+        "heure": "03h30",
+        "titre": "Meta licencie en masse pour investir encore davantage dans l’IA",
+        "resume": "La maison mère de Facebook, de WhatsApp et d’Instagram a annoncé à ses employés, jeudi, qu’elle allait se séparer de 10 % d’entre eux, fin mai, ce qui représente environ 8 000 personnes.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/meta-licencie-en-masse-pour-investir-dans-l-intelligence-artificielle_6682887_3234.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "16h33",
-        "titre": "Succession à la tête de LVMH : Bernard Arnault invite à en reparler « dans sept-huit ans »",
-        "resume": "Lors de l’assemblée générale du leader mondial du luxe, jeudi, le milliardaire a donné la parole à ses cinq enfants mais renvoyé la question de son remplacement à plus tard.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/23/succession-a-la-tete-de-lvmh-bernard-arnault-invite-a-en-reparler-dans-sept-huit-ans_6682805_3234.html"
+        "source": "Challenges",
+        "heure": "08h46",
+        "titre": "Meta et Microsoft annoncent des coupes massives dans leurs effectifs, des milliers de postes supprimés",
+        "resume": "Meta a annoncé en interne, jeudi 23 avril, le licenciement de 8 000 personnes, soit environ 10 % de ses effectifs. Microsoft a de son côté fait part à ses équipes d’un plan de départs volontaires qui pourrait concerner jusqu’à 7 % de sa masse salaria",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/meta-et-microsoft-annoncent-des-coupes-massives-dans-leurs-effectifs-des-milliers-de-postes-supprimes_642948"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "18h50",
-        "titre": "Nestlé, géant de l’agroalimentaire, continue à réduire la voilure en France",
-        "resume": "Le groupe suisse a annoncé la suppression de 180 postes de cols blancs dans ses filiales françaises.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/23/le-geant-de-l-agroalimentaire-nestle-continue-a-reduire-la-voilure-en-france_6682820_3234.html"
+        "source": "Challenges",
+        "heure": "07h45",
+        "titre": "Ormuz : l’armée américaine a ordonné à 31 navires de faire demi-tour, Renault : un chiffre d’affaires en hausse au premier trimestre, Le Liban va demander de prolonger la trêve… Ça s’est passé cette nuit",
+        "resume": "Ormuz : l’armée américaine a ordonné à 31 navires de faire demi-tour, Renault : un chiffre d’affaires en hausse au premier trimestre, Le Liban va demander de prolonger la trêve",
+        "url": "https://www.challenges.fr/monde/ormuz-larmee-americaine-a-ordonne-a-31-navires-de-faire-demi-tour-renault-un-chiffre-daffaires-en-hausse-au-premier-trimestre-le-liban-va-demander-de-prolonger-la-treve-ca-sest-passe-cette-nuit_642928"
       },
       {
         "source": "Le Figaro",
@@ -144,6 +147,27 @@
         "titre": "Eni : le bénéfice net a augmenté de 7% au premier trimestre",
         "resume": "Eni a publié vendredi un bénéfice net en augmentation de 7% au premier trimestre, à près de 1,3 milliard d'euros, la hausse des prix de l'énergie...",
         "url": "https://www.lefigaro.fr/flash-eco/eni-le-benefice-net-a-augmente-de-7-au-premier-trimestre-20260424"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "10h30",
+        "titre": "Volkswagen réduit encore la voilure  en Allemagne et n’exclut pas des coopérations avec des industriels chinois",
+        "resume": "Le constructeur automobile continue d’investir en Chine, où il lance son premier modèle made in China, et de réduire son activité en Allemagne.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/volkswagen-reduit-encore-la-voilure-et-n-exclut-pas-des-cooperations-avec-des-industriels-chinois-en-allemagne_6682762_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h50",
+        "titre": "Nestlé, géant de l’agroalimentaire, continue à réduire la voilure en France",
+        "resume": "Le groupe suisse a annoncé la suppression de 180 postes de cols blancs dans ses filiales françaises.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/le-geant-de-l-agroalimentaire-nestle-continue-a-reduire-la-voilure-en-france_6682820_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "10h00",
+        "titre": "La Clio, reine discrète du paysage automobile français et championne des ventes aux professionnels",
+        "resume": "Voiture tricolore la plus vendue, toutes générations confondues, la petite citadine de Renault, présente sur les routes depuis trente-cinq ans, s’est peu à peu métamorphosée.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/la-clio-reine-discrete-du-paysage-automobile-francais-et-championne-des-ventes-aux-professionnels_6683018_3234.html"
       }
     ]
   },
@@ -157,20 +181,6 @@
         "url": "https://www.lesechos.fr/start-up/deals/la-start-up-canadienne-cohere-et-lallemand-aleph-alpha-fusionnent-pour-creer-un-champion-de-lia-valorise-20-milliards-de-dollars-2228395"
       },
       {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "« Ils ne connaissaient absolument rien à ce monde très complexe » : comment le pari hasardeux de la famille De Clerck a précipité la chute de Polytechnyl",
-        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel. À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. Dans ce deuxième chapitre, retour au point",
-        "url": "https://www.challenges.fr/entreprise/industrie/ils-ne-connaissaient-absolument-rien-a-ce-monde-tres-complexe-comment-le-pari-hasardeux-de-la-famille-de-clerck-a-precipite-la-chute-de-polytechnyl_642946"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h30",
-        "titre": "« Ce repreneur va acter la désintégration de Polytechnyl » : la face cachée du naufrage industriel d’un ex-fleuron de la chimie française",
-        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel.&nbsp;À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. À l’arrivée, une chaîne de valeur dis",
-        "url": "https://www.challenges.fr/entreprise/industrie/ce-repreneur-va-acter-la-desintegration-de-lentreprise-la-face-cachee-du-naufrage-industriel-du-fleuron-de-la-chimie-polytechnyl_642923"
-      },
-      {
         "source": "Les Echos",
         "heure": "08h10",
         "titre": "Cessions de PME : le coup de frein",
@@ -179,10 +189,24 @@
       },
       {
         "source": "Challenges",
-        "heure": "06h40",
-        "titre": "« Cherche héritier vaillant et compétent » : Les entreprises familiales confrontées au défi de la succession",
-        "resume": "Les générations d’entrepreneurs du baby-boom sont en train de passer la main au sein des entreprises familiales. Avec le risque, si ces transmissions ne sont anticipées ou mal préparées, que bien des sociétés n’y survivent pas.",
-        "url": "https://www.challenges.fr/monde/cherche-heritier-vaillant-et-competent-les-entreprises-familiales-confrontees-au-defi-de-la-succession_642907"
+        "heure": "16h00",
+        "titre": "Velvet, futur rival de la SNCF, sort sa première rame",
+        "resume": "Un nouvel acteur veut bousculer le monopole de fait de la grande vitesse en France. Baptisé Velvet, cet opérateur privé porté par deux anciens du secteur ferroviaire prépare son arrivée sur des lignes très fréquentées à l’horizon 2028.",
+        "url": "https://www.challenges.fr/economie/velvet-futur-rival-de-la-sncf-sort-sa-premiere-rame_642940"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h30",
+        "titre": "Axipit Real Estate Partners : une stratégie 2026 ambitieuse pour la société de gestion immobilière",
+        "resume": "Cinq ans après sa création, et portée par l’expertise européenne de Catella Aquila Investment Management France, Axipit REP affiche environ 175 M€ sous gestion. SCPI, fonds Value-Add, club deals : découvrez sa vision immobilière durable et sa stratég",
+        "url": "https://www.challenges.fr/immobilier/axipit-real-estate-partners-une-strategie-2026-ambitieuse-pour-la-societe-de-gestion-immobiliere_642897"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h30",
+        "titre": "« Ce repreneur va acter la désintégration de Polytechnyl » : la face cachée du naufrage industriel d’un ex-fleuron de la chimie française",
+        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel.&nbsp;À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. À l’arrivée, une chaîne de valeur dis",
+        "url": "https://www.challenges.fr/entreprise/industrie/ce-repreneur-va-acter-la-desintegration-de-lentreprise-la-face-cachee-du-naufrage-industriel-du-fleuron-de-la-chimie-polytechnyl_642923"
       }
     ]
   },
@@ -204,29 +228,50 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "13h00",
-        "titre": "Union européenne : « La politique industrielle est de retour sur le continent »",
-        "resume": "Les professeurs de droit Paul Dermine et d’économie Donato Di Carlo dénoncent, dans une tribune au « Monde », un dysfonctionnement majeur de la politique industrielle conduite par l’Union européenne, puisque l’assouplissement des subventions publique",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/23/union-europeenne-la-politique-industrielle-est-de-retour-sur-le-continent_6682780_3232.html"
+        "heure": "12h30",
+        "titre": "Prix du carburant : suivez le cours du pétrole en temps réel",
+        "resume": "Le cours du pétrole brut ne cesse d’être à un niveau très élevé – autour de 100 dollars du baril –, conséquence de la fermeture du détroit d’Ormuz, qui perturbe l’approvisionnement en or noir du Moyen-Orient vers le reste du monde.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/prix-du-carburant-suivez-le-cours-du-petrole-en-temps-reel_6683033_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "17h30",
+        "titre": "« L'apprentissage est-il toujours un atout pour l'insertion professionnelle ? »",
+        "resume": "Contrairement à ce qu'on pourrait penser, un contrat en apprentissage n'améliore pas de façon systématique les perspectives d'emploi d'un jeune. Clément Brébion, Manon Garrouste, Audrey Rain et Agathe Rosenzweig analysent les études publiées sur le s",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/lapprentissage-est-il-toujours-un-atout-pour-linsertion-professionnelle-2228439"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h47",
+        "titre": "Le gouvernement a présenté son plan d’électrification de l’économie : MaPrimeRénov’ ne concernera plus les rénovations qui conservent un chauffage au gaz",
+        "resume": "Les 22 mesures de ce plan ont été présentées par le gouvernement, jeudi, dans l’objectif de réduire la dépendance de la France aux énergies fossiles.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/le-dispositif-maprimerenov-ne-concernera-plus-les-renovations-qui-conservent-un-chauffage-au-gaz-annonce-le-gouvernement-dans-son-plan-d-electrification_6682789_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "08h59",
-        "titre": "Ukraine : le prêt de 90 milliards d’euros de l’UE validé, les premiers versements attendus « d'ici à fin mai, début juin »",
-        "resume": "La validation officielle du prêt de 90 milliards d’euros de l’UE à l’Ukraine est intervenue à la mi-journée, ce jeudi 23 avril, après que la Hongrie a levé son veto. Elle sera suivie d’un sommet des dirigeants européens à Chypre dans la soirée, en pr",
-        "url": "https://www.challenges.fr/monde/ukraine-le-pret-de-90-milliards-deuros-de-lue-bientot-valide_642929"
+        "heure": "16h34",
+        "titre": "MaPrimeRénov’, chaudière hybride... : propriétaires ou professionnels du bâtiment, voici ce que change le plan d’électrification",
+        "resume": "Parmi les 22 mesures du plan d’électrification présentées ce jeudi 23 avril par le gouvernement, plusieurs concernent le secteur du bâtiment. Installation de chaudières hybrides dans le neuf, évolution de MaPrimeRénov’… Voici les changements qui atte",
+        "url": "https://www.challenges.fr/immobilier/maprimerenov-chaudiere-hybride-proprietaires-ou-professionnels-du-batiment-voici-ce-que-change-le-plan-delectrification_642941"
       },
       {
-        "source": "Challenges",
-        "heure": "06h45",
-        "titre": "La vision européenne de Bruno Le Maire : le procès d’une « anti-puissance »",
-        "resume": "Dans Le Temps d’une décision, Bruno Le Maire ne se contente pas de défendre son bilan à Bercy. L’ancien ministre esquisse une lecture plus large des déséquilibres européens, entre impuissance politique et dérive technocratique. Un plaidoyer qui vaut ",
-        "url": "https://www.challenges.fr/politique/la-vision-europeenne-de-bruno-le-maire-le-proces-dune-anti-puissance_642906"
+        "source": "Le Monde Éco",
+        "heure": "08h30",
+        "titre": "Est-ce qu’on sait faire rouler des camions sans pétrole ?",
+        "resume": "Chaque semaine, l’équipe du podcast Chaleur humaine répond à vos questions sur la transition climatique",
+        "url": "https://www.lemonde.fr/chaleur-humaine/article/2026/04/24/est-ce-qu-on-sait-faire-rouler-des-camions-sans-petrole_6683009_6125299.html"
       }
     ]
   },
   "politique": {
     "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h00",
+        "titre": "Union européenne : « La politique industrielle est de retour sur le continent »",
+        "resume": "Les professeurs de droit Paul Dermine et d’économie Donato Di Carlo dénoncent, dans une tribune au « Monde », un dysfonctionnement majeur de la politique industrielle conduite par l’Union européenne, puisque l’assouplissement des subventions publique",
+        "url": "https://www.lemonde.fr/idees/article/2026/04/23/union-europeenne-la-politique-industrielle-est-de-retour-sur-le-continent_6682780_3232.html"
+      },
       {
         "source": "Le Monde Éco",
         "heure": "16h18",
@@ -243,10 +288,38 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "07h30",
-        "titre": "Politique française : cinq ans d’une démocratie malmenée",
-        "resume": "Depuis la réélection d’Emmanuel Macron, en 2022, l’instabilité politique s’est accrue, accentuant la défiance des Français à l’égard de leurs représentants. A l’occasion des 5 ans du podcast « L’Heure du Monde », Mariama Darame, journaliste au servic",
-        "url": "https://www.lemonde.fr/podcasts/article/2026/04/24/politique-francaise-cinq-ans-d-une-democratie-malmenee_6682997_5463015.html"
+        "heure": "13h09",
+        "titre": "La France veut que « le gouvernement israélien change sa politique » en Cisjordanie et à Gaza",
+        "resume": "Paris espère des sanctions européennes « dans les prochains jours » contre les colons israéliens responsables de violences en Cisjordanie, a déclaré le ministre des affaires étrangères, Jean-Noël Barrot, jeudi 23 avril, sur Franceinfo.",
+        "url": "https://www.lemonde.fr/guerre-au-proche-orient/article/2026/04/23/en-cisjordanie-et-a-gaza-la-france-veut-que-le-gouvernement-israelien-change-sa-politique_6682784_6325529.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "17h00",
+        "titre": "En Roumanie, les sociaux-démocrates annoncent leur départ du gouvernement, désormais fragilisé",
+        "resume": "Le PSD s’est dit jeudi ouvert à entrer dans « un nouveau gouvernement pro-européen » et à soutenir un autre premier ministre, « qu’il s’agisse d’un politicien ou d’un technocrate ».",
+        "url": "https://www.lemonde.fr/international/article/2026/04/23/en-roumanie-les-sociaux-democrates-annoncent-leur-depart-du-gouvernement-desormais-fragilise_6682809_3210.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "12h32",
+        "titre": "Au Chili, le gouvernement veut diminuer les impôts des grandes entreprises et réduire les dépenses publiques",
+        "resume": "Le gouvernement du président d’extrême droite José Antonio Kast a présenté, mercredi 22 avril, une grande réforme visant à réduire le déficit et la dette du pays.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/au-chili-le-gouvernement-veut-diminuer-les-impots-des-grandes-entreprises-et-reduire-les-depenses-publiques_6683034_3234.html"
+      },
+      {
+        "source": "Politico EU",
+        "heure": "16h30",
+        "titre": "Poland to challenge EU-Mercosur deal at top court — but don’t expect fireworks",
+        "resume": "Warsaw's legal challenge is unlikely to derail the trade deal. But it might get the opposition off the government's back.",
+        "url": "https://www.politico.eu/article/poland-donald-tusk-eu-mercosur-deal-top-court/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+      },
+      {
+        "source": "Politico EU",
+        "heure": "15h21",
+        "titre": "EU must stop being ‘distant observer’ in Middle East, Cyprus warns",
+        "resume": "Leaders held rare talks with Arab and Gulf nations on Friday in Cyprus.",
+        "url": "https://www.politico.eu/article/eu-stop-being-distant-observer-middle-east-cyprus-warns/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
       },
       {
         "source": "Politico EU",
@@ -274,13 +347,6 @@
         "url": "https://www.lemonde.fr/economie/article/2026/04/24/pourquoi-la-suisse-exige-du-geant-bancaire-ubs-qu-il-renforce-ses-reserves_6683016_3234.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "09h11",
-        "titre": "Les ventes de vélos neufs en France continuent de reculer en 2025",
-        "resume": "La pratique du vélo, à l’abri de la flambée du prix de l’essence, poursuit sa progression, mais le marché du neuf enregistre une nouvelle baisse, en volume et en valeur.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/24/les-ventes-de-velos-neufs-continuent-de-reculer-en-2025_6683014_3234.html"
-      },
-      {
         "source": "Le Figaro",
         "heure": "14h56",
         "titre": "Russie: la banque centrale abaisse son taux directeur à 14,5% sur fond de ralentissement économique",
@@ -295,11 +361,25 @@
         "url": "https://www.challenges.fr/immobilier/notre-secteur-est-traumatise-par-2022-les-dossiers-de-prets-immobiliers-risquent-ils-detre-refuses-a-cause-de-la-remontee-des-taux_642949"
       },
       {
+        "source": "Le Figaro",
+        "heure": "12h02",
+        "titre": "France: l'indice d'activité PMI au plus bas depuis 14 mois en avril",
+        "resume": "L’indice, qui mesure l’activité du secteur privé, est tiré vers le bas par la conjoncture négative du secteur des services.",
+        "url": "https://www.lefigaro.fr/conjoncture/france-l-indice-d-activite-pmi-au-plus-bas-depuis-14-mois-en-avril-20260423"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "16h18",
+        "titre": "Union européenne : les pays « frugaux » défendent la rigueur pour le prochain budget",
+        "resume": "Les dirigeants de l’Allemagne et des Pays-Bas ont appelé, vendredi, à réduire certaines dépenses dans le futur budget européen. Les Vingt-Sept doivent définir une position commune d’ici à juin, avant d’entamer des négociations avec le Parlement europ",
+        "url": "https://www.lemonde.fr/international/article/2026/04/24/union-europeenne-les-pays-frugaux-defendent-la-rigueur-pour-le-prochain-budget_6683068_3210.html"
+      },
+      {
         "source": "Politico EU",
-        "heure": "13h57",
-        "titre": "EU Parliament to spend €22M revamping visitor center",
-        "resume": "The Parlamentarium center cost €20 million to build and opened in 2011.",
-        "url": "https://www.politico.eu/article/eu-parliament-e22m-renovation-visitor-center/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        "heure": "12h47",
+        "titre": "UK quietly increases AI emissions forecast 100-fold",
+        "resume": "The new figures are incompatible with the government’s green targets, campaigners say.",
+        "url": "https://www.politico.eu/article/uk-increases-ai-emissions-forecast/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
       }
     ]
   }
