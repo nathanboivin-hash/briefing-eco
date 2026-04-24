@@ -1,31 +1,31 @@
 {
-  "timestamp": "10h51 le 24/04/2026",
+  "timestamp": "13h09 le 24/04/2026",
   "alerte": {
-    "titre": "Contraction économique accélérée en zone euro",
-    "detail": "PMI France au plus bas depuis 14 mois (131), Allemagne en récession prolongée (14), UBS renforce ses réserves sous pression suisse (8). Environnement macro dégradé impactant M&A et financement."
+    "titre": "Dégradation économique allemande et recul PMI français",
+    "detail": "L'Allemagne voit ses espoirs de reprise s'éloigner (130) et l'indice PMI français atteint son plus bas en 14 mois (141), signalant un ralentissement conjoncturel européen préoccupant en avril 2026."
   },
   "synthese": {
-    "resume": "La zone euro s'enfonce dans la contraction économique avec le PMI français au plus bas depuis 14 mois et une Allemagne en crise durable. LVMH et Meta dominent l'actualité corporate avec la succession d'Arnault repoussée et des licenciements massifs en IA. Les négociations du SCAF (avion franco-allemand) sont ravivées malgré les doutes. Le financement immobilier se durcit avec remontée des taux impactant les dossiers de prêts.",
+    "resume": "L'économie européenne montre des signes de faiblesse avec l'Allemagne en difficulté et la France au plus bas depuis 14 mois en termes d'activité PMI. Les grands groupes procèdent à des ajustements massifs : Meta et Microsoft annoncent des coupes dans leurs effectifs pour financer l'IA, tandis que Bernard Arnault repousse les questions de succession chez LVMH. Sur les marchés, BP subit un désaveu actionnarial sur sa stratégie climatique. La géopolitique reste un facteur de volatilité avec les tensions au Moyen-Orient.",
     "points": [
       {
-        "titre": "Marchés & Crédit",
-        "detail": "Durcissement crédit immobilier : taux remontés, dossiers refusés (47). Volatilité FX contenue malgré tensions géopolitiques (128). Spread obligataires sous pression inflation/taux. Avis subit mouvements violents en Bourse (124)."
+        "titre": "Marchés financiers",
+        "detail": "Les actionnaires de BP désavouent la direction sur le climat (9), signalant un retour des critères ESG. UBS renforce ses réserves sous pression réglementaire suisse (11). Volatilité des changes face aux incertitudes géopolitiques (138)."
       },
       {
-        "titre": "Macro - Conjoncture dégradée",
-        "detail": "PMI France 14 mois bas (131), Allemagne récession prolongée sans reprise (14). Chômage jeunes monte (103). Croissance UE fragilisée par crises énergétiques et tensions Iran-Israël. Électrification économique en cours (17) comme levier."
+        "titre": "Macro & Conjoncture",
+        "detail": "PMI français au plus bas en 14 mois (141), morale des patrons allemands en dégradation (130), recul du PMI allemand (17). Recul continu des ventes de vélos (-2025) et véhicules électriques légers boudés par les entreprises (27)."
       },
       {
-        "titre": "Entreprises - Restructurations massives",
-        "detail": "Meta/Microsoft coupes drastiques IA (13,51). LVMH : succession repoussée 7-8 ans, Arnault stabilise (19,21,64). Nestlé réduit France (20). Volkswagen coopère potentiellement avec chinois (27). Stellantis tensions Poissy (16)."
+        "titre": "Entreprises & Stratégies",
+        "detail": "Meta et Microsoft annoncent des licenciements massifs pour financer l'IA (16, 57). Bernard Arnault repousse succession LVMH à 7-8 ans (20, 70). Renault en hausse au T1 (77). Nestlé réduit la voilure en France (21). Volkswagen coupe davantage en Allemagne (28)."
       },
       {
-        "titre": "M&A - Consolidations en IA",
-        "detail": "Cohere+Aleph Alpha fusion = champion IA 20Md$ (90). Peu d'activité PME (89). Contexte crédit fragilisé limite transactions."
+        "titre": "M&A & Fusions",
+        "detail": "Cohere (Canada) + Aleph Alpha (Allemagne) fusionnent pour créer champion IA valorisé 20 Md$ (96). Cessions de PME en coup de frein (95)."
       },
       {
         "titre": "Politique & Géopolitique",
-        "detail": "France abandonne climat G7 pour Trump (77). SCAF relancé par Macron (1). Plan électrification 22 mesures (17). Tensions Moyen-Orient pèsent sur énergie (80). Ukraine prêt UE 90Md$ validé (69)."
+        "detail": "France demande changement politique israélien (45). Tusk célèbre absence de Russes au sommet UE (89). Meloni critique rénovations EU (82). France abandonne climat au G7 pour apaiser Trump (87). Roumanie : sociaux-démocrates quittent gouvernement (43)."
       }
     ]
   },
@@ -33,8 +33,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 196",
-        "change": "+0.36%",
+        "value": "8 224",
+        "change": "+0.70%",
         "dir": "up"
       },
       {
@@ -51,15 +51,15 @@
       },
       {
         "label": "Nasdaq",
-        "value": "24 665",
-        "change": "+0.45%",
-        "dir": "up"
+        "value": "-",
+        "change": "-",
+        "dir": "flat"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1701",
-        "change": "+0.13%",
-        "dir": "up"
+        "value": "-",
+        "change": "-",
+        "dir": "flat"
       },
       {
         "label": "Brent",
@@ -69,18 +69,25 @@
       },
       {
         "label": "Or",
-        "value": "4 711 $",
-        "change": "+0.22%",
-        "dir": "up"
+        "value": "-",
+        "change": "-",
+        "dir": "flat"
       }
     ],
     "articles": [
       {
-        "source": "Le Figaro",
-        "heure": "01h46",
-        "titre": "Le loueur automobile Avis subit de violents mouvements en Bourse",
-        "resume": "Après une envolée spéculative spectaculaire, l’action du loueur automobile américain Avis a chuté de près de 50 % en une séance à Wall Street, entraînant la suspension temporaire des échanges.",
-        "url": "https://www.lefigaro.fr/societes/le-loueur-automobile-avis-subit-de-violents-mouvements-en-bourse-20260423"
+        "source": "Le Monde Éco",
+        "heure": "12h30",
+        "titre": "Les actionnaires de BP désavouent la direction : « Une partie de la finance a encore des valeurs en matière de lutte contre le changement climatique »",
+        "resume": "Les actionnaires ont massivement rejeté une résolution de la direction de la major pétrolière britannique revenant sur certains engagements en matière climatique, constate Olivier Pinaud, journaliste au service Economie du « Monde ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/les-actionnaires-de-bp-desavouent-la-direction-une-partie-de-la-finance-a-encore-des-valeurs-en-matiere-de-lutte-contre-le-changement-climatique_6683031_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "09h45",
+        "titre": "Pourquoi la Suisse exige du géant bancaire UBS qu’il renforce ses réserves",
+        "resume": "Trois ans après la chute traumatisante de Credit Suisse, Berne veut forcer UBS, la dernière grande banque du pays, à renforcer ses fonds propres, ce qu’elle conteste.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/pourquoi-la-suisse-exige-du-geant-bancaire-ubs-qu-il-renforce-ses-reserves_6683016_3234.html"
       },
       {
         "source": "Le Figaro",
@@ -90,25 +97,18 @@
         "url": "https://www.lefigaro.fr/flash-eco/calme-sur-le-marche-des-changes-face-aux-incertitudes-geopolitiques-20260423"
       },
       {
-        "source": "Les Echos",
-        "heure": "14h09",
-        "titre": "Toujours aussi négatifs sur le dollar, les gérants prêts à se mettre à l'abri de nouvelles secousses",
-        "resume": "Les gestionnaires d'actifs anticipent une poursuite de l'affaiblissement structurel du dollar. Ceux qui investissent aux Etats-Unis sont encouragés à protéger la valeur de leurs placements pour éviter une réédition de l'année 2025, marquée par le plo",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/toujours-aussi-negatifs-sur-le-dollar-les-gerants-prets-a-se-mettre-a-labri-contre-de-nouvelles-secousses-2228398"
+        "source": "Le Figaro",
+        "heure": "15h04",
+        "titre": "Box-office : la fusée Super Mario Galaxy s’envole, le duo Nakache et Toledano se met en orbite",
+        "resume": "Alors que les plombiers de Nintendo et la comédie Juste une illusion ont mobilisé à eux deux plus de 1,5 million de spectateurs la semaine de leur sortie, Cocorico 2, avec Christian Clavier et Didier Bourdon, peine toujours à convaincre.",
+        "url": "https://www.lefigaro.fr/cinema/box-office-la-fusee-super-mario-galaxy-s-envole-le-duo-nakache-et-toledano-se-met-en-orbite-20260423"
       },
       {
-        "source": "Challenges",
-        "heure": "12h00",
-        "titre": "« Notre secteur est traumatisé par 2022 » : les dossiers de prêts immobiliers risquent-ils d’être refusés à cause de la remontée des taux ?",
-        "resume": "Alors que les taux d’intérêt remontent doucement mais sûrement, des professionnels de l’immobilier s’inquiètent des effets du taux d’usure. Ce plafond fixé par la Banque de France peut en effet conduire à des refus de dossiers. Pour l’instant, ce son",
-        "url": "https://www.challenges.fr/immobilier/notre-secteur-est-traumatise-par-2022-les-dossiers-de-prets-immobiliers-risquent-ils-detre-refuses-a-cause-de-la-remontee-des-taux_642949"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "09h45",
-        "titre": "Pourquoi la Suisse exige du géant bancaire UBS qu’il renforce ses réserves",
-        "resume": "Trois ans après la chute traumatisante de Credit Suisse, Berne veut forcer UBS, la dernière grande banque du pays, à renforcer ses fonds propres, ce qu’elle conteste.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/24/pourquoi-la-suisse-exige-du-geant-bancaire-ubs-qu-il-renforce-ses-reserves_6683016_3234.html"
+        "source": "Le Figaro",
+        "heure": "13h19",
+        "titre": "Eni : le bénéfice net a augmenté de 7% au premier trimestre",
+        "resume": "Eni a publié vendredi un bénéfice net en augmentation de 7% au premier trimestre, à près de 1,3 milliard d'euros, la hausse des prix de l'énergie...",
+        "url": "https://www.lefigaro.fr/flash-eco/eni-le-benefice-net-a-augmente-de-7-au-premier-trimestre-20260424"
       }
     ]
   },
@@ -150,18 +150,18 @@
         "url": "https://www.challenges.fr/entreprise/tech-numerique/meta-et-microsoft-annoncent-des-coupes-massives-dans-leurs-effectifs-des-milliers-de-postes-supprimes_642948"
       },
       {
-        "source": "Le Figaro",
-        "heure": "09h39",
-        "titre": "Edenred: activité en légère hausse au 1er trimestre malgré les réformes en Italie et au Brésil",
-        "resume": "La société française de services prépayés Edenred, qui commercialise le Ticket-restaurant, a annoncé jeudi un chiffre d'affaires en progression de...",
-        "url": "https://www.lefigaro.fr/flash-eco/edenred-activite-en-legere-hausse-au-1er-trimestre-malgre-les-reformes-en-italie-et-au-bresil-20260423"
+        "source": "Challenges",
+        "heure": "07h45",
+        "titre": "Ormuz : l’armée américaine a ordonné à 31 navires de faire demi-tour, Renault : un chiffre d’affaires en hausse au premier trimestre, Le Liban va demander de prolonger la trêve… Ça s’est passé cette nuit",
+        "resume": "Ormuz : l’armée américaine a ordonné à 31 navires de faire demi-tour, Renault : un chiffre d’affaires en hausse au premier trimestre, Le Liban va demander de prolonger la trêve",
+        "url": "https://www.challenges.fr/monde/ormuz-larmee-americaine-a-ordonne-a-31-navires-de-faire-demi-tour-renault-un-chiffre-daffaires-en-hausse-au-premier-trimestre-le-liban-va-demander-de-prolonger-la-treve-ca-sest-passe-cette-nuit_642928"
       },
       {
         "source": "Le Figaro",
-        "heure": "13h19",
-        "titre": "Eni : le bénéfice net a augmenté de 7% au premier trimestre",
-        "resume": "Eni a publié vendredi un bénéfice net en augmentation de 7% au premier trimestre, à près de 1,3 milliard d'euros, la hausse des prix de l'énergie...",
-        "url": "https://www.lefigaro.fr/flash-eco/eni-le-benefice-net-a-augmente-de-7-au-premier-trimestre-20260424"
+        "heure": "14h01",
+        "titre": "La nouvelle PDG de La Poste souhaite en «accentuer la dimension internationale»",
+        "resume": "La Poste, deux mots qui évoquent facteurs, camionnettes jaunes et zones rurales. Mais la multinationale est surtout «un des fleurons de l'économie...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-nouvelle-pdg-de-la-poste-souhaite-en-accentuer-la-dimension-internationale-20260424"
       }
     ]
   },
@@ -175,18 +175,25 @@
         "url": "https://www.lesechos.fr/start-up/deals/la-start-up-canadienne-cohere-et-lallemand-aleph-alpha-fusionnent-pour-creer-un-champion-de-lia-valorise-20-milliards-de-dollars-2228395"
       },
       {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "« Ils ne connaissaient absolument rien à ce monde très complexe » : comment le pari hasardeux de la famille De Clerck a précipité la chute de Polytechnyl",
-        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel. À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. Dans ce deuxième chapitre, retour au point",
-        "url": "https://www.challenges.fr/entreprise/industrie/ils-ne-connaissaient-absolument-rien-a-ce-monde-tres-complexe-comment-le-pari-hasardeux-de-la-famille-de-clerck-a-precipite-la-chute-de-polytechnyl_642946"
-      },
-      {
         "source": "Les Echos",
         "heure": "08h10",
         "titre": "Cessions de PME : le coup de frein",
         "resume": "Le contexte géopolitique et son impact sur les charges des entreprises ont fini par ralentir le marché des cessions acquisitions en France, selon le baromètre annuel d'In Extenso. Leur valorisation est au niveau de 2014.",
         "url": "https://www.lesechos.fr/pme-regions/actualite-pme/cessions-de-pme-le-coup-de-frein-2227968"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h30",
+        "titre": "« Ce repreneur va acter la désintégration de Polytechnyl » : la face cachée du naufrage industriel d’un ex-fleuron de la chimie française",
+        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel.&nbsp;À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. À l’arrivée, une chaîne de valeur dis",
+        "url": "https://www.challenges.fr/entreprise/industrie/ce-repreneur-va-acter-la-desintegration-de-lentreprise-la-face-cachee-du-naufrage-industriel-du-fleuron-de-la-chimie-polytechnyl_642923"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "« Ils ne connaissaient absolument rien à ce monde très complexe » : comment le pari hasardeux de la famille De Clerck a précipité la chute de Polytechnyl",
+        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel. À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. Dans ce deuxième chapitre, retour au point",
+        "url": "https://www.challenges.fr/entreprise/industrie/ils-ne-connaissaient-absolument-rien-a-ce-monde-tres-complexe-comment-le-pari-hasardeux-de-la-famille-de-clerck-a-precipite-la-chute-de-polytechnyl_642946"
       }
     ]
   },
@@ -200,6 +207,13 @@
         "url": "https://www.lefigaro.fr/conjoncture/france-l-indice-d-activite-pmi-au-plus-bas-depuis-14-mois-en-avril-20260423"
       },
       {
+        "source": "Le Figaro",
+        "heure": "13h24",
+        "titre": "Le moral des patrons allemands se dégrade encore en avril, miné par le conflit au Moyen-Orient",
+        "resume": "Le moral des entrepreneurs en Allemagne a baissé à nouveau en avril, tombant à son plus bas niveau depuis mai 2020, principalement à cause des...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-moral-des-patrons-allemands-se-degrade-encore-en-avril-mine-par-le-conflit-au-moyen-orient-20260424"
+      },
+      {
         "source": "Le Monde Éco",
         "heure": "23h47",
         "titre": "En Allemagne, les espoirs de reprise économique s’éloignent",
@@ -207,11 +221,25 @@
         "url": "https://www.lemonde.fr/economie/article/2026/04/23/en-allemagne-les-espoirs-de-reprise-economique-s-eloignent_6682853_3234.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "13h16",
-        "titre": "IA et chômage des jeunes : « Plutôt que des virtuoses de la slide, les business schools vont devoir former des commerçants : l'art de rencontrer, négocier, convaincre »",
-        "resume": "Ce qui faisait la valeur d'un jeune diplômé devient peu à peu une fonction automatisable. Les business schools, plutôt que de vouloir transformer leurs jeunes diplômés en gestionnaires d'agents IA, devraient leur réapprendre l'art difficile et humain",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/ia-et-chomage-des-jeunes-plutot-que-des-virtuoses-de-la-slide-les-business-schools-vont-devoir-former-des-commercants-lart-de-rencontrer-negocier-convaincre-2228382"
+        "source": "Le Monde Éco",
+        "heure": "12h00",
+        "titre": "Les véhicules utilitaires légers électriques restent boudés par les entreprises",
+        "resume": "Le marché des camionnettes professionnelles a du mal à passer le cap de l’électrique. Inadéquation de l’offre, difficultés pour la recharge et freins psychologiques des utilisateurs : tour d’horizon des barrières et des portes de sortie.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/23/les-vehicules-utilitaires-legers-electriques-restent-boudes-par-les-societes_6682768_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "09h11",
+        "titre": "Les ventes de vélos neufs en France continuent de reculer en 2025",
+        "resume": "La pratique du vélo, à l’abri de la flambée du prix de l’essence, poursuit sa progression, mais le marché du neuf enregistre une nouvelle baisse, en volume et en valeur.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/24/les-ventes-de-velos-neufs-continuent-de-reculer-en-2025_6683014_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h30",
+        "titre": "Est-ce qu’on sait faire rouler des camions sans pétrole ?",
+        "resume": "Chaque semaine, l’équipe du podcast Chaleur humaine répond à vos questions sur la transition climatique",
+        "url": "https://www.lemonde.fr/chaleur-humaine/article/2026/04/24/est-ce-qu-on-sait-faire-rouler-des-camions-sans-petrole_6683009_6125299.html"
       },
       {
         "source": "Challenges",
@@ -219,13 +247,6 @@
         "titre": "Ukraine : le prêt de 90 milliards d’euros de l’UE validé, les premiers versements attendus « d'ici à fin mai, début juin »",
         "resume": "La validation officielle du prêt de 90 milliards d’euros de l’UE à l’Ukraine est intervenue à la mi-journée, ce jeudi 23 avril, après que la Hongrie a levé son veto. Elle sera suivie d’un sommet des dirigeants européens à Chypre dans la soirée, en pr",
         "url": "https://www.challenges.fr/monde/ukraine-le-pret-de-90-milliards-deuros-de-lue-bientot-valide_642929"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "13h24",
-        "titre": "Le moral des patrons allemands se dégrade encore en avril, miné par le conflit au Moyen-Orient",
-        "resume": "Le moral des entrepreneurs en Allemagne a baissé à nouveau en avril, tombant à son plus bas niveau depuis mai 2020, principalement à cause des...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-moral-des-patrons-allemands-se-degrade-encore-en-avril-mine-par-le-conflit-au-moyen-orient-20260424"
       }
     ]
   },
@@ -233,17 +254,24 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "13h24",
-        "titre": "Le SCAF, projet d’avion de combat franco-allemand, n’est « pas du tout » mort, assure Emmanuel Macron",
-        "resume": "Le président de la République a été interrogé à l’issue de sa rencontre avec le chancelier allemand, Friedrich Merz, sur ce projet qui piétine, notamment en raison de désaccords persistants entre industriels.",
-        "url": "https://www.lemonde.fr/international/article/2026/04/24/pour-emmanuel-macron-le-projet-d-avion-de-combat-franco-allemand-scaf-n-est-pas-du-tout-mort_6683045_3210.html"
+        "heure": "13h09",
+        "titre": "La France veut que « le gouvernement israélien change sa politique » en Cisjordanie et à Gaza",
+        "resume": "Paris espère des sanctions européennes « dans les prochains jours » contre les colons israéliens responsables de violences en Cisjordanie, a déclaré le ministre des affaires étrangères, Jean-Noël Barrot, jeudi 23 avril, sur Franceinfo.",
+        "url": "https://www.lemonde.fr/guerre-au-proche-orient/article/2026/04/23/en-cisjordanie-et-a-gaza-la-france-veut-que-le-gouvernement-israelien-change-sa-politique_6682784_6325529.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "21h00",
-        "titre": "Plan d’électrification : le gouvernement présente 22 mesures pour « ne plus importer les crises du monde dans le portefeuille des Français »",
-        "resume": "Pompes à chaleur « clés en main », fours à pain électriques, sélection de 100 territoires pionniers : le plan se veut « large dans les secteurs et les actions ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/23/plan-d-electrification-le-gouvernement-presente-22-mesures-pour-ne-plus-importer-les-crises-du-monde-dans-le-portefeuille-des-francais_6682840_3234.html"
+        "source": "Politico EU",
+        "heure": "12h32",
+        "titre": "Tusk celebrates ‘no Russians in the room’ at EU summit — then winks at Fico",
+        "resume": "The Polish prime minister's pointed remark about EU unity on Russia was underlined by an awkwardly timed cameo from his Slovak counterpart.",
+        "url": "https://www.politico.eu/article/robert-fico-donald-tusk-celebrates-no-russia-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+      },
+      {
+        "source": "Politico EU",
+        "heure": "15h01",
+        "titre": "Meloni slams €800M EU building renovation works",
+        "resume": "Italian PM says the EU should act responsibly, not spend money on refurbishing the Justus Lipsius building.",
+        "url": "https://www.politico.eu/article/giorgia-meloni-slams-eu-building-renovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
       },
       {
         "source": "Politico EU",
@@ -253,11 +281,11 @@
         "url": "https://www.politico.eu/article/france-drops-climate-from-g7-environment-talks-appease-trump-administration-us/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
       },
       {
-        "source": "Politico EU",
-        "heure": "12h37",
-        "titre": "Starving soldiers’ scandal rocks Ukrainian army",
-        "resume": "While commanding officers worked to strengthen air defenses and protect frontline troops against drone strikes, they failed to communicate the reality on the ground to military leadership.",
-        "url": "https://www.politico.eu/article/starving-ukraine-army-soldiers-scandal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        "source": "Le Monde Éco",
+        "heure": "17h00",
+        "titre": "En Roumanie, les sociaux-démocrates annoncent leur départ du gouvernement, désormais fragilisé",
+        "resume": "Le PSD s’est dit jeudi ouvert à entrer dans « un nouveau gouvernement pro-européen » et à soutenir un autre premier ministre, « qu’il s’agisse d’un politicien ou d’un technocrate ».",
+        "url": "https://www.lemonde.fr/international/article/2026/04/23/en-roumanie-les-sociaux-democrates-annoncent-leur-depart-du-gouvernement-desormais-fragilise_6682809_3210.html"
       },
       {
         "source": "Politico EU",
@@ -267,11 +295,18 @@
         "url": "https://www.politico.eu/article/pedro-sanchez-donald-trump-nato-spain-nato-membership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
       },
       {
-        "source": "Politico EU",
-        "heure": "10h29",
-        "titre": "France and Germany give themselves more time on joint fighter jet (once again)",
-        "resume": "Emmanuel Macron and Friedrich Merz use pre-summit talks to discuss FCAS.",
-        "url": "https://www.politico.eu/article/emmanuel-macron-friedrich-merz-france-germany-more-time-joint-fighter-jet-once-again/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        "source": "Le Monde Éco",
+        "heure": "16h18",
+        "titre": "Union européenne : les pays « frugaux » défendent la rigueur pour le prochain budget",
+        "resume": "Les dirigeants de l’Allemagne et des Pays-Bas ont appelé, vendredi, à réduire certaines dépenses dans le futur budget européen. Les Vingt-Sept doivent définir une position commune d’ici à juin, avant d’entamer des négociations avec le Parlement europ",
+        "url": "https://www.lemonde.fr/international/article/2026/04/24/union-europeenne-les-pays-frugaux-defendent-la-rigueur-pour-le-prochain-budget_6683068_3210.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h30",
+        "titre": "Politique française : cinq ans d’une démocratie malmenée",
+        "resume": "Depuis la réélection d’Emmanuel Macron, en 2022, l’instabilité politique s’est accrue, accentuant la défiance des Français à l’égard de leurs représentants. A l’occasion des 5 ans du podcast « L’Heure du Monde », Mariama Darame, journaliste au servic",
+        "url": "https://www.lemonde.fr/podcasts/article/2026/04/24/politique-francaise-cinq-ans-d-une-democratie-malmenee_6682997_5463015.html"
       }
     ]
   },
@@ -292,11 +327,11 @@
         "url": "https://www.challenges.fr/immobilier/notre-secteur-est-traumatise-par-2022-les-dossiers-de-prets-immobiliers-risquent-ils-detre-refuses-a-cause-de-la-remontee-des-taux_642949"
       },
       {
-        "source": "Les Echos",
-        "heure": "13h28",
-        "titre": "Immobilier : les propriétaires de passoires thermiques vont-ils pouvoir les remettre sur le marché locatif ?",
-        "resume": "Face à la crise de l'immobilier locatif, le ministre du Logement décide de prendre des mesures d'urgence qui feront l'objet d'un projet de loi au début de l'été. Parmi les décisions phares, l'assouplissement des obligations en matière de DPE, dont le",
-        "url": "https://www.lesechos.fr/patrimoine/immobilier/immobilier-les-proprietaires-de-passoires-thermiques-vont-ils-pouvoir-les-remettre-sur-le-marche-locatif-2228392"
+        "source": "Le Figaro",
+        "heure": "14h56",
+        "titre": "Russie: la banque centrale abaisse son taux directeur à 14,5% sur fond de ralentissement économique",
+        "resume": "La Banque centrale de Russie (BCR) a abaissé vendredi son taux directeur de 0,5 point, à 14,5%, dans un contexte de ralentissement de la croissance,...",
+        "url": "https://www.lefigaro.fr/flash-eco/russie-la-banque-centrale-abaisse-son-taux-directeur-a-14-5-sur-fond-de-ralentissement-economique-20260424"
       }
     ]
   }
