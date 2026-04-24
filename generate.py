@@ -22,47 +22,37 @@ YAHOO_SYMBOLS = {
 }
 
 def fetch_market_data():
+    """Fetch market data via Stooq CSV API - no auth required."""
     QUOTES = [
-        ("CAC 40",       "^FCHI",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("Eurostoxx 50", "^STOXX50E",  lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("S&P 500",      "^GSPC",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("Nasdaq",       "^IXIC",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("EUR/USD",      "EURUSD=X",   lambda v: "{:.4f}".format(v)),
-        ("Brent",        "BZ=F",       lambda v: "{:.1f} $".format(v)),
-        ("Or",           "GC=F",       lambda v: "{:,.0f} $".format(v).replace(",", " ")),
+        ("CAC 40",       "^cac",    lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("Eurostoxx 50", "^sx5e",   lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("S&P 500",      "^spx",    lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("Nasdaq",       "^ndq",    lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("EUR/USD",      "eurusd",  lambda v: "{:.4f}".format(v)),
+        ("Brent",        "lcoj25.f",lambda v: "{:.1f} $".format(v)),
+        ("Or",           "xauusd",  lambda v: "{:,.0f} $".format(v).replace(",", " ")),
     ]
-    sym_str = ",".join(q[1] for q in QUOTES)
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "application/json,*/*",
-        "Accept-Language": "fr-FR,fr;q=0.9",
-        "Referer": "https://finance.yahoo.com/",
-    }
-    results = {}
-    for base in ["query1", "query2"]:
-        url = f"https://{base}.finance.yahoo.com/v7/finance/quote?symbols={sym_str}&fields=regularMarketPrice,regularMarketChangePercent"
-        try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                data = json.loads(resp.read())
-            raw = data.get("quoteResponse", {}).get("result", [])
-            if raw:
-                results = {r["symbol"]: r for r in raw}
-                print(f"  Yahoo OK ({base})")
-                break
-        except Exception as e:
-            print(f"  Yahoo {base}: {e}")
-
     metrics = []
     for label, sym, fmt in QUOTES:
-        r = results.get(sym)
-        if r:
-            price = r.get("regularMarketPrice", 0)
-            pct   = r.get("regularMarketChangePercent", 0)
-            dir_  = "up" if pct > 0.05 else "down" if pct < -0.05 else "flat"
-            metrics.append({"label": label, "value": fmt(price), "change": "{:+.2f}%".format(pct), "dir": dir_})
-            print(f"  {label}: {fmt(price)} ({pct:+.2f}%)")
-        else:
+        url = f"https://stooq.com/q/l/?s={sym}&f=sd2t2ohlcv&h&e=csv"
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=8) as resp:
+                text = resp.read().decode("utf-8")
+            lines = text.strip().split("\n")
+            if len(lines) < 2:
+                raise ValueError("empty response")
+            vals = lines[1].split(",")
+            close = float(vals[4])
+            open_ = float(vals[3])
+            if close <= 0:
+                raise ValueError("zero price")
+            pct  = (close - open_) / open_ * 100
+            dir_ = "up" if pct > 0.05 else "down" if pct < -0.05 else "flat"
+            metrics.append({"label": label, "value": fmt(close), "change": "{:+.2f}%".format(pct), "dir": dir_})
+            print(f"  {label}: {fmt(close)} ({pct:+.2f}%)")
+        except Exception as e:
+            print(f"  {label}: erreur Stooq - {e}")
             metrics.append({"label": label, "value": "-", "change": "-", "dir": "flat"})
     return metrics
 
@@ -107,22 +97,19 @@ def fmt_heure(pub_str):
 
 # ── RSS SOURCES (gratuits, fiables, économie FR) ──
 RSS_SOURCES = [
-    ("Reuters France",  "https://fr.reuters.com/news/rss/topNews"),
-    ("Reuters France",  "https://fr.reuters.com/news/rss/businessNews"),
-    ("BFM Business",    "https://www.bfmtv.com/rss/economie/"),
-    ("BFM Business",    "https://www.bfmtv.com/rss/bourse/"),
-    ("La Tribune",      "https://www.latribune.fr/rss/rubriques/economie.html"),
-    ("La Tribune",      "https://www.latribune.fr/rss/rubriques/entreprises-finance.html"),
-    ("La Tribune",      "https://www.latribune.fr/rss/rubriques/actualite-des-societes.html"),
-    ("Boursorama",      "https://www.boursorama.com/rss/actualites/"),
-    ("Boursorama",      "https://www.boursorama.com/rss/marches/"),
+    # Reuters - flux valides
+    ("Reuters France",  "https://feeds.reuters.com/reuters/frenchNews"),
+    ("Reuters France",  "https://feeds.reuters.com/reuters/businessNews"),
+    # BFM Business
+    ("BFM Business",    "https://www.bfmtv.com/rss/news-flux-rss/all-news/economie/"),
+    ("BFM Business",    "https://www.bfmtv.com/rss/news-flux-rss/all-news/bourse/"),
+    # Le Monde
     ("Le Monde Éco",    "https://www.lemonde.fr/economie/rss_full.xml"),
     ("Le Monde Éco",    "https://www.lemonde.fr/entreprises/rss_full.xml"),
     ("Le Monde Éco",    "https://www.lemonde.fr/politique/rss_full.xml"),
+    # Challenges
     ("Challenges",      "https://www.challenges.fr/rss.xml"),
-    ("Capital",         "https://www.capital.fr/feed"),
-    ("L'Agefi",         "https://www.agefi.fr/rss/finance.xml"),
-    ("L'Agefi",         "https://www.agefi.fr/rss/marches.xml"),
+    # Politico
     ("Politico EU",     "https://www.politico.eu/rss"),
 ]
 
