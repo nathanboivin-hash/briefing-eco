@@ -89,6 +89,25 @@ a.art:active { background:var(--cream) }
 .art-body { font-size:12px; color:var(--muted); line-height:1.65 }
 .art-cta { font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); margin-top:7px; font-weight:500 }
 .empty-note { padding:32px 20px; text-align:center; font-size:13px; color:var(--muted) }
+.curve-wrap { padding:16px 20px 0 }
+.curve-chart { width:100%; height:160px; background:#fff; border:1px solid var(--rule); border-radius:6px; padding:16px; margin-bottom:8px }
+.curve-legend { display:flex; gap:16px; flex-wrap:wrap; padding:0 0 8px }
+.curve-item { text-align:center }
+.curve-mat { font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:.06em }
+.curve-rate { font-family:'Playfair Display',serif; font-size:16px; font-weight:600; color:var(--ink) }
+.cal-item { border-bottom:1px solid var(--rule2); padding:12px 20px; display:flex; gap:12px; align-items:flex-start }
+.cal-date { flex-shrink:0; width:52px }
+.cal-day { font-size:10px; font-weight:500; color:var(--accent); text-transform:uppercase; letter-spacing:.06em }
+.cal-time { font-size:11px; color:var(--muted) }
+.cal-body { flex:1 }
+.cal-event { font-size:14px; color:var(--ink); font-family:'Playfair Display',serif; margin-bottom:3px }
+.cal-meta { font-size:11px; color:var(--muted) }
+.imp-high { border-left:3px solid var(--red) }
+.imp-med  { border-left:3px solid var(--accent) }
+.cal-badge { display:inline-block; font-size:9px; padding:1px 6px; border-radius:2px; margin-right:4px; font-weight:500; letter-spacing:.05em }
+.cb-fr { background:rgba(181,96,42,.12); color:#7a3a10 }
+.cb-eu { background:rgba(45,110,69,.1); color:#1e5232 }
+.cb-de { background:rgba(0,0,0,.07); color:#444 }
 </style>
 </head>
 <body>
@@ -112,6 +131,7 @@ a.art:active { background:var(--cream) }
       <button class="tab"     onclick="sw(this,'k')">Macro</button>
       <button class="tab"     onclick="sw(this,'p')">Politique</button>
       <button class="tab"     onclick="sw(this,'x')">Taux</button>
+      <button class="tab"     onclick="sw(this,'g')">Agenda</button>
     </div>
   </div>
   <div class="cnt" id="cnt"></div>
@@ -192,6 +212,8 @@ var BOURSORAMA_URLS = {
   'EUR/USD':      'https://www.boursorama.com/bourse/devises/taux-de-change-euro-dollar/',
   'Brent':        'https://www.boursorama.com/bourse/matieres-premieres/cours/1zLCOQ6/',
   'Or':           'https://www.boursorama.com/bourse/matieres-premieres/cours/1zXAUUSD/',
+  'Euribor 3M':   'https://www.boursorama.com/bourse/taux/euribor-3-mois/',
+  'Euribor 6M':   'https://www.boursorama.com/bourse/taux/euribor-6-mois/',
 };
 
 function metCard(m) {
@@ -213,7 +235,8 @@ function render(t) {
   if (!B) { showSkel(); return; }
 
   if (t === 's') {
-    var alert = B.alerte ? '<div class="alert-bar">' + B.alerte + '</div>' : '';
+    var alerteVal = B.alerte && typeof B.alerte === 'string' && B.alerte.trim() ? B.alerte.trim() : '';
+    var alert = alerteVal ? '<div class="alert-bar">' + alerteVal + '</div>' : '';
     var pts = '';
     var points = B.synthese && B.synthese.points ? B.synthese.points : [];
     for (var i = 0; i < points.length; i++) {
@@ -243,12 +266,88 @@ function render(t) {
       '<div class="art-rule">Actualites marches</div>' + arts;
   }
   else {
+    if (t === 'x') {
+      // Taux - OAT curve + articles
+      var curve = B.taux && B.taux.courbe ? B.taux.courbe : [];
+      var curveHtml = '';
+      if (curve.length > 0) {
+        // Build SVG curve
+        var validPts = curve.filter(function(p) { return p.rate !== null; });
+        var svgContent = '';
+        if (validPts.length >= 2) {
+          var rates = validPts.map(function(p) { return p.rate; });
+          var minR = Math.min.apply(null, rates) - 0.1;
+          var maxR = Math.max.apply(null, rates) + 0.1;
+          var W = 300, H = 80, pad = 10;
+          var points = validPts.map(function(p, i) {
+            var x = pad + (i / (validPts.length - 1)) * (W - pad * 2);
+            var y = H - pad - ((p.rate - minR) / (maxR - minR)) * (H - pad * 2);
+            return x.toFixed(1) + ',' + y.toFixed(1);
+          }).join(' ');
+          svgContent = '<svg viewBox="0 0 ' + W + ' ' + H + '" style="width:100%;height:80px">' +
+            '<polyline points="' + points + '" fill="none" stroke="#b5602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>' +
+            validPts.map(function(p, i) {
+              var x = pad + (i / (validPts.length - 1)) * (W - pad * 2);
+              var y = H - pad - ((p.rate - minR) / (maxR - minR)) * (H - pad * 2);
+              return '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="3" fill="#b5602a"/>';
+            }).join('') +
+            '</svg>';
+        }
+        var legendItems = curve.map(function(p) {
+          return '<div class="curve-item">' +
+            '<div class="curve-mat">' + p.maturity + '</div>' +
+            '<div class="curve-rate">' + (p.rate !== null ? p.rate.toFixed(2) + '%' : '-') + '</div>' +
+            '</div>';
+        }).join('');
+        curveHtml = '<div class="curve-wrap">' +
+          '<div class="sec-rule" style="padding:0 0 8px;margin-bottom:12px">Courbe des taux OAT France</div>' +
+          '<div class="curve-chart">' + svgContent + '</div>' +
+          '<div class="curve-legend">' + legendItems + '</div>' +
+          '</div>';
+      }
+      el.innerHTML = curveHtml +
+        '<div class="art-rule">Actualites taux et credit</div>' + artList('taux');
+      return;
+    }
+
+    if (t === 'g') {
+      // Agenda economique
+      var events = B.calendrier || [];
+      if (!events.length) {
+        el.innerHTML = '<div class="empty-note">Aucun evenement cette semaine</div>';
+        return;
+      }
+      var DAYS = ["Dim","Lun","Mar","Mer","Jeu","Ven","Sam"];
+      var MONTHS2 = ["jan","fev","mar","avr","mai","jun","jul","aou","sep","oct","nov","dec"];
+      var lastDate = '';
+      var html = '';
+      events.forEach(function(e) {
+        var impClass = e.importance >= 3 ? 'imp-high' : 'imp-med';
+        var paysBadge = e.pays === 'FR' ? '<span class="cal-badge cb-fr">FR</span>' :
+                        e.pays === 'EU' ? '<span class="cal-badge cb-eu">EU</span>' :
+                        '<span class="cal-badge cb-de">' + e.pays + '</span>';
+        var dateObj = e.date ? new Date(e.date) : null;
+        var dayStr = dateObj ? DAYS[dateObj.getDay()] + ' ' + dateObj.getDate() + ' ' + MONTHS2[dateObj.getMonth()] : e.date;
+        var meta = '';
+        if (e.consensus) meta += 'Consensus: ' + e.consensus;
+        if (e.previous) meta += (meta ? ' | ' : '') + 'Precedent: ' + e.previous;
+        if (e.actual) meta += (meta ? ' | ' : '') + '<strong>Publie: ' + e.actual + '</strong>';
+        html += '<div class="cal-item ' + impClass + '">' +
+          '<div class="cal-date"><div class="cal-day">' + dayStr + '</div><div class="cal-time">' + (e.time || '') + '</div></div>' +
+          '<div class="cal-body">' +
+          '<div class="cal-event">' + paysBadge + (e.event || '') + '</div>' +
+          (meta ? '<div class="cal-meta">' + meta + '</div>' : '') +
+          '</div></div>';
+      });
+      el.innerHTML = '<div class="sec-rule">Agenda economique — semaine en cours</div>' + html;
+      return;
+    }
+
     var cfg = {
       e: {key:'entreprises', label:'Resultats et vie des entreprises'},
       a: {key:'ma',          label:'Fusions, acquisitions et PE'},
       k: {key:'macro',       label:'Macroeconomie France et Europe'},
-      p: {key:'politique',   label:'Politique economique et geopolitique'},
-      x: {key:'taux',        label:'Taux, OAT, spreads et obligations'}
+      p: {key:'politique',   label:'Politique economique et geopolitique'}
     };
     var c = cfg[t];
     el.innerHTML = '<div class="art-rule">' + c.label + '</div>' + artList(c.key);
