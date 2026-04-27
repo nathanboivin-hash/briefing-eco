@@ -12,8 +12,7 @@ client = anthropic.Anthropic()
 
 # ── COURBE DES TAUX OAT (BCE) ──
 def fetch_oat_curve():
-    """Fetch OAT France yield curve from ECB API."""
-    # Maturities: 2Y, 5Y, 10Y, 20Y, 30Y
+    """Fetch OAT France yield curve from ECB API with date and trend."""
     maturities = [
         ("2 ans",  "SR_2Y"),
         ("5 ans",  "SR_5Y"),
@@ -23,7 +22,8 @@ def fetch_oat_curve():
     ]
     curve = []
     for label, mat in maturities:
-        url = f"https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.{mat}?lastNObservations=1&format=jsondata"
+        # Fetch last 2 observations to get trend
+        url = f"https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.{mat}?lastNObservations=2&format=jsondata"
         try:
             req = urllib.request.Request(url, headers={
                 "User-Agent": "Mozilla/5.0",
@@ -31,13 +31,27 @@ def fetch_oat_curve():
             })
             with urllib.request.urlopen(req, timeout=8) as resp:
                 data = json.loads(resp.read())
-            obs = data["dataSets"][0]["series"]["0:0:0:0:0:0:0"]["observations"]
-            val = list(obs.values())[0][0]
-            curve.append({"maturity": label, "rate": round(float(val), 3)})
-            print(f"  OAT {label}: {val:.3f}%")
+            series = data["dataSets"][0]["series"]["0:0:0:0:0:0:0"]["observations"]
+            # Get dates from structure
+            dates = data["structure"]["dimensions"]["observation"][0]["values"]
+            obs_sorted = sorted(series.items(), key=lambda x: int(x[0]))
+            latest_val  = float(obs_sorted[-1][1][0])
+            prev_val    = float(obs_sorted[-2][1][0]) if len(obs_sorted) >= 2 else latest_val
+            latest_date = dates[int(obs_sorted[-1][0])]["id"] if dates else ""
+            trend = "up" if latest_val > prev_val + 0.001 else "down" if latest_val < prev_val - 0.001 else "flat"
+            diff  = round(latest_val - prev_val, 3)
+            curve.append({
+                "maturity": label,
+                "rate":     round(latest_val, 3),
+                "prev":     round(prev_val, 3),
+                "diff":     diff,
+                "trend":    trend,
+                "date":     latest_date
+            })
+            print(f"  OAT {label}: {latest_val:.3f}% ({trend}, date: {latest_date})")
         except Exception as e:
             print(f"  OAT {label}: erreur - {e}")
-            curve.append({"maturity": label, "rate": None})
+            curve.append({"maturity": label, "rate": None, "prev": None, "diff": None, "trend": "flat", "date": ""})
     return curve
 
 # ── CALENDRIER ÉCONOMIQUE (EconDB) ──
