@@ -10,6 +10,73 @@ from datetime import datetime, timezone, timedelta
 PERIGON_KEY = "51d90d54-03df-4bec-910e-ac40924fb42e"
 client = anthropic.Anthropic()
 
+# ── COURBE DES TAUX OAT (BCE) ──
+def fetch_oat_curve():
+    """Fetch OAT France yield curve from ECB API."""
+    # Maturities: 2Y, 5Y, 10Y, 20Y, 30Y
+    maturities = [
+        ("2 ans",  "SR_2Y"),
+        ("5 ans",  "SR_5Y"),
+        ("10 ans", "SR_10Y"),
+        ("20 ans", "SR_20Y"),
+        ("30 ans", "SR_30Y"),
+    ]
+    curve = []
+    for label, mat in maturities:
+        url = f"https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.{mat}?lastNObservations=1&format=jsondata"
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "Mozilla/5.0",
+                "Accept": "application/json"
+            })
+            with urllib.request.urlopen(req, timeout=8) as resp:
+                data = json.loads(resp.read())
+            obs = data["dataSets"][0]["series"]["0:0:0:0:0:0:0"]["observations"]
+            val = list(obs.values())[0][0]
+            curve.append({"maturity": label, "rate": round(float(val), 3)})
+            print(f"  OAT {label}: {val:.3f}%")
+        except Exception as e:
+            print(f"  OAT {label}: erreur - {e}")
+            curve.append({"maturity": label, "rate": None})
+    return curve
+
+# ── CALENDRIER ÉCONOMIQUE (EconDB) ──
+def fetch_economic_calendar():
+    """Fetch economic calendar for France and EU this week."""
+    from datetime import date, timedelta
+    today = date.today()
+    # Get Monday and Friday of current week
+    monday = today - timedelta(days=today.weekday())
+    friday = monday + timedelta(days=4)
+
+    url = (f"https://econdb.com/api/events/"
+           f"?country=FR,EU,DE&"
+           f"date_after={monday.isoformat()}&"
+           f"date_before={friday.isoformat()}&"
+           f"importance=2,3&"  # importance 2=medium, 3=high only
+           f"format=json")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read())
+        events = []
+        for e in data.get("results", []):
+            events.append({
+                "date":       e.get("date", ""),
+                "time":       e.get("time", ""),
+                "pays":       e.get("country", ""),
+                "event":      e.get("event", ""),
+                "importance": e.get("importance", 1),
+                "previous":   e.get("previous", ""),
+                "consensus":  e.get("consensus", ""),
+                "actual":     e.get("actual", ""),
+            })
+        print(f"  Calendrier: {len(events)} events cette semaine")
+        return sorted(events, key=lambda x: (x["date"], x["time"]))
+    except Exception as e:
+        print(f"  Calendrier erreur: {e}")
+        return []
+
 # ── DONNÉES DE MARCHÉ (Yahoo Finance depuis GitHub Actions) ──
 YAHOO_SYMBOLS = {
     "CAC 40":        {"sym": "%5EFCHI",    "fmt": lambda v: f"{v:,.0f}".replace(",", " ")},
@@ -24,13 +91,15 @@ YAHOO_SYMBOLS = {
 def fetch_market_data():
     """Fetch market data via Stooq CSV API - no auth required."""
     QUOTES = [
-        ("CAC 40",       "^cac",   lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("Eurostoxx 50", "^stoxx50", lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("S&P 500",      "^spx",   lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("Nasdaq",       "^ndq",   lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("EUR/USD",      "eurusd", lambda v: "{:.4f}".format(v)),
-        ("Brent",        "lco.f",  lambda v: "{:.1f} $".format(v)),
-        ("Or",           "xauusd", lambda v: "{:,.0f} $".format(v).replace(",", " ")),
+        ("CAC 40",       "^cac",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("Eurostoxx 50", "^stoxx50",  lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("S&P 500",      "^spx",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("Nasdaq",       "^ndq",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
+        ("EUR/USD",      "eurusd",    lambda v: "{:.4f}".format(v)),
+        ("Brent",        "lco.f",     lambda v: "{:.1f} $".format(v)),
+        ("Or",           "xauusd",    lambda v: "{:,.0f} $".format(v).replace(",", " ")),
+        ("Euribor 3M",   "euribor3m", lambda v: "{:.3f}%".format(v)),
+        ("Euribor 6M",   "euribor6m", lambda v: "{:.3f}%".format(v)),
     ]
     metrics = []
     for label, sym, fmt in QUOTES:
@@ -342,6 +411,14 @@ def main():
     print("→ Données de marché...")
     market_metrics = fetch_market_data()
 
+    # 5b. Courbe des taux OAT
+    print("→ Courbe des taux OAT...")
+    oat_curve = fetch_oat_curve()
+
+    # 5c. Calendrier économique
+    print("→ Calendrier économique...")
+    calendar = fetch_economic_calendar()
+
     # 5. Haiku: classification + synthèse
     print("→ Haiku classification...")
     classified = synthesize(articles, today, ts)
@@ -349,11 +426,15 @@ def main():
     # 5. Build final briefing
     briefing = build_briefing(classified, articles)
     briefing["marches"]["metrics"] = market_metrics
+    briefing["taux"]["courbe"] = oat_curve
+    briefing["calendrier"] = calendar
 
     # 6. Vérification sections vides
     for key in ["synthese","marches","entreprises","ma","macro","politique","taux"]:
         if key not in briefing:
             briefing[key] = {"articles":[]} if key != "synthese" else {"resume":"","points":[]}
+    if "calendrier" not in briefing:
+        briefing["calendrier"] = []
 
     # 7. Stats
     for k in ["marches","entreprises","ma","macro","politique","taux"]:
