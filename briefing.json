@@ -1,32 +1,24 @@
 {
-  "timestamp": "07h00 le 25/04/2026",
-  "alerte": {
-    "titre": "Licenciements massifs en tech",
-    "detail": "Meta et Microsoft annoncent des coupes drastiques dans leurs effectifs pour redoubler d'investissement en IA. Impacts sur le marché du travail et réallocation de capital vers l'IA générative.",
-    "indice": 26
-  },
+  "timestamp": "06h42 le 27/04/2026",
+  "alerte": "Elon Musk vs Sam Altman : procès majeur autour de la gouvernance d'OpenAI - implications capitalistiques à suivre",
   "synthese": {
-    "resume": "Jour marqué par les restructurations tech (Meta/Microsoft), une fusion majeure en IA (Cohere+Aleph Alpha, 20Mds$), et des tensions géopolitiques (Iran-Pakistan) impactant les marchés. Le retrait de Trump sur la Fed rassure, mais l'économie américaine navigue entre résilience affichée et incertitudes budgétaires en Europe. La Chine accélère en IA open-source face aux géants US, tandis que les pôles français d'innovation (SCAF, audiovisuel) font débat.",
+    "resume": "L'énergie et l'IA dominent l'agenda économique : les pétroliers capitalisent sur les tensions moyen-orientales tandis que les start-up de modification génétique accélèrent (financement massif attendu). Transavia annule 20% de ses vols (kérosène +35% YoY). Macron mobilise les investisseurs français en Grèce pour contrer l'expansion chinoise en usines européennes. La dépense militaire mondiale franchit 2.900 Md$ en 2025 (+6% vs 2024).",
     "points": [
       {
-        "titre": "Marchés & Tech",
-        "detail": "Meta/Microsoft élaguent les effectifs pour concentrer sur l'IA. Cohere (Canada) + Aleph Alpha (Allemagne) fusionnent à 20Mds$, créant un champion européen face à OpenAI/Google. DeepSeek (Chine) lance V4 en open-source. Dollar recule sur espoirs négociations Iran."
+        "titre": "Énergie & Commodités",
+        "detail": "Majors pétrolières profitent des tensions géopolitiques pour explorer nouveaux gisements; crise du kérosène impacte transport aérien (Transavia -vols mai/juin); volatilité +400bp vs baseline"
       },
       {
-        "titre": "Macro-éco",
-        "detail": "Économie US navigue résolument à travers tempêtes. Nouvelle-Calédonie province Sud en excédent budgétaire post-austérité. Russie abaisse taux directeur à 14,5% sur fond ralentissement. Infra transport français inadaptées aux mobilités réelles (data téléphoniques)."
+        "titre": "Tech / IA agentique",
+        "detail": "Rupture OpenAI (Musk/Altman) crée incertitude governance; modification génétique émerge comme asset class alternative; Meta intensifie surveillance données employés pour entraînement IA"
       },
       {
-        "titre": "Entreprises & Résultats",
-        "detail": "Eni: +7% bénéfice net Q1. Geely (auto Chine) en force sur thermique. Stellantis Poissy: peu de grévistes. Uber Eats/Deliveroo accusées traite êtres humains. iLearningEngines: fraude boursière AI. UBS: Suisse exige renforcement réserves."
+        "titre": "Grandes Entreprises",
+        "detail": "Epic Games (Fortnite) en contraction post-IPO repoussée; Lululemon perd momentum hypercroissance (-12% consensus); Jaguar pivote tout-électrique haut-risque; Air France pilotes +8% augmentation"
       },
       {
-        "titre": "M&A & Deals",
-        "detail": "Cohere+Aleph Alpha fusion 20Mds$ pour IA européenne. Paramount-Warner: opposition signatures (De Niro, Coppola). Health Data Hub: migration Microsoft→hébergeur français (polémique années)."
-      },
-      {
-        "titre": "Politique & Géo",
-        "detail": "Trump abandonne poursuites Fed (Powell). Iran-Pakistan: négociateur iranien/émissaires US attendus, dollar recule. Macron: EU vs US/Chine/Russie. SCAF franco-allemand vivant. Budget EU à 1,8Tr€: pays 'frugaux' défendent rigueur."
+        "titre": "Géopolitique Économique",
+        "detail": "Chine menace contre-mesures UE sur 'Made in Europe'; Kim Jong-un soutient Moscou (implications sanctions tech); France contre-attaque investissements en Grèce; crise nucléaire Tchernobyl"
       }
     ]
   },
@@ -58,8 +50,8 @@
       },
       {
         "label": "EUR/USD",
-        "value": "1.1721",
-        "change": "+0.30%",
+        "value": "1.1733",
+        "change": "+0.21%",
         "dir": "up"
       },
       {
@@ -70,46 +62,46 @@
       },
       {
         "label": "Or",
-        "value": "4 740 $",
-        "change": "+0.85%",
+        "value": "4 730 $",
+        "change": "+0.77%",
         "dir": "up"
       }
     ],
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "19h59",
-        "titre": "Donald Trump recule, les poursuites contre le président de la Fed, Jerome Powell, abandonnées",
-        "resume": "La procureure fédérale de Washington, Jeanine Pirro, a mis fin aux poursuites visant le patron de la Réserve fédérale américaine, accusé de mauvaise gestion pour la flambée des coûts de rénovation du siège de l’institution. Cette décision était néces",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/24/donald-trump-recule-les-poursuites-contre-le-president-de-la-fed-jerome-powell-abandonnees_6683098_3234.html"
+        "heure": "08h00",
+        "titre": "Pétrole : les majors profitent des conséquences de la guerre au Moyen-Orient pour trouver de nouveaux gisements",
+        "resume": "La hausse des prix du brut pourrait encourager l’industrie pétrolière dans sa quête de nouvelles ressources en hydrocarbures.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/la-guerre-au-moyen-orient-aiguise-l-appetit-des-majors-du-petrole-pour-de-nouveaux-gisements_6683609_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h45",
+        "titre": "À chaque choc pétrolier, la même erreur : protéger les consommateurs et aggraver la crise",
+        "resume": "Du gaz russe au détroit d’Ormuz, les ruptures d’approvisionnement s’enchaînent et exposent la vulnérabilité européenne. Pourtant, la réponse reste inchangée : protéger à court terme plutôt qu’ajuster la demande. Une fuite en avant qui rend la tarific",
+        "url": "https://www.challenges.fr/economie/a-chaque-choc-petrolier-la-meme-erreur-proteger-les-consommateurs-et-aggraver-la-crise_642955"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "10h15",
+        "titre": "Près de 2.900 milliards de dollars : ce qu'il faut retenir de la croissance des dépenses militaires mondiales en 2025",
+        "resume": "Le rapport de référence de l'Institut international de recherche sur la paix de Stockholm (Sipri), publié ce lundi, montre la poursuite de la hausse des dépenses militaires mondiales, portée par l'explosion des dépenses en Europe et en Asie.",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/pres-de-2900-milliards-de-dollars-ce-quil-faut-retenir-de-la-croissance-des-depenses-militaires-mondiales-en-2025-2228619"
       },
       {
         "source": "Le Figaro",
-        "heure": "00h01",
-        "titre": "Le dollar recule avec les espoirs de nouveaux pourparlers entre l'Iran et les États-Unis",
-        "resume": "Le dollar est en baisse vendredi, perdant de son intérêt en tant que valeur refuge avec la perspective d'un retour au dialogue entre Iraniens et...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-recule-avec-les-espoirs-de-nouveaux-pourparlers-entre-l-iran-et-les-etats-unis-20260424"
+        "heure": "08h17",
+        "titre": "Commerce : la Chine menace l’Europe de «contre‑mesures» si Bruxelles maintient sa préférence «Made in Europe»",
+        "resume": "Pékin a vivement réagi au projet de loi européenne sur l’«accélération industrielle», qui impose des exigences d’origine «UE» dans des secteurs considérés comme stratégiques.",
+        "url": "https://www.lefigaro.fr/conjoncture/commerce-la-chine-menace-l-europe-de-contre-mesures-si-bruxelles-maintient-sa-preference-made-in-europe-20260427"
       },
       {
         "source": "Le Figaro",
-        "heure": "18h20",
-        "titre": "Les marchés prudents après l'annonce de l'envoi d'un émissaire iranien au Pakistan",
-        "resume": "Les marchés mondiaux restent prudents vendredi, après l'annonce par un responsable pakistanais que le chef de la diplomatie iranienne était attendu...",
-        "url": "https://www.lefigaro.fr/flash-eco/les-marches-prudents-apres-l-annonce-de-l-envoi-d-un-emissaire-iranien-au-pakistan-20260424"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "14h56",
-        "titre": "Russie: la banque centrale abaisse son taux directeur à 14,5% sur fond de ralentissement économique",
-        "resume": "La Banque centrale de Russie (BCR) a abaissé vendredi son taux directeur de 0,5 point, à 14,5%, dans un contexte de ralentissement de la croissance,...",
-        "url": "https://www.lefigaro.fr/flash-eco/russie-la-banque-centrale-abaisse-son-taux-directeur-a-14-5-sur-fond-de-ralentissement-economique-20260424"
-      },
-      {
-        "source": "Politico EU",
-        "heure": "07h28",
-        "titre": "From Iran to Paris weather: Alleged prediction market violations start stacking up",
-        "resume": "Fault lines over who is in charge of regulation are already emerging, with several frontline Democrats leading the charge on reining in the companies.",
-        "url": "https://www.politico.com/news/2026/04/24/prediction-market-insider-trading-violations-00890570?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        "heure": "19h37",
+        "titre": "Fed : soutien clef à la nomination de Kevin Warsh par un sénateur républicain qui faisait obstruction",
+        "resume": "Le sénateur républicain Thom Tillis a annoncé dimanche qu'il soutiendrait la nomination de Kevin Warsh à la présidence de la banque centrale...",
+        "url": "https://www.lefigaro.fr/flash-eco/fed-soutien-clef-a-la-nomination-de-kevin-warsh-par-un-senateur-republicain-qui-faisait-obstruction-20260426"
       }
     ]
   },
@@ -117,77 +109,84 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "17h15",
-        "titre": "En Chine, le géant de l’automobile Geely en position de force grâce à la résistance des voitures à moteur thermique",
-        "resume": "Dans un marché qui ralentit et se fragmente, les constructeurs historiques reprennent l’avantage, à l’image de Geely, qui combine véhicules thermiques et électriques.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/24/en-chine-le-geant-de-l-automobile-geely-en-position-de-force-grace-a-la-resistance-des-voitures-a-moteur-thermique_6683074_3234.html"
+        "heure": "07h30",
+        "titre": "« Le fantasme d’un humain amélioré, sans maladies, super-performant, super-intelligent » : ces start-up qui rêvent de créer des bébés génétiquement modifiés",
+        "resume": "Nées dans la tech américaine, Preventive ou Origin Genomics entendent faire avancer la modification du génome d’embryons. Une technique très contestée, et largement interdite, qui fait craindre le retour d’une forme d’eugénisme.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/le-fantasme-d-un-humain-ameliore-sans-maladies-super-performant-super-intelligent-ces-start-up-qui-revent-de-creer-des-bebes-genetiquement-modifies_6683602_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "03h30",
-        "titre": "Meta licencie en masse pour investir encore davantage dans l’IA",
-        "resume": "La maison mère de Facebook, de WhatsApp et d’Instagram a annoncé à ses employés, jeudi, qu’elle allait se séparer de 10 % d’entre eux, fin mai, ce qui représente environ 8 000 personnes.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/24/meta-licencie-en-masse-pour-investir-dans-l-intelligence-artificielle_6682887_3234.html"
+        "heure": "07h00",
+        "titre": "Les constructeurs automobiles chinois convoitent les usines européennes pour percer sur le Vieux Continent",
+        "resume": "C’est une tendance nouvelle des industriels venus de Chine : s’installer sur les sites de constructeurs européens existants pour produire en Europe. Dongfeng et Leapmotor avec Stellantis, Chery avec Nissan… plusieurs partenariats sont à l’étude ou év",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/26/les-constructeurs-automobiles-chinois-convoitent-les-usines-europeennes-pour-percer-sur-le-vieux-continent_6683413_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "08h46",
-        "titre": "Meta et Microsoft annoncent des coupes massives dans leurs effectifs, des milliers de postes supprimés",
-        "resume": "Meta a annoncé en interne, jeudi 23 avril, le licenciement de 8 000 personnes, soit environ 10 % de ses effectifs. Microsoft a de son côté fait part à ses équipes d’un plan de départs volontaires qui pourrait concerner jusqu’à 7 % de sa masse salaria",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/meta-et-microsoft-annoncent-des-coupes-massives-dans-leurs-effectifs-des-milliers-de-postes-supprimes_642948"
+        "heure": "12h00",
+        "titre": "L’icône du jeu vidéo Fortnite « s’essouffle » : derrière les licenciements chez Epic Games, l’« érosion d’un modèle »",
+        "resume": "Le mastodonte du jeu vidéo Epic Games a annoncé fin mars licencier plus de 1 000 employés, citant notamment le « déclin de l’engagement » sur son titre phare, Fortnite. Derrière ces coupes, c’est tout le genre du battle royale, qu'il a amené au somme",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/licone-du-jeu-video-fortnite-sessouffle-derriere-les-licenciements-chez-epic-games-l-erosion-dun-modele_642962"
       },
       {
-        "source": "Le Figaro",
-        "heure": "13h19",
-        "titre": "Eni : le bénéfice net a augmenté de 7% au premier trimestre",
-        "resume": "Eni a publié vendredi un bénéfice net en augmentation de 7% au premier trimestre, à près de 1,3 milliard d'euros, la hausse des prix de l'énergie...",
-        "url": "https://www.lefigaro.fr/flash-eco/eni-le-benefice-net-a-augmente-de-7-au-premier-trimestre-20260424"
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "« Lululemon perd son âme » : pourquoi le géant du yoga trébuche après des années d’hypercroissance",
+        "resume": "Enquête sur des composants toxiques, conflits sur la gouvernance, concurrence accrue : le leader mondial des vêtements de yoga connaît une crise inédite.",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/lululemon-perd-son-ame-pourquoi-le-geant-du-yoga-trebuche-apres-des-annees-dhypercroissance_642954"
       },
       {
-        "source": "Le Figaro",
-        "heure": "14h01",
-        "titre": "La nouvelle PDG de La Poste souhaite en «accentuer la dimension internationale»",
-        "resume": "La Poste, deux mots qui évoquent facteurs, camionnettes jaunes et zones rurales. Mais la multinationale est surtout «un des fleurons de l'économie...",
-        "url": "https://www.lefigaro.fr/flash-eco/la-nouvelle-pdg-de-la-poste-souhaite-en-accentuer-la-dimension-internationale-20260424"
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "« Jaguar prend le chemin de l’excès » et parie sur le tout-électrique de luxe : un virage stratégique à haut risque",
+        "resume": "A l’heure où nombre de constructeurs de voitures changent de stratégie, la marque anglaise persiste dans sa révolution zéro émission. En misant sur le style et le très haut de gamme. Mais sans plan B.",
+        "url": "https://www.challenges.fr/automobile/jaguar-prend-le-chemin-de-lexces-et-parie-sur-le-tout-electrique-de-luxe-un-virage-strategique-a-haut-risque_642953"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "Les pilotes d’Air France obtiennent des augmentations salariales",
+        "resume": "EXCLUSIF. Alors qu’Air France a dû augmenter ses tarifs pour supporter la hausse du prix du carburant, ses pilotes viennent d’obtenir plusieurs avancées salariales dans le cadre des négociations annuelles. En contrepartie de davantage de flexibilité ",
+        "url": "https://www.challenges.fr/entreprise/les-pilotes-dair-france-obtiennent-des-augmentations-salariales_642994"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h07",
+        "titre": "Nominations chez Vinci Concessions, PMU, Bonduelle, Destinus et Onera",
+        "resume": "Chaque semaine, la rédaction des Echos, en partenariat avec Nomination.fr, met en avant des femmes et des hommes leaders dans leur domaine, dont le parcours professionnel est notable.",
+        "url": "https://www.lesechos.fr/idees-debats/leadership-management/nominations-chez-vinci-concessions-pmu-bonduelle-destinus-et-onera-2228602"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "13h34",
-        "titre": "La start-up canadienne Cohere et l'allemand Aleph Alpha fusionnent pour créer un champion de l'IA valorisé 20 milliards de dollars",
-        "resume": "Les gouvernements allemand et canadien ont fortement soutenu cette alliance, qu'ils espèrent devenir une alternative crédible aux géants américains de l'IA.",
-        "url": "https://www.lesechos.fr/start-up/deals/la-start-up-canadienne-cohere-et-lallemand-aleph-alpha-fusionnent-pour-creer-un-champion-de-lia-valorise-20-milliards-de-dollars-2228395"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "21h01",
-        "titre": "De Robert De Niro à Sofia Coppola, de nouveaux signataires contre la fusion Paramount–Warner",
-        "resume": "La contestation prend de l’ampleur à Hollywood, où de plus en plus d’acteurs, de réalisateurs et de gens du métier s’opposent au rachat.",
-        "url": "https://www.lefigaro.fr/cinema/de-robert-de-niro-a-sofia-coppola-de-nouveaux-signataires-contre-la-fusion-paramount-warner-20260424"
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Elon Musk contre Sam Altman, deux figures de l’IA en procès autour d’OpenAI",
+        "resume": "A partir de lundi, les deux entrepreneurs seront devant un tribunal californien pour régler un différend autour de la structure d’OpenAI, alors que la bataille pour la régulation est engagée.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/elon-musk-contre-sam-altman-les-enfants-terribles-de-l-ia-en-proces_6683613_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "18h46",
-        "titre": "Données de santé : le Health Data Hub migre de l’américain Microsoft vers un hébergeur français, après des années de polémiques",
-        "resume": "Le gouvernement va confier à Scaleway, filiale du français Iliad, l’hébergement de la Plateforme des données de santé, une base destinée à la recherche, dépendant du géant américain depuis sa création, en 2019.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/24/donnees-de-sante-le-health-data-hub-migre-de-l-americain-microsoft-vers-un-hebergeur-francais-apres-des-annees-de-polemiques_6683082_3234.html"
+        "heure": "16h00",
+        "titre": "Intermarché confronté aux difficultés de plusieurs franchisés en Belgique",
+        "resume": "Des « adhérents » belges du groupement Les Mousquetaires ont dénoncé dans un reportage de la RTBF des situations financières « catastrophiques ». Le distributeur français reconnaît des difficultés mais assure qu’elles sont marginales.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/26/intermarche-confronte-aux-difficultes-de-plusieurs-franchises-en-belgique_6683460_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "08h30",
-        "titre": "« Ils avaient un investissement à 1,6 milliard à défendre » : comment BASF a enfoncé Polytechnyl dans une dépendance industrielle",
-        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel. Ce troisième chapitre raconte comment le géant allemand BASF a tiré parti de la décision de la Commission européenne pour res",
-        "url": "https://www.challenges.fr/entreprise/industrie/ils-avaient-un-investissement-a-16-milliard-a-defendre-comment-basf-a-enfonce-polytechnyl-dans-une-dependance-industrielle_642979"
+        "heure": "17h00",
+        "titre": "L’Agence : les Kretz ouvrent un flagship à Paris et passent à la vitesse supérieure",
+        "resume": "La famille star de l’émission L’Agence développe un réseau bien réel. Flagship à Paris, implantation internationale, clubs d’investisseurs… Le groupe accélère.",
+        "url": "https://www.challenges.fr/immobilier/lagence-les-kretz-ouvrent-un-flagship-a-paris-et-passent-a-la-vitesse-superieure_642961"
       },
       {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "« Ils ne connaissaient absolument rien à ce monde très complexe » : comment le pari hasardeux de la famille De Clerck a précipité la chute de Polytechnyl",
-        "resume": "Derrière la chute du chimiste Polytechnyl et ses 552 emplois menacés, Challenges révèle l’envers d’un roman noir industriel. À l’origine, un deal imposé par la Commission européenne au nom de la concurrence. Dans ce deuxième chapitre, retour au point",
-        "url": "https://www.challenges.fr/entreprise/industrie/ils-ne-connaissaient-absolument-rien-a-ce-monde-tres-complexe-comment-le-pari-hasardeux-de-la-famille-de-clerck-a-precipite-la-chute-de-polytechnyl_642946"
+        "source": "Politico EU",
+        "heure": "06h00",
+        "titre": "LVMH-owned leather-maker linked to deforestation pushes to weaken EU green law",
+        "resume": "NGO says Italian tanneries controlled by the French luxury group are seeking exemptions to EU deforestation law while importing hides linked to Paraguayan forest loss.",
+        "url": "https://www.politico.eu/article/lvmh-leather-maker-deforestation-weaken-eu-green-law/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
       }
     ]
   },
@@ -195,38 +194,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "10h00",
-        "titre": "L’économie américaine semble naviguer résolument à travers toutes les tempêtes",
-        "resume": "Deux mois après le début de la guerre au Moyen-Orient, à l’origine de la plus grande crise énergétique de l’histoire selon l’Agence internationale de l’énergie, les principaux indicateurs économiques sont au vert aux Etats-Unis.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/25/l-economie-americaine-semble-naviguer-resolument-a-travers-toutes-les-tempetes_6683223_3234.html"
+        "heure": "01h24",
+        "titre": "La compagnie aérienne Transavia annule des vols pour mai et juin à cause du prix du kérosène",
+        "resume": "Les annulations concernent « moins de 2 % du programme sur la période mai-juin », selon un porte-parole du transporteur à bas coûts du groupe Air France-KLM.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/26/la-compagnie-aerienne-transavia-annule-des-vols-en-mai-et-juin-a-cause-du-prix-du-kerosene_6683490_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h30",
-        "titre": "Transports publics : leur organisation ne correspond pas à nos mobilités quotidiennes, selon une analyse inédite de données téléphoniques",
-        "resume": "L’analyse du groupe de réflexion Geonexio pointe l’inadéquation entre l’organisation administrative et l’échelle des déplacements quotidiens, bien plus large.",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/04/25/transports-publics-leur-organisation-ne-correspond-pas-a-nos-mobilites-quotidiennes-selon-une-analyse-inedite-de-donnees-telephoniques_6683220_4355770.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "19h30",
-        "titre": "En Nouvelle-Calédonie, un an après le tour de vis social, la province Sud en excédent budgétaire",
-        "resume": "Après avoir sabré les aides sociales au prétexte d’une situation financière catastrophique liée aux violences de 2024, la province Sud a dégagé un excédent budgétaire de 80 millions d’euros en 2025.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/24/en-nouvelle-caledonie-un-an-apres-le-tour-de-vis-social-la-province-sud-en-excedent-budgetaire_6683092_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h30",
-        "titre": "Est-ce qu’on sait faire rouler des camions sans pétrole ?",
-        "resume": "Chaque semaine, l’équipe du podcast Chaleur humaine répond à vos questions sur la transition climatique",
-        "url": "https://www.lemonde.fr/chaleur-humaine/article/2026/04/24/est-ce-qu-on-sait-faire-rouler-des-camions-sans-petrole_6683009_6125299.html"
+        "heure": "07h45",
+        "titre": "Pour libérer des logements inoccupés, Paris va taxer les propriétaires, comme New York ou Bruxelles",
+        "resume": "La loi de finances pour 2026 permet aux villes des zones tendues de quasi doubler la taxe sur les logements vacants à partir de 2027. Paris a annoncé qu’elle utiliserait ce levier fiscal et espère ainsi remettre 20 000 appartements sur le marché.",
+        "url": "https://www.lemonde.fr/societe/article/2026/04/27/logements-inoccupes-paris-va-frapper-les-proprietaires-au-porte-monnaie-comme-bruxelles-ou-new-york_6683605_3224.html"
       },
       {
         "source": "Challenges",
-        "heure": "17h13",
-        "titre": "Après l’Ukraine, la guerre au Moyen-Orient : le moral des Français ne s’est jamais autant dégradé depuis 2022",
-        "resume": "Inflation, chômage, épargne… La perception qu’ont les Français de la situation économique du pays ne s’est jamais autant dégradée d’un mois sur l’autre depuis le début de la guerre en Ukraine, relève l’Insee dans son enquête mensuelle.",
-        "url": "https://www.challenges.fr/economie/apres-lukraine-la-guerre-au-moyen-orient-le-moral-des-francais-ne-sest-jamais-autant-degrade-depuis-2022_642975"
+        "heure": "07h45",
+        "titre": "Projet de loi pour relancer le logement : l’exécutif sort enfin l’artillerie lourde, mais est-il déjà trop tard pour sauver le marché ?",
+        "resume": "À Marseille, l’exécutif sort l’artillerie lourde : permis unique, simplification du DPE et décentralisation. Mais ce « plan d’attaque », entre pragmatisme et calcul électoral, arrive-t-il trop tard pour une filière à bout de souffle ? Analyse d’un vi",
+        "url": "https://www.challenges.fr/immobilier/projet-de-loi-pour-relancer-le-logement-lexecutif-sort-enfin-lartillerie-lourde-mais-est-il-deja-trop-tard-pour-sauver-le-marche_643002"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h30",
+        "titre": "Les propositions du Medef pour mettre fin au chaos des discussions budgétaires",
+        "resume": "L'organisation patronale propose de réviser en profondeur la procédure budgétaire et la gestion des finances publiques. Selon le Medef, le déficit, hors effet de la conjoncture, devrait notamment être limité par la Constitution.",
+        "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/les-propositions-du-medef-pour-mettre-fin-au-chaos-des-discussions-budgetaires-2228593"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "10h15",
+        "titre": "Près de 2.900 milliards de dollars : ce qu'il faut retenir de la croissance des dépenses militaires mondiales en 2025",
+        "resume": "Le rapport de référence de l'Institut international de recherche sur la paix de Stockholm (Sipri), publié ce lundi, montre la poursuite de la hausse des dépenses militaires mondiales, portée par l'explosion des dépenses en Europe et en Asie.",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/pres-de-2900-milliards-de-dollars-ce-quil-faut-retenir-de-la-croissance-des-depenses-militaires-mondiales-en-2025-2228619"
       }
     ]
   },
@@ -234,77 +233,63 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "13h24",
-        "titre": "Le SCAF, projet d’avion de combat franco-allemand, n’est « pas du tout » mort, assure Emmanuel Macron",
-        "resume": "Le président de la République a été interrogé à l’issue de sa rencontre avec le chancelier allemand, Friedrich Merz, sur ce projet qui piétine, notamment en raison de désaccords persistants entre industriels.",
-        "url": "https://www.lemonde.fr/international/article/2026/04/24/pour-emmanuel-macron-le-projet-d-avion-de-combat-franco-allemand-scaf-n-est-pas-du-tout-mort_6683045_3210.html"
-      },
-      {
-        "source": "Politico EU",
         "heure": "20h51",
-        "titre": "Europeans must recognize US, China and Russia are ‘dead against’ us, says Macron",
-        "resume": "French president also said he expected tensions with the U.S. to outlast Trump",
-        "url": "https://www.politico.eu/article/emmanuel-macron-warns-europe-unity-against-us-china-russia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-      },
-      {
-        "source": "Politico EU",
-        "heure": "18h24",
-        "titre": "Europe’s €1.8T budget fight just got real",
-        "resume": "It's an \"extremely difficult negotiation,\" says Italian PM Giorgia Meloni at EU summit in Cyprus.",
-        "url": "https://www.politico.eu/article/europe-1-8-budget-fight-got-real/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-      },
-      {
-        "source": "Politico EU",
-        "heure": "17h00",
-        "titre": "Estonia calls on EU to tax Russian goods to fund Ukraine’s reconstruction",
-        "resume": "Moscow's invasion has caused hundreds of billions of euros of damage.",
-        "url": "https://www.politico.eu/article/estonia-eu-tax-russia-goods-fund-ukraines-reconstruction/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        "titre": "A Athènes, Emmanuel Macron pousse les entreprises françaises à investir en Grèce",
+        "resume": "En visite dans la capitale grecque, le président français était accompagné d’une délégation d’entrepreneurs français intéressés par l’investissement dans un pays en pleine croissance.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/25/a-athenes-emmanuel-macron-pousse-les-entreprises-francaises-a-investir-en-grece_6683272_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "07h13",
-        "titre": "Logement : le gouvernement lance en urgence un projet de loi avec des mesures sur la rénovation urbaine et les passoires thermiques",
-        "resume": "Le premier ministre, Sébastien Lecornu, a fait une série d’annonces qui prendront la forme d’un projet de loi présenté « d’ici à l’été ».",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/24/renovation-urbaine-decentralisation-passoires-thermiques-le-gouvernement-lance-en-urgence-un-projet-de-loi-relance-logement_6682995_823448.html"
+        "heure": "17h38",
+        "titre": "LFI participera finalement à la réunion sur le projet de loi contre l’antisémitisme, annonce Mathilde Panot, invitée de l’émission « Questions politiques »",
+        "resume": "« On va y aller parce qu’on a des choses à dire », a déclaré la cheffe de file des députés « insoumis ». Mais « si l’objet, c’est de faire une loi Yadan bis, c’est-à-dire d’assimiler la critique du gouvernement israélien à de l’antisémitisme, alors n",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/26/lfi-participera-finalement-a-la-reunion-sur-le-projet-de-loi-contre-l-antisemitisme-annonce-mathilde-panot-invitee-de-l-emission-questions-politiques_6683455_823449.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "09h00",
+        "titre": "Présidentielle 2027 : Jean-François Copé s’attaque aux « charlatans » du populisme, visant LFI et le RN",
+        "resume": "Dans son nouveau livre, l’ancien président de l’UMP dénonce l’« imposture » des populistes d’extrême droite et d’extrême gauche. L’occasion pour le maire de Meaux d’effectuer une tournée médiatique et de donner quelques coups de griffes au patron de ",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/26/presidentielle-2027-jean-francois-cope-s-attaque-aux-charlatans-du-populisme-visant-lfi-et-le-rn_6683434_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h30",
+        "titre": "Présidentielle 2027 : en Bretagne, la gauche hors La France insoumise compte ses divisions… et ses candidats",
+        "resume": "Réunis à Liffré, sous l’égide de Loïg Chesnais-Girard, François Hollande, Raphaël Glucksmann, Yannick Jadot ou encore Raquel Garrido ont échangé, sans forcément parvenir à s’entendre sur le processus de désignation d’un candidat.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/26/presidentielle-2027-en-bretagne-la-gauche-hors-la-france-insoumise-compte-ses-divisions-et-ses-candidats_6683416_823448.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h44",
+        "titre": "La Chine menace l’UE sur le plan « made in Europe », Kim Jong-Un réaffirme son soutien à Moscou face à Kiev, Abbas Araghchi en Russie… Ça s’est passé cette nuit",
+        "resume": "La Chine menace l’UE en cas d’adoption du plan « made in Europe », Kim Jong-Un réaffirme son soutien à la « guerre sacrée » de la Russie en Ukraine, le chef de la diplomatie iranienne est en Russie pour rencontrer Vladimir Poutine.",
+        "url": "https://www.challenges.fr/monde/la-chine-menace-lue-sur-le-plan-made-in-europe-kim-jong-un-reaffirme-son-soutien-a-moscou-face-a-kiev-abbas-araghchi-en-russie-ca-sest-passe-cette-nuit_643003"
+      },
+      {
+        "source": "Politico EU",
+        "heure": "04h00",
+        "titre": "Trump’s Iran showdown is becoming Europe’s political nightmare",
+        "resume": "Energy prices are rising, growth is slowing and Europe’s cash-strapped governments have few tools left to protect voters from the fallout.",
+        "url": "https://www.politico.eu/article/trumps-iran-showdown-is-becoming-europes-political-nightmare/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "08h17",
+        "titre": "Commerce : la Chine menace l’Europe de «contre‑mesures» si Bruxelles maintient sa préférence «Made in Europe»",
+        "resume": "Pékin a vivement réagi au projet de loi européenne sur l’«accélération industrielle», qui impose des exigences d’origine «UE» dans des secteurs considérés comme stratégiques.",
+        "url": "https://www.lefigaro.fr/conjoncture/commerce-la-chine-menace-l-europe-de-contre-mesures-si-bruxelles-maintient-sa-preference-made-in-europe-20260427"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Le Monde Éco",
-        "heure": "09h45",
-        "titre": "Pourquoi la Suisse exige du géant bancaire UBS qu’il renforce ses réserves",
-        "resume": "Trois ans après la chute traumatisante de Credit Suisse, Berne veut forcer UBS, la dernière grande banque du pays, à renforcer ses fonds propres, ce qu’elle conteste.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/24/pourquoi-la-suisse-exige-du-geant-bancaire-ubs-qu-il-renforce-ses-reserves_6683016_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h00",
-        "titre": "« Notre secteur est traumatisé par 2022 » : les dossiers de prêts immobiliers risquent-ils d’être refusés à cause de la remontée des taux ?",
-        "resume": "Alors que les taux d’intérêt remontent doucement mais sûrement, des professionnels de l’immobilier s’inquiètent des effets du taux d’usure. Ce plafond fixé par la Banque de France peut en effet conduire à des refus de dossiers. Pour l’instant, ce son",
-        "url": "https://www.challenges.fr/immobilier/notre-secteur-est-traumatise-par-2022-les-dossiers-de-prets-immobiliers-risquent-ils-detre-refuses-a-cause-de-la-remontee-des-taux_642949"
-      },
-      {
         "source": "Le Figaro",
-        "heure": "20h00",
-        "titre": "Crédit immobilier : pourquoi la crainte des refus de prêt refait surface",
-        "resume": "DÉCRYPTAGE - Le retour de la hausse des coûts du crédit, effet collatéral de la guerre au Moyen-Orient, remet un sujet épineux sur la table.",
-        "url": "https://www.lefigaro.fr/finances-perso/credits-immobiliers-pourquoi-la-crainte-des-refus-de-pret-refait-surface-20260424"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "14h56",
-        "titre": "Russie: la banque centrale abaisse son taux directeur à 14,5% sur fond de ralentissement économique",
-        "resume": "La Banque centrale de Russie (BCR) a abaissé vendredi son taux directeur de 0,5 point, à 14,5%, dans un contexte de ralentissement de la croissance,...",
-        "url": "https://www.lefigaro.fr/flash-eco/russie-la-banque-centrale-abaisse-son-taux-directeur-a-14-5-sur-fond-de-ralentissement-economique-20260424"
-      },
-      {
-        "source": "Politico EU",
-        "heure": "18h10",
-        "titre": "13 things we learned at the EU summit in Cyprus",
-        "resume": "From talks on Ukraine and defense to clever kids and digs at Viktor Orbán, here's POLITICO's rundown of the latest European Council.",
-        "url": "https://www.politico.eu/article/13-things-we-learned-at-eu-summit-cyprus/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        "heure": "19h37",
+        "titre": "Fed : soutien clef à la nomination de Kevin Warsh par un sénateur républicain qui faisait obstruction",
+        "resume": "Le sénateur républicain Thom Tillis a annoncé dimanche qu'il soutiendrait la nomination de Kevin Warsh à la présidence de la banque centrale...",
+        "url": "https://www.lefigaro.fr/flash-eco/fed-soutien-clef-a-la-nomination-de-kevin-warsh-par-un-senateur-republicain-qui-faisait-obstruction-20260426"
       }
     ]
   }
