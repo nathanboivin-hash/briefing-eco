@@ -491,28 +491,34 @@ def send_email(briefing, today, ts):
 </body>
 </html>"""
 
-    payload = json.dumps({
-        "from": "Morning Brief <onboarding@resend.dev>",
-        "to": [recipient],
-        "subject": f"Morning Brief — {today}",
-        "html": html
-    }).encode("utf-8")
-
-    req = urllib.request.Request(
-        "https://api.resend.com/emails",
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        }
-    )
     try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            result = json.loads(resp.read())
-            print(f"  Email envoyé → {recipient} (id: {result.get('id','')})")
-    except urllib.error.HTTPError as e:
-        body = e.read().decode()
-        print(f"  Email erreur {e.code}: {body[:200]}")
+        import requests as req_lib
+    except ImportError:
+        import subprocess, sys
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "requests", "-q"])
+        import requests as req_lib
+
+    try:
+        resp = req_lib.post(
+            "https://api.resend.com/emails",
+            json={
+                "from": "Morning Brief <onboarding@resend.dev>",
+                "to": [recipient],
+                "subject": f"Morning Brief — {today}",
+                "html": html
+            },
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+                "User-Agent": "Mozilla/5.0",
+            },
+            timeout=15
+        )
+        if resp.status_code == 200 or resp.status_code == 201:
+            result = resp.json()
+            print(f"  Email envoye -> {recipient} (id: {result.get('id','')})")
+        else:
+            print(f"  Email erreur {resp.status_code}: {resp.text[:200]}")
     except Exception as e:
         print(f"  Email erreur: {e}")
 
