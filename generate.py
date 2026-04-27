@@ -363,6 +363,10 @@ def main():
 
     print(f"✓ briefing.json — {len(json.dumps(briefing))} chars")
 
+    # Envoi email
+    print("→ Envoi email...")
+    send_email(briefing, today, ts)
+
 def send_email(briefing, today, ts):
     """Send beautiful HTML briefing email via Resend."""
     import os
