@@ -2,8 +2,8 @@ name: Générer le briefing
 
 on:
   schedule:
-    - cron: '0 6 * * 1-5'  # 7h Paris (UTC+1) du lundi au vendredi
-  workflow_dispatch:         # permet de lancer manuellement
+    - cron: '0 5 * * 1-5'  # 7h Paris (UTC+2 heure ete)
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -26,6 +26,8 @@ jobs:
       - name: Générer le briefing
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
         run: python generate.py
 
       - name: Commit et push briefing.json
