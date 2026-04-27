@@ -110,7 +110,8 @@ RSS_SOURCES = [
     # Challenges
     ("Challenges",      "https://www.challenges.fr/rss.xml"),
     # Politico
-    ("Politico EU",     "https://www.politico.eu/rss"),
+    ("L'Express",       "https://www.lexpress.fr/arc/outboundfeeds/rss/"),
+    ("Le Point",         "https://www.lepoint.fr/rss.xml"),
 ]
 
 def fetch_rss(source, url):
@@ -261,6 +262,7 @@ RÈGLES IMPORTANTES :
 - "macro" = UNIQUEMENT indicateurs économiques (PIB, inflation, chômage, conjoncture)
 - "politique" = UNIQUEMENT politique (gouvernement FR, UE, géopolitique, budget)
 - "taux" = UNIQUEMENT articles sur taux d'intérêt, OAT, Bund, spread, crédit, BCE, obligations
+- Aucun article en anglais — uniquement presse française
 - Ces sections doivent avoir des articles DIFFÉRENTS
 - "ma" = UNIQUEMENT deals, transactions, LBO, PE, rachats
 - "entreprises" = résultats, nominations, stratégie (PAS de deals M&A)"""
