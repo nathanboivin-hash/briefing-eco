@@ -1,32 +1,31 @@
 {
-  "timestamp": "10h04 le 27/04/2026",
+  "timestamp": "15h34 le 27/04/2026",
   "alerte": {
-    "titre": "Blocage chinois sur acquisition Meta-Manus",
-    "detail": "La Chine bloque l'acquisition par Meta de l'agent d'IA Manus (startup chinoise) sur fond de rivalité technologique. Impact stratégique majeur sur consolidation IA et géopolitique tech.",
+    "titre": "Redressements judiciaires en cascade",
+    "detail": "Fibre Excellence et Gibert demandent leur placement en redressement judiciaire le même jour. Fibre Excellence bénéficie d'une période d'observation de 6 mois pour trouver un repreneur.",
     "indices": [
-      2,
-      70,
-      34
+      3,
+      5
     ]
   },
   "synthese": {
-    "resume": "Lundi noir pour les transports français avec arrêt complet des TGV Paris-Est; Meta face au blocage chinois sur son acquisition d'agent IA; deux géants en difficulté (Gibert en redressement, Lululemon en repli) témoignent d'une fragilité structurelle; débat énergétique aigü avec EDF exposé aux fluctuations de marché et tensions sur kérosène affectant Transavia.",
+    "resume": "Lundi noir pour les infrastructures et le retail français : perturbations SNCF majeures suite à vols de câbles, deux sociétés (Fibre Excellence et Gibert) en redressement judiciaire simultané. La Chine bloque l'acquisition par Meta de l'agent IA Manus, intensifiant la guerre technologique sino-occidentale. Sur les taux, EDF expose la France aux fluctuations de marché énergétique, tandis que le secteur aérien (Transavia) souffre de la volatilité du kérosène.",
     "points": [
       {
-        "titre": "Marchés",
-        "detail": "Ouverture prudente des Bourses européennes. Secteur aérien sous pression (Transavia annule vols mai-juin pour hausse kérosène). Volatilité énergétique impactant pricing majors pétrolières profitant contexte Moyen-Orient."
+        "titre": "Infrastructure & Logistique",
+        "detail": "Deux incidents majeurs paralysent les transports : vols de câbles SNCF causant perturbations fortes Paris-Orléans, reprise progressive TGV Paris-Est après arrêt complet lundi matin. Transavia annule vols mai-juin pour coûts kérosène."
       },
       {
-        "titre": "Macro",
-        "detail": "Crise logement en France (taxe inoccupés à Paris calquée NY/Bruxelles); France Travail table 200k recrutements Occitanie 2026; débat tarifaire déflationniste post-choc pétrolier. Fragilité inflationniste secteur transport-énergie."
+        "titre": "Tensions géopolitiques technologiques",
+        "detail": "Pékin bloque acquisition Meta/Manus (agent IA chinois) dans contexte rivalité technologique sino-US. Tension UE-Chine sur plan 'Made in Europe' avec menaces chinoises en retour."
       },
       {
-        "titre": "Entreprises / M&A",
-        "detail": "Gibert demande redressement judiciaire; Forvia cède division intérieurs automobile; Edilteco se relance; Pierre Damoy-Louis Roederer mariage grands crus; K-Line impose bas-carbone menuiserie alu. Géants fragiles: Lululemon repli hypercroissance, Jaguar virage tout-électrique haut risque."
+        "titre": "Restructurations entreprises",
+        "detail": "Fibre Excellence redressement judiciaire avec observation 6 mois ; Gibert (réseau librairies indépendantes) demande placement redressement judiciaire. SFR : critique de stratégie Drahi qualifiée 'd'acrobatie financière'."
       },
       {
-        "titre": "Politique / Géo",
-        "detail": "Chine menace UE sur plan 'made in Europe'; Pékin bloque acquisition Meta-Manus IA; débat commission audiovisuel public FR; Macron dénonce attaque Trump; tensions radiations Tchernobyl guerre. Impact tarifaire/protectionnisme majeur."
+        "titre": "Politique & Régulation",
+        "detail": "Commission audiovisuel public : rapport Alloncle en vote crucial. Bruno Le Maire tire bilan 7 ans gouvernement, appelle 'tournant dans pratique du pouvoir'. Paris taxe propriétaires logements inoccupés."
       }
     ]
   },
@@ -34,8 +33,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 187",
-        "change": "+0.33%",
+        "value": "8 215",
+        "change": "+0.67%",
         "dir": "up"
       },
       {
@@ -46,20 +45,20 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 169",
-        "change": "+0.45%",
+        "value": "7 167",
+        "change": "+0.17%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "24 854",
-        "change": "+0.96%",
-        "dir": "up"
+        "value": "24 800",
+        "change": "+0.03%",
+        "dir": "flat"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1751",
-        "change": "+0.36%",
+        "value": "1.1755",
+        "change": "+0.40%",
         "dir": "up"
       },
       {
@@ -89,25 +88,18 @@
     ],
     "articles": [
       {
-        "source": "Le Figaro",
-        "heure": "11h16",
-        "titre": "Les Bourses européennes ouvrent prudemment",
-        "resume": "Les marchés boursiers européens ont ouvert prudemment lundi, l'oeil toujours rivé sur la situation au Moyen-Orient, avant une semaine cruciale en...",
-        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-europeennes-ouvrent-prudemment-20260427"
+        "source": "Les Echos",
+        "heure": "19h00",
+        "titre": "Bourse : après la trêve en Iran, le fragile rebond des valeurs européennes",
+        "resume": "Les actions européennes sont reparties à la hausse depuis l'annonce de la trêve entre les Etats-Unis et l'Iran. Energie et technologie encouragent les investisseurs à retourner vers les actions européennes, quitte à basculer dans une certaine myopie.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/bourse-apres-la-treve-en-iran-le-fragile-rebond-des-valeurs-europeennes-2228732"
       },
       {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "Les pilotes d’Air France obtiennent des augmentations salariales",
-        "resume": "EXCLUSIF. Alors qu’Air France a dû augmenter ses tarifs pour supporter la hausse du prix du carburant, ses pilotes viennent d’obtenir plusieurs avancées salariales dans le cadre des négociations annuelles. En contrepartie de davantage de flexibilité ",
-        "url": "https://www.challenges.fr/entreprise/les-pilotes-dair-france-obtiennent-des-augmentations-salariales_642994"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h45",
-        "titre": "À chaque choc pétrolier, la même erreur : protéger les consommateurs et aggraver la crise",
-        "resume": "Du gaz russe au détroit d’Ormuz, les ruptures d’approvisionnement s’enchaînent et exposent la vulnérabilité européenne. Pourtant, la réponse reste inchangée : protéger à court terme plutôt qu’ajuster la demande. Une fuite en avant qui rend la tarific",
-        "url": "https://www.challenges.fr/economie/a-chaque-choc-petrolier-la-meme-erreur-proteger-les-consommateurs-et-aggraver-la-crise_642955"
+        "source": "Les Echos",
+        "heure": "19h03",
+        "titre": "« Economic Fury » : Trump déclare la guerre au secteur pétrolier chinois pour ses liens avec l'Iran",
+        "resume": "Le Trésor américain a placé Hengli, le deuxième plus gros groupe pétrochimique privé de Chine, sur une liste noire qui expose ses financiers et ses partenaires à des sanctions. Quarante pétroliers, qui selon Washington ont acheminé du pétrole iranien",
+        "url": "https://www.lesechos.fr/monde/chine/economic-fury-trump-declare-la-guerre-au-secteur-petrolier-chinois-pour-ses-liens-avec-liran-2228735"
       },
       {
         "source": "Le Monde Éco",
@@ -117,23 +109,23 @@
         "url": "https://www.lemonde.fr/economie/article/2026/04/27/la-guerre-au-moyen-orient-aiguise-l-appetit-des-majors-du-petrole-pour-de-nouveaux-gisements_6683609_3234.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "01h24",
-        "titre": "Transavia annule des vols pour mai et juin à cause du prix du kérosène",
-        "resume": "Les annulations concernent « moins de 2 % du programme sur la période mai-juin », selon un porte-parole du transporteur à bas coûts du groupe Air France-KLM.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/26/la-compagnie-aerienne-transavia-annule-des-vols-en-mai-et-juin-a-cause-du-prix-du-kerosene_6683490_3234.html"
+        "source": "Challenges",
+        "heure": "08h42",
+        "titre": "Pékin hausse le ton face au plan « made in Europe » : la Chine menace l’UE en cas d’adoption d’une loi de réindustrialisation",
+        "resume": "La Chine a menacé ce lundi 27 avril de « prendre des contre-mesures » contre l’UE si cette dernière adopte une loi de réindustrialisation sans prendre en compte ses « suggestions ». Pékin juge ce plan « made in Europe » discriminatoire.",
+        "url": "https://www.challenges.fr/monde/pekin-hausse-le-ton-face-au-plan-made-in-europe-la-chine-menace-lue-en-cas-dadoption-dune-loi-de-reindustrialisation_643004"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h45",
+        "titre": "À chaque choc pétrolier, la même erreur : protéger les consommateurs et aggraver la crise",
+        "resume": "Du gaz russe au détroit d’Ormuz, les ruptures d’approvisionnement s’enchaînent et exposent la vulnérabilité européenne. Pourtant, la réponse reste inchangée : protéger à court terme plutôt qu’ajuster la demande. Une fuite en avant qui rend la tarific",
+        "url": "https://www.challenges.fr/economie/a-chaque-choc-petrolier-la-meme-erreur-proteger-les-consommateurs-et-aggraver-la-crise_642955"
       }
     ]
   },
   "entreprises": {
     "articles": [
-      {
-        "source": "Le Monde Éco",
-        "heure": "13h56",
-        "titre": "Gibert va demander son placement en redressement judiciaire",
-        "resume": "Le groupe, qui exploite 16 magasins dans 12 villes et emploie 500 collaborateurs, va désormais se concentrer sur le livre d’occasion. Cette décision illustre les difficultés des librairies dans un contexte de recul global de la lecture et de concurre",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/le-reseau-de-librairies-gibert-va-demander-son-placement-en-redressement-judiciaire_6683635_3234.html"
-      },
       {
         "source": "Le Monde Éco",
         "heure": "12h45",
@@ -142,11 +134,25 @@
         "url": "https://www.lemonde.fr/economie/article/2026/04/27/la-legerete-d-une-basket-peut-elle-relancer-adidas-un-geant-en-perte-de-vitesse_6683627_3234.html"
       },
       {
+        "source": "Le Monde Éco",
+        "heure": "11h00",
+        "titre": "SFR : « La saga entrepreneuriale de Patrick Drahi n’était qu’une acrobatie financière »",
+        "resume": "Bouygues, Orange et Free ont accepté d’entrer en négociations exclusives pour racheter l’opérateur téléphonique. La transaction démontre que son patron est un financier madré, mais qu’il a été un piètre entrepreneur, cédant une entreprise essorée et ",
+        "url": "https://www.lemonde.fr/idees/article/2026/04/27/sfr-la-saga-entrepreneuriale-de-patrick-drahi-n-etait-qu-une-acrobatie-financiere_6683619_3232.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h00",
+        "titre": "Les constructeurs automobiles chinois convoitent les usines européennes pour percer sur le Vieux Continent",
+        "resume": "C’est une tendance nouvelle des industriels venus de Chine : s’installer sur les sites de constructeurs européens existants pour produire en Europe. Dongfeng et Leapmotor avec Stellantis, Chery avec Nissan… plusieurs partenariats sont à l’étude ou év",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/26/les-constructeurs-automobiles-chinois-convoitent-les-usines-europeennes-pour-percer-sur-le-vieux-continent_6683413_3234.html"
+      },
+      {
         "source": "Challenges",
-        "heure": "09h00",
-        "titre": "« Lululemon perd son âme » : pourquoi le géant du yoga trébuche après des années d’hypercroissance",
-        "resume": "Enquête sur des composants toxiques, conflits sur la gouvernance, concurrence accrue : le leader mondial des vêtements de yoga connaît une crise inédite.",
-        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/lululemon-perd-son-ame-pourquoi-le-geant-du-yoga-trebuche-apres-des-annees-dhypercroissance_642954"
+        "heure": "12h00",
+        "titre": "L’icône du jeu vidéo Fortnite « s’essouffle » : derrière les licenciements chez Epic Games, l’« érosion d’un modèle »",
+        "resume": "Le mastodonte du jeu vidéo Epic Games a annoncé fin mars licencier plus de 1 000 employés, citant notamment le « déclin de l’engagement » sur son titre phare, Fortnite. Derrière ces coupes, c’est tout le genre du battle royale, qu'il a amené au somme",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/licone-du-jeu-video-fortnite-sessouffle-derriere-les-licenciements-chez-epic-games-l-erosion-dun-modele_642962"
       },
       {
         "source": "Challenges",
@@ -157,17 +163,17 @@
       },
       {
         "source": "Les Echos",
-        "heure": "11h33",
-        "titre": "Edilteco, spécialiste des produits isolants, parvient à se relancer",
-        "resume": "Affecté par le ralentissement sur le marché du bâtiment, ce spécialiste des solutions d'isolation à base de polystyrène expansé parvient à sortir de 14 mois de redressement judiciaire.",
-        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/edilteco-specialiste-des-produits-isolants-parvient-a-se-relancer-2228646"
+        "heure": "19h19",
+        "titre": "Comment le courtier du CAC 40 Diot-Siaci compte doubler son chiffre d'affaires d'ici à 2029",
+        "resume": "Le groupe vise un chiffre d'affaires de 2 milliards d'euros d'ici à trois ans, en combinant croissance organique et acquisitions internationales. Diot-Siaci qui a récemment accueilli Ardian à son capital, a affiché en 2025 une hausse de 28 % de ses r",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/comment-le-courtier-du-cac-40-diot-siaci-compte-doubler-son-chiffre-daffaires-dici-a-2029-2228743"
       },
       {
         "source": "Les Echos",
-        "heure": "12h07",
-        "titre": "Le vendéen K-Line veut imposer le bas carbone comme le nouveau standard de la menuiserie aluminium",
-        "resume": "Face aux contraintes climatiques et à la mutation du marché du bâtiment, le leader français de la menuiserie généralise l'aluminium et le verre recyclé dans ses gammes.",
-        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/le-vendeen-k-line-veut-imposer-le-bas-carbone-comme-le-nouveau-standard-de-la-menuiserie-aluminium-2228654"
+        "heure": "19h14",
+        "titre": "Forvia, changement de pilotes, l'habitacle descend de voiture",
+        "resume": "En cédant sa division intérieurs pour 1,82 milliard d'euros, Forvia espère redresser la barre. Ce recentrage marque un virage décisif.",
+        "url": "https://www.lesechos.fr/finance-marches/le-radar-des-marches/forvia-changement-de-pilotes-lhabitacle-descend-de-voiture-2228742"
       }
     ]
   },
@@ -176,23 +182,9 @@
       {
         "source": "Le Monde Éco",
         "heure": "13h51",
-        "titre": "La Chine bloque l’acquisition par Meta de Manus, l’agent d’IA développé par une startup chinoise, sur fond de rivalité technologique",
+        "titre": "La Chine bloque l’acquisition par Meta de Manus, l’agent d’IA développé par une start-up chinoise, sur fond de rivalité technologique",
         "resume": "Pékin affirme sa souveraineté numérique en s’opposant à l’entrée de Meta sur le marché stratégique de l’IA chinoise, illustrant la montée des tensions technologiques mondiales.",
         "url": "https://www.lemonde.fr/international/article/2026/04/27/la-chine-bloque-l-acquisition-par-meta-de-l-ia-dernier-cri-manus-sur-fond-de-rivalite-technologique_6683633_3210.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h31",
-        "titre": "Automobile : l'équipementier français Forvia cède sa division « intérieurs »",
-        "resume": "Le gestionnaire d'actifs américain Apollo va acquérir cette activité, qui pèse pour un cinquième du chiffre d'affaires du groupe. L'opération a pour objectif de réduire la forte dette de Forvia.",
-        "url": "https://www.lesechos.fr/industrie-services/automobile/automobile-lequipementier-francais-forvia-cede-sa-division-interieurs-2228645"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "12h49",
-        "titre": "Grands crus : à Gevrey-Chambertin, mariage en vue entre Pierre Damoy et Louis Roederer",
-        "resume": "La maison de champagne a annoncé ses négociations en cours pour acquérir l'un des plus beaux domaines de la Côte de Nuits.",
-        "url": "https://www.lesechos.fr/pme-regions/bourgogne-franche-comte/grands-crus-a-gevrey-chambertin-mariage-en-vue-entre-pierre-damoy-et-louis-roederer-2228670"
       },
       {
         "source": "Le Figaro",
@@ -203,21 +195,35 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "11h00",
-        "titre": "SFR : « La saga entrepreneuriale de Patrick Drahi n’était qu’une acrobatie financière »",
-        "resume": "Bouygues, Orange et Free ont accepté d’entrer en négociations exclusives pour racheter l’opérateur téléphonique. La transaction démontre que son patron est un financier madré, mais qu’il a été un piètre entrepreneur, cédant une entreprise essorée et ",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/27/sfr-la-saga-entrepreneuriale-de-patrick-drahi-n-etait-qu-une-acrobatie-financiere_6683619_3232.html"
+        "heure": "08h00",
+        "titre": "Elon Musk contre Sam Altman, deux figures de l’IA en procès autour d’OpenAI",
+        "resume": "A partir de lundi, les deux entrepreneurs seront devant un tribunal californien pour régler un différend autour de la structure d’OpenAI, alors que la bataille pour la régulation est engagée.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/elon-musk-contre-sam-altman-les-enfants-terribles-de-l-ia-en-proces_6683613_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "20h26",
+        "titre": "Le groupe Lagardère a tenté de peser sur la commission d’enquête sur l’audiovisuel public",
+        "resume": "Selon les informations du « Monde », la direction des affaires institutionnelles du groupe d’Arnaud Lagardère, contrôlé par Vincent Bolloré, a envoyé des listes de questions à des députés, avant leurs échanges avec des auditionnés. Dans leur formulat",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/26/le-groupe-lagardere-a-tente-de-peser-sur-la-commission-d-enquete-sur-l-audiovisuel-public_6683479_3234.html"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Le Monde Éco",
-        "heure": "07h45",
-        "titre": "Pour libérer des logements inoccupés, Paris va taxer les propriétaires, comme New York ou Bruxelles",
-        "resume": "La loi de finances pour 2026 permet aux villes des zones tendues de quasi doubler la taxe sur les logements vacants à partir de 2027. Paris a annoncé qu’elle utiliserait ce levier fiscal et espère ainsi remettre 20 000 appartements sur le marché.",
-        "url": "https://www.lemonde.fr/societe/article/2026/04/27/logements-inoccupes-paris-va-frapper-les-proprietaires-au-porte-monnaie-comme-bruxelles-ou-new-york_6683605_3224.html"
+        "source": "Les Echos",
+        "heure": "19h06",
+        "titre": "Energie : se préparer aux pénuries",
+        "resume": "La guerre dans le détroit d'Ormuz n'a été jusqu'à maintenant abordée, pour ses conséquences en France, que sous l'angle des prix des carburants. Pouvoirs publics et entreprises doivent envisager le scénario de tensions d'approvisionnement - et donc d",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/energie-se-preparer-aux-penuries-2228736"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "18h45",
+        "titre": "Productivité : le décrochage transatlantique acté",
+        "resume": "Les prévisions publiées récemment par la Fed révisent la croissance potentielle américaine à la hausse, même sans apport migratoire. L'Europe est à la traîne, explique Nicolas Goetzmann.",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/productivite-le-decrochage-transatlantique-acte-2228730"
       },
       {
         "source": "Les Echos",
@@ -227,30 +233,58 @@
         "url": "https://www.lesechos.fr/pme-regions/occitanie/cest-un-enjeu-strategique-france-travail-table-sur-plus-de-200000-recrutements-en-occitanie-cette-annee-2228639"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "13h30",
-        "titre": "Logement : un réveil tardif mais nécessaire",
-        "resume": "L’annonce par le gouvernement, le 23 avril, d’un projet de loi pour relancer le secteur est bienvenue tant le sujet est devenu central pour les Français. Elle permet aussi à l’exécutif de montrer qu’il agit sur un terrain investi par le Rassemblement",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/27/logement-un-reveil-tardif-mais-necessaire_6683631_3232.html"
+        "source": "Les Echos",
+        "heure": "18h52",
+        "titre": "Alerte sur les risques psychosociaux au ministère du Travail",
+        "resume": "Confrontés à une baisse des effectifs depuis dix ans, les 7.000 agents du ministère hors services centraux subissent toutes les conséquences d'une surcharge de travail, montrent deux rapports d'expertise.",
+        "url": "https://www.lesechos.fr/economie-france/social/alerte-sur-les-risques-psychosociaux-au-ministere-du-travail-2228731"
       },
       {
-        "source": "Challenges",
-        "heure": "07h45",
-        "titre": "Projet de loi pour relancer le logement : l’exécutif sort enfin l’artillerie lourde, mais est-il déjà trop tard pour sauver le marché ?",
-        "resume": "À Marseille, l’exécutif sort l’artillerie lourde : permis unique, simplification du DPE et décentralisation. Mais ce « plan d’attaque », entre pragmatisme et calcul électoral, arrive-t-il trop tard pour une filière à bout de souffle ? Analyse d’un vi",
-        "url": "https://www.challenges.fr/immobilier/projet-de-loi-pour-relancer-le-logement-lexecutif-sort-enfin-lartillerie-lourde-mais-est-il-deja-trop-tard-pour-sauver-le-marche_643002"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h45",
-        "titre": "À chaque choc pétrolier, la même erreur : protéger les consommateurs et aggraver la crise",
-        "resume": "Du gaz russe au détroit d’Ormuz, les ruptures d’approvisionnement s’enchaînent et exposent la vulnérabilité européenne. Pourtant, la réponse reste inchangée : protéger à court terme plutôt qu’ajuster la demande. Une fuite en avant qui rend la tarific",
-        "url": "https://www.challenges.fr/economie/a-chaque-choc-petrolier-la-meme-erreur-proteger-les-consommateurs-et-aggraver-la-crise_642955"
+        "source": "Les Echos",
+        "heure": "19h01",
+        "titre": "Epidémie d'arrêts maladie : comment le gouvernement essaye de réduire leur coût",
+        "resume": "Le nombre d'arrêts maladie et leur durée augmentent en France, et la facture pour la Sécurité sociale avec. Dans « La Story », le podcast d'actualité des « Echos », Clara Grouzis et Solenn Poulennec analysent comment le gouvernement cherche à économi",
+        "url": "https://www.lesechos.fr/economie-france/social/epidemie-darrets-maladie-comment-le-gouvernement-essaye-de-reduire-leur-cout-2228734"
       }
     ]
   },
   "politique": {
     "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h00",
+        "titre": "Bruno Le Maire tire les leçons de ses sept années au gouvernement et appelle à un « tournant dans la pratique du pouvoir »",
+        "resume": "Dans un livre publié jeudi 23 avril, l’ex-ministre de l’économie continue de plaider la « responsabilité collective » concernant le dérapage de la dette. Il prône notamment un rééquilibrage du pouvoir présidentiel.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/26/bruno-le-maire-tire-les-lecons-de-ses-sept-annees-au-gouvernement-et-appelle-a-un-tournant-dans-la-pratique-du-pouvoir_6683466_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "12h06",
+        "titre": "Commission d’enquête sur l’audiovisuel public : le « rapport Alloncle » soumis au vote crucial de députés",
+        "resume": "Un vote favorable à la majorité des 30 membres de la commission d’enquête sur « la neutralité et le financement » de l’audiovisuel public est une condition nécessaire pour que le rapport soit rendu public une semaine plus tard.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/27/commission-d-enquete-sur-l-audiovisuel-public-le-rapport-alloncle-soumis-au-vote-crucial-de-deputes_6683622_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "19h00",
+        "titre": "Commission d’enquête sur l’audiovisuel public : derrière les critiques contre Charles Alloncle, ce que disent les chiffres",
+        "resume": "La commission, qui clôt ses travaux lundi 27 avril, a défrayé la chronique en raison de l’attitude de son rapporteur, d’extrême droite. Mais ces six mois d’auditions, qui ont vu défiler à l’Assemblée 238 personnalités de l’audiovisuel, ont-ils été si",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/04/26/commission-d-enquete-sur-l-audiovisuel-public-derriere-les-critiques-contre-charles-alloncle-ce-qui-disent-les-chiffres_6683472_4355770.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "15h00",
+        "titre": "François Baroin : et si c’était lui le « bon » présidentiable de la droite…",
+        "resume": "Son nom revient régulièrement, et s’en va, comme un refrain obsédant. Son profil beaucoup moins droitier peut peser et s’imposer dans cette élection.",
+        "url": "https://www.challenges.fr/politique/francois-baroin-et-si-cetait-lui-le-bon-presidentiable-de-la-droite_642998"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "17h18",
+        "titre": "Présidentielle 2027 : à Lyon, François Ruffin lance sa campagne en mettant en scène un entretien d’embauche au poste de président",
+        "resume": "Le député de la Somme (Debout !) a exhorté les classes populaires à se détourner du Rassemblement national, lors d’un premier meeting au format original, qui a rassemblé plus de 2 500 personnes, samedi 25 avril.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/26/presidentielle-2027-a-lyon-francois-ruffin-lance-sa-campagne-en-mettant-en-scene-un-entretien-d-embauche-au-poste-de-president_6683464_823448.html"
+      },
       {
         "source": "Challenges",
         "heure": "08h42",
@@ -264,27 +298,6 @@
         "titre": "La Chine menace l’UE sur le plan « made in Europe », Kim Jong-Un réaffirme son soutien à Moscou face à Kiev, Abbas Araghchi en Russie… Ça s’est passé cette nuit",
         "resume": "La Chine menace l’UE en cas d’adoption du plan « made in Europe », Kim Jong-Un réaffirme son soutien à la « guerre sacrée » de la Russie en Ukraine, le chef de la diplomatie iranienne est en Russie pour rencontrer Vladimir Poutine.",
         "url": "https://www.challenges.fr/monde/la-chine-menace-lue-sur-le-plan-made-in-europe-kim-jong-un-reaffirme-son-soutien-a-moscou-face-a-kiev-abbas-araghchi-en-russie-ca-sest-passe-cette-nuit_643003"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "18h00",
-        "titre": "Bruno Le Maire tire les leçons de ses sept années au gouvernement et appelle à un « tournant dans la pratique du pouvoir »",
-        "resume": "Dans un livre publié jeudi 23 avril, l’ex-ministre de l’économie continue de plaider la « responsabilité collective » concernant le dérapage de la dette. Il prône notamment un rééquilibrage du pouvoir présidentiel.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/26/bruno-le-maire-tire-les-lecons-de-ses-sept-annees-au-gouvernement-et-appelle-a-un-tournant-dans-la-pratique-du-pouvoir_6683466_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Elon Musk contre Sam Altman, deux figures de l’IA en procès autour d’OpenAI",
-        "resume": "A partir de lundi, les deux entrepreneurs seront devant un tribunal californien pour régler un différend autour de la structure d’OpenAI, alors que la bataille pour la régulation est engagée.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/elon-musk-contre-sam-altman-les-enfants-terribles-de-l-ia-en-proces_6683613_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h54",
-        "titre": "Macron dénonce une attaque « inacceptable » contre Trump qui se compare à Abraham Lincoln",
-        "resume": "Emmanuel Macron a dénoncé ce dimanche une attaque « inacceptable » après la fusillade survenue lors d’un gala des médias à Washington.",
-        "url": "https://www.challenges.fr/monde/macron-denonce-une-attaque-inacceptable-contre-trump-qui-se-compare-a-abraham-lincoln_642997"
       }
     ]
   },
@@ -293,38 +306,72 @@
       {
         "source": "Le Monde Éco",
         "heure": "14h00",
-        "titre": "Electricité : « EDF fait le choix d’un système exposé aux fluctuations des prix de marché »",
+        "titre": "« EDF fait le choix d’un système exposé aux fluctuations des prix de marché »",
         "resume": "Quatre-vingts ans après sa création, EDF s’est détournée de sa mission d’origine : garantir un service public, à partir d’un monopole public de l’hydroélectricité qui vend sa production selon un tarif réglementé, au bénéfice des usagers et des invest",
         "url": "https://www.lemonde.fr/idees/article/2026/04/27/electricite-edf-fait-le-choix-d-un-systeme-expose-aux-fluctuations-des-prix-de-marche_6683637_3232.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "19h37",
-        "titre": "Fed : soutien clef à la nomination de Kevin Warsh par un sénateur républicain qui faisait obstruction",
-        "resume": "Le sénateur républicain Thom Tillis a annoncé dimanche qu'il soutiendrait la nomination de Kevin Warsh à la présidence de la banque centrale...",
-        "url": "https://www.lefigaro.fr/flash-eco/fed-soutien-clef-a-la-nomination-de-kevin-warsh-par-un-senateur-republicain-qui-faisait-obstruction-20260426"
+        "source": "Les Echos",
+        "heure": "19h10",
+        "titre": "Le marché monétaire, nouveau front de la souveraineté européenne",
+        "resume": "Le défi monétaire européen n'est pas seulement de fixer un taux directeur : le cadre doit assurer que les taux courts restent ancrés tout en laissant les marchés produire des signaux prix utiles, analyse Natacha Valla.",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/le-marche-monetaire-nouveau-front-de-la-souverainete-europeenne-2228740"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "17h00",
+        "titre": "« De plus en plus de start-up tech sont financées par de la dette plutôt que par des fonds propres » : la crise de la dette privée expliquée",
+        "resume": "De plus en plus d'investisseurs choisissent de prêter à des start-up technologiques via de la dette. Un mélange des genres entre l'actionnaire et le créancier qui explique les soubresauts du marché de la dette privée, explique Laurent Chaudeurge, mem",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/de-plus-en-plus-de-start-up-tech-sont-financees-par-de-la-dette-plutot-que-par-des-fonds-propres-la-crise-de-la-dette-privee-expliquee-2228713"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "14h18",
+        "titre": "Intel, TSMC, ASML… L'insatiable appétit pour l'IA fait exploser les profits de l'industrie des puces",
+        "resume": "Alors que la demande en infrastructures d'IA ne cesse de progresser, les fabricants de semi-conducteurs se frottent les mains. Même Intel, en grande difficulté il y a quelques mois, retrouve des lendemains qui chantent.",
+        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/intel-tsmc-asml-linsatiable-appetit-pour-lia-fait-exploser-les-profits-de-lindustrie-des-puces-2228687"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.542
+        "rate": 2.542,
+        "prev": 2.538,
+        "diff": 0.004,
+        "trend": "up",
+        "date": "2026-04-24"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.674
+        "rate": 2.674,
+        "prev": 2.674,
+        "diff": -0.001,
+        "trend": "flat",
+        "date": "2026-04-24"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.071
+        "rate": 3.071,
+        "prev": 3.067,
+        "diff": 0.003,
+        "trend": "up",
+        "date": "2026-04-24"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.483
+        "rate": 3.483,
+        "prev": 3.484,
+        "diff": -0.001,
+        "trend": "down",
+        "date": "2026-04-24"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.488
+        "rate": 3.488,
+        "prev": 3.494,
+        "diff": -0.006,
+        "trend": "down",
+        "date": "2026-04-24"
       }
     ]
   },
