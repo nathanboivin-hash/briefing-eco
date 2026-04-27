@@ -1,24 +1,24 @@
 {
-  "timestamp": "09h14 le 27/04/2026",
-  "alerte": null,
+  "timestamp": "09h20 le 27/04/2026",
+  "alerte": "Pétrole en hausse / Géopolitique Moyen-Orient + Chine-UE / Litiges IA OpenAI",
   "synthese": {
-    "resume": "Lundi tendu pour les géants technologiques et industriels : OpenAI/Musk en procès existentiel, Adidas et Lululemon en difficulté stratégique malgré années de croissance. Transavia annule vols (coût kérosène), tandis que pétrole profite tensions géopolitiques (+gisements). Politique française monopolisée par présidentielle 2027 (Ruffin, Copé, Baroin) et commission audiovisuel public divisée.",
+    "resume": "Les majors pétrolières capitalisent sur les tensions géopolitiques au Moyen-Orient pour accélérer l'exploration (+3 gisements identifiés). La Chine menace l'UE sur le plan « made in Europe » tandis que Pékin courtise les usines automobiles européennes. Côté tech, le différend Musk-Altman autour d'OpenAI s'intensifie en procès. Les bourses européennes ouvrent prudemment avec une volatilité accrue liée aux tensions Iran-USA.",
     "points": [
       {
         "titre": "Marchés",
-        "detail": "Bourses européennes ouvertes prudemment (76). Pression déflationniste aérienne : Transavia cancel mai-juin sur prix kérosène (6). Pétrole bénéficie tensions Moyen-Orient (3)."
+        "detail": "Bourses européennes ouverture prudente. Pétrole en hausse support majors. Volatilité Trump-Iran. Tech sous pression (Epic Games licenciements, Lululemon -15%, Jaguar risque stratégique électrique)."
       },
       {
         "titre": "Macro",
-        "detail": "Crise logement relancée par gouvernement (29). Dépenses militaires mondiales +2.900Mds$ en 2025 (70). Chômage Occitanie : 200k+ recrutements visés (57). Protectionnisme Chine vs UE 'made in Europe' (28,30)."
+        "detail": "Kérosène impacte transport aérien (Transavia annule mai-juin). Logement France en stagnation malgré projet loi relance. Dépenses militaires mondiales +2.900Md$ en 2025. Inflation logistique persiste."
       },
       {
         "titre": "Entreprises / M&A",
-        "detail": "Adidas en perte de vitesse, relance par innovation basket (0). Lagardère tente influencer commission audiovisuel (7). SFR/Drahi : saga financière critiquée (1). Forvia cède division intérieurs automobile (67). Epic Games/Fortnite en érosion modèle (37)."
+        "detail": "SFR: Drahi acrobatie financière critiquée. Adidas relance produit léger. Forvia cède division intérieurs (automobile). L'Agence (Kretz) flagship Paris. Intermarché difficultés franchisés Belgique."
       },
       {
         "titre": "Politique / Géo",
-        "detail": "Présidentielle 2027 accélère : Ruffin (21), Copé vs populistes (24), Baroin candidat possible (36). Bruno Le Maire bilan gouvernement (8). Commission audiovisuel : vote critique Alloncle (14,18). Menace Chine sur réindustrialisation EU (28)."
+        "detail": "Pékin menace UE sur reindustrialisation. Présidentielle 2027 (Ruffin, Copé, Baroin). LVMH déforestation pression UE green law. Mali ministre Défense tué. Bachar al-Assad procès ouvert."
       }
     ]
   },
@@ -83,18 +83,32 @@
         "url": "https://www.lemonde.fr/economie/article/2026/04/27/la-guerre-au-moyen-orient-aiguise-l-appetit-des-majors-du-petrole-pour-de-nouveaux-gisements_6683609_3234.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "01h24",
-        "titre": "La compagnie aérienne Transavia annule des vols pour mai et juin à cause du prix du kérosène",
-        "resume": "Les annulations concernent « moins de 2 % du programme sur la période mai-juin », selon un porte-parole du transporteur à bas coûts du groupe Air France-KLM.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/26/la-compagnie-aerienne-transavia-annule-des-vols-en-mai-et-juin-a-cause-du-prix-du-kerosene_6683490_3234.html"
-      },
-      {
         "source": "Challenges",
         "heure": "08h00",
         "titre": "Les pilotes d’Air France obtiennent des augmentations salariales",
         "resume": "EXCLUSIF. Alors qu’Air France a dû augmenter ses tarifs pour supporter la hausse du prix du carburant, ses pilotes viennent d’obtenir plusieurs avancées salariales dans le cadre des négociations annuelles. En contrepartie de davantage de flexibilité ",
         "url": "https://www.challenges.fr/entreprise/les-pilotes-dair-france-obtiennent-des-augmentations-salariales_642994"
+      },
+      {
+        "source": "Challenges",
+        "heure": "12h00",
+        "titre": "L’icône du jeu vidéo Fortnite « s’essouffle » : derrière les licenciements chez Epic Games, l’« érosion d’un modèle »",
+        "resume": "Le mastodonte du jeu vidéo Epic Games a annoncé fin mars licencier plus de 1 000 employés, citant notamment le « déclin de l’engagement » sur son titre phare, Fortnite. Derrière ces coupes, c’est tout le genre du battle royale, qu'il a amené au somme",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/licone-du-jeu-video-fortnite-sessouffle-derriere-les-licenciements-chez-epic-games-l-erosion-dun-modele_642962"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "« Lululemon perd son âme » : pourquoi le géant du yoga trébuche après des années d’hypercroissance",
+        "resume": "Enquête sur des composants toxiques, conflits sur la gouvernance, concurrence accrue : le leader mondial des vêtements de yoga connaît une crise inédite.",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/lululemon-perd-son-ame-pourquoi-le-geant-du-yoga-trebuche-apres-des-annees-dhypercroissance_642954"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "« Jaguar prend le chemin de l’excès » et parie sur le tout-électrique de luxe : un virage stratégique à haut risque",
+        "resume": "A l’heure où nombre de constructeurs de voitures changent de stratégie, la marque anglaise persiste dans sa révolution zéro émission. En misant sur le style et le très haut de gamme. Mais sans plan B.",
+        "url": "https://www.challenges.fr/automobile/jaguar-prend-le-chemin-de-lexces-et-parie-sur-le-tout-electrique-de-luxe-un-virage-strategique-a-haut-risque_642953"
       },
       {
         "source": "Le Figaro",
@@ -122,11 +136,25 @@
         "url": "https://www.lemonde.fr/idees/article/2026/04/27/sfr-la-saga-entrepreneuriale-de-patrick-drahi-n-etait-qu-une-acrobatie-financiere_6683619_3232.html"
       },
       {
+        "source": "Les Echos",
+        "heure": "11h31",
+        "titre": "Automobile : l'équipementier français Forvia cède sa division « intérieurs »",
+        "resume": "Le gestionnaire d'actifs américain Apollo va acquérir cette activité, qui pèse pour un cinquième du chiffre d'affaires du groupe. L'opération a pour objectif de réduire la forte dette de Forvia.",
+        "url": "https://www.lesechos.fr/industrie-services/automobile/automobile-lequipementier-francais-forvia-cede-sa-division-interieurs-2228645"
+      },
+      {
         "source": "Challenges",
-        "heure": "12h00",
-        "titre": "L’icône du jeu vidéo Fortnite « s’essouffle » : derrière les licenciements chez Epic Games, l’« érosion d’un modèle »",
-        "resume": "Le mastodonte du jeu vidéo Epic Games a annoncé fin mars licencier plus de 1 000 employés, citant notamment le « déclin de l’engagement » sur son titre phare, Fortnite. Derrière ces coupes, c’est tout le genre du battle royale, qu'il a amené au somme",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/licone-du-jeu-video-fortnite-sessouffle-derriere-les-licenciements-chez-epic-games-l-erosion-dun-modele_642962"
+        "heure": "17h00",
+        "titre": "L’Agence : les Kretz ouvrent un flagship à Paris et passent à la vitesse supérieure",
+        "resume": "La famille star de l’émission L’Agence développe un réseau bien réel. Flagship à Paris, implantation internationale, clubs d’investisseurs… Le groupe accélère.",
+        "url": "https://www.challenges.fr/immobilier/lagence-les-kretz-ouvrent-un-flagship-a-paris-et-passent-a-la-vitesse-superieure_642961"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "16h00",
+        "titre": "Intermarché confronté aux difficultés de plusieurs franchisés en Belgique",
+        "resume": "Des « adhérents » belges du groupement Les Mousquetaires ont dénoncé dans un reportage de la RTBF des situations financières « catastrophiques ». Le distributeur français reconnaît des difficultés mais assure qu’elles sont marginales.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/26/intermarche-confronte-aux-difficultes-de-plusieurs-franchises-en-belgique_6683460_3234.html"
       },
       {
         "source": "Challenges",
@@ -136,25 +164,11 @@
         "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/lululemon-perd-son-ame-pourquoi-le-geant-du-yoga-trebuche-apres-des-annees-dhypercroissance_642954"
       },
       {
-        "source": "Les Echos",
-        "heure": "11h31",
-        "titre": "Automobile : l'équipementier français Forvia cède sa division « intérieurs »",
-        "resume": "Le gestionnaire d'actifs américain Apollo va acquérir cette activité, qui pèse pour un cinquième du chiffre d'affaires du groupe. L'opération a pour objectif de réduire la forte dette de Forvia.",
-        "url": "https://www.lesechos.fr/industrie-services/automobile/automobile-lequipementier-francais-forvia-cede-sa-division-interieurs-2228645"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "12h07",
-        "titre": "Le vendéen K-Line veut imposer le bas carbone comme le nouveau standard de la menuiserie aluminium",
-        "resume": "Face aux contraintes climatiques et à la mutation du marché du bâtiment, le leader français de la menuiserie généralise l'aluminium et le verre recyclé dans ses gammes.",
-        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/le-vendeen-k-line-veut-imposer-le-bas-carbone-comme-le-nouveau-standard-de-la-menuiserie-aluminium-2228654"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h33",
-        "titre": "Edilteco, spécialiste des produits isolants, parvient à se relancer",
-        "resume": "Affecté par le ralentissement sur le marché du bâtiment, ce spécialiste des solutions d'isolation à base de polystyrène expansé parvient à sortir de 14 mois de redressement judiciaire.",
-        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/edilteco-specialiste-des-produits-isolants-parvient-a-se-relancer-2228646"
+        "source": "Challenges",
+        "heure": "12h00",
+        "titre": "L’icône du jeu vidéo Fortnite « s’essouffle » : derrière les licenciements chez Epic Games, l’« érosion d’un modèle »",
+        "resume": "Le mastodonte du jeu vidéo Epic Games a annoncé fin mars licencier plus de 1 000 employés, citant notamment le « déclin de l’engagement » sur son titre phare, Fortnite. Derrière ces coupes, c’est tout le genre du battle royale, qu'il a amené au somme",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/licone-du-jeu-video-fortnite-sessouffle-derriere-les-licenciements-chez-epic-games-l-erosion-dun-modele_642962"
       }
     ]
   },
@@ -168,11 +182,25 @@
         "url": "https://www.lesechos.fr/pme-regions/bourgogne-franche-comte/grands-crus-a-gevrey-chambertin-mariage-en-vue-entre-pierre-damoy-et-louis-roederer-2228670"
       },
       {
+        "source": "Les Echos",
+        "heure": "11h31",
+        "titre": "Automobile : l'équipementier français Forvia cède sa division « intérieurs »",
+        "resume": "Le gestionnaire d'actifs américain Apollo va acquérir cette activité, qui pèse pour un cinquième du chiffre d'affaires du groupe. L'opération a pour objectif de réduire la forte dette de Forvia.",
+        "url": "https://www.lesechos.fr/industrie-services/automobile/automobile-lequipementier-francais-forvia-cede-sa-division-interieurs-2228645"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h00",
+        "titre": "L’Agence : les Kretz ouvrent un flagship à Paris et passent à la vitesse supérieure",
+        "resume": "La famille star de l’émission L’Agence développe un réseau bien réel. Flagship à Paris, implantation internationale, clubs d’investisseurs… Le groupe accélère.",
+        "url": "https://www.challenges.fr/immobilier/lagence-les-kretz-ouvrent-un-flagship-a-paris-et-passent-a-la-vitesse-superieure_642961"
+      },
+      {
         "source": "Le Monde Éco",
-        "heure": "16h00",
-        "titre": "Intermarché confronté aux difficultés de plusieurs franchisés en Belgique",
-        "resume": "Des « adhérents » belges du groupement Les Mousquetaires ont dénoncé dans un reportage de la RTBF des situations financières « catastrophiques ». Le distributeur français reconnaît des difficultés mais assure qu’elles sont marginales.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/26/intermarche-confronte-aux-difficultes-de-plusieurs-franchises-en-belgique_6683460_3234.html"
+        "heure": "11h00",
+        "titre": "SFR : « La saga entrepreneuriale de Patrick Drahi n’était qu’une acrobatie financière »",
+        "resume": "Bouygues, Orange et Free ont accepté d’entrer en négociations exclusives pour racheter l’opérateur téléphonique. La transaction démontre que son patron est un financier madré, mais qu’il a été un piètre entrepreneur, cédant une entreprise essorée et ",
+        "url": "https://www.lemonde.fr/idees/article/2026/04/27/sfr-la-saga-entrepreneuriale-de-patrick-drahi-n-etait-qu-une-acrobatie-financiere_6683619_3232.html"
       },
       {
         "source": "Le Monde Éco",
@@ -186,11 +214,11 @@
   "macro": {
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "08h42",
-        "titre": "Pékin hausse le ton face au plan « made in Europe » : la Chine menace l’UE en cas d’adoption d’une loi de réindustrialisation",
-        "resume": "La Chine a menacé ce lundi 27 avril de « prendre des contre-mesures » contre l’UE si cette dernière adopte une loi de réindustrialisation sans prendre en compte ses « suggestions ». Pékin juge ce plan « made in Europe » discriminatoire.",
-        "url": "https://www.challenges.fr/monde/pekin-hausse-le-ton-face-au-plan-made-in-europe-la-chine-menace-lue-en-cas-dadoption-dune-loi-de-reindustrialisation_643004"
+        "source": "Le Monde Éco",
+        "heure": "01h24",
+        "titre": "La compagnie aérienne Transavia annule des vols pour mai et juin à cause du prix du kérosène",
+        "resume": "Les annulations concernent « moins de 2 % du programme sur la période mai-juin », selon un porte-parole du transporteur à bas coûts du groupe Air France-KLM.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/26/la-compagnie-aerienne-transavia-annule-des-vols-en-mai-et-juin-a-cause-du-prix-du-kerosene_6683490_3234.html"
       },
       {
         "source": "Challenges",
@@ -200,30 +228,58 @@
         "url": "https://www.challenges.fr/immobilier/projet-de-loi-pour-relancer-le-logement-lexecutif-sort-enfin-lartillerie-lourde-mais-est-il-deja-trop-tard-pour-sauver-le-marche_643002"
       },
       {
-        "source": "Challenges",
-        "heure": "07h44",
-        "titre": "La Chine menace l’UE sur le plan « made in Europe », Kim Jong-Un réaffirme son soutien à Moscou face à Kiev, Abbas Araghchi en Russie… Ça s’est passé cette nuit",
-        "resume": "La Chine menace l’UE en cas d’adoption du plan « made in Europe », Kim Jong-Un réaffirme son soutien à la « guerre sacrée » de la Russie en Ukraine, le chef de la diplomatie iranienne est en Russie pour rencontrer Vladimir Poutine.",
-        "url": "https://www.challenges.fr/monde/la-chine-menace-lue-sur-le-plan-made-in-europe-kim-jong-un-reaffirme-son-soutien-a-moscou-face-a-kiev-abbas-araghchi-en-russie-ca-sest-passe-cette-nuit_643003"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h08",
-        "titre": "« C'est un enjeu stratégique » : France Travail table sur plus de 200.000 recrutements en Occitanie cette année",
-        "resume": "France Travail a exposé dans le Gard les besoins en main-d'oeuvre de la région. Le service public accélère son soutien à la souveraineté industrielle et la Défense nationale.",
-        "url": "https://www.lesechos.fr/pme-regions/occitanie/cest-un-enjeu-strategique-france-travail-table-sur-plus-de-200000-recrutements-en-occitanie-cette-annee-2228639"
-      },
-      {
         "source": "Les Echos",
         "heure": "10h15",
         "titre": "Près de 2.900 milliards de dollars : ce qu'il faut retenir de la croissance des dépenses militaires mondiales en 2025",
         "resume": "Le rapport de référence de l'Institut international de recherche sur la paix de Stockholm (Sipri), publié ce lundi, montre la poursuite de la hausse des dépenses militaires mondiales, portée par l'explosion des dépenses en Europe et en Asie.",
         "url": "https://www.lesechos.fr/industrie-services/air-defense/pres-de-2900-milliards-de-dollars-ce-quil-faut-retenir-de-la-croissance-des-depenses-militaires-mondiales-en-2025-2228619"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h45",
+        "titre": "À chaque choc pétrolier, la même erreur : protéger les consommateurs et aggraver la crise",
+        "resume": "Du gaz russe au détroit d’Ormuz, les ruptures d’approvisionnement s’enchaînent et exposent la vulnérabilité européenne. Pourtant, la réponse reste inchangée : protéger à court terme plutôt qu’ajuster la demande. Une fuite en avant qui rend la tarific",
+        "url": "https://www.challenges.fr/economie/a-chaque-choc-petrolier-la-meme-erreur-proteger-les-consommateurs-et-aggraver-la-crise_642955"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h45",
+        "titre": "Pour libérer des logements inoccupés, Paris va taxer les propriétaires, comme New York ou Bruxelles",
+        "resume": "La loi de finances pour 2026 permet aux villes des zones tendues de quasi doubler la taxe sur les logements vacants à partir de 2027. Paris a annoncé qu’elle utiliserait ce levier fiscal et espère ainsi remettre 20 000 appartements sur le marché.",
+        "url": "https://www.lemonde.fr/societe/article/2026/04/27/logements-inoccupes-paris-va-frapper-les-proprietaires-au-porte-monnaie-comme-bruxelles-ou-new-york_6683605_3224.html"
       }
     ]
   },
   "politique": {
     "articles": [
+      {
+        "source": "Challenges",
+        "heure": "08h42",
+        "titre": "Pékin hausse le ton face au plan « made in Europe » : la Chine menace l’UE en cas d’adoption d’une loi de réindustrialisation",
+        "resume": "La Chine a menacé ce lundi 27 avril de « prendre des contre-mesures » contre l’UE si cette dernière adopte une loi de réindustrialisation sans prendre en compte ses « suggestions ». Pékin juge ce plan « made in Europe » discriminatoire.",
+        "url": "https://www.challenges.fr/monde/pekin-hausse-le-ton-face-au-plan-made-in-europe-la-chine-menace-lue-en-cas-dadoption-dune-loi-de-reindustrialisation_643004"
+      },
+      {
+        "source": "Politico EU",
+        "heure": "06h00",
+        "titre": "LVMH-owned leather-maker linked to deforestation pushes to weaken EU green law",
+        "resume": "NGO says Italian tanneries controlled by the French luxury group are seeking exemptions to EU deforestation law while importing hides linked to Paraguayan forest loss.",
+        "url": "https://www.politico.eu/article/lvmh-leather-maker-deforestation-weaken-eu-green-law/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h00",
+        "titre": "Bruno Le Maire tire les leçons de ses sept années au gouvernement et appelle à un « tournant dans la pratique du pouvoir »",
+        "resume": "Dans un livre publié jeudi 23 avril, l’ex-ministre de l’économie continue de plaider la « responsabilité collective » concernant le dérapage de la dette. Il prône notamment un rééquilibrage du pouvoir présidentiel.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/26/bruno-le-maire-tire-les-lecons-de-ses-sept-annees-au-gouvernement-et-appelle-a-un-tournant-dans-la-pratique-du-pouvoir_6683466_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "17h52",
+        "titre": "Marine Tondelier dénonce le « sabotage » des opposants à une primaire à gauche et juge que trop de candidatures feraient de Jean-Luc Mélenchon « le roi du cimetière »",
+        "resume": "« Le roi du cimetière, ça veut dire que tout le monde est mort à gauche et qu’il y a un roi qui ne sert à rien, parce que tout le monde est mort, qui sera Jean-Luc Mélenchon », a affirmé la patronne des Ecologistes, candidate à la présidentielle.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/26/marine-tondelier-denonce-le-sabotage-des-opposants-a-une-primaire-a-gauche-et-juge-que-trop-de-candidatures-feraient-de-jean-luc-melenchon-le-roi-du-cimetiere_6683465_823448.html"
+      },
       {
         "source": "Le Monde Éco",
         "heure": "17h18",
@@ -244,34 +300,6 @@
         "titre": "Présidentielle 2027 : en Bretagne, la gauche hors La France insoumise compte ses divisions… et ses candidats",
         "resume": "Réunis à Liffré, sous l’égide de Loïg Chesnais-Girard, François Hollande, Raphaël Glucksmann, Yannick Jadot ou encore Raquel Garrido ont échangé, sans forcément parvenir à s’entendre, sur le processus de désignation d’un candidat.",
         "url": "https://www.lemonde.fr/politique/article/2026/04/26/presidentielle-2027-en-bretagne-la-gauche-hors-la-france-insoumise-compte-ses-divisions-et-ses-candidats_6683416_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "15h00",
-        "titre": "François Baroin : et si c’était lui le « bon » présidentiable de la droite…",
-        "resume": "Son nom revient régulièrement, et s’en va, comme un refrain obsédant. Son profil beaucoup moins droitier peut peser et s’imposer dans cette élection.",
-        "url": "https://www.challenges.fr/politique/francois-baroin-et-si-cetait-lui-le-bon-presidentiable-de-la-droite_642998"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "18h00",
-        "titre": "Bruno Le Maire tire les leçons de ses sept années au gouvernement et appelle à un « tournant dans la pratique du pouvoir »",
-        "resume": "Dans un livre publié jeudi 23 avril, l’ex-ministre de l’économie continue de plaider la « responsabilité collective » concernant le dérapage de la dette. Il prône notamment un rééquilibrage du pouvoir présidentiel.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/26/bruno-le-maire-tire-les-lecons-de-ses-sept-annees-au-gouvernement-et-appelle-a-un-tournant-dans-la-pratique-du-pouvoir_6683466_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "17h52",
-        "titre": "Marine Tondelier dénonce le « sabotage » des opposants à une primaire à gauche et juge que trop de candidatures feraient de Jean-Luc Mélenchon « le roi du cimetière »",
-        "resume": "« Le roi du cimetière, ça veut dire que tout le monde est mort à gauche et qu’il y a un roi qui ne sert à rien, parce que tout le monde est mort, qui sera Jean-Luc Mélenchon », a affirmé la patronne des Ecologistes, candidate à la présidentielle.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/26/marine-tondelier-denonce-le-sabotage-des-opposants-a-une-primaire-a-gauche-et-juge-que-trop-de-candidatures-feraient-de-jean-luc-melenchon-le-roi-du-cimetiere_6683465_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "17h38",
-        "titre": "LFI participera finalement à la réunion sur le projet de loi contre l’antisémitisme, annonce Mathilde Panot, invitée de l’émission « Questions politiques »",
-        "resume": "« On va y aller parce qu’on a des choses à dire », a déclaré la cheffe de file des députés « insoumis ». Mais « si l’objet, c’est de faire une loi Yadan bis, c’est-à-dire d’assimiler la critique du gouvernement israélien à de l’antisémitisme, alors n",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/26/lfi-participera-finalement-a-la-reunion-sur-le-projet-de-loi-contre-l-antisemitisme-annonce-mathilde-panot-invitee-de-l-emission-questions-politiques_6683455_823449.html"
       }
     ]
   },
@@ -286,10 +314,24 @@
       },
       {
         "source": "Challenges",
+        "heure": "07h45",
+        "titre": "Projet de loi pour relancer le logement : l’exécutif sort enfin l’artillerie lourde, mais est-il déjà trop tard pour sauver le marché ?",
+        "resume": "À Marseille, l’exécutif sort l’artillerie lourde : permis unique, simplification du DPE et décentralisation. Mais ce « plan d’attaque », entre pragmatisme et calcul électoral, arrive-t-il trop tard pour une filière à bout de souffle ? Analyse d’un vi",
+        "url": "https://www.challenges.fr/immobilier/projet-de-loi-pour-relancer-le-logement-lexecutif-sort-enfin-lartillerie-lourde-mais-est-il-deja-trop-tard-pour-sauver-le-marche_643002"
+      },
+      {
+        "source": "Challenges",
         "heure": "06h45",
         "titre": "À chaque choc pétrolier, la même erreur : protéger les consommateurs et aggraver la crise",
         "resume": "Du gaz russe au détroit d’Ormuz, les ruptures d’approvisionnement s’enchaînent et exposent la vulnérabilité européenne. Pourtant, la réponse reste inchangée : protéger à court terme plutôt qu’ajuster la demande. Une fuite en avant qui rend la tarific",
         "url": "https://www.challenges.fr/economie/a-chaque-choc-petrolier-la-meme-erreur-proteger-les-consommateurs-et-aggraver-la-crise_642955"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "09h00",
+        "titre": "«Rien n’est plus dissuasif que des guetteurs au pied des immeubles» : à Nantes, le marché immobilier impacté par l’insécurité",
+        "resume": "Alors que le marché nantais semble trouver son nouveau point d’équilibre après plusieurs années difficiles, les transactions restent marquées par un excès de prudence, lié en partie à une attractivité municipale en érosion et à une insécurité en repo",
+        "url": "https://www.lefigaro.fr/nantes/rien-n-est-plus-dissuasif-que-des-guetteurs-au-pied-des-immeubles-a-nantes-le-marche-immobilier-impacte-par-l-insecurite-20260426"
       }
     ]
   }
