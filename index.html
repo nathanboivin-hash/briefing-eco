@@ -293,14 +293,25 @@ function render(t) {
             }).join('') +
             '</svg>';
         }
+        // Get most recent date
+        var curveDate = '';
+        curve.forEach(function(p) { if (p.date && !curveDate) curveDate = p.date; });
         var legendItems = curve.map(function(p) {
+          var arrow = '';
+          if (p.trend === 'up')   arrow = '<span style="color:#c0392b;font-size:12px">&#9650;</span>';
+          if (p.trend === 'down') arrow = '<span style="color:#2d6e45;font-size:12px">&#9660;</span>';
+          if (p.trend === 'flat') arrow = '<span style="color:#7a7570;font-size:12px">&#9644;</span>';
+          var diff = p.diff !== null && p.diff !== undefined ? (p.diff > 0 ? '+' + p.diff.toFixed(3) : p.diff.toFixed(3)) + ' pb' : '';
           return '<div class="curve-item">' +
             '<div class="curve-mat">' + p.maturity + '</div>' +
-            '<div class="curve-rate">' + (p.rate !== null ? p.rate.toFixed(2) + '%' : '-') + '</div>' +
+            '<div class="curve-rate">' + (p.rate !== null ? p.rate.toFixed(2) + '%' : '-') + ' ' + arrow + '</div>' +
+            '<div style="font-size:10px;color:var(--muted)">' + diff + '</div>' +
             '</div>';
         }).join('');
+        var dateLabel = curveDate ? '<div style="font-size:10px;color:var(--muted);text-align:right;margin-bottom:8px">Derniere valeur BCE : ' + curveDate + '</div>' : '';
         curveHtml = '<div class="curve-wrap">' +
           '<div class="sec-rule" style="padding:0 0 8px;margin-bottom:12px">Courbe des taux OAT France</div>' +
+          dateLabel +
           '<div class="curve-chart">' + svgContent + '</div>' +
           '<div class="curve-legend">' + legendItems + '</div>' +
           '</div>';
