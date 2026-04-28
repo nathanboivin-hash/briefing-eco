@@ -1,31 +1,31 @@
 {
-  "timestamp": "07h00 le 28/04/2026",
+  "timestamp": "11h27 le 28/04/2026",
   "alerte": {
     "titre": "Air Antilles en liquidation judiciaire",
-    "impact": "Rupture majeure du transport aérien régional aux Caraïbes",
-    "indices": [
-      9,
-      0
-    ]
+    "detail": "Cessation immédiate d'activité pour la compagnie régionale des Caraïbes, 116 salariés impactés. Risque de rupture de la continuité du transport aérien régional."
   },
   "synthese": {
-    "resume": "Air Antilles placée en liquidation avec cessation immédiate d'activité, risquant une rupture du transport régional. La Chine bloque l'acquisition Meta-Manus sur fond de rivalité technologique. Deux acteurs français en difficulté : Gibert demande son redressement judiciaire, Fibre Excellence en observation. Menaces commerciales de Pékin contre le plan « Made in Europe » de l'UE avec mesures de rétorsion annoncées.",
+    "resume": "Le marché du travail français affiche une dynamique positive avec 2,4% de baisse des inscrits à France Travail au T1 2026, contredisant les craintes de ralentissement. La géopolitique économique s'intensifie avec la Chine qui bloque le rachat de Manus par Meta et menace l'UE sur le plan 'Made in Europe'. Deux crises sectorielles structurelles frappent le retail français : Air Antilles en liquidation (transport régional) et Gibert envisage un redressement judiciaire (librairies, crise du livre neuf). Les taux et financing restent au cœur des enjeux avec EDF exposé aux fluctuations de marché et la BCE avançant sur l'euro numérique.",
     "points": [
       {
-        "titre": "Transport aérien",
-        "detail": "Air Antilles liquidée (cessation immédiate) ; Transavia annule vols mai-juin (kérosène) ; risque de rupture continuité transport régional Caraïbes"
+        "titre": "Marchés & Sentiment",
+        "detail": "Wall Street scrute les méga-IPO à venir (SpaceX, OpenAI, Anthropic) avec rivalité NYSE/Nasdaq. Placements financiers en débat sur barème progressif IR. Spéculation volatile sur collectibles (Labubu à 150k$)."
       },
       {
-        "titre": "Tech & IA",
-        "detail": "Meta bloquée sur acquisition Manus (Chine) ; rivalité USA-Chine s'intensifie ; données critères nouveaux de compétition (confiance)"
+        "titre": "Macro France",
+        "detail": "Emploi : -2,4% inscrits France Travail T1 2026 (net recul inattendu). Chômage en amélioration. Comportement consommateur fragile : 37% seulement certains de partir en vacances d'été. Logement : encadrement loyers Paris = 968€/an économisés."
       },
       {
-        "titre": "Retail & Services",
-        "detail": "Gibert (librairies indépendantes) demande redressement judiciaire ; Fibre Excellence en redressement, 6 mois pour repreneur ; Adidas en perte de vitesse"
+        "titre": "Entreprises / Stratégie",
+        "detail": "Adidas tente rebond avec innovation (légèreté basket). EDF choix exposé aux prix marché. Geely chinois surpasse BYD. Engie pénalisée : 2 projets US stoppés par Trump (éolien mer). Sanofi/Airbus/Schneider leaders emploi/carrière."
       },
       {
-        "titre": "Géopolitique commerciale",
-        "detail": "Chine menace rétorsion UE sur « Made in Europe » ; eldorado chinois devenu piège industrie européenne (30 ans)"
+        "titre": "M&A / Restructurations",
+        "detail": "Meta/Manus : Chine bloque rachat (guerre technologique). Fibre Excellence : redressement judiciaire 6 mois repreneur. Polytechnyl : Lone Star reprend brevets + 13% salariés. Gibert librairies en redressement judiciaire imminent."
+      },
+      {
+        "titre": "Géopolitique / Régulation",
+        "detail": "Chine menace UE sur 'Made in Europe' (rétorsion). Trump freine éolien Engie (-millions$). Groenland terres rares : Wall Street vs militaire. Lafarge appel condamnation financement terrorisme Syrie. Iran-Moyen-Orient : tensions Trump."
       }
     ]
   },
@@ -33,8 +33,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 215",
-        "change": "+0.67%",
+        "value": "8 172",
+        "change": "+0.53%",
         "dir": "up"
       },
       {
@@ -45,9 +45,9 @@
       },
       {
         "label": "S&P 500",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
+        "value": "7 179",
+        "change": "+0.36%",
+        "dir": "up"
       },
       {
         "label": "Nasdaq",
@@ -89,38 +89,38 @@
     "articles": [
       {
         "source": "Les Echos",
+        "heure": "13h46",
+        "titre": "Wall Street retient son souffle à l'approche des « méga-IPO »",
+        "resume": "Des cotations réussies pour SpaceX, OpenAI et Anthropic pourraient raviver l'intérêt des entreprises pour la Bourse, mais certains professionnels craignent l'indigestion.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/wall-street-retient-son-souffle-a-lapproche-des-mega-ipo-2228897"
+      },
+      {
+        "source": "Les Echos",
         "heure": "09h05",
         "titre": "SpaceX, OpenAI, Anthropic… A Wall Street, les IPO géantes à venir attisent la rivalité entre le NYSE et le Nasdaq",
         "resume": "Face au Nasdaq, son grand rival, la Bourse de New York ne part pas favorite pour attirer les plus grosses opérations de l'année. Mais elle compte sur un environnement de marché favorable malgré la guerre en Iran pour tirer son épingle du jeu.",
         "url": "https://www.lesechos.fr/finance-marches/marches-financiers/spacex-openai-anthropic-a-wall-street-les-ipo-geantes-a-venir-attisent-la-rivalite-entre-le-nyse-et-le-nasdaq-2228812"
       },
       {
-        "source": "Le Figaro",
-        "heure": "09h30",
-        "titre": "Marché en Asie: pétrole et Bourses face à l'impasse au Moyen-Orient",
-        "resume": "Les prix du pétrole continuent de grimper mardi en Asie et la Bourse de Tokyo recule en l'absence d'issue au conflit entre les États-Unis et l'Iran et...",
-        "url": "https://www.lefigaro.fr/flash-eco/marche-en-asie-petrole-et-bourses-face-a-l-impasse-au-moyen-orient-20260428"
+        "source": "Challenges",
+        "heure": "13h08",
+        "titre": "150 000 dollars pour une poupée effrayante : la folle spéculation autour des Labubu va-t-elle s’effondrer ?",
+        "resume": "Oubliez l’or et les cryptomonnaies, la folie spéculative la plus étrange qui existe, ce sont les poupées Labubu. L’exubérance règne toujours sur le marché. Mais l’engouement est moins frénétique qu’avant. La bulle pourrait-elle exploser ?",
+        "url": "https://www.challenges.fr/entreprise/150-000-dollars-pour-une-poupee-effrayante-la-folle-speculation-autour-des-labubu-va-t-elle-seffondrer_643038"
       },
       {
-        "source": "Le Figaro",
-        "heure": "00h40",
-        "titre": "Wall Street joue la prudence en préambule d'une semaine intense",
-        "resume": "La Bourse de New York a clôturé sans vraie impulsion lundi, en lever de rideau d'une semaine bien remplie avec une multitude de résultats...",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-joue-la-prudence-en-preambule-d-une-semaine-intense-20260427"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h53",
-        "titre": "Hausse des prix des carburants, réorganisation des vols, inflation : les vacances d’été des Français sous contraintes, selon une étude",
-        "resume": "Les vacanciers partiront moins, plus près, avec des budgets rognés et un recours accru à l’hébergement gratuit.",
-        "url": "https://www.lefigaro.fr/conso/hausse-des-prix-des-carburants-reorganisation-des-vols-inflation-les-vacances-d-ete-des-francais-sous-contraintes-selon-une-etude-20260428"
+        "source": "Les Echos",
+        "heure": "14h39",
+        "titre": "Influenceurs, publicité, refonte technique… le plan de BeReal pour tenter de renouer avec le succès",
+        "resume": "Après des années de passage à vide, le réseau social français désormais stabilisé techniquement mise sur des partenariats avec des influenceurs de renom et l'introduction de publicités innovantes pour remonter la pente.",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/influenceurs-publicite-refonte-technique-le-plan-de-bereal-pour-tenter-de-renouer-avec-le-succes-2228908"
       },
       {
         "source": "Challenges",
-        "heure": "06h45",
-        "titre": "À chaque choc pétrolier, la même erreur : protéger les consommateurs et aggraver la crise",
-        "resume": "Du gaz russe au détroit d’Ormuz, les ruptures d’approvisionnement s’enchaînent et exposent la vulnérabilité européenne. Pourtant, la réponse reste inchangée : protéger à court terme plutôt qu’ajuster la demande. Une fuite en avant qui rend la tarific",
-        "url": "https://www.challenges.fr/economie/a-chaque-choc-petrolier-la-meme-erreur-proteger-les-consommateurs-et-aggraver-la-crise_642955"
+        "heure": "21h05",
+        "titre": "Près de 1 000 euros par an : voici ce que les locataires parisiens économisent grâce à l’encadrement des loyers selon une étude",
+        "resume": "L’encadrement des loyers, menacé de disparition à la fin de l’année, a bien eu des effets concrets. Selon une étude de l’Apur, il n’a certes pas empêché une hausse des loyers parisiens mais a permis de la contenir, faisant ainsi économiser près de 1 ",
+        "url": "https://www.challenges.fr/immobilier/pres-de-1-000-euros-par-an-voici-ce-que-les-locataires-parisiens-economisent-grace-a-lencadrement-des-loyers-selon-une-etude_643030"
       }
     ]
   },
@@ -135,24 +135,10 @@
       },
       {
         "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Sanofi, Airbus, Schneider… les 10 entreprises où votre carrière et votre salaire peuvent décoller rapidement en France",
-        "resume": "Challenges dévoile en exclusivité le classement Top Companies 2026 de LinkedIn France. Banque, industrie, tech, conseil… Tour d’horizon des entreprises qui permettent les évolutions de carrière les plus rapides en France, et donc les meilleures progr",
-        "url": "https://www.challenges.fr/vie-de-lentreprise/sanofi-airbus-schneider-les-10-entreprises-ou-votre-carriere-et-votre-salaire-peuvent-decoller-rapidement-en-france_643027"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "19h19",
-        "titre": "Comment le courtier du CAC 40 Diot-Siaci compte doubler son chiffre d'affaires d'ici à 2029",
-        "resume": "Le groupe vise un chiffre d'affaires de 2 milliards d'euros d'ici à trois ans, en combinant croissance organique et acquisitions internationales. Diot-Siaci qui a récemment accueilli Ardian à son capital, a affiché en 2025 une hausse de 28 % de ses r",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/comment-le-courtier-du-cac-40-diot-siaci-compte-doubler-son-chiffre-daffaires-dici-a-2029-2228743"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h20",
-        "titre": "« A ce stade, l'IA n'a pas réduit les besoins en recrutement chez Ledger, au contraire »",
-        "resume": "L'entreprise française spécialisée dans la sécurisation des cryptos emploie 700 salariés. Impact de l'IA, place des femmes dans la tech, charge de travail… tour d'horizon des sujets RH qui font l'actualité avec Alexandre Blanc, DRH de Ledger.",
-        "url": "https://www.lesechos.fr/travailler-mieux/vie-au-travail/a-ce-stade-lia-na-pas-reduit-les-besoins-en-recrutement-chez-ledger-au-contraire-2228817"
+        "heure": "12h00",
+        "titre": "Nucléaire : EDF accélère avec une usine dédiée aux EPR 2, entre ambitions industrielles et incertitudes",
+        "resume": "La future usine de turbines de Chalon-sur-Saône pour les réacteurs EPR 2 s’inscrit dans un plan de relance de l’atome qui accuse déjà des retards et des surcoûts.",
+        "url": "https://www.challenges.fr/entreprise/energie/nucleaire-edf-accelere-avec-une-usine-dediee-aux-epr-2-entre-ambitions-industrielles-et-incertitudes_643034"
       },
       {
         "source": "Challenges",
@@ -160,6 +146,20 @@
         "titre": "« Un avantage concurrentiel évident » : pourquoi le constructeur automobile chinois Geely fait de l’ombre à son compatriote BYD",
         "resume": "Le constructeur automobile chinois Geely a surpris en vendant plus de voitures que son compatriote BYD sur les deux premiers mois de 2026. L’entreprise met à présent l’accent sur l’international, et peut compter pour cela sur la polyvalence de son of",
         "url": "https://www.challenges.fr/automobile/un-avantage-concurrentiel-evident-pourquoi-le-constructeur-automobile-chinois-geely-fait-de-lombre-a-son-compatriote-byd_643026"
+      },
+      {
+        "source": "Challenges",
+        "heure": "18h00",
+        "titre": "Sanofi, Airbus, Schneider… les 10 entreprises où votre carrière et votre salaire peuvent décoller rapidement en France",
+        "resume": "Challenges dévoile en exclusivité le classement Top Companies 2026 de LinkedIn France. Banque, industrie, tech, conseil… Tour d’horizon des entreprises qui permettent les évolutions de carrière les plus rapides en France, et donc les meilleures progr",
+        "url": "https://www.challenges.fr/vie-de-lentreprise/sanofi-airbus-schneider-les-10-entreprises-ou-votre-carriere-et-votre-salaire-peuvent-decoller-rapidement-en-france_643027"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "13h49",
+        "titre": "Comment Airbus entend profiter de la hausse des dépenses militaires au Canada",
+        "resume": "La hausse des dépenses de défense à Ottawa, portée par la pression de l'Otan et les tensions en Arctique, ouvre des opportunités pour Airbus. L'industriel européen tente de se positionner face à des concurrents américains ultra-dominants.",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/comment-airbus-entend-profiter-de-la-hausse-des-depenses-militaires-au-canada-2228898"
       }
     ]
   },
@@ -174,10 +174,17 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "13h51",
-        "titre": "La Chine bloque l’acquisition par Meta de Manus, l’agent d’IA développé par une start-up chinoise, sur fond de rivalité technologique",
-        "resume": "Pékin affirme sa souveraineté numérique en s’opposant à l’entrée de Meta sur le marché stratégique de l’IA chinoise, illustrant la montée des tensions technologiques mondiales.",
-        "url": "https://www.lemonde.fr/international/article/2026/04/27/la-chine-bloque-l-acquisition-par-meta-de-l-ia-dernier-cri-manus-sur-fond-de-rivalite-technologique_6683633_3210.html"
+        "heure": "15h30",
+        "titre": "Fibre Excellence en redressement judiciaire ; une période d’observation de six mois pour trouver un repreneur",
+        "resume": "Les 670 salariés des usines de pâte à papier échappent à une liquidation judiciaire. Les éventuelles offres de reprise seront examinées le 17 juin.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/fibre-excellence-en-redressement-judiciaire-une-periode-d-observation-de-six-mois-pour-trouver-un-repreneur_6683642_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h56",
+        "titre": "Gibert, réseau indépendant de librairies, va demander son placement en redressement judiciaire face à la crise du livre neuf",
+        "resume": "Le groupe, qui exploite 16 magasins dans 12 villes et emploie 500 collaborateurs, constate le « déclin du marché des livres neufs » et va désormais se concentrer sur le livre d’occasion.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/le-reseau-de-librairies-gibert-va-demander-son-placement-en-redressement-judiciaire_6683635_3234.html"
       },
       {
         "source": "Challenges",
@@ -187,18 +194,11 @@
         "url": "https://www.challenges.fr/entreprise/industrie/les-usines-de-polytechnyl-sacrifiees-lone-star-reprend-les-brevets-et-seulement-13-des-salaries_643028"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "15h30",
-        "titre": "Fibre Excellence en redressement judiciaire ; une période d’observation de six mois pour trouver un repreneur",
-        "resume": "Les 670 salariés des usines de pâte à papier échappent à une liquidation judiciaire. Les éventuelles offres de reprise seront examinées le 17 juin.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/fibre-excellence-en-redressement-judiciaire-une-periode-d-observation-de-six-mois-pour-trouver-un-repreneur_6683642_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "13h56",
-        "titre": "Gibert, réseau indépendant de librairies, va demander son placement en redressement judiciaire",
-        "resume": "Le groupe, qui exploite 16 magasins dans 12 villes et emploie 500 collaborateurs, constate le « déclin du marché des livres neufs » et va désormais se concentrer sur le livre d’occasion.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/le-reseau-de-librairies-gibert-va-demander-son-placement-en-redressement-judiciaire_6683635_3234.html"
+        "source": "Les Echos",
+        "heure": "14h59",
+        "titre": "Plus de 400 millions de dollars : le pactole du patron de Rivian tombe au plus mauvais moment pour Volkswagen",
+        "resume": "Le PDG et fondateur du constructeur de véhicules électriques californien, RJ Scaringe, a touché une rémunération globale de 402,6 millions de dollars l'année dernière. Au moment où son partenaire allemand essaie de se serrer la ceinture.",
+        "url": "https://www.lesechos.fr/industrie-services/automobile/plus-de-400-millions-de-dollars-le-pactole-du-patron-de-rivian-tombe-au-plus-mauvais-moment-pour-volkswagen-2228915"
       }
     ]
   },
@@ -206,43 +206,50 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "08h30",
-        "titre": "En trente ans, l’eldorado chinois s’est transformé en piège pour l’industrie européenne",
-        "resume": "« Comment la Chine dévore l’Europe » (1/4). En quelques décennies, la Chine est passée d’atelier du monde à rival technologique majeur pour les Européens. Ces derniers, qui imaginaient profiter de son vaste marché intérieur, ont sous-estimé la capaci",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/28/en-trente-ans-l-eldorado-chinois-s-est-transforme-en-piege-pour-l-industrie-europeenne_6683875_3234.html"
+        "heure": "14h58",
+        "titre": "Emploi : le nombre d’inscrits à France Travail en baisse de 2,4 % au premier trimestre",
+        "resume": "Malgré une situation économique compliquée, l’opérateur public compte 58 000 demandeurs d’emploi sans activité en moins par rapport à fin 2025, selon les données corrigées liées aux dernières évolutions du mode de calcul.",
+        "url": "https://www.lemonde.fr/emploi/article/2026/04/28/emploi-le-nombre-d-inscrits-a-france-travail-en-baisse-de-2-4-au-premier-trimestre_6683914_1698637.html"
       },
       {
         "source": "Les Echos",
-        "heure": "21h00",
-        "titre": "Les entreprises européennes ont publié des résultats solides au titre du premier trimestre",
-        "resume": "Les groupes cotés du Vieux Continent échappent pour l'instant aux conséquences de la guerre en Iran. Les chiffres publiés ces dernières semaines sont en ligne avec les attentes des analystes. Les entreprises demeurent toutefois prudentes sur les cons",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/les-entreprises-europeennes-ont-publie-des-resultats-solides-au-titre-du-premier-trimestre-2228779"
+        "heure": "14h02",
+        "titre": "Chômage : net recul inattendu des inscrits à France Travail début 2026",
+        "resume": "Le nombre d'inscrits à France Travail sans activité a diminué de près de 60.000 au premier trimestre 2026, hors effet de la réforme du service public de l'emploi, selon des chiffres publiés ce mardi par la Dares.",
+        "url": "https://www.lesechos.fr/economie-france/social/chomage-net-recul-des-inscrits-a-france-travail-debut-2026-2228903"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Plus de 840 000 personnes meurent chaque année dans le monde des conséquences des risques psychosociaux liés au travail",
-        "resume": "L’Organisation internationale du travail (OIT) publie un rapport sur les conséquences des risques psychosociaux à l’occasion de la Journée mondiale de la sécurité et de la santé au travail, qui se tient le 28 avril, écrit le journaliste du « Monde » ",
-        "url": "https://www.lemonde.fr/emploi/article/2026/04/28/stress-harcelement-charge-mentale-digitale-840-000-personnes-meurent-chaque-annee-dans-le-monde-de-pathologies-liees-aux-risques-psychosociaux_6683866_1698637.html"
+        "heure": "12h33",
+        "titre": "Des vacances d’été sans trop dépenser et à proximité : « Seuls 37 % des Français se déclarent certains de partir », selon une étude",
+        "resume": "Face à la hausse des coûts et aux incertitudes de la situation internationale, les ménages se tournent vers des séjours plus courts et des hébergements gratuits, selon une étude de l’Alliance France tourisme publiée mardi.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/vacances-d-ete-2026-budgets-en-baisse-et-destinations-locales-pour-les-francais_6683894_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "07h45",
-        "titre": "Projet de loi pour relancer le logement : l’exécutif sort enfin l’artillerie lourde, mais est-il déjà trop tard pour sauver le marché ?",
-        "resume": "À Marseille, l’exécutif sort l’artillerie lourde : permis unique, simplification du DPE et décentralisation. Mais ce « plan d’attaque », entre pragmatisme et calcul électoral, arrive-t-il trop tard pour une filière à bout de souffle ? Analyse d’un vi",
-        "url": "https://www.challenges.fr/immobilier/projet-de-loi-pour-relancer-le-logement-lexecutif-sort-enfin-lartillerie-lourde-mais-est-il-deja-trop-tard-pour-sauver-le-marche_643002"
+        "source": "Le Monde Éco",
+        "heure": "22h49",
+        "titre": "Encadrement des loyers à Paris : 968 euros économisés en moyenne par an pour les locataires, annonce l’Apur",
+        "resume": "L’encadrement des loyers, que le maire PS de Paris, Emmanuel Grégoire, appelle à pérenniser, a permis de minorer les loyers de 5 % en moyenne à Paris depuis 2019, selon une étude de l’Atelier parisien d’urbanisme publiée lundi.",
+        "url": "https://www.lemonde.fr/societe/article/2026/04/27/encadrement-des-loyers-a-paris-968-euros-economises-en-moyenne-par-an-pour-les-locataires-annonce-l-apur_6683675_3224.html"
       },
+      {
+        "source": "Les Echos",
+        "heure": "10h30",
+        "titre": "« La décentralisation est la condition du renouveau économique »",
+        "resume": "La France dispose d'atouts considérables qu'elle dilapide par excès de centralisation. Rendons aux territoires la capacité à lever l'impôt, à financer leurs propres infrastructures, à attirer des entreprises sans passer par le filtre de Paris, plaide",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/la-decentralisation-est-la-condition-du-renouveau-economique-2228834"
+      }
+    ]
+  },
+  "politique": {
+    "articles": [
       {
         "source": "Le Monde Éco",
         "heure": "20h00",
         "titre": "« Made in Europe » : la Chine menace l’Union européenne de mesures de rétorsion",
         "resume": "Le plan de Bruxelles pour réindustrialiser le Vieux Continent a déclenché l’ire de Pékin, qui l’a fait savoir dans un communiqué publié lundi 27 avril.",
         "url": "https://www.lemonde.fr/economie/article/2026/04/27/made-in-europe-la-chine-menace-l-union-europeenne-de-mesures-de-retorsion_6683663_3234.html"
-      }
-    ]
-  },
-  "politique": {
-    "articles": [
+      },
       {
         "source": "Challenges",
         "heure": "08h42",
@@ -252,24 +259,10 @@
       },
       {
         "source": "Challenges",
-        "heure": "07h44",
-        "titre": "La Chine menace l’UE sur le plan « made in Europe », Kim Jong-Un réaffirme son soutien à Moscou face à Kiev, Abbas Araghchi en Russie… Ça s’est passé cette nuit",
-        "resume": "La Chine menace l’UE en cas d’adoption du plan « made in Europe », Kim Jong-Un réaffirme son soutien à la « guerre sacrée » de la Russie en Ukraine, le chef de la diplomatie iranienne est en Russie pour rencontrer Vladimir Poutine.",
-        "url": "https://www.challenges.fr/monde/la-chine-menace-lue-sur-le-plan-made-in-europe-kim-jong-un-reaffirme-son-soutien-a-moscou-face-a-kiev-abbas-araghchi-en-russie-ca-sest-passe-cette-nuit_643003"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "07h45",
-        "titre": "Pour libérer des logements inoccupés, Paris va taxer les propriétaires, comme New York ou Bruxelles",
-        "resume": "La loi de finances pour 2026 permet aux villes des zones tendues de quasi doubler la taxe sur les logements vacants à partir de 2027. Paris a annoncé qu’elle utiliserait ce levier fiscal et espère ainsi remettre 20 000 appartements sur le marché.",
-        "url": "https://www.lemonde.fr/societe/article/2026/04/27/logements-inoccupes-paris-va-frapper-les-proprietaires-au-porte-monnaie-comme-bruxelles-ou-new-york_6683605_3224.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "07h00",
-        "titre": "Les députés et sénateurs français en quête de poids diplomatique à l’international",
-        "resume": "Sans poids législatif, les parlementaires, au travers de groupes d’amitié ou de leurs liens avec les diasporas, tentent de créer des ponts à l’international, utiles à la politique étrangère de l’exécutif français.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/27/la-diplomatie-parlementaire-entre-coups-d-eclat-symboliques-et-travail-de-l-ombre_6683594_823448.html"
+        "heure": "11h22",
+        "titre": "Des millions pour qu’Engie arrête des projets aux Etats-Unis : l’administration Trump sort le carnet de chèques pour freiner l’éolien en mer",
+        "resume": "Le ministère américain de l’Intérieur a annoncé, lundi 27 avril, qu’il verserait un total de 885 millions de dollars à des énergéticiens, dont le français Engie, pour qu’ils abandonnent deux projets de parcs éoliens offshore. L’administration Trump a",
+        "url": "https://www.challenges.fr/entreprise/energie/des-millions-pour-quengie-arrete-des-projets-aux-etats-unis-ladministration-trump-sort-le-carnet-de-cheques-pour-freiner-leolien-en-mer_643035"
       },
       {
         "source": "Le Monde Éco",
@@ -277,6 +270,13 @@
         "titre": "Emmanuel Macron déplore les « mabouls » qui veulent « se fâcher avec l’Algérie » à propos des médecins à diplôme étranger",
         "resume": "En déplacement dans un hôpital de l’Ariège, le chef de l’Etat s’est agacé que les médecins étrangers ne puissent pas facilement exercer en France. Une occasion d’attaquer les partisans d’une ligne dure avec l’Algérie.",
         "url": "https://www.lemonde.fr/politique/article/2026/04/27/medecins-a-diplome-etranger-emmanuel-macron-deplore-les-mabouls-qui-veulent-se-facher-avec-l-algerie_6683658_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "12h29",
+        "titre": "« Les terres rares du Groenland qui n’ont pas été obtenues militairement sont en passe de l’être grâce à Wall Street »",
+        "resume": "En quelques opérations financières, Critical Metals, une société américaine, a pris le contrôle total, en avril, d’un gisement majeur de terres rares au Groenland. C’est une preuve de plus de la capacité des marchés financiers américains à aimanter l",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/les-terres-rares-du-groenland-qui-n-ont-pas-ete-obtenues-militairement-sont-en-passe-de-l-etre-grace-a-wall-street_6683893_3234.html"
       }
     ]
   },
@@ -302,62 +302,48 @@
         "titre": "Placements financiers : faut-il opter pour le barème progressif de l’impôt sur le revenu ?",
         "resume": "Dans une très grande majorité de cas, l’imposition forfaitaire des dividendes et des plus-values s’avère avantageuse.",
         "url": "https://www.lemonde.fr/argent/article/2026/04/28/placements-financiers-faut-il-opter-pour-le-bareme-progressif-de-l-impot-sur-le-revenu_6683864_1657007.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "19h06",
-        "titre": "Energie : se préparer aux pénuries",
-        "resume": "La guerre dans le détroit d'Ormuz n'a été jusqu'à maintenant abordée, pour ses conséquences en France, que sous l'angle des prix des carburants. Pouvoirs publics et entreprises doivent envisager le scénario de tensions d'approvisionnement - et donc d",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/energie-se-preparer-aux-penuries-2228736"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "21h12",
-        "titre": "Finances publiques : le Medef favorable à une « règle d’or constitutionnelle » à partir de 2030",
-        "resume": "L’organisation patronale a écrit au premier ministre pour faire des propositions visant à améliorer la procédure budgétaire.",
-        "url": "https://www.lefigaro.fr/economie/finances-publiques-le-medef-favorable-a-une-regle-d-or-constitutionnelle-a-partir-de-2030-20260427"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.542,
-        "prev": 2.538,
-        "diff": 0.004,
-        "trend": "up",
-        "date": "2026-04-24"
+        "rate": 2.53,
+        "prev": 2.542,
+        "diff": -0.012,
+        "trend": "down",
+        "date": "2026-04-27"
       },
       {
         "maturity": "5 ans",
         "rate": 2.674,
         "prev": 2.674,
-        "diff": -0.001,
+        "diff": 0.0,
         "trend": "flat",
-        "date": "2026-04-24"
+        "date": "2026-04-27"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.071,
-        "prev": 3.067,
-        "diff": 0.003,
+        "rate": 3.082,
+        "prev": 3.071,
+        "diff": 0.011,
         "trend": "up",
-        "date": "2026-04-24"
+        "date": "2026-04-27"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.483,
-        "prev": 3.484,
-        "diff": -0.001,
-        "trend": "down",
-        "date": "2026-04-24"
+        "rate": 3.502,
+        "prev": 3.483,
+        "diff": 0.019,
+        "trend": "up",
+        "date": "2026-04-27"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.488,
-        "prev": 3.494,
-        "diff": -0.006,
-        "trend": "down",
-        "date": "2026-04-24"
+        "rate": 3.507,
+        "prev": 3.488,
+        "diff": 0.02,
+        "trend": "up",
+        "date": "2026-04-27"
       }
     ]
   },
