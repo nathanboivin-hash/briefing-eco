@@ -1,31 +1,31 @@
 {
-  "timestamp": "15h34 le 27/04/2026",
+  "timestamp": "07h00 le 28/04/2026",
   "alerte": {
-    "titre": "Redressements judiciaires en cascade",
-    "detail": "Fibre Excellence et Gibert demandent leur placement en redressement judiciaire le même jour. Fibre Excellence bénéficie d'une période d'observation de 6 mois pour trouver un repreneur.",
+    "titre": "Air Antilles en liquidation judiciaire",
+    "impact": "Rupture majeure du transport aérien régional aux Caraïbes",
     "indices": [
-      3,
-      5
+      9,
+      0
     ]
   },
   "synthese": {
-    "resume": "Lundi noir pour les infrastructures et le retail français : perturbations SNCF majeures suite à vols de câbles, deux sociétés (Fibre Excellence et Gibert) en redressement judiciaire simultané. La Chine bloque l'acquisition par Meta de l'agent IA Manus, intensifiant la guerre technologique sino-occidentale. Sur les taux, EDF expose la France aux fluctuations de marché énergétique, tandis que le secteur aérien (Transavia) souffre de la volatilité du kérosène.",
+    "resume": "Air Antilles placée en liquidation avec cessation immédiate d'activité, risquant une rupture du transport régional. La Chine bloque l'acquisition Meta-Manus sur fond de rivalité technologique. Deux acteurs français en difficulté : Gibert demande son redressement judiciaire, Fibre Excellence en observation. Menaces commerciales de Pékin contre le plan « Made in Europe » de l'UE avec mesures de rétorsion annoncées.",
     "points": [
       {
-        "titre": "Infrastructure & Logistique",
-        "detail": "Deux incidents majeurs paralysent les transports : vols de câbles SNCF causant perturbations fortes Paris-Orléans, reprise progressive TGV Paris-Est après arrêt complet lundi matin. Transavia annule vols mai-juin pour coûts kérosène."
+        "titre": "Transport aérien",
+        "detail": "Air Antilles liquidée (cessation immédiate) ; Transavia annule vols mai-juin (kérosène) ; risque de rupture continuité transport régional Caraïbes"
       },
       {
-        "titre": "Tensions géopolitiques technologiques",
-        "detail": "Pékin bloque acquisition Meta/Manus (agent IA chinois) dans contexte rivalité technologique sino-US. Tension UE-Chine sur plan 'Made in Europe' avec menaces chinoises en retour."
+        "titre": "Tech & IA",
+        "detail": "Meta bloquée sur acquisition Manus (Chine) ; rivalité USA-Chine s'intensifie ; données critères nouveaux de compétition (confiance)"
       },
       {
-        "titre": "Restructurations entreprises",
-        "detail": "Fibre Excellence redressement judiciaire avec observation 6 mois ; Gibert (réseau librairies indépendantes) demande placement redressement judiciaire. SFR : critique de stratégie Drahi qualifiée 'd'acrobatie financière'."
+        "titre": "Retail & Services",
+        "detail": "Gibert (librairies indépendantes) demande redressement judiciaire ; Fibre Excellence en redressement, 6 mois pour repreneur ; Adidas en perte de vitesse"
       },
       {
-        "titre": "Politique & Régulation",
-        "detail": "Commission audiovisuel public : rapport Alloncle en vote crucial. Bruno Le Maire tire bilan 7 ans gouvernement, appelle 'tournant dans pratique du pouvoir'. Paris taxe propriétaires logements inoccupés."
+        "titre": "Géopolitique commerciale",
+        "detail": "Chine menace rétorsion UE sur « Made in Europe » ; eldorado chinois devenu piège industrie européenne (30 ans)"
       }
     ]
   },
@@ -45,21 +45,21 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 167",
-        "change": "+0.17%",
-        "dir": "up"
-      },
-      {
-        "label": "Nasdaq",
-        "value": "24 800",
-        "change": "+0.03%",
+        "value": "-",
+        "change": "-",
         "dir": "flat"
       },
       {
-        "label": "EUR/USD",
-        "value": "1.1755",
+        "label": "Nasdaq",
+        "value": "24 899",
         "change": "+0.40%",
         "dir": "up"
+      },
+      {
+        "label": "EUR/USD",
+        "value": "1.1727",
+        "change": "+0.04%",
+        "dir": "flat"
       },
       {
         "label": "Brent",
@@ -69,8 +69,8 @@
       },
       {
         "label": "Or",
-        "value": "4 730 $",
-        "change": "+0.77%",
+        "value": "4 701 $",
+        "change": "+0.31%",
         "dir": "up"
       },
       {
@@ -89,31 +89,31 @@
     "articles": [
       {
         "source": "Les Echos",
-        "heure": "19h00",
-        "titre": "Bourse : après la trêve en Iran, le fragile rebond des valeurs européennes",
-        "resume": "Les actions européennes sont reparties à la hausse depuis l'annonce de la trêve entre les Etats-Unis et l'Iran. Energie et technologie encouragent les investisseurs à retourner vers les actions européennes, quitte à basculer dans une certaine myopie.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/bourse-apres-la-treve-en-iran-le-fragile-rebond-des-valeurs-europeennes-2228732"
+        "heure": "09h05",
+        "titre": "SpaceX, OpenAI, Anthropic… A Wall Street, les IPO géantes à venir attisent la rivalité entre le NYSE et le Nasdaq",
+        "resume": "Face au Nasdaq, son grand rival, la Bourse de New York ne part pas favorite pour attirer les plus grosses opérations de l'année. Mais elle compte sur un environnement de marché favorable malgré la guerre en Iran pour tirer son épingle du jeu.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/spacex-openai-anthropic-a-wall-street-les-ipo-geantes-a-venir-attisent-la-rivalite-entre-le-nyse-et-le-nasdaq-2228812"
       },
       {
-        "source": "Les Echos",
-        "heure": "19h03",
-        "titre": "« Economic Fury » : Trump déclare la guerre au secteur pétrolier chinois pour ses liens avec l'Iran",
-        "resume": "Le Trésor américain a placé Hengli, le deuxième plus gros groupe pétrochimique privé de Chine, sur une liste noire qui expose ses financiers et ses partenaires à des sanctions. Quarante pétroliers, qui selon Washington ont acheminé du pétrole iranien",
-        "url": "https://www.lesechos.fr/monde/chine/economic-fury-trump-declare-la-guerre-au-secteur-petrolier-chinois-pour-ses-liens-avec-liran-2228735"
+        "source": "Le Figaro",
+        "heure": "09h30",
+        "titre": "Marché en Asie: pétrole et Bourses face à l'impasse au Moyen-Orient",
+        "resume": "Les prix du pétrole continuent de grimper mardi en Asie et la Bourse de Tokyo recule en l'absence d'issue au conflit entre les États-Unis et l'Iran et...",
+        "url": "https://www.lefigaro.fr/flash-eco/marche-en-asie-petrole-et-bourses-face-a-l-impasse-au-moyen-orient-20260428"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Pétrole : les majors profitent des conséquences de la guerre au Moyen-Orient pour trouver de nouveaux gisements",
-        "resume": "La hausse des prix du brut pourrait encourager l’industrie pétrolière dans sa quête de nouvelles ressources en hydrocarbures.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/la-guerre-au-moyen-orient-aiguise-l-appetit-des-majors-du-petrole-pour-de-nouveaux-gisements_6683609_3234.html"
+        "source": "Le Figaro",
+        "heure": "00h40",
+        "titre": "Wall Street joue la prudence en préambule d'une semaine intense",
+        "resume": "La Bourse de New York a clôturé sans vraie impulsion lundi, en lever de rideau d'une semaine bien remplie avec une multitude de résultats...",
+        "url": "https://www.lefigaro.fr/flash-eco/wall-street-joue-la-prudence-en-preambule-d-une-semaine-intense-20260427"
       },
       {
-        "source": "Challenges",
-        "heure": "08h42",
-        "titre": "Pékin hausse le ton face au plan « made in Europe » : la Chine menace l’UE en cas d’adoption d’une loi de réindustrialisation",
-        "resume": "La Chine a menacé ce lundi 27 avril de « prendre des contre-mesures » contre l’UE si cette dernière adopte une loi de réindustrialisation sans prendre en compte ses « suggestions ». Pékin juge ce plan « made in Europe » discriminatoire.",
-        "url": "https://www.challenges.fr/monde/pekin-hausse-le-ton-face-au-plan-made-in-europe-la-chine-menace-lue-en-cas-dadoption-dune-loi-de-reindustrialisation_643004"
+        "source": "Le Figaro",
+        "heure": "08h53",
+        "titre": "Hausse des prix des carburants, réorganisation des vols, inflation : les vacances d’été des Français sous contraintes, selon une étude",
+        "resume": "Les vacanciers partiront moins, plus près, avec des budgets rognés et un recours accru à l’hébergement gratuit.",
+        "url": "https://www.lefigaro.fr/conso/hausse-des-prix-des-carburants-reorganisation-des-vols-inflation-les-vacances-d-ete-des-francais-sous-contraintes-selon-une-etude-20260428"
       },
       {
         "source": "Challenges",
@@ -134,32 +134,11 @@
         "url": "https://www.lemonde.fr/economie/article/2026/04/27/la-legerete-d-une-basket-peut-elle-relancer-adidas-un-geant-en-perte-de-vitesse_6683627_3234.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "11h00",
-        "titre": "SFR : « La saga entrepreneuriale de Patrick Drahi n’était qu’une acrobatie financière »",
-        "resume": "Bouygues, Orange et Free ont accepté d’entrer en négociations exclusives pour racheter l’opérateur téléphonique. La transaction démontre que son patron est un financier madré, mais qu’il a été un piètre entrepreneur, cédant une entreprise essorée et ",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/27/sfr-la-saga-entrepreneuriale-de-patrick-drahi-n-etait-qu-une-acrobatie-financiere_6683619_3232.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "07h00",
-        "titre": "Les constructeurs automobiles chinois convoitent les usines européennes pour percer sur le Vieux Continent",
-        "resume": "C’est une tendance nouvelle des industriels venus de Chine : s’installer sur les sites de constructeurs européens existants pour produire en Europe. Dongfeng et Leapmotor avec Stellantis, Chery avec Nissan… plusieurs partenariats sont à l’étude ou év",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/26/les-constructeurs-automobiles-chinois-convoitent-les-usines-europeennes-pour-percer-sur-le-vieux-continent_6683413_3234.html"
-      },
-      {
         "source": "Challenges",
-        "heure": "12h00",
-        "titre": "L’icône du jeu vidéo Fortnite « s’essouffle » : derrière les licenciements chez Epic Games, l’« érosion d’un modèle »",
-        "resume": "Le mastodonte du jeu vidéo Epic Games a annoncé fin mars licencier plus de 1 000 employés, citant notamment le « déclin de l’engagement » sur son titre phare, Fortnite. Derrière ces coupes, c’est tout le genre du battle royale, qu'il a amené au somme",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/licone-du-jeu-video-fortnite-sessouffle-derriere-les-licenciements-chez-epic-games-l-erosion-dun-modele_642962"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "« Jaguar prend le chemin de l’excès » et parie sur le tout-électrique de luxe : un virage stratégique à haut risque",
-        "resume": "A l’heure où nombre de constructeurs de voitures changent de stratégie, la marque anglaise persiste dans sa révolution zéro émission. En misant sur le style et le très haut de gamme. Mais sans plan B.",
-        "url": "https://www.challenges.fr/automobile/jaguar-prend-le-chemin-de-lexces-et-parie-sur-le-tout-electrique-de-luxe-un-virage-strategique-a-haut-risque_642953"
+        "heure": "18h00",
+        "titre": "Sanofi, Airbus, Schneider… les 10 entreprises où votre carrière et votre salaire peuvent décoller rapidement en France",
+        "resume": "Challenges dévoile en exclusivité le classement Top Companies 2026 de LinkedIn France. Banque, industrie, tech, conseil… Tour d’horizon des entreprises qui permettent les évolutions de carrière les plus rapides en France, et donc les meilleures progr",
+        "url": "https://www.challenges.fr/vie-de-lentreprise/sanofi-airbus-schneider-les-10-entreprises-ou-votre-carriere-et-votre-salaire-peuvent-decoller-rapidement-en-france_643027"
       },
       {
         "source": "Les Echos",
@@ -170,15 +149,29 @@
       },
       {
         "source": "Les Echos",
-        "heure": "19h14",
-        "titre": "Forvia, changement de pilotes, l'habitacle descend de voiture",
-        "resume": "En cédant sa division intérieurs pour 1,82 milliard d'euros, Forvia espère redresser la barre. Ce recentrage marque un virage décisif.",
-        "url": "https://www.lesechos.fr/finance-marches/le-radar-des-marches/forvia-changement-de-pilotes-lhabitacle-descend-de-voiture-2228742"
+        "heure": "09h20",
+        "titre": "« A ce stade, l'IA n'a pas réduit les besoins en recrutement chez Ledger, au contraire »",
+        "resume": "L'entreprise française spécialisée dans la sécurisation des cryptos emploie 700 salariés. Impact de l'IA, place des femmes dans la tech, charge de travail… tour d'horizon des sujets RH qui font l'actualité avec Alexandre Blanc, DRH de Ledger.",
+        "url": "https://www.lesechos.fr/travailler-mieux/vie-au-travail/a-ce-stade-lia-na-pas-reduit-les-besoins-en-recrutement-chez-ledger-au-contraire-2228817"
+      },
+      {
+        "source": "Challenges",
+        "heure": "18h30",
+        "titre": "« Un avantage concurrentiel évident » : pourquoi le constructeur automobile chinois Geely fait de l’ombre à son compatriote BYD",
+        "resume": "Le constructeur automobile chinois Geely a surpris en vendant plus de voitures que son compatriote BYD sur les deux premiers mois de 2026. L’entreprise met à présent l’accent sur l’international, et peut compter pour cela sur la polyvalence de son of",
+        "url": "https://www.challenges.fr/automobile/un-avantage-concurrentiel-evident-pourquoi-le-constructeur-automobile-chinois-geely-fait-de-lombre-a-son-compatriote-byd_643026"
       }
     ]
   },
   "ma": {
     "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "09h50",
+        "titre": "IA : la Chine bloque le rachat de Manus par Meta, un nouvel épisode du bras de fer entre les deux pays",
+        "resume": "Pékin a annoncé lundi 27 avril vouloir interdire la vente de cette start-up d’intelligence artificielle déjà passée sous le contrôle du groupe Meta.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/pekin-bloque-le-rachat-de-manus-par-meta-la-bataille-de-l-ia-s-envenime-entre-la-chine-et-les-etats-unis_6683880_3234.html"
+      },
       {
         "source": "Le Monde Éco",
         "heure": "13h51",
@@ -187,104 +180,69 @@
         "url": "https://www.lemonde.fr/international/article/2026/04/27/la-chine-bloque-l-acquisition-par-meta-de-l-ia-dernier-cri-manus-sur-fond-de-rivalite-technologique_6683633_3210.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "13h32",
-        "titre": "Pékin torpille l'acquisition par Meta de l'agent d'intelligence artificielle Manus",
-        "resume": "La Chine a annoncé lundi qu'elle bloquait l'acquisition, par le géant américain Meta, de Manus, agent d'intelligence artificielle (IA) conçu par une...",
-        "url": "https://www.lefigaro.fr/flash-eco/pekin-torpille-l-acquisition-par-meta-de-l-agent-d-intelligence-artificielle-manus-20260427"
+        "source": "Challenges",
+        "heure": "18h38",
+        "titre": "Les usines de Polytechnyl sacrifiées : Lone Star reprend les brevets et seulement 13 % des salariés",
+        "resume": "Le tribunal des activités économiques de Lyon a validé, ce lundi 27 avril, la reprise de Polytechnyl par Lone Star. L’offre du fonds américain sauve 72 emplois sur environ 550, récupère les brevets et le savoir-faire, mais laisse de côté les ateliers",
+        "url": "https://www.challenges.fr/entreprise/industrie/les-usines-de-polytechnyl-sacrifiees-lone-star-reprend-les-brevets-et-seulement-13-des-salaries_643028"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Elon Musk contre Sam Altman, deux figures de l’IA en procès autour d’OpenAI",
-        "resume": "A partir de lundi, les deux entrepreneurs seront devant un tribunal californien pour régler un différend autour de la structure d’OpenAI, alors que la bataille pour la régulation est engagée.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/elon-musk-contre-sam-altman-les-enfants-terribles-de-l-ia-en-proces_6683613_3234.html"
+        "heure": "15h30",
+        "titre": "Fibre Excellence en redressement judiciaire ; une période d’observation de six mois pour trouver un repreneur",
+        "resume": "Les 670 salariés des usines de pâte à papier échappent à une liquidation judiciaire. Les éventuelles offres de reprise seront examinées le 17 juin.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/fibre-excellence-en-redressement-judiciaire-une-periode-d-observation-de-six-mois-pour-trouver-un-repreneur_6683642_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "20h26",
-        "titre": "Le groupe Lagardère a tenté de peser sur la commission d’enquête sur l’audiovisuel public",
-        "resume": "Selon les informations du « Monde », la direction des affaires institutionnelles du groupe d’Arnaud Lagardère, contrôlé par Vincent Bolloré, a envoyé des listes de questions à des députés, avant leurs échanges avec des auditionnés. Dans leur formulat",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/26/le-groupe-lagardere-a-tente-de-peser-sur-la-commission-d-enquete-sur-l-audiovisuel-public_6683479_3234.html"
+        "heure": "13h56",
+        "titre": "Gibert, réseau indépendant de librairies, va demander son placement en redressement judiciaire",
+        "resume": "Le groupe, qui exploite 16 magasins dans 12 villes et emploie 500 collaborateurs, constate le « déclin du marché des livres neufs » et va désormais se concentrer sur le livre d’occasion.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/le-reseau-de-librairies-gibert-va-demander-son-placement-en-redressement-judiciaire_6683635_3234.html"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "19h06",
-        "titre": "Energie : se préparer aux pénuries",
-        "resume": "La guerre dans le détroit d'Ormuz n'a été jusqu'à maintenant abordée, pour ses conséquences en France, que sous l'angle des prix des carburants. Pouvoirs publics et entreprises doivent envisager le scénario de tensions d'approvisionnement - et donc d",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/energie-se-preparer-aux-penuries-2228736"
+        "source": "Le Monde Éco",
+        "heure": "08h30",
+        "titre": "En trente ans, l’eldorado chinois s’est transformé en piège pour l’industrie européenne",
+        "resume": "« Comment la Chine dévore l’Europe » (1/4). En quelques décennies, la Chine est passée d’atelier du monde à rival technologique majeur pour les Européens. Ces derniers, qui imaginaient profiter de son vaste marché intérieur, ont sous-estimé la capaci",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/en-trente-ans-l-eldorado-chinois-s-est-transforme-en-piege-pour-l-industrie-europeenne_6683875_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "18h45",
-        "titre": "Productivité : le décrochage transatlantique acté",
-        "resume": "Les prévisions publiées récemment par la Fed révisent la croissance potentielle américaine à la hausse, même sans apport migratoire. L'Europe est à la traîne, explique Nicolas Goetzmann.",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/productivite-le-decrochage-transatlantique-acte-2228730"
+        "heure": "21h00",
+        "titre": "Les entreprises européennes ont publié des résultats solides au titre du premier trimestre",
+        "resume": "Les groupes cotés du Vieux Continent échappent pour l'instant aux conséquences de la guerre en Iran. Les chiffres publiés ces dernières semaines sont en ligne avec les attentes des analystes. Les entreprises demeurent toutefois prudentes sur les cons",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/les-entreprises-europeennes-ont-publie-des-resultats-solides-au-titre-du-premier-trimestre-2228779"
       },
       {
-        "source": "Les Echos",
-        "heure": "11h08",
-        "titre": "« C'est un enjeu stratégique » : France Travail table sur plus de 200.000 recrutements en Occitanie cette année",
-        "resume": "France Travail a exposé dans le Gard les besoins en main-d'oeuvre de la région. Le service public accélère son soutien à la souveraineté industrielle et la Défense nationale.",
-        "url": "https://www.lesechos.fr/pme-regions/occitanie/cest-un-enjeu-strategique-france-travail-table-sur-plus-de-200000-recrutements-en-occitanie-cette-annee-2228639"
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Plus de 840 000 personnes meurent chaque année dans le monde des conséquences des risques psychosociaux liés au travail",
+        "resume": "L’Organisation internationale du travail (OIT) publie un rapport sur les conséquences des risques psychosociaux à l’occasion de la Journée mondiale de la sécurité et de la santé au travail, qui se tient le 28 avril, écrit le journaliste du « Monde » ",
+        "url": "https://www.lemonde.fr/emploi/article/2026/04/28/stress-harcelement-charge-mentale-digitale-840-000-personnes-meurent-chaque-annee-dans-le-monde-de-pathologies-liees-aux-risques-psychosociaux_6683866_1698637.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "18h52",
-        "titre": "Alerte sur les risques psychosociaux au ministère du Travail",
-        "resume": "Confrontés à une baisse des effectifs depuis dix ans, les 7.000 agents du ministère hors services centraux subissent toutes les conséquences d'une surcharge de travail, montrent deux rapports d'expertise.",
-        "url": "https://www.lesechos.fr/economie-france/social/alerte-sur-les-risques-psychosociaux-au-ministere-du-travail-2228731"
+        "source": "Challenges",
+        "heure": "07h45",
+        "titre": "Projet de loi pour relancer le logement : l’exécutif sort enfin l’artillerie lourde, mais est-il déjà trop tard pour sauver le marché ?",
+        "resume": "À Marseille, l’exécutif sort l’artillerie lourde : permis unique, simplification du DPE et décentralisation. Mais ce « plan d’attaque », entre pragmatisme et calcul électoral, arrive-t-il trop tard pour une filière à bout de souffle ? Analyse d’un vi",
+        "url": "https://www.challenges.fr/immobilier/projet-de-loi-pour-relancer-le-logement-lexecutif-sort-enfin-lartillerie-lourde-mais-est-il-deja-trop-tard-pour-sauver-le-marche_643002"
       },
       {
-        "source": "Les Echos",
-        "heure": "19h01",
-        "titre": "Epidémie d'arrêts maladie : comment le gouvernement essaye de réduire leur coût",
-        "resume": "Le nombre d'arrêts maladie et leur durée augmentent en France, et la facture pour la Sécurité sociale avec. Dans « La Story », le podcast d'actualité des « Echos », Clara Grouzis et Solenn Poulennec analysent comment le gouvernement cherche à économi",
-        "url": "https://www.lesechos.fr/economie-france/social/epidemie-darrets-maladie-comment-le-gouvernement-essaye-de-reduire-leur-cout-2228734"
+        "source": "Le Monde Éco",
+        "heure": "20h00",
+        "titre": "« Made in Europe » : la Chine menace l’Union européenne de mesures de rétorsion",
+        "resume": "Le plan de Bruxelles pour réindustrialiser le Vieux Continent a déclenché l’ire de Pékin, qui l’a fait savoir dans un communiqué publié lundi 27 avril.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/made-in-europe-la-chine-menace-l-union-europeenne-de-mesures-de-retorsion_6683663_3234.html"
       }
     ]
   },
   "politique": {
     "articles": [
-      {
-        "source": "Le Monde Éco",
-        "heure": "18h00",
-        "titre": "Bruno Le Maire tire les leçons de ses sept années au gouvernement et appelle à un « tournant dans la pratique du pouvoir »",
-        "resume": "Dans un livre publié jeudi 23 avril, l’ex-ministre de l’économie continue de plaider la « responsabilité collective » concernant le dérapage de la dette. Il prône notamment un rééquilibrage du pouvoir présidentiel.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/26/bruno-le-maire-tire-les-lecons-de-ses-sept-annees-au-gouvernement-et-appelle-a-un-tournant-dans-la-pratique-du-pouvoir_6683466_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "12h06",
-        "titre": "Commission d’enquête sur l’audiovisuel public : le « rapport Alloncle » soumis au vote crucial de députés",
-        "resume": "Un vote favorable à la majorité des 30 membres de la commission d’enquête sur « la neutralité et le financement » de l’audiovisuel public est une condition nécessaire pour que le rapport soit rendu public une semaine plus tard.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/27/commission-d-enquete-sur-l-audiovisuel-public-le-rapport-alloncle-soumis-au-vote-crucial-de-deputes_6683622_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "19h00",
-        "titre": "Commission d’enquête sur l’audiovisuel public : derrière les critiques contre Charles Alloncle, ce que disent les chiffres",
-        "resume": "La commission, qui clôt ses travaux lundi 27 avril, a défrayé la chronique en raison de l’attitude de son rapporteur, d’extrême droite. Mais ces six mois d’auditions, qui ont vu défiler à l’Assemblée 238 personnalités de l’audiovisuel, ont-ils été si",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/04/26/commission-d-enquete-sur-l-audiovisuel-public-derriere-les-critiques-contre-charles-alloncle-ce-qui-disent-les-chiffres_6683472_4355770.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "15h00",
-        "titre": "François Baroin : et si c’était lui le « bon » présidentiable de la droite…",
-        "resume": "Son nom revient régulièrement, et s’en va, comme un refrain obsédant. Son profil beaucoup moins droitier peut peser et s’imposer dans cette élection.",
-        "url": "https://www.challenges.fr/politique/francois-baroin-et-si-cetait-lui-le-bon-presidentiable-de-la-droite_642998"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "17h18",
-        "titre": "Présidentielle 2027 : à Lyon, François Ruffin lance sa campagne en mettant en scène un entretien d’embauche au poste de président",
-        "resume": "Le député de la Somme (Debout !) a exhorté les classes populaires à se détourner du Rassemblement national, lors d’un premier meeting au format original, qui a rassemblé plus de 2 500 personnes, samedi 25 avril.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/26/presidentielle-2027-a-lyon-francois-ruffin-lance-sa-campagne-en-mettant-en-scene-un-entretien-d-embauche-au-poste-de-president_6683464_823448.html"
-      },
       {
         "source": "Challenges",
         "heure": "08h42",
@@ -298,11 +256,39 @@
         "titre": "La Chine menace l’UE sur le plan « made in Europe », Kim Jong-Un réaffirme son soutien à Moscou face à Kiev, Abbas Araghchi en Russie… Ça s’est passé cette nuit",
         "resume": "La Chine menace l’UE en cas d’adoption du plan « made in Europe », Kim Jong-Un réaffirme son soutien à la « guerre sacrée » de la Russie en Ukraine, le chef de la diplomatie iranienne est en Russie pour rencontrer Vladimir Poutine.",
         "url": "https://www.challenges.fr/monde/la-chine-menace-lue-sur-le-plan-made-in-europe-kim-jong-un-reaffirme-son-soutien-a-moscou-face-a-kiev-abbas-araghchi-en-russie-ca-sest-passe-cette-nuit_643003"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h45",
+        "titre": "Pour libérer des logements inoccupés, Paris va taxer les propriétaires, comme New York ou Bruxelles",
+        "resume": "La loi de finances pour 2026 permet aux villes des zones tendues de quasi doubler la taxe sur les logements vacants à partir de 2027. Paris a annoncé qu’elle utiliserait ce levier fiscal et espère ainsi remettre 20 000 appartements sur le marché.",
+        "url": "https://www.lemonde.fr/societe/article/2026/04/27/logements-inoccupes-paris-va-frapper-les-proprietaires-au-porte-monnaie-comme-bruxelles-ou-new-york_6683605_3224.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h00",
+        "titre": "Les députés et sénateurs français en quête de poids diplomatique à l’international",
+        "resume": "Sans poids législatif, les parlementaires, au travers de groupes d’amitié ou de leurs liens avec les diasporas, tentent de créer des ponts à l’international, utiles à la politique étrangère de l’exécutif français.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/27/la-diplomatie-parlementaire-entre-coups-d-eclat-symboliques-et-travail-de-l-ombre_6683594_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h47",
+        "titre": "Emmanuel Macron déplore les « mabouls » qui veulent « se fâcher avec l’Algérie » à propos des médecins à diplôme étranger",
+        "resume": "En déplacement dans un hôpital de l’Ariège, le chef de l’Etat s’est agacé que les médecins étrangers ne puissent pas facilement exercer en France. Une occasion d’attaquer les partisans d’une ligne dure avec l’Algérie.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/27/medecins-a-diplome-etranger-emmanuel-macron-deplore-les-mabouls-qui-veulent-se-facher-avec-l-algerie_6683658_823448.html"
       }
     ]
   },
   "taux": {
     "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "08h10",
+        "titre": "Euro numérique : la BCE avance ses pions malgré la fronde des banques",
+        "resume": "Alors que le projet reste suspendu aux arbitrages du Parlement européen, la BCE a signé des accords avec trois organismes européens de standardisation. Objectif : limiter les coûts d'adoption et renforcer la souveraineté des paiements.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/euro-numerique-la-bce-avance-ses-pions-malgre-la-fronde-des-banques-2228802"
+      },
       {
         "source": "Le Monde Éco",
         "heure": "14h00",
@@ -311,25 +297,25 @@
         "url": "https://www.lemonde.fr/idees/article/2026/04/27/electricite-edf-fait-le-choix-d-un-systeme-expose-aux-fluctuations-des-prix-de-marche_6683637_3232.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "19h10",
-        "titre": "Le marché monétaire, nouveau front de la souveraineté européenne",
-        "resume": "Le défi monétaire européen n'est pas seulement de fixer un taux directeur : le cadre doit assurer que les taux courts restent ancrés tout en laissant les marchés produire des signaux prix utiles, analyse Natacha Valla.",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/le-marche-monetaire-nouveau-front-de-la-souverainete-europeenne-2228740"
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Placements financiers : faut-il opter pour le barème progressif de l’impôt sur le revenu ?",
+        "resume": "Dans une très grande majorité de cas, l’imposition forfaitaire des dividendes et des plus-values s’avère avantageuse.",
+        "url": "https://www.lemonde.fr/argent/article/2026/04/28/placements-financiers-faut-il-opter-pour-le-bareme-progressif-de-l-impot-sur-le-revenu_6683864_1657007.html"
       },
       {
         "source": "Les Echos",
-        "heure": "17h00",
-        "titre": "« De plus en plus de start-up tech sont financées par de la dette plutôt que par des fonds propres » : la crise de la dette privée expliquée",
-        "resume": "De plus en plus d'investisseurs choisissent de prêter à des start-up technologiques via de la dette. Un mélange des genres entre l'actionnaire et le créancier qui explique les soubresauts du marché de la dette privée, explique Laurent Chaudeurge, mem",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/de-plus-en-plus-de-start-up-tech-sont-financees-par-de-la-dette-plutot-que-par-des-fonds-propres-la-crise-de-la-dette-privee-expliquee-2228713"
+        "heure": "19h06",
+        "titre": "Energie : se préparer aux pénuries",
+        "resume": "La guerre dans le détroit d'Ormuz n'a été jusqu'à maintenant abordée, pour ses conséquences en France, que sous l'angle des prix des carburants. Pouvoirs publics et entreprises doivent envisager le scénario de tensions d'approvisionnement - et donc d",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/energie-se-preparer-aux-penuries-2228736"
       },
       {
-        "source": "Les Echos",
-        "heure": "14h18",
-        "titre": "Intel, TSMC, ASML… L'insatiable appétit pour l'IA fait exploser les profits de l'industrie des puces",
-        "resume": "Alors que la demande en infrastructures d'IA ne cesse de progresser, les fabricants de semi-conducteurs se frottent les mains. Même Intel, en grande difficulté il y a quelques mois, retrouve des lendemains qui chantent.",
-        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/intel-tsmc-asml-linsatiable-appetit-pour-lia-fait-exploser-les-profits-de-lindustrie-des-puces-2228687"
+        "source": "Le Figaro",
+        "heure": "21h12",
+        "titre": "Finances publiques : le Medef favorable à une « règle d’or constitutionnelle » à partir de 2030",
+        "resume": "L’organisation patronale a écrit au premier ministre pour faire des propositions visant à améliorer la procédure budgétaire.",
+        "url": "https://www.lefigaro.fr/economie/finances-publiques-le-medef-favorable-a-une-regle-d-or-constitutionnelle-a-partir-de-2030-20260427"
       }
     ],
     "courbe": [
