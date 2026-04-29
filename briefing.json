@@ -1,31 +1,31 @@
 {
-  "timestamp": "11h27 le 28/04/2026",
+  "timestamp": "06h03 le 29/04/2026",
   "alerte": {
-    "titre": "Air Antilles en liquidation judiciaire",
-    "detail": "Cessation immédiate d'activité pour la compagnie régionale des Caraïbes, 116 salariés impactés. Risque de rupture de la continuité du transport aérien régional."
+    "titre": "Échec fusion Pernod Ricard / Brown-Forman",
+    "detail": "Les discussions en vue d'une fusion entre le géant français des spiritueux et l'américain propriétaire de Jack Daniel's ont échoué. Impact significatif sur le secteur des alcools premium.",
+    "indices": [
+      8,
+      42
+    ]
   },
   "synthese": {
-    "resume": "Le marché du travail français affiche une dynamique positive avec 2,4% de baisse des inscrits à France Travail au T1 2026, contredisant les craintes de ralentissement. La géopolitique économique s'intensifie avec la Chine qui bloque le rachat de Manus par Meta et menace l'UE sur le plan 'Made in Europe'. Deux crises sectorielles structurelles frappent le retail français : Air Antilles en liquidation (transport régional) et Gibert envisage un redressement judiciaire (librairies, crise du livre neuf). Les taux et financing restent au cœur des enjeux avec EDF exposé aux fluctuations de marché et la BCE avançant sur l'euro numérique.",
+    "resume": "Journée chargée marquée par l'échec de la fusion Pernod-Brown Forman et la liquidation d'Air Antilles (116 salariés). La Chine renforce sa domination technologique (IA, nucléaire, batteries) tandis que la France fait face à des défis structurels : Sanofi cherche une nouvelle direction, Airbus ralentit en production, et les revenus de SFR passent sous 10 Mrd€. Tensions géopolitiques persistantes (Iran, Chine) et crise sociale autour des décès au travail.",
     "points": [
       {
-        "titre": "Marchés & Sentiment",
-        "detail": "Wall Street scrute les méga-IPO à venir (SpaceX, OpenAI, Anthropic) avec rivalité NYSE/Nasdaq. Placements financiers en débat sur barème progressif IR. Spéculation volatile sur collectibles (Labubu à 150k$)."
+        "titre": "M&A / Deals",
+        "detail": "Échec majeur : Pernod Ricard + Brown-Forman abandonnent fusion. Air Antilles en liquidation judiciaire immédiate (116 postes supprimés). Réduction significative de l'activité de consolidation stratégique."
       },
       {
-        "titre": "Macro France",
-        "detail": "Emploi : -2,4% inscrits France Travail T1 2026 (net recul inattendu). Chômage en amélioration. Comportement consommateur fragile : 37% seulement certains de partir en vacances d'été. Logement : encadrement loyers Paris = 968€/an économisés."
+        "titre": "Stratégie Entreprises",
+        "detail": "Sanofi recrute Belén Garijo (médecin) comme patronne pour relancer innovation (+15% concerns). Airbus ralenti par retards production. SFR en difficultés (chiffre d'affaires <10 Mrd€), convoité par rivaux. EDF accélère usine EPR 2."
       },
       {
-        "titre": "Entreprises / Stratégie",
-        "detail": "Adidas tente rebond avec innovation (légèreté basket). EDF choix exposé aux prix marché. Geely chinois surpasse BYD. Engie pénalisée : 2 projets US stoppés par Trump (éolien mer). Sanofi/Airbus/Schneider leaders emploi/carrière."
+        "titre": "Macro / Emploi",
+        "detail": "France Travail : inscrits en baisse de 2,4% T1 2026 (signal positif). Mais tension sociale : morts au travail en hausse (rassemblement syndical dénonçant 'hécatombe'). Essence SP95-E10 >2€/L. Tensions inflationnistes persistantes."
       },
       {
-        "titre": "M&A / Restructurations",
-        "detail": "Meta/Manus : Chine bloque rachat (guerre technologique). Fibre Excellence : redressement judiciaire 6 mois repreneur. Polytechnyl : Lone Star reprend brevets + 13% salariés. Gibert librairies en redressement judiciaire imminent."
-      },
-      {
-        "titre": "Géopolitique / Régulation",
-        "detail": "Chine menace UE sur 'Made in Europe' (rétorsion). Trump freine éolien Engie (-millions$). Groenland terres rares : Wall Street vs militaire. Lafarge appel condamnation financement terrorisme Syrie. Iran-Moyen-Orient : tensions Trump."
+        "titre": "Géopolitique / Politique",
+        "detail": "Domination chinoise confirmée (batteries, IA, pharma, TGV). UE fragile face à Chine et Iran. Crise Aix-Marseille (mise sous tutelle rare). Budget 2026 non voté. Tensions gouvernementales (Lecornu, Cazeneuve 2027)."
       }
     ]
   },
@@ -33,8 +33,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 172",
-        "change": "+0.53%",
+        "value": "8 173",
+        "change": "+0.54%",
         "dir": "up"
       },
       {
@@ -45,21 +45,21 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 179",
-        "change": "+0.36%",
+        "value": "7 152",
+        "change": "+0.26%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "24 899",
-        "change": "+0.40%",
+        "value": "24 725",
+        "change": "+0.47%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1727",
-        "change": "+0.04%",
-        "dir": "flat"
+        "value": "1.1721",
+        "change": "+0.05%",
+        "dir": "up"
       },
       {
         "label": "Brent",
@@ -69,8 +69,8 @@
       },
       {
         "label": "Or",
-        "value": "4 701 $",
-        "change": "+0.31%",
+        "value": "4 610 $",
+        "change": "+0.25%",
         "dir": "up"
       },
       {
@@ -88,39 +88,39 @@
     ],
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "13h46",
-        "titre": "Wall Street retient son souffle à l'approche des « méga-IPO »",
-        "resume": "Des cotations réussies pour SpaceX, OpenAI et Anthropic pourraient raviver l'intérêt des entreprises pour la Bourse, mais certains professionnels craignent l'indigestion.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/wall-street-retient-son-souffle-a-lapproche-des-mega-ipo-2228897"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h05",
-        "titre": "SpaceX, OpenAI, Anthropic… A Wall Street, les IPO géantes à venir attisent la rivalité entre le NYSE et le Nasdaq",
-        "resume": "Face au Nasdaq, son grand rival, la Bourse de New York ne part pas favorite pour attirer les plus grosses opérations de l'année. Mais elle compte sur un environnement de marché favorable malgré la guerre en Iran pour tirer son épingle du jeu.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/spacex-openai-anthropic-a-wall-street-les-ipo-geantes-a-venir-attisent-la-rivalite-entre-le-nyse-et-le-nasdaq-2228812"
+        "source": "Le Monde Éco",
+        "heure": "16h53",
+        "titre": "Le prix du SP95-E10 à nouveau au-dessus de 2 euros le litre en moyenne",
+        "resume": "Mi-avril, le SP95-E10 était repassé légèrement sous ce seuil, une semaine après la conclusion du cessez-le-feu entre les Etats-Unis et l’Iran.",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/04/28/le-prix-du-sp95-e10-a-nouveau-au-dessus-des-2-euros-le-litre-en-moyenne_6683932_1656968.html"
       },
       {
         "source": "Challenges",
-        "heure": "13h08",
-        "titre": "150 000 dollars pour une poupée effrayante : la folle spéculation autour des Labubu va-t-elle s’effondrer ?",
-        "resume": "Oubliez l’or et les cryptomonnaies, la folie spéculative la plus étrange qui existe, ce sont les poupées Labubu. L’exubérance règne toujours sur le marché. Mais l’engouement est moins frénétique qu’avant. La bulle pourrait-elle exploser ?",
-        "url": "https://www.challenges.fr/entreprise/150-000-dollars-pour-une-poupee-effrayante-la-folle-speculation-autour-des-labubu-va-t-elle-seffondrer_643038"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "14h39",
-        "titre": "Influenceurs, publicité, refonte technique… le plan de BeReal pour tenter de renouer avec le succès",
-        "resume": "Après des années de passage à vide, le réseau social français désormais stabilisé techniquement mise sur des partenariats avec des influenceurs de renom et l'introduction de publicités innovantes pour remonter la pente.",
-        "url": "https://www.lesechos.fr/tech-medias/hightech/influenceurs-publicite-refonte-technique-le-plan-de-bereal-pour-tenter-de-renouer-avec-le-succes-2228908"
+        "heure": "09h00",
+        "titre": "Bourse, crypto, trading : comment débuter sans prendre de risques inutiles",
+        "resume": "Se lancer dans les marchés financiers attire de plus en plus de débutants. Entre la bourse, les cryptomonnaies et les différents outils disponibles en ligne, l’accès n’a jamais été aussi simple. Pourtant, cette facilité peut aussi exposer à des erreu",
+        "url": "https://www.challenges.fr/argent-et-placements/bourse-crypto-trading-comment-debuter-sans-prendre-de-risques-inutiles_643046"
       },
       {
         "source": "Challenges",
-        "heure": "21h05",
-        "titre": "Près de 1 000 euros par an : voici ce que les locataires parisiens économisent grâce à l’encadrement des loyers selon une étude",
-        "resume": "L’encadrement des loyers, menacé de disparition à la fin de l’année, a bien eu des effets concrets. Selon une étude de l’Apur, il n’a certes pas empêché une hausse des loyers parisiens mais a permis de la contenir, faisant ainsi économiser près de 1 ",
-        "url": "https://www.challenges.fr/immobilier/pres-de-1-000-euros-par-an-voici-ce-que-les-locataires-parisiens-economisent-grace-a-lencadrement-des-loyers-selon-une-etude_643030"
+        "heure": "06h45",
+        "titre": "Taxer uniquement les riches ? Comment la surenchère des cadeaux fiscaux pourrait tourner au fiasco budgétaire et politique aux Etats-Unis",
+        "resume": "Donald Trump a mis en œuvre sa baisse de taxes massive, financée par le déficit public. Et les démocrates veulent aussi massivement exonérer les Américains d’impôts. Une surenchère qui n’a aucune justification économique et aucun bénéfice politique.",
+        "url": "https://www.challenges.fr/monde/taxer-uniquement-les-riches-comment-la-surenchere-des-cadeaux-fiscaux-pourrait-tourner-au-fiasco-budgetaire-et-politique-aux-etats-unis_643012"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h30",
+        "titre": "Guerre en Iran : pourquoi les consommateurs américains paient déjà la facture",
+        "resume": "La guerre déclenchée au Moyen-Orient par Donald Trump a fait flamber les prix des carburants à la pompe, grignotant le pouvoir d’achat des Américains.",
+        "url": "https://www.challenges.fr/economie/guerre-en-iran-pourquoi-les-consommateurs-americains-paient-deja-la-facture_643016"
+      },
+      {
+        "source": "Challenges",
+        "heure": "18h00",
+        "titre": "Essence, immobilier, inflation : comment la guerre en Iran met l’économie américaine sous pression",
+        "resume": "Deux mois après le début de la guerre au Moyen-Orient, les alertes sur l’inflation et la croissance s’accumulent outre-Atlantique. L’administration Trump, elle, est confiante.",
+        "url": "https://www.challenges.fr/monde/essence-immobilier-inflation-comment-la-guerre-en-iran-met-leconomie-americaine-sous-pression_643054"
       }
     ]
   },
@@ -128,10 +128,31 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "12h45",
-        "titre": "« La légèreté d’une basket peut-elle relancer Adidas, un géant en perte de vitesse »",
-        "resume": "Le Kenyan Sabastian Sawe est passé sous la barre mythique des deux heures au marathon de Londres devant l’Ethiopien Yomif Kejelcha. Les deux coureurs portaient le dernier modèle de running d’Adidas, de moins de 100 grammes, une opportunité pour l’équ",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/la-legerete-d-une-basket-peut-elle-relancer-adidas-un-geant-en-perte-de-vitesse_6683627_3234.html"
+        "heure": "07h00",
+        "titre": "Aéronautique : les retards de production pèsent sur les résultats d’Airbus",
+        "resume": "Le résultat opérationnel du groupe européen a été divisé par deux au premier trimestre en raison de ses difficultés de livraison. Pendant ce temps, son rival Boeing monte en cadence.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/29/aeronautique-les-retards-de-production-pesent-sur-les-resultats-d-airbus_6684073_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h00",
+        "titre": "A Sanofi, une nouvelle patronne pour surmonter l’inquiétant mal d’innovation du groupe pharmaceutique",
+        "resume": "En prenant ses fonctions de directrice générale, mercredi 29 avril, l’Espagnole Belén Garijo aura la lourde tâche de sortir le groupe pharmaceutique de ses difficultés à améliorer la recherche et développement.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/29/a-sanofi-une-nouvelle-patronne-pour-surmonter-l-inquietant-mal-d-innovation-du-groupe-pharmaceutique_6684071_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "17h00",
+        "titre": "Belén Garijo, une médecin au chevet du groupe pharmaceutique Sanofi",
+        "resume": "L’ancienne patronne du laboratoire allemand Merck prendra les rênes de Sanofi mercredi 29 avril, une entreprise qu’elle connaît pour y avoir travaillé de 2004 à 2011.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/belen-garijo-une-medecin-au-chevet-du-groupe-pharmaceutique-sanofi_6683933_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "20h24",
+        "titre": "SFR, convoité par ses rivaux, voit ses revenus passer sous le seuil symbolique des 10 milliards d’euros",
+        "resume": "Alors que Patrick Drahi, le milliardaire propriétaire de SFR depuis 2014, est entré en négociations exclusives avec Bouygues Telecom, Free et Orange pour leur vendre l’opérateur, celui-ci a vu ses ventes chuter fortement, de plus de 8 %, en 2025.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/sfr-convoite-par-ses-rivaux-voit-ses-revenus-passer-sous-le-seuil-symbolique-des-10-milliards-d-euros_6683966_3234.html"
       },
       {
         "source": "Challenges",
@@ -139,27 +160,6 @@
         "titre": "Nucléaire : EDF accélère avec une usine dédiée aux EPR 2, entre ambitions industrielles et incertitudes",
         "resume": "La future usine de turbines de Chalon-sur-Saône pour les réacteurs EPR 2 s’inscrit dans un plan de relance de l’atome qui accuse déjà des retards et des surcoûts.",
         "url": "https://www.challenges.fr/entreprise/energie/nucleaire-edf-accelere-avec-une-usine-dediee-aux-epr-2-entre-ambitions-industrielles-et-incertitudes_643034"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h30",
-        "titre": "« Un avantage concurrentiel évident » : pourquoi le constructeur automobile chinois Geely fait de l’ombre à son compatriote BYD",
-        "resume": "Le constructeur automobile chinois Geely a surpris en vendant plus de voitures que son compatriote BYD sur les deux premiers mois de 2026. L’entreprise met à présent l’accent sur l’international, et peut compter pour cela sur la polyvalence de son of",
-        "url": "https://www.challenges.fr/automobile/un-avantage-concurrentiel-evident-pourquoi-le-constructeur-automobile-chinois-geely-fait-de-lombre-a-son-compatriote-byd_643026"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Sanofi, Airbus, Schneider… les 10 entreprises où votre carrière et votre salaire peuvent décoller rapidement en France",
-        "resume": "Challenges dévoile en exclusivité le classement Top Companies 2026 de LinkedIn France. Banque, industrie, tech, conseil… Tour d’horizon des entreprises qui permettent les évolutions de carrière les plus rapides en France, et donc les meilleures progr",
-        "url": "https://www.challenges.fr/vie-de-lentreprise/sanofi-airbus-schneider-les-10-entreprises-ou-votre-carriere-et-votre-salaire-peuvent-decoller-rapidement-en-france_643027"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "13h49",
-        "titre": "Comment Airbus entend profiter de la hausse des dépenses militaires au Canada",
-        "resume": "La hausse des dépenses de défense à Ottawa, portée par la pression de l'Otan et les tensions en Arctique, ouvre des opportunités pour Airbus. L'industriel européen tente de se positionner face à des concurrents américains ultra-dominants.",
-        "url": "https://www.lesechos.fr/industrie-services/air-defense/comment-airbus-entend-profiter-de-la-hausse-des-depenses-militaires-au-canada-2228898"
       }
     ]
   },
@@ -167,38 +167,31 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "09h50",
-        "titre": "IA : la Chine bloque le rachat de Manus par Meta, un nouvel épisode du bras de fer entre les deux pays",
-        "resume": "Pékin a annoncé lundi 27 avril vouloir interdire la vente de cette start-up d’intelligence artificielle déjà passée sous le contrôle du groupe Meta.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/28/pekin-bloque-le-rachat-de-manus-par-meta-la-bataille-de-l-ia-s-envenime-entre-la-chine-et-les-etats-unis_6683880_3234.html"
+        "heure": "03h15",
+        "titre": "Pernod Ricard et l’américain Brown-Forman, propriétaire du whisky Jack Daniel’s, annoncent l’échec de leurs discussions en vue d’une fusion",
+        "resume": "Les deux grands groupes n’ont pas réussi à s’entendre sur les conditions d’un partenariat, dans un contexte morose pour les boissons alcoolisées à travers le monde. Selon le « Wall Street Journal », l’entreprise américaine Sazerac a contacté Brown-Fo",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/29/pernod-ricard-et-l-americain-brown-forman-proprietaire-du-whisky-jack-daniel-s-annoncent-l-echec-de-leurs-discussions-en-vue-d-une-fusion_6684028_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "15h30",
-        "titre": "Fibre Excellence en redressement judiciaire ; une période d’observation de six mois pour trouver un repreneur",
-        "resume": "Les 670 salariés des usines de pâte à papier échappent à une liquidation judiciaire. Les éventuelles offres de reprise seront examinées le 17 juin.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/fibre-excellence-en-redressement-judiciaire-une-periode-d-observation-de-six-mois-pour-trouver-un-repreneur_6683642_3234.html"
+        "heure": "10h10",
+        "titre": "La disparition d’Air Antilles, un risque de « rupture » dans la continuité du transport aérien régional dans les Caraïbes",
+        "resume": "Le tribunal mixte de commerce de Pointe-à-Pitre a ordonné la liquidation judiciaire de la compagnie régionale antillaise, lourdement endettée, dont les avions étaient cloués au sol depuis le retrait, en décembre 2025, de son certificat de transport a",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/la-disparition-d-air-antilles-un-risque-de-rupture-dans-la-continuite-du-transport-aerien-regional-dans-les-caraibes_6683883_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "13h56",
-        "titre": "Gibert, réseau indépendant de librairies, va demander son placement en redressement judiciaire face à la crise du livre neuf",
-        "resume": "Le groupe, qui exploite 16 magasins dans 12 villes et emploie 500 collaborateurs, constate le « déclin du marché des livres neufs » et va désormais se concentrer sur le livre d’occasion.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/le-reseau-de-librairies-gibert-va-demander-son-placement-en-redressement-judiciaire_6683635_3234.html"
+        "heure": "23h34",
+        "titre": "La compagnie Air Antilles placée en liquidation judiciaire avec cessation immédiate d’activité",
+        "resume": "Cette décision signe la fin de la compagnie régionale qui dessert les îles françaises des Caraïbes (Saint-Barthélemy, Saint-Martin, Guadeloupe et Martinique) et qui enchaîne les déboires depuis plusieurs années.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/27/la-compagnie-air-antilles-placee-en-liquidation-judiciaire-avec-cessation-immediate-d-activite_6683680_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "18h38",
-        "titre": "Les usines de Polytechnyl sacrifiées : Lone Star reprend les brevets et seulement 13 % des salariés",
-        "resume": "Le tribunal des activités économiques de Lyon a validé, ce lundi 27 avril, la reprise de Polytechnyl par Lone Star. L’offre du fonds américain sauve 72 emplois sur environ 550, récupère les brevets et le savoir-faire, mais laisse de côté les ateliers",
-        "url": "https://www.challenges.fr/entreprise/industrie/les-usines-de-polytechnyl-sacrifiees-lone-star-reprend-les-brevets-et-seulement-13-des-salaries_643028"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "14h59",
-        "titre": "Plus de 400 millions de dollars : le pactole du patron de Rivian tombe au plus mauvais moment pour Volkswagen",
-        "resume": "Le PDG et fondateur du constructeur de véhicules électriques californien, RJ Scaringe, a touché une rémunération globale de 402,6 millions de dollars l'année dernière. Au moment où son partenaire allemand essaie de se serrer la ceinture.",
-        "url": "https://www.lesechos.fr/industrie-services/automobile/plus-de-400-millions-de-dollars-le-pactole-du-patron-de-rivian-tombe-au-plus-mauvais-moment-pour-volkswagen-2228915"
+        "heure": "09h23",
+        "titre": "« Pas de surprise malheureusement » : la compagnie Air Antilles cesse définitivement ses vols, 116 salariés sur le carreau",
+        "resume": "Air Antilles a été placée, lundi 27 avril, en liquidation judiciaire avec « cessation immédiate de l’activité », aucune offre de reprise n’ayant été jugée suffisamment crédible. 116 emplois vont ainsi être perdus. L’intersyndicale dénonce un « manque",
+        "url": "https://www.challenges.fr/entreprise/transports/pas-de-surprise-malheureusement-la-compagnie-air-antilles-cesse-definitivement-ses-vols-116-salaries-sur-le-carreau_643032"
       }
     ]
   },
@@ -212,32 +205,25 @@
         "url": "https://www.lemonde.fr/emploi/article/2026/04/28/emploi-le-nombre-d-inscrits-a-france-travail-en-baisse-de-2-4-au-premier-trimestre_6683914_1698637.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "14h02",
-        "titre": "Chômage : net recul inattendu des inscrits à France Travail début 2026",
-        "resume": "Le nombre d'inscrits à France Travail sans activité a diminué de près de 60.000 au premier trimestre 2026, hors effet de la réforme du service public de l'emploi, selon des chiffres publiés ce mardi par la Dares.",
-        "url": "https://www.lesechos.fr/economie-france/social/chomage-net-recul-des-inscrits-a-france-travail-debut-2026-2228903"
-      },
-      {
         "source": "Le Monde Éco",
-        "heure": "12h33",
-        "titre": "Des vacances d’été sans trop dépenser et à proximité : « Seuls 37 % des Français se déclarent certains de partir », selon une étude",
-        "resume": "Face à la hausse des coûts et aux incertitudes de la situation internationale, les ménages se tournent vers des séjours plus courts et des hébergements gratuits, selon une étude de l’Alliance France tourisme publiée mardi.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/28/vacances-d-ete-2026-budgets-en-baisse-et-destinations-locales-pour-les-francais_6683894_3234.html"
+        "heure": "22h26",
+        "titre": "Finances locales : malgré la crise à Aix-Marseille, les collectivités reprennent du poil de la bête",
+        "resume": "Les communes, départements et régions ont redressé leur situation financière en 2025, grâce notamment à la hausse des taxes sur l’immobilier. La mise sous tutelle de la métropole d’Aix-Marseille montre cependant la fragilité de leur modèle économique",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/28/finances-locales-malgre-la-crise-a-aix-marseille-les-collectivites-reprennent-du-poil-de-la-bete_6683983_823448.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "22h49",
-        "titre": "Encadrement des loyers à Paris : 968 euros économisés en moyenne par an pour les locataires, annonce l’Apur",
-        "resume": "L’encadrement des loyers, que le maire PS de Paris, Emmanuel Grégoire, appelle à pérenniser, a permis de minorer les loyers de 5 % en moyenne à Paris depuis 2019, selon une étude de l’Atelier parisien d’urbanisme publiée lundi.",
-        "url": "https://www.lemonde.fr/societe/article/2026/04/27/encadrement-des-loyers-a-paris-968-euros-economises-en-moyenne-par-an-pour-les-locataires-annonce-l-apur_6683675_3224.html"
+        "source": "Challenges",
+        "heure": "06h00",
+        "titre": "L’Europe se réchauffe deux fois plus vite que le reste du monde… mais les raisons ne sont pas forcément celles que vous imaginez",
+        "resume": "Le dernier rapport Copernicus sur l’Etat du climat en Europe qui paraît ce mercredi 29 avril confirme une tendance inquiétante pour le continent européen qui voit se multiplier les événements extrêmes.",
+        "url": "https://www.challenges.fr/entreprise/green-economie/leurope-se-rechauffe-deux-fois-plus-vite-que-le-reste-du-monde-mais-les-raisons-ne-sont-pas-forcement-celles-que-vous-imaginez_643041"
       },
       {
-        "source": "Les Echos",
-        "heure": "10h30",
-        "titre": "« La décentralisation est la condition du renouveau économique »",
-        "resume": "La France dispose d'atouts considérables qu'elle dilapide par excès de centralisation. Rendons aux territoires la capacité à lever l'impôt, à financer leurs propres infrastructures, à attirer des entreprises sans passer par le filtre de Paris, plaide",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/la-decentralisation-est-la-condition-du-renouveau-economique-2228834"
+        "source": "Challenges",
+        "heure": "11h49",
+        "titre": "Carburants : Vallaud juge les mesures insuffisantes et trop lentes",
+        "resume": "Face à la flambée des prix du carburant, Boris Vallaud, invité de « Lundi, c’est politique » sur LCP en partenariat avec Challenges et Radio Classique, appelle à des mesures immédiates et ciblées en faveur des ménages modestes, tout en dénonçant la l",
+        "url": "https://www.challenges.fr/economie/carburants-vallaud-juge-les-mesures-insuffisantes-et-trop-lentes_643036"
       }
     ]
   },
@@ -245,63 +231,56 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "20h00",
-        "titre": "« Made in Europe » : la Chine menace l’Union européenne de mesures de rétorsion",
-        "resume": "Le plan de Bruxelles pour réindustrialiser le Vieux Continent a déclenché l’ire de Pékin, qui l’a fait savoir dans un communiqué publié lundi 27 avril.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/made-in-europe-la-chine-menace-l-union-europeenne-de-mesures-de-retorsion_6683663_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h42",
-        "titre": "Pékin hausse le ton face au plan « made in Europe » : la Chine menace l’UE en cas d’adoption d’une loi de réindustrialisation",
-        "resume": "La Chine a menacé ce lundi 27 avril de « prendre des contre-mesures » contre l’UE si cette dernière adopte une loi de réindustrialisation sans prendre en compte ses « suggestions ». Pékin juge ce plan « made in Europe » discriminatoire.",
-        "url": "https://www.challenges.fr/monde/pekin-hausse-le-ton-face-au-plan-made-in-europe-la-chine-menace-lue-en-cas-dadoption-dune-loi-de-reindustrialisation_643004"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h22",
-        "titre": "Des millions pour qu’Engie arrête des projets aux Etats-Unis : l’administration Trump sort le carnet de chèques pour freiner l’éolien en mer",
-        "resume": "Le ministère américain de l’Intérieur a annoncé, lundi 27 avril, qu’il verserait un total de 885 millions de dollars à des énergéticiens, dont le français Engie, pour qu’ils abandonnent deux projets de parcs éoliens offshore. L’administration Trump a",
-        "url": "https://www.challenges.fr/entreprise/energie/des-millions-pour-quengie-arrete-des-projets-aux-etats-unis-ladministration-trump-sort-le-carnet-de-cheques-pour-freiner-leolien-en-mer_643035"
+        "heure": "08h00",
+        "titre": "La toute-puissance de la Chine : des batteries au nucléaire, des médicaments innovants aux additifs alimentaires, des TGV à l’IA",
+        "resume": "« Comment la Chine dévore l’Europe » (2/4). Sur un nombre impressionnant de technologies et de secteurs, Pékin a rattrapé et dépassé l’Occident, en cherchant, à chaque fois, à contrôler l’ensemble de la chaîne de valeur.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/29/la-toute-puissance-de-la-chine-des-batteries-au-nucleaire-des-medicaments-innovants-aux-additifs-alimentaires-des-tgv-a-l-ia_6684087_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "18h47",
-        "titre": "Emmanuel Macron déplore les « mabouls » qui veulent « se fâcher avec l’Algérie » à propos des médecins à diplôme étranger",
-        "resume": "En déplacement dans un hôpital de l’Ariège, le chef de l’Etat s’est agacé que les médecins étrangers ne puissent pas facilement exercer en France. Une occasion d’attaquer les partisans d’une ligne dure avec l’Algérie.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/27/medecins-a-diplome-etranger-emmanuel-macron-deplore-les-mabouls-qui-veulent-se-facher-avec-l-algerie_6683658_823448.html"
+        "heure": "08h30",
+        "titre": "En trente ans, l’eldorado chinois s’est transformé en piège pour l’industrie européenne",
+        "resume": "« Comment la Chine dévore l’Europe » (1/4). En quelques décennies, la Chine est passée d’atelier du monde à rival technologique majeur pour les Européens. Ces derniers, qui imaginaient profiter de son vaste marché intérieur, ont sous-estimé la capaci",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/en-trente-ans-l-eldorado-chinois-s-est-transforme-en-piege-pour-l-industrie-europeenne_6683875_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "12h29",
-        "titre": "« Les terres rares du Groenland qui n’ont pas été obtenues militairement sont en passe de l’être grâce à Wall Street »",
-        "resume": "En quelques opérations financières, Critical Metals, une société américaine, a pris le contrôle total, en avril, d’un gisement majeur de terres rares au Groenland. C’est une preuve de plus de la capacité des marchés financiers américains à aimanter l",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/28/les-terres-rares-du-groenland-qui-n-ont-pas-ete-obtenues-militairement-sont-en-passe-de-l-etre-grace-a-wall-street_6683893_3234.html"
+        "heure": "19h00",
+        "titre": "« Les capacités de rétorsion de l’Union européenne face à la Chine ne sont pas rassurantes »",
+        "resume": "Pris en étau entre la Chine et les Etats-Unis, les Européens disposent de quelques atouts économiques pour se faire respecter, mais ceux-ci sont fragiles, constate, dans sa chronique, Eric Albert, journaliste au « Monde ».",
+        "url": "https://www.lemonde.fr/idees/article/2026/04/28/les-capacites-de-retorsion-de-l-union-europeenne-face-a-la-chine-ne-sont-pas-rassurantes_6683951_3232.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "22h39",
+        "titre": "La métropole Aix-Marseille se place sous tutelle pour « envoyer un message à l’Etat »",
+        "resume": "Le nouvel exécutif de l’établissement public n’a pas présenté ses délibérations budgétaires, renvoyant au préfet des Bouches-du-Rhône la tâche d’élaborer des comptes équilibrés.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/28/la-metropole-aix-marseille-se-place-sous-tutelle-pour-envoyer-un-message-a-l-etat_6683985_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h20",
+        "titre": "La métropole Aix-Marseille annonce qu’elle ne votera pas son budget 2026, une décision qui ouvre la voie à une rarissime mise sous tutelle de l’Etat",
+        "resume": "« Il est impossible en l’état de présenter un budget où [il] serait inscrit autant de recettes que de dépenses », a justifié Nicolas Isnard, le président de la métropole, confrontée à un trou financier de 123 millions d’euros.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/28/la-metropole-aix-marseille-annonce-qu-elle-ne-votera-pas-son-budget-2026-une-decision-qui-ouvre-la-voie-a-une-rarissime-mise-sous-tutelle-de-l-etat_6683945_823448.html"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "08h10",
-        "titre": "Euro numérique : la BCE avance ses pions malgré la fronde des banques",
-        "resume": "Alors que le projet reste suspendu aux arbitrages du Parlement européen, la BCE a signé des accords avec trois organismes européens de standardisation. Objectif : limiter les coûts d'adoption et renforcer la souveraineté des paiements.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/euro-numerique-la-bce-avance-ses-pions-malgre-la-fronde-des-banques-2228802"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "14h00",
-        "titre": "« EDF fait le choix d’un système exposé aux fluctuations des prix de marché »",
-        "resume": "Quatre-vingts ans après sa création, EDF s’est détournée de sa mission d’origine : garantir un service public, à partir d’un monopole public de l’hydroélectricité qui vend sa production selon un tarif réglementé, au bénéfice des usagers et des invest",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/27/electricite-edf-fait-le-choix-d-un-systeme-expose-aux-fluctuations-des-prix-de-marche_6683637_3232.html"
-      },
-      {
         "source": "Le Monde Éco",
         "heure": "08h00",
-        "titre": "Placements financiers : faut-il opter pour le barème progressif de l’impôt sur le revenu ?",
-        "resume": "Dans une très grande majorité de cas, l’imposition forfaitaire des dividendes et des plus-values s’avère avantageuse.",
-        "url": "https://www.lemonde.fr/argent/article/2026/04/28/placements-financiers-faut-il-opter-pour-le-bareme-progressif-de-l-impot-sur-le-revenu_6683864_1657007.html"
+        "titre": "Banque privée ou en ligne, conseiller patrimonial : quel accompagnement choisir ?",
+        "resume": "Difficile de toujours s’y retrouver parmi la multiplicité des offres qui se proposent d’accompagner le client dans sa gestion de patrimoine. Même si le niveau de celui-ci détermine bien souvent le type d’établissement à privilégier.",
+        "url": "https://www.lemonde.fr/argent/article/2026/04/29/banque-privee-ou-en-ligne-conseiller-patrimonial-quel-accompagnement-choisir_6684079_1657007.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "21h11",
+        "titre": "La Commission lance le « grand ménage de printemps » de la législation européenne",
+        "resume": "La droite et l’extrême droite multiplient les appels à la dérégulation. A Berlin, le chancelier Friedrich Merz est particulièrement offensif.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/la-commission-lance-le-grand-menage-de-printemps-de-la-legislation-europeenne_6683975_3234.html"
       }
     ],
     "courbe": [
