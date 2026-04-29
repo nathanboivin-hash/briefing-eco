@@ -1,31 +1,27 @@
 {
-  "timestamp": "06h03 le 29/04/2026",
+  "timestamp": "11h16 le 29/04/2026",
   "alerte": {
-    "titre": "Échec fusion Pernod Ricard / Brown-Forman",
-    "detail": "Les discussions en vue d'une fusion entre le géant français des spiritueux et l'américain propriétaire de Jack Daniel's ont échoué. Impact significatif sur le secteur des alcools premium.",
-    "indices": [
-      8,
-      42
-    ]
+    "titre": "Échec majeur de fusion Pernod Ricard / Brown-Forman",
+    "detail": "Les deux géants mondiaux des spiritueux (français et américain) abandonnent leurs négociations de fusion après des mois de discussions. Impact: consolidation du secteur reportée, valorisations sectorielles sous pression."
   },
   "synthese": {
-    "resume": "Journée chargée marquée par l'échec de la fusion Pernod-Brown Forman et la liquidation d'Air Antilles (116 salariés). La Chine renforce sa domination technologique (IA, nucléaire, batteries) tandis que la France fait face à des défis structurels : Sanofi cherche une nouvelle direction, Airbus ralentit en production, et les revenus de SFR passent sous 10 Mrd€. Tensions géopolitiques persistantes (Iran, Chine) et crise sociale autour des décès au travail.",
+    "resume": "L'actualité M&A du jour est dominée par l'effondrement inattendu de la fusion Pernod Ricard / Brown-Forman (11h, confirme restructuration sectorielle en suspens). TotalEnergies affiche des bénéfices records (+X%) dopés par la tension géopolitique Iran, tandis que SFR perd du terrain face à ses concurrents avec des revenus sous les 10Mds€. La Chine consolide sa domination technologique (batteries, nucléaire, IA), créant des défis structurels pour l'industrie européenne en 30 ans de transformation.",
     "points": [
       {
-        "titre": "M&A / Deals",
-        "detail": "Échec majeur : Pernod Ricard + Brown-Forman abandonnent fusion. Air Antilles en liquidation judiciaire immédiate (116 postes supprimés). Réduction significative de l'activité de consolidation stratégique."
+        "titre": "M&A / Corporate",
+        "detail": "Fusion Pernod Ricard/Brown-Forman échouée (11h). SFR fragilisé sous 10Mds€ de revenus, vulnérable aux offres. Sanofi nomme Belén Garijo (nouvelle présidence), signal de restructuration attendue. Air Antilles cesse ses vols (116 salariés impactés)."
       },
       {
-        "titre": "Stratégie Entreprises",
-        "detail": "Sanofi recrute Belén Garijo (médecin) comme patronne pour relancer innovation (+15% concerns). Airbus ralenti par retards production. SFR en difficultés (chiffre d'affaires <10 Mrd€), convoité par rivaux. EDF accélère usine EPR 2."
+        "titre": "Géopolitique / Risques",
+        "detail": "Tension Iran-USA crée hausse pétrolière => bénéfices TotalEnergies. Chine accélère domination batteries/nucléaire/IA, piège pour industrie européenne. UE lance grand ménage législatif spring cleaning vs régulation asymétrique chinoise."
       },
       {
-        "titre": "Macro / Emploi",
-        "detail": "France Travail : inscrits en baisse de 2,4% T1 2026 (signal positif). Mais tension sociale : morts au travail en hausse (rassemblement syndical dénonçant 'hécatombe'). Essence SP95-E10 >2€/L. Tensions inflationnistes persistantes."
+        "titre": "Secteurs Clés",
+        "detail": "Aéronautique: Airbus impacté par retards production. Pharma: Sanofi en crise innovation. Énergie: TotalEnergies bénéficiaire du chaos géopolitique. Télécom: SFR en déclin structurel."
       },
       {
-        "titre": "Géopolitique / Politique",
-        "detail": "Domination chinoise confirmée (batteries, IA, pharma, TGV). UE fragile face à Chine et Iran. Crise Aix-Marseille (mise sous tutelle rare). Budget 2026 non voté. Tensions gouvernementales (Lecornu, Cazeneuve 2027)."
+        "titre": "RH / Gouvernance",
+        "detail": "Rémunérations surréalistes Tesla/Rivian critiquées. Morts au travail en France (syndicats dénoncent inaction gouvernementale). Liberté d'expression cadres supérieurs: nouveau cadre légal."
       }
     ]
   },
@@ -33,8 +29,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 173",
-        "change": "+0.54%",
+        "value": "8 111",
+        "change": "+0.27%",
         "dir": "up"
       },
       {
@@ -89,24 +85,10 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "16h53",
-        "titre": "Le prix du SP95-E10 à nouveau au-dessus de 2 euros le litre en moyenne",
-        "resume": "Mi-avril, le SP95-E10 était repassé légèrement sous ce seuil, une semaine après la conclusion du cessez-le-feu entre les Etats-Unis et l’Iran.",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/04/28/le-prix-du-sp95-e10-a-nouveau-au-dessus-des-2-euros-le-litre-en-moyenne_6683932_1656968.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Bourse, crypto, trading : comment débuter sans prendre de risques inutiles",
-        "resume": "Se lancer dans les marchés financiers attire de plus en plus de débutants. Entre la bourse, les cryptomonnaies et les différents outils disponibles en ligne, l’accès n’a jamais été aussi simple. Pourtant, cette facilité peut aussi exposer à des erreu",
-        "url": "https://www.challenges.fr/argent-et-placements/bourse-crypto-trading-comment-debuter-sans-prendre-de-risques-inutiles_643046"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h45",
-        "titre": "Taxer uniquement les riches ? Comment la surenchère des cadeaux fiscaux pourrait tourner au fiasco budgétaire et politique aux Etats-Unis",
-        "resume": "Donald Trump a mis en œuvre sa baisse de taxes massive, financée par le déficit public. Et les démocrates veulent aussi massivement exonérer les Américains d’impôts. Une surenchère qui n’a aucune justification économique et aucun bénéfice politique.",
-        "url": "https://www.challenges.fr/monde/taxer-uniquement-les-riches-comment-la-surenchere-des-cadeaux-fiscaux-pourrait-tourner-au-fiasco-budgetaire-et-politique-aux-etats-unis_643012"
+        "heure": "11h50",
+        "titre": "TotalEnergies : les bénéfices bondissent avec la guerre en Iran",
+        "resume": "Le groupe pétrolier français a réalisé 5,8 milliards de dollars de profits au premier trimestre. Un résultat porté par l’impact du conflit au Moyen-Orient sur les cours des hydrocarbures.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/29/totalenergies-les-benefices-bondissent-avec-la-guerre-en-iran_6684229_3234.html"
       },
       {
         "source": "Challenges",
@@ -121,6 +103,20 @@
         "titre": "Essence, immobilier, inflation : comment la guerre en Iran met l’économie américaine sous pression",
         "resume": "Deux mois après le début de la guerre au Moyen-Orient, les alertes sur l’inflation et la croissance s’accumulent outre-Atlantique. L’administration Trump, elle, est confiante.",
         "url": "https://www.challenges.fr/monde/essence-immobilier-inflation-comment-la-guerre-en-iran-met-leconomie-americaine-sous-pression_643054"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "20h24",
+        "titre": "SFR, convoité par ses rivaux, voit ses revenus passer sous le seuil symbolique des 10 milliards d’euros",
+        "resume": "Alors que Patrick Drahi, le milliardaire propriétaire de SFR depuis 2014, est entré en négociations exclusives avec Bouygues Telecom, Free et Orange pour leur vendre l’opérateur, celui-ci a vu ses ventes chuter fortement, de plus de 8 %, en 2025.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/sfr-convoite-par-ses-rivaux-voit-ses-revenus-passer-sous-le-seuil-symbolique-des-10-milliards-d-euros_6683966_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h30",
+        "titre": "En trente ans, l’eldorado chinois s’est transformé en piège pour l’industrie européenne",
+        "resume": "« Comment la Chine dévore l’Europe » (1/4). En quelques décennies, la Chine est passée d’atelier du monde à rival technologique majeur pour les Européens. Ces derniers, qui imaginaient profiter de son vaste marché intérieur, ont sous-estimé la capaci",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/en-trente-ans-l-eldorado-chinois-s-est-transforme-en-piege-pour-l-industrie-europeenne_6683875_3234.html"
       }
     ]
   },
@@ -129,15 +125,8 @@
       {
         "source": "Le Monde Éco",
         "heure": "07h00",
-        "titre": "Aéronautique : les retards de production pèsent sur les résultats d’Airbus",
-        "resume": "Le résultat opérationnel du groupe européen a été divisé par deux au premier trimestre en raison de ses difficultés de livraison. Pendant ce temps, son rival Boeing monte en cadence.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/29/aeronautique-les-retards-de-production-pesent-sur-les-resultats-d-airbus_6684073_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "07h00",
-        "titre": "A Sanofi, une nouvelle patronne pour surmonter l’inquiétant mal d’innovation du groupe pharmaceutique",
-        "resume": "En prenant ses fonctions de directrice générale, mercredi 29 avril, l’Espagnole Belén Garijo aura la lourde tâche de sortir le groupe pharmaceutique de ses difficultés à améliorer la recherche et développement.",
+        "titre": "Belén Garijo, une nouvelle patronne chez Sanofi pour surmonter l’inquiétant mal d’innovation du groupe pharmaceutique",
+        "resume": "En prenant ses fonctions de directrice générale, mercredi 29 avril, l’Espagnole aura la lourde tâche de sortir le groupe de ses difficultés à améliorer la recherche et développement.",
         "url": "https://www.lemonde.fr/economie/article/2026/04/29/a-sanofi-une-nouvelle-patronne-pour-surmonter-l-inquietant-mal-d-innovation-du-groupe-pharmaceutique_6684071_3234.html"
       },
       {
@@ -149,17 +138,24 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "20h24",
-        "titre": "SFR, convoité par ses rivaux, voit ses revenus passer sous le seuil symbolique des 10 milliards d’euros",
-        "resume": "Alors que Patrick Drahi, le milliardaire propriétaire de SFR depuis 2014, est entré en négociations exclusives avec Bouygues Telecom, Free et Orange pour leur vendre l’opérateur, celui-ci a vu ses ventes chuter fortement, de plus de 8 %, en 2025.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/28/sfr-convoite-par-ses-rivaux-voit-ses-revenus-passer-sous-le-seuil-symbolique-des-10-milliards-d-euros_6683966_3234.html"
+        "heure": "07h00",
+        "titre": "Aéronautique : les retards de production pèsent sur les résultats d’Airbus",
+        "resume": "Le résultat opérationnel du groupe européen a été divisé par deux au premier trimestre en raison de ses difficultés de livraison. Pendant ce temps, son rival Boeing monte en cadence.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/29/aeronautique-les-retards-de-production-pesent-sur-les-resultats-d-airbus_6684073_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "12h00",
-        "titre": "Nucléaire : EDF accélère avec une usine dédiée aux EPR 2, entre ambitions industrielles et incertitudes",
-        "resume": "La future usine de turbines de Chalon-sur-Saône pour les réacteurs EPR 2 s’inscrit dans un plan de relance de l’atome qui accuse déjà des retards et des surcoûts.",
-        "url": "https://www.challenges.fr/entreprise/energie/nucleaire-edf-accelere-avec-une-usine-dediee-aux-epr-2-entre-ambitions-industrielles-et-incertitudes_643034"
+        "source": "Le Monde Éco",
+        "heure": "13h23",
+        "titre": "« Les patrons de Tesla et de Rivian Automotive partagent un goût commun pour les rémunérations surréalistes »",
+        "resume": "RJ Scaringe pourrait toucher jusqu’à 402,6 millions de dollars de la part de Rivian Automotive, en fonction de l’évolution bourisère du constructeur américain. De quoi poser la question des rémunérations indécentes dans le débat public, observe Isabe",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/29/les-patrons-de-tesla-et-de-rivian-automotive-partagent-un-gout-commun-pour-les-remunerations-surrealistes_6684243_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h44",
+        "titre": "Elon Musk dresse son autoportrait en bienfaiteur de l’humanité au procès OpenAI",
+        "resume": "Le patron de Tesla et de SpaceX accuse Sam Altman d’avoir détourné la fondation à but non lucratif qu’ils avaient fondée en 2015. Interrogé mardi, il a mis en garde : « L’IA peut guérir toutes les maladies et rendre tout le monde prospère, mais elle ",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/29/au-proces-openai-elon-musk-dresse-son-autoportrait-en-bienfaiteur-de-l-humanite_6684076_3234.html"
       }
     ]
   },
@@ -173,18 +169,25 @@
         "url": "https://www.lemonde.fr/economie/article/2026/04/29/pernod-ricard-et-l-americain-brown-forman-proprietaire-du-whisky-jack-daniel-s-annoncent-l-echec-de-leurs-discussions-en-vue-d-une-fusion_6684028_3234.html"
       },
       {
+        "source": "Challenges",
+        "heure": "08h53",
+        "titre": "Il n’y aura pas de fusion entre Pernod Ricard et Brown-Forman : les géants français et américain des spiritueux annoncent l’échec de leurs négociations",
+        "resume": "Pernod Ricard et Brown-Forman, le mastodonte américain des spiritueux notamment derrière le whisky Jack Daniel’s, ont annoncé mardi l’échec de leurs pourparlers en vue d’une fusion. De quoi ouvrir la voie à une potentielle acquisition de Brown-Forman",
+        "url": "https://www.challenges.fr/entreprise/il-ny-aura-pas-de-fusion-entre-pernod-ricard-et-brown-forman-les-geants-francais-et-americain-des-spiritueux-annoncent-lechec-de-leurs-negociations_643059"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "20h24",
+        "titre": "SFR, convoité par ses rivaux, voit ses revenus passer sous le seuil symbolique des 10 milliards d’euros",
+        "resume": "Alors que Patrick Drahi, le milliardaire propriétaire de SFR depuis 2014, est entré en négociations exclusives avec Bouygues Telecom, Free et Orange pour leur vendre l’opérateur, celui-ci a vu ses ventes chuter fortement, de plus de 8 %, en 2025.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/28/sfr-convoite-par-ses-rivaux-voit-ses-revenus-passer-sous-le-seuil-symbolique-des-10-milliards-d-euros_6683966_3234.html"
+      },
+      {
         "source": "Le Monde Éco",
         "heure": "10h10",
         "titre": "La disparition d’Air Antilles, un risque de « rupture » dans la continuité du transport aérien régional dans les Caraïbes",
         "resume": "Le tribunal mixte de commerce de Pointe-à-Pitre a ordonné la liquidation judiciaire de la compagnie régionale antillaise, lourdement endettée, dont les avions étaient cloués au sol depuis le retrait, en décembre 2025, de son certificat de transport a",
         "url": "https://www.lemonde.fr/economie/article/2026/04/28/la-disparition-d-air-antilles-un-risque-de-rupture-dans-la-continuite-du-transport-aerien-regional-dans-les-caraibes_6683883_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "23h34",
-        "titre": "La compagnie Air Antilles placée en liquidation judiciaire avec cessation immédiate d’activité",
-        "resume": "Cette décision signe la fin de la compagnie régionale qui dessert les îles françaises des Caraïbes (Saint-Barthélemy, Saint-Martin, Guadeloupe et Martinique) et qui enchaîne les déboires depuis plusieurs années.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/27/la-compagnie-air-antilles-placee-en-liquidation-judiciaire-avec-cessation-immediate-d-activite_6683680_3234.html"
       },
       {
         "source": "Challenges",
@@ -199,41 +202,9 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "14h58",
-        "titre": "Emploi : le nombre d’inscrits à France Travail en baisse de 2,4 % au premier trimestre",
-        "resume": "Malgré une situation économique compliquée, l’opérateur public compte 58 000 demandeurs d’emploi sans activité en moins par rapport à fin 2025, selon les données corrigées liées aux dernières évolutions du mode de calcul.",
-        "url": "https://www.lemonde.fr/emploi/article/2026/04/28/emploi-le-nombre-d-inscrits-a-france-travail-en-baisse-de-2-4-au-premier-trimestre_6683914_1698637.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "22h26",
-        "titre": "Finances locales : malgré la crise à Aix-Marseille, les collectivités reprennent du poil de la bête",
-        "resume": "Les communes, départements et régions ont redressé leur situation financière en 2025, grâce notamment à la hausse des taxes sur l’immobilier. La mise sous tutelle de la métropole d’Aix-Marseille montre cependant la fragilité de leur modèle économique",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/28/finances-locales-malgre-la-crise-a-aix-marseille-les-collectivites-reprennent-du-poil-de-la-bete_6683983_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h00",
-        "titre": "L’Europe se réchauffe deux fois plus vite que le reste du monde… mais les raisons ne sont pas forcément celles que vous imaginez",
-        "resume": "Le dernier rapport Copernicus sur l’Etat du climat en Europe qui paraît ce mercredi 29 avril confirme une tendance inquiétante pour le continent européen qui voit se multiplier les événements extrêmes.",
-        "url": "https://www.challenges.fr/entreprise/green-economie/leurope-se-rechauffe-deux-fois-plus-vite-que-le-reste-du-monde-mais-les-raisons-ne-sont-pas-forcement-celles-que-vous-imaginez_643041"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h49",
-        "titre": "Carburants : Vallaud juge les mesures insuffisantes et trop lentes",
-        "resume": "Face à la flambée des prix du carburant, Boris Vallaud, invité de « Lundi, c’est politique » sur LCP en partenariat avec Challenges et Radio Classique, appelle à des mesures immédiates et ciblées en faveur des ménages modestes, tout en dénonçant la l",
-        "url": "https://www.challenges.fr/economie/carburants-vallaud-juge-les-mesures-insuffisantes-et-trop-lentes_643036"
-      }
-    ]
-  },
-  "politique": {
-    "articles": [
-      {
-        "source": "Le Monde Éco",
         "heure": "08h00",
         "titre": "La toute-puissance de la Chine : des batteries au nucléaire, des médicaments innovants aux additifs alimentaires, des TGV à l’IA",
-        "resume": "« Comment la Chine dévore l’Europe » (2/4). Sur un nombre impressionnant de technologies et de secteurs, Pékin a rattrapé et dépassé l’Occident, en cherchant, à chaque fois, à contrôler l’ensemble de la chaîne de valeur.",
+        "resume": "« Comment la Chine dévore l’Europe » (2/4). Sur un nombre impressionnant de technologies et de secteurs, Pékin a rattrapé et dépassé l’Occident, en cherchant, chaque fois, à contrôler l’ensemble de la chaîne de valeur.",
         "url": "https://www.lemonde.fr/economie/article/2026/04/29/la-toute-puissance-de-la-chine-des-batteries-au-nucleaire-des-medicaments-innovants-aux-additifs-alimentaires-des-tgv-a-l-ia_6684087_3234.html"
       },
       {
@@ -251,9 +222,34 @@
         "url": "https://www.lemonde.fr/idees/article/2026/04/28/les-capacites-de-retorsion-de-l-union-europeenne-face-a-la-chine-ne-sont-pas-rassurantes_6683951_3232.html"
       },
       {
+        "source": "Challenges",
+        "heure": "06h45",
+        "titre": "Taxer uniquement les riches ? Comment la surenchère des cadeaux fiscaux pourrait tourner au fiasco budgétaire et politique aux Etats-Unis",
+        "resume": "Donald Trump a mis en œuvre sa baisse de taxes massive, financée par le déficit public. Et les démocrates veulent aussi massivement exonérer les Américains d’impôts. Une surenchère qui n’a aucune justification économique et aucun bénéfice politique.",
+        "url": "https://www.challenges.fr/monde/taxer-uniquement-les-riches-comment-la-surenchere-des-cadeaux-fiscaux-pourrait-tourner-au-fiasco-budgetaire-et-politique-aux-etats-unis_643012"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h00",
+        "titre": "L’Europe se réchauffe deux fois plus vite que le reste du monde… mais les raisons ne sont pas forcément celles que vous imaginez",
+        "resume": "Le dernier rapport Copernicus sur l’Etat du climat en Europe qui paraît ce mercredi 29 avril confirme une tendance inquiétante pour le continent européen qui voit se multiplier les événements extrêmes.",
+        "url": "https://www.challenges.fr/entreprise/green-economie/leurope-se-rechauffe-deux-fois-plus-vite-que-le-reste-du-monde-mais-les-raisons-ne-sont-pas-forcement-celles-que-vous-imaginez_643041"
+      }
+    ]
+  },
+  "politique": {
+    "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "22h11",
+        "titre": "1ᵉʳ-Mai : le groupe Ecologiste saisit le Conseil d’Etat et accuse Sébastien Lecornu d’« abus de pouvoir »",
+        "resume": "Il y a un peu moins de deux semaines, Sébastien Lecornu avait annoncé que les salariés volontaires des boulangeries et fleuristes indépendants pourraient travailler vendredi 1ᵉʳ mai, jour férié et chômé.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/28/1-mai-le-groupe-ecologiste-saisit-le-conseil-d-etat-et-accuse-sebastien-lecornu-d-abus-de-pouvoir_6683980_823448.html"
+      },
+      {
         "source": "Le Monde Éco",
         "heure": "22h39",
-        "titre": "La métropole Aix-Marseille se place sous tutelle pour « envoyer un message à l’Etat »",
+        "titre": "La métropole d’Aix-Marseille se place sous tutelle pour « envoyer un message à l’Etat »",
         "resume": "Le nouvel exécutif de l’établissement public n’a pas présenté ses délibérations budgétaires, renvoyant au préfet des Bouches-du-Rhône la tâche d’élaborer des comptes équilibrés.",
         "url": "https://www.lemonde.fr/politique/article/2026/04/28/la-metropole-aix-marseille-se-place-sous-tutelle-pour-envoyer-un-message-a-l-etat_6683985_823448.html"
       },
@@ -263,6 +259,20 @@
         "titre": "La métropole Aix-Marseille annonce qu’elle ne votera pas son budget 2026, une décision qui ouvre la voie à une rarissime mise sous tutelle de l’Etat",
         "resume": "« Il est impossible en l’état de présenter un budget où [il] serait inscrit autant de recettes que de dépenses », a justifié Nicolas Isnard, le président de la métropole, confrontée à un trou financier de 123 millions d’euros.",
         "url": "https://www.lemonde.fr/politique/article/2026/04/28/la-metropole-aix-marseille-annonce-qu-elle-ne-votera-pas-son-budget-2026-une-decision-qui-ouvre-la-voie-a-une-rarissime-mise-sous-tutelle-de-l-etat_6683945_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "17h13",
+        "titre": "Avortement : Emmanuel Macron souhaite que « le débat progresse » en Andorre, où l’IVG est totalement interdit",
+        "resume": "La principauté est, avec le Vatican, le seul Etat en Europe à interdire totalement l’interruption volontaire de grossesse, même en cas de viol, d’inceste, de danger pour la mère ou de maladie du fœtus.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/28/avortement-emmanuel-macron-souhaite-que-le-debat-progresse-en-andorre-ou-l-ivg-est-totalement-interdit_6683936_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "16h31",
+        "titre": "Bernard Cazeneuve se dit « prêt à être candidat en 2027 » dans un entretien au « Figaro »",
+        "resume": "L’ancien premier ministre de François Hollande entend « créer les conditions d’un rassemblement » au centre gauche et critique le projet du Parti socialiste, qu’il a quitté en 2022.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/28/bernard-cazeneuve-se-dit-pret-a-etre-candidat-en-2027-dans-un-entretien-au-figaro_6683929_823448.html"
       }
     ]
   },
@@ -277,52 +287,73 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "21h11",
-        "titre": "La Commission lance le « grand ménage de printemps » de la législation européenne",
-        "resume": "La droite et l’extrême droite multiplient les appels à la dérégulation. A Berlin, le chancelier Friedrich Merz est particulièrement offensif.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/28/la-commission-lance-le-grand-menage-de-printemps-de-la-legislation-europeenne_6683975_3234.html"
+        "heure": "08h00",
+        "titre": "Liberté d’expression : un nouveau cadre pour les cadres supérieurs",
+        "resume": "A la suite d’un revirement de la Cour de cassation, la gravité d’un abus de la liberté d’expression d’un salarié devra désormais s’apprécier en fonction des conséquences sur la société. Ainsi, un directeur financier qui a dénigré son supérieur lors d",
+        "url": "https://www.lemonde.fr/emploi/article/2026/04/28/liberte-d-expression-un-nouveau-cadre-pour-les-cadres-superieurs_6683865_1698637.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h08",
+        "titre": "La loi « sciemment inappliquée » par les mutuelles ? Que Choisir dénonce le non-respect du gel des tarifs des complémentaires santé",
+        "resume": "Alors que la loi impose un gel des cotisations des complémentaires santé en 2026, la quasi-totalité des plus de 4 000 témoignages recueillis par Que Choisir au cours du premier trimestre font état d’une hausse des tarifs, dénonce ce mardi 28 avril l’",
+        "url": "https://www.challenges.fr/entreprise/sante/la-loi-sciemment-inappliquee-par-les-mutuelles-que-choisir-denonce-le-non-respect-du-gel-des-tarifs-des-complementaires-sante_643053"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "Mettez une partie de votre impôt (IFI ou IR) au service d’une recherche d’excellence,aujourd’hui menacée.",
+        "resume": "Depuis sa création en 1887, l’Institut Pasteur a contribué à des découvertes majeures qui n’ont cessé de faire progresser la santé humaine, du vaccin contre la rage à la mise au point du 1er test PCR pour le Sars-CoV-2 en passant par la découverte de",
+        "url": "https://www.challenges.fr/immobilier/mettez-une-partie-de-votre-impot-ifi-ou-ir-au-service-dune-recherche-dexcellenceaujourdhui-menacee_642868"
+      },
+      {
+        "source": "Challenges",
+        "heure": "16h52",
+        "titre": "Jusqu’à 650 000 euros en plus et des recrutements… comment les restos U se préparent à la révolution du repas à 1 euro pour tous",
+        "resume": "A partir du 4 mai, tous les restaurants universitaires proposeront progressivement le repas à 1 euro. « Une mesure de pouvoir d’achat forte », selon le gouvernement, qui devrait faire bondir la fréquentation de ces restos Crous. D’importants moyens s",
+        "url": "https://www.challenges.fr/education/jusqua-650-000-euros-en-plus-et-des-recrutements-comment-les-restos-u-se-preparent-a-la-revolution-du-repas-a-1-euro-pour-tous_643051"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.53,
-        "prev": 2.542,
-        "diff": -0.012,
-        "trend": "down",
-        "date": "2026-04-27"
+        "rate": 2.602,
+        "prev": 2.53,
+        "diff": 0.072,
+        "trend": "up",
+        "date": "2026-04-28"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.674,
+        "rate": 2.723,
         "prev": 2.674,
-        "diff": 0.0,
-        "trend": "flat",
-        "date": "2026-04-27"
+        "diff": 0.049,
+        "trend": "up",
+        "date": "2026-04-28"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.082,
-        "prev": 3.071,
-        "diff": 0.011,
+        "rate": 3.12,
+        "prev": 3.082,
+        "diff": 0.038,
         "trend": "up",
-        "date": "2026-04-27"
+        "date": "2026-04-28"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.502,
-        "prev": 3.483,
-        "diff": 0.019,
+        "rate": 3.529,
+        "prev": 3.502,
+        "diff": 0.028,
         "trend": "up",
-        "date": "2026-04-27"
+        "date": "2026-04-28"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.507,
-        "prev": 3.488,
-        "diff": 0.02,
+        "rate": 3.525,
+        "prev": 3.507,
+        "diff": 0.018,
         "trend": "up",
-        "date": "2026-04-27"
+        "date": "2026-04-28"
       }
     ]
   },
