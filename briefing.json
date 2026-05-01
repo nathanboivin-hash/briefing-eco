@@ -1,27 +1,27 @@
 {
-  "timestamp": "07h14 le 30/04/2026",
+  "timestamp": "10h11 le 01/05/2026",
   "alerte": {
-    "titre": "Échec fusion Pernod Ricard/Brown-Forman",
-    "detail": "Après des discussions avancées, les deux géants des spiritueux annoncent l'arrêt de leurs négociations de fusion. Impact sur la consolidation du secteur."
+    "titre": "Crise énergétique moyen-orientale — impact carburant massif",
+    "detail": "Air France-KLM subit +2,4 Mds$ de surcoûts carburant; Brent à 125$/baril; risque de pénurie estivale (11 M barils/j manquants); blocus Iran annoncé. TotalEnergies prolonge plafonnement FR."
   },
   "synthese": {
-    "resume": "Les géants technologiques (Alphabet, Microsoft, Amazon, Meta) affichent des profits record portés par l'IA. Le pétrole flambe à 125 $/baril suite à la crise iranienne et menace l'approvisionnement énergétique européen. TotalEnergies enregistre des bénéfices exceptionnels, suscitant des débats gouvernementaux sur une taxe superprofits. La Fed maintient ses taux malgré des divergences internes, avec Kevin Warsh pressenti à sa tête.",
+    "resume": "Le 1ᵉʳ mai 2026 marque l'entrée en vigueur de l'accord UE-Mercosur avec des impacts sectoriels majeurs. La crise moyen-orientale fait bondir le Brent à 125$/baril et crée une pénurie de 11M barils/jour, contraignant Air France-KLM à absorber 2,4Mds$ de surcoûts. Les ventes de VE en France s'envolent (+48% YTD) malgré un repli global. La rémunération des patrons du CAC40 a crû 3x plus vite que les salaires en 2025, alimentant les tensions sociales à 1 an de la présidentielle.",
     "points": [
       {
-        "titre": "Marchés & Pétrole",
-        "detail": "Brent à 125 $/baril (+11M de barils manquants) ; craintes pénurie d'été. Tech en force avec profits records GAFAM. Risque prolongé détroit d'Ormuz."
+        "titre": "Marchés & Énergie",
+        "detail": "Brent à 125$/baril (+tensions Iran); Air France-KLM: +2,4Mds$ surcoûts carburant; risque de pénurie estivale 11M barils/jour; BNP Paribas trimestre record sur ce contexte. VE France +48% YTD vs marché global en recul."
       },
       {
-        "titre": "Macro-économie",
-        "detail": "Productivité européenne en question face au décrochage compétitif. Dépendance énergétique fossile persistante. Chômage transfrontalier : débat UE sur réforme assurance-chômage (-1Md€/an France)."
+        "titre": "Macro & Conjoncture",
+        "detail": "Croissance FR atone + inflation >2% (divergence BCE); prix gaz changent au 1ᵉʳ mai; accord Mercosur en vigueur (cinq questions stratégiques); inde: tensions salaires, inflation alimentaire inquiétante."
       },
       {
-        "titre": "Entreprises & Résultats",
-        "detail": "Airbus pénalisé par retards production. Accor pivot vers croisière luxe. Studio Spiders ferme. TotalEnergies dopé par Iran mais sous pression fiscale. SNCF travaux Lyon 1er mai."
+        "titre": "Grandes Entreprises",
+        "detail": "Renault: JD Senard quitte la présidence fin 2027 (annonce succession). Alphabet/Microsoft/Amazon/Meta: profits record. OpenAI/Elon Musk procès (tensions genèse projet)."
       },
       {
-        "titre": "Politique & Géopolitique",
-        "detail": "À 1 an présidentielle, climat social dégradé et 'colère sourde'. Débat fiscal TotalEnergies divise droite/gauche. Iran instabilité géopolitique majeure. Macron demande 'nouvelles réponses' prix énergies."
+        "titre": "Politique & Géo-économie",
+        "detail": "Nouvel secrétaire général Élysée (Imbert). Exercice Orion: Macron loue « signal clair » post-UE (ampleur inédite depuis Guerre froide). Présidentielle 2027: risque dispersion gauche/droite; climat social dégradé."
       }
     ]
   },
@@ -29,8 +29,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 111",
-        "change": "+0.27%",
+        "value": "8 115",
+        "change": "+1.89%",
         "dir": "up"
       },
       {
@@ -41,20 +41,20 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 146",
-        "change": "+0.20%",
+        "value": "7 220",
+        "change": "+0.81%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "24 724",
-        "change": "+0.48%",
+        "value": "24 936",
+        "change": "+0.30%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1689",
-        "change": "+0.11%",
+        "value": "1.1747",
+        "change": "+0.12%",
         "dir": "up"
       },
       {
@@ -65,8 +65,8 @@
       },
       {
         "label": "Or",
-        "value": "4 595 $",
-        "change": "+1.11%",
+        "value": "4 636 $",
+        "change": "+0.12%",
         "dir": "up"
       },
       {
@@ -87,7 +87,7 @@
         "source": "Challenges",
         "heure": "09h06",
         "titre": "Le baril de Brent atteint les 125 dollars : le pétrole bondit face à la perspective d’une paralysie prolongée dans le détroit d’Ormuz",
-        "resume": "Les Etats-Unis ont indiqué, mercredi 29 avril, envisager de « poursuivre le blocus actuel » des ports iraniens « pendant des mois si nécessaire ». En réaction, le pétrole a atteint les 125 dollars le baril ce jeudi.",
+        "resume": "Les Etats-Unis ont indiqué, mercredi 29 avril, envisager de « poursuivre le blocus actuel » des ports iraniens « pendant des mois si nécessaire ». En réaction, le pétrole a atteint les 125 dollars le baril ce jeudi.",
         "url": "https://www.challenges.fr/entreprise/energie/le-baril-de-brent-atteint-les-125-dollars-le-petrole-bondit-face-a-la-perspective-dune-paralysie-prolongee-dans-le-detroit-dormuz_643092"
       },
       {
@@ -98,13 +98,6 @@
         "url": "https://www.challenges.fr/monde/washington-evoque-un-long-blocus-en-iran-le-petrole-bondit-bnp-paribas-enregistre-un-trimestre-record-ca-sest-passe-cette-nuit_643091"
       },
       {
-        "source": "Challenges",
-        "heure": "22h53",
-        "titre": "La Fed maintient ses taux malgré des divergences internes",
-        "resume": "La Réserve fédérale américaine (Fed) a laissé mercredi 29 avril ses taux directeurs à leur niveau actuel, dans une fourchette de 3,50 % à 3,75 %. Tout en faisant état de préoccupations croissantes à propos de l’inflation dans le contexte de la guerre",
-        "url": "https://www.challenges.fr/monde/la-fed-maintient-ses-taux-malgre-des-divergences-internes_643089"
-      },
-      {
         "source": "Le Monde Éco",
         "heure": "08h00",
         "titre": "Alphabet, Microsoft, Amazon et Meta enregistrent des profits record",
@@ -113,10 +106,31 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "20h00",
-        "titre": "Les frais des placements financiers continuent de baisser",
-        "resume": "En une quinzaine d’années, les frais des fonds actions sont passés de 2,3 % à 1,3 %. Le coût des comptes-titres et des plans d’épargne en actions a aussi diminué, du fait de la concurrence en ligne",
-        "url": "https://www.lemonde.fr/argent/article/2026/04/29/les-frais-des-placements-financiers-continuent-de-baisser_6684301_1657007.html"
+        "heure": "17h04",
+        "titre": "Air France-KLM face à un surcoût monstre de 2,4 milliards de dollars sur sa facture carburant en raison du conflit au Moyen-Orient",
+        "resume": "Alors que ses résultats trimestriels – plutôt bons – ne prennent pas en compte encore la flambée du kérosène, le groupe franco-néerlandais va restreindre sa croissance et rattraper par les prix la majoration considérable de ses frais opérationnels.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/30/air-france-klm-face-a-un-surcout-monstre-de-2-4-milliards-de-dollars-sur-sa-facture-carburant-en-raison-du-conflit-au-moyen-orient_6684600_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h36",
+        "titre": "Carburants : TotalEnergies prolonge le plafonnement des prix en France face à la crise au Moyen-Orient",
+        "resume": "Le groupe énergétique s’engage à protéger le pouvoir d’achat des automobilistes français en maintenant ses prix plafonnés en mai. Cette annonce survient au lendemain de la publication des résultats trimestriels du groupe.",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/04/30/totalenergies-prolonge-le-plafonnement-des-prix-des-carburants-en-france-face-a-la-crise-au-moyen-orient_6684613_1656968.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "11 millions de barils en moins sur le marché : aurons-nous assez de carburant cet été, et à quel prix ?",
+        "resume": "La diversification de nos approvisionnements nous prémunit aujourd’hui de la pénurie de carburants, un scénario qu’a d’ailleurs écarté le président Emmanuel Macron ce week-end. Mais si le conflit en Iran venait à se prolonger, la situation pourrait d",
+        "url": "https://www.challenges.fr/entreprise/energie/11-millions-de-barils-en-moins-sur-le-marche-aurons-nous-assez-de-carburant-cet-ete-et-a-quel-prix_643082"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h15",
+        "titre": "Kevin Warsh à la tête de la Fed : à quoi s’attendre pour la politique monétaire américaine ?",
+        "resume": "Choisi par Donald Trump pour présider la banque centrale américaine, Kevin Warsh est un ancien « faucon » partisan de la lutte contre l’inflation. Wall Street l’avait adoubé bien avant son audition au Sénat.",
+        "url": "https://www.challenges.fr/monde/kevin-warsh-a-la-tete-de-la-fed-a-quoi-sattendre-pour-la-politique-monetaire-americaine_643022"
       }
     ]
   },
@@ -124,38 +138,52 @@
     "articles": [
       {
         "source": "Le Monde Éco",
+        "heure": "18h51",
+        "titre": "Renault : Jean-Dominique Senard annonce qu’il ne fera pas « le mandat de trop » et quittera la présidence du groupe automobile en 2027",
+        "resume": "Le président du conseil d’administration du constructeur automobile depuis sept ans a annoncé, jeudi, qu’il s’appliquera à préparer sa succession d’ici à l’année prochaine.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/30/renault-jean-dominique-senard-annonce-qu-il-ne-fera-pas-le-mandat-de-trop-et-quittera-la-presidence-du-groupe-automobile-en-2027_6684618_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
         "heure": "08h00",
         "titre": "Alphabet, Microsoft, Amazon et Meta enregistrent des profits record",
         "resume": "Les résultats au premier trimestre des quatre géants de la tech, publiés mercredi, ont tous dépassé les attentes des analystes.",
         "url": "https://www.lemonde.fr/economie/article/2026/04/30/alphabet-microsoft-amazon-et-meta-enregistrent-des-profits-record_6684546_3234.html"
       },
       {
+        "source": "Challenges",
+        "heure": "18h30",
+        "titre": "Uber peut déjà vous livrer votre dîner. Désormais, il souhaite également vous réserver une chambre d’hôtel.",
+        "resume": "En partenariat avec Expedia, Uber, un service de réservation de courses, de livraison de repas et de transport de colis fait un pas de plus vers son objectif de devenir une super-application.",
+        "url": "https://www.challenges.fr/entreprise/tourisme/uber-peut-deja-vous-livrer-votre-diner-desormais-il-souhaite-egalement-vous-reserver-une-chambre-dhotel_643110"
+      },
+      {
+        "source": "Challenges",
+        "heure": "13h10",
+        "titre": "« J’ai été un idiot » : à son procès contre OpenAI, Elon Musk regrette d’avoir financé « gratuitement » les débuts du géant de l’IA",
+        "resume": "Le patron de Tesla et SpaceX a dit regretter, mercredi 29 avril, d’avoir « fourni un financement gratuit » pour créer OpenAI. Elon Musk témoignait lors du procès qui l’oppose au géant de l’IA, qu’il accuse d’avoir violé son pacte fondateur en se déto",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/quest-ce-qui-se-passe-bon-sang-a-son-proces-contre-le-geant-de-lia-openai-elon-musk-revient-sur-la-genese-de-sa-brouille-avec-sam-altman_643099"
+      },
+      {
         "source": "Le Monde Éco",
+        "heure": "06h15",
+        "titre": "La rémunération des patrons des grandes entreprises en France a augmenté en 2025 trois fois plus vite que celle des salariés, selon un rapport",
+        "resume": "L’ONG Oxfam et la Confédération syndicale internationale dénoncent un « fossé grandissant » entre les grands patrons et les employés. Selon leur étude, près de 80 milliards de dollars ont été versés en dividendes à un millier de milliardaires dans le",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/01/la-remuneration-des-dirigeants-des-grandes-entreprises-a-augmente-trois-fois-plus-vite-que-celle-des-salaries-en-france-en-2025-selon-un-rapport_6684666_3234.html"
+      },
+      {
+        "source": "Challenges",
         "heure": "07h00",
-        "titre": "Aéronautique : les retards de production pèsent sur les résultats d’Airbus",
-        "resume": "Le résultat opérationnel du groupe européen a été divisé par deux au premier trimestre en raison de ses difficultés de livraison. Pendant ce temps, son rival Boeing monte en cadence.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/29/aeronautique-les-retards-de-production-pesent-sur-les-resultats-d-airbus_6684073_3234.html"
+        "titre": "Lucca facilite la vie des salariés en automatisant les processus administratifs et RH",
+        "resume": "Gilles Satgé, diplômé de l’ESCP Business School, a cofondé cet éditeur de logiciels en 2002. Celui-ci compte aujourd’hui 1 million d’utilisateurs et ambitionne de devenir leader du marché européen. Il est l'invité du Club Entrepreneurs Challenges - M",
+        "url": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/lucca-facilite-la-vie-des-salaries-en-automatisant-les-processus-administratifs-et-rh_643090"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "19h00",
-        "titre": "Le groupe d’hôtellerie Accor met le cap sur le marché de la croisière de luxe",
-        "resume": "Dans le port de Saint-Nazaire, le groupe hôtelier a baptisé l’« Orient Express Corinthian », mercredi 29 avril. Cet hôtel flottant doit rivaliser avec ceux de Ritz-Carlton et de Four Seasons.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/29/le-groupe-d-hotellerie-accor-met-le-cap-sur-le-marche-de-la-croisiere-de-luxe_6684284_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "22h49",
-        "titre": "Le studio français de jeux vidéo Spiders va fermer ses portes",
-        "resume": "Le studio parisien, créateur du jeu de rôle « Greedfall », fait l’objet d’une procédure de liquidation judiciaire. Sa fermeture illustre la fragilité financière de son propriétaire, l’éditeur nordiste Nacon et sa holding Bigben Interactive.",
-        "url": "https://www.lemonde.fr/pixels/article/2026/04/29/le-studio-francais-de-jeux-video-spiders-va-fermer-ses-portes_6684321_4408996.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "11h50",
-        "titre": "TotalEnergies : les bénéfices bondissent avec la guerre en Iran",
-        "resume": "Le groupe pétrolier français a réalisé 5,8 milliards de dollars de profits au premier trimestre. Un résultat porté par l’impact du conflit au Moyen-Orient sur les cours des hydrocarbures.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/29/totalenergies-les-benefices-bondissent-avec-la-guerre-en-iran_6684229_3234.html"
+        "source": "Challenges",
+        "heure": "17h15",
+        "titre": "« C’est darwinien » : le CDI offert au Goncourt Kamel Daoud juste après un lourd plan social met la rédaction du Point à vif",
+        "resume": "Le magazine a embauché définitivement le Prix Goncourt Kamel Daoud, alors qu’il sort d’un plan social et qu’il compte réduire son équipe de journalistes web. L’audience du site Internet a chuté ces derniers mois suite à une baisse nette de la product",
+        "url": "https://www.challenges.fr/entreprise/medias/cest-darwinien-le-cdi-offert-au-goncourt-kamel-daoud-juste-apres-un-lourd-plan-social-met-la-redaction-du-point-a-vif_643107"
       }
     ]
   },
@@ -163,38 +191,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "03h15",
-        "titre": "Pernod Ricard et l’américain Brown-Forman, propriétaire du whisky Jack Daniel’s, annoncent l’échec de leurs discussions en vue d’une fusion",
-        "resume": "Les deux grands groupes n’ont pas réussi à s’entendre sur les conditions d’un partenariat, dans un contexte morose pour les boissons alcoolisées à travers le monde. Selon le « Wall Street Journal », l’entreprise américaine Sazerac a contacté Brown-Fo",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/29/pernod-ricard-et-l-americain-brown-forman-proprietaire-du-whisky-jack-daniel-s-annoncent-l-echec-de-leurs-discussions-en-vue-d-une-fusion_6684028_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "Du début des RTT au télétravail : avec ses solutions RH, la pépite Lucca vise la place de leader en Europe d’ici à 2030",
-        "resume": "Gilles Satgé, diplômé de l’ESCP Business School, a cofondé cet éditeur de logiciels en 2002. Celui-ci compte aujourd’hui 1 million d’utilisateurs et ambitionne de devenir leader du marché européen. Il est l’invité du Club Entrepreneurs Challenges – M",
-        "url": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/du-debut-des-rtt-au-teletravail-avec-ses-solutions-rh-la-pepite-lucca-vise-la-place-de-leader-en-europe-dici-a-2030_642828"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "IA : le défi du passage à l’échelle",
-        "resume": "L’usage de l’intelligence artificielle s’accélère dans les entreprises. Mais à mesure que ces technologies se diffusent, la question de leur fiabilité à l’échelle devient centrale. Un défi auquel de nouvelles approches, notamment en France, commencen",
-        "url": "https://www.challenges.fr/partenaires/ia-le-defi-du-passage-a-lechelle_643010"
+        "heure": "20h23",
+        "titre": "L’Etat belge envisage de racheter les réacteurs nucléaires du pays à Engie",
+        "resume": "Le gouvernement belge va négocier la reprise par l’Etat à l’entreprise française de l’ensemble de ses activités nucléaires en Belgique. Cela concerne sept réacteurs nucléaires, dont cinq ont été mis à l’arrêt.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/30/l-etat-belge-envisage-de-racheter-les-reacteurs-nucleaires-du-pays-a-engie_6684638_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h45",
-        "titre": "Au procès OpenAI, l’irritation d’Elon Musk, confronté à la genèse du projet : « Vos questions sont conçues pour me piéger »",
-        "resume": "Le patron de Tesla et de SpaceX, qui accuse Sam Altman d’avoir détourné la fondation à but non lucratif qu’ils avaient fondée en 2015, a été confronté, mercredi, devant le tribunal d’Oakland, à ses mails et à ses prédictions de l’époque.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/30/au-proces-openai-l-irritation-d-elon-musk-confronte-a-la-genese-du-projet-vos-questions-sont-concues-pour-me-pieger_6684555_3234.html"
+        "heure": "18h51",
+        "titre": "Renault : Jean-Dominique Senard annonce qu’il ne fera pas « le mandat de trop » et quittera la présidence du groupe automobile en 2027",
+        "resume": "Le président du conseil d’administration du constructeur automobile depuis sept ans a annoncé, jeudi, qu’il s’appliquera à préparer sa succession d’ici à l’année prochaine.",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/30/renault-jean-dominique-senard-annonce-qu-il-ne-fera-pas-le-mandat-de-trop-et-quittera-la-presidence-du-groupe-automobile-en-2027_6684618_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "17h00",
-        "titre": "En plein bras de fer avec Anthropic, le Pentagone ajoute l’IA Gemini de Google à son arsenal de guerre",
-        "resume": "Google a annoncé, mardi 28 avril, avoir conclu un accord avec le Pentagone. Son modèle d’IA Gemini pourra ainsi être utilisé par le ministère américain de la Défense dans le cadre de travaux classifiés. Ce deal survient alors que le Pentagone est eng",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/en-plein-bras-de-fer-avec-anthropic-le-pentagone-ajoute-lia-gemini-de-google-a-son-arsenal-de-guerre_643073"
+        "heure": "18h30",
+        "titre": "Uber peut déjà vous livrer votre dîner. Désormais, il souhaite également vous réserver une chambre d’hôtel.",
+        "resume": "En partenariat avec Expedia, Uber, un service de réservation de courses, de livraison de repas et de transport de colis fait un pas de plus vers son objectif de devenir une super-application.",
+        "url": "https://www.challenges.fr/entreprise/tourisme/uber-peut-deja-vous-livrer-votre-diner-desormais-il-souhaite-egalement-vous-reserver-une-chambre-dhotel_643110"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "14h17",
+        "titre": "Métropole de Grenoble : Guillaume Lissy élu président à la tête d’un collectif d’élus de gauche",
+        "resume": "Le maire socialiste de Seyssinet-Pariset a été élu dès le premier tour avec 87 voix sur 109. Son élection a été rendue possible par le retrait de la course du maire de Jarrie, Raphaël Guerrero (divers centre), après un accord conclu entre les deux pr",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/30/metropole-de-grenoble-guillaume-lissy-elu-president-a-la-tete-d-un-collectif-d-elus-de-gauche_6684578_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h39",
+        "titre": "Ils comptent parmi les élus les plus puissants de France : qui sont les nouveaux présidents des grandes intercommunalités ?",
+        "resume": "Transports, eau, déchets, urbanisme… Dans les grandes villes, ce sont les « intercos » qui décident pour nombre de sujets-clés. Et leurs présidents sont désormais connus, à l’issue d’un « troisième tour » des municipales qui a réservé quelques surpri",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/04/30/ils-comptent-parmi-les-elus-les-plus-puissants-de-france-qui-sont-les-nouveaux-presidents-des-grandes-intercommunalites_6684615_4355770.html"
       }
     ]
   },
@@ -202,38 +230,52 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "21h00",
-        "titre": "La productivité comme antidote au décrochage de l’Europe",
-        "resume": "Dans son ouvrage « La Prospérité retrouvée », l’économiste Antonin Bergeaud propose une voie pour retrouver le chemin de la croissance sans sacrifier le modèle social et environnemental européen.",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/29/la-productivite-comme-antidote-au-decrochage-de-l-europe_6684309_3232.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "20h30",
-        "titre": "« Malgré la répétition des crises, notre nourriture est toujours aussi dépendante des énergies fossiles »",
-        "resume": "En prenant l’exemple de la crise californienne de 1920, où les compagnies pétrolières avaient aidé les agriculteurs privés d’eau, Jean-Baptiste Fressoz montre, dans sa chronique au « Monde », qu’il serait possible d’empêcher une crise alimentaire mon",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/29/malgre-la-repetition-des-crises-notre-nourriture-est-toujours-aussi-dependante-des-energies-fossiles_6684306_3232.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "20h08",
-        "titre": "L’Union européenne donne son accord à une réforme du système d’assurance-chômage pour les travailleurs frontaliers européens",
-        "resume": "Cette réforme devrait bénéficier financièrement aux pays, comme la France, où résident de nombreuses personnes travaillant dans les pays voisins (Luxembourg, Suisse, Allemagne…), lesquelles se plaignaient jusqu’ici de subir d’importants surcoûts.",
-        "url": "https://www.lemonde.fr/emploi/article/2026/04/29/l-union-europeenne-donne-son-accord-a-une-reforme-du-systeme-d-assurance-chomage-pour-les-travailleurs-frontaliers-europeens_6684302_1698637.html"
+        "heure": "09h00",
+        "titre": "L’accord UE-Mercosur entre en vigueur : cinq questions pour comprendre où on en est",
+        "resume": "Malgré l’opposition de la France, le traité commercial franchit une nouvelle étape avec son application à titre provisoire. Son entrée en vigueur définitive dépend encore du vote du Parlement européen.",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/05/01/l-accord-ue-mercosur-entre-en-vigueur-cinq-questions-pour-comprendre-ou-on-en-est_6661184_4355771.html"
       },
       {
         "source": "Challenges",
-        "heure": "14h29",
-        "titre": "« La France paie pour les autres », mais plus pour longtemps : l’Unédic bientôt soulagé du milliard d’euros versé aux chômeurs transfrontaliers ?",
-        "resume": "Les chômeurs transfrontaliers vont bientôt être indemnisés par le pays de leur dernier emploi, et non par celui où ils résident, selon le site public de l’emploi suisse. Des informations confirmées auprès de Challenges par le ministère français du Tr",
-        "url": "https://www.challenges.fr/economie/la-france-paie-pour-les-autres-mais-plus-pour-longtemps-lunedic-bientot-soulage-du-milliard-deuros-verse-aux-chomeurs-frontaliers_643071"
+        "heure": "11h29",
+        "titre": "Une croissance atone et une inflation qui dépasse 2 % : les mauvaises nouvelles s’accumulent pour l’économie française",
+        "resume": "Selon les premières estimations de l’Insee publiées ce jeudi 30 avril, le PIB français a fait du surplace au premier trimestre 2026, tandis que les prix à la consommation ont augmenté de 2,2 % sur un an en avril. Si le conflit au Moyen-Orient n’a pas",
+        "url": "https://www.challenges.fr/economie/une-croissance-atone-et-une-inflation-qui-depasse-2-les-mauvaises-nouvelles-saccumulent-pour-leconomie-francaise_643095"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "17h00",
+        "titre": "En Inde, la colère prend de l’ampleur parmi les travailleurs : « Il est devenu de plus en plus difficile d’acheter de quoi manger »",
+        "resume": "Depuis le début du mois d’avril, des milliers d’ouvriers sont descendus dans les rues pour réclamer de meilleurs salaires et de meilleures conditions de travail. Du fait de l’inflation, l’achat des produits de première nécessité est compromis pour le",
+        "url": "https://www.lemonde.fr/international/article/2026/04/30/en-inde-la-colere-prend-de-l-ampleur-parmi-les-travailleurs-il-est-devenu-de-plus-en-plus-difficile-d-acheter-de-quoi-manger_6684599_3210.html"
       },
       {
         "source": "Challenges",
-        "heure": "06h00",
-        "titre": "L’Europe se réchauffe deux fois plus vite que le reste du monde… mais les raisons ne sont pas forcément celles que vous imaginez",
-        "resume": "Le dernier rapport Copernicus sur l’Etat du climat en Europe qui paraît ce mercredi 29 avril confirme une tendance inquiétante pour le continent européen qui voit se multiplier les événements extrêmes.",
-        "url": "https://www.challenges.fr/entreprise/green-economie/leurope-se-rechauffe-deux-fois-plus-vite-que-le-reste-du-monde-mais-les-raisons-ne-sont-pas-forcement-celles-que-vous-imaginez_643041"
+        "heure": "10h52",
+        "titre": "En Colombie, 56 pays se coordonnent pour sortir des énergies fossiles, le plan de la France salué",
+        "resume": "Cinquante-six pays ont adopté leur propre consensus à l’issue de la première conférence pour la sortie des énergies fossiles, organisée cette semaine à Santa Marta en Colombie.",
+        "url": "https://www.challenges.fr/entreprise/green-economie/en-colombie-56-pays-se-coordonnent-pour-sortir-des-energies-fossiles-le-plan-de-la-france-salue_643094"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "11h27",
+        "titre": "Voitures électriques : les ventes en France ont augmenté de 48 % depuis le début de l’année malgré un marché global en recul",
+        "resume": "Plus de 148 300 véhicules électriques ont été vendus au cours des quatre premiers mois de 2025, selon la Plateforme automobile (PFA), qui regroupe tous les constructeurs.",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/05/01/voitures-electriques-les-ventes-ont-bondi-de-48-depuis-le-debut-de-l-annee-en-france-malgre-un-marche-automobile-en-recul_6684690_1656968.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Ce qui change à partir du 1ᵉʳ mai : prix du gaz, fleuristes et boulangeries ouverts, repas à 1 euro pour les étudiants, Mercosur, coût des titres de séjour…",
+        "resume": "Le 1ᵉʳ mai s’accompagne de différentes mesures et évolutions, comme le tarif dit « repère » du gaz, qui augmente de 21,42 euros par mégawattheure.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/01/ce-qui-change-a-partir-du-1-mai-prix-du-gaz-fleuristes-et-boulangeries-ouverts-repas-a-1-euro-pour-les-etudiants-mercosur-cout-des-titres-de-sejour_6684676_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "23h58",
+        "titre": "Le projet d’allocation sociale unifiée largement rejeté par le Conseil national de l’habitat",
+        "resume": "L’instance consultative a signifié, par 31 voix contre 2, son opposition à ce projet d’aide qui fusionnerait RSA, APL et prime d’activité et serait plus incitative à la reprise d’emploi.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/30/le-projet-d-allocation-sociale-unifiee-largement-rejete-par-le-conseil-national-de-l-habitat_6684661_823448.html"
       }
     ]
   },
@@ -241,38 +283,52 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "16h59",
-        "titre": "Emmanuel Macron demande de « nouvelles réponses » face à la hausse des prix de l’énergie et des carburants",
-        "resume": "Le premier ministre, Sébastien Lecornu, avait annoncé le 21 avril le prolongement et le renforcement, pour le mois de mai, des aides pour les pêcheurs et agriculteurs, pour répondre à la flambée des prix des carburants causée par la guerre au Moyen-O",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/04/29/emmanuel-macron-demande-de-nouvelles-reponses-face-a-la-hausse-des-prix-de-l-energie-et-des-carburants_6684266_1656968.html"
+        "heure": "20h57",
+        "titre": "Orion : Emmanuel Macron loue le « signal clair » envoyé par les Européens après un exercice militaire d’une ampleur jamais vue depuis la guerre froide",
+        "resume": "Cet exercice, auquel ont participé plusieurs pays européens, avait été lancé en février pour entraîner l’armée française et l’OTAN aux nouvelles guerres de haute intensité.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/30/orion-emmanuel-macron-loue-le-signal-clair-envoye-par-les-europeens-apres-un-exercice-militaire-d-une-ampleur-jamais-vue-depuis-la-guerre-froide_6684646_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "17h12",
-        "titre": "TotalEnergies : face aux critiques sur ses bénéfices record, le gouvernement n’exclut pas une taxe sur les superprofits",
-        "resume": "TotalEnergies redistribue déjà ses « profits » aux consommateurs à travers le plafonnement du prix des carburants que la compagnie dit vouloir poursuivre, a fait savoir la multinationale alors que le premier ministre l’a appelée à « redistribuer d’un",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/04/29/totalenergies-face-aux-critiques-sur-ses-benefices-record-le-gouvernement-n-exclut-pas-une-taxe-sur-les-superprofits_6684271_1656968.html"
+        "heure": "20h51",
+        "titre": "Outre-mer : avec la crise pétrolière, le réveil des revendications contre la vie chère",
+        "resume": "Auditionnés jeudi 30 avril par la délégation aux outre-mer de l’Assemblée nationale, les deux principaux groupes pétroliers concernés, TotalEnergies et Rubis, ont dû s’expliquer sur les prix alors que le climat social se tend dans plusieurs endroits.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/30/outre-mer-avec-la-crise-petroliere-le-reveil-des-revendications-contre-la-vie-chere_6684642_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h00",
+        "titre": "Présidentielle 2027 : à gauche, l’horizon de la primaire s’éloigne toujours un peu plus",
+        "resume": "Alors que la primaire prend forme tant juridiquement que financièrement, les principaux responsables politiques de gauche, hors LFI, cherchent à esquiver ce mode désignation.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/30/presidentielle-2027-a-gauche-l-horizon-de-la-primaire-s-eloigne-toujours-un-peu-plus_6684608_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "11h00",
+        "titre": "Présidentielle 2027 : un risque de dispersion mortifère à droite comme à gauche",
+        "resume": "L’avalanche de candidatures de tous les bords de l’échiquier politique risque d’être fatale et d’aboutir à un duel entre le Rassemblement national et La France insoumise.",
+        "url": "https://www.lemonde.fr/idees/article/2026/04/30/presidentielle-2027-un-risque-de-dispersion-mortifere-a-droite-comme-a-gauche_6684562_3232.html"
       },
       {
         "source": "Le Monde Éco",
         "heure": "07h24",
-        "titre": "A un an de la présidentielle, un climat social dégradé et « une vraie colère sourde »",
-        "resume": "Pouvoir d’achat, flambée du prix des hydrocarbures, possible retour de l’inflation… Si les raisons sont nombreuses pour les travailleurs d’exprimer leur mécontentement, le ressentiment reste encore relativement feutré à la veille du 1er-Mai, journée ",
+        "titre": "1ᵉʳ-Mai : à un an de la présidentielle, un climat social dégradé et « une vraie colère sourde »",
+        "resume": "Pouvoir d’achat, flambée du prix des hydrocarbures, possible retour de l’inflation… Si les raisons sont nombreuses pour les travailleurs d’exprimer leur mécontentement, le ressentiment reste encore relativement feutré à la veille du 1ᵉʳ-Mai, Journée ",
         "url": "https://www.lemonde.fr/politique/article/2026/04/30/a-un-an-de-la-presidentielle-un-climat-social-degrade-et-une-vraie-colere-sourde_6684538_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "06h49",
-        "titre": "Pierre-André Imbert succède à Emmanuel Moulin au poste de secrétaire général de l’Elysée",
-        "resume": "Ambassadeur en Australie depuis décembre 2023, celui qui avait été secrétaire général adjoint du palais présidentiel de 2020 à 2023 prendra ses fonctions lundi 4 mai. Emmanuel Moulin, lui, est candidat au poste de gouverneur de la Banque de France, q",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/30/pierre-andre-imbert-succede-a-emmanuel-moulin-au-poste-de-secretaire-general-de-l-elysee_6684497_823448.html"
+        "heure": "21h22",
+        "titre": "Pierre-André Imbert, un nouveau secrétaire général de l’Elysée venu des cabinets de gauche et fin connaisseur des organisations syndicales",
+        "resume": "Ce haut fonctionnaire, principal artisan des réformes sociales de François Hollande et d’Emmanuel Macron, succède à Emmanuel Moulin. Ce dernier devrait voir son nom très prochainement proposé par le chef de l’Etat pour devenir gouverneur de la Banque",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/30/pierre-andre-imbert-un-nouveau-secretaire-general-de-l-elysee-venu-des-cabinets-de-gauche-et-fin-connaisseur-des-organisation-syndicales_6684649_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "22h15",
-        "titre": "Cacophonie entre Le Pen et Bardella sur la taxation de TotalEnergies",
-        "resume": "Les deux dirigeants du Rassemblement national affichent des positions opposées sur une éventuelle taxation des « surprofits » du géant pétrolier en cette période de hausse des prix des carburants.",
-        "url": "https://www.challenges.fr/politique/cacophonie-entre-le-pen-et-bardella-sur-les-surprofits-de-totalenergies_643088"
+        "source": "Le Monde Éco",
+        "heure": "17h33",
+        "titre": "Laurent Degallaix, le maire de Valenciennes, condamné à cinq ans d’inéligibilité avec effet immédiat",
+        "resume": "L’édile, également président de Valenciennes Métropole, devra quitter tous ses mandats électifs en cours, même s’il fait appel. Il a également été condamné à deux ans de prison avec sursis et 20 000 euros d’amende.",
+        "url": "https://www.lemonde.fr/politique/article/2026/04/30/laurent-degallaix-le-maire-de-valenciennes-condamne-a-cinq-ans-d-ineligibilite-avec-effet-immediat_6684605_823448.html"
       }
     ]
   },
@@ -280,80 +336,73 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "23h12",
-        "titre": "Jerome Powell souligne l’importance d’avoir une Fed « affranchie des influences politiques »",
-        "resume": "« Je partirai quand je le jugerai approprié », a déclaré en conférence de presse le président de la Réserve fédérale américaine. S’il doit quitter son poste le 15 mai, il peut rester au conseil des gouverneurs de la banque centrale jusqu’à la fin jan",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/29/jerome-powell-souligne-l-importance-d-avoir-une-fed-affranchie-des-influences-politiques_6684323_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "22h53",
-        "titre": "La Fed maintient ses taux malgré des divergences internes",
-        "resume": "La Réserve fédérale américaine (Fed) a laissé mercredi 29 avril ses taux directeurs à leur niveau actuel, dans une fourchette de 3,50 % à 3,75 %. Tout en faisant état de préoccupations croissantes à propos de l’inflation dans le contexte de la guerre",
-        "url": "https://www.challenges.fr/monde/la-fed-maintient-ses-taux-malgre-des-divergences-internes_643089"
+        "heure": "22h08",
+        "titre": "La BCE se dirige vers une hausse des taux d’intérêt en juin",
+        "resume": "La BCE a maintenu son principal taux directeur jeudi, mais elle indique clairement qu’elle devra agir pour « ramener l’inflation à 2 % ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/04/30/la-banque-centrale-europeenne-se-dirige-vers-une-hausse-des-taux-d-interet-en-juin_6684656_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "00h24",
-        "titre": "A la tête de la Fed, la der des ders de Jerome Powell",
-        "resume": "Le président de la Réserve fédérale américaine a présidé sa dernière réunion de politique monétaire, avant la fin de son mandat, à la mi-mai. Selon les statuts, il peut rester au conseil de l’institution jusqu’en 2028.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/29/a-la-tete-de-la-fed-la-der-des-der-de-jerome-powell_6684326_3234.html"
+        "heure": "17h30",
+        "titre": "Banque de France : « Il serait temps de réfléchir à la mise en place d’une différenciation entre le coût du capital pour le vert et pour le brun »",
+        "resume": "Emmanuel Macron a les moyens de renforcer l’autonomie stratégique française et européenne, en nommant un gouverneur de la banque centrale qui défende la stabilité des prix et la transition énergétique, suggèrent, dans une tribune au « Monde », les ex",
+        "url": "https://www.lemonde.fr/idees/article/2026/04/30/banque-de-france-il-serait-temps-de-reflechir-a-la-mise-en-place-d-une-differenciation-entre-le-cout-du-capital-pour-le-vert-et-pour-le-brun_6684604_3232.html"
       },
       {
         "source": "Challenges",
-        "heure": "17h24",
-        "titre": "« Rien ne sert d'attendre » : le piège des taux immo se referme sur les acheteurs en ce mois de mai 2026",
-        "resume": "Doucement mais sûrement, les taux immobiliers entament une remontée. Face aux tensions en Iran et à l’incertitude sur l’économie mondiale, les crédits deviennent de plus en plus chers pour les ménages.",
-        "url": "https://www.challenges.fr/immobilier/rien-ne-sert-dattendre-le-piege-des-taux-immo-se-referme-sur-les-acheteurs-en-ce-mois-de-mai-2026_643079"
+        "heure": "06h15",
+        "titre": "Kevin Warsh à la tête de la Fed : à quoi s’attendre pour la politique monétaire américaine ?",
+        "resume": "Choisi par Donald Trump pour présider la banque centrale américaine, Kevin Warsh est un ancien « faucon » partisan de la lutte contre l’inflation. Wall Street l’avait adoubé bien avant son audition au Sénat.",
+        "url": "https://www.challenges.fr/monde/kevin-warsh-a-la-tete-de-la-fed-a-quoi-sattendre-pour-la-politique-monetaire-americaine_643022"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "20h00",
-        "titre": "Les frais des placements financiers continuent de baisser",
-        "resume": "En une quinzaine d’années, les frais des fonds actions sont passés de 2,3 % à 1,3 %. Le coût des comptes-titres et des plans d’épargne en actions a aussi diminué, du fait de la concurrence en ligne",
-        "url": "https://www.lemonde.fr/argent/article/2026/04/29/les-frais-des-placements-financiers-continuent-de-baisser_6684301_1657007.html"
+        "source": "Challenges",
+        "heure": "18h00",
+        "titre": "Trump veut son propre arc de triomphe. Mais qui se souvient aujourd’hui que Napoléon voulait marquer l’histoire avec celui de Paris ?",
+        "resume": "Donald Trump veut laisser son empreinte à Washington avec sa propre version de l’Arc de Triomphe parisien. Mais il oublie que le pouvoir n’est qu’éphémère, et que les monuments évoluent à travers les siècles. En effet, qui pense à Napoléon quand il a",
+        "url": "https://www.challenges.fr/monde/trump-veut-son-propre-arc-de-triomphe-mais-qui-se-souvient-aujourdhui-que-napoleon-voulait-marquer-lhistoire-avec-celui-de-paris_643108"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.602,
-        "prev": 2.53,
-        "diff": 0.072,
+        "rate": 2.665,
+        "prev": 2.602,
+        "diff": 0.063,
         "trend": "up",
-        "date": "2026-04-28"
+        "date": "2026-04-29"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.723,
-        "prev": 2.674,
-        "diff": 0.049,
+        "rate": 2.779,
+        "prev": 2.723,
+        "diff": 0.056,
         "trend": "up",
-        "date": "2026-04-28"
+        "date": "2026-04-29"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.12,
-        "prev": 3.082,
-        "diff": 0.038,
+        "rate": 3.143,
+        "prev": 3.12,
+        "diff": 0.023,
         "trend": "up",
-        "date": "2026-04-28"
+        "date": "2026-04-29"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.529,
-        "prev": 3.502,
-        "diff": 0.028,
-        "trend": "up",
-        "date": "2026-04-28"
+        "rate": 3.53,
+        "prev": 3.529,
+        "diff": 0.0,
+        "trend": "flat",
+        "date": "2026-04-29"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.525,
-        "prev": 3.507,
-        "diff": 0.018,
-        "trend": "up",
-        "date": "2026-04-28"
+        "rate": 3.521,
+        "prev": 3.525,
+        "diff": -0.005,
+        "trend": "down",
+        "date": "2026-04-29"
       }
     ]
   },
