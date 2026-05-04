@@ -1,28 +1,28 @@
 {
   "timestamp": "06h39 le 04/05/2026",
   "alerte": {
-    "titre": "GameStop lance une OPA hostile sur eBay",
-    "detail": "L'offre de rachat de 55,5 Mds$ représente une consolidation majeure du e-commerce face à Amazon. Impact: repositionnement stratégique du secteur retail.",
+    "titre": "GameStop lance une offre de rachat hostile sur eBay pour 55,5 Mds$",
+    "detail": "Deal majeur : GameStop vise à concurrencer Amazon via acquisition eBay, remettant en question la consolidation e-commerce US",
     "indice": 8
   },
   "synthese": {
-    "resume": "GameStop tente un rachat hostile d'eBay pour 55,5 Mds$, symbole d'une consolidation e-commerce face à Amazon. ACC change de direction face à la concurrence chinoise sur les batteries. L'inflation continue de se propager dans tous les secteurs européens. L'OPEP+ maintient ses quotas malgré le départ des Emirats arabes unis.",
+    "resume": "GameStop lance une offensive M&A colossale sur eBay (55,5 Mds$) pour rivaliser avec Amazon. ACC, géant français des batteries, bascule sa direction face à la pression chinoise. L'inflation européenne continue de se propager tous secteurs. L'OPEP+ maintient ses quotas malgré le départ des Emirats, signalant des tensions géopolitiques persistantes.",
     "points": [
       {
-        "titre": "Marchés & Crypto",
-        "detail": "GameStop-eBay (55,5 Mds$) : tentative de repositionnement du leader du retail américain. Bourse volatilité sur tech/e-commerce."
-      },
-      {
-        "titre": "Macro & Inflation",
-        "detail": "Onde de choc inflationniste qui se propage à l'ensemble des secteurs européens. Pression généralisée sur marges et coûts de production."
+        "titre": "M&A / Transactions",
+        "detail": "GameStop propose 55,5 Mds$ pour eBay - plus grand deal e-commerce depuis 2018. Repositionnement stratégique majeur du secteur retail digital"
       },
       {
         "titre": "Entreprises / Stratégie",
-        "detail": "ACC remplace son patron : restructuration face aux géants chinois des batteries. Secteur critique pour transition énergétique européenne."
+        "detail": "ACC change de patron sous pression chinoise (batteries). Spirit Airlines ravagée par la crise énergétique et low-cost saturé. Grasset en restructuration sous Bolloré"
+      },
+      {
+        "titre": "Macro / Conjoncture",
+        "detail": "Onde de choc inflationniste sur tous secteurs européens. Démographie scolaire en baisse force débat budgétaire éducation. Niche fiscale PEA en expansion discrète"
       },
       {
         "titre": "Géopolitique / Énergie",
-        "detail": "OPEP+ augmente quotas sans commenter le départ des UAE. Tensions intra-coalition. Stabilisation des prix pétroliers à moyen terme."
+        "detail": "OPEP+ maintient quotas sans commenter départ EAU. Trump ordonne escorte navires détroit Ormuz, Iran contre-attaque. Tensions énergétiques et monétaires entrelacées"
       }
     ]
   },
@@ -132,24 +132,17 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "La filière du drone investit la base aérienne de Brétigny-sur-Orge pour mener des tests dans des conditions de guerre électronique",
-        "resume": "L’ancien centre d’essais en vol de l’Essonne est devenu le terrain de jeu des dronistes, avec le soutien du Secrétariat général de la défense et de la sécurité nationale, soucieux de renforcer les capacités de lutte antidrone.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/04/la-filiere-du-drone-investit-la-base-aerienne-de-bretigny-sur-orge-pour-mener-des-tests-dans-des-conditions-de-guerre-electronique_6685339_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "17h30",
-        "titre": "Les jouets « made in China » pris dans la tempête du plastique cher",
-        "resume": "Le blocage du détroit d’Ormuz a fait grimper le prix du pétrole et, avec lui, celui du plastique. Dans les usines chinoises de jouets, la hausse des coûts se traduit par des fermetures et une réorganisation accélérée de la chaîne de valeur.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/03/a-huit-mois-de-noel-les-jouets-made-in-china-pris-dans-la-tempete-du-plastique-cher_6685232_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
         "heure": "02h59",
         "titre": "Spirit Airlines, une compagnie aérienne pionnière du low cost foudroyée par la crise énergétique",
         "resume": "L’entreprise a annoncé arrêter ses activités samedi 2 mai, malgré la mobilisation de la Maison Blanche. Près de 17 000 salariés sont concernés, tandis que d’autres compagnies s’organisent pour reprendre les billets des passagers qui ont vu leurs vols",
         "url": "https://www.lemonde.fr/international/article/2026/05/03/aux-etats-unis-la-crise-energetique-a-precipite-la-chute-de-la-compagnie-aerienne-spirit-airlines_6684925_3210.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "09h00",
+        "titre": "« La mise au pas des éditions Grasset permet l’essor médiatique de Vincent Bolloré et de son programme de haine »",
+        "resume": "Dans une tribune au « Monde », l’écrivaine Cloé Korman s’interroge sur l’état des moyens qui régulent le champ de la liberté d’expression, et s’inquiète du poids de certaines logiques financières et politiques qui encouragent la violence à l’égard de",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/03/la-mise-au-pas-des-editions-grasset-permet-l-essor-mediatique-de-vincent-bollore-et-de-son-programme-de-haine_6685006_3232.html"
       },
       {
         "source": "Challenges",
@@ -157,6 +150,13 @@
         "titre": "Alan : Jean-Charles Samuelian-Werve, l’« optimiste méthodique » qui défie les géants de l’assurance-santé",
         "resume": "En dix ans, le cofondateur de l’appli Alan a bousculé l’assurance-santé en misant sur la prévention et l’IA. Déterminé et charismatique, il a fait de sa start-up une licorne qui hérisse les mutuelles.",
         "url": "https://www.challenges.fr/entreprise/banque-et-assurance/alan-jean-charles-samuelian-werve-l-optimiste-methodique-qui-defie-les-geants-de-lassurance-sante_643061"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "17h30",
+        "titre": "Les jouets « made in China » pris dans la tempête du plastique cher",
+        "resume": "Le blocage du détroit d’Ormuz a fait grimper le prix du pétrole et, avec lui, celui du plastique. Dans les usines chinoises de jouets, la hausse des coûts se traduit par des fermetures et une réorganisation accélérée de la chaîne de valeur.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/03/a-huit-mois-de-noel-les-jouets-made-in-china-pris-dans-la-tempete-du-plastique-cher_6685232_3234.html"
       }
     ]
   },
@@ -170,32 +170,11 @@
         "url": "https://www.lemonde.fr/economie/article/2026/05/04/gamestop-lance-une-offre-de-rachat-sur-ebay-pour-55-5-milliards-de-dollars-et-vise-a-concurrencer-amazon_6685324_3234.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "08h15",
-        "titre": "Comment l’onde de choc de l’inflation se propage à tous les secteurs économiques européens",
-        "resume": "La hausse des prix en zone euro a atteint 3 % en avril, soit plus de 1 point supplémentaire depuis février. De l’essence au textile, en passant par la pétrochimie et les préservatifs, la plupart des secteurs sont touchés.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/04/comment-l-onde-de-choc-de-l-inflation-se-propage-a-tous-les-secteurs-economiques-europeens_6685342_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "16h27",
-        "titre": "Pétrole : l’OPEP+ augmente ses quotas comme prévu, sans commenter le départ des Emirats arabes unis",
-        "resume": "L’Arabie saoudite, la Russie, l’Irak, le Koweït, le Kazakhstan, l’Algérie et Oman ont augmenté leurs quotas « de 188 000 barils par jour », pour le mois de juin.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/03/petrole-l-opep-augmente-ses-quotas-comme-prevu-sans-commenter-le-depart-des-emirats-arabes-unis_6685225_3234.html"
-      },
-      {
         "source": "Challenges",
-        "heure": "14h45",
-        "titre": "L’Opep + maintient le cap, sans commenter le départ des Emirats arabes unis",
-        "resume": "L’Arabie saoudite, la Russie, et cinq autres pays de l’Opep + ont augmenté comme prévu leurs quotas de production de pétrole dimanche, après le séisme du départ des Emirats arabes unis.",
-        "url": "https://www.challenges.fr/economie/lopep-maintient-le-cap-sans-commenter-le-depart-des-emirats-arabes-unis_643126"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h51",
-        "titre": "Le démantèlement de l’ancienne centrale nucléaire de Fessenheim acté",
-        "resume": "Le gouvernement a autorisé dans un décret publié le démantèlement complet par EDF de l’ancienne centrale nucléaire de Fessenheim (Haut-Rhin), notamment de ses parties les plus sensibles comme les réacteurs.",
-        "url": "https://www.challenges.fr/entreprise/un-decret-autorise-le-demantelement-de-lancienne-centrale-nucleaire-de-fessenheim_643124"
+        "heure": "07h35",
+        "titre": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars… Ca s’est passé cette nuit",
+        "resume": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars",
+        "url": "https://www.challenges.fr/monde/ormuz-trump-annonce-que-la-marine-americaine-va-escorter-des-navires-les-emissions-de-methane-a-des-niveaux-tres-eleves-gamestop-veut-racheter-ebay-pour-environ-56-milliards-de-dollars-ca-sest-passe-cette-nuit_643132"
       }
     ]
   },
@@ -210,10 +189,17 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Une hausse des prélèvements sociaux sur les revenus du capital",
-        "resume": "La contribution sociale généralisée n’est plus seule : une contribution financière pour l’autonomie est venue s’ajouter pour financer Ehpad et seniors à domicile.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/04/une-hausse-des-prelevements-sociaux-sur-les-revenus-du-capital_6685337_1657007.html"
+        "heure": "19h00",
+        "titre": "« Réduire les dépenses d’éducation pour coller à la démographie scolaire serait coûteux à long terme »",
+        "resume": "Plutôt que de voir la baisse des effectifs scolaires d’ici à 2035 comme une occasion de faire des économies, il faut en profiter pour améliorer la qualité et l’équité de l’éducation, suggère l’économiste Pauline Charousset, dans une tribune au « Mond",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/03/reduire-les-depenses-d-education-pour-coller-a-la-demographie-scolaire-serait-couteux-a-long-terme_6685236_3232.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h11",
+        "titre": "« La baisse de la démographie scolaire doit être l’occasion du relèvement de l’éducation nationale »",
+        "resume": "Amélioration du recrutement et de la carrière des enseignants, investissements dans le premier degré… Le spécialiste de l’éducation à l’Institut Montaigne Baptiste Larseneur liste, dans une tribune au « Monde », les opportunités qu’ouvre la baisse du",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/03/la-baisse-de-la-demographie-scolaire-doit-etre-l-occasion-du-relevement-de-l-education-nationale_6685235_3232.html"
       },
       {
         "source": "Le Monde Éco",
@@ -228,13 +214,6 @@
         "titre": "Pénurie de logements vs baisse de la natalité : pourquoi les prévisions des experts rendent fous les professionnels",
         "resume": "Alors que le gouvernement promet un élan de 2 millions de constructions, une étude du Xerfi publiée en avril 2026 prévoit un effondrement des besoins lié à la baisse de la natalité. Entre « élucubrations » statistiques et pénurie réelle, à quel saint",
         "url": "https://www.challenges.fr/immobilier/penurie-de-logements-vs-baisse-de-la-natalite-pourquoi-les-previsions-des-experts-rendent-fous-les-professionnels_643130"
-      },
-      {
-        "source": "Challenges",
-        "heure": "17h16",
-        "titre": "Dépenser plus pour sa santé : le secret de la longévité ?",
-        "resume": "L’industrie de la longévité explose, proposant de la médecine privée haut de gamme et des compléments coûteux, mais soulève des questions sur l’efficacité et l’accès en fonction de la fortune.",
-        "url": "https://www.challenges.fr/economie/depenser-plus-pour-sa-sante-le-secret-de-la-longevite_643127"
       }
     ]
   },
@@ -249,50 +228,43 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "« L’OPEP, née d’une volonté de souveraineté, se déchire aujourd’hui au nom de cette même souveraineté »",
-        "resume": "Le départ des Emirats arabes unis du cartel des exportateurs de pétrole révèle l’épuisement d’une logique collective, face à des Etats de plus en plus désireux d’exploiter leur potentiel économique au profit de leur propre influence géopolitique, exp",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/04/l-opep-qui-etait-nee-d-une-volonte-de-souverainete-se-dechire-aujourd-hui-au-nom-de-cette-meme-souverainete_6685336_3232.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "23h19",
-        "titre": "Rassemblement à Paris pour défendre la liberté de la presse, « attaquée partout »",
-        "resume": "La liberté de la presse a atteint son niveau le plus bas depuis un quart de siècle, selon Reporters sans frontières, qui a publié jeudi son classement mondial annuel créé en 2002. La France se classe 25ᵉ (« situation plutôt bonne » selon RSF).",
-        "url": "https://www.lemonde.fr/actualite-medias/article/2026/05/03/rassemblement-a-paris-pour-defendre-la-liberte-de-la-presse-attaquee-partout_6685250_3236.html"
-      },
-      {
-        "source": "Le Monde Éco",
         "heure": "22h33",
         "titre": "Jean-Luc Mélenchon annonce être candidat à l’élection présidentielle pour la quatrième fois, sur une ligne toujours plus « antisystème »",
         "resume": "En dépit de l’émergence de plusieurs figures au sein de La France insoumise et de sa promesse de laisser la place après 2022, le leader populiste a annoncé sa candidature, dimanche, sur TF1.",
         "url": "https://www.lemonde.fr/politique/article/2026/05/03/jean-luc-melenchon-annonce-etre-candidat-a-l-election-presidentielle-pour-la-quatrieme-fois-sur-une-ligne-toujours-plus-antisysteme_6685247_823448.html"
       },
       {
+        "source": "Le Monde Éco",
+        "heure": "22h15",
+        "titre": "Présidentielle 2027 : Yaël Braun-Pivet écarte sa candidature, mais reste « disponible pour parler du fond »",
+        "resume": "Gabriel Attal a souhaité la création d’un « comité de liaison » avec Horizons et le MoDem en vue de fédérer l’espace du centre et du centre-droit. Dans une interview au « Parisien », la présidente de l’Assemblée juge « étrange » et « problématique » ",
+        "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/05/02/presidentielle-2027-yael-braun-pivet-ecarte-sa-candidature-mais-reste-disponible-pour-parler-du-fond_6684890_6205049.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Une hausse des prélèvements sociaux sur les revenus du capital",
+        "resume": "La contribution sociale généralisée n’est plus seule : une contribution financière pour l’autonomie est venue s’ajouter pour financer Ehpad et seniors à domicile.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/04/une-hausse-des-prelevements-sociaux-sur-les-revenus-du-capital_6685337_1657007.html"
+      },
+      {
         "source": "Challenges",
-        "heure": "08h32",
-        "titre": "Moyen-Orient : Trump lance une opération d’escorte dans le détroit d’Ormuz, l’Iran met en garde contre une violation de la trêve",
-        "resume": "Donald Trump a annoncé que la marine américaine escorterait au travers du détroit d’Ormuz des navires de pays « qui n’ont rien à voir avec le conflit au Moyen-Orient », à partir de ce lundi 4 mai au matin. L’Iran a averti que cela serait considéré co",
-        "url": "https://www.challenges.fr/monde/moyen-orient-trump-lance-une-operation-descorte-dans-le-detroit-dormuz-liran-met-en-garde-contre-une-violation-de-la-treve_643134"
+        "heure": "12h00",
+        "titre": "Pologne : après l’alerte des drones russes, Varsovie dégaine un « mur antidrones » inédit en Europe",
+        "resume": "Dépassé par l’invasion d’engins russes en septembre dernier, Varsovie a lancé en toute urgence la constitution d’un bouclier de basse altitude. Le projet San, pionnier en Europe, bouscule l’industrie de la défense du pays.",
+        "url": "https://www.challenges.fr/monde/pologne-apres-lalerte-des-drones-russes-varsovie-degaine-un-mur-antidrones-inedit-en-europe_643062"
+      },
+      {
+        "source": "Challenges",
+        "heure": "11h25",
+        "titre": "L’Iran demande aux Etats-Unis de choisir entre un « mauvais accord » ou une opération militaire « impossible »",
+        "resume": "L’Iran a mis dimanche les Etats-Unis au défi de choisir entre une opération militaire « impossible » ou un « mauvais accord » dans le conflit en cours au Moyen-Orient, après que Donald Trump a averti qu’il risquait de ne pas accepter une nouvelle pro",
+        "url": "https://www.challenges.fr/monde/trump-annonce-quil-va-etudier-un-plan-iranien-sans-grand-espoir_643123"
       }
     ]
   },
   "taux": {
     "articles": [
-      {
-        "source": "Le Monde Éco",
-        "heure": "16h30",
-        "titre": "« L’inaction de Bercy au sujet de la niche fiscale créée par une mondialisation discrète du PEA est inexplicable »",
-        "resume": "Grâce à une acrobatie financière imaginée par des banques, plus de 10 milliards d’euros destinés aux entreprises françaises financent la Bourse de New York avec une fiscalité très allégée, accuse Pierre-Henri Leroy, le fondateur de Proxinvest, dans u",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/03/l-inaction-de-bercy-au-sujet-de-la-niche-fiscale-creee-par-une-mondialisation-discrete-du-pea-est-inexplicable_6685226_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Quelle réduction d’impôt pour les dons aux associations ?",
-        "resume": "Donner, c’est donner, et on pourra vous y reprendre : car si la somme versée ne dépasse pas une certaine valeur, votre don est déductible de l’impôt sur le revenu jusqu’à 75 %.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/03/quelle-reduction-d-impot-pour-les-dons-aux-associations_6685002_1657007.html"
-      },
       {
         "source": "Le Monde Éco",
         "heure": "08h00",
