@@ -1,27 +1,28 @@
 {
-  "timestamp": "10h11 le 01/05/2026",
+  "timestamp": "06h39 le 04/05/2026",
   "alerte": {
-    "titre": "Crise énergétique moyen-orientale — impact carburant massif",
-    "detail": "Air France-KLM subit +2,4 Mds$ de surcoûts carburant; Brent à 125$/baril; risque de pénurie estivale (11 M barils/j manquants); blocus Iran annoncé. TotalEnergies prolonge plafonnement FR."
+    "titre": "GameStop lance une OPA hostile sur eBay",
+    "detail": "L'offre de rachat de 55,5 Mds$ représente une consolidation majeure du e-commerce face à Amazon. Impact: repositionnement stratégique du secteur retail.",
+    "indice": 8
   },
   "synthese": {
-    "resume": "Le 1ᵉʳ mai 2026 marque l'entrée en vigueur de l'accord UE-Mercosur avec des impacts sectoriels majeurs. La crise moyen-orientale fait bondir le Brent à 125$/baril et crée une pénurie de 11M barils/jour, contraignant Air France-KLM à absorber 2,4Mds$ de surcoûts. Les ventes de VE en France s'envolent (+48% YTD) malgré un repli global. La rémunération des patrons du CAC40 a crû 3x plus vite que les salaires en 2025, alimentant les tensions sociales à 1 an de la présidentielle.",
+    "resume": "GameStop tente un rachat hostile d'eBay pour 55,5 Mds$, symbole d'une consolidation e-commerce face à Amazon. ACC change de direction face à la concurrence chinoise sur les batteries. L'inflation continue de se propager dans tous les secteurs européens. L'OPEP+ maintient ses quotas malgré le départ des Emirats arabes unis.",
     "points": [
       {
-        "titre": "Marchés & Énergie",
-        "detail": "Brent à 125$/baril (+tensions Iran); Air France-KLM: +2,4Mds$ surcoûts carburant; risque de pénurie estivale 11M barils/jour; BNP Paribas trimestre record sur ce contexte. VE France +48% YTD vs marché global en recul."
+        "titre": "Marchés & Crypto",
+        "detail": "GameStop-eBay (55,5 Mds$) : tentative de repositionnement du leader du retail américain. Bourse volatilité sur tech/e-commerce."
       },
       {
-        "titre": "Macro & Conjoncture",
-        "detail": "Croissance FR atone + inflation >2% (divergence BCE); prix gaz changent au 1ᵉʳ mai; accord Mercosur en vigueur (cinq questions stratégiques); inde: tensions salaires, inflation alimentaire inquiétante."
+        "titre": "Macro & Inflation",
+        "detail": "Onde de choc inflationniste qui se propage à l'ensemble des secteurs européens. Pression généralisée sur marges et coûts de production."
       },
       {
-        "titre": "Grandes Entreprises",
-        "detail": "Renault: JD Senard quitte la présidence fin 2027 (annonce succession). Alphabet/Microsoft/Amazon/Meta: profits record. OpenAI/Elon Musk procès (tensions genèse projet)."
+        "titre": "Entreprises / Stratégie",
+        "detail": "ACC remplace son patron : restructuration face aux géants chinois des batteries. Secteur critique pour transition énergétique européenne."
       },
       {
-        "titre": "Politique & Géo-économie",
-        "detail": "Nouvel secrétaire général Élysée (Imbert). Exercice Orion: Macron loue « signal clair » post-UE (ampleur inédite depuis Guerre froide). Présidentielle 2027: risque dispersion gauche/droite; climat social dégradé."
+        "titre": "Géopolitique / Énergie",
+        "detail": "OPEP+ augmente quotas sans commenter le départ des UAE. Tensions intra-coalition. Stabilisation des prix pétroliers à moyen terme."
       }
     ]
   },
@@ -41,21 +42,21 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 220",
-        "change": "+0.81%",
+        "value": "7 272",
+        "change": "+0.53%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "24 936",
-        "change": "+0.30%",
+        "value": "25 223",
+        "change": "+0.98%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1747",
-        "change": "+0.12%",
-        "dir": "up"
+        "value": "1.1742",
+        "change": "+0.00%",
+        "dir": "flat"
       },
       {
         "label": "Brent",
@@ -65,8 +66,8 @@
       },
       {
         "label": "Or",
-        "value": "4 636 $",
-        "change": "+0.12%",
+        "value": "4 629 $",
+        "change": "+0.20%",
         "dir": "up"
       },
       {
@@ -84,53 +85,39 @@
     ],
     "articles": [
       {
+        "source": "Le Monde Éco",
+        "heure": "06h37",
+        "titre": "GameStop lance une offre de rachat sur eBay pour 55,5 milliards de dollars et vise à concurrencer Amazon",
+        "resume": "La chaîne américaine de magasins de jeux vidéo veut faire du site d’enchères sur Internet un « un vrai concurrent » du géant du commerce en ligne.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/gamestop-lance-une-offre-de-rachat-sur-ebay-pour-55-5-milliards-de-dollars-et-vise-a-concurrencer-amazon_6685324_3234.html"
+      },
+      {
         "source": "Challenges",
-        "heure": "09h06",
-        "titre": "Le baril de Brent atteint les 125 dollars : le pétrole bondit face à la perspective d’une paralysie prolongée dans le détroit d’Ormuz",
-        "resume": "Les Etats-Unis ont indiqué, mercredi 29 avril, envisager de « poursuivre le blocus actuel » des ports iraniens « pendant des mois si nécessaire ». En réaction, le pétrole a atteint les 125 dollars le baril ce jeudi.",
-        "url": "https://www.challenges.fr/entreprise/energie/le-baril-de-brent-atteint-les-125-dollars-le-petrole-bondit-face-a-la-perspective-dune-paralysie-prolongee-dans-le-detroit-dormuz_643092"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h44",
-        "titre": "Washington évoque un long blocus en Iran, le pétrole bondit, BNP Paribas enregistre un trimestre record… Ça s’est passé cette nuit",
-        "resume": "Les Etats-Unis évoquent un long blocus des ports iraniens, le pétrole bondit à plus de 125 dollars le baril, BNP Paribas enregistre un bénéfice net record au premier trimestre 2026.",
-        "url": "https://www.challenges.fr/monde/washington-evoque-un-long-blocus-en-iran-le-petrole-bondit-bnp-paribas-enregistre-un-trimestre-record-ca-sest-passe-cette-nuit_643091"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Alphabet, Microsoft, Amazon et Meta enregistrent des profits record",
-        "resume": "Les résultats au premier trimestre des quatre géants de la tech, publiés mercredi, ont tous dépassé les attentes des analystes.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/30/alphabet-microsoft-amazon-et-meta-enregistrent-des-profits-record_6684546_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "17h04",
-        "titre": "Air France-KLM face à un surcoût monstre de 2,4 milliards de dollars sur sa facture carburant en raison du conflit au Moyen-Orient",
-        "resume": "Alors que ses résultats trimestriels – plutôt bons – ne prennent pas en compte encore la flambée du kérosène, le groupe franco-néerlandais va restreindre sa croissance et rattraper par les prix la majoration considérable de ses frais opérationnels.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/30/air-france-klm-face-a-un-surcout-monstre-de-2-4-milliards-de-dollars-sur-sa-facture-carburant-en-raison-du-conflit-au-moyen-orient_6684600_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "18h36",
-        "titre": "Carburants : TotalEnergies prolonge le plafonnement des prix en France face à la crise au Moyen-Orient",
-        "resume": "Le groupe énergétique s’engage à protéger le pouvoir d’achat des automobilistes français en maintenant ses prix plafonnés en mai. Cette annonce survient au lendemain de la publication des résultats trimestriels du groupe.",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/04/30/totalenergies-prolonge-le-plafonnement-des-prix-des-carburants-en-france-face-a-la-crise-au-moyen-orient_6684613_1656968.html"
+        "heure": "09h00",
+        "titre": "Bourse, crypto, trading : comment débuter sans prendre de risques inutiles",
+        "resume": "Se lancer dans les marchés financiers attire de plus en plus de débutants. Entre la bourse, les cryptomonnaies et les différents outils disponibles en ligne, l’accès n’a jamais été aussi simple. Pourtant, cette facilité peut aussi exposer à des erreu",
+        "url": "https://www.challenges.fr/argent-et-placements/bourse-crypto-trading-comment-debuter-sans-prendre-de-risques-inutiles_643046"
       },
       {
         "source": "Challenges",
         "heure": "08h00",
-        "titre": "11 millions de barils en moins sur le marché : aurons-nous assez de carburant cet été, et à quel prix ?",
-        "resume": "La diversification de nos approvisionnements nous prémunit aujourd’hui de la pénurie de carburants, un scénario qu’a d’ailleurs écarté le président Emmanuel Macron ce week-end. Mais si le conflit en Iran venait à se prolonger, la situation pourrait d",
-        "url": "https://www.challenges.fr/entreprise/energie/11-millions-de-barils-en-moins-sur-le-marche-aurons-nous-assez-de-carburant-cet-ete-et-a-quel-prix_643082"
+        "titre": "Vous héritez d’un PEA ? Comment faire les bons choix pour gérer son portefeuille",
+        "resume": "DOSSIER HÉRITAGE - Hériter des titres d’un PEA, automatiquement clôturé au décès du titulaire, est l’occasion de transformer un portefeuille selon sa propre logique patrimoniale. Les retraités préféreront le rendement ; les plus jeunes, les valeurs d",
+        "url": "https://www.challenges.fr/argent-et-placements/vous-heritez-dun-pea-comment-faire-les-bons-choix-pour-gerer-son-portefeuille_643049"
       },
       {
         "source": "Challenges",
-        "heure": "06h15",
-        "titre": "Kevin Warsh à la tête de la Fed : à quoi s’attendre pour la politique monétaire américaine ?",
-        "resume": "Choisi par Donald Trump pour présider la banque centrale américaine, Kevin Warsh est un ancien « faucon » partisan de la lutte contre l’inflation. Wall Street l’avait adoubé bien avant son audition au Sénat.",
-        "url": "https://www.challenges.fr/monde/kevin-warsh-a-la-tete-de-la-fed-a-quoi-sattendre-pour-la-politique-monetaire-americaine_643022"
+        "heure": "07h35",
+        "titre": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars… Ca s’est passé cette nuit",
+        "resume": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars",
+        "url": "https://www.challenges.fr/monde/ormuz-trump-annonce-que-la-marine-americaine-va-escorter-des-navires-les-emissions-de-methane-a-des-niveaux-tres-eleves-gamestop-veut-racheter-ebay-pour-environ-56-milliards-de-dollars-ca-sest-passe-cette-nuit_643132"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "Les ETF, la solution simple pour gérer un portefeuille boursier sans être expert",
+        "resume": "DOSSIER HÉRITAGE - Transparents, peu chargés en frais et faciles à comprendre, les fonds indiciels cotés s’adressent à tous les types d’investisseurs. Idéal pour profiter des performances des actions sur le long terme. Avec toutefois une part de risq",
+        "url": "https://www.challenges.fr/argent-et-placements/les-etf-la-solution-simple-pour-gerer-un-portefeuille-boursier-sans-etre-expert_643047"
       }
     ]
   },
@@ -138,52 +125,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "18h51",
-        "titre": "Renault : Jean-Dominique Senard annonce qu’il ne fera pas « le mandat de trop » et quittera la présidence du groupe automobile en 2027",
-        "resume": "Le président du conseil d’administration du constructeur automobile depuis sept ans a annoncé, jeudi, qu’il s’appliquera à préparer sa succession d’ici à l’année prochaine.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/30/renault-jean-dominique-senard-annonce-qu-il-ne-fera-pas-le-mandat-de-trop-et-quittera-la-presidence-du-groupe-automobile-en-2027_6684618_3234.html"
+        "heure": "10h00",
+        "titre": "Le fabricant de batteries français ACC, en difficulté face à la concurrence chinoise, change de patron",
+        "resume": "Allan Swan, jusqu’alors dirigeant de Panasonic Energy USA, fournisseur de batteries de Tesla, remplace Yann Vincent, pour tenter de sauver la filiale créée par Stellantis, Mercedes et TotalEnergies.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/le-fabricant-de-batteries-francais-acc-en-difficulte-face-a-la-concurrence-chinoise-change-de-patron_6685348_3234.html"
       },
       {
         "source": "Le Monde Éco",
         "heure": "08h00",
-        "titre": "Alphabet, Microsoft, Amazon et Meta enregistrent des profits record",
-        "resume": "Les résultats au premier trimestre des quatre géants de la tech, publiés mercredi, ont tous dépassé les attentes des analystes.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/30/alphabet-microsoft-amazon-et-meta-enregistrent-des-profits-record_6684546_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h30",
-        "titre": "Uber peut déjà vous livrer votre dîner. Désormais, il souhaite également vous réserver une chambre d’hôtel.",
-        "resume": "En partenariat avec Expedia, Uber, un service de réservation de courses, de livraison de repas et de transport de colis fait un pas de plus vers son objectif de devenir une super-application.",
-        "url": "https://www.challenges.fr/entreprise/tourisme/uber-peut-deja-vous-livrer-votre-diner-desormais-il-souhaite-egalement-vous-reserver-une-chambre-dhotel_643110"
-      },
-      {
-        "source": "Challenges",
-        "heure": "13h10",
-        "titre": "« J’ai été un idiot » : à son procès contre OpenAI, Elon Musk regrette d’avoir financé « gratuitement » les débuts du géant de l’IA",
-        "resume": "Le patron de Tesla et SpaceX a dit regretter, mercredi 29 avril, d’avoir « fourni un financement gratuit » pour créer OpenAI. Elon Musk témoignait lors du procès qui l’oppose au géant de l’IA, qu’il accuse d’avoir violé son pacte fondateur en se déto",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/quest-ce-qui-se-passe-bon-sang-a-son-proces-contre-le-geant-de-lia-openai-elon-musk-revient-sur-la-genese-de-sa-brouille-avec-sam-altman_643099"
+        "titre": "La filière du drone investit la base aérienne de Brétigny-sur-Orge pour mener des tests dans des conditions de guerre électronique",
+        "resume": "L’ancien centre d’essais en vol de l’Essonne est devenu le terrain de jeu des dronistes, avec le soutien du Secrétariat général de la défense et de la sécurité nationale, soucieux de renforcer les capacités de lutte antidrone.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/la-filiere-du-drone-investit-la-base-aerienne-de-bretigny-sur-orge-pour-mener-des-tests-dans-des-conditions-de-guerre-electronique_6685339_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "06h15",
-        "titre": "La rémunération des patrons des grandes entreprises en France a augmenté en 2025 trois fois plus vite que celle des salariés, selon un rapport",
-        "resume": "L’ONG Oxfam et la Confédération syndicale internationale dénoncent un « fossé grandissant » entre les grands patrons et les employés. Selon leur étude, près de 80 milliards de dollars ont été versés en dividendes à un millier de milliardaires dans le",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/01/la-remuneration-des-dirigeants-des-grandes-entreprises-a-augmente-trois-fois-plus-vite-que-celle-des-salaries-en-france-en-2025-selon-un-rapport_6684666_3234.html"
+        "heure": "17h30",
+        "titre": "Les jouets « made in China » pris dans la tempête du plastique cher",
+        "resume": "Le blocage du détroit d’Ormuz a fait grimper le prix du pétrole et, avec lui, celui du plastique. Dans les usines chinoises de jouets, la hausse des coûts se traduit par des fermetures et une réorganisation accélérée de la chaîne de valeur.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/03/a-huit-mois-de-noel-les-jouets-made-in-china-pris-dans-la-tempete-du-plastique-cher_6685232_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "02h59",
+        "titre": "Spirit Airlines, une compagnie aérienne pionnière du low cost foudroyée par la crise énergétique",
+        "resume": "L’entreprise a annoncé arrêter ses activités samedi 2 mai, malgré la mobilisation de la Maison Blanche. Près de 17 000 salariés sont concernés, tandis que d’autres compagnies s’organisent pour reprendre les billets des passagers qui ont vu leurs vols",
+        "url": "https://www.lemonde.fr/international/article/2026/05/03/aux-etats-unis-la-crise-energetique-a-precipite-la-chute-de-la-compagnie-aerienne-spirit-airlines_6684925_3210.html"
       },
       {
         "source": "Challenges",
-        "heure": "07h00",
-        "titre": "Lucca facilite la vie des salariés en automatisant les processus administratifs et RH",
-        "resume": "Gilles Satgé, diplômé de l’ESCP Business School, a cofondé cet éditeur de logiciels en 2002. Celui-ci compte aujourd’hui 1 million d’utilisateurs et ambitionne de devenir leader du marché européen. Il est l'invité du Club Entrepreneurs Challenges - M",
-        "url": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/lucca-facilite-la-vie-des-salaries-en-automatisant-les-processus-administratifs-et-rh_643090"
-      },
-      {
-        "source": "Challenges",
-        "heure": "17h15",
-        "titre": "« C’est darwinien » : le CDI offert au Goncourt Kamel Daoud juste après un lourd plan social met la rédaction du Point à vif",
-        "resume": "Le magazine a embauché définitivement le Prix Goncourt Kamel Daoud, alors qu’il sort d’un plan social et qu’il compte réduire son équipe de journalistes web. L’audience du site Internet a chuté ces derniers mois suite à une baisse nette de la product",
-        "url": "https://www.challenges.fr/entreprise/medias/cest-darwinien-le-cdi-offert-au-goncourt-kamel-daoud-juste-apres-un-lourd-plan-social-met-la-redaction-du-point-a-vif_643107"
+        "heure": "08h00",
+        "titre": "Alan : Jean-Charles Samuelian-Werve, l’« optimiste méthodique » qui défie les géants de l’assurance-santé",
+        "resume": "En dix ans, le cofondateur de l’appli Alan a bousculé l’assurance-santé en misant sur la prévention et l’IA. Déterminé et charismatique, il a fait de sa start-up une licorne qui hérisse les mutuelles.",
+        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/alan-jean-charles-samuelian-werve-l-optimiste-methodique-qui-defie-les-geants-de-lassurance-sante_643061"
       }
     ]
   },
@@ -191,38 +164,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "20h23",
-        "titre": "L’Etat belge envisage de racheter les réacteurs nucléaires du pays à Engie",
-        "resume": "Le gouvernement belge va négocier la reprise par l’Etat à l’entreprise française de l’ensemble de ses activités nucléaires en Belgique. Cela concerne sept réacteurs nucléaires, dont cinq ont été mis à l’arrêt.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/30/l-etat-belge-envisage-de-racheter-les-reacteurs-nucleaires-du-pays-a-engie_6684638_3234.html"
+        "heure": "06h37",
+        "titre": "GameStop lance une offre de rachat sur eBay pour 55,5 milliards de dollars et vise à concurrencer Amazon",
+        "resume": "La chaîne américaine de magasins de jeux vidéo veut faire du site d’enchères sur Internet un « un vrai concurrent » du géant du commerce en ligne.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/gamestop-lance-une-offre-de-rachat-sur-ebay-pour-55-5-milliards-de-dollars-et-vise-a-concurrencer-amazon_6685324_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "18h51",
-        "titre": "Renault : Jean-Dominique Senard annonce qu’il ne fera pas « le mandat de trop » et quittera la présidence du groupe automobile en 2027",
-        "resume": "Le président du conseil d’administration du constructeur automobile depuis sept ans a annoncé, jeudi, qu’il s’appliquera à préparer sa succession d’ici à l’année prochaine.",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/30/renault-jean-dominique-senard-annonce-qu-il-ne-fera-pas-le-mandat-de-trop-et-quittera-la-presidence-du-groupe-automobile-en-2027_6684618_3234.html"
+        "heure": "08h15",
+        "titre": "Comment l’onde de choc de l’inflation se propage à tous les secteurs économiques européens",
+        "resume": "La hausse des prix en zone euro a atteint 3 % en avril, soit plus de 1 point supplémentaire depuis février. De l’essence au textile, en passant par la pétrochimie et les préservatifs, la plupart des secteurs sont touchés.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/comment-l-onde-de-choc-de-l-inflation-se-propage-a-tous-les-secteurs-economiques-europeens_6685342_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "16h27",
+        "titre": "Pétrole : l’OPEP+ augmente ses quotas comme prévu, sans commenter le départ des Emirats arabes unis",
+        "resume": "L’Arabie saoudite, la Russie, l’Irak, le Koweït, le Kazakhstan, l’Algérie et Oman ont augmenté leurs quotas « de 188 000 barils par jour », pour le mois de juin.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/03/petrole-l-opep-augmente-ses-quotas-comme-prevu-sans-commenter-le-depart-des-emirats-arabes-unis_6685225_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "18h30",
-        "titre": "Uber peut déjà vous livrer votre dîner. Désormais, il souhaite également vous réserver une chambre d’hôtel.",
-        "resume": "En partenariat avec Expedia, Uber, un service de réservation de courses, de livraison de repas et de transport de colis fait un pas de plus vers son objectif de devenir une super-application.",
-        "url": "https://www.challenges.fr/entreprise/tourisme/uber-peut-deja-vous-livrer-votre-diner-desormais-il-souhaite-egalement-vous-reserver-une-chambre-dhotel_643110"
+        "heure": "14h45",
+        "titre": "L’Opep + maintient le cap, sans commenter le départ des Emirats arabes unis",
+        "resume": "L’Arabie saoudite, la Russie, et cinq autres pays de l’Opep + ont augmenté comme prévu leurs quotas de production de pétrole dimanche, après le séisme du départ des Emirats arabes unis.",
+        "url": "https://www.challenges.fr/economie/lopep-maintient-le-cap-sans-commenter-le-depart-des-emirats-arabes-unis_643126"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "14h17",
-        "titre": "Métropole de Grenoble : Guillaume Lissy élu président à la tête d’un collectif d’élus de gauche",
-        "resume": "Le maire socialiste de Seyssinet-Pariset a été élu dès le premier tour avec 87 voix sur 109. Son élection a été rendue possible par le retrait de la course du maire de Jarrie, Raphaël Guerrero (divers centre), après un accord conclu entre les deux pr",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/30/metropole-de-grenoble-guillaume-lissy-elu-president-a-la-tete-d-un-collectif-d-elus-de-gauche_6684578_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "18h39",
-        "titre": "Ils comptent parmi les élus les plus puissants de France : qui sont les nouveaux présidents des grandes intercommunalités ?",
-        "resume": "Transports, eau, déchets, urbanisme… Dans les grandes villes, ce sont les « intercos » qui décident pour nombre de sujets-clés. Et leurs présidents sont désormais connus, à l’issue d’un « troisième tour » des municipales qui a réservé quelques surpri",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/04/30/ils-comptent-parmi-les-elus-les-plus-puissants-de-france-qui-sont-les-nouveaux-presidents-des-grandes-intercommunalites_6684615_4355770.html"
+        "source": "Challenges",
+        "heure": "11h51",
+        "titre": "Le démantèlement de l’ancienne centrale nucléaire de Fessenheim acté",
+        "resume": "Le gouvernement a autorisé dans un décret publié le démantèlement complet par EDF de l’ancienne centrale nucléaire de Fessenheim (Haut-Rhin), notamment de ses parties les plus sensibles comme les réacteurs.",
+        "url": "https://www.challenges.fr/entreprise/un-decret-autorise-le-demantelement-de-lancienne-centrale-nucleaire-de-fessenheim_643124"
       }
     ]
   },
@@ -230,52 +203,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "09h00",
-        "titre": "L’accord UE-Mercosur entre en vigueur : cinq questions pour comprendre où on en est",
-        "resume": "Malgré l’opposition de la France, le traité commercial franchit une nouvelle étape avec son application à titre provisoire. Son entrée en vigueur définitive dépend encore du vote du Parlement européen.",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/05/01/l-accord-ue-mercosur-entre-en-vigueur-cinq-questions-pour-comprendre-ou-on-en-est_6661184_4355771.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h29",
-        "titre": "Une croissance atone et une inflation qui dépasse 2 % : les mauvaises nouvelles s’accumulent pour l’économie française",
-        "resume": "Selon les premières estimations de l’Insee publiées ce jeudi 30 avril, le PIB français a fait du surplace au premier trimestre 2026, tandis que les prix à la consommation ont augmenté de 2,2 % sur un an en avril. Si le conflit au Moyen-Orient n’a pas",
-        "url": "https://www.challenges.fr/economie/une-croissance-atone-et-une-inflation-qui-depasse-2-les-mauvaises-nouvelles-saccumulent-pour-leconomie-francaise_643095"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "17h00",
-        "titre": "En Inde, la colère prend de l’ampleur parmi les travailleurs : « Il est devenu de plus en plus difficile d’acheter de quoi manger »",
-        "resume": "Depuis le début du mois d’avril, des milliers d’ouvriers sont descendus dans les rues pour réclamer de meilleurs salaires et de meilleures conditions de travail. Du fait de l’inflation, l’achat des produits de première nécessité est compromis pour le",
-        "url": "https://www.lemonde.fr/international/article/2026/04/30/en-inde-la-colere-prend-de-l-ampleur-parmi-les-travailleurs-il-est-devenu-de-plus-en-plus-difficile-d-acheter-de-quoi-manger_6684599_3210.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "10h52",
-        "titre": "En Colombie, 56 pays se coordonnent pour sortir des énergies fossiles, le plan de la France salué",
-        "resume": "Cinquante-six pays ont adopté leur propre consensus à l’issue de la première conférence pour la sortie des énergies fossiles, organisée cette semaine à Santa Marta en Colombie.",
-        "url": "https://www.challenges.fr/entreprise/green-economie/en-colombie-56-pays-se-coordonnent-pour-sortir-des-energies-fossiles-le-plan-de-la-france-salue_643094"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "11h27",
-        "titre": "Voitures électriques : les ventes en France ont augmenté de 48 % depuis le début de l’année malgré un marché global en recul",
-        "resume": "Plus de 148 300 véhicules électriques ont été vendus au cours des quatre premiers mois de 2025, selon la Plateforme automobile (PFA), qui regroupe tous les constructeurs.",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/05/01/voitures-electriques-les-ventes-ont-bondi-de-48-depuis-le-debut-de-l-annee-en-france-malgre-un-marche-automobile-en-recul_6684690_1656968.html"
+        "heure": "08h15",
+        "titre": "Comment l’onde de choc de l’inflation se propage à tous les secteurs économiques européens",
+        "resume": "La hausse des prix en zone euro a atteint 3 % en avril, soit plus de 1 point supplémentaire depuis février. De l’essence au textile, en passant par la pétrochimie et les préservatifs, la plupart des secteurs sont touchés.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/comment-l-onde-de-choc-de-l-inflation-se-propage-a-tous-les-secteurs-economiques-europeens_6685342_3234.html"
       },
       {
         "source": "Le Monde Éco",
         "heure": "08h00",
-        "titre": "Ce qui change à partir du 1ᵉʳ mai : prix du gaz, fleuristes et boulangeries ouverts, repas à 1 euro pour les étudiants, Mercosur, coût des titres de séjour…",
-        "resume": "Le 1ᵉʳ mai s’accompagne de différentes mesures et évolutions, comme le tarif dit « repère » du gaz, qui augmente de 21,42 euros par mégawattheure.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/01/ce-qui-change-a-partir-du-1-mai-prix-du-gaz-fleuristes-et-boulangeries-ouverts-repas-a-1-euro-pour-les-etudiants-mercosur-cout-des-titres-de-sejour_6684676_3234.html"
+        "titre": "Une hausse des prélèvements sociaux sur les revenus du capital",
+        "resume": "La contribution sociale généralisée n’est plus seule : une contribution financière pour l’autonomie est venue s’ajouter pour financer Ehpad et seniors à domicile.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/04/une-hausse-des-prelevements-sociaux-sur-les-revenus-du-capital_6685337_1657007.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "23h58",
-        "titre": "Le projet d’allocation sociale unifiée largement rejeté par le Conseil national de l’habitat",
-        "resume": "L’instance consultative a signifié, par 31 voix contre 2, son opposition à ce projet d’aide qui fusionnerait RSA, APL et prime d’activité et serait plus incitative à la reprise d’emploi.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/30/le-projet-d-allocation-sociale-unifiee-largement-rejete-par-le-conseil-national-de-l-habitat_6684661_823448.html"
+        "heure": "13h00",
+        "titre": "« Ce que l’on croyait impossible à chiffrer, comme la santé d’un sol ou le bien-être des agriculteurs, devient mesurable »",
+        "resume": "Alors que la fermeture du détroit d’Ormuz va fragiliser beaucoup d’agriculteurs, Louis Dumeaux, de l’université Paris-Dauphine, propose, dans une tribune au « Monde », de transformer la comptabilité agricole en mettant en évidence les destructions pr",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/03/ce-que-l-on-croyait-impossible-a-chiffrer-comme-la-sante-d-un-sol-ou-le-bien-etre-des-agriculteurs-devient-mesurable_6685179_3232.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h45",
+        "titre": "Pénurie de logements vs baisse de la natalité : pourquoi les prévisions des experts rendent fous les professionnels",
+        "resume": "Alors que le gouvernement promet un élan de 2 millions de constructions, une étude du Xerfi publiée en avril 2026 prévoit un effondrement des besoins lié à la baisse de la natalité. Entre « élucubrations » statistiques et pénurie réelle, à quel saint",
+        "url": "https://www.challenges.fr/immobilier/penurie-de-logements-vs-baisse-de-la-natalite-pourquoi-les-previsions-des-experts-rendent-fous-les-professionnels_643130"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h16",
+        "titre": "Dépenser plus pour sa santé : le secret de la longévité ?",
+        "resume": "L’industrie de la longévité explose, proposant de la médecine privée haut de gamme et des compléments coûteux, mais soulève des questions sur l’efficacité et l’accès en fonction de la fortune.",
+        "url": "https://www.challenges.fr/economie/depenser-plus-pour-sa-sante-le-secret-de-la-longevite_643127"
       }
     ]
   },
@@ -283,52 +242,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "20h57",
-        "titre": "Orion : Emmanuel Macron loue le « signal clair » envoyé par les Européens après un exercice militaire d’une ampleur jamais vue depuis la guerre froide",
-        "resume": "Cet exercice, auquel ont participé plusieurs pays européens, avait été lancé en février pour entraîner l’armée française et l’OTAN aux nouvelles guerres de haute intensité.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/30/orion-emmanuel-macron-loue-le-signal-clair-envoye-par-les-europeens-apres-un-exercice-militaire-d-une-ampleur-jamais-vue-depuis-la-guerre-froide_6684646_823448.html"
+        "heure": "08h01",
+        "titre": "Charles Alloncle, le rapporteur de la commission d’enquête sur l’audiovisuel public, visé par une plainte pour « prise illégale d’intérêts »",
+        "resume": "Selon les informations du « Monde », le député ciottiste est visé par une plainte, déposée contre X, samedi 2 mai, devant le Parquet national financier, faisant suite à nos révélations sur l’envoi de questions de Lagardère News à des membres de la co",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/charles-alloncle-le-rapporteur-de-la-commission-d-enquete-sur-l-audiovisuel-public-vise-par-une-plainte-pour-prise-illegale-d-interets_6685340_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "20h51",
-        "titre": "Outre-mer : avec la crise pétrolière, le réveil des revendications contre la vie chère",
-        "resume": "Auditionnés jeudi 30 avril par la délégation aux outre-mer de l’Assemblée nationale, les deux principaux groupes pétroliers concernés, TotalEnergies et Rubis, ont dû s’expliquer sur les prix alors que le climat social se tend dans plusieurs endroits.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/30/outre-mer-avec-la-crise-petroliere-le-reveil-des-revendications-contre-la-vie-chere_6684642_823448.html"
+        "heure": "08h00",
+        "titre": "« L’OPEP, née d’une volonté de souveraineté, se déchire aujourd’hui au nom de cette même souveraineté »",
+        "resume": "Le départ des Emirats arabes unis du cartel des exportateurs de pétrole révèle l’épuisement d’une logique collective, face à des Etats de plus en plus désireux d’exploiter leur potentiel économique au profit de leur propre influence géopolitique, exp",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/04/l-opep-qui-etait-nee-d-une-volonte-de-souverainete-se-dechire-aujourd-hui-au-nom-de-cette-meme-souverainete_6685336_3232.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "18h00",
-        "titre": "Présidentielle 2027 : à gauche, l’horizon de la primaire s’éloigne toujours un peu plus",
-        "resume": "Alors que la primaire prend forme tant juridiquement que financièrement, les principaux responsables politiques de gauche, hors LFI, cherchent à esquiver ce mode désignation.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/30/presidentielle-2027-a-gauche-l-horizon-de-la-primaire-s-eloigne-toujours-un-peu-plus_6684608_823448.html"
+        "heure": "23h19",
+        "titre": "Rassemblement à Paris pour défendre la liberté de la presse, « attaquée partout »",
+        "resume": "La liberté de la presse a atteint son niveau le plus bas depuis un quart de siècle, selon Reporters sans frontières, qui a publié jeudi son classement mondial annuel créé en 2002. La France se classe 25ᵉ (« situation plutôt bonne » selon RSF).",
+        "url": "https://www.lemonde.fr/actualite-medias/article/2026/05/03/rassemblement-a-paris-pour-defendre-la-liberte-de-la-presse-attaquee-partout_6685250_3236.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "11h00",
-        "titre": "Présidentielle 2027 : un risque de dispersion mortifère à droite comme à gauche",
-        "resume": "L’avalanche de candidatures de tous les bords de l’échiquier politique risque d’être fatale et d’aboutir à un duel entre le Rassemblement national et La France insoumise.",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/30/presidentielle-2027-un-risque-de-dispersion-mortifere-a-droite-comme-a-gauche_6684562_3232.html"
+        "heure": "22h33",
+        "titre": "Jean-Luc Mélenchon annonce être candidat à l’élection présidentielle pour la quatrième fois, sur une ligne toujours plus « antisystème »",
+        "resume": "En dépit de l’émergence de plusieurs figures au sein de La France insoumise et de sa promesse de laisser la place après 2022, le leader populiste a annoncé sa candidature, dimanche, sur TF1.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/03/jean-luc-melenchon-annonce-etre-candidat-a-l-election-presidentielle-pour-la-quatrieme-fois-sur-une-ligne-toujours-plus-antisysteme_6685247_823448.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "07h24",
-        "titre": "1ᵉʳ-Mai : à un an de la présidentielle, un climat social dégradé et « une vraie colère sourde »",
-        "resume": "Pouvoir d’achat, flambée du prix des hydrocarbures, possible retour de l’inflation… Si les raisons sont nombreuses pour les travailleurs d’exprimer leur mécontentement, le ressentiment reste encore relativement feutré à la veille du 1ᵉʳ-Mai, Journée ",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/30/a-un-an-de-la-presidentielle-un-climat-social-degrade-et-une-vraie-colere-sourde_6684538_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "21h22",
-        "titre": "Pierre-André Imbert, un nouveau secrétaire général de l’Elysée venu des cabinets de gauche et fin connaisseur des organisations syndicales",
-        "resume": "Ce haut fonctionnaire, principal artisan des réformes sociales de François Hollande et d’Emmanuel Macron, succède à Emmanuel Moulin. Ce dernier devrait voir son nom très prochainement proposé par le chef de l’Etat pour devenir gouverneur de la Banque",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/30/pierre-andre-imbert-un-nouveau-secretaire-general-de-l-elysee-venu-des-cabinets-de-gauche-et-fin-connaisseur-des-organisation-syndicales_6684649_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "17h33",
-        "titre": "Laurent Degallaix, le maire de Valenciennes, condamné à cinq ans d’inéligibilité avec effet immédiat",
-        "resume": "L’édile, également président de Valenciennes Métropole, devra quitter tous ses mandats électifs en cours, même s’il fait appel. Il a également été condamné à deux ans de prison avec sursis et 20 000 euros d’amende.",
-        "url": "https://www.lemonde.fr/politique/article/2026/04/30/laurent-degallaix-le-maire-de-valenciennes-condamne-a-cinq-ans-d-ineligibilite-avec-effet-immediat_6684605_823448.html"
+        "source": "Challenges",
+        "heure": "08h32",
+        "titre": "Moyen-Orient : Trump lance une opération d’escorte dans le détroit d’Ormuz, l’Iran met en garde contre une violation de la trêve",
+        "resume": "Donald Trump a annoncé que la marine américaine escorterait au travers du détroit d’Ormuz des navires de pays « qui n’ont rien à voir avec le conflit au Moyen-Orient », à partir de ce lundi 4 mai au matin. L’Iran a averti que cela serait considéré co",
+        "url": "https://www.challenges.fr/monde/moyen-orient-trump-lance-une-operation-descorte-dans-le-detroit-dormuz-liran-met-en-garde-contre-une-violation-de-la-treve_643134"
       }
     ]
   },
@@ -336,31 +281,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "22h08",
-        "titre": "La BCE se dirige vers une hausse des taux d’intérêt en juin",
-        "resume": "La BCE a maintenu son principal taux directeur jeudi, mais elle indique clairement qu’elle devra agir pour « ramener l’inflation à 2 % ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/04/30/la-banque-centrale-europeenne-se-dirige-vers-une-hausse-des-taux-d-interet-en-juin_6684656_3234.html"
+        "heure": "16h30",
+        "titre": "« L’inaction de Bercy au sujet de la niche fiscale créée par une mondialisation discrète du PEA est inexplicable »",
+        "resume": "Grâce à une acrobatie financière imaginée par des banques, plus de 10 milliards d’euros destinés aux entreprises françaises financent la Bourse de New York avec une fiscalité très allégée, accuse Pierre-Henri Leroy, le fondateur de Proxinvest, dans u",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/03/l-inaction-de-bercy-au-sujet-de-la-niche-fiscale-creee-par-une-mondialisation-discrete-du-pea-est-inexplicable_6685226_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "17h30",
-        "titre": "Banque de France : « Il serait temps de réfléchir à la mise en place d’une différenciation entre le coût du capital pour le vert et pour le brun »",
-        "resume": "Emmanuel Macron a les moyens de renforcer l’autonomie stratégique française et européenne, en nommant un gouverneur de la banque centrale qui défende la stabilité des prix et la transition énergétique, suggèrent, dans une tribune au « Monde », les ex",
-        "url": "https://www.lemonde.fr/idees/article/2026/04/30/banque-de-france-il-serait-temps-de-reflechir-a-la-mise-en-place-d-une-differenciation-entre-le-cout-du-capital-pour-le-vert-et-pour-le-brun_6684604_3232.html"
+        "heure": "08h00",
+        "titre": "Quelle réduction d’impôt pour les dons aux associations ?",
+        "resume": "Donner, c’est donner, et on pourra vous y reprendre : car si la somme versée ne dépasse pas une certaine valeur, votre don est déductible de l’impôt sur le revenu jusqu’à 75 %.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/03/quelle-reduction-d-impot-pour-les-dons-aux-associations_6685002_1657007.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Une hausse des prélèvements sociaux sur les revenus du capital",
+        "resume": "La contribution sociale généralisée n’est plus seule : une contribution financière pour l’autonomie est venue s’ajouter pour financer Ehpad et seniors à domicile.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/04/une-hausse-des-prelevements-sociaux-sur-les-revenus-du-capital_6685337_1657007.html"
       },
       {
         "source": "Challenges",
-        "heure": "06h15",
-        "titre": "Kevin Warsh à la tête de la Fed : à quoi s’attendre pour la politique monétaire américaine ?",
-        "resume": "Choisi par Donald Trump pour présider la banque centrale américaine, Kevin Warsh est un ancien « faucon » partisan de la lutte contre l’inflation. Wall Street l’avait adoubé bien avant son audition au Sénat.",
-        "url": "https://www.challenges.fr/monde/kevin-warsh-a-la-tete-de-la-fed-a-quoi-sattendre-pour-la-politique-monetaire-americaine_643022"
+        "heure": "08h00",
+        "titre": "Vous héritez d’un PEA ? Comment faire les bons choix pour gérer son portefeuille",
+        "resume": "DOSSIER HÉRITAGE - Hériter des titres d’un PEA, automatiquement clôturé au décès du titulaire, est l’occasion de transformer un portefeuille selon sa propre logique patrimoniale. Les retraités préféreront le rendement ; les plus jeunes, les valeurs d",
+        "url": "https://www.challenges.fr/argent-et-placements/vous-heritez-dun-pea-comment-faire-les-bons-choix-pour-gerer-son-portefeuille_643049"
       },
       {
         "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Trump veut son propre arc de triomphe. Mais qui se souvient aujourd’hui que Napoléon voulait marquer l’histoire avec celui de Paris ?",
-        "resume": "Donald Trump veut laisser son empreinte à Washington avec sa propre version de l’Arc de Triomphe parisien. Mais il oublie que le pouvoir n’est qu’éphémère, et que les monuments évoluent à travers les siècles. En effet, qui pense à Napoléon quand il a",
-        "url": "https://www.challenges.fr/monde/trump-veut-son-propre-arc-de-triomphe-mais-qui-se-souvient-aujourdhui-que-napoleon-voulait-marquer-lhistoire-avec-celui-de-paris_643108"
+        "heure": "09h00",
+        "titre": "Les ETF, la solution simple pour gérer un portefeuille boursier sans être expert",
+        "resume": "DOSSIER HÉRITAGE - Transparents, peu chargés en frais et faciles à comprendre, les fonds indiciels cotés s’adressent à tous les types d’investisseurs. Idéal pour profiter des performances des actions sur le long terme. Avec toutefois une part de risq",
+        "url": "https://www.challenges.fr/argent-et-placements/les-etf-la-solution-simple-pour-gerer-un-portefeuille-boursier-sans-etre-expert_643047"
       }
     ],
     "courbe": [
