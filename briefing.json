@@ -1,28 +1,27 @@
 {
-  "timestamp": "06h39 le 04/05/2026",
+  "timestamp": "11h26 le 04/05/2026",
   "alerte": {
-    "titre": "GameStop lance une offre de rachat hostile sur eBay pour 55,5 Mds$",
-    "detail": "Deal majeur : GameStop vise à concurrencer Amazon via acquisition eBay, remettant en question la consolidation e-commerce US",
-    "indice": 8
+    "titre": "GameStop lance une offre hostile de 55,5 Mds$ sur eBay",
+    "detail": "Opération majeure de consolidation e-commerce : GameStop vise eBay pour 55,5 milliards de dollars, ambition de créer un champion alternatif à Amazon. Deal transformationnel pour le secteur retail digital."
   },
   "synthese": {
-    "resume": "GameStop lance une offensive M&A colossale sur eBay (55,5 Mds$) pour rivaliser avec Amazon. ACC, géant français des batteries, bascule sa direction face à la pression chinoise. L'inflation européenne continue de se propager tous secteurs. L'OPEP+ maintient ses quotas malgré le départ des Emirats, signalant des tensions géopolitiques persistantes.",
+    "resume": "GameStop lance une offre hostile de 55,5 Mds$ sur eBay pour concurrencer Amazon, marquant une consolidation majeure du e-commerce. Les laboratoires Novo Nordisk et Eli Lilly sont sanctionnés pour publicité illégale sur les anti-obésité en France. ACC, fleuron français des batteries, change de patron face à la concurrence chinoise et aux tensions inflationnistes européennes. L'OPEP+ maintient ses quotas pétroliers tandis que les ÉAU quittent l'alliance, symbolisant les fractures géopolitiques affectant l'énergie mondiale.",
     "points": [
       {
-        "titre": "M&A / Transactions",
-        "detail": "GameStop propose 55,5 Mds$ pour eBay - plus grand deal e-commerce depuis 2018. Repositionnement stratégique majeur du secteur retail digital"
+        "titre": "M&A / Consolidation",
+        "detail": "GameStop propose 55,5 Mds$ pour eBay (offre hostile). Deal stratégique de reshape e-commerce face à Amazon. Enjeu : création d'une plateforme alternative de taille mondiale."
       },
       {
-        "titre": "Entreprises / Stratégie",
-        "detail": "ACC change de patron sous pression chinoise (batteries). Spirit Airlines ravagée par la crise énergétique et low-cost saturé. Grasset en restructuration sous Bolloré"
+        "titre": "Secteur Santé",
+        "detail": "Novo Nordisk et Eli Lilly sanctionnés par l'ANSM pour publicité illégale (GLP-1). Perte de credibilité marché lucratif anti-obésité en France."
       },
       {
-        "titre": "Macro / Conjoncture",
-        "detail": "Onde de choc inflationniste sur tous secteurs européens. Démographie scolaire en baisse force débat budgétaire éducation. Niche fiscale PEA en expansion discrète"
+        "titre": "Industrie / Compétitivité",
+        "detail": "ACC change de direction exécutive. Batterie française en difficulté face à concurrence asiatique. Enjeu stratégique pour souveraineté énergétique européenne."
       },
       {
-        "titre": "Géopolitique / Énergie",
-        "detail": "OPEP+ maintient quotas sans commenter départ EAU. Trump ordonne escorte navires détroit Ormuz, Iran contre-attaque. Tensions énergétiques et monétaires entrelacées"
+        "titre": "Géopolitique Énergétique",
+        "detail": "OPEP+ maintient quotas sans commenter départ ÉAU. Fragmentation alliance pétrolière. Risque volatilité prix pétrole et géopolitique moyen-orientale."
       }
     ]
   },
@@ -30,9 +29,9 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 115",
-        "change": "+1.89%",
-        "dir": "up"
+        "value": "8 122",
+        "change": "+0.00%",
+        "dir": "flat"
       },
       {
         "label": "Eurostoxx 50",
@@ -87,23 +86,16 @@
       {
         "source": "Le Monde Éco",
         "heure": "06h37",
-        "titre": "GameStop lance une offre de rachat sur eBay pour 55,5 milliards de dollars et vise à concurrencer Amazon",
-        "resume": "La chaîne américaine de magasins de jeux vidéo veut faire du site d’enchères sur Internet un « un vrai concurrent » du géant du commerce en ligne.",
+        "titre": "GameStop lance une offre de rachat d’eBay pour 55,5 milliards de dollars et vise à concurrencer Amazon",
+        "resume": "La chaîne américaine de magasins de jeux vidéo veut faire du site d’enchères sur Internet un « un vrai concurrent » de la multinationale de commerce en ligne.",
         "url": "https://www.lemonde.fr/economie/article/2026/05/04/gamestop-lance-une-offre-de-rachat-sur-ebay-pour-55-5-milliards-de-dollars-et-vise-a-concurrencer-amazon_6685324_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Bourse, crypto, trading : comment débuter sans prendre de risques inutiles",
-        "resume": "Se lancer dans les marchés financiers attire de plus en plus de débutants. Entre la bourse, les cryptomonnaies et les différents outils disponibles en ligne, l’accès n’a jamais été aussi simple. Pourtant, cette facilité peut aussi exposer à des erreu",
-        "url": "https://www.challenges.fr/argent-et-placements/bourse-crypto-trading-comment-debuter-sans-prendre-de-risques-inutiles_643046"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "Vous héritez d’un PEA ? Comment faire les bons choix pour gérer son portefeuille",
-        "resume": "DOSSIER HÉRITAGE - Hériter des titres d’un PEA, automatiquement clôturé au décès du titulaire, est l’occasion de transformer un portefeuille selon sa propre logique patrimoniale. Les retraités préféreront le rendement ; les plus jeunes, les valeurs d",
-        "url": "https://www.challenges.fr/argent-et-placements/vous-heritez-dun-pea-comment-faire-les-bons-choix-pour-gerer-son-portefeuille_643049"
+        "source": "Le Monde Éco",
+        "heure": "13h00",
+        "titre": "« Qui aurait imaginé que GameStop se lancerait à l’assaut d’eBay, une ex-star d’Internet ? »",
+        "resume": "Le distributeur américain de jeux vidéo a annoncé, dimanche 3 mai, qu’il proposait d’acquérir la multinationale de commerce en ligne pour près de 56 milliards de dollars. Un début de revanche pour les réseaux physiques face au pur modèle Web, observe",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/qui-aurait-imagine-que-gamestop-se-lancerait-a-l-assaut-d-ebay-une-ex-star-d-internet_6685361_3234.html"
       },
       {
         "source": "Challenges",
@@ -111,6 +103,13 @@
         "titre": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars… Ca s’est passé cette nuit",
         "resume": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars",
         "url": "https://www.challenges.fr/monde/ormuz-trump-annonce-que-la-marine-americaine-va-escorter-des-navires-les-emissions-de-methane-a-des-niveaux-tres-eleves-gamestop-veut-racheter-ebay-pour-environ-56-milliards-de-dollars-ca-sest-passe-cette-nuit_643132"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "Bourse, crypto, trading : comment débuter sans prendre de risques inutiles",
+        "resume": "Se lancer dans les marchés financiers attire de plus en plus de débutants. Entre la bourse, les cryptomonnaies et les différents outils disponibles en ligne, l’accès n’a jamais été aussi simple. Pourtant, cette facilité peut aussi exposer à des erreu",
+        "url": "https://www.challenges.fr/argent-et-placements/bourse-crypto-trading-comment-debuter-sans-prendre-de-risques-inutiles_643046"
       },
       {
         "source": "Challenges",
@@ -132,17 +131,10 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "02h59",
-        "titre": "Spirit Airlines, une compagnie aérienne pionnière du low cost foudroyée par la crise énergétique",
-        "resume": "L’entreprise a annoncé arrêter ses activités samedi 2 mai, malgré la mobilisation de la Maison Blanche. Près de 17 000 salariés sont concernés, tandis que d’autres compagnies s’organisent pour reprendre les billets des passagers qui ont vu leurs vols",
-        "url": "https://www.lemonde.fr/international/article/2026/05/03/aux-etats-unis-la-crise-energetique-a-precipite-la-chute-de-la-compagnie-aerienne-spirit-airlines_6684925_3210.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "09h00",
-        "titre": "« La mise au pas des éditions Grasset permet l’essor médiatique de Vincent Bolloré et de son programme de haine »",
-        "resume": "Dans une tribune au « Monde », l’écrivaine Cloé Korman s’interroge sur l’état des moyens qui régulent le champ de la liberté d’expression, et s’inquiète du poids de certaines logiques financières et politiques qui encouragent la violence à l’égard de",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/03/la-mise-au-pas-des-editions-grasset-permet-l-essor-mediatique-de-vincent-bollore-et-de-son-programme-de-haine_6685006_3232.html"
+        "heure": "14h27",
+        "titre": "« Libération » : Sonia Delesalle-Stolper proposée à la direction de la rédaction par Denis Olivennes",
+        "resume": "Le président de la holding détenant le quotidien de gauche a officialisé la candidature de la cheffe du service International comme successeure de Dov Alfon, lundi 4 mai.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/liberation-denis-olivennes-propose-sonia-delesalle-stolper-a-la-direction-de-la-redaction_6685371_3234.html"
       },
       {
         "source": "Challenges",
@@ -153,10 +145,17 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "17h30",
-        "titre": "Les jouets « made in China » pris dans la tempête du plastique cher",
-        "resume": "Le blocage du détroit d’Ormuz a fait grimper le prix du pétrole et, avec lui, celui du plastique. Dans les usines chinoises de jouets, la hausse des coûts se traduit par des fermetures et une réorganisation accélérée de la chaîne de valeur.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/03/a-huit-mois-de-noel-les-jouets-made-in-china-pris-dans-la-tempete-du-plastique-cher_6685232_3234.html"
+        "heure": "12h00",
+        "titre": "Derrière le « syndrome du super-héros », des patrons de PME à la santé physique et mentale fragilisée",
+        "resume": "Une minorité de dirigeants acceptent de se faire accompagner, selon le baromètre 2026 de l’IFOP pour la Fondation MMA des entrepreneurs du futur, publié lundi 4 mai.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/derriere-le-syndrome-du-super-heros-des-patrons-de-pme-a-la-sante-physique-et-mentale-fragilisee_6685353_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "02h59",
+        "titre": "Spirit Airlines, une compagnie aérienne pionnière du low cost foudroyée par la crise énergétique",
+        "resume": "L’entreprise a annoncé arrêter ses activités samedi 2 mai, malgré la mobilisation de la Maison Blanche. Près de 17 000 salariés sont concernés, tandis que d’autres compagnies s’organisent pour reprendre les billets des passagers qui ont vu leurs vols",
+        "url": "https://www.lemonde.fr/international/article/2026/05/03/aux-etats-unis-la-crise-energetique-a-precipite-la-chute-de-la-compagnie-aerienne-spirit-airlines_6684925_3210.html"
       }
     ]
   },
@@ -165,16 +164,37 @@
       {
         "source": "Le Monde Éco",
         "heure": "06h37",
-        "titre": "GameStop lance une offre de rachat sur eBay pour 55,5 milliards de dollars et vise à concurrencer Amazon",
-        "resume": "La chaîne américaine de magasins de jeux vidéo veut faire du site d’enchères sur Internet un « un vrai concurrent » du géant du commerce en ligne.",
+        "titre": "GameStop lance une offre de rachat d’eBay pour 55,5 milliards de dollars et vise à concurrencer Amazon",
+        "resume": "La chaîne américaine de magasins de jeux vidéo veut faire du site d’enchères sur Internet un « un vrai concurrent » de la multinationale de commerce en ligne.",
         "url": "https://www.lemonde.fr/economie/article/2026/05/04/gamestop-lance-une-offre-de-rachat-sur-ebay-pour-55-5-milliards-de-dollars-et-vise-a-concurrencer-amazon_6685324_3234.html"
       },
       {
+        "source": "Le Monde Éco",
+        "heure": "13h00",
+        "titre": "« Qui aurait imaginé que GameStop se lancerait à l’assaut d’eBay, une ex-star d’Internet ? »",
+        "resume": "Le distributeur américain de jeux vidéo a annoncé, dimanche 3 mai, qu’il proposait d’acquérir la multinationale de commerce en ligne pour près de 56 milliards de dollars. Un début de revanche pour les réseaux physiques face au pur modèle Web, observe",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/qui-aurait-imagine-que-gamestop-se-lancerait-a-l-assaut-d-ebay-une-ex-star-d-internet_6685361_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "10h00",
+        "titre": "Le fabricant de batteries français ACC, en difficulté face à la concurrence chinoise, change de patron",
+        "resume": "Allan Swan, jusqu’alors dirigeant de Panasonic Energy USA, fournisseur de batteries de Tesla, remplace Yann Vincent, pour tenter de sauver la filiale créée par Stellantis, Mercedes et TotalEnergies.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/le-fabricant-de-batteries-francais-acc-en-difficulte-face-a-la-concurrence-chinoise-change-de-patron_6685348_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h15",
+        "titre": "Comment l’onde de choc de l’inflation se propage à tous les secteurs économiques européens",
+        "resume": "La hausse des prix en zone euro a atteint 3 % en avril, soit plus de 1 point supplémentaire depuis février. De l’essence au textile, en passant par la pétrochimie et les préservatifs, la plupart des secteurs sont touchés.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/comment-l-onde-de-choc-de-l-inflation-se-propage-a-tous-les-secteurs-economiques-europeens_6685342_3234.html"
+      },
+      {
         "source": "Challenges",
-        "heure": "07h35",
-        "titre": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars… Ca s’est passé cette nuit",
-        "resume": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars",
-        "url": "https://www.challenges.fr/monde/ormuz-trump-annonce-que-la-marine-americaine-va-escorter-des-navires-les-emissions-de-methane-a-des-niveaux-tres-eleves-gamestop-veut-racheter-ebay-pour-environ-56-milliards-de-dollars-ca-sest-passe-cette-nuit_643132"
+        "heure": "07h15",
+        "titre": "Viande de brousse, pangolins et petits singes : plongée dans les entrailles de Roissy, plaque tournante du trafic mondial d’animaux sauvages",
+        "resume": "Hold-up sur la faune 1/5 - Le commerce illégal d’animaux est aujourd’hui le quatrième plus lucratif au monde. En France, Roissy est devenu l’une des plaques tournantes du trafic, entre viande de brousse et spécimens vivants.",
+        "url": "https://www.challenges.fr/entreprise/green-economie/viande-de-brousse-pangolins-et-petits-singes-plongee-dans-les-entrailles-de-roissy-plaque-tournante-du-trafic-mondial-danimaux-sauvages_643114"
       }
     ]
   },
@@ -189,17 +209,17 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "19h00",
-        "titre": "« Réduire les dépenses d’éducation pour coller à la démographie scolaire serait coûteux à long terme »",
-        "resume": "Plutôt que de voir la baisse des effectifs scolaires d’ici à 2035 comme une occasion de faire des économies, il faut en profiter pour améliorer la qualité et l’équité de l’éducation, suggère l’économiste Pauline Charousset, dans une tribune au « Mond",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/03/reduire-les-depenses-d-education-pour-coller-a-la-demographie-scolaire-serait-couteux-a-long-terme_6685236_3232.html"
+        "heure": "08h00",
+        "titre": "« L’OPEP, née d’une volonté de souveraineté, se déchire aujourd’hui au nom de cette même souveraineté »",
+        "resume": "Le départ des Emirats arabes unis du cartel des exportateurs de pétrole révèle l’épuisement d’une logique collective, face à des Etats de plus en plus désireux d’exploiter leur potentiel économique au profit de leur propre influence géopolitique, exp",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/04/l-opep-qui-etait-nee-d-une-volonte-de-souverainete-se-dechire-aujourd-hui-au-nom-de-cette-meme-souverainete_6685336_3232.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "18h11",
-        "titre": "« La baisse de la démographie scolaire doit être l’occasion du relèvement de l’éducation nationale »",
-        "resume": "Amélioration du recrutement et de la carrière des enseignants, investissements dans le premier degré… Le spécialiste de l’éducation à l’Institut Montaigne Baptiste Larseneur liste, dans une tribune au « Monde », les opportunités qu’ouvre la baisse du",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/03/la-baisse-de-la-demographie-scolaire-doit-etre-l-occasion-du-relevement-de-l-education-nationale_6685235_3232.html"
+        "heure": "16h27",
+        "titre": "Pétrole : l’OPEP+ augmente ses quotas comme prévu, sans commenter le départ des Emirats arabes unis",
+        "resume": "L’Arabie saoudite, la Russie, l’Irak, le Koweït, le Kazakhstan, l’Algérie et Oman ont augmenté leurs quotas « de 188 000 barils par jour », pour le mois de juin.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/03/petrole-l-opep-augmente-ses-quotas-comme-prevu-sans-commenter-le-depart-des-emirats-arabes-unis_6685225_3234.html"
       },
       {
         "source": "Le Monde Éco",
@@ -227,6 +247,13 @@
         "url": "https://www.lemonde.fr/economie/article/2026/05/04/charles-alloncle-le-rapporteur-de-la-commission-d-enquete-sur-l-audiovisuel-public-vise-par-une-plainte-pour-prise-illegale-d-interets_6685340_3234.html"
       },
       {
+        "source": "Challenges",
+        "heure": "11h04",
+        "titre": "« La France n’a plus de marge budgétaire pour financer des aides générales sur les carburants » : l'alerte de François Villeroy de Galhau",
+        "resume": "Pour Challenges, le gouverneur de la Banque de France détaille les enseignements de sa Lettre au président de la République, remise ce 4 mai. Il insiste sur la transition énergétique et déplore des « choix gérontocratiques qui ne permettent pas de pr",
+        "url": "https://www.challenges.fr/economie/la-france-na-plus-de-marge-budgetaire-pour-financer-des-aides-generales-sur-les-carburants-lalerte-de-francois-villeroy-de-galhau_643136"
+      },
+      {
         "source": "Le Monde Éco",
         "heure": "22h33",
         "titre": "Jean-Luc Mélenchon annonce être candidat à l’élection présidentielle pour la quatrième fois, sur une ligne toujours plus « antisystème »",
@@ -234,32 +261,18 @@
         "url": "https://www.lemonde.fr/politique/article/2026/05/03/jean-luc-melenchon-annonce-etre-candidat-a-l-election-presidentielle-pour-la-quatrieme-fois-sur-une-ligne-toujours-plus-antisysteme_6685247_823448.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "22h15",
-        "titre": "Présidentielle 2027 : Yaël Braun-Pivet écarte sa candidature, mais reste « disponible pour parler du fond »",
-        "resume": "Gabriel Attal a souhaité la création d’un « comité de liaison » avec Horizons et le MoDem en vue de fédérer l’espace du centre et du centre-droit. Dans une interview au « Parisien », la présidente de l’Assemblée juge « étrange » et « problématique » ",
-        "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/05/02/presidentielle-2027-yael-braun-pivet-ecarte-sa-candidature-mais-reste-disponible-pour-parler-du-fond_6684890_6205049.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Une hausse des prélèvements sociaux sur les revenus du capital",
-        "resume": "La contribution sociale généralisée n’est plus seule : une contribution financière pour l’autonomie est venue s’ajouter pour financer Ehpad et seniors à domicile.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/04/une-hausse-des-prelevements-sociaux-sur-les-revenus-du-capital_6685337_1657007.html"
-      },
-      {
         "source": "Challenges",
-        "heure": "12h00",
-        "titre": "Pologne : après l’alerte des drones russes, Varsovie dégaine un « mur antidrones » inédit en Europe",
-        "resume": "Dépassé par l’invasion d’engins russes en septembre dernier, Varsovie a lancé en toute urgence la constitution d’un bouclier de basse altitude. Le projet San, pionnier en Europe, bouscule l’industrie de la défense du pays.",
-        "url": "https://www.challenges.fr/monde/pologne-apres-lalerte-des-drones-russes-varsovie-degaine-un-mur-antidrones-inedit-en-europe_643062"
+        "heure": "08h32",
+        "titre": "Moyen-Orient : Trump lance une opération d’escorte dans le détroit d’Ormuz, l’Iran met en garde contre une violation de la trêve",
+        "resume": "Donald Trump a annoncé que la marine américaine escorterait au travers du détroit d’Ormuz des navires de pays « qui n’ont rien à voir avec le conflit au Moyen-Orient », à partir de ce lundi 4 mai au matin. L’Iran a averti que cela serait considéré co",
+        "url": "https://www.challenges.fr/monde/moyen-orient-trump-lance-une-operation-descorte-dans-le-detroit-dormuz-liran-met-en-garde-contre-une-violation-de-la-treve_643134"
       },
       {
-        "source": "Challenges",
-        "heure": "11h25",
-        "titre": "L’Iran demande aux Etats-Unis de choisir entre un « mauvais accord » ou une opération militaire « impossible »",
-        "resume": "L’Iran a mis dimanche les Etats-Unis au défi de choisir entre une opération militaire « impossible » ou un « mauvais accord » dans le conflit en cours au Moyen-Orient, après que Donald Trump a averti qu’il risquait de ne pas accepter une nouvelle pro",
-        "url": "https://www.challenges.fr/monde/trump-annonce-quil-va-etudier-un-plan-iranien-sans-grand-espoir_643123"
+        "source": "Le Monde Éco",
+        "heure": "19h57",
+        "titre": "Laurent Nuñez : « Moi, je n’ai pas de problème avec l’islam en France, mais je combats ceux qui l’utilisent pour porter atteinte à notre République »",
+        "resume": "Le ministre de l’intérieur donne sa vision des rapports entre l’islam et la République. Il dévoile le contenu de son projet de loi destiné à lutter contre le séparatisme et l’entrisme.",
+        "url": "https://www.lemonde.fr/societe/article/2026/05/03/laurent-nunez-moi-je-n-ai-pas-de-probleme-avec-l-islam-en-france-mais-je-combats-ceux-qui-l-utilisent-pour-porter-atteinte-a-notre-republique_6685238_3224.html"
       }
     ]
   },
@@ -274,59 +287,73 @@
       },
       {
         "source": "Challenges",
+        "heure": "11h04",
+        "titre": "« La France n’a plus de marge budgétaire pour financer des aides générales sur les carburants » : l'alerte de François Villeroy de Galhau",
+        "resume": "Pour Challenges, le gouverneur de la Banque de France détaille les enseignements de sa Lettre au président de la République, remise ce 4 mai. Il insiste sur la transition énergétique et déplore des « choix gérontocratiques qui ne permettent pas de pr",
+        "url": "https://www.challenges.fr/economie/la-france-na-plus-de-marge-budgetaire-pour-financer-des-aides-generales-sur-les-carburants-lalerte-de-francois-villeroy-de-galhau_643136"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "16h30",
+        "titre": "« L’inaction de Bercy au sujet de la niche fiscale créée par une mondialisation discrète du PEA est inexplicable »",
+        "resume": "Grâce à une acrobatie financière imaginée par des banques, plus de 10 milliards d’euros destinés aux entreprises françaises financent la Bourse de New York avec une fiscalité très allégée, accuse Pierre-Henri Leroy, le fondateur de Proxinvest, dans u",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/03/l-inaction-de-bercy-au-sujet-de-la-niche-fiscale-creee-par-une-mondialisation-discrete-du-pea-est-inexplicable_6685226_3234.html"
+      },
+      {
+        "source": "Challenges",
         "heure": "08h00",
         "titre": "Vous héritez d’un PEA ? Comment faire les bons choix pour gérer son portefeuille",
         "resume": "DOSSIER HÉRITAGE - Hériter des titres d’un PEA, automatiquement clôturé au décès du titulaire, est l’occasion de transformer un portefeuille selon sa propre logique patrimoniale. Les retraités préféreront le rendement ; les plus jeunes, les valeurs d",
         "url": "https://www.challenges.fr/argent-et-placements/vous-heritez-dun-pea-comment-faire-les-bons-choix-pour-gerer-son-portefeuille_643049"
       },
       {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Les ETF, la solution simple pour gérer un portefeuille boursier sans être expert",
-        "resume": "DOSSIER HÉRITAGE - Transparents, peu chargés en frais et faciles à comprendre, les fonds indiciels cotés s’adressent à tous les types d’investisseurs. Idéal pour profiter des performances des actions sur le long terme. Avec toutefois une part de risq",
-        "url": "https://www.challenges.fr/argent-et-placements/les-etf-la-solution-simple-pour-gerer-un-portefeuille-boursier-sans-etre-expert_643047"
+        "source": "Le Monde Éco",
+        "heure": "19h00",
+        "titre": "« Réduire les dépenses d’éducation pour coller à la démographie scolaire serait coûteux à long terme »",
+        "resume": "Plutôt que de voir la baisse des effectifs scolaires d’ici à 2035 comme une occasion de faire des économies, il faut en profiter pour améliorer la qualité et l’équité de l’éducation, suggère l’économiste Pauline Charousset, dans une tribune au « Mond",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/03/reduire-les-depenses-d-education-pour-coller-a-la-demographie-scolaire-serait-couteux-a-long-terme_6685236_3232.html"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.665,
-        "prev": 2.602,
-        "diff": 0.063,
-        "trend": "up",
-        "date": "2026-04-29"
+        "rate": 2.606,
+        "prev": 2.665,
+        "diff": -0.059,
+        "trend": "down",
+        "date": "2026-04-30"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.779,
-        "prev": 2.723,
-        "diff": 0.056,
-        "trend": "up",
-        "date": "2026-04-29"
+        "rate": 2.727,
+        "prev": 2.779,
+        "diff": -0.052,
+        "trend": "down",
+        "date": "2026-04-30"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.143,
-        "prev": 3.12,
-        "diff": 0.023,
-        "trend": "up",
-        "date": "2026-04-29"
+        "rate": 3.094,
+        "prev": 3.143,
+        "diff": -0.049,
+        "trend": "down",
+        "date": "2026-04-30"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.53,
-        "prev": 3.529,
-        "diff": 0.0,
+        "rate": null,
+        "prev": null,
+        "diff": null,
         "trend": "flat",
-        "date": "2026-04-29"
+        "date": ""
       },
       {
         "maturity": "30 ans",
-        "rate": 3.521,
-        "prev": 3.525,
-        "diff": -0.005,
+        "rate": 3.504,
+        "prev": 3.521,
+        "diff": -0.017,
         "trend": "down",
-        "date": "2026-04-29"
+        "date": "2026-04-30"
       }
     ]
   },
