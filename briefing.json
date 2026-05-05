@@ -1,27 +1,32 @@
 {
-  "timestamp": "11h26 le 04/05/2026",
+  "timestamp": "09h12 le 05/05/2026",
   "alerte": {
-    "titre": "GameStop lance une offre hostile de 55,5 Mds$ sur eBay",
-    "detail": "Opération majeure de consolidation e-commerce : GameStop vise eBay pour 55,5 milliards de dollars, ambition de créer un champion alternatif à Amazon. Deal transformationnel pour le secteur retail digital."
+    "titre": "GameStop lance une OPA hostile sur eBay pour 55,5 Md$",
+    "detail": "Le spécialiste du gaming vise à concurrencer Amazon en consolidant la marketplace. Transaction majeure en cours d'évaluation par les marchés.",
+    "indices": [
+      23,
+      16,
+      50
+    ]
   },
   "synthese": {
-    "resume": "GameStop lance une offre hostile de 55,5 Mds$ sur eBay pour concurrencer Amazon, marquant une consolidation majeure du e-commerce. Les laboratoires Novo Nordisk et Eli Lilly sont sanctionnés pour publicité illégale sur les anti-obésité en France. ACC, fleuron français des batteries, change de patron face à la concurrence chinoise et aux tensions inflationnistes européennes. L'OPEP+ maintient ses quotas pétroliers tandis que les ÉAU quittent l'alliance, symbolisant les fractures géopolitiques affectant l'énergie mondiale.",
+    "resume": "GameStop déclare une OPA de 55,5 Md$ sur eBay pour rivaliser avec Amazon, tandis que les compagnies aériennes chinoises suffoquent sous la flambée du kérosène. L'inflation énergétique continue de propager ses chocs dans tous les secteurs européens, notamment la construction plombée par les matériaux rares. La géopolitique (Trump/tarifs auto, Iran) fragilise l'accord de Turnberry et les secteurs d'export français.",
     "points": [
       {
-        "titre": "M&A / Consolidation",
-        "detail": "GameStop propose 55,5 Mds$ pour eBay (offre hostile). Deal stratégique de reshape e-commerce face à Amazon. Enjeu : création d'une plateforme alternative de taille mondiale."
+        "titre": "Marchés & Crypto",
+        "detail": "Débat sur Bitcoin malgré sa chute spectaculaire (article [37]). Anthropic s'allie aux géants de Wall Street via une coentreprise Claude (article [36]). Sanctions ANSM contre Novo Nordisk/Eli Lilly pour publicité illégale (article [13])."
       },
       {
-        "titre": "Secteur Santé",
-        "detail": "Novo Nordisk et Eli Lilly sanctionnés par l'ANSM pour publicité illégale (GLP-1). Perte de credibilité marché lucratif anti-obésité en France."
+        "titre": "Macro-Économie",
+        "detail": "Onde de choc inflationniste sur tous les secteurs européens (article [20]). Crise énergétique : compagnies aériennes chinoises fragilisées, risque pétrolier majeur (articles [2, 10]). François Villeroy de Galhau alerte : « France sans marge budgétaire pour aides carburants » (article [53])."
       },
       {
-        "titre": "Industrie / Compétitivité",
-        "detail": "ACC change de direction exécutive. Batterie française en difficulté face à concurrence asiatique. Enjeu stratégique pour souveraineté énergétique européenne."
+        "titre": "M&A / Corporate",
+        "detail": "GameStop/eBay : 55,5 Md$ d'OPA (articles [23, 50, 16]). ACC (batteries) change de patron face à concurrence chinoise (article [19]). Rapports Grasset/édition : réflexion sur statuts sociétés à mission (articles [7, 12])."
       },
       {
-        "titre": "Géopolitique Énergétique",
-        "detail": "OPEP+ maintient quotas sans commenter départ ÉAU. Fragmentation alliance pétrolière. Risque volatilité prix pétrole et géopolitique moyen-orientale."
+        "titre": "Géopolitique & Régulation",
+        "detail": "Trump menace 25% tarifs auto européenne, fragilise accord Turnberry (article [11]). Iran frappe Émirats, Macron dénonce (article [41]). Opération escorte US détroit d'Ormuz (articles [55, 58]). Bruno Retailleau/loi « entrisme islamiste » (articles [27, 26])."
       }
     ]
   },
@@ -29,9 +34,9 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 122",
-        "change": "+0.00%",
-        "dir": "flat"
+        "value": "8 038",
+        "change": "+0.98%",
+        "dir": "up"
       },
       {
         "label": "Eurostoxx 50",
@@ -41,21 +46,21 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 272",
-        "change": "+0.53%",
+        "value": "7 244",
+        "change": "+0.22%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "25 223",
-        "change": "+0.98%",
+        "value": "25 210",
+        "change": "+0.39%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1742",
-        "change": "+0.00%",
-        "dir": "flat"
+        "value": "1.1697",
+        "change": "+0.05%",
+        "dir": "up"
       },
       {
         "label": "Brent",
@@ -65,8 +70,8 @@
       },
       {
         "label": "Or",
-        "value": "4 629 $",
-        "change": "+0.20%",
+        "value": "4 560 $",
+        "change": "+0.80%",
         "dir": "up"
       },
       {
@@ -84,11 +89,25 @@
     ],
     "articles": [
       {
-        "source": "Le Monde Éco",
-        "heure": "06h37",
-        "titre": "GameStop lance une offre de rachat d’eBay pour 55,5 milliards de dollars et vise à concurrencer Amazon",
-        "resume": "La chaîne américaine de magasins de jeux vidéo veut faire du site d’enchères sur Internet un « un vrai concurrent » de la multinationale de commerce en ligne.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/04/gamestop-lance-une-offre-de-rachat-sur-ebay-pour-55-5-milliards-de-dollars-et-vise-a-concurrencer-amazon_6685324_3234.html"
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "Anthropic s’allie aux géants de Wall Street : le mastodonte de l’IA crée une coentreprise pour aider les sociétés à intégrer son modèle Claude",
+        "resume": "L’entreprise d’IA Anthropic et plusieurs grandes sociétés d’investissement de Wall Street ont annoncé, lundi 4 mai, la création d’une coentreprise. Sa mission sera d’aider les sociétés à intégrer le modèle d’IA d’Anthropic, Claude. Une nouvelle illus",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/anthropic-sallie-aux-geants-de-wall-street-le-mastodonte-de-lia-cree-une-coentreprise-pour-aider-les-societes-a-integrer-son-modele-claude_643154"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "« C’est souvent quand on parle moins d’un actif que l’attractivité est là » : faut-il miser sur le bitcoin malgré sa chute spectaculaire ?",
+        "resume": "DOSSIER HÉRITAGE - Après avoir perdu plus de 50 % depuis octobre, la cryptomonnaie divise. Fin d’un mirage spéculatif ou opportunité d’investissement ? Au vu du contexte géopolitique, sa place éventuelle en portefeuille peut s’arbitrer avec l’or.",
+        "url": "https://www.challenges.fr/argent-et-placements/cest-souvent-quand-on-parle-moins-dun-actif-que-lattractivite-est-la-faut-il-miser-sur-le-bitcoin-malgre-sa-chute-spectaculaire_643050"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "Bourse, crypto, trading : comment débuter sans prendre de risques inutiles",
+        "resume": "Se lancer dans les marchés financiers attire de plus en plus de débutants. Entre la bourse, les cryptomonnaies et les différents outils disponibles en ligne, l’accès n’a jamais été aussi simple. Pourtant, cette facilité peut aussi exposer à des erreu",
+        "url": "https://www.challenges.fr/argent-et-placements/bourse-crypto-trading-comment-debuter-sans-prendre-de-risques-inutiles_643046"
       },
       {
         "source": "Le Monde Éco",
@@ -99,24 +118,10 @@
       },
       {
         "source": "Challenges",
-        "heure": "07h35",
-        "titre": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars… Ca s’est passé cette nuit",
-        "resume": "Ormuz : Trump annonce que la marine américaine va escorter des navires, Les émissions de méthane « à des niveaux très élevés », GameStop veut racheter eBay pour environ 56 milliards de dollars",
-        "url": "https://www.challenges.fr/monde/ormuz-trump-annonce-que-la-marine-americaine-va-escorter-des-navires-les-emissions-de-methane-a-des-niveaux-tres-eleves-gamestop-veut-racheter-ebay-pour-environ-56-milliards-de-dollars-ca-sest-passe-cette-nuit_643132"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Bourse, crypto, trading : comment débuter sans prendre de risques inutiles",
-        "resume": "Se lancer dans les marchés financiers attire de plus en plus de débutants. Entre la bourse, les cryptomonnaies et les différents outils disponibles en ligne, l’accès n’a jamais été aussi simple. Pourtant, cette facilité peut aussi exposer à des erreu",
-        "url": "https://www.challenges.fr/argent-et-placements/bourse-crypto-trading-comment-debuter-sans-prendre-de-risques-inutiles_643046"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Les ETF, la solution simple pour gérer un portefeuille boursier sans être expert",
-        "resume": "DOSSIER HÉRITAGE - Transparents, peu chargés en frais et faciles à comprendre, les fonds indiciels cotés s’adressent à tous les types d’investisseurs. Idéal pour profiter des performances des actions sur le long terme. Avec toutefois une part de risq",
-        "url": "https://www.challenges.fr/argent-et-placements/les-etf-la-solution-simple-pour-gerer-un-portefeuille-boursier-sans-etre-expert_643047"
+        "heure": "13h30",
+        "titre": "44,5 millions d’euros : la mythique villa rénovée par Starck à Saint-Jean-Cap-Ferrat vendue dans une transaction hors norme",
+        "resume": "L’homme d’affaires Alexey Bogachev, déjà détenteur d’autres propriétés sur la presqu’île de Saint-Jean-Cap-Ferrat, s’est emparé de la villa Alpha, rénovée par le célèbre designer Philippe Starck.",
+        "url": "https://www.challenges.fr/immobilier/445-millions-deuros-la-mythique-villa-renovee-par-starck-a-saint-jean-cap-ferrat-vendue-dans-une-transaction-hors-norme_643138"
       }
     ]
   },
@@ -124,10 +129,24 @@
     "articles": [
       {
         "source": "Le Monde Éco",
+        "heure": "12h22",
+        "titre": "« Amazon reste le maître absolu pour transformer une expertise interne en un métier florissant »",
+        "resume": "La firme américaine va lancer sa propre offre de transport, de distribution, de gestion des commandes et d’expéditions des colis pour les entreprises, en s’appuyant sur sa vaste chaîne logistique. La nouvelle a fait plonger en Bourse les géants de la",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/05/amazon-reste-le-maitre-absolu-pour-transformer-une-expertise-interne-en-un-metier-florissant_6685562_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
         "heure": "10h00",
         "titre": "Le fabricant de batteries français ACC, en difficulté face à la concurrence chinoise, change de patron",
         "resume": "Allan Swan, jusqu’alors dirigeant de Panasonic Energy USA, fournisseur de batteries de Tesla, remplace Yann Vincent, pour tenter de sauver la filiale créée par Stellantis, Mercedes et TotalEnergies.",
         "url": "https://www.lemonde.fr/economie/article/2026/05/04/le-fabricant-de-batteries-francais-acc-en-difficulte-face-a-la-concurrence-chinoise-change-de-patron_6685348_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h35",
+        "titre": "Dans l’industrie, les cadres menacés à leur tour par les délocalisations : « Vous travaillez très bien depuis onze ans, vous parlez trois langues, mais ce n’est pas assez »",
+        "resume": "Longtemps immunisés par leur expertise, les cols blancs ne sont plus à l’abri des délocalisations. Chercheurs, ingénieurs et développeurs sont concurrencés par des économies émergentes, montées en gamme, ainsi que par le développement de l’IA.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/05/dans-l-industrie-les-cadres-menaces-a-leur-tour-par-les-delocalisations-vous-travaillez-tres-bien-depuis-onze-ans-vous-parlez-trois-langues-mais-ce-n-est-pas-assez_6685532_3234.html"
       },
       {
         "source": "Le Monde Éco",
@@ -138,24 +157,10 @@
       },
       {
         "source": "Challenges",
-        "heure": "08h00",
-        "titre": "Alan : Jean-Charles Samuelian-Werve, l’« optimiste méthodique » qui défie les géants de l’assurance-santé",
-        "resume": "En dix ans, le cofondateur de l’appli Alan a bousculé l’assurance-santé en misant sur la prévention et l’IA. Déterminé et charismatique, il a fait de sa start-up une licorne qui hérisse les mutuelles.",
-        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/alan-jean-charles-samuelian-werve-l-optimiste-methodique-qui-defie-les-geants-de-lassurance-sante_643061"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "12h00",
-        "titre": "Derrière le « syndrome du super-héros », des patrons de PME à la santé physique et mentale fragilisée",
-        "resume": "Une minorité de dirigeants acceptent de se faire accompagner, selon le baromètre 2026 de l’IFOP pour la Fondation MMA des entrepreneurs du futur, publié lundi 4 mai.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/04/derriere-le-syndrome-du-super-heros-des-patrons-de-pme-a-la-sante-physique-et-mentale-fragilisee_6685353_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "02h59",
-        "titre": "Spirit Airlines, une compagnie aérienne pionnière du low cost foudroyée par la crise énergétique",
-        "resume": "L’entreprise a annoncé arrêter ses activités samedi 2 mai, malgré la mobilisation de la Maison Blanche. Près de 17 000 salariés sont concernés, tandis que d’autres compagnies s’organisent pour reprendre les billets des passagers qui ont vu leurs vols",
-        "url": "https://www.lemonde.fr/international/article/2026/05/03/aux-etats-unis-la-crise-energetique-a-precipite-la-chute-de-la-compagnie-aerienne-spirit-airlines_6684925_3210.html"
+        "heure": "21h20",
+        "titre": "En lançant sa propre offre logistique, Amazon vient se frotter aux poids lourds de la livraison de colis UPS et FedEx",
+        "resume": "C’est une évolution stratégique qui pourrait bouleverser le secteur de la logistique : Amazon crée une nouvelle filiale, Amazon Supply Chain Services, pour proposer à toutes les entreprises son infrastructure permettant le transport de biens du lieu ",
+        "url": "https://www.challenges.fr/entreprise/en-lancant-sa-propre-offre-logistique-amazon-vient-se-frotter-aux-poids-lourds-de-la-livraison-de-colis-ups-et-fedex_643150"
       }
     ]
   },
@@ -169,6 +174,13 @@
         "url": "https://www.lemonde.fr/economie/article/2026/05/04/gamestop-lance-une-offre-de-rachat-sur-ebay-pour-55-5-milliards-de-dollars-et-vise-a-concurrencer-amazon_6685324_3234.html"
       },
       {
+        "source": "Challenges",
+        "heure": "16h00",
+        "titre": "« Pourquoi tout perturber ? » : racheter eBay pour 55 milliards, le projet massue de GameStop qui fait douter les experts",
+        "resume": "Le détaillant américain de jeux vidéo GameStop a annoncé, dimanche 3 mai, faire une offre de 55 milliards de dollars pour racheter le site de vente en ligne eBay. Des analystes remettent cependant en question la faisabilité mais aussi la viabilité d’",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/pourquoi-tout-perturber-racheter-ebay-pour-55-milliards-le-projet-massue-de-gamestop-qui-fait-douter-les-experts_643141"
+      },
+      {
         "source": "Le Monde Éco",
         "heure": "13h00",
         "titre": "« Qui aurait imaginé que GameStop se lancerait à l’assaut d’eBay, une ex-star d’Internet ? »",
@@ -177,24 +189,17 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "10h00",
-        "titre": "Le fabricant de batteries français ACC, en difficulté face à la concurrence chinoise, change de patron",
-        "resume": "Allan Swan, jusqu’alors dirigeant de Panasonic Energy USA, fournisseur de batteries de Tesla, remplace Yann Vincent, pour tenter de sauver la filiale créée par Stellantis, Mercedes et TotalEnergies.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/04/le-fabricant-de-batteries-francais-acc-en-difficulte-face-a-la-concurrence-chinoise-change-de-patron_6685348_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h15",
-        "titre": "Comment l’onde de choc de l’inflation se propage à tous les secteurs économiques européens",
-        "resume": "La hausse des prix en zone euro a atteint 3 % en avril, soit plus de 1 point supplémentaire depuis février. De l’essence au textile, en passant par la pétrochimie et les préservatifs, la plupart des secteurs sont touchés.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/04/comment-l-onde-de-choc-de-l-inflation-se-propage-a-tous-les-secteurs-economiques-europeens_6685342_3234.html"
+        "heure": "08h00",
+        "titre": "La filière du drone investit la base aérienne de Brétigny-sur-Orge pour mener des tests dans des conditions de guerre électronique",
+        "resume": "L’ancien centre d’essais en vol de l’Essonne est devenu le terrain de jeu des dronistes, avec le soutien du Secrétariat général de la défense et de la sécurité nationale, soucieux de renforcer les capacités de lutte antidrone.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/la-filiere-du-drone-investit-la-base-aerienne-de-bretigny-sur-orge-pour-mener-des-tests-dans-des-conditions-de-guerre-electronique_6685339_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "07h15",
-        "titre": "Viande de brousse, pangolins et petits singes : plongée dans les entrailles de Roissy, plaque tournante du trafic mondial d’animaux sauvages",
-        "resume": "Hold-up sur la faune 1/5 - Le commerce illégal d’animaux est aujourd’hui le quatrième plus lucratif au monde. En France, Roissy est devenu l’une des plaques tournantes du trafic, entre viande de brousse et spécimens vivants.",
-        "url": "https://www.challenges.fr/entreprise/green-economie/viande-de-brousse-pangolins-et-petits-singes-plongee-dans-les-entrailles-de-roissy-plaque-tournante-du-trafic-mondial-danimaux-sauvages_643114"
+        "heure": "21h20",
+        "titre": "En lançant sa propre offre logistique, Amazon vient se frotter aux poids lourds de la livraison de colis UPS et FedEx",
+        "resume": "C’est une évolution stratégique qui pourrait bouleverser le secteur de la logistique : Amazon crée une nouvelle filiale, Amazon Supply Chain Services, pour proposer à toutes les entreprises son infrastructure permettant le transport de biens du lieu ",
+        "url": "https://www.challenges.fr/entreprise/en-lancant-sa-propre-offre-logistique-amazon-vient-se-frotter-aux-poids-lourds-de-la-livraison-de-colis-ups-et-fedex_643150"
       }
     ]
   },
@@ -209,31 +214,31 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "« L’OPEP, née d’une volonté de souveraineté, se déchire aujourd’hui au nom de cette même souveraineté »",
-        "resume": "Le départ des Emirats arabes unis du cartel des exportateurs de pétrole révèle l’épuisement d’une logique collective, face à des Etats de plus en plus désireux d’exploiter leur potentiel économique au profit de leur propre influence géopolitique, exp",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/04/l-opep-qui-etait-nee-d-une-volonte-de-souverainete-se-dechire-aujourd-hui-au-nom-de-cette-meme-souverainete_6685336_3232.html"
+        "heure": "12h00",
+        "titre": "Les compagnies aériennes chinoises fragilisées par la flambée des prix du kérosène",
+        "resume": "Très encadrés par l’Etat, Air China, China Eastern et China Southern ont moins de leviers que leurs concurrents occidentaux pour absorber les variations des prix du carburant et voient leurs vols intérieurs de plus en plus concurrencés par le train à",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/05/les-compagnies-aeriennes-chinoises-fragilisees-par-la-flambee-des-prix-du-kerosene_6685559_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "16h27",
-        "titre": "Pétrole : l’OPEP+ augmente ses quotas comme prévu, sans commenter le départ des Emirats arabes unis",
-        "resume": "L’Arabie saoudite, la Russie, l’Irak, le Koweït, le Kazakhstan, l’Algérie et Oman ont augmenté leurs quotas « de 188 000 barils par jour », pour le mois de juin.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/03/petrole-l-opep-augmente-ses-quotas-comme-prevu-sans-commenter-le-depart-des-emirats-arabes-unis_6685225_3234.html"
+        "heure": "07h00",
+        "titre": "Pétrole, gaz : se dirige-t-on vers la plus grosse crise de l’histoire ?",
+        "resume": "Après plus de deux mois de guerre au Moyen-Orient, les indicateurs macroéconomiques s’affolent, sans réellement plonger. Mais pour combien de temps ? Eléments de réponse dans ce podcast avec Eric Albert, journaliste au service Economie du « Monde ».",
+        "url": "https://www.lemonde.fr/podcasts/article/2026/05/05/petrole-gaz-se-dirige-t-on-vers-la-plus-grosse-crise-de-l-histoire_6685525_5463015.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "13h00",
-        "titre": "« Ce que l’on croyait impossible à chiffrer, comme la santé d’un sol ou le bien-être des agriculteurs, devient mesurable »",
-        "resume": "Alors que la fermeture du détroit d’Ormuz va fragiliser beaucoup d’agriculteurs, Louis Dumeaux, de l’université Paris-Dauphine, propose, dans une tribune au « Monde », de transformer la comptabilité agricole en mettant en évidence les destructions pr",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/03/ce-que-l-on-croyait-impossible-a-chiffrer-comme-la-sante-d-un-sol-ou-le-bien-etre-des-agriculteurs-devient-mesurable_6685179_3232.html"
+        "heure": "11h02",
+        "titre": "Voitures électriques : le choc pétrolier ne suffira pas pour aplanir les réticences",
+        "resume": "La flambée des carburants stimule, pour l’heure, les ventes de véhicules électriques, mais le scepticisme à leur égard demeure encore profondément ancré dans les mentalités.",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/05/voitures-electriques-le-choc-petrolier-ne-suffira-pas-pour-aplanir-les-reticences_6685554_3232.html"
       },
       {
         "source": "Challenges",
-        "heure": "07h45",
-        "titre": "Pénurie de logements vs baisse de la natalité : pourquoi les prévisions des experts rendent fous les professionnels",
-        "resume": "Alors que le gouvernement promet un élan de 2 millions de constructions, une étude du Xerfi publiée en avril 2026 prévoit un effondrement des besoins lié à la baisse de la natalité. Entre « élucubrations » statistiques et pénurie réelle, à quel saint",
-        "url": "https://www.challenges.fr/immobilier/penurie-de-logements-vs-baisse-de-la-natalite-pourquoi-les-previsions-des-experts-rendent-fous-les-professionnels_643130"
+        "heure": "11h04",
+        "titre": "« La France n’a plus de marge budgétaire pour financer des aides générales sur les carburants » : l'alerte de François Villeroy de Galhau",
+        "resume": "Pour Challenges, le gouverneur de la Banque de France détaille les enseignements de sa Lettre au président de la République, remise ce 4 mai. Il insiste sur la transition énergétique et déplore des « choix gérontocratiques qui ne permettent pas de pr",
+        "url": "https://www.challenges.fr/economie/la-france-na-plus-de-marge-budgetaire-pour-financer-des-aides-generales-sur-les-carburants-lalerte-de-francois-villeroy-de-galhau_643136"
       }
     ]
   },
@@ -241,51 +246,44 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "08h01",
-        "titre": "Charles Alloncle, le rapporteur de la commission d’enquête sur l’audiovisuel public, visé par une plainte pour « prise illégale d’intérêts »",
-        "resume": "Selon les informations du « Monde », le député ciottiste est visé par une plainte, déposée contre X, samedi 2 mai, devant le Parquet national financier, faisant suite à nos révélations sur l’envoi de questions de Lagardère News à des membres de la co",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/04/charles-alloncle-le-rapporteur-de-la-commission-d-enquete-sur-l-audiovisuel-public-vise-par-une-plainte-pour-prise-illegale-d-interets_6685340_3234.html"
+        "heure": "20h15",
+        "titre": "Droits de douane : les nouvelles menaces de Donald Trump contre l’industrie automobile européenne fragilisent encore l’accord de Turnberry",
+        "resume": "En annonçant, vendredi 1ᵉʳ mai, sa volonté de monter à 25 % les droits de douane sur les voitures et les camions européens, le président américain a, une nouvelle fois, montré les limites de l’accord commercial négocié l’été dernier entre les Etats-U",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/04/droits-de-douane-les-nouvelles-menaces-de-donald-trump-contre-l-industrie-automobile-europeenne-fragilisent-encore-l-accord-de-turnberry_6685398_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "11h04",
-        "titre": "« La France n’a plus de marge budgétaire pour financer des aides générales sur les carburants » : l'alerte de François Villeroy de Galhau",
-        "resume": "Pour Challenges, le gouverneur de la Banque de France détaille les enseignements de sa Lettre au président de la République, remise ce 4 mai. Il insiste sur la transition énergétique et déplore des « choix gérontocratiques qui ne permettent pas de pr",
-        "url": "https://www.challenges.fr/economie/la-france-na-plus-de-marge-budgetaire-pour-financer-des-aides-generales-sur-les-carburants-lalerte-de-francois-villeroy-de-galhau_643136"
+        "heure": "06h45",
+        "titre": "Les Émirats à nouveau visés par l’Iran, Macron dénonce les frappes iraniennes « inacceptables », Renaissance se dirige vers la désignation de Gabriel Attal comme « candidat naturel »…Ça s’est passé cette nuit",
+        "resume": "Les Émirats à nouveau visés par l’Iran, Macron dénonce les frappes iraniennes « inacceptables », Renaissance se dirige vers la désignation de Gabriel Attal comme « candidat naturel »",
+        "url": "https://www.challenges.fr/monde/les-emirats-a-nouveau-vises-par-liran-macron-denonce-les-frappes-iraniennes-inacceptables-renaissance-se-dirige-vers-la-designation-de-gabriel-attal-comme-candidat-naturel-ca-sest-passe-cette-nuit_643152"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "22h33",
-        "titre": "Jean-Luc Mélenchon annonce être candidat à l’élection présidentielle pour la quatrième fois, sur une ligne toujours plus « antisystème »",
-        "resume": "En dépit de l’émergence de plusieurs figures au sein de La France insoumise et de sa promesse de laisser la place après 2022, le leader populiste a annoncé sa candidature, dimanche, sur TF1.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/03/jean-luc-melenchon-annonce-etre-candidat-a-l-election-presidentielle-pour-la-quatrieme-fois-sur-une-ligne-toujours-plus-antisysteme_6685247_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h32",
-        "titre": "Moyen-Orient : Trump lance une opération d’escorte dans le détroit d’Ormuz, l’Iran met en garde contre une violation de la trêve",
-        "resume": "Donald Trump a annoncé que la marine américaine escorterait au travers du détroit d’Ormuz des navires de pays « qui n’ont rien à voir avec le conflit au Moyen-Orient », à partir de ce lundi 4 mai au matin. L’Iran a averti que cela serait considéré co",
-        "url": "https://www.challenges.fr/monde/moyen-orient-trump-lance-une-operation-descorte-dans-le-detroit-dormuz-liran-met-en-garde-contre-une-violation-de-la-treve_643134"
+        "heure": "11h39",
+        "titre": "La proposition de loi de Bruno Retailleau « contre l’entrisme islamiste » arrive devant le Sénat",
+        "resume": "Réécrit par la commission des lois, le texte du candidat LR à l’élection présidentielle inquiète des défenseurs des libertés publiques et associatives. Le gouvernement a dans ses cartons un projet de loi sur le même sujet actuellement à l’étude au Co",
+        "url": "https://www.lemonde.fr/societe/article/2026/05/05/la-proposition-de-loi-de-bruno-retailleau-contre-l-entrisme-islamiste-arrive-devant-le-senat_6685557_3224.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "19h57",
-        "titre": "Laurent Nuñez : « Moi, je n’ai pas de problème avec l’islam en France, mais je combats ceux qui l’utilisent pour porter atteinte à notre République »",
-        "resume": "Le ministre de l’intérieur donne sa vision des rapports entre l’islam et la République. Il dévoile le contenu de son projet de loi destiné à lutter contre le séparatisme et l’entrisme.",
-        "url": "https://www.lemonde.fr/societe/article/2026/05/03/laurent-nunez-moi-je-n-ai-pas-de-probleme-avec-l-islam-en-france-mais-je-combats-ceux-qui-l-utilisent-pour-porter-atteinte-a-notre-republique_6685238_3224.html"
+        "heure": "12h30",
+        "titre": "France-Algérie : comment Bruno Retailleau utilise la relation entre les deux pays pour mettre en scène sa rupture avec le macronisme",
+        "resume": "Le candidat du parti Les Républicains à la présidentielle n’a pas renoncé à sa croisade contre le pouvoir algérien et mise désormais sur un duel à distance avec le chef de l’Etat pour imposer sa ligne.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/05/france-algerie-comment-bruno-retailleau-utilise-la-relation-entre-les-deux-pays-pour-mettre-en-scene-sa-rupture-avec-le-macronisme_6685565_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h00",
+        "titre": "Présidentielle 2027 : « Dans cette drôle de précampagne, les propositions fusent, mais elles restent irréelles tant qu’elles ne sont pas portées par un candidat »",
+        "resume": "S’il faut se réjouir de la profusion d’analyses et de projets en vue de l’élection présidentielle de 2027, il ne faut pas en survaloriser la portée. Le cas du Parti socialiste est, à cet égard, exemplaire, explique dans sa chronique Françoise Fressoz",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/05/presidentielle-2027-dans-cette-drole-de-precampagne-les-propositions-fusent-mais-elles-restent-irreelles-tant-qu-elles-ne-sont-pas-portees-par-un-candidat_6685526_3232.html"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Une hausse des prélèvements sociaux sur les revenus du capital",
-        "resume": "La contribution sociale généralisée n’est plus seule : une contribution financière pour l’autonomie est venue s’ajouter pour financer Ehpad et seniors à domicile.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/04/une-hausse-des-prelevements-sociaux-sur-les-revenus-du-capital_6685337_1657007.html"
-      },
-      {
         "source": "Challenges",
         "heure": "11h04",
         "titre": "« La France n’a plus de marge budgétaire pour financer des aides générales sur les carburants » : l'alerte de François Villeroy de Galhau",
@@ -294,24 +292,17 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "16h30",
-        "titre": "« L’inaction de Bercy au sujet de la niche fiscale créée par une mondialisation discrète du PEA est inexplicable »",
-        "resume": "Grâce à une acrobatie financière imaginée par des banques, plus de 10 milliards d’euros destinés aux entreprises françaises financent la Bourse de New York avec une fiscalité très allégée, accuse Pierre-Henri Leroy, le fondateur de Proxinvest, dans u",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/03/l-inaction-de-bercy-au-sujet-de-la-niche-fiscale-creee-par-une-mondialisation-discrete-du-pea-est-inexplicable_6685226_3234.html"
-      },
-      {
-        "source": "Challenges",
         "heure": "08h00",
-        "titre": "Vous héritez d’un PEA ? Comment faire les bons choix pour gérer son portefeuille",
-        "resume": "DOSSIER HÉRITAGE - Hériter des titres d’un PEA, automatiquement clôturé au décès du titulaire, est l’occasion de transformer un portefeuille selon sa propre logique patrimoniale. Les retraités préféreront le rendement ; les plus jeunes, les valeurs d",
-        "url": "https://www.challenges.fr/argent-et-placements/vous-heritez-dun-pea-comment-faire-les-bons-choix-pour-gerer-son-portefeuille_643049"
+        "titre": "Le banquier n’a pas à vous mettre en garde contre des investissements en cryptoactifs",
+        "resume": "La banque en tant que prestataire de services de paiement qui exécute un ordre de virement a un devoir de non-immixtion dans les affaires de son client, sauf anomalie apparente.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/05/le-banquier-n-a-pas-a-vous-mettre-en-garde-sur-des-investissements-en-cryptoactifs_6685537_1657007.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "19h00",
-        "titre": "« Réduire les dépenses d’éducation pour coller à la démographie scolaire serait coûteux à long terme »",
-        "resume": "Plutôt que de voir la baisse des effectifs scolaires d’ici à 2035 comme une occasion de faire des économies, il faut en profiter pour améliorer la qualité et l’équité de l’éducation, suggère l’économiste Pauline Charousset, dans une tribune au « Mond",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/03/reduire-les-depenses-d-education-pour-coller-a-la-demographie-scolaire-serait-couteux-a-long-terme_6685236_3232.html"
+        "heure": "14h00",
+        "titre": "« On ne taxera pas les superprofits des multinationales, car on ne peut pas taxer l’étranger »",
+        "resume": "Le spécialiste de la fiscalité Guillaume Hannezo affirme, dans une tribune au « Monde », qu’il vaudrait mieux réfléchir aux moyens d’augmenter les ressources de l’Etat de façon pérenne et sans dégrader notre compétitivité, plutôt que de fantasmer sur",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/04/on-ne-taxera-pas-les-superprofits-des-multinationales-car-on-ne-peut-pas-taxer-l-etranger_6685370_3232.html"
       }
     ],
     "courbe": [
@@ -341,11 +332,11 @@
       },
       {
         "maturity": "20 ans",
-        "rate": null,
-        "prev": null,
-        "diff": null,
-        "trend": "flat",
-        "date": ""
+        "rate": 3.495,
+        "prev": 3.53,
+        "diff": -0.034,
+        "trend": "down",
+        "date": "2026-04-30"
       },
       {
         "maturity": "30 ans",
