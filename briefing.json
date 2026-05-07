@@ -1,27 +1,24 @@
 {
-  "timestamp": "11h30 le 06/05/2026",
-  "alerte": {
-    "titre": "Conflit Moyen-Orient : impacts en cascade sur supply chains françaises",
-    "detail": "Approvisionnement compliqué dans la vallée du plastique (Ain), prix en hausse, menaces sur carburants (Total), fragilisation des chaînes aériennes chinoises. Macron prépare riposte anticoercition vs surtaxes US."
-  },
+  "timestamp": "11h29 le 07/05/2026",
+  "alerte": null,
   "synthese": {
-    "resume": "Amazon annonce 15 Md€ d'investissement en France (7 000 emplois) : signal fort sur cloud/IA malgré contexte tendu. BioNTech liquide 1 860 postes sur chute vaccins Covid. Total menace de lever plafonnement carburants face taxe profits exceptionnels. Moyen-Orient perturbe plastique français et aérien chinois; UE durcit stance versus Chine (onduleurs).",
+    "resume": "La France affronte une pression fiscale record avec 46% des contribuables imposés, tandis que le secteur aérien enregistre ses pires émissions de CO₂ en 2025 (record européen). Sur le plan défense, les drones militaires français accusent une montée en puissance incertaine malgré les ambitions gouvernementales. L'IA devient un enjeu géopolitique critique : Anthropic loue l'infrastructure de Musk face à OpenAI, et Apple paie 250M$ pour tromperie sur ses capacités IA.",
     "points": [
       {
-        "titre": "Marchés & Investissements",
-        "detail": "Amazon FR: 15 Md€ / 3 ans = signal d'attractivité malgré instabilité. TechnicAtome consolide défense. Samsung dépasse 1 000 Md$ cap. SFR en négociations rachat sous tension RPS."
+        "titre": "Marchés & IA",
+        "detail": "Apple règle 250M$ pour fraude IA (25 articles pointent l'affaire). Anthropic en tension capacitaire loue le plus gros datacenter de Musk. Competition AI vs OpenAI s'intensifie."
       },
       {
-        "titre": "Macro & Conjoncture",
-        "detail": "Crédit immobilier: hausse taux se profile (conflit Moyen-Orient). Économie allemande fragilisée (Merz). Gestion patrimoine: consolidation secteur conseils (regroupements actifs)."
+        "titre": "Macro France",
+        "detail": "Impôts: 46% des Français imposés (record 10 ans). Chômage jeunes: 15 mesures gouvernementales lancées. Transports aériens: émissions CO₂ + record 2025. Carburants: consommation -forte en avril."
       },
       {
         "titre": "Entreprises & Stratégie",
-        "detail": "BioNTech -1 860 postes (fin vaccins). Leonardo: nouveau PDG Mariani (profil industriel). Transavia amorce prémiumisation (salon Orly). Apple règle 250 M$ (IA iPhone). Sirius Space rachète équipementier auto → fusées."
+        "detail": "Renault avance aux pas comptés en drones militaires. Air France-KLM prémiumise Transavia (ouverture salon Orly). CMA CGM passe Ormuz malgré tensions géopolitiques. Novo Nordisk vs Eli Lilly (antiobésité)."
       },
       {
-        "titre": "Géopolitique & Régulation",
-        "detail": "Macron active instruments anticoercition (surtaxes US autos). UE cesse financer onduleurs chinois (renouvelables). Norvège accélère gaz/pétrole. Iran-Émirats: escalade. France-Algérie: tension Retailleau."
+        "titre": "Politique / Géo-Éco",
+        "detail": "Lecornu vise 3% déficit 2029 malgré guerre Moyen-Orient. Israël livre kérosène à l'Allemagne (pivot énergétique). Présidentielle 2027: scénarios LFI-RN / accord Attal-Philippe. Militarisation IA (Google/Anthropic critiqués)."
       }
     ]
   },
@@ -29,8 +26,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 323",
-        "change": "+2.31%",
+        "value": "8 360",
+        "change": "+0.48%",
         "dir": "up"
       },
       {
@@ -41,20 +38,20 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 273",
-        "change": "+0.55%",
+        "value": "7 369",
+        "change": "+1.03%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "25 361",
-        "change": "+0.40%",
+        "value": "25 850",
+        "change": "+1.39%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1797",
-        "change": "+0.88%",
+        "value": "1.1778",
+        "change": "+0.24%",
         "dir": "up"
       },
       {
@@ -65,8 +62,8 @@
       },
       {
         "label": "Or",
-        "value": "4 722 $",
-        "change": "+3.57%",
+        "value": "4 753 $",
+        "change": "+1.26%",
         "dir": "up"
       },
       {
@@ -85,38 +82,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "23h19",
-        "titre": "Amazon annonce investir 15 milliards d’euros en France sur trois ans et promet la création de 7 000 emplois dans le cloud, l’IA et la logistique",
-        "resume": "La multinationale américaine de vente en ligne a annoncé ces investissements dans un communiqué de presse diffusé mardi dans la soirée.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/05/amazon-annonce-investir-15-milliards-d-euros-en-france-sur-trois-ans-et-promet-la-creation-de-7-000-emplois-dans-le-cloud-l-ia-et-la-logistique_6685652_3234.html"
+        "heure": "11h04",
+        "titre": "IA : Apple accepte de payer 250 millions de dollars après des plaintes l’accusant d’avoir trompé des millions d’acheteurs d’iPhone sur ses capacités",
+        "resume": "Les plaignants reprochaient au géant californien d’avoir « promu des capacités d’IA qui n’existaient pas au moment des faits, n’existent pas aujourd’hui, et n’existeront pas avant deux ans ou plus », selon un document d’accord soumis à la justice.",
+        "url": "https://www.lemonde.fr/pixels/article/2026/05/06/ia-apple-accepte-de-payer-250-millions-de-dollars-apres-des-plaintes-l-accusant-d-avoir-trompe-des-millions-d-acheteurs-d-iphone-sur-ses-capacites_6685977_4408996.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "14h18",
+        "titre": "Traitements antiobésité : « Novo Nordisk a l’occasion de prendre sa revanche sur son concurrent Eli Lilly avec un petit comprimé rond et blanc »",
+        "resume": "Fabricant du traitement contre l’obésité Wegovy et de l’antidiabétique Ozempic, le laboratoire danois est en perte de vitesse aux Etats-Unis, son principal marché, face à l’américain Eli Lilly. Avec le lancement, en janvier, d’une forme orale bien mo",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/07/traitements-antiobesite-novo-nordisk-a-l-occasion-de-prendre-sa-revanche-sur-son-concurrent-eli-lilly-avec-un-petit-comprime-rond-et-blanc_6686545_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "13h00",
-        "titre": "Face à un livret A en recul, l’assurance-vie séduit de plus en plus d’épargnants",
-        "resume": "Le livret A perd de son attrait à mesure que son taux recule, tandis que l’assurance-vie capte une épargne en quête de rendement et enchaîne les records.",
-        "url": "https://www.challenges.fr/argent-et-placements/face-a-un-livret-a-en-recul-lassurance-vie-seduit-de-plus-en-plus-depargnants_643160"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Anthropic s’allie aux géants de Wall Street : le mastodonte de l’IA crée une coentreprise pour aider les sociétés à intégrer son modèle Claude",
-        "resume": "L’entreprise d’IA Anthropic et plusieurs grandes sociétés d’investissement de Wall Street ont annoncé, lundi 4 mai, la création d’une coentreprise. Sa mission sera d’aider les sociétés à intégrer le modèle d’IA d’Anthropic, Claude. Une nouvelle illus",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/anthropic-sallie-aux-geants-de-wall-street-le-mastodonte-de-lia-cree-une-coentreprise-pour-aider-les-societes-a-integrer-son-modele-claude_643154"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h05",
-        "titre": "Trump suspend son opération d’escorte de navires dans l’espoir d’un accord avec l’Iran, Samsung dépasse les 1000 milliards de dollars, La Russie frappe l’Ukraine en plein cessez-le-feu de Kiev… Ca s’est passé cette nuit",
-        "resume": "Trump suspend son opération d’escorte de navires dans l’espoir d’un accord avec l’Iran, Samsung dépasse les 1000 milliards de dollars, La Russie frappe l’Ukraine en plein cessez-le-feu de Kiev",
-        "url": "https://www.challenges.fr/monde/trump-suspend-son-operation-descorte-de-navires-dans-lespoir-dun-accord-avec-liran-samsung-depasse-les-1000-milliards-de-dollars-la-russie-frappe-lukraine-en-plein-cessez-le-feu-de-kiev-ca-sest-passe-cette-nuit_643199"
+        "heure": "16h39",
+        "titre": "Jusqu’à 80 euros pour certains consommateurs : Apple paie 250 millions de dollars pour régler un litige sur son IA",
+        "resume": "Apple a accepté de payer 250 millions de dollars pour régler des plaintes d’utilisateurs accusant la société d’avoir trompé le public en vantant les capacités de son système d’IA « Apple Intelligence ». Certains acheteurs d’iPhone 15 et 16 sont éligi",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/jusqua-80-euros-pour-certains-consommateurs-apple-paie-250-millions-de-dollars-pour-regler-un-litige-sur-son-ia_643216"
       },
       {
         "source": "Challenges",
         "heure": "08h00",
-        "titre": "« C’est souvent quand on parle moins d’un actif que l’attractivité est là » : faut-il miser sur le bitcoin malgré sa chute spectaculaire ?",
-        "resume": "DOSSIER HÉRITAGE - Après avoir perdu plus de 50 % depuis octobre, la cryptomonnaie divise. Fin d’un mirage spéculatif ou opportunité d’investissement ? Au vu du contexte géopolitique, sa place éventuelle en portefeuille peut s’arbitrer avec l’or.",
-        "url": "https://www.challenges.fr/argent-et-placements/cest-souvent-quand-on-parle-moins-dun-actif-que-lattractivite-est-la-faut-il-miser-sur-le-bitcoin-malgre-sa-chute-spectaculaire_643050"
+        "titre": "Produits structurés : fonctionnement, rendements et risques d’un placement en plein essor",
+        "resume": "DOSSIER HÉRITAGE - Avec des rendements supérieurs à 8 %, ils ont de quoi séduire des Français ayant hérité de portefeuilles qu’ils jugent trop risqués. Mais les pièges existent.",
+        "url": "https://www.challenges.fr/argent-et-placements/produits-structures-fonctionnement-rendements-et-risques-dun-placement-en-plein-essor_643052"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "Résidences secondaires : l’euphorie immobilière retombe mais les projets persistent",
+        "resume": "RÉSIDENCES SECONDAIRES - Sur un marché revenu à la raison, les acquéreurs se projettent dans un lieu de vie autant dédié aux loisirs qu’aux nouvelles formes de travail, jusqu’à la retraite. Les littoraux ont toujours le vent en poupe, mais d’autres c",
+        "url": "https://www.challenges.fr/immobilier/residences-secondaires-leuphorie-immobiliere-retombe-mais-les-projets-persistent_643173"
       }
     ]
   },
@@ -124,17 +121,17 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "23h58",
-        "titre": "BioNTech supprime 1 860 postes sur fond de chute des ventes de vaccins anti-Covid",
-        "resume": "Trois sites de production en Allemagne, dont ceux de la biotech de Tübingen CureVac, rachetée en 2025, sont menacés de fermeture.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/05/biontech-supprime-1-860-postes-sur-fond-de-chute-des-ventes-de-vaccins-anti-covid_6685654_3234.html"
+        "heure": "14h18",
+        "titre": "Traitements antiobésité : « Novo Nordisk a l’occasion de prendre sa revanche sur son concurrent Eli Lilly avec un petit comprimé rond et blanc »",
+        "resume": "Fabricant du traitement contre l’obésité Wegovy et de l’antidiabétique Ozempic, le laboratoire danois est en perte de vitesse aux Etats-Unis, son principal marché, face à l’américain Eli Lilly. Avec le lancement, en janvier, d’une forme orale bien mo",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/07/traitements-antiobesite-novo-nordisk-a-l-occasion-de-prendre-sa-revanche-sur-son-concurrent-eli-lilly-avec-un-petit-comprime-rond-et-blanc_6686545_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "23h08",
-        "titre": "Lorenzo Mariani, un nouveau patron au profil très industriel pour le géant de la défense italien Leonardo",
-        "resume": "Lorenzo Mariani doit prendre, jeudi, la tête du numéro un italien de l’industrie de défense. Il aura pour mission de piloter l’augmentation des capacités de production et de gérer les multiples projets de coentreprise lancés par son prédécesseur.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/05/lorenzo-mariani-un-nouveau-patron-au-profil-tres-industriel-pour-le-geant-de-la-defense-italien-leonardo_6685651_3234.html"
+        "heure": "18h30",
+        "titre": "Renault avance à pas comptés dans la production de drones militaires",
+        "resume": "Poussé par le gouvernement, le constructeur automobile aménage un atelier dans son usine du Mans pour commencer à fabriquer, fin 2026, un grand drone à bas coût.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/06/renault-avance-a-pas-comptes-dans-la-production-de-drones-militaires_6686131_3234.html"
       },
       {
         "source": "Le Monde Éco",
@@ -144,32 +141,18 @@
         "url": "https://www.lemonde.fr/economie/article/2026/05/06/transavia-ouvre-son-premier-salon-a-orly-signe-d-une-discrete-premiumisation-de-la-compagnie-low-cost-d-air-france-klm_6686011_3234.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "11h04",
-        "titre": "IA : Apple accepte de payer 250 millions de dollars après des plaintes l’accusant d’avoir trompé des millions d’acheteurs d’iPhone sur ses capacités",
-        "resume": "Les plaignants reprochaient au géant californien d’avoir « promu des capacités d’IA qui n’existaient pas au moment des faits, n’existent pas aujourd’hui, et n’existeront pas avant deux ans ou plus », selon un document d’accord soumis à la justice.",
-        "url": "https://www.lemonde.fr/pixels/article/2026/05/06/ia-apple-accepte-de-payer-250-millions-de-dollars-apres-des-plaintes-l-accusant-d-avoir-trompe-des-millions-d-acheteurs-d-iphone-sur-ses-capacites_6685977_4408996.html"
+        "source": "Challenges",
+        "heure": "06h30",
+        "titre": "Acquisitions en série, recours à l’intelligence artificielle… comment eBay a opéré un spectaculaire redressement",
+        "resume": "Ces dernières années, eBay a opéré un retour en force surprenant : les ventes sont en hausse, le nombre d’acheteurs s’est stabilisé. L’engouement est tel que la plateforme est l’objet d’une proposition de rachat pour 56 milliards de dollars.",
+        "url": "https://www.challenges.fr/entreprise/acquisitions-en-serie-recours-a-lintelligence-artificielle-comment-ebay-a-opere-un-spectaculaire-redressement_643214"
       },
       {
         "source": "Challenges",
-        "heure": "12h30",
-        "titre": "Boutique Shein, étages vides, comptes dans le rouge… l’immense casse-tête de Frédéric Merlin pour sauver le BHV",
-        "resume": "L’homme d’affaires lyonnais ne va plus louer que 40 % de la surface du bâtiment du BHV à son bailleur, le fonds Brookfield. Mais pour réduire sa surface de vente, Merlin doit reconfigurer l’espace du grand magasin. Et se heurte à des difficultés, en ",
-        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/boutique-shein-etages-vides-comptes-dans-le-rouge-limmense-casse-tete-de-frederic-merlin-pour-sauver-le-bhv_643167"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h30",
-        "titre": "Derrière les porte-avions et sous-marins français, le défi industriel sans précédent du champion TechnicAtome",
-        "resume": "Après avoir vu son chiffre d’affaires augmenter de 65 % depuis 2020, TechnicAtome doit encore accélérer pour livrer les huit chaufferies nucléaires du porte-avions France Libre, des sous-marins lanceurs d’engins de classe Invincible et des deux derni",
-        "url": "https://www.challenges.fr/entreprise/defense/derriere-les-porte-avions-et-sous-marins-francais-le-defi-industriel-sans-precedent-du-champion-technicatome_643202"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h29",
-        "titre": "Audiovisuel public : Charles Alloncle accuse Delphine Ernotte de  « parjure » et de « déni »",
-        "resume": "Dans cet extrait de « Lundi, c’est politique » sur LCP, en partenariat avec Challenges et Radio Classique : Charles Alloncle accuse la présidente de France Télévisions, Delphine Ernotte, de « parjure », de « déni » et d’« une forme de mensonge » sur ",
-        "url": "https://www.challenges.fr/economie/audiovisuel-public-charles-alloncle-accuse-delphine-ernotte-de-parjure-et-de-deni_643168"
+        "heure": "10h51",
+        "titre": "La fin de la politique des stars à tout prix : pourquoi le PSG a bien fait d’autant se tromper avant de triompher",
+        "resume": "Après avoir longtemps fait rire l’Europe entière, le PSG est devenu une implacable machine à gagner. Même le modèle allemand du Bayern Munich a volé en éclats, mercredi soir. Dembélé über alles !",
+        "url": "https://www.challenges.fr/entreprise/sports/la-fin-de-la-politique-des-stars-a-tout-prix-pourquoi-le-psg-a-bien-fait-dautant-se-tromper-avant-de-triompher_643230"
       }
     ]
   },
@@ -177,24 +160,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "23h28",
-        "titre": "Chez SFR, alerte sur les risques psychosociaux alors que les négociations en vue d’un rachat par ses concurrents se poursuivent",
-        "resume": "De nombreux salariés présentent des risques d’épuisement professionnel, selon une enquête, dans un climat social tendu par la perspective d’un dépeçage de l’opérateur entre Bouygues Telecom, Free et Orange.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/05/chez-sfr-alerte-sur-les-risques-psychosociaux-alors-que-les-negociations-en-vue-d-un-rachat-par-ses-concurrents-se-poursuivent_6685653_3234.html"
+        "heure": "03h16",
+        "titre": "Anthropic, en difficulté pour satisfaire la demande de son modèle d’IA, loue le plus gros centre de données d’Elon Musk",
+        "resume": "Cet accord permettra sans délai à l’entreprise, rivale d’OpenAI, d’augmenter les quotas d’utilisation de son modèle Claude.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/07/anthropic-en-difficulte-pour-satisfaire-la-demande-de-son-modele-d-ia-loue-le-plus-gros-centre-de-donnees-d-elon-musk_6686212_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Comment les épargnants sont affectés par le regroupement de conseils en gestion de patrimoine",
+        "resume": "L’émergence de grands groupes aux encours importants donne davantage de moyens aux conseillers. Au prix d’une perte d’autonomie, critiquent certains.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/06/comment-les-epargnants-sont-affectes-par-le-regroupement-de-conseils-en-gestion-de-patrimoine_6685830_1657007.html"
       },
       {
         "source": "Challenges",
-        "heure": "18h43",
-        "titre": "Racheter un équipementier automobile pour assembler des fusées : le pari pas si fou de la pépite tricolore Sirius Space",
-        "resume": "Après les groupes d’usinage Serm et AMM-42, la start-up française Sirius Space, qui développe des micro-lanceurs de 180 kg à 1,1 tonne de capacité, vient de reprendre au tribunal de commerce l’usine de Blois de l’équipementier automobile Enerflux. Le",
-        "url": "https://www.challenges.fr/entreprise/aeronautique/racheter-un-equipementier-automobile-pour-assembler-des-fusees-le-pari-pas-si-fou-de-la-pepite-tricolore-sirius-space_643198"
+        "heure": "17h45",
+        "titre": "« Si cela venait à être rendu public, la réputation de l’entreprise serait ruinée » : les secrets de la guerre de succession qui déchire LG",
+        "resume": "L’héritière de LG porte plainte contre son fils adoptif, l’actuel président, pour évasion fiscale et détournement, dénonçant une structure illégale de détention d’actions. Elle a enregistré une réunion révélant des parts secrètes et des arrangements ",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/si-cela-venait-a-etre-rendu-public-la-reputation-de-lentreprise-serait-ruinee-les-secrets-de-la-guerre-de-succession-qui-dechire-lg_643212"
       },
       {
         "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Anthropic s’allie aux géants de Wall Street : le mastodonte de l’IA crée une coentreprise pour aider les sociétés à intégrer son modèle Claude",
-        "resume": "L’entreprise d’IA Anthropic et plusieurs grandes sociétés d’investissement de Wall Street ont annoncé, lundi 4 mai, la création d’une coentreprise. Sa mission sera d’aider les sociétés à intégrer le modèle d’IA d’Anthropic, Claude. Une nouvelle illus",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/anthropic-sallie-aux-geants-de-wall-street-le-mastodonte-de-lia-cree-une-coentreprise-pour-aider-les-societes-a-integrer-son-modele-claude_643154"
+        "heure": "07h30",
+        "titre": "Compléments alimentaires : à la croisée du sport et de la santé, Nutripure veut s’imposer sur ce marché qui pèse 3 milliards en France",
+        "resume": "Florent Carrio, diplômé de l’Isae-Supaero à Toulouse, a fondé cette marque de produits de nutrition avec son frère en 2017. Il compte 1 000 points de vente en France et veut s’implanter en Espagne et en Italie. Il est l’invité du Club Entrepreneurs C",
+        "url": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/complements-alimentaires-a-la-croisee-du-sport-et-de-la-sante-nutripure-veut-simposer-sur-ce-marche-qui-pese-3-milliards-en-france_643200"
+      },
+      {
+        "source": "Challenges",
+        "heure": "14h28",
+        "titre": "Moins de 10 % du PIB : les vraies raisons de l’échec de la réindustrialisation de la France",
+        "resume": "Derrière les annonces et les milliards engagés, la réindustrialisation française peine à produire des résultats tangibles. Entre diagnostic tardif, stratégie mal calibrée et contraintes structurelles ignorées, l’ambition industrielle se heurte à une ",
+        "url": "https://www.challenges.fr/entreprise/industrie/moins-de-10-du-pib-les-vraies-raisons-de-lechec-de-la-reindustrialisation-de-la-france_643209"
       }
     ]
   },
@@ -202,31 +199,31 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "19h00",
-        "titre": "Crédit immobilier : la hausse des taux se profile",
-        "resume": "L’apparente stabilité des taux de crédit immobilier en avril cache une situation beaucoup plus contrastée.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/05/credit-immobilier-la-hausse-des-taux-se-profile_6685605_1657007.html"
+        "heure": "14h26",
+        "titre": "Impôt sur le revenu : 46 % des Français imposés, un record depuis dix ans",
+        "resume": "Plus de 19 millions de foyers fiscaux ont acquitté l’impôt sur le revenu en 2025, soit une minorité qui grossit d’année en année depuis 2016. Longtemps en déclin, l’impôt, qui assure près d’un quart des recettes de l’Etat, a retrouvé un peu de force.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/07/impot-sur-le-revenu-46-des-francais-imposes-un-record-depuis-dix-ans_6686546_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "12h00",
-        "titre": "Dans l’Ain, la « vallée du plastique » voit les prix augmenter et son approvisionnement se compliquer avec le conflit au Moyen-Orient",
-        "resume": "Bastion historique de la plasturgie française, la région d’Oyonnax  subit le contrecoup de la fermeture du détroit d’Ormuz, entre fortes hausses des prix des polymères et retards de livraison.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/06/dans-la-vallee-du-plastique-le-conflit-au-moyen-orient-dope-les-prix-et-complique-l-approvisionnement_6686080_3234.html"
+        "heure": "09h42",
+        "titre": "Le gouvernement met en place 15 mesures pour améliorer l’emploi des jeunes",
+        "resume": "Présentée jeudi 7 mai et portée par cinq ministres, cette stratégie, baptisée « Emploi futur » ne présente aucune grande nouveauté pour lutter contre ce problème structurel de l’économie française.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/07/le-gouvernement-met-en-place-quinze-mesures-pour-ameliorer-l-emploi-des-jeunes_6686505_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "12h00",
-        "titre": "Les compagnies aériennes chinoises fragilisées par la flambée des prix du kérosène",
-        "resume": "Très encadrés par l’Etat, Air China, China Eastern et China Southern ont moins de leviers que leurs concurrents occidentaux pour absorber les variations des prix du carburant et voient leurs vols intérieurs de plus en plus concurrencés par le train à",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/05/les-compagnies-aeriennes-chinoises-fragilisees-par-la-flambee-des-prix-du-kerosene_6685559_3234.html"
+        "heure": "09h05",
+        "titre": "En Europe, le transport aérien a battu son record d’émissions de CO₂ en 2025, selon l’ONG Transport & Environment",
+        "resume": "Les mouvements d’avion en Europe ont relâché dans l’atmosphère 195 millions de tonnes de dioxyde de carbone, en hausse de 4 % sur un an. Ces rejets ont, pour la première fois, dépassé le niveau prépandémique de 2019, d’après les calculs de l’organisa",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/07/en-europe-le-transport-aerien-a-battu-son-record-d-emissions-de-co-en-2025-selon-l-ong-transport-environment_6686502_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "11h02",
-        "titre": "Voitures électriques : le choc pétrolier ne suffira pas pour aplanir les réticences",
-        "resume": "La flambée des carburants stimule, pour l’heure, les ventes de véhicules électriques, mais le scepticisme à leur égard demeure encore profondément ancré dans les mentalités.",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/05/voitures-electriques-le-choc-petrolier-ne-suffira-pas-pour-aplanir-les-reticences_6685554_3232.html"
+        "heure": "21h20",
+        "titre": "Prix du carburant : la consommation en forte baisse en avril en France, selon Bercy",
+        "resume": "La consommation de carburant a reculé de 11 % par rapport au mois d’avril 2025, après un mois de mars en hausse de 2 % notamment marqué par une forte poussée des achats de précaution à la pompe dans les premières semaines du conflit.",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/05/06/prix-du-carburant-la-consommation-en-forte-baisse-en-avril-en-france-selon-bercy_6686159_1656968.html"
       },
       {
         "source": "Challenges",
@@ -241,13 +238,6 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "16h24",
-        "titre": "Pour Emmanuel Macron, l’UE devra « activer » ses instruments anticoercition si la « menace » d’une surtaxe américaine sur les véhicules se concrétise",
-        "resume": "« Dans la période géopolitique que nous vivons, des alliés comme les Etats-Unis et l’UE ont bien mieux à faire que d’agiter des menaces de déstabilisation », a déclaré le président français.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/05/surtaxes-americaines-sur-les-voitures-l-ue-devra-activer-ses-instruments-anticoercition-si-la-menace-se-concretise-avertit-emmanuel-macron_6685590_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
         "heure": "07h26",
         "titre": "Sébastien Lecornu se résout à envisager une hausse des aides économiques pour faire face à la prolongation de la guerre au Moyen-Orient",
         "resume": "Le premier ministre compte dévoiler dans quelques jours de nouvelles mesures de soutien à l’activité. La hausse durable du prix du pétrole oblige à « changer d’échelle », juge-t-il. Quitte à compliquer une équation budgétaire déjà ardue.",
@@ -255,105 +245,84 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "07h00",
-        "titre": "La Norvège prête à accélérer la production de gaz et de pétrole pour aider ses voisins européens",
-        "resume": "En plus de relancer l’exploitation de trois vieux gisements gaziers fermés depuis 1998, le pays nordique, principal fournisseur de gaz naturel de l’Europe, a proposé, mardi 5 mai, 70 nouveaux « blocs » à la prospection.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/06/la-norvege-prete-a-accelerer-la-production-de-gaz-et-de-petrole-pour-aider-ses-voisins-europeens_6685823_3234.html"
+        "heure": "06h45",
+        "titre": "Israël prêt à livrer du kérosène à l’Allemagne",
+        "resume": "A Berlin, le ministère de l’économie a déclaré mener « des discussions constructives avec plusieurs pays, » parmi lesquels Israël, au sujet de l’approvisionnement énergétique.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/07/israel-pret-a-livrer-du-kerosene-a-l-allemagne_6686410_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "10h56",
-        "titre": "Elisabeth Borne annonce se retirer de la direction de Renaissance car elle ne se « retrouve pas complètement » dans la ligne du parti",
-        "resume": "L’ancienne première ministre reste néanmoins adhérente de la formation macroniste et dit vouloir se consacrer à la structure qu’elle vient de créer, Bâtissons ensemble.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/06/elisabeth-borne-annonce-se-retirer-de-la-direction-de-renaissance-car-elle-ne-se-retrouve-pas-completement-dans-la-ligne-du-parti_6685942_823448.html"
+        "heure": "13h40",
+        "titre": "Présidentielle : Gabriel Attal mentionne un éventuel accord avec Edouard Philippe pour éviter un duel LFI-RN au second tour",
+        "resume": "Les deux anciens premiers ministres d’Emmanuel Macron se seraient entendus pour que le moins bien placé d’entre eux renonce à sa candidature dès le début de 2027 en cas de risque d’un second tour entre La France insoumise et le RN.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/07/presidentielle-gabriel-attal-mentionne-un-eventuel-accord-avec-edouard-philippe-pour-eviter-un-duel-lfi-rn-au-second-tour_6686537_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "11h39",
-        "titre": "La proposition de loi de Bruno Retailleau « contre l’entrisme islamiste » arrive devant le Sénat",
-        "resume": "Réécrit par la commission des lois, le texte du candidat LR à l’élection présidentielle inquiète des défenseurs des libertés publiques et associatives. Le gouvernement a dans ses cartons un projet de loi sur le même sujet actuellement à l’étude au Co",
-        "url": "https://www.lemonde.fr/societe/article/2026/05/05/la-proposition-de-loi-de-bruno-retailleau-contre-l-entrisme-islamiste-arrive-devant-le-senat_6685557_3224.html"
+        "heure": "12h10",
+        "titre": "Elisabeth Borne quitte la direction de Renaissance et critique un « débat public saturé d’idées populistes et simplistes »",
+        "resume": "L’ancienne première ministre reste adhérente du parti présidentiel. Mais, dans un livre publié jeudi, où elle dresse un inventaire du macronisme, elle critique en filigrane plusieurs mesures défendues par Gabriel Attal, signe d’une dérive populiste e",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/07/opposee-a-gabriel-attal-elisabeth-borne-quitte-la-direction-de-renaissance-et-critique-un-debat-public-sature-d-idees-populistes-et-simplistes_6686523_823448.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "20h07",
-        "titre": "Emmanuel Moulin proposé par Emmanuel Macron pour devenir gouverneur de la Banque de France",
-        "resume": "Agé de 57 ans, Emmanuel Moulin est un ancien directeur du Trésor, poste qui a traditionnellement fourni à la Banque de France ses gouverneurs.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/05/emmanuel-moulin-propose-par-emmanuel-macron-pour-devenir-gouverneur-de-la-banque-de-france_6685623_823448.html"
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "« L’Irlande n’a pas la capacité de se défendre seule » : l’Irlande renforce sa défense et se tourne vers la France pour combler ses failles",
+        "resume": "Historiquement neutre, l’Irlande a découvert ses failles militaires et met la main à la poche pour s’armer. Un choix crucial avant sa présidence européenne.",
+        "url": "https://www.challenges.fr/monde/lirlande-na-pas-la-capacite-de-se-defendre-seule-lirlande-renforce-sa-defense-et-se-tourne-vers-la-france-pour-combler-ses-failles_643162"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Le Monde Éco",
-        "heure": "19h00",
-        "titre": "Crédit immobilier : la hausse des taux se profile",
-        "resume": "L’apparente stabilité des taux de crédit immobilier en avril cache une situation beaucoup plus contrastée.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/05/credit-immobilier-la-hausse-des-taux-se-profile_6685605_1657007.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Comment les épargnants sont affectés par le regroupement de conseils en gestion de patrimoine",
-        "resume": "L’émergence de grands groupes aux encours importants donne davantage de moyens aux conseillers. Au prix d’une perte d’autonomie, critiquent certains.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/06/comment-les-epargnants-sont-affectes-par-le-regroupement-de-conseils-en-gestion-de-patrimoine_6685830_1657007.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "19h53",
-        "titre": "Total menace de lever son plafonnement sur les prix des carburants si une taxe sur les profits pétroliers exceptionnels est instaurée",
-        "resume": "Interrogé sur la situation de l’approvisionnement estival, M. Pouyanné affirme qu’il « n’y aura pas de pénurie en France ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/05/totalenergies-menace-de-lever-son-plafonnement-sur-les-prix-des-carburants-si-une-taxe-sur-les-profits-petroliers-exceptionnels-est-instauree_6685617_3234.html"
-      },
-      {
         "source": "Challenges",
-        "heure": "13h00",
-        "titre": "Face à un livret A en recul, l’assurance-vie séduit de plus en plus d’épargnants",
-        "resume": "Le livret A perd de son attrait à mesure que son taux recule, tandis que l’assurance-vie capte une épargne en quête de rendement et enchaîne les records.",
-        "url": "https://www.challenges.fr/argent-et-placements/face-a-un-livret-a-en-recul-lassurance-vie-seduit-de-plus-en-plus-depargnants_643160"
+        "heure": "06h40",
+        "titre": "Le testament de Villeroy de Galhau : l’économie contre le court-termisme politique",
+        "resume": "À quelques semaines de son départ, le gouverneur de la Banque de France livre une ultime lettre au président qui dépasse le simple diagnostic économique. Derrière l’alerte sur l’inflation et les chocs énergétiques, François Villeroy de Galhau pointe ",
+        "url": "https://www.challenges.fr/politique/le-testament-de-villeroy-de-galhau-leconomie-contre-le-court-termisme-politique_643176"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.639,
-        "prev": 2.64,
-        "diff": -0.001,
+        "rate": 2.538,
+        "prev": 2.639,
+        "diff": -0.101,
         "trend": "down",
-        "date": "2026-05-05"
+        "date": "2026-05-06"
       },
       {
         "maturity": "5 ans",
-        "rate": null,
-        "prev": null,
-        "diff": null,
-        "trend": "flat",
-        "date": ""
+        "rate": 2.654,
+        "prev": 2.756,
+        "diff": -0.102,
+        "trend": "down",
+        "date": "2026-05-06"
       },
       {
         "maturity": "10 ans",
-        "rate": null,
-        "prev": null,
-        "diff": null,
-        "trend": "flat",
-        "date": ""
+        "rate": 3.048,
+        "prev": 3.126,
+        "diff": -0.077,
+        "trend": "down",
+        "date": "2026-05-06"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.53,
-        "prev": 3.504,
-        "diff": 0.026,
-        "trend": "up",
-        "date": "2026-05-05"
+        "rate": 3.47,
+        "prev": 3.53,
+        "diff": -0.061,
+        "trend": "down",
+        "date": "2026-05-06"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.533,
-        "prev": 3.511,
-        "diff": 0.023,
-        "trend": "up",
-        "date": "2026-05-05"
+        "rate": 3.486,
+        "prev": 3.533,
+        "diff": -0.047,
+        "trend": "down",
+        "date": "2026-05-06"
       }
     ]
   },
