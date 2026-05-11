@@ -1,28 +1,24 @@
 {
-  "timestamp": "10h08 le 08/05/2026",
-  "alerte": {
-    "titre": "OPA Fnac Darty validée",
-    "detail": "L'AMF approuve l'offre de Daniel Kretinsky, dernière étape avant finalisation",
-    "index": 7
-  },
+  "timestamp": "14h12 le 11/05/2026",
+  "alerte": "Restructuration Alstom imminente (index 2) + Fibre Excellence en péril (index 10) + Symbio a brûlé 350M€ d'aides publiques (index 8)",
   "synthese": {
-    "resume": "L'AMF valide l'OPA de Kretinsky sur Fnac Darty tandis que Trump menace l'UE de taxes avant le 4 juillet si l'accord commercial n'avance pas. Stellantis s'ouvre à Leapmotor en Espagne pour redynamiser ses usines sous-utilisées. Les prix du pétrole restent sous tension avec des questions de durabilité.",
+    "resume": "Trois dossiers industriels critiques dominent l'agenda : Alstom prépare une restructuration majeure, l'usine Fibre Excellence risque la fermeture en Midi-Pyrénées, et Symbio illustre l'hémorragie des aides publiques (350M€ en 2 ans). Sur les marchés, les ventes d'art new-yorkaises privilégient les valeurs sûres tandis qu'Intel revendique un come-back technologique. Le contexte macro reste tendu avec des superprofits record des grandes entreprises cotées (index 14) contrastant avec les tensions de pouvoir d'achat des Français.",
     "points": [
       {
-        "titre": "M&A",
-        "detail": "OPA Kretinsky/Fnac Darty approuvée par l'AMF (opération de renom); Anthropic loue le plus gros data center de Musk pour rivaliser avec OpenAI; partenariat Stellantis-Leapmotor en Espagne"
+        "titre": "Marchés & Valeurs",
+        "detail": "Ventes d'art NY : préférence affichée pour les valeurs refuges. Intel annonce come-back silicium. Superprofits record des entreprises cotées mondiales malgré contexte macro dégradé. Marché du timbre dynamique (lettre 1851 Mexique 65k€)."
       },
       {
-        "titre": "Macro-économie",
-        "detail": "46% des Français imposés, record décennal; inégalités au Royaume-Uni à niveaux record; chute du trafic Suez affecte l'économie égyptienne"
+        "titre": "Conjoncture & Secteurs",
+        "detail": "Tensions persistantes : aide carburant 20 cts/L GNR (index 13), pouvoir d'achat fragilisé. Propriété immobilière chute à 57% (déclin historique, index 37). Géothermie peine à décoller malgré urgence énergétique. Acier : émissions carbone toujours massives."
       },
       {
-        "titre": "Énergie & Commodités",
-        "detail": "Pétrole en hausse avec questions de durabilité; Israël prêt à livrer kérosène à l'Allemagne; débat taxe superprofits TotalEnergies; France a perdu 3/4 des raffineries en 50 ans"
+        "titre": "Entreprises & Stratégie",
+        "detail": "Alstom : restructuration d'ampleur en 2-3 mois (index 2). Fibre Excellence : risque fermeture 2 usines (1500 emplois, index 10). Symbio hydrogène : 350M€ aides publiques perdus, 70% réductions effectifs. French Bee : grève pilotes prévue 13-18 mai. Michelin quitte MotoGP après 11 ans."
       },
       {
-        "titre": "Commerce & Géopolitique",
-        "detail": "Trump menace l'UE de taxes lourdes avant 4 juillet; droits de douane 10% jugés illégaux par US courts; tensions commerciales sino-américaines via e-commerce (Amazon, eBay, Rakuten)"
+        "titre": "Politique & Géopolitique",
+        "detail": "Macron termine tournée africaine (index 21) : partenariat CMA CGM-Kenya 700M€ (index 42) pour contrebalancer influence Chine. RN radicalise stratégies locales (index 31-32). Présidentielle 2027 : Philippe vs Retailleau (index 30). Fin de vie revient au Sénat."
       }
     ]
   },
@@ -30,8 +26,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 159",
-        "change": "+0.21%",
+        "value": "8 081",
+        "change": "+0.14%",
         "dir": "up"
       },
       {
@@ -42,20 +38,20 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 385",
-        "change": "+0.11%",
+        "value": "7 414",
+        "change": "+0.20%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "26 036",
-        "change": "+0.60%",
-        "dir": "up"
+        "value": "-",
+        "change": "-",
+        "dir": "flat"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1773",
-        "change": "+0.42%",
+        "value": "1.1788",
+        "change": "+0.21%",
         "dir": "up"
       },
       {
@@ -66,9 +62,9 @@
       },
       {
         "label": "Or",
-        "value": "4 734 $",
-        "change": "+1.16%",
-        "dir": "up"
+        "value": "-",
+        "change": "-",
+        "dir": "flat"
       },
       {
         "label": "Euribor 3M",
@@ -86,38 +82,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "08h30",
-        "titre": "Pourquoi les prix du pétrole augmentent-ils autant (et est-ce que ça va durer) ?",
-        "resume": "Chaque semaine, l’équipe du podcast Chaleur humaine répond à vos questions sur la transition climatique",
-        "url": "https://www.lemonde.fr/chaleur-humaine/article/2026/05/08/pourquoi-les-prix-du-petrole-augmentent-ils-autant-et-est-ce-que-ca-va-durer_6686926_6125299.html"
+        "heure": "16h00",
+        "titre": "Les ventes d’art de New York devraient plébisciter les valeurs sûres",
+        "resume": "Les enchères qui s’ouvrent lundi 11 mai devraient s’inscrire dans la même tendance que celle observée en novembre 2025 : les jeunes artistes ont moins la cote.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/11/les-ventes-d-art-de-new-york-devraient-plebisciter-les-valeurs-sures_6688113_1657007.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "16h00",
-        "titre": "Superprofits de TotalEnergies : est-il vraiment possible de taxer les bénéfices exceptionnels des pétroliers ?",
-        "resume": "Face à la hausse prolongée des prix des carburants revient l’idée d’imposer les profits exceptionnels réalisés par les multinationales pétrolières. La question de la possibilité d’une telle taxation fait cependant débat.",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/05/07/est-il-vraiment-possible-de-taxer-les-superprofits-des-petroliers_6686551_4355770.html"
+        "heure": "08h30",
+        "titre": "Superprofits : les entreprises cotées multiplient les bénéfices record à travers le monde",
+        "resume": "Loin de se limiter à TotalEnergies, les superprofits se multiplient pour les entreprises cotées en Bourse. Les montants reversés aux actionnaires, sous forme de dividendes ou de rachats d’actions, explosent.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/10/superprofits-a-travers-le-monde-les-entreprises-cotees-multiplient-des-benefices-record_6687681_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Marché du timbre : une lettre de 1851 pour le Mexique à 65 000 euros et de rares types « Sage » en vente",
+        "resume": "La vente sur offres du Timbre classique clôturée le 5 mai a enregistré quelques bons résultats et des déceptions, tandis que deux ventes à venir dispersent des pièces peu vues et quelques raretés.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/10/marche-du-timbre-une-lettre-de-1851-pour-le-mexique-a-65-000-euros-et-de-rares-types-sage-en-vente_6687674_1657007.html"
       },
       {
         "source": "Challenges",
-        "heure": "11h57",
-        "titre": "Amazon, Rakuten, eBay : les pionniers du e-commerce sous pression chinoise",
-        "resume": "Face à l’offensive des plateformes chinoises à prix cassé, les acteurs historiques Amazon, Rakuten et eBay tentent de s’adapter.",
-        "url": "https://www.challenges.fr/entreprise/amazon-rakuten-ebay-les-pionniers-du-e-commerce-sous-pression-chinoise_643274"
+        "heure": "07h35",
+        "titre": "Macron affirme que l’ère du « pré carré » français en Afrique est « terminée », Gaz à effet de serre : la production d’acier toujours très émettrice, Nintendo dégringole de 10 % à la Bourse de Tokyo… Ça s’est passé cette nuit",
+        "resume": "Macron affirme que l’ère du « pré carré » français en Afrique est « terminée », Gaz à effet de serre : la production d’acier toujours très émettrice, Nintendo dégringole de 10 % à la Bourse de Tokyo",
+        "url": "https://www.challenges.fr/monde/macron-affirme-que-lere-du-pre-carre-francais-en-afrique-est-terminee-gaz-a-effet-de-serre-la-production-dacier-toujours-tres-emettrice-nintendo-degringole-de-10-a-la-bourse-de-tokyo-ca-sest-passe-cette-nuit_643297"
       },
       {
         "source": "Challenges",
-        "heure": "15h59",
-        "titre": "Solaire : les raisons du coup de froid qui frappe le marché photovoltaïque en Espagne",
-        "resume": "De nombreuses sociétés de projets photovoltaïques déposent le bilan au sud des Pyrénées. L’ensoleillement n’est pas en cause, la saturation du réseau électrique au regard d’un trop grand nombre de projets l’est davantage.",
-        "url": "https://www.challenges.fr/entreprise/energie/solaire-les-raisons-du-coup-de-froid-qui-frappe-le-marche-photovoltaique-en-espagne_643254"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h30",
-        "titre": "Acquisitions en série, recours à l’intelligence artificielle… comment eBay a opéré un spectaculaire redressement",
-        "resume": "Ces dernières années, eBay a opéré un retour en force surprenant : les ventes sont en hausse, le nombre d’acheteurs s’est stabilisé. L’engouement est tel que la plateforme est l’objet d’une proposition de rachat pour 56 milliards de dollars.",
-        "url": "https://www.challenges.fr/entreprise/acquisitions-en-serie-recours-a-lintelligence-artificielle-comment-ebay-a-opere-un-spectaculaire-redressement_643214"
+        "heure": "18h15",
+        "titre": "Stellantis, Elon Musk, Russie… ce qu’il faut retenir du week-end",
+        "resume": "Vous avez décroché de l’actualité ce week-end ? Voici les informations principales que Challenges a sélectionnées pour vous ce week-end. Une annonce de Stellantis a marqué l’actualité économique alors que l’actualité internationale reste marquée par ",
+        "url": "https://www.challenges.fr/economie/stellantis-elon-musk-russie-ce-quil-faut-retenir-du-week-end_643294"
       }
     ]
   },
@@ -125,77 +121,70 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "10h00",
-        "titre": "Stellantis ouvre ses usines espagnoles au chinois Leapmotor, pour compenser la sous-utilisation de ses sites",
-        "resume": "Les discussions entre les deux groupes sont encore en cours. Pour Stellantis, il s’agit de faire tourner davantage des usines aujourd’hui sous-utilisées en raison d’un outil industriel surdimensionné.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/08/stellantis-ouvre-ses-usines-espagnoles-au-chinois-leapmotor-pour-compenser-la-sous-utilisation-de-ses-sites_6686993_3234.html"
+        "heure": "14h30",
+        "titre": "« Chez Alstom, tous les ingrédients sont réunis pour une restructuration d’ampleur dans quelques mois »",
+        "resume": "Le constructeur français du TGV est fragilisé par un système industriel inefficace, source de retards dans les livraisons, de surcoûts financiers et de consommation de trésorerie excessive, explique, dans sa chronique, Fabrice Gliszczynski, journalis",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/11/chez-alstom-tous-les-ingredients-sont-reunis-pour-une-restructuration-d-ampleur-dans-quelques-mois_6688111_3232.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "20h15",
-        "titre": "Transport aérien : Volotea justifie sa politique de surcharge carburant après achat pour éviter des annulations de vol cet été",
-        "resume": "Face au tollé et au doute juridique entourant les mesures de hausses tarifaires de la compagnie low cost espagnole desservant principalement les régions, Gilles Gosselin, son patron pour la France, explique ce choix.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/07/transport-aerien-volotea-justifie-sa-politique-de-surcharge-carburant-apres-achat-pour-eviter-des-annulations-de-vol-cet-ete_6686589_3234.html"
+        "heure": "12h56",
+        "titre": "« Intel fait son come-back dans le silicium »",
+        "resume": "Le retour de la firme californienne dans le secteur semble bien parti grâce au soutien de l’administration Trump. La fabrication de microprocesseurs sur le territoire constitue, en effet, un enjeu majeur de souveraineté pour les Etats-Unis, souligne ",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/11/intel-fait-son-come-back-dans-le-silicium_6688098_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "14h18",
-        "titre": "Traitements antiobésité : « Novo Nordisk a l’occasion de prendre sa revanche sur son concurrent Eli Lilly avec un petit comprimé rond et blanc »",
-        "resume": "Fabricant du traitement contre l’obésité Wegovy et de l’antidiabétique Ozempic, le laboratoire danois est en perte de vitesse aux Etats-Unis, son principal marché, face à l’américain Eli Lilly. Avec le lancement, en janvier, d’une forme orale bien mo",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/07/traitements-antiobesite-novo-nordisk-a-l-occasion-de-prendre-sa-revanche-sur-son-concurrent-eli-lilly-avec-un-petit-comprime-rond-et-blanc_6686545_3234.html"
+        "heure": "18h00",
+        "titre": "« Ce serait une bombe pour le territoire » : à Saint-Gaudens et Tarascon, l’angoisse de la fermeture des usines Fibre Excellence",
+        "resume": "Suspendus à la décision du tribunal de commerce de Toulouse, qui pourrait décider le 17 juin de la liquidation judiciaire des deux usines françaises du papetier Fibre Excellence à Saint-Gaudens (Haute-Garonne) et à Tarascon (Bouches-du-Rhône), salari",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/10/ce-serait-une-bombe-pour-le-territoire-a-saint-gaudens-et-tarascon-l-angoisse-de-la-fermeture-des-usines-fibre-excellence_6687714_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h30",
+        "titre": "Symbio, la pépite française de l’hydrogène, a brûlé 350 millions d’euros d’aides publiques en deux ans avant de licencier 70 % des salariés",
+        "resume": "La société spécialisée dans la fabrication de piles à hydrogène a notamment perçu 312 millions d’euros sur les fonds du programme européen PIIEC.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/11/symbio-la-pepite-francaise-de-l-hydrogene-a-brule-350-millions-d-euros-d-aides-publiques-en-deux-ans-avant-de-licencier-70-des-salaries_6687939_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "09h56",
-        "titre": "Malgré des résultats record, Nintendo augmente le prix de la Switch 2",
-        "resume": "Le géant du jeu vidéo Nintendo a fait savoir ce vendredi qu’il allait monter les prix de sa dernière console, la Switch 2, tout en affichant de solides résultats financiers pour son exercice 2025-2026. Malgré un bénéfice net en hausse de 52 % et des ",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/malgre-des-resultats-record-nintendo-augmente-le-prix-de-la-switch-2_643272"
+        "heure": "14h54",
+        "titre": "Après les stewards et hôtesses, les pilotes de French Bee déposent à leur tour un préavis de grève du 13 au 18 mai. Voici pourquoi",
+        "resume": "Les pilotes de la compagnie low cost French Bee (groupe Dubreuil) ont déposé un préavis de grève du 13 au 18 mai. Un mois plus tôt, ce sont les PNC (personnels navigant commerciaux) qui déposaient un préavis, levé suite à l’obtention de plusieurs ava",
+        "url": "https://www.challenges.fr/entreprise/transports/apres-les-stewards-et-hotesses-les-pilotes-de-french-bee-deposent-a-leur-tour-un-preavis-de-greve-du-13-au-18-mai-voici-pourquoi_643305"
       },
       {
         "source": "Challenges",
-        "heure": "11h34",
-        "titre": "EDF va peut-être vous tirer au sort pour une expérience et vous aurez trois mois pour refuser",
-        "resume": "A partir de ce mercredi 5 mai, EDF va peut-être vous tirer au sort pour une expérience et vous aurez trois mois pour refuser. 6600 foyers abonnés à l’offre de base d’EDF à travers la France vont être tirés au sort pour une expérience unique, on vous ",
-        "url": "https://www.challenges.fr/economie/edf-va-peut-etre-vous-tirer-au-sort-pour-une-experience-et-vous-aurez-trois-mois-pour-refuser_643236"
+        "heure": "07h00",
+        "titre": "« L’argent n’est pas en cause », mais alors pourquoi Michelin quitte-t-il le MotoGP après 11 ans de passion ?",
+        "resume": "Après 11 saisons en MotoGP, le pinacle de la compétition de vitesse moto, le manufacturier clermontois a participé à son dernier Grand Prix de France ce dimanche 10 mai. Il quittera le championnat à la fin de l’année, un changement stratégique dont M",
+        "url": "https://www.challenges.fr/entreprise/sports/largent-nest-pas-en-cause-mais-alors-pourquoi-michelin-quitte-t-il-le-motogp-apres-11-ans-de-passion_643292"
       }
     ]
   },
   "ma": {
     "articles": [
       {
+        "source": "Challenges",
+        "heure": "19h26",
+        "titre": "700 millions d’euros : l’armateur CMA CGM signe un accord de partenariat majeur au Kenya avec pour objectif de consolider sa présence africaine",
+        "resume": "Cet accord intervient au deuxième jour d’une tournée africaine du président français qui est arrivé dimanche au Kenya, pays anglophone qu’il considère comme emblématique d’une « relation refondée » de la France avec l’Afrique.",
+        "url": "https://www.challenges.fr/entreprise/transports/700-millions-deuros-larmateur-cma-cgm-signe-un-accord-de-partenariat-majeur-au-kenya-avec-pour-objectif-de-consolider-sa-presence-africaine_643296"
+      },
+      {
         "source": "Le Monde Éco",
-        "heure": "20h57",
-        "titre": "Fnac Darty : l’AMF donne son accord à l’OPA de Daniel Kretinsky, dernière étape pour valider l’opération",
-        "resume": "En prenant la majorité, le milliardaire tchèque empêchera de facto le géant chinois du commerce en ligne JD.com d’obtenir davantage de poids dans l’entreprise.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/07/fnac-darty-l-amf-donne-son-feu-vert-a-l-opa-de-daniel-kretinsky-derniere-etape-pour-valider-l-operation_6686594_3234.html"
+        "heure": "07h45",
+        "titre": "Entre Rodolphe Saadé, le patron de CMA CGM, et Emmanuel Macron, les intérêts bien compris de deux ambitieux",
+        "resume": "« CMA CGM, une entreprise au cœur du pouvoir » (1/4). Le président de la République et le PDG de la compagnie maritime ont noué une relation aussi respectueuse que profitable à l’un et à l’autre, tant les intérêts du groupe familial et ceux de l’Etat",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/11/entre-le-patron-de-cma-cgm-rodolphe-saade-et-emmanuel-macron-les-interets-bien-compris-de-deux-ambitieux_6687942_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "03h16",
-        "titre": "Anthropic, en difficulté pour satisfaire la demande de son modèle d’IA, loue le plus gros centre de données d’Elon Musk",
-        "resume": "Cet accord permettra sans délai à l’entreprise, rivale d’OpenAI, d’augmenter les quotas d’utilisation de son modèle Claude.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/07/anthropic-en-difficulte-pour-satisfaire-la-demande-de-son-modele-d-ia-loue-le-plus-gros-centre-de-donnees-d-elon-musk_6686212_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "19h09",
-        "titre": "« La reprise d’entreprise, c’est une drogue dure » : Philippe Savajols nous raconte sa méthode de serial repreneur",
-        "resume": "A la tête d’Isospace depuis vingt ans, le dirigeant d’entreprise témoigne de la manière dont il a fait de la croissance externe une marque de fabrique.",
-        "url": "https://www.challenges.fr/entreprise/la-reprise-dentreprise-cest-une-drogue-dure-philippe-savajols-nous-raconte-sa-methode-de-serial-repreneur_643268"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h50",
-        "titre": "« Consternant et exaspérant » : cinq grands éditeurs portent plainte contre Meta pour « violation de droits d’auteur »",
-        "resume": "Aux Etats-Unis, cinq grands éditeurs accusent Meta d’avoir pillé leurs livres, manuels et revues scientifiques pour entraîner son intelligence artificielle. Les plaignants insistent sur la responsabilité personnelle de Mark Zuckerberg.",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/consternant-et-exasperant-cinq-grands-editeurs-portent-plainte-contre-meta-pour-violation-de-droits-dauteur_643267"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h30",
-        "titre": "Acquisitions en série, recours à l’intelligence artificielle… comment eBay a opéré un spectaculaire redressement",
-        "resume": "Ces dernières années, eBay a opéré un retour en force surprenant : les ventes sont en hausse, le nombre d’acheteurs s’est stabilisé. L’engouement est tel que la plateforme est l’objet d’une proposition de rachat pour 56 milliards de dollars.",
-        "url": "https://www.challenges.fr/entreprise/acquisitions-en-serie-recours-a-lintelligence-artificielle-comment-ebay-a-opere-un-spectaculaire-redressement_643214"
+        "heure": "17h00",
+        "titre": "Chloé Petat, spécialiste des mobilités : « Le marché français de l’autocar longue distance est en passe de se refermer autour d’un monopole privé, celui de FlixBus »",
+        "resume": "Des cars Macron aux cars FlixBus, la conseillère municipale déléguée des Lilas (Seine-Saint-Denis), chargée notamment des transports, constate, dans une tribune au « Monde », l’ironie d’une concurrence désormais sans concurrents, qui menace à terme l",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/10/chloe-petat-specialiste-des-mobilites-le-marche-francais-de-l-autocar-longue-distance-est-en-passe-de-se-refermer-autour-d-un-monopole-prive-celui-de-flixbus_6687708_3232.html"
       }
     ]
   },
@@ -203,38 +192,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "18h00",
-        "titre": "Au Royaume-Uni, les inégalités atteignent des niveaux record",
-        "resume": "Les Britanniques vivent dans l’un des pays les plus inégaux au monde, selon un nouveau rapport fondé sur six ans d’enquête. Ces disparités se retrouvent sur le front géographique et de la santé.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/07/au-royaume-uni-les-inegalites-atteignent-des-niveaux-record_6686565_3234.html"
+        "heure": "15h35",
+        "titre": "Pourquoi la géothermie, solution durable à la crise énergétique, peine à décoller : l’explication en quatre graphiques",
+        "resume": "La consommation énergétique française est très dépendante des hydrocarbures qu’elle importe, comme le montrent les effets du blocage du détroit d’Ormuz. Pourtant, il existe dans notre sous-sol une source d’énergie décarbonée et peu exploitée : la géo",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/05/10/pourquoi-la-geothermie-solution-miracle-a-la-crise-energetique-peine-a-decoller-l-explication-en-quatre-graphiques_6687704_4355770.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "16h00",
-        "titre": "La chute du trafic dans le canal de Suez, artère essentielle du commerce maritime mondial, affecte l’économie égyptienne",
-        "resume": "L’attaque américano-israélienne sur l’Iran a de nouveau grevé l’activité d’une voie essentielle du trafic mondial, alors que le passage d’une mer à l’autre n’a jamais été aussi rapide.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/07/la-chute-du-trafic-dans-le-canal-de-suez-artere-essentielle-du-commerce-maritime-mondial-affecte-l-economie-egyptienne_6686552_3234.html"
+        "heure": "06h21",
+        "titre": "Environnement : la production d’acier mondiale continue de contribuer fortement au réchauffement de l’atmosphère, selon une ONG",
+        "resume": "L’industrie s’appuie encore trop sur l’utilisation de fours traditionnels, gourmands en charbon d’origine fossile, par rapport aux capacités de production d’acier « vert », selon le rapport de Global Energy Monitor.",
+        "url": "https://www.lemonde.fr/planete/article/2026/05/11/environnement-la-production-d-acier-mondiale-continue-de-contribuer-au-rechauffement-de-l-atmosphere-selon-une-ong_6687837_3244.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h45",
+        "titre": "Immobilier : Le taux de propriétaires chute à 57 %. Un déclin historique qui fragilise le rempart des Français face à la crise des retraites.",
+        "resume": "Face au décalage « pathologique » entre revenus et prix de l’immobilier, l’accession à la propriété s’effondre au profit du locatif. Pourtant, sans la possession de leur toit, comment les Français feront-ils face à des retraites de plus en plus préca",
+        "url": "https://www.challenges.fr/immobilier/immobilier-le-taux-de-proprietaires-chute-a-57-un-declin-historique-qui-fragilise-le-rempart-des-francais-face-a-la-crise-des-retraites_643295"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "14h26",
-        "titre": "Impôt sur le revenu : 46 % des Français imposés, un record depuis dix ans",
-        "resume": "Plus de 19 millions de foyers fiscaux ont acquitté l’impôt sur le revenu en 2025, soit une minorité qui grossit d’année en année depuis 2016. Longtemps en déclin, l’impôt, qui assure près d’un quart des recettes de l’Etat, a retrouvé un peu de force.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/07/impot-sur-le-revenu-46-des-francais-imposes-un-record-depuis-dix-ans_6686546_823448.html"
+        "heure": "14h31",
+        "titre": "Carburant : une aide de 20 centimes par litre de gazole non routier en mai pour certaines entreprises du bâtiment et des travaux publics",
+        "resume": "Sont éligibles à cette aide les entreprises de 20 salariés maximum consommant du gazole non routier et exerçant dans le secteur du bâtiment et des travaux publics.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/10/carburant-une-aide-de-20-centimes-par-litre-de-gazole-non-routier-en-mai-pour-certaines-entreprises-du-batiment-et-des-travaux-publics_6687701_3234.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "20h44",
-        "titre": "Loyers à Paris : la moitié des locataires du privé consacre plus de 34 % de ses revenus au logement, selon l’Insee",
-        "resume": "Femmes seules et jeunes locataires parisiens sont les plus touchés par la flambée des loyers, consacrant parfois plus de 40 % de leurs revenus à se loger, selon l’Insee.",
-        "url": "https://www.lemonde.fr/societe/article/2026/05/07/loyers-a-paris-la-moitie-des-locataires-du-prive-consacre-plus-de-34-de-ses-revenus-au-logement-selon-l-insee_6686593_3224.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "20h43",
-        "titre": "Accès à l’eau potable : « Contrairement à une idée reçue, la France est confrontée à des problèmes croissants », alerte un rapport parlementaire",
-        "resume": "Les députés Jean-Michel Brard (Horizons) et Gabriel Amard (LFI) préconisent notamment une politique ambitieuse de lutte contre les PFAS par le biais d’« un grand plan de recherche national » et le développement des solutions de rechange à ces polluan",
-        "url": "https://www.lemonde.fr/planete/article/2026/05/07/acces-a-l-eau-potable-contrairement-a-une-idee-recue-la-france-est-confrontee-a-des-problemes-croissants-alerte-un-rapport-parlementaire_6686591_3244.html"
+        "source": "Challenges",
+        "heure": "17h00",
+        "titre": "Sauvegarder le pouvoir d’achat des Français et préserver les finances publiques : le casse-tête des aides face à l’explosion des prix du carburant",
+        "resume": "Face à l’explosion des prix à la pompe, le gouvernement avait annoncé une première salve d’aides ciblées ces dernières semaines. Il doit s’exprimer de nouveau sur le sujet en début de semaine. Jeudi, le Premier ministre avait promis de n’abandonner «",
+        "url": "https://www.challenges.fr/economie/sauvegarder-le-pouvoir-dachat-des-francais-et-preserver-les-finances-publiques-le-casse-tete-des-aides-face-a-lexplosion-des-prix-du-carburant_643291"
       }
     ]
   },
@@ -242,38 +231,59 @@
     "articles": [
       {
         "source": "Le Monde Éco",
+        "heure": "12h00",
+        "titre": "« Du centre droit à la droite extrême s’installe un terrain d’entente sur la baisse du nombre de fonctionnaires »",
+        "resume": "Dans une tribune au « Monde », l’historien Emilien Ruiz constate que la réduction des effectifs dans la fonction publique est devenue une « antienne » consensuelle à travers tout le flanc droit du champ politique, sous le couvert de lutte contre la «",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/11/du-centre-droit-a-la-droite-extreme-s-installe-un-terrain-d-entente-sur-la-baisse-du-nombre-de-fonctionnaires_6688092_3232.html"
+      },
+      {
+        "source": "Le Monde Éco",
         "heure": "08h30",
-        "titre": "Marc Guillaume à la tête du Conseil d’Etat, la revanche d’un haut fonctionnaire aussi brillant que clivant",
-        "resume": "Débarqué de Matignon par Jean Castex en 2020 alors qu’il était secrétaire général du gouvernement, l’énarque avait ensuite été accusé de comportements sexistes par des conseillères de l’Elysée. Nommé préfet de la région Ile-de-France, il a réussi à c",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/08/marc-guillaume-a-la-tete-du-conseil-d-etat-la-revanche-d-un-haut-fonctionnaire-aussi-brillant-que-clivant_6686924_823448.html"
+        "titre": "A Nairobi, Emmanuel Macron clôt une décennie de tempêtes dans les relations entre la France et l’Afrique",
+        "resume": "Arrivé au pouvoir en promettant de refonder la relation entre la France et ses anciennes colonies, Emmanuel Macron a dû affronter une succession de crises, en particulier au Sahel. Dans la partie anglophone du continent, Paris peine à se faire une pl",
+        "url": "https://www.lemonde.fr/international/article/2026/05/11/a-nairobi-emmanuel-macron-clot-une-decennie-de-tempetes-dans-les-relations-entre-la-france-et-l-afrique_6687955_3210.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "07h38",
-        "titre": "Droits de douane : Donald Trump voit la justice américaine porter un nouveau coup d’arrêt à sa politique économique",
-        "resume": "Le Tribunal de commerce international des Etats-Unis a invalidé, jeudi 7 mai, la taxe de 10 % sur les importations imposée à tous les pays. Un dispositif qui venait en remplacement de précédents droits de douane jugés illégaux par la Cour suprême.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/08/droits-de-douane-donald-trump-voit-la-justice-americaine-porter-un-nouveau-coup-d-arret-a-sa-politique-economique_6686850_3234.html"
+        "heure": "07h30",
+        "titre": "Présidentielle 2027 : une précampagne confuse à l’heure de l’affaiblissement des partis de gouvernement",
+        "resume": "Le RN et LFI bénéficient d’une prime à la clarté dans l’opinion, alors que la multiplication des candidatures au sein de la gauche non mélenchoniste, du centre et de la droite, ainsi que l’absence de plus en plus probable de primaires pour les départ",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/11/presidentielle-2027-une-precampagne-confuse-a-l-heure-de-l-affaiblissement-des-partis-de-gouvernement_6687938_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "00h23",
-        "titre": "Donald Trump menace l’UE de lourdes taxes si l’accord commercial n’est pas appliqué avant le 4 juillet",
-        "resume": "Alors que l’UE peine à finaliser l’accord commercial, Donald Trump brandit la menace de droits de douane renforcés pour faire pression sur Bruxelles.",
-        "url": "https://www.lemonde.fr/international/article/2026/05/07/donald-trump-menace-l-ue-de-lourdes-taxes-si-l-accord-commercial-n-est-pas-applique-avant-le-4-juillet_6686609_3210.html"
+        "heure": "22h21",
+        "titre": "A Reims, Edouard Philippe projette Horizons vers la présidentielle et se pose en candidat rassembleur d’une « France libre »",
+        "resume": "Devant les cadres de son parti réunis à Reims, le candidat, qui a pris ses distances avec le macronisme, a annoncé plusieurs initiatives et défendu les principaux axes de sa campagne, qui sera lancée lors d’un grand meeting, le 5 juillet, à Paris.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/10/a-reims-edouard-philippe-projette-horizons-vers-la-presidentielle-et-se-pose-en-candidat-rassembleur-d-une-france-libre_6687730_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "04h34",
-        "titre": "Débats sur la loi de programmation militaire : l’Assemblée approuve une nouvelle trajectoire des dépenses avec 36 milliards d’euros de plus",
-        "resume": "Les débats s’étirant, les députés n’ont pas achevé l’examen du texte dans les délais prévus. Une nouvelle date pour la reprise des débats doit être prochainement déterminée.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/08/debats-sur-la-loi-de-programmation-militaire-l-assemblee-approuve-une-nouvelle-trajectoire-des-depenses-avec-36-milliards-d-euros-de-plus_6686681_823448.html"
+        "heure": "10h59",
+        "titre": "Présidentielle 2027 : Jean-Luc Mélenchon appelle les partis de gauche à éviter « le suicide anti-LFI »",
+        "resume": "Alors que la gauche peine à s’unir, le leader de La France insoumise mise sur la patience pour bâtir une alliance en vue de la prochaine élection présidentielle.",
+        "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/05/10/presidentielle-2027-jean-luc-melenchon-appelle-les-partis-de-gauche-a-eviter-le-suicide-anti-lfi_6687689_6205049.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "23h33",
-        "titre": "Bruno Retailleau promet de « mettre le paquet sur le nucléaire » pour réduire la facture d’électricité",
-        "resume": "A l’occasion d’un déplacement dans la centrale de Nogent-sur-Seine, le candidat LR à l’élection présidentielle de 2027 a présenté son programme électrique. Il souhaite l’arrêt du subventionnement des énergies éolienne et photovoltaïque.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/07/bruno-retailleau-promet-de-mettre-le-paquet-sur-le-nucleaire-pour-reduire-la-facture-d-electricite_6686607_823448.html"
+        "heure": "08h30",
+        "titre": "Présidentielle 2027 : Edouard Philippe espère court-circuiter la candidature de Bruno Retailleau",
+        "resume": "Le maire du Havre et président d’Horizons nourrit l’espoir de s’imposer comme le candidat naturel de la droite et du centre pour 2027, et d’obtenir le soutien de son ex-parti dès le premier tour.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/10/presidentielle-2027-edouard-philippe-espere-court-circuiter-la-candidature-de-bruno-retailleau_6687679_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h00",
+        "titre": "Priorité nationale, drapeaux décrochés et 1ᵉʳ-Mai amputé : à Liévin, Dany Paiva et le RN impriment leur radicalité",
+        "resume": "Profitant de la désertion socialiste depuis son élection, le 22 mars, le maire compte appliquer à sa commune plusieurs fondamentaux de l’extrême droite. Dany Paiva promet notamment d’appliquer la « priorité nationale » dans l’attribution des logement",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/10/priorite-nationale-drapeaux-decroches-et-1-mai-ampute-a-lievin-dany-paiva-et-le-rn-impriment-leur-radicalite_6687663_823448.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "18h00",
+        "titre": "Plus de 65 milliards d’euros d’échanges commerciaux : pourquoi la France veut renforcer sa relation économique avec l’Afrique face à la Chine",
+        "resume": "Les 11 et 12 mai, un grand sommet Afrique-France « Africa Forward » est programmé à Nairobi, au Kenya. Il réunira dirigeants d’entreprise, investisseurs, membres de la société civile et d’institutions financières. Voici les enjeux.",
+        "url": "https://www.challenges.fr/economie/plus-de-65-milliards-deuros-dechanges-commerciaux-pourquoi-la-france-veut-renforcer-sa-relation-economique-avec-lafrique-face-a-la-chine_643289"
       }
     ]
   },
@@ -281,80 +291,52 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "02h52",
-        "titre": "Les droits de douane temporaires de 10 % imposés en février par Donald Trump à nouveau jugés illégaux",
-        "resume": "Le Tribunal de commerce international a estimé, jeudi, que le gouvernement américain ne peut pas s’appuyer sur une loi datant de 1974 pour imposer sans distinction des surtaxes commerciales.",
-        "url": "https://www.lemonde.fr/international/article/2026/05/08/les-droits-de-douane-temporaires-de-10-imposes-en-fevrier-par-donald-trump-a-nouveau-juges-illegaux_6686614_3210.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "13h40",
-        "titre": "Présidentielle : Gabriel Attal mentionne un éventuel accord avec Edouard Philippe pour éviter un duel LFI-RN au second tour",
-        "resume": "Les deux anciens premiers ministres d’Emmanuel Macron se seraient entendus pour que le moins bien placé d’entre eux renonce à sa candidature dès le début de 2027 en cas de risque d’un second tour entre La France insoumise et le RN.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/07/presidentielle-gabriel-attal-mentionne-un-eventuel-accord-avec-edouard-philippe-pour-eviter-un-duel-lfi-rn-au-second-tour_6686537_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "12h10",
-        "titre": "Elisabeth Borne quitte la direction de Renaissance et critique un « débat public saturé d’idées populistes et simplistes »",
-        "resume": "L’ancienne première ministre reste adhérente du parti présidentiel. Mais, dans un livre publié jeudi, où elle dresse un inventaire du macronisme, elle critique en filigrane plusieurs mesures défendues par Gabriel Attal, signe d’une dérive populiste e",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/07/opposee-a-gabriel-attal-elisabeth-borne-quitte-la-direction-de-renaissance-et-critique-un-debat-public-sature-d-idees-populistes-et-simplistes_6686523_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "17h40",
-        "titre": "Les collectivités à nouveau dans le viseur du gouvernement ? Cette mission sur les ressources financières locales qui ne présage rien de bon",
-        "resume": "Sébastien Lecornu a confié à trois parlementaires une mission sur les ressources financières des collectivités. Jean-René Cazeneuve, Christine Pirès Beaune et Sylvie Vermeillet doivent proposer des efforts « légitimes, équitables et acceptables ».",
-        "url": "https://www.challenges.fr/economie/les-collectivites-a-nouveau-dans-le-viseur-du-gouvernement-cette-mission-sur-les-ressources-financieres-locales-qui-ne-presage-rien-de-bon_643261"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h41",
-        "titre": "Ultra-riches, évasion fisacle... Ce qu'il faut retenir de l'audition de Gabriel Zucman",
-        "resume": "Entendu par la commission d’enquête sur la taxation des plus hauts patrimoines, Gabriel Zucman a souligné une « explosion » de la fortune des milliardaires français, particulièrement marquée parmi les 500 foyers fiscaux les plus riches du pays. L’éco",
-        "url": "https://www.challenges.fr/economie/ultra-riches-evasion-fisacle-ce-quil-faut-retenir-de-laudition-de-gabriel-zucman_643240"
+        "heure": "08h00",
+        "titre": "Les fintech, ces plateformes d’épargne en ligne à l’assaut des gros patrimoines",
+        "resume": "Après avoir fortement diversifié leurs offres, les fintech, qui peinent à gagner en rentabilité, ciblent désormais une clientèle plus haut de gamme.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/11/les-fintech-ces-plateformes-d-epargne-en-ligne-a-l-assaut-des-gros-patrimoines_6687946_1657007.html"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.513,
-        "prev": 2.538,
-        "diff": -0.025,
-        "trend": "down",
-        "date": "2026-05-07"
+        "rate": 2.54,
+        "prev": 2.513,
+        "diff": 0.027,
+        "trend": "up",
+        "date": "2026-05-08"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.639,
-        "prev": 2.654,
-        "diff": -0.016,
-        "trend": "down",
-        "date": "2026-05-07"
+        "rate": 2.656,
+        "prev": 2.639,
+        "diff": 0.018,
+        "trend": "up",
+        "date": "2026-05-08"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.037,
-        "prev": 3.048,
-        "diff": -0.012,
-        "trend": "down",
-        "date": "2026-05-07"
+        "rate": 3.052,
+        "prev": 3.037,
+        "diff": 0.015,
+        "trend": "up",
+        "date": "2026-05-08"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.457,
-        "prev": 3.47,
-        "diff": -0.013,
-        "trend": "down",
-        "date": "2026-05-07"
+        "rate": 3.472,
+        "prev": 3.457,
+        "diff": 0.016,
+        "trend": "up",
+        "date": "2026-05-08"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.475,
-        "prev": 3.486,
-        "diff": -0.012,
-        "trend": "down",
-        "date": "2026-05-07"
+        "rate": 3.492,
+        "prev": 3.475,
+        "diff": 0.017,
+        "trend": "up",
+        "date": "2026-05-08"
       }
     ]
   },
