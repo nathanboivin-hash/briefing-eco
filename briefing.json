@@ -1,30 +1,28 @@
 {
-  "timestamp": "12h22 le 12/05/2026",
-  "alerte": {
-    "titre": "Refus stratégique majeur : eBay rejette l'offre GameStop à 55,5 Mds$",
-    "detail": "Transaction megadeal échouée. Impact sur valorisation gaming/tech retail.",
-    "indices": [
-      1
-    ]
-  },
+  "timestamp": "12h28 le 13/05/2026",
+  "alerte": "Chômage à 8%+ (plus haut depuis 5 ans) + inflation 2,2% YoY + crise aérienne systémique = contexte macro dégradé",
   "synthese": {
-    "resume": "Jour chargé en recompositions géopolitiques et corporates : eBay refuse 55,5 Mds$ pour GameStop, British Steel renationalisé au Royaume-Uni pour l'indépendance stratégique de défense, et Bouchara reprise par AA Investments. En parallèle, les investissements chinois explosent en Espagne tandis que le système des pétrodollars se fragilise face aux tensions moyen-orientales.",
+    "resume": "La France enregistre son taux de chômage le plus élevé depuis 5 ans (>8%), tandis que l'inflation remonte à 2,2% YoY. Le secteur aérien traverse une crise structurelle (annulations massives, modèle low-cost menacé). Les défaillances se multiplient en retail (Minelli ferme définitivement) et CMA CGM domine Marseille. L'IA devient centrale dans les stratégies concurrentielles (OpenAI vs Anthropic vs Mistral).",
     "points": [
       {
-        "titre": "Marchés & Valorisations",
-        "detail": "Refus eBay/GameStop (55,5 Mds$) marque prudence acquéreurs face incertitudes tech-retail. Produits structurés Stellantis posent questions risk management. Fintech en ascension sur patrimoine haut de gamme, reconfigurant landscape bancaire traditionnel."
+        "titre": "Marchés / Conjoncture",
+        "detail": "Chômage 8%+ (pic 5 ans), inflation +2,2% YoY. Crise aérienne majeure : annulations, prix en hausse, modèle low-cost fragilisé. Assureurs sollicités pour absentéisme."
       },
       {
-        "titre": "Géopolitique Économique",
-        "detail": "Pétrodollars fragilisés par tensions Moyen-Orient, remise en cause partenariat Arabie-USA. British Steel nationalisé (défense/acier critique). Investissements chinois accélèrent en Espagne. DeepSeek contourne Nvidia via Huawei. Reconfigurations chaînes approvisionnement stratégiques."
+        "titre": "Macro-économie",
+        "detail": "Inflation +2,2% sur 12 mois. Chômage dépasse 8% (première fois depuis 2021). Salaires fonction publique en hausse mais inquiétude demeure. Dépenses d'arrêts de travail explosent."
       },
       {
-        "titre": "M&A & Restructurations",
-        "detail": "Bouchara reprise (non-disparition linge maison). Signal : Alstom en restructuration imminente d'ampleur. État vend Mont-Blanc + sociétés à Caisse des dépôts. Consolidation secteur textile/retail en cours."
+        "titre": "Entreprises / Stratégie",
+        "detail": "Minelli (retail chaussures) fermeture 30/05 (86 emplois). CMA CGM domine Marseille via diversification terres fermes. Faume transforme seconde main (ba&sh, Lacoste, Longchamp). Anthropic lève massivement vs OpenAI."
       },
       {
-        "titre": "Politique & Régulation",
-        "detail": "Belgique : mobilisations contre réformes De Wever. France : débat IA/droit d'auteur bloqué. Macron ferme « pré carré » africain. Investissements étrangers soulevé questions emploi/modèle économique (Espagne)."
+        "titre": "M&A / Corporate",
+        "detail": "SFR : révision règles UE fusion critique. British Steel nationalisé Royaume-Uni. Rachat mode seconde main (Faume infrastructure). Investissements chinois en Espagne questionnent modèle économique."
+      },
+      {
+        "titre": "Géopolitique / Régulation",
+        "detail": "Douanes Trump : sursis surtaxe 10%. Médiation Chine intensifiée. UK : aciers stratégiques (défense) nationalisés. DeepSeek (IA chinoise) abandonne Nvidia pour Huawei."
       }
     ]
   },
@@ -32,9 +30,9 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 027",
-        "change": "+0.72%",
-        "dir": "up"
+        "value": "8 025",
+        "change": "+0.00%",
+        "dir": "flat"
       },
       {
         "label": "Eurostoxx 50",
@@ -44,19 +42,19 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 429",
-        "change": "+0.59%",
+        "value": "7 410",
+        "change": "+0.26%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "26 359",
-        "change": "+0.86%",
+        "value": "26 190",
+        "change": "+0.40%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1788",
+        "value": "1.1742",
         "change": "+0.03%",
         "dir": "flat"
       },
@@ -68,8 +66,8 @@
       },
       {
         "label": "Or",
-        "value": "4 773 $",
-        "change": "+0.74%",
+        "value": "4 727 $",
+        "change": "+0.31%",
         "dir": "up"
       },
       {
@@ -88,43 +86,57 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "15h01",
-        "titre": "eBay refuse l’offre de rachat de GameStop à 55,5 milliards de dollars",
-        "resume": "Le conseil d’administration de la plateforme de commerce en ligne a jugé que cette offre, non sollicitée, n’était ni crédible ni attractive et a fait part de son « incertitude quant à son mode de financement ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/12/ebay-refuse-l-offre-de-rachat-de-gamestop-a-55-5-milliards-de-dollars_6688240_3234.html"
+        "heure": "09h47",
+        "titre": "Le chômage dépasse 8 % en France, une première depuis 2021",
+        "resume": "Si le taux d’emploi approche de son niveau historique, celui du chômage continue d’augmenter de 0,2 point au premier trimestre, pour atteindre 8,1 % de la population active, selon les chiffres de l’Insee, publiés mercredi 13 mai.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/13/en-france-le-chomage-franchit-la-barre-des-8-une-premiere-depuis-2021_6688630_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Des produits structurés liés à l’action Stellantis risquent de faire perdre de l’argent aux épargnants",
-        "resume": "Entre 2 et 2,5 milliards d’euros auraient été investis dans ces placements entre 2023 et 2024, et 80 % de ceux en cours sont en zone rouge ou s’en approchent dangereusement.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/12/des-produits-structures-lies-a-l-action-stellantis-risquent-de-faire-perdre-de-l-argent-aux-epargnants_6688191_1657007.html"
+        "heure": "11h53",
+        "titre": "L’inflation en hausse de 2,2 % sur un an en France, selon l’Insee",
+        "resume": "La montée des prix à la consommation s’explique principalement par l’augmentation du coût de l’énergie, notamment liée à la flambée du pétrole. Conséquence mécanique, le smic va être majoré de 2,4 % le 1ᵉʳ juin.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/13/l-inflation-en-hausse-de-2-2-sur-un-an-selon-l-insee_6688647_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "16h00",
-        "titre": "Les ventes d’art de New York devraient plébisciter les valeurs sûres",
-        "resume": "Les enchères qui s’ouvrent lundi 11 mai devraient s’inscrire dans la même tendance que celle observée en novembre 2025 : les jeunes artistes ont moins la cote.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/11/les-ventes-d-art-de-new-york-devraient-plebisciter-les-valeurs-sures_6688113_1657007.html"
+        "heure": "08h10",
+        "titre": "Comprendre la crise inédite que traverse le transport aérien : vols annulés, prix des billets en hausse et modèle low-cost menacé",
+        "resume": "Depuis le début de la guerre en Iran, les chocs se sont enchaînés : l’aviation commerciale traverse une tempête qui fragilise les compagnies aériennes.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/13/la-guerre-au-moyen-orient-plonge-le-transport-aerien-dans-une-crise-inedite_6688623_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "19h00",
-        "titre": "Sa valeur boursière ne vaut qu’un septième de celle de L’Oréal : comment Estée Lauder tente désespérément de revenir dans la course",
-        "resume": "Pour la première fois depuis quatre ans, le géant américain de la beauté respire avec une légère hausse du chiffre d’affaires. Depuis la nomination de Stéphane de la Faverie, la stratégie du groupe Estée Lauder évolue avec une présence renforcée sur ",
-        "url": "https://www.challenges.fr/entreprise/sa-valeur-boursiere-ne-vaut-quun-septieme-de-celle-de-loreal-comment-estee-lauder-tente-desesperement-de-revenir-dans-la-course_643326"
+        "heure": "14h27",
+        "titre": "Anxiété des ménages, hausse des coûts, remontée des taux… le marché du logement neuf rattrapé par la guerre au Moyen-Orient",
+        "resume": "Hausse des coûts de construction, remontée des taux d’intérêt… Les effets de la guerre au Moyen-Orient viennent ternir les perspectives de reprise du marché du logement neuf. Et ce, malgré les récents efforts politiques.",
+        "url": "https://www.challenges.fr/immobilier/anxiete-des-menages-hausse-des-couts-remontee-des-taux-le-marche-du-logement-neuf-rattrape-par-la-guerre-au-moyen-orient_643345"
       },
       {
         "source": "Challenges",
-        "heure": "07h45",
-        "titre": "Immobilier : Le taux de propriétaires chute à 57 %. Un déclin historique qui fragilise le rempart des Français face à la crise des retraites.",
-        "resume": "Face au décalage « pathologique » entre revenus et prix de l’immobilier, l’accession à la propriété s’effondre au profit du locatif. Pourtant, sans la possession de leur toit, comment les Français feront-ils face à des retraites de plus en plus préca",
-        "url": "https://www.challenges.fr/immobilier/immobilier-le-taux-de-proprietaires-chute-a-57-un-declin-historique-qui-fragilise-le-rempart-des-francais-face-a-la-crise-des-retraites_643295"
+        "heure": "12h15",
+        "titre": "Le chômage atteint son plus haut niveau depuis cinq ans, un signal négatif de plus dans un contexte économique déjà dégradé",
+        "resume": "L’Insee a publié ce mercredi 13 mai les chiffres du taux de chômage au premier trimestre 2026. En hausse, il franchit la barre symbolique des 8 % et retrouve son plus haut niveau depuis 2021 dans un contexte économique déjà dégradé.",
+        "url": "https://www.challenges.fr/economie/le-chomage-atteint-son-plus-haut-niveau-depuis-cinq-ans-un-signal-negatif-de-plus-dans-un-contexte-economique-deja-degrade_643382"
       }
     ]
   },
   "entreprises": {
     "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h12",
+        "titre": "Le chausseur Minelli annonce la fermeture définitive de ses boutiques le 30 mai",
+        "resume": "Les candidats au rachat de l’enseigne avaient jusqu’au 11 mai pour déposer leur dossier. Mais la demi-douzaine d’offres rendues publiques mardi sont pour la plupart très partielles, ne prévoyant la reprise que d’un ou deux des 21 points de vente de M",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/13/minelli-annonce-la-fermeture-definitive-de-ses-boutiques-de-chaussures-le-30-mai_6688660_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h30",
+        "titre": "Comment Rodolphe Saadé, sa famille et CMA CGM dominent la ville de Marseille",
+        "resume": "« CMA CGM, une entreprise au cœur du pouvoir » (3/4). Installé dans la cité phocéenne, le géant du transport maritime y joue un rôle majeur, mais se fait moins visible depuis la polémique sur les superprofits.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/13/comment-la-famille-saade-et-cma-cgm-dominent-marseille_6688624_3234.html"
+      },
       {
         "source": "Le Monde Éco",
         "heure": "07h00",
@@ -133,32 +145,18 @@
         "url": "https://www.lemonde.fr/economie/article/2026/05/12/cma-cgm-ce-geant-du-maritime-qui-a-profite-de-sa-fortune-pour-etendre-son-empire-sur-la-terre-ferme_6688178_3234.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "21h19",
-        "titre": "Reprise par AA Investments, l’enseigne de linge de maison Bouchara ne s’éteindra pas",
-        "resume": "Le tribunal des activités économiques de Paris a retenu, lundi 11 mai, l’offre de la société de gestion d’actifs basée à Hongkong. Si le repreneur garde près de la moitié des 52 boutiques de l’enseigne en redressement judiciaire, seuls 184 de ses 542",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/11/reprise-par-aa-investments-l-enseigne-de-linge-de-maison-bouchara-ne-s-eteindra-pas_6688152_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "14h30",
-        "titre": "« Chez Alstom, tous les ingrédients sont réunis pour une restructuration d’ampleur dans quelques mois »",
-        "resume": "Le constructeur français du TGV est fragilisé par un système industriel inefficace, source de retards dans les livraisons, de surcoûts financiers et de consommation de trésorerie excessive, explique, dans sa chronique, Fabrice Gliszczynski, journalis",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/11/chez-alstom-tous-les-ingredients-sont-reunis-pour-une-restructuration-d-ampleur-dans-quelques-mois_6688111_3232.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "07h30",
-        "titre": "Symbio, la pépite française de l’hydrogène, a brûlé 350 millions d’euros d’aides publiques en deux ans avant de licencier 70 % des salariés",
-        "resume": "La société spécialisée dans la fabrication de piles à hydrogène a notamment perçu 312 millions d’euros sur les fonds du programme européen PIIEC.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/11/symbio-la-pepite-francaise-de-l-hydrogene-a-brule-350-millions-d-euros-d-aides-publiques-en-deux-ans-avant-de-licencier-70-des-salaries_6687939_3234.html"
+        "source": "Challenges",
+        "heure": "10h00",
+        "titre": "Une levée de fonds qui pourrait faire exploser sa valorisation : Anthropic, l’ogre financier de l’IA qui menace frontalement OpenAI",
+        "resume": "La start-up d’IA américaine Anthropic est en discussion avec des investisseurs pour lever entre 30 et 50 milliards de dollars. Si les pourparlers aboutissent, sa valorisation pourrait atteindre jusqu’à 950 milliards de dollars, dépassant celle de sa ",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/une-levee-de-fonds-qui-pourrait-faire-exploser-sa-valorisation-anthropic-logre-financier-de-lia-qui-menace-frontalement-openai_643376"
       },
       {
         "source": "Challenges",
-        "heure": "08h00",
-        "titre": "« On va maintenant y aller piano » : malgré les désillusions du secteur, Lhyfe continue de croire à l’avenir de l’hydrogène vert",
-        "resume": "Malgré la crise, Matthieu Guesné, le fondateur de l’entreprise spécialisée dans la molécule décarbonée, reste optimiste quant aux perspectives de son activité, notamment dans le secteur de la mobilité. Rencontre.",
-        "url": "https://www.challenges.fr/entreprise/on-va-maintenant-y-aller-piano-malgre-les-desillusions-du-secteur-lhyfe-continue-de-croire-a-lavenir-de-lhydrogene-vert_643234"
+        "heure": "07h30",
+        "titre": "Le créneau de Faume ? Convertir des marques comme ba&sh Lacoste et Longchamp à la mode de seconde main, un marché mondial de 350 milliards",
+        "resume": "Aymeric Déchin, diplômé de l’Esdes, a cofondé en 2020 son système clés en main de vente de vêtements d’occasion. Une solution qui sera déployée aux Etats-Unis au deuxième semestre 2026. Il est l’invité du Club Entrepreneurs Challenges – Montefiore In",
+        "url": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/le-creneau-de-faume-convertir-des-marques-comme-bash-lacoste-et-longchamp-a-la-mode-de-seconde-main-un-marche-mondial-de-350-milliards_643302"
       }
     ]
   },
@@ -166,75 +164,11 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "15h01",
-        "titre": "eBay refuse l’offre de rachat de GameStop à 55,5 milliards de dollars",
-        "resume": "Le conseil d’administration de la plateforme de commerce en ligne a jugé que cette offre, non sollicitée, n’était ni crédible ni attractive et a fait part de son « incertitude quant à son mode de financement ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/12/ebay-refuse-l-offre-de-rachat-de-gamestop-a-55-5-milliards-de-dollars_6688240_3234.html"
+        "heure": "01h49",
+        "titre": "Pour le rachat de SFR, la révision des règles européennes sur les fusions sera déterminante",
+        "resume": "Orange, Bouygues Telecom et Free tablent sur l’assouplissement de la doctrine de la Commission européenne en matière de concentrations pour concrétiser leur rêve de faire disparaître SFR.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/12/pour-le-rachat-de-sfr-la-revision-des-regles-europeennes-sur-les-fusions-sera-determinante_6688301_3234.html"
       },
-      {
-        "source": "Le Monde Éco",
-        "heure": "22h02",
-        "titre": "L’Etat vend le tunnel du Mont-Blanc et deux autres sociétés à la Caisse des dépôts",
-        "resume": "L’Agence des participations de l’Etat se déleste, pour 2,5 milliards d’euros, de trois participations jugées moins stratégiques qu’avant dans le tunnel du Mont-Blanc, celui du Fréjus et dans la Société pour le logement intermédiaire.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/11/l-etat-vend-le-tunnel-du-mont-blanc-et-deux-autres-societes-a-la-caisse-des-depots_6688158_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "21h19",
-        "titre": "Reprise par AA Investments, l’enseigne de linge de maison Bouchara ne s’éteindra pas",
-        "resume": "Le tribunal des activités économiques de Paris a retenu, lundi 11 mai, l’offre de la société de gestion d’actifs basée à Hongkong. Si le repreneur garde près de la moitié des 52 boutiques de l’enseigne en redressement judiciaire, seuls 184 de ses 542",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/11/reprise-par-aa-investments-l-enseigne-de-linge-de-maison-bouchara-ne-s-eteindra-pas_6688152_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h08",
-        "titre": "Duel décisif entre Thales-ArianeGroup et Safran-MBDA dans les lance-roquettes : c’est la lutte finale pour le futur Himars made in France",
-        "resume": "Trois semaines après le premier tir de la roquette Thundart du duo Safran-MBDA, le tandem Thales-ArianeGroup a réussi le 5 mai le premier tir de sa roquette FLPT 150. La DGA doit désormais trancher entre les deux équipes, pour une première livraison ",
-        "url": "https://www.challenges.fr/entreprise/defense/duel-decisif-entre-thales-arianegroup-et-safran-mbda-dans-les-lance-roquettes-cest-la-lutte-finale-pour-le-futur-himars-made-in-france_643339"
-      }
-    ]
-  },
-  "macro": {
-    "articles": [
-      {
-        "source": "Le Monde Éco",
-        "heure": "12h00",
-        "titre": "La guerre au Moyen-Orient ébranle le système des pétrodollars, qui lie l’Arabie saoudite aux Etats-Unis",
-        "resume": "Lors d’un accord secret avec Washington en 1974, l’Arabie saoudite a accepté de vendre son pétrole en dollars, en échange de la protection militaire américaine. Le blocage du détroit d’Ormuz, et l’importance de la Chine comme acheteur, fragilise cet ",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/12/la-guerre-au-moyen-orient-ebranle-le-systeme-des-petrodollars-qui-lie-l-arabie-saoudite-aux-etats-unis_6688216_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "10h00",
-        "titre": "Pourquoi les dépenses d’arrêts de travail explosent",
-        "resume": "Le manque d’investissement dans la prévention et la dégradation des conditions de travail ne doivent pas être oubliés dans les débats sur la hausse de l’absentéisme, explique notamment l’économiste Thomas Breda dans sa chronique.",
-        "url": "https://www.lemonde.fr/emploi/article/2026/05/12/pourquoi-les-depenses-d-arrets-de-travail-explosent_6688201_1698637.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h15",
-        "titre": "En Bretagne, les saisonniers refusent de se faire marcher sur les pieds : « On dit que les jeunes ne veulent plus travailler, mais c’est surtout parce qu’on est mal payés »",
-        "resume": "Rémunération, jours de repos, logement, ambiance au sein de l’équipe… dans les secteurs touristiques de la région, les travailleurs saisonniers exigent désormais de meilleures conditions de travail.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/12/en-bretagne-les-saisonniers-refusent-de-se-faire-marcher-sur-les-pieds-on-entend-dire-que-les-jeunes-ne-veulent-plus-travailler-mais-c-est-surtout-parce-qu-on-est-mal-payes_6688195_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "18h55",
-        "titre": "Après avoir franchi le détroit d’Ormuz, une première cargaison de GNL du Qatar a été livrée au Pakistan",
-        "resume": "Le méthanier « Al Kharaitiyat » est arrivé lundi au Pakistan, pays qui dépend presque exclusivement du gaz qatari pour ses approvisionnements. Une première depuis le déclenchement de la guerre par les Etats-Unis et Israël, fin février, contre l’Iran.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/11/apres-avoir-franchi-le-detroit-d-ormuz-une-premiere-cargaison-de-gnl-du-qatar-a-ete-livree-au-pakistan_6688130_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "19h53",
-        "titre": "Le Parlement entérine l’adoption d’un texte de lutte contre les fraudes sociales et fiscales, 1,5 milliard d’euros attendu pour l’Etat",
-        "resume": "Le projet de loi doit permettre de mieux détecter les fraudes, de renforcer les sanctions et de donner davantage de moyens de recouvrement aux organismes publics.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/11/le-parlement-enterine-l-adoption-d-un-texte-de-lutte-contre-les-fraudes-sociales-et-fiscales-1-5-milliard-d-euros-attendu-pour-l-etat_6688140_823448.html"
-      }
-    ]
-  },
-  "politique": {
-    "articles": [
       {
         "source": "Le Monde Éco",
         "heure": "16h00",
@@ -250,25 +184,96 @@
         "url": "https://www.lemonde.fr/economie/article/2026/05/12/british-steel-nationalise-dans-un-monde-fragmente-et-hostile-pas-question-pour-le-royaume-uni-d-etre-dependant-des-importations-d-aciers-essentiels-notamment-pour-la-defense_6688226_3234.html"
       },
       {
+        "source": "Challenges",
+        "heure": "07h00",
+        "titre": "Faume permet aux marques de mode de lancer leur infrastructure de seconde main",
+        "resume": "Aymeric Déchin, diplômé de l’Esdes, a cofondé en 2020 son système clés en main de vente de vêtements d’occasion. Une solution qui sera déployée aux Etats-Unis au deuxième semestre 2026. Il est l'invité du Club Entrepreneurs Challenges - Montefiore In",
+        "url": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/faume-permet-aux-marques-de-mode-de-lancer-leur-infrastructure-de-seconde-main_643372"
+      },
+      {
+        "source": "Challenges",
+        "heure": "11h08",
+        "titre": "Duel décisif entre Thales-ArianeGroup et Safran-MBDA dans les lance-roquettes : c’est la lutte finale pour le futur Himars made in France",
+        "resume": "Trois semaines après le premier tir de la roquette Thundart du duo Safran-MBDA, le tandem Thales-ArianeGroup a réussi le 5 mai le premier tir de sa roquette FLPT 150. La DGA doit désormais trancher entre les deux équipes, pour une première livraison ",
+        "url": "https://www.challenges.fr/entreprise/defense/duel-decisif-entre-thales-arianegroup-et-safran-mbda-dans-les-lance-roquettes-cest-la-lutte-finale-pour-le-futur-himars-made-in-france_643339"
+      }
+    ]
+  },
+  "macro": {
+    "articles": [
+      {
         "source": "Le Monde Éco",
-        "heure": "18h35",
-        "titre": "Les médias de Bolloré cherchent une « privatisation rampante » de France Télévisions, accuse un de ses dirigeants",
-        "resume": "Selon le numéro deux de France Télévisions, Stéphane Sitbon-Gomez, cette campagne remonte à l’arrêt de la chaîne C8, qui appartenait au groupe Canal+.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/11/les-medias-de-bollore-cherchent-une-privatisation-rampante-de-france-televisions-accuse-un-de-ses-dirigeants_6688128_3234.html"
+        "heure": "09h47",
+        "titre": "Le chômage dépasse 8 % en France, une première depuis 2021",
+        "resume": "Si le taux d’emploi approche de son niveau historique, celui du chômage continue d’augmenter de 0,2 point au premier trimestre, pour atteindre 8,1 % de la population active, selon les chiffres de l’Insee, publiés mercredi 13 mai.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/13/en-france-le-chomage-franchit-la-barre-des-8-une-premiere-depuis-2021_6688630_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "11h21",
-        "titre": "Festival de Cannes : 600 professionnels du cinéma appellent à résister à « l’emprise » de Vincent Bolloré",
-        "resume": "Dans une tribune publiée, lundi, par le journal « Libération », des professionnels du milieu, parmi lesquels Swann Arlaud, Juliette Binoche, Damien Bonnard et Adèle Haenel, dénoncent le pouvoir du milliardaire d’extrême droite, actionnaire de référen",
-        "url": "https://www.lemonde.fr/culture/article/2026/05/12/festival-de-cannes-600-professionnels-du-cinema-appellent-a-resister-a-l-emprise-de-vincent-bollore_6688208_3246.html"
+        "heure": "11h53",
+        "titre": "L’inflation en hausse de 2,2 % sur un an en France, selon l’Insee",
+        "resume": "La montée des prix à la consommation s’explique principalement par l’augmentation du coût de l’énergie, notamment liée à la flambée du pétrole. Conséquence mécanique, le smic va être majoré de 2,4 % le 1ᵉʳ juin.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/13/l-inflation-en-hausse-de-2-2-sur-un-an-selon-l-insee_6688647_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h30",
-        "titre": "A Nairobi, Emmanuel Macron clôt une décennie de tempêtes dans les relations entre la France et l’Afrique",
-        "resume": "Arrivé au pouvoir en promettant de refonder la relation entre la France et ses anciennes colonies, Emmanuel Macron a dû affronter une succession de crises, en particulier au Sahel. Dans la partie anglophone du continent, Paris peine à se faire une pl",
-        "url": "https://www.lemonde.fr/international/article/2026/05/11/a-nairobi-emmanuel-macron-clot-une-decennie-de-tempetes-dans-les-relations-entre-la-france-et-l-afrique_6687955_3210.html"
+        "heure": "10h00",
+        "titre": "Pourquoi les dépenses d’arrêts de travail explosent",
+        "resume": "Le manque d’investissement dans la prévention et la dégradation des conditions de travail ne doivent pas être oubliés dans les débats sur la hausse de l’absentéisme, explique notamment l’économiste Thomas Breda dans sa chronique.",
+        "url": "https://www.lemonde.fr/emploi/article/2026/05/12/pourquoi-les-depenses-d-arrets-de-travail-explosent_6688201_1698637.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h30",
+        "titre": "« L’immigration renforce l’incitation à la formation et l’arrêt de l’immigration réduit cette incitation »",
+        "resume": "La fermeture des frontières n’améliore pas la situation des travailleurs les plus modestes, constate l’économiste Pierre-Cyrille Hautcœur, dans sa chronique au « Monde », en s’appuyant sur l’histoire migratoire des Etats-Unis.",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/13/l-immigration-renforce-l-incitation-a-la-formation-et-l-arret-de-l-immigration-reduit-cette-incitation_6688615_3232.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "10h00",
+        "titre": "Fonction publique : les salaires repartent à la hausse mais l’inquiétude demeure",
+        "resume": "Après deux années de baisse, le salaire net moyen des agents publics était en hausse de 1,7 % en 2024. Un semblant d’embellie toujours jugé insuffisant par les syndicats qui alertent sur l’« urgence » de revaloriser les rémunération face à l’inflatio",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/13/fonction-publique-les-salaires-repartent-a-la-hausse-mais-l-inquietude-demeure_6688632_823448.html"
+      }
+    ]
+  },
+  "politique": {
+    "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h00",
+        "titre": "Emmanuel Macron, dont le mandat se termine dans exactement un an, entretient le mystère sur l’après-2027",
+        "resume": "Le chef de l’Etat, qui quittera ses fonctions le 13 mai 2027, entend laisser l’image d’un président actif jusqu’à la dernière minute. Il a pu regagner, sur la scène internationale, une partie du crédit perdu sur la scène intérieure.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/13/emmanuel-macron-assure-de-terminer-son-mandat-entretient-le-mystere-sur-l-apres-2027_6688574_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "14h00",
+        "titre": "Présidentielle 2027 : dans le bloc central, le bilan d’Emmanuel Macron très critiqué",
+        "resume": "Dans des livres parus récemment, plusieurs anciens ministres font un constat d’échec d’une partie de l’action du président, en particulier sa pratique du pouvoir. Gabriel Attal et Edouard Philippe mettent aussi à distance cet héritage.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/13/presidentielle-2027-dans-le-bloc-central-le-bilan-d-emmanuel-macron-tres-critique_6688672_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h19",
+        "titre": "Marine Le Pen affirme que le départ à la retraite à 62 ans « reste d’actualité » dans le programme du RN",
+        "resume": "L’ancienne présidente du parti d’extrême droite a affirmé, mercredi matin sur RTL, souhaiter inciter les jeunes à rentrer plus tôt sur le marché du travail.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/13/marine-le-pen-affirme-que-le-depart-a-la-retraite-a-62-ans-reste-d-actualite-dans-le-programme-du-rn_6688661_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "20h22",
+        "titre": "Fin de vie : le Sénat rejette de nouveau l’aide à mourir, Bruno Retailleau demande un référendum",
+        "resume": "Incapables de trouver un terrain d’entente, les sénateurs ont préféré rejeter en bloc, mardi, la proposition de loi portée par Olivier Falorni. Le dernier mot pourrait revenir à l’Assemblée nationale, où la réforme bénéficie de la majorité.",
+        "url": "https://www.lemonde.fr/societe/article/2026/05/12/fin-de-vie-le-senat-rejette-de-nouveau-l-aide-a-mourir-bruno-retailleau-demande-un-referendum_6688276_3224.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "16h00",
+        "titre": "En Espagne, l’essor des investissements chinois soulève des questions sur l’emploi et le modèle économique à venir du pays",
+        "resume": "De Saragosse à Barcelone, les projets portés par des groupes chinois se multiplient dans les secteurs des batteries, de l’automobile et des énergies renouvelables. Madrid y voit un levier de réindustrialisation, mais la question du transfert de techn",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/12/en-espagne-l-essor-des-investissements-chinois-souleve-des-questions-sur-l-emploi-et-le-modele-economique-a-venir-du-pays_6688243_3234.html"
       }
     ]
   },
@@ -276,10 +281,17 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Les fintech, ces plateformes d’épargne en ligne à l’assaut des gros patrimoines",
-        "resume": "Après avoir fortement diversifié leurs offres, les fintech, qui peinent à gagner en rentabilité, ciblent désormais une clientèle plus haut de gamme.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/11/les-fintech-ces-plateformes-d-epargne-en-ligne-a-l-assaut-des-gros-patrimoines_6687946_1657007.html"
+        "heure": "10h21",
+        "titre": "L’Europe muscle son arsenal pour lutter contre les pénuries de médicaments",
+        "resume": "L’objectif est de pallier les fragilités identifiées au sein des chaînes d’approvisionnement des plus de 270 médicaments listés comme essentiels : antibiotiques, insuline, vaccins…",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/13/l-europe-muscle-son-arsenal-pour-lutter-contre-les-penuries-de-medicaments_6688636_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h45",
+        "titre": "Guerre des devises : les lignes de « swap », cet outil que Washington veut dégainer pour préserver « la suprématie du dollar » face au yuan chinois",
+        "resume": "Craignant de voir le dollar perdre son statut de monnaie de réserve mondiale, l’administration Trump envisage d’étendre ses échanges de devises, aussi appelés lignes de « swap », avec des pays du Golfe et d’Asie. Une manière de contrer l’usage croiss",
+        "url": "https://www.challenges.fr/economie/guerre-des-devises-les-lignes-de-swap-cet-outil-que-washington-veut-degainer-pour-preserver-la-suprematie-du-dollar-face-au-yuan-chinois_643363"
       },
       {
         "source": "Challenges",
@@ -287,48 +299,62 @@
         "titre": "Malgré la crise économique et le Brexit, la City de Londres reste l’incontestable capitale financière de l’Europe",
         "resume": "Alors que les investisseurs s’inquiètent d’une surexposition aux Etats-Unis, le gouvernement britannique devrait tirer parti de cet atout qui génère des bénéfices bien au-delà du seul capital.",
         "url": "https://www.challenges.fr/monde/malgre-la-crise-economique-et-le-brexit-la-city-de-londres-reste-lincontestable-capitale-financiere-de-leurope_643310"
+      },
+      {
+        "source": "Challenges",
+        "heure": "12h07",
+        "titre": "Hausse du Smic, impact sur les dépenses publiques… Comment Sébastien Lecornu veut éviter le piège de l’inflation",
+        "resume": "Alors que la hausse des prix dépasse 2 % en avril, le gouvernement doit recalibrer ses aides aux ménages. Avec un risque de dérapage des finances publiques.",
+        "url": "https://www.challenges.fr/economie/hausse-du-smic-impact-sur-les-depenses-publiques-comment-sebastien-lecornu-veut-eviter-le-piege-de-linflation_643381"
+      },
+      {
+        "source": "Challenges",
+        "heure": "14h27",
+        "titre": "Anxiété des ménages, hausse des coûts, remontée des taux… le marché du logement neuf rattrapé par la guerre au Moyen-Orient",
+        "resume": "Hausse des coûts de construction, remontée des taux d’intérêt… Les effets de la guerre au Moyen-Orient viennent ternir les perspectives de reprise du marché du logement neuf. Et ce, malgré les récents efforts politiques.",
+        "url": "https://www.challenges.fr/immobilier/anxiete-des-menages-hausse-des-couts-remontee-des-taux-le-marche-du-logement-neuf-rattrape-par-la-guerre-au-moyen-orient_643345"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.592,
-        "prev": 2.54,
-        "diff": 0.052,
+        "rate": 2.658,
+        "prev": 2.592,
+        "diff": 0.066,
         "trend": "up",
-        "date": "2026-05-11"
+        "date": "2026-05-12"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.705,
-        "prev": 2.656,
-        "diff": 0.049,
+        "rate": 2.779,
+        "prev": 2.705,
+        "diff": 0.074,
         "trend": "up",
-        "date": "2026-05-11"
+        "date": "2026-05-12"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.08,
-        "prev": 3.052,
-        "diff": 0.027,
+        "rate": 3.15,
+        "prev": 3.08,
+        "diff": 0.07,
         "trend": "up",
-        "date": "2026-05-11"
+        "date": "2026-05-12"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.497,
-        "prev": 3.472,
-        "diff": 0.025,
+        "rate": 3.563,
+        "prev": 3.497,
+        "diff": 0.065,
         "trend": "up",
-        "date": "2026-05-11"
+        "date": "2026-05-12"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.52,
-        "prev": 3.492,
-        "diff": 0.028,
+        "rate": 3.575,
+        "prev": 3.52,
+        "diff": 0.056,
         "trend": "up",
-        "date": "2026-05-11"
+        "date": "2026-05-12"
       }
     ]
   },
