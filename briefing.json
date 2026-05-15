@@ -1,27 +1,27 @@
 {
-  "timestamp": "11h28 le 14/05/2026",
+  "timestamp": "12h14 le 15/05/2026",
   "alerte": {
-    "titre": "Dégradation du marché du travail français",
-    "detail": "Le chômage dépasse 8% en France (première fois depuis 2021). Nestlé supprime 2 000 postes en Europe. Minelli ferme définitivement (86 emplois). Kylotonn menacée (84 emplois). Signal négatif majeur en contexte économique dégradé."
+    "titre": "SFR : prolongation critique des négociations",
+    "detail": "Patrick Drahi étend jusqu'au 5 juin les pourparlers exclusifs avec Bouygues Telecom, Free et Orange. Complexité accrue du rachat, enjeu majeur de consolidation télécom français."
   },
   "synthese": {
-    "resume": "Le marché du travail français s'enfonce avec un chômage à 8,0% (plus haut depuis 2021), tandis que Nestlé annonce 2 000 suppressions en Europe et Minelli ferme ses portes le 30 mai. Dans l'édition, crise chez Grasset avec appels à réformes d'envergure. Sur le plan médiatique, Rodolphe Saadé bâtit un empire via CMA Média, visant ASO et M6. La hausse du Smic relance le débat sur les allègements de charges, avec un rendement décevant de la taxe sur les petits colis (2,3M€/mois vs prévisions).",
+    "resume": "Les négociations autour du rachat de SFR par Altice France se complexifient et s'éternisent jusqu'au 5 juin, illustrant les défis de consolidation dans le secteur télécom. LVMH cède Marc Jacobs pour 1 Md$ à WHP Global et G-III, marquant une évolution stratégique du luxe. La Belgique doute du projet de nationalisation des centrales nucléaires d'Engie, remettant en question la politique énergétique européenne. Les PME françaises restent sous-financées en innovation malgré une croissance économique stable.",
     "points": [
       {
-        "titre": "Marchés & Taux",
-        "detail": "Pas d'indicateur boursier majeur. Fed : nomination de Kevin Warsh confirmée par le Sénat US. Inde double les taxes sur l'or pour défendre la roupie. Spread crédit exposé via risque entreprises européennes."
+        "titre": "M&A",
+        "detail": "SFR prolonge négociations exclusives jusqu'au 5 juin (3 candidats). LVMH vend Marc Jacobs à 1 Md$ (WHP Global + G-III). Transaction majeure dans le luxe-retail."
       },
       {
-        "titre": "Macro",
-        "detail": "Chômage France à 8,0% (premier depuis 2021, index 38). Hausse du Smic relance débat allègements charges (8). Rendement taxe petits colis: 2,3M€/mois, loin des prévisions (15). Inégalités s'aggravent en France (59)."
+        "titre": "Télécoms & Infra",
+        "detail": "Prysmian accélère à Montereau-Fault-Yonne sur câbles électriques. SFR en jeu stratégique de consolidation française."
       },
       {
-        "titre": "Entreprises / Stratégie",
-        "detail": "Nestlé: 2 000 suppressions en Europe (14). Alstom: grand plan transformation, 'tiger teams' type Safran (16, 60). Minelli ferme définitivement 30 mai, 86 emplois (20, 62). Kylotonn (Nacon): 84 emplois menacés (5). Gibert pivote sur livres d'occasion (18). Crise Grasset (6)."
+        "titre": "Énergie & Politique",
+        "detail": "Belgique recule sur nationalisation nucléaire Engie. Tensions géopolitiques (Trump-Chine) impactent prix pétrole et stratégies énergétiques."
       },
       {
-        "titre": "Politique & Régulation",
-        "detail": "Commission EU impose aux opérateurs trains vendre billets concurrents (12). Amazon perd recours Conseil d'État sur frais port livres (11). Amélie Montchalin: recours nomination Cour des comptes jugé irrecevable (13). Présidentielle 2027: incertitude droite, Gabriel Attal franchit étape Renaissance (30, 41)."
+        "titre": "Financement PME",
+        "detail": "Innovation française pénalisée par manque de financement PME. Problématique structurelle de l'économie française."
       }
     ]
   },
@@ -29,8 +29,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 076",
-        "change": "+0.16%",
+        "value": "8 044",
+        "change": "+0.51%",
         "dir": "up"
       },
       {
@@ -41,21 +41,21 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 460",
-        "change": "+0.69%",
+        "value": "7 517",
+        "change": "+0.84%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "26 474",
-        "change": "+1.25%",
+        "value": "26 707",
+        "change": "+1.07%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1722",
-        "change": "+0.05%",
-        "dir": "up"
+        "value": "1.1671",
+        "change": "+0.01%",
+        "dir": "flat"
       },
       {
         "label": "Brent",
@@ -65,8 +65,8 @@
       },
       {
         "label": "Or",
-        "value": "4 719 $",
-        "change": "+0.57%",
+        "value": "4 665 $",
+        "change": "+0.28%",
         "dir": "up"
       },
       {
@@ -85,38 +85,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "22h58",
-        "titre": "Le Sénat américain approuve la nomination du candidat de Donald Trump, Kevin Warsh, à la tête de la Fed",
-        "resume": "M. Warsh n’a plus qu’à prêter serment avant de prendre définitivement ses fonctions pour un mandat de quatre ans à la tête de la puissante banque centrale américaine.",
-        "url": "https://www.lemonde.fr/international/article/2026/05/13/le-senat-americain-approuve-la-nomination-du-candidat-de-donald-trump-kevin-warsh-a-la-tete-de-la-fed_6688750_3210.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "20h36",
-        "titre": "L’Inde double les taxes sur l’importation d’or pour enrayer la chute de la roupie",
-        "resume": "L’Inde fait passer ses taxes sur les importations d’or et d’argent de 6 % à 15 % environ pour ralentir la dévaluation de sa monnaie, la roupie, et la baisse de ses réserves de change.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/l-inde-double-les-taxes-sur-l-importation-d-or-pour-enrayer-la-chute-de-la-roupie_6688735_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "19h51",
-        "titre": "Le Conseil d’Etat rejette le recours d’Amazon contre les frais de port obligatoires pour les expéditions de livres",
-        "resume": "Depuis un arrêté de 2023, toutes les expéditions de livres neufs à un particulier en France s’accompagnent obligatoirement de frais de port de 3 euros minimum. Un arrêté que le Conseil d’Etat a jugé, mercredi, « conforme au droit européen ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/le-conseil-d-etat-rejette-le-recours-d-amazon-contre-les-frais-de-port-obligatoires-pour-les-expeditions-de-livres_6688725_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "19h32",
-        "titre": "La Commission européenne veut imposer aux opérateurs de trains historiques de vendre les billets de leurs concurrents",
-        "resume": "Bruxelles propose un nouveau cadre réglementaire pour simplifier les trajets de train en Europe.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/bruxelles-veut-imposer-aux-operateurs-de-trains-historiques-de-vendre-les-billets-de-leurs-concurrents_6688724_3234.html"
+        "heure": "07h45",
+        "titre": "Donald Trump déçoit le marché en annonçant une commande chinoise de 200 avions Boeing inférieure aux prévisions",
+        "resume": "L’action de l’avionneur américain a perdu plus de 5 % au moment de l’annonce alors que des médias américains évoquaient depuis plusieurs mois une commande potentielle record de la Chine portant sur près de 600 avions.",
+        "url": "https://www.lemonde.fr/international/article/2026/05/15/donald-trump-decoit-le-marche-en-annoncant-une-commande-chinoise-de-200-avions-boeing-inferieure-aux-previsions_6689386_3210.html"
       },
       {
         "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Reconnaissance faciale, IA, écrans intégrés : avec ses lunettes connectées, Meta va toujours plus loin et inquiète l’Europe",
-        "resume": "Explosion des ventes, abondance des projets, ruptures technologiques : quinze ans après l’échec des Google Glass, le marché des lunettes intelligentes décolle. Au risque d’instaurer une surveillance de masse.",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/reconnaissance-faciale-ia-ecrans-integres-avec-ses-lunettes-connectees-meta-va-toujours-plus-loin-et-inquiete-leurope_643241"
+        "heure": "11h45",
+        "titre": "Inflation, tensions géopolitiques, IA… les mises en garde du « boss » de JP Morgan Jamie Dimon lors de son show parisien",
+        "resume": "Le banquier le plus écouté de la planète adore la France. Quinze jours avant sa venue au sommet Choose France à Versailles, Jamie Dimon s’est posé quelques heures à Paris pour une conférence avec des clients de JP Morgan. L’occasion de faire part de ",
+        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/inflation-tensions-geopolitiques-ia-les-mises-en-garde-du-boss-de-jp-morgan-jamie-dimon-lors-de-son-show-parisien_643413"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h45",
+        "titre": "Face à la flambée des prix du pétrole, Paris protège ses finances publiques et ménage TotalEnergies",
+        "resume": "Alors que le blocage du détroit d’Ormuz fait bondir les prix des carburants, la France se distingue en Europe par son refus de réduire massivement les taxes ou de taxer davantage les profits pétroliers. Entre un déficit public sous tension et le poid",
+        "url": "https://www.challenges.fr/economie/face-a-la-flambee-des-prix-du-petrole-paris-protege-ses-finances-publiques-et-menage-totalenergies_643392"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Face à la flambée des prix de l’énergie, les Français changent leur manière de consommer avec moins de déplacements et moins de « petits plaisirs »",
+        "resume": "Echaudés par la précédente crise inflationniste de 2022, les Français, au pouvoir d’achat contraint, n’ont pas tardé à réagir pour atténuer l’impact de la hausse des prix du carburant liée au conflit au Moyen-Orient.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/15/moins-de-deplacements-moins-de-petits-plaisirs-face-a-la-flambee-des-prix-de-l-energie-les-francais-changent-leur-maniere-de-consommer_6689394_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "21h19",
+        "titre": "Le discounter textile Zeeman voit sa fréquentation fragilisée par la flambée des prix des carburants",
+        "resume": "A pas comptés, l’enseigne néerlandaise d’habillement à petits prix poursuit son expansion en France. Ses 1 800 salariés déplorent sa politique salariale.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/14/le-discounter-textile-zeeman-voit-sa-frequentation-fragilisee-par-la-flambee-des-prix-des-carburants_6689125_3234.html"
       }
     ]
   },
@@ -124,52 +124,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "07h30",
-        "titre": "Avec CMA Média, Rodolphe Saadé bâtit un empire médiatique, ASO et M6 en ligne de mire",
-        "resume": "« CMA CGM, une entreprise au cœur du pouvoir » (4/4). Depuis 2022, la filiale de l’armateur a multiplié les acquisitions, de « La Provence » à « La Tribune Dimanche » en passant par BFM-TV et RMC, et cherche à renforcer sa division sports. Les journa",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/14/avec-cma-media-rodolphe-saade-batit-un-empire-mediatique-aso-et-m6-en-ligne-de-mire_6688993_3234.html"
+        "heure": "14h00",
+        "titre": "A l’usine de Montereau-Fault-Yonne, le géant italien Prysmian pousse les feux sur les câbles électriques",
+        "resume": "La câblerie de Seine-et-Marne, l’une des plus grandes d’Europe, profite de la vague d’investissements pour l’électrification de la France, tandis que les ventes de fibre optique plongent, avec la fin du plan visant à apporter une connexion Internet à",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/15/a-l-usine-de-montereau-fault-yonne-le-geant-italien-prysmian-pousse-les-feux-sur-les-cables-electriques_6689428_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "18h42",
-        "titre": "Nestlé s’apprête à supprimer 2 000 postes d’employés en Europe",
-        "resume": "Dans le cadre de sa restructuration, le géant de l’alimentaire prévoit notamment de supprimer 180 postes en France, en majorité au sein de la filiale Nestlé Excellence Supports France, installée à Issy-les-Moulineaux (Hauts-de-Seine).",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/nestle-s-apprete-a-supprimer-2-000-postes-d-employes-en-europe_6688712_3234.html"
+        "heure": "12h31",
+        "titre": "« Face à Carrefour, les franchisés ont perdu une bataille »",
+        "resume": "Depuis 2023, 168 franchisés ou ex-franchisés dénoncent, devant les tribunaux, une relation juridique trop favorable au géant de la distribution. La justice vient de décider que ce différend devait faire l’objet d’un arbitrage, ce qui est aussi un rev",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/15/face-a-carrefour-les-franchises-ont-perdu-une-bataille_6689413_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "18h08",
-        "titre": "Alstom, le constructeur du TGV, prévoit un grand plan de transformation",
-        "resume": "Malgré un doublement de son bénéfice net lors de l’exercice 2026, le constructeur ferroviaire est confronté à des problèmes d’exécution de contrat qui l’ont poussé, mi-avril, à réviser à la baisse ses objectifs de marge et de génération de cash-flow ",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/alstom-le-constructeur-du-tgv-prevoit-un-grand-plan-de-transformation_6688702_3234.html"
+        "heure": "07h00",
+        "titre": "« Ouest-France », quotidien régional français le plus diffusé et pilier économique local, cherche un nouveau souffle dans un climat de défiance",
+        "resume": "Le groupe SIPA Ouest-France, propriétaire du quotidien régional, affiche un résultat déficitaire de 33,3 millions pour 2025. La direction du journal plaide pour des économies d’urgence afin d’éviter un plan social et défend une stratégie tournée vers",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/15/ouest-france-quotidien-regional-francais-le-plus-diffuse-et-pilier-economique-local-cherche-un-nouveau-souffle-dans-un-climat-de-defiance_6689280_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "15h39",
-        "titre": "Le livre d’occasion, planche de salut de Gibert",
-        "resume": "La librairie Gibert compte doubler ses ventes de livres de seconde main d’ici à 2029. Ce marché très concurrentiel et massivement exploité en ligne se porte mieux que les ventes de livres neufs.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/le-livre-d-occasion-planche-de-salut-de-gibert_6688683_3234.html"
+        "heure": "12h00",
+        "titre": "Le jeu « Subnautica 2 » finalement disponible à l’issue d’un bras de fer entre ses développeurs et leur éditeur",
+        "resume": "Depuis un an, l’éditeur Krafton retenait la publication de ce titre très attendu. La justice américaine a déterminé que l’entreprise sud-coréenne, s’appuyant sur les conseils de ChatGPT, cherchait ainsi à nuire au studio américain Unknown Worlds, qui",
+        "url": "https://www.lemonde.fr/pixels/article/2026/05/14/le-jeu-subnautica-2-finalement-disponible-a-l-issue-d-un-bras-de-fer-entre-ses-developpeurs-et-leur-editeur_6689049_4408996.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "13h12",
-        "titre": "Le chausseur Minelli annonce la fermeture définitive de ses boutiques le 30 mai",
-        "resume": "Les candidats au rachat de l’enseigne avaient jusqu’au 11 mai pour déposer leur dossier. Mais la demi-douzaine d’offres rendues publiques mardi sont pour la plupart très partielles, ne prévoyant la reprise que d’un ou deux des 21 points de vente de M",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/minelli-annonce-la-fermeture-definitive-de-ses-boutiques-de-chaussures-le-30-mai_6688660_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "14h49",
-        "titre": "« Il met en place des 'Tiger teams' comme chez Safran » : Alstom se met à l’heure du patron Martin Sion pour redresser ses comptes",
-        "resume": "Le deuxième constructeur mondial de trains présentera un plan de réorganisation début 2027. Objectif : améliorer la montée en cadence de certains programmes, alors que ces difficultés ont pesé sur ses comptes l’an dernier, selon les chiffres communiq",
-        "url": "https://www.challenges.fr/entreprise/transports/il-met-en-place-des-tiger-teams-comme-chez-safran-alstom-se-met-a-lheure-du-patron-martin-sion-pour-redresser-ses-comptes_643388"
-      },
-      {
-        "source": "Challenges",
-        "heure": "13h39",
-        "titre": "La série noire se poursuit dans la mode française : le chausseur Minelli fermera définitivement ses portes le 30 mai, 86 emplois perdus",
-        "resume": "Le chausseur français Minelli, qui emploie 86 personnes, a annoncé ce mercredi 13 mai sa fermeture définitive le 30 mai. Depuis deux ans, de nombreuses marques de mode ont été placées en redressement judiciaire ou liquidées en France.",
-        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/la-serie-noire-se-poursuit-dans-la-mode-francaise-le-chausseur-minelli-fermera-definitivement-ses-portes-le-30-mai-86-emplois-perdus_643386"
+        "heure": "20h15",
+        "titre": "Master Poulet : l’enseigne de fast-food agite le monde politique, entre dénonciation de la malbouffe et accusation de gentrification",
+        "resume": "La mobilisation du maire socialiste de Saint-Ouen pour tenter de s’opposer à l’installation d’une enseigne de fast-food de poulet au printemps a suscité de vives réactions sur les réseaux sociaux et dans les médias.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/14/master-poulet-entre-denonciation-de-la-malbouffe-et-accusation-de-gentrification-comment-l-enseigne-de-fast-food-agite-la-classe-politique_6689121_823448.html"
       }
     ]
   },
@@ -177,31 +163,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "07h30",
-        "titre": "Avec CMA Média, Rodolphe Saadé bâtit un empire médiatique, ASO et M6 en ligne de mire",
-        "resume": "« CMA CGM, une entreprise au cœur du pouvoir » (4/4). Depuis 2022, la filiale de l’armateur a multiplié les acquisitions, de « La Provence » à « La Tribune Dimanche » en passant par BFM-TV et RMC, et cherche à renforcer sa division sports. Les journa",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/14/avec-cma-media-rodolphe-saade-batit-un-empire-mediatique-aso-et-m6-en-ligne-de-mire_6688993_3234.html"
+        "heure": "11h21",
+        "titre": "La complexité du rachat de SFR oblige Patrick Drahi à prolonger les négociations avec Bouygues Telecom, Free et Orange",
+        "resume": "Faute d’avoir pu conclure au vendredi 15 mai, comme il l’espérait, la vente de son groupe de télécoms à ses rivaux, le milliardaire franco-israélien a étendu la période des négociations exclusives jusqu’au 5 juin.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/15/la-complexite-du-rachat-de-sfr-oblige-patrick-drahi-a-prolonger-les-negociations-avec-bouygues-telecom-free-et-orange_6689405_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "23h14",
-        "titre": "Crise chez Grasset : les écrivains appellent à des réformes d’envergure dans l’édition",
-        "resume": "Quelque 200 anciens auteurs de la maison d’édition réunis mercredi 13 mai au Théâtre de la Concorde, à Paris, souhaitent se battre ensemble pour mieux défendre leur statut et leurs droits.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/crise-chez-grasset-les-ecrivains-appellent-a-des-reformes-d-envergure-dans-l-edition_6688752_3234.html"
+        "heure": "10h40",
+        "titre": "Rachat de SFR : Altice France prolonge jusqu’au 5 juin les négociations exclusives avec Bouygues Telecom, Iliad et Orange",
+        "resume": "Ces discussions portent sur l’offre de rachat à 20,35 milliards d’euros présentée le 17 avril par les concurrents de SFR. Si elle aboutit, elle mènerait à une reconfiguration historique du marché des télécoms français, qui passerait de quatre à trois",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/15/rachat-de-sfr-altice-france-prolonge-jusqu-au-15-juin-les-negociations-exclusives-avec-bouygues-telecom-iliad-et-orange_6689403_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "07h30",
-        "titre": "Le créneau de Faume ? Convertir des marques comme ba&sh Lacoste et Longchamp à la mode de seconde main, un marché mondial de 350 milliards",
-        "resume": "Aymeric Déchin, diplômé de l’Esdes, a cofondé en 2020 son système clés en main de vente de vêtements d’occasion. Une solution qui sera déployée aux Etats-Unis au deuxième semestre 2026. Il est l’invité du Club Entrepreneurs Challenges – Montefiore In",
-        "url": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/le-creneau-de-faume-convertir-des-marques-comme-bash-lacoste-et-longchamp-a-la-mode-de-seconde-main-un-marche-mondial-de-350-milliards_643302"
+        "heure": "10h37",
+        "titre": "Une opération évaluée à un milliard de dollars : LVMH annonce vendre Marc Jacobs au duo américain WHP Global et G-III",
+        "resume": "Le géant français du luxe LVMH a annoncé, jeudi 14 mai, céder la marque de prêt-à-porter Marc Jacobs à un duo américain composé de la société d’investissement WHP Global et du holding G-III. La transaction, qui devrait être finalisée d’ici la fin de ",
+        "url": "https://www.challenges.fr/entreprise/une-operation-evaluee-a-un-milliard-de-dollars-lvmh-annonce-vendre-marc-jacobs-au-duo-americain-whp-global-et-g-iii_643408"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h00",
+        "titre": "En Belgique, les doutes montent autour du projet de nationalisation des centrales nucléaires d’Engie",
+        "resume": "Le gouvernement de Bart De Wever négocie avec le groupe français pour lui racheter ses activités nucléaires dans le pays, alors que cinq des sept réacteurs belges sont à l’arrêt.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/15/en-belgique-les-doutes-montent-autour-du-projet-de-nationalisation-des-centrales-nucleaires-d-engie_6689422_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "07h00",
-        "titre": "Faume permet aux marques de mode de lancer leur infrastructure de seconde main",
-        "resume": "Aymeric Déchin, diplômé de l’Esdes, a cofondé en 2020 son système clés en main de vente de vêtements d’occasion. Une solution qui sera déployée aux Etats-Unis au deuxième semestre 2026. Il est l'invité du Club Entrepreneurs Challenges - Montefiore In",
-        "url": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/faume-permet-aux-marques-de-mode-de-lancer-leur-infrastructure-de-seconde-main_643372"
+        "heure": "09h00",
+        "titre": "Festival de Cannes : La Terrasse by Albane règne depuis vingt-cinq ans sur les nuits de la Croisette",
+        "resume": "Depuis vingt-cinq ans, La Terrasse by Albane s’est imposée comme le rooftop le plus convoité du Festival de Cannes, où le gotha du cinéma mondial se retrouve, mêlant glamour et discrétion.",
+        "url": "https://www.challenges.fr/entreprise/culture/festival-de-cannes-la-terrasse-by-albane-regne-depuis-vingt-cinq-ans-sur-les-nuits-de-la-croisette_643312"
       }
     ]
   },
@@ -209,38 +202,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "22h54",
-        "titre": "La hausse du smic relance la bataille des allégements de charges",
-        "resume": "Le salaire minimum va augmenter de 2,4 % en juin, a annoncé mercredi 13 mai le ministre du travail, Jean-Pierre Farandou. Relever d’autant les allégements de cotisations sociales coûterait 2 milliards d’euros aux finances publiques. Bercy s’y refuse,",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/13/la-hausse-du-smic-relance-la-bataille-des-allegements-de-charges_6688749_823448.html"
+        "heure": "16h00",
+        "titre": "Malgré la croissance économique, un Grec sur quatre est toujours menacé de pauvreté",
+        "resume": "En dépit des bons chiffres de la croissance, du chômage en baisse et des excédents budgétaires dégagés par le pays, le pouvoir d’achat des Grecs s’érode et le nombre de personnes au seuil de la pauvreté augmente.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/15/malgre-la-croissance-economique-un-grec-sur-quatre-est-toujours-menace-de-pauvrete_6689439_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "18h24",
-        "titre": "Le rendement de la taxe sur les « petits colis » évalué à 2,3 millions d’euros par mois, loin des prévisions du gouvernement",
-        "resume": "Les grandes plateformes visées par cette taxe, comme Temu, Shein et AliExpress, ont vite trouvé la parade : envoyer les petits paquets dans des hubs hébergés par d’autres pays européens, puis les acheminer jusqu’en France par la route.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/le-rendement-de-la-taxe-sur-les-petits-colis-evalue-a-2-3-millions-d-euros-par-mois-loin-des-previsions-du-gouvernement_6688706_3234.html"
+        "heure": "13h45",
+        "titre": "Retraites : une légère augmentation du taux d’erreur entre 2024 et 2025",
+        "resume": "Plus d’un dixième des pensions nouvelles octroyées par l’assurance-vieillesse en 2025 sont affectées par une anomalie, selon un rapport de la Cour des comptes, publié mercredi 13 mai. Des erreurs dont l’« incidence financière » atteindrait « 1,08 % d",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/15/retraites-une-legere-augmentation-du-taux-d-erreur-entre-2024-et-2025_6689427_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "09h47",
-        "titre": "Le chômage dépasse 8 % en France, une première depuis 2021",
-        "resume": "Si le taux d’emploi approche de son niveau historique, celui du chômage continue d’augmenter de 0,2 point au premier trimestre, pour atteindre 8,1 % de la population active, selon les chiffres de l’Insee, publiés mercredi 13 mai.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/13/en-france-le-chomage-franchit-la-barre-des-8-une-premiere-depuis-2021_6688630_823448.html"
+        "heure": "16h00",
+        "titre": "« Les petites et moyennes entreprises sont l’angle mort du financement de l’innovation française »",
+        "resume": "La France n’investit pas assez dans l’innovation, et la majeure partie des aides d’Etat en matière de recherche et développement sont orientées vers les grandes entreprises qui disposent d’équipes se consacrant à l’obtention de ces subsides, constate",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/15/les-petites-et-moyennes-entreprises-sont-l-angle-mort-du-financement-de-l-innovation-francaise_6689440_3232.html"
       },
       {
-        "source": "Challenges",
-        "heure": "15h07",
-        "titre": "« En France, les inégalités s’aggravent à grande vitesse » : Duflot alerte sur la concentration des richesses",
-        "resume": "Auditionnée dans le cadre de la commission d’enquête sur l'imposition des plus hauts patrimoines, Cécile Duflot (Oxfam France) dénonce une concentration sans précédent des richesses : selon l’ONG, les 53 milliardaires français possèdent désormais dav",
-        "url": "https://www.challenges.fr/economie/en-france-les-inegalites-saggravent-a-grande-vitesse-duflot-alerte-sur-la-concentration-des-richesses_643389"
+        "source": "Le Monde Éco",
+        "heure": "12h30",
+        "titre": "Finance : « La tragédie des horizons souligne l’opposition entre le temps court et le temps long »",
+        "resume": "Face au réchauffement climatique, la finance durable, avec les critères ESG (environnement, social et gouvernance), a un rôle crucial à jouer, estime, dans une tribune au « Monde », le chercheur en sciences de gestion Jean-Pierre Bouchez.",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/15/finance-la-tragedie-des-horizons-souligne-l-opposition-entre-le-temps-court-et-le-temps-long_6689412_3232.html"
       },
       {
-        "source": "Challenges",
-        "heure": "12h07",
-        "titre": "Hausse du Smic, impact sur les dépenses publiques… Comment Sébastien Lecornu veut éviter le piège de l’inflation",
-        "resume": "Alors que la hausse des prix dépasse 2 % en avril, le gouvernement doit recalibrer ses aides aux ménages. Avec un risque de dérapage des finances publiques.",
-        "url": "https://www.challenges.fr/economie/hausse-du-smic-impact-sur-les-depenses-publiques-comment-sebastien-lecornu-veut-eviter-le-piege-de-linflation_643381"
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Face à la flambée des prix de l’énergie, les Français changent leur manière de consommer avec moins de déplacements et moins de « petits plaisirs »",
+        "resume": "Echaudés par la précédente crise inflationniste de 2022, les Français, au pouvoir d’achat contraint, n’ont pas tardé à réagir pour atténuer l’impact de la hausse des prix du carburant liée au conflit au Moyen-Orient.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/15/moins-de-deplacements-moins-de-petits-plaisirs-face-a-la-flambee-des-prix-de-l-energie-les-francais-changent-leur-maniere-de-consommer_6689394_3234.html"
       }
     ]
   },
@@ -248,105 +241,119 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "19h32",
-        "titre": "La Commission européenne veut imposer aux opérateurs de trains historiques de vendre les billets de leurs concurrents",
-        "resume": "Bruxelles propose un nouveau cadre réglementaire pour simplifier les trajets de train en Europe.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/bruxelles-veut-imposer-aux-operateurs-de-trains-historiques-de-vendre-les-billets-de-leurs-concurrents_6688724_3234.html"
+        "heure": "15h57",
+        "titre": "Comment le Rassemblement national remodèle son programme économique depuis quinze ans",
+        "resume": "Depuis la prise de pouvoir de Marine Le Pen en 2011, le parti d’extrême droite peine à afficher une ligne économique claire, au point de brouiller son identité politique et de laisser planer des interrogations sur ses orientations futures.",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/05/15/comment-le-rassemblement-national-remodele-son-programme-economique-depuis-quinze-ans_6689438_4355770.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "19h09",
-        "titre": "Le recours contre la nomination d’Amélie de Montchalin à la tête de la Cour des comptes jugé « irrecevable » par le Conseil d’Etat",
-        "resume": "Par une décision rendue mercredi 13 mai, le Conseil d’Etat a estimé que les requérants – un universitaire, un ancien magistrat financier et l’association Anticor – ne disposaient pas d’un « intérêt à agir » pour contester la nomination de l’ancienne ",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/13/le-recours-contre-la-nomination-d-amelie-de-montchalin-a-la-tete-de-la-cour-des-comptes-juge-irrecevable-par-le-conseil-d-etat_6688720_823448.html"
+        "heure": "09h30",
+        "titre": "Antoine Bristielle, politiste : « Pour le RN, à côté d’un électorat fidélisé, deux nouveaux groupes d’électeurs se dégagent »",
+        "resume": "Le Rassemblement national s’impose comme une option de vote auprès de nouveaux électeurs chez qui la dédiabolisation fonctionne à plein et parmi des partisans de droite radicale animés par une forme de « vote utile », analyse le directeur de l’observ",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/15/antoine-bristielle-politiste-pour-le-rn-a-cote-d-un-electorat-fidelise-deux-nouveaux-groupes-d-electeurs-se-degagent_6689398_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "19h00",
-        "titre": "Présidentielle 2027 : « La référence au RPR et la bataille entre filiations pasquaïenne et chiraquienne en disent long sur l’incertitude stratégique de la droite »",
-        "resume": "A un an de l’élection, les politistes Florence Haegel et Vincent Martigny s’interrogent, dans une tribune au « Monde », sur le sens à donner à la lutte acharnée qui vise à revendiquer l’héritage idéologique et politique de la droite des années 1980.",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/13/presidentielle-2027-la-reference-au-rpr-et-la-bataille-entre-filiations-pasquaienne-et-chiraquienne-en-disent-long-sur-l-incertitude-strategique-de-la-droite_6688717_3232.html"
+        "heure": "08h00",
+        "titre": "Le CNC, institution-clé pour le financement du cinéma français, dans la ligne de mire de l’extrême droite",
+        "resume": "Sans lui, de nombreux films français ne pourraient pas voir le jour. Mais le Centre national du cinéma et de l’image animée est aujourd’hui la cible d’attaques, qui pourraient signer la fin de cette institution vieille de bientôt 80 ans en cas d’arri",
+        "url": "https://www.lemonde.fr/m-le-mag/article/2026/05/15/le-cnc-institution-cle-pour-le-financement-du-cinema-francais-dans-la-ligne-de-mire-de-l-extreme-droite_6689395_4500055.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "13h19",
-        "titre": "Marine Le Pen affirme que le départ à la retraite à 62 ans « reste d’actualité » dans le programme du RN",
-        "resume": "L’ancienne présidente du parti d’extrême droite a affirmé, mercredi matin sur RTL, souhaiter inciter les jeunes à rentrer plus tôt sur le marché du travail.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/13/marine-le-pen-affirme-que-le-depart-a-la-retraite-a-62-ans-reste-d-actualite-dans-le-programme-du-rn_6688661_823448.html"
+        "heure": "07h45",
+        "titre": "Chez Les Républicains, on l’assure pour mieux se rassurer : « La France est à droite »",
+        "resume": "Si la droite n’a pas gouverné seule depuis 2012, les dirigeants de LR veulent croire que les Français sont plus que jamais en phase avec leurs idées. Derrière cette certitude, un discours qui se veut mobilisateur mais aussi une vision parfois biaisée",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/15/chez-les-republicains-on-l-assure-pour-mieux-se-rassurer-la-france-est-a-droite_6689385_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "02h21",
-        "titre": "Présidentielle 2027 : Gabriel Attal franchit une nouvelle étape vers sa désignation comme le candidat de Renaissance",
-        "resume": "Le conseil national du parti a appelé son secrétaire général, lundi soir, à se déclarer, une semaine après la démission d’Elisabeth Borne de la présidence de cette instance.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/13/presidentielle-2027-gabriel-attal-franchit-une-nouvelle-etape-vers-sa-designation-comme-le-candidat-de-renaissance_6688302_823448.html"
+        "heure": "21h20",
+        "titre": "Nicolas Mayer-Rossignol met une proposition sur la table afin de sortir le PS de l’impasse pour 2027",
+        "resume": "Depuis le départ de Boris Vallaud de la direction du parti, son premier secrétaire, Olivier Faure, est devenu minoritaire. Le courant du maire de Rouen suggère que le Parti socialiste invite ses partenaires à construire une « plateforme programmatiqu",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/14/nicolas-mayer-rossignol-met-une-proposition-sur-la-table-pour-sortir-le-ps-de-l-impasse-pour-2027_6689126_823448.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "10h28",
+        "titre": "« Les États-Unis ne peuvent tout simplement pas soutenir une guerre majeure avec la Chine » : comment la Chine a repris l’ascendant sur les Etats-Unis avant la rencontre Xi-Trump",
+        "resume": "Xi Jinping instrumentalise l’influence de la Chine sur l’Iran et la question de Taïwan lors des négociations avec Donald Trump, cherchant à redéfinir la relation entre les deux puissances tout en préservant une trêve commerciale.",
+        "url": "https://www.challenges.fr/monde/le-conflit-avec-liran-montre-que-les-etats-unis-ne-peuvent-tout-simplement-pas-soutenir-une-guerre-majeure-avec-la-chine-comment-la-chine-a-repris-lascendant-sur-les-etats-unis-avant-la-rencontre-xi-trump_643402"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h49",
+        "titre": "« Si elle est mal traitée, les deux pays entreront en conflit » : la question taïwanaise embrase d’entrée de jeu la rencontre Xi-Trump",
+        "resume": "Lors du sommet sino-américain, le président chinois Xi Jinping a mis en garde son homologue américain Donald Trump contre un possible « conflit » en cas de mauvaise gestion de la question de Taïwan. Malgré des échanges cordiaux en public, les tension",
+        "url": "https://www.challenges.fr/monde/si-elle-est-mal-traitee-les-deux-pays-entreront-en-conflit-la-question-taiwanaise-embrase-dentree-de-jeu-la-rencontre-xi-trump_643401"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Le Monde Éco",
-        "heure": "22h58",
-        "titre": "Le Sénat américain approuve la nomination du candidat de Donald Trump, Kevin Warsh, à la tête de la Fed",
-        "resume": "M. Warsh n’a plus qu’à prêter serment avant de prendre définitivement ses fonctions pour un mandat de quatre ans à la tête de la puissante banque centrale américaine.",
-        "url": "https://www.lemonde.fr/international/article/2026/05/13/le-senat-americain-approuve-la-nomination-du-candidat-de-donald-trump-kevin-warsh-a-la-tete-de-la-fed_6688750_3210.html"
+        "source": "Challenges",
+        "heure": "06h45",
+        "titre": "« Il faut que tout change pour que rien ne change à la Fed » : la « bête noire » de Trump remplacée à la tête de la Réserve fédérale",
+        "resume": "Ce 15 mai Kevin Warsh remplace Jerome Powell, que déteste Donald Trump, à la présidence de la Réserve fédérale des Etats-Unis. Ses pouvoirs étant très limités, il ne faut pas s’attendre à une remise à plat de la politique monétaire.",
+        "url": "https://www.challenges.fr/economie/il-faut-que-tout-change-pour-que-rien-ne-change-a-la-fed-la-bete-noire-de-trump-remplacee-a-la-tete-de-la-reserve-federale_643380"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "20h36",
-        "titre": "L’Inde double les taxes sur l’importation d’or pour enrayer la chute de la roupie",
-        "resume": "L’Inde fait passer ses taxes sur les importations d’or et d’argent de 6 % à 15 % environ pour ralentir la dévaluation de sa monnaie, la roupie, et la baisse de ses réserves de change.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/l-inde-double-les-taxes-sur-l-importation-d-or-pour-enrayer-la-chute-de-la-roupie_6688735_3234.html"
+        "heure": "12h30",
+        "titre": "Finance : « La tragédie des horizons souligne l’opposition entre le temps court et le temps long »",
+        "resume": "Face au réchauffement climatique, la finance durable, avec les critères ESG (environnement, social et gouvernance), a un rôle crucial à jouer, estime, dans une tribune au « Monde », le chercheur en sciences de gestion Jean-Pierre Bouchez.",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/15/finance-la-tragedie-des-horizons-souligne-l-opposition-entre-le-temps-court-et-le-temps-long_6689412_3232.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "19h51",
-        "titre": "Le Conseil d’Etat rejette le recours d’Amazon contre les frais de port obligatoires pour les expéditions de livres",
-        "resume": "Depuis un arrêté de 2023, toutes les expéditions de livres neufs à un particulier en France s’accompagnent obligatoirement de frais de port de 3 euros minimum. Un arrêté que le Conseil d’Etat a jugé, mercredi, « conforme au droit européen ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/13/le-conseil-d-etat-rejette-le-recours-d-amazon-contre-les-frais-de-port-obligatoires-pour-les-expeditions-de-livres_6688725_3234.html"
+        "source": "Challenges",
+        "heure": "11h45",
+        "titre": "Inflation, tensions géopolitiques, IA… les mises en garde du « boss » de JP Morgan Jamie Dimon lors de son show parisien",
+        "resume": "Le banquier le plus écouté de la planète adore la France. Quinze jours avant sa venue au sommet Choose France à Versailles, Jamie Dimon s’est posé quelques heures à Paris pour une conférence avec des clients de JP Morgan. L’occasion de faire part de ",
+        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/inflation-tensions-geopolitiques-ia-les-mises-en-garde-du-boss-de-jp-morgan-jamie-dimon-lors-de-son-show-parisien_643413"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.656,
-        "prev": 2.658,
-        "diff": -0.002,
+        "rate": 2.606,
+        "prev": 2.656,
+        "diff": -0.05,
         "trend": "down",
-        "date": "2026-05-13"
+        "date": "2026-05-14"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.783,
-        "prev": 2.779,
-        "diff": 0.004,
-        "trend": "up",
-        "date": "2026-05-13"
+        "rate": 2.735,
+        "prev": 2.783,
+        "diff": -0.049,
+        "trend": "down",
+        "date": "2026-05-14"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.151,
-        "prev": 3.15,
-        "diff": 0.002,
-        "trend": "up",
-        "date": "2026-05-13"
+        "rate": 3.099,
+        "prev": 3.151,
+        "diff": -0.052,
+        "trend": "down",
+        "date": "2026-05-14"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.563,
+        "rate": 3.517,
         "prev": 3.563,
-        "diff": -0.0,
-        "trend": "flat",
-        "date": "2026-05-13"
+        "diff": -0.046,
+        "trend": "down",
+        "date": "2026-05-14"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.575,
+        "rate": 3.548,
         "prev": 3.575,
-        "diff": -0.0,
-        "trend": "flat",
-        "date": "2026-05-13"
+        "diff": -0.027,
+        "trend": "down",
+        "date": "2026-05-14"
       }
     ]
   },
