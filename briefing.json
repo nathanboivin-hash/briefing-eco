@@ -1,27 +1,31 @@
 {
-  "timestamp": "16h40 le 18/05/2026",
+  "timestamp": "16h38 le 19/05/2026",
   "alerte": {
-    "titre": "Tensions obligataires accrues en zone euro",
-    "detail": "UK, France et Italie sous pression des marchés financiers ; spreads souverains à surveiller"
+    "titre": "Tensions obligataires accrues",
+    "detail": "France, Royaume-Uni et Italie sous pression des marchés financiers avec hausse forte des taux (43). Spread crédit se creuse."
   },
   "synthese": {
-    "resume": "Les marchés financiers exercent une pression croissante sur les dettes souveraines britannique, française et italienne, avec une hausse des taux d'intérêt. Le secteur du cinéma français traverse une crise majeure avec l'annulation de financements et un boycott massif orchestré par Canal+. Publicis franchit un cap stratégique avec l'acquisition de LiveRamp pour 2,2 Md$ dans la data. La France dispose de six mois critiques pour ne pas manquer la vague de l'IA agentique.",
+    "resume": "Les marchés financiers européens se tendent avec une hausse significative des taux d'intérêt affectant France, UK et Italie (43). Publicis réalise un deal majeur à 2,2 Mds$ sur LiveRamp (29), tandis que Meta s'apprête à licencier massivement avec réaffectation de 7 000 salariés (52). La crise agricole française s'aggrave avec des faillites croissantes (3) et une demande italienne de traitement budgétaire de faveur (4). Elon Musk perd son procès contre OpenAI par prescription (23).",
     "points": [
       {
         "titre": "Marchés & Taux",
-        "detail": "Hausse significative des taux d'intérêt sur UK/FR/IT ; spreads obligataires en dégradation ; Brent à 110$/baril"
+        "detail": "Royaume-Uni, France et Italie en forte tension obligataire (43). Taux d'intérêt en hausse. Brent à 110$/baril (82). Spread crédit se creuse sous la pression macroéconomique."
       },
       {
         "titre": "M&A / Corporate",
-        "detail": "Publicis acquiert LiveRamp (2,2 Md$, données) ; Aroxys pilotera transformation BHV Marais ; Finsbury diversifie au Printemps"
+        "detail": "Publicis acquiert LiveRamp (données) pour 2,2 Mds$ (29). Havas rajeunit avec acquisition agence jeune (50). Finsbury diversifie au Printemps Haussmann (75). Aroxys reprend pilotage du BHV Marais (76)."
       },
       {
-        "titre": "Secteur Cinéma",
-        "detail": "Crise structurelle : boycott Canal+, financement français menacé, recettes mondiales en retard vs pré-Covid"
+        "titre": "Grandes Entreprises",
+        "detail": "Meta réaffecte 7 000 salariés avant licenciements massifs, pivot IA (52). Société Générale condamnée 20 M€ (24). BBC fragilisée : Matt Brittin nouveau leader (5). PlayStation limite sorties narratives sur PC (12). Urgo dépasse 1 Md€ CA, investit 150 M€ (79)."
       },
       {
-        "titre": "Macro / Stratégie",
-        "detail": "IA agentique : fenêtre 6 mois critique pour France ; Chine ralentit (consommation) ; Mixue domine bubble tea chinois"
+        "titre": "Macro & Conjoncture",
+        "detail": "Crise agricole française inédite avec faillites en hausse (3, 48). Italie demande traitement budgétaire spécial face crise énergétique (4). Commission UE débloque fonds anti-engrais (10). Consommation chinoise ralentit (82). Double besoin formation transition écologique (20)."
+      },
+      {
+        "titre": "Politique & Géopolitique",
+        "detail": "Assemblée approuve 36 Mds€ programmation militaire 2024-2030 (31). Gérald Darmanin en Algérie pour renouer confiance (41). Nouvelle-Calédonie : élargissement corps électoral approuvé (40). France vs IA agentique : 6 mois critiques (25)."
       }
     ]
   },
@@ -29,8 +33,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 009",
-        "change": "+1.88%",
+        "value": "8 073",
+        "change": "+0.96%",
         "dir": "up"
       },
       {
@@ -41,21 +45,21 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 434",
-        "change": "+0.34%",
+        "value": "7 381",
+        "change": "+0.21%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "26 309",
-        "change": "+0.16%",
+        "value": "26 020",
+        "change": "+0.42%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1657",
-        "change": "+0.29%",
-        "dir": "up"
+        "value": "1.1662",
+        "change": "+0.01%",
+        "dir": "flat"
       },
       {
         "label": "Brent",
@@ -65,8 +69,8 @@
       },
       {
         "label": "Or",
-        "value": "4 584 $",
-        "change": "+1.14%",
+        "value": "4 589 $",
+        "change": "+0.43%",
         "dir": "up"
       },
       {
@@ -87,7 +91,7 @@
         "source": "Le Monde Éco",
         "heure": "20h09",
         "titre": "Taux d’intérêt en forte hausse : le Royaume-Uni, la France et l’Italie sous la pression des marchés financiers",
-        "resume": "La fermeture du détroit d’Ormuz fait craindre une poussée d’inflation prolongée, ce qui pousse à la hausse les taux d’intérêt partout à travers le monde. En Europe, trois grands pays sont particulièrement vulnérables.",
+        "resume": "La fermeture du détroit d’Ormuz fait craindre une poussée d’inflation prolongée, ce qui tire à la hausse les taux d’intérêt partout à travers le monde. En Europe, trois grands pays sont particulièrement vulnérables.",
         "url": "https://www.lemonde.fr/economie/article/2026/05/18/taux-d-interet-en-forte-hausse-royaume-uni-france-et-italie-sous-pression-des-marches-financiers_6691011_3234.html"
       },
       {
@@ -99,24 +103,24 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "20h00",
-        "titre": "En Chine, l’incroyable succès de Mixue, le roi du bubble tea à prix cassés",
-        "resume": "L’enseigne, originaire de la province du Henan, a ouvert 38 nouvelles boutiques par jour en 2025. Grâce à ses prix très bas et un contrôle de sa chaîne de valeur, cette marque de bubble tea va à l’encontre d’une consommation nationale en berne.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/18/en-chine-l-incroyable-succes-de-mixue-le-roi-du-bubble-tea-a-prix-casses_6691008_3234.html"
+        "heure": "20h11",
+        "titre": "La Société générale condamnée à une amende de 20 millions d’euros pour manquements à ses obligations d’information envers ses clients",
+        "resume": "Assortie d’un blâme, il s’agit de la plus forte amende infligée par l’ACPR, le gendarme des banques et des assurances, depuis 2018.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/18/societe-generale-condamnee-a-une-amende-de-20-millions-d-euros-pour-manquements-a-ses-obligations-d-information-envers-ses-clients_6691012_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "12h19",
-        "titre": "Swatch : « Certaines marques savent jouer à la perfection cette mise sous tension des consommateurs, où la peur de manquer exacerbe la convoitise »",
-        "resume": "Le lancement d’une montre en collaboration avec Audemars Piguet, samedi, a entraîné des débordements dans les magasins Swatch. Un business de la frustration sur lequel l’horloger suisse a déjà capitalisé par le passé, observe Isabelle Chaperon, chron",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/18/swatch-certaines-marques-savent-jouer-a-la-perfection-cette-mise-sous-tension-des-consommateurs-ou-la-peur-de-manquer-exacerbe-la-convoitise_6690862_3234.html"
+        "heure": "08h00",
+        "titre": "« Il existe un double besoin dans la transition écologique : des formations dans l’emploi et des formations permettant de changer d’emploi »",
+        "resume": "La formation des salariés est fondamentale pour enclencher la transition écologique dans l’ensemble des entreprises et des secteurs d’activité, explique dans sa chronique l’économiste Mathilde Guergoat-Larivière.",
+        "url": "https://www.lemonde.fr/emploi/article/2026/05/19/il-existe-un-double-besoin-dans-la-transition-ecologique-des-formations-dans-l-emploi-et-des-formations-permettant-de-changer-d-emploi_6691426_1698637.html"
       },
       {
-        "source": "Challenges",
-        "heure": "09h47",
-        "titre": "Facebook, Alibaba, Saudi Aramco… Le classement des 10 plus grosses entrées en Bourse de l’histoire",
-        "resume": "Alors que de nouvelles introductions en Bourse géantes sont attendues, les records historiques pourraient être bientôt bousculés. Retour sur les dix plus importantes introductions en Bourse jamais réalisées.",
-        "url": "https://www.challenges.fr/entreprise/facebook-alibaba-saudi-aramco-le-classement-des-10-plus-grosses-entrees-en-bourse-de-lhistoire_643444"
+        "source": "Le Monde Éco",
+        "heure": "20h00",
+        "titre": "L’Assemblée nationale approuve 36 milliards d’euros supplémentaires pour la loi de programmation militaire 2024-2030",
+        "resume": "Malgré l’opposition de LFI et des Ecologistes, le projet de loi, qui fixe d’ici à 2030 les grandes orientations et les moyens des armées françaises, porte à 436 milliards d’euros les dépenses militaires prévues d’ici à la fin de la décennie.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/19/l-assemblee-nationale-approuve-36-milliards-d-euros-supplementaires-pour-la-loi-de-programmation-militaire-2024-2030_6691479_823449.html"
       }
     ]
   },
@@ -124,24 +128,31 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "07h23",
-        "titre": "Publicis annonce l’acquisition de LiveRamp, spécialiste américain des données, pour une valeur de 2,2 milliards de dollars",
-        "resume": "Le numéro 2 mondial de la publicité poursuit ainsi « ses investissements dans la technologie, la data et les services d’IA ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/18/publicis-annonce-l-acquisition-de-liveramp-specialiste-americain-des-donnees-pour-une-valeur-de-2-2-milliards-de-dollars_6690478_3234.html"
+        "heure": "18h07",
+        "titre": "Matt Brittin prend la tête d’une BBC fragilisée par l’érosion de son audience et de ses recettes",
+        "resume": "Le nouveau directeur général du groupe de radio et de télévision public britannique, ancien dirigeant de Google, fait face à de multiples défis, allant de la crise de confiance du public à la gestion de la transition du groupe vers le numérique.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/19/matt-brittin-prend-la-tete-d-une-bbc-fragilisee-par-l-erosion-de-son-audience-et-de-ses-recettes_6691491_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h52",
+        "titre": "PlayStation ne souhaite plus publier ses jeux vidéo narratifs sur PC",
+        "resume": "La division jeux vidéo de Sony a aussi annoncé l’augmentation du prix de son abonnement PlayStation Plus.",
+        "url": "https://www.lemonde.fr/pixels/article/2026/05/19/playstation-ne-souhaite-plus-publier-ses-jeux-video-narratifs-sur-pc_6691464_4408996.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "20h11",
+        "titre": "La Société générale condamnée à une amende de 20 millions d’euros pour manquements à ses obligations d’information envers ses clients",
+        "resume": "Assortie d’un blâme, il s’agit de la plus forte amende infligée par l’ACPR, le gendarme des banques et des assurances, depuis 2018.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/18/societe-generale-condamnee-a-une-amende-de-20-millions-d-euros-pour-manquements-a-ses-obligations-d-information-envers-ses-clients_6691012_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "12h47",
-        "titre": "La transformation choc du BHV Marais officialisée : Aroxys va piloter l’avenir du bâtiment, et veut qu'un hôtel couronne l'édifice",
-        "resume": "Selon les informations de Challenges, la société de gestion de portefeuilles immobilier va piloter pour le compte de Brookfield le fonds qui financera la transformation du bâtiment du BHV Marais. Dans ses plans, notamment, la création d’un hôtel.",
-        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/la-transformation-choc-du-bhv-marais-officialisee-alors-que-des-grands-groupes-sont-interesses-un-hotel-couronnera-ledific_643460"
-      },
-      {
-        "source": "Challenges",
-        "heure": "13h00",
-        "titre": "Finsbury accélère sa diversification et ouvre son tout premier espace femme au Printemps Haussmann",
-        "resume": "Historiquement dédiée à l’homme, la maison française de souliers haut de gamme ouvre un nouveau chapitre de son histoire en investissant le célèbre grand magasin parisien.",
-        "url": "https://www.challenges.fr/luxe/finsbury-accelere-sa-diversification-et-ouvre-son-tout-premier-espace-femme-au-printemps-haussmann_643458"
+        "heure": "17h30",
+        "titre": "7 000 salariés réaffectés avant des licenciements massifs chez Meta : une stratégie à marche forcée pour tout miser sur l’IA",
+        "resume": "Meta a annoncé lundi à ses employés la réaffectation de 7 000 salariés à de nouvelles initiatives autour de l’IA, une technologie pour laquelle l’entreprise continue de dépenser sans compter. Cette restructuration intervient alors que le géant des ré",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/7-000-salaries-reaffectes-avant-des-licenciements-massifs-chez-meta-une-strategie-a-marche-forcee-pour-tout-miser-sur-lia_643491"
       },
       {
         "source": "Challenges",
@@ -152,17 +163,17 @@
       },
       {
         "source": "Challenges",
-        "heure": "08h00",
-        "titre": "Rolex révolutionne ses icônes : découvrez les nouveautés majeures de l’Oyster pour ses 100 ans",
-        "resume": "Pour les 100 ans de l’Oyster, Rolex crée l’événement. Alliage d’or inédit, cadran pop ou haute technologie marine, zoom sur les trois pépites du dernier salon Watches & Wonders.",
-        "url": "https://www.challenges.fr/luxe/rolex-revolutionne-ses-icones-decouvrez-les-nouveautes-majeures-de-loyster-pour-ses-100-ans_643448"
+        "heure": "18h00",
+        "titre": "Havas s'offre un coup de jeune : pourquoi le géant de la pub s'empare de cette jeune agence française",
+        "resume": "Le groupe de communication Havas prend une participation majoritaire dans cette agence qui a renouvelé la communication corporate grâce à la vidéo et aux réseaux sociaux.",
+        "url": "https://www.challenges.fr/entreprise/medias/havas-soffre-un-coup-de-jeune-pourquoi-le-geant-de-la-pub-sempare-de-cette-jeune-agence-francaise_643480"
       },
       {
         "source": "Challenges",
-        "heure": "07h30",
-        "titre": "De Dix pour cent à Netflix : l’ascension fulgurante de Mediawan, le studio français qui conquiert Hollywood",
-        "resume": "En dix ans, le groupe français est devenu l’un des principaux fournisseurs mondiaux de programmes pour le cinéma, les chaînes de télévision et les plateformes de streaming. Avec l’Amérique dans sa ligne de mire.",
-        "url": "https://www.challenges.fr/entreprise/culture/de-dix-pour-cent-a-netflix-lascension-fulgurante-de-mediawan-le-studio-francais-qui-conquiert-hollywood_643377"
+        "heure": "08h00",
+        "titre": "« Netflix est notre plus gros client » : les confidences du patron de Mediawan, derrière les succès comme Miraculous, Adolescence ou Dix pour cent",
+        "resume": "Dix ans après sa création, Mediawan s’impose comme un studio mondial. Son patron Pierre-Antoine Capton revient pour Challenges sur une décennie de conquête, entre Netflix, Brad Pitt et la révolution de l’IA.",
+        "url": "https://www.challenges.fr/entreprise/medias/netflix-est-notre-plus-gros-client-les-confidences-du-patron-de-mediawan-derriere-les-succes-comme-miraculous-adolescence-ou-dix-pour-cent_643383"
       }
     ]
   },
@@ -177,17 +188,10 @@
       },
       {
         "source": "Challenges",
-        "heure": "12h47",
-        "titre": "La transformation choc du BHV Marais officialisée : Aroxys va piloter l’avenir du bâtiment, et veut qu'un hôtel couronne l'édifice",
-        "resume": "Selon les informations de Challenges, la société de gestion de portefeuilles immobilier va piloter pour le compte de Brookfield le fonds qui financera la transformation du bâtiment du BHV Marais. Dans ses plans, notamment, la création d’un hôtel.",
-        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/la-transformation-choc-du-bhv-marais-officialisee-alors-que-des-grands-groupes-sont-interesses-un-hotel-couronnera-ledific_643460"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "De Dix pour cent à Netflix : l’ascension fulgurante de Mediawan, le studio français qui conquiert Hollywood",
-        "resume": "En dix ans, le groupe français est devenu l’un des principaux fournisseurs mondiaux de programmes pour le cinéma, les chaînes de télévision et les plateformes de streaming. Avec l’Amérique dans sa ligne de mire.",
-        "url": "https://www.challenges.fr/entreprise/culture/de-dix-pour-cent-a-netflix-lascension-fulgurante-de-mediawan-le-studio-francais-qui-conquiert-hollywood_643377"
+        "heure": "18h00",
+        "titre": "Havas s'offre un coup de jeune : pourquoi le géant de la pub s'empare de cette jeune agence française",
+        "resume": "Le groupe de communication Havas prend une participation majoritaire dans cette agence qui a renouvelé la communication corporate grâce à la vidéo et aux réseaux sociaux.",
+        "url": "https://www.challenges.fr/entreprise/medias/havas-soffre-un-coup-de-jeune-pourquoi-le-geant-de-la-pub-sempare-de-cette-jeune-agence-francaise_643480"
       },
       {
         "source": "Challenges",
@@ -198,10 +202,17 @@
       },
       {
         "source": "Challenges",
-        "heure": "15h18",
-        "titre": "« Directement issu des cartels » : comment un journaliste du Times a débusqué un système de blanchiment d’or au sein de la Monnaie Royale Canadienne",
-        "resume": "Une enquête révèle comment l’or de cartels colombiens, issu de mines illégales, est blanchi via la Monnaie royale canadienne en étant mélangé à de l’or nord-américain. La chaîne d’approvisionnement contourne les règles grâce à des failles bureaucrati",
-        "url": "https://www.challenges.fr/monde/directement-issu-des-cartels-comment-un-journaliste-du-new-york-times-a-debusque-un-systeme-de-blanchiment-dor-au-sein-de-la-monnaie-royale-canadienne_643447"
+        "heure": "12h47",
+        "titre": "La transformation choc du BHV Marais officialisée : Aroxys va piloter l’avenir du bâtiment, et veut qu'un hôtel couronne l'édifice",
+        "resume": "Selon les informations de Challenges, la société de gestion de portefeuilles immobilier va piloter pour le compte de Brookfield le fonds qui financera la transformation du bâtiment du BHV Marais. Dans ses plans, notamment, la création d’un hôtel.",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/la-transformation-choc-du-bhv-marais-officialisee-alors-que-des-grands-groupes-sont-interesses-un-hotel-couronnera-ledific_643460"
+      },
+      {
+        "source": "Challenges",
+        "heure": "10h42",
+        "titre": "Quatre frégates pour 4 milliards de dollars : le coup parfait de Naval Group en Suède",
+        "resume": "En remportant un contrat de quatre frégates FDI en Suède, face au britannique Babcock et à l’espagnol Navantia, Naval Group décroche son premier contrat dans la zone baltique et nordique. Et sécurise le plan de charge de son site de Lorient.",
+        "url": "https://www.challenges.fr/entreprise/defense/quatre-fregates-pour-4-milliards-de-dollars-le-coup-parfait-de-naval-group-en-suede_643479"
       }
     ]
   },
@@ -209,38 +220,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "20h00",
-        "titre": "En Chine, l’incroyable succès de Mixue, le roi du bubble tea à prix cassés",
-        "resume": "L’enseigne, originaire de la province du Henan, a ouvert 38 nouvelles boutiques par jour en 2025. Grâce à ses prix très bas et un contrôle de sa chaîne de valeur, cette marque de bubble tea va à l’encontre d’une consommation nationale en berne.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/18/en-chine-l-incroyable-succes-de-mixue-le-roi-du-bubble-tea-a-prix-casses_6691008_3234.html"
+        "heure": "19h00",
+        "titre": "« On s’est demandé où on allait comme ça, à ne même plus pouvoir payer nos propres factures » : un nouveau tribunal pour les agriculteurs en faillite",
+        "resume": "Depuis janvier 2025, dans 12 départements, les procédures amiables et collectives agricoles ne sont plus du ressort des tribunaux judiciaires, mais des tribunaux des activités économiques. Cette expérimentation, encore récente, suscite déjà des inter",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/19/on-s-est-demande-ou-on-allait-comme-ca-a-ne-meme-plus-pouvoir-payer-nos-propres-factures-un-nouveau-tribunal-pour-les-agriculteurs-en-faillite_6691502_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "12h30",
-        "titre": "« La France a six mois pour ne pas rater la prochaine vague industrielle de l’IA agentique »",
-        "resume": "Les transactions opérées en ligne par des agents IA explosent, et elles sont le plus souvent réglées en stablecoins. En maintenant une règle d’impôts inadaptée de l’avis même de la Cour des comptes, la France risque de rester à l’écart de cette révol",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/18/la-france-a-six-mois-pour-ne-pas-rater-la-prochaine-vague-industrielle-de-l-ia-agentique_6690864_3232.html"
+        "heure": "18h51",
+        "titre": "Face à la crise énergétique, l’Italie demande un traitement de faveur budgétaire",
+        "resume": "Affaiblie politiquement et à un peu plus d’un an des élections législatives, la présidente du conseil italien, Giorgia Meloni, met la Commission sous pression.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/19/face-a-la-crise-energetique-l-italie-demande-un-traitement-de-faveur-budgetaire_6691498_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "15h13",
+        "titre": "Face à la flambée des prix des engrais, la Commission européenne promet de débloquer des fonds",
+        "resume": "A plus long terme, l’exécutif communautaire veut inciter les Européens à produire plus d’engrais décarbonés sur leur sol.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/19/face-a-la-flambee-des-prix-des-engrais-bruxelles-promet-de-debloquer-des-fonds_6691474_3234.html"
       },
       {
         "source": "Le Monde Éco",
         "heure": "08h00",
-        "titre": "« La présidentielle de 2027 serait l’occasion de se demander jusqu’où la France peut financer son passé tout en préservant son avenir »",
-        "resume": "Dépenses de retraite et de santé, financement par le déficit… Le gouverneur de la Banque de France, François Villeroy de Galhau, alerte sur les conséquences des « choix gérontocratiques » faits par la nation ces dernières décennies. Il serait temps d",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/18/la-presidentielle-de-2027-serait-l-occasion-de-se-demander-jusqu-ou-la-france-peut-financer-son-passe-tout-en-preservant-son-avenir_6690553_3232.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "14h42",
-        "titre": "Les recettes mondiales des salles de cinéma encore loin de leur niveau d’avant le Covid-19",
-        "resume": "Les exploitants testent de nombreuses initiatives pour ramener le public en salle, comme des séances réservées aux adeptes de tricot ou de yoga.",
-        "url": "https://www.lemonde.fr/culture/article/2026/05/18/les-recettes-mondiales-des-salles-de-cinema-encore-loin-de-leur-niveau-d-avant-le-covid-19_6690877_3246.html"
+        "titre": "« Il existe un double besoin dans la transition écologique : des formations dans l’emploi et des formations permettant de changer d’emploi »",
+        "resume": "La formation des salariés est fondamentale pour enclencher la transition écologique dans l’ensemble des entreprises et des secteurs d’activité, explique dans sa chronique l’économiste Mathilde Guergoat-Larivière.",
+        "url": "https://www.lemonde.fr/emploi/article/2026/05/19/il-existe-un-double-besoin-dans-la-transition-ecologique-des-formations-dans-l-emploi-et-des-formations-permettant-de-changer-d-emploi_6691426_1698637.html"
       },
       {
         "source": "Challenges",
-        "heure": "06h45",
-        "titre": "« La moquerie fait place à l’inquiétude » : la Chine construit des sous-marins « redoutables » qui font  vaciller la domination américaine",
-        "resume": "Pékin démultiplie les efforts pour produire de nouveaux sous-marins plus performants au moment où les chantiers américains sont saturés. La domination du Pacifique est en jeu.",
-        "url": "https://www.challenges.fr/monde/la-moquerie-fait-place-a-linquietude-la-chine-construit-des-sous-marins-redoutables-qui-font-vaciller-la-domination-americaine_643368"
+        "heure": "18h30",
+        "titre": "« L’agriculture française décroche de façon inédite » : les dessous d’un débat à hauts risques qui ne rassasie personne",
+        "resume": "Le texte pour la protection et la souveraineté agricoles, débattu à partir de ce mardi 19 mai à l’Assemblée, devait calmer la colère paysanne. Raté. Il risque même de donner lieu à de belles empoignades autour des néonicotinoïdes et des projets de ba",
+        "url": "https://www.challenges.fr/entreprise/agriculture/lagriculture-francaise-decroche-de-facon-inedite-les-dessous-dun-debat-a-hauts-risques-qui-ne-rassasie-personne_643498"
       }
     ]
   },
@@ -248,45 +259,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "17h12",
-        "titre": "Gérald Darmanin, en visite en Algérie, entend « relancer » une coopération judiciaire « à l’arrêt depuis presque deux ans »",
-        "resume": "Le ministre de la justice a déclaré avoir abordé, lors d’un entretien avec son homologue algérien, la question de la criminalité organisée, en particulier le dossier de la DZ Mafia, mais aussi le cas du journaliste français Christophe Gleizes, incarc",
-        "url": "https://www.lemonde.fr/afrique/article/2026/05/18/gerald-darminin-le-ministre-de-la-justice-s-est-rendu-a-alger-une-nouvelle-etape-en-vue-d-une-detente-entre-les-deux-pays_6690887_3212.html"
+        "heure": "20h00",
+        "titre": "L’Assemblée nationale approuve 36 milliards d’euros supplémentaires pour la loi de programmation militaire 2024-2030",
+        "resume": "Malgré l’opposition de LFI et des Ecologistes, le projet de loi, qui fixe d’ici à 2030 les grandes orientations et les moyens des armées françaises, porte à 436 milliards d’euros les dépenses militaires prévues d’ici à la fin de la décennie.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/19/l-assemblee-nationale-approuve-36-milliards-d-euros-supplementaires-pour-la-loi-de-programmation-militaire-2024-2030_6691479_823449.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "12h50",
-        "titre": "En Nouvelle-Calédonie, le Congrès adopte de justesse un avis favorable à la réforme du corps électoral ; le texte examiné lundi au Sénat",
-        "resume": "La proposition de loi organique, examiné au Parlement à partir de lundi, prévoit l’intégration de 10 569 personnes nées en Nouvelle-Calédonie mais qui ne remplissent actuellement pas les conditions pour voter.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/18/en-nouvelle-caledonie-le-congres-adopte-de-justesse-un-avis-favorable-a-la-reforme-du-corps-electoral_6690866_823448.html"
+        "heure": "14h29",
+        "titre": "Emmanuel Macron relance le débat sur la consigne des bouteilles plastique malgré l’opposition des collectivités locales",
+        "resume": "Les associations d’élus ont fait part de leur opposition à toute proposition allant dans le sens de la consigne, qui les priverait d’une manne financière conséquente qu’elles tirent de la revente de plastique collecté dans les centres de tri.",
+        "url": "https://www.lemonde.fr/planete/article/2026/05/19/emmanuel-macron-relance-le-debat-sur-la-consigne-des-bouteilles-plastiques-malgre-l-opposition-des-collectivites-locales_6691470_3244.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "19h00",
-        "titre": "Nouvelle-Calédonie : devant le Sénat, l’obstination du gouvernement pour modifier le corps électoral",
-        "resume": "La proposition de loi pour élargir les listes des prochaines provinciales du 28 juin est examinée lundi 18 mai en urgence. Sur ce sujet sensible, qui a provoqué l’insurrection de 2024, Matignon pousse toujours à la réforme.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/17/nouvelle-caledonie-devant-le-senat-l-obstination-du-gouvernement-pour-modifier-le-corps-electoral_6690252_823448.html"
+        "heure": "14h00",
+        "titre": "Haute fonction publique : la feuille de route du nouveau directeur de l’INSP, l’établissement qui a remplacé l’ENA",
+        "resume": "Le premier ministre, Sébastien Lecornu, a adressé sa lettre de mission à Jérôme Filippini, nommé en janvier à la tête de l’Institut national du service public. Le haut fonctionnaire devra « poursuivre la diversification » au sein de l’établissement, ",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/19/haute-fonction-publique-la-feuille-de-route-du-nouveau-directeur-de-l-insp-l-etablissement-qui-a-remplace-l-ena_6691467_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "17h30",
-        "titre": "Le nombre de normes en vigueur atteint un nouveau sommet, avec 366 999 articles, 48,8 millions de mots, soit 113 jours de lecture…",
-        "resume": "Le secrétariat général du gouvernement a publié, vendredi 15 mai, l’édition 2026 de ses « indicateurs de suivi de l’activité normative ». La production de normes repart à la hausse et le corpus juridique actuellement en vigueur n’a jamais été aussi i",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/17/le-nombre-de-normes-en-vigueur-atteint-un-nouveau-sommet-avec-366-999-articles-48-8-millions-de-mots-soit-113-jours-de-lecture_6690238_823448.html"
+        "heure": "23h12",
+        "titre": "Nouvelle-Calédonie : le Sénat approuve l’élargissement du corps électoral des élections provinciales ; le texte examiné mercredi à l’Assemblée nationale",
+        "resume": "En présence du premier ministre, les sénateurs ont approuvé à 304 voix contre 20 cette proposition de loi organique qui prévoit l’intégration de 10 569 personnes nées en Nouvelle-Calédonie mais qui ne remplissent actuellement pas les conditions pour ",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/18/nouvelle-caledonie-le-senat-approuve-l-elargissement-du-corps-electoral-des-elections-provinciales-le-texte-examine-mercredi-a-l-assemblee-nationale_6691071_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "16h16",
-        "titre": "Laurent Jacobelli, porte-parole du RN, réclame une diplomatie de la « fermeté » vis-à-vis de l’Algérie, à la veille d’une visite sur place de Gérald Darmanin",
-        "resume": "Le député d’extrême droite de la Moselle était, dimanche midi, l’invité de l’émission « Questions politiques », présentée par Victoria Koussa avec Alix Bouilhaguet (France Télévisions) et Françoise Fressoz (« Le Monde »).",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/17/laurent-jacobelli-porte-parole-du-rn-reclame-une-diplomatie-de-la-fermete-vis-a-vis-de-l-algerie-a-la-veille-d-une-visite-sur-place-de-gerald-darmanin_6690192_823449.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "17h00",
-        "titre": "Quand les ambitions militaires de la France se heurtent au mur de la dette publique",
-        "resume": "Alors que les députés voteront ce mardi matin sur le projet de loi de programmation militaire, Bercy est contraint de freiner les ardeurs des armées, en raison de la situation budgétaire tendue et de la hausse inexorable de la charge d’intérêts.",
-        "url": "https://www.challenges.fr/entreprise/defense/quand-les-ambitions-militaires-de-la-france-se-heurtent-au-mur-de-la-dette-publique_643462"
+        "heure": "21h45",
+        "titre": "Gérald Darmanin, en visite en Algérie, dit avoir évoqué avec le président Abdelmadjid Tebboune « le travail que nous devons continuer à faire pour renouer la confiance » entre les deux pays",
+        "resume": "Plus tôt dans la journée, le ministre de la justice avait rencontré son homologue algérien. Durant l’entretien, les deux hommes avaient abordé la question de la criminalité organisée, en particulier le dossier de la DZ Mafia, mais aussi le cas du jou",
+        "url": "https://www.lemonde.fr/afrique/article/2026/05/18/gerald-darmanin-en-visite-en-algerie-dit-avoir-evoque-avec-le-president-abdelmadjid-tebboune-le-travail-que-nous-devons-continuer-a-faire-pour-renouer-la-confiance-entre-les-deux-pays_6690887_3213.html"
       }
     ]
   },
@@ -296,78 +300,64 @@
         "source": "Le Monde Éco",
         "heure": "20h09",
         "titre": "Taux d’intérêt en forte hausse : le Royaume-Uni, la France et l’Italie sous la pression des marchés financiers",
-        "resume": "La fermeture du détroit d’Ormuz fait craindre une poussée d’inflation prolongée, ce qui pousse à la hausse les taux d’intérêt partout à travers le monde. En Europe, trois grands pays sont particulièrement vulnérables.",
+        "resume": "La fermeture du détroit d’Ormuz fait craindre une poussée d’inflation prolongée, ce qui tire à la hausse les taux d’intérêt partout à travers le monde. En Europe, trois grands pays sont particulièrement vulnérables.",
         "url": "https://www.lemonde.fr/economie/article/2026/05/18/taux-d-interet-en-forte-hausse-royaume-uni-france-et-italie-sous-pression-des-marches-financiers_6691011_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "16h00",
-        "titre": "SCPI, OPCI et SC : après la crise, la relance des placements dans l’immobilier contrariée",
-        "resume": "Alors que les sociétés civiles de placement immobilier retrouvent doucement la confiance des épargnants, la conjoncture internationale pourrait venir freiner leur relance. Les autres placements, eux, continuent leur dégringolade.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/18/scpi-opci-et-sc-apres-la-crise-la-relance-de-la-pierre-papier-contrariee_6690881_1657007.html"
+        "heure": "19h30",
+        "titre": "Protection des fonctionnaires : le plan du gouvernement pour lutter contre les violences et les menaces",
+        "resume": "Dépôt de plainte, dispositifs de signalement, prévention… Le ministère de la fonction publique présentera, mardi 19 mai, son plan de protection des agents publics contre les violences et les menaces dont ils peuvent faire l’objet dans le cadre profes",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/18/protection-des-fonctionnaires-le-plan-du-gouvernement-pour-lutter-contre-les-violences-et-les-menaces_6691002_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "10h32",
-        "titre": "Immobilier : l’avenir de la pierre incertain",
-        "resume": "Taux d’intérêt qui se tendent, prix de l’immobilier qui ne baissent plus, placements perturbés par la crise… Les conséquences de la guerre au Moyen-Orient sur un secteur convalescent inquiètent.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/18/immobilier-l-avenir-de-la-pierre-incertain_6690726_1657007.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h45",
-        "titre": "Expulsions, impayés, loi de 1989 : la réforme explosive du logement relance un débat clé pour les investisseurs",
-        "resume": "Le chantier des relations locatives n’est plus tabou. Le gouvernement veut réviser la loi de 1989 et durcir le ton face aux « mauvais payeurs ». Mais face à la crise, faut-il multiplier les expulsions ou sécuriser les loyers ? Le débat est relancé.",
-        "url": "https://www.challenges.fr/immobilier/immobilier-entre-cadeaux-aux-investisseurs-et-traque-des-mauvais-payeurs-le-grand-chantier-des-rapports-locatifs-est-enfin-ouvert_643451"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "21h44",
-        "titre": "Prix des carburants : Sébastien Lecornu présentera jeudi un « nouveau paquet » d’aides pour le mois de juin",
-        "resume": "Ces aides visent à « protéger les Français qui travaillent et les secteurs économiques les plus touchés des effets de la hausse des prix du pétrole », a fait savoir Matignon. Le prix de l’essence en France s’affichait dimanche au plus haut depuis le ",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/17/prix-des-carburants-sebastien-lecornu-presentera-jeudi-un-nouveau-paquet-d-aides-pour-le-mois-de-juin_6690266_823448.html"
+        "heure": "18h00",
+        "titre": "En Argentine, toujours plus de ménages dans la spirale du crédit : « Mes dettes, j’y pense tout le temps, j’en fais des crises de panique »",
+        "resume": "Alors que le président ultralibéral, Javier Milei, entame la seconde partie de son mandat, de plus en plus d’Argentins peinent à rembourser leurs dettes qui, dans une économie à la peine, servent essentiellement à régler les achats du quotidien.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/19/en-argentine-toujours-plus-de-menages-dans-la-spirale-du-credit-mes-dettes-j-y-pense-tout-le-temps-j-en-fais-des-crises-de-panique_6691489_3234.html"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.687,
-        "prev": 2.606,
-        "diff": 0.081,
-        "trend": "up",
-        "date": "2026-05-15"
+        "rate": 2.64,
+        "prev": 2.687,
+        "diff": -0.047,
+        "trend": "down",
+        "date": "2026-05-18"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.83,
-        "prev": 2.735,
-        "diff": 0.095,
-        "trend": "up",
-        "date": "2026-05-15"
+        "rate": 2.789,
+        "prev": 2.83,
+        "diff": -0.04,
+        "trend": "down",
+        "date": "2026-05-18"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.195,
-        "prev": 3.099,
-        "diff": 0.096,
-        "trend": "up",
-        "date": "2026-05-15"
+        "rate": 3.172,
+        "prev": 3.195,
+        "diff": -0.023,
+        "trend": "down",
+        "date": "2026-05-18"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.6,
-        "prev": 3.517,
-        "diff": 0.083,
-        "trend": "up",
-        "date": "2026-05-15"
+        "rate": 3.593,
+        "prev": 3.6,
+        "diff": -0.007,
+        "trend": "down",
+        "date": "2026-05-18"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.607,
-        "prev": 3.548,
-        "diff": 0.06,
+        "rate": 3.611,
+        "prev": 3.607,
+        "diff": 0.004,
         "trend": "up",
-        "date": "2026-05-15"
+        "date": "2026-05-18"
       }
     ]
   },
