@@ -1,27 +1,24 @@
 {
-  "timestamp": "16h36 le 20/05/2026",
-  "alerte": {
-    "titre": "Volatilité obligataire extrême",
-    "detail": "Les taux américains atteignent des sommets inédits depuis la crise de 2008 (Challenges 10h15), créant une panique sur les marchés obligataires et impactant directement les décisions d'investissement européennes en immobilier tertiaire (-1,7Md€, Challenges 12h30)"
-  },
+  "timestamp": "16h24 le 21/05/2026",
+  "alerte": null,
   "synthese": {
-    "resume": "Les marchés obligataires connaissent une volatilité extrême avec les taux US à des niveaux jamais vus depuis 2008, paralyant l'investissement immobilier tertiaire en Europe. L'accord commercial transatlantique entre l'UE et les États-Unis apaise temporairement les tensions douanières, mais les enjeux géopolitiques (Chine, Russie, Taïwan) restent aigus. Le secteur technologique se restructure massivement (Meta : 7000 réaffectations), tandis que la BCE doit arbitrer entre soutien à la croissance et stabilité financière. Les nominations macronniennes (Banque de France, Conseil constitutionnel) cristallisent un malaise politique croissant.",
+    "resume": "SpaceX s'apprête à lever entre 1 750 et 2 000 Mds$ en Bourse avec une valorisation record, tandis que Stellantis annonce 60 Mds€ d'investissements mais réduit ses capacités de 800 000 unités. La Commission européenne détecte des risques de stagflation sur fond de conflit moyen-oriental, et la France maintient son attractivité d'investissements étrangers malgré le repli européen général.",
     "points": [
       {
-        "titre": "Marchés obligataires",
-        "detail": "Taux US inédits depuis subprimes (Challenges 55), spread crédit s'élargit, BCE suspendue dans sa décision (Challenges 54). Immobilier tertiaire gelé en attente de clarté monétaire."
+        "titre": "Marchés & Capitaux",
+        "detail": "SpaceX vise 1 750-2 000 Mds$ en IPO (record absolu). Nvidia multiplie bénéfice par 30 en 3 ans. Obligations US : taux atteignent niveaux inédits depuis crise subprimes. Europe : risque stagflation détecté par Commission européenne."
       },
       {
-        "titre": "Macro-économie",
-        "detail": "Japon inquiète : déficit budgétaire en expansion (Challenges 49). Régulation crypto appelée par Macron pour freiner financement terroriste (Monde 41). Union épargne-investissement européenne reste bloquée (Monde 25)."
+        "titre": "Macro & Conjoncture",
+        "detail": "Stagflation se profile en Europe, pénalisée par Moyen-Orient. Envolée CO₂ des data centers en France. Inflation énergétique : France doit maintenir aides « limitées, temporaires, ciblées » (FMI). Immobilier d'entreprise : pire début d'année depuis 10 ans."
       },
       {
-        "titre": "Entreprises et stratégies",
-        "detail": "Meta restructure massivement : 7000 réaffectés avant licenciements, pivot total vers l'IA (Challenges 74). Google annonce IA dans moteur recherche (Monde 0). Citroën prépare électrique low-cost type 2CV (Challenges 50). Stellantis monte unité Dongfeng à Rennes (Monde 13)."
+        "titre": "Stratégie Corporative",
+        "detail": "Stellantis : plan 60 Mds€/5 ans mais -800 k unités production Europe. Inditex lance Lefties en France vs Shein/Primark. Citroën prépare électrique bon marché (2CV). Samsung Electronics : grève générale évitée via intervention gouvernement. Google : James Manyika dénonce tergiversations IA France."
       },
       {
-        "titre": "Géopolitique et commerce",
-        "detail": "Accord UE-USA validé (Monde 5,19), éloigne risque douanier majeur. Villepin coupe ponts avec Chine avant présidentielle (Challenges 46). Taïwan se prépare à résister sans dépendre aveuglément des US (Challenges 69). IA menace millions d'emplois en Inde (Monde 1)."
+        "titre": "Géopolitique & Impact",
+        "detail": "Moyen-Orient : révèle vulnérabilités Égypte (armée dominante). Israël : Nétanyahou sous pression, législatives anticipées possibles. Trump : accord UE-US sur pacte commercial finalisé. Russie : escalade nucléaire marquant tournant stratégique."
       }
     ]
   },
@@ -29,8 +26,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 125",
-        "change": "+2.12%",
+        "value": "8 154",
+        "change": "+0.54%",
         "dir": "up"
       },
       {
@@ -41,20 +38,20 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 434",
-        "change": "+0.75%",
+        "value": "7 424",
+        "change": "+0.29%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "26 251",
-        "change": "+1.00%",
+        "value": "26 216",
+        "change": "+0.30%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1645",
-        "change": "+0.32%",
+        "value": "1.1635",
+        "change": "+0.08%",
         "dir": "up"
       },
       {
@@ -65,8 +62,8 @@
       },
       {
         "label": "Or",
-        "value": "4 552 $",
-        "change": "+1.54%",
+        "value": "4 570 $",
+        "change": "+0.52%",
         "dir": "up"
       },
       {
@@ -84,6 +81,13 @@
     ],
     "articles": [
       {
+        "source": "Le Monde Éco",
+        "heure": "10h12",
+        "titre": "Avec SpaceX, Elon Musk lance l’introduction en Bourse de tous les superlatifs, avec une valorisation espérée entre 1 750 et 2 000 milliards de dollars",
+        "resume": "A la faveur de la méga-introduction à Wall Street de son entreprise spatiale, l’homme le plus riche du monde devrait devenir le premier billionnaire de l’histoire. Sa rémunération, à hauteur d’environ 7,5 % du capital, est conditionnée à l’établissem",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/avec-spacex-elon-musk-lance-l-introduction-en-bourse-de-tous-les-superlatifs-dont-une-valorisation-esperee-entre-1-750-et-2-000-milliards-de-dollars_6691828_3234.html"
+      },
+      {
         "source": "Challenges",
         "heure": "10h15",
         "titre": "Panique sur les marchés obligataires : pourquoi les taux américains atteignent des sommets inédits depuis la crise des subprimes ?",
@@ -92,10 +96,24 @@
       },
       {
         "source": "Challenges",
-        "heure": "12h30",
-        "titre": "1,7 milliard d’euros de moins début 2026 : les investisseurs lèvent le pied sur l’immobilier tertiaire, suspendus à la décision de la BCE",
-        "resume": "Bureaux, commerces… Les investissements dans l’immobilier tertiaire ont chuté de 36 % au premier trimestre 2026, selon une étude de l’entreprise Savills. Une situation qui s’explique en partie par la prudence des investisseurs dans un contexte de gue",
-        "url": "https://www.challenges.fr/immobilier/17-milliard-deuros-de-moins-debut-2026-les-investisseurs-levent-le-pied-sur-limmobilier-tertiaire-suspendus-a-la-decision-de-la-bce_643523"
+        "heure": "15h30",
+        "titre": "Un marché potentiel de 28 500 milliards : ce que révèlent les documents financiers de SpaceX, dévoilés avant son entrée en Bourse",
+        "resume": "SpaceX révèle ses résultats financiers, affichant des pertes importantes malgré une forte croissance de son chiffre d’affaires. La société prépare une introduction en Bourse historique qui pourrait lever jusqu’à 75 milliards de dollars et enrichir co",
+        "url": "https://www.challenges.fr/entreprise/aeronautique/un-marche-potentiel-de-28-500-milliards-ce-que-revelent-les-documents-financiers-de-spacex-devoiles-avant-son-entree-en-bourse_643553"
+      },
+      {
+        "source": "Challenges",
+        "heure": "10h35",
+        "titre": "Un bénéfice multiplié par 30 en trois ans : le géant des puces Nvidia, mécanique d’une croissance insolente",
+        "resume": "Nvidia a publié ce mercredi 20 mai ses résultats pour le dernier trimestre, affichant un bénéfice net en hausse de 211 % sur un an, à 58,3 milliards de dollars. Le fabricant de puces continue de profiter du boom de l’IA et particulièrement de ses cen",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/un-benefice-multiplie-par-30-en-trois-ans-le-geant-des-puces-nvidia-mecanique-dune-croissance-insolente_643546"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h55",
+        "titre": "Nvidia fait mieux qu’attendu, l’usage du charbon en baisse dans le monde, les députés s’attaquent aux pesticides interdits… Ça s’est passé cette nuit",
+        "resume": "Nvidia dépasse encore les attentes grâce à l’IA, l’usage du charbon en baisse dans le monde en 2025, les députés votent l’interdiction d’importer toute denrée produite avec des pesticides interdits.",
+        "url": "https://www.challenges.fr/monde/nvidia-fait-mieux-quattendu-lusage-du-charbon-en-baisse-dans-le-monde-les-deputes-sattaquent-aux-pesticides-interdits-ca-sest-passe-cette-nuit_643545"
       },
       {
         "source": "Challenges",
@@ -103,13 +121,6 @@
         "titre": "Au Japon, l’inquiétude s’empare des marchés alors que la Première ministre agrandit le trou déjà béant dans les finances publiques",
         "resume": "La Première ministre du Japon veut atténuer le choc de la guerre en Iran et vient donc d’annoncer une nouvelle enveloppe budgétaire. Mais Sanae Takaichi est prise dans un cercle vicieux, où les solutions de court terme pèsent sur le long terme de l’é",
         "url": "https://www.challenges.fr/economie/au-japon-linquietude-sempare-des-marches-alors-que-la-premiere-ministre-agrandit-le-trou-deja-beant-dans-les-finances-publiques_643537"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "23h39",
-        "titre": "Emmanuel Macron appelle à réguler les cryptomonnaies, afin de ne pas se rendre « complices d’activités terroristes » ou « de criminalités organisées »",
-        "resume": "Le chef de l’Etat a exhorté, mardi, en marge de la réunion des ministres des finances du G7, à ne pas laisser s’installer un nouveau Far West financier.",
-        "url": "https://www.lemonde.fr/international/article/2026/05/19/emmanuel-macron-appelle-a-reguler-les-cryptomonnaies-afin-de-ne-pas-se-rendre-complices-d-activites-terroristes-ou-de-criminalites-organisees_6691542_3210.html"
       },
       {
         "source": "Challenges",
@@ -123,18 +134,11 @@
   "entreprises": {
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "17h30",
-        "titre": "7 000 salariés réaffectés avant des licenciements massifs chez Meta : une stratégie à marche forcée pour tout miser sur l’IA",
-        "resume": "Meta a annoncé lundi à ses employés la réaffectation de 7 000 salariés à de nouvelles initiatives autour de l’IA, une technologie pour laquelle l’entreprise continue de dépenser sans compter. Cette restructuration intervient alors que le géant des ré",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/7-000-salaries-reaffectes-avant-des-licenciements-massifs-chez-meta-une-strategie-a-marche-forcee-pour-tout-miser-sur-lia_643491"
-      },
-      {
-        "source": "Challenges",
-        "heure": "16h00",
-        "titre": "La rumeur se confirme : Citroën prépare une voiture électrique bon marché inspirée de la célèbre 2 CV",
-        "resume": "Pourtant vieille de 14 ans, la Panda pèse encore 8 % des ventes de Fiat en Italie. En France, des milliers de propriétaires de Citroën C1 attendent, eux, la petite auto bon marché qui saura lui succéder. Emanuele Cappellano, patron de Stellantis en E",
-        "url": "https://www.challenges.fr/automobile/la-rumeur-se-confirme-citroen-prepare-une-voiture-electrique-bon-marche-inspiree-de-la-celebre-2-cv_643529"
+        "source": "Le Monde Éco",
+        "heure": "16h55",
+        "titre": "Stellantis annonce un plan d’investissements de 60 milliards d’euros sur cinq ans, les capacités de production en Europe réduit de « plus de 800 000 unités »",
+        "resume": "Le plan stratégique annoncé par le constructeur automobile jeudi donne la priorité à quatre marques – Jeep, Ram, Peugeot et Fiat. Les marchés ont réagi avec une chute de plus de 6 % du cours de l’action, dont la cotation a été brièvement suspendue da",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/stellantis-annonce-un-plan-d-investissements-de-60-milliards-d-euros-sur-cinq-ans-les-capacites-de-production-en-europe-reduit-de-plus-de-800-000-unites_6691884_3234.html"
       },
       {
         "source": "Le Monde Éco",
@@ -144,43 +148,32 @@
         "url": "https://www.lemonde.fr/economie/article/2026/05/20/stellantis-va-accueillir-une-ligne-d-assemblage-de-voitures-dongfeng-sur-son-site-de-rennes_6691678_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "21h17",
-        "titre": "La patronne de KPMG France anticipe jusqu’à 30 % de gains de productivité grâce à l’IA Claude",
-        "resume": "La présidente de KPMG France, Marie Guillemot, explique l’accord mondial signé avec Anthropic, ce 19 mai, qui donnera accès à Claude AI aux 276 000 collaborateurs du groupe d’audit et de conseil.",
-        "url": "https://www.challenges.fr/entreprise/la-patronne-de-kpmg-france-anticipe-jusqua-30-de-gains-de-productivite-grace-a-lia-claude_643519"
+        "source": "Le Monde Éco",
+        "heure": "12h14",
+        "titre": "Chez Google, James Manyika déplore les tergiversations sur l’IA : « C’est une situation désastreuse pour les utilisateurs français »",
+        "resume": "Le vice-président senior technologie et société de Google regrette que les innovations de son groupe ne soient pas déployées en France, pays qu’il juge trop réfractaire. Il se veut rassurant sur les risques que représente l’intelligence artificielle ",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/chez-google-james-manyika-deplore-les-tergiversations-sur-l-ia-c-est-une-situation-desastreuse-pour-les-utilisateurs-francais_6691841_3234.html"
       },
-      {
-        "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Havas s'offre un coup de jeune : pourquoi le géant de la pub s'empare de cette jeune agence française",
-        "resume": "Le groupe de communication Havas prend une participation majoritaire dans l'agence Format qui a renouvelé la communication corporate grâce à la vidéo et aux réseaux sociaux.",
-        "url": "https://www.challenges.fr/entreprise/medias/havas-soffre-un-coup-de-jeune-pourquoi-le-geant-de-la-pub-sempare-de-cette-jeune-agence-francaise_643480"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "13h43",
-        "titre": "« Le Club Med, c’est du soleil, des nanas et des capitaux chinois »",
-        "resume": "La holding chinoise Fosun, propriétaire à 100 % du Club Med, a choisi de coter l’opérateur touristique sur la Bourse de Hongkong. C’est l’ultime signe d’une reprise en main de l’opérateur touristique, estime Isabelle Chaperon, chroniqueuse au service",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/20/le-club-med-c-est-du-soleil-des-nanas-et-des-capitaux-chinois_6691700_3234.html"
+        "heure": "11h46",
+        "titre": "En Corée du Sud, l’intervention du gouvernement évite une grève générale chez Samsung Electronics",
+        "resume": "Le syndicat de Samsung appelait à cesser le travail dix-huit jours, un mouvement qui risquait de déstabiliser le marché mondial des semi-conducteurs. Le ministre du travail a orchestré un compromis, notamment sur le partage des profits.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/en-coree-du-sud-l-intervention-du-gouvernement-evite-une-greve-generale-chez-samsung-electronics_6691835_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Havas s'offre un coup de jeune : pourquoi le géant de la pub s'empare de cette jeune agence française",
-        "resume": "Le groupe de communication Havas prend une participation majoritaire dans l'agence Format qui a renouvelé la communication corporate grâce à la vidéo et aux réseaux sociaux.",
-        "url": "https://www.challenges.fr/entreprise/medias/havas-soffre-un-coup-de-jeune-pourquoi-le-geant-de-la-pub-sempare-de-cette-jeune-agence-francaise_643480"
+        "heure": "06h45",
+        "titre": "« Boiron peut capitaliser sur sa marque » : le leader mondial change de cap à marche forcée pour se sevrer de l’homéopathie",
+        "resume": "Plans de restructuration, catalogue rationalisé, offre adaptée au vieillissement de la population… Depuis 2021 et le choc du déremboursement de ses produits historiques, le leader mondial de l’homéopathie a opéré un repositionnement stratégique qui c",
+        "url": "https://www.challenges.fr/entreprise/sante/boiron-peut-capitaliser-sur-sa-marque-le-leader-mondial-change-de-cap-a-marche-forcee-pour-se-sevrer-de-lhomeopathie_643514"
       },
       {
         "source": "Challenges",
-        "heure": "10h42",
-        "titre": "Quatre frégates pour 4 milliards de dollars : le coup parfait de Naval Group en Suède",
-        "resume": "En remportant un contrat de quatre frégates FDI en Suède, face au britannique Babcock et à l’espagnol Navantia, Naval Group décroche son premier contrat dans la zone baltique et nordique. Et sécurise le plan de charge de son site de Lorient.",
-        "url": "https://www.challenges.fr/entreprise/defense/quatre-fregates-pour-4-milliards-de-dollars-le-coup-parfait-de-naval-group-en-suede_643479"
+        "heure": "13h00",
+        "titre": "« Rendre la mode accessible à tous » : Lefties, la contre-attaque musclée du leader mondial Inditex face à Shein et Primark",
+        "resume": "Ce jeudi 21 mai, le géant espagnol de la mode Inditex inaugure en France son premier magasin Lefties. Une enseigne accessible qui vient chatouiller Shein et Primark.",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/rendre-la-mode-accessible-a-tous-lefties-la-contre-attaque-musclee-du-leader-mondial-inditex-face-a-shein-et-primark_643501"
       },
       {
         "source": "Challenges",
@@ -188,52 +181,112 @@
         "titre": "Paris en ligne, séries, télévision : Banijay bâtit un champion mondial du divertissement",
         "resume": "Après le rachat du champion allemand des paris en ligne Tipico, le groupe français s’est uni All3Media pour devenir le premier producteur indépendant de films et de séries au monde.",
         "url": "https://www.challenges.fr/entreprise/culture/paris-en-ligne-series-television-banijay-batit-un-champion-mondial-du-divertissement_643378"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "20h18",
+        "titre": "Pour contrer Primark et Shein, Inditex lance Lefties en France",
+        "resume": "L’enseigne d’habillement à petits prix a inauguré un premier magasin dans le centre commercial Central Parc Valvert, dans l’Essonne, et en prévoit un autre, d’une superficie de 8 500 m², cet automne, à Rosny 2, en Seine-Saint-Denis.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/pour-contrer-primark-et-shein-inditex-lance-lefties-en-france_6691915_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "19h29",
-        "titre": "« Fortnite » revient par surprise dans l’App Store",
-        "resume": "Le jeu vidéo phare d’Epic Games était absent du magasin d’application d’Apple depuis l’été 2020. Le bras de fer judiciaire avec le géant américain se poursuit néanmoins.",
-        "url": "https://www.lemonde.fr/pixels/article/2026/05/19/fortnite-revient-par-surprise-dans-l-app-store_6691506_4408996.html"
+        "heure": "20h17",
+        "titre": "Shopping, sport et loisirs : un nouveau centre commercial XXL ouvre dans l’Essonne",
+        "resume": "Le centre commercial de Valvert Croix-Blanche, à Sainte-Geneviève-des-Bois, propose 65 000 mètres carrés de commerces, de restaurants et d’espaces de divertissement sur un parc de 11 hectares. Un investissement de 183 millions d’euros.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/shopping-sport-et-loisirs-un-nouveau-centre-commercial-xxl-ouvre-dans-l-essonne_6691914_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "16h00",
+        "titre": "La rumeur se confirme : Citroën prépare une voiture électrique bon marché inspirée de la célèbre 2 CV",
+        "resume": "Pourtant vieille de 14 ans, la Panda pèse encore 8 % des ventes de Fiat en Italie. En France, des milliers de propriétaires de Citroën C1 attendent, eux, la petite auto bon marché qui saura lui succéder. Emanuele Cappellano, patron de Stellantis en E",
+        "url": "https://www.challenges.fr/automobile/la-rumeur-se-confirme-citroen-prepare-une-voiture-electrique-bon-marche-inspiree-de-la-celebre-2-cv_643529"
+      },
+      {
+        "source": "Challenges",
+        "heure": "18h00",
+        "titre": "Panneaux solaires : après le coup de massue de Carbon, cet autre projet français refuse de jeter l'éponge face aux chinois",
+        "resume": "L’abandon du projet Carbon dans les Bouches-du-Rhône a douché le secteur du photovoltaïque. Les Chinois ont-ils définitivement gagné la partie ? Non, il reste encore un projet français de panneaux solaires à Hambach en Moselle.",
+        "url": "https://www.challenges.fr/entreprise/panneaux-solaires-apres-le-coup-de-massue-de-carbon-cet-autre-projet-francais-refuse-de-jeter-leponge-face-aux-chinois_643555"
+      },
+      {
+        "source": "Challenges",
+        "heure": "11h42",
+        "titre": "K Club Group ou comment investir à Bali avec méthode, vision et exigence",
+        "resume": "À Bali, l'immobilier fait rêver. Rendements affichés à deux chiffres, villas instagrammables, tourisme en pleine croissance... Sur le papier, tout semble simple. Sur le terrain, la réalité est plus nuancée. Saturation de l'offre, projections irréalis",
+        "url": "https://www.challenges.fr/immobilier/k-club-group-ou-comment-investir-a-bali-avec-methode-vision-et-exigence_643549"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h55",
+        "titre": "Banque de France : la nomination d’Emmanuel Moulin relance le procès en verrouillage des institutions par Macron",
+        "resume": "Avec la nomination d’Emmanuel Moulin à la Banque de France et l’entrée en fonctions de Marc Guillaume au Conseil d’Etat, Emmanuel Macron parachève les nominations au sommet des plus hautes instances de l’Etat avant la présidentielle. De quoi alimente",
+        "url": "https://www.challenges.fr/politique/banque-de-france-la-nomination-demmanuel-moulin-relance-le-proces-en-verrouillage-des-institutions-par-macron_643538"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h41",
+        "titre": "L’UE s’accorde sur le pacte commercial avec Washington, Xi et Poutine affichent leur proximité, la grève confirmée à Samsung… Ça s’est passé cette nuit",
+        "resume": "L’UE s’accorde pour appliquer le pacte commercial avec les Etats-Unis, Xi Jinping et Vladimir Poutine affirment le caractère « inébranlable » des relations Chine/Russie, la grève confirmée à Samsung en Corée du Sud à partir de jeudi.",
+        "url": "https://www.challenges.fr/monde/lue-saccorde-sur-le-pacte-commercial-avec-washington-xi-et-poutine-affichent-leur-proximite-la-greve-confirmee-a-samsung-ca-sest-passe-cette-nuit_643521"
       }
     ]
   },
   "macro": {
     "articles": [
       {
+        "source": "Le Monde Éco",
+        "heure": "19h40",
+        "titre": "En France, l’inquiétante envolée des émissions de CO₂ des data centers",
+        "resume": "De plus en plus voraces en énergie, les data centers ont vu leurs émissions de gaz à effet de serre croître de 23 % en 2024 en France, selon une étude. Cette tendance devrait aller crescendo alors que le pays investit massivement dans ces installatio",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/en-france-l-inquietante-envolee-des-emissions-de-co-des-data-centers_6691905_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "19h04",
+        "titre": "Crise énergétique : la réponse de la France doit rester « limitée, temporaire et ciblée », selon le FMI",
+        "resume": "Le Fonds monétaire international a abaissé sa prévision de croissance du PIB français de 0,9 % en 2025 à 0,7 % pour 2026 dans son dernier rapport sur les finances publiques françaises, en raison des conséquences économiques du conflit au Moyen-Orient",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/crise-energetique-la-reponse-de-la-france-doit-rester-limitee-temporaire-et-ciblee-selon-le-fmi_6691902_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h30",
+        "titre": "La Commission européenne voit le piège de la stagflation se refermer sur l’Europe, pénalisée par le conflit au Moyen-Orient",
+        "resume": "La croissance de la zone euro ne devrait pas dépasser 0,9 % en 2026, tandis que l’inflation devrait culminer à 3 %, au détriment du pouvoir d’achat des ménages. Bruxelles redoute également des pénuries de produits pétroliers raffinés, hélium et engra",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/la-commission-voit-le-piege-de-la-stagflation-se-refermer-sur-l-europe-penalisee-par-le-conflit-au-moyen-orient_6691855_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "12h00",
+        "titre": "La guerre au Moyen-Orient révèle les vulnérabilités structurelles de l’économie égyptienne, sous la coupe de l’armée",
+        "resume": "Le blocage du détroit d’Ormuz et la flambée des cours des hydrocarbures fragilisent le pays, très dépendant du tourisme comme des entreprises sous la coupe de l’Etat, et dépourvu d’une véritable base industrielle.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/la-guerre-au-moyen-orient-revele-les-vulnerabilites-structurelles-de-l-economie-egyptienne-sous-la-coupe-de-l-armee_6691838_3234.html"
+      },
+      {
         "source": "Challenges",
-        "heure": "17h30",
-        "titre": "Au Japon, l’inquiétude s’empare des marchés alors que la Première ministre agrandit le trou déjà béant dans les finances publiques",
-        "resume": "La Première ministre du Japon veut atténuer le choc de la guerre en Iran et vient donc d’annoncer une nouvelle enveloppe budgétaire. Mais Sanae Takaichi est prise dans un cercle vicieux, où les solutions de court terme pèsent sur le long terme de l’é",
-        "url": "https://www.challenges.fr/economie/au-japon-linquietude-sempare-des-marches-alors-que-la-premiere-ministre-agrandit-le-trou-deja-beant-dans-les-finances-publiques_643537"
+        "heure": "12h30",
+        "titre": "Immobilier d'entreprise : Le marché français enregistre l’un de ses pires débuts d’année depuis 10 ans",
+        "resume": "Bureaux, commerces… Les investissements dans l’immobilier tertiaire ont chuté de 36 % au premier trimestre 2026, selon une étude de l’entreprise Savills. Une situation qui s’explique en partie par la prudence des investisseurs dans un contexte de gue",
+        "url": "https://www.challenges.fr/immobilier/17-milliard-deuros-de-moins-debut-2026-les-investisseurs-levent-le-pied-sur-limmobilier-tertiaire-suspendus-a-la-decision-de-la-bce_643523"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "13h00",
-        "titre": "« L’Union de l’épargne et de l’investissement, c’est l’Arlésienne de l’Europe »",
-        "resume": "L’opposition de Berlin au rachat de la banque allemande Commerzbank par l’italien UniCredit montre que l’UE reste incapable de créer des champions multinationaux dans ce secteur, souligne Isabelle Chaperon, chroniqueuse au service Economie du « Monde",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/19/l-union-de-l-epargne-et-de-l-investissement-c-est-l-arlesienne-de-l-europe_6691458_3234.html"
+        "source": "Challenges",
+        "heure": "05h00",
+        "titre": "Attractivité de la France : le coup de frein des groupes étrangers sur l’industrie",
+        "resume": "Selon le baromètre EY de l’attractivité, les créations d’emplois industriels liées aux investisseurs étrangers ralentissent fortement alors que plusieurs groupes internationaux ferment des sites en France.",
+        "url": "https://www.challenges.fr/entreprise/industrie/attractivite-de-la-france-le-coup-de-frein-des-groupes-etrangers-sur-lindustrie_643496"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "19h30",
-        "titre": "En Inde, l’IA menace des millions d’emplois dans la sous-traitance des services informatiques",
-        "resume": "Considéré comme le « back-office » du monde, le pays voit fleurir des centres de données pour soutenir l’intelligence artificielle, dont l’essor risque de fragiliser les secteurs des centres d’appels et des services clients et administratifs.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/20/en-inde-l-ia-menace-des-millions-d-emplois-dans-la-sous-traitance-des-services-informatiques_6691751_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "23h39",
-        "titre": "Emmanuel Macron appelle à réguler les cryptomonnaies, afin de ne pas se rendre « complices d’activités terroristes » ou « de criminalités organisées »",
-        "resume": "Le chef de l’Etat a exhorté, mardi, en marge de la réunion des ministres des finances du G7, à ne pas laisser s’installer un nouveau Far West financier.",
-        "url": "https://www.lemonde.fr/international/article/2026/05/19/emmanuel-macron-appelle-a-reguler-les-cryptomonnaies-afin-de-ne-pas-se-rendre-complices-d-activites-terroristes-ou-de-criminalites-organisees_6691542_3210.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "« Il existe un double besoin dans la transition écologique : des formations dans l’emploi et des formations permettant de changer d’emploi »",
-        "resume": "La formation des salariés est fondamentale pour enclencher la transition écologique dans l’ensemble des entreprises et des secteurs d’activité, explique dans sa chronique l’économiste Mathilde Guergoat-Larivière.",
-        "url": "https://www.lemonde.fr/emploi/article/2026/05/19/il-existe-un-double-besoin-dans-la-transition-ecologique-des-formations-dans-l-emploi-et-des-formations-permettant-de-changer-d-emploi_6691426_1698637.html"
+        "source": "Challenges",
+        "heure": "06h30",
+        "titre": "Nourrir pour ne pas mourir : comment la science a été marginalisée dans le débat agricole",
+        "resume": "Alors que les discours officiels célèbrent la science, la loi d’urgence agricole marque un net recul des exigences environnementales et sanitaires face aux pressions économiques du secteur.",
+        "url": "https://www.challenges.fr/entreprise/agriculture/nourrir-pour-ne-pas-mourir-comment-la-science-a-ete-marginalisee-dans-le-debat-agricole_643489"
       }
     ]
   },
@@ -241,38 +294,52 @@
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "15h05",
-        "titre": "Droits de douane : les Européens valident l’accord avec les Etats-Unis et posent des garde-fous",
-        "resume": "Le Parlement européen et les 27 Etats membres sont parvenus à un accord, mercredi 20 mai au matin, dont ils espèrent qu’il évitera une escalade avec Donald Trump. La plupart des importations américaines ne seront pas taxées.",
-        "url": "https://www.lemonde.fr/international/article/2026/05/20/droits-de-douane-les-europeens-valident-l-accord-avec-washington-et-posent-des-garde-fous_6691718_3210.html"
+        "heure": "04h31",
+        "titre": "L’Assemblée nationale vote pour l’interdiction de l’importation de biens alimentaires produits avec des pesticides interdits en France",
+        "resume": "Des députés RN, LFI et écologistes ont réécrit en ce sens un article du projet de loi d’urgence agricole. La ministre de l’agriculture a dénoncé un texte contraire au droit européen.",
+        "url": "https://www.lemonde.fr/planete/article/2026/05/21/l-assemblee-nationale-vote-pour-l-interdiction-de-l-importation-de-biens-alimentaires-produits-avec-des-pesticides-interdits-en-france_6691798_3244.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "05h22",
-        "titre": "Droits de douane : les Européens s’entendent pour la mise en œuvre de l’accord avec les Etats-Unis ; Ursula von der Leyen salue un pas vers « un commerce transatlantique stable »",
-        "resume": "Donald Trump a menacé l’UE de nouveaux tarifs douaniers si l’accord signé à l’été 2025 en Ecosse n’était pas ratifié avant le 4 juillet.",
-        "url": "https://www.lemonde.fr/international/article/2026/05/20/droits-de-douane-les-europeens-s-entendent-pour-la-mise-en-uvre-de-l-accord-commercial-avec-les-etats-unis_6691652_3210.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h30",
-        "titre": "Pourquoi Dominique de Villepin coupe (enfin) ses ponts avec la Chine avant de se lancer dans la campagne présidentielle",
-        "resume": "Le candidat déclaré à l’élection présidentielle multiplie encore les conférences à Hong Kong avant de mettre un terme définitif à ses activités dans les cercles académiques et économiques proches de Pékin. Une ultime tournée asiatique qui remet en lu",
-        "url": "https://www.challenges.fr/politique/pourquoi-dominique-de-villepin-coupe-enfin-ses-ponts-avec-la-chine-avant-de-se-lancer-dans-la-campagne-presidentielle_643536"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h45",
-        "titre": "« Pas de marchandage » : comment Taïwan s’organise pour résister à la Chine sans s’en remettre aveuglément aux États-Unis",
-        "resume": "Après le voyage de Trump en Chine, les officiels taïwanais mettent en avant la notion de statu quo, une ligne de défense politique alors que dans le même temps Taïpei entend renforcer son indépendance tant vis-à-vis de la Chine que des Etats-Unis.",
-        "url": "https://www.challenges.fr/monde/pas-de-marchandage-comment-taiwan-sorganise-pour-resister-a-la-chine-sans-sen-remettre-aveuglement-aux-etats-unis_643513"
+        "heure": "23h00",
+        "titre": "Emmanuel Moulin nommé gouverneur de la Banque de France, malgré sa proximité avec Emmanuel Macron",
+        "resume": "Le Parlement a validé, mercredi 20 mai, la nomination de l’ancien secrétaire général de l’Elysée, même si, de la gauche à l’extrême droite, de nombreux élus le jugent trop « politique ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/20/emmanuel-moulin-nomme-gouverneur-de-la-banque-de-france-malgre-sa-proximite-avec-emmanuel-macron_6691785_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "17h33",
-        "titre": "Au G7, les Etats-Unis font tout pour ne pas faire apparaître les mots « changement climatique » dans le communiqué",
-        "resume": "La France a commandé une étude sur conséquences économiques des « événements météorologiques extrêmes » au réseau des banques centrales travaillant sur les conséquences du réchauffement climatique, dont la Réserve fédérale américaine s’est retirée.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/20/au-g7-les-etats-unis-font-tout-pour-ne-pas-faire-apparaitre-le-mot-changement-climatique-dans-le-communique_6691733_3234.html"
+        "heure": "10h17",
+        "titre": "Nouvelle-Calédonie : l’Assemblée nationale adopte la modification du corps électoral, mais la reprise du dialogue reste incertaine",
+        "resume": "L’Assemblée nationale a adopté, mercredi 20 mai, une loi organique permettant d’inscrire d’office 10 500 enfants d’électeurs, jusqu’ici exclus de ce scrutin territorial majeur. Une étape importante avant les élections provinciales du 28 juin.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/21/nouvelle-caledonie-l-assemblee-nationale-adopte-la-modification-du-corps-electoral-mais-la-reprise-du-dialogue-reste-incertaine_6691829_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h00",
+        "titre": "Présidentielle 2027 : Edouard Philippe veut s’imposer comme le principal adversaire du RN",
+        "resume": "Le candidat Horizons veut apparaître comme le vote utile dès le premier tour pour les électeurs refusant la perspective d’un second tour RN-LFI. Il tiendra son premier meeting de campagne deux jours avant la décision du procès en appel des assistants",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/21/presidentielle-2027-edouard-philippe-veut-s-imposer-comme-le-principal-adversaire-du-rn_6691821_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "21h00",
+        "titre": "Projet de loi « Etat local » : à défaut de décentraliser, le gouvernement veut renforcer les pouvoirs des préfets",
+        "resume": "Le gouvernement a présenté en conseil des ministres, mercredi 20 mai, le projet de loi visant à « renforcer l’Etat local ». Loin des ambitions affichées initialement, le texte ne contient pas de mesures de décentralisation et suscite de nombreuses ré",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/20/projet-de-loi-etat-local-a-defaut-de-decentraliser-le-gouvernement-veut-renforcer-les-pouvoirs-des-prefets_6691774_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "20h38",
+        "titre": "Nouvelle-Calédonie : l’élargissement du corps électoral aux natifs calédoniens pour les élections provinciales définitivement adopté",
+        "resume": "La proposition de loi organique sur laquelle s’appuyait le gouvernement, et qui ouvre le corps électoral à quelque 10 500 natifs aujourd’hui privés de bulletin, a été adoptée par 386 voix contre 127, lors d’un dernier vote à l’Assemblée nationale.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/20/nouvelle-caledonie-l-elargissement-du-corps-electoral-aux-natifs-caledoniens-pour-les-elections-provinciales-definitivement-adopte_6691767_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "19h07",
+        "titre": "Affaire Edouard Philippe au Havre : le candidat à la présidentielle affiche sa « sérénité » après l’ouverture d’une information judiciaire",
+        "resume": "Le candidat Horizons pour 2027 dément les accusations portées par une fonctionnaire de la communauté urbaine du Havre. L’information judiciaire va être ouverte notamment pour « favoritisme », « détournement de fonds publics » et « prise illégale d’in",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/20/affaire-edouard-philippe-au-havre-le-candidat-a-la-presidentielle-affiche-sa-serenite-apres-l-ouverture-d-une-information-judiciaire_6691749_823448.html"
       }
     ]
   },
@@ -287,73 +354,87 @@
       },
       {
         "source": "Challenges",
-        "heure": "12h30",
-        "titre": "1,7 milliard d’euros de moins début 2026 : les investisseurs lèvent le pied sur l’immobilier tertiaire, suspendus à la décision de la BCE",
-        "resume": "Bureaux, commerces… Les investissements dans l’immobilier tertiaire ont chuté de 36 % au premier trimestre 2026, selon une étude de l’entreprise Savills. Une situation qui s’explique en partie par la prudence des investisseurs dans un contexte de gue",
-        "url": "https://www.challenges.fr/immobilier/17-milliard-deuros-de-moins-debut-2026-les-investisseurs-levent-le-pied-sur-limmobilier-tertiaire-suspendus-a-la-decision-de-la-bce_643523"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h58",
-        "titre": "La perspective de nouveaux droits de douane s’éloigne pour l’UE : Bruxelles parvient enfin à s’accorder sur le pacte commercial avec les Etats-Unis",
-        "resume": "Les représentants du Parlement européen et des Etats membres sont parvenus, ce mercredi 20 mai, à un compromis provisoire sur la mise en œuvre de l’accord commercial conclu l’été dernier entre l’UE et les Etats-Unis. Donald Trump a menacé de relever ",
-        "url": "https://www.challenges.fr/economie/la-perspective-de-nouveaux-droits-de-douane-seloigne-pour-lue-bruxelles-parvient-enfin-a-saccorder-sur-le-pacte-commercial-avec-les-etats-unis_643525"
-      },
-      {
-        "source": "Challenges",
-        "heure": "17h55",
-        "titre": "Banque de France : la nomination d’Emmanuel Moulin relance le procès en verrouillage des institutions par Macron",
-        "resume": "Avec la nomination d’Emmanuel Moulin à la Banque de France et l’entrée en fonctions de Marc Guillaume au Conseil d’Etat, Emmanuel Macron parachève les nominations au sommet des plus hautes instances de l’Etat avant la présidentielle. De quoi alimente",
-        "url": "https://www.challenges.fr/politique/banque-de-france-la-nomination-demmanuel-moulin-relance-le-proces-en-verrouillage-des-institutions-par-macron_643538"
+        "heure": "17h30",
+        "titre": "Au Japon, l’inquiétude s’empare des marchés alors que la Première ministre agrandit le trou déjà béant dans les finances publiques",
+        "resume": "La Première ministre du Japon veut atténuer le choc de la guerre en Iran et vient donc d’annoncer une nouvelle enveloppe budgétaire. Mais Sanae Takaichi est prise dans un cercle vicieux, où les solutions de court terme pèsent sur le long terme de l’é",
+        "url": "https://www.challenges.fr/economie/au-japon-linquietude-sempare-des-marches-alors-que-la-premiere-ministre-agrandit-le-trou-deja-beant-dans-les-finances-publiques_643537"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "22h59",
-        "titre": "Grandes fortunes : Eric Lombard relance son projet de taxe à 2 milliards d’euros",
-        "resume": "L’ancien ministre de l’économie a présenté en détail, mardi 19 mai, le projet de contribution sur les hauts patrimoines qu’il avait préparé lorsqu’il était à Bercy. Elle serait, selon lui, plus juste et efficace que la taxe sur les holdings votée dan",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/19/grandes-fortunes-eric-lombard-relance-son-projet-de-taxe-a-2-milliards-d-euros_6691538_823448.html"
+        "heure": "18h19",
+        "titre": "EN DIRECT, carburants : le gouvernement annonce 710 millions d’euros de nouvelles aides ; le plafond des primes défiscalisées versées par les employeurs porté de 300 à 600 euros",
+        "resume": "Lors d’une conférence de presse avec différents ministres, Sébastien Lecornu a estimé que la guerre au Moyen-Orient allait « durer » et annonce qu’« il va falloir faire un certain nombre d’économies ». David Amiel, ministre de l’action et des comptes",
+        "url": "https://www.lemonde.fr/politique/live/2026/05/21/en-direct-carburants-sebastien-lecornu-presente-de-nouvelles-aides-apres-la-hausse-des-prix-de-l-energie_6691897_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "19h04",
+        "titre": "Crise énergétique : la réponse de la France doit rester « limitée, temporaire et ciblée », selon le FMI",
+        "resume": "Le Fonds monétaire international a abaissé sa prévision de croissance du PIB français de 0,9 % en 2025 à 0,7 % pour 2026 dans son dernier rapport sur les finances publiques françaises, en raison des conséquences économiques du conflit au Moyen-Orient",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/crise-energetique-la-reponse-de-la-france-doit-rester-limitee-temporaire-et-ciblee-selon-le-fmi_6691902_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h00",
+        "titre": "La commission d’enquête du Sénat sur les marges des industriels et de la distribution tire à boulets rouges sur les grandes surfaces et leurs centrales d’achat",
+        "resume": "Sur 100 euros de valeur alimentaire, 8 reviennent à l’agriculteur, 14 à l’industriel et 40 au distributeur, dévoile le rapport publié jeudi 21 mai par la commission d’enquête sénatoriale présidée par Anne-Catherine Loisier. Les sénateurs dénoncent un",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/la-commission-d-enquete-du-senat-sur-les-marges-des-industriels-et-de-la-distribution-tire-a-boulet-rouge-sur-les-grandes-surfaces-et-leurs-centrales-d-achat_6691848_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "00h08",
+        "titre": "Attractivité des investissements étrangers : la France toujours en tête dans une Europe en repli, selon EY",
+        "resume": "La France est le pays d’Europe qui a attiré le plus d’investissements étrangers en 2025, selon le baromètre EY publié jeudi 21 mai, dans un contexte de baisse générale du nombre de projets et d’emplois associés.",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/05/20/attractivite-des-investissements-etrangers-la-france-toujours-en-tete-dans-une-europe-en-repli-selon-ey_6691789_1656968.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "18h30",
+        "titre": "Pourquoi Dominique de Villepin coupe (enfin) ses ponts avec la Chine avant de se lancer dans la campagne présidentielle",
+        "resume": "Le candidat déclaré à l’élection présidentielle multiplie encore les conférences à Hong Kong avant de mettre un terme définitif à ses activités dans les cercles académiques et économiques proches de Pékin. Une ultime tournée asiatique qui remet en lu",
+        "url": "https://www.challenges.fr/politique/pourquoi-dominique-de-villepin-coupe-enfin-ses-ponts-avec-la-chine-avant-de-se-lancer-dans-la-campagne-presidentielle_643536"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.689,
-        "prev": 2.64,
-        "diff": 0.049,
-        "trend": "up",
-        "date": "2026-05-19"
+        "rate": 2.673,
+        "prev": 2.689,
+        "diff": -0.016,
+        "trend": "down",
+        "date": "2026-05-20"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.847,
-        "prev": 2.789,
-        "diff": 0.057,
-        "trend": "up",
-        "date": "2026-05-19"
+        "rate": 2.818,
+        "prev": 2.847,
+        "diff": -0.028,
+        "trend": "down",
+        "date": "2026-05-20"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.22,
-        "prev": 3.172,
-        "diff": 0.048,
-        "trend": "up",
-        "date": "2026-05-19"
+        "rate": 3.191,
+        "prev": 3.22,
+        "diff": -0.028,
+        "trend": "down",
+        "date": "2026-05-20"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.637,
-        "prev": 3.593,
-        "diff": 0.044,
-        "trend": "up",
-        "date": "2026-05-19"
+        "rate": 3.601,
+        "prev": 3.637,
+        "diff": -0.036,
+        "trend": "down",
+        "date": "2026-05-20"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.65,
-        "prev": 3.611,
-        "diff": 0.039,
-        "trend": "up",
-        "date": "2026-05-19"
+        "rate": 3.61,
+        "prev": 3.65,
+        "diff": -0.04,
+        "trend": "down",
+        "date": "2026-05-20"
       }
     ]
   },
