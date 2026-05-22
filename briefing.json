@@ -1,27 +1,28 @@
 {
-  "timestamp": "06h43 le 22/05/2026",
+  "timestamp": "13h40 le 22/05/2026",
   "alerte": {
-    "titre": "Tensions géopolitiques sur l'énergie",
-    "detail": "L'Iran intensifie la pression sur les câbles télécoms sous-marins du détroit d'Ormuz, risque inflationniste sur les carburants et volatilité énergétique mondiale"
+    "titre": "Estée Lauder/Puig : fusion abandonnée",
+    "detail": "Fin des discussions entre les deux géants de la cosmétique (index 5)",
+    "impact": "Repositionnement stratégique attendu pour les deux groupes"
   },
   "synthese": {
-    "resume": "Stellantis annonce un plan d'investissement de 60 Md€ sur 5 ans avec réduction de 800 000 unités en Europe, révélant un repositionnement stratégique vers l'Amérique. La condamnation en appel d'Airbus et Air France pour le crash Rio-Paris de 2009 crée un précédent majeur en responsabilité civile. Les tensions géopolitiques au détroit d'Ormuz amplifient les risques inflationnistes, le gouvernement renforçant les aides carburant sans clarifier le financement. Le secteur financier subit des turbulences : décollecte du Livret A (4e mois consécutif) et inquiétudes sur les risques systémiques des ETF.",
+    "resume": "Journée d'actu économique dense : Stellantis annonce 60 Mds€ d'investissements mais réduit ses capacités européennes de 800k unités (index 22), Alexandre Bompard reconduit à Carrefour pour 3 ans (index 1), Estée Lauder/Puig abandonnent leur fusion (index 5). Macron injecte 1,55 Md€ dans le quantique et semi-conducteurs (index 32) tandis que les signaux économiques français s'assombrissent (index 6). Les aides carburant s'amplifient sans clarté de financement (index 15).",
     "points": [
       {
-        "titre": "Marchés & Volatilité",
-        "detail": "Livret A en décollecte prolongée (4e mois successif) signalant un risque de repositionnement d'épargne. ETF identifiés comme vecteur de risque systémique. Attractivité France stable en tête de l'UE selon EY, mais repli général en Europe."
+        "titre": "Marchés",
+        "detail": "Volatilité attendue suite à l'abandon Estée Lauder/Puig ; décollecte successive du Livret A (4e mois) traduisant une préférence risquée des investisseurs (index 12). Avertissements sur risques systémiques des ETF (index 13)."
       },
       {
-        "titre": "Macro & Conjoncture",
-        "detail": "Inflation carburants persistante liée aux tensions géopolitiques (Ormuz). Déclin démographique français posant questions structurelles de croissance. Emissions CO2 des data centers en hausse inquiétante. FMI préconise réponses limitées et ciblées vs crise énergétique."
+        "titre": "Macro",
+        "detail": "Signaux inquiétants pour l'économie française (index 6) : décollecte Livret A persistante, inflation carburant nécessitant des aides croissantes sans financement clair. Gel des allégements de cotisations sociales maintenu (index 7). Secteur automobile critiqué pour réduction drastique (800k unités) en Europe."
       },
       {
-        "titre": "Grands Groupes & Stratégie",
-        "detail": "Stellantis : 60 Md€ d'investissements 5 ans, Europe reléguée au second plan vs Amérique, réduction capacité -800 k unités. Somfy en PSE cadres, billet perdu sur ingénierie française. SNCF Fret : ouverture du capital en cours. Inditex lance Lefties vs Primark/Shein."
+        "titre": "Entreprises / M&A",
+        "detail": "Bompard reconduit 3 ans Carrefour (index 1). Stellantis : plan 60 Mds€ mais repli européen majeur (index 22). Somfy lance plan social cols blancs (index 10). SNCF Fret : ouverture du capital en cours (index 18). Boiron change de stratégie pour se sevrer homéopathie (index 87)."
       },
       {
-        "titre": "Politique & Géopolitique",
-        "detail": "Emmanuel Moulin nommé gouverneur Banque de France (controverse proximité Macron). Tensions Iran sur infrastructures critiques (câbles sous-marins). Débat pesticides/importations. Contexte présidentiel 2027 pesant (Philippe vs RN)."
+        "titre": "Politique / Géo",
+        "detail": "Accord UE-Mexique réduction droits douane agriculture (index 8). KNDS (Défense) : IPO proche pour rentrée État (index 3). Iran envisage taxe câbles sous-marins Ormuz (index 11). Macron : 1,55 Md€ quantique/semi-conducteurs (index 32). HS2 UK fiasco >100 Mds€ (index 23)."
       }
     ]
   },
@@ -29,8 +30,8 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 154",
-        "change": "+0.54%",
+        "value": "8 159",
+        "change": "+0.24%",
         "dir": "up"
       },
       {
@@ -41,14 +42,14 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 466",
-        "change": "+0.74%",
+        "value": "7 497",
+        "change": "+0.27%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "26 404",
-        "change": "+0.99%",
+        "value": "26 497",
+        "change": "+0.42%",
         "dir": "up"
       },
       {
@@ -85,6 +86,13 @@
     "articles": [
       {
         "source": "Le Monde Éco",
+        "heure": "12h23",
+        "titre": "Estée Lauder et Puig annoncent la fin des discussions sur une possible fusion",
+        "resume": "Le groupe espagnol de luxe et cosmétiques et le géant américain des cosmétiques avaient dévoilé en mars l’existence de discussions.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/estee-lauder-et-puig-annoncent-la-fin-des-discussions-sur-une-possible-fusion_6692250_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
         "heure": "08h12",
         "titre": "Livret A : quatrième mois successif de décollecte",
         "resume": "Depuis le début de l’année, les ménages ont retiré près de 4,4 milliards d’euros. Les autres livrets d’épargne réglementée subissent aussi une désaffection.",
@@ -98,96 +106,11 @@
         "url": "https://www.lemonde.fr/argent/article/2026/05/22/placements-les-trois-risques-que-font-courir-les-etf_6692191_1657007.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "00h08",
-        "titre": "Attractivité des investissements étrangers : la France toujours en tête dans une Europe en repli, selon EY",
-        "resume": "La France est le pays d’Europe qui a attiré le plus d’investissements étrangers en 2025, selon le baromètre EY publié jeudi 21 mai, dans un contexte de baisse générale du nombre de projets et d’emplois associés.",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/05/20/attractivite-des-investissements-etrangers-la-france-toujours-en-tete-dans-une-europe-en-repli-selon-ey_6691789_1656968.html"
-      },
-      {
         "source": "Challenges",
         "heure": "10h35",
         "titre": "Un bénéfice multiplié par 30 en trois ans : le géant des puces Nvidia, mécanique d’une croissance insolente",
         "resume": "Nvidia a publié ce mercredi 20 mai ses résultats pour le dernier trimestre, affichant un bénéfice net en hausse de 211 % sur un an, à 58,3 milliards de dollars. Le fabricant de puces continue de profiter du boom de l’IA et particulièrement de ses cen",
         "url": "https://www.challenges.fr/entreprise/tech-numerique/un-benefice-multiplie-par-30-en-trois-ans-le-geant-des-puces-nvidia-mecanique-dune-croissance-insolente_643546"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h55",
-        "titre": "Nvidia fait mieux qu’attendu, l’usage du charbon en baisse dans le monde, les députés s’attaquent aux pesticides interdits… Ça s’est passé cette nuit",
-        "resume": "Nvidia dépasse encore les attentes grâce à l’IA, l’usage du charbon en baisse dans le monde en 2025, les députés votent l’interdiction d’importer toute denrée produite avec des pesticides interdits.",
-        "url": "https://www.challenges.fr/monde/nvidia-fait-mieux-quattendu-lusage-du-charbon-en-baisse-dans-le-monde-les-deputes-sattaquent-aux-pesticides-interdits-ca-sest-passe-cette-nuit_643545"
-      }
-    ]
-  },
-  "entreprises": {
-    "articles": [
-      {
-        "source": "Le Monde Éco",
-        "heure": "09h00",
-        "titre": "Chez Somfy, un « PSE de cols blancs » : « Quand j’étais au lycée, on nous disait que les ingénieurs, c’était l’avenir de la France, je n’en suis plus si sûre »",
-        "resume": "Plusieurs centaines de salariés de l’entreprise spécialisée dans l’automatisation de volets et portails ont manifesté, jeudi, à Cluses (Haute-Savoie), contre le plan de suppression d’au moins 350 emplois en négociation jusqu’en juin. Il ne touche pas",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/22/chez-somfy-un-pse-de-cols-blancs-quand-j-etais-au-lycee-on-nous-disait-que-les-ingenieurs-c-etait-l-avenir-de-la-france-je-n-en-suis-plus-si-sure_6692234_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "07h30",
-        "titre": "Stellantis refuse de choisir entre « muscle truck » et 2 CV électrique dans son plan stratégique",
-        "resume": "Au défi de retrouver sa rentabilité, le constructeur a présenté, jeudi, des lignes directrices qui associent pick-up thermique ultrapuissant pour les Etats-Unis, 2 CV frugale en Europe et partenariats chinois et indiens.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/22/stellantis-refuse-de-choisir-entre-muscle-truck-et-2-cv-electrique-dans-son-plan-strategique_6692118_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "23h53",
-        "titre": "La SNCF lance le processus d’ouverture du capital de sa filiale de fret ferroviaire",
-        "resume": "Le groupe ferroviaire compte vendre jusqu’à 49 % du capital de Rail Logistics Europe, l’entité qui chapeaute toutes ses activités de fret. Un appel à manifestation d’intérêt est en cours et marque le début d’une opération prévue pour aboutir d’ici à ",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/21/la-sncf-lance-le-processus-d-ouverture-du-capital-de-sa-filiale-de-fret-ferroviaire_6691934_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "20h18",
-        "titre": "Pour contrer Primark et Shein, Inditex lance Lefties en France",
-        "resume": "L’enseigne d’habillement à petits prix a inauguré un premier magasin dans le centre commercial Central Parc Valvert, dans l’Essonne, et en prévoit un autre, d’une superficie de 8 500 m², cet automne, à Rosny 2, en Seine-Saint-Denis.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/21/pour-contrer-primark-et-shein-inditex-lance-lefties-en-france_6691915_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "16h55",
-        "titre": "Stellantis annonce un plan d’investissements de 60 milliards d’euros sur cinq ans, les capacités de production en Europe réduit de « plus de 800 000 unités »",
-        "resume": "Le plan stratégique annoncé par le constructeur automobile jeudi donne la priorité à quatre marques – Jeep, Ram, Peugeot et Fiat. Les marchés ont réagi avec une chute de plus de 6 % du cours de l’action, dont la cotation a été brièvement suspendue da",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/21/stellantis-annonce-un-plan-d-investissements-de-60-milliards-d-euros-sur-cinq-ans-les-capacites-de-production-en-europe-reduit-de-plus-de-800-000-unites_6691884_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "21h00",
-        "titre": "Au BHV, à Paris, des rayons déserts et 40 % de la surface de vente fermée : c’est une « descente aux enfers depuis quatre ans »",
-        "resume": "Six mois après l’arrivée de Shein dans le grand magasin, les allées de cette institution de la rue de Rivoli restent désespérément vides, suscitant l’inquiétude des 750 salariés.",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/05/20/au-bhv-a-paris-des-rayons-deserts-et-40-de-la-surface-de-vente-fermee-c-est-une-descente-aux-enfers-depuis-quatre-ans_6691771_1656968.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h45",
-        "titre": "« Boiron peut capitaliser sur sa marque » : le leader mondial change de cap à marche forcée pour se sevrer de l’homéopathie",
-        "resume": "Plans de restructuration, catalogue rationalisé, offre adaptée au vieillissement de la population… Depuis 2021 et le choc du déremboursement de ses produits historiques, le leader mondial de l’homéopathie a opéré un repositionnement stratégique qui c",
-        "url": "https://www.challenges.fr/entreprise/sante/boiron-peut-capitaliser-sur-sa-marque-le-leader-mondial-change-de-cap-a-marche-forcee-pour-se-sevrer-de-lhomeopathie_643514"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
-      {
-        "source": "Le Monde Éco",
-        "heure": "23h53",
-        "titre": "La SNCF lance le processus d’ouverture du capital de sa filiale de fret ferroviaire",
-        "resume": "Le groupe ferroviaire compte vendre jusqu’à 49 % du capital de Rail Logistics Europe, l’entité qui chapeaute toutes ses activités de fret. Un appel à manifestation d’intérêt est en cours et marque le début d’une opération prévue pour aboutir d’ici à ",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/21/la-sncf-lance-le-processus-d-ouverture-du-capital-de-sa-filiale-de-fret-ferroviaire_6691934_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "16h34",
-        "titre": "Au Royaume-Uni, l’incroyable fiasco de HS2, la future ligne ferroviaire à grande vitesse qui va coûter plus de 100 milliards d’euros",
-        "resume": "La ligne de trains à grande vitesse destinée à améliorer la connectivité entre le sud et le nord de l’Angleterre ne devrait pas entrer en service avant 2036 et voit ses coûts exploser, selon un rapport du gouvernement britannique.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/21/au-royaume-uni-l-incroyable-fiasco-de-hs2-la-future-ligne-ferroviaire-a-grande-vitesse-qui-va-couter-plus-de-100-milliards-d-euros_6691882_3234.html"
       },
       {
         "source": "Challenges",
@@ -198,35 +121,14 @@
       }
     ]
   },
-  "macro": {
+  "entreprises": {
     "articles": [
       {
         "source": "Le Monde Éco",
-        "heure": "08h12",
-        "titre": "Livret A : quatrième mois successif de décollecte",
-        "resume": "Depuis le début de l’année, les ménages ont retiré près de 4,4 milliards d’euros. Les autres livrets d’épargne réglementée subissent aussi une désaffection.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/22/livret-a-quatrieme-mois-successif-de-decollecte_6692225_1657007.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "21h00",
-        "titre": "S’adapter au déclin démographique : les pistes de l’économiste Pauline Rossi",
-        "resume": "La professeure d’économie propose, dans son nouvel essai, de ne plus considérer la baisse de la natalité et le vieillissement de la population comme une fatalité, mais plutôt d’accepter cet état de fait, pour mieux l’accompagner.",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/21/s-adapter-au-declin-demographique-les-pistes-de-l-economiste-pauline-rossi_6691920_3232.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "19h40",
-        "titre": "En France, l’inquiétante envolée des émissions de CO₂ des data centers",
-        "resume": "De plus en plus voraces en énergie, les data centers ont vu leurs émissions de gaz à effet de serre croître de 23 % en 2024 en France, selon une étude. Cette tendance devrait aller crescendo alors que le pays investit massivement dans ces installatio",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/21/en-france-l-inquietante-envolee-des-emissions-de-co-des-data-centers_6691905_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "19h04",
-        "titre": "Crise énergétique : la réponse de la France doit rester « limitée, temporaire et ciblée », selon le FMI",
-        "resume": "Le Fonds monétaire international a abaissé sa prévision de croissance du PIB français de 0,9 % en 2025 à 0,7 % pour 2026 dans son dernier rapport sur les finances publiques françaises, en raison des conséquences économiques du conflit au Moyen-Orient",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/21/crise-energetique-la-reponse-de-la-france-doit-rester-limitee-temporaire-et-ciblee-selon-le-fmi_6691902_3234.html"
+        "heure": "16h00",
+        "titre": "Alexandre Bompard reconduit pour trois ans à la tête de Carrefour par les actionnaires",
+        "resume": "Le renouvellement du PDG de Carrefour depuis 2017, pour un quatrième mandat de trois ans, a été approuvé sans surprise vendredi à une large majorité par les actionnaires du groupe, réunis en assemblée générale.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/alexandre-bompard-reconduit-pour-trois-ans-a-la-tete-de-carrefour-par-les-actionnaires_6692282_3234.html"
       },
       {
         "source": "Le Monde Éco",
@@ -237,6 +139,119 @@
       },
       {
         "source": "Le Monde Éco",
+        "heure": "09h00",
+        "titre": "Chez Somfy, un « plan social de cols blancs » : « Quand j’étais au lycée, on nous disait que les ingénieurs, c’était l’avenir de la France, je n’en suis plus si sûre »",
+        "resume": "Plusieurs centaines de salariés de l’entreprise spécialisée dans l’automatisation de volets et portails ont manifesté, jeudi, à Cluses (Haute-Savoie), contre le plan de suppression d’au moins 350 emplois en négociation jusqu’en juin. Il ne touche pas",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/chez-somfy-un-pse-de-cols-blancs-quand-j-etais-au-lycee-on-nous-disait-que-les-ingenieurs-c-etait-l-avenir-de-la-france-je-n-en-suis-plus-si-sure_6692234_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "23h53",
+        "titre": "La SNCF lance le processus d’ouverture du capital de sa filiale de fret ferroviaire",
+        "resume": "Le groupe ferroviaire compte vendre jusqu’à 49 % du capital de Rail Logistics Europe, l’entité qui chapeaute toutes ses activités de fret. Un appel à manifestation d’intérêt est en cours et marque le début d’une opération prévue pour aboutir d’ici à ",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/la-sncf-lance-le-processus-d-ouverture-du-capital-de-sa-filiale-de-fret-ferroviaire_6691934_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h45",
+        "titre": "« Boiron peut capitaliser sur sa marque » : le leader mondial change de cap à marche forcée pour se sevrer de l’homéopathie",
+        "resume": "Plans de restructuration, catalogue rationalisé, offre adaptée au vieillissement de la population… Depuis 2021 et le choc du déremboursement de ses produits historiques, le leader mondial de l’homéopathie a opéré un repositionnement stratégique qui c",
+        "url": "https://www.challenges.fr/entreprise/sante/boiron-peut-capitaliser-sur-sa-marque-le-leader-mondial-change-de-cap-a-marche-forcee-pour-se-sevrer-de-lhomeopathie_643514"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h30",
+        "titre": "Stellantis parie à la fois sur le « muscle truck » et la 2 CV électrique dans son plan stratégique",
+        "resume": "Au défi de retrouver sa rentabilité, le constructeur a présenté, jeudi, des lignes directrices qui associent pick-up thermique ultrapuissant pour les Etats-Unis, 2 CV frugale en Europe et partenariats chinois et indiens.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/stellantis-refuse-de-choisir-entre-muscle-truck-et-2-cv-electrique-dans-son-plan-strategique_6692118_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "18h32",
+        "titre": "Pour Stellantis, l’Amérique reste la poule aux œufs d’or : l’Europe reléguée au second plan",
+        "resume": "Dans le plan d’Antonio Filosa pour redresser Stellantis, présenté ce jeudi 21&nbsp;mai, l’Europe n’est plus une promesse d’avenir. Les capacités de production vont y être réduites de 800 000 unités, alors que l’Amérique du Nord absorbera 60 % des 60&",
+        "url": "https://www.challenges.fr/automobile/pour-stellantis-lamerique-reste-la-poule-aux-oeufs-dor-leurope-releguee-au-second-plan_643565"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "12h23",
+        "titre": "Estée Lauder et Puig annoncent la fin des discussions sur une possible fusion",
+        "resume": "Le groupe espagnol de luxe et cosmétiques et le géant américain des cosmétiques avaient dévoilé en mars l’existence de discussions.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/estee-lauder-et-puig-annoncent-la-fin-des-discussions-sur-une-possible-fusion_6692250_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "23h53",
+        "titre": "La SNCF lance le processus d’ouverture du capital de sa filiale de fret ferroviaire",
+        "resume": "Le groupe ferroviaire compte vendre jusqu’à 49 % du capital de Rail Logistics Europe, l’entité qui chapeaute toutes ses activités de fret. Un appel à manifestation d’intérêt est en cours et marque le début d’une opération prévue pour aboutir d’ici à ",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/la-sncf-lance-le-processus-d-ouverture-du-capital-de-sa-filiale-de-fret-ferroviaire_6691934_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h00",
+        "titre": "Défense : la future introduction en Bourse de KNDS, une « rentrée d’argent espérée pour l’Etat français »",
+        "resume": "Berlin a dévoilé les contours d’un nouveau tour de table pour le groupe franco-allemand KNDS, fabricant du canon Caesar, en préambule à son introduction en Bourse avant l’été, observe Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/defense-la-future-introduction-en-bourse-de-knds-une-rentree-d-argent-esperee-pour-l-etat-francais_6692256_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "02h10",
+        "titre": "Crash du vol Rio-Paris : les raisons de la condamnation en appel d’Airbus et d’Air France",
+        "resume": "Les deux géants de l’aviation sont condamnés pour homicide involontaire dans l’accident du vol AF 447 qui a fait 228 victimes, le 1ᵉʳ juin 2009. Ils avaient été relaxés en première instance. L’un et l’autre contestent l’arrêt et se pourvoient en cass",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/crash-du-vol-rio-paris-les-raisons-de-la-condamnation-en-appel-d-airbus-et-d-air-france_6691943_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "15h51",
+        "titre": "Crash du Rio-Paris en 2009 : Airbus et Air France, condamnées en appel pour homicides involontaires, se pourvoient en cassation",
+        "resume": "Les deux entreprises, accusées d’homicides involontaires pour le crash du vol Rio-Paris dans l’Atlantique en 2009, ont été condamnées à une amende de 225 000 euros d’amende, la peine maximale pour une personne morale.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/crash-du-rio-paris-en-2009-airbus-et-air-france-condamnes-en-appel-pour-homicides-involontaires_6691873_3234.html"
+      }
+    ]
+  },
+  "macro": {
+    "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "12h04",
+        "titre": "Pour l’économie française, des signaux de plus en plus inquiétants",
+        "resume": "Plusieurs indices font état d’une dégradation de l’activité économique. La Commission européenne et le FMI tablent respectivement sur une croissance de 0,8 % et de 0,7 % pour la France en 2026, une prévision inférieure à celle du gouvernement (+ 0,9 ",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/pour-l-economie-francaise-des-signaux-de-plus-en-plus-inquietants_6692246_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "08h12",
+        "titre": "Livret A : quatrième mois successif de décollecte",
+        "resume": "Depuis le début de l’année, les ménages ont retiré près de 4,4 milliards d’euros. Les autres livrets d’épargne réglementée subissent aussi une désaffection.",
+        "url": "https://www.lemonde.fr/argent/article/2026/05/22/livret-a-quatrieme-mois-successif-de-decollecte_6692225_1657007.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "11h46",
+        "titre": "Le gouvernement confirme le gel des allégements de cotisations sociales malgré la hausse du smic",
+        "resume": "Le ministre des comptes publics, David Amiel, a affirmé vendredi qu’une augmentation générale des allégements liée à la hausse du smic « s’élèverait à plus de 2 milliards d’euros » et ne serait pas « ciblée ».",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/22/le-gouvernement-confirme-le-gel-des-allegements-de-cotisations-sociales-malgre-la-hausse-du-smic_6692241_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "19h40",
+        "titre": "En France, l’inquiétante envolée des émissions de CO₂ des data centers",
+        "resume": "De plus en plus voraces en énergie, les data centers ont vu leurs émissions de gaz à effet de serre croître de 23 % en 2024 en France, selon une étude. Cette tendance devrait aller crescendo alors que le pays investit massivement dans ces installatio",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/en-france-l-inquietante-envolee-des-emissions-de-co-des-data-centers_6691905_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h00",
+        "titre": "La commission d’enquête du Sénat sur les marges des industriels et de la distribution tire à boulets rouges sur les grandes surfaces et leurs centrales d’achat",
+        "resume": "Sur 100 euros de valeur alimentaire, 8 reviennent à l’agriculteur, 14 à l’industriel et 40 au distributeur, dévoile le rapport publié jeudi 21 mai par la commission d’enquête sénatoriale présidée par Anne-Catherine Loisier. Les sénateurs dénoncent un",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/la-commission-d-enquete-du-senat-sur-les-marges-des-industriels-et-de-la-distribution-tire-a-boulet-rouge-sur-les-grandes-surfaces-et-leurs-centrales-d-achat_6691848_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
         "heure": "04h31",
         "titre": "L’Assemblée nationale vote pour l’interdiction de l’importation de biens alimentaires produits avec des pesticides interdits en France",
         "resume": "Des députés RN, LFI et écologistes ont réécrit en ce sens un article du projet de loi d’urgence agricole. La ministre de l’agriculture a dénoncé un texte contraire au droit européen.",
@@ -244,10 +259,10 @@
       },
       {
         "source": "Challenges",
-        "heure": "05h00",
-        "titre": "Attractivité de la France : le coup de frein des groupes étrangers sur l’industrie",
-        "resume": "Selon le baromètre EY de l’attractivité, les créations d’emplois industriels liées aux investisseurs étrangers ralentissent fortement alors que plusieurs groupes internationaux ferment des sites en France.",
-        "url": "https://www.challenges.fr/entreprise/industrie/attractivite-de-la-france-le-coup-de-frein-des-groupes-etrangers-sur-lindustrie_643496"
+        "heure": "07h00",
+        "titre": "« Ce n’est plus une turbulence passagère » : les patrons français gagnés par la crise",
+        "resume": "Le baromètre OpinionWay-Grant Thornton pour Challenges montre un net décrochage de la confiance des dirigeants face au ralentissement économique et aux tensions géopolitiques.",
+        "url": "https://www.challenges.fr/economie/ce-nest-plus-une-turbulence-passagere-les-patrons-francais-gagnes-par-la-crise_643497"
       }
     ]
   },
@@ -255,24 +270,38 @@
     "articles": [
       {
         "source": "Le Monde Éco",
+        "heure": "11h00",
+        "titre": "Le Mexique et l’UE éliminent l’essentiel des droits de douane sur leurs échanges, dont les produits agricoles",
+        "resume": "La présidente de la Commission européenne, Ursula von der Leyen, et la présidente du Mexique, Claudia Sheinbaum, doivent signer vendredi 22 mai une version modernisée de l’accord global. Le gouvernement mexicain espère convaincre les entreprises euro",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/le-mexique-et-l-ue-eliminent-l-essentiel-des-droits-de-douane-sur-leurs-echanges-dont-les-produits-agricoles_6692239_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "13h11",
+        "titre": "Emmanuel Macron annonce 1,55 milliard d’euros de plus pour la filière quantique et les semi-conducteurs",
+        "resume": "Ces annonces s’ajoutent au plan Quantique de 1,8 milliard d’euros sur la période 2021-2025, complété en 2024 par 500 millions d’euros via un programme pour accompagner en commande publique le secteur de la défense.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/22/emmanuel-macron-va-annoncer-1-55-milliard-d-euros-de-plus-pour-la-filiere-quantique-et-les-semi-conducteurs_6692257_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
         "heure": "08h30",
-        "titre": "L’Iran met la pression sur les câbles télécoms sous-marins du détroit d’Ormuz",
-        "resume": "Après avoir bloqué le trafic de navires, la République islamique songe à taxer les utilisateurs des puissantes artères de fibre optique sous-marines déployées dans le goulet maritime. Or, celles-ci sont vitales pour le bon fonctionnement d’Internet e",
+        "titre": "L’Iran songe à taxer les utilisateurs des câbles télécoms sous-marins du détroit d’Ormuz",
+        "resume": "Après avoir bloqué le trafic de navires, la République islamique envisage d’étendre son emprise en visant ces puissantes artères de fibre optique sous-marines déployées dans le goulet maritime. Or, elles sont vitales pour le bon fonctionnement d’Inte",
         "url": "https://www.lemonde.fr/economie/article/2026/05/22/l-iran-met-la-pression-sur-les-cables-telecoms-sous-marins-du-detroit-d-ormuz_6692229_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "07h34",
-        "titre": "Prix des carburants : Sébastien Lecornu amplifie les aides sans s’avancer sur leur financement",
-        "resume": "Le premier ministre a annoncé, jeudi 21 mai, la prolongation et l’élargissement des mesures déjà annoncées. Le coût du plan pourrait atteindre de 1,2 milliard à 1,7 milliard d’euros sur l’année. Rien n’est dit sur les économies nécessaires.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/22/prix-des-carburants-sebastien-lecornu-amplifie-les-aides-sans-s-avancer-sur-leur-financement_6692120_823448.html"
+        "heure": "13h00",
+        "titre": "Défense : la future introduction en Bourse de KNDS, une « rentrée d’argent espérée pour l’Etat français »",
+        "resume": "Berlin a dévoilé les contours d’un nouveau tour de table pour le groupe franco-allemand KNDS, fabricant du canon Caesar, en préambule à son introduction en Bourse avant l’été, observe Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/22/defense-la-future-introduction-en-bourse-de-knds-une-rentree-d-argent-esperee-pour-l-etat-francais_6692256_3234.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "23h00",
-        "titre": "Emmanuel Moulin nommé gouverneur de la Banque de France, malgré sa proximité avec Emmanuel Macron",
-        "resume": "Le Parlement a validé, mercredi 20 mai, la nomination de l’ancien secrétaire général de l’Elysée, même si, de la gauche à l’extrême droite, de nombreux élus le jugent trop « politique ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/20/emmanuel-moulin-nomme-gouverneur-de-la-banque-de-france-malgre-sa-proximite-avec-emmanuel-macron_6691785_3234.html"
+        "heure": "16h34",
+        "titre": "Au Royaume-Uni, l’incroyable fiasco de HS2, la future ligne ferroviaire à grande vitesse qui va coûter plus de 100 milliards d’euros",
+        "resume": "La ligne de trains à grande vitesse destinée à améliorer la connectivité entre le sud et le nord de l’Angleterre ne devrait pas entrer en service avant 2036 et voit ses coûts exploser, selon un rapport du gouvernement britannique.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/21/au-royaume-uni-l-incroyable-fiasco-de-hs2-la-future-ligne-ferroviaire-a-grande-vitesse-qui-va-couter-plus-de-100-milliards-d-euros_6691882_3234.html"
       },
       {
         "source": "Le Monde Éco",
@@ -283,24 +312,17 @@
       },
       {
         "source": "Le Monde Éco",
-        "heure": "10h17",
-        "titre": "Nouvelle-Calédonie : l’Assemblée nationale adopte la modification du corps électoral, mais la reprise du dialogue reste incertaine",
-        "resume": "L’Assemblée nationale a adopté, mercredi 20 mai, une loi organique permettant d’inscrire d’office 10 500 enfants d’électeurs, jusqu’ici exclus de ce scrutin territorial majeur. Une étape importante avant les élections provinciales du 28 juin.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/21/nouvelle-caledonie-l-assemblee-nationale-adopte-la-modification-du-corps-electoral-mais-la-reprise-du-dialogue-reste-incertaine_6691829_823448.html"
+        "heure": "23h45",
+        "titre": "Présidentielle 2027 : Edouard Philippe précise les contours de son plan de lutte contre le narcotrafic",
+        "resume": "« Il faut s’inspirer de la lutte contre le terrorisme pour le narcotrafic », a affirmé dans un entretien au « Parisien » l’ancien premier ministre, qui avait évoqué dès décembre la création d’un « état d’urgence narco ».",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/21/presidentielle-2027-edouard-philippe-precise-les-contours-de-son-plan-de-lutte-contre-le-narcotrafic_6691933_823448.html"
       },
       {
         "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Présidentielle 2027 : Edouard Philippe veut s’imposer comme le principal adversaire du RN",
-        "resume": "Le candidat Horizons veut apparaître comme le vote utile dès le premier tour pour les électeurs refusant la perspective d’un second tour RN-LFI. Il tiendra son premier meeting de campagne deux jours avant la décision du procès en appel des assistants",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/21/presidentielle-2027-edouard-philippe-veut-s-imposer-comme-le-principal-adversaire-du-rn_6691821_823448.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "04h54",
-        "titre": "Le Sénat approuve l’allongement de la rétention d’étrangers considérés dangereux",
-        "resume": "La proposition de loi étend à sept mois – contre trois mois actuellement – la durée maximale de la rétention administrative d’étrangers faisant l’objet d’une mesure d’éloignement du territoire et représentant une menace pour l’ordre public. En raison",
-        "url": "https://www.lemonde.fr/societe/article/2026/05/21/le-senat-approuve-l-allongement-de-la-retention-d-etrangers-consideres-dangereux_6691799_3224.html"
+        "heure": "15h42",
+        "titre": "Carburant : la Commission européenne valide des aides de l’Etat français aux pêcheurs",
+        "resume": "Compte tenu de la flambée des pris des carburants liée à la guerre au Moyen-Orient, Bruxelles a jugé cette mesure de soutien provisoire « nécessaire, appropriée et proportionnée ».",
+        "url": "https://www.lemonde.fr/penurie-de-carburant/article/2026/05/22/carburant-la-commission-europeenne-valide-des-aides-de-l-etat-francais-aux-pecheurs_6692280_6145475.html"
       }
     ]
   },
@@ -321,53 +343,53 @@
         "url": "https://www.lemonde.fr/argent/article/2026/05/22/placements-les-trois-risques-que-font-courir-les-etf_6692191_1657007.html"
       },
       {
-        "source": "Le Monde Éco",
-        "heure": "19h04",
-        "titre": "Crise énergétique : la réponse de la France doit rester « limitée, temporaire et ciblée », selon le FMI",
-        "resume": "Le Fonds monétaire international a abaissé sa prévision de croissance du PIB français de 0,9 % en 2025 à 0,7 % pour 2026 dans son dernier rapport sur les finances publiques françaises, en raison des conséquences économiques du conflit au Moyen-Orient",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/21/crise-energetique-la-reponse-de-la-france-doit-rester-limitee-temporaire-et-ciblee-selon-le-fmi_6691902_3234.html"
+        "source": "Challenges",
+        "heure": "11h00",
+        "titre": "Derrière la crise au Moyen-Orient, celle des devises : les banques centrales asiatiques parviendront-elle à enrayer la chute ?",
+        "resume": "Les monnaies asiatiques chutent face au dollar, les investisseurs étrangers liquidant leurs positions dans la région alors que la crise au Moyen-Orient fait flamber les prix du carburant. Et si les banques centrales des pays d’Asie puisent dans leurs",
+        "url": "https://www.challenges.fr/economie/derriere-la-crise-au-moyen-orient-celle-des-devises-les-banques-centrales-asiatiques-parviendront-elle-a-enrayer-la-chute_643573"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.673,
-        "prev": 2.689,
-        "diff": -0.016,
+        "rate": 2.629,
+        "prev": 2.673,
+        "diff": -0.044,
         "trend": "down",
-        "date": "2026-05-20"
+        "date": "2026-05-21"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.818,
-        "prev": 2.847,
-        "diff": -0.028,
+        "rate": 2.761,
+        "prev": 2.818,
+        "diff": -0.057,
         "trend": "down",
-        "date": "2026-05-20"
+        "date": "2026-05-21"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.191,
-        "prev": 3.22,
-        "diff": -0.028,
+        "rate": 3.14,
+        "prev": 3.191,
+        "diff": -0.051,
         "trend": "down",
-        "date": "2026-05-20"
+        "date": "2026-05-21"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.601,
-        "prev": 3.637,
-        "diff": -0.036,
+        "rate": 3.552,
+        "prev": 3.601,
+        "diff": -0.049,
         "trend": "down",
-        "date": "2026-05-20"
+        "date": "2026-05-21"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.61,
-        "prev": 3.65,
-        "diff": -0.04,
+        "rate": 3.565,
+        "prev": 3.61,
+        "diff": -0.045,
         "trend": "down",
-        "date": "2026-05-20"
+        "date": "2026-05-21"
       }
     ]
   },
