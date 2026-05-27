@@ -1,31 +1,24 @@
 {
-  "timestamp": "08h24 le 26/05/2026",
-  "alerte": {
-    "titre": "Canicule précoce et exceptionnelle",
-    "detail": "8 départements de l'ouest en vigilance orange ; 7 décès enregistrés ; températures attendues en hausse",
-    "indices": [
-      13,
-      63
-    ]
-  },
+  "timestamp": "08h32 le 27/05/2026",
+  "alerte": null,
   "synthese": {
-    "resume": "La France fait face à une canicule précoce (8 départements en vigilance orange, 7 décès) tandis que le secteur de l'électrification accélère avec 12 000 embauches attendues annuellement. La Monnaie de Paris lance un bullion or 100% français en concurrent direct des ETF. Géopolitiquement, les tensions Iran-USA s'aggravent avec des frappes d'autodéfense américaines, impactant les stratégies énergétiques françaises.",
+    "resume": "Stellantis annonce un investissement d'1 milliard d'euros dans l'électrique à Mulhouse, accélérant la transition automobile en France. BP se sépare de son président pour des problèmes de gouvernance, marquant un tournant antitransition climatique. Opella (Doliprane) tente de consolider son ancrage français après son passage sous pavillon américain. Les motos KTM sont au cœur d'un scandale de dépassement de normes antipollution volontaires.",
     "points": [
       {
-        "titre": "Marchés & Finances",
-        "detail": "Or français en compétition directe avec ETF ; Livret A retrouve de l'attrait ; assurance-vie sous surveillance réglementaire ; CB consolide la souveraineté française vs Visa/Mastercard"
+        "titre": "Investissements stratégiques",
+        "detail": "Stellantis mobilise 1 Mrd€ pour relancer ses usines françaises (Mulhouse, Belchamp) vers l'électrique, soutenu par Macron. Opella renforce son engagement français malgré son passage sous contrôle américain (Sanofi)."
       },
       {
-        "titre": "Conjoncture Macro",
-        "detail": "Tensions de trésorerie signalées chez les TPE-PME (CPME Gard) ; canicule impactant productivité et coûts énergétiques ; inflation persistante au Sri Lanka (+hausse taux directeur) ; risques de défaut loyer en hausse"
+        "titre": "Gouvernance & transitions",
+        "detail": "BP écarte son président suite à des dérapages de gouvernance et conduite, révélant un virage antitransition climatique. Controverses sur l'IA chez Google et OpenAI, grogne anti-IA croissante."
       },
       {
-        "titre": "Stratégie Entreprises",
-        "detail": "TotalEnergies capitalise sur la domination US du gaz ; BYD redynamise économie nord-est brésilien ; Teamviewer déploie IA prédictive ; Revolut pivot B2B ; JPMorgan AM vise 1 000Mds$ d'ETF actifs en 5 ans"
+        "titre": "Secteur automobile",
+        "detail": "Scandale KTM : moteurs débridés et pollution explosive. Canada freine l'électrique et revient aux pick-up thermiques. Marché français toujours « accro » malgré flambée des coûts."
       },
       {
-        "titre": "Politique & Géopolitique",
-        "detail": "Accord Iran-USA fragilisé (frappes US au sud-Iran) ; sortie Kenya de l'OTAN coûterait 1 000Mds$ ; présidentielle 2027 en clarification ; Plan électrification Macron crée 12 000 emplois/an ; Gabriel Attal durcit position immigration"
+        "titre": "Conjoncture & emploi",
+        "detail": "Moral des ménages au plus bas en 3 ans. Restructurations en cascade : Okaïdi (290 suppressions), Furet du Nord, Je bouquine ferme. Crise énergétique frappe Hauts-de-France et Occitanie."
       }
     ]
   },
@@ -33,9 +26,9 @@
     "metrics": [
       {
         "label": "CAC 40",
-        "value": "8 241",
-        "change": "+0.04%",
-        "dir": "flat"
+        "value": "8 219",
+        "change": "+0.34%",
+        "dir": "up"
       },
       {
         "label": "Eurostoxx 50",
@@ -45,21 +38,21 @@
       },
       {
         "label": "S&P 500",
-        "value": "7 506",
-        "change": "+0.50%",
+        "value": "7 539",
+        "change": "+0.36%",
         "dir": "up"
       },
       {
         "label": "Nasdaq",
-        "value": "26 505",
-        "change": "+0.47%",
+        "value": "26 725",
+        "change": "+0.51%",
         "dir": "up"
       },
       {
         "label": "EUR/USD",
-        "value": "1.1643",
-        "change": "+0.03%",
-        "dir": "flat"
+        "value": "1.1649",
+        "change": "+0.16%",
+        "dir": "up"
       },
       {
         "label": "Brent",
@@ -69,9 +62,9 @@
       },
       {
         "label": "Or",
-        "value": "4 580 $",
-        "change": "+0.18%",
-        "dir": "up"
+        "value": "4 538 $",
+        "change": "+0.01%",
+        "dir": "flat"
       },
       {
         "label": "Euribor 3M",
@@ -88,18 +81,206 @@
     ],
     "articles": [
       {
-        "source": "Le Monde Éco",
-        "heure": "11h50",
-        "titre": "La Monnaie de Paris lance le Marianne-or, une monnaie d’investissement en or pur",
-        "resume": "La commercialisation des Marianne et e-Marianne (la forme dématérialisée) débute mardi sur Internet pour les clients les plus fidèles de ses médailles et pièces de collection, et sera ouverte au grand public à partir du 16 juin.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/26/la-monnaie-de-paris-lance-le-marianne-or-une-monnaie-d-investissement-en-or-pur_6693860_3234.html"
+        "source": "Les Echos",
+        "heure": "16h26",
+        "titre": "Soitec, STMicroelectronics, Infineon… En Europe aussi, le secteur des semi-conducteurs s'envole en Bourse",
+        "resume": "Les « pelles et pioches » de l'intelligence artificielle ont la cote auprès des investisseurs, même si les acteurs européens restent relativement modestes en comparaison au reste du monde. Certains ont vu leur valeur multipliée par sept.",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/soitec-stmicroelectronics-infineon-en-europe-aussi-le-secteur-des-semi-conducteurs-senvole-en-bourse-2233392"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "21h35",
+        "titre": "La Bourse de Paris à l'heure des prises de bénéfices et des menaces de la BCE",
+        "resume": "La Bourse de Paris a reculé de 1,03% mardi, lâchant une partie des gains de la veille, le statu quo au Moyen-Orient encourage les prises de bénéfices...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-a-l-heure-des-prises-de-benefices-et-des-menaces-de-la-bce-20260526"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "21h35",
+        "titre": "« Ils empilent les contre-vérités » : le patron de Carrefour fustige le rapport du Sénat sur les marges des distributeurs",
+        "resume": "LE FIGARO TV - Sur le plateau de l’émission Esprit d’Entreprise, le PDG de Carrefour a vivement dénoncé le rapport sénatorial sur les marges de la grande distribution. Alexandre Bompard dénonce « une représentation parlementaire qui va contre l’intér",
+        "url": "https://www.lefigaro.fr/flash-actu/ils-empilent-les-contre-verites-le-patron-de-carrefour-fustige-le-rapport-du-senat-sur-les-marges-des-distributeurs-20260526"
       },
       {
         "source": "Les Echos",
-        "heure": "11h01",
-        "titre": "Or : la Monnaie de Paris lance le premier bullion made in France, sérieux concurrent des ETF",
-        "resume": "La Monnaie de Paris lance la commercialisation de son bullion, une pièce d'or à pure vocation d'investissement. Originalité de l'offre, elle est accessible aussi en version dématérialisée afin de capter les investisseurs intéressés par l'or papier. D",
-        "url": "https://www.lesechos.fr/patrimoine/placement/or-la-monnaie-de-paris-lance-le-premier-bullion-made-in-france-serieux-concurrent-des-etf-2233325"
+        "heure": "19h37",
+        "titre": "Crédit privé : dans son scénario noir, la BCE craint un effet domino sur les marchés",
+        "resume": "La Banque centrale européenne a simulé un choc sévère sur le marché du crédit privé, désormais proche des 2.000 milliards de dollars.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/credit-prive-dans-son-scenario-noir-la-bce-craint-un-effet-domino-sur-les-marches-2233447"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h32",
+        "titre": "Nouveau recul du moral des ménages, qui tombe à son plus bas niveau en trois ans",
+        "resume": "Sur fond de guerre au Moyen-Orient et d'inflation en hausse, la confiance des Français atteint son plus bas niveau depuis mars 2023.",
+        "url": "https://www.lesechos.fr/economie-france/conjoncture/nouveau-recul-du-moral-des-menages-qui-tombe-a-son-plus-bas-niveau-en-trois-ans-2233543"
+      }
+    ]
+  },
+  "entreprises": {
+    "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "07h00",
+        "titre": "Stellantis va investir 1 milliard d’euros à Mulhouse et Belchamp pour produire une « nouvelle génération de véhicules électriques »",
+        "resume": "Emmanuel Macron a pris de court le constructeur en faisant cette annonce. Les représentants du personnel n’avaient pas encore été informés, mais ils se montrent satisfaits.",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/27/stellantis-va-investir-1-milliard-d-euros-a-mulhouse-et-belchamp-pour-produire-une-nouvelle-generation-de-vehicules-electriques_6694134_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "Il est passé sous pavillon américain il y a un an : comment Opella, le fabricant du Doliprane, tente de soigner son ancrage français",
+        "resume": "Passée sous le contrôle du fonds américain CD & R il y a un an, l’ex-branche de Sanofi, qui fabrique le Doliprane, doit se diversifier pour conforter sa rentabilité dans l’Hexagone.",
+        "url": "https://www.challenges.fr/entreprise/sante/il-est-passe-sous-pavillon-americain-il-y-a-un-an-comment-opella-le-fabricant-du-doliprane-tente-de-soigner-son-ancrage-francais_643652"
+      },
+      {
+        "source": "Challenges",
+        "heure": "19h12",
+        "titre": "Fini la furie du moteur V12, place au murmure de l’électrique : Ferrari compose une nouvelle bande-son pour ses bolides",
+        "resume": "La première Ferrari électrique est enfin là. Ce n’est pas tant sa silhouette de berline qui choque les puristes que son refus obstiné d’adoucir leur amertume en simulant les vocalises du moteur V12 tant regretté. Au synthétiseur qui risquerait de les",
+        "url": "https://www.challenges.fr/automobile/fini-la-furie-du-moteur-v12-place-au-murmure-de-lelectrique-ferrari-compose-une-nouvelle-bande-son-pour-ses-bolides_643658"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "18h59",
+        "titre": "Okaïdi prévoit jusqu’à 290 suppressions de postes et la fermeture d’une soixantaine de magasins",
+        "resume": "En février, le tribunal de commerce de Lille avait placé en redressement judiciaire le groupe IDKids, notamment propriétaire d’Okaïdi (vêtements pour les 3-14 ans) et Obaïbi (0-3 ans).",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/26/okaidi-prevoit-jusqu-a-290-suppressions-de-postes-et-la-fermeture-d-une-soixantaine-de-magasins_6693913_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "23h30",
+        "titre": "Le groupe Bayard s’apprête à fermer « Je bouquine »",
+        "resume": "Apparu en 1984, le titre de presse pour jeunes adolescents devrait faire les frais d’un plan de compétitivité annoncé en avril. Quatre postes pourraient être supprimés dans le cadre plus vaste d’un plan de sauvegarde de l’emploi, susceptible de touch",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/26/le-groupe-bayard-s-apprete-a-fermer-je-bouquine_6693962_3234.html"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "Challenges",
+        "heure": "14h30",
+        "titre": "Une nouvelle transaction spectaculaire sur la Côte d’Azur : l’ancienne villa des Grimaldi à Saint-Jean-Cap-Ferrat, vendue 45 millions d’euros",
+        "resume": "La villa Iberia, qui appartenait à une héritière de la marque de café Lavazza, a été rachetée par les marchands de biens Éric Bernt et Jean-Pierre Cohen, qui multiplient les transactions spectaculaires sur la Côte d’Azur.",
+        "url": "https://www.challenges.fr/immobilier/une-nouvelle-transaction-spectaculaire-sur-la-cote-dazur-lancienne-villa-des-grimaldi-a-saint-jean-cap-ferrat-vendue-45-millions-deuros_643635"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "23h04",
+        "titre": "Patrick Drahi, le patron d’Altice et de SFR, voit deux de ses biens immobiliers en Suisse saisis par la justice",
+        "resume": "En pleine négociation avec Bouygues, Free et Orange pour leur revendre SFR, filiale d’Altice, le milliardaire franco-israélien essuie les foudres judiciaires d’Armando Pereira, son ancien associé, avec qui il avait cofondé Altice, lequel réclame aujo",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/26/patrick-drahi-le-patron-d-altice-et-de-sfr-voit-deux-de-ses-biens-immobiliers-en-suisse-saisis-par-la-justice_6693958_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "12h00",
+        "titre": "Voyage en solo : Airbnb envoie WeRoad à la conquête du marché américain",
+        "resume": "La marque de voyages organisés a annoncé mercredi un tour de table mené par Airbnb, aux côtés d'autres investisseurs historiques, pour accélérer son développement aux Etats-Unis.",
+        "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/voyage-en-solo-airbnb-envoie-weroad-a-la-conquete-du-marche-americain-2233547"
+      }
+    ]
+  },
+  "macro": {
+    "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "08h35",
+        "titre": "La France au fond du trou, vraiment ?",
+        "resume": "Personne ne nie que la France n'est pas en grande forme. Mais le tableau « macro » n'est pas si mauvais et de bonnes nouvelles économiques mériteraient d'être plus médiatisées, relativise notre éditorialiste Dominique Seux.",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/la-france-au-fond-du-trou-vraiment-2233491"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h16",
+        "titre": "Mobilités et urbanisme : les défis de la transition écologique",
+        "resume": "Depuis vingt ans, le LVMT (Laboratoire Ville Mobilité Transport) analyse les liens entre urbanisme et mobilités pour répondre aux défis de la transition écologique. Ses travaux, financés par des acteurs publics et privés, visent à repenser les déplac",
+        "url": "https://www.lesechos.fr/thema/articles/mobilites-et-urbanisme-les-defis-de-la-transition-ecologique-2233538"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h45",
+        "titre": "Ces 5 principaux leviers pour relancer le marché automobile, selon l'Observatoire Cetelem",
+        "resume": "L'Observatoire Cetelem identifie cinq leviers pour relancer le marché automobile : prix, politiques publiques, design, offre et distribution. Le secteur, encore en crise, pourrait rebondir en misant sur des véhicules plus accessibles et un cadre régl",
+        "url": "https://www.lesechos.fr/thema/articles/ces-5-principaux-leviers-pour-relancer-le-marche-automobile-selon-lobservatoire-cetelem-2233505"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h00",
+        "titre": "La pénurie totale se rapproche à grande vitesse : alerte rouge sur le foncier disponible pour les entreprises",
+        "resume": "Plus de 80 % des intercommunalités ont dû refuser des projets d'implantation économique ou subi des départs d'entreprises, faute de foncier disponible. Le phénomène s'est accéléré depuis 2022.",
+        "url": "https://www.lesechos.fr/pme-regions/actualite-pme/la-penurie-totale-se-rapproche-a-grande-vitesse-alerte-rouge-sur-le-foncier-disponible-pour-les-entreprises-2233495"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h32",
+        "titre": "Nouveau recul du moral des ménages, qui tombe à son plus bas niveau en trois ans",
+        "resume": "Sur fond de guerre au Moyen-Orient et d'inflation en hausse, la confiance des Français atteint son plus bas niveau depuis mars 2023.",
+        "url": "https://www.lesechos.fr/economie-france/conjoncture/nouveau-recul-du-moral-des-menages-qui-tombe-a-son-plus-bas-niveau-en-trois-ans-2233543"
+      }
+    ]
+  },
+  "politique": {
+    "articles": [
+      {
+        "source": "Le Monde Éco",
+        "heure": "21h06",
+        "titre": "Emmanuel Macron cherche à mobiliser les industriels pour accélérer l’électrification de la France",
+        "resume": "A l’occasion d’une rencontre à l’Elysée, mardi, entre le président de la République et des chefs d’entreprise du BTP, de l’industrie, des transports ou de l’énergie, plusieurs projets d’investissement et offres commerciales ont été annoncés pour accé",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/26/emmanuel-macron-cherche-a-mobiliser-les-industriels-pour-accelerer-l-electrification-de-la-france_6693943_3234.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "01h21",
+        "titre": "Jean-Luc Mélenchon accuse Marine Le Pen d’avoir « manipulé » ses propos sur la « nouvelle France » et annonce porter plainte",
+        "resume": "Le leader de La France insoumise accuse la dirigeante du Rassemblement national d’avoir posté, mardi matin, sur le réseau social X une vidéo montée de lui, jugée trompeuse, datant de février 2025.",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/26/jean-luc-melenchon-accuse-marine-le-pen-d-avoir-manipule-ses-propos-sur-la-nouvelle-france-et-evoque-une-plainte_6693965_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "23h11",
+        "titre": "Présidentielle 2027 : Raphaël Glucksmann se donne « trois mois » pour décider s’il sera candidat",
+        "resume": "L’eurodéputé, dirigeant de Place publique, a affirmé, sur TF1 mardi soir, avoir « l’intime conviction que notre espace social-démocrate est le seul qui peut vaincre l’extrême droite en 2027 ».",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/26/presidentielle-raphael-glucksmann-se-donne-trois-mois-pour-decider-s-il-sera-candidat_6693961_823448.html"
+      },
+      {
+        "source": "Le Monde Éco",
+        "heure": "20h53",
+        "titre": "Le maire de Toulouse, Jean-Luc Moudenc, élu à la tête de France urbaine, se veut le porte-voix des grandes villes",
+        "resume": "Elu à l’unanimité, mardi 26 mai, à la tête de l’association d’élus qui fédère métropoles, grandes villes et intercommunalités, l’édile entend leur redonner du poids politique et se battre contre de nouvelles ponctions budgétaires",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/26/le-maire-de-toulouse-jean-luc-moudenc-elu-a-la-tete-de-france-urbaine-se-veut-le-porte-voix-des-grandes-villes_6693938_823448.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h15",
+        "titre": "Big bang des retraites et dynamitage du Code du travail : le programme économique explosif de Gabriel Attal pour 2027",
+        "resume": "Distancé par Edouard Philippe dans les sondages, l’ancien Premier ministre macroniste endosse le créneau de la rupture avec plusieurs propositions chocs, parfois jugées symboliques ou contre-productives par les experts.",
+        "url": "https://www.challenges.fr/economie/big-bang-des-retraites-et-dynamitage-du-code-du-travail-le-programme-economique-explosif-de-gabriel-attal-pour-2027_643637"
+      }
+    ]
+  },
+  "taux": {
+    "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "19h37",
+        "titre": "Crédit privé : dans son scénario noir, la BCE craint un effet domino sur les marchés",
+        "resume": "La Banque centrale européenne a simulé un choc sévère sur le marché du crédit privé, désormais proche des 2.000 milliards de dollars.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/credit-prive-dans-son-scenario-noir-la-bce-craint-un-effet-domino-sur-les-marches-2233447"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "20h30",
+        "titre": "« Si l'Europe ne change pas culturellement, nous allons être vassalisés par la finance américaine »",
+        "resume": "Président du conseil d'administration de Société Générale depuis 2015, Lorenzo Bini Smaghi passera le témoin à William Connelly lors de l'assemblée générale du 27 mai. Dans un entretien aux « Echos », il revient sur les grandes décisions qui ont faço",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/si-leurope-ne-change-pas-culturellement-nous-allons-etre-vassalises-par-la-finance-americaine-2233461"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "22h58",
+        "titre": "«La situation est urgente» : face à la puissance de l’IA Mythos, la BCE réunit des centaines d'acteurs pour discuter cybersécurité",
+        "resume": "Le dernier modèle développé par Anthropic est capable d’exploiter les vulnérabilités de n’importe quel système informatique «à une vitesse et à une échelle inédites», s’est inquiété le directeur de l’institution européenne.",
+        "url": "https://www.lefigaro.fr/conjoncture/la-situation-est-urgente-face-a-la-puissance-de-l-ia-mythos-la-bce-reunit-des-centaines-d-acteurs-pour-discuter-cybersecurite-20260526"
       },
       {
         "source": "Challenges",
@@ -107,236 +288,48 @@
         "titre": "« Un instrument de souveraineté dans les paiements » : grâce à CB, la France échappe en partie à la domination de Visa et Mastercard",
         "resume": "Grâce à son groupement de cartes bancaires, la France peut se passer de Visa et MasterCard pour les paiements sur son territoire. Mais l’indépendance n’est pas totale.",
         "url": "https://www.challenges.fr/entreprise/banque-et-assurance/un-instrument-de-souverainete-dans-les-paiements-grace-a-cb-la-france-echappe-en-partie-a-la-domination-de-visa-et-mastercard_643471"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Assurance-vie : faut-il se fier aux rendements des fonds euros pour sélectionner un assureur ?",
-        "resume": "Si le taux constitue une base solide, il ne faut cependant pas s’y fier aveuglément.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/25/assurance-vie-faut-il-se-fier-aux-rendements-des-fonds-euros-pour-selectionner-un-assureur_6693601_1657007.html"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h30",
-        "titre": "Cet été, le livret A va retrouver enfin un peu d’attrait",
-        "resume": "Le taux de ce placement star pourrait remonter à 1,8 % net cet été. De quoi lui redonner un peu d’attrait.",
-        "url": "https://www.lefigaro.fr/placement/cet-ete-le-livret-a-va-retrouver-enfin-un-peu-d-attrait-20260525"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "17h12",
-        "titre": "La BCE s’inquiète des failles des systèmes informatiques des banques européennes",
-        "resume": "Les derniers modèles d’IA, notamment Claude Mythos Preview d’Anthropic, ont mis en évidence des menaces pesant sur le système financier.",
-        "url": "https://www.lefigaro.fr/conjoncture/la-bce-s-inquiete-des-failles-des-systemes-informatiques-des-banques-europeennes-20260525"
-      }
-    ]
-  },
-  "entreprises": {
-    "articles": [
-      {
-        "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Comment TotalEnergies profite de la nouvelle domination américaine sur le gaz",
-        "resume": "La guerre en Iran a renforcé la mainmise des Etats-Unis sur le gaz naturel liquéfié. Au cœur de cette ruée vers le GNL, TotalEnergies investit des milliards de dollars outre-Atlantique pour devenir l’un des grands gagnants du boom gazier américain.",
-        "url": "https://www.challenges.fr/entreprise/energie/comment-totalenergies-profite-de-la-nouvelle-domination-americaine-sur-le-gaz_643470"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h35",
-        "titre": "Chez Teamviewer, « l'IA peut prévenir les pannes avant qu'elles ne surviennent »",
-        "resume": "L'intelligence artificielle révolutionne la gestion des incidents informatiques. Chez Teamviewer, elle anticipe les pannes et automatise les correctifs. Un levier stratégique pour les entreprises en quête d'efficacité et de satisfaction au travail. E",
-        "url": "https://www.lesechos.fr/thema/articles/chez-teamviewer-lia-peut-prevenir-les-pannes-avant-quelles-ne-surviennent-2233304"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h05",
-        "titre": "Revolut fait des entreprises sa « priorité numéro 1 » pour améliorer ses revenus",
-        "resume": "La néobanque veut lancer ses solutions business dans chaque nouveau pays ouvert à partir de l'année prochaine. Le groupe pense notamment à sa possible introduction en Bourse.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/revolut-fait-des-entreprises-sa-priorite-numero-1-pour-ameliorer-ses-revenus-2233291"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h09",
-        "titre": "L'ex-magnat de la pub Martin Sorrell monte au capital de l'adtech française Olyzon",
-        "resume": "L'ex-patron de WPP investit via son fonds S4S Ventures dans cette adtech franco-américaine spécialisée dans la télévision connectée. Le tour de table s'élève à 10 millions de dollars.",
-        "url": "https://www.lesechos.fr/start-up/deals/lex-magnat-de-la-pub-martin-sorrell-monte-au-capital-de-ladtech-francaise-olyzon-2233329"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "11h37",
-        "titre": "Sophie Binet, secrétaire générale de la CGT, annonce sa mise en examen pour « diffamation » après une plainte de la direction de Tefal",
-        "resume": "La syndicaliste a expliqué, lundi sur France 2, faire l’objet d’une plainte déposée par le fabricant d’articles de cuisine Tefal qui lui reproche d’avoir accusé l’entreprise de mener une « répression patronale violente » contre une militante. Une att",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/25/sophie-binet-secretaire-generale-de-la-cgt-annonce-sa-mise-en-examen-pour-diffamation-apres-une-plainte-de-la-direction-de-tefal_6693620_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "10h02",
-        "titre": "Trois ans après sa nomination, Léon Laulusa quitte la direction de l’ESCP Business School à la surprise générale",
-        "resume": "Trois ans après sa nomination, l’énergique directeur de l’école de commerce parisienne, qui compte 11 000 étudiants, s’en va pour relever d’autres défis à l’étranger. Il avait présenté son plan stratégique l’an dernier.",
-        "url": "https://www.challenges.fr/entreprise/trois-ans-apres-sa-nomination-leon-laulusa-quitte-la-direction-de-lescp-business-school-a-la-surprise-generale_643618"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
-      {
-        "source": "Les Echos",
-        "heure": "11h09",
-        "titre": "L'ex-magnat de la pub Martin Sorrell monte au capital de l'adtech française Olyzon",
-        "resume": "L'ex-patron de WPP investit via son fonds S4S Ventures dans cette adtech franco-américaine spécialisée dans la télévision connectée. Le tour de table s'élève à 10 millions de dollars.",
-        "url": "https://www.lesechos.fr/start-up/deals/lex-magnat-de-la-pub-martin-sorrell-monte-au-capital-de-ladtech-francaise-olyzon-2233329"
-      }
-    ]
-  },
-  "macro": {
-    "articles": [
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "Impayés de loyer : ce que cache la hausse des chiffres",
-        "resume": "La crise énergétique, l’inflation, la perte d’un emploi ou une séparation sont les principales causes de l’augmentation des dettes locatives depuis la pandémie de Covid-19.",
-        "url": "https://www.lemonde.fr/argent/article/2026/05/26/impayes-de-loyer-ce-que-cache-la-hausse-des-chiffres_6693839_1657007.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h00",
-        "titre": "La CPME Gard alerte sur les tensions de trésorerie des TPE-PME",
-        "resume": "Les hausses de l'énergie et des coûts d'approvisionnement fragilisent les entreprises gardoises, selon la CPME locale, qui demande des mesures rapides pour les structures les plus exposées.",
-        "url": "https://www.lesechos.fr/pme-regions/occitanie/la-cpme-gard-alerte-sur-les-tensions-de-tresorerie-des-tpe-pme-2233323"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "10h08",
-        "titre": "Le Sri Lanka relève son taux directeur pour lutter contre l'inflation",
-        "resume": "La banque centrale du Sri Lanka a relevé ses taux d'intérêt mardi, pour la première fois depuis plus de trois ans, dans l'espoir de contenir...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-sri-lanka-releve-son-taux-directeur-pour-lutter-contre-l-inflation-20260526"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "18h00",
-        "titre": "La filière des pompes à chaleur parie sur un rebond",
-        "resume": "Les signes d’une reprise du marché se multiplient, sur fond de hausse des prix du gaz et d’annonces du gouvernement pour l’électrification des logements.",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/25/la-filiere-des-pompes-a-chaleur-parie-sur-un-rebond_6693661_3234.html"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "08h00",
-        "titre": "La mise en œuvre du « RSA rénové » entraîne des durcissements pour ses bénéficiaires et d’importantes disparités entre départements",
-        "resume": "Près d’un an après la parution d’un décret réformant le revenu de solidarité active, des témoignages recueillis montrent un renforcement des attentes et des sanctions à l’égard des allocataires dans certains départements.",
-        "url": "https://www.lemonde.fr/societe/article/2026/05/25/la-mise-en-uvre-du-rsa-renove-entraine-des-durcissements-pour-ses-beneficiaires-et-d-importantes-disparites-entre-departements_6693596_3224.html"
-      }
-    ]
-  },
-  "politique": {
-    "articles": [
-      {
-        "source": "Le Figaro",
-        "heure": "11h50",
-        "titre": "«Il faut que la France accueille moins pour accueillir mieux» : Gabriel Attal veut une immigration plus faible et axée sur le travail",
-        "resume": "À cette fin, le candidat à la présidentielle 2027 proposera de «durcir les conditions du regroupement familial et donc, par exemple, d’augmenter la durée de résidence requise en France pour pouvoir faire venir ces conjoints».",
-        "url": "https://www.lefigaro.fr/politique/il-faut-que-la-france-accueille-moins-pour-accueillir-mieux-gabriel-attal-veut-une-immigration-plus-faible-et-axee-sur-le-travail-20260526"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h58",
-        "titre": "Le potentiel accord entre Washington et Téhéran plus que jamais fragilisé : l’armée américaine mène des « frappes d’autodéfense » dans le sud de l’Iran",
-        "resume": "L’armée américaine a mené, lundi 25 mai, des « frappes d’autodéfense » dans le sud de l’Iran, notamment contre des sites de lancement de missiles et des bateaux iraniens tentant de poser des mines. Ces bombardements risquent de compromettre le fragil",
-        "url": "https://www.challenges.fr/monde/le-potentiel-accord-entre-washington-et-teheran-plus-que-jamais-fragilise-larmee-americaine-mene-des-frappes-dautodefense-dans-le-sud-de-liran_643629"
-      },
-      {
-        "source": "Challenges",
-        "heure": "14h19",
-        "titre": "« Un incontestable échec stratégique » aux airs de « bourbier » : en Iran, la guerre pour rien de Donald Trump",
-        "resume": "Après quatre mois de guerre contre l’Iran, Donald Trump revendique un compromis qui ressemble à un retour à la case départ. Entre détroit d’Ormuz sous tension et ambitions nucléaires intactes, Washington sort affaibli d’un conflit sans victoire.",
-        "url": "https://www.challenges.fr/monde/un-incontestable-echec-strategique-aux-airs-de-bourbier-en-iran-la-guerre-pour-rien-de-donald-trump_643620"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "« Environ 1 000 milliards de dollars » : ce que coûterait vraiment le départ des Etats-Unis de l’Otan",
-        "resume": "La prise de distance probable des Etats-Unis vis-à-vis de leurs alliés européens va les obliger à réinvestir massivement dans leurs capacités militaires. Un défi énorme, mais pas insurmontable.",
-        "url": "https://www.challenges.fr/entreprise/defense/environ-1-000-milliards-de-dollars-ce-que-couterait-vraiment-le-depart-des-etats-unis-de-lotan_643467"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "10h18",
-        "titre": "Guerre en Ukraine : Marco Rubio affirme que les États-Unis sont toujours prêts à agir en médiateur",
-        "resume": "Dans la nuit de samedi à dimanche, des bombardements massifs ont visé Kiev et sa région, faisant au moins quatre morts, quelques jours après une attaque ukrainienne meurtrière contre un lycée dans une région occupée par la Russie.",
-        "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-marco-rubio-affirme-que-les-etats-unis-sont-toujours-prets-a-agir-en-mediateur-20260526"
-      },
-      {
-        "source": "Le Monde Éco",
-        "heure": "18h03",
-        "titre": "« L’Europe ne peut plus être l’amortisseur des déséquilibres mondiaux »",
-        "resume": "Face à la montée du protectionnisme, le professeur de droit Julien Chaisse explique, dans une tribune au « Monde », que l’Union européenne ne peut plus laisser son marché absorber sans conditions les chocs venus des autres grandes puissances que sont",
-        "url": "https://www.lemonde.fr/idees/article/2026/05/25/l-europe-ne-peut-plus-etre-l-amortisseur-des-desequilibres-mondiaux_6693662_3232.html"
-      }
-    ]
-  },
-  "taux": {
-    "articles": [
-      {
-        "source": "Le Figaro",
-        "heure": "17h12",
-        "titre": "La BCE s’inquiète des failles des systèmes informatiques des banques européennes",
-        "resume": "Les derniers modèles d’IA, notamment Claude Mythos Preview d’Anthropic, ont mis en évidence des menaces pesant sur le système financier.",
-        "url": "https://www.lefigaro.fr/conjoncture/la-bce-s-inquiete-des-failles-des-systemes-informatiques-des-banques-europeennes-20260525"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "20h52",
-        "titre": "François Villeroy de Galhau au Figaro : «Nous transférons la charge de la dette et des retraites à nos enfants»",
-        "resume": "ENTRETIEN EXCLUSIF - Réflexions sur l’état du pays, retour sur les crises récentes, conseils à son successeur Emmanuel Moulin... Le gouverneur de la banque de France, qui devient président de la Fondation des Apprentis d’Auteuil début juin, tire le b",
-        "url": "https://www.lefigaro.fr/economie/francois-villeroy-de-galhau-au-figaro-nous-transferons-la-charge-de-la-dette-et-des-retraites-a-nos-enfants-20260525"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "10h08",
-        "titre": "Le Sri Lanka relève son taux directeur pour lutter contre l'inflation",
-        "resume": "La banque centrale du Sri Lanka a relevé ses taux d'intérêt mardi, pour la première fois depuis plus de trois ans, dans l'espoir de contenir...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-sri-lanka-releve-son-taux-directeur-pour-lutter-contre-l-inflation-20260526"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.574,
-        "prev": 2.629,
-        "diff": -0.055,
+        "rate": 2.478,
+        "prev": 2.574,
+        "diff": -0.095,
         "trend": "down",
-        "date": "2026-05-22"
+        "date": "2026-05-25"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.727,
-        "prev": 2.761,
-        "diff": -0.034,
+        "rate": 2.628,
+        "prev": 2.727,
+        "diff": -0.099,
         "trend": "down",
-        "date": "2026-05-22"
+        "date": "2026-05-25"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.083,
-        "prev": 3.14,
-        "diff": -0.057,
+        "rate": 2.986,
+        "prev": 3.083,
+        "diff": -0.097,
         "trend": "down",
-        "date": "2026-05-22"
+        "date": "2026-05-25"
       },
       {
         "maturity": "20 ans",
-        "rate": 3.5,
-        "prev": 3.552,
-        "diff": -0.051,
+        "rate": 3.406,
+        "prev": 3.5,
+        "diff": -0.094,
         "trend": "down",
-        "date": "2026-05-22"
+        "date": "2026-05-25"
       },
       {
         "maturity": "30 ans",
-        "rate": 3.542,
-        "prev": 3.565,
-        "diff": -0.023,
+        "rate": 3.463,
+        "prev": 3.542,
+        "diff": -0.08,
         "trend": "down",
-        "date": "2026-05-22"
+        "date": "2026-05-25"
       }
     ]
   },
