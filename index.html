@@ -203,6 +203,24 @@ a.agenda-event:active{background:var(--cream)}
 .settings-save{background:var(--ink);color:#fff;border:none;border-radius:6px;padding:12px 24px;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer}
 .settings-note{font-size:11px;color:var(--muted);line-height:1.65;margin-top:8px}
 
+/* RESPONSIVE PC */
+@media (min-width: 768px) {
+  body { overflow: auto; position: static }
+  #app { height: auto; min-height: 100vh }
+  .main-nav { position: sticky; top: 0; z-index: 100 }
+  .cnt { overflow: visible; padding-bottom: 40px }
+  .pc-layout { display: grid; grid-template-columns: 320px 1fr; gap: 0; max-width: 1200px; margin: 0 auto }
+  .pc-sidebar { border-right: 1px solid var(--rule); min-height: calc(100vh - 200px); padding: 20px 0 }
+  .pc-main { padding: 0 }
+  .met-grid { grid-template-columns: repeat(3, 1fr) }
+  .port-line { cursor: pointer }
+  .port-line:hover { background: var(--cream) }
+  a.art:hover { background: var(--cream) }
+}
+@media (min-width: 1100px) {
+  .met-grid { grid-template-columns: repeat(4, 1fr) }
+}
+
 /* ALERT */
 .alert-bar{margin:14px 20px 0;background:#fff3e0;border-left:3px solid var(--accent);padding:10px 14px;font-size:12px;color:#7a3a10;line-height:1.6;border-radius:0 4px 4px 0}
 </style>
@@ -541,6 +559,26 @@ function renderBrief(t) {
     var html = '<div class="sec-rule">Articles sauvegardes (' + favorites.length + ')</div>';
     for (var j = 0; j < favorites.length; j++) html += artCard(favorites[j]);
     el.innerHTML = html;
+  }
+  else if (t === 'agenda') {
+    if (!gcalApiKey || !gcalId) {
+      el.innerHTML = '<div style="padding:20px">' +
+        '<div class="sec-rule" style="padding:0 0 8px;margin-bottom:16px">Configuration Google Calendar</div>' +
+        '<div class="agenda-setup-label">Cle API Google</div>' +
+        '<input class="agenda-setup-input" type="password" id="gcal-key" placeholder="AIza..." autocomplete="off">' +
+        '<div class="agenda-setup-label">ID de votre agenda Google</div>' +
+        '<input class="agenda-setup-input" id="gcal-id" placeholder="votre@gmail.com" autocomplete="off">' +
+        '<div style="font-size:11px;color:var(--muted);line-height:1.65;margin-bottom:16px">Trouvez la cle API sur console.cloud.google.com et l\'ID dans les parametres Google Calendar.</div>' +
+        '<button class="agenda-setup-btn" onclick="saveGcalConfig()">Enregistrer</button>' +
+        '</div>';
+      return;
+    }
+    if (agendaEvents !== null) {
+      renderAgendaEvents(el, agendaEvents);
+    } else {
+      el.innerHTML = '<div class="empty-note">Chargement...</div>';
+      loadAgenda();
+    }
   }
   else {
     var cfg = {
