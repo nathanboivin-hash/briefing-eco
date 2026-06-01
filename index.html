@@ -178,6 +178,23 @@ a.met:active{background:var(--cream)}
 .modal-save{width:100%;padding:15px;background:var(--ink);color:#fff;border:none;border-radius:6px;font-size:14px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;margin-top:4px}
 .modal-del{width:100%;padding:12px;background:none;color:var(--red);border:1px solid rgba(192,57,43,.3);border-radius:6px;font-size:13px;font-weight:500;font-family:'Inter',sans-serif;cursor:pointer;margin-top:8px}
 
+/* AGENDA PERSO */
+.agenda-header{padding:16px 20px 0}
+.agenda-day{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);padding:14px 20px 6px;background:var(--paper)}
+.agenda-event{border-bottom:1px solid var(--rule2);padding:13px 20px;display:flex;gap:12px;align-items:flex-start;text-decoration:none;color:inherit;display:block}
+a.agenda-event:active{background:var(--cream)}
+.agenda-time{font-size:11px;font-weight:600;color:var(--ink);width:52px;flex-shrink:0;margin-top:1px}
+.agenda-body{flex:1}
+.agenda-title{font-family:'Playfair Display',serif;font-size:15px;color:var(--ink);margin-bottom:3px}
+.agenda-loc{font-size:11px;color:var(--muted);margin-top:2px}
+.agenda-cal{font-size:9px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:2px;margin-bottom:5px;display:inline-block}
+.agenda-empty{padding:20px;text-align:center;font-size:13px;color:var(--muted);font-style:italic}
+.agenda-setup{padding:20px}
+.agenda-setup-label{font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.agenda-setup-input{width:100%;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;color:var(--ink);font-size:14px;font-family:'Inter',sans-serif;outline:none;margin-bottom:14px;-webkit-appearance:none}
+.agenda-setup-input:focus{border-color:var(--accent)}
+.agenda-setup-btn{background:var(--ink);color:#fff;border:none;border-radius:6px;padding:12px 24px;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer}
+
 /* SETTINGS */
 .settings-section{padding:16px 20px 0}
 .settings-label{font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
@@ -218,6 +235,7 @@ a.met:active{background:var(--cream)}
       <button class="ctab"     onclick="sw(this,'g')">Agenda</button>
       <button class="ctab"     onclick="sw(this,'c')">Curiosite</button>
       <button class="ctab"     onclick="sw(this,'f')">Favoris</button>
+      <button class="ctab"     onclick="sw(this,'agenda')">Mon Agenda</button>
     </div>
     <div class="content-tabs" id="port-tabs" style="display:none">
       <button class="ctab on"  onclick="swPort(this,'positions')">Positions</button>
@@ -266,6 +284,9 @@ var favorites = JSON.parse(localStorage.getItem('mb_favorites') || '[]');
 var githubToken = localStorage.getItem('mb_gh_token') || '';
 var editIdx = -1;
 var liveQuotes = {};
+var gcalApiKey = localStorage.getItem('mb_gcal_key') || '';
+var gcalId     = localStorage.getItem('mb_gcal_id')  || '';
+var agendaEvents = null;
 
 // Date
 var d = new Date();
@@ -866,6 +887,110 @@ function formatEuro(v) {
   if (!v && v !== 0) return '-';
   return (v < 0 ? '-' : '') + Math.abs(v).toLocaleString('fr-FR', {minimumFractionDigits:2, maximumFractionDigits:2}) + ' EUR';
 }
+
+// ── GOOGLE CALENDAR ──
+function saveGcalConfig() {
+  gcalApiKey = document.getElementById('gcal-key').value.trim();
+  gcalId     = document.getElementById('gcal-id').value.trim();
+  localStorage.setItem('mb_gcal_key', gcalApiKey);
+  localStorage.setItem('mb_gcal_id',  gcalId);
+  agendaEvents = null;
+  renderBrief('agenda');
+}
+
+function loadAgenda() {
+  if (!gcalApiKey || !gcalId) return;
+  var now   = new Date();
+  var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var end   = new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000); // today + tomorrow
+  var tMin  = today.toISOString();
+  var tMax  = end.toISOString();
+  var calId = encodeURIComponent(gcalId);
+  var url   = 'https://www.googleapis.com/calendar/v3/calendars/' + calId +
+              '/events?key=' + gcalApiKey +
+              '&timeMin=' + encodeURIComponent(tMin) +
+              '&timeMax=' + encodeURIComponent(tMax) +
+              '&singleEvents=true&orderBy=startTime&maxResults=50';
+  fetch(url)
+    .then(function(r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function(data) {
+      agendaEvents = data.items || [];
+      if (tab === 'agenda') renderAgendaEvents(document.getElementById('cnt'), agendaEvents);
+    })
+    .catch(function(e) {
+      document.getElementById('cnt').innerHTML = '<div class="empty-note">Erreur Google Calendar: ' + e.message + '<br><br><button class="btn-sec" onclick="resetGcalConfig()">Reconfigurer</button></div>';
+    });
+}
+
+function resetGcalConfig() {
+  gcalApiKey = ''; gcalId = '';
+  localStorage.removeItem('mb_gcal_key');
+  localStorage.removeItem('mb_gcal_id');
+  renderBrief('agenda');
+}
+
+function renderAgendaEvents(el, events) {
+  if (!events.length) {
+    el.innerHTML = '<div class="agenda-day">Aujourd\'hui et demain</div><div class="agenda-empty">Aucun evenement -- vous etes libre !</div>';
+    return;
+  }
+  var now   = new Date();
+  var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var tomorrow = new Date(today.getTime() + 24*60*60*1000);
+  var days = {
+    today:    {label: "Aujourd\'hui -- " + today.getDate() + ' ' + ['jan','fev','mar','avr','mai','jun','jul','aou','sep','oct','nov','dec'][today.getMonth()], events: []},
+    tomorrow: {label: "Demain — " + tomorrow.getDate() + ' ' + ['jan','fev','mar','avr','mai','jun','jul','aou','sep','oct','nov','dec'][tomorrow.getMonth()], events: []}
+  };
+  events.forEach(function(ev) {
+    var start = ev.start.dateTime ? new Date(ev.start.dateTime) : new Date(ev.start.date);
+    var d2 = new Date(start.getFullYear(), start.getMonth(), start.getDate());
+    if (d2.getTime() === today.getTime()) days.today.events.push(ev);
+    else days.tomorrow.events.push(ev);
+  });
+
+  var calColors = {};
+  var colorIdx = 0;
+  var palette = ['#b5602a','#2d6e45','#1a4a80','#8b2fc9','#c0392b','#e67e22'];
+
+  var html = '<div style="padding:8px 0 0">';
+  ['today','tomorrow'].forEach(function(dayKey) {
+    var day = days[dayKey];
+    html += '<div class="agenda-day">' + day.label + '</div>';
+    if (!day.events.length) {
+      html += '<div class="agenda-empty">Rien de prevu</div>';
+      return;
+    }
+    day.events.forEach(function(ev) {
+      var isAllDay = !!ev.start.date;
+      var startDt  = ev.start.dateTime ? new Date(ev.start.dateTime) : null;
+      var endDt    = ev.end.dateTime   ? new Date(ev.end.dateTime)   : null;
+      var timeStr  = isAllDay ? 'Journee' : (startDt ? pad2(startDt.getHours())+':'+pad2(startDt.getMinutes()) + (endDt ? ' - '+pad2(endDt.getHours())+':'+pad2(endDt.getMinutes()) : '') : '');
+      var calName  = (ev.organizer && ev.organizer.displayName) ? ev.organizer.displayName : '';
+      if (!calColors[calName]) { calColors[calName] = palette[colorIdx % palette.length]; colorIdx++; }
+      var color    = calColors[calName];
+      var loc      = ev.location ? '<div class="agenda-loc">📍 ' + ev.location + '</div>' : '';
+      var link     = 'https://calendar.google.com/calendar/r/day/' + (startDt||new Date()).getFullYear() + '/' + ((startDt||new Date()).getMonth()+1) + '/' + (startDt||new Date()).getDate();
+      var past     = startDt && startDt < now ? 'opacity:.5;' : '';
+      html += '<a class="agenda-event" href="' + link + '" target="_blank" style="' + past + 'display:flex;gap:12px;align-items:flex-start">' +
+        '<div style="min-width:70px;flex-shrink:0">' +
+        '<div style="font-size:12px;font-weight:600;color:' + color + '">' + timeStr + '</div>' +
+        '</div>' +
+        '<div style="flex:1">' +
+        '<div class="agenda-title">' + (ev.summary || 'Sans titre') + '</div>' +
+        loc +
+        (ev.description ? '<div class="agenda-loc">' + ev.description.replace(/<[^>]+>/g,'').substring(0,80) + '...</div>' : '') +
+        '</div></a>';
+    });
+  });
+  html += '<div style="padding:12px 20px"><button class="btn-sec" style="font-size:10px" onclick="resetGcalConfig()">Changer de calendrier</button></div>';
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+function pad2(n) { return n < 10 ? '0'+n : ''+n; }
 
 // ── LOAD BRIEFING ──
 function refresh() {
