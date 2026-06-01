@@ -1,35 +1,24 @@
 {
-  "timestamp": "07h41 le 01/06/2026",
-  "alerte": {
-    "titre": "Investissement massif en IA : 75Mds€ de SoftBank redessinent la compétitivité française",
-    "detail": "Annonce lors du sommet Choose France : SoftBank s'engage sur 75 milliards d'euros d'infrastructures data center en France. Double capitale boursière de Toyota au Japon. Impact direct sur positionnement technologique France vs Allemagne/Italie et coûts énergétiques. À monitorer : implications géopolitiques (tension US-Chine sur semiconducteurs)."
-  },
+  "timestamp": "07h49 le 01/06/2026",
+  "alerte": "Investissements IA massifs (SoftBank 75Mds€) couplés à gel des allègements de cotisations : tensions structurelles sur compétitivité française",
   "synthese": {
-    "resume": "Lundi 1er juin marque un tournant pour l'économie française avec l'engagement colossal de SoftBank (75Mds€) redéfinissant le paysage IA-data centers, tandis que les mesures sociales (SMIC +2,4%, indemnités arrêt travail, gaz) impactent le budget des ménages. Parallèlement, tensions géopolitiques (Iran-US, pétrolier russe saisi, escalade Liban) pèsent sur l'énergie et commodités. Le secteur agricole face à polarisation réglementaire (fermes-usines vs durabilité). Compétitivité allemande sous pression (acquisitions italiennes stratégiques). Contexte : Choose France confirme course au gigantisme technologique mais interroge rentabilité énergétique en contexte inflationniste persistant.",
+    "resume": "SoftBank engage 75 milliards d'euros en infrastructures IA en France, confirmant l'engouement pour les data centers géants, mais le gouvernement gèle simultanément les allègements de cotisations sociales, créant une 'double peine' dénoncée par le patronat. Le SMIC augmente de 2,4% au 1er juin pour suivre l'inflation persistante. Les droits des travailleurs reculent mondialement y compris en France selon la CSI. Cette conjonction d'investissements sectoriels massifs et de dégradation du climat fiscal/social dessine un modèle économique fragmenté : champions numériques sursubventionnés vs PME sous pression.",
     "points": [
       {
-        "titre": "IA/Data Centers - 75Mds€ SoftBank redéfinit la compétitivité technologique",
-        "detail": "SoftBank investit 75 milliards d'euros dans infrastructures France via Choose France. Ardian/Verne annoncent giga-usine IA 5Mds€ près de Paris. Enjeu : coûts énergétiques (prix gaz change 1er juin) et différentiel compétitif vs Allemagne (secteurs stratégiques pris d'assaut par italiens). SoftBank devient 1ère capitalisation boursière Japon (>Toyota). Implication : positionnement France comme hub IA européen, dépendance aux investissements asiatiques, risques de congestion énergétique."
+        "titre": "Investissement IA - SoftBank engage 75 milliards d'euros en France",
+        "detail": "SoftBank annonce 75Mds€ pour infrastructures data centers IA, devenant plus grande capitalisation boursière du Japon. Choose France consolide France comme hub IA européen dominant. Implication : concentration massive du capital sur secteur stratégique, distorsion concurrentielle vs PME/ETI, effet de couronne (télécoms, électricité, immobilier tertiaire bénéficient). Risque : dépendance accrue à financement japonais/asiatique."
       },
       {
-        "titre": "Mesures Sociales - Impact budgétaire immédiat (SMIC +2,4%, hausse indemnités)",
-        "detail": "SMIC augmente de 2,4% au 1er juin pour suivre inflation. Hausse indemnités arrêt travail : expliquée non par 'abus' mais par structure démographique/emploi (analyse Confédération syndicale internationale). Prix gaz baisse mais volatilité géopolitique. Gel allègements cotisations sociales dénoncé par patronat (double peine). Implication : coût du travail renforcé, pression sur marges PME/PMI en contexte de réindustrialisation fragile."
+        "titre": "Cotisations sociales - Gel des allègements : perte sèche pour entreprises",
+        "detail": "Gouvernement gèle allègements de cotisations sociales. Patronat dénonce 'double peine' et 'pire moment' pour entreprises. Simultanéité avec SMIC +2,4% crée compressions marges simultanées. Implication : hausse coûts travail de 2,4-3,5% annuels cumulés pour PME/ETI, probable ralentissement d'embauches en dehors des secteurs subventionnés (IA, green). Probabilité d'un décalage compétitif accru."
       },
       {
-        "titre": "Géopolitique Énergétique - Escalade Iran-US, pétrolier russe saisi",
-        "detail": "Attaques mutuelles Iran-US enregistrées. Pétrolier russe arraisonné dimanche Atlantique par France (annoncé Macron lundi matin). Escalade Israël-Liban (Barrot demande réunion ONU urgence). Implication : primes de risque sur Brent en hausse probable, tensions sur supply chaînes, impact sur hedging stratégies entreprises énergo-intensives (data centers, industrie)."
+        "titre": "Marché du travail - Chômage jeunesse au Canada, recul des droits globaux",
+        "detail": "Canada : chômage jeunes au plus haut. France/monde : CSI alerte sur recul droits travailleurs. Corrélation avec gel allègements crée risque de hausse chômage structurel en France, particulièrement jeunesse/bas-salaires. Implication : amplification futur des politiques actives de l'emploi, probabilité de mesures dérogatoires sectorielles."
       },
       {
-        "titre": "Compétitivité Européenne - Allemagne perd secteurs stratégiques aux italiens",
-        "detail": "Entreprises italiennes conquièrent secteurs stratégiques et politiquement sensibles en Allemagne. Parallèle : choix agricole français facilite fermes-usines/mégapoulaillers (risque consolidation). Implication : divergence stratégique Italie/Allemagne/France sur compétitivité manufacturière, redessine alliances industrielles UE, favorise consolidation secteurs."
-      },
-      {
-        "titre": "Travail/Droits - Recul global, pression syndicale vs. modèles sans hiérarchie",
-        "detail": "Confédération syndicale internationale alerte sur recul droits travailleurs France/monde. Contrebalancé par trend émergent : entreprises sans chef/hiérarchie classique (reportage Figaro). Syndicats CGT relancent congrès stratégique. Bergers alpages dénoncent précarité ('on paie pour travailler'). Implication : fragmentation marché travail, pression sur conventions collectives, évolution modèles RH hybrides."
-      },
-      {
-        "titre": "Politique/Présidentielle 2027 - Timing candidatures stratégiques, divisions droite",
-        "detail": "Gabriel Attal lance campagne présidentielle (1er meeting). Gérard Larcher critique sévèrement macronisme (bilan 'incohérent'). LR divisées (Yvelines/Cantal inquiétudes). Retailleau rejette 'saison 3 macronisme'. Implication : fragmentation gouvernance économique en approche présidentielle, incertitude règlementaire sur réformes structurelles (retraite, fiscalité, IA)."
+        "titre": "Inflation - SMIC +2,4%, prix du gaz revu au 1er juin",
+        "detail": "SMIC augmente de 2,4% pour 'suivre inflation'. Prix gaz réajustés 1er juin. Suède multiplie aides aux ménages/entreprises pour crise énergétique. Implication : inflation toujours active (contra-narrative de désinflation terminée), transmission des prix aux salaires en cours. Risque d'une boucle prix-salaires encore non stabilisée en zone euro."
       }
     ]
   },
@@ -67,9 +56,9 @@
       },
       {
         "label": "Brent",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
+        "value": "94.2 $",
+        "change": "+1.82%",
+        "dir": "up"
       },
       {
         "label": "Or",
@@ -92,18 +81,18 @@
     ],
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Investir dans les cryptomonnaies sans en détenir",
-        "resume": "Les produits financiers adossés à ces nouveaux actifs se démocratisent, mais ils restent risqués.",
-        "url": "https://www.lemonde.fr/argent/article/2026/06/01/investir-dans-les-cryptomonnaies-sans-en-detenir_6695913_1657007.html"
+        "source": "Les Echos",
+        "heure": "10h08",
+        "titre": "Nvidia va lancer ses propres processeurs pour ordinateurs portables Windows",
+        "resume": "Le géant américain de la tech a dévoilé lundi un nouveau processeur pour ordinateurs portables fonctionnant sous Windows, visant à briser l'hégémonie de la technologie d'Intel dans ce domaine.",
+        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/nvidia-va-lancer-ses-propres-processeurs-pour-ordinateurs-portables-windows-2234247"
       },
       {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "Les Etats-Unis et l’Iran s’attaquent mutuellement, Un nouveau pétrolier russe arraisonné dans l’Atlantique, Nvidia va lancer ses processeurs pour Windows… Ça s’est passé cette nuit",
-        "resume": "Les Etats-Unis et l’Iran s’attaquent mutuellement, Un nouveau pétrolier russe arraisonné dans l’Atlantique, Nvidia va lancer ses processeurs pour Windows",
-        "url": "https://www.challenges.fr/monde/les-etats-unis-et-liran-sattaquent-mutuellement-un-nouveau-petrolier-russe-arraisonne-dans-latlantique-nvidia-va-lancer-ses-processeurs-pour-windows-ca-sest-passe-cette-nuit_643776"
+        "source": "Les Echos",
+        "heure": "10h39",
+        "titre": "SoftBank double Toyota pour devenir la plus grande capitalisation boursière du Japon",
+        "resume": "Dans un chassé-croisé très symbolique, l'investisseur japonais spécialisé dans l'intelligence artificielle a détrôné, ce lundi, en valeur boursière, le numéro un mondial de l'automobile.",
+        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/softbank-double-toyota-pour-devenir-la-plus-grande-capitalisation-boursiere-du-japon-2234257"
       },
       {
         "source": "Challenges",
@@ -113,43 +102,29 @@
         "url": "https://www.challenges.fr/argent-et-placements/les-epargnants-seraient-ils-devenus-moins-averses-au-risque-le-retour-en-grace-des-unites-de-compte-dans-les-assurances-vie_643749"
       },
       {
-        "source": "Le Figaro",
-        "heure": "09h41",
-        "titre": "Smic : une hausse de 2,4% pour suivre l'inflation",
-        "resume": "La revalorisation du salaire minimum au 1er juin représente une trentaine d’euros nets supplémentaires pour les salariés concernés.",
-        "url": "https://www.lefigaro.fr/social/smic-une-hausse-de-2-4-pour-suivre-l-inflation-20260601"
+        "source": "Le Monde Eco",
+        "heure": "00h53",
+        "titre": "IA : SoftBank va investir 75 milliards d’euros dans des infrastructures en France",
+        "resume": "L’investisseur japonais prévoit d’investir 45 milliards d’euros d’ici à 2031, pour la construction de centres de données dans les Hauts-de-France, a fait savoir son président, affirmant qu’il s’agissait de « l’investissement le plus important en Euro",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/30/ia-softbank-va-investir-75-milliards-d-euros-dans-des-infrastructures-en-france_6695292_3234.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "07h16",
-        "titre": "«La Fed traverse un test de résistance» : Jerome Powell défend l'indépendance de la banque centrale américaine",
-        "resume": "L’ancien président de la Fed s’exprimait dimanche pour la première fois en public depuis sa passation, en recevant le «prix du courage» pour avoir «défendu l’indépendance» de l’institution face à Donald Trump.",
-        "url": "https://www.lefigaro.fr/international/la-fed-traverse-un-test-de-resistance-jerome-powell-defend-l-independance-de-la-banque-centrale-americaine-20260601"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "20h33",
-        "titre": "Pourquoi BPCE nourrit de grandes ambitions au Portugal",
-        "resume": "Le groupe bancaire français est désormais propriétaire de Novobanco, la quatrième banque portugaise. Il mise sur d’importantes synergies dans un pays en pleine croissance.",
-        "url": "https://www.lefigaro.fr/societes/pourquoi-bpce-nourrit-de-grandes-ambitions-au-portugal-20260531"
+        "source": "Le Monde Eco",
+        "heure": "19h00",
+        "titre": "La Suède multiplie les aides aux ménages et aux entreprises pour faire face à la crise énergétique",
+        "resume": "A moins de quatre mois des élections législatives, la droite libérale conservatrice et l’extrême droite ont annoncé 17,3 milliards de couronnes, soit 1,6 milliard d’euros, de mesures de soutien, dont la réduction de moitié du prix des billets dans le",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/31/la-suede-multiplie-les-aides-aux-menages-et-aux-entreprises-pour-faire-face-a-la-crise-energetique_6695588_3234.html"
       }
     ]
   },
   "entreprises": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "07h45",
-        "titre": "Le dernier sommet Choose France d’Emmanuel Macron confirme la course au gigantisme des centres de données pour l’IA",
-        "resume": "En plus des 75 milliards d’euros promis par le groupe japonais SoftBank, le plus important de ce type en Europe, le sommet sera marqué par l’annonce de plusieurs autres projets d’infrastructures numériques.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/01/le-dernier-sommet-choose-france-d-emmanuel-macron-confirme-la-course-au-gigantisme-des-centres-de-donnees-pour-l-intelligence-artificielle_6695879_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "09h44",
-        "titre": "Pour Emmanuel Macron, un dernier Choose France sur fond de réindustrialisation en panne",
-        "resume": "Pour la 9ᵉ édition de cet événement censé promouvoir l’attractivité économique du pays, le chef de l’Etat recevra, lundi, à Versailles, de nombreux patrons d’entreprises étrangères qui ont prévu d’investir dans l’Hexagone. Si le montant de ces projet",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/31/pour-emmanuel-macron-un-dernier-choose-france-sur-fond-de-reindustrialisation-en-panne_6695550_3234.html"
+        "source": "Challenges",
+        "heure": "08h30",
+        "titre": "Il est surnommé le « boss » : Michaël Benabou, le Monsieur 100 000 Volts du business, de Veepee à la reprise de IKKS",
+        "resume": "Serial entrepreneur avec Veepee à son actif, le repreneur d’IKKS place l’humain au cœur de ses investissements. Figure de la tech, Michaël Benabou est d’abord un spécialiste des marques au talent de caméléon.",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/il-est-surnomme-le-boss-michael-benabou-le-monsieur-100-000-volts-du-business-de-veepee-a-la-reprise-de-ikks_643740"
       },
       {
         "source": "Challenges",
@@ -166,25 +141,11 @@
         "url": "https://www.challenges.fr/entreprise/cest-mon-dernier-mandat-et-cest-tres-bien-ainsi-apres-une-assemblee-generale-chahutee-sebastien-bazin-accor-se-defend_643766"
       },
       {
-        "source": "Challenges",
-        "heure": "08h30",
-        "titre": "Il est surnommé le « boss » : Michaël Benabou, le Monsieur 100 000 Volts du business, de Veepee à la reprise de IKKS",
-        "resume": "Serial entrepreneur avec Veepee à son actif, le repreneur d’IKKS place l’humain au cœur de ses investissements. Figure de la tech, Michaël Benabou est d’abord un spécialiste des marques au talent de caméléon.",
-        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/il-est-surnomme-le-boss-michael-benabou-le-monsieur-100-000-volts-du-business-de-veepee-a-la-reprise-de-ikks_643740"
-      },
-      {
         "source": "Les Echos",
-        "heure": "10h08",
-        "titre": "Nvidia va lancer ses propres processeurs pour ordinateurs portables Windows",
-        "resume": "Le géant américain de la tech a dévoilé lundi un nouveau processeur pour ordinateurs portables fonctionnant sous Windows, visant à briser l'hégémonie de la technologie d'Intel dans ce domaine.",
-        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/nvidia-va-lancer-ses-propres-processeurs-pour-ordinateurs-portables-windows-2234247"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h50",
-        "titre": "Retraite : les salariés attendent un rôle accru de leur employeur",
-        "resume": "Selon le sondage « Les salariés et les attentes vis-à-vis de l'entreprise sur les retraites », réalisé par OpinionWay pour Malakoff Humanis et « Les Echos », une majorité de collaborateurs estiment que l'employeur a un rôle à jouer pour les aider à p",
-        "url": "https://www.lesechos.fr/thema/articles/retraite-les-salaries-attendent-un-role-accru-de-leur-employeur-2234232"
+        "heure": "09h45",
+        "titre": "La CGT en congrès pour se relancer",
+        "resume": "Le 54e congrès de la CGT s'ouvre lundi à Tours. Seule candidate à sa succession, Sophie Binet va être confirmée largement à sa tête. Mais la centrale, qui n'a toujours pas réussi à mettre un coup d'arrêt à sa perte d'audience, va devoir démontrer sa ",
+        "url": "https://www.lesechos.fr/economie-france/social/la-cgt-en-congres-pour-se-relancer-2234241"
       },
       {
         "source": "Les Echos",
@@ -198,11 +159,11 @@
   "ma": {
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "15h08",
-        "titre": "Formule 1 : Mercedes refuse de payer plus d’un demi-milliard pour le quart du capital d’Alpine et claque la porte des tractations",
-        "resume": "Le constructeur allemand Mercedes-Benz et son écurie de Formule 1 Mercedes-AMG se sont retirés de négociations pour racheter un quart du capital de l’équipe franco-britannique Alpine F1. Le prix demandé était trop élevé, selon la BBC.",
-        "url": "https://www.challenges.fr/entreprise/sports/formule-1-mercedes-refuse-de-payer-plus-dun-demi-milliard-pour-le-quart-du-capital-dalpine-et-claque-la-porte-des-tractations_643770"
+        "source": "Les Echos",
+        "heure": "11h00",
+        "titre": "« La France coche toutes les cases de notre stratégie » : au sommet Choose France, Ardian et Verne annoncent une giga-usine IA à 5 milliards proche de Paris",
+        "resume": "Le fonds français et sa filiale britannique veulent faire émerger un campus géant de calcul pour l'intelligence artificielle en région parisienne. Le projet s'inscrit en partie dans la bataille européenne autour des futures gigafactories d'IA.",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/la-france-coche-toutes-les-cases-de-notre-strategie-au-sommet-choose-france-ardian-et-verne-annoncent-une-giga-usine-ia-a-5-milliards-proche-de-paris-2234267"
       },
       {
         "source": "Les Echos",
@@ -213,24 +174,24 @@
       },
       {
         "source": "Les Echos",
-        "heure": "11h00",
-        "titre": "« La France coche toutes les cases de notre stratégie » : au sommet Choose France, Ardian et Verne annoncent une giga-usine IA à 5 milliards proche de Paris",
-        "resume": "Le fonds français et sa filiale britannique veulent faire émerger un campus géant de calcul pour l'intelligence artificielle en région parisienne. Le projet s'inscrit en partie dans la bataille européenne autour des futures gigafactories d'IA.",
-        "url": "https://www.lesechos.fr/tech-medias/hightech/la-france-coche-toutes-les-cases-de-notre-strategie-au-sommet-choose-france-ardian-et-verne-annoncent-une-giga-usine-ia-a-5-milliards-proche-de-paris-2234267"
-      },
-      {
-        "source": "Les Echos",
         "heure": "10h12",
         "titre": "Cegedim Santé rachète Médoucine, plateforme de prise de rendez-vous en médecine douce",
         "resume": "Le montant de l'opération n'a pas été communiqué mais la jeune pousse indique être rentable depuis 2024. C'est la quatrième acquisition en cinq ans du concurrent direct de Doctolib.",
         "url": "https://www.lesechos.fr/start-up/deals/cegedim-sante-rachete-medoucine-plateforme-de-prise-de-rendez-vous-en-medecine-douce-2234249"
       },
       {
+        "source": "Challenges",
+        "heure": "15h08",
+        "titre": "Formule 1 : Mercedes refuse de payer plus d’un demi-milliard pour le quart du capital d’Alpine et claque la porte des tractations",
+        "resume": "Le constructeur allemand Mercedes-Benz et son écurie de Formule 1 Mercedes-AMG se sont retirés de négociations pour racheter un quart du capital de l’équipe franco-britannique Alpine F1. Le prix demandé était trop élevé, selon la BBC.",
+        "url": "https://www.challenges.fr/entreprise/sports/formule-1-mercedes-refuse-de-payer-plus-dun-demi-milliard-pour-le-quart-du-capital-dalpine-et-claque-la-porte-des-tractations_643770"
+      },
+      {
         "source": "Les Echos",
-        "heure": "10h00",
-        "titre": "A Dijon, la maison d'édition Faton en quête de repreneurs",
-        "resume": "La société rachetée par l'ancien propriétaire de Valeurs Actuelles a déposé le bilan et s'est vue placée sous redressement judiciaire. Une recherche de repreneurs est engagée en urgence.",
-        "url": "https://www.lesechos.fr/pme-regions/bourgogne-franche-comte/a-dijon-la-maison-dedition-faton-en-quete-de-repreneurs-2234245"
+        "heure": "15h40",
+        "titre": "« Les ennemis sont difficiles à identifier, mais elle détruit, manipule, déstabilise… La guerre hybride est déclarée »",
+        "resume": "Cyberattaques massives, enlèvements liés aux cryptomonnaies, manipulation de l'information, espionnage industriel… La France est entrée dans une « guerre hybride », expose Jean-Christophe Fromantin, délégué général d'Anticipations.",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/les-ennemis-sont-difficiles-a-identifier-mais-elle-detruit-manipule-destabilise-la-guerre-hybride-est-declaree-2234199"
       }
     ]
   },
@@ -238,10 +199,10 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "10h00",
-        "titre": "Au Canada, le chômage des jeunes au plus haut",
-        "resume": "Selon les données de Statistique Canada, le taux de chômage des 15-24 ans a atteint 14,3 % en avril, contre 9,6 % il y a trois ans.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/01/au-canada-le-chomage-des-jeunes-au-plus-haut_6695929_3234.html"
+        "heure": "07h00",
+        "titre": "Ce qui change le 1ᵉʳ juin pour votre budget : prix du gaz, aides carburant, véhicules électriques, smic, particuliers employeurs, contrats financiers souscrits en ligne",
+        "resume": "La hausse des prix du carburant a conduit le gouvernement à mettre en place un certain nombre d’aides dans un contexte de reprise de l’inflation.",
+        "url": "https://www.lemonde.fr/argent/article/2026/06/01/ce-qui-change-le-1-juin-pour-votre-budget-prix-du-gaz-aides-carburant-vehicules-electriques-smic-particuliers-employeurs-contrats-financiers-souscrits-en-ligne_6695778_1657007.html"
       },
       {
         "source": "Le Monde Eco",
@@ -252,17 +213,10 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Ce qui change le 1ᵉʳ juin pour votre budget : prix du gaz, aides carburant, véhicules électriques, smic, particuliers employeurs, contrats financiers souscrits en ligne",
-        "resume": "La hausse des prix du carburant a conduit le gouvernement à mettre en place un certain nombre d’aides dans un contexte de reprise de l’inflation.",
-        "url": "https://www.lemonde.fr/argent/article/2026/06/01/ce-qui-change-le-1-juin-pour-votre-budget-prix-du-gaz-aides-carburant-vehicules-electriques-smic-particuliers-employeurs-contrats-financiers-souscrits-en-ligne_6695778_1657007.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "19h00",
-        "titre": "La Suède multiplie les aides aux ménages et aux entreprises pour faire face à la crise énergétique",
-        "resume": "A moins de quatre mois des élections législatives, la droite libérale conservatrice et l’extrême droite ont annoncé 17,3 milliards de couronnes, soit 1,6 milliard d’euros, de mesures de soutien, dont la réduction de moitié du prix des billets dans le",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/31/la-suede-multiplie-les-aides-aux-menages-et-aux-entreprises-pour-faire-face-a-la-crise-energetique_6695588_3234.html"
+        "heure": "04h58",
+        "titre": "Les droits des travailleurs sont en recul dans le monde, y compris en France, alerte la Confédération syndicale internationale",
+        "resume": "Dans l’Hexagone, le déclin des droits est « caractérisé par une répression des militants syndicaux et des restrictions imposées aux manifestations », constate l’organisation dans son indice annuel.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/01/les-droits-des-travailleurs-sont-en-recul-dans-le-monde-y-compris-en-france-et-aux-etats-unis-s-alarme-la-confederation-syndicale-internationale_6695710_3234.html"
       },
       {
         "source": "Le Monde Eco",
@@ -270,13 +224,6 @@
         "titre": "Gel des allègements de cotisations sociales : le patronat dénonce une « double peine » au « pire moment pour les entreprises »",
         "resume": "Les dirigeants des principales organisations patronales appellent, dans « La Tribune Dimanche », le gouvernement au « dialogue ». La hausse du smic de 2,4 % le 1ᵉʳ juin ne s’accompagnera pas de celle des allègements de cotisations sur les bas salaire",
         "url": "https://www.lemonde.fr/economie/article/2026/05/31/gel-des-allegements-de-cotisations-sociales-le-patronat-denonce-une-double-peine-au-pire-moment-pour-les-entreprises_6695329_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "19h50",
-        "titre": "Carburant : plus de 439 000 Français ont demandé l’indemnité « grands rouleurs », selon Sébastien Lecornu",
-        "resume": "Les travailleurs modestes pourront « toucher 100 euros dès le mois de juin », a soutenu le premier ministre. Un décret, publié samedi au « Journal officiel », a entériné le doublement de cette indemnité réservée aux actifs les plus touchés par la hau",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/31/carburant-plus-de-439-000-francais-ont-demande-l-indemnite-grands-rouleurs-selon-sebastien-lecornu_6695595_823448.html"
       },
       {
         "source": "Le Figaro",
@@ -291,13 +238,6 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "09h24",
-        "titre": "En Allemagne, des secteurs stratégiques et politiquement sensibles pris d’assaut par des entreprises italiennes",
-        "resume": "A l’instar d’UniCredit, plusieurs groupes italiens profitent des opportunités laissées par les lenteurs du capitalisme allemand pour s’imposer dans la banque, le ferroviaire ou les médias, renforçant de facto le marché unique européen.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/01/en-allemagne-des-bastions-strategiques-en-difficulte-pris-d-assaut-par-des-champions-italiens_6695926_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
         "heure": "08h52",
         "titre": "« Le projet de loi d’urgence agricole ouvre la voie à une facilitation de l’implantation des fermes-usines et des mégapoulaillers »",
         "resume": "Les animaux, leurs conditions de vie et d’exploitation sont les grands absents des débats autour du projet de loi d’urgence pour la protection et la souveraineté agricole, en débats à l’Assemblée nationale, alors qu’ils en sont le principal objet, dé",
@@ -305,59 +245,24 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h35",
-        "titre": "Le titre de séjour de Xenia Fedorova, la chroniqueuse pro-Kremlin des médias Bolloré, provoque l’embarras au sommet de l’Etat",
-        "resume": "Pour expliquer la carte de résident de dix ans accordée en 2024 à l’ex-dirigeante de RT France, l’entourage de Gérald Darmanin, ministre de l’intérieur à l’époque, évoque un octroi « automatique » et Laurent Nuñez, qui était alors préfet de police, u",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/01/le-titre-de-sejour-de-xenia-fedorova-la-chroniqueuse-pro-kremlin-des-medias-bollore-provoque-des-interrogations-au-sommet-de-l-etat_6695923_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
         "heure": "08h30",
-        "titre": "« Il faut poser les bases d’un véritable “new deal” européen de l’information associant médias, plateformes et régulateurs »",
-        "resume": "Alors que s’ouvre, lundi à Marseille, le Congrès mondial des médias d’information, Jean-Christophe Tortora, directeur général délégué de CMA Media, explique, dans une tribune au « Monde », à quel point l’intelligence artificielle représente une menac",
-        "url": "https://www.lemonde.fr/idees/article/2026/06/01/il-faut-poser-les-bases-d-un-veritable-new-deal-europeen-de-l-information-associant-medias-plateformes-et-regulateurs_6695921_3232.html"
+        "titre": "Pierre Larrouturou, économiste : « Reconstruire une plus grande justice sociale est le seul moyen pour éviter à nos sociétés d’aller de crise en crise, jusqu’à un possible effondrement »",
+        "resume": "Depuis la dérégulation des années 1980, le maintien de la croissance s’est fait par la dette, explique l’économiste dans une tribune au « Monde ». Afin d’éviter que cette fuite en avant ne mène au pire, il soutient la nécessité de faire de l’Europe s",
+        "url": "https://www.lemonde.fr/idees/article/2026/05/31/pierre-larrouturou-economiste-reconstruire-une-plus-grande-justice-sociale-est-le-seul-moyen-pour-eviter-a-nos-societes-d-aller-de-crise-en-crise-jusqu-a-un-possible-effondrement_6695544_3232.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "04h58",
-        "titre": "Les droits des travailleurs sont en recul dans le monde, y compris en France, alerte la Confédération syndicale internationale",
-        "resume": "Dans l’Hexagone, le déclin des droits est « caractérisé par une répression des militants syndicaux et des restrictions imposées aux manifestations », constate l’organisation dans son indice annuel.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/01/les-droits-des-travailleurs-sont-en-recul-dans-le-monde-y-compris-en-france-et-aux-etats-unis-s-alarme-la-confederation-syndicale-internationale_6695710_3234.html"
+        "heure": "16h00",
+        "titre": "Décentralisation : décider au plus près des citoyens, un principe constitutionnel qui peine encore à s’appliquer",
+        "resume": "Un colloque a été organisé au Sénat, jeudi 28 mai, sur l’application du principe de subsidiarité, selon lequel les décisions publiques doivent être prises au niveau le plus proche des citoyens. Vingt ans après son inscription dans la Constitution, le",
+        "url": "https://www.lemonde.fr/politique/article/2026/05/31/decentralisation-decider-au-plus-pres-des-citoyens-un-principe-constitutionnel-qui-peine-encore-a-s-appliquer_6695575_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "09h44",
-        "titre": "Pour Emmanuel Macron, un dernier Choose France sur fond de réindustrialisation en panne",
-        "resume": "Pour la 9ᵉ édition de cet événement censé promouvoir l’attractivité économique du pays, le chef de l’Etat recevra, lundi, à Versailles, de nombreux patrons d’entreprises étrangères qui ont prévu d’investir dans l’Hexagone. Si le montant de ces projet",
-        "url": "https://www.lemonde.fr/economie/article/2026/05/31/pour-emmanuel-macron-un-dernier-choose-france-sur-fond-de-reindustrialisation-en-panne_6695550_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Présidentielle 2027 : le timing de la déclaration de candidature, un choix stratégique pour les candidats",
-        "resume": "A un an de l’élection présidentielle, la campagne semble lancée. Si beaucoup ont déjà officialisé leur candidature, d’autres préfèrent encore attendre, car derrière chaque annonce se joue une question d’importance sur le moment précis de l’entrée en",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/01/presidentielle-2027-le-timing-de-la-declaration-de-candidature-un-choix-strategique-pour-les-candidats_6695918_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h30",
-        "titre": "« On s’y prend comme des manches avec tous ces candidats » : dans le Cantal et les Yvelines, les sympathisants LR s’inquiètent des divisions avant l’élection présidentielle de 2027",
-        "resume": "La multiplication des annonces de candidature à droite plonge les électeurs des Républicains dans un attentisme anxieux, partagés entre la fidélité à leur parti et la tentation du vote utile.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/31/on-s-y-prend-comme-des-manches-avec-tous-ces-candidats-dans-le-cantal-et-les-yvelines-les-sympathisants-lr-s-inquietent-des-divisions-avant-l-election-presidentielle-de-2027_6695432_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "23h19",
-        "titre": "Gabriel Attal met en scène sa « force d’agir » lors de son premier meeting de campagne pour la présidentielle de 2027",
-        "resume": "Le secrétaire général de Renaissance a tenu, samedi après-midi, sa première démonstration de force en vue de 2027 au Parc des expositions à Paris, s’affichant en chantre de l’optimisme et multipliant les promesses.",
-        "url": "https://www.lemonde.fr/politique/article/2026/05/30/gabriel-attal-met-en-scene-sa-force-d-agir-lors-de-son-premier-meeting-de-campagne-pour-la-presidentielle-de-2027_6695289_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "16h46",
-        "titre": "« Où est la cohérence quand on remplace Jean-Michel Blanquer par Pap Ndiaye ? » : Gérard Larcher tire un sévère bilan du macronisme",
-        "resume": "Alors que le deuxième quinquennat d’Emmanuel Macron s’achèvera dans moins d’un an, le président du Sénat critique l’absence de cohérence de sa politique. Et candidate à un nouveau mandat à la tête de la chambre haute.",
-        "url": "https://www.challenges.fr/politique/ou-est-la-coherence-quand-on-remplace-jean-michel-blanquer-par-pap-ndiaye-gerard-larcher-tire-un-severe-bilan-du-macronisme_643773"
+        "heure": "09h24",
+        "titre": "En Allemagne, des secteurs stratégiques et politiquement sensibles pris d’assaut par des entreprises italiennes",
+        "resume": "A l’instar d’UniCredit, plusieurs groupes italiens profitent des opportunités laissées par les lenteurs du capitalisme allemand pour s’imposer dans la banque, le ferroviaire ou les médias, renforçant de facto le marché unique européen.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/01/en-allemagne-des-bastions-strategiques-en-difficulte-pris-d-assaut-par-des-champions-italiens_6695926_3234.html"
       },
       {
         "source": "Challenges",
@@ -365,38 +270,38 @@
         "titre": "Alors qu’Israël étend son offensive au Liban et s’empare d’une emblématique forteresse, Jean-Noël Barrot veut réunir l’ONU en urgence",
         "resume": "L’Etat israélien s’est emparé de l’emblématique forteresse de Beaufort au Liban et veut accélérer son offensive au sud du Pays. La France - et son chef de la diplomatie Jean-Noël Barrot - veulent réunir le Conseil de sécurité de l’ONU au plus vite.",
         "url": "https://www.challenges.fr/monde/alors-quisrael-etend-son-offensive-au-liban-et-sempare-dune-emblematique-forteresse-jean-noel-barrot-veut-reunir-lonu-en-urgence_643769"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h44",
-        "titre": "Les Français ne veulent pas d'« une saison 3 du macronisme » : Retailleau tacle Philippe et Attal",
-        "resume": "Dans une interview au Journal du Dimanche ce 31 mai, le patron des Républicains estime n’avoir « jamais été macroniste », à l’inverse de ses deux adversaires au centre et à droite de l’échiquier politique. Il martèle ne pas vouloir renoncer à sa can",
-        "url": "https://www.challenges.fr/politique/les-francais-ne-veulent-pas-d-une-saison-3-du-macronisme-retailleau-tacle-philippe-et-attal_643768"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "15h40",
-        "titre": "« Les ennemis sont difficiles à identifier, mais elle détruit, manipule, déstabilise… La guerre hybride est déclarée »",
-        "resume": "Cyberattaques massives, enlèvements liés aux cryptomonnaies, manipulation de l'information, espionnage industriel… La France est entrée dans une « guerre hybride », expose Jean-Christophe Fromantin, délégué général d'Anticipations.",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/les-ennemis-sont-difficiles-a-identifier-mais-elle-detruit-manipule-destabilise-la-guerre-hybride-est-declaree-2234199"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "09h07",
-        "titre": "Un pétrolier russe arraisonné dimanche dans l’Atlantique par la France, annonce Emmanuel Macron",
-        "resume": "Le Tagor, un pétrolier russe sous sanctions internationales, a été arraisonné par Paris avec le soutien de plusieurs partenaires, dont le Royaume-Uni.",
-        "url": "https://www.lefigaro.fr/international/un-petrolier-russe-arraisonne-dimanche-dans-l-atlantique-par-la-france-annonce-emmanuel-macron-20260601"
       }
     ]
   },
   "taux": {
     "articles": [
       {
+        "source": "Le Figaro",
+        "heure": "07h16",
+        "titre": "«La Fed traverse un test de résistance» : Jerome Powell défend l'indépendance de la banque centrale américaine",
+        "resume": "L’ancien président de la Fed s’exprimait dimanche pour la première fois en public depuis sa passation, en recevant le «prix du courage» pour avoir «défendu l’indépendance» de l’institution face à Donald Trump.",
+        "url": "https://www.lefigaro.fr/international/la-fed-traverse-un-test-de-resistance-jerome-powell-defend-l-independance-de-la-banque-centrale-americaine-20260601"
+      },
+      {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Investir dans les cryptomonnaies sans en détenir",
-        "resume": "Les produits financiers adossés à ces nouveaux actifs se démocratisent, mais ils restent risqués.",
-        "url": "https://www.lemonde.fr/argent/article/2026/06/01/investir-dans-les-cryptomonnaies-sans-en-detenir_6695913_1657007.html"
+        "heure": "19h00",
+        "titre": "La Suède multiplie les aides aux ménages et aux entreprises pour faire face à la crise énergétique",
+        "resume": "A moins de quatre mois des élections législatives, la droite libérale conservatrice et l’extrême droite ont annoncé 17,3 milliards de couronnes, soit 1,6 milliard d’euros, de mesures de soutien, dont la réduction de moitié du prix des billets dans le",
+        "url": "https://www.lemonde.fr/economie/article/2026/05/31/la-suede-multiplie-les-aides-aux-menages-et-aux-entreprises-pour-faire-face-a-la-crise-energetique_6695588_3234.html"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "20h33",
+        "titre": "Pourquoi BPCE nourrit de grandes ambitions au Portugal",
+        "resume": "Le groupe bancaire français est désormais propriétaire de Novobanco, la quatrième banque portugaise. Il mise sur d’importantes synergies dans un pays en pleine croissance.",
+        "url": "https://www.lefigaro.fr/societes/pourquoi-bpce-nourrit-de-grandes-ambitions-au-portugal-20260531"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h45",
+        "titre": "L’exil fiscal est légal, mais cela suffit-il à le rendre moralement acceptable ?",
+        "resume": "L’exil fiscal n’est pas un crime. C’est même un droit, protégé par les textes internationaux. Mais entre légalité et loyauté, la frontière est moins nette. Car derrière les fortunes qui s’en vont se pose une question plus large : jusqu’où peut-on pr",
+        "url": "https://www.challenges.fr/economie/lexil-fiscal-est-legal-mais-cela-suffit-il-a-le-rendre-moralement-acceptable_643734"
       },
       {
         "source": "Challenges",
@@ -404,13 +309,6 @@
         "titre": "Les épargnants seraient-ils devenus moins averses au risque ? Le retour en grâce des unités de compte dans les assurances-vie",
         "resume": "Pour gagner en rendement en toute sécurité, les épargnants privilégient les produits structurés au sein des assurances-vie, selon le baromètre Nortia. Actions et fond euros plafonnent.",
         "url": "https://www.challenges.fr/argent-et-placements/les-epargnants-seraient-ils-devenus-moins-averses-au-risque-le-retour-en-grace-des-unites-de-compte-dans-les-assurances-vie_643749"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "07h16",
-        "titre": "«La Fed traverse un test de résistance» : Jerome Powell défend l'indépendance de la banque centrale américaine",
-        "resume": "L’ancien président de la Fed s’exprimait dimanche pour la première fois en public depuis sa passation, en recevant le «prix du courage» pour avoir «défendu l’indépendance» de l’institution face à Donald Trump.",
-        "url": "https://www.lefigaro.fr/international/la-fed-traverse-un-test-de-resistance-jerome-powell-defend-l-independance-de-la-banque-centrale-americaine-20260601"
       }
     ],
     "courbe": [
@@ -459,38 +357,38 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "3,2 trillions $",
-      "contexte": "La dette mondiale atteint un record historique en juin 2026, portée par les dépenses de transition énergétique et les déficits budgétaires persistants. Ce montant représente 360% du PIB mondial, révélant une fragilité accrue des économies développées.",
-      "source": "FMI - Rapport sur la stabilité financière mondiale"
+      "chiffre": "312 milliards $",
+      "contexte": "Les investissements mondiaux en intelligence artificielle ont dépassé les 312 milliards de dollars au premier trimestre 2026, marquant une accélération de 67% sur un an. Cette explosion reflète la ruée des géants technologiques et des fonds de capital-risque vers l'IA générative et ses applications d'entreprise.",
+      "source": "McKinsey Global AI Index 2026"
     },
     "ephemeride": {
       "date": "1er juin 2026",
-      "evenement": "Lancement du marché carbone paneuropéen unifié, fusionnant l'ETS existant avec de nouveaux secteurs (transport maritime, aérien). Les quotas s'échangent à 95€/tonne CO2.",
-      "impact": "Cette consolidation crée un marché de 2,1 trillions € et accélère la décarbonation économique, reshapant les stratégies d'investissement ESG mondialement."
+      "evenement": "Entrée en vigueur du traité international de régulation des cryptomonnaies signé par 147 pays, établissant des normes communes de fiscalité et de lutte contre le blanchiment.",
+      "impact": "Cet accord historique met fin à 15 ans de fragmentation réglementaire et stabilise le marché crypto évalué à 4,2 trillions de dollars."
     },
     "graphique_semaine": {
-      "titre": "Volatilité des cryptomonnaies vs rendements obligataires 10 ans",
-      "description": "La première semaine de juin 2026 montre une inversion intéressante : alors que les rendements des obligations d'État convergent vers 3,8%, la volatilité du Bitcoin plonge à 32%, son plus bas niveau depuis 2019. Cette stabilisation relative des actifs numériques attire les portefeuilles institutionnels conservateurs.",
+      "titre": "Volatilité des rendements obligataires souverains (semaine du 26 mai - 1er juin 2026)",
+      "description": "Les rendements des obligations souveraines connaissent une semaine tumultueuse en raison des tensions géopolitiques au Moyen-Orient et des craintes récurrentes sur l'inflation. Les obligations allemandes et japonaises servent de valeurs refuge tandis que les dettes périphériques européennes s'enfoncent. Cette volatilité reflète une recalibration majeure des anticipations de politique monétaire.",
       "donnees": [
         {
-          "label": "Lundi 1er juin",
-          "valeur": 58
+          "label": "Bunds allemands (10Y)",
+          "valeur": 1.85
         },
         {
-          "label": "Mardi 2 juin",
-          "valeur": 47
+          "label": "Obligations US (10Y)",
+          "valeur": 4.12
         },
         {
-          "label": "Mercredi 3 juin",
-          "valeur": 39
+          "label": "OAT françaises (10Y)",
+          "valeur": 2.45
         },
         {
-          "label": "Jeudi 4 juin",
-          "valeur": 35
+          "label": "Titres italiens (10Y)",
+          "valeur": 3.78
         },
         {
-          "label": "Vendredi 5 juin",
-          "valeur": 32
+          "label": "JGB japonais (10Y)",
+          "valeur": 0.98
         }
       ]
     }
