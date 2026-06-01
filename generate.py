@@ -55,10 +55,10 @@ def fetch_market_data():
         ("S&P 500",      "^spx",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
         ("Nasdaq",       "^ndq",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
         ("EUR/USD",      "eurusd",    lambda v: "{:.4f}".format(v)),
-        ("Brent",        "lco.uk",    lambda v: "{:.1f} $".format(v)),
+        ("Brent",        "cb.f",      lambda v: "{:.1f} $".format(v)),
         ("Or",           "xauusd",    lambda v: "{:,.0f} $".format(v).replace(",", " ")),
-        ("Euribor 3M",   "euribor3m", lambda v: "{:.3f}%".format(v)),
-        ("Euribor 6M",   "euribor6m", lambda v: "{:.3f}%".format(v)),
+        ("Euribor 3M",   "eubor3m",   lambda v: "{:.3f}%".format(v)),
+        ("Euribor 6M",   "eubor6m",   lambda v: "{:.3f}%".format(v)),
     ]
     metrics = []
     for label, sym, fmt in QUOTES:
@@ -265,7 +265,7 @@ def parse_json_safe(text):
                     raw = text[s:i+1]
                     try: return json.loads(raw)
                     except:
-                        raw = re.sub(r",(\s*[}\]])", r"\1", raw)
+                        raw = re.sub(r',(\s*[}\]])', r'\1', raw)
                         return json.loads(raw)
         i += 1
     raise ValueError("Unmatched braces")
@@ -296,12 +296,12 @@ JSON sans backticks :
       {{"titre": "Politique/Geo - [sujet precis]", "detail": "impact economique chiffre et concret"}}
     ]
   }},
-  "marches":     {{"indices": [0,1,2,3,4,5]}},
-  "entreprises": {{"indices": [0,1,2,3,4,5]}},
-  "ma":          {{"indices": [0,1,2,3,4,5]}},
-  "macro":       {{"indices": [0,1,2,3,4,5]}},
-  "politique":   {{"indices": [0,1,2,3,4,5]}},
-  "taux":        {{"indices": [0,1,2,3,4,5]}}
+  "marches":     {{"indices": [0,1,2,3,4]}},
+  "entreprises": {{"indices": [0,1,2,3,4]}},
+  "ma":          {{"indices": [0,1,2,3,4]}},
+  "macro":       {{"indices": [0,1,2,3,4]}},
+  "politique":   {{"indices": [0,1,2,3,4]}},
+  "taux":        {{"indices": [0,1,2,3,4]}}
 }}
 
 REGLES STRICTES :
@@ -315,7 +315,7 @@ REGLES STRICTES :
 
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=2000,
+        max_tokens=3000,
         messages=[{"role": "user", "content": prompt}]
     )
     text = "".join(b.text for b in response.content if hasattr(b, "text"))
