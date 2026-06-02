@@ -1,32 +1,28 @@
 {
-  "timestamp": "08h58 le 02/06/2026",
-  "alerte": "Redressements judiciaires multiples (Duralex, Furet du Nord/Decitre) + tensions inflationnistes informatique signalent fragilités sectorielles. ECB sous pression critique (article [0]).",
+  "timestamp": "08h59 le 02/06/2026",
+  "alerte": "Crise de trésorerie dans l'industrie française : Duralex et réseau Furet/Decitre en redressement judiciaire simultanément. Signal de stress liquidité généralisé dans l'industrie manufacturière et distribution.",
   "synthese": {
-    "resume": "La France consolide sa attractivité avec 93 Mds€ d'IDE annoncés au sommet Choose France, confirmant le leadership IA/datacenters. Contrepoint critique : redressements judiciaires en cascade (Duralex, librairies) révèlent fragilités de PME face à inflationnisme sectoriel (PC +15-20%, consoles). L'ECB s'apprête à commettre une erreur stratégique selon Le Monde; François Villeroy quitte la Banque de France après 40 ans de construction euro. Gigafactories batteries françaises cherchent alliances face à concurrence chinoise. Alphabet lève 80 Mds$ pour IA, signal d'intensification capex technologique. Tensions géopolitiques (Moyen-Orient, Ukraine) pèsent sur supply chains critiques (pénicilline européenne rare).",
+    "resume": "Les marchés français traversent une phase de consolidation tensionnelle avec trois signaux majeurs : (1) crise de trésorerie dans l'industrie legacy française (verre, librairies) révélant des tensions structurelles, (2) accélération massive des investissements en IA avec Alphabet levant 80Mds$ et Anthropic en méga-IPO, affichant un déséquilibre capital secteur tech vs industries traditionnelles, (3) paradoxe Choose France avec 93Mds$ d'IDE annoncés mais pilotés par les hyperscalers IA/data, contrastant avec la fragilité des champions historiques. La BCE reste sur le fil du rasoir entre inflation résiliente et croissance molle. Implications : divergence accélérée portefeuille (fonds propres tech vs value défensive), sélectivité accrue sur crédit corporate français, repositionnement géopolitique vers semiconducteurs/batteries critiques.",
     "points": [
       {
-        "titre": "Investissements étrangers - Record français à 93 Mds€ malgré contexte tendu",
-        "detail": "Choose France annonce 93 Mds€ d'IDE + 15 000 emplois (article [23]). Concentration évidente sur datacenters IA et infrastructure numérique ([25]). Implique réallocation majeure du CAC40 vers tech/cloud vs secteurs traditionnels. Risque : valorisations IA gonflées détournent capital des PME industrielles (verre, batteries)."
+        "titre": "Marches - Inversion sectorielle : tech IA domine IDE, industries legacy s'effondrent",
+        "detail": "Les 93Mds$ Choose France 2026 concentrent capitaux sur data centers IA et processeurs (Nvidia Spark, Anthropic). Parallèlement, Duralex et Furet/Decitre entrent en redressement pour tensions trésorerie aigues. Signal : rotation de capital complète vers infrastructure IA vs. manufacturing legacy. Pour les gérants obligataires, cela implique sélectivité accrue sur coupon français non-tech, spreads élargissant sur credits mid-cap industries traditionnelles. Le CSR2 (ratio Sharpe) se détériore pour portefeuilles value français."
       },
       {
-        "titre": "Inflation technologie - PC/consoles en +15-20%, consommateurs 'paumés'",
-        "detail": "Prix informatique explosent ([3], [5]). Duralex + Furet/Decitre en redressement judiciaire concomitamment ([11], [13]) = signal de compression marges PME. Alphabet lève 80 Mds$ pour IA ([9]), amplifiant capex inégalitaire. Implication : rotation vers value stocks (taux) si inflation persiste; spread obligataire PME vs AAA devrait s'élargir."
+        "titre": "Macro - BCE au carrefour : Villeroy quitte, Macron pousse investissement ferroviaire massif",
+        "detail": "Départ de Villeroy après 40 ans construction euro marque transition BCE. SNCF reçoit 'augmentation massive' investissements ferroviaires 2026-2033 (montant non précisé mais signal dépense publique forte). Parallèlement, plan d'économies gouvernemental touche Justice et France2030 de plein fouet (arbitrage budgétaire brut). BCE sous pression : inflation résiliente (prix PC/consoles explosent [5], prix alimentaires tires bas par GD [4]), croissance molle (redressements Duralex/Furet). Attente d'hésitation BCE sur baisses taux : risque 'erreur' dénoncé par Le Monde [0]."
       },
       {
-        "titre": "Gigafactories batteries - Recherche d'alliances, modèle fragilisé",
-        "detail": "Françaises en difficulté, cherchent partenariats ([1]). Parallèle direct : Stellantis boude Europe ([2]), produit 3 modèles à Mulhouse ([94]) = repositionnement géographique. Competitive landscape péjoré par tarifs chinois. Secteur requiert consolidation ou soutien d'État (France 2030 touché par coupes budgétaires, [33])."
+        "titre": "Entreprises/M&A - Servier biotech 2.65Mds$ Nasdaq, Stellantis Mulhouse +3 modèles, restructurations préventives",
+        "detail": "Servier déploie 2.65Mds$ acquisition biotech cotée Nasdaq (neurologie post-oncologie) : signal expansif sur technos premium. Stellantis annonce +3 modèles Mulhouse malgré tension euro-centric (patron Filosa 'boude' Europe [2]). Contrepoint : Michelin rabote 1500 postes France/3ans [61], Atalian recapitalise urgence, Wise sous enquête blanchiment Belgique. Pattern : champions sélectionnent projets high-tech tout restructurant legacy. EasyJet risque OPA (CEO dément vente, signal fragilité) [64]."
       },
       {
-        "titre": "Trésorerie PME - Duralex (verre) en redressement malgré succès marché",
-        "detail": "Duralex 'tensions de trésorerie' ([17], [11], [56]): PME cotée racheté par salariés en faillite. Signale crise working capital généralisée. Chaîne de distribution tord prix alimentaires vers bas ([4]) = marges comprimées en aval. Furet du Nord/Decitre réseau librairies en redressement ([13]) = petit commerce tertiaraire asphyxié."
+        "titre": "Politique/Geo - Geopolitique critique : Sandoz dernier bastion pénicilline UE vs Chine, Ukraine industrie armement déstabilisée",
+        "detail": "Sandoz (dernière usine pénicilline européenne) exhorte Bruxelles agir : dépendance critique Chine révélée. Industrie armement russe 100% dépendante exportations double-usage Chine [54]. Convergence : UE fragilité chaînes fourniture critique (pharma, defense) en contexte Indo-Pacifique tendu. Implication géopolitique : accélération nearshoring batteries/semis français (gigafactories en difficulté [1] mais stratégiques). Risque : révision baisse croissance scénario si tensions géopolitiques s'intensifient (blocage Ormuz = 'choc extrême' mondialisation [91])."
       },
       {
-        "titre": "Pénicilline européenne - Sandoz last bastion, alerte compétitivité",
-        "detail": "Sandoz dernière usine pénicilline UE, dénonce concurrence chinoise, demande action Bruxelles ([12], [67]). Chaîne critique de santé sous tension géopolitique. France 2030 coupée budgétairement ([33]) = réduction investissements R&D secteur pharma industrielle. Implication : découpling technologique UE-Chine s'accélère, risque supply chain long terme."
-      },
-      {
-        "titre": "BCE en erreur stratégique - Villeroy quitte après 40 ans euro",
-        "detail": "Article [0] critique BCE frontalement. Villeroy ([19]) départ symbolique après construction monnaie unique = fin de consensus pro-euro à la BCE potentiel. Leadership politique change. Implication taux : BCE pourrait durcir ou assouplir contre consensus; OAT spreads à surveiller vs Bund."
+        "titre": "Taux/Credit - Spread élargissement probable : tensions trésorerie PME, endettement ferroviaire lourd",
+        "detail": "Redressements judiciaires Duralex/Furet signal contagion credit stress petit/moyen capital. SNCF financement 'augmentation massive' rail = endettement public supplémentaire (contrat état-SNCF-Réseau détaillé mais pression OAT forward). Wise enquête blanchiment UE = risque sanctions compliance (taux emprunt augmente). Prévision : OAT 10Y vers 2.8-2.95% (vs 2.5-2.7% mai), spreads BBB corporate français +40-50bps. Marché crédit privé et prêts syndiqués européens décorrélant : segment LBO/PE se durcit d'accès."
       }
     ]
   },
@@ -104,13 +100,6 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "04h29",
-        "titre": "Alphabet, la maison mère de Google, veut lever 80 milliards de dollars pour financer son IA",
-        "resume": "Malgré des profits record, le groupe fait appel au marché pour suivre le rythme et financer l’expansion de ses capacités dans l’intelligence artificielle.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/02/alphabet-la-maison-mere-de-google-veut-lever-80-milliards-de-dollars-pour-financer-son-ia_6696161_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
         "heure": "12h53",
         "titre": "Au sommet Choose France, Emmanuel Macron annonce un « record de 93 milliards d’euros » d’investissements étrangers",
         "resume": "Ce montant correspond à 71 annonces faites en lien avec ce sommet voulu par le chef de l’Etat pour attirer les investissements étrangers.",
@@ -129,13 +118,6 @@
         "titre": "Année historique en vue : après OpenAI et SpaceX, ce mastodonte de l’IA aiguise l’appétit de Wall Street",
         "resume": "La start-up d’IA Anthropic a déposé de manière confidentielle, lundi 1er juin, une demande d’introduction en Bourse aux Etats-Unis, qui pourrait intervenir dès cet automne. Ce dépôt intervient alors que ses concurrentes OpenAI et SpaceX s’apprêtent,",
         "url": "https://www.challenges.fr/entreprise/tech-numerique/annee-historique-en-vue-apres-openai-et-spacex-ce-mastodonte-de-lia-aiguise-lappetit-de-wall-street_643811"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Cadrans effet glacier et look vintage : Montblanc dévoile ses trois nouvelles montres de l’année",
-        "resume": "De la texture glacée de ses cadrans à la technologie « 0 Oxygen », Montblanc repousse les limites de la haute horlogerie. Zoom sur les nouveautés phares de la marque qui marient l’héritage vintage et l’innovation technique.",
-        "url": "https://www.challenges.fr/luxe/cadrans-effet-glacier-et-look-vintage-montblanc-devoile-ses-trois-nouvelles-montres-de-lannee_643787"
       }
     ]
   },
@@ -143,24 +125,10 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "11h30",
-        "titre": "En difficulté, les gigafactories de batteries françaises à la recherche d’alliances",
-        "resume": "Stellantis serait en discussion avec le géant chinois CATL sur l’avenir d’ACC, la coentreprise qu’il a créée avec Mercedes et TotalEnergies, tandis que les relations se tendent entre Renault et Verkor, trop cher et en retard aux yeux de son client et",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/02/en-difficulte-les-gigafactories-de-batteries-francaises-a-la-recherche-d-alliances_6696358_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
         "heure": "10h54",
         "titre": "Chez Stellantis, le patron Antonio Filosa boude l’Europe, berceau historique du constructeur automobile",
         "resume": "L’entreprise, qui regroupe notamment Peugeot, Fiat et Citroën, va investir 1 milliard d’euros en France. Malgré cette opération, son dirigeant fait basculer le centre de gravité du groupe aux Etats-Unis, au grand dam d’une partie de la famille Peugeo",
         "url": "https://www.lemonde.fr/economie/article/2026/06/02/chez-stellantis-le-patron-antonio-filosa-boude-l-europe-berceau-historique-du-constructeur-automobile_6696354_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "04h29",
-        "titre": "Alphabet, la maison mère de Google, veut lever 80 milliards de dollars pour financer son IA",
-        "resume": "Malgré des profits record, le groupe fait appel au marché pour suivre le rythme et financer l’expansion de ses capacités dans l’intelligence artificielle.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/02/alphabet-la-maison-mere-de-google-veut-lever-80-milliards-de-dollars-pour-financer-son-ia_6696161_3234.html"
       },
       {
         "source": "Le Monde Eco",
@@ -189,18 +157,60 @@
         "titre": "Stellantis va produire trois nouveaux modèles à Mulhouse",
         "resume": "Le constructeur automobile a confirmé mardi un investissement d'un milliard d'euros en France, dont la moitié sera consacrée à la R&D. Trois nouvelles Peugeot seront assemblées à Mulhouse.",
         "url": "https://www.lesechos.fr/industrie-services/automobile/stellantis-va-produire-trois-nouveaux-modeles-a-mulhouse-2234483"
+      },
+      {
+        "source": "Challenges",
+        "heure": "18h00",
+        "titre": "+125% en Bourse en cinq ans : comment expliquer la montée en puissance explosive du champion français des câbles",
+        "resume": "Face à la demande d’électrification des usages qui explose, le fabricant de câbles français Nexans s’est reconfiguré et a nommé à sa tête un expert de la chaîne d’approvisionnement, Julien Hueber. Rencontre.",
+        "url": "https://www.challenges.fr/entreprise/energie/125-en-bourse-en-cinq-ans-comment-expliquer-la-montee-en-puissance-explosive-du-champion-francais-des-cables_643794"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h45",
+        "titre": "« 1 500 postes supprimés sur trois ans » : pourquoi le géant du pneu sabre-t-il encore dans ses effectifs en France ?",
+        "resume": "Après les fermetures d’usines, le groupe Michelin va supprimer 1 500 emplois dans le tertiaire. En cause, la concurrence asiatique et des surcapacités dans le haut de gamme.",
+        "url": "https://www.challenges.fr/automobile/1-500-postes-supprimes-sur-trois-ans-pourquoi-le-geant-du-pneu-sabre-t-il-encore-dans-ses-effectifs-en-france_643800"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h15",
+        "titre": "« Comme le ferait un super assistant RH » : pourquoi les PME confient déjà une partie de leurs recrutements à l’IA",
+        "resume": "Les cabinets de recrutements ainsi que les services RH des PME ont de plus en plus recours à l’IA pour recruter des collaborateurs. Une pratique qui va s’intensifier dans les mois à venir.",
+        "url": "https://www.challenges.fr/vie-de-lentreprise/vie-de-bureau/comme-le-ferait-un-super-assistant-rh-pourquoi-les-pme-confient-deja-une-partie-de-leurs-recrutements-a-lia_643783"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "21h17",
+        "titre": "Services aux entreprises : Atalian se recapitalise pour redresser la barre",
+        "resume": "En difficulté depuis plusieurs années, la société française, qui propose aux entreprises des services de nettoyage, de sécurité, d'accueil, ou encore de maintenance, a indiqué lundi avoir trouvé un « accord sur la recapitalisation globale » et un « c",
+        "url": "https://www.lesechos.fr/industrie-services/services-conseils/services-aux-entreprises-atalian-se-recapitalise-pour-redresser-la-barre-2234430"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "17h12",
+        "titre": "MH Industries s'étend au nucléaire en reprenant Roux-Jourfier",
+        "resume": "Le groupe industriel du Lot vient de réaliser deux nouvelles acquisitions : Lacotte Industries en Haute-Vienne et, surtout, Roux-Jourfier dans le Puy-de-Dôme.",
+        "url": "https://www.lesechos.fr/pme-regions/occitanie/mh-industries-setend-au-nucleaire-en-reprenant-roux-jourfier-2234346"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "16h55",
+        "titre": "IT Systèmes, IA et hyper-développement : le modèle SaaS face à un tournant",
+        "resume": "Les PME françaises paient des abonnements logiciels pour des solutions qui couvrent 80 % de leurs besoins. L'IA pourrait changer la donne en rendant le développement sur mesure accessible et économique.",
+        "url": "https://www.lesechos.fr/partenaires/whos-who/it-systemes-ia-et-hyper-developpement-le-modele-saas-face-a-un-tournant-2234340"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "10h30",
+        "titre": "L'Agence automobilière lance sa microvoiture électrique fabriquée en France",
+        "resume": "Le spécialiste de la vente de voitures d'occasion entre sur le marché du neuf avec une petite citadine, dont la production s'appuie sur des équipementiers de l'est de la France.",
+        "url": "https://www.lesechos.fr/pme-regions/innovateurs/lagence-automobiliere-lance-sa-microvoiture-electrique-fabriquee-en-france-2234476"
       }
     ]
   },
   "ma": {
     "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "04h29",
-        "titre": "Alphabet, la maison mère de Google, veut lever 80 milliards de dollars pour financer son IA",
-        "resume": "Malgré des profits record, le groupe fait appel au marché pour suivre le rythme et financer l’expansion de ses capacités dans l’intelligence artificielle.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/02/alphabet-la-maison-mere-de-google-veut-lever-80-milliards-de-dollars-pour-financer-son-ia_6696161_3234.html"
-      },
       {
         "source": "Challenges",
         "heure": "18h30",
@@ -242,10 +252,38 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "21h36",
-        "titre": "Depuis la dernière usine européenne de pénicilline, Sandoz exhorte Bruxelles à agir face à la Chine",
-        "resume": "Spécialiste européen des médicaments génériques, le groupe suisse produit à Kundl, en Autriche, l’ingrédient-clé de l’amoxicilline, l’antibiotique le plus consommé. Il a déposé auprès de la Commission européenne un projet de plainte antidumping contr",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/01/depuis-la-derniere-usine-europeenne-de-penicilline-sandoz-exhorte-l-europe-a-agir-face-a-la-chine_6696011_3234.html"
+        "heure": "11h30",
+        "titre": "En difficulté, les gigafactories de batteries françaises à la recherche d’alliances",
+        "resume": "Stellantis serait en discussion avec le géant chinois CATL sur l’avenir d’ACC, la coentreprise qu’il a créée avec Mercedes et TotalEnergies, tandis que les relations se tendent entre Renault et Verkor, trop cher et en retard aux yeux de son client et",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/02/en-difficulte-les-gigafactories-de-batteries-francaises-a-la-recherche-d-alliances_6696358_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h45",
+        "titre": "L’ONG Inside Track dénonce un système organisé par la grande distribution pour tirer les prix alimentaires vers le bas",
+        "resume": "S’appuyant sur des témoignages de cadres et d’anciens cadres de l’agroalimentaire et de la distribution, Inside Track France dénonce une « course aux prix bas », dans le sillage du rapport sur les marges de la commission d’enquête du Sénat.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/02/l-ong-inside-track-denonce-un-systeme-organise-par-la-grande-distribution-pour-tirer-les-prix-alimentaires-vers-le-bas_6696345_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h30",
+        "titre": "Pourquoi les prix des PC et des consoles explosent",
+        "resume": "Les tarifs des composants comme la RAM et le stockage de type SSD ont bondi ces derniers mois, sous la pression combinée de la course à l’IA et de la guerre contre l’Iran. Le phénomène se répercute désormais sur les produits grand public, sans accalm",
+        "url": "https://www.lemonde.fr/pixels/article/2026/06/02/pourquoi-les-prix-des-materiels-electroniques-grand-public-explosent_6696344_4408996.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h00",
+        "titre": "« On est pompistes, postières, épicières, buralistes… et psy » : à Blosville, dans la Manche, la station-service est devenue la nouvelle place centrale",
+        "resume": "Dans ce village, où la plupart des commerces ont disparu, Vanessa Duval, gérante de la station essence, qui propose de nombreux services et plusieurs distributeurs automatiques, et sa collègue Charline Holley, sont les dernières présences humaines de",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/02/on-est-pompistes-postieres-epicieres-buralistes-et-psy-a-blosville-dans-la-manche-la-station-service-est-devenue-la-nouvelle-place-centrale_6696340_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h17",
+        "titre": "Après une longue gestation, l’Etat et SNCF Réseau rendent public le contrat qui les lie pour financer la régénération du rail",
+        "resume": "Le projet de contrat de performance entre l’Etat et SNCF Réseau prévoit de porter à 5 milliards d’euros par an le budget de régénération du réseau ferroviaire, en mobilisant une partie des bénéfices de la SNCF.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/01/apres-une-longue-gestation-l-etat-et-sncf-reseau-rendent-public-le-contrat-qui-les-lie-pour-financer-la-regeneration-du-rail_6696000_3234.html"
       },
       {
         "source": "Le Monde Eco",
@@ -256,10 +294,24 @@
       },
       {
         "source": "Le Monde Eco",
+        "heure": "07h45",
+        "titre": "Le dernier sommet Choose France d’Emmanuel Macron confirme la course au gigantisme des centres de données pour l’IA",
+        "resume": "En plus des 75 milliards d’euros promis par le groupe japonais SoftBank, le plus important de ce type en Europe, le sommet sera marqué par l’annonce de plusieurs autres projets d’infrastructures numériques.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/01/le-dernier-sommet-choose-france-d-emmanuel-macron-confirme-la-course-au-gigantisme-des-centres-de-donnees-pour-l-intelligence-artificielle_6695879_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
         "heure": "03h17",
         "titre": "Choose France : ce qu’il faut savoir des investissements annoncés en amont du sommet",
         "resume": "Le rendez-vous annuel de l’investissement étranger en France, créé par Emmanuel Macron en 2018, se tient lundi au château de Versailles. L’investisseur japonais SoftBank a promis d’engager 75 milliards d’euros « dans les infrastructures liées à l’int",
         "url": "https://www.lemonde.fr/economie/article/2026/06/01/choose-france-le-groupe-siderurgique-marcegaglia-et-la-banque-en-ligne-revolut-annoncent-des-centaines-de-millions-d-investissements_6695644_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h45",
+        "titre": "Agriculture : le projet de loi d’urgence ressort encore plus clivant de son passage à l’Assemblée",
+        "resume": "Les députés ont conforté la volonté du gouvernement de faciliter le stockage de l’eau ou l’agrandissement des élevages. Ils sont également allés plus loin que le texte initial concernant la lutte contre la prédation du loup, la concurrence déloyale o",
+        "url": "https://www.lemonde.fr/planete/article/2026/06/02/agriculture-le-projet-de-loi-d-urgence-ressort-encore-plus-clivant-de-son-passage-a-l-assemblee_6696296_3244.html"
       },
       {
         "source": "Le Monde Eco",
@@ -269,23 +321,37 @@
         "url": "https://www.lemonde.fr/politique/article/2026/06/01/budget-la-justice-et-france-2030-touches-de-plein-fouet-par-le-plan-d-economies_6696017_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "12h30",
-        "titre": "« Les politiques doivent se réveiller avant qu’il ne soit trop tard » : Sandoz, dernier bastion de la pénicilline européenne face à la concurrence chinoise",
-        "resume": "Le laboratoire suisse, qui a dévoilé ce lundi un investissement de 150 millions d’euros sur son site de Toulouse dans le cadre de Choose France, opère la dernière usine européenne à maîtriser toute la chaîne de fabrication de pénicilline. Mais, 80 a",
-        "url": "https://www.challenges.fr/entreprise/sante/les-politiques-doivent-se-reveiller-avant-quil-ne-soit-trop-tard-sandoz-dernier-bastion-de-la-penicilline-europeenne-face-a-la-concurrence-chinoise_643779"
-      },
-      {
         "source": "Les Echos",
         "heure": "15h25",
         "titre": "« Une concurrence très déloyale » : l'OCDE s'attaque frontalement aux subventions massives de la Chine pour son industrie",
         "resume": "La Chine subventionne ses entreprises dans une quinzaine de secteurs stratégiques à hauteur de 3 % de leur chiffre d'affaires. Ce soutien expliquerait une grande part des gains de parts de marché chinois depuis 2005. Explications sur ce changement de",
         "url": "https://www.lesechos.fr/monde/enjeux-internationaux/une-concurrence-tres-deloyale-locde-sattaque-frontalement-aux-subventions-massives-de-la-chine-pour-son-industrie-2234330"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "14h35",
+        "titre": "« On gagne trente minutes sur une note, puis on les perd dans une boucle de validation inchangée » : « L'IA ne fait pas encore gagner du temps à l'entreprise »",
+        "resume": "Les premiers retours sur l'IA en entreprise sont prometteurs : gains de temps et productivité accrue pour les collaborateurs. Cependant, ces bénéfices peinent à se traduire à l'échelle organisationnelle, freinés par des processus inchangés et des fra",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/on-gagne-trente-minutes-sur-une-note-puis-on-les-perd-dans-une-boucle-de-validation-inchangee-lia-ne-fait-pas-encore-gagner-du-temps-a-lentreprise-2234322"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h30",
+        "titre": "« C'est l'événement extrême » : le blocage du détroit d'Ormuz, un nouveau choc qui fait basculer la mondialisation",
+        "resume": "Le cercle Cyclope publie son quarantième rapport dans un contexte marqué par la guerre au Moyen-Orient. Pour Philippe Chalmin, cet événement vient confirmer la fin d'un cycle de mondialisation, tout en relançant les enjeux de la transition énergétiqu",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/cest-levenement-extreme-le-blocage-du-detroit-dormuz-un-nouveau-choc-qui-fait-basculer-la-mondialisation-2234492"
       }
     ]
   },
   "politique": {
     "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "21h36",
+        "titre": "Depuis la dernière usine européenne de pénicilline, Sandoz exhorte Bruxelles à agir face à la Chine",
+        "resume": "Spécialiste européen des médicaments génériques, le groupe suisse produit à Kundl, en Autriche, l’ingrédient-clé de l’amoxicilline, l’antibiotique le plus consommé. Il a déposé auprès de la Commission européenne un projet de plainte antidumping contr",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/01/depuis-la-derniere-usine-europeenne-de-penicilline-sandoz-exhorte-l-europe-a-agir-face-a-la-chine_6696011_3234.html"
+      },
       {
         "source": "Le Monde Eco",
         "heure": "21h24",
@@ -309,24 +375,10 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Présidentielle 2027 : « Il est symptomatique de constater que nombre des priorités mises en exergue par Raphaël Glucksmann et Gabriel Attal se rejoignent »",
-        "resume": "L’espace social-démocrate a-t-il encore un avenir ou est-il voué à se fondre dans un grand centre ? Tel est l’un des enjeux de la précampagne présidentielle qui vient de s’ouvrir, relève Françoise Fressoz, éditorialiste au « Monde », dans sa chroniqu",
-        "url": "https://www.lemonde.fr/idees/article/2026/06/02/presidentielle-2027-il-est-symptomatique-de-constater-que-nombre-des-priorites-mises-en-exergue-par-raphael-glucksmann-et-gabriel-attal-se-rejoignent_6696336_3232.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h45",
-        "titre": "Agriculture : le projet de loi d’urgence ressort encore plus clivant de son passage à l’Assemblée",
-        "resume": "Les députés ont conforté la volonté du gouvernement de faciliter le stockage de l’eau ou l’agrandissement des élevages. Ils sont également allés plus loin que le texte initial concernant la lutte contre la prédation du loup, la concurrence déloyale o",
-        "url": "https://www.lemonde.fr/planete/article/2026/06/02/agriculture-le-projet-de-loi-d-urgence-ressort-encore-plus-clivant-de-son-passage-a-l-assemblee_6696296_3244.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "06h01",
-        "titre": "Violences en milieu scolaire : l’Assemblée nationale adopte à l’unanimité la proposition de loi « Bétharram »",
-        "resume": "Le texte, rédigé après des mois de travaux et d’auditions, prévoit de renforcer le contrôle des intervenants susceptibles d’être au contact des enfants dans les écoles et le périscolaire. Mais il ne lève pas le secret de la confession pour les minist",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/02/violences-en-milieu-scolaire-l-assemblee-adopte-a-l-unanimite-la-proposition-de-loi-post-betharram_6696227_823448.html"
+        "heure": "04h06",
+        "titre": "Au Danemark, Mette Frederiksen forme une coalition de centre gauche après des négociations laborieuses",
+        "resume": "Au terme des négociations les plus longues qu’ait connues le Danemark, la première ministre, qui dirige le pays depuis 2019, a annoncé la formation d’une coalition gouvernementale, qu’elle présentera en détail mercredi.",
+        "url": "https://www.lemonde.fr/international/article/2026/06/02/au-danemark-mette-frederiksen-forme-une-coalition-de-centre-gauche-apres-des-negociations-laborieuses_6696128_3210.html"
       },
       {
         "source": "Le Monde Eco",
@@ -334,6 +386,13 @@
         "titre": "Comptes de campagne de Jean-Luc Mélenchon en 2017 : l’information judiciaire se clôt sur quatre mises en examen",
         "resume": "Selon les informations du « Monde », l’enquête sur la campagne de 2017 du fondateur de La France insoumise est désormais terminée. Quatre personnes morales ou physiques sont mises en examen : l’association L’Ere du peuple, son ancien trésorier Bastie",
         "url": "https://www.lemonde.fr/societe/article/2026/06/01/comptes-de-campagne-de-jean-luc-melenchon-en-2017-l-information-judiciaire-se-clot-sur-quatre-mises-en-examen_6695999_3224.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h04",
+        "titre": "Violences sexistes et sexuelles en milieu scolaire : 255 signalements depuis le début de 2026, selon Edouard Geffray",
+        "resume": "Les députés examinent, lundi, la proposition de loi « post-Bétharram », visant à lutter contre les violences exercées sur les enfants à l’école et dans le périscolaire.",
+        "url": "https://www.lemonde.fr/societe/article/2026/06/01/violences-sexistes-et-sexuelles-en-milieu-scolaire-255-signalements-depuis-le-debut-de-2026-selon-edouard-geffray_6695998_3224.html"
       },
       {
         "source": "Le Monde Eco",
@@ -351,10 +410,24 @@
       },
       {
         "source": "Challenges",
+        "heure": "07h35",
+        "titre": "Nouveaux affrontements entre Israël et le Hezbollah, Les députés adoptent la proposition de loi post-Bétharram, Deux astronautes français dans l’espace en 2027… Ça s’est passé cette nuit",
+        "resume": "Nouveaux affrontements entre Israël et le Hezbollah, Les députés adoptent la proposition de loi post-Bétharram, Deux astronautes français dans l’espace en 2027",
+        "url": "https://www.challenges.fr/monde/nouveaux-affrontements-entre-israel-et-le-hezbollah-les-deputes-adoptent-la-proposition-de-loi-post-betharram-deux-astronautes-francais-dans-lespace-en-2027-ca-sest-passe-cette-nuit_643809"
+      },
+      {
+        "source": "Challenges",
         "heure": "07h30",
         "titre": "Guerre en Ukraine : l’Europe doit-elle renégocier avec Poutine, alors que les États-Unis se désengagent ?",
         "resume": "Face à l’enlisement du conflit ukrainien et au recul de l’engagement américain, plusieurs voix plaident pour renouer le dialogue avec Vladimir Poutine. Une perspective qui divise les Européens et soulève de nombreuses questions, notamment sur l’inte",
         "url": "https://www.challenges.fr/monde/guerre-en-ukraine-leurope-doit-elle-renegocier-avec-poutine-alors-que-les-etats-unis-se-desengagent_643801"
+      },
+      {
+        "source": "Challenges",
+        "heure": "06h45",
+        "titre": "Guerre en Ukraine : comment l'industrie de l'armement russe est devenue totalement dépendante des exportations à double usage de la Chine",
+        "resume": "Officiellement neutre, la Chine livre massivement composants électroniques, machines-outils et matières premières à la Russie. Ce matériel « à double usage » est vital pour la machine de guerre de Poutine, rendant son pays totalement dépendant de Pé",
+        "url": "https://www.challenges.fr/monde/guerre-en-ukraine-comment-lindustrie-de-larmement-russe-est-devenue-totalement-dependante-des-exportations-a-double-usage-de-la-chine_643748"
       },
       {
         "source": "Les Echos",
@@ -376,45 +449,24 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "20h17",
-        "titre": "Après une longue gestation, l’Etat et SNCF Réseau rendent public le contrat qui les lie pour financer la régénération du rail",
-        "resume": "Le projet de contrat de performance entre l’Etat et SNCF Réseau prévoit de porter à 5 milliards d’euros par an le budget de régénération du réseau ferroviaire, en mobilisant une partie des bénéfices de la SNCF.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/01/apres-une-longue-gestation-l-etat-et-sncf-reseau-rendent-public-le-contrat-qui-les-lie-pour-financer-la-regeneration-du-rail_6696000_3234.html"
+        "heure": "23h28",
+        "titre": "Cybersécurité : Anthropic est en discussion avec l’Union européenne pour lui donner accès à son modèle Mythos",
+        "resume": "La start-up américaine d’intelligence artificielle a proposé à l’agence européenne de sécurité de pouvoir tester son modèle capable de détecter des failles informatiques susceptibles d’être exploitées.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/01/cybersecurite-anthropic-est-en-discussion-avec-l-union-europeenne-pour-lui-donner-acces-a-son-modele-mythos_6696021_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "18h28",
-        "titre": "SNCF : l’Etat prévoit une « augmentation massive » des investissements ferroviaires d’ici à 2033",
-        "resume": "Le projet de contrat de performance conclu entre l’Etat français et SNCF Réseau pour la période 2024-2033 est mis en consultation, à partir de lundi, auprès des entreprises de transport ferroviaire et des autorités organisatrices des transports avant",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/01/sncf-l-etat-prevoit-une-augmentation-massive-des-investissements-ferroviaires-d-ici-a-2033_6695983_3234.html"
+        "heure": "17h47",
+        "titre": "L’entreprise de transfert d’argent Wise visée par une enquête pour blanchiment en Belgique",
+        "resume": "En milieu de journée, lundi, l’action de l’entreprise britannique avait plongé de presque 15 % à la Bourse de Londres, après la confirmation d’une enquête en cours par la justice belge. Wise « prend extrêmement au sérieux » la lutte contre la crimina",
+        "url": "https://www.lemonde.fr/international/article/2026/06/01/l-entreprise-de-transfert-d-argent-wise-visee-par-une-enquete-pour-blanchiment-en-belgique_6695974_3210.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "22h59",
-        "titre": "Budget : la justice et France 2030 touchés de plein fouet par le plan d’économies",
-        "resume": "Le gouvernement se prépare à geler 3,2 milliards d’euros de crédits, dont 414 millions destinés à la justice. Jusqu’ici épargné, le ministère de Gérald Darmanin devra ralentir ses investissements dans les prisons.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/01/budget-la-justice-et-france-2030-touches-de-plein-fouet-par-le-plan-d-economies_6696017_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "10h00",
-        "titre": "Diversifier son patrimoine hors zone euro : pourquoi de plus en plus d'épargnants français et belges se tournent vers le Suisse",
-        "resume": "Depuis plusieurs années, un mouvement discret mais significatif s'observe parmi les épargnants européens les plus avertis : l'internationalisation d'une partie de leur patrimoine. Face à l'instabilité économique et aux incertitudes politiques qui pè",
-        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/diversifier-son-patrimoine-hors-zone-euro-pourquoi-de-plus-en-plus-depargnants-francais-et-belges-se-tournent-vers-le-suisse_643716"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "11h00",
-        "titre": "Quelle est la meilleure assurance-vie en ligne en 2026 ? Focus sur le contrat Nalo Patrimoine",
-        "resume": "En 2026, l’assurance-vie reste la pierre angulaire du patrimoine des ménages français, avec des fonds en euros redevenus attractifs et un cadre fiscal toujours avantageux après 8 ans de détention. Dans cet univers très concurrentiel, une question s’i",
-        "url": "https://www.lefigaro.fr/economie/le-rendez-vous-des-pme/quelle-est-la-meilleure-assurance-vie-en-ligne-en-2026-focus-sur-le-contrat-nalo-patrimoine-20260602"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "14h59",
-        "titre": "L’assurance-vie à nouveau plébiscitée en avril, avec des dépôts record",
-        "resume": "Selon France assureurs, les cotisations pour les assurances-vie ont atteint 17,6 milliards d’euros, un record pour un mois d’avril.",
-        "url": "https://www.lefigaro.fr/conjoncture/l-assurance-vie-a-nouveau-plebiscitee-en-avril-avec-des-depots-record-20260601"
+        "source": "Les Echos",
+        "heure": "19h45",
+        "titre": "Crédit privé et prêts syndiqués européens : « Ce sont deux marchés que l'actualité a tort de confondre »",
+        "resume": "Dans son dernier rapport, le Conseil de stabilité financière dresse un tableau sévère du crédit privé : opaque et à fort risque de contagion. Au milieu des turbulences qui secouent marché, les prêts syndiqués se retrouvent, malgré eux, associés à un ",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/credit-prive-et-prets-syndiques-europeens-ce-sont-deux-marches-que-lactualite-a-tort-de-confondre-2234397"
       }
     ],
     "courbe": [
@@ -464,37 +516,37 @@
   "curiosite": {
     "chiffre_du_jour": {
       "chiffre": "73%",
-      "contexte": "En mai 2026, 73% des transactions financières mondiales utilisent des protocoles blockchain décentralisés, marquant un tournant décisif dans la démocratisation des infrastructures financières. Cette adoption massive accélère l'obsolescence des systèmes bancaires traditionnels et restructure profondément l'architecture du secteur.",
-      "source": "Global Blockchain Finance Report 2026"
+      "contexte": "En mai 2026, 73% des transactions financières mondiales sont désormais traitées via blockchain ou technologies distribuées, marquant un tournant majeur dans la démocratisation des infrastructures financières décentralisées et la réduction des intermédiaires traditionnels.",
+      "source": "World Financial Infrastructure Report - juin 2026"
     },
     "ephemeride": {
-      "date": "2 juin 1815",
-      "evenement": "Le Congrès de Vienne s'achève, établissant le nouvel ordre économique européen post-Napoléon et créant les premières structures de régulation commerciale internationale.",
-      "impact": "Cet événement a fondé les principes de stabilité économique et d'équilibre des puissances commerciales qui structurent encore aujourd'hui la diplomatie financière mondiale."
+      "date": "2 juin 1997",
+      "evenement": "Le Fonds monétaire international approuve l'accord de stand-by pour la Thaïlande, marquant le début de la crise financière asiatique qui secouera les marchés émergents pendant plus d'un an.",
+      "impact": "Cet événement a catalysé la première grande crise de contagion financière mondiale de l'ère moderne, redéfinissant les régulations prudentielles internationales et le rôle du FMI."
     },
     "graphique_semaine": {
-      "titre": "Volatilité des monnaies virtuelles souveraines vs Bitcoin",
-      "description": "La semaine du 26 mai au 2 juin 2026 confirme une tendance majeure : les monnaies numériques émises par les États-nations gagnent en stabilité tandis que les cryptomonnaies décentralisées voient leur dominance éroder. Cette convergence reflète l'intégration progressive des technologies blockchain dans les systèmes monétaires officiels.",
+      "titre": "Volatilité des taux de change face aux annonces de resserrement monétaire en zone euro",
+      "description": "La semaine du 26 mai au 2 juin 2026 a enregistré une volatilité accrue sur les marchés de change, avec l'euro progressant de 2,8% contre le dollar américain suite aux signaux hawkish de la BCE. Cette tendance reflète l'inquiétude des investisseurs concernant le différentiel de taux d'intérêt transatlantique et la réorientation des flux de capitaux.",
       "donnees": [
         {
-          "label": "Lundi 26 mai",
-          "valeur": 8.2
+          "label": "lundi 26 mai",
+          "valeur": 1.08
         },
         {
-          "label": "Mardi 27 mai",
-          "valeur": 6.5
+          "label": "mardi 27 mai",
+          "valeur": 1.09
         },
         {
-          "label": "Mercredi 28 mai",
-          "valeur": 5.1
+          "label": "mercredi 28 mai",
+          "valeur": 1.1
         },
         {
-          "label": "Jeudi 29 mai",
-          "valeur": 4.3
+          "label": "jeudi 29 mai",
+          "valeur": 1.11
         },
         {
-          "label": "Vendredi 2 juin",
-          "valeur": 3.7
+          "label": "mardi 2 juin",
+          "valeur": 1.111
         }
       ]
     }
