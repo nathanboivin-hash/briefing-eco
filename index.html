@@ -13,45 +13,44 @@
   --ink:#1a1a1a; --paper:#f5f2ed; --cream:#ede9e2; --warm:#e8e2d8;
   --rule:rgba(26,26,26,0.12); --rule2:rgba(26,26,26,0.06);
   --accent:#b5602a; --accent2:#d4924e; --muted:#7a7570;
-  --green:#2d6e45; --red:#c0392b; --blue:#1a4a80;
-  --surface:#fff;
+  --green:#2d6e45; --red:#c0392b; --surface:#fff;
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html,body{height:100%;background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased}
-body{overflow:hidden;position:fixed;width:100%}
+html{height:100%}
+body{height:100%;background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;font-size:15px;-webkit-font-smoothing:antialiased;overflow:hidden;position:fixed;width:100%}
 #app{height:100%;display:flex;flex-direction:column}
 
-/* NAV PRINCIPALE */
-.main-nav{background:var(--ink);flex-shrink:0;padding-top:max(env(safe-area-inset-top,44px),44px)}
+/* NAV */
+.nav{background:var(--ink);flex-shrink:0;padding-top:max(env(safe-area-inset-top,44px),44px)}
 .nav-inner{padding:12px 20px 0;display:flex;justify-content:space-between;align-items:flex-end}
+.nav-left .nav-date{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:4px}
 .nav-title{font-family:'Playfair Display',serif;font-size:26px;color:#fff;font-weight:400;line-height:1}
 .nav-title em{font-style:italic;color:var(--accent2)}
-.nav-date{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:4px}
 .nav-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
 .btn-refresh{background:none;border:1px solid rgba(255,255,255,.25);border-radius:4px;padding:7px 13px;font-size:11px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.7);cursor:pointer;font-family:'Inter',sans-serif}
 .btn-refresh:disabled{opacity:.3}
 .nav-ts{font-size:10px;color:rgba(255,255,255,.25)}
 
-/* SECTION TABS (Brief / Portfolio) */
-.section-tabs{background:var(--ink);display:flex;padding:0 20px;margin-top:10px;border-bottom:2px solid rgba(255,255,255,.1)}
-.section-tab{padding:10px 20px 12px;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35);border:none;background:none;cursor:pointer;font-family:'Inter',sans-serif;border-bottom:3px solid transparent;margin-bottom:-2px}
-.section-tab.on{color:#fff;border-bottom-color:var(--accent2)}
+/* SECTION TABS */
+.section-tabs{background:var(--ink);display:flex;padding:0 20px;margin-top:10px;border-bottom:2px solid rgba(255,255,255,.08)}
+.stab{padding:10px 20px 12px;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35);border:none;background:none;cursor:pointer;font-family:'Inter',sans-serif;border-bottom:3px solid transparent;margin-bottom:-2px}
+.stab.on{color:#fff;border-bottom-color:var(--accent2)}
 
 /* CONTENT TABS */
-.content-tabs{background:var(--ink);border-bottom:1px solid rgba(255,255,255,.08);display:flex;overflow-x:auto;padding:0 20px;scrollbar-width:none;flex-shrink:0}
-.content-tabs::-webkit-scrollbar{display:none}
+.ctabs{background:var(--ink);border-bottom:1px solid rgba(255,255,255,.08);display:flex;overflow-x:auto;padding:0 20px;scrollbar-width:none;flex-shrink:0}
+.ctabs::-webkit-scrollbar{display:none}
 .ctab{flex-shrink:0;padding:9px 13px 11px;font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.3);border:none;border-bottom:2px solid transparent;background:none;cursor:pointer;white-space:nowrap;font-family:'Inter',sans-serif}
 .ctab.on{color:#fff;border-bottom-color:var(--accent2)}
 
 /* CONTENT */
-.cnt{flex:1;overflow-y:auto;background:var(--paper);-webkit-overflow-scrolling:touch;padding-bottom:max(env(safe-area-inset-bottom,16px),32px)}
+.cnt{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding-bottom:max(env(safe-area-inset-bottom,16px),32px)}
 
 /* SKELETON */
 .sk{background:linear-gradient(90deg,var(--cream) 25%,var(--warm) 50%,var(--cream) 75%);background-size:200% 100%;animation:sh 1.3s infinite;border-radius:2px}
 @keyframes sh{0%{background-position:200% 0}100%{background-position:-200% 0}}
 .sk-item{border-bottom:1px solid var(--rule2);padding:16px 20px}
 
-/* TYPOGRAPHY */
+/* BRIEF TYPOGRAPHY */
 .sec-rule{font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--rule);padding:16px 20px 8px}
 .sum-block{padding:18px 20px 0}
 .sum-text{font-family:'Playfair Display',serif;font-size:16px;line-height:1.8;color:#2a2520;border-bottom:1px solid var(--rule);padding-bottom:16px}
@@ -61,6 +60,7 @@ body{overflow:hidden;position:fixed;width:100%}
 .pt-body{font-size:12px;color:var(--muted);line-height:1.65}
 .ts-line{text-align:center;font-size:10px;color:rgba(26,26,26,.2);letter-spacing:.08em;padding:14px 20px}
 .empty-note{padding:32px 20px;text-align:center;font-size:13px;color:var(--muted)}
+.alert-bar{margin:14px 20px 0;background:#fff3e0;border-left:3px solid var(--accent);padding:10px 14px;font-size:12px;color:#7a3a10;line-height:1.6;border-radius:0 4px 4px 0}
 
 /* ARTICLES */
 .art-rule{font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--rule);padding:16px 20px 8px}
@@ -79,7 +79,7 @@ a.art:active{background:var(--cream)}
 .art-title{font-family:'Playfair Display',serif;font-size:15px;line-height:1.45;color:var(--ink);margin-bottom:5px}
 .art-body{font-size:12px;color:var(--muted);line-height:1.65}
 .art-cta{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-top:7px;font-weight:500}
-.fav-btn{position:absolute;top:13px;right:20px;background:none;border:none;font-size:18px;cursor:pointer;color:var(--muted);padding:2px}
+.fav-btn{position:absolute;top:13px;right:16px;background:none;border:none;font-size:18px;cursor:pointer;color:var(--muted);padding:2px;line-height:1}
 .fav-btn.saved{color:#e8a020}
 
 /* METRICS */
@@ -88,13 +88,13 @@ a.art:active{background:var(--cream)}
 .met{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px 13px;display:block;text-decoration:none;color:inherit}
 a.met:active{background:var(--cream)}
 .met-label{font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;display:flex;align-items:center;justify-content:space-between}
-.met-label span{font-size:8px;color:var(--accent);letter-spacing:.04em}
+.met-label span{font-size:8px;color:var(--accent)}
 .met-row{display:flex;justify-content:space-between;align-items:baseline}
 .met-val{font-family:'Playfair Display',serif;font-size:18px;font-weight:600;color:var(--ink)}
 .met-chg{font-size:12px;font-weight:500}
 .up{color:var(--green)}.dn{color:var(--red)}.fl{color:var(--muted)}
 
-/* TAUX / OAT */
+/* OAT CURVE */
 .curve-wrap{padding:16px 20px 0}
 .curve-box{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:16px;margin-bottom:12px}
 .curve-date{font-size:10px;color:var(--muted);text-align:right;margin-bottom:8px}
@@ -102,17 +102,20 @@ a.met:active{background:var(--cream)}
 .curve-item{text-align:center}
 .curve-mat{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
 .curve-rate{font-family:'Playfair Display',serif;font-size:15px;font-weight:600;color:var(--ink)}
-.curve-trend{font-size:11px;margin-top:1px}
 .curve-diff{font-size:9px;color:var(--muted)}
 
 /* AGENDA */
+.agenda-day{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);padding:14px 20px 6px;background:var(--paper)}
+.agenda-empty{padding:16px 20px;font-size:13px;color:var(--muted);font-style:italic}
+.agenda-setup-label{font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.agenda-setup-input{width:100%;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;color:var(--ink);font-size:14px;font-family:'Inter',sans-serif;outline:none;margin-bottom:14px;-webkit-appearance:none}
+.agenda-setup-input:focus{border-color:var(--accent)}
+.agenda-setup-btn{background:var(--ink);color:#fff;border:none;border-radius:6px;padding:12px 24px;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer}
 .cal-item{border-bottom:1px solid var(--rule2);padding:12px 20px;display:flex;gap:12px;align-items:flex-start}
-.cal-date{flex-shrink:0;width:52px}
 .cal-day{font-size:10px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.06em}
 .cal-time{font-size:11px;color:var(--muted)}
-.cal-body{flex:1}
-.cal-event{font-family:'Playfair Display',serif;font-size:14px;color:var(--ink);margin-bottom:3px}
-.cal-meta{font-size:11px;color:var(--muted)}
+.cal-event-title{font-family:'Playfair Display',serif;font-size:14px;color:var(--ink);margin-bottom:3px}
+.cal-loc{font-size:11px;color:var(--muted)}
 .imp-high{border-left:3px solid var(--red)}
 .imp-med{border-left:3px solid var(--accent)}
 .cal-badge{display:inline-block;font-size:8px;padding:1px 5px;border-radius:2px;margin-right:4px;font-weight:600;letter-spacing:.05em}
@@ -127,145 +130,166 @@ a.met:active{background:var(--cream)}
 .curio-chiffre{font-family:'Playfair Display',serif;font-size:32px;font-weight:600;color:var(--ink);margin-bottom:6px}
 .curio-text{font-size:13px;color:var(--muted);line-height:1.65}
 .curio-source{font-size:10px;color:var(--muted);margin-top:6px;font-style:italic}
-.curio-chart{width:100%;height:120px}
 
 /* PORTFOLIO */
-.port-wrap { max-width: 600px; margin: 0 auto }
-
-/* HEADER PORTFOLIO */
-.port-hero { background: var(--ink); color: #fff; padding: 20px 20px 0 }
-.port-hero-label { font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.4); margin-bottom:6px }
-.port-hero-val { font-family:'Playfair Display',serif; font-size:36px; font-weight:600; color:#fff; line-height:1 }
-.port-hero-row { display:flex; align-items:center; gap:12px; margin-top:6px }
-.port-hero-pl { font-size:14px; font-weight:500 }
-.port-hero-day { font-size:12px; color:rgba(255,255,255,.5) }
-.port-hero-tabs { display:flex; gap:0; margin-top:16px; border-bottom:1px solid rgba(255,255,255,.1) }
-.port-hero-tab { padding:10px 16px; font-size:11px; font-weight:500; letter-spacing:.08em; text-transform:uppercase; color:rgba(255,255,255,.4); border:none; background:none; cursor:pointer; font-family:'Inter',sans-serif; border-bottom:2px solid transparent; white-space:nowrap }
-.port-hero-tab.on { color:#fff; border-bottom-color:var(--accent2) }
-
-/* LIGNE PORTFOLIO */
-.port-line { display:flex; justify-content:space-between; align-items:center; padding:14px 20px; border-bottom:1px solid var(--rule2); background:var(--surface); cursor:pointer; transition:background .1s }
-.port-line:active, .port-line:hover { background:var(--cream) }
-.pl-left { display:flex; align-items:center; gap:12px }
-.pl-icon { width:40px; height:40px; border-radius:10px; background:var(--paper); border:1px solid var(--rule); display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:var(--ink); flex-shrink:0; font-family:'Inter',sans-serif }
-.pl-info {}
-.pl-ticker { font-size:14px; font-weight:600; color:var(--ink); font-family:'Inter',sans-serif; display:flex; align-items:center; gap:6px }
-.pl-name { font-size:11px; color:var(--muted); margin-top:1px }
-.pl-qty-pru { font-size:10px; color:var(--muted); margin-top:2px }
-.pl-right { text-align:right }
-.pl-price { font-family:'Playfair Display',serif; font-size:17px; font-weight:600; color:var(--ink) }
-.pl-day { font-size:12px; font-weight:500; margin-top:2px }
-.pl-total { font-size:10px; color:var(--muted); margin-top:2px }
-.pl-pl { font-size:11px; font-weight:500; margin-top:1px }
-.alert-badge { background:var(--red); color:#fff; font-size:9px; font-weight:700; padding:1px 5px; border-radius:3px; letter-spacing:.04em }
-
-/* SECTION HEADER */
-.port-section-hdr { font-size:10px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); padding:14px 20px 6px; background:var(--paper); display:flex; justify-content:space-between; align-items:center }
-.port-section-val { font-size:11px; font-weight:500; color:var(--ink) }
-
-/* ACTIONS BAR */
-.port-actions-bar { display:flex; gap:8px; padding:16px 20px; background:var(--paper); border-bottom:1px solid var(--rule2) }
-.btn-primary { background:var(--ink); color:#fff; border:none; border-radius:6px; padding:10px 18px; font-size:12px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; cursor:pointer; font-family:'Inter',sans-serif; display:flex; align-items:center; gap:6px }
-.btn-secondary { background:none; color:var(--muted); border:1px solid var(--rule); border-radius:6px; padding:10px 14px; font-size:11px; font-weight:500; cursor:pointer; font-family:'Inter',sans-serif }
+.port-hero{background:var(--ink);color:#fff;padding:20px 20px 16px}
+.port-hero-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:6px}
+.port-hero-val{font-family:'Playfair Display',serif;font-size:36px;font-weight:600;color:#fff;line-height:1}
+.port-hero-row{display:flex;align-items:center;gap:14px;margin-top:6px;flex-wrap:wrap}
+.port-hero-pl{font-size:14px;font-weight:500}
+.port-hero-day{font-size:12px;color:rgba(255,255,255,.5)}
+.port-actions-bar{display:flex;gap:8px;padding:14px 20px;background:var(--paper);border-bottom:1px solid var(--rule2)}
+.btn-primary{background:var(--ink);color:#fff;border:none;border-radius:6px;padding:10px 18px;font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;font-family:'Inter',sans-serif}
+.btn-secondary{background:none;color:var(--muted);border:1px solid var(--rule);border-radius:6px;padding:10px 14px;font-size:11px;font-weight:500;cursor:pointer;font-family:'Inter',sans-serif}
+.port-section-hdr{font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:14px 20px 6px;background:var(--paper);display:flex;justify-content:space-between;align-items:center}
+.port-section-val{font-size:11px;font-weight:500;color:var(--ink)}
+.port-line{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--rule2);background:var(--surface);cursor:pointer}
+.port-line:active{background:var(--cream)}
+.pl-left{display:flex;align-items:center;gap:12px}
+.pl-icon{width:40px;height:40px;border-radius:10px;background:var(--paper);border:1px solid var(--rule);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--ink);flex-shrink:0;font-family:'Inter',sans-serif;letter-spacing:-.02em}
+.pl-ticker{font-size:14px;font-weight:600;color:var(--ink);font-family:'Inter',sans-serif}
+.pl-name{font-size:11px;color:var(--muted);margin-top:1px}
+.pl-qty{font-size:10px;color:var(--muted);margin-top:2px}
+.pl-right{text-align:right}
+.pl-price{font-family:'Playfair Display',serif;font-size:17px;font-weight:600;color:var(--ink)}
+.pl-day{font-size:12px;font-weight:500;margin-top:2px}
+.pl-value{font-size:10px;color:var(--muted);margin-top:2px}
+.pl-pl{font-size:11px;font-weight:500;margin-top:1px}
+.alert-badge{background:var(--red);color:#fff;font-size:9px;font-weight:700;padding:1px 5px;border-radius:3px;letter-spacing:.04em;margin-left:4px}
 
 /* ANALYSE */
-.analyse-wrap { padding:0 0 20px }
-.kpi-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; padding:16px 20px 8px }
-.kpi { background:var(--surface); border:1px solid var(--rule); border-radius:8px; padding:14px }
-.kpi-label { font-size:10px; font-weight:500; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:6px }
-.kpi-val { font-family:'Playfair Display',serif; font-size:22px; font-weight:600; color:var(--ink) }
-.kpi-sub { font-size:11px; color:var(--muted); margin-top:3px }
-
-/* PIE CHART */
-.pie-wrap { background:var(--surface); border:1px solid var(--rule); border-radius:8px; margin:0 20px 10px; padding:16px }
-.pie-title { font-size:10px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:12px }
-.pie-inner { display:flex; align-items:center; gap:16px }
-.pie-legend { flex:1 }
-.pie-item { display:flex; align-items:center; gap:8px; padding:4px 0; border-bottom:1px solid var(--rule2) }
-.pie-item:last-child { border:none }
-.pie-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0 }
-.pie-item-label { flex:1; font-size:12px; color:var(--ink) }
-.pie-item-pct { font-size:12px; font-weight:600; color:var(--ink) }
-.pie-item-val { font-size:10px; color:var(--muted) }
-
-/* PERF TABLE */
-.perf-table { background:var(--surface); border:1px solid var(--rule); border-radius:8px; margin:0 20px 10px; overflow:hidden }
-.perf-header { display:grid; grid-template-columns:1fr 80px 80px 80px; padding:10px 14px; background:var(--paper); border-bottom:1px solid var(--rule) }
-.perf-header-cell { font-size:9px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); text-align:right }
-.perf-header-cell:first-child { text-align:left }
-.perf-row { display:grid; grid-template-columns:1fr 80px 80px 80px; padding:11px 14px; border-bottom:1px solid var(--rule2) }
-.perf-row:last-child { border:none }
-.perf-name { font-size:13px; font-weight:500; color:var(--ink) }
-.perf-cell { font-size:13px; font-weight:500; text-align:right }
-
-/* RISQUE */
-.risk-bar-wrap { padding:6px 0 }
-.risk-bar-label { display:flex; justify-content:space-between; margin-bottom:4px }
-.risk-bar-name { font-size:12px; color:var(--muted) }
-.risk-bar-val { font-size:12px; font-weight:600 }
-.risk-bar-track { height:6px; background:var(--rule); border-radius:3px; overflow:hidden }
-.risk-bar-fill { height:100%; border-radius:3px; transition:width .4s ease }
-
-/* MODAL */
-.modal-overlay { position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:200; display:none; align-items:flex-end }
-.modal-overlay.open { display:flex }
-.modal-sheet { background:var(--surface); border-radius:16px 16px 0 0; padding:20px 24px; padding-bottom:max(env(safe-area-inset-bottom,16px),32px); width:100%; border-top:1px solid var(--rule); max-height:90vh; overflow-y:auto }
-.modal-handle { width:36px; height:4px; background:var(--rule); border-radius:2px; margin:0 auto 20px }
-.modal-title { font-family:'Playfair Display',serif; font-size:20px; margin-bottom:20px }
-.modal-label { font-size:10px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:7px }
-.modal-input { width:100%; background:var(--paper); border:1px solid var(--rule); border-radius:6px; padding:12px 14px; color:var(--ink); font-size:15px; font-family:'Inter',sans-serif; outline:none; margin-bottom:14px; -webkit-appearance:none }
-.modal-input:focus { border-color:var(--accent) }
-.modal-hint { font-size:11px; color:var(--muted); margin:-10px 0 14px; line-height:1.5 }
-.modal-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px }
-.modal-save { width:100%; padding:15px; background:var(--ink); color:#fff; border:none; border-radius:6px; font-size:14px; font-weight:600; font-family:'Inter',sans-serif; cursor:pointer; margin-top:4px }
-.modal-del { width:100%; padding:12px; background:none; color:var(--red); border:1px solid rgba(192,57,43,.3); border-radius:6px; font-size:13px; font-weight:500; font-family:'Inter',sans-serif; cursor:pointer; margin-top:8px }
+.kpi-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:16px 20px 8px}
+.kpi{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:14px}
+.kpi-label{font-size:10px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.kpi-val{font-family:'Playfair Display',serif;font-size:22px;font-weight:600;color:var(--ink)}
+.kpi-sub{font-size:11px;color:var(--muted);margin-top:3px}
+.analyse-card{background:var(--surface);border:1px solid var(--rule);border-radius:8px;margin:0 20px 10px;padding:16px}
+.analyse-title{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.analyse-row{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--rule2)}
+.analyse-row:last-child{border:none}
+.analyse-label{font-size:12px;color:var(--muted)}
+.analyse-val{font-size:13px;font-weight:600;color:var(--ink)}
+.pie-wrap{background:var(--surface);border:1px solid var(--rule);border-radius:8px;margin:0 20px 10px;padding:16px}
+.pie-title{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.pie-inner{display:flex;align-items:center;gap:16px}
+.pie-legend{flex:1}
+.pie-item{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid var(--rule2)}
+.pie-item:last-child{border:none}
+.pie-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.pie-item-label{flex:1;font-size:12px;color:var(--ink)}
+.pie-item-pct{font-size:12px;font-weight:600;color:var(--ink)}
+.risk-bar-wrap{padding:5px 0}
+.risk-label{display:flex;justify-content:space-between;margin-bottom:4px}
+.risk-name{font-size:12px;color:var(--muted)}
+.risk-val{font-size:12px;font-weight:600}
+.risk-track{height:6px;background:var(--rule);border-radius:3px;overflow:hidden}
+.risk-fill{height:100%;border-radius:3px}
+.perf-table{background:var(--surface);border:1px solid var(--rule);border-radius:8px;margin:0 20px 10px;overflow:hidden}
+.perf-hdr{display:grid;grid-template-columns:1fr 72px 72px 72px;padding:9px 14px;background:var(--paper);border-bottom:1px solid var(--rule)}
+.perf-hcell{font-size:9px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:right}
+.perf-hcell:first-child{text-align:left}
+.perf-row{display:grid;grid-template-columns:1fr 72px 72px 72px;padding:10px 14px;border-bottom:1px solid var(--rule2)}
+.perf-row:last-child{border:none}
+.perf-name{font-size:13px;font-weight:500;color:var(--ink)}
+.perf-cell{font-size:13px;font-weight:500;text-align:right}
 
 /* SETTINGS */
-.settings-wrap { padding:20px }
-.settings-label { font-size:10px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; margin-top:16px }
-.settings-input { width:100%; background:var(--surface); border:1px solid var(--rule); border-radius:6px; padding:12px 14px; color:var(--ink); font-size:14px; font-family:'Inter',sans-serif; outline:none; margin-bottom:4px; -webkit-appearance:none }
-.settings-input:focus { border-color:var(--accent) }
-.settings-note { font-size:11px; color:var(--muted); line-height:1.65; margin-bottom:14px }
-.settings-save { background:var(--ink); color:#fff; border:none; border-radius:6px; padding:12px 24px; font-size:13px; font-weight:600; font-family:'Inter',sans-serif; cursor:pointer }
+.settings-wrap{padding:20px}
+.settings-label{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;margin-top:16px}
+.settings-input{width:100%;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;color:var(--ink);font-size:14px;font-family:'Inter',sans-serif;outline:none;margin-bottom:4px;-webkit-appearance:none}
+.settings-input:focus{border-color:var(--accent)}
+.settings-note{font-size:11px;color:var(--muted);line-height:1.65;margin-bottom:14px}
+.settings-save{background:var(--ink);color:#fff;border:none;border-radius:6px;padding:12px 24px;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer}
 
-<!-- MODAL AJOUT/EDIT LIGNE -->
+/* MODAL */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:200;display:none;align-items:flex-end}
+.modal-overlay.open{display:flex}
+.modal-sheet{background:var(--surface);border-radius:16px 16px 0 0;padding:20px 24px;padding-bottom:max(env(safe-area-inset-bottom,16px),32px);width:100%;border-top:1px solid var(--rule);max-height:90vh;overflow-y:auto}
+.modal-handle{width:36px;height:4px;background:var(--rule);border-radius:2px;margin:0 auto 20px}
+.modal-title{font-family:'Playfair Display',serif;font-size:20px;margin-bottom:20px}
+.modal-label{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+.modal-input{width:100%;background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;color:var(--ink);font-size:15px;font-family:'Inter',sans-serif;outline:none;margin-bottom:14px;-webkit-appearance:none}
+.modal-input:focus{border-color:var(--accent)}
+.modal-hint{font-size:11px;color:var(--muted);margin:-10px 0 14px;line-height:1.5}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.modal-save{width:100%;padding:15px;background:var(--ink);color:#fff;border:none;border-radius:6px;font-size:14px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;margin-top:4px}
+.modal-del{width:100%;padding:12px;background:none;color:var(--red);border:1px solid rgba(192,57,43,.3);border-radius:6px;font-size:13px;font-weight:500;font-family:'Inter',sans-serif;cursor:pointer;margin-top:8px}
+
+/* RESPONSIVE PC */
+@media(min-width:768px){
+  body{overflow:auto;position:static}
+  #app{height:auto;min-height:100vh}
+  .nav{position:sticky;top:0;z-index:100}
+  .cnt{overflow:visible;padding-bottom:40px}
+  .met-grid{grid-template-columns:repeat(3,1fr)}
+  .kpi-grid{grid-template-columns:repeat(4,1fr)}
+  .port-line:hover{background:var(--cream)}
+  a.art:hover{background:var(--cream)}
+}
+@media(min-width:1100px){.met-grid{grid-template-columns:repeat(4,1fr)}}
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <div class="nav-date" id="hdate"></div>
+        <div class="nav-title">Morning <em>Brief</em></div>
+      </div>
+      <div class="nav-right">
+        <button class="btn-refresh" id="rbtn" onclick="mainRefresh()">Actualiser</button>
+        <div class="nav-ts" id="hts"></div>
+      </div>
+    </div>
+    <div class="section-tabs">
+      <button class="stab on" onclick="switchSection(this,'brief')">Briefing</button>
+      <button class="stab" onclick="switchSection(this,'portfolio')">Portefeuille</button>
+    </div>
+    <div class="ctabs" id="brief-tabs">
+      <button class="ctab on" onclick="sw(this,'s')">Synthese</button>
+      <button class="ctab" onclick="sw(this,'m')">Marches</button>
+      <button class="ctab" onclick="sw(this,'e')">Entreprises</button>
+      <button class="ctab" onclick="sw(this,'a')">M&amp;A</button>
+      <button class="ctab" onclick="sw(this,'k')">Macro</button>
+      <button class="ctab" onclick="sw(this,'p')">Politique</button>
+      <button class="ctab" onclick="sw(this,'x')">Taux</button>
+      <button class="ctab" onclick="sw(this,'g')">Agenda eco</button>
+      <button class="ctab" onclick="sw(this,'c')">Curiosite</button>
+      <button class="ctab" onclick="sw(this,'f')">Favoris</button>
+      <button class="ctab" onclick="sw(this,'cal')">Mon Agenda</button>
+    </div>
+    <div class="ctabs" id="port-tabs" style="display:none">
+      <button class="ctab on" onclick="swp(this,'positions')">Positions</button>
+      <button class="ctab" onclick="swp(this,'analyse')">Analyse</button>
+      <button class="ctab" onclick="swp(this,'settings')">Reglages</button>
+    </div>
+  </div>
+  <div class="cnt" id="cnt"></div>
+</div>
+
+<!-- MODAL -->
 <div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()">
   <div class="modal-sheet">
     <div class="modal-handle"></div>
     <div class="modal-title" id="modal-title">Ajouter une ligne</div>
     <div class="modal-label">Ticker Yahoo Finance</div>
-    <input class="modal-input" id="m-ticker" placeholder="ex: MC.PA, AIR.PA, MSFT" autocomplete="off" autocapitalize="characters">
-    <div class="modal-hint">Actions françaises : ajouter .PA (ex: MC.PA pour LVMH)<br>ETF Amundi : ex: CW8.PA, PE500.PA</div>
-    <div class="modal-label">Nom affiché</div>
+    <input class="modal-input" id="m-ticker" placeholder="ex: MC.PA, AIR.PA, CW8.PA" autocomplete="off" autocapitalize="characters">
+    <div class="modal-hint">Actions francaises: ajouter .PA (ex: MC.PA = LVMH)<br>ETF Amundi/iShares: ex CW8.PA, PE500.PA, PAEEM.PA</div>
+    <div class="modal-label">Nom affiche</div>
     <input class="modal-input" id="m-name" placeholder="ex: LVMH" autocomplete="off">
     <div class="modal-grid">
-      <div>
-        <div class="modal-label">Quantité</div>
-        <input class="modal-input" id="m-qty" type="number" placeholder="10" min="0" step="1">
-      </div>
-      <div>
-        <div class="modal-label">PRU (€)</div>
-        <input class="modal-input" id="m-pru" type="number" placeholder="450.00" step="0.01" min="0">
-      </div>
+      <div><div class="modal-label">Quantite</div><input class="modal-input" id="m-qty" type="number" placeholder="10" min="0" step="1"></div>
+      <div><div class="modal-label">PRU (EUR)</div><input class="modal-input" id="m-pru" type="number" placeholder="450.00" step="0.01" min="0"></div>
     </div>
     <div class="modal-label">Type</div>
-    <select class="modal-input" id="m-type">
-      <option value="action">Action</option>
-      <option value="etf">ETF</option>
-    </select>
+    <select class="modal-input" id="m-type"><option value="action">Action</option><option value="etf">ETF</option></select>
     <div class="modal-label">Secteur</div>
     <select class="modal-input" id="m-sector">
-      <option value="Luxe">Luxe</option>
-      <option value="Energie">Energie</option>
-      <option value="Finance">Finance</option>
-      <option value="Industrie">Industrie</option>
-      <option value="Sante">Sante</option>
-      <option value="Tech">Tech</option>
-      <option value="Conso">Consommation</option>
-      <option value="Telecom">Telecom</option>
-      <option value="Immo">Immobilier</option>
-      <option value="ETF">ETF</option>
-      <option value="Autre">Autre</option>
+      <option value="Luxe">Luxe</option><option value="Energie">Energie</option><option value="Finance">Finance</option>
+      <option value="Industrie">Industrie</option><option value="Sante">Sante</option><option value="Tech">Tech</option>
+      <option value="Conso">Consommation</option><option value="Telecom">Telecom</option><option value="Immo">Immobilier</option>
+      <option value="ETF">ETF</option><option value="Autre">Autre</option>
     </select>
     <button class="modal-save" onclick="saveLine()">Enregistrer</button>
     <button class="modal-del" id="modal-del" onclick="deleteLine()" style="display:none">Supprimer</button>
@@ -273,857 +297,555 @@ a.met:active{background:var(--cream)}
 </div>
 
 <script>
-var B = null, tab = 's', portTab = 'positions', section = 'brief';
+// ── STATE ──
+var B = null;
+var briefTab = 's';
+var portTab = 'positions';
+var section = 'brief';
+var portfolio = JSON.parse(localStorage.getItem('mb_portfolio') || '[]');
 var favorites = JSON.parse(localStorage.getItem('mb_favorites') || '[]');
 var githubToken = localStorage.getItem('mb_gh_token') || '';
 var gcalApiKey = localStorage.getItem('mb_gcal_key') || '';
 var gcalId = localStorage.getItem('mb_gcal_id') || '';
 var gcalId2 = localStorage.getItem('mb_gcal_id2') || '';
 var agendaEvents = null;
+var liveData = {};
+var editIdx = -1;
+
+var SECTOR_COLORS = {
+  'Luxe':'#b5602a','Energie':'#e67e22','Finance':'#1a4a80','Industrie':'#2d6e45',
+  'Sante':'#8b2fc9','Tech':'#2980b9','Conso':'#c0392b','Telecom':'#16a085',
+  'Immo':'#7f8c8d','ETF':'#34495e','Autre':'#95a5a6'
+};
 
 // Date
-var d = new Date();
-var DAYS   = ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'];
-var MONTHS = ['janvier','fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre'];
-document.getElementById('hdate').textContent = DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()] + ' ' + d.getFullYear();
+var dn = new Date();
+var DAYS=['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'];
+var MONTHS=['janvier','fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre'];
+document.getElementById('hdate').textContent = DAYS[dn.getDay()]+' '+dn.getDate()+' '+MONTHS[dn.getMonth()]+' '+dn.getFullYear();
 
-// ── SECTION SWITCH ──
+// ── NAVIGATION ──
 function switchSection(el, s) {
-  document.querySelectorAll('.section-tab').forEach(function(x){x.classList.remove('on')});
-  el.classList.add('on');
-  section = s;
-  document.getElementById('brief-tabs').style.display = s === 'brief' ? 'flex' : 'none';
-  document.getElementById('port-tabs').style.display  = s === 'portfolio' ? 'flex' : 'none';
-  if (s === 'brief') renderBrief(tab);
+  document.querySelectorAll('.stab').forEach(function(x){x.classList.remove('on')});
+  el.classList.add('on'); section = s;
+  document.getElementById('brief-tabs').style.display = s==='brief'?'flex':'none';
+  document.getElementById('port-tabs').style.display  = s==='portfolio'?'flex':'none';
+  if (s==='brief') renderBrief(briefTab);
   else renderPortfolio(portTab);
 }
-
-// ── BRIEF TABS ──
 function sw(el, t) {
   document.querySelectorAll('#brief-tabs .ctab').forEach(function(x){x.classList.remove('on')});
-  el.classList.add('on'); tab = t;
+  el.classList.add('on'); briefTab = t;
   B ? renderBrief(t) : showSkel();
 }
-
-// ── PORTFOLIO TABS ──
-function swPort(el, t) {
+function swp(el, t) {
   document.querySelectorAll('#port-tabs .ctab').forEach(function(x){x.classList.remove('on')});
   el.classList.add('on'); portTab = t;
   renderPortfolio(t);
 }
+function mainRefresh() {
+  if (section==='brief') loadBriefing();
+  else { loadLiveData().then(function(){ renderPortfolio(portTab); }); }
+}
 
 function showSkel() {
-  var html = '';
-  for (var i = 0; i < 5; i++) {
-    html += '<div class="sk-item"><div class="sk" style="height:10px;width:55px;border-radius:20px;margin-bottom:10px"></div><div class="sk" style="height:15px;width:88%;margin-bottom:8px"></div><div class="sk" style="height:15px;width:65%;margin-bottom:10px"></div><div class="sk" style="height:12px;width:100%;margin-bottom:5px"></div><div class="sk" style="height:12px;width:72%"></div></div>';
-  }
-  document.getElementById('cnt').innerHTML = html;
+  var h='';
+  for(var i=0;i<5;i++) h+='<div class="sk-item"><div class="sk" style="height:10px;width:55px;border-radius:20px;margin-bottom:10px"></div><div class="sk" style="height:15px;width:88%;margin-bottom:8px"></div><div class="sk" style="height:15px;width:65%;margin-bottom:10px"></div><div class="sk" style="height:12px;width:100%;margin-bottom:5px"></div><div class="sk" style="height:12px;width:72%"></div></div>';
+  document.getElementById('cnt').innerHTML = h;
 }
 
 // ── BADGES ──
 function badge(src) {
-  var s = (src || '').toLowerCase();
-  if (s.indexOf('echos') >= 0)    return '<span class="badge b-ec">Les Echos</span>';
-  if (s.indexOf('figaro') >= 0)   return '<span class="badge b-fi">Le Figaro</span>';
-  if (s.indexOf('bfm') >= 0)      return '<span class="badge b-bfm">BFM</span>';
-  if (s.indexOf('reuters') >= 0)  return '<span class="badge b-re">Reuters</span>';
-  if (s.indexOf('monde') >= 0)    return '<span class="badge b-lm">Le Monde</span>';
-  if (s.indexOf('challenges') >= 0) return '<span class="badge b-ch">Challenges</span>';
-  return '<span class="badge b-def">' + (src || 'Web') + '</span>';
+  var s=(src||'').toLowerCase();
+  if(s.indexOf('echos')>=0) return '<span class="badge b-ec">Les Echos</span>';
+  if(s.indexOf('figaro')>=0) return '<span class="badge b-fi">Le Figaro</span>';
+  if(s.indexOf('bfm')>=0) return '<span class="badge b-bfm">BFM</span>';
+  if(s.indexOf('reuters')>=0) return '<span class="badge b-re">Reuters</span>';
+  if(s.indexOf('monde')>=0) return '<span class="badge b-lm">Le Monde</span>';
+  if(s.indexOf('challenges')>=0) return '<span class="badge b-ch">Challenges</span>';
+  return '<span class="badge b-def">'+(src||'Web')+'</span>';
 }
 
 // ── FAVORITES ──
-function isFav(url) {
-  return favorites.some(function(f){ return f.url === url; });
-}
+function isFav(url) { return favorites.some(function(f){return f.url===url;}); }
 function toggleFav(url, titre, source) {
-  var idx = favorites.findIndex(function(f){ return f.url === url; });
-  if (idx >= 0) { favorites.splice(idx, 1); }
-  else { favorites.unshift({url:url, titre:titre, source:source, savedAt: new Date().toISOString()}); }
+  var idx=favorites.findIndex(function(f){return f.url===url;});
+  if(idx>=0) favorites.splice(idx,1);
+  else favorites.unshift({url:url,titre:titre,source:source,savedAt:new Date().toISOString()});
   localStorage.setItem('mb_favorites', JSON.stringify(favorites));
-  renderBrief(tab);
+  renderBrief(briefTab);
 }
 
 // ── ARTICLE CARD ──
 function artCard(a) {
-  var url   = (a.url && a.url.indexOf('http') === 0) ? a.url : null;
-  var fav   = url ? isFav(url) : false;
-  var tag   = url ? 'a' : 'div';
-  var attr  = url ? ' href="' + url + '" target="_blank"' : '';
-  var cta   = url ? '<div class="art-cta">Lire -></div>' : '';
-  var body  = a.resume ? '<div class="art-body">' + a.resume + '</div>' : '';
-  var favBtn = url ? '<button class="fav-btn' + (fav?' saved':'') + '" onclick="event.preventDefault();event.stopPropagation();toggleFav(\'' + url.replace(/'/g,"\\'") + '\',\'' + (a.titre||'').replace(/'/g,"\\'") + '\',\'' + (a.source||'').replace(/'/g,"\\'") + '\')">' + (fav?'&#9733;':'&#9734;') + '</button>' : '';
-  return '<' + tag + ' class="art"' + attr + '>' +
-    favBtn +
-    '<div class="art-meta">' + badge(a.source) + '<span class="art-time">' + (a.heure||'') + '</span></div>' +
-    '<div class="art-title">' + (a.titre||'') + '</div>' +
-    body + cta +
-    '</' + tag + '>';
+  var url=(a.url&&a.url.indexOf('http')===0)?a.url:null;
+  var fav=url?isFav(url):false;
+  var tag=url?'a':'div';
+  var attr=url?' href="'+url+'" target="_blank"':'';
+  var cta=url?'<div class="art-cta">Lire -></div>':'';
+  var body=a.resume?'<div class="art-body">'+a.resume+'</div>':'';
+  var favBtn=url?'<button class="fav-btn'+(fav?' saved':'')+"\" onclick=\"event.preventDefault();event.stopPropagation();toggleFav('"+url.replace(/'/g,"\\'")+"','"+((a.titre||'').replace(/'/g,"\\'"))+"','"+((a.source||'').replace(/'/g,"\\'"))+"')\">"+(fav?'&#9733;':'&#9734;')+'</button>':'';
+  return '<'+tag+' class="art"'+attr+'>'+favBtn+'<div class="art-meta">'+badge(a.source)+'<span class="art-time">'+(a.heure||'')+'</span></div><div class="art-title">'+(a.titre||'')+'</div>'+body+cta+'</'+tag+'>';
 }
-
 function artList(key) {
-  var list = B[key] && B[key].articles ? B[key].articles : [];
-  if (!list.length) return '<div class="empty-note">Aucun article disponible</div>';
-  var html = '';
-  for (var i = 0; i < list.length; i++) html += artCard(list[i]);
-  return html;
+  var list=B[key]&&B[key].articles?B[key].articles:[];
+  if(!list.length) return '<div class="empty-note">Aucun article disponible</div>';
+  return list.map(artCard).join('');
 }
 
-// ── METRICS ──
-var BOURSO = {
-  'CAC 40':       'https://www.boursorama.com/bourse/indices/cours/1rPCAC/',
-  'Eurostoxx 50': 'https://www.boursorama.com/bourse/indices/cours/1zSX5E/',
-  'S&P 500':      'https://www.boursorama.com/bourse/indices/cours/1zSPX/',
-  'Nasdaq':       'https://www.boursorama.com/bourse/indices/cours/1zCOMP/',
-  'EUR/USD':      'https://www.boursorama.com/bourse/devises/taux-de-change-euro-dollar/',
-  'Brent':        'https://www.boursorama.com/bourse/matieres-premieres/cours/1zLCOQ6/',
-  'Or':           'https://www.boursorama.com/bourse/matieres-premieres/cours/1zXAUUSD/',
-  'Euribor 3M':   'https://www.boursorama.com/bourse/taux/cours/INT3/',
-  'Euribor 6M':   'https://www.boursorama.com/bourse/taux/cours/INT6/',
+// ── BOURSORAMA LINKS ──
+var BOURSO={
+  'CAC 40':'https://www.boursorama.com/bourse/indices/cours/1rPCAC/',
+  'Eurostoxx 50':'https://www.boursorama.com/bourse/indices/cours/1zSX5E/',
+  'S&P 500':'https://www.boursorama.com/bourse/indices/cours/1zSPX/',
+  'Nasdaq':'https://www.boursorama.com/bourse/indices/cours/1zCOMP/',
+  'EUR/USD':'https://www.boursorama.com/bourse/devises/taux-de-change-euro-dollar/',
+  'Brent':'https://www.boursorama.com/bourse/matieres-premieres/cours/1zLCOQ6/',
+  'Or':'https://www.boursorama.com/bourse/matieres-premieres/cours/1zXAUUSD/',
+  'Euribor 3M':'https://www.boursorama.com/bourse/taux/cours/INT3/',
+  'Euribor 6M':'https://www.boursorama.com/bourse/taux/cours/INT6/'
 };
 function metCard(m) {
-  var dir = m.dir === 'up' ? 'up' : m.dir === 'down' ? 'dn' : 'fl';
-  var url = BOURSO[m.label] || 'https://www.boursorama.com/bourse/';
-  var val = (m.value && m.value !== '-') ? m.value : '<span style="font-size:12px;color:var(--muted)">Tap Boursorama</span>';
-  var chg = (m.change && m.change !== '-') ? '<div class="met-chg ' + dir + '">' + m.change + '</div>' : '';
-  return '<a class="met" href="' + url + '" target="_blank">' +
-    '<div class="met-label">' + m.label + ' <span>BOURSORAMA</span></div>' +
-    '<div class="met-row"><div class="met-val">' + val + '</div>' + chg + '</div>' +
-    '</a>';
+  var dir=m.dir==='up'?'up':m.dir==='down'?'dn':'fl';
+  var url=BOURSO[m.label]||'https://www.boursorama.com/bourse/';
+  var val=(m.value&&m.value!=='-')?m.value:'<span style="font-size:12px;color:var(--muted)">Live -></span>';
+  var chg=(m.change&&m.change!=='-')?'<div class="met-chg '+dir+'">'+m.change+'</div>':'';
+  return '<a class="met" href="'+url+'" target="_blank"><div class="met-label">'+m.label+' <span>BOURSORAMA</span></div><div class="met-row"><div class="met-val">'+val+'</div>'+chg+'</div></a>';
 }
 
 // ── OAT CURVE ──
-function renderOatCurve(curve) {
-  if (!curve || !curve.length) return '';
-  var valid = curve.filter(function(p){ return p.rate !== null; });
-  var svgHtml = '';
-  if (valid.length >= 2) {
-    var rates = valid.map(function(p){ return p.rate; });
-    var minR = Math.min.apply(null, rates) - 0.1;
-    var maxR = Math.max.apply(null, rates) + 0.1;
-    var W = 300, H = 80, pad = 12;
-    var pts = valid.map(function(p,i) {
-      var x = pad + (i/(valid.length-1))*(W-pad*2);
-      var y = H - pad - ((p.rate-minR)/(maxR-minR))*(H-pad*2);
+function renderOat(curve) {
+  if(!curve||!curve.length) return '';
+  var valid=curve.filter(function(p){return p.rate!==null;});
+  var svg='';
+  if(valid.length>=2) {
+    var rates=valid.map(function(p){return p.rate;}), minR=Math.min.apply(null,rates)-0.1, maxR=Math.max.apply(null,rates)+0.1;
+    var W=300,H=80,pad=12;
+    var pts=valid.map(function(p,i){
+      var x=pad+(i/(valid.length-1))*(W-pad*2);
+      var y=H-pad-((p.rate-minR)/(maxR-minR))*(H-pad*2);
       return x.toFixed(1)+','+y.toFixed(1);
     }).join(' ');
-    svgHtml = '<svg viewBox="0 0 ' + W + ' ' + H + '" style="width:100%;height:80px">' +
-      '<polyline points="' + pts + '" fill="none" stroke="#b5602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>' +
-      valid.map(function(p,i){
-        var x = pad + (i/(valid.length-1))*(W-pad*2);
-        var y = H - pad - ((p.rate-minR)/(maxR-minR))*(H-pad*2);
-        return '<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="3" fill="#b5602a"/>';
-      }).join('') + '</svg>';
+    svg='<svg viewBox="0 0 300 80" style="width:100%;height:80px"><polyline points="'+pts+'" fill="none" stroke="#b5602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'+
+      valid.map(function(p,i){var x=pad+(i/(valid.length-1))*(W-pad*2);var y=H-pad-((p.rate-minR)/(maxR-minR))*(H-pad*2);return '<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="3" fill="#b5602a"/>';}).join('')+'</svg>';
   }
-  var curveDate = '';
-  curve.forEach(function(p){ if (p.date && !curveDate) curveDate = p.date; });
-  var items = curve.map(function(p) {
-    var arrow = p.trend === 'up' ? '<span style="color:#c0392b">&#9650;</span>' : p.trend === 'down' ? '<span style="color:#2d6e45">&#9660;</span>' : '<span style="color:#7a7570">&#9644;</span>';
-    var diff = (p.diff !== null && p.diff !== undefined) ? ((p.diff > 0 ? '+' : '') + p.diff.toFixed(3)) : '';
-    return '<div class="curve-item">' +
-      '<div class="curve-mat">' + p.maturity + '</div>' +
-      '<div class="curve-rate">' + (p.rate !== null ? p.rate.toFixed(2) + '%' : '-') + '</div>' +
-      '<div class="curve-trend">' + arrow + '</div>' +
-      '<div class="curve-diff">' + diff + '</div>' +
-      '</div>';
+  var curveDate=''; curve.forEach(function(p){if(p.date&&!curveDate)curveDate=p.date;});
+  var items=curve.map(function(p){
+    var arrow=p.trend==='up'?'<span style="color:var(--red)">&#9650;</span>':p.trend==='down'?'<span style="color:var(--green)">&#9660;</span>':'<span style="color:var(--muted)">&#9644;</span>';
+    var diff=p.diff!==null&&p.diff!==undefined?((p.diff>0?'+':'')+p.diff.toFixed(3)):'';
+    return '<div class="curve-item"><div class="curve-mat">'+p.maturity+'</div><div class="curve-rate">'+(p.rate!==null?p.rate.toFixed(2)+'%':'-')+'</div><div>'+arrow+'</div><div class="curve-diff">'+diff+'</div></div>';
   }).join('');
-  return '<div class="curve-wrap">' +
-    '<div class="sec-rule" style="padding:0 0 8px;margin-bottom:12px">Courbe OAT France</div>' +
-    '<div class="curve-box">' +
-    (curveDate ? '<div class="curve-date">BCE : ' + curveDate + '</div>' : '') +
-    svgHtml +
-    '<div class="curve-grid">' + items + '</div>' +
-    '</div></div>';
+  return '<div class="curve-wrap"><div class="sec-rule" style="padding:0 0 8px;margin-bottom:12px">Courbe OAT France</div><div class="curve-box">'+(curveDate?'<div class="curve-date">BCE: '+curveDate+'</div>':'')+svg+'<div class="curve-grid">'+items+'</div></div></div>';
 }
 
 // ── BRIEF RENDER ──
 function renderBrief(t) {
-  var el = document.getElementById('cnt');
-  if (!B) { showSkel(); return; }
-  if (t === 's') {
-    var pts = '';
-    var points = B.synthese && B.synthese.points ? B.synthese.points : [];
-    for (var i = 0; i < points.length; i++) {
-      var p = points[i];
-      var parts = (p.titre || '').split(' - ');
-      var lbl = parts.length > 1 ? parts[0].trim() : '';
-      var rest = parts.length > 1 ? parts.slice(1).join(' - ').trim() : p.titre;
-      pts += '<div class="pt-item"><div class="pt-label">' + lbl + '</div><div class="pt-title">' + rest + '</div><div class="pt-body">' + (p.detail||'') + '</div></div>';
-    }
-    el.innerHTML = (B.alerte ? '<div class="alert-bar">' + B.alerte + '</div>' : '') +
-      '<div class="sum-block"><div class="sum-text">' + (B.synthese&&B.synthese.resume?B.synthese.resume:'') + '</div></div>' +
-      '<div class="sec-rule">Points cles</div>' + pts +
-      '<div class="ts-line">Genere le ' + (B.timestamp||'') + '</div>';
-  }
-  else if (t === 'm') {
-    var metrics = B.marches && B.marches.metrics ? B.marches.metrics : [];
-    var mx = metrics.map(metCard).join('');
-    el.innerHTML = '<div class="met-sec"><div class="sec-rule" style="padding:0 0 8px;margin-bottom:8px">Indices et taux</div><div class="met-grid">' + mx + '</div></div>' +
-      '<div class="art-rule">Actualites marches</div>' + artList('marches');
-  }
-  else if (t === 'x') {
-    var curveHtml = renderOatCurve(B.taux && B.taux.courbe ? B.taux.courbe : []);
-    el.innerHTML = curveHtml + '<div class="art-rule">Actualites taux et credit</div>' + artList('taux');
-  }
-  else if (t === 'g') {
-    var events = B.calendrier || [];
-    if (!events.length) { el.innerHTML = '<div class="empty-note">Aucun evenement cette semaine</div>'; return; }
-    var JOURS = ['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'];
-    var MOIS  = ['jan','fev','mar','avr','mai','jun','jul','aou','sep','oct','nov','dec'];
-    var html = '<div class="sec-rule">Agenda economique - semaine en cours</div>';
-    events.forEach(function(e) {
-      var imp = e.importance >= 3 ? 'imp-high' : 'imp-med';
-      var pb = e.pays === 'FR' ? '<span class="cal-badge cb-fr">FR</span>' : e.pays === 'EU' ? '<span class="cal-badge cb-eu">EU</span>' : '<span class="cal-badge cb-de">' + e.pays + '</span>';
-      var dt = e.date ? new Date(e.date) : null;
-      var ds = dt ? JOURS[dt.getDay()] + ' ' + dt.getDate() + ' ' + MOIS[dt.getMonth()] : e.date;
-      var meta = '';
-      if (e.consensus) meta += 'Consensus: ' + e.consensus;
-      if (e.previous)  meta += (meta?' | ':'') + 'Prec: ' + e.previous;
-      if (e.actual)    meta += (meta?' | ':'') + '<strong>Publie: ' + e.actual + '</strong>';
-      html += '<div class="cal-item ' + imp + '"><div class="cal-date"><div class="cal-day">' + ds + '</div><div class="cal-time">' + (e.time||'') + '</div></div><div class="cal-body"><div class="cal-event">' + pb + (e.event||'') + '</div>' + (meta?'<div class="cal-meta">'+meta+'</div>':'') + '</div></div>';
+  var el=document.getElementById('cnt');
+  if(!B){showSkel();return;}
+  if(t==='s'){
+    var pts='';
+    (B.synthese&&B.synthese.points?B.synthese.points:[]).forEach(function(p){
+      var parts=(p.titre||'').split(' - ');
+      var lbl=parts.length>1?parts[0].trim():'';
+      var rest=parts.length>1?parts.slice(1).join(' - ').trim():p.titre;
+      pts+='<div class="pt-item"><div class="pt-label">'+lbl+'</div><div class="pt-title">'+rest+'</div><div class="pt-body">'+(p.detail||'')+'</div></div>';
     });
-    el.innerHTML = html;
+    el.innerHTML=(B.alerte?'<div class="alert-bar">'+B.alerte+'</div>':'')+
+      '<div class="sum-block"><div class="sum-text">'+(B.synthese&&B.synthese.resume?B.synthese.resume:'')+'</div></div>'+
+      '<div class="sec-rule">Points cles</div>'+pts+
+      '<div class="ts-line">Genere le '+(B.timestamp||'')+'</div>';
   }
-  else if (t === 'c') {
-    var cur = B.curiosite || {};
-    var chiffre = cur.chiffre_du_jour || {};
-    var ephem   = cur.ephemeride || {};
-    var graphiq = cur.graphique_semaine || {};
-    var html = '<div class="curio-block">';
-    if (chiffre.chiffre) {
-      html += '<div class="curio-card"><div class="curio-label">Chiffre du jour</div>' +
-        '<div class="curio-chiffre">' + chiffre.chiffre + '</div>' +
-        '<div class="curio-text">' + (chiffre.contexte||'') + '</div>' +
-        (chiffre.source ? '<div class="curio-source">' + chiffre.source + '</div>' : '') + '</div>';
-    }
-    if (ephem.evenement) {
-      html += '<div class="curio-card"><div class="curio-label">Ephemeride economique</div>' +
-        '<div class="pt-title" style="margin-bottom:6px">' + (ephem.evenement||'') + '</div>' +
-        '<div class="curio-text">' + (ephem.impact||'') + '</div></div>';
-    }
-    if (graphiq.titre) {
-      var donnees = graphiq.donnees || [];
-      var svgG = '';
-      if (donnees.length >= 2) {
-        var vals = donnees.map(function(d){ return parseFloat(d.valeur)||0; });
-        var minV = Math.min.apply(null,vals), maxV = Math.max.apply(null,vals);
-        var range = maxV - minV || 1;
-        var W2=280, H2=80, p2=10;
-        var gpts = donnees.map(function(d2,i){
-          var x = p2 + (i/(donnees.length-1))*(W2-p2*2);
-          var y = H2 - p2 - ((parseFloat(d2.valeur)-minV)/range)*(H2-p2*2);
-          return x.toFixed(1)+','+y.toFixed(1);
-        }).join(' ');
-        svgG = '<svg viewBox="0 0 '+W2+' '+H2+'" style="width:100%;height:80px;margin-bottom:8px">' +
-          '<polyline points="'+gpts+'" fill="none" stroke="#b5602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>' + '</svg>';
-        var labels = donnees.map(function(d3){
-          return '<div style="text-align:center;flex:1"><div style="font-size:9px;color:var(--muted)">' + d3.label + '</div><div style="font-size:11px;font-weight:600">' + d3.valeur + '</div></div>';
-        }).join('');
-        svgG += '<div style="display:flex;gap:4px">' + labels + '</div>';
+  else if(t==='m'){
+    var metrics=B.marches&&B.marches.metrics?B.marches.metrics:[];
+    el.innerHTML='<div class="met-sec"><div class="sec-rule" style="padding:0 0 8px;margin-bottom:8px">Indices et taux</div><div class="met-grid">'+metrics.map(metCard).join('')+'</div></div><div class="art-rule">Actualites marches</div>'+artList('marches');
+  }
+  else if(t==='x'){
+    el.innerHTML=renderOat(B.taux&&B.taux.courbe?B.taux.courbe:[])+'<div class="art-rule">Actualites taux</div>'+artList('taux');
+  }
+  else if(t==='g'){
+    var events=B.calendrier||[];
+    if(!events.length){el.innerHTML='<div class="empty-note">Aucun evenement cette semaine</div>';return;}
+    var JOURS=['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'];
+    var MOIS2=['jan','fev','mar','avr','mai','jun','jul','aou','sep','oct','nov','dec'];
+    var h='<div class="sec-rule">Agenda economique - semaine en cours</div>';
+    events.forEach(function(e){
+      var imp=e.importance>=3?'imp-high':'imp-med';
+      var pb=e.pays==='FR'?'<span class="cal-badge cb-fr">FR</span>':e.pays==='EU'?'<span class="cal-badge cb-eu">EU</span>':'<span class="cal-badge cb-de">'+e.pays+'</span>';
+      var dt=e.date?new Date(e.date):null;
+      var ds=dt?JOURS[dt.getDay()]+' '+dt.getDate()+' '+MOIS2[dt.getMonth()]:e.date;
+      var meta='';
+      if(e.consensus) meta+='Consensus: '+e.consensus;
+      if(e.previous) meta+=(meta?' | ':'')+'Prec: '+e.previous;
+      if(e.actual) meta+=(meta?' | ':'')+'<strong>Publie: '+e.actual+'</strong>';
+      h+='<div class="cal-item '+imp+'"><div style="min-width:60px;flex-shrink:0"><div class="cal-day">'+ds+'</div><div class="cal-time">'+(e.time||'')+'</div></div><div><div class="cal-event-title">'+pb+(e.event||'')+'</div>'+(meta?'<div class="cal-loc">'+meta+'</div>':'')+'</div></div>';
+    });
+    el.innerHTML=h;
+  }
+  else if(t==='c'){
+    var cur=B.curiosite||{};
+    var chiffre=cur.chiffre_du_jour||{};
+    var ephem=cur.ephemeride||{};
+    var graphiq=cur.graphique_semaine||{};
+    var h='<div class="curio-block">';
+    if(chiffre.chiffre) h+='<div class="curio-card"><div class="curio-label">Chiffre du jour</div><div class="curio-chiffre">'+chiffre.chiffre+'</div><div class="curio-text">'+(chiffre.contexte||'')+'</div>'+(chiffre.source?'<div class="curio-source">'+chiffre.source+'</div>':'')+'</div>';
+    if(ephem.evenement) h+='<div class="curio-card"><div class="curio-label">Ephemeride economique</div><div class="pt-title" style="margin-bottom:6px">'+(ephem.evenement||'')+'</div><div class="curio-text">'+(ephem.impact||'')+'</div></div>';
+    if(graphiq.titre){
+      var donnees=graphiq.donnees||[];
+      var svgG='';
+      if(donnees.length>=2){
+        var vals=donnees.map(function(d){return parseFloat(d.valeur)||0;});
+        var minV=Math.min.apply(null,vals),maxV=Math.max.apply(null,vals),range=maxV-minV||1;
+        var gpts=donnees.map(function(d,i){var x=10+(i/(donnees.length-1))*260;var y=70-((parseFloat(d.valeur)-minV)/range)*55;return x.toFixed(1)+','+y.toFixed(1);}).join(' ');
+        svgG='<svg viewBox="0 0 280 80" style="width:100%;height:80px;margin-bottom:8px"><polyline points="'+gpts+'" fill="none" stroke="#b5602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+        svgG+='<div style="display:flex;gap:4px">'+donnees.map(function(d){return '<div style="text-align:center;flex:1"><div style="font-size:9px;color:var(--muted)">'+d.label+'</div><div style="font-size:11px;font-weight:600">'+d.valeur+'</div></div>';}).join('')+'</div>';
       }
-      html += '<div class="curio-card"><div class="curio-label">Graphique de la semaine</div>' +
-        '<div class="pt-title" style="margin-bottom:8px">' + graphiq.titre + '</div>' +
-        svgG +
-        '<div class="curio-text" style="margin-top:10px">' + (graphiq.description||'') + '</div></div>';
+      h+='<div class="curio-card"><div class="curio-label">Graphique de la semaine</div><div class="pt-title" style="margin-bottom:8px">'+graphiq.titre+'</div>'+svgG+'<div class="curio-text" style="margin-top:10px">'+(graphiq.description||'')+'</div></div>';
     }
-    html += '</div>';
-    el.innerHTML = html || '<div class="empty-note">Pas de contenu disponible</div>';
+    h+='</div>';
+    el.innerHTML=h||'<div class="empty-note">Pas de contenu</div>';
   }
-  else if (t === 'f') {
-    if (!favorites.length) { el.innerHTML = '<div class="empty-note">Pas encore de favoris.<br>Appuie sur l\'etoile d\'un article pour le sauvegarder.</div>'; return; }
-    var html = '<div class="sec-rule">Articles sauvegardes (' + favorites.length + ')</div>';
-    for (var j = 0; j < favorites.length; j++) html += artCard(favorites[j]);
-    el.innerHTML = html;
+  else if(t==='f'){
+    if(!favorites.length){el.innerHTML='<div class="empty-note">Pas encore de favoris.<br>Appuie sur etoile d\'un article.</div>';return;}
+    el.innerHTML='<div class="sec-rule">Articles sauvegardes ('+favorites.length+')</div>'+favorites.map(artCard).join('');
   }
-  else if (t === 'agenda') {
-    if (!gcalApiKey || !gcalId) {
-      el.innerHTML = '<div style="padding:20px">' +
-        '<div class="sec-rule" style="padding:0 0 8px;margin-bottom:16px">Configuration Google Calendar</div>' +
-        '<div class="agenda-setup-label">Cle API Google</div>' +
-        '<input class="agenda-setup-input" type="password" id="gcal-key" placeholder="AIza..." autocomplete="off">' +
-        '<div class="agenda-setup-label">Agenda 1 (ex: perso)</div>' +
-        '<input class="agenda-setup-input" id="gcal-id" placeholder="votre@gmail.com" autocomplete="off">' +
-        '<div class="agenda-setup-label">Agenda 2 (ex: pro) — optionnel</div>' +
-        '<input class="agenda-setup-input" id="gcal-id2" placeholder="autre@gmail.com ou xxx@group.calendar.google.com" autocomplete="off">' +
-        '<div style="font-size:11px;color:var(--muted);line-height:1.65;margin-bottom:16px">Les deux agendas seront fusionnes dans l\'affichage.</div>' +
-        '<button class="agenda-setup-btn" onclick="saveGcalConfig()">Enregistrer</button>' +
-        '</div>';
-      return;
-    }
-    if (agendaEvents !== null) {
-      renderAgendaEvents(el, agendaEvents);
-    } else {
-      el.innerHTML = '<div class="empty-note">Chargement...</div>';
-      loadAgenda();
-    }
+  else if(t==='cal'){
+    renderCalendar(el);
   }
-  else {
-    var cfg = {
-      e:{key:'entreprises',label:'Resultats et vie des entreprises'},
-      a:{key:'ma',         label:'Fusions, acquisitions et PE'},
-      k:{key:'macro',      label:'Macroeconomie France et Europe'},
-      p:{key:'politique',  label:'Politique economique et geopolitique'}
-    };
-    var c = cfg[t];
-    el.innerHTML = '<div class="art-rule">' + c.label + '</div>' + artList(c.key);
+  else{
+    var cfg={e:{key:'entreprises',label:'Resultats et vie des entreprises'},a:{key:'ma',label:'Fusions, acquisitions et PE'},k:{key:'macro',label:'Macroeconomie France et Europe'},p:{key:'politique',label:'Politique economique et geopolitique'}};
+    var c=cfg[t];
+    el.innerHTML='<div class="art-rule">'+c.label+'</div>'+artList(c.key);
   }
 }
 
-// ── STOOQ QUOTE ──
-function fetchStooq(sym, callback) {
-  var url = 'https://stooq.com/q/l/?s=' + sym + '&f=sd2t2ohlcv&h&e=csv';
-  fetch(url)
-    .then(function(r){ return r.text(); })
-    .then(function(text){
-      var lines = text.trim().split('\n');
-      if (lines.length < 2) { callback(null); return; }
-      var vals = lines[1].split(',');
-      var close = parseFloat(vals[4]);
-      var open  = parseFloat(vals[3]);
-      if (!close || close <= 0) { callback(null); return; }
-      var pct = (close - open) / open * 100;
-      callback({close: close, open: open, pct: pct});
-    })
-    .catch(function(){ callback(null); });
+// ── GOOGLE CALENDAR ──
+function renderCalendar(el) {
+  if(!gcalApiKey||!gcalId){
+    el.innerHTML='<div style="padding:20px"><div class="sec-rule" style="padding:0 0 8px;margin-bottom:16px">Configuration Google Calendar</div>'+
+      '<div class="agenda-setup-label">Cle API Google</div>'+
+      '<input class="agenda-setup-input" type="password" id="gcal-key" placeholder="AIza..." autocomplete="off">'+
+      '<div class="agenda-setup-label">Agenda 1</div>'+
+      '<input class="agenda-setup-input" id="gcal-id" placeholder="votre@gmail.com" autocomplete="off">'+
+      '<div class="agenda-setup-label">Agenda 2 (optionnel)</div>'+
+      '<input class="agenda-setup-input" id="gcal-id2" placeholder="pro@gmail.com" autocomplete="off">'+
+      '<div style="font-size:11px;color:var(--muted);line-height:1.65;margin-bottom:16px">Les deux agendas seront fusionnes. Rendez le calendrier public dans les parametres Google Calendar.</div>'+
+      '<button class="agenda-setup-btn" onclick="saveGcalConfig()">Enregistrer</button></div>';
+    return;
+  }
+  if(agendaEvents!==null){renderAgendaEvents(el,agendaEvents);}
+  else{el.innerHTML='<div class="empty-note">Chargement...</div>';loadAgenda();}
+}
+
+function saveGcalConfig() {
+  var k=document.getElementById('gcal-key'),i=document.getElementById('gcal-id'),i2=document.getElementById('gcal-id2');
+  if(!k||!i) return;
+  gcalApiKey=k.value.trim(); gcalId=i.value.trim(); gcalId2=i2?i2.value.trim():'';
+  localStorage.setItem('mb_gcal_key',gcalApiKey); localStorage.setItem('mb_gcal_id',gcalId); localStorage.setItem('mb_gcal_id2',gcalId2);
+  agendaEvents=null; renderBrief('cal');
+}
+function resetGcalConfig(){
+  gcalApiKey='';gcalId='';gcalId2='';
+  ['mb_gcal_key','mb_gcal_id','mb_gcal_id2'].forEach(function(k){localStorage.removeItem(k);});
+  agendaEvents=null; renderBrief('cal');
+}
+function fetchCalEvents(calId){
+  var now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate()),end=new Date(today.getTime()+2*24*60*60*1000);
+  var url='https://www.googleapis.com/calendar/v3/calendars/'+encodeURIComponent(calId)+'/events?key='+gcalApiKey+'&timeMin='+encodeURIComponent(today.toISOString())+'&timeMax='+encodeURIComponent(end.toISOString())+'&singleEvents=true&orderBy=startTime&maxResults=50';
+  return fetch(url).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){return d.items||[];});
+}
+function loadAgenda(){
+  if(!gcalApiKey||!gcalId) return;
+  var promises=[fetchCalEvents(gcalId)];
+  if(gcalId2) promises.push(fetchCalEvents(gcalId2));
+  Promise.all(promises).then(function(results){
+    var all=[];results.forEach(function(items){all=all.concat(items);});
+    all.sort(function(a,b){var ta=a.start.dateTime||a.start.date,tb=b.start.dateTime||b.start.date;return ta<tb?-1:ta>tb?1:0;});
+    agendaEvents=all;
+    if(briefTab==='cal') renderAgendaEvents(document.getElementById('cnt'),agendaEvents);
+  }).catch(function(e){
+    agendaEvents=[];
+    document.getElementById('cnt').innerHTML='<div class="empty-note">Erreur: '+e.message+'<br><br><button class="btn-secondary" onclick="resetGcalConfig()">Reconfigurer</button></div>';
+  });
+}
+function pad2(n){return n<10?'0'+n:''+n;}
+function renderAgendaEvents(el,events){
+  var MOIS=['jan','fev','mar','avr','mai','jun','jul','aou','sep','oct','nov','dec'];
+  var JOURS=['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'];
+  var now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate()),tomorrow=new Date(today.getTime()+24*60*60*1000);
+  var palette=['#b5602a','#2d6e45','#1a4a80','#8b2fc9','#c0392b','#e67e22'];
+  var calColors={},colorIdx=0;
+  var todayE=[],tomorrowE=[];
+  (events||[]).forEach(function(ev){
+    var start=ev.start.dateTime?new Date(ev.start.dateTime):new Date(ev.start.date+'T00:00:00');
+    var day=new Date(start.getFullYear(),start.getMonth(),start.getDate());
+    if(day.getTime()===today.getTime()) todayE.push({ev:ev,start:start});
+    else tomorrowE.push({ev:ev,start:start});
+  });
+  function renderDay(label,evts){
+    var h='<div class="agenda-day">'+label+'</div>';
+    if(!evts.length){h+='<div class="agenda-empty">Rien de prevu</div>';return h;}
+    evts.forEach(function(item){
+      var ev=item.ev,start=item.start;
+      var endDt=ev.end&&ev.end.dateTime?new Date(ev.end.dateTime):null;
+      var isAllDay=!!ev.start.date&&!ev.start.dateTime;
+      var timeStr=isAllDay?'Journee':pad2(start.getHours())+':'+pad2(start.getMinutes())+(endDt?' - '+pad2(endDt.getHours())+':'+pad2(endDt.getMinutes()):'');
+      var calKey=ev.organizer?ev.organizer.email||'':'';
+      if(!calColors[calKey]){calColors[calKey]=palette[colorIdx%palette.length];colorIdx++;}
+      var color=calColors[calKey];
+      var past=start<now?'opacity:.45;':'';
+      var loc=ev.location?'<div class="cal-loc">'+ev.location.substring(0,60)+'</div>':'';
+      var link='https://calendar.google.com/calendar/r/day/'+start.getFullYear()+'/'+(start.getMonth()+1)+'/'+start.getDate();
+      h+='<a href="'+link+'" target="_blank" style="'+past+'display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid var(--rule2);padding:13px 20px;text-decoration:none;color:inherit">'+
+        '<div style="min-width:75px;flex-shrink:0"><div style="font-size:12px;font-weight:600;color:'+color+'">'+timeStr+'</div></div>'+
+        '<div style="flex:1"><div class="art-title" style="font-size:14px;margin-bottom:3px">'+(ev.summary||'Sans titre')+'</div>'+loc+'</div></a>';
+    });
+    return h;
+  }
+  el.innerHTML='<div>'+
+    renderDay("Aujourd'hui -- "+today.getDate()+' '+MOIS[today.getMonth()],todayE)+
+    renderDay('Demain -- '+tomorrow.getDate()+' '+MOIS[tomorrow.getMonth()],tomorrowE)+
+    '<div style="padding:12px 20px"><button class="btn-secondary" style="font-size:10px" onclick="resetGcalConfig()">Changer</button></div></div>';
 }
 
 // ── PORTFOLIO ──
-var SECTOR_COLORS = ['#b5602a','#2d6e45','#1a4a80','#8b2fc9','#c0392b','#e67e22','#27ae60','#2980b9'];
-
-// ── PORTFOLIO DATA ──
-var portfolio = JSON.parse(localStorage.getItem('mb_portfolio') || '[]');
-var liveData = {}; // {ticker: {price, prevClose, change, changePct, name, currency}}
-var editIdx = -1;
-var portSubTab = 'positions';
-
-var SECTOR_COLORS = {
-  'Luxe':'#b5602a','Energie':'#e67e22','Finance':'#1a4a80',
-  'Industrie':'#2d6e45','Sante':'#8b2fc9','Tech':'#2980b9',
-  'Conso':'#c0392b','Telecom':'#16a085','Immo':'#7f8c8d',
-  'ETF':'#34495e','Autre':'#95a5a6'
-};
-
-function fmt(v, dec, suffix) {
-  if (v === null || v === undefined || isNaN(v)) return '-';
-  dec = dec || 2; suffix = suffix || '';
-  var s = Math.abs(v).toFixed(dec);
-  // Add thousand separators
-  s = s.replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-  return (v < 0 ? '-' : '') + s + suffix;
+function fmt(v,dec,suf){
+  if(v===null||v===undefined||isNaN(v)) return '-';
+  dec=dec||2;suf=suf||'';
+  return (v<0?'-':'')+Math.abs(v).toFixed(dec).replace(/\B(?=(\d{3})+(?!\d))/g,' ')+suf;
 }
-function fmtEur(v) { return fmt(v, 2, ' €'); }
-function fmtPct(v) { if (!v && v !== 0) return '-'; return (v >= 0 ? '+' : '') + fmt(v, 2, '%'); }
-function dirClass(v) { return v > 0.05 ? 'up' : v < -0.05 ? 'dn' : 'fl'; }
+function fmtE(v){return fmt(v,2,' EUR');}
+function fmtP(v){if(!v&&v!==0)return '-';return(v>=0?'+':'')+fmt(v,2,'%');}
+function dirC(v){return v>0.05?'up':v<-0.05?'dn':'fl';}
 
-// ── YAHOO FINANCE LIVE QUOTES ──
-async function fetchYahoo(tickers) {
-  if (!tickers.length) return {};
-  var syms = tickers.join(',');
-  // Yahoo Finance v7 - works from browser
-  var url = 'https://query1.finance.yahoo.com/v7/finance/quote?symbols=' + encodeURIComponent(syms) +
-    '&fields=regularMarketPrice,regularMarketPreviousClose,regularMarketChange,regularMarketChangePercent,shortName,currency,regularMarketOpen';
-  try {
-    var r = await fetch(url, {headers:{'User-Agent':'Mozilla/5.0'}});
-    if (!r.ok) throw new Error('HTTP '+r.status);
-    var data = await r.json();
-    var result = {};
-    (data.quoteResponse.result || []).forEach(function(q) {
-      result[q.symbol] = {
-        price:     q.regularMarketPrice,
-        prevClose: q.regularMarketPreviousClose,
-        change:    q.regularMarketChange,
-        changePct: q.regularMarketChangePercent,
-        name:      q.shortName || q.symbol,
-        currency:  q.currency || 'EUR',
-        open:      q.regularMarketOpen
-      };
+async function fetchYahoo(tickers){
+  if(!tickers.length) return {};
+  var syms=tickers.join(',');
+  var url='https://query1.finance.yahoo.com/v7/finance/quote?symbols='+encodeURIComponent(syms)+'&fields=regularMarketPrice,regularMarketPreviousClose,regularMarketChange,regularMarketChangePercent,shortName,currency';
+  try{
+    var r=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0'}});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    var data=await r.json();
+    var res={};
+    (data.quoteResponse.result||[]).forEach(function(q){
+      res[q.symbol]={price:q.regularMarketPrice,prevClose:q.regularMarketPreviousClose,change:q.regularMarketChange,changePct:q.regularMarketChangePercent,name:q.shortName||q.symbol,currency:q.currency||'EUR'};
     });
-    return result;
-  } catch(e) {
-    console.log('Yahoo error:', e.message);
-    return {};
-  }
+    return res;
+  }catch(e){console.log('Yahoo:',e.message);return {};}
 }
 
-async function loadLiveData() {
-  var tickers = portfolio.map(function(l){ return l.ticker; });
-  if (!tickers.length) return;
-  var data = await fetchYahoo(tickers);
-  // Save live prices for later use
-  Object.assign(liveData, data);
-  // Update lastPrice in portfolio
-  portfolio.forEach(function(line) {
-    if (liveData[line.ticker]) {
-      line.lastPrice = liveData[line.ticker].price;
-      line.lastUpdate = new Date().toISOString();
-    }
+async function loadLiveData(){
+  var tickers=portfolio.map(function(l){return l.ticker;});
+  if(!tickers.length) return;
+  var data=await fetchYahoo(tickers);
+  Object.assign(liveData,data);
+  portfolio.forEach(function(line){
+    if(liveData[line.ticker]){line.lastPrice=liveData[line.ticker].price;line.lastUpdate=new Date().toISOString();}
   });
-  localStorage.setItem('mb_portfolio', JSON.stringify(portfolio));
+  localStorage.setItem('mb_portfolio',JSON.stringify(portfolio));
 }
 
-// ── PORTFOLIO CALCULATIONS ──
-function calcPortfolio() {
-  var totalValue = 0, totalCost = 0, totalDayPL = 0;
-  portfolio.forEach(function(line) {
-    var d = liveData[line.ticker];
-    var price = d ? d.price : (line.lastPrice || line.pru);
-    totalValue += line.qty * price;
-    totalCost  += line.qty * line.pru;
-    if (d) totalDayPL += line.qty * (d.price - d.prevClose);
+function calcPort(){
+  var tv=0,tc=0,dp=0;
+  portfolio.forEach(function(l){
+    var d=liveData[l.ticker];
+    var p=d?d.price:(l.lastPrice||l.pru);
+    tv+=l.qty*p; tc+=l.qty*l.pru;
+    if(d) dp+=l.qty*(d.price-d.prevClose);
   });
-  return {
-    totalValue: totalValue,
-    totalCost:  totalCost,
-    totalPL:    totalValue - totalCost,
-    plPct:      totalCost > 0 ? (totalValue - totalCost) / totalCost * 100 : 0,
-    totalDayPL: totalDayPL,
-    dayPct:     totalCost > 0 ? totalDayPL / totalValue * 100 : 0
-  };
+  return{tv:tv,tc:tc,pl:tv-tc,plP:tc>0?(tv-tc)/tc*100:0,dp:dp,dpP:tv>0?dp/tv*100:0};
 }
 
-// ── RENDER PORTFOLIO ──
-function renderPortfolio(t) {
-  portSubTab = t;
-  var el = document.getElementById('cnt');
-
-  if (!portfolio.length && t !== 'settings') {
-    el.innerHTML = '<div class="port-wrap">' +
-      '<div style="padding:48px 20px;text-align:center">' +
-      '<div style="font-family:Georgia,serif;font-size:24px;margin-bottom:12px">Mon portefeuille</div>' +
-      '<div style="font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:24px">Ajoutez vos premieres lignes pour suivre<br>votre portefeuille en temps reel.</div>' +
-      '<button class="btn-primary" onclick="openModal(-1)">+ Ajouter une ligne</button>' +
-      '</div></div>';
+function renderPortfolio(t){
+  var el=document.getElementById('cnt');
+  if(!portfolio.length&&t!=='settings'){
+    el.innerHTML='<div style="padding:48px 20px;text-align:center"><div style="font-family:Georgia,serif;font-size:24px;margin-bottom:12px">Mon portefeuille</div><div style="font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:24px">Ajoutez vos premieres lignes<br>pour suivre votre portefeuille en temps reel.</div><button class="btn-primary" onclick="openModal(-1)">+ Ajouter une ligne</button></div>';
     return;
   }
-
-  var calc = calcPortfolio();
-
-  if (t === 'positions') {
-    var plColor = calc.totalPL >= 0 ? 'var(--green)' : 'var(--red)';
-    var dayColor = calc.totalDayPL >= 0 ? 'var(--green)' : 'var(--red)';
-
-    var html = '<div class="port-wrap">' +
-      // Hero header
-      '<div class="port-hero">' +
-      '<div class="port-hero-label">Valeur du portefeuille</div>' +
-      '<div class="port-hero-val">' + fmtEur(calc.totalValue) + '</div>' +
-      '<div class="port-hero-row">' +
-      '<div class="port-hero-pl" style="color:' + plColor + '">' + fmtPct(calc.plPct) + ' (' + (calc.totalPL>=0?'+':'') + fmtEur(calc.totalPL) + ')</div>' +
-      '<div class="port-hero-day">Auj: <span style="color:' + dayColor + ';font-weight:600">' + (calc.totalDayPL>=0?'+':'') + fmtEur(calc.totalDayPL) + '</span></div>' +
-      '</div>' +
-      '</div>';
-
-    // Actions bar
-    html += '<div class="port-actions-bar">' +
-      '<button class="btn-primary" onclick="openModal(-1)">+ Ajouter</button>' +
-      '<button class="btn-secondary" onclick="refreshQuotes()">&#8635; Cours live</button>' +
-      '</div>';
-
-    // Group by type
-    var groups = {};
-    portfolio.forEach(function(line, i) {
-      var t2 = line.type || 'action';
-      if (!groups[t2]) groups[t2] = [];
-      groups[t2].push({line:line, idx:i});
-    });
-    var typeLabels = {action:'Actions', etf:'ETF'};
-
-    Object.keys(groups).forEach(function(type) {
-      var groupVal = 0;
-      groups[type].forEach(function(item) {
-        var d = liveData[item.line.ticker];
-        var p = d ? d.price : (item.line.lastPrice || item.line.pru);
-        groupVal += item.line.qty * p;
-      });
-      html += '<div class="port-section-hdr">' + (typeLabels[type]||type) + '<span class="port-section-val">' + fmtEur(groupVal) + '</span></div>';
-
-      groups[type].forEach(function(item) {
-        var line = item.line, idx = item.idx;
-        var d = liveData[line.ticker];
-        var price = d ? d.price : (line.lastPrice || 0);
-        var value = price > 0 ? line.qty * price : 0;
-        var plAbs = price > 0 ? (price - line.pru) * line.qty : 0;
-        var plPct2 = line.pru > 0 ? (price - line.pru) / line.pru * 100 : 0;
-        var dayPl  = d ? d.changePct : null;
-        var dayAbs = d ? d.change * line.qty : 0;
-        var plColor2 = plPct2 >= 0 ? 'var(--green)' : 'var(--red)';
-        var dayColor2 = (dayPl||0) >= 0 ? 'var(--green)' : 'var(--red)';
-        var alertBadge = dayPl !== null && Math.abs(dayPl) > 3 ? '<span class="alert-badge">' + (dayPl>0?'↑':'↓') + Math.abs(dayPl).toFixed(1) + '%</span>' : '';
-
-        html += '<div class="port-line" onclick="openModal(' + idx + ')">' +
-          '<div class="pl-left">' +
-          '<div class="pl-icon">' + (line.ticker.replace('.PA','').substring(0,3)) + '</div>' +
-          '<div class="pl-info">' +
-          '<div class="pl-ticker">' + (line.name||line.ticker) + ' ' + alertBadge + '</div>' +
-          '<div class="pl-name">' + line.ticker + ' · ' + (line.sector||'') + '</div>' +
-          '<div class="pl-qty-pru">' + line.qty + ' titres · PRU ' + fmt(line.pru,2,' €') + '</div>' +
-          '</div></div>' +
-          '<div class="pl-right">' +
-          '<div class="pl-price">' + (price>0 ? fmt(price,2,' €') : '-') + '</div>' +
-          (d ? '<div class="pl-day ' + dirClass(dayPl) + '">' + fmtPct(dayPl) + ' (' + (dayAbs>=0?'+':'') + fmtEur(dayAbs) + ')</div>' : '') +
-          '<div class="pl-total">' + (value>0?fmtEur(value):'-') + '</div>' +
-          '<div class="pl-pl" style="color:' + plColor2 + '">' + fmtPct(plPct2) + ' (' + (plAbs>=0?'+':'') + fmtEur(plAbs) + ')</div>' +
+  var calc=calcPort();
+  if(t==='positions'){
+    var plColor=calc.pl>=0?'var(--green)':'var(--red)';
+    var dayColor=calc.dp>=0?'var(--green)':'var(--red)';
+    var h='<div class="port-hero"><div class="port-hero-label">Valeur du portefeuille</div>'+
+      '<div class="port-hero-val">'+fmtE(calc.tv)+'</div>'+
+      '<div class="port-hero-row">'+
+      '<div class="port-hero-pl" style="color:'+plColor+'">'+fmtP(calc.plP)+' ('+fmtE(calc.pl)+')</div>'+
+      '<div class="port-hero-day">Auj: <span style="color:'+dayColor+';font-weight:600">'+(calc.dp>=0?'+':'')+fmtE(calc.dp)+'</span></div>'+
+      '</div></div>';
+    h+='<div class="port-actions-bar"><button class="btn-primary" onclick="openModal(-1)">+ Ajouter</button><button class="btn-secondary" id="live-btn" onclick="refreshLive()">&#8635; Cours live</button></div>';
+    var groups={};
+    portfolio.forEach(function(l,i){var t2=l.type||'action';if(!groups[t2])groups[t2]=[];groups[t2].push({l:l,i:i});});
+    var labels={action:'Actions',etf:'ETF'};
+    Object.keys(groups).forEach(function(type){
+      var gv=0;
+      groups[type].forEach(function(item){var d=liveData[item.l.ticker];var p=d?d.price:(item.l.lastPrice||item.l.pru);gv+=item.l.qty*p;});
+      h+='<div class="port-section-hdr">'+(labels[type]||type)+'<span class="port-section-val">'+fmtE(gv)+'</span></div>';
+      groups[type].forEach(function(item){
+        var l=item.l,idx=item.i;
+        var d=liveData[l.ticker];
+        var p=d?d.price:(l.lastPrice||0);
+        var v=p>0?l.qty*p:0;
+        var plA=p>0?(p-l.pru)*l.qty:0;
+        var plP2=l.pru>0?(p-l.pru)/l.pru*100:0;
+        var dP=d?d.changePct:null;
+        var dA=d?d.change*l.qty:0;
+        var c1=plP2>=0?'var(--green)':'var(--red)';
+        var c2=(dP||0)>=0?'var(--green)':'var(--red)';
+        var alrt=dP!==null&&Math.abs(dP)>3?'<span class="alert-badge">'+(dP>0?'':'')+Math.abs(dP).toFixed(1)+'%</span>':'';
+        h+='<div class="port-line" onclick="openModal('+idx+')">'+
+          '<div class="pl-left"><div class="pl-icon">'+l.ticker.replace('.PA','').substring(0,4)+'</div>'+
+          '<div><div class="pl-ticker">'+(l.name||l.ticker)+alrt+'</div>'+
+          '<div class="pl-name">'+l.ticker+' · '+(l.sector||'')+'</div>'+
+          '<div class="pl-qty">'+l.qty+' titres · PRU '+fmt(l.pru,2,' EUR')+'</div></div></div>'+
+          '<div class="pl-right">'+
+          '<div class="pl-price">'+(p>0?fmt(p,2,' EUR'):'-')+'</div>'+
+          (d?'<div class="pl-day '+dirC(dP)+'">'+fmtP(dP)+' ('+(dA>=0?'+':'')+fmtE(dA)+')</div>':'')+
+          '<div class="pl-value">'+(v>0?fmtE(v):'-')+'</div>'+
+          '<div class="pl-pl" style="color:'+c1+'">'+fmtP(plP2)+' ('+(plA>=0?'+':'')+fmtE(plA)+')</div>'+
           '</div></div>';
       });
     });
-
-    // Last update
-    var anyUpdate = portfolio.find(function(l){ return l.lastUpdate; });
-    if (anyUpdate) {
-      var dt = new Date(anyUpdate.lastUpdate);
-      html += '<div style="text-align:center;padding:12px;font-size:10px;color:var(--muted)">Cours mis a jour a ' + pad2(dt.getHours()) + ':' + pad2(dt.getMinutes()) + '</div>';
-    }
-    html += '</div>';
-    el.innerHTML = html;
+    var lu=portfolio.find(function(l){return l.lastUpdate;});
+    if(lu){var dt=new Date(lu.lastUpdate);h+='<div style="text-align:center;padding:12px;font-size:10px;color:var(--muted)">Cours a '+pad2(dt.getHours())+':'+pad2(dt.getMinutes())+'</div>';}
+    el.innerHTML=h;
   }
-
-  else if (t === 'analyse') {
-    var html = '<div class="port-wrap"><div class="analyse-wrap">';
-    var calc2 = calcPortfolio();
-
-    // KPIs
-    var bestLine = null, worstLine = null;
-    portfolio.forEach(function(line) {
-      var d = liveData[line.ticker];
-      var p = d ? d.price : (line.lastPrice || line.pru);
-      var pl = line.pru > 0 ? (p - line.pru)/line.pru*100 : 0;
-      if (!bestLine || pl > bestLine.pl) bestLine = {name:line.name||line.ticker, pl:pl};
-      if (!worstLine || pl < worstLine.pl) worstLine = {name:line.name||line.ticker, pl:pl};
-    });
-
-    html += '<div class="kpi-grid">' +
-      '<div class="kpi"><div class="kpi-label">P&L Total</div><div class="kpi-val ' + dirClass(calc2.plPct) + '">' + fmtPct(calc2.plPct) + '</div><div class="kpi-sub">' + (calc2.totalPL>=0?'+':'') + fmtEur(calc2.totalPL) + '</div></div>' +
-      '<div class="kpi"><div class="kpi-label">Perf du jour</div><div class="kpi-val ' + dirClass(calc2.dayPct) + '">' + fmtPct(calc2.dayPct) + '</div><div class="kpi-sub">' + (calc2.totalDayPL>=0?'+':'') + fmtEur(calc2.totalDayPL) + '</div></div>' +
-      '<div class="kpi"><div class="kpi-label">Meilleure ligne</div><div class="kpi-val up">' + (bestLine?bestLine.name:'-') + '</div><div class="kpi-sub">' + (bestLine?fmtPct(bestLine.pl):'-') + '</div></div>' +
-      '<div class="kpi"><div class="kpi-label">A surveiller</div><div class="kpi-val dn">' + (worstLine?worstLine.name:'-') + '</div><div class="kpi-sub">' + (worstLine?fmtPct(worstLine.pl):'-') + '</div></div>' +
-      '</div>';
-
-    // Sectoral allocation pie
-    var sectorTotals = {};
-    portfolio.forEach(function(line) {
-      var d = liveData[line.ticker];
-      var p = d ? d.price : (line.lastPrice || line.pru);
-      var v = line.qty * p;
-      var s = line.sector || 'Autre';
-      sectorTotals[s] = (sectorTotals[s]||0) + v;
-    });
-    var totalV = calc2.totalValue || 1;
-    var sectors = Object.keys(sectorTotals).sort(function(a,b){ return sectorTotals[b]-sectorTotals[a]; });
-    if (sectors.length > 0) {
-      var W=140, H=140, cx=70, cy=70, r=60, ri=35;
-      var startAngle = -Math.PI/2;
-      var slices = '';
-      sectors.forEach(function(s, i) {
-        var pct = sectorTotals[s]/totalV;
-        var angle = pct * Math.PI * 2;
-        var x1 = cx + r*Math.cos(startAngle), y1 = cy + r*Math.sin(startAngle);
-        var x2 = cx + r*Math.cos(startAngle+angle), y2 = cy + r*Math.sin(startAngle+angle);
-        var xi1 = cx + ri*Math.cos(startAngle), yi1 = cy + ri*Math.sin(startAngle);
-        var xi2 = cx + ri*Math.cos(startAngle+angle), yi2 = cy + ri*Math.sin(startAngle+angle);
-        var large = angle > Math.PI ? 1 : 0;
-        var color = SECTOR_COLORS[s] || '#95a5a6';
-        slices += '<path d="M'+xi1.toFixed(1)+' '+yi1.toFixed(1)+' L'+x1.toFixed(1)+' '+y1.toFixed(1)+' A'+r+' '+r+' 0 '+large+' 1 '+x2.toFixed(1)+' '+y2.toFixed(1)+' L'+xi2.toFixed(1)+' '+yi2.toFixed(1)+' A'+ri+' '+ri+' 0 '+large+' 0 '+xi1.toFixed(1)+' '+yi1.toFixed(1)+' Z" fill="'+color+'"/>';
-        startAngle += angle;
-      });
-      var legendItems = sectors.map(function(s) {
-        var color = SECTOR_COLORS[s]||'#95a5a6';
-        var pct = sectorTotals[s]/totalV*100;
-        return '<div class="pie-item"><div class="pie-dot" style="background:'+color+'"></div><div class="pie-item-label">'+s+'</div><div class="pie-item-pct">'+pct.toFixed(1)+'%</div></div>';
-      }).join('');
-      html += '<div class="pie-wrap"><div class="pie-title">Allocation sectorielle</div><div class="pie-inner">' +
-        '<svg viewBox="0 0 140 140" style="width:140px;height:140px;flex-shrink:0">'+slices+'<circle cx="70" cy="70" r="28" fill="var(--surface)"/></svg>' +
-        '<div class="pie-legend">'+legendItems+'</div></div></div>';
-    }
-
-    // Performance table
-    html += '<div class="perf-table">' +
-      '<div class="perf-header"><div class="perf-header-cell" style="text-align:left">Valeur</div><div class="perf-header-cell">Cours</div><div class="perf-header-cell">Jour</div><div class="perf-header-cell">PRU</div></div>';
-    portfolio.forEach(function(line) {
-      var d = liveData[line.ticker];
-      var p = d ? d.price : (line.lastPrice || 0);
-      var plLine = line.pru>0 ? (p-line.pru)/line.pru*100 : 0;
-      var dayPl2 = d ? d.changePct : null;
-      html += '<div class="perf-row">' +
-        '<div class="perf-name">' + (line.name||line.ticker) + '</div>' +
-        '<div class="perf-cell">' + (p>0?fmt(p,2,' €'):'-') + '</div>' +
-        '<div class="perf-cell ' + (dayPl2!==null?dirClass(dayPl2):'fl') + '">' + (dayPl2!==null?fmtPct(dayPl2):'-') + '</div>' +
-        '<div class="perf-cell ' + dirClass(plLine) + '">' + fmtPct(plLine) + '</div>' +
+  else if(t==='analyse'){
+    loadLiveData().then(function(){
+      var calc2=calcPort();
+      var tv=calc2.tv||1;
+      var best=null,worst=null;
+      portfolio.forEach(function(l){var d=liveData[l.ticker];var p=d?d.price:(l.lastPrice||l.pru);var pl=l.pru>0?(p-l.pru)/l.pru*100:0;if(!best||pl>best.pl)best={n:l.name||l.ticker,pl:pl};if(!worst||pl<worst.pl)worst={n:l.name||l.ticker,pl:pl};});
+      var h='<div class="kpi-grid">'+
+        '<div class="kpi"><div class="kpi-label">P&L Total</div><div class="kpi-val '+dirC(calc2.plP)+'">'+fmtP(calc2.plP)+'</div><div class="kpi-sub">'+fmtE(calc2.pl)+'</div></div>'+
+        '<div class="kpi"><div class="kpi-label">Perf du jour</div><div class="kpi-val '+dirC(calc2.dpP)+'">'+fmtP(calc2.dpP)+'</div><div class="kpi-sub">'+fmtE(calc2.dp)+'</div></div>'+
+        '<div class="kpi"><div class="kpi-label">Meilleure ligne</div><div class="kpi-val up">'+(best?best.n:'-')+'</div><div class="kpi-sub">'+(best?fmtP(best.pl):'-')+'</div></div>'+
+        '<div class="kpi"><div class="kpi-label">A surveiller</div><div class="kpi-val dn">'+(worst?worst.n:'-')+'</div><div class="kpi-sub">'+(worst?fmtP(worst.pl):'-')+'</div></div>'+
         '</div>';
-    });
-    html += '</div>';
-
-    // Concentration risk
-    var sorted = portfolio.map(function(line) {
-      var d = liveData[line.ticker]; var p = d?d.price:(line.lastPrice||line.pru);
-      return {name:line.name||line.ticker, value:line.qty*p};
-    }).sort(function(a,b){return b.value-a.value;});
-    if (sorted.length > 0) {
-      html += '<div class="pie-wrap"><div class="pie-title">Concentration</div>';
-      sorted.forEach(function(item) {
-        var pct = totalV>0?item.value/totalV*100:0;
-        var color = pct>40?'var(--red)':pct>25?'var(--accent)':'var(--green)';
-        html += '<div class="risk-bar-wrap"><div class="risk-bar-label"><span class="risk-bar-name">'+item.name+'</span><span class="risk-bar-val">'+pct.toFixed(1)+'%</span></div>' +
-          '<div class="risk-bar-track"><div class="risk-bar-fill" style="width:'+Math.min(pct,100)+'%;background:'+color+'"></div></div></div>';
-      });
-      html += '</div>';
-    }
-
-    // Related news
-    if (B) {
-      var names = portfolio.map(function(l){ return (l.name||'').toLowerCase(); }).filter(function(n){return n.length>3;});
-      var related = [];
-      ['marches','entreprises','ma'].forEach(function(key) {
-        (B[key]&&B[key].articles?B[key].articles:[]).forEach(function(a) {
-          var t2 = (a.titre||'').toLowerCase();
-          if (names.some(function(n){return t2.indexOf(n)>=0;})) related.push(a);
+      // Sectoral pie
+      var st={};
+      portfolio.forEach(function(l){var d=liveData[l.ticker];var p=d?d.price:(l.lastPrice||l.pru);var v=l.qty*p;var s=l.sector||'Autre';st[s]=(st[s]||0)+v;});
+      var sectors=Object.keys(st).sort(function(a,b){return st[b]-st[a];});
+      if(sectors.length>1){
+        var cx=70,cy=70,r=60,ri=30,sa=-Math.PI/2,slices='';
+        sectors.forEach(function(s,i){
+          var pct=st[s]/tv,angle=pct*Math.PI*2;
+          var x1=cx+r*Math.cos(sa),y1=cy+r*Math.sin(sa);
+          var x2=cx+r*Math.cos(sa+angle),y2=cy+r*Math.sin(sa+angle);
+          var xi1=cx+ri*Math.cos(sa),yi1=cy+ri*Math.sin(sa);
+          var xi2=cx+ri*Math.cos(sa+angle),yi2=cy+ri*Math.sin(sa+angle);
+          var lg=angle>Math.PI?1:0;
+          var col=SECTOR_COLORS[s]||'#95a5a6';
+          slices+='<path d="M'+xi1.toFixed(1)+' '+yi1.toFixed(1)+' L'+x1.toFixed(1)+' '+y1.toFixed(1)+' A'+r+' '+r+' 0 '+lg+' 1 '+x2.toFixed(1)+' '+y2.toFixed(1)+' L'+xi2.toFixed(1)+' '+yi2.toFixed(1)+' A'+ri+' '+ri+' 0 '+lg+' 0 '+xi1.toFixed(1)+' '+yi1.toFixed(1)+' Z" fill="'+col+'"/>';
+          sa+=angle;
         });
-      });
-      if (related.length) {
-        html += '<div class="art-rule">Actualites liees a votre portefeuille</div>';
-        related.slice(0,5).forEach(function(a){ html += artCard(a); });
+        var leg=sectors.map(function(s){var col=SECTOR_COLORS[s]||'#95a5a6';var p=(st[s]/tv*100).toFixed(1);return '<div class="pie-item"><div class="pie-dot" style="background:'+col+'"></div><div class="pie-item-label">'+s+'</div><div class="pie-item-pct">'+p+'%</div></div>';}).join('');
+        h+='<div class="pie-wrap"><div class="pie-title">Allocation sectorielle</div><div class="pie-inner"><svg viewBox="0 0 140 140" style="width:140px;height:140px;flex-shrink:0">'+slices+'<circle cx="70" cy="70" r="24" fill="var(--paper)"/></svg><div class="pie-legend">'+leg+'</div></div></div>';
       }
-    }
-
-    html += '</div></div>';
-    el.innerHTML = html;
+      // Performance table
+      h+='<div class="perf-table"><div class="perf-hdr"><div class="perf-hcell" style="text-align:left">Valeur</div><div class="perf-hcell">Cours</div><div class="perf-hcell">Jour</div><div class="perf-hcell">PRU</div></div>';
+      portfolio.forEach(function(l){
+        var d=liveData[l.ticker];var p=d?d.price:(l.lastPrice||0);
+        var plL=l.pru>0?(p-l.pru)/l.pru*100:0;var dP=d?d.changePct:null;
+        h+='<div class="perf-row"><div class="perf-name">'+(l.name||l.ticker)+'</div><div class="perf-cell">'+(p>0?fmt(p,2,' EUR'):'-')+'</div><div class="perf-cell '+(dP!==null?dirC(dP):'fl')+'">'+(dP!==null?fmtP(dP):'-')+'</div><div class="perf-cell '+dirC(plL)+'">'+fmtP(plL)+'</div></div>';
+      });
+      h+='</div>';
+      // Concentration
+      var sorted=portfolio.map(function(l){var d=liveData[l.ticker];var p=d?d.price:(l.lastPrice||l.pru);return{n:l.name||l.ticker,v:l.qty*p};}).sort(function(a,b){return b.v-a.v;});
+      h+='<div class="pie-wrap"><div class="pie-title">Concentration des lignes</div>';
+      sorted.forEach(function(item){
+        var pct=tv>0?item.v/tv*100:0;
+        var col=pct>40?'var(--red)':pct>25?'var(--accent)':'var(--green)';
+        h+='<div class="risk-bar-wrap"><div class="risk-label"><span class="risk-name">'+item.n+'</span><span class="risk-val">'+pct.toFixed(1)+'%</span></div><div class="risk-track"><div class="risk-fill" style="width:'+Math.min(pct,100)+'%;background:'+col+'"></div></div></div>';
+      });
+      h+='</div>';
+      // Related news
+      if(B){
+        var names=portfolio.map(function(l){return(l.name||'').toLowerCase();}).filter(function(n){return n.length>3;});
+        var rel=[];
+        ['marches','entreprises','ma'].forEach(function(key){(B[key]&&B[key].articles?B[key].articles:[]).forEach(function(a){var ti=(a.titre||'').toLowerCase();if(names.some(function(n){return ti.indexOf(n)>=0;}))rel.push(a);});});
+        if(rel.length){h+='<div class="art-rule">Actualites liees a votre portefeuille</div>';rel.slice(0,5).forEach(function(a){h+=artCard(a);});}
+      }
+      el.innerHTML=h;
+    });
   }
-
-  else if (t === 'settings') {
-    el.innerHTML = '<div class="port-wrap"><div class="settings-wrap">' +
-      '<div class="sec-rule" style="padding:0 0 8px;margin-bottom:4px">Portefeuille</div>' +
-      '<div class="settings-label">Token GitHub (sauvegarde)</div>' +
-      '<input class="settings-input" type="password" id="gh-token" value="' + githubToken + '" placeholder="ghp_..." autocomplete="off">' +
-      '<div class="settings-note">Permet de sauvegarder votre portefeuille dans GitHub en cas de changement de telephone.</div>' +
-      '<button class="settings-save" onclick="saveSettings()">Enregistrer</button>' +
-      '<div style="margin-top:24px">' +
-      '<div class="settings-label">Export / Import</div>' +
-      '<button class="btn-secondary" style="margin-top:8px;margin-right:8px" onclick="exportData()">Exporter JSON</button>' +
-      '</div>' +
-      '<div style="margin-top:24px">' +
-      '<div class="settings-label" style="color:var(--red)">Zone danger</div>' +
-      '<button class="btn-secondary" style="margin-top:8px;color:var(--red);border-color:rgba(192,57,43,.3)" onclick="clearPortfolio()">Vider le portefeuille</button>' +
-      '</div>' +
-      '</div></div>';
+  else if(t==='settings'){
+    el.innerHTML='<div class="settings-wrap">'+
+      '<div class="sec-rule" style="padding:0 0 8px;margin-bottom:4px">Configuration</div>'+
+      '<div class="settings-label">Token GitHub</div>'+
+      '<input class="settings-input" type="password" id="gh-token" value="'+githubToken+'" placeholder="ghp_..." autocomplete="off">'+
+      '<div class="settings-note">Sauvegarde votre portefeuille dans GitHub.</div>'+
+      '<button class="settings-save" onclick="saveSettings()">Enregistrer</button>'+
+      '<div style="margin-top:24px"><div class="settings-label">Donnees</div>'+
+      '<button class="btn-secondary" style="margin-top:8px;margin-right:8px" onclick="exportData()">Exporter JSON</button>'+
+      '<button class="btn-secondary" style="margin-top:8px;color:var(--red);border-color:rgba(192,57,43,.3)" onclick="clearPortfolio()">Vider le portefeuille</button></div></div>';
   }
 }
 
-async function refreshQuotes() {
-  var btn = document.querySelector('.btn-secondary');
-  if (btn) { btn.textContent = 'Chargement...'; btn.disabled = true; }
+async function refreshLive(){
+  var btn=document.getElementById('live-btn');
+  if(btn){btn.textContent='...';btn.disabled=true;}
   await loadLiveData();
   renderPortfolio('positions');
 }
 
-function clearPortfolio() {
-  if (confirm('Supprimer toutes les lignes ?')) {
-    portfolio = []; liveData = {};
-    localStorage.setItem('mb_portfolio', '[]');
-    renderPortfolio('positions');
+function clearPortfolio(){if(confirm('Supprimer toutes les lignes ?')){portfolio=[];liveData={};localStorage.setItem('mb_portfolio','[]');renderPortfolio('positions');}}
+function exportData(){var b=new Blob([JSON.stringify({portfolio:portfolio},null,2)],{type:'application/json'});var u=URL.createObjectURL(b);var a=document.createElement('a');a.href=u;a.download='portfolio.json';a.click();}
+function saveSettings(){githubToken=document.getElementById('gh-token').value.trim();localStorage.setItem('mb_gh_token',githubToken);alert('Enregistre.');}
+
+function openModal(idx){
+  editIdx=idx;
+  var delBtn=document.getElementById('modal-del');
+  if(idx>=0&&portfolio[idx]){
+    var l=portfolio[idx];
+    document.getElementById('modal-title').textContent='Modifier '+(l.name||l.ticker);
+    document.getElementById('m-ticker').value=l.ticker;
+    document.getElementById('m-name').value=l.name||'';
+    document.getElementById('m-qty').value=l.qty;
+    document.getElementById('m-pru').value=l.pru;
+    document.getElementById('m-type').value=l.type||'action';
+    document.getElementById('m-sector').value=l.sector||'Autre';
+    delBtn.style.display='block';
+  }else{
+    document.getElementById('modal-title').textContent='Ajouter une ligne';
+    ['m-ticker','m-name','m-qty','m-pru'].forEach(function(id){document.getElementById(id).value='';});
+    document.getElementById('m-type').value='action';
+    document.getElementById('m-sector').value='Autre';
+    delBtn.style.display='none';
   }
+  document.getElementById('modal').classList.add('open');
 }
-
-function exportData() {
-  var blob = new Blob([JSON.stringify({portfolio:portfolio}, null, 2)], {type:'application/json'});
-  var url = URL.createObjectURL(blob);
-  var a = document.createElement('a'); a.href=url; a.download='portfolio.json'; a.click();
-}
-
-// ── MODAL ──
-function openModal(idx) {
-  editIdx = idx;
-  var modal = document.getElementById('modal');
-  var delBtn = document.getElementById('modal-del');
-  if (idx >= 0 && portfolio[idx]) {
-    var line = portfolio[idx];
-    document.getElementById('modal-title').textContent = 'Modifier ' + (line.name||line.ticker);
-    document.getElementById('m-ticker').value  = line.ticker;
-    document.getElementById('m-name').value    = line.name||'';
-    document.getElementById('m-qty').value     = line.qty;
-    document.getElementById('m-pru').value     = line.pru;
-    document.getElementById('m-type').value    = line.type||'action';
-    document.getElementById('m-sector').value  = line.sector||'Autre';
-    delBtn.style.display = 'block';
-  } else {
-    document.getElementById('modal-title').textContent = 'Ajouter une ligne';
-    ['m-ticker','m-name','m-qty','m-pru'].forEach(function(id){ document.getElementById(id).value=''; });
-    document.getElementById('m-type').value   = 'action';
-    document.getElementById('m-sector').value = 'Autre';
-    delBtn.style.display = 'none';
-  }
-  modal.classList.add('open');
-}
-
-function closeModal() { document.getElementById('modal').classList.remove('open'); }
-
-function saveLine() {
-  var ticker = (document.getElementById('m-ticker').value||'').trim().toUpperCase();
-  var name   = (document.getElementById('m-name').value||'').trim();
-  var qty    = parseFloat(document.getElementById('m-qty').value);
-  var pru    = parseFloat(document.getElementById('m-pru').value);
-  var type   = document.getElementById('m-type').value;
-  var sector = document.getElementById('m-sector').value;
-  if (!ticker || isNaN(qty) || isNaN(pru) || qty <= 0 || pru <= 0) {
-    alert('Renseignez tous les champs obligatoires.');
-    return;
-  }
-  var line = {ticker:ticker, name:name||ticker, qty:qty, pru:pru, type:type, sector:sector};
-  if (editIdx >= 0) portfolio[editIdx] = line;
+function closeModal(){document.getElementById('modal').classList.remove('open');}
+function saveLine(){
+  var ticker=(document.getElementById('m-ticker').value||'').trim().toUpperCase();
+  var name=(document.getElementById('m-name').value||'').trim();
+  var qty=parseFloat(document.getElementById('m-qty').value);
+  var pru=parseFloat(document.getElementById('m-pru').value);
+  var type=document.getElementById('m-type').value;
+  var sector=document.getElementById('m-sector').value;
+  if(!ticker||isNaN(qty)||isNaN(pru)||qty<=0||pru<=0){alert('Renseignez tous les champs.');return;}
+  var line={ticker:ticker,name:name||ticker,qty:qty,pru:pru,type:type,sector:sector};
+  if(editIdx>=0) portfolio[editIdx]=line;
   else portfolio.push(line);
-  localStorage.setItem('mb_portfolio', JSON.stringify(portfolio));
+  localStorage.setItem('mb_portfolio',JSON.stringify(portfolio));
   closeModal();
-  loadLiveData().then(function(){ renderPortfolio('positions'); });
+  loadLiveData().then(function(){renderPortfolio('positions');});
 }
-
-function deleteLine() {
-  if (editIdx >= 0) { portfolio.splice(editIdx, 1); localStorage.setItem('mb_portfolio', JSON.stringify(portfolio)); }
-  closeModal();
-  renderPortfolio('positions');
-}
-
-function pad2(n) { return n < 10 ? '0'+n : ''+n; }
-function formatEuro(v) { return fmtEur(v); }
-function calcPortfolioLegacy() { return calcPortfolio(); }
-
-
-function formatEuro(v) {
-  if (!v && v !== 0) return '-';
-  return (v < 0 ? '-' : '') + Math.abs(v).toLocaleString('fr-FR', {minimumFractionDigits:2, maximumFractionDigits:2}) + ' EUR';
-}
-
-// ── GOOGLE CALENDAR ──
-function saveGcalConfig() {
-  gcalApiKey = document.getElementById('gcal-key').value.trim();
-  gcalId     = document.getElementById('gcal-id').value.trim();
-  localStorage.setItem('mb_gcal_key', gcalApiKey);
-  localStorage.setItem('mb_gcal_id',  gcalId);
-  agendaEvents = null;
-  renderBrief('agenda');
-}
-
-function loadAgenda() {
-  if (!gcalApiKey || !gcalId) return;
-  var now   = new Date();
-  var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  var end   = new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000); // today + tomorrow
-  var tMin  = today.toISOString();
-  var tMax  = end.toISOString();
-  var calId = encodeURIComponent(gcalId);
-  var url   = 'https://www.googleapis.com/calendar/v3/calendars/' + calId +
-              '/events?key=' + gcalApiKey +
-              '&timeMin=' + encodeURIComponent(tMin) +
-              '&timeMax=' + encodeURIComponent(tMax) +
-              '&singleEvents=true&orderBy=startTime&maxResults=50';
-  fetch(url)
-    .then(function(r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    })
-    .then(function(data) {
-      agendaEvents = data.items || [];
-      if (tab === 'agenda') renderAgendaEvents(document.getElementById('cnt'), agendaEvents);
-    })
-    .catch(function(e) {
-      document.getElementById('cnt').innerHTML = '<div class="empty-note">Erreur Google Calendar: ' + e.message + '<br><br><button class="btn-sec" onclick="resetGcalConfig()">Reconfigurer</button></div>';
-    });
-}
-
-function resetGcalConfig() {
-  gcalApiKey = ''; gcalId = '';
-  localStorage.removeItem('mb_gcal_key');
-  localStorage.removeItem('mb_gcal_id');
-  renderBrief('agenda');
-}
-
-function renderAgendaEvents(el, events) {
-  if (!events.length) {
-    el.innerHTML = '<div class="agenda-day">Aujourd\'hui et demain</div><div class="agenda-empty">Aucun evenement -- vous etes libre !</div>';
-    return;
-  }
-  var now   = new Date();
-  var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  var tomorrow = new Date(today.getTime() + 24*60*60*1000);
-  var days = {
-    today:    {label: "Aujourd\'hui -- " + today.getDate() + ' ' + ['jan','fev','mar','avr','mai','jun','jul','aou','sep','oct','nov','dec'][today.getMonth()], events: []},
-    tomorrow: {label: "Demain — " + tomorrow.getDate() + ' ' + ['jan','fev','mar','avr','mai','jun','jul','aou','sep','oct','nov','dec'][tomorrow.getMonth()], events: []}
-  };
-  events.forEach(function(ev) {
-    var start = ev.start.dateTime ? new Date(ev.start.dateTime) : new Date(ev.start.date);
-    var d2 = new Date(start.getFullYear(), start.getMonth(), start.getDate());
-    if (d2.getTime() === today.getTime()) days.today.events.push(ev);
-    else days.tomorrow.events.push(ev);
-  });
-
-  var calColors = {};
-  var colorIdx = 0;
-  var palette = ['#b5602a','#2d6e45','#1a4a80','#8b2fc9','#c0392b','#e67e22'];
-
-  var html = '<div style="padding:8px 0 0">';
-  ['today','tomorrow'].forEach(function(dayKey) {
-    var day = days[dayKey];
-    html += '<div class="agenda-day">' + day.label + '</div>';
-    if (!day.events.length) {
-      html += '<div class="agenda-empty">Rien de prevu</div>';
-      return;
-    }
-    day.events.forEach(function(ev) {
-      var isAllDay = !!ev.start.date;
-      var startDt  = ev.start.dateTime ? new Date(ev.start.dateTime) : null;
-      var endDt    = ev.end.dateTime   ? new Date(ev.end.dateTime)   : null;
-      var timeStr  = isAllDay ? 'Journee' : (startDt ? pad2(startDt.getHours())+':'+pad2(startDt.getMinutes()) + (endDt ? ' - '+pad2(endDt.getHours())+':'+pad2(endDt.getMinutes()) : '') : '');
-      var calName  = (ev.organizer && ev.organizer.displayName) ? ev.organizer.displayName : '';
-      if (!calColors[calName]) { calColors[calName] = palette[colorIdx % palette.length]; colorIdx++; }
-      var color    = calColors[calName];
-      var loc      = ev.location ? '<div class="agenda-loc">📍 ' + ev.location + '</div>' : '';
-      var link     = 'https://calendar.google.com/calendar/r/day/' + (startDt||new Date()).getFullYear() + '/' + ((startDt||new Date()).getMonth()+1) + '/' + (startDt||new Date()).getDate();
-      var past     = startDt && startDt < now ? 'opacity:.5;' : '';
-      html += '<a class="agenda-event" href="' + link + '" target="_blank" style="' + past + 'display:flex;gap:12px;align-items:flex-start">' +
-        '<div style="min-width:70px;flex-shrink:0">' +
-        '<div style="font-size:12px;font-weight:600;color:' + color + '">' + timeStr + '</div>' +
-        '</div>' +
-        '<div style="flex:1">' +
-        '<div class="agenda-title">' + (ev.summary || 'Sans titre') + '</div>' +
-        loc +
-        (ev.description ? '<div class="agenda-loc">' + ev.description.replace(/<[^>]+>/g,'').substring(0,80) + '...</div>' : '') +
-        '</div></a>';
-    });
-  });
-  html += '<div style="padding:12px 20px"><button class="btn-sec" style="font-size:10px" onclick="resetGcalConfig()">Changer de calendrier</button></div>';
-  html += '</div>';
-  el.innerHTML = html;
-}
-
-function pad2(n) { return n < 10 ? '0'+n : ''+n; }
+function deleteLine(){if(editIdx>=0){portfolio.splice(editIdx,1);localStorage.setItem('mb_portfolio',JSON.stringify(portfolio));}closeModal();renderPortfolio('positions');}
 
 // ── LOAD BRIEFING ──
-function refresh() {
-  document.getElementById('rbtn').disabled = true;
-  document.getElementById('rbtn').textContent = '...';
+function loadBriefing(){
+  document.getElementById('rbtn').disabled=true;
+  document.getElementById('rbtn').textContent='...';
   showSkel();
-  fetch('briefing.json?t=' + Date.now())
-    .then(function(r){ if (!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
-    .then(function(data) {
-      B = data;
-      if (B.timestamp) document.getElementById('hts').textContent = B.timestamp;
-      if (section === 'brief') renderBrief(tab);
-    })
-    .catch(function() {
-      document.getElementById('cnt').innerHTML = '<div class="empty-note" style="padding:48px 20px">' +
-        '<div style="font-family:\'Playfair Display\',serif;font-size:20px;margin-bottom:10px">Pas encore de briefing</div>' +
-        '<div style="line-height:1.7">GitHub -> Actions -> Run workflow</div></div>';
-    })
-    .finally(function() {
-      document.getElementById('rbtn').disabled = false;
-      document.getElementById('rbtn').textContent = 'Actualiser';
-    });
+  fetch('briefing.json?t='+Date.now())
+    .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+    .then(function(data){B=data;if(B.timestamp)document.getElementById('hts').textContent=B.timestamp;renderBrief(briefTab);})
+    .catch(function(){document.getElementById('cnt').innerHTML='<div class="empty-note" style="padding:48px 20px"><div style="font-family:Georgia,serif;font-size:20px;margin-bottom:10px">Pas encore de briefing</div><div style="line-height:1.7">GitHub -> Actions -> Run workflow</div></div>';})
+    .finally(function(){document.getElementById('rbtn').disabled=false;document.getElementById('rbtn').textContent='Actualiser';});
 }
 
-// Init
-refresh();
-if (portfolio.length > 0) {
-  loadLiveQuotes(function() {
-    if (section === 'portfolio') renderPortfolio(portTab);
-  });
-}
+// ── INIT ──
+loadBriefing();
+if(portfolio.length>0) loadLiveData().then(function(){if(section==='portfolio')renderPortfolio(portTab);});
 </script>
 </body>
 </html>
