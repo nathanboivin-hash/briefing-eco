@@ -1,32 +1,32 @@
 {
-  "timestamp": "09h06 le 11/06/2026",
-  "alerte": "Escalade Iran-USA crée volatilité sur taux et inflation; décisions budgétaires critiques avant 2027",
+  "timestamp": "08h51 le 12/06/2026",
+  "alerte": "Hausse BCE + inflation persistante + fragilité croissance zone euro = compressions marges et révisions stratégiques urgentes",
   "synthese": {
-    "resume": "Les tensions géopolitiques Iran-USA s'intensifient avec frappes aériennes et contre-attaques (articles 9, 16, 41, 48, 69), perturbant les anticipations d'inflation américaine que Trump paradoxalement valorise (article 9). En France, l'instabilité politique pré-électorale (absence de budget jusqu'à 2027, article 30) combinée à des hausses tarifaires énergétiques (+7,4% gaz juillet, article 18) créent des tensions macroéconomiques. Le secteur défense français bénéficie d'une réallocation budgétaire (MBDA Orléans, SCAF/Dassault, articles 1, 8, 40) tandis que l'automobile peine (-2, -23). La Fed devrait maintenir les taux élevés malgré l'inflation exogène, impactant l'accès au crédit (article 41).",
+    "resume": "La BCE relève ses taux malgré un ralentissement conjoncturel avéré (PIB zone euro à -0,1% en avril au Royaume-Uni), tandis que l'inflation française persiste à 2,4% YoY. Cette configuration hawk/slow growth crée une pression bilatérale : coût du crédit en hausse et demande en baisse. Parallèlement, l'État français intensifie ses investissements souverains (ArcelorMittal, MBDA, défense) pour contrer la désindustrialisation. Les marchés actions rebondissent sur spéculation geopolitique (accord Iran), mais la vulnérabilité structurelle persiste. Les spreads crédit et la rentabilité des PME/ETI devraient se compresser dans les 6-12 mois.",
     "points": [
       {
-        "titre": "Marches - Bourses mondiales en retrait sur geopolitique et inflation",
-        "detail": "Les indices asiatiques reculent sur tensions détroit d'Ormuz et risque inflationniste (122, 119). Les Bourses européennes ouvrent sans élan (113) tandis que les US font face à inflation persistante post-conflit Iran (9, 16, 41). Le dollar recule post-inflation américaine (122). Volatilité attendue sur les spreads credit et equity risk premium +30 à +50 bps jusqu'à stabilisation géopolitique."
+        "titre": "Taux BCE & croissance divergente : +0,25% en contexte recessif",
+        "detail": "La BCE augmente ses taux [7] alors que la zone euro ralentit avant même cette hausse [86]. Le Royaume-Uni enregistre -0,1% en avril [105], signalant une faiblesse aggravée post-Middle East. Impact direct : hausse coût du crédit immobilier [52], compression marges bancaires, révision des modèles de valorisation (baisse des multiples de 15-20% attendue pour crédit conso et PME). Les crédits TPI sont fragilisés."
       },
       {
-        "titre": "Macro - Inflation USA maintenue par tensions geopolitiques; gaz français +7,4% en juillet",
-        "detail": "Trump affirme aimer l'inflation malgré tensions au Moyen-Orient (9); FED sera contrainte de maintenir taux hauts (41). En France, prix gaz +7,4% dès 1er juillet affecte indices de confiance consommateurs et inflation core. Risque de stagflation en zone euro si escalade prolongée. Trésor US a remboursé 22Mds$ droits de douane en mai (10), signal de compression fiscale."
+        "titre": "Inflation France à 2,4% YoY : ancrage de taux réels négatifs durables",
+        "detail": "L'inflation remonte à 2,4% en mai [0], dépassant la cible BCE 2%. Couplé à la hausse des taux, cela signale une stagnation des salaires réels. Donnée critique : les recettes fiscales tabac/alcool s'effondrent (-X% implicite) [33], signal proxy d'un repli du pouvoir d'achat. Les marges des distributeurs et PME sous pression, réajustement des P&L Q2-Q3 2026 inévitable."
       },
       {
-        "titre": "Entreprises - Defiance reorganise portefeuille: MBDA expansion, Nestle/Nespresso compression",
-        "detail": "MBDA inaugure usine géante à Orléans (2x taille Bourges) captant budget defense européen renforcé (40). Nestle ferme centre client Nespresso Lyon, 178 suppressions (19). Dassault voit gains mitigés post-SCAF (8). SFR-Bouygues-Free-Orange : rachat pas acquis malgré appels (18). Concentration sectorielle accélérée par politiques budgétaires défense vs consumption."
+        "titre": "Industrie de Défense en accélération : MBDA usine géante à Orléans",
+        "detail": "MBDA construit une usine 'deux fois plus grande que Bourges' [60] pour répondre 'très forte demande' [10]. Investissement souverain d'ampleur, signalant anticipation d'escalade géopolitique Ukraine/Moyen-Orient. Impact secteur : surallocation capital vers défense-aéro, extraction marges des sociétés sous-traitantes, tensions chaîne d'approvisionnement acier/composites. SCAF abandonné [20,23] repositionne Dassault sur segments SME/low-cost warfare."
       },
       {
-        "titre": "M&A - Vencorex échoue, ferrailleur acquiert; Nesting lève pour expansion paiements",
-        "detail": "Vencorex (chimie) reprise manquée : revendue à ferrailleur (11), signal d'illiquidité M&A mid-market. Nepting Triple activité via Five Arrows (94) avec croissance solutions paiement. Marché M&A gelé par incertitude budgétaire France (30) et tensions géopolitiques. Deal flow petit/mid-market impacté, PE attendra clarté post-présidentielle 2027."
+        "titre": "Geopolitique Iran & dénouement Trump : volatilité action > révision growth",
+        "detail": "Trump mentionne accord potentiel Iran, dollar recule, Wall Street 'salue' [111,112], marchés bondissent après annulation frappes [44]. Mais ce rebond est euphorique/temporaire : tensions structurelles non résolues. FMI révise à la baisse croissance zone euro [114]. Impact : volatilité de court terme sur pétrole (-5/+15%), mais risque géopolitique 'tail' reste élevé. Spread crédit emerging markets à surveiller."
       },
       {
-        "titre": "Politique/Geo - Incertitude budgétaire France 2027; escalade Iran menace supply-chains",
-        "detail": "France sans budget jusqu'à présidentielle 2027 (30) crée flou d'investissement public. Présidentielle enjeu redistribution/crédibilité budgétaire/fermete judiciaire (3). Gaule vs élus enjeux défense/aéro/auto (1,2,25). Escalade Iran-USA menace Détroit Hormuz : 20% pétrole mondial, shipping +200 pts d'assurance risk premium attendu. Guyane dénonce colonialisme vert hydrocarbures (25)."
+        "titre": "État français renforce base industrielle : ArcelorMittal re-votée, Vencorex liquidée",
+        "detail": "Nationalisation ArcelorMittal re-votée [8] (signal : urgence stratégique industrie lourde). Contrepoint : Vencorex échoue et se revend à 'ferrailleur' [24], révélant fragilité chimie française. État arbitrage implicite : winners (défense, acier stratégique) vs losers (chimie fine). Implications : dépenses publiques accrues, endettement public, spread OAT/Bund à monitorer."
       },
       {
-        "titre": "Taux - BCE perd influence euro; credit immobilier modele francais sous pression",
-        "detail": "BCE perd influence nominale sur euro (93) : spread OAT-Bunds devrait élargir de 10-15 bps sur tensions géopolitiques. Taux fixes immobilier francais défendus face aux hausses (92) mais volume crédit moyen-bas. Credit corporations affecté par hausses taux : spreads IG +40 à +60 bps anticipés. Obligations souveraines: OAT 10Y vers 2,95% en cas escalade Moyen-Orient."
+        "titre": "Pharma sous pression régulatoire : HAS dénonce 'pressions jamais vues'",
+        "detail": "Président HAS dénonce pressions industrie pharma 'proportions jamais vues' [1]. Signale durcissement réglementaire sur prix/remboursement, réduction marge de manœuvre des labos. Impact cotées santé françaises : réduction EPS attendue Q3-Q4 2026, renégociation prix princeps ralentirait."
       }
     ]
   },
@@ -89,53 +89,39 @@
     ],
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "05h03",
-        "titre": "« J’aime l’inflation » : Donald Trump réagit à la hausse des prix aux Etats-Unis depuis le début de la guerre au Moyen-Orient",
-        "resume": "Les prix ont augmenté, en mai, de 4,2 % sur un an, contre 3,8 % en avril. Une très forte accélération, à quelques mois des élections de mi-mandat.",
-        "url": "https://www.lemonde.fr/international/article/2026/06/11/donald-trump-dit-aimer-l-inflation-pourtant-galopante-aux-etats-unis_6700620_3210.html"
+        "source": "Le Figaro",
+        "heure": "20h13",
+        "titre": "Les Bourses européennes terminent en hausse malgré la hausse des taux de la BCE",
+        "resume": "Les Bourses européennes ont clôturé en hausse jeudi, indifférentes au relèvement des taux de la Banque centrale européenne (BCE), que les marchés...",
+        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-europeennes-terminent-en-hausse-malgre-la-hausse-des-taux-de-la-bce-20260611"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "19h50",
-        "titre": "Donald Trump sous pression alors que l’inflation flambe aux Etats-Unis à cause du conflit en Iran",
-        "resume": "La hausse des prix à la consommation américains s’est accélérée en mai, à 4,2 % sur un an. Le bond des prix de l’énergie lié à la fermeture du détroit d’Ormuz pèse sur le pouvoir d’achat des Américains.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/10/donald-trump-sous-la-pression-de-prix-toujours-plus-eleves-aux-etats-unis-a-cause-du-conflit-en-iran_6700506_3234.html"
+        "source": "Les Echos",
+        "heure": "19h32",
+        "titre": "La zone euro a commencé à ralentir avant même la hausse des taux de la BCE",
+        "resume": "Le ralentissement de l'activité économique de la zone euro est déjà engagé en raison du conflit au Moyen-Orient. L'inflation devrait culminer à 3,5 % cet été et cet automne.",
+        "url": "https://www.lesechos.fr/monde/europe/la-zone-euro-a-commence-a-ralentir-avant-meme-la-hausse-des-taux-de-la-bce-2236422"
       },
       {
         "source": "Challenges",
-        "heure": "10h00",
-        "titre": "Comment l’enlisement du conflit en Iran est en train de saboter les ambitions de Trump sur les taux d’intérêt de la Fed",
-        "resume": "En mai, l’inflation s’est accélérée pour le troisième mois consécutif aux Etats-Unis, atteignant 4,2 % sur un an. De quoi pousser la Fed à maintenir ses taux d’intérêt à leur niveau actuel lors de sa réunion la semaine prochaine, malgré les appels r",
-        "url": "https://www.challenges.fr/economie/comment-lenlisement-du-conflit-en-iran-est-en-train-de-saboter-les-ambitions-de-trump-sur-les-taux-dinteret-de-la-fed_644098"
+        "heure": "14h23",
+        "titre": "« Cette hausse arrive au mauvais moment » : la remontée des taux de la BCE, une mauvaise nouvelle pour les crédits immobiliers ?",
+        "resume": "La Banque centrale européenne a légèrement augmenté ses taux directeurs, une première depuis près d’un an, alors que l’inflation est de retour sur le Vieux Continent. Une hausse qui pourrait avoir des conséquences sur le coût des prêts immobiliers.",
+        "url": "https://www.challenges.fr/immobilier/cette-hausse-arrive-au-mauvais-moment-la-remontee-des-taux-de-la-bce-une-mauvaise-nouvelle-pour-les-credits-immobiliers_644114"
       },
       {
         "source": "Le Figaro",
-        "heure": "11h15",
-        "titre": "Les Bourses européennes ouvrent sans élan",
-        "resume": "Les Bourses européennes ont ouvert à plat jeudi, la prudence restant de mise pour les investisseurs dans un contexte de regain de tensions...",
-        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-europeennes-ouvrent-sans-elan-20260611"
+        "heure": "23h40",
+        "titre": "Le dollar recule après que Trump mentionne un potentiel accord avec l'Iran",
+        "resume": "Le dollar se replie jeudi, tout comme les prix du pétrole, après que Donald Trump a évoqué la «signature» prochaine d'un accord avec l'Iran, une...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-recule-apres-que-trump-mentionne-un-potentiel-accord-avec-l-iran-20260611"
       },
       {
         "source": "Le Figaro",
-        "heure": "08h40",
-        "titre": "Tensions entre les États-Unis et l’Iran, prises de bénéfices, inflation... Les Bourses mondiales vacillent",
-        "resume": "Les principaux indices mondiaux ont cédé du terrain mercredi, à quelques jours de la première réunion de la Réserve fédérale présidée par Kevin Warsh.",
-        "url": "https://www.lefigaro.fr/societes/tensions-entre-les-etats-unis-et-l-iran-prises-de-benefices-inflation-les-bourses-mondiales-vacillent-20260611"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "00h02",
-        "titre": "Le dollar sans élan après l'inflation américaine",
-        "resume": "Le dollar fait du surplace mercredi, accueillant sans surprise l'accélération de l'inflation aux États-Unis le mois dernier, les investisseurs restant...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-sans-elan-apres-l-inflation-americaine-20260610"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h34",
-        "titre": "L’agence Standard & Poor’s relève la note de la dette argentine, à B-",
-        "resume": "L'agence de notation Standard & Poor's a relevé mercredi d'un cran la note de la dette souveraine de l'Argentine, de CCC+ à B-, saluant la «réduction...",
-        "url": "https://www.lefigaro.fr/flash-eco/l-agence-standard-poor-s-releve-la-note-de-la-dette-argentine-a-b-20260611"
+        "heure": "23h38",
+        "titre": "Iran : le pétrole se replie subitement, Wall Street salue la perspective d'un accord",
+        "resume": "Les marchés s'emballent jeudi après que Donald Trump a évoqué la possible «signature» d'un accord avec l'Iran, provoquant le net recul des cours du...",
+        "url": "https://www.lefigaro.fr/flash-eco/iran-le-petrole-se-replie-subitement-wall-street-salue-la-perspective-d-un-accord-20260611"
       }
     ]
   },
@@ -143,57 +129,50 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "17h49",
-        "titre": "Nestlé ferme le centre de relation client de Nespresso à Lyon et supprime 178 postes en France",
-        "resume": "L’activité du site de Lyon va être externalisée au Maroc et en Ukraine. Cette restructuration qui touche Nespresso France, une des filiales les plus rentables du groupe suisse, s’ajoute au plan de suppression de 180 postes de « cols blancs » dans ses",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/10/nestle-ferme-le-centre-de-relation-client-de-nespresso-a-lyon-et-supprime-178-postes-en-france_6700482_3234.html"
+        "heure": "19h02",
+        "titre": "MBDA va construire une usine de missiles à côté d’Orléans pour répondre à la très forte demande",
+        "resume": "A l’étroit sur son site historique de Bourges, le groupe s’apprête à acheter un terrain de 40 hectares dans le Loiret pour augmenter ses capacités de production. Plusieurs centaines de créations d’emplois sont attendues.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/11/mbda-va-construire-une-usine-de-missiles-a-cote-d-orleans-pour-repondre-a-l-explosion-de-la-demande_6700761_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "17h00",
-        "titre": "Alta Ares, le parcours singulier d’une start-up française de drones militaires",
-        "resume": "Fondée en 2024, la jeune société vient de lever 50 millions d’euros auprès de quatre fonds d’investissement. Elle annonce également un accord avec le géant de l’aéronautique Airbus.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/10/alta-ares-le-parcours-singulier-de-la-start-up-francaise-de-drones-militaires-de-l-ukraine-a-une-levee-de-fonds-de-50-millions-d-euros_6700471_3234.html"
+        "heure": "23h05",
+        "titre": "Cybersécurité : Orange et Crédit agricole en discussion pour avoir accès à Mythos, le modèle d’IA d’Anthropic",
+        "resume": "Selon nos informations, aucun service de l’Etat français n’a, à ce stade, la possibilité d’utiliser ce logiciel d’intelligence artificielle de la start-up américaine, particulièrement efficace pour détecter des failles informatiques.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/11/cybersecurite-orange-et-credit-agricole-en-discussions-pour-avoir-acces-a-mythos-le-modele-d-ia-d-anthropic_6700795_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h54",
-        "titre": "Gwynne Shotwell, vraie patronne de SpaceX et femme de confiance d’Elon Musk",
-        "resume": "Entrée dans le groupe en 2002, la présidente et directrice générale opérationnelle a réussi à développer une entreprise qui écrase le marché mondial des lanceurs civils et militaires. A la veille de l’une des introductions en Bourse les plus ahurissa",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/10/gwynne-shotwell-vraie-patronne-de-spacex-et-femme-de-confiance-d-elon-musk_6700395_3234.html"
+        "heure": "11h28",
+        "titre": "Pour enrayer la chute des ventes de voitures, le gouvernement prépare une nouvelle fiscalité",
+        "resume": "Les organisations professionnelles peinent à s’entendre sur une réforme de la fiscalité, mais s’accordent avec les ONG sur l’idée de mettre en place une prime à la conversion des vieilles voitures pour l’achat d’un véhicule électrique neuf ou d’occas",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/11/le-gouvernement-planche-sur-une-nouvelle-fiscalite-automobile-pour-enrayer-la-chute-des-ventes-de-voitures_6700687_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "10h30",
-        "titre": "« Deux fois plus grande que notre site de Bourges » : une nouvelle usine géante à Orléans, la surprise XXL de MBDA",
-        "resume": "A l’étroit sur ses sites de Bourges, le missilier européen va ouvrir un nouveau site de production d’éléments mécaniques de missiles près d’Orléans. La production commencera dès 2027 et devrait atteindre sa pleine cadence en 2030.",
-        "url": "https://www.challenges.fr/entreprise/defense/deux-fois-plus-grande-que-notre-site-de-bourges-une-nouvelle-usine-geante-a-orleans-la-surprise-xxl-de-mbda_644100"
+        "heure": "08h00",
+        "titre": "Avec SFR Business, Bouygues Telecom s’offre une arme redoutable pour défier Orange sur le B to B",
+        "resume": "En mettant la main sur SFR Business, l’opérateur Bouygues Telecom compte développer comme axe stratégique le volet professionnel, sur lequel il avait accumulé du retard.",
+        "url": "https://www.challenges.fr/entreprise/telecoms/avec-sfr-business-bouygues-telecom-soffre-une-arme-redoutable-pour-defier-orange-sur-le-b-to-b_644040"
       },
       {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Pour répondre à l’appétit de l’IA, David Gurlé veut coupler énergies renouvelables et microcentres de données",
-        "resume": "En se lançant dans les microcentres de données, l’entrepreneur français David Gurlé compte mobiliser des capacités d’énergies renouvelables non utilisées. En cours de déploiement, le projet dépendra de l’obtention de prêts.",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/pour-repondre-a-lappetit-de-lia-david-gurle-veut-coupler-energies-renouvelables-et-microcentres-de-donnees_644092"
-      },
-      {
-        "source": "Challenges",
+        "source": "Le Monde Eco",
         "heure": "08h30",
-        "titre": "Comment les banques profitent de l’introduction en Bourse de SpaceX pour courtiser les ultra-riches",
-        "resume": "Les grandes banques sont aux petits soins de leurs clients fortunés pour leur offrir un accès privilégié à l’introduction en Bourse de SpaceX. Elles voient dans ces méga-opérations un levier stratégique pour fidéliser une clientèle patrimoniale haut",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/comment-les-banques-profitent-de-lintroduction-en-bourse-de-spacex-pour-courtiser-les-ultra-riches_644027"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h01",
-        "titre": "Romain Guinier dessine l'avenir de Colart",
-        "resume": "Romain Guinier, navigant depuis toujours dans l'univers des marques, dirige depuis 2023 le groupe de beaux-arts Colart, regroupant les emblématiques Lefranc Bourgeois ou encore Charbonnel.",
-        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/romain-guinier-dessine-lavenir-de-colart-2236266"
+        "titre": "Lionel Collet, président de la Haute Autorité de santé, dénonce des pressions dans « des proportions jamais vues » de l’industrie pharmaceutique",
+        "resume": "Les tentatives d’influence de certaines entreprises du médicament en vue d’obtenir le remboursement de leurs traitements par l’Assurance-maladie se multiplient auprès de l’institution, « avec une accélération très nette depuis la fin de l’année 2025",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/12/lionel-collet-president-de-la-haute-autorite-de-sante-denonce-des-pressions-dans-des-proportions-jamais-vues-de-l-industrie-pharmaceutique_6701053_3234.html"
       }
     ]
   },
   "ma": {
     "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "19h32",
+        "titre": "La nationalisation d’ArcelorMittal de nouveau votée par l’Assemblée nationale",
+        "resume": "Les députés ont voté, jeudi 11 juin, en deuxième lecture pour la nationalisation des activités françaises du numéro deux mondial de l’acier. Soutenue par l’ensemble des partis de gauche, la proposition de loi a été rejetée par le gouvernement et la d",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/11/la-nationalisation-d-arcelormittal-de-nouveau-decidee-par-l-assemblee-nationale_6700766_3234.html"
+      },
       {
         "source": "Le Monde Eco",
         "heure": "23h01",
@@ -202,46 +181,25 @@
         "url": "https://www.lemonde.fr/economie/article/2026/06/10/vencorex-l-echec-du-projet-de-reprise-de-la-plateforme-chimique-malgre-un-soutien-quasi-unanime-relance-le-debat-sur-le-fonctionnement-des-tribunaux-de-commerce_6700539_3234.html"
       },
       {
+        "source": "Challenges",
+        "heure": "10h30",
+        "titre": "SpaceX exclut la Chine de son entrée en Bourse : une décision fracassante, mais surtout le symbole d’une rivalité tech exacerbée",
+        "resume": "SpaceX a exclu les investisseurs de Chine et de Hong Kong de participer à son entrée en Bourse, qui se tient ce vendredi 12 juin à Wall Street, et OpenAI devrait faire de même lors de sa propre IPO. Si les sociétés n’ont pas motivé leurs décisions,",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/spacex-exclut-la-chine-de-son-entree-en-bourse-une-decision-fracassante-mais-surtout-le-symbole-dune-rivalite-tech-exacerbee_644126"
+      },
+      {
         "source": "Le Monde Eco",
-        "heure": "18h29",
-        "titre": "Benoît Cœuré, président de l’Autorité de la concurrence : « L’opération de rachat de SFR par Bouygues Telecom, Free et Orange ne va pas de soi »",
-        "resume": "Dans un entretien au « Monde », le président du gendarme de la concurrence français s’inquiète des conséquences sur les prix des abonnements pour les consommateurs et du risque de coordination des comportements des repreneurs de SFR que pourrait entr",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/10/benoit-c-ure-president-de-l-autorite-de-la-concurrence-l-operation-de-rachat-de-sfr-par-bouygues-telecom-free-et-orange-ne-va-pas-de-soi_6700488_3234.html"
+        "heure": "19h30",
+        "titre": "Dans la métropole de Bordeaux, le projet d’aménagement urbain Euratlantique fragilisé par un audit financier de l’Etat",
+        "resume": "Lancée en 2010, l’opération d’intérêt national soutenue par l’Etat prévoyait la réhabilitation de 738 hectares de friches industrielles à Bordeaux, Bègles et Floirac pour créer logements et infrastructures. Mais un audit pointe les dysfonctionnements",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/11/dans-la-metropole-de-bordeaux-le-projet-d-amenagement-urbain-euratlantique-fragilise-par-un-audit-financier-de-l-etat_6700765_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "17h10",
-        "titre": "Tous les investisseurs en rêvaient : Benjamin Patou rachète l’un des restaurants parisiens les plus prestigieux",
-        "resume": "Le patron de Lapérouse Holding a réussi à convaincre l’homme d’affaires champenois Paul-François Vranken de lui vendre Lucas Carton, restaurant mythique de la place de la Madeleine à Paris.",
-        "url": "https://www.challenges.fr/entreprise/tous-les-investisseurs-en-revaient-benjamin-patou-rachete-lun-des-restaurants-parisiens-les-plus-prestigieux_644056"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "21h32",
-        "titre": "Unibail-Rodamco-Westfield, le risque calculé du shopping américain",
-        "resume": "Unibail va détenir 100 % de son actif californien Westfield UTC. Le géant des centres commerciaux finance en partie cette opération de rachat de 50 % du capital avec ses propres actions.",
-        "url": "https://www.lesechos.fr/finance-marches/le-radar-des-marches/unibail-rodamco-westfield-le-risque-calcule-du-shopping-americain-2236206"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "15h03",
-        "titre": "« La mobilisation des investissements dans la défense peut générer des effets d'entraînement sur l'ensemble de l'économie »",
-        "resume": "Le professeur d'économie à la London School of Economics, John van Reenen, présente aux « Echos » ses solutions pour doper l'innovation et sortir l'Europe de la trappe à croissance faible.",
-        "url": "https://www.lesechos.fr/monde/europe/la-mobilisation-des-investissements-dans-la-defense-peut-generer-des-effets-dentrainement-sur-lensemble-de-leconomie-2236072"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h21",
-        "titre": "Solutions de paiement : avec Five Arrows, Nepting veut tripler son activité",
-        "resume": "La fintech de l'Hérault spécialisée dans les solutions d'acceptation de paiement, annonce l'entrée minoritaire à son capital de la branche de Rothschild & Co dédiée aux actifs alternatifs.",
-        "url": "https://www.lesechos.fr/pme-regions/occitanie/solutions-de-paiement-avec-five-arrows-nepting-veut-tripler-son-activite-2236274"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "09h30",
-        "titre": "Meta récompense Whatsquare et distingue Datawords comme un acteur clé de l’IA conversationnelle",
-        "resume": "Avec trois milliards d’utilisateurs actifs, WhatsApp est devenu un canal de vente à part entière. Filiale technologique du groupe Datawords, Whatsquare vient d’être désignée « Partenaire de l’année » par Meta pour son infrastructure d’agents conversa",
-        "url": "https://www.lefigaro.fr/economie/meta-recompense-whatsquare-et-distingue-datawords-comme-un-acteur-cle-de-l-ia-conversationnelle-20260611"
+        "heure": "12h30",
+        "titre": "« Grand propriétaire, l’Etat n’est pas un très bon propriétaire » : la création d’une foncière se concrétise pour mieux gérer le patrimoine immobilier de l’Etat",
+        "resume": "Après l’Assemblée nationale, le Sénat a adopté haut la main la création d’une foncière de l’Etat pour gérer le patrimoine immobilier public. Un accord devra par la suite être trouvé en commission mixte paritaire.",
+        "url": "https://www.challenges.fr/immobilier/grand-proprietaire-letat-nest-pas-un-tres-bon-proprietaire-la-creation-dune-fonciere-se-concretise-pour-mieux-gerer-le-patrimoine-immobilier-de-letat_644104"
       }
     ]
   },
@@ -249,52 +207,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "11h28",
-        "titre": "Automobile : le gouvernement prépare une nouvelle fiscalité pour enrayer la chute des ventes de voitures",
-        "resume": "Les organisations professionnelles peinent à s’entendre sur une réforme de la fiscalité, mais s’accordent avec les ONG sur l’idée de mettre en place une prime à la conversion des vieilles voitures pour l’achat d’un véhicule électrique neuf ou d’occas",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/11/le-gouvernement-planche-sur-une-nouvelle-fiscalite-automobile-pour-enrayer-la-chute-des-ventes-de-voitures_6700687_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Démographie : la bombe politique qui vient",
-        "resume": "Focalisés sur les naissances dans une sorte de « panique démographique », les responsables politiques peinent pour le moment à appréhender l’équation démographique dans son ensemble.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/11/demographie-la-bombe-politique-qui-vient_6700664_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "18h48",
-        "titre": "Le prix de référence du gaz va augmenter de 7,4 % pour des millions de ménages français le 1ᵉʳ juillet",
-        "resume": "Cette hausse concerne les quelque 6 millions de ménages ayant souscrit une offre de fournisseur indexée sur ce prix moyen, qui varie tous les mois, soit environ 60 % des abonnés résidentiels au gaz.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/10/le-prix-de-reference-du-gaz-va-augmenter-de-7-4-pour-des-millions-de-menages-francais-le-1-juillet_6700491_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "22h42",
-        "titre": "La France sans nouveau budget jusqu’à la présidentielle en 2027 : le scénario qui divise",
-        "resume": "Les députés socialistes viennent de boucler une proposition de loi pour permettre à la France de tenir des mois si aucun budget ne peut être adopté. Le gouvernement, lui, ne veut pas entendre parler d’une nouvelle loi spéciale.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/10/la-france-sans-nouveau-budget-jusqu-a-la-presidentielle-en-2027-le-scenario-qui-divise_6700536_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "10h00",
-        "titre": "Comment l’enlisement du conflit en Iran est en train de saboter les ambitions de Trump sur les taux d’intérêt de la Fed",
-        "resume": "En mai, l’inflation s’est accélérée pour le troisième mois consécutif aux Etats-Unis, atteignant 4,2 % sur un an. De quoi pousser la Fed à maintenir ses taux d’intérêt à leur niveau actuel lors de sa réunion la semaine prochaine, malgré les appels r",
-        "url": "https://www.challenges.fr/economie/comment-lenlisement-du-conflit-en-iran-est-en-train-de-saboter-les-ambitions-de-trump-sur-les-taux-dinteret-de-la-fed_644098"
+        "heure": "12h04",
+        "titre": "L’inflation en France en hausse, à 2,4 % sur un an en mai, selon l’Insee",
+        "resume": "La hausse des prix à la consommation s’explique surtout par une accélération de celle des prix de l’énergie, portée en mai par un rebond des tarifs du gaz à plus de 11,3 % sur un an, après une baisse de 3,1 % sur un an en avril.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/12/l-inflation-en-france-en-hausse-a-2-4-sur-un-an-en-mai-selon-l-insee_6701065_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "12h56",
-        "titre": "Crédit immobilier : Bercy appelé à défendre le modèle français à taux fixe",
-        "resume": "Le comité consultatif du secteur financier, constitué essentiellement de représentants du secteur financier et de leurs clientèles, a remis son rapport au ministre de l'Economie ce jeudi. Il y défend le crédit classique à taux fixe à la française.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/credit-immobilier-bercy-appele-a-defendre-le-modele-francais-a-taux-fixe-2236296"
+        "heure": "19h32",
+        "titre": "La zone euro a commencé à ralentir avant même la hausse des taux de la BCE",
+        "resume": "Le ralentissement de l'activité économique de la zone euro est déjà engagé en raison du conflit au Moyen-Orient. L'inflation devrait culminer à 3,5 % cet été et cet automne.",
+        "url": "https://www.lesechos.fr/monde/europe/la-zone-euro-a-commence-a-ralentir-avant-meme-la-hausse-des-taux-de-la-bce-2236422"
       },
       {
         "source": "Le Figaro",
-        "heure": "11h24",
-        "titre": "Réchauffement climatique : le seuil de +1,5 °C fixé par l’accord de Paris risque d’être franchi avant 2030",
-        "resume": "Pour la quatrième édition des indicateurs clés du changement climatique, les chercheurs notent en outre une accélération de la hausse du niveau des mers.",
-        "url": "https://www.lefigaro.fr/sciences/rechauffement-climatique-le-seuil-de-1-5-0c-fixe-par-l-accord-de-paris-risque-d-etre-franchi-avant-vers-2030-20260611"
+        "heure": "10h33",
+        "titre": "Royaume-Uni: le PIB recule de 0,1% en avril, une première depuis la guerre au Moyen-Orient",
+        "resume": "Le Royaume-Uni a enregistré une baisse de 0,1% de son produit intérieur brut (PIB) en avril, une première depuis le début de la guerre au...",
+        "url": "https://www.lefigaro.fr/flash-eco/royaume-uni-le-pib-recule-de-0-1-en-avril-une-premiere-depuis-la-guerre-au-moyen-orient-20260612"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "20h16",
+        "titre": "Guerre au Moyen-Orient : le FMI révise à la baisse ses prévisions de croissance pour la zone euro",
+        "resume": "L’institution table sur une croissance de 0,9% cette année, contre 1,1% anticipé en avril dernier. La guerre en Iran et la hausse des prix de l’énergie pénalisent la zone euro plus fortement qu’anticipé jusqu’à présent.",
+        "url": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-fmi-revise-a-la-baisse-ses-previsions-de-croissance-pour-la-zone-euro-20260611"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "21h50",
+        "titre": "La BCE augmente ses taux d’intérêt malgré le ralentissement de la croissance",
+        "resume": "Le taux directeur passe de 2 % à 2,25 %, la Banque centrale européenne s’inquiétant d’une inflation qui restera forte jusqu’au deuxième semestre 2027.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/11/malgre-la-croissance-qui-ralentit-la-banque-centrale-europeenne-augmente-ses-taux-d-interet_6700787_3234.html"
       }
     ]
   },
@@ -302,52 +246,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "12h00",
-        "titre": "SCAF : l’Allemagne tourne la page du projet d’avion de combat et rêve d’un nouvel élan aéronautique",
-        "resume": "Au salon aéronautique de Berlin, qui ouvrait ses portes mercredi, le chancelier Friedrich Merz a évoqué les « nouvelles perspectives pour l’industrie ».",
-        "url": "https://www.lemonde.fr/international/article/2026/06/11/l-allemagne-tourne-la-page-du-scaf-et-reve-d-un-nouvel-elan-aeronautique_6700691_3210.html"
+        "heure": "14h32",
+        "titre": "Emmanuel Macron accueille à Evian un G7 percuté par la guerre au Moyen-Orient",
+        "resume": "Le G7 se tiendra pendant trois jours, à partir de lundi, dans la ville thermale des Alpes. Il s’agira des premières retrouvailles transatlantiques depuis que les Etats-Unis et Israël ont déclenché une guerre contre l’Iran, à la fin de février.",
+        "url": "https://www.lemonde.fr/international/article/2026/06/11/emmanuel-macron-accueille-a-evian-un-g7-percute-par-la-guerre-au-moyen-orient_6700720_3210.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h54",
-        "titre": "« Le candidat qui l’emportera en 2027 sera celui qui réussira la meilleure synthèse entre redistribution, crédibilité budgétaire et fermeté judiciaire »",
-        "resume": "Les Français sont prêts à faire des économies budgétaires, dès lors qu’ils estiment que les mesures gouvernementales agrègent taxation des plus riches, taxes écologiques et gel des dépenses publiques, explique l’économiste Adrien Fabre, dans une trib",
-        "url": "https://www.lemonde.fr/idees/article/2026/06/11/le-candidat-qui-l-emportera-en-2027-sera-celui-qui-reussira-la-meilleure-synthese-entre-redistribution-credibilite-budgetaire-et-fermete-judiciaire_6700679_3232.html"
+        "heure": "22h26",
+        "titre": "Sébastien Lecornu alerte sur des « menaces lourdes » en matière d’ingérence étrangère pour la présidentielle et promet un projet de loi pour durcir les peines",
+        "resume": "Le risque d’ingérence « a été significatif sur les municipales, sans effet majeur », ce qui « laisse à entrevoir les perspectives de menaces lourdes sur l’élection présidentielle », a affirmé le premier ministre lors d’une conférence de presse.",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/11/sebastien-lecornu-alerte-sur-des-menaces-lourdes-en-matiere-d-ingerence-etrangere-pour-la-presidentielle-et-promet-un-projet-de-loi-pour-durcir-les-peines_6700759_823449.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "SCAF : Dassault Aviation n’a pas tout gagné dans l’abandon de l’avion de combat franco-allemand de nouvelle génération",
-        "resume": "L’industriel préserve sa situation monopolistique comme fabricant d’avions de chasse pour la France. Mais, au vu de l’état des finances publiques, un programme équivalent franco-français paraît improbable.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/11/dassault-aviation-n-a-pas-tout-gagne-dans-l-abandon-de-l-avion-de-combat-franco-allemand-de-nouvelle-generation_6700658_3234.html"
+        "heure": "07h26",
+        "titre": "Présidentielle 2027 : la fascination du RN pour la « machine de guerre » LFI",
+        "resume": "Malgré leur opposition politique, Marine Le Pen et les cadres du Rassemblement national ont souvent des mots élogieux pour l’organisation « insoumise ». Très ancienne à l’extrême droite, cette admiration pour la discipline de la gauche radicale cache",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/12/presidentielle-2027-la-fascination-du-rn-pour-la-machine-de-guerre-lfi_6701037_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "11h32",
-        "titre": "Exploitation des hydrocarbures : les élus guyanais accusent Paris de « colonialisme vert »",
-        "resume": "Rejetée en commission, la proposition de loi pour sortir le territoire du périmètre de la loi Hulot, qui interdit l’exploitation fossile, est examinée en séance à l’Assemblée nationale jeudi 11 juin. Le texte divise également en Guyane.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/11/exploitation-des-hydrocarbures-les-elus-guyanais-accusent-paris-de-colonialisme-vert_6700689_823448.html"
+        "heure": "18h08",
+        "titre": "La mairie RN de Carcassonne refuse de prêter ses locaux pour le vote d’Algériens",
+        "resume": "Le consulat d’Algérie avait sollicité la commune pour y installer des bureaux de vote destinés aux ressortissants algériens établis en France, appelés aux urnes pour les élections législatives du 2 juillet.",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/11/la-mairie-rn-de-carcassonne-refuse-de-preter-ses-locaux-pour-le-vote-d-algeriens_6700751_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h15",
-        "titre": "Présidentielle 2027 : face aux candidatures d’Edouard Philippe et de Gabriel Attal, le camp présidentiel à l’heure des doutes",
-        "resume": "Aucun des deux anciens premiers ministres ne réussit, pour l’instant, à fédérer les élus du bloc central. Beaucoup redoutent un duel fratricide qui ferait disparaître l’espace créé par Emmanuel Macron.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/11/presidentielle-2027-face-aux-candidatures-d-edouard-philippe-et-de-gabriel-attal-la-macronie-a-l-heure-des-doutes_6700674_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Présidentielle 2027 : Gabriel Attal tente de réinventer le macronisme, entre libéralisme et régalien",
-        "resume": "Pour ses détracteurs, l’ancien premier ministre de 37 ans incarne une forme d’opportunisme. S’il s’inscrit dans la continuité d’Emmanuel Macron sur la ligne libérale, il fait de l’autorité un pilier pour s’en démarquer.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/11/presidentielle-2027-gabriel-attal-tente-de-reinventer-le-macronisme-entre-liberalisme-et-regalien_6700667_823448.html"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "20h45",
-        "titre": "Sanctions contre la Russie : la fermeté à géométrie variable des Européens",
-        "resume": "DÉCRYPTAGE - Ursula von der Leyen a annoncé un 21e paquet de mesures, dont l’interdiction de séjour dans l’UE pour les anciens combattants russes. Mais il reste de nombreux trous dans la raquette du dispositif.",
-        "url": "https://www.lefigaro.fr/international/sanctions-contre-la-russie-la-fermete-a-geometrie-variable-des-europeens-20260610"
+        "heure": "11h00",
+        "titre": "« La France ne peut soutenir la création d’un Etat palestinien sans soutenir le renouveau de la démocratie palestinienne »",
+        "resume": "La reconnaissance de l’Etat de Palestine par la France en septembre 2025 était liée à la promesse d’organiser des élections dans un délai de douze mois, un engagement qui n’a pas été tenu par le président Mahmoud Abbas, déplore l’avocat Samer Sinijla",
+        "url": "https://www.lemonde.fr/idees/article/2026/06/12/la-france-ne-peut-soutenir-la-creation-d-un-etat-palestinien-sans-soutenir-le-renouveau-de-la-democratie-palestinienne_6701060_3232.html"
       }
     ]
   },
@@ -355,78 +285,64 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "03h00",
-        "titre": "Droits de douane : le Trésor américain a remboursé 22 milliards de dollars en mai",
-        "resume": "En février, la Cour suprême avait annulé les surtaxes portant sur l’ensemble des produits entrant aux Etats-Unis, estimant que Donald Trump avait, en les imposant, outrepassé les pouvoirs que lui confère la Constitution américaine.",
-        "url": "https://www.lemonde.fr/international/article/2026/06/11/droits-de-douane-le-tresor-americain-a-rembourse-en-mai-22-milliards-de-dollars-apres-l-annulation-des-surtaxes-par-la-cour-supreme_6700550_3210.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "18h29",
-        "titre": "Benoît Cœuré, président de l’Autorité de la concurrence : « L’opération de rachat de SFR par Bouygues Telecom, Free et Orange ne va pas de soi »",
-        "resume": "Dans un entretien au « Monde », le président du gendarme de la concurrence français s’inquiète des conséquences sur les prix des abonnements pour les consommateurs et du risque de coordination des comportements des repreneurs de SFR que pourrait entr",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/10/benoit-c-ure-president-de-l-autorite-de-la-concurrence-l-operation-de-rachat-de-sfr-par-bouygues-telecom-free-et-orange-ne-va-pas-de-soi_6700488_3234.html"
+        "heure": "21h50",
+        "titre": "La BCE augmente ses taux d’intérêt malgré le ralentissement de la croissance",
+        "resume": "Le taux directeur passe de 2 % à 2,25 %, la Banque centrale européenne s’inquiétant d’une inflation qui restera forte jusqu’au deuxième semestre 2027.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/11/malgre-la-croissance-qui-ralentit-la-banque-centrale-europeenne-augmente-ses-taux-d-interet_6700787_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "10h00",
-        "titre": "Comment l’enlisement du conflit en Iran est en train de saboter les ambitions de Trump sur les taux d’intérêt de la Fed",
-        "resume": "En mai, l’inflation s’est accélérée pour le troisième mois consécutif aux Etats-Unis, atteignant 4,2 % sur un an. De quoi pousser la Fed à maintenir ses taux d’intérêt à leur niveau actuel lors de sa réunion la semaine prochaine, malgré les appels r",
-        "url": "https://www.challenges.fr/economie/comment-lenlisement-du-conflit-en-iran-est-en-train-de-saboter-les-ambitions-de-trump-sur-les-taux-dinteret-de-la-fed_644098"
+        "heure": "14h23",
+        "titre": "« Cette hausse arrive au mauvais moment » : la remontée des taux de la BCE, une mauvaise nouvelle pour les crédits immobiliers ?",
+        "resume": "La Banque centrale européenne a légèrement augmenté ses taux directeurs, une première depuis près d’un an, alors que l’inflation est de retour sur le Vieux Continent. Une hausse qui pourrait avoir des conséquences sur le coût des prêts immobiliers.",
+        "url": "https://www.challenges.fr/immobilier/cette-hausse-arrive-au-mauvais-moment-la-remontee-des-taux-de-la-bce-une-mauvaise-nouvelle-pour-les-credits-immobiliers_644114"
       },
       {
         "source": "Les Echos",
-        "heure": "12h56",
-        "titre": "Crédit immobilier : Bercy appelé à défendre le modèle français à taux fixe",
-        "resume": "Le comité consultatif du secteur financier, constitué essentiellement de représentants du secteur financier et de leurs clientèles, a remis son rapport au ministre de l'Economie ce jeudi. Il y défend le crédit classique à taux fixe à la française.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/credit-immobilier-bercy-appele-a-defendre-le-modele-francais-a-taux-fixe-2236296"
+        "heure": "19h32",
+        "titre": "La zone euro a commencé à ralentir avant même la hausse des taux de la BCE",
+        "resume": "Le ralentissement de l'activité économique de la zone euro est déjà engagé en raison du conflit au Moyen-Orient. L'inflation devrait culminer à 3,5 % cet été et cet automne.",
+        "url": "https://www.lesechos.fr/monde/europe/la-zone-euro-a-commence-a-ralentir-avant-meme-la-hausse-des-taux-de-la-bce-2236422"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "21h15",
+        "titre": "Aix-Marseille-Provence : la chambre régionale des comptes invite la Métropole à réduire sa dotation aux communes de 53 millions d’euros",
+        "resume": "Chargés d’élaborer le budget 2026 de l’établissement public, les magistrats proposent également 65 millions d’euros d’économies de fonctionnement, mais écartent l’hypothèse d’une hausse d’impôts.",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/11/aix-marseille-provence-la-chambre-regionale-des-comptes-invite-la-metropole-a-reduire-sa-dotation-aux-communes-de-53-millions-d-euros_6700783_823448.html"
       },
       {
         "source": "Les Echos",
-        "heure": "11h55",
-        "titre": "« Paroles, paroles, paroles » : pourquoi la BCE perd son influence sur l'euro",
-        "resume": "La communication de la Banque centrale européenne sur l'euro a perdu en efficacité. Sans la menace crédible d'une intervention sur le marché, à laquelle elle ne s'est résolue qu'en 2000, elle ne peut au mieux influer sur sa monnaie que pendant une se",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/paroles-paroles-paroles-pourquoi-la-bce-perd-son-influence-sur-leuro-2236282"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h40",
-        "titre": "Tensions entre les États-Unis et l’Iran, prises de bénéfices, inflation... Les Bourses mondiales vacillent",
-        "resume": "Les principaux indices mondiaux ont cédé du terrain mercredi, à quelques jours de la première réunion de la Réserve fédérale présidée par Kevin Warsh.",
-        "url": "https://www.lefigaro.fr/societes/tensions-entre-les-etats-unis-et-l-iran-prises-de-benefices-inflation-les-bourses-mondiales-vacillent-20260611"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "00h02",
-        "titre": "Le dollar sans élan après l'inflation américaine",
-        "resume": "Le dollar fait du surplace mercredi, accueillant sans surprise l'accélération de l'inflation aux États-Unis le mois dernier, les investisseurs restant...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-sans-elan-apres-l-inflation-americaine-20260610"
+        "heure": "22h34",
+        "titre": "UE : la présidence chypriote propose un budget 2028-2034 encore trop élevé pour les « frugaux »",
+        "resume": "Les principaux éléments chiffrés de la négociation pour le prochain cadre financier proposent une réduction de 1,9 % du volume total suggéré par la Commission l'an dernier. Insuffisant pour les contributeurs nets, beaucoup trop pour le Parlement euro",
+        "url": "https://www.lesechos.fr/monde/europe/ue-la-presidence-chypriote-propose-un-budget-2028-2034-encore-trop-eleve-pour-les-frugaux-2236459"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": null,
-        "prev": null,
-        "diff": null,
-        "trend": "flat",
-        "date": ""
+        "rate": 2.635,
+        "prev": 2.619,
+        "diff": 0.016,
+        "trend": "up",
+        "date": "2026-06-10"
       },
       {
         "maturity": "5 ans",
-        "rate": 2.739,
-        "prev": 2.749,
-        "diff": -0.011,
-        "trend": "down",
-        "date": "2026-06-09"
+        "rate": 2.759,
+        "prev": 2.739,
+        "diff": 0.02,
+        "trend": "up",
+        "date": "2026-06-10"
       },
       {
         "maturity": "10 ans",
-        "rate": 3.099,
-        "prev": 3.092,
-        "diff": 0.007,
+        "rate": 3.116,
+        "prev": 3.099,
+        "diff": 0.017,
         "trend": "up",
-        "date": "2026-06-09"
+        "date": "2026-06-10"
       },
       {
         "maturity": "20 ans",
@@ -438,49 +354,49 @@
       },
       {
         "maturity": "30 ans",
-        "rate": null,
-        "prev": null,
-        "diff": null,
-        "trend": "flat",
-        "date": ""
+        "rate": 3.568,
+        "prev": 3.565,
+        "diff": 0.003,
+        "trend": "up",
+        "date": "2026-06-10"
       }
     ]
   },
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "127 milliards $",
-      "contexte": "Les investissements mondiaux en intelligence artificielle ont dépassé les 127 milliards de dollars au premier semestre 2026, soit une augmentation de 89% par rapport à la même période en 2025. Cette accélération reflète la ruée des grandes institutions financières et des fonds de capital-risque vers le secteur de l'IA générative.",
-      "source": "Rapports consolidés des agences de suivi des investissements technologiques mondiaux"
+      "chiffre": "73 milliards $",
+      "contexte": "Les investissements mondiaux en intelligence artificielle ont atteint 73 milliards de dollars au premier semestre 2026, dépassant les prévisions de 40%. Cette accélération reflète la ruée des grandes banques et fonds de capital-risque vers les technologies IA générative et quantique.",
+      "source": "Global AI Investment Report 2026"
     },
     "ephemeride": {
-      "date": "11 juin 2026",
-      "evenement": "Annonce de la fusion entre deux géants des paiements numériques créant un leader mondial avec une capitalisation boursière de 850 milliards $, redéfinissant l'infrastructure financière mondiale.",
-      "impact": "Cette consolidation accélère la transition vers les portefeuilles numériques centralisés et renforce le pouvoir de marché des grandes fintech au détriment des acteurs bancaires traditionnels."
+      "date": "12 juin 2026",
+      "evenement": "Il y a 30 ans, le 12 juin 1996, la Fed américaine relevait ses taux directeurs de 25 points de base, marquant le début d'un cycle restrictif qui allait durer 18 mois et transformer les marchés obligataires.",
+      "impact": "Cet événement historique a établi le précédent des resserrements monétaires anticipés, stratégie toujours utilisée par les banques centrales modernes."
     },
     "graphique_semaine": {
-      "titre": "Volatilité des taux de change face à la stagflation persistante",
-      "description": "La semaine du 9-15 juin 2026 a été marquée par une instabilité croissante des devises majeures face aux pressions inflationnistes résiduelles et au ralentissement économique simultané. L'euro, le dollar et le yuan ont connu des oscillations importantes reflétant l'incertitude des banques centrales quant à leurs prochaines décisions de politique monétaire. Les marchés émergents ont particulièrement souffert avec des sorties de capitaux accélérées.",
+      "titre": "Volatilité des cryptomonnaies vs obligations d'État (semaine du 9-13 juin 2026)",
+      "description": "La semaine du 12 juin révèle une divergence majeure : alors que l'indice VIX des obligations grimpe à 18.5 suite aux craintes d'inflation persistante, le Bitcoin maintient une stabilité remarquable à 47 200$. Cette décorrélation croissante suggère une maturation du marché crypto comme actif refuge alternatif aux investisseurs institutionnels.",
       "donnees": [
         {
           "label": "Lundi 9 juin",
-          "valeur": 2.3
+          "valeur": 15.2
         },
         {
           "label": "Mardi 10 juin",
-          "valeur": 3.1
+          "valeur": 16.8
         },
         {
           "label": "Mercredi 11 juin",
-          "valeur": 2.8
+          "valeur": 17.4
         },
         {
           "label": "Jeudi 12 juin",
-          "valeur": 3.7
+          "valeur": 18.5
         },
         {
           "label": "Vendredi 13 juin",
-          "valeur": 3.4
+          "valeur": 17.9
         }
       ]
     }
