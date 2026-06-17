@@ -38,7 +38,7 @@ def fetch_oat_curve():
                   ("20 ans","SR_20Y"),("30 ans","SR_30Y")]
     curve = []
     for label, mat in maturities:
-        url = f"https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.{mat}?lastNObservations=2&format=jsondata"
+        url = f"https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.{mat}?lastNObservations=10&format=jsondata"
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"})
             with urllib.request.urlopen(req, timeout=8) as resp:
@@ -46,18 +46,20 @@ def fetch_oat_curve():
             series = data["dataSets"][0]["series"]["0:0:0:0:0:0:0"]["observations"]
             dates = data["structure"]["dimensions"]["observation"][0]["values"]
             obs_sorted = sorted(series.items(), key=lambda x: int(x[0]))
-            latest_val = float(obs_sorted[-1][1][0])
-            prev_val = float(obs_sorted[-2][1][0]) if len(obs_sorted) >= 2 else latest_val
+            history = [round(float(v[1][0]), 3) for v in obs_sorted]
+            latest_val = history[-1]
+            prev_val = history[-2] if len(history) >= 2 else latest_val
             latest_date = dates[int(obs_sorted[-1][0])]["id"] if dates else ""
             trend = "up" if latest_val > prev_val + 0.001 else "down" if latest_val < prev_val - 0.001 else "flat"
             diff = round(latest_val - prev_val, 3)
-            curve.append({"maturity": label, "rate": round(latest_val, 3),
-                         "prev": round(prev_val, 3), "diff": diff, "trend": trend, "date": latest_date})
-            print(f"  OAT {label}: {latest_val:.3f}% ({trend})")
+            curve.append({"maturity": label, "rate": latest_val,
+                         "prev": prev_val, "diff": diff, "trend": trend, "date": latest_date,
+                         "history": history})
+            print(f"  OAT {label}: {latest_val:.3f}% ({trend}, {len(history)} obs)")
         except Exception as e:
             print(f"  OAT {label}: erreur - {e}")
             curve.append({"maturity": label, "rate": None, "prev": None,
-                         "diff": None, "trend": "flat", "date": ""})
+                         "diff": None, "trend": "flat", "date": "", "history": []})
     return curve
 
 # ── ECONOMIC CALENDAR ──
