@@ -32,49 +32,7 @@ def fmt_heure(pub_str):
     paris = dt + timedelta(hours=2)
     return f"{paris.hour:02d}h{paris.minute:02d}"
 
-# ── STOOQ MARKET DATA ──
-def fetch_stooq(sym):
-    url = f"https://stooq.com/q/l/?s={sym}&f=sd2t2ohlcv&h&e=csv"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=8) as resp:
-            text = resp.read().decode("utf-8")
-        lines = text.strip().split("\n")
-        if len(lines) < 2: return None
-        vals = lines[1].split(",")
-        close = float(vals[4])
-        open_ = float(vals[3])
-        if close <= 0: return None
-        return {"close": close, "open": open_}
-    except: return None
-
-def fetch_market_data():
-    QUOTES = [
-        ("CAC 40",       "^cac",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("Eurostoxx 50", "^stoxx50e", lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("S&P 500",      "^spx",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("Nasdaq",       "^ndq",      lambda v: "{:,.0f}".format(v).replace(",", " ")),
-        ("EUR/USD",      "eurusd",    lambda v: "{:.4f}".format(v)),
-        ("Brent",        "cb.f",      lambda v: "{:.1f} $".format(v)),
-        ("Or",           "xauusd",    lambda v: "{:,.0f} $".format(v).replace(",", " ")),
-        ("Euribor 3M",   "eubor3m",   lambda v: "{:.3f}%".format(v)),
-        ("Euribor 6M",   "eubor6m",   lambda v: "{:.3f}%".format(v)),
-    ]
-    metrics = []
-    for label, sym, fmt in QUOTES:
-        data = fetch_stooq(sym)
-        if data:
-            pct = (data["close"] - data["open"]) / data["open"] * 100
-            dir_ = "up" if pct > 0.05 else "down" if pct < -0.05 else "flat"
-            metrics.append({"label": label, "value": fmt(data["close"]),
-                           "change": "{:+.2f}%".format(pct), "dir": dir_})
-            print(f"  {label}: {fmt(data['close'])} ({pct:+.2f}%)")
-        else:
-            metrics.append({"label": label, "value": "-", "change": "-", "dir": "flat"})
-            print(f"  {label}: N/A (symbole: {sym})")
-    return metrics
-
-# ── OAT CURVE ──
+# ── OAT CURVE (BCE) ──
 def fetch_oat_curve():
     maturities = [("2 ans","SR_2Y"),("5 ans","SR_5Y"),("10 ans","SR_10Y"),
                   ("20 ans","SR_20Y"),("30 ans","SR_30Y")]
@@ -129,58 +87,58 @@ def fetch_economic_calendar():
 
 # ── CURIOSITY & CULTURE ECO ──
 def generate_curiosity(today, ts):
-    prompt = f"""Date : {today}. Tu es un expert en histoire économique et finance.
+    prompt = f"""Date : {today}. Tu es un expert en histoire economique et finance.
 
-Génère 3 contenus courts et fascinants pour un professionnel de la finance. JSON uniquement sans backticks :
+Genere 3 contenus courts et fascinants pour un professionnel de la finance. JSON uniquement sans backticks :
 {{
   "chiffre_du_jour": {{
-    "chiffre": "Un chiffre économique surprenant et récent (ex: '58%', '4 200 milliards $')",
-    "contexte": "1-2 phrases expliquant ce chiffre, pourquoi il est marquant",
+    "chiffre": "Un chiffre economique surprenant et recent",
+    "contexte": "1-2 phrases expliquant ce chiffre",
     "source": "Source"
   }},
   "ephemeride": {{
-    "date": "{today.split(' ')[2]} {today.split(' ')[3] if len(today.split()) > 3 else ''}",
-    "evenement": "Un événement économique ou financier historique marquant survenu ce jour",
-    "impact": "1 phrase sur l'impact de cet événement"
+    "evenement": "Un evenement economique ou financier historique marquant survenu ce jour",
+    "impact": "1 phrase sur l'impact de cet evenement"
   }},
   "graphique_semaine": {{
-    "titre": "Titre du phénomène économique à visualiser",
-    "description": "2-3 phrases expliquant la tendance économique marquante de la semaine",
+    "titre": "Titre du phenomene economique a visualiser",
+    "description": "2-3 phrases expliquant la tendance",
     "donnees": [
-      {{"label": "Point 1", "valeur": 0}},
-      {{"label": "Point 2", "valeur": 0}},
-      {{"label": "Point 3", "valeur": 0}},
-      {{"label": "Point 4", "valeur": 0}},
-      {{"label": "Point 5", "valeur": 0}}
+      {{"label": "P1", "valeur": 0}}, {{"label": "P2", "valeur": 0}},
+      {{"label": "P3", "valeur": 0}}, {{"label": "P4", "valeur": 0}}, {{"label": "P5", "valeur": 0}}
     ]
   }}
 }}"""
     try:
-        response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=800,
-            messages=[{"role": "user", "content": prompt}]
-        )
+        response = client.messages.create(model="claude-haiku-4-5-20251001", max_tokens=800,
+                                          messages=[{"role": "user", "content": prompt}])
         text = "".join(b.text for b in response.content if hasattr(b, "text"))
-        s = text.find("{")
-        e = text.rfind("}")
-        if s == -1: return {}
-        return json.loads(text[s:e+1])
+        s, e = text.find("{"), text.rfind("}")
+        return json.loads(text[s:e+1]) if s != -1 else {}
     except Exception as ex:
         print(f"  Curiosite erreur: {ex}")
         return {}
 
-# ── RSS ──
+# ── RSS SOURCES (economie/finance) ──
 RSS_SOURCES = [
-    ("Reuters France",  "https://feeds.reuters.com/reuters/frenchNews"),
-    ("Reuters France",  "https://feeds.reuters.com/reuters/businessNews"),
     ("BFM Business",    "https://www.bfmtv.com/rss/news-flux-rss/all-news/economie/"),
     ("Le Monde Eco",    "https://www.lemonde.fr/economie/rss_full.xml"),
     ("Le Monde Eco",    "https://www.lemonde.fr/entreprises/rss_full.xml"),
     ("Le Monde Eco",    "https://www.lemonde.fr/politique/rss_full.xml"),
     ("Challenges",      "https://www.challenges.fr/rss.xml"),
-    ("L'Express",       "https://www.lexpress.fr/arc/outboundfeeds/rss/"),
-    ("Le Point",        "https://www.lepoint.fr/rss.xml"),
+    ("Capital",         "https://www.capital.fr/feed"),
+    ("La Tribune",      "https://www.latribune.fr/rss/rubriques/economie.html"),
+]
+
+# ── RSS SOURCES (droit des affaires) ──
+RSS_DROIT = [
+    ("Legifrance",        "https://www.legifrance.gouv.fr/contenu/Rss/RssJuriCass.xml"),
+    ("Dalloz Actualite",  "https://www.dalloz-actualite.fr/rss"),
+]
+
+# ── RSS VATICAN NEWS ──
+RSS_VATICAN = [
+    ("Vatican News", "https://www.vaticannews.va/fr.rss.xml"),
 ]
 
 def fetch_rss(source, url):
@@ -195,7 +153,7 @@ def fetch_rss(source, url):
             link  = (item.findtext("link")  or "").strip()
             pub   = (item.findtext("pubDate") or "").strip()
             desc  = re.sub(r"<[^>]+>", "", (item.findtext("description") or ""))[:250]
-            if title and link and is_recent(pub, hours=36):
+            if title and link:
                 items.append({"source": source, "titre": title, "url": link,
                              "resume": desc.strip(), "pub": pub, "heure": fmt_heure(pub)})
         return items
@@ -203,18 +161,19 @@ def fetch_rss(source, url):
         print(f"  RSS {source}: {e}")
         return []
 
-def get_rss_articles():
+def get_rss_from_list(source_list, hours=36, max_total=None):
     all_articles = []
     seen_urls = set()
-    for source, url in RSS_SOURCES:
+    for source, url in source_list:
         for a in fetch_rss(source, url):
-            if a["url"] not in seen_urls:
+            if a["url"] not in seen_urls and is_recent(a["pub"], hours=hours):
                 seen_urls.add(a["url"])
                 all_articles.append(a)
-    print(f"  RSS total: {len(all_articles)} articles")
+    if max_total:
+        all_articles = all_articles[:max_total]
     return all_articles
 
-# ── PERIGON ──
+# ── PERIGON (Les Echos + Le Figaro) ──
 def get_perigon_articles():
     articles = []
     queries = [
@@ -268,7 +227,13 @@ def parse_json_safe(text):
                         raw = re.sub(r',(\s*[}\]])', r'\1', raw)
                         return json.loads(raw)
         i += 1
-    raise ValueError("Unmatched braces")
+    # Reparation JSON tronque
+    raw = text[s:]
+    for end in range(len(raw)-1, 0, -1):
+        if raw[end] == "}":
+            try: return json.loads(raw[:end+1])
+            except: continue
+    raise ValueError(f"JSON irreparable apres {len(text)} chars")
 
 def synthesize(articles, today, ts):
     date_short = datetime.now().strftime("%d/%m/%Y")
@@ -279,9 +244,9 @@ def synthesize(articles, today, ts):
 {len(articles)} vrais articles d'aujourd'hui :
 {ctx}
 
-Genere un briefing JSON tres analytique et precis. La synthese doit etre dense, professionnelle, avec des chiffres concrets et des implications pratiques pour un professionnel de la finance. Pas de generalites.
+Genere un briefing JSON tres analytique et precis. La synthese doit etre dense, professionnelle, avec des chiffres concrets et des implications pratiques pour un professionnel de la finance. Pas de generalites journalistiques.
 
-Pour chaque section, utilise les INDEX les plus pertinents (5-7 par section). Remplis TOUTES les sections. Aucun article en anglais.
+Pour chaque section, utilise les INDEX les plus pertinents (5 par section). Remplis TOUTES les sections. Aucun article en anglais.
 
 JSON sans backticks :
 {{
@@ -290,10 +255,10 @@ JSON sans backticks :
   "synthese": {{
     "resume": "5-6 phrases analytiques et precises : chiffres cles, tendances, implications marche. Ton professionnel, pas journalistique.",
     "points": [
-      {{"titre": "Marches - [sujet precis avec chiffre]", "detail": "analyse avec donnees chiffrees et implications concretes"}},
-      {{"titre": "Macro - [sujet precis avec chiffre]", "detail": "analyse avec donnees chiffrees et implications concretes"}},
-      {{"titre": "Entreprises/M&A - [sujet precis]", "detail": "analyse avec montants et implications strategiques"}},
-      {{"titre": "Politique/Geo - [sujet precis]", "detail": "impact economique chiffre et concret"}}
+      {{"titre": "Marches - sujet precis avec chiffre", "detail": "analyse avec donnees chiffrees et implications concretes"}},
+      {{"titre": "Macro - sujet precis avec chiffre", "detail": "analyse avec donnees chiffrees et implications concretes"}},
+      {{"titre": "Entreprises/M&A - sujet precis", "detail": "analyse avec montants et implications strategiques"}},
+      {{"titre": "Politique/Geo - sujet precis", "detail": "impact economique chiffre et concret"}}
     ]
   }},
   "marches":     {{"indices": [0,1,2,3,4]}},
@@ -313,11 +278,8 @@ REGLES STRICTES :
 - Sections macro et politique doivent avoir des articles DIFFERENTS
 - Aucun article en anglais"""
 
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=3000,
-        messages=[{"role": "user", "content": prompt}]
-    )
+    response = client.messages.create(model="claude-haiku-4-5-20251001", max_tokens=3000,
+                                      messages=[{"role": "user", "content": prompt}])
     text = "".join(b.text for b in response.content if hasattr(b, "text"))
     print(f"  Haiku: {len(text)} chars")
     return parse_json_safe(text)
@@ -363,7 +325,6 @@ def send_email(briefing, curiosity, today, ts):
     points  = syn.get("points", [])
     metrics = briefing.get("marches", {}).get("metrics", [])
 
-    # Metrics HTML
     metrics_html = ""
     for m in metrics:
         color = "#2d6e45" if m.get("dir") == "up" else "#c0392b" if m.get("dir") == "down" else "#7a7570"
@@ -382,11 +343,10 @@ def send_email(briefing, curiosity, today, ts):
         if len(pair) == 1: cells += '<td style="width:50%;padding:6px 4px"></td>'
         metrics_rows += f"<tr>{cells}</tr>"
 
-    # Points HTML
     points_html = ""
     for p in points:
         titre = p.get("titre", "")
-        parts = titre.split("--") if "--" in titre else titre.split("-", 1)
+        parts = titre.split(" - ", 1)
         label = parts[0].strip() if len(parts) > 1 else ""
         title = parts[1].strip() if len(parts) > 1 else titre
         points_html += f"""<div style="border-bottom:1px solid rgba(26,26,26,0.07);padding:10px 0">
@@ -395,7 +355,6 @@ def send_email(briefing, curiosity, today, ts):
           <div style="font-size:12px;color:#7a7570;line-height:1.55">{p.get('detail','')}</div>
         </div>"""
 
-    # Curiosity HTML
     curiosity_html = ""
     chiffre = curiosity.get("chiffre_du_jour", {})
     ephem   = curiosity.get("ephemeride", {})
@@ -412,7 +371,6 @@ def send_email(briefing, curiosity, today, ts):
           <div style="font-size:12px;color:#7a7570">{ephem.get('impact','')}</div>
         </div>"""
 
-    # Articles HTML
     sections = [("marches","Marches"),("entreprises","Entreprises"),("ma","M&A"),
                 ("macro","Macro"),("politique","Politique"),("taux","Taux")]
     articles_html = ""
@@ -422,14 +380,11 @@ def send_email(briefing, curiosity, today, ts):
         articles_html += f"""<div style="margin-bottom:20px">
           <div style="font-size:9px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#7a7570;border-bottom:1px solid rgba(26,26,26,0.12);padding-bottom:5px;margin-bottom:8px">{label}</div>"""
         for a in arts:
-            url   = a.get("url", "")
-            titre = a.get("titre", "")
-            resume = a.get("resume", "")
-            src   = a.get("source", "")
-            heure = a.get("heure", "")
+            url, titre, resume = a.get("url",""), a.get("titre",""), a.get("resume","")
+            src, heure = a.get("source",""), a.get("heure","")
             lo = f'<a href="{url}" style="text-decoration:none;color:inherit">' if url else ""
             lc = "</a>" if url else ""
-            cta = f'<div style="font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:#b5602a;margin-top:5px;font-weight:500">Lire</div>' if url else ""
+            cta = '<div style="font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:#b5602a;margin-top:5px;font-weight:500">Lire</div>' if url else ""
             articles_html += f"""<div style="border-bottom:1px solid rgba(26,26,26,0.06);padding:8px 0">
               <div style="font-size:9px;color:#7a7570;margin-bottom:3px">{src} {heure}</div>
               {lo}<div style="font-family:Georgia,serif;font-size:13px;color:#1a1a1a;line-height:1.4;margin-bottom:3px">{titre}</div>{lc}
@@ -470,10 +425,8 @@ def send_email(briefing, curiosity, today, ts):
                      "User-Agent": "Mozilla/5.0"},
             timeout=15
         )
-        if resp.status_code in (200, 201):
-            print(f"  Email envoye -> {recipient}")
-        else:
-            print(f"  Email erreur {resp.status_code}: {resp.text[:200]}")
+        if resp.status_code in (200, 201): print(f"  Email envoye -> {recipient}")
+        else: print(f"  Email erreur {resp.status_code}: {resp.text[:200]}")
     except Exception as e:
         print(f"  Email erreur: {e}")
 
@@ -488,27 +441,32 @@ def main():
 
     print(f"Generation -- {today} {ts}")
 
-    print("-> RSS...")
-    rss_articles = get_rss_articles()
+    print("-> RSS economie...")
+    rss_articles = get_rss_from_list(RSS_SOURCES, hours=36)
+    print(f"  RSS eco total: {len(rss_articles)} articles")
 
     print("-> Perigon (Echos + Figaro)...")
     perigon_articles = get_perigon_articles()
 
-    # Merge + deduplicate
     seen = set()
     articles = []
     for a in rss_articles + perigon_articles:
         if a["url"] not in seen:
             seen.add(a["url"])
             articles.append(a)
-    print(f"-> Total: {len(articles)} articles")
+    print(f"-> Total eco: {len(articles)} articles")
 
     if not articles:
         print("ERREUR: aucun article")
         raise SystemExit(1)
 
-    print("-> Donnees de marche...")
-    market_metrics = fetch_market_data()
+    print("-> Droit des affaires...")
+    droit_articles = get_rss_from_list(RSS_DROIT, hours=72, max_total=15)
+    print(f"  Droit: {len(droit_articles)} articles")
+
+    print("-> Vatican News...")
+    vatican_articles = get_rss_from_list(RSS_VATICAN, hours=72, max_total=15)
+    print(f"  Vatican: {len(vatican_articles)} articles")
 
     print("-> Courbe OAT...")
     oat_curve = fetch_oat_curve()
@@ -523,10 +481,11 @@ def main():
     classified = synthesize(articles, today, ts)
 
     briefing = build_briefing(classified, articles)
-    briefing["marches"]["metrics"]  = market_metrics
-    briefing["taux"]["courbe"]      = oat_curve
-    briefing["calendrier"]          = calendar
-    briefing["curiosite"]           = curiosity
+    briefing["taux"]["courbe"]  = oat_curve
+    briefing["calendrier"]      = calendar
+    briefing["curiosite"]       = curiosity
+    briefing["droit"]           = {"articles": droit_articles}
+    briefing["vatican"]         = {"articles": vatican_articles}
 
     for key in ["synthese","marches","entreprises","ma","macro","politique","taux"]:
         if key not in briefing:
@@ -534,8 +493,9 @@ def main():
     if "calendrier" not in briefing: briefing["calendrier"] = []
     if "curiosite"  not in briefing: briefing["curiosite"]  = {}
 
-    for k in ["marches","entreprises","ma","macro","politique","taux"]:
-        print(f"  {k}: {len(briefing.get(k,{}).get('articles',[]))} articles")
+    for k in ["marches","entreprises","ma","macro","politique","taux","droit","vatican"]:
+        n = len(briefing.get(k,{}).get("articles",[]))
+        print(f"  {k}: {n} articles")
 
     with open("briefing.json", "w", encoding="utf-8") as f:
         json.dump(briefing, f, ensure_ascii=False, indent=2)
