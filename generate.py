@@ -130,13 +130,53 @@ RSS_SOURCES = [
     ("La Tribune",      "https://www.latribune.fr/rss/rubriques/economie.html"),
 ]
 
-# ── RSS SOURCES (droit des affaires) ──
-RSS_DROIT = [
-    ("Legifrance",        "https://www.legifrance.gouv.fr/contenu/Rss/RssJuriCass.xml"),
-    ("Dalloz Actualite",  "https://www.dalloz-actualite.fr/rss"),
-]
+def get_droit_affaires_articles():
+    """Fetch business law news via Perigon (Dalloz, Village Justice, etc. often indexed there)."""
+    articles = []
+    queries = [
+        {"q": "droit des affaires droit des societes jurisprudence", "pageSize": 15},
+        {"q": "Cour de cassation arret droit commercial", "pageSize": 10},
+        {"q": "fusion acquisition droit corporate juridique", "pageSize": 10},
+    ]
+    for q in queries:
+        try:
+            params = urllib.parse.urlencode({"apiKey": PERIGON_KEY, "language": "fr",
+                                             "sortBy": "date", "pageSize": q.get("pageSize", 10),
+                                             "q": q.get("q", ""), "category": "Law"})
+            url = f"https://api.goperigon.com/v1/all?{params}"
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = json.loads(resp.read())
+            count = 0
+            for a in data.get("articles", []):
+                titre = (a.get("title") or "").strip()
+                url_  = (a.get("url") or "").strip()
+                pub   = (a.get("pubDate") or a.get("addDate") or "").strip()
+                desc  = (a.get("description") or a.get("shortSummary") or "").strip()
+                src_raw = a.get("source", "")
+                domain_match = re.search(r"'domain': '([^']+)'", str(src_raw))
+                domain = domain_match.group(1) if domain_match else ""
+                source_name = {
+                    "dalloz-actualite.fr": "Dalloz Actualite",
+                    "village-justice.com": "Village Justice",
+                    "lemonde.fr": "Le Monde Droit",
+                }.get(domain, domain.replace("www.","").split(".")[0].title() or "Droit")
+                if titre and url_ and is_recent(pub, hours=72):
+                    articles.append({"source": source_name, "titre": titre, "url": url_,
+                                    "resume": desc[:250], "pub": pub, "heure": fmt_heure(pub)})
+                    count += 1
+            print(f"  Perigon droit ({q['q'][:30]}): {count} articles")
+        except Exception as e:
+            print(f"  Perigon droit erreur: {e}")
+    # Dedup
+    seen, unique = set(), []
+    for a in articles:
+        if a["url"] not in seen:
+            seen.add(a["url"])
+            unique.append(a)
+    return unique
 
-# ── RSS VATICAN NEWS ──
+# RSS VATICAN NEWS (URL confirmee fonctionnelle)
 RSS_VATICAN = [
     ("Vatican News", "https://www.vaticannews.va/fr.rss.xml"),
 ]
@@ -461,7 +501,7 @@ def main():
         raise SystemExit(1)
 
     print("-> Droit des affaires...")
-    droit_articles = get_rss_from_list(RSS_DROIT, hours=72, max_total=15)
+    droit_articles = get_droit_affaires_articles()
     print(f"  Droit: {len(droit_articles)} articles")
 
     print("-> Vatican News...")
