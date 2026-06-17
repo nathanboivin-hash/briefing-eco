@@ -250,32 +250,62 @@ function artList(key) {
 }
 
 var TICKERS = {
-  'CAC 40':       {sym:'^FCHI',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
-  'Eurostoxx 50': {sym:'^STOXX50E',  fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
-  'S&P 500':      {sym:'^GSPC',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
-  'Nasdaq':       {sym:'^IXIC',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
-  'EUR/USD':      {sym:'EURUSD=X',   fmt: function(v){return v.toFixed(4);}},
-  'Brent':        {sym:'BZ=F',       fmt: function(v){return v.toFixed(1)+' $';}},
-  'Or':           {sym:'GC=F',       fmt: function(v){return Math.round(v).toLocaleString('fr-FR')+' $';}}
+  'CAC 40':       {sym:'^FCHI',      stooq:'^cac',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
+  'Eurostoxx 50': {sym:'^STOXX50E',  stooq:'^stoxx50e', fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
+  'S&P 500':      {sym:'^GSPC',      stooq:'^spx',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
+  'Nasdaq':       {sym:'^IXIC',      stooq:'^ndq',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
+  'EUR/USD':      {sym:'EURUSD=X',   stooq:'eurusd',    fmt: function(v){return v.toFixed(4);}},
+  'Brent':        {sym:'BZ=F',       stooq:'cb.f',      fmt: function(v){return v.toFixed(1)+' $';}},
+  'Or':           {sym:'GC=F',       stooq:'xauusd',    fmt: function(v){return Math.round(v).toLocaleString('fr-FR')+' $';}}
 };
+
+function fetchYahooChart(label, cfg) {
+  var url = 'https://query1.finance.yahoo.com/v8/finance/chart/'+encodeURIComponent(cfg.sym)+'?interval=1d&range=2d';
+  return fetch(url)
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(function(data){
+      var result = data.chart && data.chart.result && data.chart.result[0];
+      if (!result) throw new Error('no result');
+      var meta = result.meta;
+      var price = meta.regularMarketPrice;
+      var prev = meta.previousClose || meta.chartPreviousClose;
+      if (!price || !prev) throw new Error('no price');
+      var pct = (price - prev) / prev * 100;
+      var dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
+      liveMetrics[label] = {value: cfg.fmt(price), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
+      if (tab === 'm') renderBrief('m');
+    });
+}
+
+function fetchStooqFallback(label, cfg) {
+  if (!cfg.stooq) return Promise.reject(new Error('no stooq symbol'));
+  var url = 'https://stooq.com/q/l/?s='+cfg.stooq+'&f=sd2t2ohlcv&h&e=csv';
+  return fetch(url)
+    .then(function(r){ return r.text(); })
+    .then(function(text){
+      var lines = text.trim().split(String.fromCharCode(10));
+      if (lines.length < 2) throw new Error('empty csv');
+      var vals = lines[1].split(',');
+      var close = parseFloat(vals[4]);
+      var open = parseFloat(vals[3]);
+      if (!close || close <= 0) throw new Error('bad price');
+      var pct = (close - open) / open * 100;
+      var dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
+      liveMetrics[label] = {value: cfg.fmt(close), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
+      if (tab === 'm') renderBrief('m');
+    });
+}
 
 function fetchLiveMetric(label) {
   var cfg = TICKERS[label];
   if (!cfg) return Promise.resolve();
-  var url = 'https://query1.finance.yahoo.com/v7/finance/quote?symbols='+encodeURIComponent(cfg.sym)+'&fields=regularMarketPrice,regularMarketChangePercent';
-  return fetch(url, {headers:{'User-Agent':'Mozilla/5.0'}})
-    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
-    .then(function(data){
-      var res = (data.quoteResponse && data.quoteResponse.result) || [];
-      if (res.length) {
-        var q = res[0];
-        var pct = q.regularMarketChangePercent || 0;
-        var dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
-        liveMetrics[label] = {value: cfg.fmt(q.regularMarketPrice), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
-        if (tab === 'm') renderBrief('m');
-      }
-    })
-    .catch(function(e){ console.log('Live '+label+':', e.message); });
+  return fetchYahooChart(label, cfg)
+    .catch(function(e){
+      console.log('Yahoo '+label+' failed, trying Stooq:', e.message);
+      return fetchStooqFallback(label, cfg).catch(function(e2){
+        console.log('Stooq '+label+' also failed:', e2.message);
+      });
+    });
 }
 function fetchAllLiveMetrics() {
   return Promise.all(Object.keys(TICKERS).map(fetchLiveMetric));
@@ -295,15 +325,44 @@ function renderOat(curve) {
   var valid=curve.filter(function(p){return p.rate!==null;});
   var svg='';
   if(valid.length>=2) {
-    var rates=valid.map(function(p){return p.rate;}), minR=Math.min.apply(null,rates)-0.1, maxR=Math.max.apply(null,rates)+0.1;
-    var W=300,H=80,pad=12;
-    var pts=valid.map(function(p,i){
-      var x=pad+(i/(valid.length-1))*(W-pad*2);
-      var y=H-pad-((p.rate-minR)/(maxR-minR))*(H-pad*2);
-      return x.toFixed(1)+','+y.toFixed(1);
-    }).join(' ');
-    svg='<svg viewBox="0 0 300 80" style="width:100%;height:80px"><polyline points="'+pts+'" fill="none" stroke="#b5602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'+
-      valid.map(function(p,i){var x=pad+(i/(valid.length-1))*(W-pad*2);var y=H-pad-((p.rate-minR)/(maxR-minR))*(H-pad*2);return '<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="3" fill="#b5602a"/>';}).join('')+'</svg>';
+    var rates=valid.map(function(p){return p.rate;});
+    var rawMin=Math.min.apply(null,rates), rawMax=Math.max.apply(null,rates);
+    var margin=(rawMax-rawMin)*0.25 || 0.2;
+    var minR=rawMin-margin, maxR=rawMax+margin;
+    var W=320,H=140,padL=34,padR=14,padT=16,padB=24;
+    var plotW=W-padL-padR, plotH=H-padT-padB;
+
+    function xFor(i){ return padL + (i/(valid.length-1))*plotW; }
+    function yFor(v){ return padT + plotH - ((v-minR)/(maxR-minR))*plotH; }
+
+    // Horizontal grid lines with value labels (4 lines)
+    var gridLines='', gridLabels='';
+    for (var g=0; g<=3; g++){
+      var gv = minR + (g/3)*(maxR-minR);
+      var gy = yFor(gv);
+      gridLines += '<line x1="'+padL+'" y1="'+gy.toFixed(1)+'" x2="'+(W-padR)+'" y2="'+gy.toFixed(1)+'" stroke="rgba(26,26,26,0.08)" stroke-width="1"/>';
+      gridLabels += '<text x="'+(padL-6)+'" y="'+(gy+3).toFixed(1)+'" text-anchor="end" font-size="8" fill="#7a7570">'+gv.toFixed(2)+'</text>';
+    }
+
+    var pts=valid.map(function(p,i){ return xFor(i).toFixed(1)+','+yFor(p.rate).toFixed(1); }).join(' ');
+
+    // Area fill under the line
+    var areaPts = pts + ' ' + xFor(valid.length-1).toFixed(1)+','+(padT+plotH).toFixed(1) + ' ' + xFor(0).toFixed(1)+','+(padT+plotH).toFixed(1);
+
+    var dots = valid.map(function(p,i){
+      var x=xFor(i), y=yFor(p.rate);
+      var labelY = y - 9;
+      return '<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="3.5" fill="#b5602a" stroke="#fff" stroke-width="1.5"/>'+
+        '<text x="'+x.toFixed(1)+'" y="'+labelY.toFixed(1)+'" text-anchor="middle" font-size="9" font-weight="600" fill="#1a1a1a">'+p.rate.toFixed(2)+'</text>'+
+        '<text x="'+x.toFixed(1)+'" y="'+(H-6)+'" text-anchor="middle" font-size="8" fill="#7a7570">'+p.maturity.replace(' ans','a')+'</text>';
+    }).join('');
+
+    svg='<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;height:140px">'+
+      gridLines + gridLabels +
+      '<polygon points="'+areaPts+'" fill="#b5602a" opacity="0.08"/>'+
+      '<polyline points="'+pts+'" fill="none" stroke="#b5602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'+
+      dots +
+      '</svg>';
   }
   var curveDate=''; curve.forEach(function(p){if(p.date&&!curveDate)curveDate=p.date;});
   var items=curve.map(function(p){
@@ -316,7 +375,7 @@ function renderOat(curve) {
 
 var QUICK_LINKS = [
   {logo:'https://www.google.com/s2/favicons?domain=europe1.fr&sz=64', label:'Europe 1', sub:'Dernier flash', url:'https://podcasts.apple.com/fr/podcast/toute-lactualit%C3%A9-en-temps-r%C3%A9el-avec-europe-1/id426148852'},
-  {logo:'https://www.google.com/s2/favicons?domain=vaticannews.va&sz=64', label:'Vatican Radio', sub:'Ecouter en direct', url:'https://www.vaticannews.va/fr/epg.html#onair'}
+  {logo:'https://www.google.com/s2/favicons?domain=vaticannews.va&sz=64', label:'Radio Vatican', sub:'Dernier journal', url:'https://podcasts.apple.com/fr/podcast/radio-vatican-le-journal/id1676048217'}
 ];
 function renderQuickLinks() {
   return '<div class="quick-links">' + QUICK_LINKS.map(function(q){
