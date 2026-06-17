@@ -142,11 +142,13 @@ def get_droit_affaires_articles():
         try:
             params = urllib.parse.urlencode({"apiKey": PERIGON_KEY, "language": "fr",
                                              "sortBy": "date", "pageSize": q.get("pageSize", 10),
-                                             "q": q.get("q", ""), "category": "Law"})
+                                             "q": q.get("q", "")})
             url = f"https://api.goperigon.com/v1/all?{params}"
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as resp:
                 data = json.loads(resp.read())
+            raw_count = len(data.get("articles", []))
+            print(f"  Perigon droit RAW ({q['q'][:30]}): {raw_count} resultats bruts")
             count = 0
             for a in data.get("articles", []):
                 titre = (a.get("title") or "").strip()
@@ -502,11 +504,15 @@ def main():
 
     print("-> Droit des affaires...")
     droit_articles = get_droit_affaires_articles()
-    print(f"  Droit: {len(droit_articles)} articles")
+    print(f"  Droit TOTAL: {len(droit_articles)} articles")
+    if droit_articles:
+        print(f"  Exemple: {droit_articles[0]['source']} - {droit_articles[0]['titre'][:60]}")
 
     print("-> Vatican News...")
     vatican_articles = get_rss_from_list(RSS_VATICAN, hours=72, max_total=15)
-    print(f"  Vatican: {len(vatican_articles)} articles")
+    print(f"  Vatican TOTAL: {len(vatican_articles)} articles")
+    if vatican_articles:
+        print(f"  Exemple: {vatican_articles[0]['titre'][:60]}")
 
     print("-> Courbe OAT...")
     oat_curve = fetch_oat_curve()
