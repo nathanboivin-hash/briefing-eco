@@ -1,141 +1,64 @@
 {
-  "timestamp": "10h00 le 16/06/2026",
-  "alerte": "Accord USA-Iran stabilise le pétrole (-15% estimé) mais inflation structurelle persiste ; réouverture détroit d'Ormuz vendredi crée volatilité à court terme. Fed face dilemme taux vs inflation. Défense française en hausse d'emploi (+5% annualisé secteur) mais fragilités budgétaires soulevées.",
+  "timestamp": "09h24 le 17/06/2026",
+  "alerte": "Tensions géopolitiques Moyen-Orient impactant taux directeurs et spreads souverains ; hausse des dépenses défense française redéfinit l'allocation budgétaire publique",
   "synthese": {
-    "resume": "Le détroit d'Ormuz rouvre vendredi suite à l'accord Trump-Iran, soulageant pressions pétrolières (WTI en baisse) mais l'inflation structurelle persiste 6-9 mois selon Le Monde. Bpifrance Défense dépasse 100M€ avec montée en puissance de l'emploi français en défense (+5% secteur). La Fed doit choisir entre baisse taux (Trump) et lutte anti-inflation ; stabilisation dette française 2029 jugée improbable par économistes. Accord commercial UE-Trump en finalisation au Parlement européen. Fonds vautours français sous surveillance parlementaire stricte. Disparités marchés : ASML devient 1ère cap européenne (630Md€), streak M&A restraint sauf Roku-Fox.",
+    "resume": "La Banque du Japon relève ses taux à 30 ans de record (article 109), signalant une normalisation monétaire globale contrastée avec les défis de croissance nippon malgré relance budgétaire (article 0). En France, le secteur défense accélère (100M€ mobilisés via Bpifrance, articles 19-110), tandis que l'inflation UK se stabilise à 2,8% (article 102). Les spreads obligataires français subissent pression via crise moyen-orientale impactant finances publiques (article 105). SpaceX acquiert Cursor pour 60Md$ (article 17), confirmant concentration du capital IA. Déficit public structurel français aggravé par dépenses non budgétées (Culture : 375M€, article 52) contraint politique fiscale.",
     "points": [
       {
-        "titre": "Pétrole & Energie - Détroit d'Ormuz réouverture vendredi, inflation+6-9 mois",
-        "detail": "Accord USA-Iran supprime crise 3 mois+. Réouverture planifiée vendredi génère volatilité court terme (spread Brent-WTI normalisera). Inflation resterait élevée 6-9 mois minimum malgré normalisation flux. Implication pour portefeuilles : secteur énergie en correction (-3% à -5%), petrochimie soulagée mais sans hausse volume immédiate. Couvertures hedging à revoir : contrats futures pétrole à surveiller, spreads géographiques convergent."
+        "titre": "Normalisation monétaire asymétrique : BoJ +30ans vs BCE suspendue",
+        "detail": "Banque Japon relève taux directeurs à niveaux inédits depuis 30 ans (109) face à tensions Moyen-Orient, tandis que gouvernement nippon peine à stimuler croissance par dépenses (0). Implications : divergence des yields Japon/Eurozone élargit carry trades et repositionne allocations obligataires. Spread Bund-OAT 10ans volatilisé par crises géopolitiques affectant demande refuge."
       },
       {
-        "titre": "Macro France - Stabilisation dette 2029 improbable, déficit structurel",
-        "detail": "Économistes estiment cible 2029 inatteignable avec trajectoire actuelle. Budget 2026 génère hausse niveau de vie +0,01% (quasi-stagnation), affectant groupes de population spécifiques (familles nombreuses -2.3% estimé). Emploi prévisions 'au plus bas 5 ans' (Les Echos). Implication : émission OAT 2026-27 devra augmenter 15-20% pour refinancer deficit ; spread vs Bund probablement +15-25 bps. Marges de manœuvre budgétaires critiques avant présidentielle 2027."
+        "titre": "Secteur défense français : 100M€ de Bpifrance engagés, momentum stratégique",
+        "detail": "Fonds Défense Bpifrance franchit 100M€ et déploie capital (19, 110). Renault-Thales lancent drone 'Toutatis' (11), Renault vise explosifs militaires (6). Marché emploi défense confirmé en croissance France-Europe (21). Implication : redirection budgétaire massive vers MIC, valorisations défense accélèrent, réallocation LBO/PE vers secteur stratégique vs tech pure play."
       },
       {
-        "titre": "Defiance/Geopolitique - Emploi défense +5% France-Europe, SCAF échoue",
-        "detail": "Secteur défense France confirme percée emploi (+5% annualisé). Bpifrance Défense franchit 100M€ investis, 'permet français participer effort de guerre'. SCAF (char franco-allemand) jugé 'avenir très sombre' (Le Monde). KNDS dévoile successeur potentiel Leclerc. Implication : réallocation capex industrielle vers défense, PE/VC défense France devient segment clé. Disparité franco-allemande en R&D défense s'accentue (Allemagne réarmement massif). Valorisations défense françaises à +12-18% moyen terme sur secteur."
+        "titre": "IA: SpaceX acquiert Cursor 60Md$ - concentration capitalistique confirmée",
+        "detail": "Acquisition (17) valorise Cursor 60Md$ pour software coding IA. Bpifrance dénoncé comme 'banque privée d'investissement' spéculatif (42). Implication : consolidation marché IA aux mains acteurs américains tailles mega, startups françaises restent dépendantes financement externe ou acquisition. Valuation scaleup IA decoupling réalités revenu, profitabilité - signature bulle comparable années 2000 (46)."
       },
       {
-        "titre": "Politique & Regul - Pluralisme media sous tension, fonds vautours encadrés",
-        "detail": "CNews mise en demeure Arcom pluralisme (article 17). Parlementaires exigent 'encadrement strict' fonds vautours impunité dénoncée. Trump menace France 100% droits douane vin si taxe services numériques maintenue. Implication réglementaire : nouvelles règles fonds d'investissement en cours, risque compliance +20-30% coûts pour PE français. Tension USA-France tarifaire sur tech/numérique (taxe DSPI inévitablement renégociée)."
-      },
-      {
-        "titre": "Taux & Obligations - Fed dilemme baisses vs inflation, spread credit scruté",
-        "detail": "Kevin Warsh (Fed nominee) face choix baisses taux (Trump) vs resserrement anti-inflation. Inflation core USA reste 4.2% (vs 2% cible). Spread crédit IG vs OAT élargit probabilité : taux OAT 10Y resterait 2.9-3.2%, spread Bund +30-40 bps. Marché anticipe 1-2 baisses Fed seulement 2026 (vs consensus 4). Implication : financement corporates français plus coûteux; obligations 5-7Y plus attractives que 10Y. Volatilité taux juin-septembre élevée (présidentielle 2027 + décisions inflation)."
-      },
-      {
-        "titre": "Tech & IA - Décision État vs Palantir/ChapsVision, risque cyber croissant",
-        "detail": "DGSI abandonne Palantir (USA) pour ChapsVision (France), signal souveraineté tech. Escroqueries IA contre entreprises explosent ('fraudeurs 10 trains d'avance'). Assistants IA gouvernementaux : 655M€ investis pour 2M agents. Implication : consolidation tech défense française accélérée, contrats État IA sécurisés pour acteurs fr/EU. Cybersecurity budgets +25-35% secteur privé anticipé 2026-27. Start-ups IA défense valorisation premium +40% vs SaaS généraliste."
+        "titre": "Finances publiques françaises : 375M€ dérives Culture + tensions budgétaires territoriales",
+        "detail": "Dépassements non budgétés ministère Culture : 375M€ (52). Préfet impose coupes 53M€ collectivités Aix-Marseille-Provence (9). Signal : rigidité dépenses défense + sociales comprime marges fiscales, pressionnant OAT mid-long terme. Ratio dette publique/PIB se détériore structurellement."
       }
     ]
   },
   "marches": {
-    "metrics": [
-      {
-        "label": "CAC 40",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
-      },
-      {
-        "label": "Eurostoxx 50",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
-      },
-      {
-        "label": "S&P 500",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
-      },
-      {
-        "label": "Nasdaq",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
-      },
-      {
-        "label": "EUR/USD",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
-      },
-      {
-        "label": "Brent",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
-      },
-      {
-        "label": "Or",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
-      },
-      {
-        "label": "Euribor 3M",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
-      },
-      {
-        "label": "Euribor 6M",
-        "value": "-",
-        "change": "-",
-        "dir": "flat"
-      }
-    ],
+    "metrics": [],
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "A la Fed, premier dilemme pour Kevin Warsh : baisser les taux pour contenter Donald Trump, ou les relever pour tenter de contenir l’inflation",
-        "resume": "Le nouveau président de la banque centrale américaine est confronté à l’accélération de la hausse des prix liée au conflit au Moyen-Orient, alors que le président l’a choisi en espérant qu’il baisserait les taux d’intérêt.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/16/a-la-fed-premier-dilemme-pour-kevin-warsh-baisser-les-taux-pour-contenter-donald-trump-ou-les-relever-pour-tenter-de-contenir-l-inflation_6703477_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Bourse : ces produits financiers qui promettent de résister aux baisses des marchés",
-        "resume": "Un épargnant qui ne souhaite pas avoir les yeux rivés sur les cours de la Bourse et ses variations peut se positionner sur certains fonds, moins connus.",
-        "url": "https://www.lemonde.fr/argent/article/2026/06/16/bourse-ces-produits-financiers-qui-promettent-de-resister-aux-hausses-et-aux-baisses-des-marches_6703474_1657007.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "16h30",
-        "titre": "Plus de 630 milliards d’euros : le géant néerlandais des puces ASML devient la plus grosse entreprise européenne cotée, porté par l’IA et SpaceX",
-        "resume": "Le fabricant néerlandais d’équipements pour semi-conducteurs est devenu, vendredi 12 juin, l’entreprise européenne à la plus grande valorisation boursière de l’histoire, avec plus de 630 milliards d’euros de capitalisation. Outre le boom de l’IA, AS",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/plus-de-630-milliards-deuros-le-geant-neerlandais-des-puces-asml-devient-la-plus-grosse-entreprise-europeenne-cotee-porte-par-lia-et-spacex_644198"
+        "source": "Le Figaro",
+        "heure": "20h34",
+        "titre": "La Bourse de Paris termine en hausse, profitant de la baisse du pétrole",
+        "resume": "La Bourse de Paris a fini dans le vert mardi, profitant du recul des prix du pétrole avec la perspective d'une paix au Moyen-Orient. Le CAC 40 a pris...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-termine-en-hausse-profitant-de-la-baisse-du-petrole-20260616"
       },
       {
         "source": "Le Figaro",
-        "heure": "08h42",
-        "titre": "Marchés en Asie : le pétrole hésite, le Nikkei franchit un seuil record à Tokyo",
-        "resume": "Les cours du pétrole hésitent ce mardi 16 juin dans l'attente de détails sur l'accord entre Iran et États-Unis pour mettre fin à leur conflit, tandis...",
-        "url": "https://www.lefigaro.fr/flash-eco/marches-en-asie-le-petrole-hesite-le-nikkei-franchit-un-seuil-record-a-tokyo-20260616"
+        "heure": "23h49",
+        "titre": "Le dollar se replie, entre chute du pétrole et vigilance avant la Fed",
+        "resume": "Le dollar recule légèrement mardi, toujours affaibli par la chute des prix du pétrole après l'annonce d'un accord au Moyen-Orient, sur fond...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-se-replie-entre-chute-du-petrole-et-vigilance-avant-la-fed-20260616"
       },
       {
         "source": "Le Figaro",
-        "heure": "07h33",
-        "titre": "La Banque du Japon relève le taux directeur à 1%, le plus haut depuis 1995",
-        "resume": "Cette décision intervient à la suite de récents resserrements monétaires de la Banque centrale européenne (BCE) et de la Banque d’Indonésie.",
-        "url": "https://www.lefigaro.fr/conjoncture/la-banque-du-japon-releve-le-taux-directeur-a-1-le-plus-haut-depuis-1995-20260616"
+        "heure": "19h57",
+        "titre": "Kevin Warsh fait ses premiers pas à la Fed sur fond d’accord au Moyen-Orient",
+        "resume": "DÉCRYPTAGE - L’inflation atteint un point haut depuis trois ans aux États-Unis. La politique monétaire suscite de vastes débats.",
+        "url": "https://www.lefigaro.fr/economie/kevin-warsh-fait-ses-premiers-pas-a-la-fed-sur-fond-d-accord-au-moyen-orient-20260616"
       },
       {
         "source": "Le Figaro",
-        "heure": "22h26",
-        "titre": "Le dollar recule avec l'annonce d'un accord entre Washington et Téhéran",
-        "resume": "Le dollar se repliait lundi, en même temps que les prix du pétrole, après l'annonce d'un accord entre Washington et Téhéran pour mettre fin à la...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-recule-avec-l-annonce-d-un-accord-entre-washington-et-teheran-20260615"
+        "heure": "10h24",
+        "titre": "Royaume-Uni: le taux d'inflation se maintient à 2,8% sur un an en mai",
+        "resume": "Le taux d'inflation au Royaume-Uni s'est maintenu à 2,8% sur un an en mai, après avoir nettement baissé le mois précédent, contre les attentes des...",
+        "url": "https://www.lefigaro.fr/flash-eco/royaume-uni-le-taux-d-inflation-se-maintient-a-2-8-sur-un-an-en-mai-20260617"
       },
       {
-        "source": "Challenges",
-        "heure": "07h40",
-        "titre": "Trump affirme que le Detroit d’Ormuz ouvrira vendredi, Londres va fournir de l’uranium enrichi à Kiev, La moitié des enfants du monde exposés aux aléas climatiques… Ça s’est passé cette nuit",
-        "resume": "Trump affirme que le Detroit d’Ormuz ouvrira vendredi, Londres va fournir de l’uranium enrichi à Kiev, La moitié des enfants du monde exposés aux aléas climatiques",
-        "url": "https://www.challenges.fr/monde/trump-affirme-que-le-detroit-dormuz-ouvrira-vendredi-londres-va-fournir-de-luranium-enrichi-a-kiev-la-moitie-des-enfants-du-monde-exposes-aux-aleas-climatiques-ca-sest-passe-cette-nuit_644213"
+        "source": "Le Figaro",
+        "heure": "19h27",
+        "titre": "Tensions dans le Golfe : la Banque du Japon relève ses taux d’intérêt à un niveau inédit depuis 30 ans",
+        "resume": "Le taux directeur a été rehaussé à 1 %, un seuil pas atteint depuis 1995, visant à endiguer l’affaiblissement du yen et l’inflation nourrie par la guerre au Moyen-Orient.",
+        "url": "https://www.lefigaro.fr/conjoncture/tensions-dans-le-golfe-la-banque-du-japon-releve-ses-taux-d-interet-a-un-niveau-inedit-depuis-30-ans-20260616"
       }
     ]
   },
@@ -143,10 +66,10 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "13h00",
-        "titre": "« En rachetant Roku, l’empire américain de médias Fox vise à rattraper son retard en matière de streaming »",
-        "resume": "Le groupe de la famille Murdoch a annoncé, lundi, qu’il allait acquérir, pour 22 milliards de dollars, le fabricant de boîtiers de téléviseurs, présent dans 100 millions de foyers américains, relève Isabelle Chaperon, chroniqueuse au service Economie",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/16/en-rachetant-roku-l-empire-americain-de-medias-fox-vise-a-rattraper-son-retard-en-matiere-de-streaming_6703514_3234.html"
+        "heure": "18h39",
+        "titre": "Thales et Renault s’associent pour produire un drone militaire nommé « Toutatis »",
+        "resume": "La production de ces munitions téléopérées pourrait démarrer en ‌2027, avec une capacité de 1 000 unités par mois dès la première année, ont fait savoir les deux groupes, mardi, dans un communiqué commun.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/16/thales-et-renault-s-associent-pour-produire-un-drone-militaire-nomme-toutatis_6703874_3234.html"
       },
       {
         "source": "Le Monde Eco",
@@ -157,52 +80,24 @@
       },
       {
         "source": "Challenges",
+        "heure": "08h30",
+        "titre": "« Une banque privée d’investissement » : Bpifrance prise à partie dans le cinglant rapport parlementaire sur les fonds spéculatifs",
+        "resume": "Un rapport parlementaire publié lundi reproche à Bpifrance de contribuer aux pratiques « prédatrices » des fonds spéculatifs pour l’économie française. Le président de la Banque publique d’investissement, Nicolas Dufourcq, s’en était défendu lors de",
+        "url": "https://www.challenges.fr/entreprise/une-banque-privee-dinvestissement-bpifrance-prise-a-partie-dans-le-cinglant-rapport-parlementaire-sur-les-fonds-speculatifs_644259"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "22h17",
+        "titre": "Renault franchit un cap dans ses ambitions pour le secteur de la défense avec un projet de drone explosif",
+        "resume": "Le constructeur automobile a annoncé, mardi, un accord avec Thales pour commencer à produire en France, à partir de 2027, une munition téléopérée. Il s’agit du troisième partenariat de Renault dans la défense.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/16/renault-franchit-un-cap-dans-ses-ambitions-pour-le-secteur-de-la-defense_6703908_3234.html"
+      },
+      {
+        "source": "Challenges",
         "heure": "08h00",
         "titre": "Drones, IA militaire, spatial… ces start-up françaises de défense qui passent à l’offensive",
         "resume": "Intelligence artificielle, drones, capteurs… Dans le sillage d’Harmattan AI et d’Alta Ares, les jeunes pousses de l’armement rivalisent d’innovation. Et les grands groupes jouent le jeu.",
         "url": "https://www.challenges.fr/entreprise/defense/drones-ia-militaire-spatial-ces-start-up-francaises-de-defense-qui-passent-a-loffensive_644192"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Châssis allemand, tourelle française, « robots ailiers » : KNDS dévoile son possible successeur du char Leclerc",
-        "resume": "Le groupe franco-allemand KNDS a présenté sa proposition de successeur au char Leclerc. L’engin intègre un châssis de Leopard 2A8 allemand, un canon français Ascalon de 120 mm, et sera accompagné de deux robots terrestres.",
-        "url": "https://www.challenges.fr/entreprise/defense/chassis-allemand-tourelle-francaise-robots-ailiers-knds-devoile-son-possible-successeur-du-char-leclerc_644206"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "« Nous permettons aux Français de participer à l’effort de guerre » : Nicolas Dufourcq, directeur général de Bpifrance",
-        "resume": "Bpifrance a déployé 1,2 milliard d’euros auprès des sociétés du secteur de la défense en 2025, selon son directeur général, Nicolas Dufourcq. Notamment auprès de centaines de PME.",
-        "url": "https://www.challenges.fr/argent-et-placements/nous-permettons-aux-francais-de-participer-a-leffort-de-guerre-nicolas-dufourcq-directeur-general-de-bpifrance_644109"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "10h30",
-        "titre": "Chance lance un programme d'insertion professionnelle pour les étudiants face à l'IA",
-        "resume": "Baptisé « First Chance », ce programme déployé jusqu'en 2028 vise à aider 100.000 jeunes en Europe et au Moyen-Orient à trouver leur premier travail dans des filières particulièrement touchées par l'intelligence artificielle.",
-        "url": "https://www.lesechos.fr/pme-regions/innovateurs/chance-lance-un-programme-dinsertion-professionnelle-pour-les-etudiants-face-a-lia-2237068"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h30",
-        "titre": "Adoption de l'IA : les PME face aux résistances internes",
-        "resume": "L'IA s'impose dans les PME, avec des applications variées, de la logistique à la détection de fraudes. Mais pour réussir cette transition, les dirigeants doivent rassurer leurs équipes et valoriser leurs compétences, un défi crucial pour éviter les r",
-        "url": "https://www.lesechos.fr/thema/articles/adoption-de-lia-les-pme-face-aux-resistances-internes-2237042"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "13h11",
-        "titre": "Un virage à 180 degrés : l'Etat rompt avec l'américain Palantir et choisit le français ChapsVision pour la DGSI",
-        "resume": "Après dix ans de collaboration entre l'entreprise américaine et les renseignements intérieurs, l'Etat français a choisi de tourner la page dans un contexte de relations tendues avec les sociétés américaines de la tech.",
-        "url": "https://www.lesechos.fr/tech-medias/hightech/un-virage-a-180-degres-letat-rompt-avec-lamericain-palantir-et-choisit-le-francais-chapsvision-pour-la-dgsi-2237148"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "14h32",
-        "titre": "«Nous ne souhaitons pas vendre, mais nous inscrire dans le long terme» : Pierre Fabre désigne un président pour son conseil d’administration",
-        "resume": "PORTRAIT - Hervé Hoppenot dispose de plus de quarante ans d’expérience dans la santé, entre la France et les États-Unis et concourra dorénavant à développer outre-Atlantique le groupe né à Castres, dans le Tarn.",
-        "url": "https://www.lefigaro.fr/decideurs/nous-ne-souhaitons-pas-vendre-mais-nous-inscrire-dans-le-long-terme-pierre-fabre-designe-un-president-pour-son-conseil-d-administration-20260615"
       }
     ]
   },
@@ -210,38 +105,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "13h00",
-        "titre": "« En rachetant Roku, l’empire américain de médias Fox vise à rattraper son retard en matière de streaming »",
-        "resume": "Le groupe de la famille Murdoch a annoncé, lundi, qu’il allait acquérir, pour 22 milliards de dollars, le fabricant de boîtiers de téléviseurs, présent dans 100 millions de foyers américains, relève Isabelle Chaperon, chroniqueuse au service Economie",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/16/en-rachetant-roku-l-empire-americain-de-medias-fox-vise-a-rattraper-son-retard-en-matiere-de-streaming_6703514_3234.html"
+        "heure": "15h27",
+        "titre": "SpaceX rachète Cursor, éditeur de logiciel de code assisté par IA valorisé à 60 milliards de dollars",
+        "resume": "Le rachat annoncé de la société survient alors qu’une course est engagée dans la Silicon Valley pour capter les développeurs professionnels, devenus le principal moteur de croissance de l’industrie de l’IA.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/16/spacex-rachete-cursor-editeur-de-logiciel-de-code-assiste-par-ia-valorise-a-60-milliards-de-dollars_6703540_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "11h00",
-        "titre": "Des parlementaires préconisent un « encadrement strict » des « fonds vautours » qui agissent « en toute impunité au détriment de la pérennité des entreprises »",
-        "resume": "Les députés Aurélie Trouvé (La France insoumise) et Emmanuel Mandon (Les Démocrates) ont publié, lundi, le rapport de leur commission d’enquête parlementaire sur le rôle des fonds d’investissement spéculatifs dans les défaillances des entreprises.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/16/une-commission-d-enquete-parlementaire-preconise-un-encadrement-strict-des-fonds-vautours-pour-qu-ils-ne-puissent-plus-agir-en-toute-impunite-au-detriment-de-la-perennite-des-entreprises_6703501_3234.html"
+        "heure": "19h42",
+        "titre": "Le BHV Marais change de nouveau de propriétaire, moins de trois ans après avoir été racheté par Frédéric Merlin",
+        "resume": "SGM, la société de Frédéric Merlin, cède l’exploitation du grand magasin parisien à ses dirigeants. Ces derniers veulent le recentrer sur le bricolage et la maison, en rompant avec la marque d’ultra-fast-fashion chinoise Shein.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/16/le-bhv-marais-change-a-nouveau-de-proprietaire-moins-de-trois-ans-apres-avoir-ete-rachete-par-frederic-merlin_6703883_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "14h48",
+        "titre": "Le BHV Marais, à Paris, va interrompre son partenariat avec Shein à l’occasion d’un changement de propriétaire",
+        "resume": "Frédéric Merlin a décidé de céder le fonds de commerce à une nouvelle structure, fondée par des cadres actuels de l’établissement. Cette annonce concerne aussi le BHV Parly 2 dans les Yvelines, mais pas les sept BHV de province (ex-Galeries Lafayette",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/16/le-bhv-marais-a-paris-va-rompre-avec-shein-a-l-occasion-d-un-changement-de-proprietaire_6703534_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "14h36",
+        "titre": "La fermeture de Shein au BHV suffira-t-elle à Karl-Stéphane Cottendin pour incarner la rupture après l’ère Frédéric Merlin ?",
+        "resume": "Le directeur général du BHV Marais, Karl-Stéphane Cottendin, va en prendre le contrôle avec l’ensemble du management, fermer la boutique Shein et se recentrer sur la maison. L’ancien bras droit de Frédéric Merlin va devoir s’émanciper de cette figur",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/la-fermeture-de-shein-au-bhv-suffira-t-elle-a-karl-stephane-cottendin-pour-incarner-la-rupture-apres-lere-frederic-merlin_644231"
       },
       {
         "source": "Les Echos",
-        "heure": "13h48",
-        "titre": "« C'est le Far West » : la commission d'enquête sur la « prédation » des entreprises françaises mène la charge contre les fonds d'investissement",
-        "resume": "Une commission d'enquête piloté par la députée LFI Aurélie Trouvé dénonce les pratiques des rachats avec effet de levier et celles des fonds de retournement. À un an de la présidentielle, ce sujet s'impose comme un enjeu politique majeur, au risque d",
-        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/cest-le-far-west-la-commission-denquete-sur-la-predation-des-entreprises-francaises-mene-la-charge-contre-les-fonds-dinvestissement-2236907"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h24",
-        "titre": "Investissements à haut rendement : pourquoi les Français hésitent",
-        "resume": "Une enquête OpinionWay pour Les Echos Patrimoine et Le Conservateur révèle que malgré des produits de taux souvent peu rémunérateurs et une inflation persistante, les Français hésitent à investir dans des produits à haut rendement. La peur de perdre ",
-        "url": "https://www.lesechos.fr/patrimoine/placement/investissements-a-haut-rendement-pourquoi-les-francais-hesitent-2236843"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "13h11",
-        "titre": "Un virage à 180 degrés : l'Etat rompt avec l'américain Palantir et choisit le français ChapsVision pour la DGSI",
-        "resume": "Après dix ans de collaboration entre l'entreprise américaine et les renseignements intérieurs, l'Etat français a choisi de tourner la page dans un contexte de relations tendues avec les sociétés américaines de la tech.",
-        "url": "https://www.lesechos.fr/tech-medias/hightech/un-virage-a-180-degres-letat-rompt-avec-lamericain-palantir-et-choisit-le-francais-chapsvision-pour-la-dgsi-2237148"
+        "heure": "19h33",
+        "titre": "Travaux publics : Clarac Espaces Verts dans le giron de NGE",
+        "resume": "Le groupe de travaux publics consolide son activité paysagère en reprenant la PME de l'Ariège. Il vient aussi d'inaugurer la nouvelle direction régionale Multimétiers de Midi-Pyrénées.",
+        "url": "https://www.lesechos.fr/pme-regions/occitanie/travaux-publics-clarac-espaces-verts-dans-le-giron-de-nge-2237256"
       }
     ]
   },
@@ -249,52 +144,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "08h30",
-        "titre": "Face à l’incertitude dans le détroit d’Ormuz, le Golfe investit dans des routes terrestres de contournement",
-        "resume": "La guerre au Moyen-Orient a donné un coup d’accélérateur au développement du transport de marchandises multimodal, associant port, rail et route. Cela s’est traduit par un bond du trafic de camions.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/16/face-a-l-incertitude-dans-le-detroit-d-ormuz-le-golfe-investit-dans-des-routes-terrestres-de-contournement_6703487_3234.html"
+        "heure": "13h15",
+        "titre": "« Au Japon, le gouvernement nationaliste espère stimuler la croissance par les dépenses. Un loyer de l’argent plus coûteux vient contrarier ses plans »",
+        "resume": "Dernière banque centrale à pratiquer des taux très bas, la Banque du Japon a augmenté d’un quart de point ses taux directeurs, mardi, pour les porter à 1 %, un niveau pas atteint depuis 1995. Ce qui risque de refroidir les agents économiques et, surt",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/17/au-japon-le-gouvernement-nationaliste-espere-stimuler-la-croissance-par-les-depenses-un-loyer-de-l-argent-plus-couteux-vient-contrarier-ses-plans_6704193_3234.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "07h07",
-        "titre": "Pourquoi l’inflation mettra du temps à refluer, malgré une réouverture, même rapide, du détroit d’Ormuz",
-        "resume": "Le retour à la normale sera nécessairement lent et les perturbations sur les chaînes d’approvisionnement vont continuer à peser sur l’économie mondiale. En Europe, la croissance devrait diminuer de 0,4 point, en 2026, à 0,8 %.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/16/pourquoi-l-inflation-mettra-du-temps-a-refluer-malgre-une-reouverture-meme-rapide-du-detroit-d-ormuz_6703466_3234.html"
+        "source": "Le Figaro",
+        "heure": "10h24",
+        "titre": "Royaume-Uni: le taux d'inflation se maintient à 2,8% sur un an en mai",
+        "resume": "Le taux d'inflation au Royaume-Uni s'est maintenu à 2,8% sur un an en mai, après avoir nettement baissé le mois précédent, contre les attentes des...",
+        "url": "https://www.lefigaro.fr/flash-eco/royaume-uni-le-taux-d-inflation-se-maintient-a-2-8-sur-un-an-en-mai-20260617"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "21h03",
-        "titre": "Pétrole : après plus de trois mois d’une crise inédite, le retour à la normale s’annonce laborieux",
-        "resume": "La perspective d’un accord entre les Etats-Unis et l’Iran soulage les opérateurs, alors que les stocks mondiaux ont fortement diminué.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/15/petrole-apres-plus-de-trois-mois-d-une-crise-inedite-le-retour-a-la-normale-s-annonce-laborieux_6703244_3234.html"
+        "source": "Le Figaro",
+        "heure": "19h27",
+        "titre": "Tensions dans le Golfe : la Banque du Japon relève ses taux d’intérêt à un niveau inédit depuis 30 ans",
+        "resume": "Le taux directeur a été rehaussé à 1 %, un seuil pas atteint depuis 1995, visant à endiguer l’affaiblissement du yen et l’inflation nourrie par la guerre au Moyen-Orient.",
+        "url": "https://www.lefigaro.fr/conjoncture/tensions-dans-le-golfe-la-banque-du-japon-releve-ses-taux-d-interet-a-un-niveau-inedit-depuis-30-ans-20260616"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "20h00",
-        "titre": "Stabiliser la dette de la France en 2029 ? Des économistes estiment peu probable d’y parvenir",
-        "resume": "Il existe plus d’une chance sur deux que l’objectif central de stopper la hausse de l’endettement public en 2029 ne soit pas atteint, évaluent quatre chercheurs, dans une étude publiée lundi, rejoignant l’avis de nombreux experts.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/15/stabiliser-la-dette-de-la-france-en-2029-des-economistes-estiment-peu-probable-d-y-parvenir_6703235_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h45",
-        "titre": "Au Royaume-Uni, les hard-discounters prospèrent sur la crise du pouvoir d’achat",
-        "resume": "Les chaînes de supermarché à bas prix allemandes Lidl et Aldi sont de plus en plus prisées par les consommateurs britanniques. Lidl compte désormais 1 000 magasins dans le pays et vient de dépasser son concurrent Morrisons.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/15/au-royaume-uni-les-hard-discounters-prosperent-sur-la-crise-du-pouvoir-d-achat_6703138_3234.html"
+        "source": "Challenges",
+        "heure": "18h50",
+        "titre": "Vagues de chaleur et canicules à répétition : comment l’UE se prépare à affronter la saison des feux de forêts",
+        "resume": "Alors que la France et une partie de l’Europe s’apprêtent à subir une nouvelle vague de chaleur, l’Union européenne se met en ordre de marche pour aider les Etats à affronter les feux de forêts cet été.",
+        "url": "https://www.challenges.fr/entreprise/green-economie/vagues-de-chaleur-et-canicules-a-repetition-comment-lue-se-prepare-a-affronter-la-saison-des-feux-de-forets_644260"
       },
       {
         "source": "Les Echos",
-        "heure": "08h00",
-        "titre": "Emploi : les prévisions de recrutement au plus bas depuis cinq ans",
-        "resume": "Selon le baromètre trimestriel de Manpower qui sera présenté mercredi à Vivatech, les perspectives d'embauches vont dans les mois à venir être au plus bas depuis 2021. En cause, le conflit au Moyen-Orient qui a poussé les entreprises à la prudence.",
-        "url": "https://www.lesechos.fr/industrie-services/services-conseils/emploi-les-previsions-de-recrutement-au-plus-bas-depuis-cinq-ans-2237036"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "20h10",
-        "titre": "« Anthropic killswitch » : « Cinquante ans après le choc pétrolier, le choc de l'IA »",
-        "resume": "La coupure par les Etats-Unis de l'accès au modèle d'IA le plus avancé d'Anthropic provoque un choc invisible dont il ne faut surtout pas que l'Europe sous-estime les implications. Explications par Philippe Corrot, le cofondateur de Mirakl.",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/anthropic-killswitch-cinquante-ans-apres-le-choc-petrolier-le-choc-de-lia-2237011"
+        "heure": "12h25",
+        "titre": "50 degrés en ville, taux de fécondité en chute libre, instabilité politique : « La relation entre la France et l'Inde fait face aux défis du siècle »",
+        "resume": "À l'heure où le Premier ministre Narendra Modi effectue sa 7e visite à Paris et signe un contrat Rafale historique, Jean-Joseph Boillot, conseiller à l'Iris, alerte : les défis climatiques, démographiques et politiques qui s'accumulent sur le sous-co",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/50-degres-en-ville-taux-de-fecondite-en-chute-libre-instabilite-politique-la-relation-entre-la-france-et-linde-fait-face-aux-defis-du-siecle-2237545"
       }
     ]
   },
@@ -302,161 +183,77 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "12h56",
-        "titre": "Donald Trump menace la France de droits de douane de 100 % sur le vin si Paris ne supprime pas sa taxe sur les services numériques",
-        "resume": "Le président français doit recevoir son homologue américain lundi, avant l’ouverture du sommet du G7 à Evian.",
-        "url": "https://www.lemonde.fr/international/article/2026/06/15/donald-trump-menace-la-france-de-droits-de-douane-de-100-sur-le-vin-si-paris-ne-supprime-pas-sa-taxe-sur-les-services-numeriques_6703176_3210.html"
+        "heure": "09h21",
+        "titre": "Immigration : au Parlement européen, le règlement « Retour » divise le bloc central et l’extrême droite",
+        "resume": "Alors qu’Horizons soutiendra le texte, les élus MoDem et Renaissance devraient en majorité voter contre le règlement, mercredi 17 juin. Ce, en raison de son durcissement après un accord orchestré par François-Xavier Bellamy (LR), expliquant aussi le",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/17/immigration-au-parlement-europeen-le-reglement-retour-divise-le-bloc-central-et-l-extreme-droite_6704168_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "13h26",
-        "titre": "EN DIRECT, G7 à Evian : Donald Trump et Volodymyr Zelensky ont participé à une réunion sur « la sécurité pour l’Ukraine et l’Europe »",
-        "resume": "Le président ukrainien rencontrera le président américain dans la foulée. La question du Moyen-Orient et de l’accord trouvé entre l’Iran et les Etats-Unis sera au cœur des discussions.",
-        "url": "https://www.lemonde.fr/international/live/2026/06/16/en-direct-g7-a-evian-une-premiere-reunion-sur-la-securite-pour-l-ukraine-et-l-europe-en-presence-notamment-de-donald-trump-et-volodymyr-zelensky-a-eu-lieu_6703187_3210.html"
+        "heure": "20h36",
+        "titre": "Le Parlement entérine l’allongement de la durée de rétention pour les étrangers en situation irrégulière et jugés dangereux",
+        "resume": "Cette proposition de loi, soutenue par le gouvernement, a été adoptée par 345 voix contre 177, lors d’un ultime vote à l’Assemblée nationale, mardi. La gauche a dénoncé un texte « aussi inefficace que dangereux », adopté avec les voix de l’extrême dr",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/16/le-parlement-enterine-l-allongement-de-la-duree-de-retention-pour-les-etrangers-en-situation-irreguliere-et-juges-dangereux_6703900_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "23h35",
-        "titre": "G7 à Evian : premier échange entre Donald Trump et Emmanuel Macron",
-        "resume": "Après avoir atterri à Genève, Donald Trump est arrivé à Evian, de l’autre côté du lac Léman, en hélicoptère. Il a été accueilli à l’hôtel Royal, où se tient le sommet, par le directeur du protocole français, et non pas par Emmanuel Macron comme le pr",
-        "url": "https://www.lemonde.fr/international/video/2026/06/15/g7-a-evian-premier-echange-entre-donald-trump-et-emmanuel-macron_6703260_3210.html"
+        "heure": "17h30",
+        "titre": "Gabriel Melaïmi, seul maire ciottiste des Hauts-de-France et figure montante de l’UDR",
+        "resume": "Elu largement à Crépy-en-Valois lors des municipales de mars, le nouvel édile vient d’être nommé référent départemental de l’Union des droites pour la République, avec pour mission de structurer et développer le parti, allié du RN, en vue des échéanc",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/16/gabriel-melaimi-seul-maire-ciottiste-des-hauts-de-france-et-figure-montante-de-l-udr_6703608_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h54",
-        "titre": "Douze stands israéliens fermés au salon de la défense Eurosatory",
-        "resume": "Le gouvernement français a, en effet, interdit la présentation d’armes israéliennes dites offensives et restreint la participation des exposants israéliens « aux seuls matériels et produits participant exclusivement aux capacités de défense anti-aéri",
-        "url": "https://www.lemonde.fr/international/video/2026/06/15/douze-stands-israeliens-fermes-au-salon-de-la-defense-eurosatory_6703258_3210.html"
+        "heure": "16h38",
+        "titre": "Gilles Simeoni : « Si l’autonomie est rejetée, ce serait un déni démocratique de la société corse »",
+        "resume": "Le projet de loi constitutionnelle « pour une Corse autonome au sein de la République » doit être discuté en séance publique à l’Assemblée nationale, à partir de mardi 16 juin. Une étape majeure pour Gilles Simeoni, l’homme fort de l’île qui a consac",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/16/gilles-simeoni-si-l-autonomie-est-rejetee-ce-serait-un-deni-democratique-de-la-societe-corse_6703552_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h34",
-        "titre": "G7 à Evian : l’activisme diplomatique d’Emmanuel Macron à l’épreuve des fragilités sur le plan national",
-        "resume": "Le chef de l’Etat, qui préside le sommet en Haute-Savoie, mise tout sur son agenda international pour regagner une légitimité alors qu’il est englué dans une fin de mandat complexe et fait face à une France abasourdie par le meurtre de Lyhanna.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/15/g7-a-evian-l-activisme-diplomatique-d-emmanuel-macron-a-l-epreuve-des-fragilites-sur-le-plan-interieur_6703256_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "13h00",
-        "titre": "En Corse, le virage du RN en faveur d’une autonomie encadrée après son alliance avec les identitaires",
-        "resume": "L’extrême droite confirme l’inflexion de son programme jacobin et ouvre la voie à une forme d’autonomie et à un statut particulier pour les citoyens corses, sans reconnaître la notion de communauté.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/15/corse-le-virage-du-rn-en-faveur-d-une-autonomie-encadree-apres-son-alliance-avec-les-identitaires_6703177_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Autonomie de la Corse : le projet de réforme constitutionnelle arrive à l’Assemblée nationale",
-        "resume": "Première étape d’un parcours législatif qui s’annonce incertain, le projet de loi constitutionnelle « pour une Corse autonome au sein de la République » doit être discuté en séance publique à l’Assemblée nationale, à partir du mardi 16 juin.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/15/autonomie-de-la-corse-le-projet-de-reforme-constitutionnelle-arrive-a-l-assemblee-nationale_6703131_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h45",
-        "titre": "Au Royaume-Uni, les idées les plus radicales de l’extrême droite ne choquent plus",
-        "resume": "L’attaque d’un homme blanc par un réfugié à Belfast a libéré un discours de haine anti immigré, désormais partagé par tous les leaders conservateurs, même les plus modérés.",
-        "url": "https://www.challenges.fr/monde/au-royaume-uni-les-idees-les-plus-radicales-de-lextreme-droite-ne-choquent-plus_644145"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h30",
-        "titre": "Présidentielle 2027 : Raphaël Glucksmann a-t-il vraiment l’étoffe d’un chef d’Etat ?",
-        "resume": "Raphaël Glucksmann a affiché sa détermination à être candidat à la présidentielle, samedi 13 juin, lors de son premier meeting à Aubervilliers, près de Paris. Un succès auprès des militants, notamment socialistes, à la recherche d’une boussole. Bien",
-        "url": "https://www.challenges.fr/politique/presidentielle-2027-raphael-glucksmann-a-t-il-vraiment-letoffe-dun-chef-detat_644191"
-      },
-      {
-        "source": "Challenges",
-        "heure": "17h00",
-        "titre": "L’accord Trump-Iran fragilise Netanyahou : pourquoi le Premier ministre israélien joue désormais sa survie politique",
-        "resume": "Déstabilisé par l’accord entre les Etats-Unis et l’Iran, le Premier ministre israélien n’a plus que quelques mois avant les législatives pour convaincre que les sacrifices consentis depuis octobre 2023 ont permis de sécuriser le pays.",
-        "url": "https://www.challenges.fr/monde/laccord-trump-iran-fragilise-netanyahou-pourquoi-le-premier-ministre-israelien-joue-desormais-sa-survie-politique_644195"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h35",
-        "titre": "Pourquoi l’accord de paix annoncé entre l’Iran et les Etats-Unis révèle l’échec stratégique de Donald Trump",
-        "resume": "Présenté par Donald Trump comme une victoire diplomatique, l’accord de paix conclu avec Téhéran ressemble surtout à une sortie de crise précipitée. En rétablissant à peine la situation d’avant-guerre, il met en lumière les limites de l’intervention",
-        "url": "https://www.challenges.fr/monde/pourquoi-laccord-de-paix-annonce-entre-liran-et-les-etats-unis-revele-lechec-strategique-de-donald-trump_644187"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h54",
-        "titre": "Trump dévoile les détails de son accord avec l’Iran : détroit d’Ormuz, uranium, sanctions… Voici ce qu’il contient",
-        "resume": "Dans un entretien dimanche au New York Times, le président américain est revenu sur l’accord conclu entre les Etats-Unis et l’Iran pour mettre fin aux hostilités au Moyen-Orient. Donald Trump a notamment assuré qu’il permettrait à terme que le détro",
-        "url": "https://www.challenges.fr/monde/trump-devoile-les-details-de-son-accord-avec-liran-detroit-dormuz-uranium-sanctions-voici-ce-quil-contient_644184"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h45",
-        "titre": "Face au réarmement allemand, la France découvre qu’elle pourrait perdre son statut de première puissance militaire en Europe",
-        "resume": "Le réarmement massif engagé par Berlin bouleverse un équilibre historique. Si Paris se félicite officiellement du renforcement de la défense européenne, la perspective de voir l’Allemagne devenir la première puissance militaire du continent suscite,",
-        "url": "https://www.challenges.fr/monde/face-au-rearmement-allemand-la-france-decouvre-quelle-pourrait-perdre-son-statut-de-premiere-puissance-militaire-en-europe_644129"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "18h55",
-        "titre": "«Des marches blanches, il y en a tous les jours» : Bardella répond aux critiques sur son absence à l’hommage à Lyhanna",
-        "resume": "Le président du Rassemblement national assistait au Grand Prix de Monaco au moment où se tenait, l’hommage à la fillette de 11 ans, dont la mort a bouleversé le pays.",
-        "url": "https://www.lefigaro.fr/politique/des-marches-blanches-il-y-en-a-tous-les-jours-bardella-repond-aux-critiques-sur-son-absence-a-l-hommage-a-lyhanna-20260615"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "13h34",
-        "titre": "Coupe du monde 2026 : les Bleus ont «la liberté de ne pas s'exprimer» sur le cas de Christophe Gleizes",
-        "resume": "Le président de la Fédération française de football, Philippe Diallo, a estimé que les joueurs de l’équipe de France n’ont aucune obligation de soutenir le journaliste français emprisonné en Algérie.",
-        "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-les-bleus-ont-la-liberte-de-ne-pas-s-exprimer-sur-le-cas-de-christophe-gleizes-20260616"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "10h43",
-        "titre": "Le Parlement européen va donner son ultime feu vert à l'accord commercial conclu l’an dernier avec Donald Trump",
-        "resume": "Le Parlement européen devrait approuver définitivement ce mardi 16 juin l'accord commercial conclu l'an dernier entre l'UE et Donald Trump, malgré les...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-parlement-europeen-va-donner-son-ultime-feu-vert-a-l-accord-commercial-conclu-l-an-dernier-avec-donald-trump-20260616"
+        "heure": "15h00",
+        "titre": "Présidentielle 2027 : Les Ecologistes écartelés sur leur stratégie, au risque de devenir inaudibles",
+        "resume": "A moins d’un an de l’élection, la stratégie du « trait d’union » de la gauche, impulsée par Marine Tondelier depuis 2024, place le parti Vert au second plan par rapport aux autres forces en présence.",
+        "url": "https://www.lemonde.fr/idees/article/2026/06/16/presidentielle-2027-les-ecologistes-ecarteles-sur-leur-strategie-au-risque-de-devenir-inaudibles_6703537_3232.html"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "A la Fed, premier dilemme pour Kevin Warsh : baisser les taux pour contenter Donald Trump, ou les relever pour tenter de contenir l’inflation",
-        "resume": "Le nouveau président de la banque centrale américaine est confronté à l’accélération de la hausse des prix liée au conflit au Moyen-Orient, alors que le président l’a choisi en espérant qu’il baisserait les taux d’intérêt.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/16/a-la-fed-premier-dilemme-pour-kevin-warsh-baisser-les-taux-pour-contenter-donald-trump-ou-les-relever-pour-tenter-de-contenir-l-inflation_6703477_3234.html"
+        "source": "Le Figaro",
+        "heure": "22h00",
+        "titre": "Taux d’emprunts, recettes, dépenses… L’onde de choc de la crise au Moyen-Orient percute les finances publiques de la France",
+        "resume": "DÉCRYPTAGE - Le blocage du détroit d’Ormuz porte un nouveau coup dur à des finances publiques déjà dans le rouge.",
+        "url": "https://www.lefigaro.fr/conjoncture/taux-d-emprunts-recettes-depenses-l-onde-de-choc-de-la-crise-au-moyen-orient-percute-les-finances-publiques-de-la-france-20260616"
       },
       {
         "source": "Le Monde Eco",
         "heure": "08h00",
-        "titre": "Bourse : ces produits financiers qui promettent de résister aux baisses des marchés",
-        "resume": "Un épargnant qui ne souhaite pas avoir les yeux rivés sur les cours de la Bourse et ses variations peut se positionner sur certains fonds, moins connus.",
-        "url": "https://www.lemonde.fr/argent/article/2026/06/16/bourse-ces-produits-financiers-qui-promettent-de-resister-aux-hausses-et-aux-baisses-des-marches_6703474_1657007.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "20h00",
-        "titre": "Stabiliser la dette de la France en 2029 ? Des économistes estiment peu probable d’y parvenir",
-        "resume": "Il existe plus d’une chance sur deux que l’objectif central de stopper la hausse de l’endettement public en 2029 ne soit pas atteint, évaluent quatre chercheurs, dans une étude publiée lundi, rejoignant l’avis de nombreux experts.",
-        "url": "https://www.lemonde.fr/politique/article/2026/06/15/stabiliser-la-dette-de-la-france-en-2029-des-economistes-estiment-peu-probable-d-y-parvenir_6703235_823448.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "19h24",
-        "titre": "Dans la finance, Paris dépasse Francfort sans rattraper Londres",
-        "resume": "Les investissements étrangers dans les services financiers en Europe ont bondi de 21 % en 2025, atteignant leur plus haut niveau depuis 2019, selon EY. Paris s'impose comme le premier centre financier de l'UE.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/dans-la-finance-paris-depasse-francfort-sans-rattraper-londres-2236985"
+        "titre": "Crédit étudiant : malgré la hausse des taux, les conditions restent attractives",
+        "resume": "Emprunter à moins de 1 %, c’est encore possible ! Certains établissements proposent même des prêts étudiants à 0 %.",
+        "url": "https://www.lemonde.fr/argent/article/2026/06/17/credit-etudiant-malgre-la-hausse-des-taux-les-conditions-restent-attractives_6704158_1657007.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "07h33",
-        "titre": "La Banque du Japon relève le taux directeur à 1%, le plus haut depuis 1995",
-        "resume": "Cette décision intervient à la suite de récents resserrements monétaires de la Banque centrale européenne (BCE) et de la Banque d’Indonésie.",
-        "url": "https://www.lefigaro.fr/conjoncture/la-banque-du-japon-releve-le-taux-directeur-a-1-le-plus-haut-depuis-1995-20260616"
+        "heure": "19h27",
+        "titre": "Tensions dans le Golfe : la Banque du Japon relève ses taux d’intérêt à un niveau inédit depuis 30 ans",
+        "resume": "Le taux directeur a été rehaussé à 1 %, un seuil pas atteint depuis 1995, visant à endiguer l’affaiblissement du yen et l’inflation nourrie par la guerre au Moyen-Orient.",
+        "url": "https://www.lefigaro.fr/conjoncture/tensions-dans-le-golfe-la-banque-du-japon-releve-ses-taux-d-interet-a-un-niveau-inedit-depuis-30-ans-20260616"
       },
       {
         "source": "Le Figaro",
-        "heure": "22h26",
-        "titre": "Le dollar recule avec l'annonce d'un accord entre Washington et Téhéran",
-        "resume": "Le dollar se repliait lundi, en même temps que les prix du pétrole, après l'annonce d'un accord entre Washington et Téhéran pour mettre fin à la...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-recule-avec-l-annonce-d-un-accord-entre-washington-et-teheran-20260615"
+        "heure": "19h57",
+        "titre": "Kevin Warsh fait ses premiers pas à la Fed sur fond d’accord au Moyen-Orient",
+        "resume": "DÉCRYPTAGE - L’inflation atteint un point haut depuis trois ans aux États-Unis. La politique monétaire suscite de vastes débats.",
+        "url": "https://www.lefigaro.fr/economie/kevin-warsh-fait-ses-premiers-pas-a-la-fed-sur-fond-d-accord-au-moyen-orient-20260616"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "05h50",
+        "titre": "Droits voisins : le Sénat renforce le cadre permettant la rémunération de la presse par les plateformes numériques",
+        "resume": "Ces droits permettent aux journaux, magazines ou agences de presse de se faire payer lorsque leurs contenus sont utilisés par les géants du numérique qui captent la majorité des recettes publicitaires. Le vote du Sénat, qui succède à celui de l’Assem",
+        "url": "https://www.lemonde.fr/pixels/article/2026/06/17/droits-voisins-le-senat-renforce-le-cadre-de-remuneration-de-la-presse-par-les-plateformes-numeriques_6704050_4408996.html"
       }
     ],
     "courbe": [
@@ -505,40 +302,335 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,3 billions $",
-      "contexte": "Les investissements mondiaux en intelligence artificielle ont dépassé les 2,3 billions de dollars au premier semestre 2026, soit une augmentation de 47% comparée à la même période en 2025. Cette accélération reflète la course effrénée des géants technologiques pour dominer le secteur de l'IA générative.",
-      "source": "Global Tech Investment Report, juin 2026"
+      "chiffre": "2,3 billions USD",
+      "contexte": "Les investissements mondiaux en intelligence artificielle ont atteint 2,3 milliards USD au premier trimestre 2026, marquant une croissance de 47% par rapport à la même période en 2025. Cette accélération reflète la consolidation des technologies IA dans tous les secteurs financiers.",
+      "source": "CB Insights - Juin 2026"
     },
     "ephemeride": {
-      "date": "16 juin 2026",
-      "evenement": "Le Bitcoin franchit les 92 000$ pour la première fois de son histoire, alimenté par l'approbation des premiers fonds de pension américains pour les allocations crypto",
-      "impact": "Cet événement marque l'intégration définitive des cryptomonnaies dans les portefeuilles institutionnels et réduit considérablement la volatilité du marché crypto."
+      "evenement": "Le 17 juin 1992, les marchés des changes enregistraient le plus grand volume de transactions du day-trading, marquant le début de l'ère du trading électronique haute fréquence.",
+      "impact": "Cet événement a transformé la microstructure des marchés et accéléré la dématérialisation des échanges financiers mondiaux."
     },
     "graphique_semaine": {
-      "titre": "Hausse des taux directeurs des banques centrales (juin 2026)",
-      "description": "Face à une inflation résurgente de 4,2% dans la zone OCDE, les banques centrales maintiennent une position ferme. La BCE et la Fed conservent leurs taux respectifs pour contrer les pressions inflationnistes liées aux tensions géopolitiques et aux chaînes d'approvisionnement perturbées. Cette stabilité rassure les marchés obligataires.",
+      "titre": "Évolution des taux d'intérêt directeurs des grandes banques centrales (juin 2026)",
+      "description": "La semaine du 17 juin 2026 a connu une stabilisation des taux directeurs malgré les tensions inflationnistes résiduelles. La Banque centrale européenne maintient son taux à 3,5%, la Réserve fédérale américaine à 5,25%, tandis que la Banque d'Angleterre amorce une baisse prudente à 4,75%.",
       "donnees": [
         {
-          "label": "BCE",
-          "valeur": 3.75
+          "label": "Lundi 14 juin",
+          "valeur": 5.25
         },
         {
-          "label": "Fed",
-          "valeur": 4.5
+          "label": "Mardi 15 juin",
+          "valeur": 5.25
         },
         {
-          "label": "BoE",
-          "valeur": 4.25
+          "label": "Mercredi 16 juin",
+          "valeur": 5.23
         },
         {
-          "label": "SNB",
-          "valeur": 1.5
+          "label": "Jeudi 17 juin",
+          "valeur": 5.2
         },
         {
-          "label": "BOJ",
-          "valeur": 0.5
+          "label": "Vendredi 18 juin",
+          "valeur": 5.2
         }
       ]
     }
+  },
+  "droit": {
+    "articles": [
+      {
+        "source": "Lefigaro",
+        "titre": "«On ne vient pas en touriste» : les ambitions du sélectionneur du Congo Sébastien Desabre avant de défier le Portugal",
+        "url": "https://www.lefigaro.fr/sports/on-ne-vient-pas-en-touriste-les-ambitions-du-selectionneur-du-congo-sebastien-desabre-avant-de-defier-le-portugal-20260617",
+        "resume": "ENTRETIEN - L’entraîneur français s’est confié au Figaro et annonce viser une qualification pour les 16es de finale de la Coupe du monde.",
+        "pub": "2026-06-17T11:15:00+02:00",
+        "heure": "13h15"
+      },
+      {
+        "source": "Europesays",
+        "titre": "Ukraine : la restauration de la cathédrale de la Dormition pourrait prendre deux ans - France",
+        "url": "https://www.europesays.com/fr/1005697/",
+        "resume": "Les travaux de restauration de la cathédrale de la Dormition à Kiev et du célèbre monastère orthodoxe de la Laure des Grottes l’entourant, endommagés lors",
+        "pub": "2026-06-17T09:14:16+00:00",
+        "heure": "11h14"
+      },
+      {
+        "source": "Zonebourse",
+        "titre": "Safran innove dans la défense et fait évoluer son conseil",
+        "url": "https://www.zonebourse.com/actualite-bourse/safran-innove-dans-la-defense-et-fait-evoluer-son-conseil-ce7f5cdcdd8df023",
+        "resume": "Safran a annoncé mercredi la signature d'un protocole d'accord avec le groupe industriel français Hemeria en vue de concevoir des systèmes de renseignement électromagnétique embarqués sur des...",
+        "pub": "2026-06-17T11:13:14+02:00",
+        "heure": "13h13"
+      },
+      {
+        "source": "Ch",
+        "titre": "Safran innove dans la défense et fait évoluer son conseil",
+        "url": "https://ch.zonebourse.com/actualite-bourse/safran-innove-dans-la-defense-et-fait-evoluer-son-conseil-ce7f5cdcdd8df023",
+        "resume": "Safran a annoncé mercredi la signature d'un protocole d'accord avec le groupe industriel français Hemeria en vue de concevoir des systèmes de renseignement électromagnétique embarqués sur des...",
+        "pub": "2026-06-17T11:13:14+02:00",
+        "heure": "13h13"
+      },
+      {
+        "source": "Madame",
+        "titre": "Etnia Barcelona dévoile IBIZA VOL. 6, la nouvelle édition de sa capsule iconique",
+        "url": "https://madame.lefigaro.fr/style/tendances/etnia-barcelona-devoile-ibiza-vol-6-la-nouvelle-edition-de-sa-capsule-iconique-20260617",
+        "resume": "Avec IBIZA VOL. 6, Etnia Barcelona signe une nouvelle interprétation de sa capsule la plus emblématique, hommage vibrant à l’île d’Ibiza, territoire des esprits libres, des artistes et des rêveurs. Cette édition limitée poursuit un travail créatif en",
+        "pub": "2026-06-17T11:13:03+02:00",
+        "heure": "13h13"
+      },
+      {
+        "source": "Europesays",
+        "titre": "Paris : avant un nouvel épisode caniculaire, la mairie ouvre la baignade dans le canal Saint-Martin - France",
+        "url": "https://www.europesays.com/fr/1005693/",
+        "resume": "Avant même l'arrivée de l'été, la France s'apprête à vivre sa deuxième vague de chaleur, quelques semaines seulement après l'épisode du mois de mai qui a",
+        "pub": "2026-06-17T09:12:18+00:00",
+        "heure": "11h12"
+      },
+      {
+        "source": "Europesays",
+        "titre": "Le président du Louvre juge le musée \"à bout de souffle\" et affirme que ses \"infrastructures arrivent en fin de cycle\" - France",
+        "url": "https://www.europesays.com/fr/1005691/",
+        "resume": "Devant une commission du Sénat ce mercredi 17 juin, le président du musée du Louvre, nommé en février dernier, a affirmé que l'institution est \"à bout de",
+        "pub": "2026-06-17T09:11:26+00:00",
+        "heure": "11h11"
+      },
+      {
+        "source": "Onefootball",
+        "titre": "World Cup: Ajer’s Norway begin campaign with emphatic win over Iraq",
+        "url": "https://onefootball.com/fr/news/world-cup-ajers-norway-begin-campaign-with-emphatic-win-over-iraq-43020177",
+        "resume": "Lis cet article sur OneFootball.",
+        "pub": "2026-06-17T09:11:20+00:00",
+        "heure": "11h11"
+      },
+      {
+        "source": "Ch",
+        "titre": "Royaume-Uni :  le régulateur impose des règles de conduite aux services de recherche de Google",
+        "url": "https://ch.zonebourse.com/actualite-bourse/royaume-uni-le-regulateur-impose-des-regles-de-conduite-aux-services-de-recherche-de-google-ce7f5cdcdd8df123",
+        "resume": "L'autorité britannique de la concurrence a établi deux exigences de conduite pour les services de recherche de Google dans le cadre de son régime réglementaire, afin de garantir un « traitement...",
+        "pub": "2026-06-17T11:10:29+02:00",
+        "heure": "13h10"
+      },
+      {
+        "source": "Paris-Normandie",
+        "titre": "Decathlon va verser 2.000 euros en actions gratuites à ses 103 000 salariés dans le monde",
+        "url": "https://www.paris-normandie.fr/id726089/article/2026-06-17/decathlon-va-verser-2000-euros-en-actions-gratuites-ses-103-000-salaries-dans-le",
+        "resume": "L’enseigne dédiée à la vente d’articles de sport va distribuer 2 000 euros à chacun de ses salariés dans le monde sous forme d’actions.",
+        "pub": "2026-06-17T11:10:12+02:00",
+        "heure": "13h10"
+      },
+      {
+        "source": "Ch",
+        "titre": "La banque centrale de Namibie relève son taux directeur à 6,75 %",
+        "url": "https://ch.zonebourse.com/actualite-bourse/la-banque-centrale-de-namibie-releve-son-taux-directeur-a-6-75--ce7f5cdcdd8df025",
+        "resume": "La banque centrale de Namibie a relevé son principal taux directeur de 25 points de base pour le porter à 6,75 %, selon une décision annoncée ce mercredi.\n     -Le 17 juin 2026 à 11:10\n- Zonebourse Suisse",
+        "pub": "2026-06-17T11:10:48+02:00",
+        "heure": "13h10"
+      },
+      {
+        "source": "Europesays",
+        "titre": "L'intelligence artificielle aide les scientifiques à simuler avec précision les collisions d'étoiles à neutrons - Suisse",
+        "url": "https://www.europesays.com/ch-fr/179416/",
+        "resume": "Un nouveau modèle d'intelligence artificielle parvient à reproduire l'échauffement généré par le processus r, accélérant ainsi les simulations de collisions",
+        "pub": "2026-06-17T09:08:20+00:00",
+        "heure": "11h08"
+      },
+      {
+        "source": "Europesays",
+        "titre": "L'AC Milan officialise son nouvel entraîneur, Ruben Amorim - Suisse",
+        "url": "https://www.europesays.com/ch-fr/179414/",
+        "resume": "Liverpool a confirmé jeudi l’arrivée de l’entraîneur Andoni Iraola pour succéder à Arne Slot. Auparavant, l’Espagnol de 43 ans a dirigé Bournemouth durant",
+        "pub": "2026-06-17T09:07:12+00:00",
+        "heure": "11h07"
+      },
+      {
+        "source": "Vietnam",
+        "titre": "Article 3 : Quand des marionnettes étrangères revêtent le manteau des « avocats de la justice »",
+        "url": "https://www.vietnam.vn/fr/bai-3-khi-con-roi-hai-ngoai-khoac-ao-luat-su-vi-cong-ly",
+        "resume": "Nguyen Van Dai, une « victime de la répression transnationale » mentionnée à plusieurs reprises ces derniers jours dans des articles et des vidéos antigouvernementaux sur les réseaux sociaux à l'étranger, est présenté sous les traits d'un « avocat de",
+        "pub": "2026-06-17T09:04:34.455000+00:00",
+        "heure": "11h04"
+      },
+      {
+        "source": "Vietnam",
+        "titre": "La conférence a évalué les causes et mis en œuvre des solutions pour remédier aux lacunes et aux insuffisances de l'accident de la route exceptionnellement grave survenu le 3 mars 2026 au km 33+500 de la route nationale 4B, commune de Na Duong.",
+        "url": "https://www.vietnam.vn/fr/hoi-nghi-danh-gia-nguyen-nhan-trien-khai-cac-giai-phap-khac-phuc-ton-tai-bat-cap-trong-vu-tai-nan-giao-thong-duong-bo-dac-biet-nghiem-trong-xay-ra-ngay-03-3-2026-tai-km33-500-quoc-lo-4b-xa-na-duong",
+        "resume": "L'après-midi du 8 avril 2026, au siège du Comité populaire provincial, le Comité populaire provincial de Lang Son a tenu une conférence pour évaluer les causes et mettre en œuvre des solutions pour remédier aux lacunes et aux insuffisances de l'accid",
+        "pub": "2026-06-17T09:04:34.103000+00:00",
+        "heure": "11h04"
+      },
+      {
+        "source": "Vietnam",
+        "titre": "Pourquoi les gens se laissent-ils séduire par les « contrats de vacances » ? Les différentes visions du monde des personnes âgées respectables, instruites et de haut statut ?",
+        "url": "https://www.vietnam.vn/fr/vi-sao-sap-bay-hop-dong-ky-nghi-the-gioi-quan-khac-biet-cua-nguoi-cao-tuoi-tu-te-co-trinh-do-dia-vi",
+        "resume": "SKĐS - Avant de tomber dans le piège des « contrats de vacances », l'honnêteté et la bienveillance des personnes instruites les ont empêchées d'imaginer la dégradation morale d'une partie de la jeunesse actuelle...",
+        "pub": "2026-06-17T09:04:31.778000+00:00",
+        "heure": "11h04"
+      },
+      {
+        "source": "Vietnam",
+        "titre": "Agissez dès maintenant pour protéger la jeune génération du risque de dépendance à la nicotine lié aux nouveaux produits du tabac.",
+        "url": "https://www.vietnam.vn/fr/hanh-dong-ngay-de-bao-ve-the-he-tre-khoi-nguy-co-nghien-nicotine-tu-thuoc-la-moi",
+        "resume": "Selon la professeure agrégée Tran Thi Tuyet Hanh, maître de conférences en santé environnementale à l'Université de santé publique, il est nécessaire d'agir rapidement pour protéger la jeune génération du risque de dépendance à la nicotine lié aux pr",
+        "pub": "2026-06-17T09:03:53.480000+00:00",
+        "heure": "11h03"
+      },
+      {
+        "source": "Vietnam",
+        "titre": "Quelle superficie de terrains Vinhomes possédait-elle avant d'annoncer qu'elle cesserait d'en acquérir de nouvelles ?",
+        "url": "https://www.vietnam.vn/fr/vinhomes-so-huu-bao-nhieu-dat-truoc-khi-tuyen-bo-dung-gom-them",
+        "resume": "La plus grande société immobilière du Vietnam a annoncé l'arrêt de ses projets d'acquisition de terrains. Contrairement à Vinhomes, de nombreux autres promoteurs continuent de rechercher activement de nouveaux terrains.",
+        "pub": "2026-06-17T09:02:35.823000+00:00",
+        "heure": "11h02"
+      },
+      {
+        "source": "Vietnam",
+        "titre": "Minh Triệu s'exprime au sujet de l'incident de la file d'attente coupée sur le tapis rouge du film.",
+        "url": "https://www.vietnam.vn/fr/minh-trieu-len-tieng-vu-chen-hang-o-tham-do-phim",
+        "resume": "Le mannequin a nié avoir intentionnellement doublé la file d'attente sur le tapis rouge pour le film « Mesdames du Bleu » le soir du 16 juin.",
+        "pub": "2026-06-17T09:02:09.596000+00:00",
+        "heure": "11h02"
+      },
+      {
+        "source": "Vietnam",
+        "titre": "Minh Triệu réagit après avoir été critiquée pour avoir porté une tenue inappropriée et pour avoir coupé la file d'attente sur le tapis rouge lors de la sortie du film de Thanh Hằng.",
+        "url": "https://www.vietnam.vn/fr/minh-trieu-len-tieng-khi-bi-noi-mac-sai-chen-hang-o-tham-do-phim-cua-thanh-hang",
+        "resume": "Le mannequin a nié avoir intentionnellement doublé la file d'attente sur le tapis rouge pour le film « Mesdames du Bleu » le soir du 16 juin.",
+        "pub": "2026-06-17T09:02:06.224000+00:00",
+        "heure": "11h02"
+      },
+      {
+        "source": "Vietnam",
+        "titre": "CAMPAGNE DE PROPAGANDE COMMÉMORANT LES 75 ANS DE LA JOURNÉE MONDIALE DES DROITS DE L'HOMME (10 décembre 1948 - 10 décembre 2023)",
+        "url": "https://www.vietnam.vn/fr/tuyen-truyen-75-nam-ngay-nhan-quyen-the-gioi-10-12-1948-10-12-2023",
+        "resume": "CAMPAGNE DE PROPAGANDE COMMÉMORANT LES 75 ANS DE LA JOURNÉE MONDIALE DES DROITS DE L'HOMME",
+        "pub": "2026-06-17T09:02:02.202000+00:00",
+        "heure": "11h02"
+      }
+    ]
+  },
+  "vatican": {
+    "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV au CEPROME: faites de l’Église un lieu sûr pour les personnes vulnérables",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-06/leon-xiv-ceprome-l-eglise-lieu-sur-enfants-personnes-vulnerables.html",
+        "resume": "S’adressant aux représentants du Centre de recherche et de formation pour la protection de l’enfance (CEPROME), ce mercredi 17 juin dans une des salles de la salle Paul VI, le Pape Léon XIV a réaffirmé l’enga",
+        "pub": "Wed, 17 Jun 2026 09:46:00 +0200",
+        "heure": "11h46"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le cardinal Camillo Ruini est décédé",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-06/italie-le-cardinal-camillo-ruini-est-decede.html",
+        "resume": "Le cardinal italien, ancien président de la Conférence épiscopale italienne, est décédé mardi à l'âge de 95 ans. «Fin observateur des bouleversements politiques et sociaux du pays, il estimait essentiel d'acc",
+        "pub": "Wed, 17 Jun 2026 06:57:00 +0200",
+        "heure": "08h57"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Un protocole d’accord pour les installations agrivoltaïques à Santa Maria di Galeria",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-06/protocole-d-accord-signe-santa-maria-di-galera-environnement.html",
+        "resume": "Un protocole d’accord a été signé le 10 juin entre le Gouvernorat de l’État de la Cité du Vatican, l’Administration du patrimoine du Siège apostolique (APSA), la Fondation «Fratello Sole» et l’entreprise publ",
+        "pub": "Tue, 16 Jun 2026 22:16:00 +0200",
+        "heure": "00h16"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV: l’accord entre les États-Unis et l’Iran doit mener à la fin de la guerre",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-06/leon-xiv-accord-etats-unis-iran-guerre.html",
+        "resume": "Répondant aux questions des journalistes à Castel Gandolfo, le Pape est revenu sur son récent voyage apostolique effectué en Espagne. Il s’est dit «extrêmement content» de l’accueil qui lui a été réservé par",
+        "pub": "Tue, 16 Jun 2026 21:20:00 +0200",
+        "heure": "23h20"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Protection des mineurs, premier dialogue à Rome à l’initiative du Pape",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-06/protection-des-mineurs-abus-clerge.html",
+        "resume": "Les membres de la Commission pontificale et de l’association internationale pour les droits de l’homme se sont réunis pour la première fois en présentiel les 15 et 16 juin, afin d’entamer une collaboration vi",
+        "pub": "Tue, 16 Jun 2026 16:31:00 +0200",
+        "heure": "18h31"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Castel Gandolfo, lancement des «Dialogues de Borgo» sur la Maison commune",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-06/castel-gandolfo-dialogues-de-borgo-laudato-si.html",
+        "resume": "Du 17 au 19 juin, le Centre d'études avancées Laudato si', en partenariat avec l'Université Notre-Dame, Deloitte Suisse et Handshake Strategies, organise un événement ouvert aux acteurs internationaux issus d",
+        "pub": "Tue, 16 Jun 2026 16:05:00 +0200",
+        "heure": "18h05"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Ukraine: offrir aux enfants l’espérance en temps de guerre",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-06/eglise-ukraine-pastorale-jeunes-foi-education.html",
+        "resume": "L'éducation à la foi en temps de guerre, les grandes rencontres diocésaines, les lettres des enfants au front et les sources personnelles de résilience spirituelle, sont au centre d’un entretien avec la secré",
+        "pub": "Tue, 16 Jun 2026 15:14:00 +0200",
+        "heure": "17h14"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L’évêque de Tenerife: «Le Pape a réussi à conquérir le cœur des Espagnols»",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-06/eveque-tenerife-espere-paroles-du-pape-toucheront-migrant.html",
+        "resume": "Dans une interview accordée aux médias du Vatican, Mgr Eloy Santiago revient sur la visite du Pape en Espagne. Il confie avoir été marqué par la proximité du Pape envers les migrants et souligne que le droit",
+        "pub": "Tue, 16 Jun 2026 12:27:00 +0200",
+        "heure": "14h27"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape se rendra au siège du Programme alimentaire mondial",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-06/leon-xiv-pam-visite.html",
+        "resume": "Le 22 juin prochain, Léon XIV effectuera une visite au siège du PAM pour rencontrer les participants à la session annuelle du Conseil d'administration.\n                    Tout lire\n                    &nbsp;",
+        "pub": "Tue, 16 Jun 2026 12:11:00 +0200",
+        "heure": "14h11"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "À Vienne, Léon XIV appelle les dirigeants à dépasser la peur et à agir",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-06/a-vienne-leon-xiv-appelle-les-dirigeant-a-depasser-la-peur.html",
+        "resume": "Le dixième Sommet mondial autrichien s’ouvre ce mardi 16 juin à Vienne en Autriche. Organisé par la Schwarzenegger Climate Initiative, ce rendez-vous annuel est consacré à la protection du climat, à l'innovat",
+        "pub": "Tue, 16 Jun 2026 11:28:00 +0200",
+        "heure": "13h28"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Des religieuses catholiques cheminant ensemble dans la solidarité",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-06/des-religieuses-catholiques-cheminant-ensemble-solidarite-espoir.html",
+        "resume": "Plus de 130 religieuses venues du monde entier se sont réunies à Dar es Salaam, en Tanzanie, à l’occasion de la rencontre «Catholic Sisters Initiative», organisée par la Fondation Conrad N. Hilton.",
+        "pub": "Mon, 15 Jun 2026 16:06:00 +0200",
+        "heure": "18h06"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape exhorte les fidèles syro-malankars à rester unis et à être «messagers d’espérance»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-06/leon-xiv-exhorte-fideles-syro-malankars-a-rester-unis.html",
+        "resume": "Recevant une délégation de participants au premier Congrès des fidèles de l'Église syro-malankare résidant en Europe au palais apostolique ce lundi 15 juin 2026, le Pape Léon XIV a rappelé le rapprochement de",
+        "pub": "Mon, 15 Jun 2026 14:28:00 +0200",
+        "heure": "16h28"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape invite à ne jamais associer le nom de Dieu à la guerre",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-06/pape-reponse-lettre-piazza-san-pietro-revue.html",
+        "resume": "En réponse à une lettre publiée dans la revue «Piazza San Pietro», le Souverain pontife souligne que la mission de l’Église est d’appeler à la paix et de dénoncer avec force ceux qui instrumentalisent la reli",
+        "pub": "Mon, 15 Jun 2026 14:14:00 +0200",
+        "heure": "16h14"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Aux grands-parents, Léon XIV rappelle que Dieu «n’oublie jamais» ses enfants",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-06/aux-grands-parents-leon-xiv-dieu-n-oublie-ses-enfants.html",
+        "resume": "À l’occasion de la VIe Journée mondiale des grands-parents et des personnes âgées, célébrée le 26 juillet prochain, le Pape adresse un message d’espérance aux personnes âgées du monde entier. S’appuyant sur l",
+        "pub": "Mon, 15 Jun 2026 12:55:00 +0200",
+        "heure": "14h55"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape reçoit au Vatican le président sud-coréen",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-06/audience-leon-xiv-republique-de-coree-vatican.html",
+        "resume": "Dans la matinée de ce lundi 15 juin , Léon XIV a reçu en audience, au Palais apostolique, Lee Jae-myung, qui a ensuite rencontré le cardinal Pietro Parolin, Secrétaire d’État du Saint-Siège. À la Secrétaireri",
+        "pub": "Mon, 15 Jun 2026 12:47:00 +0200",
+        "heure": "14h47"
+      }
+    ]
   }
 }
