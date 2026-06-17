@@ -59,11 +59,12 @@ body{height:100%;background:var(--paper);color:var(--ink);font-family:'Inter',sa
 
 /* QUICK LINKS */
 .quick-links{display:flex;gap:10px;padding:16px 20px 0}
-.qlink{flex:1;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:14px 12px;text-align:center;text-decoration:none;color:inherit;display:flex;flex-direction:column;align-items:center;gap:6px}
+.qlink{flex:1;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:12px 10px;text-align:center;text-decoration:none;color:inherit;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative}
 .qlink:active{background:var(--cream)}
-.qlink-icon{font-size:22px;line-height:1}
+.qlink-logo{width:34px;height:34px;border-radius:8px;object-fit:cover;background:#f0ede7}
 .qlink-label{font-size:11px;font-weight:600;color:var(--ink)}
-.qlink-sub{font-size:9px;color:var(--muted)}
+.qlink-sub{font-size:9px;color:var(--muted);letter-spacing:.02em}
+.qlink-live{position:absolute;top:8px;right:8px;width:6px;height:6px;border-radius:50%;background:var(--red);animation:pulse 1.4s ease-in-out infinite}
 
 /* ARTICLES */
 .art-rule{font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--rule);padding:16px 20px 8px}
@@ -173,10 +174,8 @@ a.art:active{background:var(--cream)}
       <button class="ctab" onclick="sw(this,'x')">Taux</button>
       <button class="ctab" onclick="sw(this,'d')">Droit</button>
       <button class="ctab" onclick="sw(this,'v')">Eglise</button>
-      <button class="ctab" onclick="sw(this,'g')">Agenda eco</button>
       <button class="ctab" onclick="sw(this,'c')">Curiosite</button>
       <button class="ctab" onclick="sw(this,'f')">Favoris</button>
-      <button class="ctab" onclick="sw(this,'cal')">Mon Agenda</button>
     </div>
   </div>
   <div class="cnt" id="cnt"></div>
@@ -186,10 +185,6 @@ a.art:active{background:var(--cream)}
 var B = null;
 var tab = 's';
 var favorites = JSON.parse(localStorage.getItem('mb_favorites') || '[]');
-var gcalApiKey = localStorage.getItem('mb_gcal_key') || '';
-var gcalId = localStorage.getItem('mb_gcal_id') || '';
-var gcalId2 = localStorage.getItem('mb_gcal_id2') || '';
-var agendaEvents = null;
 var liveMetrics = {};
 
 var dn = new Date();
@@ -321,15 +316,14 @@ function renderOat(curve) {
 }
 
 var QUICK_LINKS = [
-  {icon:'\\ud83d\\udcfb', label:'Europe 1', sub:'Direct / Flash', url:'https://www.europe1.fr/direct-radio'},
-  {icon:'\\u271d\\ufe0f', label:'Vatican News', sub:'Flash info', url:'https://www.vaticannews.va/fr/derniere-heure.html'}
+  {logo:'https://www.google.com/s2/favicons?domain=europe1.fr&sz=64', label:'Europe 1', sub:'Direct radio', url:'https://www.europe1.fr/direct-audio'},
+  {logo:'https://www.google.com/s2/favicons?domain=vaticannews.va&sz=64', label:'Vatican News', sub:'Dernieres infos', url:'https://www.vaticannews.va/fr.html'}
 ];
 function renderQuickLinks() {
   return '<div class="quick-links">' + QUICK_LINKS.map(function(q){
-    return '<a class="qlink" href="'+q.url+'" target="_blank"><div class="qlink-icon">'+q.icon+'</div><div class="qlink-label">'+q.label+'</div><div class="qlink-sub">'+q.sub+'</div></a>';
+    return '<a class="qlink" href="'+q.url+'" target="_blank"><img class="qlink-logo" src="'+q.logo+'" alt=""><div class="qlink-label">'+q.label+'</div><div class="qlink-sub">'+q.sub+'</div></a>';
   }).join('') + '</div>';
 }
-
 function renderBrief(t) {
   var el=document.getElementById('cnt');
   if(!B){showSkel();return;}
@@ -360,25 +354,6 @@ function renderBrief(t) {
   else if(t==='v'){
     el.innerHTML='<div class="art-rule">Actualite de l Eglise - Vatican News</div>'+artList('vatican');
   }
-  else if(t==='g'){
-    var events=B.calendrier||[];
-    if(!events.length){el.innerHTML='<div class="empty-note">Aucun evenement cette semaine</div>';return;}
-    var JOURS=['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'];
-    var MOIS2=['jan','fev','mar','avr','mai','jun','jul','aou','sep','oct','nov','dec'];
-    var h='<div class="sec-rule">Agenda economique - semaine en cours</div>';
-    events.forEach(function(e){
-      var imp=e.importance>=3?'imp-high':'imp-med';
-      var pb=e.pays==='FR'?'<span class="cal-badge cb-fr">FR</span>':e.pays==='EU'?'<span class="cal-badge cb-eu">EU</span>':'<span class="cal-badge cb-de">'+e.pays+'</span>';
-      var dt=e.date?new Date(e.date):null;
-      var ds=dt?JOURS[dt.getDay()]+' '+dt.getDate()+' '+MOIS2[dt.getMonth()]:e.date;
-      var meta='';
-      if(e.consensus) meta+='Consensus: '+e.consensus;
-      if(e.previous) meta+=(meta?' | ':'')+'Prec: '+e.previous;
-      if(e.actual) meta+=(meta?' | ':'')+'<strong>Publie: '+e.actual+'</strong>';
-      h+='<div class="cal-item '+imp+'"><div style="min-width:60px;flex-shrink:0"><div class="cal-day">'+ds+'</div><div class="cal-time">'+(e.time||'')+'</div></div><div><div class="cal-event-title">'+pb+(e.event||'')+'</div>'+(meta?'<div class="cal-loc">'+meta+'</div>':'')+'</div></div>';
-    });
-    el.innerHTML=h;
-  }
   else if(t==='c'){
     var cur=B.curiosite||{};
     var chiffre=cur.chiffre_du_jour||{};
@@ -406,100 +381,11 @@ function renderBrief(t) {
     if(!favorites.length){el.innerHTML='<div class="empty-note">Pas encore de favoris. Appuie sur etoile d un article.</div>';return;}
     el.innerHTML='<div class="sec-rule">Articles sauvegardes ('+favorites.length+')</div>'+favorites.map(artCard).join('');
   }
-  else if(t==='cal'){
-    renderCalendar(el);
-  }
   else{
     var cfg={e:{key:'entreprises',label:'Resultats et vie des entreprises'},a:{key:'ma',label:'Fusions, acquisitions et PE'},k:{key:'macro',label:'Macroeconomie France et Europe'},p:{key:'politique',label:'Politique economique et geopolitique'}};
     var c=cfg[t];
     el.innerHTML='<div class="art-rule">'+c.label+'</div>'+artList(c.key);
   }
-}
-
-function renderCalendar(el) {
-  if(!gcalApiKey||!gcalId){
-    el.innerHTML='<div style="padding:20px"><div class="sec-rule" style="padding:0 0 8px;margin-bottom:16px">Configuration Google Calendar</div>'+
-      '<div class="agenda-setup-label">Cle API Google</div>'+
-      '<input class="agenda-setup-input" type="password" id="gcal-key" placeholder="AIza..." autocomplete="off">'+
-      '<div class="agenda-setup-label">Agenda 1</div>'+
-      '<input class="agenda-setup-input" id="gcal-id" placeholder="votre@gmail.com" autocomplete="off">'+
-      '<div class="agenda-setup-label">Agenda 2 (optionnel)</div>'+
-      '<input class="agenda-setup-input" id="gcal-id2" placeholder="pro@gmail.com" autocomplete="off">'+
-      '<div style="font-size:11px;color:var(--muted);line-height:1.65;margin-bottom:16px">Les deux agendas seront fusionnes. Rendez le calendrier public dans les parametres Google Calendar.</div>'+
-      '<button class="agenda-setup-btn" onclick="saveGcalConfig()">Enregistrer</button></div>';
-    return;
-  }
-  if(agendaEvents!==null){renderAgendaEvents(el,agendaEvents);}
-  else{el.innerHTML='<div class="empty-note">Chargement...</div>';loadAgenda();}
-}
-function saveGcalConfig() {
-  var k=document.getElementById('gcal-key'),i=document.getElementById('gcal-id'),i2=document.getElementById('gcal-id2');
-  if(!k||!i) return;
-  gcalApiKey=k.value.trim(); gcalId=i.value.trim(); gcalId2=i2?i2.value.trim():'';
-  localStorage.setItem('mb_gcal_key',gcalApiKey); localStorage.setItem('mb_gcal_id',gcalId); localStorage.setItem('mb_gcal_id2',gcalId2);
-  agendaEvents=null; renderBrief('cal');
-}
-function resetGcalConfig(){
-  gcalApiKey='';gcalId='';gcalId2='';
-  ['mb_gcal_key','mb_gcal_id','mb_gcal_id2'].forEach(function(k){localStorage.removeItem(k);});
-  agendaEvents=null; renderBrief('cal');
-}
-function fetchCalEvents(calId){
-  var now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate()),end=new Date(today.getTime()+2*24*60*60*1000);
-  var url='https://www.googleapis.com/calendar/v3/calendars/'+encodeURIComponent(calId)+'/events?key='+gcalApiKey+'&timeMin='+encodeURIComponent(today.toISOString())+'&timeMax='+encodeURIComponent(end.toISOString())+'&singleEvents=true&orderBy=startTime&maxResults=50';
-  return fetch(url).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){return d.items||[];});
-}
-function loadAgenda(){
-  if(!gcalApiKey||!gcalId) return;
-  var promises=[fetchCalEvents(gcalId)];
-  if(gcalId2) promises.push(fetchCalEvents(gcalId2));
-  Promise.all(promises).then(function(results){
-    var all=[];results.forEach(function(items){all=all.concat(items);});
-    all.sort(function(a,b){var ta=a.start.dateTime||a.start.date,tb=b.start.dateTime||b.start.date;return ta<tb?-1:ta>tb?1:0;});
-    agendaEvents=all;
-    if(tab==='cal') renderAgendaEvents(document.getElementById('cnt'),agendaEvents);
-  }).catch(function(e){
-    agendaEvents=[];
-    document.getElementById('cnt').innerHTML='<div class="empty-note">Erreur: '+e.message+'<br><br><button class="btn-refresh" style="color:var(--ink);border-color:var(--rule)" onclick="resetGcalConfig()">Reconfigurer</button></div>';
-  });
-}
-function pad2(n){return n<10?'0'+n:''+n;}
-function renderAgendaEvents(el,events){
-  var MOIS=['jan','fev','mar','avr','mai','jun','jul','aou','sep','oct','nov','dec'];
-  var now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate()),tomorrow=new Date(today.getTime()+24*60*60*1000);
-  var palette=['#b5602a','#2d6e45','#1a4a80','#8b2fc9','#c0392b','#e67e22'];
-  var calColors={},colorIdx=0;
-  var todayE=[],tomorrowE=[];
-  (events||[]).forEach(function(ev){
-    var start=ev.start.dateTime?new Date(ev.start.dateTime):new Date(ev.start.date+'T00:00:00');
-    var day=new Date(start.getFullYear(),start.getMonth(),start.getDate());
-    if(day.getTime()===today.getTime()) todayE.push({ev:ev,start:start});
-    else tomorrowE.push({ev:ev,start:start});
-  });
-  function renderDay(label,evts){
-    var h='<div class="agenda-day">'+label+'</div>';
-    if(!evts.length){h+='<div class="agenda-empty">Rien de prevu</div>';return h;}
-    evts.forEach(function(item){
-      var ev=item.ev,start=item.start;
-      var endDt=ev.end&&ev.end.dateTime?new Date(ev.end.dateTime):null;
-      var isAllDay=!!ev.start.date&&!ev.start.dateTime;
-      var timeStr=isAllDay?'Journee':pad2(start.getHours())+':'+pad2(start.getMinutes())+(endDt?' - '+pad2(endDt.getHours())+':'+pad2(endDt.getMinutes()):'');
-      var calKey=ev.organizer?ev.organizer.email||'':'';
-      if(!calColors[calKey]){calColors[calKey]=palette[colorIdx%palette.length];colorIdx++;}
-      var color=calColors[calKey];
-      var past=start<now?'opacity:.45;':'';
-      var loc=ev.location?'<div class="cal-loc">'+ev.location.substring(0,60)+'</div>':'';
-      var link='https://calendar.google.com/calendar/r/day/'+start.getFullYear()+'/'+(start.getMonth()+1)+'/'+start.getDate();
-      h+='<a href="'+link+'" target="_blank" style="'+past+'display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid var(--rule2);padding:13px 20px;text-decoration:none;color:inherit">'+
-        '<div style="min-width:75px;flex-shrink:0"><div style="font-size:12px;font-weight:600;color:'+color+'">'+timeStr+'</div></div>'+
-        '<div style="flex:1"><div class="art-title" style="font-size:14px;margin-bottom:3px">'+(ev.summary||'Sans titre')+'</div>'+loc+'</div></a>';
-    });
-    return h;
-  }
-  el.innerHTML='<div>'+
-    renderDay("Aujourd hui -- "+today.getDate()+' '+MOIS[today.getMonth()],todayE)+
-    renderDay('Demain -- '+tomorrow.getDate()+' '+MOIS[tomorrow.getMonth()],tomorrowE)+
-    '<div style="padding:12px 20px"><button class="btn-refresh" style="color:var(--ink);border-color:var(--rule);font-size:10px" onclick="resetGcalConfig()">Changer</button></div></div>';
 }
 
 function loadBriefing() {
