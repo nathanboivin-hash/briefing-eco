@@ -502,12 +502,6 @@ def main():
         print("ERREUR: aucun article")
         raise SystemExit(1)
 
-    print("-> Droit des affaires...")
-    droit_articles = get_droit_affaires_articles()
-    print(f"  Droit TOTAL: {len(droit_articles)} articles")
-    if droit_articles:
-        print(f"  Exemple: {droit_articles[0]['source']} - {droit_articles[0]['titre'][:60]}")
-
     print("-> Vatican News...")
     vatican_articles = get_rss_from_list(RSS_VATICAN, hours=72, max_total=15)
     print(f"  Vatican TOTAL: {len(vatican_articles)} articles")
@@ -530,7 +524,6 @@ def main():
     briefing["taux"]["courbe"]  = oat_curve
     briefing["calendrier"]      = calendar
     briefing["curiosite"]       = curiosity
-    briefing["droit"]           = {"articles": droit_articles}
     briefing["vatican"]         = {"articles": vatican_articles}
 
     for key in ["synthese","marches","entreprises","ma","macro","politique","taux"]:
