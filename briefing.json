@@ -1,35 +1,29 @@
 {
-  "timestamp": "22h35 le 19/06/2026",
-  "alerte": {
-    "titre": "Maisons du Monde : perte nette de 406 M€ en 2025 et plan de sauvetage avec fonds britanniques",
-    "indices": [
-      7
-    ],
-    "detail": "Le groupe du meuble et décoration annonce un redressement via deux fonds britanniques. Symptôme d'une fragilité du secteur retail face à l'effondrement de la demande et des marges compressées par l'inflation énergétique structurelle."
-  },
+  "timestamp": "22h51 le 19/06/2026",
+  "alerte": "Palantir dénonce via Instagram la rupture de contrat avec la DGSI : signal de tension rare entre géant US et État français sur fond de souveraineté numérique",
   "synthese": {
-    "accroche": "TF1-Netflix : la télévision linéaire française cède aux nouveaux usages publicitaires tandis que Maisons du Monde brûle 406 M€ en 2025, forçant deux fonds britanniques à intervenir en sauvetage.",
-    "resume": "La journée cristallise deux crises sectorielles majeures : d'une part, la convergence médias-tech (TF1 vers Netflix) révèle l'effondrement du marché publicitaire français et l'obsolescence accélérée du modèle linéaire ; d'autre part, Maisons du Monde symbolise la fragilité du retail de luxe face aux coûts structurels (canicules, taux), tandis que les PME françaises se fragilisent sous le poids d'une croissance rabaissée hier à 0,5% par l'Insee. Sur le front défense industrielle, Safran/MBDA sortent vainqueurs face à Thales/ArianeGroup sur le dossier du « Himars français », validant une consolidation stratégique en contexte de tensions géopolitiques. Les tensions tarifaires s'étendent enfin : aluminium aéronautique (+), mais aussi arbitrages californiennes sur les milliardaires qui questionnent la fiscalité patrimoniale.",
+    "accroche": "Maisons du Monde brûle 406 M€ en 2025 et accepte un sauvetage britannique : le retail français capitule face aux coûts structurels (canicule, taux, énergie) tandis que la croissance s'effondre à 0,5%.",
+    "resume": "La France encaisse simultanément trois chocs : la fragmentation du secteur médias (TF1-Netflix scelle la fin du modèle linéaire français), l'hémorragie du retail de luxe (Maisons du Monde symbolise l'asphyxie des PME sous le poids des taux et des canicules récurrentes), et une croissance rabattue à 0,5% par l'INSEE qui fragilise tout le tissu PME. Sur le plan défense, Safran/MBDA raflent l'appel d'offres Himars face à Thales/ArianeGroup, cristallisant la concentration du complexe militaro-industriel français. En parallèle, Nexans accélère sur les câbles sous-marins (électrification), tandis que Palantir explose publiquement contre la DGSI pour rupture de contrat : le signal d'une France prise en tenaille entre dépendance tech US et souveraineté numérique déclinante.",
     "points": [
       {
-        "titre": "Médias : TF1-Netflix, la fin du modèle linéaire français",
-        "detail": "TF1 signe un partenariat stratégique avec Netflix (Koh-Lanta, Star Academy) pour contrebalancer l'effondrement de la réclame publicitaire traditionnelle. Cette alliance révèle que les chaînes généralistes françaises ne peuvent plus financer seules leur content et cédent aux géants américains de la SVOD : redéfinition brutale de la chaîne de valeur médias français et réduction des marges publicitaires locales."
+        "titre": "Retail : Maisons du Monde perd 406 M€, entrée de fonds PE britanniques",
+        "detail": "Le groupe français accepte un sauvetage piloté par deux fonds britanniques après une perte record en 2025, symptôme de l'incapacité des chaînes de décoration à répercuter les surcoûts énergétiques et de taux sur les marges. Pour les acquéreurs, cela confirme que seul le portefeuille immobilier (actif immobilisé) reste valorisable : arbitrage pur sur l'immobilier retail français, pas sur l'exploitation commerciale."
       },
       {
-        "titre": "Retail : Maisons du Monde brûle 406 M€, intervention de fonds PE britanniques",
-        "detail": "Deux fonds britanniques activent un plan de sauvetage pour le groupe meuble/décoration, qui cumule pertes massives et contraintes structurelles (canicules, énergie, taux de financement élevés). Symptôme d'une consolidation forcée du secteur retail français vers des investisseurs étrangers : dilution actionnariale et perte de contrôle opérationnel."
+        "titre": "Macro : croissance ramenée à 0,5%, fragilisation critique des PME françaises",
+        "detail": "L'INSEE révise à la baisse la conjoncture française, dynamitant le crédit d'investissement des petites structures. Le différentiel de croissance France-Allemagne (0,5% vs ~0,8%) s'accélère, fermant les financements LBO mid-market français et réorientant les PE vers Mittelstand allemand."
       },
       {
-        "titre": "Défense : Safran/MBDA raflent le Himars français face à Thales/ArianeGroup",
-        "detail": "Safran et MBDA remportent l'appel d'offres pour le système de missiles terrestres français (Himars français), devant Thales et ArianeGroup. Validation d'une stratégie de consolidation dans la supply chaîne défense français et renforcement du leadership de Safran en propulsion/armements, dans un contexte de tensions géopolitiques persistantes."
+        "titre": "M&A Défense : Safran/MBDA battent Thales/ArianeGroup sur le Himars français",
+        "detail": "La concentration de la défense se renforce autour de Safran-MBDA avec ce contrat majeur d'électronique et propulsion pour le lanceur français. Implication : réduction de la base industrielle française à trois pôles (Safran, Thales, Naval Group), avec risque de survaluation de Safran et consolidation inévitable de Thales ou Naval."
       },
       {
-        "titre": "Aéronautique : l'aluminium fait grimper les coûts des sous-traitants français",
-        "detail": "Les prix de l'aluminium explosent (contexte géopolitique Moyen-Orient + spéculation) et fragilisent les sous-traitants aéronautiques français, qui opèrent sous contrats à prix figé moyen/long terme. Compressions de marges attendues et restructurations chez les équipementiers Airbus/Dassault."
+        "titre": "Entreprises : Nexans accélère la transition, cables sous-marins en demande",
+        "detail": "Le groupe électrotechnique se positionne sur l'infrastructure d'électrification (lien Irlande-continent, interconnexions). Stratégie défensive : monétiser la rareté des expertises de pose et de génie électrique, échapper à la commoditisation des câbles terrestres."
       },
       {
-        "titre": "Politique fiscale : Californie sonde une taxe sur les milliardaires (référendum 2027?)",
-        "detail": "Un projet de taxe californienne sur les ultra-hauts patrimoines provoque une panique à Wall Street et questionne les modèles de fiscalité patrimoniale aux États-Unis. Effets de contagion attendus en Europe (France a déjà fragilisé l'ISF) : accélération des stratégies d'optimisation et exode potentiel de capitaux vers les paradis fiscaux."
+        "titre": "Politique/Souveraineté : Palantir conteste publiquement la rupture DGSI via Instagram",
+        "detail": "Le géant US dénonce le manque de formalité diplomatique pour l'interruption d'un contrat sensible de données de défense. Signal : l'État français laisse filtrer une tension majeure avec un acteur critique du renseignement, suggérant des divergences profondes sur l'accès aux données ou la localisation des serveurs."
       }
     ]
   },
@@ -45,17 +39,10 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "17h00",
-        "titre": "Avec SpaceX, Wall Street confirme sa capacité sans égale à financer l’innovation",
-        "resume": "Aux Etats-Unis, les entreprises pourraient lever 225 milliards de dollars en 2026, selon Goldman Sachs. Ce niveau record alimente l’investissement des firmes américaines, qui a bondi de 12 % depuis fin 2022.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/18/avec-spacex-wall-street-confirme-sa-capacite-sans-egale-a-financer-l-innovation_6704553_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h45",
-        "titre": "« Une légion de fans qui le suivraient jusqu’aux portes de l’enfer » : Musk rêve de fusionner Tesla et SpaceX pour créér un empire à 4000 milliards",
-        "resume": "De nombreux fans et investisseurs d’Elon Musk s’attendent à ce qu’il fusionne SpaceX avec Tesla, ce qui donnerait naissance à un vaste conglomérat technologique d’une valeur de quelque 4 000 milliards de dollars. Le droit des sociétés du Texas, où l",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/une-legion-de-fans-qui-le-suivraient-jusquaux-portes-de-lenfer-musk-reve-de-fusionner-tesla-et-spacex-pour-creer-un-empire-a-4000-milliards_644319"
+        "heure": "13h00",
+        "titre": "« BMW lance un avertissement strident »",
+        "resume": "Le constructeur allemand a annoncé qu’il s’attendait à une baisse « significative » de ses résultats. Un aveu de faiblesse alors que la firme semblait résister mieux que d’autres aux tourments du secteur automobile, constate Isabelle Chaperon, chroni",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/18/bmw-lance-un-avertissement-strident_6704521_3234.html"
       },
       {
         "source": "Le Monde Eco",
@@ -66,10 +53,17 @@
       },
       {
         "source": "Challenges",
-        "heure": "17h32",
-        "titre": "Près de 40 milliards d’euros de ventes en 2025 : les chiffres fous de l’immobilier de luxe français",
-        "resume": "Tandis que le marché de l’immobilier « classique » redoute de souffrir des conséquences de l’inflation en Europe et de la remontée des taux, le marché des demeures de luxe, lui, se porte bien. Depuis la crise sanitaire, la demande pour ces « biens d",
-        "url": "https://www.challenges.fr/immobilier/pres-de-40-milliards-deuros-de-ventes-en-2025-les-chiffres-fous-de-limmobilier-de-luxe-francais_644315"
+        "heure": "18h45",
+        "titre": "« Une légion de fans qui le suivraient jusqu’aux portes de l’enfer » : Musk rêve de fusionner Tesla et SpaceX pour créér un empire à 4000 milliards",
+        "resume": "De nombreux fans et investisseurs d’Elon Musk s’attendent à ce qu’il fusionne SpaceX avec Tesla, ce qui donnerait naissance à un vaste conglomérat technologique d’une valeur de quelque 4 000 milliards de dollars. Le droit des sociétés du Texas, où l",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/une-legion-de-fans-qui-le-suivraient-jusquaux-portes-de-lenfer-musk-reve-de-fusionner-tesla-et-spacex-pour-creer-un-empire-a-4000-milliards_644319"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "13h00",
+        "titre": "En Californie, vent de panique autour d’un projet de taxe sur les milliardaires",
+        "resume": "La proposition portée par le syndicat du personnel de santé pourrait être mise au vote en novembre, après le succès de sa pétition. Les magnats de la tech et les démocrates modérés mobilisent leur fortune et leurs réseaux pour tenter de l’empêcher.",
+        "url": "https://www.lemonde.fr/international/article/2026/06/19/en-californie-vent-de-panique-autour-d-un-projet-de-taxe-sur-les-milliardaires_6704931_3210.html"
       }
     ]
   },
@@ -91,24 +85,24 @@
       },
       {
         "source": "Le Monde Eco",
+        "heure": "19h07",
+        "titre": "Palantir irrité par l’annonce de la fin de son contrat avec la DGSI : « On ne peut pas faire ça comme ça, sur Instagram. C’est un sujet ultra-sérieux »",
+        "resume": "La direction du géant américain de l’analyse de données assure au « Monde » regretter l’annonce de Sébastien Lecornu sur la fin du contrat avec la direction générale de la sécurité intérieure. L’entreprise affirme que son travail se poursuit.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/19/palantir-irrite-par-l-annonce-de-la-fin-de-son-contrat-avec-la-dgsi-on-ne-peut-pas-faire-ca-comme-ca-sur-instagram-c-est-un-sujet-ultra-serieux_6704986_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
         "heure": "10h00",
         "titre": "La flambée des prix de l’aluminium fragilise les sous-traitants aéronautiques français",
         "resume": "Les effets de la hausse du cours de l’aluminium et du prix des matières premières dérivées du pétrole se font sentir dans la chaîne de fournisseurs, encore convalescente six ans après la pandémie de Covid-19.",
         "url": "https://www.lemonde.fr/economie/article/2026/06/19/la-flambee-des-prix-de-l-aluminium-fragilise-les-sous-traitants-aeronautiques-francais_6704914_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "17h05",
-        "titre": "Face à la concurrence des pneus chinois, Goodyear fait le pari des voitures de sport et du très haut de gamme",
-        "resume": "Depuis peu séparé de Dunlop, le spécialiste américain du pneu Goodyear compte revenir sur le segment rémunérateur du haut de gamme. Une nécessité face à la concurrence chinoise, de plus en plus agressive, accusée d’un « dumping destructeur pour l’in",
-        "url": "https://www.challenges.fr/automobile/face-a-la-concurrence-des-pneus-chinois-goodyear-fait-le-pari-des-voitures-de-sport-et-du-tres-haut-de-gamme_644314"
-      },
-      {
-        "source": "Challenges",
-        "heure": "15h04",
-        "titre": "Ils ont été repensés pour les chauffeurs livreurs : pourquoi Stellantis croit en l’avenir de ses petits utilitaires Berlingo, Partner et Doblo",
-        "resume": "Le chauffeur livreur pris dans une course contre la montre se moque éperdument de savoir si sa fourgonnette est le dernier modèle à la mode. Ce qu’il veut, c’est un outil de travail qui facilite sa tâche et réduit sa fatigue. D’où l’approche pragmat",
-        "url": "https://www.challenges.fr/automobile/ils-ont-ete-repenses-pour-les-chauffeurs-livreurs-pourquoi-stellantis-croit-en-lavenir-de-ses-petits-utilitaires-berlingo-partner-et-doblo_644308"
+        "source": "Le Monde Eco",
+        "heure": "20h15",
+        "titre": "TF1 pactise avec Netflix pour faire face aux nouveaux usages et à l’effondrement de la publicité",
+        "resume": "L’accord de distribution conclu en 2025 entre la chaîne privée la plus populaire et la plateforme de contenus la plus répandue en France est entré en vigueur vendredi, donnant accès à toute l’offre de TF1 aux abonnés de Netflix.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/19/tf1-pactise-avec-netflix-pour-faire-face-aux-nouveaux-usages-et-a-l-effondrement-de-la-publicite_6704999_3234.html"
       }
     ]
   },
@@ -137,17 +131,17 @@
       },
       {
         "source": "Challenges",
-        "heure": "18h45",
-        "titre": "« Une légion de fans qui le suivraient jusqu’aux portes de l’enfer » : Musk rêve de fusionner Tesla et SpaceX pour créér un empire à 4000 milliards",
-        "resume": "De nombreux fans et investisseurs d’Elon Musk s’attendent à ce qu’il fusionne SpaceX avec Tesla, ce qui donnerait naissance à un vaste conglomérat technologique d’une valeur de quelque 4 000 milliards de dollars. Le droit des sociétés du Texas, où l",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/une-legion-de-fans-qui-le-suivraient-jusquaux-portes-de-lenfer-musk-reve-de-fusionner-tesla-et-spacex-pour-creer-un-empire-a-4000-milliards_644319"
+        "heure": "13h30",
+        "titre": "« Himars français » : les dessous de la victoire de Safran et MBDA face à Thales et ArianeGroup",
+        "resume": "La sélection de Safran et MBDA pour développer les futurs « Himars français », face au tandem Thales-ArianeGroup, provoque des remous dans les coulisses du salon Eurosatory. Gros plan sur une décision qui ne fait pas consensus.",
+        "url": "https://www.challenges.fr/entreprise/defense/himars-francais-les-dessous-de-la-victoire-de-safran-et-mbda-face-a-thales-et-arianegroup_644305"
       },
       {
         "source": "Challenges",
-        "heure": "19h05",
-        "titre": "« L’Allemagne est au cœur de notre stratégie » : pourquoi les banques françaises (et pas uniquement) parient sur l’Allemagne",
-        "resume": "Dans un secteur en pleine effervescence avec l’OPA victorieuse d’UniCredit sur Commerzbank, BNP Paribas, Crédit mutuel, BPCE et Crédit agricole poussent leurs pions outre-Rhin. En ligne de mire : les entrepreneurs du Mittelstand, ces PME familiales",
-        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/lallemagne-est-au-coeur-de-notre-strategie-pourquoi-les-banques-francaises-et-pas-uniquement-parient-sur-lallemagne_644357"
+        "heure": "13h00",
+        "titre": "« Une histoire typique de la Silicon Valley, mais en Europe » : qui est Iceye, le leader européen des satellites d’observation terrestre ?",
+        "resume": "Iceye, fabricant polono-finlandais de microsatellites d’observation terrestre poursuit son ascension fulgurante. Désormais valorisée à 10 milliards d’euros, elle est une success-story européenne dans le secteur spatial.",
+        "url": "https://www.challenges.fr/entreprise/defense/une-histoire-typique-de-la-silicon-valley-mais-en-europe-qui-est-iceye-le-leader-europeen-des-satellites-dobservation-terrestre_644297"
       }
     ]
   },
@@ -162,17 +156,10 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "10h30",
-        "titre": "En Centre-Val de Loire, la vallée du médicament résiste aux pressions nées de la guerre au Moyen-Orient",
-        "resume": "Si la guerre des Etats-Unis et d’Israël contre l’Iran a fait grimper les prix de l’énergie et perturbé les échanges commerciaux, le troisième pôle français de fabrication de médicaments tient bon, pour le moment.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/19/en-centre-val-de-loire-la-vallee-du-medicament-resiste-aux-pressions-nees-de-la-guerre-au-moyen-orient_6704916_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Devenir chef ne fait plus rêver : le blues du manageur, toujours plus important, mais toujours plus épuisé",
-        "resume": "« Chef » est désormais un métier en crise, constate dans sa chronique Jules Thomas, journaliste au « Monde », alors qu’une semaine thématique évoque, pour l’expliquer, une culture française du travail trop verticale.",
-        "url": "https://www.lemonde.fr/emploi/article/2026/06/19/devenir-chef-ne-fait-plus-rever-le-blues-du-manageur-toujours-plus-important-mais-toujours-plus-epuise_6704897_1698637.html"
+        "heure": "11h57",
+        "titre": "Canicule : les usagers d’Ile-de-France se détournent des transports en commun, peu climatisés, voire pas du tout",
+        "resume": "Lors des derniers épisodes caniculaires, la fréquentation avait chuté de 20 % dans le bus, de 12 % dans le RER et de 8 % dans le métro, selon une étude de l’Institut Paris Région.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/19/canicule-en-ile-de-france-les-usagers-se-detournent-des-transports-en-commun-metro-bus-et-rer-etant-peu-voire-pas-climatises_6704924_3234.html"
       },
       {
         "source": "Challenges",
@@ -183,10 +170,17 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "11h57",
-        "titre": "Canicule : les usagers d’Ile-de-France se détournent des transports en commun, peu climatisés, voire pas du tout",
-        "resume": "Lors des derniers épisodes caniculaires, la fréquentation avait chuté de 20 % dans le bus, de 12 % dans le RER et de 8 % dans le métro, selon une étude de l’Institut Paris Région.",
-        "url": "https://www.lemonde.fr/economie/article/2026/06/19/canicule-en-ile-de-france-les-usagers-se-detournent-des-transports-en-commun-metro-bus-et-rer-etant-peu-voire-pas-climatises_6704924_3234.html"
+        "heure": "17h34",
+        "titre": "Salariés, fonctionnaires, comment vivez-vous les épisodes de fortes chaleurs sur votre lieu de travail ?",
+        "resume": "Cinquante-trois départements sont en vigilance orange canicule dans l’Hexagone vendredi 19 juin, et les températures pourraient encore grimper lundi 22 et mardi 23 juin. Alors qu’un décret précise depuis un an les obligations des employeurs dans ces",
+        "url": "https://www.lemonde.fr/economie/appel-temoignages/2026/06/19/appel-a-temoignages-salaries-fonctionnaires-comment-vivez-vous-les-episodes-de-fortes-chaleurs-sur-votre-lieu-de-travail-racontez-nous_6704973_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "10h30",
+        "titre": "En Centre-Val de Loire, la vallée du médicament résiste aux pressions nées de la guerre au Moyen-Orient",
+        "resume": "Si la guerre des Etats-Unis et d’Israël contre l’Iran a fait grimper les prix de l’énergie et perturbé les échanges commerciaux, le troisième pôle français de fabrication de médicaments tient bon, pour le moment.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/19/en-centre-val-de-loire-la-vallee-du-medicament-resiste-aux-pressions-nees-de-la-guerre-au-moyen-orient_6704916_3234.html"
       }
     ]
   },
@@ -194,10 +188,31 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "00h04",
-        "titre": "Ce qu’il faut retenir de l’interview d’Emmanuel Macron sur France 2",
-        "resume": "Le président de la République était interrogé dans l’émission « L’Evénement », au lendemain du sommet du G7 à Evian. Il a évoqué, pêle-mêle, la situation au Proche-Orient, la guerre en Ukraine et les débats autour de la mort de Lyhanna.",
-        "url": "https://www.lemonde.fr/international/article/2026/06/18/ce-qu-il-faut-retenir-de-l-interview-d-emmanuel-macron-sur-france-2_6704613_3210.html"
+        "heure": "19h07",
+        "titre": "Palantir irrité par l’annonce de la fin de son contrat avec la DGSI : « On ne peut pas faire ça comme ça, sur Instagram. C’est un sujet ultra-sérieux »",
+        "resume": "La direction du géant américain de l’analyse de données assure au « Monde » regretter l’annonce de Sébastien Lecornu sur la fin du contrat avec la direction générale de la sécurité intérieure. L’entreprise affirme que son travail se poursuit.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/19/palantir-irrite-par-l-annonce-de-la-fin-de-son-contrat-avec-la-dgsi-on-ne-peut-pas-faire-ca-comme-ca-sur-instagram-c-est-un-sujet-ultra-serieux_6704986_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "22h56",
+        "titre": "Blanchiment et financement du terrorisme : l’Algérie et la Namibie sortent de la « liste grise » du GAFI, la Bosnie-Herzégovine et l’Irak y entrent",
+        "resume": "Trois pays figurent toujours sur la « liste noire » de « juridictions à haut risque soumises à un appel à l’action » du Groupe d’action financière : l’Iran, la Corée du Nord et la Birmanie.",
+        "url": "https://www.lemonde.fr/international/article/2026/06/19/blanchiment-et-financement-du-terrorisme-l-algerie-et-la-namibie-sortent-de-la-liste-grise-du-gafi-la-bosnie-herzegovine-et-l-irak-y-entrent_6705017_3210.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "16h00",
+        "titre": "Lutte contre les fraudes sociales et fiscales : l’essentiel du projet de loi validé par le Conseil constitutionnel",
+        "resume": "L’institution de la rue de Montpensier a censuré, jeudi 18 juin, trois articles, à la portée secondaire et sans lien avec le texte, ainsi qu’une disposition sur les modalités de coopération entre l’Assurance-maladie et les organismes complémentaires",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/19/lutte-contre-les-fraudes-sociales-et-fiscales-l-essentiel-du-projet-de-loi-valide-par-le-conseil-constitutionnel_6704957_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h54",
+        "titre": "Autonomie de la Corse : les députés achèvent l’examen du projet de loi constitutionnelle",
+        "resume": "Le projet de loi permettrait à la collectivité de Corse de décider d’adaptations législatives et réglementaires spécifiques à l’île pour des textes existants. Le vote aura lieu mardi.",
+        "url": "https://www.lemonde.fr/politique/article/2026/06/18/autonomie-de-la-corse-les-deputes-achevent-l-examen-du-projet-de-loi-constitutionnelle_6704593_823448.html"
       },
       {
         "source": "Le Monde Eco",
@@ -205,32 +220,32 @@
         "titre": "Accord américano-iranien, détroit d’Ormuz, Liban, Ukraine... retrouvez l’intervention d’Emmanuel Macron sur France 2",
         "resume": "Le président français a répondu aux questions de Caroline Roux sur France 2, jeudi soir, au lendemain de la réunion du G7 à Evian.",
         "url": "https://www.lemonde.fr/international/live/2026/06/18/en-direct-emmanuel-macron-sur-france-2-au-lendemain-du-sommet-du-g7-a-evian_6704605_3210.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "14h00",
-        "titre": "Comment Donald Trump accélère malgré lui l’essor de la tech européenne et de l’IA made in Europe",
-        "resume": "Encore une fois, Donald Trump a rappelé aux Européens qu’ils étaient dépendants des technologies américaines. Mais ces coups de semonce à répétition ne pourraient bien qu’accélérer la dynamique conduisant à une souveraineté numérique européenne.",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/comment-donald-trump-accelere-malgre-lui-lessor-de-la-tech-europeenne-et-de-lia-made-in-europe_644334"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "Khamenei approuve l’accord avec Washington mais les négociations sont reportées, Andy Burnham, principal rival de Keir Starmer au Labour, élu député, La canicule s’étend en France… Ça s’est passé cette nuit",
-        "resume": "Khamenei approuve l’accord avec Washington mais les négociations sont reportées, Andy Burnham, principal rival de Keir Starmer au Labour, élu député, La canicule s’étend en France",
-        "url": "https://www.challenges.fr/monde/khamenei-approuve-laccord-avec-washington-mais-les-negociations-sont-reportees-andy-burnham-principal-rival-de-keir-starmer-au-labour-elu-depute-la-canicule-setend-en-france-ca-sest-passe-cette-nuit_644321"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h30",
-        "titre": "Bruxelles veut « muscler son jeu » face à la menace chinoise mais ne sait pas encore comment faire…",
-        "resume": "Face à la montée des déséquilibres commerciaux avec la Chine, les dirigeants européens tentent de définir une réponse commune plus structurée. Mais derrière un diagnostic désormais largement partagé, les Vingt-Sept peinent encore à s’accorder sur le",
-        "url": "https://www.challenges.fr/economie/bruxelles-veut-muscler-son-jeu-face-a-la-menace-chinoise-mais-ne-sait-pas-encore-comment-faire_644318"
       }
     ]
   },
   "taux": {
     "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h00",
+        "titre": "Le ralentissement de la croissance fragilise le tissu économique des PME françaises",
+        "resume": "Affaiblies depuis 2020, les entreprises de 10 à 249 salariés, épine dorsale de l’économie hexagonale, souffrent aussi de la conjoncture. Une partie de leur avenir se jouera dans leur capacité à exporter leur production.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/19/le-ralentissement-de-la-croissance-fragilise-le-tissu-economique-des-pme-francaises_6704902_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "14h05",
+        "titre": "Maisons du monde annonce une perte nette de 406 millions d’euros en 2025 et la signature d’un plan de sauvetage avec deux fonds britanniques",
+        "resume": "La chaîne de meubles et de décoration avait reporté mi-avril la publication de ses résultats annuels, ce qu’elle justifiait par des discussions en cours pour trouver de nouveaux investisseurs.",
+        "url": "https://www.lemonde.fr/economie/article/2026/06/19/maisons-du-monde-annonce-une-perte-nette-de-406-millions-d-euros-en-2025-et-la-signature-d-un-plan-de-sauvetage-avec-deux-fonds-britanniques_6704945_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "19h05",
+        "titre": "« L’Allemagne est au cœur de notre stratégie » : pourquoi les banques françaises (et pas uniquement) parient sur l’Allemagne",
+        "resume": "Dans un secteur en pleine effervescence avec l’OPA victorieuse d’UniCredit sur Commerzbank, BNP Paribas, Crédit mutuel, BPCE et Crédit agricole poussent leurs pions outre-Rhin. En ligne de mire : les entrepreneurs du Mittelstand, ces PME familiales",
+        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/lallemagne-est-au-coeur-de-notre-strategie-pourquoi-les-banques-francaises-et-pas-uniquement-parient-sur-lallemagne_644357"
+      },
       {
         "source": "Challenges",
         "heure": "08h00",
@@ -244,27 +259,6 @@
         "titre": "12 milliards prélevés depuis 2023 : les partenaires sociaux en ont assez que l’État puise dans les caisses de l’assurance-chômage",
         "resume": "Les partenaires sociaux s’alarment des prélèvements de l’Etat dans les caisses de l’Unédic, le régime paritaire gestionnaire de l’assurance-chômage.",
         "url": "https://www.challenges.fr/economie/12-milliards-preleves-depuis-2023-les-partenaires-sociaux-en-ont-assez-que-letat-puise-dans-les-caisses-de-lassurance-chomage_644311"
-      },
-      {
-        "source": "Challenges",
-        "heure": "19h05",
-        "titre": "« L’Allemagne est au cœur de notre stratégie » : pourquoi les banques françaises (et pas uniquement) parient sur l’Allemagne",
-        "resume": "Dans un secteur en pleine effervescence avec l’OPA victorieuse d’UniCredit sur Commerzbank, BNP Paribas, Crédit mutuel, BPCE et Crédit agricole poussent leurs pions outre-Rhin. En ligne de mire : les entrepreneurs du Mittelstand, ces PME familiales",
-        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/lallemagne-est-au-coeur-de-notre-strategie-pourquoi-les-banques-francaises-et-pas-uniquement-parient-sur-lallemagne_644357"
-      },
-      {
-        "source": "Challenges",
-        "heure": "15h22",
-        "titre": "Au Sénat, son nouveau patron décrit un Louvre « à bout de souffle »",
-        "resume": "Auditionné au Sénat le 17 juin, Christophe Leribault a alerté sur l’état préoccupant du Louvre. Le nouveau président du musée évoque des infrastructures vieillissantes, des retards de rénovation et des besoins d’investissement considérables.",
-        "url": "https://www.challenges.fr/economie/au-senat-son-nouveau-patron-decrit-un-louvre-a-bout-de-souffle_644310"
-      },
-      {
-        "source": "Challenges",
-        "heure": "14h49",
-        "titre": "La chute annoncée du Premier ministre britannique Keir Starmer sonne-t-elle la fin du bipartisme au Royaume-Uni ?",
-        "resume": "Dix ans après le référendum sur le Brexit, la crise politique se prolonge au Royaume-Uni. Face à la dérive des partis traditionnels en faveur de la droite populiste, de la gauche écologiste et des partis nationalistes, il paraît légitime de se deman",
-        "url": "https://www.challenges.fr/le-plein-didees/la-chute-annoncee-du-premier-ministre-britannique-keir-starmer-sonne-t-elle-la-fin-du-bipartisme-au-royaume-uni_644338"
       }
     ],
     "courbe": [
@@ -373,37 +367,37 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,3 trillions USD",
-      "contexte": "La dette mondiale atteint un nouveau record, représentant 258% du PIB mondial combiné. Cette croissance exponentielle depuis 2020 reflète les mesures de relance post-pandémie et l'inflation structurelle des économies développées.",
-      "source": "Institute of International Finance (IIF) - Juin 2026"
+      "chiffre": "2,3 billions USD",
+      "contexte": "Le marché mondial des cryptomonnaies a dépassé les 2,3 billions USD de capitalisation en juin 2026, dopé par l'adoption institutionnelle et la régulation progressive. Cette croissance reflète la maturation du secteur et son intégration croissante aux portefeuilles traditionnels.",
+      "source": "CoinMarketCap - Juin 2026"
     },
     "ephemeride": {
-      "evenement": "19 juin 1934 : Création de la Securities and Exchange Commission (SEC) aux États-Unis",
-      "impact": "La SEC a fondé la régulation moderne des marchés financiers, établissant les normes de transparence et de protection des investisseurs qui restent le modèle global après 92 ans."
+      "evenement": "19 juin 1934 - Création de la Securities and Exchange Commission (SEC) aux États-Unis",
+      "impact": "Cet organisme de régulation a révolutionné la protection des investisseurs et la transparence des marchés financiers, posant les fondations de la finance moderne."
     },
     "graphique_semaine": {
-      "titre": "Volatilité des cryptomonnaies vs indices actions (juin 2026)",
-      "description": "La semaine du 16-22 juin 2026 révèle une décorrelation croissante entre Bitcoin et les marchés traditionnels. Tandis que le S&P 500 progresse régulièrement (+1,8%), les actifs numériques oscillent fortement, reflétant l'adoption institutionnelle croissante mais la persistance de facteurs de spéculation.",
+      "titre": "Volatilité des taux d'intérêt directeurs mondiaux (juin 2026)",
+      "description": "Les banques centrales mondiales maintiennent une trajectoire de stagnation tarifaire face aux tensions inflationnistes persistantes. La Fed, la BCE et la Banque d'Angleterre restent en pause stratégique, observant les indicateurs de consommation. Cette stabilité apparente cache des divergences régionales croissantes entre économies développées et marchés émergents.",
       "donnees": [
         {
-          "label": "Lundi 16",
-          "valeur": 42500
+          "label": "Lundi 15",
+          "valeur": 4.25
         },
         {
-          "label": "Mardi 17",
-          "valeur": 41200
+          "label": "Mardi 16",
+          "valeur": 4.26
         },
         {
-          "label": "Mercredi 18",
-          "valeur": 43800
+          "label": "Mercredi 17",
+          "valeur": 4.25
         },
         {
-          "label": "Jeudi 19",
-          "valeur": 42100
+          "label": "Jeudi 18",
+          "valeur": 4.27
         },
         {
-          "label": "Vendredi 20",
-          "valeur": 44300
+          "label": "Vendredi 19",
+          "valeur": 4.26
         }
       ]
     }
