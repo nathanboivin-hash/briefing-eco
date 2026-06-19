@@ -27,6 +27,7 @@ body{height:100%;background:var(--paper);color:var(--ink);font-family:'Inter',sa
 .nav-title{font-family:'Playfair Display',serif;font-size:26px;color:#fff;font-weight:400;line-height:1}
 .nav-title em{font-style:italic;color:var(--accent2)}
 .nav-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+.nav-btns{display:flex;gap:8px;align-items:center}
 .btn-refresh{
   background:linear-gradient(135deg,var(--accent2),var(--accent));
   border:none;border-radius:24px;padding:8px 16px 8px 13px;
@@ -37,6 +38,15 @@ body{height:100%;background:var(--paper);color:var(--ink);font-family:'Inter',sa
 }
 .btn-refresh:disabled{opacity:.5;box-shadow:none}
 .btn-refresh .ic{font-size:12px}
+.btn-email{
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.22);
+  border-radius:24px;padding:7px 13px;
+  font-size:13px;color:rgba(255,255,255,0.7);
+  cursor:pointer;font-family:'Inter',sans-serif;
+  transition:opacity .15s;
+}
+.btn-email:disabled{opacity:.4;cursor:default}
 .nav-ts{font-size:10px;color:rgba(255,255,255,.25)}
 
 /* TABS */
@@ -64,6 +74,18 @@ body{height:100%;background:var(--paper);color:var(--ink);font-family:'Inter',sa
 .ts-line{text-align:center;font-size:10px;color:rgba(26,26,26,.2);letter-spacing:.08em;padding:14px 20px}
 .empty-note{padding:32px 20px;text-align:center;font-size:13px;color:var(--muted)}
 .alert-bar{margin:14px 20px 0;background:#fff3e0;border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:11px 15px;font-size:12px;color:#7a3a10;line-height:1.6}
+
+/* ACCROCHE */
+.accroche-block{padding:18px 20px 0}
+.accroche-text{font-family:'Playfair Display',serif;font-size:19px;font-weight:600;line-height:1.45;color:var(--ink);border-left:3px solid var(--accent2);padding-left:14px}
+.resume-block{padding:12px 20px 0}
+.resume-text{font-size:13.5px;line-height:1.8;color:#3a3530}
+.pts-grid{padding:4px 20px 0;display:flex;flex-direction:column;gap:0}
+.pt-card{border-bottom:1px solid var(--rule2);padding:14px 0}
+.pt-card:last-child{border-bottom:none}
+.pt-pill{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);background:rgba(181,96,42,0.08);border-radius:20px;padding:2px 9px;margin-bottom:6px}
+.pt-head{font-family:'Playfair Display',serif;font-size:14px;font-weight:600;color:var(--ink);margin-bottom:5px;line-height:1.4}
+.pt-detail{font-size:12px;color:var(--muted);line-height:1.7}
 
 /* QUICK LINKS */
 .quick-links{display:flex;gap:10px;padding:16px 20px 0}
@@ -100,18 +122,21 @@ a.art:active{background:var(--cream)}
 .met::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:var(--accent2);opacity:0.55}
 .met-label{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;display:flex;align-items:center;justify-content:space-between}
 .live-pill{display:flex;align-items:center;gap:3px;background:rgba(45,110,69,0.1);border-radius:10px;padding:1px 6px}
-.live-dot{width:5px;height:5px;border-radius:50%;background:var(--green)}
+.live-dot{width:5px;height:5px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 .live-text{font-size:8px;font-weight:700;color:var(--green);letter-spacing:.03em}
 .met-val{font-family:'Playfair Display',serif;font-size:19px;font-weight:600;color:var(--ink)}
 .met-chg{font-size:11.5px;font-weight:600;margin-top:5px;display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:8px}
 .up{background:rgba(45,110,69,0.1);color:var(--green)}.dn{background:rgba(192,57,43,0.1);color:var(--red)}.fl{color:var(--muted)}
+.met-loading{font-size:11px;color:var(--muted);margin-top:4px}
+.met-error{font-size:10px;color:var(--red);margin-top:4px}
 
 /* OAT CURVE */
 .curve-wrap{padding:16px 20px 0}
 .curve-box{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:18px;margin-bottom:12px;box-shadow:0 2px 6px rgba(26,26,26,0.04)}
 .curve-date{font-size:10px;color:var(--muted);text-align:right;margin-bottom:8px}
-.curve-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:12px}
-.curve-item{text-align:center;background:var(--paper);border-radius:8px;padding:8px 4px 6px}
+.curve-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-top:12px}
+.curve-item{text-align:center;background:var(--paper);border-radius:8px;padding:8px 3px 6px}
 .curve-mat{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:3px}
 .curve-rate{font-family:'Playfair Display',serif;font-size:14px;font-weight:600;color:var(--ink)}
 .curve-trend{font-size:10px;margin-top:2px}
@@ -121,8 +146,8 @@ a.art:active{background:var(--cream)}
 .evol-row{display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid var(--rule2)}
 .evol-row:last-child{border-bottom:none}
 .evol-mat{font-size:11px;font-weight:600;color:var(--ink);width:48px;flex-shrink:0}
-.evol-chart{flex:1;height:24px}
-.evol-vals{display:flex;align-items:baseline;gap:6px;width:74px;flex-shrink:0;justify-content:flex-end}
+.evol-chart{flex:1;height:24px;min-width:0}
+.evol-vals{display:flex;align-items:baseline;gap:6px;width:78px;flex-shrink:0;justify-content:flex-end}
 .evol-now{font-family:'Playfair Display',serif;font-size:13px;font-weight:600;color:var(--ink)}
 .evol-diff{font-size:10px;font-weight:600}
 
@@ -134,6 +159,19 @@ a.art:active{background:var(--cream)}
 .curio-text{font-size:13px;color:var(--muted);line-height:1.65}
 .curio-source{font-size:10px;color:var(--muted);margin-top:6px;font-style:italic}
 
+/* MODAL TOKEN */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:999;align-items:center;justify-content:center;padding:20px}
+.modal-overlay.open{display:flex}
+.modal-box{background:#fff;border-radius:16px;padding:24px;max-width:380px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.25)}
+.modal-title{font-family:'Playfair Display',serif;font-size:18px;color:var(--ink);margin-bottom:8px}
+.modal-body{font-size:12px;color:var(--muted);line-height:1.65;margin-bottom:16px}
+.modal-body strong{color:var(--ink)}
+.modal-input{width:100%;border:1px solid rgba(26,26,26,0.2);border-radius:8px;padding:10px 12px;font-size:13px;font-family:'Inter',sans-serif;outline:none;color:var(--ink);margin-bottom:12px}
+.modal-input:focus{border-color:var(--accent)}
+.modal-btns{display:flex;gap:8px}
+.modal-btn-primary{flex:1;background:var(--ink);color:#fff;border:none;border-radius:8px;padding:11px;font-size:13px;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif}
+.modal-btn-secondary{flex:1;background:transparent;color:var(--muted);border:1px solid rgba(26,26,26,0.15);border-radius:8px;padding:11px;font-size:13px;cursor:pointer;font-family:'Inter',sans-serif}
+
 /* RESPONSIVE PC */
 @media(min-width:768px){
   body{overflow:auto;position:static}
@@ -143,8 +181,19 @@ a.art:active{background:var(--cream)}
   .met-grid{grid-template-columns:repeat(3,1fr)}
   a.art:hover{background:var(--cream)}
   .qlink:hover{background:var(--cream)}
+  .sum-text{font-size:17px}
+  .art-title{font-size:16px}
 }
 @media(min-width:1100px){.met-grid{grid-template-columns:repeat(4,1fr)}}
+
+/* Petits ecrans : OAT curve plus compacte */
+@media(max-width:390px){
+  .curve-rate{font-size:12px}
+  .curve-item{padding:6px 2px 4px}
+  .curve-mat{font-size:8px}
+  .evol-mat{font-size:10px;width:42px}
+  .evol-now{font-size:12px}
+}
 </style>
 </head>
 <body>
@@ -156,7 +205,10 @@ a.art:active{background:var(--cream)}
         <div class="nav-title">Morning <em>Brief</em></div>
       </div>
       <div class="nav-right">
-        <button class="btn-refresh" id="rbtn" onclick="loadBriefing()"><span class="ic">↻</span><span id="rbtn-text">Actualiser</span></button>
+        <div class="nav-btns">
+          <button class="btn-email" id="ebtn" onclick="triggerSendEmail()" title="Regenerer et envoyer le brief par email">&#9993;</button>
+          <button class="btn-refresh" id="rbtn" onclick="loadBriefing()"><span class="ic">&#8635;</span><span id="rbtn-text">Actualiser</span></button>
+        </div>
         <div class="nav-ts" id="hts"></div>
       </div>
     </div>
@@ -176,11 +228,31 @@ a.art:active{background:var(--cream)}
   <div class="cnt" id="cnt"></div>
 </div>
 
+<!-- Modal configuration token GitHub -->
+<div class="modal-overlay" id="token-modal">
+  <div class="modal-box">
+    <div class="modal-title">Envoyer le brief</div>
+    <div class="modal-body">
+      Un token GitHub avec la permission <strong>workflow</strong> est necessaire pour declencher la generation.<br><br>
+      Sur GitHub : <strong>Settings &rarr; Developer settings &rarr; Personal access tokens &rarr; Tokens (classic) &rarr; Generate new token</strong>, cocher <strong>workflow</strong>.
+    </div>
+    <input class="modal-input" id="gh-token-input" type="password" placeholder="ghp_...">
+    <div class="modal-btns">
+      <button class="modal-btn-primary" onclick="saveGhToken()">Enregistrer et envoyer</button>
+      <button class="modal-btn-secondary" onclick="closeTokenModal()">Annuler</button>
+    </div>
+  </div>
+</div>
+
 <script>
 var B = null;
 var tab = 's';
 var favorites = JSON.parse(localStorage.getItem('mb_favorites') || '[]');
 var liveMetrics = {};
+var liveErrors = {};
+
+var GH_REPO = 'nathanboivin-hash/briefing-eco';
+var GH_WORKFLOW = 'briefing.yml';
 
 var dn = new Date();
 var DAYS=['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'];
@@ -245,76 +317,112 @@ function artList(key) {
   return list.map(artCard).join('');
 }
 
+/* ── INDICES BOURSIERS EN TEMPS REEL ── */
 var TICKERS = {
   'CAC 40':       {sym:'^FCHI',      stooq:'^cac',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
   'Eurostoxx 50': {sym:'^STOXX50E',  stooq:'^stoxx50e', fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
   'S&P 500':      {sym:'^GSPC',      stooq:'^spx',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
   'Nasdaq':       {sym:'^IXIC',      stooq:'^ndq',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
   'EUR/USD':      {sym:'EURUSD=X',   stooq:'eurusd',    fmt: function(v){return v.toFixed(4);}},
-  'Brent':        {sym:'BZ=F',       stooq:'cb.f',      fmt: function(v){return v.toFixed(1)+' $';}},
+  'Brent':        {sym:'BZ=F',       stooq:'lcob.f',    fmt: function(v){return v.toFixed(1)+' $';}},
   'Or':           {sym:'GC=F',       stooq:'xauusd',    fmt: function(v){return Math.round(v).toLocaleString('fr-FR')+' $';}}
 };
 
-function fetchYahooChart(label, cfg) {
-  var url = 'https://query1.finance.yahoo.com/v8/finance/chart/'+encodeURIComponent(cfg.sym)+'?interval=1d&range=2d';
-  return fetch(url)
-    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
-    .then(function(data){
-      var result = data.chart && data.chart.result && data.chart.result[0];
-      if (!result) throw new Error('no result');
-      var meta = result.meta;
-      var price = meta.regularMarketPrice;
-      var prev = meta.previousClose || meta.chartPreviousClose;
-      if (!price || !prev) throw new Error('no price');
-      var pct = (price - prev) / prev * 100;
-      var dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
-      liveMetrics[label] = {value: cfg.fmt(price), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
-      if (tab === 'm') renderBrief('m');
-    });
+function fetchYahoo(label, cfg) {
+  /* Essaie query1 puis query2 si 401/403 */
+  function tryHost(host) {
+    var url = 'https://'+host+'.finance.yahoo.com/v8/finance/chart/'+encodeURIComponent(cfg.sym)+'?interval=1d&range=5d';
+    return fetch(url, {headers:{'Accept':'application/json'}})
+      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(function(data){
+        var result = data.chart && data.chart.result && data.chart.result[0];
+        if (!result) throw new Error('no result');
+        var meta = result.meta;
+        var price = meta.regularMarketPrice;
+        var prev = meta.previousClose || meta.chartPreviousClose || meta.regularMarketPreviousClose;
+        if (!price || !prev) throw new Error('no price');
+        var pct = (price - prev) / prev * 100;
+        var dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
+        return {value: cfg.fmt(price), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
+      });
+  }
+  return tryHost('query1').catch(function(){ return tryHost('query2'); });
 }
 
-function fetchStooqFallback(label, cfg) {
+function fetchStooq(label, cfg) {
   if (!cfg.stooq) return Promise.reject(new Error('no stooq symbol'));
+  /* Format CSV Stooq avec f=sd2t2ohlcv : Symbol,Date,Time,Open,High,Low,Close,Volume */
   var url = 'https://stooq.com/q/l/?s='+cfg.stooq+'&f=sd2t2ohlcv&h&e=csv';
   return fetch(url)
-    .then(function(r){ return r.text(); })
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.text(); })
     .then(function(text){
-      var lines = text.trim().split(String.fromCharCode(10));
+      var lines = text.trim().split('\n');
       if (lines.length < 2) throw new Error('empty csv');
       var vals = lines[1].split(',');
-      var close = parseFloat(vals[4]);
-      var open = parseFloat(vals[3]);
-      if (!close || close <= 0) throw new Error('bad price');
-      var pct = (close - open) / open * 100;
+      /* index: 0=Symbol 1=Date 2=Time 3=Open 4=High 5=Low 6=Close 7=Volume */
+      var closePrice = parseFloat(vals[6]);
+      var openPrice  = parseFloat(vals[3]);
+      if (!closePrice || closePrice <= 0) throw new Error('bad price: '+vals[6]);
+      var pct = (closePrice - openPrice) / openPrice * 100;
       var dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
-      liveMetrics[label] = {value: cfg.fmt(close), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
-      if (tab === 'm') renderBrief('m');
+      return {value: cfg.fmt(closePrice), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
     });
 }
 
 function fetchLiveMetric(label) {
   var cfg = TICKERS[label];
   if (!cfg) return Promise.resolve();
-  return fetchYahooChart(label, cfg)
+  return fetchYahoo(label, cfg)
     .catch(function(e){
-      console.log('Yahoo '+label+' failed, trying Stooq:', e.message);
-      return fetchStooqFallback(label, cfg).catch(function(e2){
-        console.log('Stooq '+label+' also failed:', e2.message);
-      });
+      console.log('Yahoo '+label+' echec ('+e.message+'), essai Stooq...');
+      return fetchStooq(label, cfg);
+    })
+    .then(function(data){
+      liveMetrics[label] = data;
+      delete liveErrors[label];
+      if (tab === 'm') refreshMetCard(label);
+    })
+    .catch(function(e){
+      console.log(label+' indisponible:', e.message);
+      liveErrors[label] = true;
+      if (tab === 'm') refreshMetCard(label);
     });
 }
+
 function fetchAllLiveMetrics() {
-  return Promise.all(Object.keys(TICKERS).map(fetchLiveMetric));
+  Object.keys(TICKERS).forEach(fetchLiveMetric);
+}
+
+function refreshMetCard(label) {
+  /* Mise a jour en place sans re-render complet de l'onglet */
+  var cards = document.querySelectorAll('.met[data-label]');
+  cards.forEach(function(card){
+    if(card.getAttribute('data-label') === label) {
+      card.outerHTML = metCard(label);
+    }
+  });
+  /* Si pas trouve (premier rendu), re-render complet */
+  if(!document.querySelector('.met[data-label="'+label+'"]')) {
+    if(tab === 'm') renderBrief('m');
+  }
 }
 
 function metCard(label) {
   var live = liveMetrics[label];
-  var val = live ? live.value : '<span style="font-size:12px;color:var(--muted)">...</span>';
-  var chg = live ? live.change : '';
-  var dir = live ? (live.dir==='up'?'up':live.dir==='down'?'dn':'fl') : 'fl';
-  var arrow = live ? (live.dir==='up'?'\u2191 ':live.dir==='down'?'\u2193 ':'') : '';
+  var err  = liveErrors[label];
+  var valHtml, chgHtml = '';
+  if (live) {
+    valHtml = live.value;
+    var dir = live.dir==='up'?'up':live.dir==='down'?'dn':'fl';
+    var arrow = live.dir==='up'?'↑ ':live.dir==='down'?'↓ ':'';
+    chgHtml = '<div class="met-chg '+dir+'">'+arrow+live.change+'</div>';
+  } else if (err) {
+    valHtml = '<span style="font-size:13px;color:var(--muted)">N/D</span>';
+  } else {
+    valHtml = '<span class="met-loading">...</span>';
+  }
   var pip = live ? '<span class="live-pill"><span class="live-dot"></span><span class="live-text">LIVE</span></span>' : '';
-  return '<div class="met"><div class="met-label">'+label+pip+'</div><div class="met-val">'+val+'</div>'+(chg?'<div class="met-chg '+dir+'">'+arrow+chg+'</div>':'')+'</div>';
+  return '<div class="met" data-label="'+label+'"><div class="met-label"><span>'+label+'</span>'+pip+'</div><div class="met-val">'+valHtml+'</div>'+chgHtml+'</div>';
 }
 
 function renderOat(curve) {
@@ -332,7 +440,6 @@ function renderOat(curve) {
     function xFor(i){ return padL + (i/(valid.length-1))*plotW; }
     function yFor(v){ return padT + plotH - ((v-minR)/(maxR-minR))*plotH; }
 
-    // Horizontal grid lines with value labels (4 lines)
     var gridLines='', gridLabels='';
     for (var g=0; g<=3; g++){
       var gv = minR + (g/3)*(maxR-minR);
@@ -342,8 +449,6 @@ function renderOat(curve) {
     }
 
     var pts=valid.map(function(p,i){ return xFor(i).toFixed(1)+','+yFor(p.rate).toFixed(1); }).join(' ');
-
-    // Area fill under the line
     var areaPts = pts + ' ' + xFor(valid.length-1).toFixed(1)+','+(padT+plotH).toFixed(1) + ' ' + xFor(0).toFixed(1)+','+(padT+plotH).toFixed(1);
 
     var dots = valid.map(function(p,i){
@@ -377,10 +482,9 @@ function renderOat(curve) {
       var sparkColor = p.trend==='up' ? '#c0392b' : p.trend==='down' ? '#2d6e45' : '#9a958c';
       spark = '<svg class="curve-spark" viewBox="0 0 60 16" preserveAspectRatio="none"><polyline points="'+hpts+'" fill="none" stroke="'+sparkColor+'" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/></svg>';
     }
-    return '<div class="curve-item"><div class="curve-mat">'+p.maturity+'</div><div class="curve-rate">'+(p.rate!==null?p.rate.toFixed(2)+'%':'-')+'</div><div>'+arrow+'</div><div class="curve-diff">'+diff+'</div>'+spark+'</div>';
+    return '<div class="curve-item"><div class="curve-mat">'+p.maturity+'</div><div class="curve-rate">'+(p.rate!==null?p.rate.toFixed(2)+'%':'-')+'</div><div class="curve-trend">'+arrow+'</div><div style="font-size:9px;color:var(--muted)">'+diff+'</div>'+spark+'</div>';
   }).join('');
 
-  // Evolution block: full-width row per maturity, larger sparkline + first/last value
   var evolRows = curve.filter(function(p){ return p.history && p.history.length >= 3; }).map(function(p){
     var hv = p.history;
     var hmin=Math.min.apply(null,hv), hmax=Math.max.apply(null,hv);
@@ -419,22 +523,32 @@ function renderQuickLinks() {
     return '<a class="qlink" href="'+q.url+'" target="_blank"><img class="qlink-logo" src="'+q.logo+'" alt=""><div class="qlink-label">'+q.label+'</div><div class="qlink-sub">'+q.sub+'</div></a>';
   }).join('') + '</div>';
 }
+
 function renderBrief(t) {
   var el=document.getElementById('cnt');
   if(!B){showSkel();return;}
   if(t==='s'){
-    var pts='';
-    (B.synthese&&B.synthese.points?B.synthese.points:[]).forEach(function(p){
-      var parts=(p.titre||'').split(' - ');
-      var lbl=parts.length>1?parts[0].trim():'';
-      var rest=parts.length>1?parts.slice(1).join(' - ').trim():p.titre;
-      pts+='<div class="pt-item"><div class="pt-label">'+lbl+'</div><div class="pt-title">'+rest+'</div><div class="pt-body">'+(p.detail||'')+'</div></div>';
-    });
-    el.innerHTML=(B.alerte?'<div class="alert-bar">'+B.alerte+'</div>':'')+
-      renderQuickLinks()+
-      '<div class="sum-block"><div class="sum-text">'+(B.synthese&&B.synthese.resume?B.synthese.resume:'')+'</div></div>'+
-      '<div class="sec-rule">Points cles</div>'+pts+
-      '<div class="ts-line">Genere le '+(B.timestamp||'')+'</div>';
+    var syn = B.synthese || {};
+    var accroche = syn.accroche || '';
+    var resume   = syn.resume   || '';
+    var points   = syn.points   || [];
+    var pts = points.map(function(p){
+      var parts = (p.titre||'').split(' - ');
+      var lbl  = parts.length>1 ? parts[0].trim() : '';
+      var head = parts.length>1 ? parts.slice(1).join(' - ').trim() : p.titre;
+      return '<div class="pt-card">'
+        +(lbl?'<div class="pt-pill">'+lbl+'</div>':'')
+        +'<div class="pt-head">'+head+'</div>'
+        +'<div class="pt-detail">'+(p.detail||'')+'</div>'
+        +'</div>';
+    }).join('');
+    el.innerHTML=''
+      +(B.alerte?'<div class="alert-bar">'+B.alerte+'</div>':'')
+      +(accroche?'<div class="accroche-block"><div class="accroche-text">'+accroche+'</div></div>':'')
+      +(resume?'<div class="resume-block"><div class="resume-text">'+resume+'</div></div>':'')
+      +(pts?'<div class="sec-rule" style="padding-top:20px">Points cles</div><div class="pts-grid">'+pts+'</div>':'')
+      +renderQuickLinks()
+      +'<div class="ts-line">Genere le '+(B.timestamp||'')+'</div>';
   }
   else if(t==='m'){
     var labels = Object.keys(TICKERS);
@@ -493,12 +607,69 @@ function loadBriefing() {
       fetchAllLiveMetrics();
     })
     .catch(function(){
-      document.getElementById('cnt').innerHTML='<div class="empty-note" style="padding:48px 20px"><div style="font-family:Georgia,serif;font-size:20px;margin-bottom:10px">Pas encore de briefing</div><div style="line-height:1.7">GitHub -> Actions -> Run workflow</div></div>';
+      document.getElementById('cnt').innerHTML='<div class="empty-note" style="padding:48px 20px"><div style="font-family:Georgia,serif;font-size:20px;margin-bottom:10px">Pas encore de briefing</div><div style="line-height:1.7">GitHub &rarr; Actions &rarr; Run workflow</div></div>';
     })
     .finally(function(){
       document.getElementById('rbtn').disabled=false;
       document.getElementById('rbtn-text').textContent='Actualiser';
     });
+}
+
+/* ── BOUTON EMAIL / TRIGGER WORKFLOW ── */
+function triggerSendEmail() {
+  var token = localStorage.getItem('mb_ghtoken');
+  if (!token) {
+    document.getElementById('token-modal').classList.add('open');
+    setTimeout(function(){ document.getElementById('gh-token-input').focus(); }, 100);
+    return;
+  }
+  doTriggerWorkflow(token);
+}
+
+function saveGhToken() {
+  var token = document.getElementById('gh-token-input').value.trim();
+  if (!token) return;
+  localStorage.setItem('mb_ghtoken', token);
+  closeTokenModal();
+  doTriggerWorkflow(token);
+}
+
+function closeTokenModal() {
+  document.getElementById('token-modal').classList.remove('open');
+  document.getElementById('gh-token-input').value = '';
+}
+
+function doTriggerWorkflow(token) {
+  var btn = document.getElementById('ebtn');
+  btn.disabled = true;
+  btn.textContent = '...';
+  fetch('https://api.github.com/repos/'+GH_REPO+'/actions/workflows/'+GH_WORKFLOW+'/dispatches', {
+    method: 'POST',
+    headers: {
+      'Authorization': 'Bearer '+token,
+      'Accept': 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ref: 'main'})
+  })
+  .then(function(r){
+    if (r.status === 204) {
+      btn.textContent = '✓';
+      setTimeout(function(){ btn.textContent = '✉'; btn.disabled = false; }, 3000);
+    } else if (r.status === 401 || r.status === 403) {
+      localStorage.removeItem('mb_ghtoken');
+      btn.textContent = '✉';
+      btn.disabled = false;
+      alert('Token invalide ou expire. Clique a nouveau pour le reconfigurer.');
+    } else {
+      btn.textContent = '✉';
+      btn.disabled = false;
+    }
+  })
+  .catch(function(){
+    btn.textContent = '✉';
+    btn.disabled = false;
+  });
 }
 
 loadBriefing();
