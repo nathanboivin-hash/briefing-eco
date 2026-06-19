@@ -97,7 +97,7 @@ body{height:100%;background:var(--paper);color:var(--ink);font-family:'Inter',sa
 
 /* ARTICLES */
 .art-rule{font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:16px 20px 8px}
-.art{display:block;color:inherit;text-decoration:none;background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:15px 16px;margin:0 20px 10px;position:relative;box-shadow:0 1px 3px rgba(26,26,26,0.03)}
+.art{display:block;color:inherit;text-decoration:none;padding:14px 20px;border-bottom:1px solid var(--rule2);position:relative;background:transparent}
 a.art:active{background:var(--cream)}
 .art-meta{display:flex;align-items:center;gap:6px;margin-bottom:8px;flex-wrap:wrap}
 .badge{font-size:9px;font-weight:600;letter-spacing:.04em;padding:3px 9px;border-radius:20px}
@@ -319,29 +319,59 @@ function artList(key) {
 
 /* ── INDICES BOURSIERS EN TEMPS REEL ── */
 var TICKERS = {
-  'CAC 40':       {sym:'^FCHI',      stooq:'^cac',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
-  'Eurostoxx 50': {sym:'^STOXX50E',  stooq:'^stoxx50e', fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
-  'S&P 500':      {sym:'^GSPC',      stooq:'^spx',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
-  'Nasdaq':       {sym:'^IXIC',      stooq:'^ndq',      fmt: function(v){return Math.round(v).toLocaleString('fr-FR');}},
-  'EUR/USD':      {sym:'EURUSD=X',   stooq:'eurusd',    fmt: function(v){return v.toFixed(4);}},
-  'Brent':        {sym:'BZ=F',       stooq:'lcob.f',    fmt: function(v){return v.toFixed(1)+' $';}},
-  'Or':           {sym:'GC=F',       stooq:'xauusd',    fmt: function(v){return Math.round(v).toLocaleString('fr-FR')+' $';}}
+  'CAC 40':       {sym:'^FCHI',     stooq:'^cac',     fmt:function(v){return Math.round(v).toLocaleString('fr-FR');}},
+  'Eurostoxx 50': {sym:'^STOXX50E', stooq:'^stoxx50e',fmt:function(v){return Math.round(v).toLocaleString('fr-FR');}},
+  'S&P 500':      {sym:'^GSPC',     stooq:'^spx',     fmt:function(v){return Math.round(v).toLocaleString('fr-FR');}},
+  'Nasdaq':       {sym:'^IXIC',     stooq:'^ndq',     fmt:function(v){return Math.round(v).toLocaleString('fr-FR');}},
+  'EUR/USD':      {sym:'EURUSD=X',  stooq:'eurusd',   fmt:function(v){return v.toFixed(4);}, frankfurter:true},
+  'Brent':        {sym:'BZ=F',      stooq:'cb.f',     fmt:function(v){return v.toFixed(1)+' $';}},
+  'Or':           {sym:'GC=F',      stooq:'xauusd',   fmt:function(v){return Math.round(v).toLocaleString('fr-FR')+' $';}}
 };
 
-function fetchYahoo(label, cfg) {
-  /* Essaie query1 puis query2 si 401/403 */
+/* Niveau 1 : Frankfurter (EUR/USD uniquement, 100% fiable, CORS natif) */
+function fetchFrankfurter() {
+  return fetch('https://api.frankfurter.app/latest?from=EUR&to=USD')
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(function(d){
+      var rate = d.rates && d.rates.USD;
+      if(!rate) throw new Error('no rate');
+      /* Frankfurter ne donne pas le cours de la veille — on affiche juste la valeur */
+      return {value: rate.toFixed(4), change: '', dir: 'flat', noChange: true};
+    });
+}
+
+/* Niveau 2 : Yahoo Finance v7 (quote endpoint, moins restrictif que v8) */
+function fetchYahooV7(cfg) {
+  var url = 'https://query1.finance.yahoo.com/v7/finance/quote?symbols='+encodeURIComponent(cfg.sym)+'&fields=regularMarketPrice,regularMarketPreviousClose,regularMarketChangePercent';
+  return fetch(url, {credentials:'omit'})
+    .then(function(r){ if(!r.ok) throw new Error('v7 '+r.status); return r.json(); })
+    .then(function(d){
+      var res = d.quoteResponse && d.quoteResponse.result && d.quoteResponse.result[0];
+      if(!res) throw new Error('no result');
+      var price = res.regularMarketPrice;
+      var pct   = res.regularMarketChangePercent;
+      var prev  = res.regularMarketPreviousClose;
+      if(!price) throw new Error('no price');
+      if(pct === undefined || pct === null) pct = prev ? (price-prev)/prev*100 : 0;
+      var dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
+      return {value: cfg.fmt(price), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
+    });
+}
+
+/* Niveau 3 : Yahoo Finance v8 (chart endpoint, query1 puis query2) */
+function fetchYahooV8(cfg) {
   function tryHost(host) {
     var url = 'https://'+host+'.finance.yahoo.com/v8/finance/chart/'+encodeURIComponent(cfg.sym)+'?interval=1d&range=5d';
-    return fetch(url, {headers:{'Accept':'application/json'}})
-      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
-      .then(function(data){
-        var result = data.chart && data.chart.result && data.chart.result[0];
-        if (!result) throw new Error('no result');
-        var meta = result.meta;
+    return fetch(url, {credentials:'omit'})
+      .then(function(r){ if(!r.ok) throw new Error('v8 '+host+' '+r.status); return r.json(); })
+      .then(function(d){
+        var res = d.chart && d.chart.result && d.chart.result[0];
+        if(!res) throw new Error('no result');
+        var meta  = res.meta;
         var price = meta.regularMarketPrice;
-        var prev = meta.previousClose || meta.chartPreviousClose || meta.regularMarketPreviousClose;
-        if (!price || !prev) throw new Error('no price');
-        var pct = (price - prev) / prev * 100;
+        var prev  = meta.previousClose || meta.chartPreviousClose || meta.regularMarketPreviousClose;
+        if(!price || !prev) throw new Error('no price');
+        var pct = (price-prev)/prev*100;
         var dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
         return {value: cfg.fmt(price), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
       });
@@ -349,44 +379,48 @@ function fetchYahoo(label, cfg) {
   return tryHost('query1').catch(function(){ return tryHost('query2'); });
 }
 
-function fetchStooq(label, cfg) {
-  if (!cfg.stooq) return Promise.reject(new Error('no stooq symbol'));
-  /* Format CSV Stooq avec f=sd2t2ohlcv : Symbol,Date,Time,Open,High,Low,Close,Volume */
+/* Niveau 4 : Stooq CSV (Symbol,Date,Time,Open,High,Low,Close,Volume → index 6 = Close) */
+function fetchStooq(cfg) {
+  if(!cfg.stooq) return Promise.reject(new Error('no stooq'));
   var url = 'https://stooq.com/q/l/?s='+cfg.stooq+'&f=sd2t2ohlcv&h&e=csv';
-  return fetch(url)
-    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.text(); })
+  return fetch(url, {credentials:'omit'})
+    .then(function(r){ if(!r.ok) throw new Error('stooq '+r.status); return r.text(); })
     .then(function(text){
       var lines = text.trim().split('\n');
-      if (lines.length < 2) throw new Error('empty csv');
+      if(lines.length < 2) throw new Error('empty csv');
       var vals = lines[1].split(',');
-      /* index: 0=Symbol 1=Date 2=Time 3=Open 4=High 5=Low 6=Close 7=Volume */
-      var closePrice = parseFloat(vals[6]);
-      var openPrice  = parseFloat(vals[3]);
-      if (!closePrice || closePrice <= 0) throw new Error('bad price: '+vals[6]);
-      var pct = (closePrice - openPrice) / openPrice * 100;
+      var close = parseFloat(vals[6]);
+      var open  = parseFloat(vals[3]);
+      if(!close || close <= 0) throw new Error('bad close: '+vals[6]);
+      var pct = open > 0 ? (close-open)/open*100 : 0;
       var dir = pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat';
-      return {value: cfg.fmt(closePrice), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
+      return {value: cfg.fmt(close), change: (pct>0?'+':'')+pct.toFixed(2)+'%', dir: dir};
     });
 }
 
 function fetchLiveMetric(label) {
   var cfg = TICKERS[label];
-  if (!cfg) return Promise.resolve();
-  return fetchYahoo(label, cfg)
-    .catch(function(e){
-      console.log('Yahoo '+label+' echec ('+e.message+'), essai Stooq...');
-      return fetchStooq(label, cfg);
-    })
-    .then(function(data){
-      liveMetrics[label] = data;
-      delete liveErrors[label];
-      if (tab === 'm') refreshMetCard(label);
-    })
-    .catch(function(e){
-      console.log(label+' indisponible:', e.message);
-      liveErrors[label] = true;
-      if (tab === 'm') refreshMetCard(label);
-    });
+  if(!cfg) return;
+  var chain;
+  if(cfg.frankfurter) {
+    chain = fetchFrankfurter()
+      .catch(function(){ return fetchYahooV7(cfg); })
+      .catch(function(){ return fetchYahooV8(cfg); })
+      .catch(function(){ return fetchStooq(cfg); });
+  } else {
+    chain = fetchYahooV7(cfg)
+      .catch(function(){ return fetchYahooV8(cfg); })
+      .catch(function(){ return fetchStooq(cfg); });
+  }
+  chain.then(function(data){
+    liveMetrics[label] = data;
+    delete liveErrors[label];
+    if(tab === 'm') renderBrief('m');
+  }).catch(function(e){
+    console.warn(label+' tous les sources ont echoue:', e.message);
+    liveErrors[label] = true;
+    if(tab === 'm') renderBrief('m');
+  });
 }
 
 function fetchAllLiveMetrics() {
@@ -415,7 +449,7 @@ function metCard(label) {
     valHtml = live.value;
     var dir = live.dir==='up'?'up':live.dir==='down'?'dn':'fl';
     var arrow = live.dir==='up'?'↑ ':live.dir==='down'?'↓ ':'';
-    chgHtml = '<div class="met-chg '+dir+'">'+arrow+live.change+'</div>';
+    chgHtml = live.change ? '<div class="met-chg '+dir+'">'+arrow+live.change+'</div>' : '';
   } else if (err) {
     valHtml = '<span style="font-size:13px;color:var(--muted)">N/D</span>';
   } else {
@@ -543,7 +577,7 @@ function renderBrief(t) {
         +'</div>';
     }).join('');
     el.innerHTML=''
-      +(B.alerte?'<div class="alert-bar">'+B.alerte+'</div>':'')
+      +(B.alerte && typeof B.alerte === 'string' && B.alerte.trim() ? '<div class="alert-bar">'+B.alerte+'</div>' : '')
       +(accroche?'<div class="accroche-block"><div class="accroche-text">'+accroche+'</div></div>':'')
       +(resume?'<div class="resume-block"><div class="resume-text">'+resume+'</div></div>':'')
       +(pts?'<div class="sec-rule" style="padding-top:20px">Points cles</div><div class="pts-grid">'+pts+'</div>':'')
