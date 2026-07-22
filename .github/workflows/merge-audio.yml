@@ -25,16 +25,18 @@ jobs:
 
 
     - name: Create file list
-      run: |
-        ls morning-brief-*.mp3 | sort > files.txt
+  run: |
+    for f in $(ls morning-brief-*.mp3 | sort -V); do
+      echo "file '$f'" >> files.txt
+    done
 
 
-    - name: Merge MP3 files
-      run: |
-        ffmpeg -f concat -safe 0 \
-        -i <(sed 's/^/file "/;s/$/"/' files.txt) \
-        -c copy \
-        morning-brief.mp3
+- name: Merge MP3 files
+  run: |
+    ffmpeg -f concat -safe 0 \
+    -i files.txt \
+    -c copy \
+    morning-brief.mp3
 
 
     - name: Commit merged audio
