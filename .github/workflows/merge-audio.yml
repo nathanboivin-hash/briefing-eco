@@ -1,4 +1,7 @@
- workflow_dispatch:
+name: Merge Morning Brief Audio
+
+on:
+  workflow_dispatch:
   push:
     paths:
       - "morning-brief-*.mp3"
