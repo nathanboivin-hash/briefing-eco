@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0">
+<channel>
+
+<title>Morning Brief Économique</title>
+
+<link>
+https://nathanboivin-hash.github.io/briefing-eco/
+</link>
+
+<description>
+Brief économique quotidien généré automatiquement
+</description>
+
+<language>fr-fr</language>
+
+
+<item>
+
+<title>
+Morning Brief du jour
+</title>
+
+<description>
+Résumé économique quotidien
+</description>
+
+<enclosure 
+url=https://drive.google.com/file/d/1rkAHQWK__vPH-5MB_-hPtzL7MJUxEgkm/view
+type="audio/mpeg" />
+
+<guid>
+morning-brief-du-jour
+</guid>
+
+</item>
+
+
+</channel>
+</rss>
