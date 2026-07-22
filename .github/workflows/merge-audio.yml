@@ -37,12 +37,17 @@ jobs:
           echo "file '$f'" >> files.txt
         done
 
-        echo "Fichiers utilisés :"
+        echo "Liste utilisée :"
         cat files.txt
 
 
-    - name: Inspect audio files
+    - name: Inspect files
       run: |
+        echo "Fichiers MP3 présents :"
+        ls -lh morning-brief-*.mp3
+
+        echo "Durées :"
+
         for f in morning-brief-*.mp3; do
           echo "---- $f ----"
           ffprobe -i "$f" \
@@ -52,7 +57,7 @@ jobs:
         done
 
 
-    - name: Merge MP3 files
+    - name: Merge MP3
       run: |
         ffmpeg \
         -f concat \
@@ -60,11 +65,14 @@ jobs:
         -i files.txt \
         -c:a libmp3lame \
         -b:a 128k \
+        -y \
         morning-brief.mp3
 
 
-    - name: Check final MP3
+    - name: Verify output
       run: |
+        echo "Fichier final :"
+
         ls -lh morning-brief.mp3
 
         echo "Durée finale :"
@@ -76,24 +84,28 @@ jobs:
         -of csv="p=0"
 
 
-    - name: Commit merged audio
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+    - name: Publish file
       run: |
+
+        echo "Etat Git avant commit :"
+
+        git status
+
+
+        git add morning-brief.mp3
+
+
+        echo "Etat Git après ajout :"
+
+        git status
+
 
         git config user.name "github-actions[bot]"
 
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
 
-        git add morning-brief.mp3
+        git commit -m "Update morning brief audio" || echo "Aucun changement"
 
 
-        git commit \
-        -m "Update Morning Brief MP3" || echo "Aucun changement"
-
-
-        git push \
-        https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git \
-        HEAD:${{ github.ref }}
+        git push origin HEAD
