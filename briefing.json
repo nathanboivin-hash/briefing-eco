@@ -1,39 +1,528 @@
-name: Générer le briefing
-
-on:
-  schedule:
-    - cron: '0 5 * * 1-5'  # 7h Paris (UTC+2 heure ete)
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install anthropic requests
-
-      - name: Générer le briefing
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
-        run: python generate.py
-
-      - name: Commit et push briefing.json
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add briefing.json synthese_audio.txt
-          git diff --staged --quiet || git commit -m "Briefing $(date '+%d/%m/%Y %H:%M')"
-          git push
+{
+  "timestamp": "12h44 le 22/07/2026",
+  "alerte": "Fragilité budgétaire française + tensions commerciales Trump + décollecte massive Livret A = reconfiguration rapide du landscape crédit domestique",
+  "synthese": {
+    "resume": "La France affronte simultanément trois chocs : le ministre Lecornu qualifie la dette/déficit de 'préoccupant, grave même' pour 2027, déclenchant l'adoption parlementaire de mesures agricoles controversées tandis que Trump menace 100% de droits sur médicaments génériques (août 2028), reconfigurant les chaînes d'approvisionnement. Le Livret A enregistre son pire semestre depuis 2009, signalant une décollecte massive malgré des hausses tarifaires annoncées. Parallèlement, Microsoft engage 'plusieurs milliards' avec Mistral AI pour souveraineté européenne, et l'inflation britannique ralentit à 2,6%, créant divergences de politique monétaire BCE-BoE critiques.",
+    "points": [
+      {
+        "titre": "Obligations - Spread OAT/Bund sous pression budgétaire française",
+        "detail": "Budget 2027 jugé 'grave' par Lecornu (art.24) amplifie les craintes sur soutenabilité dette FR. Décollecte Livret A (pire semestre 2009, art.8) et LDDS signalent fuite des dépôts vers actifs risqués/étrangers. La BCE critiquée (art.4) pour asphyxie finances publiques après encouragement endettement : risque d'élargissement spread OAT-Bund à court terme si marché reprcie déficit structurel FR.",
+        "impact": "Surveillance OAT 10Y - pression haussière probable si votes parlementaires déçoivent sur mesures structurelles"
+      },
+      {
+        "titre": "Change - Yen propulsé par hawkishness BoJ face à ralentissement EUR",
+        "detail": "Inflation UK à 2,6% (art.88) vs 2% cible BoE : divergence avec trajectoire BCE plus accommodante. JPY porté par 'informations de presse' haussières (art.84), signal de tightening BoJ imminent. EUR/JPY sous pression structurelle dans context d'incertitude budgétaire française et baisse taux réels euro-zone.",
+        "impact": "EUR/JPY break niveaux clés - positif porteurs USD et JPY hedge"
+      },
+      {
+        "titre": "Crédits - Risque bancaire France fragmenté selon Oudéa (Société Générale)",
+        "detail": "Oudéa dénonce 'système bancaire fragmenté' européen (art.52) : implication directe sur risque crédit corporates FR. Médiation crédit avec saisines 'en berne' (art.62) malgré défaillances historiques signale inefficacité mécanismes soutien. Secteur bancaire historique tente réinvention (art.5) face fintech - margin compression probable.",
+        "impact": "Surveiller écarts CDS corporates FR mid-cap ; credit selection critique"
+      },
+      {
+        "titre": "Pétrole - Tensions ME élèvent Brent >95$/bbl, impact inflation",
+        "detail": "Guerre Moyen-Orient propulse pétrole >95$, gaz au plus haut depuis mars (art.71) : transmission inflationniste directe sur transport/énergie FR. Accord US-Arabie Saoudite sur nucléaire serait 'coup dur pour Israël' (art.57) - risque escalade géopolitique. Inflation énergie erode marges distributers/transport français.",
+        "impact": "Pétrole >95$ crée tailwinds inflation CPI juillet-août ; probabilité hausse taux BCE baisse"
+      }
+    ]
+  },
+  "marches": {
+    "metrics": [],
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h00",
+        "titre": "Pire semestre pour le Livret A et le LDDS depuis 2009",
+        "resume": "Plus de 6,89 milliards d’euros ont été retirés depuis le début de l’année de ce placement populaire. Les livrets LDDS et LEP subissent aussi une décollecte.",
+        "url": "https://www.lemonde.fr/argent/article/2026/07/22/pire-semestre-pour-le-livret-a-et-le-ldds-depuis-2009_6729750_1657007.html"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "10h27",
+        "titre": "Royaume-Uni: l'inflation ralentit plus qu'attendu, à 2,6% en juin",
+        "resume": "Le taux d'inflation au Royaume-Uni a reculé à 2,6% en juin, dans la foulée notamment d'une baisse des prix des carburants, coup de pouce pour le nouveau...",
+        "url": "https://www.lefigaro.fr/flash-eco/royaume-uni-l-inflation-ralentit-plus-qu-attendu-a-2-6-en-juin-20260722"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "14h37",
+        "titre": "Le yen porté par des informations de presse pointant vers des hausses plus rapides",
+        "resume": "Le yen remonte mercredi, soutenu par des informations de presse selon lesquelles les responsables de la Banque du Japon (BoJ) seraient disposés à...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-yen-porte-par-des-informations-de-presse-pointant-vers-des-hausses-plus-rapides-20260722"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "16h02",
+        "titre": "Guerre au Moyen-Orient : le pétrole propulsé au-dessus des 95 dollars, le gaz au plus haut depuis mars",
+        "resume": "Pour la première fois depuis près de six semaines, le baril de Brent est repassé au-dessus des 95 dollars. Le nouvel embrasement depuis onze jours du conflit entre l'Iran et les Etats-Unis n'incite guère à l'optimisme.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/guerre-au-moyen-orient-le-petrole-propulse-au-dessus-des-95-dollars-le-gaz-au-plus-haut-depuis-mars-2243662"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "08h00",
+        "titre": "Malgré la perspective d’une hausse du taux, la décollecte massive du livret A s’est poursuivie en juin",
+        "resume": "La moisson de ce placement et de son petit frère, le LDDS, a continué de virer au rouge vif (-1,17 milliard d’euros). Son taux passera de 1,5% à 1,7% au 1er août.",
+        "url": "https://www.lefigaro.fr/flash-actu/malgre-la-perspective-d-une-hausse-du-taux-la-decollecte-massive-du-livret-a-s-est-poursuivie-en-juin-20260722"
+      }
+    ]
+  },
+  "entreprises": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h30",
+        "titre": "Jean Castex modifie la gouvernance de SNCF Voyageurs et se sépare de son patron, Christophe Fanichet",
+        "resume": "Dès l’arrivée de l’ancien premier ministre à la tête de l’entreprise ferroviaire, des divergences stratégiques étaient apparues avec le PDG de cette puissante filiale.",
+        "url": "https://www.lemonde.fr/economie/article/2026/07/22/jean-castex-modifie-la-gouvernance-de-sncf-voyageurs-et-se-separe-de-son-patron-christophe-fanichet_6729714_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "09h00",
+        "titre": "Comment les réseaux bancaires historiques tentent de se réinventer pour conserver leurs clients ?",
+        "resume": "De la montée en gamme des conseillers au développement du numérique, les pistes sont nombreuses pour retenir les clients qui pourraient vouloir rejoindre des banques 100 % en ligne.",
+        "url": "https://www.lemonde.fr/argent/article/2026/07/22/comment-les-reseaux-bancaires-historiques-tentent-de-se-reinventer-pour-conserver-leurs-clients_6729885_1657007.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "13h00",
+        "titre": "Volkswagen comble enfin son retard sur les motorisations hybrides... mais s'affiche jusqu'à 10 000 euros plus cher que la concurrence",
+        "resume": "Volkswagen dispose enfin des motorisations hybrides qui lui manquaient cruellement. Le constructeur allemand vient d’ouvrir les commandes pour les Golf et T-Roc. Mais les tarifs annoncés font tousser : le T-Roc hybride est même deux fois plus cher q",
+        "url": "https://www.challenges.fr/automobile/volkswagen-comble-enfin-son-retard-sur-les-motorisations-hybrides-mais-saffiche-jusqua-10-000-euros-plus-cher-que-la-concurrence_644981"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "« Le problème de l’Europe, c’est son système bancaire fragmenté » : l’avertissement de Frédéric Oudéa à l’industrie bancaire européenne",
+        "resume": "EXCLUSIF – Depuis presque un an, Frédéric Oudéa est président de Revolut pour l’Europe de l’Ouest. Pour Challenges, il expose ​​​​​​​ sa vision de l’industrie bancaire européenne.",
+        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/le-probleme-de-leurope-cest-son-systeme-bancaire-fragmente-lavertissement-de-frederic-oudea-a-lindustrie-bancaire-europeenne_644947"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h28",
+        "titre": "Microsoft signe un accord de « plusieurs milliards » de dollars pour utiliser les data centers de Mistral AI",
+        "resume": "Le géant américain va rendre davantage disponible les modèles d’intelligence artificielle de la start-up française sur sa plateforme de services aux entreprises.",
+        "url": "https://www.lemonde.fr/pixels/article/2026/07/21/microsoft-signe-un-accord-de-plusieurs-milliards-de-dollars-pour-utiliser-les-data-centers-de-mistral-ai_6729035_4408996.html"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h28",
+        "titre": "Microsoft signe un accord de « plusieurs milliards » de dollars pour utiliser les data centers de Mistral AI",
+        "resume": "Le géant américain va rendre davantage disponible les modèles d’intelligence artificielle de la start-up française sur sa plateforme de services aux entreprises.",
+        "url": "https://www.lemonde.fr/pixels/article/2026/07/21/microsoft-signe-un-accord-de-plusieurs-milliards-de-dollars-pour-utiliser-les-data-centers-de-mistral-ai_6729035_4408996.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h32",
+        "titre": "Le rachat de Warner Bros. suspendu : un camouflet judiciaire et, surtout, une nouvelle menace sur ce mariage à 110 milliards",
+        "resume": "Une juge californienne a suspendu, lundi 20 juillet, le rachat du géant hollywoodien Warner Bros. Discovery par son concurrent Paramount Skydance, afin d’examiner si les craintes pour la concurrence soulevées par cette fusion justifient de la bloque",
+        "url": "https://www.challenges.fr/entreprise/medias/le-rachat-de-warner-bros-suspendu-un-camouflet-judiciaire-et-surtout-une-nouvelle-menace-sur-ce-mariage-a-110-milliards_644971"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "16h30",
+        "titre": "TKMS renonce à acheter les chantiers navals allemands du français CMN Naval",
+        "resume": "TKMS renonce à l'acquisition de German Naval Yards, filiale allemande du français CMN Naval. Le groupe allemand, récemment introduit en Bourse, juge les conditions de vente peu attractives. Rheinmetall resterait en lice.",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/tkms-renonce-a-acheter-les-chantiers-navals-allemands-du-francais-cmn-naval-2243669"
+      },
+      {
+        "source": "Challenges",
+        "heure": "15h34",
+        "titre": "Un accord à « plusieurs milliards » : Microsoft et Mistral se positionnent sur le chemin d’une IA souveraine en Europe",
+        "resume": "Le géant américain Microsoft a signé un accord de «&nbsp;plusieurs milliards&nbsp;» de dollars avec le champion français de l’intelligence artificielle Mistral afin d’utiliser la puissance de calcul de ses infrastructures en Europe, ont annoncé mard",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/un-accord-a-plusieurs-milliards-microsoft-et-mistral-se-positionnent-sur-le-chemin-dune-ia-souveraine-en-europe_644967"
+      },
+      {
+        "source": "Challenges",
+        "heure": "14h29",
+        "titre": "Tiime, le logiciel conforme à la réforme de la facturation électronique",
+        "resume": "La transition vers la facturation électronique redessine en profondeur les habitudes de gestion des entreprises françaises. Ce changement, porté par l'administration fiscale, ne se limite pas à une simple technique d'ajustement : il transforme la ma",
+        "url": "https://www.challenges.fr/partenaires/tiime-le-logiciel-conforme-a-la-reforme-de-la-facturation-electronique_644966"
+      }
+    ]
+  },
+  "macro": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "09h41",
+        "titre": "Budget 2027 : Sébastien Lecornu juge le niveau de la dette et du déficit de la France « préoccupant, grave même »",
+        "resume": "Interrogé sur les objectifs en matière de déficit fixés pour 2026 et 2027, le premier ministre a expliqué qu’il n’était « pas très optimiste ». Le gouvernement prévoit un déficit à 5 % du produit intérieur brut en 2026, après 5,1 % en 2025.",
+        "url": "https://www.lemonde.fr/politique/article/2026/07/22/budget-2027-sebastien-lecornu-juge-preoccupant-le-niveau-de-la-dette-du-pays-et-assure-que-la-reduction-du-deficit-reste-la-priorite_6729952_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "11h26",
+        "titre": "« Après avoir encouragé un fort endettement public, la Banque centrale européenne étrangle aujourd’hui des finances publiques déjà dégradées »",
+        "resume": "L’économiste Nicolas Dufrêne constate, dans une tribune au « Monde », que le coût pour l’Etat français du resserrement de la politique monétaire mené entre juillet 2022 et juin 2026 aura été de près de 90 milliards d’euros. Il plaide pour une démocra",
+        "url": "https://www.lemonde.fr/idees/article/2026/07/22/apres-avoir-encourage-un-fort-endettement-public-la-banque-centrale-europeenne-etrangle-aujourd-hui-des-finances-publiques-deja-degradees_6729998_3232.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h23",
+        "titre": "Budget 2027 : face à un déficit « préoccupant », Sébastien Lecornu esquisse les premières pistes",
+        "resume": "Le Premier ministre revient, dans un entretien publié ce mercredi 22 juillet dans Paris Match, sur le prochain projet de loi de finances du gouvernement, qui sera le dernier du quinquennat. Face à un déficit « préoccupant, grave même », il espère fa",
+        "url": "https://www.challenges.fr/economie/budget-2027-face-a-un-deficit-preoccupant-sebastien-lecornu-esquisse-les-premieres-pistes_644974"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "16h25",
+        "titre": "Changement climatique : le retrait-gonflement des argiles, un risque à 500 milliards d'euros",
+        "resume": "Le retrait-gonflement des sols argileux, amplifié par le réchauffement climatique, menace 12,1 millions de maisons en France. Il représente déjà un tiers des indemnisations pour catastrophes naturelles.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/changement-climatique-le-retrait-gonflement-des-argiles-un-risque-a-500-milliards-deuros-2243667"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h30",
+        "titre": "Lutte contre la fraude fiscale : l’Etat accusé de « sous-investissement chronique »",
+        "resume": "Dans un rapport présenté en commission des finances mardi, la députée Mathilde Feld (LFI) juge « urgent » de « redonner » des moyens à la direction générale des finances publiques et pointe un « décrochage massif » du contrôle fiscal, qu’elle attribu",
+        "url": "https://www.lemonde.fr/politique/article/2026/07/21/lutte-contre-la-fraude-fiscale-l-etat-accuse-de-sous-investissement-chronique_6729036_823448.html"
+      }
+    ]
+  },
+  "politique": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h16",
+        "titre": "Donald Trump compte imposer des droits de douane de 100 % sur les médicaments génériques importés afin de relocaliser la production aux Etats-Unis",
+        "resume": "La mesure annoncée par le président américain entrera en vigueur à partir d’août 2028, le taux devant ensuite passer à 200 % un an plus tard. Elle a pour but de forcer les entreprises à construire des usines sur le sol américain.",
+        "url": "https://www.lemonde.fr/international/article/2026/07/22/donald-trump-compte-imposer-des-droits-de-douane-de-100-sur-les-medicaments-generiques-importes-afin-de-relocaliser-la-production-aux-etats-unis_6729785_3210.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "14h00",
+        "titre": "Le secteur agricole canadien visé par une nouvelle offensive tarifaire de Donald Trump",
+        "resume": "Washington a annoncé, lundi 20 juillet, des droits de douane de 50 % sur un large éventail de produits d’Ottawa, dont ceux issus de l’agriculture, cible de longue date du président américain.",
+        "url": "https://www.lemonde.fr/economie/article/2026/07/22/le-secteur-agricole-canadien-vise-par-une-nouvelle-offensive-tarifaire-de-donald-trump_6730015_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "19h18",
+        "titre": "Prix des médicaments : Berlin et Bruxelles font bloc face à l'offensive de Trump",
+        "resume": "La réforme allemande du système de santé provoque des remous. Les Etats-Unis dénoncent des prix de médicaments trop bas et envisagent des taxes punitives contre l'Allemagne. Berlin et Bruxelles y voient une ingérence.",
+        "url": "https://www.lesechos.fr/monde/europe/prix-des-medicaments-berlin-et-bruxelles-font-bloc-face-a-loffensive-de-trump-2243509"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "16h14",
+        "titre": "Environnement : courage politique danois",
+        "resume": "GOOD ECONOMIE. Pour avancer, la transition écologique a besoin d'une classe politique audacieuse et déterminée. Qui n'ait pas peur de donner la priorité à l'intérêt général. Au risque de déplaire. Le Danemark montre le chemin.",
+        "url": "https://www.lesechos.fr/weekend/chroniques/environnement-courage-politique-danois-2243437"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "15h14",
+        "titre": "Un accord sur le nucléaire entre les Etats-Unis et l'Arabie saoudite serait un coup dur pour Israël",
+        "resume": "Washington et Riyad sont sur le point d'annoncer cette semaine un accord sur le développement d'un programme nucléaire civil en Arabie saoudite. Le projet suscite une profonde inquiétude en Israël.",
+        "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/un-accord-sur-le-nucleaire-entre-les-etats-unis-et-larabie-saoudite-serait-un-coup-dur-pour-israel-2243655"
+      }
+    ]
+  },
+  "taux": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h00",
+        "titre": "Pire semestre pour le Livret A et le LDDS depuis 2009",
+        "resume": "Plus de 6,89 milliards d’euros ont été retirés depuis le début de l’année de ce placement populaire. Les livrets LDDS et LEP subissent aussi une décollecte.",
+        "url": "https://www.lemonde.fr/argent/article/2026/07/22/pire-semestre-pour-le-livret-a-et-le-ldds-depuis-2009_6729750_1657007.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "11h26",
+        "titre": "« Après avoir encouragé un fort endettement public, la Banque centrale européenne étrangle aujourd’hui des finances publiques déjà dégradées »",
+        "resume": "L’économiste Nicolas Dufrêne constate, dans une tribune au « Monde », que le coût pour l’Etat français du resserrement de la politique monétaire mené entre juillet 2022 et juin 2026 aura été de près de 90 milliards d’euros. Il plaide pour une démocra",
+        "url": "https://www.lemonde.fr/idees/article/2026/07/22/apres-avoir-encourage-un-fort-endettement-public-la-banque-centrale-europeenne-etrangle-aujourd-hui-des-finances-publiques-deja-degradees_6729998_3232.html"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "10h27",
+        "titre": "Royaume-Uni: l'inflation ralentit plus qu'attendu, à 2,6% en juin",
+        "resume": "Le taux d'inflation au Royaume-Uni a reculé à 2,6% en juin, dans la foulée notamment d'une baisse des prix des carburants, coup de pouce pour le nouveau...",
+        "url": "https://www.lefigaro.fr/flash-eco/royaume-uni-l-inflation-ralentit-plus-qu-attendu-a-2-6-en-juin-20260722"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "08h00",
+        "titre": "Malgré la perspective d’une hausse du taux, la décollecte massive du livret A s’est poursuivie en juin",
+        "resume": "La moisson de ce placement et de son petit frère, le LDDS, a continué de virer au rouge vif (-1,17 milliard d’euros). Son taux passera de 1,5% à 1,7% au 1er août.",
+        "url": "https://www.lefigaro.fr/flash-actu/malgre-la-perspective-d-une-hausse-du-taux-la-decollecte-massive-du-livret-a-s-est-poursuivie-en-juin-20260722"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "12h00",
+        "titre": "Médiation du crédit : les saisines en berne malgré le niveau de défaillances d'entreprises historiques",
+        "resume": "Alors que près de six demandes éligibles sur dix aboutissent à une solution, la médiation du crédit reste peu sollicitée par les entreprises. Au premier semestre 2026, le nombre de saisines a reculé de 8,3 % par rapport à la même période en 2025.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/mediation-du-credit-les-saisines-en-berne-malgre-le-niveau-de-defaillances-dentreprises-historiques-2243606"
+      }
+    ],
+    "courbe": [
+      {
+        "maturity": "2 ans",
+        "rate": 2.737,
+        "prev": 2.71,
+        "diff": 0.027,
+        "trend": "up",
+        "date": "2026-07-21",
+        "history": [
+          2.619,
+          2.615,
+          2.599,
+          2.645,
+          2.687,
+          2.676,
+          2.699,
+          2.698,
+          2.71,
+          2.737
+        ]
+      },
+      {
+        "maturity": "5 ans",
+        "rate": 2.881,
+        "prev": 2.838,
+        "diff": 0.043,
+        "trend": "up",
+        "date": "2026-07-21",
+        "history": [
+          2.767,
+          2.763,
+          2.743,
+          2.774,
+          2.807,
+          2.819,
+          2.84,
+          2.831,
+          2.838,
+          2.881
+        ]
+      },
+      {
+        "maturity": "10 ans",
+        "rate": 3.21,
+        "prev": 3.168,
+        "diff": 0.042,
+        "trend": "up",
+        "date": "2026-07-21",
+        "history": [
+          3.137,
+          3.129,
+          3.109,
+          3.125,
+          3.146,
+          3.154,
+          3.177,
+          3.152,
+          3.168,
+          3.21
+        ]
+      },
+      {
+        "maturity": "20 ans",
+        "rate": 3.616,
+        "prev": 3.581,
+        "diff": 0.035,
+        "trend": "up",
+        "date": "2026-07-21",
+        "history": [
+          3.565,
+          3.567,
+          3.546,
+          3.555,
+          3.564,
+          3.573,
+          3.597,
+          3.555,
+          3.581,
+          3.616
+        ]
+      },
+      {
+        "maturity": "30 ans",
+        "rate": 3.656,
+        "prev": 3.63,
+        "diff": 0.026,
+        "trend": "up",
+        "date": "2026-07-21",
+        "history": [
+          3.606,
+          3.626,
+          3.605,
+          3.61,
+          3.607,
+          3.624,
+          3.649,
+          3.601,
+          3.63,
+          3.656
+        ]
+      }
+    ]
+  },
+  "calendrier": [],
+  "curiosite": {
+    "chiffre_du_jour": {
+      "chiffre": "2,3 billions de dollars",
+      "contexte": "Les investissements mondiaux en intelligence artificielle ont atteint 2,3 milliards de dollars au deuxième trimestre 2026, marquant une accélération de 47% année sur année. Cette explosion reflète la ruée des institutions financières vers les solutions d'IA générative pour l'analyse prédictive et la gestion de portefeuille.",
+      "source": "Rapport trimestriel Global AI Investment Index, juillet 2026"
+    },
+    "ephemeride": {
+      "evenement": "22 juillet 2008 : Faillite de la banque IndyMac, deuxième plus grande défaillance bancaire américaine",
+      "impact": "Cet événement a amplifié la crise des subprimes et marqué un tournant critique dans la prise de conscience du risque systémique financier qui culminera avec la crise de 2008."
+    },
+    "graphique_semaine": {
+      "titre": "Volatilité des cryptomonnaies vs indices boursiers traditionnels (juillet 2026)",
+      "description": "Après 18 mois de régulation accrue, la volatilité des cryptomonnaies majeures a convergemment baissé vers les niveaux des indices S&P 500. Cette normalisation reflète l'intégration progressive des actifs numériques dans les portefeuilles institutionnels et l'effet stabilisateur des cadres réglementaires.",
+      "donnees": [
+        {
+          "label": "Lundi 18/7",
+          "valeur": 8.2
+        },
+        {
+          "label": "Mardi 19/7",
+          "valeur": 6.8
+        },
+        {
+          "label": "Mercredi 20/7",
+          "valeur": 5.4
+        },
+        {
+          "label": "Jeudi 21/7",
+          "valeur": 4.9
+        },
+        {
+          "label": "Vendredi 22/7",
+          "valeur": 4.1
+        }
+      ]
+    }
+  },
+  "vatican": {
+    "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "«La présence du Seigneur se manifeste en mettant tout en commun», affirme Léon XIV",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/leon-xiv-presence-du-seigneur-se-manifeste-mettant-tout-en-commu.html",
+        "resume": "Le Pape a adressé une lettre à la Conférence des Supérieurs majeurs masculins aux États-Unis d’Amérique, qui célèbre son soixante-dixième anniversaire lors de l’Assemblée nationale de 2026 à Phoenix, en Arizo",
+        "pub": "Wed, 22 Jul 2026 11:56:00 +0200",
+        "heure": "13h56"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L'été, un temps pour vivre l’Évangile de la paix et de la miséricorde",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/pape-leon-evangile-paix-misericorde-foi-vaccances-repos.html",
+        "resume": "Dans le mensuel \"Piazza San Pietro\", le Pape répond à la lettre de Maurizio qui lui demande comment consolider sa foi en vacances. Léon XIV lui propose de vivre ce temps comme un cheminement spirituel, et l’e",
+        "pub": "Wed, 22 Jul 2026 11:30:00 +0200",
+        "heure": "13h30"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le cardinal Tagle présente le Christ comme le véritable bâtisseur de ponts",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/assemblee-indonesie-christ-pont-evangelisation-spirituel.html",
+        "resume": "La troisième journée de la 12e Assemblée plénière de la Fédération des conférences épiscopales d’Asie (FABC) a permis aux évêques et délégués venus de toute l’Asie de consacrer cette rencontre à la prière et",
+        "pub": "Wed, 22 Jul 2026 09:46:00 +0200",
+        "heure": "11h46"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L'Église d'Asie appelée à être «bâtisseuse de ponts»",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/indonesie-asie-conversion-communion-eglise-dialogue-synodalite.html",
+        "resume": "La 12e Assemblée plénière de la Fédération des conférences épiscopales d'Asie (FABC) s'est ouverte lundi 20 juillet  à Jakarta, en Indonésie. Plus de 120 cardinaux et évêques venus de toute l'Asie se sont réu",
+        "pub": "Wed, 22 Jul 2026 09:25:00 +0200",
+        "heure": "11h25"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L'Église encourage les investissements éthiques en Afrique de l'Est",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/les-leaders-de-l-eglise-appellent-a-des-investissements-ethiques.html",
+        "resume": "À la veille de la 21e Assemblée plénière de l’AMECEA à Nairobi, le «Mouvement Laudato si’ Afrique», en collaboration avec l’Association des conférences épiscopales d’Afrique de l’Est, a organisé une «Rencontr",
+        "pub": "Tue, 21 Jul 2026 18:13:00 +0200",
+        "heure": "20h13"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Une vérité désarmante au cœur du livre du Pape",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-07/banfi-livre-du-pape-nous-rappelle-que-la-verite-est-desarmante.html",
+        "resume": "Dans un entretien accordé aux médias du Vatican, le journaliste Alessandro Banfi, à l’origine du livre «Désarmée et désarmante. La paix est un don», édité par la LEV, confie que la paix «est aussi une respons",
+        "pub": "Tue, 21 Jul 2026 16:23:00 +0200",
+        "heure": "18h23"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L'Église américaine appelle à une politique migratoire plus digne",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/etats-unis-eveques-politique-migratoire-reflexion-pastorale.html",
+        "resume": "À la suite de plusieurs incidents récents ayant entraîné des pertes humaines, les évêques américains Daniel E. Garcia et Brendan J. Cahill publient une réflexion pastorale appelant à ce que les mesures contre",
+        "pub": "Tue, 21 Jul 2026 14:02:00 +0200",
+        "heure": "16h02"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Vatican participe à un congrès au Costa Rica sur l’exploitation minière",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-07/saint-siege-congres-latino-americain-exploitation-miniere-costa.html",
+        "resume": "Les 18 et 19 juillet s’est tenu au Costa Rica le premier Congrès latino-américain sur les impacts socio-environnementaux de l’exploitation minière. Dans une intervention par message vidéo diffusée lors du con",
+        "pub": "Tue, 21 Jul 2026 13:00:00 +0200",
+        "heure": "15h00"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Des sœurs au secours des victimes d'inondations au Mozambique",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/des-s-urs-au-secours-des-victimes-d-inondations-au-mozambique.html",
+        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs. Dans cet épisode, nous allons au Mozam",
+        "pub": "Tue, 21 Jul 2026 12:13:00 +0200",
+        "heure": "14h13"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L’Église appelle à la solidarité après un séisme meurtrier au Pérou",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-07/l-eglise-appelle-a-la-solidarite-apres-un-seisme-au-perou.html",
+        "resume": "L’état d’urgence a été décrété ce lundi dans le centre du pays, une zone andine où un tremblement de terre a fait au moins six morts et de graves dégâts. Une église du XVIe siècle s’est partiellement effondré",
+        "pub": "Tue, 21 Jul 2026 09:21:00 +0200",
+        "heure": "11h21"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le désarmement engendre la paix, et non les armes atomiques, affirme Léon XIV",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/leon-xiv-le-desarmement-engendre-la-paix-non-les-armes-atomiques.html",
+        "resume": "La Librairie Editrice Vaticane publie un nouvel ouvrage du Pape, pour l'instant en italien, intitulé «Désarmée et désarmante. La paix est un don». Cet ouvrage, sous la direction d’Alessandro Banfi, est la pre",
+        "pub": "Tue, 21 Jul 2026 08:00:00 +0200",
+        "heure": "10h00"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Sur la tombe de saint Benoît, le Pape prie pour la paix",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/sur-la-tombe-de-saint-benoit-le-pape-prie-pour-la-paix.html",
+        "resume": "Lors d’une visite privée, ce lundi matin, 20 juillet, à la communauté monastique et à l’abbaye bénédictine du Mont-Cassin, dans le Latium, le Pape a prié sur la tombe du fondateur de l’Ordre. Récitation de l'",
+        "pub": "Mon, 20 Jul 2026 18:11:00 +0200",
+        "heure": "20h11"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape remettra la première «Médaille Léon XIV pour la durabilité»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/pape-leon-xiv-medaille-universite-villanuova-borgo-laudato-si.html",
+        "resume": "Créée par l’université de Villanova, l’université augustinienne où Robert Prevost a obtenu son diplôme de mathématiques en 1977, cette nouvelle distinction internationale récompensera les personnes et les org",
+        "pub": "Mon, 20 Jul 2026 15:08:00 +0200",
+        "heure": "17h08"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Liberté et sécurité retrouvées pour des enfants de Bethléem en Pologne",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/des-enfants-de-bethleem-en-pologne-eglise-catholique.html",
+        "resume": "Pendant plus de deux semaines, des enfants palestiniens de la Maison de la paix de Bethléem, gérée par les Sœurs Élisabétaines, se sont rendus dans différentes villes de Pologne. En les accueillant pour la qu",
+        "pub": "Mon, 20 Jul 2026 13:54:00 +0200",
+        "heure": "15h54"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Mgr Gallagher au mémorial du Maïdan en hommage aux victimes",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-07/ukraine-gallagher-au-memorial-de-maidan-en-hommage-aux-victimes.html",
+        "resume": "Ce 20 juillet, au dernier jour de son voyage en Ukraine, Mgr Gallagher a rencontré à Kiev le ministre des Affaires étrangères par intérim et le président Zelensky. Il a déposé un bouquet de roses en mémoire d",
+        "pub": "Mon, 20 Jul 2026 13:34:00 +0200",
+        "heure": "15h34"
+      }
+    ]
+  }
+}
