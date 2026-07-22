@@ -1,16 +1,21 @@
 name: Merge Morning Brief Audio
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   push:
     paths:
       - "morning-brief-*.mp3"
 
+
 jobs:
 
   merge-audio:
 
     runs-on: ubuntu-latest
+
 
     steps:
 
@@ -27,13 +32,24 @@ jobs:
     - name: Create file list
       run: |
         rm -f files.txt
-        
+
         for f in $(ls morning-brief-*.mp3 | sort -V); do
           echo "file '$f'" >> files.txt
         done
-        
-        echo "Liste des fichiers utilisés :"
+
+        echo "Fichiers utilisés :"
         cat files.txt
+
+
+    - name: Inspect audio files
+      run: |
+        for f in morning-brief-*.mp3; do
+          echo "---- $f ----"
+          ffprobe -i "$f" \
+          -show_entries format=duration \
+          -v quiet \
+          -of csv="p=0"
+        done
 
 
     - name: Merge MP3 files
@@ -47,10 +63,12 @@ jobs:
         morning-brief.mp3
 
 
-    - name: Check output
+    - name: Check final MP3
       run: |
         ls -lh morning-brief.mp3
-        
+
+        echo "Durée finale :"
+
         ffprobe \
         -i morning-brief.mp3 \
         -show_entries format=duration \
@@ -59,14 +77,23 @@ jobs:
 
 
     - name: Commit merged audio
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       run: |
 
-        git config user.name "github-actions"
+        git config user.name "github-actions[bot]"
 
-        git config user.email "actions@github.com"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
 
         git add morning-brief.mp3
 
-        git commit -m "Update Morning Brief MP3" || exit 0
 
-        git push
+        git commit \
+        -m "Update Morning Brief MP3" || echo "Aucun changement"
+
+
+        git push \
+        https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git \
+        HEAD:${{ github.ref }}
