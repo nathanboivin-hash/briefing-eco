@@ -1,6 +1,5 @@
 import anthropic
 import json
-import os
 import re
 import urllib.parse
 import urllib.request
@@ -32,43 +31,6 @@ def fmt_heure(pub_str):
     if not dt: return ""
     paris = dt + timedelta(hours=2)
     return f"{paris.hour:02d}h{paris.minute:02d}"
-
-# ── MEMOIRE : chargement + archivage du briefing precedent ──
-def load_and_archive_previous(today_iso):
-    """Lit le briefing.json existant, extrait le contexte veille, l'archive sous archives/YYYY-MM-DD.json."""
-    ctx = None
-    try:
-        with open("briefing.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
-        # Extraire contexte
-        syn = data.get("synthese", {})
-        resume = syn.get("resume", "")[:500]
-        points = [p.get("titre", "") for p in syn.get("points", [])]
-        ts = data.get("timestamp", "")
-        if resume:
-            ctx = f"Brief precedent ({ts}) - Resume : {resume}"
-            if points:
-                ctx += " - Points : " + " | ".join(points)
-        # Determiner la date d'archivage depuis le timestamp du briefing
-        m = re.search(r"(\d{2})/(\d{2})/(\d{4})", ts)
-        if m:
-            archive_date = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
-        else:
-            archive_date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-        # Ne pas ecraser si c'est deja aujourd'hui (re-run)
-        if archive_date != today_iso:
-            os.makedirs("archives", exist_ok=True)
-            path = f"archives/{archive_date}.json"
-            with open(path, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False)
-            print(f"  Archive precedent: {path}")
-        else:
-            print(f"  Archive: briefing du jour deja present, pas d'archivage doublon")
-    except FileNotFoundError:
-        print("  Pas de briefing.json precedent a archiver")
-    except Exception as e:
-        print(f"  Archive erreur: {e}")
-    return ctx
 
 # ── OAT CURVE (BCE) ──
 def fetch_oat_curve():
@@ -317,20 +279,16 @@ def parse_json_safe(text):
             except: continue
     raise ValueError(f"JSON irreparable apres {len(text)} chars")
 
-def synthesize(articles, today, ts, veille_ctx=None):
+def synthesize(articles, today, ts):
     date_short = datetime.now().strftime("%d/%m/%Y")
     ctx = "\n".join(f"[{i}] {a['source']} | {a['heure']} | {a['titre']}"
                     for i, a in enumerate(articles))
-    ctx_veille = ""
-    if veille_ctx:
-        ctx_veille = f"\n\nCONTEXTE DE LA VEILLE (pour assurer la continuite editoriale et eviter les repetitions de la veille) :\n{veille_ctx}\n"
-
-    prompt = f"""Tu es un analyste financier senior a Paris, redacteur d'un briefing quotidien pour un professionnel M&A. Date: {today} {ts}.{ctx_veille}
+    prompt = f"""Tu es un analyste financier senior a Paris. Date: {today} {ts}.
 
 {len(articles)} vrais articles d'aujourd'hui :
 {ctx}
 
-Genere un briefing JSON analytique et precis. Si un sujet a deja ete couvert la veille, apporte un angle nouveau ou l'evolution depuis hier.
+Genere un briefing JSON tres analytique et precis. La synthese doit etre dense, professionnelle, avec des chiffres concrets et des implications pratiques pour un professionnel de la finance. Pas de generalites journalistiques.
 
 Pour chaque section, utilise les INDEX les plus pertinents (5 par section). Remplis TOUTES les sections. Aucun article en anglais.
 
@@ -339,14 +297,12 @@ JSON sans backticks :
   "timestamp": "{ts} le {date_short}",
   "alerte": null,
   "synthese": {{
-    "accroche": "Une seule phrase : le fait le plus saillant du jour avec son chiffre cle. Style editorial percutant (ex: 'Le CAC 40 cede X% apres...', 'La BCE surprend les marches en...', 'Total signe le plus grand LBO...'). Jamais une generalite.",
-    "resume": "3-4 phrases analytiques denses, sans redite de l'accroche. Chaque phrase apporte un angle different : marche + macro + entreprises/M&A + geopolitique si pertinent. Chiffres systematiques. Ton Les Echos editorial, pas journalisme generaliste.",
+    "resume": "5-6 phrases analytiques et precises : chiffres cles, tendances, implications marche. Ton professionnel, pas journalistique.",
     "points": [
-      {{"titre": "Marches - sujet precis avec chiffre", "detail": "2 phrases : fait chiffre precis + implication concrète pour un investisseur ou un banquier M&A."}},
-      {{"titre": "Macro/BCE - sujet precis avec chiffre", "detail": "2 phrases : donnee macro ou decision BCE + impact sur le financement ou les valorisations."}},
-      {{"titre": "M&A/PE - deal ou tendance avec montant", "detail": "2 phrases : description du deal ou de la tendance + implication pour le marche M&A francais/europeen."}},
-      {{"titre": "Entreprises - sujet precis", "detail": "2 phrases : fait concret (resultat, nomination, strategie) + implication sectorielle."}},
-      {{"titre": "Politique/Geo - sujet precis", "detail": "2 phrases : evenement politique ou geopolitique + impact economique chiffre ou attendu."}}
+      {{"titre": "Marches - sujet precis avec chiffre", "detail": "analyse avec donnees chiffrees et implications concretes"}},
+      {{"titre": "Macro - sujet precis avec chiffre", "detail": "analyse avec donnees chiffrees et implications concretes"}},
+      {{"titre": "Entreprises/M&A - sujet precis", "detail": "analyse avec montants et implications strategiques"}},
+      {{"titre": "Politique/Geo - sujet precis", "detail": "impact economique chiffre et concret"}}
     ]
   }},
   "marches":     {{"indices": [0,1,2,3,4]}},
@@ -400,13 +356,14 @@ def build_briefing(classified, articles):
 
 # ── EMAIL ──
 def send_email(briefing, curiosity, today, ts):
-    import requests as req_lib
-
+    import os
     api_key   = os.environ.get("RESEND_API_KEY", "")
     recipient = os.environ.get("RECIPIENT_EMAIL", "")
     if not api_key or not recipient:
         print("  Email: secrets manquants, skip")
         return
+
+    import requests as req_lib
 
     syn     = briefing.get("synthese", {})
     points  = syn.get("points", [])
@@ -517,6 +474,90 @@ def send_email(briefing, curiosity, today, ts):
     except Exception as e:
         print(f"  Email erreur: {e}")
 
+# ── AUDIO TEXT FOR GOOGLE HOME ──
+def generate_audio_text(briefing, curiosity, today, ts):
+    """Generate a 3-4 min oral briefing text optimized for Google Home TTS."""
+
+    syn = briefing.get("synthese", {})
+    points = syn.get("points", [])
+
+    def top_articles(key, n=2):
+        arts = briefing.get(key, {}).get("articles", [])[:n]
+        return "\n".join(f"- {a['titre']}" for a in arts) if arts else "(aucun article)"
+
+    oat = briefing.get("taux", {}).get("courbe", [])
+    oat_lines = ""
+    for p in oat:
+        if p.get("rate"):
+            arrow = "en hausse" if p.get("trend") == "up" else "en baisse" if p.get("trend") == "down" else "stable"
+            oat_lines += f"  OAT {p['maturity']} a {p['rate']:.2f} pourcent, {arrow}\n"
+
+    cur = curiosity or {}
+    chiffre = cur.get("chiffre_du_jour", {})
+    ephem = cur.get("ephemeride", {})
+
+    pts_text = ""
+    for p in points:
+        pts_text += f"- {p.get('titre','')}: {p.get('detail','')}\n"
+
+    ctx = f"""Tu es un journaliste économique qui rédige un briefing audio pour être lu par une enceinte Google Home.
+
+Date : {today}, {ts}.
+
+RESUME ANALYTIQUE :
+{syn.get('resume', '')}
+
+POINTS CLES :
+{pts_text}
+
+MARCHES (top titres) :
+{top_articles('marches')}
+
+M&A ET ENTREPRISES :
+{top_articles('ma')}
+{top_articles('entreprises')}
+
+MACRO ET POLITIQUE :
+{top_articles('macro')}
+{top_articles('politique')}
+
+COURBE DES TAUX OAT :
+{oat_lines}
+
+CHIFFRE DU JOUR : {chiffre.get('chiffre','')} — {chiffre.get('contexte','')}
+
+EPHEMERIDE : {ephem.get('evenement','')} — {ephem.get('impact','')}
+
+CONTRAINTES ABSOLUES pour la rédaction orale :
+- Commence par "Bonjour Nathan. Voici ton briefing Morning Brief du {today}."
+- Termine par "Bonne journée Nathan, et bonne performance."
+- Environ 450 mots, soit 3 à 4 minutes de lecture orale
+- JAMAIS de symboles : pas de %, €, $, +, -, /, &, >, < — écris-les en toutes lettres (pourcent, euros, dollars, plus, moins, etc.)
+- JAMAIS de sigles difficiles : BCE = Banque centrale européenne, OAT = obligation assimilable du Trésor, M&A = fusions-acquisitions, CAC = indice CAC quarante, etc.
+- Pas de listes à puces, pas de tirets, pas de titres de section — du texte oral fluide uniquement
+- Transitions naturelles entre les sujets, comme un vrai journal radio
+- Ton analytique, dense, pas journalistique grand public — tu parles à un professionnel de la finance M&A en Occitanie
+- Couvre dans l'ordre : marchés, M&A + entreprises, macro + politique, taux, curiosité du jour
+
+Génère uniquement le texte oral, rien d'autre."""
+
+    try:
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=1200,
+            messages=[{"role": "user", "content": ctx}]
+        )
+        text = "".join(b.text for b in response.content if hasattr(b, "text")).strip()
+        print(f"  Audio Haiku: {len(text)} chars, ~{len(text.split())//130} min de lecture")
+        return text
+    except Exception as e:
+        print(f"  Audio erreur: {e}")
+        # Fallback minimal
+        return (f"Bonjour Nathan. Voici ton briefing Morning Brief du {today}. "
+                f"{syn.get('resume', 'Aucune synthese disponible.')} "
+                f"Bonne journee Nathan, et bonne performance.")
+
+
 # ── MAIN ──
 def main():
     now = datetime.now()
@@ -525,16 +566,8 @@ def main():
               "juillet","aout","septembre","octobre","novembre","decembre"]
     today = f"{days[now.weekday()]} {now.day} {months[now.month-1]} {now.year}"
     ts    = now.strftime("%Hh%M")
-    today_iso = now.strftime("%Y-%m-%d")
 
     print(f"Generation -- {today} {ts}")
-
-    print("-> Memoire : chargement contexte veille + archivage...")
-    veille_ctx = load_and_archive_previous(today_iso)
-    if veille_ctx:
-        print(f"  Contexte veille charge ({len(veille_ctx)} chars)")
-    else:
-        print("  Pas de contexte veille (premier run ou indisponible)")
 
     print("-> RSS economie...")
     rss_articles = get_rss_from_list(RSS_SOURCES, hours=36)
@@ -571,7 +604,7 @@ def main():
     curiosity = generate_curiosity(today, ts)
 
     print("-> Haiku classification...")
-    classified = synthesize(articles, today, ts, veille_ctx)
+    classified = synthesize(articles, today, ts)
 
     briefing = build_briefing(classified, articles)
     briefing["taux"]["courbe"]  = oat_curve
@@ -589,17 +622,15 @@ def main():
         n = len(briefing.get(k,{}).get("articles",[]))
         print(f"  {k}: {n} articles")
 
-    # Sauvegarder le nouveau briefing
     with open("briefing.json", "w", encoding="utf-8") as f:
         json.dump(briefing, f, ensure_ascii=False, indent=2)
     print(f"OK -- briefing.json {len(json.dumps(briefing))} chars")
 
-    # Archiver aussi le briefing du jour
-    os.makedirs("archives", exist_ok=True)
-    archive_today = f"archives/{today_iso}.json"
-    with open(archive_today, "w", encoding="utf-8") as f:
-        json.dump(briefing, f, ensure_ascii=False, indent=2)
-    print(f"  Archive aujourd'hui: {archive_today}")
+    print("-> Generation texte audio Google Home...")
+    audio_text = generate_audio_text(briefing, curiosity, today, ts)
+    with open("synthese_audio.txt", "w", encoding="utf-8") as f:
+        f.write(audio_text)
+    print(f"  synthese_audio.txt ecrit ({len(audio_text)} chars)")
 
     print("-> Envoi email...")
     send_email(briefing, curiosity, today, ts)
