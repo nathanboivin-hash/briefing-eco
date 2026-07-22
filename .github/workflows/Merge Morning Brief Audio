@@ -1,0 +1,51 @@
+name: Merge Morning Brief Audio
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "morning-brief-*.mp3"
+
+jobs:
+
+  merge-audio:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+
+    - name: Install FFmpeg
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg
+
+
+    - name: Create file list
+      run: |
+        ls morning-brief-*.mp3 | sort > files.txt
+
+
+    - name: Merge MP3 files
+      run: |
+        ffmpeg -f concat -safe 0 \
+        -i <(sed 's/^/file "/;s/$/"/' files.txt) \
+        -c copy \
+        morning-brief.mp3
+
+
+    - name: Commit merged audio
+      run: |
+
+        git config user.name "github-actions"
+
+        git config user.email "actions@github.com"
+
+        git add morning-brief.mp3
+
+        git commit -m "Update Morning Brief MP3" || exit 0
+
+        git push
