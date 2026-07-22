@@ -1,53 +1,42 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <rss version="2.0"
 xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 
 <channel>
 
-<title>Morning Brief</title>
+<title>Morning Brief Économique</title>
 
-<link>
-https://nathanboivin-hash.github.io/briefing-eco/
-</link>
+<link>https://nathanboivin-hash.github.io/briefing-eco/</link>
 
 <description>
-Brief économique quotidien automatisé
+Brief économique quotidien généré automatiquement
 </description>
 
 <language>fr-fr</language>
 
-<itunes:author>
-Nathan
-</itunes:author>
-
+<itunes:author>Nathan</itunes:author>
 
 <item>
 
-<title>
-Morning Brief du jour
-</title>
+<title>Morning Brief du jour</title>
 
 <description>
-Brief économique quotidien
+Résumé économique quotidien
 </description>
 
 <enclosure
 url="https://nathanboivin-hash.github.io/briefing-eco/morning-brief.mp3"
 type="audio/mpeg"
-length="1000000"
-/>
+length="1000000" />
 
 <guid>
 https://nathanboivin-hash.github.io/briefing-eco/morning-brief.mp3
 </guid>
 
-<pubDate>
-Wed, 22 Jul 2026 07:00:00 GMT
-</pubDate>
+<pubDate>Wed, 22 Jul 2026 07:00:00 GMT</pubDate>
 
 </item>
-
 
 </channel>
 
