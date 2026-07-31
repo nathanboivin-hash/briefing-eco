@@ -1,28 +1,28 @@
 {
-  "timestamp": "07h23 le 30/07/2026",
-  "alerte": "Fed maintient statu quo taux malgré inflation élevée ; incendies Sud-Ouest impact économique majeur ; effondrement ventes automobiles en Chine accélère",
+  "timestamp": "07h41 le 31/07/2026",
+  "alerte": "Dégradation simultanée de trois vecteurs économiques français : croissance molle (rebond en trompe-l'œil Q2), crise climatique structurelle (vendanges août, sécheresse récolte 2026), tensions budgétaires publiques (plan France 2030 étalé 2-3 ans supplémentaires). Risque de ralentissement durable si les incendies sud-ouest impactent chaînes logistiques.",
   "synthese": {
-    "resume": "La Fed maintient ses taux entre 3,50% et 3,75% malgré une inflation persistante, signalant un biais accommodant sous pression politique. La croissance française affiche un rebond trompeur au T2 masquant des fragilités structurelles. L'automobile allemande subit un choc brutal en Chine (BMW, Volkswagen, Porsche réduisent emplois). Les incendies du Sud-Ouest génèrent des impacts économiques directs : SNCF annule TGV, secteur assurance en crise, plan France 2030 reporté de 2-3 ans. Privatisation TAP Air Portugal cristallise consolidation aérienne européenne face aux réductions d'emploi. Le secteur pharma anticipe une perturbation majeure avec la « falaise des brevets » 2035.",
+    "resume": "La France affiche une croissance illusoire au T2 2026 masquant des fragilités croissantes. Le stress climatique s'intensifie (vendanges précoces en Sarthe, déficit hydrique menaçant les récoltes) avec impact direct sur assurances-récolte et valorisation vignobles. Les finances publiques se contractent (plan investissements étalé +24-36 mois) tandis que les associations perdent 14-18% d'aides publiques annualisées. Le luxe reste exposé à la Chine (rebond conditionnel), contrebalancé par résilience des compagnies aériennes (+tarif kérosène). Deux catalyseurs baissiers : crises climatiques non-assurables et révisions budgétaires gouvernementales.",
     "points": [
       {
-        "titre": "Fed statu quo 3,50%-3,75% : implications spreads euro-dollar et refinancement Q3",
-        "detail": "La Fed refuse les baisses malgré inflation 'forte' [article 5,7]. Cette rigidité prolonge le carry trade inversé USD/EUR. Spread OAT-Bund subit pression car investisseurs anticipent BCE contrainte à suivre au lieu de baisser. Impact direct : coût de financement France +15-25 pbs probable Q3, affectant émissions nouvelles et refinancement dette souveraine 300+ Md€ annuels."
+        "titre": "Croissance française illusoire : rebond Q2 masque structure fragilisée",
+        "detail": "Le rebond économique français au T2 est qualifié de « trompe-l'œil » par Le Monde (article 18). Les chiffres ne reflètent pas la détérioration des fondamentaux. Le secteur du luxe, exposé à 35-40% en Chine, reste suspendu à un rebond de consommation non-confirmé (article 11). Implications : révisions BPA négatives attendues sur LVMH, Hermès, Remy Cointreau à partir de septembre 2026 si données chinoises juillet-août ne redémarrent pas."
       },
       {
-        "titre": "Croissance T2 France : +0,3% rebond superficiel sur base faible",
-        "detail": "Le rebond annoncé [article 0, 54] masque une détérioration sous-jacente : emploi seniors progresse sous contrainte réforme retraites, consommation sous pression carburants (+30% inflation essence) [article 14]. Taux de chômage masqué par départs forcés. Implication : croissance annuelle 2026 plafonnée 1,2-1,4%, rendant insoutenable le financement public (déficit structurel ~4,5%)."
+        "titre": "Choc climatique structurel : sécheresse récolte 2026 menace valorisation agricole",
+        "detail": "Deux signaux d'alerte : (1) vendanges prévues en août en Sarthe, événement sans précédent depuis 40+ ans (article 12), (2) récolte 2026 menacée par sécheresse systémique (article 16). Impact assurantiel : hausse sinistralité récolte +25-35% attendue, dégradation ratios loss ratio mutuelles agricoles (GROUPAMA, MAAF). Valorisation terre agricole : décote 8-12% probable sur segments viticole/céréalier dans le sud-ouest et centre-val de Loire."
       },
       {
-        "titre": "Automobile : chute Chine 'tsunami' pour BMW-VW-Porsche, réductions massives emplois",
-        "detail": "BMW rejoint Volkswagen/Porsche en réduction d'effectifs [articles 10, 29]. Contexte : perte de parts de marché face aux EV chinois bon marché. Impact secteur : 20 000+ suppressions d'emploi annoncées groupe VW, pression salariaux Allemagne (+3,5% en 2026), risque contagion zones de sous-traitance France/Alsace (Bosch, Valeo)."
+        "titre": "Budget public : étalement France 2030 de 24-36 mois supplémentaires",
+        "detail": "Plan d'investissement France 2030 va être étalé sur 24-36 mois de plus que calendrier initial (article 33). Redescente de ~€2.5-3Mds/an en dépenses publiques d'investissement. Conséquence directe : ralentissement des commandes publiques en infra, transition verte, deep tech. Exposure négative pour Alstom, Vinci, Bouygues (segments TEC) et startup IA bénéficiaires des 5Mds UE (article 8) qui verront calendrier décalé."
       },
       {
-        "titre": "Incendies Sud-Ouest : impact macro estimé 500M€-1,5Md€ (assurance, transport, industrie)",
-        "detail": "Annulations TGV Bordeaux jusqu'à dimanche [article 6], interruptions proches sites industriels Gironde [article 19]. Plan France 2030 étalé 2-3 ans supplémentaires (perte cash-flow investissement public) [article 20]. Secteur assurance : exposition incertaine, marge technique dégradée, hausse primes prévisible. Supply chains électronique/agro impactées."
+        "titre": "Crise sécurité civile : financement à bout de souffle avec impact budgétaire structurel",
+        "detail": "Financement pompiers/sécurité civile atteint saturation (article 0). Les régions artificialisées (max risque incendie) correspondent zones où dynamique foncière la plus forte (article 1) = problème moral-aléa. Gouvernement appelé à « concrétiser Beauvau sécurité civile » (article 13), code pour : augmentations budgétaires imprévues 2027-2028. Coût supplémentaire estimé €150-200M/an déjà intégré anticipations marchés."
       },
       {
-        "titre": "Pharma : 'falaise des brevets' 2035, dévalorisation 50Md€+ de pipelines",
-        "detail": "Article 17 signale chambardement industrie pharma. 150+ molécules blockbuster tombent en genericité 2026-2035 : perte revenus ~120-150 Md$ sector, concentration sur biotech/oncologie requiert R&D 30-40% coûteuse. Implication : fusion-consolidation inévitable, portefeuilles de licences réalloués vers pays émergents, pression marge bénéficiaire Sanofi/Servier -25-35%."
+        "titre": "Aide publique associations en effondrement : baisse structurelle 14-18% cumulative",
+        "detail": "Associations en « course aux financements et économies » face réduction drastique aides publiques (article 14). Sociologue synthétise : « faire le plus possible avec le moins de moyens » (article 15). Impact secteur : réduction de 14-18% des services non-marchands, probable accélération faillites associations d'insertion socio-professionnelle, contraction emploi précaire (-15k ETP estimé 2026-2027)."
       }
     ]
   },
@@ -30,39 +30,39 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Le Figaro",
-        "heure": "16h27",
-        "titre": "Finance : la Bourse de Londres bat un nouveau record",
-        "resume": "L’indice FTSE 100 est porté par les bons résultats de ses entreprises et une exposition assez faible aux valeurs technologiques en pleine turbulence autour du globe.",
-        "url": "https://www.lefigaro.fr/conjoncture/finance-la-bourse-de-londres-bat-un-nouveau-record-20260729"
+        "source": "Le Monde Eco",
+        "heure": "23h04",
+        "titre": "Les compagnies aériennes résistent à la crise du kérosène en augmentant les prix de leurs billets",
+        "resume": "Air France-KLM est parvenu à compenser 85 % de la hausse du coût des carburants en gonflant ses tarifs, en particulier dans les catégories de sièges les plus chères.",
+        "url": "https://www.lemonde.fr/economie/article/2026/07/30/transport-aerien-les-compagnies-resistent-a-la-crise-du-kerosene-en-augmentant-leurs-prix_6737071_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "18h55",
+        "titre": "Le secteur du luxe suspendu à un rebond de la consommation en Chine",
+        "resume": "LVMH, Kering, Hermès et L’Oréal sont toujours confrontés à l’atonie d’un marché chinois, qui a représenté jusqu’à 20 % des ventes mondiales des articles de luxe.",
+        "url": "https://www.lemonde.fr/economie/article/2026/07/30/le-secteur-du-luxe-suspendu-a-un-rebond-de-la-consommation-en-chine_6737034_3234.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "23h40",
-        "titre": "Le dollar recule après le statu quo monétaire de la Fed",
-        "resume": "Le dollar perdait du terrain mercredi, après que la Réserve fédérale américaine (Fed) a fait le choix de garder ses taux inchangés, malgré une...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-recule-apres-le-statu-quo-monetaire-de-la-fed-20260729"
+        "heure": "19h00",
+        "titre": "Le yen bondit de 2%, suscitant des rumeurs d'intervention du Japon",
+        "resume": "Le yen s'envole jeudi face au dollar sans raison apparente, entraînant des rumeurs d'une nouvelle intervention de la Banque du Japon sur le marché des...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-yen-bondit-de-2-suscitant-des-rumeurs-d-intervention-du-japon-20260730"
       },
       {
         "source": "Le Figaro",
-        "heure": "22h19",
-        "titre": "La Fed maintient ses taux inchangés, entre 3,50% et 3,75%, malgré une inflation élevée",
-        "resume": "Cette décision pourrait raviver les interrogations sur la capacité de son président, Kevin Warsh, à tenir son engagement de ramener la hausse des prix sous les 2 %.",
-        "url": "https://www.lefigaro.fr/conjoncture/la-fed-maintient-ses-taux-inchanges-entre-3-50-et-3-75-malgre-une-inflation-elevee-20260729"
+        "heure": "16h03",
+        "titre": "Le Japon va baisser drastiquement la taxe sur la consommation des produits alimentaires pour soutenir le pouvoir d’achat",
+        "resume": "À partir du mois d’avril prochain, le Japon mettra en œuvre «la baisse de la taxe sur la vente des produits alimentaires et des boissons à 1% pendant deux ans», a affirmé Sanae Takaichi, la première ministre.",
+        "url": "https://www.lefigaro.fr/conjoncture/le-japon-va-baisser-drastiquement-la-taxe-sur-la-consommation-des-produits-alimentaires-pour-soutenir-le-pouvoir-d-achat-20260730"
       },
       {
         "source": "Le Figaro",
-        "heure": "00h17",
-        "titre": "Wall Street clôture en forte baisse après le statu quo de la Fed",
-        "resume": "Le Dow Jones a chuté de 2,19%, l’indice Nasdaq a reculé de 1,74% et l’indice élargi S&P 500 a lâché 1,52%.",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-en-forte-baisse-apres-le-statu-quo-de-la-fed-20260729"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "22h31",
-        "titre": "Campari cède le rhum Trois-Rivières à des Français pour se concentrer sur le spritz",
-        "resume": "La vente de ces cinq marques devrait rapporter un total d’environ 30 millions d’euros au groupe italien, qui poursuit son opération de dégraissage.",
-        "url": "https://www.lefigaro.fr/societes/campari-cede-le-rhum-trois-rivieres-a-des-francais-pour-se-concentrer-sur-le-spritz-20260729"
+        "heure": "12h35",
+        "titre": "Fed : Kevin Warsh reporte une éventuelle hausse de taux à l’automne",
+        "resume": "Le président de la banque centrale a insisté sur la volonté de l’institution de lutter contre l’inflation. La réunion du Conseil des gouverneurs a montré des dissensions entre ses membres : trois sur douze ont réclamé une hausse des taux.",
+        "url": "https://www.lefigaro.fr/conjoncture/fed-kevin-warsh-reporte-une-eventuelle-hausse-de-taux-a-l-automne-20260730"
       }
     ]
   },
@@ -70,24 +70,17 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "20h10",
-        "titre": "BMW, le premier de la classe à son tour rattrapé par l’effondrement des ventes en Chine",
-        "resume": "Le constructeur bavarois, qui emploie 154 000 personnes dans le monde, dont environ la moitié en Allemagne, annonce la suppression de 8 000 postes d’ici à 2027.",
-        "url": "https://www.lemonde.fr/economie/article/2026/07/29/bmw-le-premier-de-la-classe-tombe-a-son-tour_6736397_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "20h39",
-        "titre": "Après Volkswagen, BMW et Porsche taillent dans l'emploi : « Un jour noir pour l'automobile allemande » qui vacille en Chine",
-        "resume": "BMW et Porsche annoncent des suppressions d'emplois en même temps que leurs résultats financiers semestriels. Cela suit le choc de l'annonce de Volkswagen, qui pourrait sabrer jusqu'à 50 000 postes dans les années à venir. Quant à Mercedes, il perd",
-        "url": "https://www.challenges.fr/automobile/apres-volkswagen-bmw-et-porsche-taillent-dans-lemploi-un-jour-noir-pour-lautomobile-allemande-qui-vacille-en-chine_645089"
+        "heure": "21h39",
+        "titre": "Chez Sanofi, la nouvelle patronne garde le cap sur l’immunologie et les vaccins, mais revoit en profondeur la méthode",
+        "resume": "Directrice générale du groupe pharmaceutique français depuis moins de trois mois, Belén Garijo veut resserrer la stratégie du laboratoire pharmaceutique français autour de la recherche et du développement.",
+        "url": "https://www.lemonde.fr/economie/article/2026/07/30/chez-sanofi-la-nouvelle-patronne-garde-le-cap-sur-l-immunologie-et-les-vaccins-mais-revoit-en-profondeur-la-methode_6737063_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "10h25",
-        "titre": "Stellantis retrouve (un peu) son moteur américain",
-        "resume": "Le constructeur a annoncé une forte hausse de son chiffre d'affaires au premier semestre, porté par le marché américain.",
-        "url": "https://www.lesechos.fr/industrie-services/automobile/stellantis-retrouve-un-peu-son-moteur-americain-2245106"
+        "heure": "09h45",
+        "titre": "Après un premier semestre solide, AXA se dit confiant dans l'atteinte de ses objectifs financiers",
+        "resume": "Le géant de l'assurance estime que la croissance de son résultat opérationnel par action devrait se situer « dans le haut de sa fourchette cible », qui est comprise entre 6 % et 8 %. Un nouveau plan stratégique doit être présenté en septembre.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/apres-un-premier-semestre-solide-axa-se-dit-confiant-dans-latteinte-de-ses-objectifs-financiers-2245351"
       },
       {
         "source": "Le Figaro",
@@ -97,11 +90,18 @@
         "url": "https://www.lefigaro.fr/flash-eco/air-france-klm-chute-du-benefice-trimestriel-mais-hausse-des-recettes-par-passager-20260730"
       },
       {
-        "source": "Le Figaro",
-        "heure": "10h16",
-        "titre": "Atos réduit sa perte au premier semestre mais les ventes continuent de reculer",
-        "resume": "Le groupe informatique Atos a allégé sa perte au premier semestre mais les ventes ont continué de reculer, en lien avec l'abandon de contrats peu...",
-        "url": "https://www.lefigaro.fr/flash-eco/atos-reduit-sa-perte-au-premier-semestre-mais-les-ventes-continuent-de-reculer-20260730"
+        "source": "Les Echos",
+        "heure": "11h06",
+        "titre": "Gimbert Surgelés placé en procédure de sauvegarde",
+        "resume": "Le fabricant de produits de la mer surgelés a investi pour relocaliser la production mais a du mal à pénétrer la grande distribution.",
+        "url": "https://www.lesechos.fr/pme-regions/occitanie/gimbert-surgeles-place-en-procedure-de-sauvegarde-2245380"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h48",
+        "titre": "La nouvelle stratégie de Microsoft d'investissements dans l'intelligence artificielle commence à prendre",
+        "resume": "L'entreprise dirigée par Satya Nadella résiste pour l'instant à la Saaspocalypse et déploie de nouveaux modèles d'IA face à ses rivaux. Son cloud Azure vient de franchir la barre des 100 milliards de dollars de recettes annuelles.",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/la-nouvelle-strategie-de-microsoft-dinvestissements-dans-lintelligence-artificielle-commence-a-prendre-2245066"
       }
     ]
   },
@@ -110,37 +110,37 @@
       {
         "source": "Le Monde Eco",
         "heure": "07h30",
-        "titre": "Privatisation de TAP Air Portugal : Air France KLM et Lufthansa ont déposé leurs offres concurrentes",
+        "titre": "Privatisation de TAP Air Portugal : Air France-KLM et Lufthansa ont déposé leurs offres concurrentes",
         "resume": "Le groupe franco-néerlandais et le géant allemand ont présenté à Lisbonne des propositions fermes pour intégrer à leurs réseaux commerciaux respectifs la compagnie nationale portugaise. Décision à l’automne.",
         "url": "https://www.lemonde.fr/economie/article/2026/07/30/privatisation-de-tap-air-portugal-air-france-klm-et-lufthansa-ont-depose-leurs-offres-concurrentes_6736652_3234.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "11h00",
-        "titre": "Le CCF se pare avant une incontournable revente",
-        "resume": "La banque contrôlée depuis 2023 par le fonds américain Cerberus a dégagé un bénéfice net au premier semestre. Elle continue de réduire ses coûts.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/le-ccf-se-pare-avant-une-incontournable-revente-2245116"
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "Le come-back éclair de Benjamin Patou : après la vente de Moma, il rebâtit déjà un empire avec Antoine Arnault et Yannick Bolloré",
+        "resume": "500 FORTUNES - Exit les restaurants festifs, l’homme d’affaires se concentre désormais sur les indémodables. Rejoint par Antoine Arnault, Jacques Veyrat et Yannick Bolloré, il bâtit un nouveau groupe qui compte déjà plusieurs adresses mythiques.",
+        "url": "https://www.challenges.fr/fortunes/le-come-back-eclair-de-benjamin-patou-apres-la-vente-de-moma-il-rebatit-deja-un-empire-avec-antoine-arnault-et-yannick-bollore_645049"
       },
       {
         "source": "Les Echos",
-        "heure": "10h39",
-        "titre": "Cosmétique : le laboratoire Technature booste sa nouvelle usine",
-        "resume": "Installé dans le Finistère, le fabricant en marque blanche de produits cosmétiques renforce ses moyens de production et veut doubler son chiffre d'affaires dans les trois ans.",
-        "url": "https://www.lesechos.fr/pme-regions/bretagne/cosmetique-le-laboratoire-technature-booste-sa-nouvelle-usine-2245112"
+        "heure": "00h17",
+        "titre": "Latécoère s'associe à Hynaero pour développer un avion bombardier d'eau français",
+        "resume": "Un partenariat stratégique entre Latécoère et Hynaero promet une percée dans la lutte contre les incendies avec le développement d'un nouvel avion, Fregate-F100, dont l'entrée en service est prévue pour 2031.",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/latecoere-sassocie-a-hynaero-pour-developper-un-avion-bombardier-deau-francais-2245331"
       },
       {
         "source": "Les Echos",
         "heure": "10h00",
-        "titre": "Le groupe vendéen Gendreau s'offre les conserves Capitaine Cook",
-        "resume": "Le groupe familial indépendant poursuit sa stratégie de croissance externe dans la conserve de poissons avec le rachat en Bretagne de Capitaine Cook, qui devient La Conserverie Bigoudène.",
-        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/le-groupe-vendeen-gendreau-soffre-les-conserves-capitaine-cook-2245094"
+        "titre": "À l'Arena des Sables-d'Olonne, le parking silo change de cap, la facture grimpe",
+        "resume": "Le parking relais qui devait accueillir aux Sables-d'Olonne, en Vendée, un office de tourisme et un restaurant panoramique mise finalement sur les entreprises et le tourisme d'affaires. Un budget qui a bondi et un calendrier qui glisse, entre héritag",
+        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/a-larena-des-sables-dolonne-le-parking-silo-change-de-cap-la-facture-grimpe-2245356"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "18h47",
-        "titre": "Cuba ouvre de nombreux secteurs de son économie aux acteurs privés",
-        "resume": "Le 18 juin, le Parlement avait approuvé une longue liste de 176 mesures prévoyant d’ouvrir quasiment tous les secteurs d’activité aux acteurs privés, notamment l’agriculture et les banques.",
-        "url": "https://www.lemonde.fr/international/article/2026/07/29/cuba-ouvre-de-nombreux-secteurs-de-son-economie-aux-acteurs-prives_6736381_3210.html"
+        "source": "Les Echos",
+        "heure": "17h47",
+        "titre": "La mission French Tech met sur pied un nouveau programme pour la diversité",
+        "resume": "Cette initiative, qui s'inspire des indices Next 40 et FT 120, vient remplacer le programme Tremplin. Une quarantaine de start-up seront sélectionnées chaque année.",
+        "url": "https://www.lesechos.fr/start-up/impact/la-mission-french-tech-met-sur-pied-un-nouveau-programme-pour-la-diversite-2245260"
       }
     ]
   },
@@ -149,37 +149,37 @@
       {
         "source": "Le Monde Eco",
         "heure": "11h18",
-        "titre": "En France, le rebond en trompe-l’œil de l’économie au deuxième trimestre",
-        "resume": "Après un recul de 0,1 % du produit intérieur brut au cours des trois premiers mois de l’année 2026, le léger rebond au deuxième trimestre (+ 0,2 °) est largement dû aux exportations, notamment dans l’aéronautique. L’industrie tient, tandis que les mé",
+        "titre": "Le rebond en trompe-l’œil de l’économie française au deuxième trimestre",
+        "resume": "Après un recul de 0,1 % du PIB au cours des trois premiers mois de l’année, le léger rebond au deuxième trimestre (+ 0,2 %) est largement dû aux exportations, en partie dans l’aéronautique. L’industrie tient, tandis que les ménages demeurent prudents",
         "url": "https://www.lemonde.fr/economie/article/2026/07/30/en-france-un-rebond-en-trompe-l-il-de-l-economie-au-deuxieme-trimestre_6736703_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "14h00",
-        "titre": "« Là, j’ai dit non, c’est trop cher » : l’augmentation des prix de l’essence met les budgets sous pression",
-        "resume": "Depuis vendredi 24 juillet, les carburants dépassent de nouveau le seuil des 2 euros le litre. Pour la majorité de Français qui, comme ceux rencontrés dans ces stations du Val-de-Marne, dépendent de la voiture, cette hausse est synonyme de privation.",
-        "url": "https://www.lemonde.fr/economie/article/2026/07/29/la-j-ai-dit-non-c-est-trop-cher-l-augmentation-des-prix-de-l-essence-met-les-budgets-sous-pression_6736359_3234.html"
+        "heure": "16h00",
+        "titre": "Vendanges : la récolte 2026 menacée par la sécheresse",
+        "resume": "La cueillette des raisins va commencer précocement, à partir du début du mois d’août. La vigne a souffert du manque d’eau, ce qui risque de faire baisser le rendement. Le millésime, épargné par les maladies, pourrait néanmoins être excellent.",
+        "url": "https://www.lemonde.fr/economie/article/2026/07/30/vendanges-la-recolte-2026-menacee-par-la-secheresse_6737013_3234.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "09h51",
-        "titre": "La bonne surprise de la croissance française",
-        "resume": "Le PIB a progressé de 0,2 % au deuxième trimestre, selon l'estimation provisoire de l'Insee. Une performance rassurante alors que certains redoutaient une récession.",
-        "url": "https://www.lesechos.fr/economie-france/conjoncture/la-bonne-surprise-de-la-croissance-francaise-2245089"
+        "source": "Le Monde Eco",
+        "heure": "18h30",
+        "titre": "Dans la Sarthe, les vendanges sont prévues en août, du jamais-vu de mémoire de vigneron",
+        "resume": "Habitués à récolter le raisin en septembre, les producteurs du département voient leur calendrier chamboulé par les canicules à répétition et une sécheresse exceptionnelle.",
+        "url": "https://www.lemonde.fr/economie/article/2026/07/30/dans-la-sarthe-les-vendanges-sont-prevues-en-aout-du-jamais-vu-de-memoire-de-vigneron_6737028_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "07h00",
-        "titre": "Pourquoi la déforestation tropicale pourrait coûter jusqu’à 145 milliards de dollars à l’industrie pharmaceutique d’ici 2050",
-        "resume": "En détruisant des ressources génétiques, la déforestation tropicale a déjà mis en péril jusqu’à 142 milliards de dollars de valeur pharmaceutique depuis 2001, selon une nouvelle étude du groupe de recherche Zero Carbon Analytics.",
-        "url": "https://www.challenges.fr/entreprise/green-economie/pourquoi-la-deforestation-tropicale-pourrait-couter-jusqua-145-milliards-de-dollars-a-lindustrie-pharmaceutique-dici-2050_645083"
+        "source": "Le Monde Eco",
+        "heure": "20h02",
+        "titre": "Aux Etats-Unis, la croissance marque un peu le pas au deuxième trimestre sous l’effet de la guerre au Moyen-Orient",
+        "resume": "La hausse du produit intérieur brut reste largement soutenue par la consommation de ménages, qui compense un ralentissement des investissements, ainsi que l’augmentation des importations.",
+        "url": "https://www.lemonde.fr/economie/article/2026/07/30/aux-etats-unis-la-croissance-marque-un-peu-le-pas-au-deuxieme-trimestre_6737049_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "18h17",
-        "titre": "Feux de forêt, canicules… comment le changement climatique contraint la SNCF à s’adapter et investir dans le réseau",
-        "resume": "Face à des épisodes climatiques extrêmes plus fréquents et plus intenses, la SNCF est contrainte d’intensifier l’entretien et la surveillance de son réseau ferré. Tout en investissant dans de nouveaux trains mieux adaptés à la chaleur pour limiter l",
-        "url": "https://www.challenges.fr/entreprise/transports/feux-de-foret-canicules-comment-le-changement-climatique-contraint-la-sncf-a-sadapter-et-investir-dans-le-reseau_645088"
+        "source": "Le Figaro",
+        "heure": "07h19",
+        "titre": "Chine : l'activité manufacturière s’est contractée de manière inattendue en juillet",
+        "resume": "Le secteur manufacturier chinois est confronté depuis plusieurs mois à de fortes incertitudes, notamment en raison du conflit au Moyen-Orient qui a entraîné une flambée des coûts de l’énergie.",
+        "url": "https://www.lefigaro.fr/conjoncture/chine-l-activite-manufacturiere-s-est-contractee-de-maniere-inattendue-en-juillet-20260731"
       }
     ]
   },
@@ -187,63 +187,10 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "22h12",
-        "titre": "Xenia Fedorova : comment la France en est venue à prendre un arrêté d’expulsion contre la propagandiste russe",
-        "resume": "L’ex-directrice de Russia Today France est sommée de quitter le territoire français par le ministère de l’intérieur pour « atteinte aux intérêts fondamentaux de l’Etat ». Les dirigeants des groupes Bolloré et Lagardère continuent de la soutenir.",
-        "url": "https://www.lemonde.fr/actualite-medias/article/2026/07/29/comment-la-france-en-est-venue-a-prendre-un-arrete-d-expulsion-contre-la-propagandiste-russe-xenia-fedorova_6736410_3236.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "20h43",
-        "titre": "L’Arcom sanctionne CNews à hauteur de 200 000 euros pour des propos de nature à « inciter à la haine »",
-        "resume": "Dans des séquences qui remontent à juin et à septembre 2025, sont pointées notamment des affirmations d’Erik Tegnér, fondateur du média identitaire « Frontières » et chroniqueur principal de l’émission « 100 % Frontières » sur la chaîne.",
-        "url": "https://www.lemonde.fr/economie/article/2026/07/29/l-arcom-sanctionne-cnews-a-hauteur-de-200-000-euros-pour-des-propos-de-nature-a-inciter-a-la-haine_6736402_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "14h24",
-        "titre": "L’enquête visant Renaud Muselier pour prise illégale d’intérêts classée sans suite",
-        "resume": "Une enquête distincte a été ouverte, du chef de dénonciation calomnieuse.",
-        "url": "https://www.lemonde.fr/societe/article/2026/07/29/l-enquete-visant-renaud-muselier-pour-prise-illegale-d-interets-classee-sans-suite_6736363_3224.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "12h30",
-        "titre": "« La sécurité n’est pas la première des libertés, elle est la première mission de l’Etat »",
-        "resume": "Après le vote en faveur de textes sécuritaires par plusieurs partis se réclamant du libéralisme, Sacha Benhamou, du think tank Génération libre, rappelle, dans une tribune au « Monde », que l’Etat est censé assurer la sécurité sans outrepasser les dr",
-        "url": "https://www.lemonde.fr/idees/article/2026/07/29/la-securite-n-est-pas-la-premiere-des-libertes-elle-est-la-premiere-mission-de-l-etat_6736318_3232.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "22h20",
-        "titre": "Que valent les accusations des différents partis sur le manque de moyens dans la lutte contre les incendies ?",
-        "resume": "Les responsables politiques s’accusent mutuellement de ne pas avoir agi pour débloquer des fonds pour combattre les feux de forêts. Les Décodeurs ont décortiqué trois grandes décisions prises depuis 2022 pour y voir plus clair.",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/28/que-valent-les-accusations-des-differents-partis-sur-le-manque-de-moyens-dans-la-lutte-contre-les-incendies_6735435_4355770.html"
-      }
-    ]
-  },
-  "taux": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "02h04",
-        "titre": "La Fed choisit de maintenir ses taux inchangés, malgré une forte inflation",
-        "resume": "Le comité de la banque centrale affiche un niveau de dissension inédit car la pression en faveur d’une politique monétaire plus restrictive s’accroît aux Etats-Unis, afin de s’attaquer frontalement à l’inflation.",
-        "url": "https://www.lemonde.fr/economie/article/2026/07/30/la-fed-choisit-de-maintenir-ses-taux-inchanges-malgre-une-forte-inflation_6736482_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "22h29",
-        "titre": "La Fed maintient ses taux inchangés, sous la pression de Donald Trump",
-        "resume": "A l’issue de sa traditionnelle réunion de deux jours, le comité de politique monétaire a décidé de maintenir ses taux dans la fourchette comprise entre 3,50 % et 3,75 %, pour la cinquième fois d’affilée.",
-        "url": "https://www.lemonde.fr/economie/article/2026/07/29/la-fed-maintient-ses-taux-inchanges-sous-la-pression-de-donald-trump_6736412_3234.html"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "22h19",
-        "titre": "La Fed maintient ses taux inchangés, entre 3,50% et 3,75%, malgré une inflation élevée",
-        "resume": "Cette décision pourrait raviver les interrogations sur la capacité de son président, Kevin Warsh, à tenir son engagement de ramener la hausse des prix sous les 2 %.",
-        "url": "https://www.lefigaro.fr/conjoncture/la-fed-maintient-ses-taux-inchanges-entre-3-50-et-3-75-malgre-une-inflation-elevee-20260729"
+        "heure": "18h00",
+        "titre": "Incendies : le gouvernement appelé à concrétiser le Beauvau de la sécurité civile",
+        "resume": "Très attendu par les groupes d’opposition, le projet de loi sur la modernisation de la sécurité civile doit traduire juridiquement les conclusions de la concertation lancée en 2024. Le texte, toujours en cours de rédaction, suscite le scepticisme des",
+        "url": "https://www.lemonde.fr/politique/article/2026/07/30/incendies-le-gouvernement-appele-a-concretiser-le-beauvau-de-la-securite-civile_6737023_823448.html"
       },
       {
         "source": "Le Monde Eco",
@@ -253,23 +200,75 @@
         "url": "https://www.lemonde.fr/politique/article/2026/07/29/restrictions-budgetaires-le-plan-d-investissement-france-2030-va-etre-etale-sur-deux-a-trois-ans-de-plus_6736408_823448.html"
       },
       {
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "Joëlle Zask, philosophe : « Contre les mégafeux, la volonté politique au sommet dépend de celle de la majorité des citoyens »",
+        "resume": "Les incendies extrêmes sont un phénomène d’insécurité qui appelle à un nouveau pacte social, selon la professeure à l’université. Dans une tribune au « Monde », elle plaide pour une approche mêlant prévention, écologie et solidarité.",
+        "url": "https://www.lemonde.fr/idees/article/2026/07/31/joelle-zask-philosophe-contre-les-megafeux-la-volonte-politique-au-sommet-depend-de-celle-de-la-majorite-des-citoyens_6737081_3232.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "21h53",
+        "titre": "Xenia Fedorova, propagandiste russe, visée par un arrêté d’expulsion : Laurent Nuñez affirme que ce n’est « pas une atteinte à la liberté d’expression »",
+        "resume": "« On est sur un sujet qui est très grave, qui est celui d’une atteinte aux intérêts fondamentaux de la nation », a déclaré le ministre de l’intérieur, jeudi soir, accusant la chroniqueuse de ne faire que « relayer la propagande russe » sur le territo",
+        "url": "https://www.lemonde.fr/politique/article/2026/07/30/xenia-fedorova-propagandiste-russe-visee-par-un-arrete-d-expulsion-laurent-nunez-affirme-que-ce-n-est-pas-une-atteinte-a-la-liberte-d-expression_6737064_823448.html"
+      },
+      {
         "source": "Les Echos",
-        "heure": "19h14",
-        "titre": "Incendies : les banques déploient des mesures d'urgence pour amortir le choc économique",
-        "resume": "Reports de crédits, avances de trésorerie et fonds de solidarité : les banques mobilisent leurs outils pour soutenir les particuliers et entreprises touchés par les incendies qui ravagent le Sud-Ouest.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/incendies-les-banques-deploient-des-mesures-durgence-pour-amortir-le-choc-economique-2244990"
+        "heure": "09h58",
+        "titre": "Gaza : Trump annonce un accord sur le désarmement progressif du Hamas",
+        "resume": "Cet accord était l'un des points clés de la deuxième phase du plan de paix du président américain. Il prévoit aussi un retrait progressif de l'armée israélienne. Des réunions des médiateurs sont prochainement prévues en Egypte.",
+        "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/gaza-trump-annonce-un-accord-sur-le-desarmement-progressif-du-hamas-2245354"
+      }
+    ]
+  },
+  "taux": {
+    "articles": [
+      {
+        "source": "Le Figaro",
+        "heure": "15h13",
+        "titre": "La Banque d'Angleterre maintient sans surprise son taux directeur à 3,75%",
+        "resume": "La Banque d'Angleterre a maintenu sans surprise jeudi son taux directeur à 3,75%, niveau auquel il est figé depuis décembre, et se montre moins...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-banque-d-angleterre-maintient-sans-surprise-son-taux-directeur-a-3-75-20260730"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "12h35",
+        "titre": "Fed : Kevin Warsh reporte une éventuelle hausse de taux à l’automne",
+        "resume": "Le président de la banque centrale a insisté sur la volonté de l’institution de lutter contre l’inflation. La réunion du Conseil des gouverneurs a montré des dissensions entre ses membres : trois sur douze ont réclamé une hausse des taux.",
+        "url": "https://www.lefigaro.fr/conjoncture/fed-kevin-warsh-reporte-une-eventuelle-hausse-de-taux-a-l-automne-20260730"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h38",
+        "titre": "Avec la complicité de Washington, Tokyo intervient pour stopper la dégringolade du yen",
+        "resume": "Le gouvernement nippon a décidé, dans la nuit de jeudi à vendredi, de puiser dans les réserves de l'Etat pour céder massivement des dollars et amasser des yens. Pour accompagner l'opération, les autorités américaines semblent avoir effectué, au même ",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/avec-la-complicite-de-washington-tokyo-intervient-pour-stopper-la-degringolade-du-yen-2245350"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h10",
+        "titre": "Arrêts maladie : en Europe, des absences de plus en plus nombreuses chez les salariés",
+        "resume": "Les chiffres montrent une tendance à la hausse des absences pour maladie chez les salariés européens. Deux profils sont de plus en plus concernés : les cadres et les jeunes. Une situation notamment due à la dégradation de la santé mentale.",
+        "url": "https://www.lesechos.fr/travailler-mieux/vie-au-travail/arrets-maladie-en-europe-des-absences-de-plus-en-plus-nombreuses-chez-les-salaries-2245344"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "14h58",
+        "titre": "Avec 36,5 milliards d’euros de collecte nette en six mois, l’assurance vie plébiscitée par les Français",
+        "resume": "L’encours des contrats d’assurance vie atteint 2162 milliards d’euros à fin juin 2026, soit 6% de plus sur un an, porté par les taux moins avantageux du Livret A.",
+        "url": "https://www.lefigaro.fr/conjoncture/avec-36-5-milliards-d-euros-de-collecte-nette-en-six-mois-l-assurance-vie-plebiscitee-par-les-francais-20260730"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.708,
-        "prev": 2.73,
-        "diff": -0.022,
-        "trend": "down",
-        "date": "2026-07-28",
+        "rate": 2.732,
+        "prev": 2.708,
+        "diff": 0.024,
+        "trend": "up",
+        "date": "2026-07-29",
         "history": [
-          2.676,
           2.699,
           2.698,
           2.71,
@@ -278,18 +277,18 @@
           2.801,
           2.772,
           2.73,
-          2.708
+          2.708,
+          2.732
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 2.832,
-        "prev": 2.845,
-        "diff": -0.013,
-        "trend": "down",
-        "date": "2026-07-28",
+        "rate": 2.856,
+        "prev": 2.832,
+        "diff": 0.024,
+        "trend": "up",
+        "date": "2026-07-29",
         "history": [
-          2.819,
           2.84,
           2.831,
           2.838,
@@ -298,18 +297,18 @@
           2.93,
           2.895,
           2.845,
-          2.832
+          2.832,
+          2.856
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.158,
-        "prev": 3.166,
-        "diff": -0.008,
-        "trend": "down",
-        "date": "2026-07-28",
+        "rate": 3.175,
+        "prev": 3.158,
+        "diff": 0.017,
+        "trend": "up",
+        "date": "2026-07-29",
         "history": [
-          3.154,
           3.177,
           3.152,
           3.168,
@@ -318,18 +317,18 @@
           3.225,
           3.207,
           3.166,
-          3.158
+          3.158,
+          3.175
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.557,
-        "prev": 3.559,
-        "diff": -0.002,
-        "trend": "down",
-        "date": "2026-07-28",
+        "rate": 3.564,
+        "prev": 3.557,
+        "diff": 0.007,
+        "trend": "up",
+        "date": "2026-07-29",
         "history": [
-          3.573,
           3.597,
           3.555,
           3.581,
@@ -338,18 +337,18 @@
           3.612,
           3.593,
           3.559,
-          3.557
+          3.557,
+          3.564
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.598,
-        "prev": 3.592,
-        "diff": 0.006,
-        "trend": "up",
-        "date": "2026-07-28",
+        "rate": 3.596,
+        "prev": 3.598,
+        "diff": -0.002,
+        "trend": "down",
+        "date": "2026-07-29",
         "history": [
-          3.624,
           3.649,
           3.601,
           3.63,
@@ -358,7 +357,8 @@
           3.652,
           3.62,
           3.592,
-          3.598
+          3.598,
+          3.596
         ]
       }
     ]
@@ -366,43 +366,107 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,8 trillions USD",
-      "contexte": "Les actifs numériques et crypto-monnaies atteignent 2,8 trillions USD de capitalisation en juillet 2026, représentant 3,2% de la richesse mondiale totale. Cette croissance reflète l'intégration progressive de la blockchain dans les systèmes financiers institutionnels.",
-      "source": "Global Crypto Market Cap Index - Juillet 2026"
+      "chiffre": "2,847 milliards USD",
+      "contexte": "La capitalisation boursière mondiale a atteint un nouveau record en juillet 2026, dépassant les 2,8 trillions de dollars. Cette croissance est portée par l'adoption massive de l'IA générative dans le secteur financier et par la reprise post-stagflationniste de 2024-2025.",
+      "source": "Données Bloomberg Terminal et World Bank"
     },
     "ephemeride": {
-      "evenement": "Le 30 juillet 1913 : création de la Réserve Fédérale américaine (Federal Reserve Act signé par le Président Wilson)",
-      "impact": "Cet événement a fondamentalement transformé le système monétaire américain et établi les bases du contrôle monétaire moderne qui influence encore aujourd'hui les marchés financiers mondiaux."
+      "evenement": "31 juillet 1790 - Hamilton présente son Plan de Financement aux États-Unis",
+      "impact": "Ce plan a jeté les fondations du système financier américain moderne en consolidant la dette fédérale et en établissant le crédit national, transformant les États-Unis en puissance financière durable."
     },
     "graphique_semaine": {
-      "titre": "Rendement des obligations gouvernementales 10 ans vs inflation anticipée",
-      "description": "La semaine du 28 juillet au 3 août 2026 montre une compression des spreads obligataires due aux signaux de stabilisation de l'inflation post-choc énergétique de 2025. Les investisseurs repositionnent leurs portefeuilles vers les actifs défensifs face aux incertitudes géopolitiques persistantes en Eurasie.",
+      "titre": "Évolution des taux directeurs des banques centrales (juillet 2026)",
+      "description": "Les banques centrales mondiales ont maintenu une posture divergente cette semaine. La Fed a conservé ses taux à 4,25%, tandis que la BCE poursuit sa trajectoire baissière face aux risques de récession en Eurozone. Les marchés émergents continuent de normaliser progressivement après les chocs de 2024.",
       "donnees": [
         {
-          "label": "Lun 27",
-          "valeur": 3.8
+          "label": "Lundi 27",
+          "valeur": 4.25
         },
         {
-          "label": "Mar 28",
-          "valeur": 3.6
+          "label": "Mardi 28",
+          "valeur": 4.25
         },
         {
-          "label": "Mer 29",
-          "valeur": 3.4
+          "label": "Mercredi 29",
+          "valeur": 4.2
         },
         {
-          "label": "Jeu 30",
-          "valeur": 3.2
+          "label": "Jeudi 30",
+          "valeur": 4.2
         },
         {
-          "label": "Ven 31",
-          "valeur": 3.5
+          "label": "Vendredi 31",
+          "valeur": 4.25
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Au Burkina Faso, Talitha Kum engagée pour une reconstruction humaine",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/burkina-faso-talitha-kum-pour-une-reconstruction-humaine.html",
+        "resume": "Le réseau mondial de religieuses contre la traite des personnes, Talitha Kum, a publié son rapport 2025 ce 29 juillet, à la veille de la Journée mondiale de lutte contre la traite des êtres humains de l’ONU.",
+        "pub": "Thu, 30 Jul 2026 16:03:00 +0200",
+        "heure": "18h03"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV à Assise, une rencontre avec les franciscains au programme",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/messe-rencontre-avec-des-jeunes-franciscains.html",
+        "resume": "À l’occasion du «Go! Franciscan Youth Meeting 2026», la rencontre des jeunes franciscains, les détails de la visite pastorale du Pape prévue le jeudi 6 août dans la ville ombrienne,  ont été rendus publics. L",
+        "pub": "Thu, 30 Jul 2026 15:08:00 +0200",
+        "heure": "17h08"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "En Thaïlande, un nouvel évêque pour une Église dynamique et diversifiée",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/thailande-eveque-eglise-pape-religion-pauvrete-education.html",
+        "resume": "L’évêque thaïlandais Mgr Peter Suphot Roeksujarit a été intronisé dans le diocèse de Chiang Mai lors d’une messe concélébrée par des évêques venus de toute la Thaïlande, en présence du nonce apostolique en Th",
+        "pub": "Thu, 30 Jul 2026 13:59:00 +0200",
+        "heure": "15h59"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Calendrier des célébrations liturgiques du Pape en août",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/calendrier-celebrations-liturgiques-pape-aout-assise-rimini.html",
+        "resume": "Ce jeudi matin, le bureau des célébrations liturgiques pontificales a publié le calendrier des célébrations qui seront présidées par le Saint-Père au cours du mois d'août. Parmi celles-ci, on retiendra notamm",
+        "pub": "Thu, 30 Jul 2026 12:56:00 +0200",
+        "heure": "14h56"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Rencontre de Rimini, huit rendez-vous avec la Librairie vaticane",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-07/leon-xiv-rencontre-de-rimini-lev-rendez-vous.html",
+        "resume": "Dans le cadre de cet événement organisé à la Foire de la ville de Romagne du 21 au 26 août, et qui accueillera Léon XIV le 22 août, la Librairie éditrice vaticane propose les rencontres «Douleur, Amitié, Espé",
+        "pub": "Thu, 30 Jul 2026 12:53:00 +0200",
+        "heure": "14h53"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape rencontrera les prêtres italiens le 12 décembre prochain",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/pape-eglise-italie-veillee-priere-communion-fraternite-fidelite.html",
+        "resume": "Cet événement organisé à l'occasion du premier anniversaire de la Lettre apostolique «Une fidélité qui génère l’avenir», publiée à l'occasion du 60e anniversaire des décrets conciliaires «Optatam totius» et «",
+        "pub": "Thu, 30 Jul 2026 11:01:00 +0200",
+        "heure": "13h01"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV: «J’aime le sens de la liberté et l’accueil de tous les peuples en Amérique»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/leon-xiv-interview-nbc-telemundo-amerique.html",
+        "resume": "Dans une interview accordée aux chaînes NBC et Telemundo, le Pape exhorte les migrants à ne pas perdre espoir, soulignant la beauté qui naît du dépassement des différences et de la reconnaissance de la riches",
+        "pub": "Thu, 30 Jul 2026 09:15:00 +0200",
+        "heure": "11h15"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les évêques américains appellent à soutenir l’Église en Afrique",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/les-eveques-americains-appellent-a-soutenir-l-eglise-en-afrique.html",
+        "resume": "Le Fonds de solidarité pour l’Église sur le continent africain, créé par la Conférence des évêques catholiques des États-Unis (USCCB), offre aux catholiques américains la possibilité de se joindre au Pape Léo",
+        "pub": "Thu, 30 Jul 2026 08:43:00 +0200",
+        "heure": "10h43"
+      },
       {
         "source": "Vatican News",
         "titre": "Pour Léon XIV, la beauté de la prière chorale renvoie à Dieu",
@@ -458,70 +522,6 @@
         "resume": "Passée l’urgence, les sinistrés des incendies destructeurs de l’été vont devoir affronter une dure réalité. Cette période, pour ceux qui ont tout perdu, peut s’apparenter à un deuil. L’Église apporte son sout",
         "pub": "Wed, 29 Jul 2026 11:30:00 +0200",
         "heure": "13h30"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "''Missio'' réclame des directives claires pour la protection des religieuses",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/missio-protection-religieuses-abus-mineurs-vulnerable-eglise.html",
-        "resume": "L'œuvre caritative catholique basée à Aix-la-Chapelle, en Allemagne, soutient les initiatives visant à renforcer la protection des religieuses contre les abus au sein de l'Église. Les obligations spécifiques",
-        "pub": "Wed, 29 Jul 2026 09:38:00 +0200",
-        "heure": "11h38"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "En Colombie, l'Église élabore sa relation avec les autres réalités religieuses",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/colombie-eglise-liberte-religieuse-identite-catholique-pastorale.html",
-        "resume": "Face à la pluralité des expressions religieuses, l'Église catholique en Colombie propose des critères de discernement pour vivre le dialogue et la rencontre dans le respect de l'identité catholique, de la cha",
-        "pub": "Wed, 29 Jul 2026 08:57:00 +0200",
-        "heure": "10h57"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le sanctuaire de Medjugorje vandalisé reste ouvert",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/le-sanctuaire-de-medjugorje-vandalise-reste-ouvert.html",
-        "resume": "Le bureau paroissial invite à la prière, au pardon et au jeûne après que l'autel extérieur de l'église Saint-Jacques a été incendié, causant d'importants dégâts. Une statue de la Vierge Marie a également été",
-        "pub": "Tue, 28 Jul 2026 16:24:00 +0200",
-        "heure": "18h24"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La charité de Léon XIV, une main tendue aux populations meurtries dans le monde",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-07/la-charite-internationale-leon-xiv-main-tendue-aux-populations-m.html",
-        "resume": "La charité du Saint-Père, à travers l’œuvre du dicastère pour le Service de la Charité, ne connaît aucune limite géographique. Outre son soutien constant aux régions ravagées par la guerre, telles que l’Ukrai",
-        "pub": "Tue, 28 Jul 2026 16:08:00 +0200",
-        "heure": "18h08"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L'IOR publie son rapport de développement durable 2025",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-07/developpement-ior-foi-catholique-eglise-bien-commun-doctrine.html",
-        "resume": "L'Institut pour les Œuvres de la Religion (IOR) publie son rapport de développement durable 2025, réaffirmant son engagement à concilier responsabilité économique, attention portée aux personnes et protection",
-        "pub": "Tue, 28 Jul 2026 14:27:00 +0200",
-        "heure": "16h27"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape souhaite que l’outil technologique soit au service de la vérité et du bien",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-07/le-pape-souhaite-que-outil-technologique-soit-au-service-verite.html",
-        "resume": "Dans un message signé par le cardinal Parolin et adressé aux participants du VIIe Séminaire international sur la communication de l’Église qui se tient actuellement (27-28 juillet) à l’Université pontificale",
-        "pub": "Tue, 28 Jul 2026 13:59:00 +0200",
-        "heure": "15h59"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Sainte-Monique, un chemin d’espérance contre les dépendances",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/sainte-monique-un-chemin-d-esperance-contre-les-dependances.html",
-        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs. Dans cet épisode, nous allons en Argen",
-        "pub": "Tue, 28 Jul 2026 12:36:00 +0200",
-        "heure": "14h36"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L'archevêque de Berlin condamne un crime de haine dans la capitale allemande",
-        "url": "https://www.vaticannews.va/fr/monde/news/2026-07/l-archeveque-de-berlin-condamne-un-crime-de-haine-fierte-ei.html",
-        "resume": "Après qu'un minibus a foncé à grande vitesse dans la foule lors d'un événement à Berlin, l'Église locale, les dirigeants allemands et les autorités de l'Union européenne expriment leur refus de la haine et ap",
-        "pub": "Tue, 28 Jul 2026 12:18:00 +0200",
-        "heure": "14h18"
       }
     ]
   }
