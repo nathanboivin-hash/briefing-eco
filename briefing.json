@@ -1,28 +1,24 @@
 {
-  "timestamp": "08h16 le 03/08/2026",
-  "alerte": "Intervention USD/JPY confirmée + tensions géopolitiques Moyen-Orient + fusion pharma 400Mds$ en cours",
+  "timestamp": "07h27 le 04/08/2026",
+  "alerte": "Déficit français menacé par canicules/incendies + production manufacturière en repli + volatilité géopolitique Moyen-Orient impactant l'énergie européenne",
   "synthese": {
-    "resume": "Les marchés absorbent une intervention rare USD/JPY justifiée diplomatiquement par Trump, signalant une instabilité persistante des changes. Parallèlement, l'UE durcit sa régulation IA (obligation de labellisation) tandis que le secteur automobile pivote stratégiquement vers la défense. Une fusion pharma de 400Mds$ (AstraZeneca-Bristol Myers) restructure l'industrie, et les tensions iraniennes créent une volatilité pétrolière malgré des appels aux négociations. Le secteur immobilier résidentiel souffre (refus assurance locataires, cautionnements bloqués), contrastant avec la résilience boursière (film Nolan crée des externalités positives).",
+    "resume": "La Bourse de Paris atteint un nouveau sommet 5 mois après son précédent record, dopée par l'IA et Taïwan, mais cette euphorie masque des fragilités structurelles : la production manufacturière française recule en juillet, le déficit budgétaire français est menacé par les coûts des mégafeux et canicules, tandis que l'assèchement du Danube crée une crise énergétique en Europe centrale. Les équipementiers français (Valeo, Forvia) se réorientent vers la défense, contredisant l'optimisme automobiliste. Donald Trump maintient une pression commerciale (droits de douane, intervention yen) qui crée l'incertitude géopolitique à Dubaï.",
     "points": [
       {
-        "titre": "Intervention FX rare USD/JPY - Signal de fragilité des équilibres",
-        "detail": "Les États-Unis confirment une intervention directe sur le yen (index 3, 47, 50), décrite comme un 'geste d'amitié' par Trump. Cette intervention est exceptionnelle sur le marché spot et signale une perte de confiance dans les mécanismes automatiques d'ajustement. Implication : stabilisation court terme du carry trade mais risque de retournement brutal si la Fed pivote hawkish. Le Japon traverse une phase de défiance vis-à-vis des investisseurs étrangers post-intervention BOJ."
+        "titre": "Marchés - CAC40 au sommet historique malgré divergences sectorielles",
+        "detail": "La Bourse de Paris atteint un nouveau record 5 mois après le précédent (39), révélant une concentration sur l'IA et la tech asiatique. Parallèlement, production manufacturière en repli en juillet (69) et marché du livre en difficulté (53). Le rally masque des divergences : équipementiers auto en défense (13,45), tensions sur kérosène airline (48). Implication : marché porté par narration IA/semi-conducteurs, non par croissance réelle française."
       },
       {
-        "titre": "Pharma : fusion AstraZeneca-Bristol Myers à 400Mds$ confirmée",
-        "detail": "Transaction majeure en phase d'annonce (index 33). Consolide les positions en oncologie-immunologie. Implication stratégique : réduction de 30-40% des coûts R&D post-intégration, accélération de pipelines, impact négatif sur les petites biotech indépendantes. Valeur de l'action AZN pré-annonce critique pour négociation, historiquement +15-20% post-accord."
+        "titre": "Macro - Production manufacturière française en contraction, déficit public fragilisé",
+        "detail": "Production manufacturière en repli net en juillet (69), confirmant infléchissement conjoncturel français. Canicules et mégafeux menacent directement l'objectif de réduction du déficit 2026 (18) : budget rectificatif demandé par opposition pour lutte contre incendies. Coût énergétique accru par assèchement Danube (8) menaçant Europe centrale. Implication : révision à la baisse prévisions croissance Q3-Q4 probable, margin de manœuvre budgétaire réduite à ~1,5-2Mds€."
       },
       {
-        "titre": "Automotive shift défense : Valeo-Forvia confirmé, marges défense +300bps",
-        "detail": "Les deux équipementiers français (index 2) officialisent l'inflexion vers les contrats de défense. Marges sur défense 18-22% vs 6-8% auto civil. Implications : dérisk vis-à-vis de la demande cyclique auto européenne, exposition géopolitique élevée (dépendance budgets OTAN/France). Veolia, Thales bénéficient indirectement."
+        "titre": "Entreprises - Réorientation défense des équipementiers auto français",
+        "detail": "Valeo et Forvia confirment inflexion stratégique secteur automobile vers défense (13), contredisant narrative de transition électrique comme moteur de croissance. Boeing 737 MAX 7 certifié après 7 ans de retard (7), impactant supply chain aéronautique. Embraer accumule 34,5Mds$ de commandes (28) pour rompre duopole Airbus-Boeing, créant pression tarifaire. Implication : rotation capital vers défense/aéro fragilise narratif transition énergétique, crée opportunités M&A dans supply chain aéronautique."
       },
       {
-        "titre": "Régulation IA UE : mention obligatoire en vigueur - Impact coûts de conformité",
-        "detail": "Index 6, 18 : obligation de labellisation IA crée friction réglementaire. Coûts de conformité estimés 2-5% des revenus IA pour PME, 0.5-1% pour grands groupes (economies d'échelle). Implication : frein à l'adoption IA en Europe vs US/Chine, but régulateur atteint mais compétitivité affectée. Les fournisseurs de compliance gagnent (éditeurs logiciels)."
-      },
-      {
-        "titre": "Tensions Iran/Pétrole : appels aux négociations, prix recule sur signal Trump",
-        "detail": "Index 19, 29 : Trump pose ultimatum/annonce négociations, pétrole chute (implication : baril USD 65-68 vs 72-75 avant). Durée volatilité: 2-4 semaines si négociations engagées. Impacte contrats futures Brent, spreads géopolitiques (primes de risque -3-5%)."
+        "titre": "Politique/Géopolitique - Trump intensifie pression commerciale, instabilité Moyen-Orient",
+        "detail": "Trump impose droits de douane 25% contestés par 25 États démocrates (6), revendique intervention yen par 'amitié' (14,72), crée incertitude devises. À Dubaï, hub financier Moyen-Orient, crainte enlisement conflit dépasse la guerre elle-même (12) : 'incertitude pire que conflit'. Aramco bondit +44% malgré tensions (58). Implication : volatilité EUR/USD 1,08-1,12, prime géopolitique durable sur énergie, réallocation capital vers valeurs défensives/ressources."
       }
     ]
   },
@@ -30,39 +26,39 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "03h28",
-        "titre": "Donald Trump affirme que les Etats-Unis sont intervenus pour soutenir le yen par « amitié » pour le Japon",
-        "resume": "La Réserve fédérale de New York a orchestré une vente d’euros inédite pour acheter des yens. La monnaie nippone avait enregistré en juillet ses plus bas niveaux depuis près de quarante ans.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/03/donald-trump-affirme-que-les-etats-unis-sont-intervenus-pour-soutenir-le-yen-par-amitie-pour-le-japon_6737321_3234.html"
+        "source": "Les Echos",
+        "heure": "19h06",
+        "titre": "Cinq mois après son précédent record, la Bourse de Paris de nouveau au sommet",
+        "resume": "Le CAC 40, indice phare de la cote parisienne, a atteint un niveau record, lundi, à 6.642,32 points en séance. Le précédent pic de l'indice remontait à fin février, avant que la guerre en Iran ne fasse dégringoler les Bourses européennes.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/cinq-mois-apres-son-precedent-record-la-bourse-de-paris-de-nouveau-au-sommet-2245735"
       },
       {
         "source": "Les Echos",
-        "heure": "09h34",
-        "titre": "Guerre au Moyen-Orient : Donald Trump annonce une reprise des négociations avec l'Iran, le pétrole chute",
-        "resume": "Ces nouveaux pourparlers auront lieu dès ce lundi a indiqué sans plus de précision le président américain. Un rebondissement qui intervient alors que Téhéran affirme être proche d'un accord avec Oman sur la navigation dans le détroit d'Ormuz.",
-        "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/guerre-au-moyen-orient-donald-trump-annonce-une-reprise-des-negociations-avec-liran-le-petrole-chute-2245637"
+        "heure": "10h57",
+        "titre": "Lufthansa voit ses profits fondre face à la flambée du kérosène",
+        "resume": "Le bénéfice opérationnel du premier groupe de transport aérien européen a chuté de plus de la moitié au deuxième trimestre. La compagnie allemande reste néanmoins confiante pour la fin de l'année afin de parvenir à compenser la hausse des coûts.",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/lufthansa-voit-ses-profits-fondre-face-a-la-flambee-du-kerosene-2245795"
       },
       {
         "source": "Challenges",
-        "heure": "12h01",
-        "titre": "Guerre au Moyen-Orient : Donald Trump pose un ultimatum à l’Iran en échange de la suspension des frappes américaines",
-        "resume": "Le président américain a déclaré samedi 1er août que les Etats-Unis et Israël avaient convenu de suspendre les nouvelles frappes prévues contre l’Iran. Mais la décision, prise selon les dires de Donald Trump à la demande de Téhéran et d’autres pays",
-        "url": "https://www.challenges.fr/monde/guerre-au-moyen-orient-donald-trump-pose-un-ultimatum-a-liran-en-echange-de-la-suspension-des-frappes-americaines_645116"
+        "heure": "16h00",
+        "titre": "34,5 milliards de dollars de commandes : Embraer peut-il enfin briser le duopole d’Airbus et Boeing ?",
+        "resume": "Porté par un carnet de commandes historique et la forte demande pour ses appareils, Embraer réfléchit à une nouvelle étape de son développement : concurrencer Airbus et Boeing sur le marché des avions commerciaux.",
+        "url": "https://www.challenges.fr/entreprise/345-milliards-de-dollars-de-commandes-embraer-peut-il-enfin-briser-le-duopole-dairbus-et-boeing_645125"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h15",
+        "titre": "Avec l’introduction des « aperçus IA », « le Web et les applications mobiles pourraient n’avoir été qu’une étape intermédiaire dans la transformation numérique »",
+        "resume": "La fonction AI Overviews de Google, au-delà des effets de son utilisation sur les visites de sites, transforme en profondeur la manière dont l’information est reconstituée et présentée. Elle donne aux modèles d’intelligence artificielle une puissance",
+        "url": "https://www.lemonde.fr/idees/article/2026/08/04/avec-l-introduction-des-apercus-ia-le-web-et-les-applications-mobiles-pourraient-n-avoir-ete-qu-une-etape-intermediaire-dans-la-transformation-numerique_6738050_3232.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "11h34",
-        "titre": "Washington aurait soutenu le yen dans une rare intervention sur les marchés, selon le Financial Times",
-        "resume": "Une telle intervention coordonnée du Trésor serait une première en près de 30 ans, selon le journal américain.",
-        "url": "https://www.lefigaro.fr/conjoncture/washington-aurait-soutenu-le-yen-dans-une-rare-intervention-sur-les-marches-selon-le-financial-times-20260802"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "02h48",
-        "titre": "Trump affirme que l'intervention américaine pour soutenir le yen est un «geste d'amitié»",
-        "resume": "Le président américain a choisi de soutenir la devise nippone parce que les États-Unis ont «une bonne relation avec le Japon».",
-        "url": "https://www.lefigaro.fr/international/trump-affirme-que-l-intervention-americaine-pour-soutenir-le-yen-est-un-geste-d-amitie-20260803"
+        "heure": "13h38",
+        "titre": "Nouveau repli de la production manufacturière en juillet en France",
+        "resume": "L'industrie manufacturière française s'est contractée en juillet, entre faiblesse de la demande à l'étranger et difficultés sur les chaînes...",
+        "url": "https://www.lefigaro.fr/flash-eco/nouveau-repli-de-la-production-manufacturiere-en-juillet-en-france-20260803"
       }
     ]
   },
@@ -76,43 +72,50 @@
         "url": "https://www.lemonde.fr/economie/article/2026/08/03/les-equipementiers-valeo-et-forvia-confirment-l-inflexion-du-secteur-automobile-vers-la-defense_6737330_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "Dix ans de conflit, des millions d’euros et la perte d’un fleuron français : Atlantic ou la face sombre du capitalisme familial",
-        "resume": "Victime d’un conflit entre les actionnaires familiaux, dont la famille Radat qui est présente au classement Challenges des 500 fortunes de France, le fleuron du marché des chaudières et pompes à chaleur a basculé sous pavillon nippo-américain cette",
-        "url": "https://www.challenges.fr/fortunes/dix-ans-de-conflit-des-millions-deuros-et-la-perte-dun-fleuron-francais-atlantic-ou-la-face-sombre-du-capitalisme-familial_645041"
+        "source": "Les Echos",
+        "heure": "11h10",
+        "titre": "Automobile : pourquoi les équipementiers français résistent à la tempête",
+        "resume": "Valeo, Forvia et OPmobility ont tous trois affiché des résultats solides au premier semestre. Le fruit d'une transformation de leur modèle, mais aussi de l'évolution du rapport de force avec les constructeurs.",
+        "url": "https://www.lesechos.fr/industrie-services/automobile/automobile-pourquoi-les-equipementiers-francais-resistent-a-la-tempete-2245801"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "14h00",
-        "titre": "La sortie du film « L’Odyssée » de Christopher Nolan dope les ventes en librairie du classique d’Homère",
-        "resume": "Anticipant l’effet boomerang lié à la sortie du blockbuster, les éditeurs ont multiplié depuis le mois de mai les rééditions de l’épopée du roi d’Ithaque. Les libraires profitent ainsi de l’engouement pour le film de Christopher Nolan.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/02/la-sortie-du-film-l-odyssee-de-christopher-nolan-dope-les-ventes-en-librairie-du-classique-d-homere_6737283_3234.html"
+        "heure": "21h59",
+        "titre": "Le Boeing 737 MAX 7 certifié avec sept ans de retard",
+        "resume": "Cet avion, plus petite version de la famille des 737 MAX, dont la livraison devait commencer en 2019, devrait pouvoir entrer en service en 2027.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/03/le-boeing-737-max-7-certifie-avec-sept-ans-de-retard_6737611_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "18h00",
+        "titre": "Anta, la marque de sport chinoise qui rachète ses rivales étrangères pour conquérir le marché occidental",
+        "resume": "Longtemps cantonné aux chaussures bon marché, Anta s’est bâti un empire en rachetant puis en faisant prospérer Fila, Wilson, Salomon ou Arc’teryx.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/03/anta-la-marque-de-sport-chinoise-qui-rachete-ses-rivales-etrangeres-pour-conquerir-le-marche-occidental_6737371_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "19h17",
-        "titre": "AXA, l'assureur tout-terrain qui évite la sortie de route",
-        "resume": "AXA confirme ses objectifs financiers, malgré les chocs. Sa branche d'assurance-dommages surmonte le retournement du cycle tarifaire.",
-        "url": "https://www.lesechos.fr/finance-marches/le-radar-des-marches/axa-lassureur-tout-terrain-qui-evite-la-sortie-de-route-2245625"
-      },
-      {
-        "source": "Challenges",
-        "heure": "16h08",
-        "titre": "« Aller au restaurant n’est plus une décision prise à la légère » : le secteur de la restauration bouleversé par de profonds changements",
-        "resume": "Avec la pandémie de Covid-19, c’est tout un pan du secteur de la restauration qui s’est effondré. L’inflation a eu un impact indéniable sur les habitudes des consommateurs, accroissant la concurrence entre restaurateurs, qui se voient obligés de rev",
-        "url": "https://www.challenges.fr/monde/aller-au-restaurant-nest-plus-une-decision-prise-a-la-legere-le-secteur-de-la-restauration-bouleverse-par-de-profonds-changements_645118"
+        "heure": "20h09",
+        "titre": "La contre-attaque surprise de Monte dei Paschi, nouveau coup de poker dans la finance italienne",
+        "resume": "Malgré la fin des négociations de fusion avec Banco BPM, le patron de Monte dei Paschi refuse de déposer les armes. Pour contrer l'OPA hostile d'Intesa Sanpaolo, Luigi Lovaglio envisage une manoeuvre audacieuse : inverser les rôles et racheter Banco ",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/la-contre-attaque-surprise-de-monte-dei-paschi-nouveau-coup-de-poker-dans-la-finance-italienne-2245755"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "00h26",
-        "titre": "Pharmacie : vers une potentielle fusion à 400 milliards de dollars entre AstraZeneca et Bristol Myers Squibb",
-        "resume": "Le laboratoire britannique étudierait la possibilité de fusionner ses activités avec son rival américain, croit savoir le « Financial Times » qui avance que des discussions ont eu lieu entre les deux firmes.",
-        "url": "https://www.lesechos.fr/industrie-services/pharmacie-sante/pharmacie-vers-une-potentielle-fusion-a-400-milliards-de-dollars-entre-astrazeneca-et-bristol-myers-squibb-2245628"
+        "source": "Challenges",
+        "heure": "16h00",
+        "titre": "34,5 milliards de dollars de commandes : Embraer peut-il enfin briser le duopole d’Airbus et Boeing ?",
+        "resume": "Porté par un carnet de commandes historique et la forte demande pour ses appareils, Embraer réfléchit à une nouvelle étape de son développement : concurrencer Airbus et Boeing sur le marché des avions commerciaux.",
+        "url": "https://www.challenges.fr/entreprise/345-milliards-de-dollars-de-commandes-embraer-peut-il-enfin-briser-le-duopole-dairbus-et-boeing_645125"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "18h00",
+        "titre": "Anta, la marque de sport chinoise qui rachète ses rivales étrangères pour conquérir le marché occidental",
+        "resume": "Longtemps cantonné aux chaussures bon marché, Anta s’est bâti un empire en rachetant puis en faisant prospérer Fila, Wilson, Salomon ou Arc’teryx.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/03/anta-la-marque-de-sport-chinoise-qui-rachete-ses-rivales-etrangeres-pour-conquerir-le-marche-occidental_6737371_3234.html"
       },
       {
         "source": "Challenges",
@@ -122,69 +125,69 @@
         "url": "https://www.challenges.fr/fortunes/dix-ans-de-conflit-des-millions-deuros-et-la-perte-dun-fleuron-francais-atlantic-ou-la-face-sombre-du-capitalisme-familial_645041"
       },
       {
-        "source": "Challenges",
-        "heure": "17h42",
-        "titre": "Au Brésil, Lula à la conquête d’un quatrième mandat, sous l’ombre de Donald Trump et de son soutien au fils de Jair Bolsonaro",
-        "resume": "A 80 ans, le président brésilien de gauche Lula part ce dimanche 2 août en quête d’une réélection en octobre, se posant en défenseur de la « souveraineté » de son pays face à l’Américain Donald Trump, dont l’ombre plane sur la campagne.",
-        "url": "https://www.challenges.fr/monde/au-bresil-lula-a-la-conquete-dun-quatrieme-mandat-sous-lombre-de-donald-trump-et-de-son-soutien-au-fils-de-jair-bolsonaro_645120"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "22h00",
-        "titre": "Abdul Samad Rabiu, l’autre industriel multimilliardaire qui veut changer le Nigeria",
-        "resume": "« Fortunes africaines ». Son parcours rappelle celui d’Aliko Dangote, première fortune d’Afrique. Plus discret, le patron du groupe BUA a lui aussi bâti un empire dans le ciment et le sucre. Et lui aussi est originaire de Kano, carrefour millénaire d",
-        "url": "https://www.lemonde.fr/afrique/article/2026/08/02/abdul-samad-rabiu-l-autre-industriel-multimilliardaire-qui-veut-changer-le-nigeria_6737313_3212.html"
+        "source": "Les Echos",
+        "heure": "20h09",
+        "titre": "La contre-attaque surprise de Monte dei Paschi, nouveau coup de poker dans la finance italienne",
+        "resume": "Malgré la fin des négociations de fusion avec Banco BPM, le patron de Monte dei Paschi refuse de déposer les armes. Pour contrer l'OPA hostile d'Intesa Sanpaolo, Luigi Lovaglio envisage une manoeuvre audacieuse : inverser les rôles et racheter Banco ",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/la-contre-attaque-surprise-de-monte-dei-paschi-nouveau-coup-de-poker-dans-la-finance-italienne-2245755"
       },
       {
         "source": "Les Echos",
-        "heure": "09h22",
-        "titre": "Patrick Drahi : histoire d'un tycoon du câble venu imposer son style dans les télécoms français",
-        "resume": "PATRICK DRAHI, RISE & FALL D'UN TYCOON DES TELECOMS (1/5) - Classement Forbes des millionnaires en tête et méthode John Malone sous le bras, c'est par le câble que Patrick Drahi s'est lancé à l'assaut des télécoms en France. Précurseur dans l'interne",
-        "url": "https://www.lesechos.fr/tech-medias/hightech/patrick-drahi-histoire-dun-tycoon-du-cable-venu-imposer-son-style-dans-les-telecoms-francais-2245635"
+        "heure": "09h10",
+        "titre": "« Patrick préparait cette acquisition depuis des années » : la prise de SFR en 2014, le coup de force de Drahi face à l'establishment",
+        "resume": "PATRICK DRAHI, RISE & FALL D'UN TYCOON DES TELECOMS (2/5) - Tout le monde était contre lui à Paris et pourtant, l'« insaisissable » Patrick Drahi, fils de prof de maths et self-made-man du câble, a réussi à prendre une cible dix fois plus grosse que ",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/patrick-preparait-cette-acquisition-depuis-des-annees-la-prise-de-sfr-en-2014-le-coup-de-force-de-drahi-face-a-lestablishment-2245769"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "18h00",
-        "titre": "États-Unis : quand les inégalités dopent la croissance… jusqu’à menacer le modèle américain",
-        "resume": "500 FORTUNES - Les États-Unis concentrent bien davantage les richesses que l’Europe. Cette accumulation de capital nourrit l’investissement et l’innovation. Mais cette extrême concentration des patrimoines, en particulier professionnels, a aussi des",
-        "url": "https://www.challenges.fr/fortunes/etats-unis-quand-les-inegalites-dopent-la-croissance-jusqua-menacer-le-modele-americain_645021"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h15",
-        "titre": "« L'IA n'est plus seulement un outil, elle devient une main d'oeuvre » : l'Homme n'est désormais plus le principal moteur de l'entreprise",
-        "resume": "Le cabinet McKinsey alerte sur l'impact des agents d'intelligence artificielle (IA) dans les entreprises. Dans un rapport, il appelle à une refonte des modèles opérationnels. L'ère des équipes hybrides, mêlant humains et IA, impose une transformation",
-        "url": "https://www.lesechos.fr/idees-debats/leadership-management/lia-nest-plus-seulement-un-outil-elle-devient-une-main-doeuvre-lhomme-nest-desormais-plus-le-principal-moteur-de-lentreprise-2245634"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h25",
-        "titre": "Immigration : après Ceuta, l'Europe se déchire sur la ligne à suivre",
-        "resume": "Face à l'afflux massif de migrants dans l'enclave espagnole au Maroc, l'Europe vacille. L'Espagne, en première ligne, réclame un soutien accru de l'UE. Mais les désaccords entre pays membres et les interrogations sur le rôle du Maroc freinent une rép",
-        "url": "https://www.lesechos.fr/monde/europe/immigration-apres-ceuta-leurope-se-dechire-sur-la-ligne-a-suivre-2245631"
+        "source": "Le Figaro",
+        "heure": "13h38",
+        "titre": "Nouveau repli de la production manufacturière en juillet en France",
+        "resume": "L'industrie manufacturière française s'est contractée en juillet, entre faiblesse de la demande à l'étranger et difficultés sur les chaînes...",
+        "url": "https://www.lefigaro.fr/flash-eco/nouveau-repli-de-la-production-manufacturiere-en-juillet-en-france-20260803"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "09h28",
-        "titre": "La mention « généré par IA » devient obligatoire dans l’UE",
-        "resume": "Une disposition-clé du règlement européen sur l’intelligence artificielle entre en vigueur dimanche 2 août. Les concepteurs et utilisateurs professionnels de systèmes d’IA devront mentionner que leurs contenus ont été créés par cette technologie, sou",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/02/intelligence-artificielle-la-mention-genere-par-ia-devient-obligatoire-dans-l-ue_6737268_3234.html"
+        "heure": "20h45",
+        "titre": "Les canicules et les incendies menacent l’objectif de réduction du déficit en France",
+        "resume": "Les vagues de chaleur et leurs conséquences pourraient coûter de 3 milliards à 6 milliards d’euros en 2026. Les assureurs en prendront une part à leur charge, mais une autre sera financée par l’Etat, compliquant davantage l’équation budgétaire de Séb",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/03/les-canicules-et-les-incendies-menacent-l-objectif-de-reduction-du-deficit-en-france_6737542_823448.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "09h09",
-        "titre": "Auchan lance « La rentrée à prix K.O. » : des centaines d’offres immanquables sur les fournitures scolaires jusqu’en fin de semaine",
-        "resume": "C’est les vacances, mais le spectre de la rentrée se profile déjà à l’horizon… Inutile d’attendre la dernière minute pour profiter des meilleures offres sur les fournitures scolaires. Auchan est fin prêt pour la rentrée des classes !",
-        "url": "https://www.lefigaro.fr/bons-plans/auchan-lance-la-rentree-a-prix-k-o-des-centaines-d-offres-immanquables-sur-les-fournitures-scolaires-jusqu-en-fin-de-semaine-20260803"
+        "source": "Le Monde Eco",
+        "heure": "19h45",
+        "titre": "L’assèchement du Danube met les pays d’Europe centrale au bord d’une crise énergétique",
+        "resume": "Confrontés à des niveaux historiquement bas du plus grand fleuve de l’Union européenne, plusieurs pays ont dû mettre à l’arrêt une partie de leurs réacteurs nucléaires. La Hongrie a appelé les entreprises et les particuliers à réduire drastiquement l",
+        "url": "https://www.lemonde.fr/planete/article/2026/08/03/l-assechement-du-danube-met-les-pays-d-europe-centrale-au-bord-d-une-crise-energetique_6737474_3244.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "Dans les Hauts-de-France, l’euphorie créée par les gigafactories de batteries électriques laisse place au doute",
+        "resume": "Inaugurées en grande pompe, les immenses usines du Nord peinent à monter en cadence. Retards, taux de rebut élevé et coûts de production fragilisent Verkor et ACC, face à des concurrents asiatiques bien plus avancés.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/04/dans-les-hauts-de-france-l-euphorie-creee-par-les-gigafactories-de-batteries-electriques-laisse-place-au-doute_6737877_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h30",
+        "titre": "« Silicon Island » : la croissance de Taïwan s'envole grâce à l'IA",
+        "resume": "Grâce à son quasi-monopole dans les puces pour l'intelligence artificielle, l'économie de l'île convoitée par la Chine bat tous les records. Mais sa dépendance aux exportations vers les Etats-Unis pose question.",
+        "url": "https://www.lesechos.fr/monde/asie-pacifique/silicon-island-la-croissance-de-taiwan-senvole-grace-a-lia-2245765"
       }
     ]
   },
   "politique": {
     "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "00h55",
+        "titre": "Droits de douane de Donald Trump : 25 Etats américains démocrates saisissent la justice",
+        "resume": "Ces nouvelles surtaxes, de 10 % ou de 12,5 % selon les pays, sont entrées en vigueur le 24 juillet.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/03/droits-de-douane-de-donald-trump-25-etats-americains-democrates-saisissent-la-justice_6737710_3234.html"
+      },
       {
         "source": "Le Monde Eco",
         "heure": "08h00",
@@ -193,38 +196,6 @@
         "url": "https://www.lemonde.fr/economie/article/2026/08/03/l-incertitude-est-presque-pire-que-la-guerre-a-dubai-le-c-ur-financier-du-moyen-orient-la-crainte-d-un-conflit-qui-s-enlise_6737335_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "17h42",
-        "titre": "Au Brésil, Lula à la conquête d’un quatrième mandat, sous l’ombre de Donald Trump et de son soutien au fils de Jair Bolsonaro",
-        "resume": "A 80 ans, le président brésilien de gauche Lula part ce dimanche 2 août en quête d’une réélection en octobre, se posant en défenseur de la « souveraineté » de son pays face à l’Américain Donald Trump, dont l’ombre plane sur la campagne.",
-        "url": "https://www.challenges.fr/monde/au-bresil-lula-a-la-conquete-dun-quatrieme-mandat-sous-lombre-de-donald-trump-et-de-son-soutien-au-fils-de-jair-bolsonaro_645120"
-      },
-      {
-        "source": "Challenges",
-        "heure": "10h46",
-        "titre": "« Donald Trump est en train de creuser sa propre tombe » : comment la Chine veut tester les États-Unis en intimidant leurs alliés",
-        "resume": "Le 20 juillet dernier, des garde-côtes chinois s’en prenaient à des marins philippins au large d’un atoll revendiqué par les deux pays. Une altercation qui vient s’ajouter à la liste toujours plus longue des pressions chinoises sur les alliés des Ét",
-        "url": "https://www.challenges.fr/monde/donald-trump-est-en-train-de-creuser-sa-propre-tombe-comment-la-chine-veut-tester-les-etats-unis-en-intimidant-leurs-allies_645115"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h00",
-        "titre": "« J’ai repris le flambeau d’une longue histoire » : du « ghetto » néofasciste à la présidence du Conseil, l’ascension résolue de Giorgia Meloni",
-        "resume": "À la tête de Fratelli d’Italia, qu’elle a fondé en 2012, elle est parvenue à briser le plafond de verre sur lequel avaient auparavant buté le Mouvement social italien et l’Alliance nationale.",
-        "url": "https://www.lefigaro.fr/international/j-ai-repris-le-flambeau-d-une-longue-histoire-du-ghetto-neofasciste-a-la-presidence-du-conseil-l-ascension-resolue-de-giorgia-meloni-20260803"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "00h57",
-        "titre": "Brésil : «en pleine forme», Lula se lance à 80 ans dans sa dernière bataille",
-        "resume": "Le président brésilien, candidat pour un quatrième mandat, a été investi lors d’une convention de son Parti des travailleurs (PT) à Sao Paulo.",
-        "url": "https://www.lefigaro.fr/international/bresil-en-pleine-forme-lula-se-lance-a-80-ans-dans-sa-derniere-bataille-20260802"
-      }
-    ]
-  },
-  "taux": {
-    "articles": [
-      {
         "source": "Le Monde Eco",
         "heure": "03h28",
         "titre": "Donald Trump affirme que les Etats-Unis sont intervenus pour soutenir le yen par « amitié » pour le Japon",
@@ -232,44 +203,68 @@
         "url": "https://www.lemonde.fr/economie/article/2026/08/03/donald-trump-affirme-que-les-etats-unis-sont-intervenus-pour-soutenir-le-yen-par-amitie-pour-le-japon_6737321_3234.html"
       },
       {
+        "source": "Le Figaro",
+        "heure": "07h04",
+        "titre": "Colombie : le président sortant Petro dit craindre une «guerre civile» après l'arrivée de son successeur",
+        "resume": "Gustavo Petro s’est inquiété lundi d’un risque de «guerre civile» après l’arrivée au pouvoir de son successeur Abelardo de la Espriella, qui aurait selon lui triché pour être élu et projetterait de l’extrader aux États-Unis.",
+        "url": "https://www.lefigaro.fr/international/colombie-le-president-sortant-petro-dit-craindre-une-guerre-civile-apres-l-arrivee-de-son-successeur-20260804"
+      },
+      {
         "source": "Les Echos",
-        "heure": "09h34",
-        "titre": "Guerre au Moyen-Orient : Donald Trump annonce une reprise des négociations avec l'Iran, le pétrole chute",
-        "resume": "Ces nouveaux pourparlers auront lieu dès ce lundi a indiqué sans plus de précision le président américain. Un rebondissement qui intervient alors que Téhéran affirme être proche d'un accord avec Oman sur la navigation dans le détroit d'Ormuz.",
-        "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/guerre-au-moyen-orient-donald-trump-annonce-une-reprise-des-negociations-avec-liran-le-petrole-chute-2245637"
+        "heure": "13h15",
+        "titre": "La France durcit son contrôle sur les investissements étrangers",
+        "resume": "L'Etat abaisse de 25 % à 10 % le seuil à partir duquel il peut s'opposer à des prises de participation étrangères dans des entreprises françaises situées dans des secteurs stratégiques.",
+        "url": "https://www.lesechos.fr/economie-france/conjoncture/la-france-durcit-son-controle-sur-les-investissements-etrangers-2245677"
+      }
+    ]
+  },
+  "taux": {
+    "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "11h05",
+        "titre": "Dette publique : « Ne s'intéresser qu'aux déséquilibres et aux taux ne suffit pas »",
+        "resume": "La recherche économique a montré que la soutenabilité d'une dette publique ne dépendait pas uniquement des variables analysées habituellement. Il faut également observer les flux de liquidités et la volatilité des marchés financiers, explique le prof",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/dette-publique-ne-sinteresser-quaux-desequilibres-et-aux-taux-ne-suffit-pas-2245800"
       },
       {
-        "source": "Le Figaro",
-        "heure": "11h34",
-        "titre": "Washington aurait soutenu le yen dans une rare intervention sur les marchés, selon le Financial Times",
-        "resume": "Une telle intervention coordonnée du Trésor serait une première en près de 30 ans, selon le journal américain.",
-        "url": "https://www.lefigaro.fr/conjoncture/washington-aurait-soutenu-le-yen-dans-une-rare-intervention-sur-les-marches-selon-le-financial-times-20260802"
+        "source": "Les Echos",
+        "heure": "19h06",
+        "titre": "Cinq mois après son précédent record, la Bourse de Paris de nouveau au sommet",
+        "resume": "Le CAC 40, indice phare de la cote parisienne, a atteint un niveau record, lundi, à 6.642,32 points en séance. Le précédent pic de l'indice remontait à fin février, avant que la guerre en Iran ne fasse dégringoler les Bourses européennes.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/cinq-mois-apres-son-precedent-record-la-bourse-de-paris-de-nouveau-au-sommet-2245735"
       },
       {
-        "source": "Le Figaro",
-        "heure": "02h48",
-        "titre": "Trump affirme que l'intervention américaine pour soutenir le yen est un «geste d'amitié»",
-        "resume": "Le président américain a choisi de soutenir la devise nippone parce que les États-Unis ont «une bonne relation avec le Japon».",
-        "url": "https://www.lefigaro.fr/international/trump-affirme-que-l-intervention-americaine-pour-soutenir-le-yen-est-un-geste-d-amitie-20260803"
+        "source": "Les Echos",
+        "heure": "10h57",
+        "titre": "Lufthansa voit ses profits fondre face à la flambée du kérosène",
+        "resume": "Le bénéfice opérationnel du premier groupe de transport aérien européen a chuté de plus de la moitié au deuxième trimestre. La compagnie allemande reste néanmoins confiante pour la fin de l'année afin de parvenir à compenser la hausse des coûts.",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/lufthansa-voit-ses-profits-fondre-face-a-la-flambee-du-kerosene-2245795"
       },
       {
-        "source": "Challenges",
-        "heure": "12h01",
-        "titre": "Guerre au Moyen-Orient : Donald Trump pose un ultimatum à l’Iran en échange de la suspension des frappes américaines",
-        "resume": "Le président américain a déclaré samedi 1er août que les Etats-Unis et Israël avaient convenu de suspendre les nouvelles frappes prévues contre l’Iran. Mais la décision, prise selon les dires de Donald Trump à la demande de Téhéran et d’autres pays",
-        "url": "https://www.challenges.fr/monde/guerre-au-moyen-orient-donald-trump-pose-un-ultimatum-a-liran-en-echange-de-la-suspension-des-frappes-americaines_645116"
+        "source": "Le Monde Eco",
+        "heure": "19h45",
+        "titre": "L’assèchement du Danube met les pays d’Europe centrale au bord d’une crise énergétique",
+        "resume": "Confrontés à des niveaux historiquement bas du plus grand fleuve de l’Union européenne, plusieurs pays ont dû mettre à l’arrêt une partie de leurs réacteurs nucléaires. La Hongrie a appelé les entreprises et les particuliers à réduire drastiquement l",
+        "url": "https://www.lemonde.fr/planete/article/2026/08/03/l-assechement-du-danube-met-les-pays-d-europe-centrale-au-bord-d-une-crise-energetique_6737474_3244.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h45",
+        "titre": "Les canicules et les incendies menacent l’objectif de réduction du déficit en France",
+        "resume": "Les vagues de chaleur et leurs conséquences pourraient coûter de 3 milliards à 6 milliards d’euros en 2026. Les assureurs en prendront une part à leur charge, mais une autre sera financée par l’Etat, compliquant davantage l’équation budgétaire de Séb",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/03/les-canicules-et-les-incendies-menacent-l-objectif-de-reduction-du-deficit-en-france_6737542_823448.html"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.713,
-        "prev": 2.732,
-        "diff": -0.019,
-        "trend": "down",
-        "date": "2026-07-30",
+        "rate": 2.761,
+        "prev": 2.713,
+        "diff": 0.048,
+        "trend": "up",
+        "date": "2026-07-31",
         "history": [
-          2.698,
           2.71,
           2.737,
           2.762,
@@ -278,18 +273,18 @@
           2.73,
           2.708,
           2.732,
-          2.713
+          2.713,
+          2.761
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 2.857,
-        "prev": 2.856,
-        "diff": 0.001,
+        "rate": 2.886,
+        "prev": 2.857,
+        "diff": 0.029,
         "trend": "up",
-        "date": "2026-07-30",
+        "date": "2026-07-31",
         "history": [
-          2.831,
           2.838,
           2.881,
           2.894,
@@ -298,18 +293,18 @@
           2.845,
           2.832,
           2.856,
-          2.857
+          2.857,
+          2.886
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.201,
-        "prev": 3.175,
+        "rate": 3.227,
+        "prev": 3.201,
         "diff": 0.026,
         "trend": "up",
-        "date": "2026-07-30",
+        "date": "2026-07-31",
         "history": [
-          3.152,
           3.168,
           3.21,
           3.204,
@@ -318,18 +313,18 @@
           3.166,
           3.158,
           3.175,
-          3.201
+          3.201,
+          3.227
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.606,
-        "prev": 3.564,
-        "diff": 0.042,
+        "rate": 3.628,
+        "prev": 3.606,
+        "diff": 0.022,
         "trend": "up",
-        "date": "2026-07-30",
+        "date": "2026-07-31",
         "history": [
-          3.555,
           3.581,
           3.616,
           3.603,
@@ -338,18 +333,18 @@
           3.559,
           3.557,
           3.564,
-          3.606
+          3.606,
+          3.628
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.641,
-        "prev": 3.596,
-        "diff": 0.045,
+        "rate": 3.649,
+        "prev": 3.641,
+        "diff": 0.008,
         "trend": "up",
-        "date": "2026-07-30",
+        "date": "2026-07-31",
         "history": [
-          3.601,
           3.63,
           3.656,
           3.647,
@@ -358,7 +353,8 @@
           3.592,
           3.598,
           3.596,
-          3.641
+          3.641,
+          3.649
         ]
       }
     ]
@@ -367,42 +363,90 @@
   "curiosite": {
     "chiffre_du_jour": {
       "chiffre": "2,847 milliards USD",
-      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en juillet 2026, portée par la croissance exponentielle du secteur de l'IA et des énergies renouvelables. Cette hausse reflète une confiance accrue des investisseurs malgré les tensions géopolitiques persistantes.",
-      "source": "Bloomberg & World Federation of Exchanges, juillet 2026"
+      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en juillet 2026, portée par la domination persistante des géants technologiques et de l'IA. Cette croissance reflète l'optimisme des marchés malgré les tensions géopolitiques récentes.",
+      "source": "World Bank Financial Markets Database - Juillet 2026"
     },
     "ephemeride": {
-      "evenement": "3 août 1981 - Lancement du premier ordinateur personnel IBM PC",
-      "impact": "Cet événement a marqué le début de la révolution numérique et la démocratisation de l'informatique, transformant fondamentalement les secteurs financiers et créant un nouveau paradigme d'innovation technologique qui perdure 45 ans après."
+      "evenement": "Le 4 août 1998 : La Russie déclare le défaut de paiement sur sa dette souveraine, déclenchant la crise des obligations russes.",
+      "impact": "Cet événement a provoqué l'effondrement du fonds spéculatif LTCM et marqué un tournant dans la gestion des risques systémiques mondiaux, menant aux réformes prudentielles post-2000."
     },
     "graphique_semaine": {
-      "titre": "Évolution des taux d'intérêt directeurs (juillet-août 2026)",
-      "description": "Les banques centrales poursuivent leur politique de gradualisme face à l'inflation résiduelle post-énergétique. La BCE et la Fed ont maintenu leurs taux stables, tandis que certaines banques émergentes continuent leurs ajustements. Cette stabilité favorise les marchés obligataires et les stratégies de carry-trade.",
+      "titre": "Volatilité des rendements obligataires 10 ans (Europe/USA)",
+      "description": "La semaine du 29 juillet au 4 août 2026 a enregistré une volatilité accrue des taux obligataires, influencée par les données d'inflation surprenantes et les décisions des banques centrales. Les rendements US ont oscillé entre 4,2% et 4,6%, reflétant l'incertitude sur les trajectoires de taux futurs.",
       "donnees": [
         {
-          "label": "Lundi 27 juil",
+          "label": "Lundi 29 juil",
           "valeur": 4.25
         },
         {
-          "label": "Mardi 28 juil",
-          "valeur": 4.25
+          "label": "Mardi 30 juil",
+          "valeur": 4.42
         },
         {
-          "label": "Mercredi 29 juil",
-          "valeur": 4.25
+          "label": "Mercredi 31 juil",
+          "valeur": 4.38
         },
         {
-          "label": "Jeudi 30 juil",
-          "valeur": 4.25
+          "label": "Jeudi 1 août",
+          "valeur": 4.55
         },
         {
-          "label": "Lundi 3 aout",
-          "valeur": 4.25
+          "label": "Vendredi 4 août",
+          "valeur": 4.31
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "L’Église marocaine vient en aide aux migrants de retour de Ceuta",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/maroc-migrants-eglise-ceuta-espagne-solidarite-crise.html",
+        "resume": "Dans l’enclave espagnole, la situation semble être revenue au calme, après l'arrivée de quelques 60 000 personnes, en provenance du Maroc. Si les autorités espagnoles assurent que tous ces candidats à l'exil",
+        "pub": "Mon, 03 Aug 2026 16:13:00 +0200",
+        "heure": "18h13"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L'hymne des JMJ de Séoul dévoilé",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/hymne-journee-mondiale-de-la-jeunesse-seoul-2027-pape-leon.html",
+        "resume": "À un an des Journées mondiales de la jeunesse (JMJ) de Séoul 2027, les organisateurs ont dévoilé, ce lundi 3 août, l’hymne officiel. Confidite, Ego Vici Mundum («Courage ! Moi, j’ai vaincu le monde») est insp",
+        "pub": "Mon, 03 Aug 2026 14:44:00 +0200",
+        "heure": "16h44"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le cardinal Parolin au Guatemala pour célébrer les 90 ans des relations avec le Saint-Siège",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/guatemala-diplomatie-saint-siege-parolin.html",
+        "resume": "Dans le cadre de sa visite dans ce pays d’Amérique centrale ce dimanche 2 août, le Secrétaire d’État du Vatican a notamment rappelé que «seul Dieu peut apaiser la faim la plus profonde de l’être humain», lors",
+        "pub": "Mon, 03 Aug 2026 12:50:00 +0200",
+        "heure": "14h50"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Au service de Dieu et des hommes, entre guerre et épreuves en Syrie",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/au-service-de-dieu-et-des-hommes-entre-guerre-epreuves-en-syrie.html",
+        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs. Dans cet épisode, nous retrouvons Sœur",
+        "pub": "Mon, 03 Aug 2026 11:44:00 +0200",
+        "heure": "13h44"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV attendu à Assise: encourager les jeunes à rêver «de grandes choses»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/assise-saint-francois-pardon-pape-leon-xiv-jeunes.html",
+        "resume": "«Nous attendons du Souverain pontife un message qui invite les jeunes à ne pas baisser les bras», explique Frère Luca de Pasquale, l’un des responsables de l’événement «GO! Franciscan Youth Meeting» qui se dé",
+        "pub": "Mon, 03 Aug 2026 10:39:00 +0200",
+        "heure": "12h39"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L'Église de Cadix et de Ceuta renforce son soutien face à la situation migratoire",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/eglise-cadix-ceuta-renforce-soutien-face-situation-migratoire.html",
+        "resume": "L’Église diocésaine exprime son inquiétude face à la situation que traverse Ceuta, propose sa collaboration aux autorités et annonce que les quêtes de cette fin de semaine dans les paroisses de Ceuta seront i",
+        "pub": "Mon, 03 Aug 2026 10:00:00 +0200",
+        "heure": "12h00"
+      },
       {
         "source": "Vatican News",
         "titre": "Le Pape appelle les jeunes Équatoriens à être des «artisans du pardon»",
@@ -474,54 +518,6 @@
         "resume": "Léon XIV a adressé un message au cardinal Ernest Simoni, âgé de 97 ans. Vendredi 31 juillet, ce dernier a présidé l’Eucharistie dans le camp de prisonniers de Spaç, en Albanie, en mémoire de ceux qui y ont so",
         "pub": "Sat, 01 Aug 2026 13:58:00 +0200",
         "heure": "15h58"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Au Mexique, les évêques alertent sur la traite des personnes vulnérables",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/traite-etre-humain-mexique-eveque-migrants-cartel-violences.html",
-        "resume": "Dans un message publié à l’occasion de la Journée mondiale de lutte contre la traite d’êtres humains, la Commission épiscopale pour la pastorale sociale du Mexique a dénoncé la gravité des nouvelles formes d’",
-        "pub": "Sat, 01 Aug 2026 12:55:00 +0200",
-        "heure": "14h55"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Fin de vie en Australie: l'Église doit «proposer des alternatives positives» à l'euthanasie",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/soins-palliatifs-euthanasie-eglise-fin-de-vie-alternatives.html",
-        "resume": "Alors que le parti au pouvoir en Australie est en faveur de l'accès à l'aide active à mourir, l'archevêque de Sydney, Mgr Anthony Fisher, affirme que ce concept de «santé à distance» s'est transformé en «mort",
-        "pub": "Sat, 01 Aug 2026 12:03:00 +0200",
-        "heure": "14h03"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV aux jeunes du Pérou: ravivez l’espoir dans tant de cœurs qui souffrent",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-journee-jeunes-perou-esperance-souffrance-message.html",
-        "resume": "Le Pape a envoyé ce samedi un message vidéo aux jeunes qui participent à la Journée nationale de la jeunesse qui se déroule à Chulucanas, à l'est du Pérou, du 30 juillet au 2 août. «Ouvrez grand vos cœurs pou",
-        "pub": "Sat, 01 Aug 2026 11:05:00 +0200",
-        "heure": "13h05"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le cardinal Farrell espère que les JMJ de Séoul seront «une véritable expérience de foi»",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-07/le-cardinal-farrell-un-an-avant-les-jmj-de-seoul.html",
-        "resume": "Le préfet du dicastère pour les Laïcs, la Famille et la Vie invite à mettre à profit les outils disponibles pour la préparation spirituelle du pèlerinage des jeunes en Corée où se tiendront, dans un an, les p",
-        "pub": "Fri, 31 Jul 2026 16:17:00 +0200",
-        "heure": "18h17"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La jeunesse arménienne catholique, «l'espérance sans cesse renouvelée»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-07/wayd-2026-jeunesse-armenienne-catholique-au-liban.html",
-        "resume": "«Un seul cœur en Christ», tel est le thème choisi cette année pour les Journées mondiales de la jeunesse arménienne organisées au Liban du 29 juillet au 3 août prochain. Le rassemblement comprend des temps de",
-        "pub": "Fri, 31 Jul 2026 15:44:00 +0200",
-        "heure": "17h44"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Ceuta: appel à la solidarité ou réactions de rejet après l'arrivée de 60 000 migrants",
-        "url": "https://www.vaticannews.va/fr/monde/news/2026-07/ceuta-espagne-maroc-migrants-eglise-catholique-europe.html",
-        "resume": "En 24 heures, 60.000 migrants ont passé la frontière entre le Maroc et Ceuta, l'équivalent de «70% de la population locale», affirme le gouvernement de l'enclave espagnole. 25 000 seraient déjà rentrés au Mar",
-        "pub": "Fri, 31 Jul 2026 14:02:00 +0200",
-        "heure": "16h02"
       }
     ]
   }
