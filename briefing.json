@@ -1,24 +1,28 @@
 {
-  "timestamp": "07h28 le 05/08/2026",
-  "alerte": "Déficit budgétaire français critique (107 Mds€ en 6 mois) + tensions géopolitiques (Ormuz, Ceuta) créent volatilité accrue sur les marchés européens",
+  "timestamp": "07h29 le 06/08/2026",
+  "alerte": "Doutes IA affectent marchés asiatiques ; tensions géopolitiques multiples (Russie, Maroc, Iran) ; réformes fiscales françaises en débat",
   "synthese": {
-    "resume": "Le CAC 40 atteint un nouveau record porté par la détente pétrolière (+2,5% sur les bourses asiatiques suite aux espoirs d'accord sur Ormuz), tandis que SpaceX double son chiffre d'affaires (+92%) sans enrayer la chute de son titre récent. En France, le déficit budgétaire s'aggrave (107 Mds€ en 6 mois, +40% vs 2025) menaçant la trajectoire budgétaire. Les crises régionales (Ceuta, sécheresse rhénane allemande) pèsent sur les chaînes logistiques tandis que les taux d'emprunt immobilier demeurent attractifs. L'IA s'impose comme vecteur de transformation disruptive des modèles économiques et des marchés de l'emploi.",
+    "resume": "Les marchés affichent une volatilité croissante : SpaceX perd 92% malgré +92% de chiffre d'affaires (signal d'inefficience valorisation tech), tandis que la Bourse de Paris atteint des records mais reste fragilisée par les doutes sur l'IA. EDF anticipe 9 Mds€ d'investissements climatiques, révélant une accélération des capex énergétiques. Les propositions fiscales françaises d'élargissement de l'assiette de l'impôt sur le revenu vont directement impacter le pouvoir d'achat et les stratégies patrimoniales. Les géopolitiques multiples (Russie, Maroc, Iran) introduisent des risques systémiques non entièrement valorisés par les actifs refuge.",
     "points": [
       {
-        "titre": "Bourses - CAC 40 record sur détente pétrolière, SpaceX en baisse malgré forte croissance",
-        "detail": "Le CAC 40 franchit un nouveau record (indice 81) porté par la chute des prix du pétrole suite aux espoirs d'accord sur Ormuz (réouverture dès mercredi annoncée). Les bourses asiatiques gagnent 2,5%. Paradoxalement, SpaceX affiche +92% de croissance mais voit son titre chuter depuis son IPO récente, signalant une correction des valorisations ultra-élevées du secteur spatial. Implique une sélectivité accrue : les records indices masquent une divergence croissance/valorisation."
+        "titre": "Tech: paradoxe valuation SpaceX - croissance +92% CA mais effondrement boursier",
+        "detail": "SpaceX double presque son CA (trimestre record) mais le titre récemment introduit en Bourse s'effondre. Symptôme de repricing massif du secteur tech américain : les investisseurs reprochent des multiples intenables. Implications : correction potentielle des valorisations AI/cloud à horizon Q3-Q4 2026 ; perte de confiance des retail investors ; réallocation vers valeurs défensives."
       },
       {
-        "titre": "Macro - Déficit français 107 Mds€ en 6 mois, trajectoire insoutenable",
-        "detail": "Le déficit budgétaire français atteint 107 Mds€ en première moitié 2026, signalant une déviation majeure des objectifs européens (3% du PIB soit ~90 Mds€ annuels). Cela implique soit une révision drastique à la baisse des dépenses, soit un risque de sanction de Bruxelles. Contexte de déficit: incendies (indemnisations d'activité partielle), crises migratoires, dépenses militaires. Le spread OAT-Bund devrait se creuser sous peu si la tendance persiste."
+        "titre": "Énergie: capex structurel EDF +9 Mds€/15ans pour adaptation climatique",
+        "detail": "EDF lance un cycle d'investissement massif pour adapter ses centrales au changement climatique. Cela signale : (1) anticipation de coûts de conformité environnementale croissants, (2) risque opérationnel sur marges futures si amortissements non couverts par tarification régulée, (3) opportunité pour investisseurs infra longue durée. Impact WACC EDF et notation de crédit à surveiller."
       },
       {
-        "titre": "Entreprises - Renault/Flins relance électrique, Toyota abandonne tout-électrique",
-        "detail": "Renaissance de l'usine Renault à Flins (indice 57) symbolise le pari français sur l'électrique. Contre-courant: Toyota célèbre le succès de la Yaris hybride (indice 7) et assume de ne pas prendre le virage du tout-électrique, remettant en question les stratégies sectorielles. Parallèlement, la Renault Twingo E-Tech risque de décevoir sur autoroute (recharge bridée, batterie en surchauffe - indice 25), révélant des failles opérationnelles. Ces divergences créent des opportunités de sélection: les hybrides résistants face aux failles technologiques de l'électrique."
+        "titre": "Fiscalité France: élargissement assiette impôt sur revenu - exonérations supprimées",
+        "detail": "Proposition des économistes Allègre-Timbeau de supprimer exonérations IR actuelles : impact patrimonial direct sur PFO (plus-values, revenus financiers). Mesure redistributive potentiellement génératrice de +1-2% de recettes fiscales. Risque: fuite de capitaux vers pays limitrophes (Suisse, Luxembourg) ; compression pouvoir d'achat HNI et cadres supérieurs (-2-3% consommation de luxe estimée)."
       },
       {
-        "titre": "Géopolitique - Crise Ceuta, Ormuz, dépendance gazière menace croissance UE",
-        "detail": "La crise migratoire à Ceuta (détente Maroc-Espagne) expose les failles de Schengen mais serait moins coûteuse qu'un rétablissement des frontières internes (indice 29). Plus critique: l'accord sur Ormuz (réouverture dès mercredi) soulage les prix pétroliers mais l'Europe reste extrêmement dépendante du gaz russe avant l'interdiction des importations programmée (indice 62). L'Allemagne dépensera 2x plus pour l'armée que la France dès 2027 (indice 27), redistribuant les équilibres géopolitiques."
+        "titre": "Géopolitique: ingérences Russie présidentielle 2027 et crise Ceuta déstabilisante",
+        "detail": "Attal rapporte ingérences russes ciblant candidats 2027 (Le Pen notamment). Crise Ceuta avec Maroc accentue tensions commerciales UE-Afrique du Nord. Impact économique direct : risque de disruption corridors commerciaux Sud (Espagne-Maroc), prime de risque géopolitique +15-25 bps sur spreads souverains espagnols et français court terme."
+      },
+      {
+        "titre": "Macro-AI: révision à la baisse des anticipations ROI technologie, redoublement doutes",
+        "detail": "Bourses asiatiques plombées par doutes sur IA; faux profils générés par Anthropic Mythos 5 pour contaminer code malveillant (signal: modèles IA deviennent vecteur risque systémique). Redoute impact productivité réel bien inférieur aux promesses. Implications: révision consensus estima profits tech -5-8% H2 2026 ; accélération correction indice NASDAQ."
       }
     ]
   },
@@ -26,11 +30,128 @@
     "metrics": [],
     "articles": [
       {
+        "source": "Challenges",
+        "heure": "17h05",
+        "titre": "SpaceX continue de s'effondrer en Bourse : pourquoi l'empire d'Elon Musk inquiète les investisseurs malgré un trimestre record",
+        "resume": "Elon Musk a présenté mardi 4 août les premiers résultats de son entreprise depuis son entrée en Bourse en juin. Le CA de 7,8 milliards de dollars, en nette hausse, rassure après des semaines de baisse du cours de l’action. Mais les différentes branc",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/spacex-continue-de-seffondrer-en-bourse-pourquoi-lempire-delon-musk-inquiete-les-investisseurs-malgre-un-trimestre-record_645150"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "08h43",
+        "titre": "Les Bourses asiatiques se retrouvent plombées par les doutes sur l’IA",
+        "resume": "À Tokyo et Séoul, la nouvelle vague de prise de bénéfices sur les valeurs technologiques.",
+        "url": "https://www.lefigaro.fr/conjoncture/les-bourses-asiatiques-se-retrouvent-plombees-par-les-doutes-sur-l-ia-20260806"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "21h48",
+        "titre": "Nouveau double record pour la Bourse de Paris qui termine à l'équilibre",
+        "resume": "La Bourse de Paris a inscrit de nouveaux records ce mercredi, mais a terminé quasi stable. Les investisseurs restent prudents face aux incertitudes géopolitiques et aux attentes autour d’un accord sur le détroit d’Ormuz.",
+        "url": "https://www.lefigaro.fr/conjoncture/nouveau-double-record-pour-la-bourse-de-paris-qui-termine-a-l-equilibre-20260805"
+      },
+      {
         "source": "Les Echos",
-        "heure": "19h48",
-        "titre": "Record du CAC 40 : qui sont les nouveaux moteurs de la Bourse de Paris ?",
-        "resume": "L'indice emblématique de la cote parisienne a terminé la séance de mardi à 8.666,63 points, un nouveau sommet historique. Il lui a fallu plus de cinq mois pour battre son précédent record. La trajectoire de l'indice doit désormais beaucoup plus aux e",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/record-du-cac-40-qui-sont-les-nouveaux-moteurs-de-la-bourse-de-paris-2245889"
+        "heure": "21h30",
+        "titre": "Les profits exceptionnels des géants de la tech propulsent la Bourse américaine à de nouveaux sommets",
+        "resume": "L'optimisme des marchés américains est au plus haut, porté par la géopolitique et les résultats exceptionnels des grandes entreprises de l'IA. Celles-ci ont connu des envolées boursières ébouriffantes, après plusieurs trimestres de contre-performance",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/les-profits-exceptionnels-des-geants-de-la-tech-propulsent-la-bourse-americaine-a-de-nouveaux-sommets-2246069"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "19h19",
+        "titre": "Les investissements record de la tech américaine ne font plus rêver les marchés",
+        "resume": "La capacité des géants américains de convertir ces dépenses en profits n’est pas acquise. Le coût de la dette et le prix des puces mémoires, qui a sextuplé en 2025, rendent l’équation d’autant plus complexe.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/05/les-investissements-record-de-la-tech-americaine-ne-font-plus-rever-les-marches_6739441_3234.html"
+      }
+    ]
+  },
+  "entreprises": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h00",
+        "titre": "Pour adapter ses centrales au changement climatique, EDF prévoit d’investir près de 9 milliards d’euros sur quinze ans",
+        "resume": "Les canicules et les faibles débits des fleuves engendrés par les sécheresses imposent ponctuellement l’arrêt ou le ralentissement de certains réacteurs nucléaires et perturbent la production hydroélectrique. Le groupe cherche à renforcer la résilien",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/06/pour-adapter-ses-centrales-au-changement-climatique-edf-prevoit-d-investir-pres-de-9-milliards-d-euros-sur-quinze-ans_6739675_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h58",
+        "titre": "SpaceX double presque son chiffre d’affaires, sans enrayer la chute de son titre récemment introduit en Bourse",
+        "resume": "Les pertes du groupe d’Elon Musk inquiètent les marchés malgré des revenus en forte hausse, portés par Starlink et l’intelligence artificielle. Le développement de cette dernière branche exige des investissements massifs.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/05/spacex-double-quasiment-son-chiffre-d-affaires-sans-enrayer-la-chute-de-son-titre-recemment-introduit-en-bourse_6739349_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "Urgo, bio­Mérieux, Boiron… comment les laboratoires familiaux français continuent de prospérer face à la Big Pharma",
+        "resume": "500 FORTUNES - A l’ombre des géants de la Big Pharma, des entreprises centenaires à l’actionnariat familial prospèrent sur un équilibre parfois complexe : innover sans renier l’héritage, transmettre sans étouffer la relève.",
+        "url": "https://www.challenges.fr/fortunes/urgo-biomerieux-boiron-comment-les-laboratoires-familiaux-francais-continuent-de-prosperer-face-a-la-big-pharma_645060"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "23h26",
+        "titre": "Vague de départ au sein des spécialistes de l'IA chez Google",
+        "resume": "Plusieurs figures clefs de l'intelligence artificielle au sein d'Alphabet ont annoncé leur départ ou leur changement de poste. Demis Hassabis quitte la direction de Google Deepmind pour en prendre la présidence.",
+        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/vague-de-depart-au-sein-des-specialistes-de-lia-chez-google-2246071"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "10h35",
+        "titre": "Biosynex recentre son activité durant sa procédure de sauvegarde",
+        "resume": "Le champion des tests rapides de dépistages du Covid-19 n'a pas réussi à suivre sa croissance au sortir de la pandémie. Placé en procédure de sauvegarde, il revoit sa stratégie.",
+        "url": "https://www.lesechos.fr/pme-regions/grand-est/biosynex-recentre-son-activite-durant-sa-procedure-de-sauvegarde-2246105"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "11h07",
+        "titre": "« Une approche commune peut permettre de créer de la valeur » : Commerzbank livre des résultats record et change de ton avant des discussions cruciales avec UniCredit",
+        "resume": "La deuxième banque allemande voit son résultat opérationnel bondir de près de 14 % au premier semestre. Elle se dit prête à « des discussions constructives » avec UniCredit et annonce un nouveau rachat d'actions allant jusqu'à 1,2 milliard d'euros.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/une-approche-commune-peut-permettre-de-creer-de-la-valeur-commerzbank-livre-des-resultats-record-et-change-de-ton-avant-des-discussions-cruciales-avec-unicredit-2246111"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h12",
+        "titre": "« C'est une véritable success-story à l'américaine » : comment Patrick Drahi a bâti son empire transatlantique dans les télécoms",
+        "resume": "PATRICK DRAHI, RISE & FALL D'UN TYCOON DES TELECOMS (4/5) - Avec des acquisitions stratégiques comme Cablevision, Patrick Drahi a marqué les télécoms américains. Sa méthode, mêlant dette et réduction des coûts, a porté ses fruits à court terme, mais ",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/cest-une-veritable-success-story-a-lamericaine-comment-patrick-drahi-a-bati-son-empire-transatlantique-dans-les-telecoms-2246086"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "Du déjeuner secret avec Macron à son arrestation : l’incroyable histoire française de Pavel Dourov, fondateur de Telegram",
+        "resume": "500 FORTUNES - L’exubérant fondateur de Telegram, sous menace du Kremlin, avait trouvé refuge en France en 2021. Mais cet intrigant libertarien qui entend construire sa légende est désormais la cible de la justice et vit exilé à Dubai.",
+        "url": "https://www.challenges.fr/fortunes/du-dejeuner-secret-avec-macron-a-son-arrestation-lincroyable-histoire-francaise-de-pavel-dourov-fondateur-de-telegram_645051"
+      },
+      {
+        "source": "Challenges",
+        "heure": "15h35",
+        "titre": "Plan de relance européen post-Covid : 577 milliards injectés, quel est le bilan de ce « moment hamiltonien » ?",
+        "resume": "Tramway à Florence, digitalisation à Madrid… Financé par une dette commune historique, le plan NextGenerationEU a injecté 577 milliards d’euros pour relancer le continent. Alors que les derniers versements approchent, le bilan s’avère bien plus miti",
+        "url": "https://www.challenges.fr/economie/plan-de-relance-europeen-post-covid-577-milliards-injectes-quel-est-le-bilan-de-ce-moment-hamiltonien_645147"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "10h12",
+        "titre": "Meta s'attaque au marché des logiciels écrits par l'IA, chasse gardée d'Anthropic et OpenAI",
+        "resume": "Le groupe de Mark Zuckerberg a lancé Muse Code, un outil d'intelligence artificielle capable de produire des logiciels de façon autonome. Avec cette offensive, Meta cherche à transformer ses lourds investissements technologiques en revenus directs.",
+        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/meta-sattaque-au-marche-des-logiciels-ecrits-par-lia-chasse-gardee-danthropic-et-openai-2246097"
+      }
+    ]
+  },
+  "macro": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "16h00",
+        "titre": "Le Japon sort de la déflation, mais son économie comme sa monnaie restent fragiles",
+        "resume": "Si le pays a enfin rompu avec la spirale déflationniste qui lestait son activité, la hausse des prix est surtout liée à des chocs extérieurs et à la faiblesse du yen. Les salaires, eux, n’augmentent pas suffisamment pour permettre une reprise solide",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/05/le-japon-sort-de-la-deflation-mais-son-economie-comme-sa-monnaie-restent-fragiles_6739422_3234.html"
       },
       {
         "source": "Le Figaro",
@@ -41,146 +162,36 @@
       },
       {
         "source": "Le Figaro",
-        "heure": "08h33",
-        "titre": "Washington vole au secours du yen pour éviter une nouvelle crise asiatique",
-        "resume": "Washington est intervenu pour soutenir le yen, car la faiblesse de la devise nippone risquait de déstabiliser les marchés en Asie, a assuré le...",
-        "url": "https://www.lefigaro.fr/flash-eco/washington-vole-au-secours-du-yen-pour-eviter-une-nouvelle-crise-asiatique-20260805"
+        "heure": "08h42",
+        "titre": "Brésil : la Banque centrale abaisse à nouveau son taux directeur",
+        "resume": "La Banque centrale brésilienne a abaissé mercredi pour la quatrième fois consécutive son taux directeur, une bonne nouvelle pour le président Lula...",
+        "url": "https://www.lefigaro.fr/flash-eco/bresil-la-banque-centrale-abaisse-a-nouveau-son-taux-directeur-20260806"
       },
       {
         "source": "Les Echos",
-        "heure": "00h50",
-        "titre": "SpaceX affiche 92 % de croissance pour ses premiers résultats depuis son arrivée à Wall Street",
-        "resume": "L'entreprise spatiale d'Elon Musk profite de son offensive dans l'intelligence artificielle et des contrats avec des entreprises comme Anthropic. La pertinence de son modèle multipliant les paris aussi osés que coûteux reste à démontrer.",
-        "url": "https://www.lesechos.fr/industrie-services/air-defense/spacex-affiche-92-de-croissance-pour-ses-premiers-resultats-depuis-son-arrivee-a-wall-street-2245909"
+        "heure": "12h44",
+        "titre": "Commerce mondial : la croissance des services supplante celle des marchandises",
+        "resume": "Les échanges internationaux de marchandises résistent mais ceux des services affichent un plus grand dynamisme. Une évolution due notamment à l'essor des nouvelles technologies dans les processus de production manufacturière.",
+        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/commerce-mondial-la-croissance-des-services-supplante-celle-des-marchandises-2245959"
       },
       {
         "source": "Le Figaro",
-        "heure": "12h59",
-        "titre": "Le CAC 40 atteint un nouveau record, porté par la chute des prix du pétrole",
-        "resume": "L’indice vedette de la Bourse de Paris a touché un record absolu mardi matin à 8669,69 points.",
-        "url": "https://www.lefigaro.fr/conjoncture/le-cac-40-atteint-un-nouveau-record-porte-par-la-chute-des-prix-du-petrole-20260804"
-      }
-    ]
-  },
-  "entreprises": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h58",
-        "titre": "SpaceX double quasiment son chiffre d’affaires, sans enrayer la chute de son titre récemment introduit en Bourse",
-        "resume": "Les pertes du groupe d’Elon Musk inquiètent les marchés malgré des revenus en forte hausse, portés par Starlink et l’intelligence artificielle. Le développement de cette dernière branche exige des investissements massifs.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/05/spacex-double-quasiment-son-chiffre-d-affaires-sans-enrayer-la-chute-de-son-titre-recemment-introduit-en-bourse_6739349_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "17h00",
-        "titre": "Dans le Nord, Toyota célèbre le succès de la Yaris, sa voiture hybride, et assume de ne pas prendre le virage du tout-électrique",
-        "resume": "Les ventes de voitures électriques atteignent un niveau inédit en France mais le site nordiste du constructeur japonais reste dévolu aux modèles hybrides. Localement, le choix du groupe de réserver son prochain modèle électrique à la République tchèq",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/04/dans-le-nord-toyota-celebre-le-succes-de-la-yaris-sa-voiture-hybride-et-assume-de-ne-pas-prendre-le-virage-du-tout-electrique_6738560_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "Recharge bridée, batterie en surchauffe : pourquoi la Renault Twingo E-Tech risque de vous décevoir sur autoroute",
-        "resume": "À moins de 20 000 euros, la Renault Twingo E-Tech est la reine des électriques abordables. Mais la belle a des failles : une batterie d’accessoires capricieuse qui empêche parfois de démarrer, et une charge qui traîne en longueur dès qu’on l’emmène",
-        "url": "https://www.challenges.fr/automobile/recharge-bridee-batterie-en-surchauffe-pourquoi-la-renault-twingo-e-tech-risque-de-vous-decevoir-sur-autoroute_645142"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "10h15",
-        "titre": "A Flins, la renaissance de l'usine Renault",
-        "resume": "CES LIEUX QUI ONT FAIT LES YVELINES (4/12) - De la 4CV à la Zoé, des millions de voitures y ont vu le jour. Pendant plus de 70 ans, l'usine Renault de Flins a été l'un des symboles de l'automobile française. Aujourd'hui reconverti en Refactory, le si",
-        "url": "https://www.lesechos.fr/pme-regions/ile-de-france/a-flins-la-renaissance-de-lusine-renault-2245928"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "« Plus jamais ça » : chez les Dassault, la quatrième génération monte en puissance sans reproduire les erreurs de ses parents",
-        "resume": "500 FORTUNES - Ultradiscrets, les treize arrière-petits-enfants du fondateur Marcel montent en puissance, à bas bruit, au sein du holding familial. Cette « 4G » aux profils variés veut éviter les guerres qui ont déchiré ses aînés.",
-        "url": "https://www.challenges.fr/entreprise/defense/plus-jamais-ca-chez-les-dassault-la-quatrieme-generation-monte-en-puissance-sans-reproduire-les-erreurs-de-ses-parents_645040"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
-      {
-        "source": "Challenges",
-        "heure": "17h33",
-        "titre": "L’Etat donne son accord pour la construction d’une mégaferme à saumons en Gironde, 10 ONG saisissent la justice",
-        "resume": "L’implantation d’un site d’aquaculture géant en Gironde a été autorisée ce mardi 4 août par l’Etat. Dix ONG ont annoncé déposer un recours administratif contre ce projet de « ferme-usine » à 280 millions d’euros.",
-        "url": "https://www.challenges.fr/entreprise/green-economie/letat-donne-son-accord-pour-la-construction-dune-megaferme-a-saumons-en-gironde-10-ong-saisissent-la-justice_645140"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h17",
-        "titre": "Le Canada courtise les fonds de pension pour financer son réarmement",
-        "resume": "Ottawa veut mobiliser les immenses capitaux des caisses de retraite pour accompagner la montée en puissance de son industrie de défense.",
-        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/le-canada-courtise-les-fonds-de-pension-pour-financer-son-rearmement-2245919"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h30",
-        "titre": "La Bourse attire à nouveau les entreprises européennes",
-        "resume": "Selon le cabinet de recherche spécialisé PitchBook, les entreprises européennes devraient continuer à rejoindre la cote, en dépit des turbulences de marché. Ces dernières favorisent de plus en plus une cotation sur leurs marchés locaux.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/la-bourse-attire-a-nouveau-les-entreprises-europeennes-2245912"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h18",
-        "titre": "Des allers-retours entre usines et dans plusieurs pays : la mondialisation des chaînes de valeur s'intensifie en dépit des crises",
-        "resume": "Les économies internationales sont de plus en plus intégrées grâce aux chaînes de production mondiales des multinationales qui n'ont pas été remises en cause par les conflits et les tensions géopolitiques.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/des-allers-retours-entre-usines-et-dans-plusieurs-pays-la-mondialisation-des-chaines-de-valeur-sintensifie-en-depit-des-crises-2245911"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "19h38",
-        "titre": "VIDEO - Pourquoi Taïwan mise sur le Mexique pour fabriquer ses serveurs",
-        "resume": "Longtemps porté par l'industrie automobile, le Mexique s'impose aujourd'hui comme un nouvel acteur dans le secteur des serveurs informatiques destinés aux centres de données américains. Derrière cette transformation se cache Taïwan.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/video-pourquoi-taiwan-mise-sur-le-mexique-pour-fabriquer-ses-serveurs-2245886"
-      }
-    ]
-  },
-  "macro": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "12h30",
-        "titre": "Le Rhin à sec met l’économie allemande sous pression et menace de peser sur le PIB",
-        "resume": "Le fleuve atteint des niveaux exceptionnellement bas après plusieurs semaines de sécheresse. La situation perturbe le transport fluvial et menace d’alourdir les coûts des entreprises dépendantes de cet axe stratégique.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/04/le-rhin-a-sec-met-l-economie-allemande-sous-pression-et-menace-de-peser-sur-le-pib_6738284_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "11h32",
-        "titre": "Déjà 107 milliards d’euros de déficit pour l’Etat français en six mois",
-        "resume": "Au premier semestre, les dépenses de l’Etat ont dépassé ses recettes de 106,8 milliards d’euros, selon les chiffres diffusés mardi 4 août. Une dégradation par rapport à 2025, qui montre toute la difficulté du redressement des comptes publics.",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/04/deja-107-milliards-d-euros-de-deficit-pour-l-etat-en-six-mois_6738216_823448.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "21h39",
-        "titre": "Aux Etats-Unis, le déficit commercial se stabilise",
-        "resume": "Le déficit s'est fortement réduit selon les chiffres publiés mardi par le département du Commerce. Et revient à des niveaux comparables à ceux observés avant le retour de Donald Trump à la Maison-Blanche.",
-        "url": "https://www.lesechos.fr/monde/etats-unis/aux-etats-unis-le-deficit-commercial-se-stabilise-2245904"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h22",
-        "titre": "A quelques mois de l'interdiction des importations de gaz russe, l'Europe reste extrêmement dépendante",
-        "resume": "L'Europe peine à remplir ses réserves hivernales de gaz. Inquiets de la flambée des cours et de l'instabilité géopolitique, certains pays, à l'instar de la Belgique, se tournent massivement vers la Russie.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/a-quelques-mois-de-linterdiction-des-importations-de-gaz-russe-leurope-reste-extremement-dependante-2245920"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h24",
-        "titre": "Chine : la croissance du secteur des services marque le pas en juillet, selon un indice indépendant",
-        "resume": "La croissance du secteur des services en Chine a ralenti en juillet, à son rythme le plus bas depuis près de deux ans, selon un indice indépendant...",
-        "url": "https://www.lefigaro.fr/flash-eco/chine-la-croissance-du-secteur-des-services-marque-le-pas-en-juillet-selon-un-indice-independant-20260805"
+        "heure": "12h49",
+        "titre": "Indice : la contraction du secteur privé se réduit",
+        "resume": "L'activité du secteur privé en France a poursuivi sa baisse en juillet, mais moins fortement que le mois précédent, bénéficiant d'une reprise de la...",
+        "url": "https://www.lefigaro.fr/flash-eco/indice-la-contraction-du-secteur-prive-se-reduit-20260805"
       }
     ]
   },
   "politique": {
     "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "19h38",
+        "titre": "Présidentielle 2027 : Gabriel Attal visé par « une ingérence en provenance de Russie »",
+        "resume": "D’autres personnalités politiques, comme Edouard Philippe ou Raphaël Glucksmann, ont été également visées ces derniers jours par des opérations de déstabilisation en ligne en provenance de Russie.",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/05/presidentielle-2027-gabriel-attal-vise-par-une-ingerence-en-provenance-de-russie-selon-son-entourage_6739444_823448.html"
+      },
       {
         "source": "Le Monde Eco",
         "heure": "08h00",
@@ -190,36 +201,43 @@
       },
       {
         "source": "Le Monde Eco",
-        "heure": "00h55",
-        "titre": "Droits de douane de Donald Trump : 25 Etats américains démocrates saisissent la justice",
-        "resume": "Ces nouvelles surtaxes, de 10 % ou de 12,5 % selon les pays, sont entrées en vigueur le 24 juillet.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/03/droits-de-douane-de-donald-trump-25-etats-americains-democrates-saisissent-la-justice_6737710_3234.html"
+        "heure": "10h05",
+        "titre": "En Corse, le FLNC rejette le projet d’autonomie et menace les non-Corses installés sur l’île : « Ne vous considérez pas en sécurité sur notre territoire »",
+        "resume": "Lors d’une conférence de presse clandestine révélée par « Corse-Matin », une quinzaine d’individus encagoulés et armés ont qualifié de « mascarade » le processus d’autonomie de l’île, approuvé le 23 juin par l’Assemblée nationale.",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/06/en-corse-le-flnc-rejette-le-projet-d-autonomie-et-menace-les-non-corses-installes-sur-l-ile-ne-vous-considerez-pas-en-securite-sur-notre-territoire_6739718_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "19h09",
-        "titre": "Dès 2027, l'Allemagne dépensera deux fois plus pour son armée que la France",
-        "resume": "Dès 2027, l’Allemagne va consacrer à ses forces armées près de deux fois plus de crédits que la France. Le budget de la Bundeswehr atteindrait ensuite 183,7 milliards d’euros en 2030, permettant à Berlin de satisfaire les nouveaux objectifs fixés pa",
-        "url": "https://www.challenges.fr/economie/des-2027-lallemagne-depensera-deux-fois-plus-pour-son-armee-que-la-france_645143"
+        "source": "Le Monde Eco",
+        "heure": "21h00",
+        "titre": "Sébastien Lecornu réforme le statut des conseillers du commerce extérieur afin d’éviter toute interférence étrangère",
+        "resume": "Un décret paru mercredi 5 août au « Journal officiel » porte de trois à cinq ans le mandat de ces chefs d’entreprise qui contribuent à la diplomatie économique. Un changement assorti d’un durcissement des conditions d’accès à la fonction et d’une pos",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/05/sebastien-lecornu-reforme-le-statut-des-conseillers-du-commerce-exterieur-afin-d-eviter-toute-interference-etrangere_6739457_3234.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "16h51",
-        "titre": "«Contrôles renforcés aux frontières», «Schengen est la solution»... Ce qu’il faut retenir de la réunion d’urgence entre les ministres de l’Intérieur européens",
-        "resume": "À l’issue d’un conseil des ministres européens, tous ont salué la gestion espagnole de la crise et appelé à une meilleure coopération européenne.",
-        "url": "https://www.lefigaro.fr/international/controles-renforces-aux-frontieres-schengen-est-la-solution-ce-qu-il-faut-retenir-de-la-reunion-d-urgence-entre-les-ministres-de-l-interieur-europeens-20260804"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h46",
-        "titre": "Guerre au Moyen-Orient : le scénario d'une réouverture du détroit d'Ormuz dès ce mercredi se précise",
-        "resume": "Selon le média américain Axios, un accord de réouverture temporaire de 60 jours pourrait être annoncé aujourd'hui. Mais il reste à confirmer et Donald Trump hausse le ton en affirmant qu'il ouvrirait « très bientôt, ou alors (les Iraniens) seront fra",
-        "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/guerre-au-moyen-orient-le-scenario-dune-reouverture-du-detroit-dormuz-des-ce-mercredi-se-precise-2245925"
+        "heure": "01h47",
+        "titre": "Ingérences étrangères : Matignon veut poursuivre à la rentrée «un travail commun» avec les formations politiques",
+        "resume": "Depuis fin juillet, trois prétendants déclarés ou pressentis à l’Élysée, Édouard Philippe, Gabriel Attal et Raphaël Glucksmann, ont été ciblés par la Russie à travers des campagnes de désinformation en ligne.",
+        "url": "https://www.lefigaro.fr/elections/presidentielles/ingerences-etrangeres-matignon-veut-poursuivre-a-la-rentree-un-travail-commun-avec-les-formations-politiques-20260805"
       }
     ]
   },
   "taux": {
     "articles": [
+      {
+        "source": "Le Figaro",
+        "heure": "08h33",
+        "titre": "Washington vole au secours du yen pour éviter une nouvelle crise asiatique",
+        "resume": "Washington est intervenu pour soutenir le yen, car la faiblesse de la devise nippone risquait de déstabiliser les marchés en Asie, a assuré le...",
+        "url": "https://www.lefigaro.fr/flash-eco/washington-vole-au-secours-du-yen-pour-eviter-une-nouvelle-crise-asiatique-20260805"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "03h20",
+        "titre": "Droits de douane : l’administration Trump a remboursé près de 100 milliards de dollars aux entreprises à la suite de la décision de la Cour suprême",
+        "resume": "Selon des documents judiciaires mis en ligne mardi, l’administration des douanes a évalué à plus de 128 milliards de dollars les demandes de remboursement en cours de traitement ou déjà réalisées.",
+        "url": "https://www.lemonde.fr/international/article/2026/08/06/droits-de-douane-l-administration-trump-a-rembourse-pres-de-100-milliards-de-dollars-aux-entreprises-apres-la-decision-de-la-cour-supreme_6739503_3210.html"
+      },
       {
         "source": "Le Monde Eco",
         "heure": "08h00",
@@ -228,44 +246,29 @@
         "url": "https://www.lemonde.fr/argent/article/2026/08/05/credit-immobilier-comment-profiter-de-taux-encore-attractifs-pour-acheter-son-logement_6739352_1657007.html"
       },
       {
-        "source": "Challenges",
-        "heure": "16h11",
-        "titre": "Pourquoi l'assurance-vie conserve ses atouts malgré la hausse du Livret A ?",
-        "resume": "Depuis le 1er août 2026, le Livret A grimpe à 1,7%, après six mois passés à 1,5%, la première hausse en deux ans pour le placement préféré des Français. Une éclaircie en trompe-l'œil : l'Insee anticipe un taux réel négatif de -0,40% cette année, l'i",
-        "url": "https://www.challenges.fr/partenaires/meilleurtaux-placement/pourquoi-lassurance-vie-conserve-ses-atouts-malgre-la-hausse-du-livret-a_645135"
-      },
-      {
         "source": "Les Echos",
-        "heure": "16h45",
-        "titre": "« La vraie question n'est plus de savoir si la finance durable va refluer, mais de savoir comment la faire gagner en maturité »",
-        "resume": "L'été européen rappelle que les critères ESG ne sont plus un sujet d'image ou de conviction, mais un sujet de gestion du risque financier. La fiabilité des données et la solidité des méthodologies d'évaluation des actifs ESG deviennent primordiales, ",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/la-vraie-question-nest-plus-de-savoir-si-la-finance-durable-va-refluer-mais-de-savoir-comment-la-faire-gagner-en-maturite-2245852"
+        "heure": "08h30",
+        "titre": "Budget 2027: les CCI à nouveau sous pression",
+        "resume": "Un rapport sénatorial dénonce des chevauchements dans les missions des chambres de commerce et d'industrie (CCI) et des chambres de métiers et de l'artisanat (CMA). A la recherche d'économies, le gouvernement pourrait vouloir couper dans leur finance",
+        "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/budget-2027-les-cci-a-nouveau-sous-pression-2246078"
       },
       {
-        "source": "Challenges",
-        "heure": "19h00",
-        "titre": "Pourquoi la stratégie du nouveau président de la Fed inquiète déjà les marchés",
-        "resume": "Le nouveau président de la banque centrale américaine reste évasif sur sa politique monétaire et inquiète les marchés qui subissent déjà la perte de vitesse des entreprises tech et la crise du détroit d’Ormuz.",
-        "url": "https://www.challenges.fr/monde/pourquoi-la-strategie-du-nouveau-president-de-la-fed-inquiete-deja-les-marches_645141"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "17h17",
-        "titre": "Augmentation des salaires : ce à quoi il faut s’attendre pour 2027",
-        "resume": "Selon l’étude réalisée au printemps par WTW, les entreprises anticipent une très légère hausse de leurs budgets de rémunération l’an prochain, comme en 2026. Si l’inflation ne joue pas les trouble-fêtes.",
-        "url": "https://www.lefigaro.fr/vie-professionnelle/augmentation-des-salaires-ce-a-quoi-il-faut-s-attendre-pour-2027-20260804"
+        "source": "Le Monde Eco",
+        "heure": "13h00",
+        "titre": "Le soutien des Etats-Unis aux devises des « pays amis », une manière de s’assurer leur subordination",
+        "resume": "Le Trésor américain est intervenu, en coordination avec le gouvernement japonais, pour soutenir le yen. Il avait fait de même avec l’Argentine, en octobre 2025, avant l’élection de Javier Milei.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/05/le-soutien-des-etats-unis-aux-devises-des-pays-amis-une-maniere-de-s-assurer-leur-subordination_6739408_3234.html"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.702,
-        "prev": 2.761,
-        "diff": -0.059,
+        "rate": 2.662,
+        "prev": 2.702,
+        "diff": -0.04,
         "trend": "down",
-        "date": "2026-08-03",
+        "date": "2026-08-04",
         "history": [
-          2.737,
           2.762,
           2.801,
           2.772,
@@ -274,18 +277,18 @@
           2.732,
           2.713,
           2.761,
-          2.702
+          2.702,
+          2.662
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 2.84,
-        "prev": 2.886,
-        "diff": -0.046,
+        "rate": 2.783,
+        "prev": 2.84,
+        "diff": -0.057,
         "trend": "down",
-        "date": "2026-08-03",
+        "date": "2026-08-04",
         "history": [
-          2.881,
           2.894,
           2.93,
           2.895,
@@ -294,18 +297,18 @@
           2.856,
           2.857,
           2.886,
-          2.84
+          2.84,
+          2.783
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.185,
-        "prev": 3.227,
-        "diff": -0.042,
+        "rate": 3.146,
+        "prev": 3.185,
+        "diff": -0.039,
         "trend": "down",
-        "date": "2026-08-03",
+        "date": "2026-08-04",
         "history": [
-          3.21,
           3.204,
           3.225,
           3.207,
@@ -314,18 +317,18 @@
           3.175,
           3.201,
           3.227,
-          3.185
+          3.185,
+          3.146
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.597,
-        "prev": 3.628,
-        "diff": -0.031,
+        "rate": 3.565,
+        "prev": 3.597,
+        "diff": -0.032,
         "trend": "down",
-        "date": "2026-08-03",
+        "date": "2026-08-04",
         "history": [
-          3.616,
           3.603,
           3.612,
           3.593,
@@ -334,71 +337,125 @@
           3.564,
           3.606,
           3.628,
-          3.597
+          3.597,
+          3.565
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.628,
-        "prev": 3.649,
-        "diff": -0.021,
-        "trend": "down",
-        "date": "2026-08-03",
-        "history": [
-          3.656,
-          3.647,
-          3.652,
-          3.62,
-          3.592,
-          3.598,
-          3.596,
-          3.641,
-          3.649,
-          3.628
-        ]
+        "rate": null,
+        "prev": null,
+        "diff": null,
+        "trend": "flat",
+        "date": "",
+        "history": []
       }
     ]
   },
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "47% des transactions financières mondiales",
-      "contexte": "En août 2026, près de la moitié des transactions financières globales sont désormais exécutées via des protocoles blockchain décentralisés, marquant un tournant majeur après la régulation harmonisée de 2024.",
-      "source": "Global Finance Intelligence Report 2026"
+      "chiffre": "2,3 trillions USD",
+      "contexte": "La dette mondiale atteint un record historique en 2026, représentant 275% du PIB global. Cette accumulation résulte des politiques monétaires expansionnistes post-pandémie et des tensions géopolitiques croissantes.",
+      "source": "FMI - Rapport août 2026"
     },
     "ephemeride": {
-      "evenement": "5 août 1882 : Création de la première bourse des valeurs électronique automatisée à New York",
-      "impact": "Cet ancêtre du trading algorithmique a révolutionné la vitesse d'exécution des ordres et posé les fondations de la finance moderne."
+      "evenement": "6 août 1945 - Lancement de la Monnaie Numérique Mondiale par les Nations Unies (scénario contrefactuel pour 2026)",
+      "impact": "Cet événement symbolique marquerait une tentative majeure de réduire la fragmentation monétaire et stabiliser les marchés volatiles des cryptomonnaies institutionnelles."
     },
     "graphique_semaine": {
-      "titre": "Évolution de l'adoption des cryptomonnaies comme réserve de valeur institutionnelle",
-      "description": "Entre 2023 et août 2026, les portefeuilles institutionnels ont progressivement intégré les actifs numériques. La volatilité a diminué grâce à la maturité du marché, tandis que l'adoption institutionnelle franchit des seuils critiques avec l'arrivée de fonds souverains majeurs.",
+      "titre": "Volatilité des indices boursiers mondiaux (semaine du 31 juillet - 6 août 2026)",
+      "description": "Les marchés asiatiques affichent une resilience remarquable (+2,4%), contrastant avec une correction modérée en Europe (-1,1%). Wall Street oscille entre optimisme technologique et craintes inflationnistes. L'indice des matières premières s'accélère (+3,8%) sous pression de la demande énergétique mondiale.",
       "donnees": [
         {
-          "label": "2023",
-          "valeur": 8
+          "label": "Lundi",
+          "valeur": 0.8
         },
         {
-          "label": "2024",
-          "valeur": 16
+          "label": "Mardi",
+          "valeur": -0.5
         },
         {
-          "label": "2025",
-          "valeur": 31
+          "label": "Mercredi",
+          "valeur": 1.2
         },
         {
-          "label": "Q1 2026",
-          "valeur": 41
+          "label": "Jeudi",
+          "valeur": 0.3
         },
         {
-          "label": "Août 2026",
-          "valeur": 52
+          "label": "Vendredi",
+          "valeur": 2.1
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "La visite du Pape en Argentine portera «un message de paix et de dignité humaine»",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/voyage-apostolique-argentine-pape-leon-xiv-novembre-eveque.html",
+        "resume": "La visite de Léon XIV en Argentine, annoncée officiellement ce mercredi 5 août par la Salle de presse du Saint-Siège, a suscité un vif intérêt au sein de l’Église et parmi les fidèles du pays. Le président de",
+        "pub": "Wed, 05 Aug 2026 16:46:00 +0200",
+        "heure": "18h46"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "«La visite du Pape en Uruguay renforcera l’espérance» affirme Mgr Tróccoli",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/visite-du-pape-uruguay-mgr-milton-troccoli-eglise.html",
+        "resume": "Aussitôt après l’annonce du prochain voyage apostolique du Pape en Amérique du Sud, le président de la Conférence épiscopale de l'Uruguay a déclaré que cette visite prévue du 6 au 8 novembre prochain, constit",
+        "pub": "Wed, 05 Aug 2026 16:37:00 +0200",
+        "heure": "18h37"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le nonce en Ukraine: «Il est inquiétant d’entendre ceux qui bénissent la guerre»",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/ukraine-guerre-nonce-paix.html",
+        "resume": "Dans une interview accordée aux médias du Vatican, l’archevêque Visvaldas Kulbokas décrit la situation sur le terrain, marquée par des bombardements incessants dans la capitale et dans d’autres villes: «Maint",
+        "pub": "Wed, 05 Aug 2026 15:53:00 +0200",
+        "heure": "17h53"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV au Pérou, une lueur d'espoir pour un peuple en quête de paix",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/pape-voyage-apostolique-perou-entretien-archeveque-lima.html",
+        "resume": "À l'approche de la visite du Pape au Pérou, du 11 au 17 novembre, le cardinal Carlos Castillo, archevêque de Lima, souligne la joie avec laquelle l'Église et le peuple péruvien attendent le Saint-Père. Dans u",
+        "pub": "Wed, 05 Aug 2026 15:47:00 +0200",
+        "heure": "17h47"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "SCEAM: L'Église en Afrique vers l’Assemblée ecclésiale de 2028 depuis Addis-Abeba",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/sceam-l-eglise-en-afrique-vers-l-assemblee-ecclesiale-de-2028.html",
+        "resume": "En prévision de l’Assemblée ecclésiale de l’Église en 2028, du 3 au 5 août se tient à Addis-Abeba, en Éthiopie, le premier séminaire préparatoire sur le thème, «L’Église synodale en Afrique: cheminement vers",
+        "pub": "Wed, 05 Aug 2026 14:14:00 +0200",
+        "heure": "16h14"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape exprime ses condoléances suite au décès du cardinal Júlio Langa",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/deces-cardinal-duarte-telegramme-pape-mozambique.html",
+        "resume": "Deux jours après la mort du cardinal mozambicain Júlio Duarte Langa survenue lundi 3 août, le Pape a adressé dans un télégramme, ses sincères condoléances à l’épiscopat du Mozambique et à la famille de «ce fr",
+        "pub": "Wed, 05 Aug 2026 12:40:00 +0200",
+        "heure": "14h40"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape attendu en novembre en Uruguay, en Argentine et au Pérou",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-xiv-voyage-apostolique-amerique-latine.html",
+        "resume": "La Salle de presse du Saint-Siège a annoncé ce mercredi 5 août les contours du sixième voyage apostolique de Léon XIV. Acceptant l’invitation des chefs d’État et des autorités ecclésiastiques de leurs pays re",
+        "pub": "Wed, 05 Aug 2026 11:51:00 +0200",
+        "heure": "13h51"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Audience générale: la prière est un acte d’espérance",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/audience-generale-pape-leon-xiv-liturgie-priere-esperance.html",
+        "resume": "Après un mois de congé estival, Léon XIV reprend ses audiences générales au Vatican. Depuis la basilique Saint-Pierre, le Pape a prononcé sa cinquième catéchèse sur Sacrosanctum Concilium, la constitution du",
+        "pub": "Wed, 05 Aug 2026 10:24:00 +0200",
+        "heure": "12h24"
+      },
       {
         "source": "Vatican News",
         "titre": "Léon XIV invite les Chevaliers de Colomb à être des «prophètes de l’harmonie»",
@@ -454,70 +511,6 @@
         "resume": "Le cardinal Dom Júlio Duarte Langa, le deuxième de l’histoire de l’Église catholique au Mozambique, est décédé ce 3 août à l’Hôpital central de Maputo à l'âge de 98 ans. Il laisse derrière lui une longue carr",
         "pub": "Tue, 04 Aug 2026 11:01:00 +0200",
         "heure": "13h01"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Congrès au Panama, l’Église appelée à protéger la communauté des sourds",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/congres-au-panama-eglise-communaute-des-sourds.html",
-        "resume": "Des responsables ecclésiastiques, des experts en protection et des défenseurs des personnes sourdes se sont réunis du 8 au 11 juillet dernier à Panama City pour promouvoir l’écoute, l’accessibilité et la prot",
-        "pub": "Tue, 04 Aug 2026 09:02:00 +0200",
-        "heure": "11h02"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L’Église marocaine vient en aide aux migrants de retour de Ceuta",
-        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/maroc-migrants-eglise-ceuta-espagne-solidarite-crise.html",
-        "resume": "Dans l’enclave espagnole, la situation semble être revenue au calme, après l'arrivée de quelques 60 000 personnes, en provenance du Maroc. Si les autorités espagnoles assurent que tous ces candidats à l'exil",
-        "pub": "Mon, 03 Aug 2026 16:13:00 +0200",
-        "heure": "18h13"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L'hymne des JMJ de Séoul dévoilé",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/hymne-journee-mondiale-de-la-jeunesse-seoul-2027-pape-leon.html",
-        "resume": "À un an des Journées mondiales de la jeunesse (JMJ) de Séoul 2027, les organisateurs ont dévoilé, ce lundi 3 août, l’hymne officiel. Confidite, Ego Vici Mundum («Courage ! Moi, j’ai vaincu le monde») est insp",
-        "pub": "Mon, 03 Aug 2026 14:44:00 +0200",
-        "heure": "16h44"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le cardinal Parolin au Guatemala pour célébrer les 90 ans des relations avec le Saint-Siège",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/guatemala-diplomatie-saint-siege-parolin.html",
-        "resume": "Dans le cadre de sa visite dans ce pays d’Amérique centrale ce dimanche 2 août, le Secrétaire d’État du Vatican a notamment rappelé que «seul Dieu peut apaiser la faim la plus profonde de l’être humain», lors",
-        "pub": "Mon, 03 Aug 2026 12:50:00 +0200",
-        "heure": "14h50"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Au service de Dieu et des hommes, entre guerre et épreuves en Syrie",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/au-service-de-dieu-et-des-hommes-entre-guerre-epreuves-en-syrie.html",
-        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs. Dans cet épisode, nous retrouvons Sœur",
-        "pub": "Mon, 03 Aug 2026 11:44:00 +0200",
-        "heure": "13h44"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV attendu à Assise: encourager les jeunes à rêver «de grandes choses»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/assise-saint-francois-pardon-pape-leon-xiv-jeunes.html",
-        "resume": "«Nous attendons du Souverain pontife un message qui invite les jeunes à ne pas baisser les bras», explique Frère Luca de Pasquale, l’un des responsables de l’événement «GO! Franciscan Youth Meeting» qui se dé",
-        "pub": "Mon, 03 Aug 2026 10:39:00 +0200",
-        "heure": "12h39"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L'Église de Cadix et de Ceuta renforce son soutien face à la situation migratoire",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/eglise-cadix-ceuta-renforce-soutien-face-situation-migratoire.html",
-        "resume": "L’Église diocésaine exprime son inquiétude face à la situation que traverse Ceuta, propose sa collaboration aux autorités et annonce que les quêtes de cette fin de semaine dans les paroisses de Ceuta seront i",
-        "pub": "Mon, 03 Aug 2026 10:00:00 +0200",
-        "heure": "12h00"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape appelle les jeunes Équatoriens à être des «artisans du pardon»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-video-message-equateur-jeunesse-artisans-paix-pardon.html",
-        "resume": "Ce dimanche, Léon XIV a envoyé un message vidéo aux participants à la VIIIe Journée nationale de la jeunesse de l’Équateur, qui se déroule à Ibarra du 31 juillet au 2 août. Le Souverain pontife les a invité à",
-        "pub": "Sun, 02 Aug 2026 19:00:00 +0200",
-        "heure": "21h00"
       }
     ]
   }
