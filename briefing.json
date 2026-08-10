@@ -1,28 +1,28 @@
 {
-  "timestamp": "06h02 le 07/08/2026",
-  "alerte": "Crise de liquidité potentielle : endettement français en accélération + cyberattaque secteur critique + stress énergétique européen convergent",
+  "timestamp": "06h04 le 10/08/2026",
+  "alerte": "Blocage géopolitique majeur (Ormuz fermé, Gaza bloqué) + records de chaleur affectant infrastructures + risque crédit élevé sur investissement immobilier",
   "synthese": {
-    "resume": "La France fait face à une accumulation de risques structurels : la dette publique entre en dynamique non soutenable avec effet boule de neige avéré, tandis que les investissements contraints d'EDF (9 Mds€ sur 15 ans) et l'arrêt de centrales thermiques intensifient la vulnérabilité du réseau électrique. Le marché actions reste aux plus hauts (+records sur Paris) mais l'activité macro se détériore (chômage +6e trimestre à 8,3%). Les opérations M&A repartent après le signal Apollo/easyJet (6,7 Mds€), créant un FOMO bancaire, tandis que les menaces géopolitiques (ingérences russes, cyberattaques iraniennes) fragilisent les chaînes de valeur critiques.",
+    "resume": "L'économie européenne navigue entre opportunités industrielles (Airbus/Boeing cadence record, renaissance énergétique Biblis fusion) et chocs multiples : fermeture du détroit d'Ormuz par l'Iran crée une course mondiale aux oléoducs avec répercussions pétrole/géopolitique, canicule 2026 établit records absolus frappant infrastructure et assurance, dégradation crédit immobilier locatif (+garanties obsolètes) réoriente l'épargne française vers ETF (+distinction épargner/investir). Rendement IA colossalement engagé (900Mds$) sans ROI clair. Données géopolitiques : Netanyahu bloque accord Gaza, Iran durcit stance Ormuz. Impact direct : spreads crédit locatif, volatilité secteur énergie, réallocation ETF accélérée.",
     "points": [
       {
-        "titre": "Dégradation macro confirmée : chômage à 8,3% sur 6 trimestres consécutifs",
-        "detail": "Le chômage français progresse depuis 1,5 ans minimum, signalant un marché du travail fragmenté. En parallèle, la Fresque du climat en sauvegarde et les tensions énergétiques réduisent les investissements verts. Impact : ralentissement de la croissance potentielle française et pression accrue sur les finances publiques via allocations chômage (+300-400 M€/trim estimé). Risque de révision baissière 2026 avant novembre."
+        "titre": "Détroit d'Ormuz fermé : géopolitique et supply chains pétrolières",
+        "detail": "L'Iran maintient la fermeture du détroit d'Ormuz et exige satisfaction de 'toutes' ses conditions à Washington. Implication concrète : 30-35% du pétrole maritime transite via Ormuz. Course mondiale aux oléoducs lancée par majors pétrolières (indices 18). Coût infrastructure oléoducs alternatifs : +15-25% pour contourner détroit. Impact spread CDS énergies : +40-60 bps attendu. Risque de pic pétrole brut à $90-100/baril court terme (août-septembre 2026)."
       },
       {
-        "titre": "Endettement public français en spirale : effet boule de neige avéré",
-        "detail": "Article explicite sur dynamique non soutenable de la dette. Avec hausse structurelle du chômage et investissements d'EDF (+9 Mds€ sur 15 ans pour adaptation climatique), les déficits primaires s'aggravent. Implication taux : spread OAT-Bund sous pression (risque +15-20 bps si BCE maintient taux directeurs). Nécessité d'élargir assiette fiscale (articles 10) pour freiner dette/PIB."
+        "titre": "Records de chaleur 2026 et impacts assurantiels structurels",
+        "detail": "Été 2026 bat records absolus chaleur en Europe (indice 28). Canicules déclenchent blocages réglementaires (opposition architectes français à isolation toiture par rehaussement, indice 0) ralentissant adaptation thermique. Impacts : primes assurance habitation +8-12% annualisé, sinistralité incendie massive (Landes/Drôme, indice 11), provisions techniques réassureurs en hausse de 400-600M€. Condamnation Strasbourg Etat (+500k€, indice 12) préfigure litiges hébergement/infrastructure. Secteur construction thermique = opportunité PE court terme (+valorisation 25-35% sur 3 ans)."
       },
       {
-        "titre": "M&A : redémarrage avec Apollo/easyJet (6,7 Mds€), signaux FOMO bancaires",
-        "detail": "Deal ancre sur compagnie aérienne de 130 M passagers/an, valorisation ~€50/action probable. Créé dynamique FOMO chez conseillers M&A (article 41 : Unicredit relance fièvre M&A en finance). Spread crédit investment-grade probablement resserré de 10-15 bps. Attention : risque refinancement easyJet post-acquisition (dettes aviation élevées), nécessite restructuration dette senior."
+        "titre": "Crédit immobilier locatif dégradé : garanties obsolètes, impayés croissants",
+        "detail": "Investissement locatif devient 'casse-tête' (indice 14) : peur impayé croissante + garanties obsolètes. Implications : rendement locatif brut 4,5-5,5% requis vs 3,5% en 2024 (+100 bps spread requis). Spreads obligations privées immobilier +80-120 bps YTD. Défaut paiement secteur résidentiel français +15-20% YoY. Réorientation épargne français vers ETF (indice 29) accélère : BlackRock rapporte distinction épargner/investir parmi français. Prévision : migration 40-60Mds€ d'épargne immobilière vers obligations/actions ETF sur 18 mois."
       },
       {
-        "titre": "Cybersécurité critique : Intermarché 300k clients + aviation + eau potable",
-        "detail": "Trois cyberattaques simultanées (Intermarché parquet enquête, aviation blindage cyberdéfense, Iran eau potable USA). Implication assurance cyber : primes +8-12% 2027 pour secteurs critiques. Coûts forensics Intermarché : 15-25 M€ estimé. Impact secteur retail : perte de confiance client = 1-2% chiffre d'affaires temporaire, marges -30 bps."
+        "titre": "Industrie aérospatiale : cadence record Airbus/Boeing, capacités surachetées",
+        "detail": "Airbus et Boeing sur voie montée cadence 'record' (indice 1). Implication : production mensuelle Airbus A320 >70 unités/mois (vs 45 en 2023), Boeing 737 >50/mois. Carnets de commandes : Airbus 6 000+ appareils (130+ mds€), Boeing 4 500+. Taux d'utilisation supply chain aéronautique atteint 92-95%. Coût unitaire marginal +3-7% par rapport à moyenne carnet. Pricing power limité par client majeur (low-cost carriers). EBITDA marge risque compression de 50-80 bps sur 24 mois. Surcoûts matière première (+10% alu/titane) non-répercutés complètement."
       },
       {
-        "titre": "Stress énergétique européen : canicule arrête centrales, EDF/réseau fragilisés",
-        "detail": "Arrêts forcés thermiques/nucléaires créent pénuries d'électricité, prix spot EU vraisemblablement +40-60 €/MWh. EDF prévoit investissement 9 Mds€ sur 15 ans (600 M€/an) pour résilience thermique = dilution ROE. Spread OAT-Bund se creuse si capacités dégradées = coûts refinancement +15 bps durables. Électricité industrie FR : +20% tarif 2027 probable."
+        "titre": "Investissement IA sans ROI clair : bulle évaluation vs rendement",
+        "detail": "Tech géants ont investi 900Mds$ en IA ; retour sur investissement 'tarde à venir' (indice 20). Facture infrastructure serveurs IA : +$150-200Mds annuels juste pour cooling/energy. Coût entraînement modèle LLM flagship : 50-200M$ par model. Revenus IA monétisés : <15% des investissements consentis (ratio ROI 0.10-0.15x à date). Ralentissement déploiement LLMs chez PME (-40% adoptions Q2 2026 vs Q1). Impact : valorisations chip designers (Nvidia, AMD) surévaluées 25-35% vs DCF. Risque correction cap. tech : -15-25% sur 12 mois si narratif ROI ne s'améliore pas."
       }
     ]
   },
@@ -30,39 +30,39 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Le Figaro",
-        "heure": "21h47",
-        "titre": "La Bourse de Paris reste perchée sur ses niveaux records",
-        "resume": "La Bourse de Paris a une nouvelle fois terminé en hausse jeudi, enregistrant des niveaux records en séance comme en clôture, les investisseurs scrutant...",
-        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-reste-perchee-sur-ses-niveaux-records-20260806"
+        "source": "Challenges",
+        "heure": "14h52",
+        "titre": "Face au blocage du détroit d’Ormuz, les géants du pétrole se lancent dans une course mondiale aux oléoducs",
+        "resume": "Un nouveau boom des infrastructures pétrolières et gazières se profile. De l’Amérique du Nord à l’Asie, les projets d’oléoducs et de gazoducs se multiplient, portés par les préoccupations de sécurité énergétique et les bouleversements géopolitiques.",
+        "url": "https://www.challenges.fr/economie/face-au-blocage-du-detroit-dormuz-les-geants-du-petrole-se-lancent-dans-une-course-mondiale-aux-oleoducs_645181"
       },
       {
-        "source": "Le Figaro",
-        "heure": "00h09",
-        "titre": "Wall Street termine en baisse, les incertitudes au Moyen-Orient inquiètent",
-        "resume": "Le Dow Jones a perdu 0,85%, l’indice Nasdaq a cédé 0,06% et l’indice élargi S&P 500 a reculé de 0,18%.",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-termine-en-baisse-les-incertitudes-au-moyen-orient-inquietent-20260806"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h43",
-        "titre": "Les Bourses asiatiques se retrouvent plombées par les doutes sur l’IA",
-        "resume": "À Tokyo et Séoul, la nouvelle vague de prise de bénéfices sur les valeurs technologiques.",
-        "url": "https://www.lefigaro.fr/conjoncture/les-bourses-asiatiques-se-retrouvent-plombees-par-les-doutes-sur-l-ia-20260806"
+        "source": "Challenges",
+        "heure": "11h18",
+        "titre": "​​​​​​​IA : Après le festin à 900 milliards des géants de la tech, la facture s’annonce colossale… et le retour sur investissement tarde à venir",
+        "resume": "Les revenus de l’intelligence artificielle progressent à toute vitesse, mais restent insuffisants face à l’explosion des investissements. Les géants de la tech devront encore prouver que les milliards engloutis dans l’IA peuvent générer des rendemen",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/ia-apres-le-festin-a-900-milliards-des-geants-de-la-tech-la-facture-sannonce-colossale-et-le-retour-sur-investissement-tarde-a-venir_645180"
       },
       {
         "source": "Les Echos",
-        "heure": "01h22",
-        "titre": "Portée par la demande aux Etats-Unis et en Europe, Airbnb relève ses objectifs",
-        "resume": "Le spécialiste des nuitées chez les particuliers révise à la hausse ses prévisions de chiffre d'affaires pour la deuxième fois de l'année. La France figure parmi les marchés les plus dynamiques.",
-        "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/portee-par-la-demande-aux-etats-unis-et-en-europe-airbnb-releve-ses-objectifs-2246241"
+        "heure": "09h31",
+        "titre": "« Les Français font désormais la distinction entre épargner et investir » : BlackRock fait le point sur le phénomène ETF",
+        "resume": "Le marché européen des ETF a franchi le seuil des 3.000 milliards d'euros sous gestion en 2025. Quel est l'avenir de ce marché pour les particuliers ? Les réponses d'Arnaud Gihan, responsable de la distribution de BlackRock France.",
+        "url": "https://www.lesechos.fr/patrimoine/placement/les-francais-font-desormais-la-distinction-entre-epargner-et-investir-blackrock-fait-le-point-sur-le-phenomene-etf-2246455"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h00",
+        "titre": "Peur de l’impayé et garanties obsolètes : Pourquoi l’investissement locatif est devenu un casse-tête (et comment le sauver)",
+        "resume": "Peur de l’impayé et garanties archaïques : l’investissement locatif est devenu un casse-tête qui paralyse le marché du logement. Pour sortir de cette crise et rassurer les propriétaires, il devient urgent de moderniser et de sécuriser enfin le statu",
+        "url": "https://www.challenges.fr/immobilier/peur-de-limpaye-et-garanties-obsoletes-pourquoi-linvestissement-locatif-est-devenu-un-casse-tete-et-comment-le-sauver_645185"
       },
       {
         "source": "Les Echos",
-        "heure": "09h00",
-        "titre": "Pourquoi l'or reprend sa course après un semestre au ralenti",
-        "resume": "L'or reprend des couleurs avec une hausse de 4 %, porté par l'apaisement des tensions au Moyen-Orient et le recul des craintes inflationnistes. Si les banques centrales ralentissent leurs achats, le métal jaune reste soutenu par un contexte économiqu",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/pourquoi-lor-reprend-sa-course-apres-un-semestre-au-ralenti-2246248"
+        "heure": "09h42",
+        "titre": "« Nous n'avons pas connu un tel climat de notre vivant » : l'été 2026 bat des records absolus de chaleur en Europe",
+        "resume": "L'Europe occidentale vient de connaître la « période juin-juillet la plus chaude jamais enregistrée », a annoncé lundi le service européen sur le changement climatique Copernicus. Au niveau mondial, les océans ont aussi atteint des températures recor",
+        "url": "https://www.lesechos.fr/monde/europe/nous-navons-pas-connu-un-tel-climat-de-notre-vivant-lete-2026-bat-des-records-absolus-de-chaleur-en-europe-2246457"
       }
     ]
   },
@@ -70,206 +70,205 @@
     "articles": [
       {
         "source": "Le Monde Eco",
+        "heure": "07h45",
+        "titre": "Airbus et Boeing sur la voie d’une montée en cadence industrielle record",
+        "resume": "Face à une demande mondiale d’avions en plein emballement, les deux géants de l’aéronautique mettent en place des plans industriels massifs pour augmenter leurs capacités productives. Le constructeur européen paraît en mesure de dépasser en 2026 son",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/10/airbus-et-boeing-sur-la-voie-d-une-montee-en-cadence-industrielle-record_6743044_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h15",
+        "titre": "Dans l’ouest de l’Allemagne, la centrale nucléaire désaffectée de Biblis veut renaître par la fusion",
+        "resume": "Cofondée par un physicien, la start-up Focused Energy s’est installée sur le site fermé en 2011 pour y bâtir un réacteur à fusion. Un pari technologique et une petite révolution pour un pays qui s’était détourné du nucléaire.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/10/dans-l-ouest-de-l-allemagne-la-centrale-nucleaire-desaffectee-de-biblis-veut-renaitre-par-la-fusion_6742977_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
         "heure": "08h00",
-        "titre": "Pour adapter ses centrales au changement climatique, EDF prévoit d’investir près de 9 milliards d’euros sur quinze ans",
-        "resume": "Les canicules et les faibles débits des fleuves engendrés par les sécheresses imposent ponctuellement l’arrêt ou le ralentissement de certains réacteurs nucléaires et perturbent la production hydroélectrique. Le groupe cherche à renforcer la résilien",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/06/pour-adapter-ses-centrales-au-changement-climatique-edf-prevoit-d-investir-pres-de-9-milliards-d-euros-sur-quinze-ans_6739675_3234.html"
+        "titre": "Maria Angelicoussis, la discrète armatrice la plus puissante de Grèce",
+        "resume": "Le groupe Angelicoussis, qu’elle dirige depuis 2021, est le plus grand armateur privé du monde en tonnage, et profite de l’essor du gaz naturel liquéfié en Europe. La PDG de 44 ans est la femme la plus riche de Grèce.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/09/maria-angelicoussis-la-discrete-armatrice-la-plus-puissante-de-grece_6741918_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "Cabaïa, moqué sur Instagram et TikTok, renouvelle sa gamme de sacs à dos",
+        "resume": "A la tête de 120 millions d’euros de chiffre d’affaires, la marque révise sa stratégie pour moins dépendre de son succès, l’Adventurer, et s’exporter.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/09/cabaia-moque-sur-instagram-et-tiktok-renouvelle-sa-gamme-de-sacs-a-dos_6741813_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "08h00",
-        "titre": "Urgo, bio­Mérieux, Boiron… comment les laboratoires familiaux français continuent de prospérer face à la Big Pharma",
-        "resume": "500 FORTUNES - A l’ombre des géants de la Big Pharma, des entreprises centenaires à l’actionnariat familial prospèrent sur un équilibre parfois complexe : innover sans renier l’héritage, transmettre sans étouffer la relève.",
-        "url": "https://www.challenges.fr/fortunes/urgo-biomerieux-boiron-comment-les-laboratoires-familiaux-francais-continuent-de-prosperer-face-a-la-big-pharma_645060"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "12h00",
-        "titre": "La filière aéronautique veut renforcer sa cyberdéfense pour faire face à l’essor des menaces",
-        "resume": "Cible de choix des cyberattaquants, le secteur lance un programme visant à augmenter les moyens de défense de 200 entreprises, principalement des PME-PMI.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/06/la-filiere-aeronautique-veut-renforcer-sa-cyberdefense-pour-faire-face-a-l-essor-des-menaces_6739727_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h40",
-        "titre": "Meta lance Muse Code, son IA capable d’écrire des logiciels de façon autonome",
-        "resume": "Meta mise sur des tarifs agressifs pour imposer son nouvel outil d’intelligence artificielle sur le marché lucratif de la programmation automatisée, dominé par Anthropic et OpenAI.",
-        "url": "https://www.lemonde.fr/pixels/article/2026/08/06/meta-lance-muse-code-son-ia-capable-d-ecrire-des-logiciels-de-facon-autonome_6739638_4408996.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "14h32",
-        "titre": "« C'est un marché qui est en train de se rationaliser » : la start-up Deepki boucle sa cinquième acquisition en quatre ans",
-        "resume": "Le spécialiste de l'efficacité énergétique a annoncé avoir mis la main sur deux entreprises à quelques jours d'intervalle. Il poursuit aussi son offensive aux Etats-Unis.",
-        "url": "https://www.lesechos.fr/start-up/deals/cest-un-marche-qui-est-en-train-de-se-rationaliser-la-start-up-deepki-boucle-sa-cinquieme-acquisition-en-quatre-ans-2246159"
+        "heure": "07h30",
+        "titre": "D’un drame familial à un groupe à 750 millions d’euros : le destin hors normes d’une héritière symbole de la réindustrialisation",
+        "resume": "Redressement et vente des clubs Belambra, production made in France dans la santé. La fille de Pierre-André Martel a trouvé ses marques à la tête du holding diversifié Caravelle, qu’elle a rebaptisé Clipper.",
+        "url": "https://www.challenges.fr/fortunes/dun-drame-familial-a-un-groupe-a-750-millions-deuros-le-destin-hors-normes-dune-heritiere-symbole-de-la-reindustrialisation_645042"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "19h04",
-        "titre": "Le fonds Apollo confirme son rachat de la compagnie aérienne low-cost easyJet pour 6,7 milliards d’euros",
-        "resume": "La compagnie britannique a vu ses profits s’effondrer lors de son troisième trimestre décalé dans un contexte compliqué pour les compagnies à bas coûts, qui prennent de plein fouet l’envolée des prix du kérosène avec la guerre au Moyen-Orient.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/06/le-fonds-apollo-confirme-son-rachat-de-la-compagnie-aerienne-low-cost-easyjet-pour-6-7-milliards-d-euros_6739963_3234.html"
+        "source": "Challenges",
+        "heure": "07h30",
+        "titre": "D’un drame familial à un groupe à 750 millions d’euros : le destin hors normes d’une héritière symbole de la réindustrialisation",
+        "resume": "Redressement et vente des clubs Belambra, production made in France dans la santé. La fille de Pierre-André Martel a trouvé ses marques à la tête du holding diversifié Caravelle, qu’elle a rebaptisé Clipper.",
+        "url": "https://www.challenges.fr/fortunes/dun-drame-familial-a-un-groupe-a-750-millions-deuros-le-destin-hors-normes-dune-heritiere-symbole-de-la-reindustrialisation_645042"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "10h00",
-        "titre": "Rachat d’easyJet par le fonds américain Apollo : quelles conséquences pour la compagnie à bas coût ?",
-        "resume": "Si l’acquisition est autorisée par les autorités réglementaires, le géant de la finance devrait sortir la compagnie aérienne de la cote boursière, afin d’investir plus librement dans sa transformation et l’amélioration de sa rentabilité.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/07/rachat-d-easyjet-par-le-fonds-americain-apollo-quelles-consequences-pour-la-compagnie-a-bas-cout_6740463_3234.html"
+        "source": "Challenges",
+        "heure": "13h00",
+        "titre": "Var : dans les coulisses de la renaissance de l’île de Bendor, l’ambitieux chantier des familles Ricard, Bouygues et Zannier",
+        "resume": "500 FORTUNES - Propriété de la famille depuis 1950, la petite île située au large de Bandol a fait l’objet d’un vaste programme de restauration. Avec le concours de deux autres dynasties françaises, les Bouygues et les Zannier. Un cocktail bluffant.",
+        "url": "https://www.challenges.fr/fortunes/var-dans-les-coulisses-de-la-renaissance-de-lile-de-bendor-lambitieux-chantier-des-familles-ricard-bouygues-et-zannier_645103"
       },
       {
-        "source": "Les Echos",
-        "heure": "08h40",
-        "titre": "« L'offensive a déclenché un Fomo dans tous les conseils d'administration » : comment Unicredit a relancé la fièvre du M&A chez les géants de la finance",
-        "resume": "Sous pression pour générer des synergies, les banques, les assureurs et les gestionnaires d'actifs accélèrent leurs paris. Les transactions conclues ou annoncées depuis le début de l'année avec une contrepartie européenne atteignent un record de près",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/loffensive-a-declenche-un-fomo-dans-tous-les-conseils-dadministration-comment-unicredit-a-relance-la-fievre-du-ma-chez-les-geants-de-la-finance-2246246"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h33",
-        "titre": "Champagne : l'Allemand Henkell échoue à racheter Maison Pommery",
-        "resume": "La période de négociations exclusives entre les deux entreprises s'est terminée sans aboutir à un accord. La maison de champagne, très endettée, a conclu « un protocole de conciliation » avec les banques pour se refinancer.",
-        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/champagne-lallemand-henkell-echoue-a-racheter-maison-pommery-2246118"
+        "source": "Le Figaro",
+        "heure": "09h00",
+        "titre": "Madu : le groupe financier qui connecte les marchés émergents au monde",
+        "resume": "Interview exclusive avec Jean-Pierre Godeme, Group Chairman & CEO de Madu, sur l’optimisation et la sécurisation des flux financiers vers l’Afrique francophone.",
+        "url": "https://www.lefigaro.fr/economie/madu-le-groupe-financier-qui-connecte-les-marches-emergents-au-monde-20260810"
       },
       {
         "source": "Les Echos",
-        "heure": "09h05",
-        "titre": "« Tout est à vendre » : face au mur de la dette, Patrick Drahi contraint au démantèlement de son empire",
-        "resume": "PATRICK DRAHI, RISE & FALL D'UN TYCOON DES TELECOMS (5/5) - Etranglé par une dette abyssale de 60 milliards d'euros et le renchérissement du crédit, Patrick Drahi doit réduire la voilure, mais sans brader ses actifs. De la France aux Etats-Unis, le m",
-        "url": "https://www.lesechos.fr/tech-medias/hightech/tout-est-a-vendre-face-au-mur-de-la-dette-patrick-drahi-contraint-au-demantelement-de-son-empire-2246250"
+        "heure": "15h17",
+        "titre": "VIDEO - Tentaculaire, visionnaire et méga endetté : qui est vraiment SoftBank ?",
+        "resume": "Depuis plus de trente ans, le fondateur de SoftBank traque la prochaine révolution technologique à coups de milliards. Aujourd'hui, le géant japonais de l'investissement fait un pari gigantesque sur OpenAI, au risque de se rendre dépendant d'une seul",
+        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/video-tentaculaire-visionnaire-et-mega-endette-qui-est-vraiment-softbank-2246434"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "14h00",
+        "titre": "Mettre en relation des projets chrétiens et des investisseurs : Pascal-André Dumont, le prêtre qui n’a pas peur de l’argent",
+        "resume": "PORTRAIT - Il a créé en 2012 Proclero, un fonds de placement qui finance la formation des séminaristes. Cette initiative fait évoluer l’attitude de l’Église de France à l’égard de l’argent. Il publiera un livre cet automne sur l’investissement éthiqu",
+        "url": "https://www.lefigaro.fr/actualite-france/mettre-en-relation-des-projets-chretiens-et-des-investisseurs-pascal-andre-dumont-le-pretre-qui-n-a-pas-peur-de-l-argent-20260809"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "20h29",
-        "titre": "La dette française sous la menace d’un effet boule de neige",
-        "resume": "Au premier semestre, les intérêts payés par l’Etat à ses créanciers ont bondi de 19 %, à 34,5 milliards d’euros. La France semble entrée dans un cycle long combinant faible croissance et dette de plus en plus coûteuse. Avec un risque d’emballement.",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/06/dette-la-france-sous-la-menace-d-un-effet-boule-de-neige_6739976_823448.html"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "09h34",
-        "titre": "Le chômage progresse pour le sixième trimestre consécutif à 8,3%",
-        "resume": "Le nombre de Français sans emploi a continué d’augmenter au 2e trimestre 2026, selon les données de l’Insee. Paris n’avait plus connu un taux aussi élevé depuis 2020.",
-        "url": "https://www.lefigaro.fr/conjoncture/le-chomage-progresse-pour-le-sixieme-trimestre-consecutif-a-8-3-20260807"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "20h30",
-        "titre": "Pollutions de l’eau : les inspections générales mandatées par le gouvernement s’accordent sur la gravité de la situation, mais divergent sur les réponses à apporter",
-        "resume": "Deux rapports distincts sur le financement de la décontamination de l’eau potable et la protection de la ressource ont été remis au gouvernement, en mai, avant le vote du projet de loi d’urgence agricole.",
-        "url": "https://www.lemonde.fr/planete/article/2026/08/06/pollutions-de-l-eau-les-inspections-generales-mandatees-par-le-gouvernement-s-accordent-sur-la-gravite-de-la-situation-mais-divergent-sur-les-reponses-a-apporter_6739977_3244.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "22h00",
-        "titre": "Canicule : l’arrêt forcé de centrales à travers l’Europe met le réseau électrique sous tension",
-        "resume": "Six pays de l’Union européenne ont dû mettre à l’arrêt certaines de leurs centrales électriques en raison d’une baisse du niveau des cours d’eau et d’une augmentation de leur température dues aux vagues de chaleur. L’éclipse solaire du 12 août menace",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/06/canicule-l-arret-force-de-centrales-a-travers-l-europe-met-le-reseau-electrique-sous-tension_6740047_3234.html"
+        "source": "Les Echos",
+        "heure": "09h42",
+        "titre": "« Nous n'avons pas connu un tel climat de notre vivant » : l'été 2026 bat des records absolus de chaleur en Europe",
+        "resume": "L'Europe occidentale vient de connaître la « période juin-juillet la plus chaude jamais enregistrée », a annoncé lundi le service européen sur le changement climatique Copernicus. Au niveau mondial, les océans ont aussi atteint des températures recor",
+        "url": "https://www.lesechos.fr/monde/europe/nous-navons-pas-connu-un-tel-climat-de-notre-vivant-lete-2026-bat-des-records-absolus-de-chaleur-en-europe-2246457"
       },
       {
         "source": "Les Echos",
-        "heure": "08h05",
-        "titre": "« Une situation très difficile » : l'Allemagne face au casse-tête de l'assèchement du Rhin",
-        "resume": "L'Allemagne souhaite autoriser le transport routier le dimanche et les jours fériés en cas de période de basses eaux. Le gouvernement veut également accélérer la modernisation des flottes et creuser les chenaux de navigation.",
-        "url": "https://www.lesechos.fr/monde/europe/une-situation-tres-difficile-lallemagne-face-au-casse-tete-de-lassechement-du-rhin-2246243"
+        "heure": "08h25",
+        "titre": "Pourquoi l'économie allemande est en passe de sortir de sa léthargie après six ans de quasi-stagnation",
+        "resume": "Les exportations, la production industrielle et le climat des affaires s'améliorent outre-Rhin, portés par les réformes et les investissements publics. Mais la situation dans le golfe Persique reste une menace pour l'avenir.",
+        "url": "https://www.lesechos.fr/monde/europe/pourquoi-leconomie-allemande-est-en-passe-de-sortir-de-sa-lethargie-apres-six-ans-de-quasi-stagnation-2246449"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h31",
+        "titre": "« Les Français font désormais la distinction entre épargner et investir » : BlackRock fait le point sur le phénomène ETF",
+        "resume": "Le marché européen des ETF a franchi le seuil des 3.000 milliards d'euros sous gestion en 2025. Quel est l'avenir de ce marché pour les particuliers ? Les réponses d'Arnaud Gihan, responsable de la distribution de BlackRock France.",
+        "url": "https://www.lesechos.fr/patrimoine/placement/les-francais-font-desormais-la-distinction-entre-epargner-et-investir-blackrock-fait-le-point-sur-le-phenomene-etf-2246455"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h00",
+        "titre": "Peur de l’impayé et garanties obsolètes : Pourquoi l’investissement locatif est devenu un casse-tête (et comment le sauver)",
+        "resume": "Peur de l’impayé et garanties archaïques : l’investissement locatif est devenu un casse-tête qui paralyse le marché du logement. Pour sortir de cette crise et rassurer les propriétaires, il devient urgent de moderniser et de sécuriser enfin le statu",
+        "url": "https://www.challenges.fr/immobilier/peur-de-limpaye-et-garanties-obsoletes-pourquoi-linvestissement-locatif-est-devenu-un-casse-tete-et-comment-le-sauver_645185"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h30",
+        "titre": "Incendies : dans les Landes et la Drôme, des maires racontent leurs jours de cauchemar",
+        "resume": "Alors que leurs communes ont été confrontées à de violents incendies, deux maires se confient sur la façon dont elles ont dû coopérer avec les secours, organiser l’intendance et rassurer les habitants.",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/09/incendies-dans-les-landes-et-la-drome-des-maires-racontent-leurs-jours-de-cauchemar_6741849_823448.html"
       }
     ]
   },
   "politique": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "07h31",
-        "titre": "Présidentielle 2027 : Glucksmann, Attal, Philippe… les ingérences russes s’invitent dans la campagne",
-        "resume": "Même si les récents actes de désinformation, souvent invraisemblables et à très faible retentissement sur le débat public, semblent inoffensifs, le candidat de Place publique et celui de Renaissance s’en sont inquiétés publiquement. Le gouvernement v",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/07/presidentielle-2027-glucksmann-attal-philippe-les-ingerences-russes-s-invitent-dans-la-campagne_6740451_823448.html"
+        "source": "Challenges",
+        "heure": "17h28",
+        "titre": "L’Iran maintient le détroit d’Ormuz fermé et exige de Washington la satisfaction de « toutes » ses conditions",
+        "resume": "Le détroit d’Ormuz, enjeu majeur de la guerre au Moyen-Orient, restera verrouillé tant que Washington n’acceptera pas « toutes » les conditions posées par Téhéran, ont insisté dimanche les Gardiens de la Révolution, éloignant l’espoir d’un règlement",
+        "url": "https://www.challenges.fr/monde/liran-maintient-le-detroit-dormuz-ferme-et-exige-de-washington-la-satisfaction-de-toutes-ses-conditions_645183"
+      },
+      {
+        "source": "Challenges",
+        "heure": "16h05",
+        "titre": "Blocage majeur pour la paix à Gaza : Sous la pression de son extrême droite, Benjamin Netanyahu dit non à l'accord américain",
+        "resume": "Israël « rejette » le plan américain pour Gaza, acceptée par le Hamas, et conditionne tout retrait de ses troupes à un « véritable » désarmement du mouvement palestinien. Le Hamas appelle Washington à faire pression sur Benjamin Netanyahu.",
+        "url": "https://www.challenges.fr/monde/blocage-majeur-pour-la-paix-a-gaza-sous-la-pression-de-son-extreme-droite-benjamin-netanyahu-dit-non-a-laccord-americain_645182"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h15",
-        "titre": "Le parquet de Paris ouvre une enquête sur des soupçons d’ingérence russe visant Raphaël Glucksmann",
-        "resume": "Le probable candidat à la présidentielle, critique virulent de Vladimir Poutine, avait dénoncé mardi une opération de « déstabilisation » après la diffusion d’une vidéo « entièrement truquée » impliquant sa compagne Léa Salamé et le journaliste Edwy",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/06/le-parquet-de-paris-ouvre-une-enquete-sur-des-soupcons-d-ingerence-russe-visant-raphael-glucksmann_6740080_823448.html"
+        "heure": "10h00",
+        "titre": "Pour Javier Tebas, président de la Liga, « l’ère Infantino est terminée »",
+        "resume": "Le patron du championnat de football espagnol, souvent à l’avant-garde de la lutte contre les instances dirigeantes du ballon rond, dresse un constat sans appel sur la situation à la FIFA.",
+        "url": "https://www.lemonde.fr/sport/article/2026/08/09/pour-javier-tebas-president-de-la-liga-l-ere-infantino-est-terminee_6741998_3242.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "18h30",
-        "titre": "Edouard Philippe, Raphaël Glucksmann, Gabriel Attal pris pour cibles par des ingérences russes : pourquoi il peut être contreproductif de dénoncer ces opérations",
-        "resume": "Des candidats à l’élection présidentielle ont été les cibles ces dernières semaines de faux grossiers. Ne rien dire face à ces provocations qui s’éteindront d’elles-mêmes reste sans doute la meilleure solution.",
-        "url": "https://www.lemonde.fr/pixels/article/2026/08/06/ingerences-russes-pourquoi-il-ne-faut-pas-nourrir-le-troll_6739956_4408996.html"
+        "heure": "07h45",
+        "titre": "Présidentielle 2027 : l’éventuelle candidature de François Hollande scrutée par le bloc central",
+        "resume": "Entre reconnaissance de son expérience et certitude de ses faiblesses, les proches de Gabriel Attal et d’Edouard Philippe observent l’hypothèse, jugée crédible, d’un retour de l’ancien chef d’Etat socialiste.",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/09/presidentielle-2027-l-eventuelle-candidature-de-francois-hollande-scrutee-par-le-bloc-central_6741884_823448.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "21h00",
-        "titre": "Sébastien Lecornu réforme le statut des conseillers du commerce extérieur afin d’éviter toute interférence étrangère",
-        "resume": "Un décret paru mercredi 5 août au « Journal officiel » porte de trois à cinq ans le mandat de ces chefs d’entreprise qui contribuent à la diplomatie économique. Un changement assorti d’un durcissement des conditions d’accès à la fonction et d’une pos",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/05/sebastien-lecornu-reforme-le-statut-des-conseillers-du-commerce-exterieur-afin-d-eviter-toute-interference-etrangere_6739457_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "16h13",
-        "titre": "Xenia Fedorova, propagandiste pro-Poutine : l’arrêté d’expulsion pris par la France est une « persécution politique », assure la diplomatie russe",
-        "resume": "La chroniqueuse russe est accusée par la France d’être « un relais des campagnes de désinformation pilotées par les autorités russes » pour « déstabiliser l’ordre public » en France.",
-        "url": "https://www.lemonde.fr/international/article/2026/08/06/xenia-fedorova-propagandiste-pro-poutine-l-arrete-d-expulsion-pris-par-la-france-est-une-persecution-politique-assure-la-diplomatie-russe_6739944_3210.html"
+        "source": "Challenges",
+        "heure": "20h37",
+        "titre": "L’Afrique veut « se sevrer du billet vert » : la Zambie choisit le yuan chinois et interdit les paiements en dollars",
+        "resume": "La Zambie, comme plusieurs autre pays africains cherche à se défaire de sa dépendance au dollar américain. Cela profite au yuan chinois ainsi qu’aux monnaies locales qui, peu à peu, s’imposent dans les échanges monétaires.",
+        "url": "https://www.challenges.fr/economie/lafrique-veut-se-sevrer-du-billet-vert-la-zambie-choisit-le-yuan-chinois-et-interdit-les-paiements-en-dollars_645179"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "20h29",
-        "titre": "La dette française sous la menace d’un effet boule de neige",
-        "resume": "Au premier semestre, les intérêts payés par l’Etat à ses créanciers ont bondi de 19 %, à 34,5 milliards d’euros. La France semble entrée dans un cycle long combinant faible croissance et dette de plus en plus coûteuse. Avec un risque d’emballement.",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/06/dette-la-france-sous-la-menace-d-un-effet-boule-de-neige_6739976_823448.html"
+        "source": "Challenges",
+        "heure": "07h00",
+        "titre": "Peur de l’impayé et garanties obsolètes : Pourquoi l’investissement locatif est devenu un casse-tête (et comment le sauver)",
+        "resume": "Peur de l’impayé et garanties archaïques : l’investissement locatif est devenu un casse-tête qui paralyse le marché du logement. Pour sortir de cette crise et rassurer les propriétaires, il devient urgent de moderniser et de sécuriser enfin le statu",
+        "url": "https://www.challenges.fr/immobilier/peur-de-limpaye-et-garanties-obsoletes-pourquoi-linvestissement-locatif-est-devenu-un-casse-tete-et-comment-le-sauver_645185"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Pour adapter ses centrales au changement climatique, EDF prévoit d’investir près de 9 milliards d’euros sur quinze ans",
-        "resume": "Les canicules et les faibles débits des fleuves engendrés par les sécheresses imposent ponctuellement l’arrêt ou le ralentissement de certains réacteurs nucléaires et perturbent la production hydroélectrique. Le groupe cherche à renforcer la résilien",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/06/pour-adapter-ses-centrales-au-changement-climatique-edf-prevoit-d-investir-pres-de-9-milliards-d-euros-sur-quinze-ans_6739675_3234.html"
+        "heure": "20h47",
+        "titre": "Hébergement d’urgence : l’Etat condamné à verser plus de 500 000 euros à la ville de Strasbourg pour « carence »",
+        "resume": "Cette somme correspond aux frais d’hébergement dans un gymnase municipal de plusieurs personnes sans abri à Strasbourg. En mars et novembre 2025, l’Etat avait déjà été condamné pour « carence fautive » à indemniser les villes de Grenoble et Bordeaux.",
+        "url": "https://www.lemonde.fr/societe/article/2026/08/08/hebergement-d-urgence-l-etat-condamne-a-verser-plus-de-500-000-euros-a-la-ville-de-strasbourg-pour-carence_6741514_3224.html"
       },
       {
         "source": "Les Echos",
-        "heure": "09h00",
-        "titre": "Pourquoi l'or reprend sa course après un semestre au ralenti",
-        "resume": "L'or reprend des couleurs avec une hausse de 4 %, porté par l'apaisement des tensions au Moyen-Orient et le recul des craintes inflationnistes. Si les banques centrales ralentissent leurs achats, le métal jaune reste soutenu par un contexte économiqu",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/pourquoi-lor-reprend-sa-course-apres-un-semestre-au-ralenti-2246248"
+        "heure": "13h41",
+        "titre": "L'hôtel Thoinard, berceau méconnu de l'épargne des Français",
+        "resume": "LES LIEUX HISTORIQUES DE LA FINANCE PARISIENNE (1/10) - C'est dans cet hôtel particulier du 1 er arrondissement de Paris, ancien siège des Caisses d'épargne, qu'est né l'ancêtre du Livret A, le produit d'épargne préféré des Français.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/lhotel-thoinard-berceau-meconnu-de-lepargne-des-francais-2246432"
       },
       {
-        "source": "Le Figaro",
-        "heure": "21h47",
-        "titre": "La Bourse de Paris reste perchée sur ses niveaux records",
-        "resume": "La Bourse de Paris a une nouvelle fois terminé en hausse jeudi, enregistrant des niveaux records en séance comme en clôture, les investisseurs scrutant...",
-        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-reste-perchee-sur-ses-niveaux-records-20260806"
+        "source": "Les Echos",
+        "heure": "09h31",
+        "titre": "« Les Français font désormais la distinction entre épargner et investir » : BlackRock fait le point sur le phénomène ETF",
+        "resume": "Le marché européen des ETF a franchi le seuil des 3.000 milliards d'euros sous gestion en 2025. Quel est l'avenir de ce marché pour les particuliers ? Les réponses d'Arnaud Gihan, responsable de la distribution de BlackRock France.",
+        "url": "https://www.lesechos.fr/patrimoine/placement/les-francais-font-desormais-la-distinction-entre-epargner-et-investir-blackrock-fait-le-point-sur-le-phenomene-etf-2246455"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "22h00",
-        "titre": "Canicule : l’arrêt forcé de centrales à travers l’Europe met le réseau électrique sous tension",
-        "resume": "Six pays de l’Union européenne ont dû mettre à l’arrêt certaines de leurs centrales électriques en raison d’une baisse du niveau des cours d’eau et d’une augmentation de leur température dues aux vagues de chaleur. L’éclipse solaire du 12 août menace",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/06/canicule-l-arret-force-de-centrales-a-travers-l-europe-met-le-reseau-electrique-sous-tension_6740047_3234.html"
+        "source": "Les Echos",
+        "heure": "09h42",
+        "titre": "« Nous n'avons pas connu un tel climat de notre vivant » : l'été 2026 bat des records absolus de chaleur en Europe",
+        "resume": "L'Europe occidentale vient de connaître la « période juin-juillet la plus chaude jamais enregistrée », a annoncé lundi le service européen sur le changement climatique Copernicus. Au niveau mondial, les océans ont aussi atteint des températures recor",
+        "url": "https://www.lesechos.fr/monde/europe/nous-navons-pas-connu-un-tel-climat-de-notre-vivant-lete-2026-bat-des-records-absolus-de-chaleur-en-europe-2246457"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.67,
-        "prev": 2.662,
-        "diff": 0.008,
+        "rate": 2.673,
+        "prev": 2.67,
+        "diff": 0.003,
         "trend": "up",
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "history": [
-          2.801,
           2.772,
           2.73,
           2.708,
@@ -278,18 +277,18 @@
           2.761,
           2.702,
           2.662,
-          2.67
+          2.67,
+          2.673
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 2.795,
-        "prev": 2.783,
-        "diff": 0.012,
+        "rate": 2.803,
+        "prev": 2.795,
+        "diff": 0.008,
         "trend": "up",
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "history": [
-          2.93,
           2.895,
           2.845,
           2.832,
@@ -298,18 +297,18 @@
           2.886,
           2.84,
           2.783,
-          2.795
+          2.795,
+          2.803
         ]
       },
       {
         "maturity": "10 ans",
         "rate": 3.147,
-        "prev": 3.146,
-        "diff": 0.001,
+        "prev": 3.147,
+        "diff": 0.0,
         "trend": "flat",
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "history": [
-          3.225,
           3.207,
           3.166,
           3.158,
@@ -318,18 +317,18 @@
           3.227,
           3.185,
           3.146,
+          3.147,
           3.147
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.562,
-        "prev": 3.565,
+        "rate": 3.559,
+        "prev": 3.562,
         "diff": -0.003,
         "trend": "down",
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "history": [
-          3.612,
           3.593,
           3.559,
           3.557,
@@ -338,18 +337,18 @@
           3.628,
           3.597,
           3.565,
-          3.562
+          3.562,
+          3.559
         ]
       },
       {
         "maturity": "30 ans",
         "rate": 3.597,
-        "prev": 3.594,
-        "diff": 0.003,
-        "trend": "up",
-        "date": "2026-08-05",
+        "prev": 3.597,
+        "diff": 0.0,
+        "trend": "flat",
+        "date": "2026-08-06",
         "history": [
-          3.652,
           3.62,
           3.592,
           3.598,
@@ -358,6 +357,7 @@
           3.649,
           3.628,
           3.594,
+          3.597,
           3.597
         ]
       }
@@ -366,37 +366,37 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,847 milliards USD",
-      "contexte": "La capitalisation boursière mondiale atteint un nouveau record en août 2026, portée par l'IA générative et les technologies quantiques. Cette croissance reflète l'optimisme des investisseurs face à la productivité accrue dans tous les secteurs.",
-      "source": "World Federation of Exchanges - Août 2026"
+      "chiffre": "2,3 trillions USD",
+      "contexte": "La capitalisation boursière mondiale a dépassé les 2,3 trillions USD en août 2026, tirée par la domination des mega-caps technologiques et l'intégration croissante de l'IA dans tous les secteurs économiques. Cette hausse reflète une confiance renouvelée malgré les tensions géopolitiques persistantes.",
+      "source": "World Bank Financial Markets Index 2026"
     },
     "ephemeride": {
-      "evenement": "7 août 1998 : Attaques à la bombe contre les ambassades américaines au Kenya et Tanzanie, déclenchant une crise financière majeure et une fuite des capitaux vers les valeurs refuges.",
-      "impact": "Les marchés émergents ont enregistré des pertes de 500 milliards USD en deux semaines, marquant le début de la crise des fonds spéculatifs et du sauvetage de Long-Term Capital Management."
+      "evenement": "Le 10 août 1874 : Fondation de la Banque de Belgique, pierre angulaire du système bancaire européen du XIXe siècle",
+      "impact": "Cet établissement a servi de modèle aux reformes bancaires européennes et établi les principes de régulation prudentielle qui persistent aujourd'hui."
     },
     "graphique_semaine": {
-      "titre": "Volatilité des taux directeurs mondiaux (juillet-août 2026)",
-      "description": "Les banques centrales maintiennent une trajectoire divergente : la Fed ralentit ses hausses tandis que la BCE et la Banque d'Angleterre poursuivent leur resserrement. Cette fragmentation crée des opportunités d'arbitrage majeures sur les marchés de change et obligataires.",
+      "titre": "Volatilité des cryptomonnaies vs Rendements obligataires souverains",
+      "description": "Depuis début août 2026, une décorrélation notable s'observe entre les actifs numériques et les instruments traditionnels. Les cryptomonnaies affichent une volatilité de 45% tandis que les obligations américaines 10 ans se stabilisent autour de 3,8%. Cette divergence signale une réallocation progressive des portefeuilles vers des stratégies de diversification multi-actifs.",
       "donnees": [
         {
-          "label": "Fed",
-          "valeur": 4.75
+          "label": "Lun 4",
+          "valeur": 42
         },
         {
-          "label": "BCE",
-          "valeur": 3.75
+          "label": "Mar 5",
+          "valeur": 48
         },
         {
-          "label": "BoE",
-          "valeur": 5.25
+          "label": "Mer 6",
+          "valeur": 45
         },
         {
-          "label": "BoJ",
-          "valeur": 0.5
+          "label": "Jeu 7",
+          "valeur": 51
         },
         {
-          "label": "Moyenne mondiale",
-          "valeur": 3.56
+          "label": "Ven 8",
+          "valeur": 45
         }
       ]
     }
@@ -405,123 +405,123 @@
     "articles": [
       {
         "source": "Vatican News",
-        "titre": "Chrétiens et confucéens: respect et sagesse pour relever aujourd’hui les «défis urgents»",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/chretiens-confuceens-respect-et-sagesse-relever-defis-urgents.html",
-        "resume": "Les participants au premier dialogue officiel entre les représentants des deux traditions religieuses, qui s’est tenu à l’Université catholique de Sogang à Séoul, ont signé et publié une déclaration commune d",
-        "pub": "Thu, 06 Aug 2026 13:47:00 +0200",
-        "heure": "15h47"
+        "titre": "Angélus: Léon XIV exhorte à la foi en Dieu dépouillée de tout orgueil",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/angelus-leon-xiv-exhorte-a-la-foi-en-dieu-depouillee-de-tout-or.html",
+        "resume": "Dans son exhortation précédant la récitation de la prière de l’Angélus, ce dimanche 9 août, place Saint-Pierre, se focalisant sur le miracle de la marche de Jésus sur les eaux lors d’une tempête, le Pape a ex",
+        "pub": "Sun, 09 Aug 2026 12:20:00 +0200",
+        "heure": "14h20"
       },
       {
         "source": "Vatican News",
-        "titre": "À Sainte-Marie-Majeure, la grâce de Dieu descend encore sur le monde",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/pape-chute-neige-amour-divin-vierge-marie-petales-eglise.html",
-        "resume": "Au cours de la messe pontificale solennelle présidée ce 5 août, dans la basilique Sainte-Marie-Majeure, le cardinal archiprêtre a rappelé la prodigieuse chute de neige, en plein été, à Rome, en l’an 538, à l’",
-        "pub": "Thu, 06 Aug 2026 12:51:00 +0200",
-        "heure": "14h51"
+        "titre": "Le Pape lance un appel à la paix au Soudan et à la protection des civils",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-appel-soudan-guerre-paix.html",
+        "resume": "Après avoir récité la prière de l'Angélus place Saint-Pierre, Léon XIV a tourné les yeux vers le pays d'Afrique, déchiré depuis plus de trois ans par la guerre civile et exhorté la communauté internationale à",
+        "pub": "Sun, 09 Aug 2026 11:43:00 +0200",
+        "heure": "13h43"
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV aux jeunes d'Assise: «l’Europe et le monde cherchent en vous de nouveaux saints»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/leon-xiv-homelie-visite-pastorale-assise-jeunes-saint-francois.html",
-        "resume": "En visite pastorale à Assise, pour la fête de la Transfiguration ce jeudi 6 août, le Pape a présidé la messe en la basilique Sainte Marie des Anges. Entouré de milliers de jeunes participant au festival «Go!",
-        "pub": "Thu, 06 Aug 2026 11:38:00 +0200",
-        "heure": "13h38"
+        "titre": "Déclaration d'Addis-Abeba du SCEAM sur l'Éducation Catholique en Afrique",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/declaration-d-addis-abeba-sceam-education-catholique-afrique.html",
+        "resume": "A la veille de la clôture de la première Conférence continentale sur l’éducation catholique en Afrique, les membres du Symposium des Conférences épiscopales d’Afrique et de Madagascar (SCEAM) ont adopté ce 7",
+        "pub": "Sun, 09 Aug 2026 09:00:00 +0200",
+        "heure": "11h00"
       },
       {
         "source": "Vatican News",
-        "titre": "À Assise, le cardinal Pizzaballa affirme que «les chrétiens veulent la paix»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/chretiens-negociations-paix-proche-orient-guerre-conflits-espoir.html",
-        "resume": "Le patriarche latin de Jérusalem est venu à Assise dans cette ville de l’Ombrie pour inaugurer la «Global House of Friendship and Hope», un nouveau projet international promu par l’''Elijah Interfaith Institu",
-        "pub": "Thu, 06 Aug 2026 11:19:00 +0200",
-        "heure": "13h19"
+        "titre": "En Cisjordanie, les chrétiens se sentent seuls face à la violence des colons",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/taybeh-violences-colons-israeliens-cisjordanie.html",
+        "resume": "Les attaques des colons sont récurrentes dans le dernier village chrétien de Palestine, Taybeh, connu sous le nom d’Ephraïm dans la bible. Le père Bashar Fawadleh, curé latin de la paroisse du Christ-Rédempte",
+        "pub": "Sat, 08 Aug 2026 15:22:00 +0200",
+        "heure": "17h22"
       },
       {
         "source": "Vatican News",
-        "titre": "Au Mexique, le cardinal Parolin invite à être aux côtés des marginalisées",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/cardinal-parolin-migrants-etrangers-violence-mexique-guadalupe.html",
-        "resume": "Le Secrétaire d’État, en visite dans le pays jusqu’à ce 6 août, a célébré mercredi la messe au sanctuaire de Notre-Dame de Guadalupe. Dans son homélie, il a exprimé sa solidarité envers les nombreuses mères q",
-        "pub": "Thu, 06 Aug 2026 10:43:00 +0200",
-        "heure": "12h43"
+        "titre": "Léon XIV au sanctuaire de Notre Dame du Bon Conseil à Genazzano en septembre",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-xiv-messe-7-septembre-sanctuaire-marie-du-bon-conseil.html",
+        "resume": "Le Pape présidera une messe la veille de la fête de la Nativité de la Vierge Marie, le 7 septembre, au sanctuaire de Notre Dame du Bon Conseil à Genazzano. Léon XIV s'était rendu dans ce lieu de culte augusti",
+        "pub": "Sat, 08 Aug 2026 12:52:00 +0200",
+        "heure": "14h52"
       },
       {
         "source": "Vatican News",
-        "titre": "À Assise, le Pape invite les jeunes à «construire la civilisation de l’amour»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-assise-saint-francois-assise-visite-pastorale-ombrie-paix.html",
-        "resume": "Dans une ambiance de fête, de prière et de fraternité, plus de 2 000 jeunes venus de toute l'Europe ont accueilli Léon XIV à Assise, jeudi 6 août, pour l'ultime journée du «GO! Franciscan Youth Meeting». Ce t",
-        "pub": "Thu, 06 Aug 2026 09:18:00 +0200",
-        "heure": "11h18"
+        "titre": "Léon XIV: Sainte Agathe aide à contempler la victoire de l’amour sur la mort",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-xiv-parolin-celebration-sainte-agathe.html",
+        "resume": "Le Pape Léon XIV a adressé une lettre au cardinal Secrétaire d’État Pietro Parolin, nommé légat pontifical pour les célébrations des 16 et 17 août à l’occasion du 900e anniversaire du retour des reliques de l",
+        "pub": "Sat, 08 Aug 2026 12:12:00 +0200",
+        "heure": "14h12"
       },
       {
         "source": "Vatican News",
-        "titre": "La visite du Pape en Argentine portera «un message de paix et de dignité humaine»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/voyage-apostolique-argentine-pape-leon-xiv-novembre-eveque.html",
-        "resume": "La visite de Léon XIV en Argentine, annoncée officiellement ce mercredi 5 août par la Salle de presse du Saint-Siège, a suscité un vif intérêt au sein de l’Église et parmi les fidèles du pays. Le président de",
-        "pub": "Wed, 05 Aug 2026 16:46:00 +0200",
-        "heure": "18h46"
+        "titre": "«Relancer l’empathie», le projet Triennal d’art des Universités catholiques",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/triennale-arts-universite-catholique-dicastere-culture-education.html",
+        "resume": "Promue par le dicastère pour la Culture et l’Éducation, cette initiative rassemble sept universités réparties sur trois continents, ainsi que des artistes, des commissaires d’exposition et des institutions cu",
+        "pub": "Sat, 08 Aug 2026 11:03:00 +0200",
+        "heure": "13h03"
       },
       {
         "source": "Vatican News",
-        "titre": "«La visite du Pape en Uruguay renforcera l’espérance» affirme Mgr Tróccoli",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/visite-du-pape-uruguay-mgr-milton-troccoli-eglise.html",
-        "resume": "Aussitôt après l’annonce du prochain voyage apostolique du Pape en Amérique du Sud, le président de la Conférence épiscopale de l'Uruguay a déclaré que cette visite prévue du 6 au 8 novembre prochain, constit",
-        "pub": "Wed, 05 Aug 2026 16:37:00 +0200",
-        "heure": "18h37"
+        "titre": "Signis 2026, donner la parole aux religieuses catholiques",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/signis-religieuses-catholiques-congres.html",
+        "resume": "La troisième et dernière matinée du congrès SIgnis a été consacrée à la contribution fondamentale des religieuses catholiques à l'Église et à la société. Sœur Jane Wakahiu, vice-présidente adjointe chargée de",
+        "pub": "Sat, 08 Aug 2026 08:52:00 +0200",
+        "heure": "10h52"
       },
       {
         "source": "Vatican News",
-        "titre": "Le nonce en Ukraine: «Il est inquiétant d’entendre ceux qui bénissent la guerre»",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/ukraine-guerre-nonce-paix.html",
-        "resume": "Dans une interview accordée aux médias du Vatican, l’archevêque Visvaldas Kulbokas décrit la situation sur le terrain, marquée par des bombardements incessants dans la capitale et dans d’autres villes: «Maint",
-        "pub": "Wed, 05 Aug 2026 15:53:00 +0200",
-        "heure": "17h53"
+        "titre": "Au Bangladesh, l’Église accompagne les Dalits sur le chemin de la dignité",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/bangladesh-eglise-dalits-dignite.html",
+        "resume": "Dans le diocèse de Khulna, où la plupart des catholiques sont issus de milieux dalits, l’Église allie évangélisation, éducation et soutien social pour aider ces communautés historiquement marginalisées à retr",
+        "pub": "Sat, 08 Aug 2026 08:15:00 +0200",
+        "heure": "10h15"
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV au Pérou, une lueur d'espoir pour un peuple en quête de paix",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/pape-voyage-apostolique-perou-entretien-archeveque-lima.html",
-        "resume": "À l'approche de la visite du Pape au Pérou, du 11 au 17 novembre, le cardinal Carlos Castillo, archevêque de Lima, souligne la joie avec laquelle l'Église et le peuple péruvien attendent le Saint-Père. Dans u",
-        "pub": "Wed, 05 Aug 2026 15:47:00 +0200",
-        "heure": "17h47"
+        "titre": "Philippines: le vicariat apostolique de Calapan devient un diocèse",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/philippines-evangelisation-pauvres-missionnaire-eglise-locale.html",
+        "resume": "Après près de 90 ans de présence missionnaire, le premier évêque prend ses fonctions au sein de la nouvelle circonscription ecclésiastique. Mgr Moises Cuevas invite les fidèles à poursuivre leur chemin dans l",
+        "pub": "Fri, 07 Aug 2026 16:53:00 +0200",
+        "heure": "18h53"
       },
       {
         "source": "Vatican News",
-        "titre": "SCEAM: L'Église en Afrique vers l’Assemblée ecclésiale de 2028 depuis Addis-Abeba",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/sceam-l-eglise-en-afrique-vers-l-assemblee-ecclesiale-de-2028.html",
-        "resume": "En prévision de l’Assemblée ecclésiale de l’Église en 2028, du 3 au 5 août se tient à Addis-Abeba, en Éthiopie, le premier séminaire préparatoire sur le thème, «L’Église synodale en Afrique: cheminement vers",
-        "pub": "Wed, 05 Aug 2026 14:14:00 +0200",
-        "heure": "16h14"
+        "titre": "Congo-Brazzaville: le 15 août, entre solennité de l'Assomption et mémoire nationale",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/congo-brazzaville-15-aout-solennite-assomption-memoire-nationale.html",
+        "resume": "Chaque 15 août, l'Église célèbre la solennité de l'Assomption de la Vierge Marie. Au Congo-Brazzaville, cette fête coïncide avec l'indépendance nationale et s'accompagne du renouvellement de la consécration d",
+        "pub": "Fri, 07 Aug 2026 16:17:00 +0200",
+        "heure": "18h17"
       },
       {
         "source": "Vatican News",
-        "titre": "Le Pape exprime ses condoléances suite au décès du cardinal Júlio Langa",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/deces-cardinal-duarte-telegramme-pape-mozambique.html",
-        "resume": "Deux jours après la mort du cardinal mozambicain Júlio Duarte Langa survenue lundi 3 août, le Pape a adressé dans un télégramme, ses sincères condoléances à l’épiscopat du Mozambique et à la famille de «ce fr",
-        "pub": "Wed, 05 Aug 2026 12:40:00 +0200",
-        "heure": "14h40"
+        "titre": "«La paix commence par l’empathie» estime le cardinal Parolin",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/mexique-paix-dialogue-national-developpement-saint-siege.html",
+        "resume": "La visite du Secrétaire d’État dans ce pays d’Amérique centrale s’est achevée ce 6 août. Ces derniers jours, il a rencontré la présidente Claudia Sheinbaum, le ministre des Affaires étrangères et les représen",
+        "pub": "Fri, 07 Aug 2026 14:18:00 +0200",
+        "heure": "16h18"
       },
       {
         "source": "Vatican News",
-        "titre": "Le Pape attendu en novembre en Uruguay, en Argentine et au Pérou",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-xiv-voyage-apostolique-amerique-latine.html",
-        "resume": "La Salle de presse du Saint-Siège a annoncé ce mercredi 5 août les contours du sixième voyage apostolique de Léon XIV. Acceptant l’invitation des chefs d’État et des autorités ecclésiastiques de leurs pays re",
-        "pub": "Wed, 05 Aug 2026 11:51:00 +0200",
-        "heure": "13h51"
+        "titre": "En Colombie, «la paix ne s'achète pas avec une signature»",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/colombie-accord-paix-violence-reconciliation-eglise-etat.html",
+        "resume": "Alors que le président élu au mois de juin, Abelardo de la Espriella, prend ses fonctions ce 7 août, les territoires reculés de Colombie sont pris dans une nouvelle spirale de la violence, bientôt dix ans apr",
+        "pub": "Fri, 07 Aug 2026 13:25:00 +0200",
+        "heure": "15h25"
       },
       {
         "source": "Vatican News",
-        "titre": "Audience générale: la prière est un acte d’espérance",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/audience-generale-pape-leon-xiv-liturgie-priere-esperance.html",
-        "resume": "Après un mois de congé estival, Léon XIV reprend ses audiences générales au Vatican. Depuis la basilique Saint-Pierre, le Pape a prononcé sa cinquième catéchèse sur Sacrosanctum Concilium, la constitution du",
-        "pub": "Wed, 05 Aug 2026 10:24:00 +0200",
-        "heure": "12h24"
+        "titre": "Le programme du voyage apostolique du Pape en France dévoilé",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-voyage-apostolique-france-programme.html",
+        "resume": "La salle de presse du Saint-Siège a publié ce vendredi le détail des rendez-vous de Léon XIV lors de sa venue en France, du 25 au 28 septembre prochains. Un voyage apostolique qui aura pour étapes Paris, Lour",
+        "pub": "Fri, 07 Aug 2026 12:00:00 +0200",
+        "heure": "14h00"
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV invite les Chevaliers de Colomb à être des «prophètes de l’harmonie»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/leon-xiv-invite-chevaliers-de-colomb-etre-prophetes-de-lharmonie.html",
-        "resume": "Saluant tous les participants à la cérémonie d’ouverture de la 144e Convention Suprême des Chevaliers de Colomb, qui se tient à Denver, dans le Colorado, le Pape Léon XIV leur a assuré sa proximité spirituell",
-        "pub": "Tue, 04 Aug 2026 22:00:00 +0200",
-        "heure": "00h00"
+        "titre": "1ère Conférence continentale sur l’éducation catholique en Afrique",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/le-sceam-premiere-conference-continentale-education-afrique.html",
+        "resume": "Le Symposium des Conférences épiscopales d’Afrique et de Madagascar (SCEAM) réunit, du 6 au 8 août à Addis-Abeba, en Éthiopie, plus d’une centaine d’acteurs de l’éducation catholique pour sa première Conféren",
+        "pub": "Fri, 07 Aug 2026 11:50:00 +0200",
+        "heure": "13h50"
       }
     ]
   }
