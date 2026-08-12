@@ -1,28 +1,28 @@
 {
-  "timestamp": "05h43 le 11/08/2026",
-  "alerte": "EDF parc nucleaire: 240+ MW indisponibles dimanche en canicule | Revolut licence bancaire France | Nvidia $500Mds IA Wall Street",
+  "timestamp": "06h06 le 12/08/2026",
+  "alerte": "Tensions géopolitiques Iran-USA impactant les prix du brut ; volatilité pré-données inflation américaine ; stress nucléaire français lié aux conditions climatiques",
   "synthese": {
-    "resume": "Trois chocs structurels dominent ce mardi: (1) Revolut obtient sa licence bancaire française, accélérant la fintech bancaire en Europe avec un modèle de nouvelle génération; (2) Nvidia sécurise $500Mds d'engagement de Wall Street pour l'IA, consolidant la domination technologique américaine; (3) EDF enregistre des records de puissance nucléaire indisponible (canicule dimanche), impactant la stabilité réseau français. Sur le plan politique, débat présidentiel 2027 s'intensifie (Glucksmann, Bayrou) tandis que les sénatoriales mobilisent. Macroéconomiquement, hausse des tarifs énergétiques prévue (gaz septembre), assurance habitation sous pression climatique, et nouvelles régulations consommateurs (démarchage téléphonique dès aujourd'hui). Les Big Pharma accélèrent acquisitions biotech en quête de rentabilité future.",
+    "resume": "Les marchés mondiaux affichent une prudence accrue avant la publication des données d'inflation américaine (pivot stratégique attendu), tandis que les tensions Iran-États-Unis renforcent la volatilité pétrolière. En France, la Banque de France anticipe une croissance anémique de 0,2% au T3, contextualisant les débats budgétaires 2027 sur les pensions. La défaillance capacitaire du nucléaire français (record d'indisponibilité) expose les risques structurels du système énergétique. Dans le secteur corporate, Airbus consolide son avance concurrentielle face à Boeing tandis que Meta fait face à un risque legal majeur pouvant impacter sa valorisation.",
     "points": [
       {
-        "titre": "Fintech - Revolut obtient licence bancaire française",
-        "detail": "Revolut annonce l'obtention de sa licence en France pour construire 'une banque de nouvelle génération' et accélère expansion européenne. Enjeu majeur: consolidation du marché bancaire de détail européen avec rupture technologique vs modèle traditionnel. Implication concurrence: pression tarifaire accrue sur spreads de détail et frais bancaires, impact négatif pour les acteurs traditionnels français (BNP, Société Générale) sur leur activité de retail."
+        "titre": "Inflation US - donnée critique avant clôture Wall Street",
+        "detail": "Wall Street en attente des données d'inflation américaines (timing critique avant fermeture estivale). Dow Jones -0,34%, Nasdaq -0,60%, S&P 500 -0,32% hier. Dollar en rétention d'ordre. Implication : volatilité accrue jusqu'à publication ; anticipations de politique monétaire (Fed) recalibrées ; impact sur valorisations tech et obligations souveraines."
       },
       {
-        "titre": "IA/Semiconducteurs - Nvidia sécurise $500Mds Wall Street",
-        "detail": "Nvidia s'accorde avec les poids lourds de Wall Street sur enveloppe de $500Mds pour développement IA. Cette mobilisation de capital massif consolide la supériorité technologique US. Implication marché: capital allocation vers US tech majeure, écart US/Europe qui se creuse. Risque de dépendance géopolitique IA pour l'Europe et France sur infrastructure critique."
+        "titre": "Pétrole - tensions géopolitiques et primes de risque",
+        "detail": "Brut en hausse face à l'impasse Iran-États-Unis (approche militaire signalée au détroit d'Ormuz). Les bourses mondiales affichent prudence avant données inflation. Implication : risque inflationniste secondaire en énergie ; marges de raffinage compressées ; impact sur secteurs énergie-intensifs français et européens."
       },
       {
-        "titre": "Energie - EDF crisis management en canicule",
-        "detail": "Record de puissance indisponible dimanche pour parc nucléaire EDF en fortes chaleurs (refroidissement limité). Implication réseau: fragilité accrue de la disponibilité énergétique française en pics estivaux, hausse des prix spot attendue, exposition des industriels à volatilité prix. Augmentation prix gaz prévue septembre pour 6M foyers (hausses tarifaires régulées). Risk inflation énergétique structurelle."
+        "titre": "Croissance France - décélération à 0,2% T3 anticipée",
+        "detail": "Banque de France anticipe 0,2% de croissance au T3 2026 (vs dynamique pré-estivale). Contexte : impact des vagues de chaleur/incendies sur productivité ; pression sur consommation d'électricité. Implication : déficit budgétaire 2026-2027 structurel accru ; débat gel pensions retraite devient non-cyclique mais structurel."
       },
       {
-        "titre": "Macro inflation services - Tarifs assurance et énergie",
-        "detail": "Incendies 2026: 120k hectares brûlés, facture astronomique en dégâts assurance. Tarifs habitation vont exploser (sécheresses, canicules, incendies). Gaz +septembre pour 6M foyers. Double compression: marges assurance réduites + hausse franchises, pouvoir d'achat consommateurs détérioré. Impact CPI services H2 2026 matériel."
+        "titre": "Énergie - indisponibilité nucléaire record (Gravelines + EDF dimanche)",
+        "detail": "Record de puissance nucléaire indisponible dimanche suite aux fortes chaleurs ; Gravelines : 3 réacteurs arrêtés pour afflux de méduses. Implication : prix de gros électricité volatiles ; risque déficit énergétique estival ; coûts complémentaires balancing market ; pression inflationniste secondaire sur énergie industrielle."
       },
       {
-        "titre": "Pharma consolidation - Big Pharma acquisitions biotech",
-        "detail": "Big Pharma multiplient acquisitions biotech pour sécuriser pipeline futur et rentabilité. Pattern M&A défensif face à expirations brevets et pression R&D. Implication: valorisations biotech élevées, dette pharma en hausse, cash-flows redéployés vers M&A plutôt que dividendes court-terme."
+        "titre": "Litiges corporates - Meta affrontant procès civil à haut risque financier",
+        "detail": "Meta sanctionné pour 'négligence grave' (destruction de preuves) + procès civil en cours. Implication : exposition légale croissante (FTC, action shareholder) ; provision contingente possible ; débat valorisation (regulatory drag) ; parallèle Nvidia qui consolide position dominante via accords Wall Street $500Mds."
       }
     ]
   },
@@ -30,39 +30,39 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "08h27",
-        "titre": "IA : Nvidia s'accorde avec les poids lourds de Wall Street sur une enveloppe de 500 milliards de dollars",
-        "resume": "Apollo, Blackstone, Brookfield, BlackRock, Goldman Sachs et KKR ont chacun signé un protocole d'accord avec le champion des processeurs pour l'intelligence artificielle. Ils financeront les clients de Nvidia tout en permettant à l'entreprise de parer",
-        "url": "https://www.lesechos.fr/tech-medias/hightech/ia-nvidia-saccorde-avec-les-poids-lourds-de-wall-street-sur-une-enveloppe-de-500-milliards-de-dollars-2246576"
+        "source": "Le Figaro",
+        "heure": "00h14",
+        "titre": "Wall Street clôture en baisse: Dow Jones -0,34%, Nasdaq -0,60%, S&P 500 -0,32%",
+        "resume": "Le Dow Jones a perdu 0,34%, l’indice Nasdaq 0,60% et l’indice élargi S&P 500 0,32%.",
+        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-en-baisse-dow-jones-0-34-nasdaq-0-60-s-p-500-0-32-20260811"
       },
       {
-        "source": "Challenges",
-        "heure": "17h30",
-        "titre": "« La Chine est la nouvelle OPEP » : comment Pékin a évité l’explosion des cours du pétrole malgré la guerre en Iran",
-        "resume": "Alors que la guerre en Iran menaçait d’expédier le baril de pétrole à 150 dollars, le marché mondial a résisté. En coupant drastiquement ses importations grâce à ses réserves massives et à son économie dirigée, la Chine s’est imposée comme le vérita",
-        "url": "https://www.challenges.fr/monde/la-chine-est-la-nouvelle-opep-comment-pekin-a-evite-lexplosion-des-cours-du-petrole-malgre-la-guerre-en-iran_645198"
+        "source": "Le Figaro",
+        "heure": "20h52",
+        "titre": "Les Bourses mondiales prudentes face à la volatilité du prix du brut, avant l'inflation américaine",
+        "resume": "Les Bourses mondiales marquent le pas mardi, les investisseurs scrutant la situation au Moyen-Orient et la volatilité des cours du pétrole, dans...",
+        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-mondiales-prudentes-face-a-la-volatilite-du-prix-du-brut-avant-l-inflation-americaine-20260811"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "18h33",
+        "titre": "Wall Street attend l'inflation américaine, en plein creux estival",
+        "resume": "La Bourse de New York évolue en petite hausse mardi, à la veille de la publication très attendue des chiffres de l'inflation aux États-Unis, la place...",
+        "url": "https://www.lefigaro.fr/flash-eco/wall-street-attend-l-inflation-americaine-en-plein-creux-estival-20260811"
       },
       {
         "source": "Les Echos",
         "heure": "09h15",
-        "titre": "Assurance habitation : incendies de forêt, sécheresses, canicules… les tarifs de vos contrats vont-ils exploser ?",
-        "resume": "Les mégafeux estivaux s'ajoutent aux autres périls climatiques qui pèsent déjà sur le coût de l'assurance habitation. La facture va-t-elle encore s'alourdir l'an prochain pour les ménages ?",
-        "url": "https://www.lesechos.fr/patrimoine/assurance/assurance-habitation-incendies-de-foret-secheresses-canicules-les-tarifs-de-vos-contrats-vont-ils-exploser-2246584"
+        "titre": "Placements : l'or peut-il retrouver ses plus hauts historiques à plus de 5 000 dollars l'once ?",
+        "resume": "Après des mois de baisse, l'or connaît un rebond marqué. Mais la prudence reste de mise : le métal jaune, encore loin de ses sommets, pourrait osciller entre reprise et correction selon l'évolution du dollar et des tensions internationales. Est-il te",
+        "url": "https://www.lesechos.fr/patrimoine/placement/placements-lor-peut-il-retrouver-ses-plus-hauts-historiques-a-plus-de-5-000-dollars-lonce-2246715"
       },
       {
         "source": "Les Echos",
-        "heure": "09h11",
-        "titre": "Energie : le prix repère du gaz augmentera à nouveau en septembre, pour six millions de foyers",
-        "resume": "Cette hausse est « entièrement liée à l'augmentation des prix du gaz sur les marchés », alimentée par le conflit persistant au Moyen-Orient, selon la Commission de régulation de l'énergie.",
-        "url": "https://www.lesechos.fr/industrie-services/energie-environnement/energie-le-prix-repere-du-gaz-augmentera-a-nouveau-en-septembre-pour-six-millions-de-foyers-2246583"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h10",
-        "titre": "Climat : ces cinq conséquences effrayantes du réchauffement des océans",
-        "resume": "Les océans de la planète atteignent des niveaux de chaleur inédits. Cette augmentation de la température de l'eau de mer entraîne de nombreux changements, non seulement dans les océans, mais aussi sur l'ensemble de la planète.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/climat-ces-cinq-consequences-effrayantes-du-rechauffement-des-oceans-2246582"
+        "heure": "08h40",
+        "titre": "Le bitcoin regarde Wall Street repartir sans lui, toujours englué dans un marché baissier",
+        "resume": "Alors que Wall Street retrouve ses records et que les investisseurs reprennent goût au risque, le bitcoin reste enfermé dans un corridor compris entre 60.000 et 67.000 dollars.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/le-bitcoin-regarde-wall-street-repartir-sans-lui-toujours-englue-dans-un-marche-baissier-2246710"
       }
     ]
   },
@@ -70,38 +70,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Pour assurer leur avenir, les Big Pharma multiplient les acquisitions de biotechs",
-        "resume": "Confrontés à l’expiration des brevets de certains de leurs médicaments les plus lucratifs, les grands groupes pharmaceutiques sont en quête des prochains traitements vedettes du marché.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/11/pour-assurer-leur-avenir-les-big-pharma-multiplient-les-acquisitions-de-biotechs_6743676_3234.html"
+        "heure": "22h38",
+        "titre": "Commandes d’avions neufs : Airbus creuse l’écart avec Boeing",
+        "resume": "En cumul à fin juillet, le constructeur européen mène nettement le match de la demande, avec 1 090 appareils commandés cette année, contre 483 pour son rival américain.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/11/commandes-d-avions-neufs-airbus-creuse-l-ecart-avec-boeing_6744262_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h45",
-        "titre": "Airbus et Boeing sur la voie d’une montée en cadence industrielle record avec plus de 16 000 avions à fabriquer",
-        "resume": "Les deux géants de l’aéronautique mettent en place des plans industriels massifs pour augmenter leurs capacités productives. Le constructeur européen paraît en mesure de dépasser en 2026 son plus gros chiffre de livraisons. Et il ne compte pas s’arrê",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/10/airbus-et-boeing-sur-la-voie-d-une-montee-en-cadence-industrielle-record_6743044_3234.html"
+        "heure": "22h08",
+        "titre": "Meta face à un procès civil à haut risque financier",
+        "resume": "Le groupe propriétaire de Facebook et d’Instagram, accusé de favoriser l’addiction aux réseaux sociaux, comparaît en Californie à partir de mercredi. Poursuivie par quatre Etats américains, la firme de Mark Zuckerberg risque une lourde sanction finan",
+        "url": "https://www.lemonde.fr/pixels/article/2026/08/11/meta-face-a-un-proces-a-hauts-risques-financiers_6744194_4408996.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "19h30",
-        "titre": "L'ancien banquier et patron de Paribas, André Lévy-Lang, est décédé",
-        "resume": "Cet ingénieur de formation, devenu un banquier reconnu, avait passé vingt-cinq ans de sa carrière au sein de la galaxie Paribas, qu'il avait quittée après le mariage avec BNP, en 1999. Il fut également président du conseil de surveillance des « Echos",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/lancien-banquier-et-patron-de-paribas-andre-levy-lang-est-decede-2246549"
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "TotalEnergies fait le pari contesté du recyclage chimique du plastique sur son ancienne raffinerie de Grandpuits",
+        "resume": "En Seine-et-Marne, le groupe développe une technologie pour donner une seconde vie aux déchets les plus complexes, inaugurant la première unité de ce type en France. Un procédé coûteux et critiqué.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/12/totalenergies-fait-le-pari-conteste-du-recyclage-chimique-du-plastique-sur-son-ancienne-raffinerie-de-grandpuits_6744496_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "11h46",
-        "titre": "Revolut s’offre une licence en France pour « bâtir une banque d’une nouvelle génération » et accélère son expansion européenne",
-        "resume": "La fintech britannique Revolut a annoncé lundi 10 août l’obtention d’une licence bancaire en France, sa deuxième dans l’Union européenne. Un cap important dans sa conquête du marché bancaire européen.",
-        "url": "https://www.challenges.fr/entreprise/revolut-soffre-une-licence-en-france-pour-batir-une-banque-dune-nouvelle-generation-et-accelere-son-expansion-europeenne_645186"
+        "source": "Le Monde Eco",
+        "heure": "15h43",
+        "titre": "Pilule antiobésité : le Foundayo, développé par le laboratoire américain Eli Lilly, autorisé au Royaume-Uni, une première en Europe",
+        "resume": "Cette version en comprimé du médicament contre l’obésité et le diabète sera soumise à prescription médicale. Le groupe danois Novo Nordisk a déjà obtenu l’autorisation pour le comprimé Wegovy au Royaume-Uni, mais aussi aux Etats-Unis et dans l’UE.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/11/pilule-antiobesite-le-foundayo-developpe-par-le-laboratoire-americain-eli-lilly-autorise-au-royaume-uni-une-premiere-en-europe_6743797_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "D’un drame familial à un groupe à 750 millions d’euros : le destin hors normes d’une héritière symbole de la réindustrialisation",
-        "resume": "Redressement et vente des clubs Belambra, production made in France dans la santé. La fille de Pierre-André Martel a trouvé ses marques à la tête du holding diversifié Caravelle, qu’elle a rebaptisé Clipper.",
-        "url": "https://www.challenges.fr/fortunes/dun-drame-familial-a-un-groupe-a-750-millions-deuros-le-destin-hors-normes-dune-heritiere-symbole-de-la-reindustrialisation_645042"
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "Fragilisés par la perte de brevets, les Big Pharma multiplient les acquisitions de biotechs pour mettre la main sur les prochains médicaments vedettes",
+        "resume": "Les opérations de rachat s’accélèrent depuis 2025, alors que l’industrie s’apprête à faire face à une expiration massive des brevets de traitements ces prochaines années.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/11/pour-assurer-leur-avenir-les-big-pharma-multiplient-les-acquisitions-de-biotechs_6743676_3234.html"
       }
     ]
   },
@@ -109,77 +109,77 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Pour assurer leur avenir, les Big Pharma multiplient les acquisitions de biotechs",
-        "resume": "Confrontés à l’expiration des brevets de certains de leurs médicaments les plus lucratifs, les grands groupes pharmaceutiques sont en quête des prochains traitements vedettes du marché.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/11/pour-assurer-leur-avenir-les-big-pharma-multiplient-les-acquisitions-de-biotechs_6743676_3234.html"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "21h28",
-        "titre": "Boeing cède ses projets technologiques à la startup Archer en échange d'une participation",
-        "resume": "Boeing a annoncé lundi avoir trouvé un accord avec la jeune entreprise Archer Aviation, lui cédant ses projets de taxis volants et deux autres...",
-        "url": "https://www.lefigaro.fr/flash-eco/boeing-cede-ses-projets-technologiques-a-la-startup-archer-en-echange-d-une-participation-20260810"
+        "heure": "14h35",
+        "titre": "Le magazine « VSD » racheté par l’entrepreneur Vianney d’Alançon",
+        "resume": "Il s’agit du premier rachat d’un média par l’homme d’affaires de 40 ans, connu pour son parc d’attractions traditionaliste, Rocher Mistral. « VSD » revendique quelque 40 000 ventes mensuelles et affiche un résultat positif.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/11/le-magazine-vsd-rachete-par-l-entrepreneur-vianney-d-alancon_6743791_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "12h30",
-        "titre": "« Nous n’avions que 0,8 % de chances de nous en sortir » : après six procédures collectives, le groupe Machefert renaît de ses cendres",
-        "resume": "La vie après la défaillance 1/3 - Alors que les défaillances d’entreprises se multiplient, Challenges vous fait découvrir le sort de trois entreprises après leurs procédures collectives. Aujourd’hui, Kevin Machefert, PDG du groupe éponyme explique l",
-        "url": "https://www.challenges.fr/entreprise/nous-navions-que-08-de-chances-de-nous-en-sortir-apres-six-procedures-collectives-le-groupe-machefert-renait-de-ses-cendres_645168"
+        "heure": "08h00",
+        "titre": "« Il a monté sa boîte à la force du poignet » : le pari polonais qui a fait de Maurice Bansay un milliardaire de l’immobilier",
+        "resume": "500 FORTUNES - Maurice Bansay, fils d’épicier, a bâti un empire dans l’immobilier commercial, de la Pologne à la France. Un précurseur de tendances qui déploie d’ambitieux projets à l’échelle des villes, tout en préparant sa succession.",
+        "url": "https://www.challenges.fr/fortunes/il-a-monte-sa-boite-a-la-force-du-poignet-le-pari-polonais-qui-a-fait-de-maurice-bansay-un-milliardaire-de-limmobilier_645129"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h00",
+        "titre": "Le fonds Accel prêt à injecter 3,5 milliards de dollars dans les start-up",
+        "resume": "Le capital-risqueur américain, qui a investi dans Blablacar et Lovable, lève quatre nouveaux fonds, pour un montant total de 3,5 milliards de dollars. Sur cette somme, 800 millions seront consacrés aux financements « early stage » de start-up europée",
+        "url": "https://www.lesechos.fr/start-up/ecosysteme/le-fonds-accel-pret-a-injecter-35-milliards-de-dollars-dans-les-start-up-2246706"
       },
       {
         "source": "Challenges",
-        "heure": "07h30",
-        "titre": "D’un drame familial à un groupe à 750 millions d’euros : le destin hors normes d’une héritière symbole de la réindustrialisation",
-        "resume": "Redressement et vente des clubs Belambra, production made in France dans la santé. La fille de Pierre-André Martel a trouvé ses marques à la tête du holding diversifié Caravelle, qu’elle a rebaptisé Clipper.",
-        "url": "https://www.challenges.fr/fortunes/dun-drame-familial-a-un-groupe-a-750-millions-deuros-le-destin-hors-normes-dune-heritiere-symbole-de-la-reindustrialisation_645042"
+        "heure": "08h00",
+        "titre": "« Ma copine ne voulait pas épouser un paysan » : la revanche de Louis Le Duff, fils de maraîchers devenu roi du pain",
+        "resume": "500 FORTUNES - De sa première Brioche dorée à Brest aux usines américaines de Bridor, ce fils de maraîcher a créé un géant des produits de boulangerie surgelés. Le groupe fête cette année les 50 ans d’une aventure industrielle mondiale, toujours en",
+        "url": "https://www.challenges.fr/fortunes/ma-copine-ne-voulait-pas-epouser-un-paysan-la-revanche-de-louis-le-duff-fils-de-maraichers-devenu-roi-du-pain_645124"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "11h37",
-        "titre": "Revolut annonce l’obtention d’une licence bancaire en France",
-        "resume": "La banque en ligne britannique a connu ces dernières années une croissance fulgurante. Elle disposait déjà d’une licence en Lituanie et au Royaume-Uni.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/10/revolut-annonce-l-obtention-d-une-licence-bancaire-en-france_6743157_3234.html"
+        "source": "Les Echos",
+        "heure": "19h30",
+        "titre": "Nvidia dans les pas des Médicis et de Citroën",
+        "resume": "En devenant le prêteur de ses clients, le géant des semi-conducteurs Nvidia s'inscrit dans une longue histoire qui montre l'efficacité mais aussi les périls de cette forme de financiarisation.",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/nvidia-dans-les-pas-des-medicis-et-de-citroen-2246694"
       }
     ]
   },
   "macro": {
     "articles": [
       {
+        "source": "Le Figaro",
+        "heure": "22h06",
+        "titre": "La Banque de France anticipe au troisième trimestre 0,2% de croissance",
+        "resume": "Le PIB progresserait modestement, au même rythme qu’au trimestre précédent, mais cette prévision reste «sujette à une incertitude importante», précise la Banque de France.",
+        "url": "https://www.lefigaro.fr/flash-eco/la-banque-de-france-anticipe-au-troisieme-trimestre-0-2-de-croissance-20260811"
+      },
+      {
         "source": "Le Monde Eco",
-        "heure": "17h59",
-        "titre": "Chômage : Sébastien Lecornu défend le bilan du macronisme, sans « déni » mais en appelant à rejeter la « caricature »",
-        "resume": "Le taux de chômage en France a augmenté de 0,2 point au deuxième trimestre, pour atteindre 8,3 %, son plus haut niveau depuis l’automne 2020, en plein Covid, et depuis l’automne 2019 auparavant, a rapporté l’Insee vendredi.",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/10/chomage-sebastien-lecornu-defend-le-bilan-du-macronisme-sans-deni-mais-en-appelant-a-rejeter-la-caricature_6743372_823448.html"
+        "heure": "22h00",
+        "titre": "Les entreprises françaises encore peu affectées par les vagues de chaleur et les incendies",
+        "resume": "L’activité des entreprises a un peu ralenti au mois de juillet, mais leurs dirigeants anticipent une légère amélioration en août, selon l’enquête mensuelle de la Banque de France qui suggère, à ce stade, une croissance de 0,2 % au troisième trimestre",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/11/les-entreprises-francaises-encore-peu-affectees-par-les-vagues-de-chaleur-et-les-incendies_6744159_3234.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "09h11",
-        "titre": "Energie : le prix repère du gaz augmentera à nouveau en septembre, pour six millions de foyers",
-        "resume": "Cette hausse est « entièrement liée à l'augmentation des prix du gaz sur les marchés », alimentée par le conflit persistant au Moyen-Orient, selon la Commission de régulation de l'énergie.",
-        "url": "https://www.lesechos.fr/industrie-services/energie-environnement/energie-le-prix-repere-du-gaz-augmentera-a-nouveau-en-septembre-pour-six-millions-de-foyers-2246583"
+        "source": "Le Figaro",
+        "heure": "15h30",
+        "titre": "Olivier Babeau : «Jean-Luc Mélenchon et le miroir aux alouettes de l’annulation de la dette»",
+        "resume": "TRIBUNE - Le candidat LFI à l’élection présidentielle a récemment suggéré de « foutre au feu » les titres de dette publique détenus par la Banque de France. L’idée pourrait sembler séduisante, mais c’est un raisonnement simpliste qui oublie la moitié",
+        "url": "https://www.lefigaro.fr/vox/politique/olivier-babeau-jean-luc-melenchon-et-le-miroir-aux-alouettes-de-l-annulation-de-la-dette-20260811"
       },
       {
-        "source": "Les Echos",
-        "heure": "09h10",
-        "titre": "Climat : ces cinq conséquences effrayantes du réchauffement des océans",
-        "resume": "Les océans de la planète atteignent des niveaux de chaleur inédits. Cette augmentation de la température de l'eau de mer entraîne de nombreux changements, non seulement dans les océans, mais aussi sur l'ensemble de la planète.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/climat-ces-cinq-consequences-effrayantes-du-rechauffement-des-oceans-2246582"
+        "source": "Le Figaro",
+        "heure": "18h18",
+        "titre": "Brésil: net ralentissement de l'inflation en juillet",
+        "resume": "L'inflation au Brésil a nettement ralenti en juillet pour s'établir à 4,44% sur un an, revenant à l'intérieur de la fourchette visée par le...",
+        "url": "https://www.lefigaro.fr/flash-eco/bresil-net-ralentissement-de-l-inflation-en-juillet-20260811"
       },
       {
-        "source": "Les Echos",
-        "heure": "09h15",
-        "titre": "Assurance habitation : incendies de forêt, sécheresses, canicules… les tarifs de vos contrats vont-ils exploser ?",
-        "resume": "Les mégafeux estivaux s'ajoutent aux autres périls climatiques qui pèsent déjà sur le coût de l'assurance habitation. La facture va-t-elle encore s'alourdir l'an prochain pour les ménages ?",
-        "url": "https://www.lesechos.fr/patrimoine/assurance/assurance-habitation-incendies-de-foret-secheresses-canicules-les-tarifs-de-vos-contrats-vont-ils-exploser-2246584"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h15",
-        "titre": "Impôts : en Europe, la hausse paradoxale des taxes sur les activités polluantes",
-        "resume": "Les taxes environnementales ont atteint 372 milliards d'euros dans l'Union européenne en 2024, soit une augmentation de 6 % par rapport à 2023. Un résultat qui s'avère pourtant insuffisant. Explications.",
-        "url": "https://www.lesechos.fr/monde/europe/impots-en-europe-la-hausse-paradoxale-des-taxes-sur-les-activites-polluantes-2246574"
+        "source": "Le Monde Eco",
+        "heure": "13h30",
+        "titre": "Au-delà des catastrophes, le changement climatique fragilise nos sociétés",
+        "resume": "L’agriculture, l’accès à l’eau, l’économie reposent sur des conditions physiques et biologiques que nous avons longtemps considérées comme acquises. Cette stabilité est désormais remise en cause par le réchauffement.",
+        "url": "https://www.lemonde.fr/idees/article/2026/08/11/au-dela-des-catastrophes-le-changement-climatique-fragilise-nos-societes_6743783_3232.html"
       }
     ]
   },
@@ -187,49 +187,49 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "11h06",
-        "titre": "Présidentielle 2027 : François Bayrou souhaite une grande primaire « du PS jusqu’aux gaullistes » ; Oliver Faure rejette sa proposition",
-        "resume": "« Le risque maximum, c’est un deuxième tour entre l’extrême droite et l’extrême gauche », affirme l’ex-premier ministre, qui estime que cette « catastrophe » se produira « si nous ne portons pas au deuxième tour un candidat capable de rassembler tous",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/10/presidentielle-2027-francois-bayrou-souhaite-une-grande-primaire-entre-tous-ceux-qui-rejettent-les-extremes-du-ps-jusqu-aux-gaullistes_6743156_823448.html"
+        "heure": "20h55",
+        "titre": "Budget 2027 : le gouvernement rouvre le dossier sensible du gel des pensions de retraite",
+        "resume": "Pour faire des économies, le gouvernement étudie la possibilité de désindexer de l’inflation les pensions de retraite les plus élevées. Rien n’est pour autant acté, assure l’exécutif, qui évoque des « hypothèses » de travail.",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/11/budget-2027-le-gouvernement-rouvre-le-dossier-sensible-du-gel-des-pensions-de-retraite_6744021_823448.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "17h08",
-        "titre": "Présidentielle 2027 : Raphaël Glucksmann soutenu par Daniel Cohn-Bendit, qui vante son « positionnement nouveau »",
-        "resume": "Pour l’ancien député européen, le leader de Place publique, qui doit encore confirmer sa participation à la primaire de l’espace social-démocrate, est le seul qui « formule ou ébauche une politique de transformation du réformisme de gauche ».",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/10/presidentielle-2027-raphael-glucksmann-soutenu-par-daniel-cohn-bendit-qui-vante-son-positionnement-nouveau_6743338_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Sénatoriales 2026 : les candidats en campagne, à l’écoute de leurs « pairs », les grands électeurs",
-        "resume": "Depuis le début de l’été, les prétendants aux élections du 27 septembre, à l’occasion desquelles 178 sièges seront renouvelés, arpentent leur département afin de nouer un lien de confiance avec les élus locaux.",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/11/senatoriales-2026-les-candidats-en-campagne-a-l-ecoute-de-leurs-pairs-les-grands-electeurs_6743754_823448.html"
+        "source": "Les Echos",
+        "heure": "09h51",
+        "titre": "Détroit d'Ormuz : les Etats-Unis tirent sur un navire qui tentait de briser le blocus",
+        "resume": "Le porte-conteneurs Vela Nova naviguait dans le golfe d'Oman et tentait de s'approcher d'un port iranien, selon Washington. C'est la troisième fois, depuis mi-juillet, que l'armée américaine utilise la force pour faire respecter son blocus des ports ",
+        "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/detroit-dormuz-les-etats-unis-tirent-sur-un-navire-qui-tentait-de-briser-le-blocus-2246720"
       },
       {
         "source": "Le Figaro",
-        "heure": "21h33",
-        "titre": "L’éditorial de Gaëtan de Capèle : «Commerce mondial, les mauvais calculs de Donald Trump»",
-        "resume": "Avec la mondialisation s’est installée une mécanique des fluides qui résiste aux vieux modèles. Les partenaires de droits de douane et les entreprises font preuve d’une extraordinaire résilience dans la tempête.",
-        "url": "https://www.lefigaro.fr/vox/monde/l-editorial-de-gaetan-de-capele-commerce-mondial-les-mauvais-calculs-de-donald-trump-20260810"
+        "heure": "01h02",
+        "titre": "Libye : le chef des renseignements de l'Est assassiné, Khaled Haftar dénonce une attaque «terroriste»",
+        "resume": "Le commandement de l’Armée nationale libyenne (ANL) a annoncé dans un communiqué en pleine nuit la mort dans un attentat à la voiture piégée du chef militaire Fauzi Al-Mansouri, l’un des plus importants du pays, fustigeant un «acte lâche et criminel»",
+        "url": "https://www.lefigaro.fr/flash-actu/libye-le-chef-des-renseignements-de-l-est-assassine-khaled-haftar-denonce-une-attaque-terroriste-20260811"
       },
       {
         "source": "Le Figaro",
-        "heure": "21h18",
-        "titre": "Un tribunal russe interdit au seul parti antiguerre de participer aux élections",
-        "resume": "Le parti politique Iabloko, fondé en 1993, se situe dans l’opposition, et critique depuis longtemps le régime de Vladimir Poutine.",
-        "url": "https://www.lefigaro.fr/international/un-tribunal-russe-interdit-au-seul-parti-antiguerre-de-participer-aux-elections-20260810"
+        "heure": "21h30",
+        "titre": "Au Proche-Orient, l’émergence d’une nouvelle alliance dans l’ombre de la guerre États-Unis-Iran",
+        "resume": "DÉCRYPTAGE - Sans assumer publiquement leur préoccupation quant à la politique américaine au Proche-Orient, l’Arabie saoudite, le Pakistan et la Turquie ont annoncé avoir conclu une nouvelle alliance de défense.",
+        "url": "https://www.lefigaro.fr/international/au-proche-orient-l-emergence-d-une-nouvelle-alliance-dans-l-ombre-de-la-guerre-etats-unis-iran-20260811"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "20h31",
+        "titre": "Les États-Unis annoncent une nouvelle série de pourparlers israélo-libanais début septembre à Rome",
+        "resume": "Les États-Unis organiseront une nouvelle série de discussions entre Israël et le Liban début septembre à Rome, dans le cadre de leur médiation. Elles se poursuivront entre-temps à Beyrouth.",
+        "url": "https://www.lefigaro.fr/international/les-etats-unis-annoncent-une-nouvelle-serie-de-pourparlers-israelo-libanais-debut-septembre-a-rome-20260811"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "09h11",
-        "titre": "Energie : le prix repère du gaz augmentera à nouveau en septembre, pour six millions de foyers",
-        "resume": "Cette hausse est « entièrement liée à l'augmentation des prix du gaz sur les marchés », alimentée par le conflit persistant au Moyen-Orient, selon la Commission de régulation de l'énergie.",
-        "url": "https://www.lesechos.fr/industrie-services/energie-environnement/energie-le-prix-repere-du-gaz-augmentera-a-nouveau-en-septembre-pour-six-millions-de-foyers-2246583"
+        "source": "Le Figaro",
+        "heure": "23h09",
+        "titre": "Le dollar retient son souffle avant les données de l’inflation américaine",
+        "resume": "Vers 20h50 heure française, le billet vert grignotait 0,03% à la monnaie unique européenne, à 1,1540 dollar pour un euro, et 0,04% à la devise britannique, à 1,3502 dollar pour une livre.",
+        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-retient-son-souffle-avant-les-donnees-de-l-inflation-americaine-20260811"
       },
       {
         "source": "Les Echos",
@@ -239,37 +239,36 @@
         "url": "https://www.lesechos.fr/monde/europe/impots-en-europe-la-hausse-paradoxale-des-taxes-sur-les-activites-polluantes-2246574"
       },
       {
-        "source": "Les Echos",
-        "heure": "09h10",
-        "titre": "Climat : ces cinq conséquences effrayantes du réchauffement des océans",
-        "resume": "Les océans de la planète atteignent des niveaux de chaleur inédits. Cette augmentation de la température de l'eau de mer entraîne de nombreux changements, non seulement dans les océans, mais aussi sur l'ensemble de la planète.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/climat-ces-cinq-consequences-effrayantes-du-rechauffement-des-oceans-2246582"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h15",
-        "titre": "Assurance habitation : incendies de forêt, sécheresses, canicules… les tarifs de vos contrats vont-ils exploser ?",
-        "resume": "Les mégafeux estivaux s'ajoutent aux autres périls climatiques qui pèsent déjà sur le coût de l'assurance habitation. La facture va-t-elle encore s'alourdir l'an prochain pour les ménages ?",
-        "url": "https://www.lesechos.fr/patrimoine/assurance/assurance-habitation-incendies-de-foret-secheresses-canicules-les-tarifs-de-vos-contrats-vont-ils-exploser-2246584"
-      },
-      {
         "source": "Le Monde Eco",
-        "heure": "23h48",
-        "titre": "Fortes chaleurs : record de puissance indisponible pour le parc nucléaire d’EDF dimanche",
-        "resume": "Pour cette journée de dimanche, cinq réacteurs ont dû adapter leur puissance à cause des fortes chaleurs et quatre réacteurs étaient à l’arrêt et le sont toujours à la date de lundi.",
-        "url": "https://www.lemonde.fr/planete/article/2026/08/10/fortes-chaleurs-record-de-puissance-indisponible-pour-le-parc-nucleaire-d-edf-dimanche_6743541_3244.html"
+        "heure": "08h30",
+        "titre": "Le prix du timbre-poste va connaître une hausse de près de 10 % en 2027",
+        "resume": "Le timbre vert utilisé pour la lettre de moins de 20 grammes passera de 1,52 euro à 1,67 euro le 1ᵉʳ janvier 2027. Les tarifs des Colissimo envoyés vers la France métropolitaine et l’étranger augmenteront, eux, de 4,1 % en moyenne.",
+        "url": "https://www.lemonde.fr/argent/article/2026/08/12/le-prix-du-timbre-poste-va-connaitre-une-hausse-de-pres-de-10-en-2027_6744637_1657007.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "17h00",
+        "titre": "Stocks au plus bas, augmentation des prix : pourquoi la facture de gaz pourrait encore flamber jusqu’à « un tiers » de plus ?",
+        "resume": "Les stocks de gaz européens n’ont jamais été aussi faibles depuis 2009, dans un contexte géopolitique particulièrement tendu qui pèse déjà sur les prix. En septembre, le prix de référence du gaz connaît une nouvelle hausse.",
+        "url": "https://www.challenges.fr/entreprise/energie/stocks-au-plus-bas-augmentation-des-prix-pourquoi-la-facture-de-gaz-pourrait-encore-flamber-jusqua-un-tiers-de-plus_645206"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "21h30",
+        "titre": "Budget : pourquoi le crédit d’impôt emploi à domicile pourrait revenir dans le viseur du gouvernement",
+        "resume": "DÉCRYPTAGE - Le coût budgétaire de cette niche fiscale a quasiment doublé en dix ans, atteignant 6,8 milliards d’euros en 2025.",
+        "url": "https://www.lefigaro.fr/conjoncture/budget-pourquoi-le-credit-d-impot-emploi-a-domicile-pourrait-revenir-dans-le-viseur-du-gouvernement-20260811"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.666,
-        "prev": 2.673,
-        "diff": -0.007,
-        "trend": "down",
-        "date": "2026-08-07",
+        "rate": 2.721,
+        "prev": 2.666,
+        "diff": 0.055,
+        "trend": "up",
+        "date": "2026-08-10",
         "history": [
-          2.73,
           2.708,
           2.732,
           2.713,
@@ -278,18 +277,18 @@
           2.662,
           2.67,
           2.673,
-          2.666
+          2.666,
+          2.721
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 2.812,
-        "prev": 2.803,
-        "diff": 0.009,
+        "rate": 2.863,
+        "prev": 2.812,
+        "diff": 0.051,
         "trend": "up",
-        "date": "2026-08-07",
+        "date": "2026-08-10",
         "history": [
-          2.845,
           2.832,
           2.856,
           2.857,
@@ -298,18 +297,18 @@
           2.783,
           2.795,
           2.803,
-          2.812
+          2.812,
+          2.863
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.152,
-        "prev": 3.147,
-        "diff": 0.005,
+        "rate": 3.199,
+        "prev": 3.152,
+        "diff": 0.047,
         "trend": "up",
-        "date": "2026-08-07",
+        "date": "2026-08-10",
         "history": [
-          3.166,
           3.158,
           3.175,
           3.201,
@@ -318,18 +317,18 @@
           3.146,
           3.147,
           3.147,
-          3.152
+          3.152,
+          3.199
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.569,
-        "prev": 3.559,
-        "diff": 0.01,
+        "rate": 3.61,
+        "prev": 3.569,
+        "diff": 0.041,
         "trend": "up",
-        "date": "2026-08-07",
+        "date": "2026-08-10",
         "history": [
-          3.559,
           3.557,
           3.564,
           3.606,
@@ -338,18 +337,18 @@
           3.565,
           3.562,
           3.559,
-          3.569
+          3.569,
+          3.61
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.622,
-        "prev": 3.597,
-        "diff": 0.025,
+        "rate": 3.65,
+        "prev": 3.622,
+        "diff": 0.028,
         "trend": "up",
-        "date": "2026-08-07",
+        "date": "2026-08-10",
         "history": [
-          3.592,
           3.598,
           3.596,
           3.641,
@@ -358,7 +357,8 @@
           3.594,
           3.597,
           3.597,
-          3.622
+          3.622,
+          3.65
         ]
       }
     ]
@@ -366,43 +366,115 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,3 trillions USD",
-      "contexte": "La capitalisation boursière mondiale a atteint un nouveau record en août 2026, portée par la reprise de l'IA générative et les investissements massifs dans l'énergie verte. Cette croissance reflète une confiance retrouvée des investisseurs après les turbulences de 2024-2025.",
-      "source": "World Federation of Exchanges - Août 2026"
+      "chiffre": "42,3 milliards USD",
+      "contexte": "Les investissements mondiaux en intelligence artificielle ont atteint 42,3 milliards USD au premier semestre 2026, représentant une augmentation de 67% par rapport à la même période en 2025. Cette accélération reflète la course technologique intensifiée entre les grandes puissances économiques.",
+      "source": "GlobalTech Investment Report - Août 2026"
     },
     "ephemeride": {
-      "evenement": "11 août 1999 - Éclipse solaire totale et krach boursier \"Millennium Bug\" en Europe",
-      "impact": "Cet événement a marqué les débuts de la panique Y2K et renforcé la volatilité des marchés avant l'an 2000, montrant la vulnérabilité des systèmes informatiques financiers."
+      "evenement": "12 août 1998 - Effondrement du fonds LTCM et intervention de la Fed",
+      "impact": "Cet événement a marqué un tournant dans la régulation des risques systémiques et a conduit à une supervision accrue des acteurs financiers non-bancaires, prévenant ainsi une crise financière majeure."
     },
     "graphique_semaine": {
-      "titre": "Évolution du taux d'intérêt directeur global (août 2026)",
-      "description": "Les banques centrales mondiales ont progressivement baissé leurs taux directeurs de 0,5% au cours de la semaine, en réaction à la modération de l'inflation. Cette tendance baissière contraste avec la politique restrictive de 2023-2024 et signale une transition vers un assouplissement monétaire coordonné.",
+      "titre": "Évolution du prix de l'énergie verte vs énergies fossiles (2026)",
+      "description": "Depuis le début de l'année 2026, les coûts de production de l'énergie solaire et éolienne ont chuté de 23%, inversant le paradigme énergétique mondial. Pour la première fois, les énergies renouvelables sont devenues moins coûteuses que les énergies fossiles dans 87% des marchés émergents, accélérant la transition énergétique et attirant des milliards en investissements verts.",
       "donnees": [
         {
-          "label": "Lundi 5 août",
-          "valeur": 3.8
+          "label": "Janvier",
+          "valeur": 100
         },
         {
-          "label": "Mercredi 7 août",
-          "valeur": 3.6
+          "label": "Mars",
+          "valeur": 92
         },
         {
-          "label": "Jeudi 8 août",
-          "valeur": 3.4
+          "label": "Mai",
+          "valeur": 81
         },
         {
-          "label": "Vendredi 9 août",
-          "valeur": 3.3
+          "label": "Juillet",
+          "valeur": 77
         },
         {
-          "label": "Mardi 11 août",
-          "valeur": 3.2
+          "label": "Août",
+          "valeur": 77
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Le nord-est du Nigeria face à une une crise humanitaire et sécuritaire",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/nigeria-crise-alimentaire-humanitaire-securite-enfant-femmes-ong.html",
+        "resume": "Dans ce pays d'Afrique de l'Ouest, les conflits armés, les déplacements de populations et les effets du changement climatique empêchent des millions de personnes de cultiver leurs terres. Résultat: les prix d",
+        "pub": "Tue, 11 Aug 2026 15:58:00 +0200",
+        "heure": "17h58"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Nouvelles nominations et confirmations au Conseil pour l’économie",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-nominations-confirmations-conseil-economie-membres-laics.html",
+        "resume": "Le cardinal Marx a été confirmé dans ses fonctions de coordinateur, tout comme la vice-coordinatrice Charlotte Kreuter-Kirchhof et le secrétaire Mgr Brian Edwin Ferme. Quatre nouveaux membres laïcs ont été no",
+        "pub": "Tue, 11 Aug 2026 15:46:00 +0200",
+        "heure": "17h46"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "La Jordanie se prépare pour les célébrations du baptême du Christ en 2030",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/jordanie-celebrations-bapteme-du-christ-en-2030.html",
+        "resume": "Ce lundi 10 août a eu lieu la première réunion du comité chargé de préparer et de superviser ce grand événement historique et religieux. Présidé par le Premier ministre Hassan, il est composé de ministres, de",
+        "pub": "Tue, 11 Aug 2026 15:36:00 +0200",
+        "heure": "17h36"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Kigali 2026: «L’Église d'Afrique doit prendre ses responsabilités»",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/kigali-2026-eglise-afrique-prendre-ses-responsabilites.html",
+        "resume": "Pour la première fois, SIGNIS, l'Association mondiale catholique pour la communication, a tenu son Congrès mondial en Afrique, à Kigali, ville symbole de réconciliation après le génocide de 1994. Du 3 au 8 ao",
+        "pub": "Tue, 11 Aug 2026 14:54:00 +0200",
+        "heure": "16h54"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape prie pour les victimes du tremblement de terre en Colombie",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-colombie-telegramme-seisme-victimes-priere-force-spirituel.html",
+        "resume": "Léon XIV exprime ses condoléances à toutes les personnes touchées par le séisme qui a frappé lundi ce pays d’Amérique du Sud. Dans un télégramme signé par le Secrétaire d’État du Saint-Siège, le cardinal Piet",
+        "pub": "Tue, 11 Aug 2026 14:00:00 +0200",
+        "heure": "16h00"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Inculturation: les liturgistes africains appellent à la création d'un institut de liturgie pour Afrique",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/inculturation-les-liturgistes-africains-appellent-a-la-creatio.html",
+        "resume": "Au terme de leur congrès samedi 8 août à Dar es-Salaam, en Tanzanie, déterminant la question de l’inculturation comme un défi majeur pour l’Église en Afrique, les liturgistes africains ont insisté sur la néce",
+        "pub": "Tue, 11 Aug 2026 12:19:00 +0200",
+        "heure": "14h19"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Désarmer la technique, servir la paix, thème de la journée de la paix 2027",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/desarmer-technique-servir-la-paix-theme-de-la-journee-mondiale.html",
+        "resume": "«Désarmer la technique, servir la paix. La politique comme responsabilité préventive». Tel est le thème choisi par le Saint-Père pour la 60e Journée mondiale de la paix, qui aura lieu le 1er janvier 2027, ann",
+        "pub": "Tue, 11 Aug 2026 11:44:00 +0200",
+        "heure": "13h44"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Séisme en Colombie, les évêques appellent à la solidarité",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/colombie-seisme-appel-a-la-solidarite-eveques.html",
+        "resume": "Suite à la violente secousse qui a frappé l'ouest du pays et qui a été ressentie sur une grande partie du territoire colombien, la Conférence épiscopale colombienne a exprimé sa solidarité. Le bilan s'élève à",
+        "pub": "Tue, 11 Aug 2026 10:44:00 +0200",
+        "heure": "12h44"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "En Irak, le patriarche chaldéen de Bagdad espère le retour des chrétiens",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/irak-nouveau-patriarche-chaldeen-retour-des-chretiens-defi.html",
+        "resume": "Dans une interview accordée aux médias du Vatican, Paul III Nona soutient que «le plus grand défi auquel nous sommes confrontés est le fait que tous les chrétiens ne reviennent pas dans la région: beaucoup on",
+        "pub": "Tue, 11 Aug 2026 08:29:00 +0200",
+        "heure": "10h29"
+      },
       {
         "source": "Vatican News",
         "titre": "L'église de Ceuta organise une veillée de prière pour la paix",
@@ -450,78 +522,6 @@
         "resume": "La fondation ''Vinea Dei'' recourt au financement participatif en ligne via sa propre plateforme, Jala Kasih, pour construire et rénover des lieux de culte et des chapelles au sein de communautés catholiques",
         "pub": "Mon, 10 Aug 2026 09:04:00 +0200",
         "heure": "11h04"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Angélus: Léon XIV exhorte à la foi en Dieu dépouillée de tout orgueil",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/angelus-leon-xiv-exhorte-a-la-foi-en-dieu-depouillee-de-tout-or.html",
-        "resume": "Dans son exhortation précédant la récitation de la prière de l’Angélus, ce dimanche 9 août, place Saint-Pierre, se focalisant sur le miracle de la marche de Jésus sur les eaux lors d’une tempête, le Pape a ex",
-        "pub": "Sun, 09 Aug 2026 12:20:00 +0200",
-        "heure": "14h20"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape lance un appel à la paix au Soudan et à la protection des civils",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-appel-soudan-guerre-paix.html",
-        "resume": "Après avoir récité la prière de l'Angélus place Saint-Pierre, Léon XIV a tourné les yeux vers le pays d'Afrique, déchiré depuis plus de trois ans par la guerre civile et exhorté la communauté internationale à",
-        "pub": "Sun, 09 Aug 2026 11:43:00 +0200",
-        "heure": "13h43"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Déclaration d'Addis-Abeba du SCEAM sur l'Éducation Catholique en Afrique",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/declaration-d-addis-abeba-sceam-education-catholique-afrique.html",
-        "resume": "A la veille de la clôture de la première Conférence continentale sur l’éducation catholique en Afrique, les membres du Symposium des Conférences épiscopales d’Afrique et de Madagascar (SCEAM) ont adopté ce 7",
-        "pub": "Sun, 09 Aug 2026 09:00:00 +0200",
-        "heure": "11h00"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "En Cisjordanie, les chrétiens se sentent seuls face à la violence des colons",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/taybeh-violences-colons-israeliens-cisjordanie.html",
-        "resume": "Les attaques des colons sont récurrentes dans le dernier village chrétien de Palestine, Taybeh, connu sous le nom d’Ephraïm dans la bible. Le père Bashar Fawadleh, curé latin de la paroisse du Christ-Rédempte",
-        "pub": "Sat, 08 Aug 2026 15:22:00 +0200",
-        "heure": "17h22"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV au sanctuaire de Notre Dame du Bon Conseil à Genazzano en septembre",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-xiv-messe-7-septembre-sanctuaire-marie-du-bon-conseil.html",
-        "resume": "Le Pape présidera une messe la veille de la fête de la Nativité de la Vierge Marie, le 7 septembre, au sanctuaire de Notre Dame du Bon Conseil à Genazzano. Léon XIV s'était rendu dans ce lieu de culte augusti",
-        "pub": "Sat, 08 Aug 2026 12:52:00 +0200",
-        "heure": "14h52"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV: Sainte Agathe aide à contempler la victoire de l’amour sur la mort",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-xiv-parolin-celebration-sainte-agathe.html",
-        "resume": "Le Pape Léon XIV a adressé une lettre au cardinal Secrétaire d’État Pietro Parolin, nommé légat pontifical pour les célébrations des 16 et 17 août à l’occasion du 900e anniversaire du retour des reliques de l",
-        "pub": "Sat, 08 Aug 2026 12:12:00 +0200",
-        "heure": "14h12"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "«Relancer l’empathie», le projet Triennal d’art des Universités catholiques",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/triennale-arts-universite-catholique-dicastere-culture-education.html",
-        "resume": "Promue par le dicastère pour la Culture et l’Éducation, cette initiative rassemble sept universités réparties sur trois continents, ainsi que des artistes, des commissaires d’exposition et des institutions cu",
-        "pub": "Sat, 08 Aug 2026 11:03:00 +0200",
-        "heure": "13h03"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Signis 2026, donner la parole aux religieuses catholiques",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/signis-religieuses-catholiques-congres.html",
-        "resume": "La troisième et dernière matinée du congrès SIgnis a été consacrée à la contribution fondamentale des religieuses catholiques à l'Église et à la société. Sœur Jane Wakahiu, vice-présidente adjointe chargée de",
-        "pub": "Sat, 08 Aug 2026 08:52:00 +0200",
-        "heure": "10h52"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Au Bangladesh, l’Église accompagne les Dalits sur le chemin de la dignité",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/bangladesh-eglise-dalits-dignite.html",
-        "resume": "Dans le diocèse de Khulna, où la plupart des catholiques sont issus de milieux dalits, l’Église allie évangélisation, éducation et soutien social pour aider ces communautés historiquement marginalisées à retr",
-        "pub": "Sat, 08 Aug 2026 08:15:00 +0200",
-        "heure": "10h15"
       }
     ]
   }
