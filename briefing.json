@@ -1,28 +1,28 @@
 {
-  "timestamp": "06h06 le 12/08/2026",
-  "alerte": "Tensions géopolitiques Iran-USA impactant les prix du brut ; volatilité pré-données inflation américaine ; stress nucléaire français lié aux conditions climatiques",
+  "timestamp": "06h08 le 13/08/2026",
+  "alerte": "Crise énergétique hivernale imminente : stocks de gaz européens au plus bas + indisponibilité nucléaire record EDF (20,4%) + tensions géopolitiques (détroit d'Ormuz) = risque accentué de volatilité prix énergie fin 2026/début 2027",
   "synthese": {
-    "resume": "Les marchés mondiaux affichent une prudence accrue avant la publication des données d'inflation américaine (pivot stratégique attendu), tandis que les tensions Iran-États-Unis renforcent la volatilité pétrolière. En France, la Banque de France anticipe une croissance anémique de 0,2% au T3, contextualisant les débats budgétaires 2027 sur les pensions. La défaillance capacitaire du nucléaire français (record d'indisponibilité) expose les risques structurels du système énergétique. Dans le secteur corporate, Airbus consolide son avance concurrentielle face à Boeing tandis que Meta fait face à un risque legal majeur pouvant impacter sa valorisation.",
+    "resume": "L'économie française fait face à une triple pénalité estivale : coût de canicule de 10-15 Mrd€ impactant productivité et consommation, stocks de gaz européens au seuil critique dégradant l'outlook tarifaire Q4 2026-Q1 2027, et tensions géopolitiques (Ormuz, China trade policy) amplifiant volatilité macroéconomique. Parallèlement, l'IA génère opportunités sectorielles (Lovable +13 Mrd$ valorisation) contrebalancées par risques réglementaires (procès Meta Californie) et restructurations d'emplois de col blanc. Le marché obligataire demeure sensible aux données d'inflation US (juillet+) tandis que les stress tests bancaires (fraude SIM-swap) signalent des failles de cyber-sécurité exploitables.",
     "points": [
       {
-        "titre": "Inflation US - donnée critique avant clôture Wall Street",
-        "detail": "Wall Street en attente des données d'inflation américaines (timing critique avant fermeture estivale). Dow Jones -0,34%, Nasdaq -0,60%, S&P 500 -0,32% hier. Dollar en rétention d'ordre. Implication : volatilité accrue jusqu'à publication ; anticipations de politique monétaire (Fed) recalibrées ; impact sur valorisations tech et obligations souveraines."
+        "titre": "Stress énergétique Q4 2026 : stocks gaz UE au plancher + nucléaire français dégradé",
+        "detail": "Stocks gaz européens aux niveaux les plus bas, combinés à indisponibilité nucléaire EDF record de 20,4% (constraints environnementales + canicule). Tensions géopolitiques (détroit d'Ormuz, politique chinoise) amplifient l'incertitude tarifaire. Impact direct : volatilité accrue des prix électricité/gaz fin 2026/début 2027, pression marge brute secteurs énergivores (chimie, sidérurgie, ciment). Stratégie : surpondérer hedging énergie et utilities défensives, surveiller profitabilité industrielle Q4."
       },
       {
-        "titre": "Pétrole - tensions géopolitiques et primes de risque",
-        "detail": "Brut en hausse face à l'impasse Iran-États-Unis (approche militaire signalée au détroit d'Ormuz). Les bourses mondiales affichent prudence avant données inflation. Implication : risque inflationniste secondaire en énergie ; marges de raffinage compressées ; impact sur secteurs énergie-intensifs français et européens."
+        "titre": "Canicule = impact économique direct de 10-15 Mrd€ (2,5-3,5% du PIB annuel)",
+        "detail": "Ministre écologie quantifie coût canicule 2026 entre 10-15 Mrd€. Dégradation simultanée : productivité agricole (incendies Gironde déstabilisent filière forestière), consommation (ménages solos pénalisés immobilier, baisse pouvoir d'achat), production manufacturière (shutdown de capacités). Implication : révision à la baisse croissance France H2 2026, déflation-price actifs immobiliers secondaires + rural, réallocation budgétaire gouvernementale vers aides sociales (pression budget 2027)."
       },
       {
-        "titre": "Croissance France - décélération à 0,2% T3 anticipée",
-        "detail": "Banque de France anticipe 0,2% de croissance au T3 2026 (vs dynamique pré-estivale). Contexte : impact des vagues de chaleur/incendies sur productivité ; pression sur consommation d'électricité. Implication : déficit budgétaire 2026-2027 structurel accru ; débat gel pensions retraite devient non-cyclique mais structurel."
+        "titre": "Risque réglementaire Meta : procès Californie civil à risque financier 'haut'",
+        "detail": "Meta face procès civil Californie pour responsabilité addiction réseaux sociaux. Jurisprudence défavorable pourrait imposer restrictions monétisation/algo + dommages exemplaires substantiels. Parallèlement, politique chinoise (article 0) force Meta à céder actifs (Manus reste 'orbite chinoise'). Impaction : volatilité titre Meta, dépression multiples valorisation big tech US, risque de fragmentation marché digital par géopolitique."
       },
       {
-        "titre": "Énergie - indisponibilité nucléaire record (Gravelines + EDF dimanche)",
-        "detail": "Record de puissance nucléaire indisponible dimanche suite aux fortes chaleurs ; Gravelines : 3 réacteurs arrêtés pour afflux de méduses. Implication : prix de gros électricité volatiles ; risque déficit énergétique estival ; coûts complémentaires balancing market ; pression inflationniste secondaire sur énergie industrielle."
+        "titre": "IA opportunités vs risques emploi : Lovable +13 Mrd$ mais 240k postes garde enfants menacés",
+        "detail": "Lovable (vibe coding) atteint 13+ Mrd$ valorisation, symbolisant frénésie IA européenne. Contrepoint : rapport alerte sur déficit 240k places garde enfants 2026-2033, exacerbé par IA automatisant tâches secrétariat/middle-office (article 42: col blancs menacés). Implication: bifurcation marché travail (premium pour skills IA vs destruction emplois routine), pression salaires services non-délocalisables, impact budgétaire accru services publics."
       },
       {
-        "titre": "Litiges corporates - Meta affrontant procès civil à haut risque financier",
-        "detail": "Meta sanctionné pour 'négligence grave' (destruction de preuves) + procès civil en cours. Implication : exposition légale croissante (FTC, action shareholder) ; provision contingente possible ; débat valorisation (regulatory drag) ; parallèle Nvidia qui consolide position dominante via accords Wall Street $500Mds."
+        "titre": "Boeing passif : 29 Mln$ dommages + Airbus creuse avance commandes",
+        "detail": "Boeing condamné 29 Mln$ (Ethiopian Airlines 2019). Parallèlement, Airbus creuse écart commandes. Signaux: affaiblissement Boeing renforce Airbus duopole sur aircraft neufs, opportunité M&A sous-traitants aéro à valorisations comprimées, volatilité défense-aéro FR/DE bénéficiant Airbus dominance."
       }
     ]
   },
@@ -30,39 +30,39 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Le Figaro",
-        "heure": "00h14",
-        "titre": "Wall Street clôture en baisse: Dow Jones -0,34%, Nasdaq -0,60%, S&P 500 -0,32%",
-        "resume": "Le Dow Jones a perdu 0,34%, l’indice Nasdaq 0,60% et l’indice élargi S&P 500 0,32%.",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-en-baisse-dow-jones-0-34-nasdaq-0-60-s-p-500-0-32-20260811"
+        "source": "Les Echos",
+        "heure": "09h00",
+        "titre": "Malgré le coup de torchon du mois de juillet, les Bourses asiatiques conservent leur avance sur les marchés mondiaux",
+        "resume": "Les grands indices asiatiques n'ont pas encore retrouvé leurs niveaux record de fin juin, les incertitudes autour de la « tech » ayant lourdement pesé sur les valorisations. Tous conservent pourtant une large avance sur le reste des marchés mondiaux.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/malgre-le-coup-de-torchon-du-mois-de-juillet-les-bourses-asiatiques-conservent-leur-avance-sur-les-marches-mondiaux-2246860"
       },
       {
         "source": "Le Figaro",
         "heure": "20h52",
-        "titre": "Les Bourses mondiales prudentes face à la volatilité du prix du brut, avant l'inflation américaine",
-        "resume": "Les Bourses mondiales marquent le pas mardi, les investisseurs scrutant la situation au Moyen-Orient et la volatilité des cours du pétrole, dans...",
-        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-mondiales-prudentes-face-a-la-volatilite-du-prix-du-brut-avant-l-inflation-americaine-20260811"
+        "titre": "Les Bourses européennes sous pression, Wall Street soulagée après l’inflation américaine",
+        "resume": "Les Bourses européennes ont terminé en baisse mercredi, pénalisées par les incertitudes autour du détroit d’Ormuz, tandis que Wall Street profitait...",
+        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-europeennes-sous-pression-wall-street-soulagee-apres-l-inflation-americaine-20260812"
       },
       {
         "source": "Le Figaro",
-        "heure": "18h33",
-        "titre": "Wall Street attend l'inflation américaine, en plein creux estival",
-        "resume": "La Bourse de New York évolue en petite hausse mardi, à la veille de la publication très attendue des chiffres de l'inflation aux États-Unis, la place...",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-attend-l-inflation-americaine-en-plein-creux-estival-20260811"
+        "heure": "17h40",
+        "titre": "L'inflation aux États-Unis ralentit légèrement au mois de juillet",
+        "resume": "Le ralentissement de la hausse des prix à la consommation aux États-Unis s'est confirmé au mois de juillet, profitant de la pause dans le conflit au...",
+        "url": "https://www.lefigaro.fr/flash-eco/l-inflation-aux-etats-unis-ralentit-legerement-au-mois-de-juillet-20260812"
       },
       {
-        "source": "Les Echos",
-        "heure": "09h15",
-        "titre": "Placements : l'or peut-il retrouver ses plus hauts historiques à plus de 5 000 dollars l'once ?",
-        "resume": "Après des mois de baisse, l'or connaît un rebond marqué. Mais la prudence reste de mise : le métal jaune, encore loin de ses sommets, pourrait osciller entre reprise et correction selon l'évolution du dollar et des tensions internationales. Est-il te",
-        "url": "https://www.lesechos.fr/patrimoine/placement/placements-lor-peut-il-retrouver-ses-plus-hauts-historiques-a-plus-de-5-000-dollars-lonce-2246715"
+        "source": "Le Figaro",
+        "heure": "20h38",
+        "titre": "Présidentielle : dans l’Aude, Raphaël Glucksmann au contact des victimes des « mégafeux »",
+        "resume": "Pas encore officiellement candidat, le président de Place publique était ce mercredi dans le petit village de Jonquières, durement touché par le « mégafeu » de 2025 dans l’Aude, pour parler écologie et prévention des incendies.",
+        "url": "https://www.lefigaro.fr/politique/presidentielle-dans-l-aude-raphael-glucksmann-au-contact-des-victimes-des-megafeux-20260812"
       },
       {
-        "source": "Les Echos",
-        "heure": "08h40",
-        "titre": "Le bitcoin regarde Wall Street repartir sans lui, toujours englué dans un marché baissier",
-        "resume": "Alors que Wall Street retrouve ses records et que les investisseurs reprennent goût au risque, le bitcoin reste enfermé dans un corridor compris entre 60.000 et 67.000 dollars.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/le-bitcoin-regarde-wall-street-repartir-sans-lui-toujours-englue-dans-un-marche-baissier-2246710"
+        "source": "Le Figaro",
+        "heure": "19h30",
+        "titre": "«La fermeture du détroit d’Ormuz pèse sur la disponibilité» : le faible niveau des stocks de gaz en Europe inquiète",
+        "resume": "DÉCRYPTAGE - Les réserves de gaz ne sont remplies qu’à hauteur de 59,4 % aujourd’hui, contre 72 % l’année dernière. Une situation qui rend le Vieux Continent plus vulnérable à l’approche de l’hiver.",
+        "url": "https://www.lefigaro.fr/societes/la-fermeture-du-detroit-d-ormuz-pese-sur-la-disponibilite-le-faible-niveau-des-stocks-de-gaz-en-europe-inquiete-20260812"
       }
     ]
   },
@@ -71,16 +71,23 @@
       {
         "source": "Le Monde Eco",
         "heure": "22h38",
-        "titre": "Commandes d’avions neufs : Airbus creuse l’écart avec Boeing",
-        "resume": "En cumul à fin juillet, le constructeur européen mène nettement le match de la demande, avec 1 090 appareils commandés cette année, contre 483 pour son rival américain.",
+        "titre": "Airbus creuse l’écart avec Boeing pour les commandes d’avions neufs",
+        "resume": "En cumul à fin juillet, le constructeur européen mène nettement le match de la demande, avec 1 090 appareils commandés en 2026, contre 483 pour son rival américain.",
         "url": "https://www.lemonde.fr/economie/article/2026/08/11/commandes-d-avions-neufs-airbus-creuse-l-ecart-avec-boeing_6744262_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h08",
-        "titre": "Meta face à un procès civil à haut risque financier",
-        "resume": "Le groupe propriétaire de Facebook et d’Instagram, accusé de favoriser l’addiction aux réseaux sociaux, comparaît en Californie à partir de mercredi. Poursuivie par quatre Etats américains, la firme de Mark Zuckerberg risque une lourde sanction finan",
-        "url": "https://www.lemonde.fr/pixels/article/2026/08/11/meta-face-a-un-proces-a-hauts-risques-financiers_6744194_4408996.html"
+        "heure": "10h03",
+        "titre": "L’ex-dirigeant de Toyota Hiroshi Okuda, crédité d’avoir soutenu la célèbre voiture hybride Prius, est mort",
+        "resume": "Hiroshi Okuda, qui a pris les rênes de l’entreprise en 1995, a fait du constructeur automobile japonais un géant mondial du secteur.",
+        "url": "https://www.lemonde.fr/disparitions/article/2026/08/12/l-ex-dirigeant-de-toyota-hiroshi-okuda-credite-d-avoir-soutenu-la-celebre-voiture-hybride-prius-est-mort_6744675_3382.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "13h58",
+        "titre": "Inde : le président de Tata Sons, la holding de Tata, plus grand conglomérat du pays, annonce son départ",
+        "resume": "Natarajan Chandrasekaran ne briguera pas de nouveau mandat début 2027, a-t-il annoncé alors que le groupe indien traverse un moment difficile.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/12/inde-le-president-de-tata-sons-la-holding-de-tata-plus-grand-conglomerat-du-pays-annonce-son-depart_6744980_3234.html"
       },
       {
         "source": "Le Monde Eco",
@@ -90,18 +97,11 @@
         "url": "https://www.lemonde.fr/economie/article/2026/08/12/totalenergies-fait-le-pari-conteste-du-recyclage-chimique-du-plastique-sur-son-ancienne-raffinerie-de-grandpuits_6744496_3234.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "15h43",
-        "titre": "Pilule antiobésité : le Foundayo, développé par le laboratoire américain Eli Lilly, autorisé au Royaume-Uni, une première en Europe",
-        "resume": "Cette version en comprimé du médicament contre l’obésité et le diabète sera soumise à prescription médicale. Le groupe danois Novo Nordisk a déjà obtenu l’autorisation pour le comprimé Wegovy au Royaume-Uni, mais aussi aux Etats-Unis et dans l’UE.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/11/pilule-antiobesite-le-foundayo-developpe-par-le-laboratoire-americain-eli-lilly-autorise-au-royaume-uni-une-premiere-en-europe_6743797_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Fragilisés par la perte de brevets, les Big Pharma multiplient les acquisitions de biotechs pour mettre la main sur les prochains médicaments vedettes",
-        "resume": "Les opérations de rachat s’accélèrent depuis 2025, alors que l’industrie s’apprête à faire face à une expiration massive des brevets de traitements ces prochaines années.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/11/pour-assurer-leur-avenir-les-big-pharma-multiplient-les-acquisitions-de-biotechs_6743676_3234.html"
+        "source": "Challenges",
+        "heure": "19h12",
+        "titre": "Pixel Tag, IA omniprésente, smartphone pliant : Google sort l’artillerie lourde pour challenger Apple",
+        "resume": "Dans sa nouvelle gamme, Google a trouvé l’occasion de montrer les progrès de son modèle d’intelligence artificielle et de ses propres puces. Fabricant, éditeur de logiciel, développeur d’IA, l’entreprise s’impose comme un concurrent à tous les étage",
+        "url": "https://www.challenges.fr/entreprise/pixel-tag-ia-omnipresente-smartphone-pliant-google-sort-lartillerie-lourde-pour-challenger-apple_645216"
       }
     ]
   },
@@ -109,82 +109,142 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "14h35",
-        "titre": "Le magazine « VSD » racheté par l’entrepreneur Vianney d’Alançon",
-        "resume": "Il s’agit du premier rachat d’un média par l’homme d’affaires de 40 ans, connu pour son parc d’attractions traditionaliste, Rocher Mistral. « VSD » revendique quelque 40 000 ventes mensuelles et affiche un résultat positif.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/11/le-magazine-vsd-rachete-par-l-entrepreneur-vianney-d-alancon_6743791_3234.html"
+        "heure": "15h30",
+        "titre": "Avec l’arrivée de SAIC en Galice, l’Espagne conforte son ambition de devenir la base européenne des constructeurs automobiles chinois",
+        "resume": "Le groupe public chinois prévoit d’investir 200 millions d’euros dans la ville portuaire de Ferrol. Son arrivée, aux portes de l’une des principales bases navales espagnoles, ravive toutefois les interrogations sur les enjeux de sécurité.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/12/avec-l-arrivee-de-saic-en-galice-l-espagne-conforte-son-ambition-de-devenir-la-base-europeenne-des-constructeurs-automobiles-chinois_6745053_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "« Nous, les petits, on crève ! » : en Bourgogne, la famille Rouzaud s’offre un domaine mythique et fait trembler les vignerons",
+        "resume": "500 FORTUNES - Après la Champagne, le Bordelais et la Californie, la famille propriétaire de Roederer poursuit son expansion en rachetant le domaine Pierre Damoy à Gevrey-Chambertin. Au grand dam des vignerons indépendants.",
+        "url": "https://www.challenges.fr/fortunes/nous-les-petits-on-creve-en-bourgogne-la-famille-rouzaud-soffre-un-domaine-mythique-et-fait-trembler-les-vignerons_645132"
+      },
+      {
+        "source": "Challenges",
+        "heure": "12h30",
+        "titre": "Liquidée puis reprise par un concurrent, cette PME révèle l’autre visage des défaillances d’entreprises",
+        "resume": "La vie après la défaillance 3/3 - Alors que les défaillances d’entreprises se multiplient, Challenges vous fait découvrir le sort de trois entreprises après leurs procédures collectives. Aujourd’hui, la PME Arial qui a racheté l’activité de Studiel,",
+        "url": "https://www.challenges.fr/entreprise/liquidee-puis-reprise-par-un-concurrent-cette-pme-revele-lautre-visage-des-defaillances-dentreprises_645172"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "16h33",
+        "titre": "Après l’incendie en Gironde, l’afflux massif de bois déstabilise la filière forestière des Landes de Gascogne",
+        "resume": "Environ 4 millions de tonnes de pins maritimes vont arriver sur le marché, soit près des deux tiers de la production annuelle du massif. De quoi bouleverser un secteur déjà touché par la faiblesse de la croissance économique et la tempête Nils.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/12/apres-l-incendie-en-gironde-l-afflux-massif-de-bois-destabilise-la-filiere-forestiere-des-landes-de-gascogne_6745059_3234.html"
       },
       {
         "source": "Challenges",
         "heure": "08h00",
         "titre": "« Il a monté sa boîte à la force du poignet » : le pari polonais qui a fait de Maurice Bansay un milliardaire de l’immobilier",
-        "resume": "500 FORTUNES - Maurice Bansay, fils d’épicier, a bâti un empire dans l’immobilier commercial, de la Pologne à la France. Un précurseur de tendances qui déploie d’ambitieux projets à l’échelle des villes, tout en préparant sa succession.",
+        "resume": "500 FORTUNES - Maurice Bansay, fils d’épicier, a bâti un empire dans l’immobilier commercial, de la Pologne à la France. Un précurseur de tendances qui déploie d’ambitieux projets à l’échelle des villes, tout en préparant sa succession.",
         "url": "https://www.challenges.fr/fortunes/il-a-monte-sa-boite-a-la-force-du-poignet-le-pari-polonais-qui-a-fait-de-maurice-bansay-un-milliardaire-de-limmobilier_645129"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h00",
-        "titre": "Le fonds Accel prêt à injecter 3,5 milliards de dollars dans les start-up",
-        "resume": "Le capital-risqueur américain, qui a investi dans Blablacar et Lovable, lève quatre nouveaux fonds, pour un montant total de 3,5 milliards de dollars. Sur cette somme, 800 millions seront consacrés aux financements « early stage » de start-up europée",
-        "url": "https://www.lesechos.fr/start-up/ecosysteme/le-fonds-accel-pret-a-injecter-35-milliards-de-dollars-dans-les-start-up-2246706"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "« Ma copine ne voulait pas épouser un paysan » : la revanche de Louis Le Duff, fils de maraîchers devenu roi du pain",
-        "resume": "500 FORTUNES - De sa première Brioche dorée à Brest aux usines américaines de Bridor, ce fils de maraîcher a créé un géant des produits de boulangerie surgelés. Le groupe fête cette année les 50 ans d’une aventure industrielle mondiale, toujours en",
-        "url": "https://www.challenges.fr/fortunes/ma-copine-ne-voulait-pas-epouser-un-paysan-la-revanche-de-louis-le-duff-fils-de-maraichers-devenu-roi-du-pain_645124"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "19h30",
-        "titre": "Nvidia dans les pas des Médicis et de Citroën",
-        "resume": "En devenant le prêteur de ses clients, le géant des semi-conducteurs Nvidia s'inscrit dans une longue histoire qui montre l'efficacité mais aussi les périls de cette forme de financiarisation.",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/nvidia-dans-les-pas-des-medicis-et-de-citroen-2246694"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Le Figaro",
-        "heure": "22h06",
-        "titre": "La Banque de France anticipe au troisième trimestre 0,2% de croissance",
-        "resume": "Le PIB progresserait modestement, au même rythme qu’au trimestre précédent, mais cette prévision reste «sujette à une incertitude importante», précise la Banque de France.",
-        "url": "https://www.lefigaro.fr/flash-eco/la-banque-de-france-anticipe-au-troisieme-trimestre-0-2-de-croissance-20260811"
+        "source": "Le Monde Eco",
+        "heure": "00h45",
+        "titre": "La facture des canicules risque d’être salée pour l’économie française : jusqu’à 15 milliards d’euros, selon la ministre de la transition écologique",
+        "resume": "Les fortes chaleurs de cet été pourraient obérer jusqu’à un demi-point de croissance en 2026 si l’estimation dévoilée par Monique Barbut en ouverture d’une réunion de crise consacrée à la sécheresse, mercredi, se matérialisait.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/12/la-facture-des-canicules-risque-d-etre-salee-pour-l-economie-francaise-jusqu-a-15-milliards-d-euros-selon-la-ministre-de-la-transition-ecologique_6745102_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h00",
-        "titre": "Les entreprises françaises encore peu affectées par les vagues de chaleur et les incendies",
-        "resume": "L’activité des entreprises a un peu ralenti au mois de juillet, mais leurs dirigeants anticipent une légère amélioration en août, selon l’enquête mensuelle de la Banque de France qui suggère, à ce stade, une croissance de 0,2 % au troisième trimestre",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/11/les-entreprises-francaises-encore-peu-affectees-par-les-vagues-de-chaleur-et-les-incendies_6744159_3234.html"
+        "heure": "20h15",
+        "titre": "En Europe, les stocks de gaz pour l’hiver, au plus bas, ravivent les craintes sur les prix fin 2026 et début 2027",
+        "resume": "Le taux de remplissage actuel des réserves européennes est inférieur à 60 %, contre près de 75 % ces deux dernières années, notamment en raison de prix estivaux élevés liés au blocage du détroit d’Ormuz.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/12/en-europe-les-stocks-de-gaz-pour-l-hiver-au-plus-bas-ravivent-les-craintes-sur-les-prix-fin-2026-et-debut-2027_6745085_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "16h38",
+        "titre": "La sécheresse s’aggrave en France, le coût de la canicule déjà estimé entre 10 et 15 milliards d’euros",
+        "resume": "A l’occasion d’une réunion sur la sécheresse, Monique Barbut a formulé une première estimation des coûts directs et indirects de la canicule en France cet été.",
+        "url": "https://www.challenges.fr/entreprise/green-economie/la-secheresse-saggrave-en-france-le-cout-de-la-canicule-deja-estime-entre-10-et-15-milliards-deuros_645212"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h05",
+        "titre": "« Personne ne voit comment demain sera plus facile » : le déclin soudain de l'optimisme russe face à la guerre en Ukraine",
+        "resume": "Pour la première fois depuis avril 2022, l'opinion publique russe affiche une fatigue palpable face à la guerre en Ukraine. Si le régime de Vladimir Poutine n'est pas menacé dans l'immédiat, la météo sociale du pays se refroidit.",
+        "url": "https://www.lesechos.fr/monde/europe/personne-ne-voit-comment-demain-sera-plus-facile-le-declin-soudain-de-loptimisme-russe-face-a-la-guerre-en-ukraine-2246857"
       },
       {
         "source": "Le Figaro",
-        "heure": "15h30",
-        "titre": "Olivier Babeau : «Jean-Luc Mélenchon et le miroir aux alouettes de l’annulation de la dette»",
-        "resume": "TRIBUNE - Le candidat LFI à l’élection présidentielle a récemment suggéré de « foutre au feu » les titres de dette publique détenus par la Banque de France. L’idée pourrait sembler séduisante, mais c’est un raisonnement simpliste qui oublie la moitié",
-        "url": "https://www.lefigaro.fr/vox/politique/olivier-babeau-jean-luc-melenchon-et-le-miroir-aux-alouettes-de-l-annulation-de-la-dette-20260811"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "18h18",
-        "titre": "Brésil: net ralentissement de l'inflation en juillet",
-        "resume": "L'inflation au Brésil a nettement ralenti en juillet pour s'établir à 4,44% sur un an, revenant à l'intérieur de la fourchette visée par le...",
-        "url": "https://www.lefigaro.fr/flash-eco/bresil-net-ralentissement-de-l-inflation-en-juillet-20260811"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "13h30",
-        "titre": "Au-delà des catastrophes, le changement climatique fragilise nos sociétés",
-        "resume": "L’agriculture, l’accès à l’eau, l’économie reposent sur des conditions physiques et biologiques que nous avons longtemps considérées comme acquises. Cette stabilité est désormais remise en cause par le réchauffement.",
-        "url": "https://www.lemonde.fr/idees/article/2026/08/11/au-dela-des-catastrophes-le-changement-climatique-fragilise-nos-societes_6743783_3232.html"
+        "heure": "20h57",
+        "titre": "Russie : croissance de l'économie de 1,3% au deuxième trimestre",
+        "resume": "L'économie de la Russie a connu au deuxième trimestre 2026 une croissance de 1,3% sur un an, un rebond après une contraction de 0,2% au trimestre...",
+        "url": "https://www.lefigaro.fr/flash-eco/russie-croissance-de-l-economie-de-1-3-au-deuxieme-trimestre-20260812"
       }
     ]
   },
   "politique": {
     "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h30",
+        "titre": "La Chine veut traquer ses ultrariches qui vivent à l’étranger, pour mieux les taxer",
+        "resume": "Pour combler son déficit budgétaire, Pékin durcit la réglementation sur les trusts établis hors de Chine utilisés par les grandes fortunes chinoises pour échapper à l’impôt.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/13/la-chine-veut-traquer-ses-ultrariches-qui-vivent-a-l-etranger-pour-mieux-les-taxer_6745542_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h28",
+        "titre": "L'Ukraine profite d'un rebond en trompe-l'oeil de l'aide militaire internationale",
+        "resume": "Un nouveau prêt de l'Union européenne a permis à l'aide militaire allouée à Kiev d'atteindre, en juin, son niveau le plus élevé depuis avril 2024, selon le Kiel Institute allemand. Mais à long terme, la tendance est plutôt au ralentissement.",
+        "url": "https://www.lesechos.fr/monde/europe/lukraine-profite-dun-rebond-en-trompe-loeil-de-laide-militaire-internationale-2246868"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "19h19",
+        "titre": "«L’Iran ne peut rien faire contre ça» : Donald Trump assure que les États-Unis «vont garder» un contrôle «total» du détroit d’Ormuz",
+        "resume": "Le président américain a annoncé aujourd’hui sur ses réseaux sociaux que les États-Unis avaient un contrôle «total» du détroit d’Ormuz. Il affirme également qu’ils comptent le garder.",
+        "url": "https://www.lefigaro.fr/international/l-iran-ne-peut-rien-faire-contre-ca-donald-trump-assure-que-les-etats-unis-vont-garder-un-controle-total-du-detroit-d-ormuz-20260812"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "21h08",
+        "titre": "«C’est la première fois que la Bretagne et le Grand Est prennent des arrêtées sécheresse» : nouvelle réunion de crise pour l’eau potable au ministère de la Transition écologique",
+        "resume": "DÉCRYPTAGE - De 35 000 à 40 000 personnes de 97 communes sont victimes de coupures d’eau potable. Et la « vigilance » concerne 3 millions de personnes sur le territoire national.",
+        "url": "https://www.lefigaro.fr/sciences/c-est-la-premiere-fois-que-la-bretagne-et-le-grand-est-prennent-des-arretees-secheresse-nouvelle-reunion-de-crise-pour-l-eau-potable-au-ministere-de-la-transition-ecologique-20260812"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "13h23",
+        "titre": "Présidentielle 2027 : pour battre Marine Le Pen et Jean-Luc Mélenchon, la tentation du candidat unique au sein du bloc central",
+        "resume": "Au cœur de l’été, des voix centristes, notamment celle de François Bayrou, appellent les macronistes, la droite, mais aussi les sociaux-démocrates à se ranger derrière un seul candidat. Une idée qui reflète les craintes du bloc central en ce début de",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/12/presidentielle-2027-pour-battre-marine-le-pen-et-jean-luc-melenchon-la-tentation-du-candidat-unique-au-sein-du-bloc-central_6744945_823448.html"
+      }
+    ]
+  },
+  "taux": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h15",
+        "titre": "En Europe, les stocks de gaz pour l’hiver, au plus bas, ravivent les craintes sur les prix fin 2026 et début 2027",
+        "resume": "Le taux de remplissage actuel des réserves européennes est inférieur à 60 %, contre près de 75 % ces deux dernières années, notamment en raison de prix estivaux élevés liés au blocage du détroit d’Ormuz.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/12/en-europe-les-stocks-de-gaz-pour-l-hiver-au-plus-bas-ravivent-les-craintes-sur-les-prix-fin-2026-et-debut-2027_6745085_3234.html"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "17h40",
+        "titre": "L'inflation aux États-Unis ralentit légèrement au mois de juillet",
+        "resume": "Le ralentissement de la hausse des prix à la consommation aux États-Unis s'est confirmé au mois de juillet, profitant de la pause dans le conflit au...",
+        "url": "https://www.lefigaro.fr/flash-eco/l-inflation-aux-etats-unis-ralentit-legerement-au-mois-de-juillet-20260812"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "19h30",
+        "titre": "«La fermeture du détroit d’Ormuz pèse sur la disponibilité» : le faible niveau des stocks de gaz en Europe inquiète",
+        "resume": "DÉCRYPTAGE - Les réserves de gaz ne sont remplies qu’à hauteur de 59,4 % aujourd’hui, contre 72 % l’année dernière. Une situation qui rend le Vieux Continent plus vulnérable à l’approche de l’hiver.",
+        "url": "https://www.lefigaro.fr/societes/la-fermeture-du-detroit-d-ormuz-pese-sur-la-disponibilite-le-faible-niveau-des-stocks-de-gaz-en-europe-inquiete-20260812"
+      },
       {
         "source": "Le Monde Eco",
         "heure": "20h55",
@@ -193,83 +253,22 @@
         "url": "https://www.lemonde.fr/politique/article/2026/08/11/budget-2027-le-gouvernement-rouvre-le-dossier-sensible-du-gel-des-pensions-de-retraite_6744021_823448.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "09h51",
-        "titre": "Détroit d'Ormuz : les Etats-Unis tirent sur un navire qui tentait de briser le blocus",
-        "resume": "Le porte-conteneurs Vela Nova naviguait dans le golfe d'Oman et tentait de s'approcher d'un port iranien, selon Washington. C'est la troisième fois, depuis mi-juillet, que l'armée américaine utilise la force pour faire respecter son blocus des ports ",
-        "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/detroit-dormuz-les-etats-unis-tirent-sur-un-navire-qui-tentait-de-briser-le-blocus-2246720"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "01h02",
-        "titre": "Libye : le chef des renseignements de l'Est assassiné, Khaled Haftar dénonce une attaque «terroriste»",
-        "resume": "Le commandement de l’Armée nationale libyenne (ANL) a annoncé dans un communiqué en pleine nuit la mort dans un attentat à la voiture piégée du chef militaire Fauzi Al-Mansouri, l’un des plus importants du pays, fustigeant un «acte lâche et criminel»",
-        "url": "https://www.lefigaro.fr/flash-actu/libye-le-chef-des-renseignements-de-l-est-assassine-khaled-haftar-denonce-une-attaque-terroriste-20260811"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "21h30",
-        "titre": "Au Proche-Orient, l’émergence d’une nouvelle alliance dans l’ombre de la guerre États-Unis-Iran",
-        "resume": "DÉCRYPTAGE - Sans assumer publiquement leur préoccupation quant à la politique américaine au Proche-Orient, l’Arabie saoudite, le Pakistan et la Turquie ont annoncé avoir conclu une nouvelle alliance de défense.",
-        "url": "https://www.lefigaro.fr/international/au-proche-orient-l-emergence-d-une-nouvelle-alliance-dans-l-ombre-de-la-guerre-etats-unis-iran-20260811"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "20h31",
-        "titre": "Les États-Unis annoncent une nouvelle série de pourparlers israélo-libanais début septembre à Rome",
-        "resume": "Les États-Unis organiseront une nouvelle série de discussions entre Israël et le Liban début septembre à Rome, dans le cadre de leur médiation. Elles se poursuivront entre-temps à Beyrouth.",
-        "url": "https://www.lefigaro.fr/international/les-etats-unis-annoncent-une-nouvelle-serie-de-pourparlers-israelo-libanais-debut-septembre-a-rome-20260811"
-      }
-    ]
-  },
-  "taux": {
-    "articles": [
-      {
-        "source": "Le Figaro",
-        "heure": "23h09",
-        "titre": "Le dollar retient son souffle avant les données de l’inflation américaine",
-        "resume": "Vers 20h50 heure française, le billet vert grignotait 0,03% à la monnaie unique européenne, à 1,1540 dollar pour un euro, et 0,04% à la devise britannique, à 1,3502 dollar pour une livre.",
-        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-retient-son-souffle-avant-les-donnees-de-l-inflation-americaine-20260811"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h15",
-        "titre": "Impôts : en Europe, la hausse paradoxale des taxes sur les activités polluantes",
-        "resume": "Les taxes environnementales ont atteint 372 milliards d'euros dans l'Union européenne en 2024, soit une augmentation de 6 % par rapport à 2023. Un résultat qui s'avère pourtant insuffisant. Explications.",
-        "url": "https://www.lesechos.fr/monde/europe/impots-en-europe-la-hausse-paradoxale-des-taxes-sur-les-activites-polluantes-2246574"
-      },
-      {
         "source": "Le Monde Eco",
         "heure": "08h30",
         "titre": "Le prix du timbre-poste va connaître une hausse de près de 10 % en 2027",
         "resume": "Le timbre vert utilisé pour la lettre de moins de 20 grammes passera de 1,52 euro à 1,67 euro le 1ᵉʳ janvier 2027. Les tarifs des Colissimo envoyés vers la France métropolitaine et l’étranger augmenteront, eux, de 4,1 % en moyenne.",
         "url": "https://www.lemonde.fr/argent/article/2026/08/12/le-prix-du-timbre-poste-va-connaitre-une-hausse-de-pres-de-10-en-2027_6744637_1657007.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "17h00",
-        "titre": "Stocks au plus bas, augmentation des prix : pourquoi la facture de gaz pourrait encore flamber jusqu’à « un tiers » de plus ?",
-        "resume": "Les stocks de gaz européens n’ont jamais été aussi faibles depuis 2009, dans un contexte géopolitique particulièrement tendu qui pèse déjà sur les prix. En septembre, le prix de référence du gaz connaît une nouvelle hausse.",
-        "url": "https://www.challenges.fr/entreprise/energie/stocks-au-plus-bas-augmentation-des-prix-pourquoi-la-facture-de-gaz-pourrait-encore-flamber-jusqua-un-tiers-de-plus_645206"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "21h30",
-        "titre": "Budget : pourquoi le crédit d’impôt emploi à domicile pourrait revenir dans le viseur du gouvernement",
-        "resume": "DÉCRYPTAGE - Le coût budgétaire de cette niche fiscale a quasiment doublé en dix ans, atteignant 6,8 milliards d’euros en 2025.",
-        "url": "https://www.lefigaro.fr/conjoncture/budget-pourquoi-le-credit-d-impot-emploi-a-domicile-pourrait-revenir-dans-le-viseur-du-gouvernement-20260811"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.721,
-        "prev": 2.666,
-        "diff": 0.055,
-        "trend": "up",
-        "date": "2026-08-10",
+        "rate": 2.709,
+        "prev": 2.721,
+        "diff": -0.012,
+        "trend": "down",
+        "date": "2026-08-11",
         "history": [
-          2.708,
           2.732,
           2.713,
           2.761,
@@ -278,18 +277,18 @@
           2.67,
           2.673,
           2.666,
-          2.721
+          2.721,
+          2.709
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 2.863,
-        "prev": 2.812,
-        "diff": 0.051,
-        "trend": "up",
-        "date": "2026-08-10",
+        "rate": 2.842,
+        "prev": 2.863,
+        "diff": -0.021,
+        "trend": "down",
+        "date": "2026-08-11",
         "history": [
-          2.832,
           2.856,
           2.857,
           2.886,
@@ -298,18 +297,18 @@
           2.795,
           2.803,
           2.812,
-          2.863
+          2.863,
+          2.842
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.199,
-        "prev": 3.152,
-        "diff": 0.047,
-        "trend": "up",
-        "date": "2026-08-10",
+        "rate": 3.176,
+        "prev": 3.199,
+        "diff": -0.023,
+        "trend": "down",
+        "date": "2026-08-11",
         "history": [
-          3.158,
           3.175,
           3.201,
           3.227,
@@ -318,18 +317,18 @@
           3.147,
           3.147,
           3.152,
-          3.199
+          3.199,
+          3.176
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.61,
-        "prev": 3.569,
-        "diff": 0.041,
-        "trend": "up",
-        "date": "2026-08-10",
+        "rate": 3.585,
+        "prev": 3.61,
+        "diff": -0.025,
+        "trend": "down",
+        "date": "2026-08-11",
         "history": [
-          3.557,
           3.564,
           3.606,
           3.628,
@@ -338,18 +337,18 @@
           3.562,
           3.559,
           3.569,
-          3.61
+          3.61,
+          3.585
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.65,
-        "prev": 3.622,
-        "diff": 0.028,
-        "trend": "up",
-        "date": "2026-08-10",
+        "rate": 3.631,
+        "prev": 3.65,
+        "diff": -0.019,
+        "trend": "down",
+        "date": "2026-08-11",
         "history": [
-          3.598,
           3.596,
           3.641,
           3.649,
@@ -358,7 +357,8 @@
           3.597,
           3.597,
           3.622,
-          3.65
+          3.65,
+          3.631
         ]
       }
     ]
@@ -366,43 +366,91 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "42,3 milliards USD",
-      "contexte": "Les investissements mondiaux en intelligence artificielle ont atteint 42,3 milliards USD au premier semestre 2026, représentant une augmentation de 67% par rapport à la même période en 2025. Cette accélération reflète la course technologique intensifiée entre les grandes puissances économiques.",
-      "source": "GlobalTech Investment Report - Août 2026"
+      "chiffre": "2,3 trillions USD",
+      "contexte": "La dette mondiale a atteint un nouveau sommet en 2026, représentant 260% du PIB global. Cette augmentation reflète les investissements massifs en transition énergétique et intelligence artificielle depuis 2024.",
+      "source": "FMI - Rapport Global Debt Monitor août 2026"
     },
     "ephemeride": {
-      "evenement": "12 août 1998 - Effondrement du fonds LTCM et intervention de la Fed",
-      "impact": "Cet événement a marqué un tournant dans la régulation des risques systémiques et a conduit à une supervision accrue des acteurs financiers non-bancaires, prévenant ainsi une crise financière majeure."
+      "evenement": "13 août 1998 : La Russie déclare un moratoire sur sa dette souveraine, déclenchant la crise du LTCM et la première grande contagion financière moderne.",
+      "impact": "Cet événement a forcé les régulateurs à repenser la gestion du risque systémique et inspiré les stress-tests prudentiels actuels."
     },
     "graphique_semaine": {
-      "titre": "Évolution du prix de l'énergie verte vs énergies fossiles (2026)",
-      "description": "Depuis le début de l'année 2026, les coûts de production de l'énergie solaire et éolienne ont chuté de 23%, inversant le paradigme énergétique mondial. Pour la première fois, les énergies renouvelables sont devenues moins coûteuses que les énergies fossiles dans 87% des marchés émergents, accélérant la transition énergétique et attirant des milliards en investissements verts.",
+      "titre": "Volatilité des cryptomonnaies vs Indices traditionnels (août 2026)",
+      "description": "Après la régulation stricte des stablecoins en 2025, le marché crypto enregistre une volatilité réduite de 40%. Les indices boursiers mondiaux maintiennent une stabilité record grâce aux IA de gestion de portefeuille. Cette convergence marque l'intégration croissante des actifs numériques dans l'écosystème financier traditionnel.",
       "donnees": [
         {
-          "label": "Janvier",
-          "valeur": 100
+          "label": "Lundi",
+          "valeur": 3.2
         },
         {
-          "label": "Mars",
-          "valeur": 92
+          "label": "Mardi",
+          "valeur": 2.8
         },
         {
-          "label": "Mai",
-          "valeur": 81
+          "label": "Mercredi",
+          "valeur": 2.5
         },
         {
-          "label": "Juillet",
-          "valeur": 77
+          "label": "Jeudi",
+          "valeur": 2.1
         },
         {
-          "label": "Août",
-          "valeur": 77
+          "label": "Vendredi",
+          "valeur": 1.9
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape exhorte la jeunesse tchèque à témoigner de l'amour du Christ",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-jeunes-tcheques-temoignage-de-l-amour.html",
+        "resume": "Dans un message signé par le cardinal secrétaire d'État Parolin et adressé aux participants de la Rencontre nationale des jeunes qui se tient du 11 au 16 août à Ostrava, en République tchèque, Léon XIV les en",
+        "pub": "Wed, 12 Aug 2026 17:08:00 +0200",
+        "heure": "19h08"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Publication du programme officiel de la visite du Pape à Rimini et à Saint-Marin",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/visite-pastorale-rimini-saint-marin-fideles-religieux-religieuse.html",
+        "resume": "Le 22 août sera entièrement consacré à la visite pastorale dans la République de Saint-Marin où, outre la rencontre avec les autorités, Léon XIV présidera l'adoration eucharistique dans la basilique. Au «Meet",
+        "pub": "Wed, 12 Aug 2026 12:40:00 +0200",
+        "heure": "14h40"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV invite à vaincre la mondialisation de l’indifférence avec l’amour",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/leon-xiv-vaincre-la-mondialisation-indifference-avec-l-amour.html",
+        "resume": "À l'occasion du 70e anniversaire de la fondation «Leadership Conference of Women Religious» - Conférence des responsables des congrégations religieuses féminines aux États-Unis d'Amérique, le Pape a exprimé d",
+        "pub": "Wed, 12 Aug 2026 12:19:00 +0200",
+        "heure": "14h19"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Colombie:  le Pape envoie une aide financière aux régions touchées par le séisme",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-colombie-aide-financiere-aux-zones-touchees.html",
+        "resume": "Lors de l’audience générale, Léon XIV a eu une pensée pour les victimes et blessés du séisme de magnitude 7,4 qui a causé la mort de centaines de personnes et d’importants dégâts matériels. Par l’intermédiair",
+        "pub": "Wed, 12 Aug 2026 11:08:00 +0200",
+        "heure": "13h08"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Au Nigeria, libération d'un séminariste et d'un fidèle enlevés à Saint-Joseph",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/nigeria-liberation-d-un-seminariste-eglise-saint-joseph.html",
+        "resume": "Lawrence Igbo et le laïc Emmanuel Onwudi ont été libérées au cours d'une opération menée par les forces de sécurité nigérianes. Les tensions sur le plan sécuritaire restent vives: dans le nord du pays, au moi",
+        "pub": "Wed, 12 Aug 2026 10:50:00 +0200",
+        "heure": "12h50"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Audience générale: l’année liturgique, un chemin pour vivre le mystère du Christ",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/audience-generale-annee-liturgique-chemin-sacrosanctum-concilium.html",
+        "resume": "Lors de l’audience générale de ce mercredi 12 août, le Pape a prononcé sa sixième catéchèse sur Sacrosanctum Concilium, la constitution du Concile Vatican II sur la Liturgie. Dans une basilique Saint-Pierre a",
+        "pub": "Wed, 12 Aug 2026 10:30:00 +0200",
+        "heure": "12h30"
+      },
       {
         "source": "Vatican News",
         "titre": "Le nord-est du Nigeria face à une une crise humanitaire et sécuritaire",
@@ -474,54 +522,6 @@
         "resume": "Dans une interview accordée aux médias du Vatican, Paul III Nona soutient que «le plus grand défi auquel nous sommes confrontés est le fait que tous les chrétiens ne reviennent pas dans la région: beaucoup on",
         "pub": "Tue, 11 Aug 2026 08:29:00 +0200",
         "heure": "10h29"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L'église de Ceuta organise une veillée de prière pour la paix",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/eglise-ceuta-veillee-priere-paix-crise-humanitaire-unite-paix.html",
-        "resume": "L'administrateur apostolique invite toutes les paroisses à célébrer une veillée de prière la veille de l'Assomption, conformément à la proposition du Pape Léon XIV. Mgr Valdivia remercie la communauté chrétie",
-        "pub": "Mon, 10 Aug 2026 13:52:00 +0200",
-        "heure": "15h52"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "En Argentine, «le Pape accordera une importance à l’engagement chrétien»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/visite-de-leon-xiv-argentine-cardinal-vicente-bokalic.html",
-        "resume": "L’archevêque de Santiago del Estero se réjouit de la visite de Léon XIV en novembre prochain: «Notre humble peuple aime le Saint-Père», déclare-t-il aux médias du Vatican. «Il en a toujours été ainsi, avec to",
-        "pub": "Mon, 10 Aug 2026 12:42:00 +0200",
-        "heure": "14h42"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La visite du Pape au Pérou, «un moment de réconciliation»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/perou-visite-du-pape-conference-episcopale.html",
-        "resume": "Mgr Carlos García Camader, président de la Conférence épiscopale péruvienne, commente l'annonce du voyage de Léon XIV en novembre dans le pays où il a été missionnaire: «Nous espérons que ce sera une période",
-        "pub": "Mon, 10 Aug 2026 12:05:00 +0200",
-        "heure": "14h05"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Les évêques de France invitent à prier pour la venue du Pape",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/france-eveques-priere-voyage-pape-assomption-fideles-eglise.html",
-        "resume": "À l’approche du premier voyage apostolique de Léon XIV en France, prévu du 25 au 28 septembre prochain, ils exhortent les paroisses à porter cette visite dans la prière. À l’occasion de la célébration de l’As",
-        "pub": "Mon, 10 Aug 2026 11:30:00 +0200",
-        "heure": "13h30"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Création d’un réseau des médias catholiques au Tchad",
-        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/tchad-medias-catholiques-eglise-reseau-national-developpement.html",
-        "resume": "C’est à Bongor que le Réseau des Médias Catholiques du Tchad a officiellement vu le jour, réunissant pour la première fois les huit radios diocésaines du pays. Un projet soutenu par la Conférence épiscopale e",
-        "pub": "Mon, 10 Aug 2026 09:36:00 +0200",
-        "heure": "11h36"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Indonésie: un dollar pour la construction de 219 églises",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/indonesie-eglises-asie-vinea-dei-conversion-pauvrete-compassion.html",
-        "resume": "La fondation ''Vinea Dei'' recourt au financement participatif en ligne via sa propre plateforme, Jala Kasih, pour construire et rénover des lieux de culte et des chapelles au sein de communautés catholiques",
-        "pub": "Mon, 10 Aug 2026 09:04:00 +0200",
-        "heure": "11h04"
       }
     ]
   }
