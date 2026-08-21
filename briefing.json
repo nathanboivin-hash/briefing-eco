@@ -1,228 +1,33 @@
 {
-  "timestamp": "05h18 le 20/08/2026",
-  "alerte": "CRISE DE LIQUIDITE SOUVERAINE : Dette US >40 000Mds$, spreads européens en expansion, risque de contagion immédiat sur marchés crédit",
+  "timestamp": "05h20 le 21/08/2026",
+  "alerte": "CRISE DE LA DETTE SOUVERAINE - Spread OAT/Bund en expansion critique ; dette US franchit 40 000 Md$ ; gouvernance budgétaire française paralysée",
   "synthese": {
-    "resume": "La dette américaine franchit 40 000 milliards de dollars (+2,5% YTD) dans un contexte de demande de capitaux massive (IA et défense) amplifiant la pression obligataire globale. Les taux souverains européens s'élèvent par contagion, forçant les banques centrales à arbitrer entre soutien et stabilité. La faillite d'Evergrande et le piétinement immobilier chinois illustrent l'épuisement des modèles d'endettement. En parallèle, SK Hynix (24,9Mds€ de rachats) et Unitree (+500% IPO) capitalisent sur la bulle technologique tandis que les PME françaises ignorent les risques climatiques. Le piratage fiscal français aggrave la fragmentation budgétaire.",
+    "resume": "La convergence d'une crise de refinancement américaine (dette > 40 000 Md$, demande IA/défense explosive) et d'une instabilité budgétaire française (absence de budget, loi spéciale prolongée) provoque une flambée des taux souverains européens. Le secrétaire au Trésor Bessent active les marchés obligataires pour contenir les rendements US, mais les tensions se propagent via les spreads. L'absence de clarté macrobudgétaire française exacerbe la prime de risque OAT. En Asie, Evergrande sanctionne l'aléa moral (Xu Jiayin : prison à vie) tandis que les capitaux chinois se repositionnent sur actifs occidentaux.",
     "points": [
       {
-        "titre": "Taux souverains - spirale haussière contagieuse : 40 000Mds$ US + demande IA/défense",
-        "detail": "La dette américaine dépasse 40 000Mds$ avec une demande de capitaux structurelle pour l'IA et la défense provoquant une « crise de la dette » selon Le Monde. Les marchés transfèrent cette pression aux taux souverains européens, créant des spreads élargis et une fragmentation des courbes OAT-Bund. Implication : refinancement français à coût croissant, pression sur l'endettement public à +90% du PIB."
+        "titre": "Taux souverains : spreads OAT/Bund en expansion sur risque budgétaire français",
+        "detail": "Absence de budget 2027 + loi spéciale prolongée déclenche vigilance IGF sur 'risques majeurs'. Contexte : secrétaire Trésor US mobilise marchés obligataires pour réduire rendements (cible taux longs US). Implication : prime de risque France se renforce pendant que normalisation américaine crée pull-up européen. Surveillance critique des enchères OAT septembre (émissions massives attendues)."
       },
       {
-        "titre": "Immobilier - effondrement structurel : Evergrande prison, rendements immobiliers « tassés »",
-        "detail": "Le fondateur d'Evergrande condamné à vie cristallise l'effondrement du secteur (faillite en 2021, >300Mds$ pertes). Les fonds immobiliers européens connaissent une stagnation des rendements après la crise 2023-24, signalant l'épuisement de l'asset class. Implication : baisse durable des allocations immobilier, réallocation vers risqué (IA, tech) accélérant les bulles."
+        "titre": "Dette américaine critique : 40 000 Md$ franchis, demande IA/défense exacerbe tensions",
+        "detail": "Franchissement du seuil symbolique 40 000 Md$ coïncide avec surdemande capex IA + budget défense. Bessent demande réduction taux mais paradoxe : besoin refinancement massive + hausse inflation capex = tensions ascendantes. Implication : configuration 'stagflation partielle' où croissance secteurs tech/défense coexiste avec rigueur budgétaire impliquée."
       },
       {
-        "titre": "Tech chinoise - acquisition offensive : capitaux chinois vs marques occidentales (Mammut, Marshall)",
-        "detail": "Les fonds chinois visent acquérir des marques occidentales (équipement montagne Mammut, amplificateurs Marshall) pour contourner barrières commerciales. Parallèlement, Unitree (robots humanoïdes) bondit de 500% à l'IPO, classée « compagnie militaire » US mais capitalisée à plusieurs milliards. Implication : bifurcation technologique accélérée, risques géopolitiques de dépendance."
+        "titre": "Restructurations immobilières chinoises : Evergrande signale fin de l'aléa moral",
+        "detail": "Xu Jiayin (fondateur Evergrande, géant immobilier 348 Md$ passif avant faillite) condamné prison à vie. Absence restructuration/amnistie signale inflexion Beijing : assainissement forcé vs accommodement. Implication : cycles crédit chinois cycliques ; capitaux réorientés vers acquisitions actifs occidentaux (Mammut, Marshall vises par investisseurs chinois)."
       },
       {
-        "titre": "Cybersécurité fiscale - fuite majeure Bercy : facturation électronique compromise",
-        "detail": "Piratage du site des impôts français menaçant 2,4M familles et la transition de facturation électronique obligatoire. Le ministre reconnaît que « peu de ministères » sont au niveau requis. Coût économique : retard de transformation numérique, risque RGPD massif, crédibilité réglementaire altérée."
+        "titre": "Politique française 2027 : propositions budgétaires contradictoires impactent credibilité souveraine",
+        "detail": "Marine Le Pen promet nettoyage dépenses mais experts évaluent son programme = alourdi endettement. Édouard Philippe durcit position immigration (vannes fermées Mayotte, suspension droit sol). Implication : fragmentation électorale + incompatibilité fiscale propositions = prime risque politique 2026-2027 sur valorisation souveraine France vs Allemagne."
       },
       {
-        "titre": "Bulle IA - avertissement BCE : « graves conséquences pour zone euro »",
-        "detail": "La BCE redoute un krach du secteur IA dopé par exubérance spéculative. L'ancien patron de la régulation US (Barnier?) crie « la prochaine crise financière arrive ». Combination avec SK Hynix +24,9Mds€ rachat actions = signal de pic technologique. Implication : réduction bilan tech, volatilité accrue septembre-octobre."
+        "titre": "Modernisation compliance cyber : piratage Bercy et fraude données entrevoient coût regulation accrue",
+        "detail": "Vol données Bercy + plateforme frauduleuse BitKeltTrade (usurpation identité médias français) déclenchent demandes Lecornu pour unité cyber renforcée. Facturation électronique imminente = vulnérabilité accrue. Implication : entreprises anticipent hausse compliance costs ; risque concentration réglementaire sur secteur finance/tech."
       }
     ]
   },
   "marches": {
     "metrics": [],
-    "articles": [
-      {
-        "source": "Challenges",
-        "heure": "17h48",
-        "titre": "Alerte sur la bulle de l’IA : la BCE redoute le krach d’un secteur dopé qui aura « de graves conséquences pour la zone euro »",
-        "resume": "Dans une note publiée lundi 17 août, des économistes de la BCE soulignent le risque d’une correction des valorisations boursières des géants de l’IA. Un scénario « probable », indépendant de l’existence d’une bulle et qui aurait « de graves conséque",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/alerte-sur-la-bulle-de-lia-la-bce-redoute-le-krach-dun-secteur-dope-qui-aura-de-graves-consequences-pour-la-zone-euro_645270"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h46",
-        "titre": "Flambée du pétrole, investissements dans l’IA et endettement des Etats : ce cocktail explosif qui fait grimper les taux d’emprunt",
-        "resume": "Les taux d’emprunt ont atteint des niveaux inédits depuis plusieurs années aux Etats-Unis et en Europe ce mardi 18 août. Une surchauffe du marché obligataire qui s’explique par une combinaison de trois facteurs : la hausse des prix du pétrole, les n",
-        "url": "https://www.challenges.fr/economie/flambee-du-petrole-investissements-dans-lia-et-endettement-des-etats-ce-cocktail-explosif-qui-fait-grimper-les-taux-demprunt_645263"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "21h02",
-        "titre": "Sans-abrisme : en France et à l'étranger, des politiques différentes pour sortir de la rue",
-        "resume": "Le Premier ministre britannique a annoncé vouloir donner un toit à tous les sans-abris cet hiver. Plusieurs pays ont mené des politiques similaires ces dernières années, avec plus ou moins de réussite.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/sans-abrisme-en-france-et-a-letranger-des-politiques-differentes-pour-sortir-de-la-rue-2247599"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "00h17",
-        "titre": "Wall Street clôture en hausse, salue le recul des taux obligataires",
-        "resume": "Le Dow Jones a gagné 0,22%, l’indice Nasdaq a progressé de 0,16% et l’indice élargi S&P 500 s’est finalement octroyé 0,21%.",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-en-hausse-salue-le-recul-des-taux-obligataires-20260819"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "19h10",
-        "titre": "Les Bourses mondiales tiraillées entre la détente des taux à New York et leur niveau élevé en Europe",
-        "resume": "Les Bourses mondiales évoluent en ordre dispersé mercredi, entre le reflux des taux américains qui soutient Wall Street, la persistance de rendements...",
-        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-mondiales-tiraillees-entre-la-detente-des-taux-a-new-york-et-leur-niveau-eleve-en-europe-20260819"
-      }
-    ]
-  },
-  "entreprises": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "14h51",
-        "titre": "SK Hynix, géant sud-coréen des puces mémoire, annonce des rachats d’actions pour une valeur de 24,9 milliards d’euros",
-        "resume": "A la fin juillet, le président de SK group a acheté pour près de 3 millions d’euros d’actions de l’entreprise, un geste perçu comme une tentative d’afficher sa confiance dans l’entreprise alors que les valeurs du secteur des semi-conducteurs chutaien",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/19/sk-hynix-geant-sud-coreen-des-puces-memoire-annonce-des-rachats-d-actions-pour-une-valeur-de-24-9-milliards-d-euros_6749855_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "10h29",
-        "titre": "Unitree, le champion chinois des robots humanoïdes, bondit de 500 % à la suite de son introduction en Bourse",
-        "resume": "Dans un secteur en plein essor mondial, les entreprises de robotique chinoises ont pris une longueur d’avance.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/19/unitree-le-champion-chinois-des-robots-humanoides-bondit-de-500-apres-son-introduction-en-bourse_6749572_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Apple consent à respecter les règles européennes sur les marchés numériques",
-        "resume": "A l’issue de deux années d’enquêtes et de recours, le géant américain s’engage à appliquer la loi communautaire sur les marchés numériques (DMA). L’entreprise promet de ne plus faire obstacle aux téléchargements d’applications hors de l’Apple Store.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/19/apple-consent-a-respecter-les-regles-europeennes-sur-les-marches-numeriques_6749357_3234.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "20h35",
-        "titre": "Innovation : « Les entreprises devront apprendre à gérer leurs collaborations avec les start-up comme les meilleurs investisseurs gèrent leurs portefeuilles »",
-        "resume": "S'inspirant du capital-risque, les grandes entreprises doivent réallouer leurs ressources vers les projets les plus prometteurs, tout en acceptant le risque d'échec comme une étape nécessaire à l'innovation, estime Paul-François Fournier, directeur e",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/innovation-les-entreprises-devront-apprendre-a-gerer-leurs-collaborations-avec-les-start-up-comme-les-meilleurs-investisseurs-gerent-leurs-portefeuilles-2247596"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "16h25",
-        "titre": "Marty Sports passe le témoin à une nouvelle génération",
-        "resume": "L'ANJOU, TERRAIN DE JEU DES ENTREPRISES DU SPORT (2/6) - En près de cinquante ans d'existence, Marty Sports a fait son trou sur les pistes d'athlétisme, les terrains de basket et les pelouses de foot. La troisième génération poursuit le match.",
-        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/marty-sports-passe-le-temoin-a-une-nouvelle-generation-2247541"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h15",
-        "titre": "Les capitaux chinois à l’affût des marques occidentales, de l’équipementier de montagne Mammut à l’icône des amplis Marshall",
-        "resume": "Du prêt-à-porter à la restauration en passant par la hi-fi, les industriels et fonds d’investissement venus de Chine ont mené ces derniers mois une série d’acquisitions emblématiques pour accompagner leur expansion.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/20/les-capitaux-chinois-a-l-affut-des-marques-occidentales-de-l-equipementier-de-montagne-mammut-a-l-icone-des-amplis-marshall_6750438_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "14h51",
-        "titre": "SK Hynix, géant sud-coréen des puces mémoire, annonce des rachats d’actions pour une valeur de 24,9 milliards d’euros",
-        "resume": "A la fin juillet, le président de SK group a acheté pour près de 3 millions d’euros d’actions de l’entreprise, un geste perçu comme une tentative d’afficher sa confiance dans l’entreprise alors que les valeurs du secteur des semi-conducteurs chutaien",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/19/sk-hynix-geant-sud-coreen-des-puces-memoire-annonce-des-rachats-d-actions-pour-une-valeur-de-24-9-milliards-d-euros_6749855_3234.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "17h36",
-        "titre": "« Nous voulons réaliser un projet phare avec une grande entreprise européenne » : Botsing, le champion chinois des robots de soudage qui mise sur le Vieux Continent",
-        "resume": "L'entreprise, spin-off de la prestigieuse université Tsinghua, a conçu des robots de soudage bardés de capteurs, très utilisés dans la construction navale et l'industrie pétrochimique. Après un premier projet en Bulgarie et au Congo, Botsing veut mai",
-        "url": "https://www.lesechos.fr/industrie-services/industrie-lourde/nous-voulons-realiser-un-projet-phare-avec-une-grande-entreprise-europeenne-botsing-le-champion-chinois-des-robots-de-soudage-qui-mise-sur-le-vieux-continent-2247555"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h45",
-        "titre": "Robotaxis : pourquoi Waymo importe des voitures chinoises aux Etats-Unis malgré des droits de douane phénoménaux",
-        "resume": "Les droits de douane ne dissuadent pas Waymo, la filiale de robotaxis d'Alphabet, d'acheter des voitures électriques au constructeur chinois Zeekr pour agrandir sa flotte. L'entreprise américaine préfère la technologie chinoise à celle de Chrysler.",
-        "url": "https://www.lesechos.fr/industrie-services/automobile/robotaxis-pourquoi-waymo-importe-des-voitures-chinoises-aux-etats-unis-malgre-des-droits-de-douane-phenomenaux-2247618"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "20h48",
-        "titre": "Lauder, numéro deux de la beauté, reprend des couleurs grâce à la Chine et aux parfums",
-        "resume": "Le géant américain de la beauté renoue avec la croissance grâce à la demande chinoise et au succès de ses parfums, dépassant les prévisions. Une dynamique qui s'accompagne d'une réduction des pertes et d'une hausse de la marge opérationnelle.",
-        "url": "https://www.lesechos.fr/industrie-services/mode-luxe/lauder-numero-deux-de-la-beaute-reprend-des-couleurs-grace-a-la-chine-et-aux-parfums-2247597"
-      }
-    ]
-  },
-  "macro": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "02h01",
-        "titre": "La dette publique américaine dépasse pour la première fois les 40 000 milliards de dollars",
-        "resume": "La progression de l’endettement s’avère plus rapide qu’anticipé par le bureau du Congrès pour le budget, sur fond de déficits persistants et de hausse des taux d’intérêt.",
-        "url": "https://www.lemonde.fr/international/article/2026/08/20/la-dette-publique-americaine-depasse-pour-la-premiere-fois-les-40-000-milliards-de-dollars_6750104_3210.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h30",
-        "titre": "La hausse du chômage enterre la promesse d’Emmanuel Macron de retrouver le plein-emploi",
-        "resume": "Pour la sixième fois de suite, le taux de chômage a augmenté au deuxième trimestre et se rapproche des chiffres de 2017. Les candidats à la présidentielle, comme l’ancien premier ministre Edouard Philippe, critiquent ce bilan.",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/19/la-hausse-du-chomage-enterre-la-promesse-d-emmanuel-macron-de-retrouver-le-plein-emploi_6749465_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "09h00",
-        "titre": "Comment les crises budgétaires révèlent et amplifient les fragilités des gouvernements",
-        "resume": "Les chercheurs Philippe Zittoun et Patrick Hassenteufel distinguent trois façons de surmonter une crise budgétaire : « gouverner la crise », « gouverner dans la crise » ou « par la crise ». Une grille d’analyse qui trouve un écho particulier au vu de",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/19/comment-les-crises-budgetaires-revelent-et-amplifient-les-fragilites-des-gouvernements_6749472_823448.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "19h24",
-        "titre": "Emplois vacants, une baisse qui se confirme",
-        "resume": "Le nombre d'emplois vacants dans le privé a reculé de 3 % au deuxième trimestre, atteignant 433.600 postes, selon la Dares. La baisse touche principalement l'industrie, la construction et le tertiaire marchand.",
-        "url": "https://www.lesechos.fr/economie-france/social/emplois-vacants-une-baisse-qui-se-confirme-2247578"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "10h52",
-        "titre": "Royaume-Uni: l'inflation repart à la hausse en juillet, à 2,9%",
-        "resume": "Le taux d'inflation au Royaume-Uni est reparti à la hausse en juillet, à 2,9% sur un an, sous l'effet du relèvement du plafond des prix de l'énergie,...",
-        "url": "https://www.lefigaro.fr/flash-eco/royaume-uni-l-inflation-repart-a-la-hausse-en-juillet-a-2-9-20260819"
-      }
-    ]
-  },
-  "politique": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h30",
-        "titre": "Présidentielle 2027 : Jean-Luc Mélenchon, entre radicalité et besoin de rassembler, rêve d’un duel avec l’extrême droite",
-        "resume": "Le leader de La France insoumise interviendra dans la Drôme, lors des journées d’été du mouvement, qui ont lieu du jeudi 20 au dimanche 23 août. Sans rien céder sur son programme, il tente d’apparaître rassurant et fédérateur en vue d’un possible sec",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/20/presidentielle-2027-jean-luc-melenchon-entre-radicalite-et-besoin-de-rassembler-reve-d-un-duel-avec-l-extreme-droite_6750546_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "19h11",
-        "titre": "Piratage du site des impôts : « Peu de ministères sont au niveau requis » pour faire face aux cyberattaques, reconnaît Sébastien Lecornu",
-        "resume": "« Il y a urgence à concevoir et conduire sans délai une réponse opérationnelle plus réactive et plus forte aux cyberattaques que l’Etat rencontre actuellement », a écrit le chef du gouvernement dans un courrier adressé à l’Anssi.",
-        "url": "https://www.lemonde.fr/pixels/article/2026/08/19/piratage-du-site-des-impots-peu-de-ministeres-sont-au-niveau-requis-face-aux-cyberattaques-reconnait-sebastien-lecornu_6749887_4408996.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "23h37",
-        "titre": "Piratage du site des impôts : le ministère des comptes publics présente des « excuses », mais peine à contenir la crise",
-        "resume": "David Amiel a dévoilé des premières « mesures d’urgence » après la vaste attaque informatique visant le fisc. Pour ne rien arranger, l’administration fiscale a révélé une nouvelle brèche dans ses systèmes.",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/18/piratage-du-fisc-bercy-presente-ses-excuses-mais-peine-a-contenir-la-crise_6749090_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "16h31",
-        "titre": "Tapis rouge aux millionnaires russes : la France accusée d’agir « en contradiction avec l’esprit des sanctions » européennes",
-        "resume": "Paradis du tourisme de luxe, la France, l’Italie et l’Espagne ont délivré l’an dernier, malgré les sanctions contre le régime de Poutine, plus de 400 000 visas de court séjour aux Russes fortunés. En tête, l’Hexagone qui a même accordé 23 % de laiss",
-        "url": "https://www.challenges.fr/monde/tapis-rouge-aux-millionnaires-russes-la-france-accusee-dagir-en-contradiction-avec-lesprit-des-sanctions-europeennes_645268"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h43",
-        "titre": "Donald Trump menace d’une «guerre économique» inédite contre «tout pays» qui aiderait l’Iran",
-        "resume": "Le président américain a promis de «terribles répercussions économiques» à ceux qui soutiendraient Téhéran.",
-        "url": "https://www.lefigaro.fr/conjoncture/donald-trump-menace-d-une-guerre-economique-inedite-contre-tout-pays-qui-aiderait-l-iran-20260820"
-      }
-    ]
-  },
-  "taux": {
     "articles": [
       {
         "source": "Le Monde Eco",
@@ -239,37 +44,231 @@
         "url": "https://www.lemonde.fr/economie/article/2026/08/20/comment-les-marches-financiers-font-bondir-les-taux-souverains-europeens_6750402_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "17h48",
-        "titre": "Alerte sur la bulle de l’IA : la BCE redoute le krach d’un secteur dopé qui aura « de graves conséquences pour la zone euro »",
-        "resume": "Dans une note publiée lundi 17 août, des économistes de la BCE soulignent le risque d’une correction des valorisations boursières des géants de l’IA. Un scénario « probable », indépendant de l’existence d’une bulle et qui aurait « de graves conséque",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/alerte-sur-la-bulle-de-lia-la-bce-redoute-le-krach-dun-secteur-dope-qui-aura-de-graves-consequences-pour-la-zone-euro_645270"
+        "source": "Le Figaro",
+        "heure": "20h40",
+        "titre": "Suspecté dans le sabotage de Nord Stream, un plongeur ukrainien arrêté… sur le tournage d’un film hollywoodien inspiré de l’affaire",
+        "resume": "Le parquet fédéral allemand a annoncé mercredi l’arrestation en Croatie d’un deuxième Ukrainien soupçonné d’être impliqué dans le sabotage du gazoduc russe Nord Stream, au nord de l’Allemagne, il y a bientôt quatre ans.",
+        "url": "https://www.lefigaro.fr/international/suspecte-dans-le-sabotage-de-nord-stream-un-plongeur-ukrainien-arrete-sur-le-tournage-d-un-film-hollywoodien-inspire-de-l-affaire-20260820"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "00h08",
+        "titre": "Wall Street recule, pénalisée par le rebond des coûts d'emprunt",
+        "resume": "Le Dow Jones a cédé 1,31%, l’indice Nasdaq a perdu 1% et l’indice élargi S&P 500 a reculé de 0,86%.",
+        "url": "https://www.lefigaro.fr/flash-eco/wall-street-recule-penalisee-par-le-rebond-des-couts-d-emprunt-20260820"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "21h32",
+        "titre": "L’éditorial de Gaëtan de Capèle : « Les taux s’enflamment, la maison brûle »",
+        "resume": "Sous le poids d’une dette de 3 500 milliards d’euros, l’État déboursera cette année 64 milliards pour les seuls intérêts et bientôt 100 milliards.",
+        "url": "https://www.lefigaro.fr/vox/economie/l-editorial-de-gaetan-de-capele-les-taux-s-enflamment-la-maison-brule-20260820"
+      }
+    ]
+  },
+  "entreprises": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "21h31",
+        "titre": "Moderna saluée par Wall Street pour l’efficacité promise d’un traitement utilisant l’ARN messager contre le cancer de la peau",
+        "resume": "La biotech et le laboratoire Merck ont annoncé, mercredi 19 août, avoir obtenu des résultats probants dans la lutte contre le mélanome, lors de la dernière phase d’un essai clinique. En réaction, l’action Moderna a quasi triplé en une séance boursièr",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/20/moderna-saluee-par-wall-street-pour-l-efficacite-promise-d-un-traitement-utilisant-l-arn-messager-contre-le-cancer-de-la-peau_6751196_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "09h46",
-        "titre": "Flambée du pétrole, investissements dans l’IA et endettement des Etats : ce cocktail explosif qui fait grimper les taux d’emprunt",
-        "resume": "Les taux d’emprunt ont atteint des niveaux inédits depuis plusieurs années aux Etats-Unis et en Europe ce mardi 18 août. Une surchauffe du marché obligataire qui s’explique par une combinaison de trois facteurs : la hausse des prix du pétrole, les n",
-        "url": "https://www.challenges.fr/economie/flambee-du-petrole-investissements-dans-lia-et-endettement-des-etats-ce-cocktail-explosif-qui-fait-grimper-les-taux-demprunt_645263"
+        "heure": "21h31",
+        "titre": "Considéré comme une « compagnie militaire chinoise » aux États-Unis, le fabricant de robots humanoïdes Unitree s’envole en Bourse",
+        "resume": "Près de + 500 % à la Bourse de Shanghai. C’est la performance que signe Unitree, géant chinois spécialisé dans la fabrication de robots humanoïdes. Poussée par la stratégie gouvernementale, la société crée en 2016 enregistre une forte croissance.",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/considere-comme-une-compagnie-militaire-chinoise-aux-etats-unis-le-fabricant-de-robots-humanoides-unitree-senvole-en-bourse_645276"
       },
       {
         "source": "Les Echos",
-        "heure": "09h04",
-        "titre": "« On fonce vers le précipice et on refuse de changer de cap » : la dette publique des Etats-Unis franchit le seuil des 40.000 milliards de dollars",
-        "resume": "L'endettement public américain a doublé en moins de 10 ans, notamment en réponse au Covid. Les baisses d'impôts successives limitent les rentrées fiscales alors que les taux montent.",
-        "url": "https://www.lesechos.fr/monde/etats-unis/on-fonce-vers-le-precipice-et-on-refuse-de-changer-de-cap-la-dette-publique-des-etats-unis-franchit-le-seuil-des-40000-milliards-de-dollars-2247622"
+        "heure": "17h21",
+        "titre": "Stripe creuse son sillon dans l'IA en réalisant la plus grosse acquisition de son histoire",
+        "resume": "Le spécialiste américain des paiements, en cours de négociation pour racheter PayPal, a annoncé mercredi s'être engagé à acquérir la start-up américaine OpenRouter, qui aide les entreprises à basculer entre différents modèles d'intelligence artificie",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/stripe-creuse-son-sillon-dans-lia-en-realisant-la-plus-grosse-acquisition-de-son-histoire-2247711"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h40",
+        "titre": "La « Spider-Mania » et l’engouement pour « L’Odyssée » redonnent des couleurs au marché hexagonal du cinéma",
+        "resume": "Les deux grands succès de l’été en salle ont déjà chacun dépassé 6 millions de spectateurs, en France, ce qui contribue à doper les prévisions de fréquentation sur l’année.",
+        "url": "https://www.lemonde.fr/culture/article/2026/08/21/la-spider-mania-et-l-engouement-pour-l-odyssee-redonnent-des-couleurs-au-marche-hexagonal-du-cinema_6751536_3246.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "15h24",
+        "titre": "Le site de vente de vêtements Boohoo condamné à une amende de 2,33 millions d’euros",
+        "resume": "La répression des fraudes reproche à Boohoo.com une tromperie sur « la véracité des promotions annoncées » : lors de son enquête, elle a analysé « les prix de plusieurs centaines de produits et a « mis au jour des pratiques commerciales trompeuses ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/20/le-site-de-vente-de-vetements-boohoo-condamne-a-une-amende-de-2-33-millions-d-euros_6750929_3234.html"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h15",
+        "titre": "Les capitaux chinois à l’affût des marques occidentales, de l’équipementier de montagne Mammut à l’icône des amplis Marshall",
+        "resume": "Du prêt-à-porter à la restauration en passant par la hi-fi, les industriels et fonds d’investissement venus de Chine ont mené ces derniers mois une série d’acquisitions emblématiques pour accompagner leur expansion.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/20/les-capitaux-chinois-a-l-affut-des-marques-occidentales-de-l-equipementier-de-montagne-mammut-a-l-icone-des-amplis-marshall_6750438_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "17h21",
+        "titre": "Stripe creuse son sillon dans l'IA en réalisant la plus grosse acquisition de son histoire",
+        "resume": "Le spécialiste américain des paiements, en cours de négociation pour racheter PayPal, a annoncé mercredi s'être engagé à acquérir la start-up américaine OpenRouter, qui aide les entreprises à basculer entre différents modèles d'intelligence artificie",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/stripe-creuse-son-sillon-dans-lia-en-realisant-la-plus-grosse-acquisition-de-son-histoire-2247711"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h00",
+        "titre": "Reddit survivra-t-il à l’ère de l’IA ? La plateforme veut faire payer plus cher ses données aux géants de la tech",
+        "resume": "Face à l’essor des chatbots, Reddit cherche à défendre son modèle et à réduire sa dépendance aux géants de la tech. La plateforme de discussion veut plus d’argent pour ses données… et que les gens y consacrent davantage de temps.",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/reddit-survivra-t-il-a-lere-de-lia-la-plateforme-veut-faire-payer-plus-cher-ses-donnees-aux-geants-de-la-tech_645285"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "19h38",
+        "titre": "Enquête européenne sur JD : la Chine menace Bruxelles de représailles",
+        "resume": "L'enquête sur le rachat de Ceconomy par JD pour 2,2 milliards d'euros renforce les tensions commerciales entre la Chine et l'UE. Face aux soupçons de Bruxelles de subventions déloyales, Pékin dénonce une atteinte à sa souveraineté. Une décision europ",
+        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/enquete-europeenne-sur-jdcom-la-chine-menace-bruxelles-de-represailles-2247743"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "16h05",
+        "titre": "Sold'Out veut mettre hors-jeu les tribunes vides dans les stades",
+        "resume": "L'ANJOU, TERRAIN DE JEU DES ENTREPRISES DU SPORT (3/6) - Avec son appli, Malo Bernard veut aider les clubs à combler les places vacantes pendant les matchs. À l'aube de la saison 2026-2027, ce jeune entrepreneur angevin est dans les starting-blocks p",
+        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/soldout-veut-mettre-hors-jeu-les-tribunes-vides-dans-les-stades-2247697"
+      }
+    ]
+  },
+  "macro": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "02h01",
+        "titre": "La dette publique américaine dépasse pour la première fois les 40 000 milliards de dollars",
+        "resume": "La progression de l’endettement s’avère plus rapide qu’anticipé par le bureau du Congrès pour le budget, sur fond de déficits persistants et de hausse des taux d’intérêt.",
+        "url": "https://www.lemonde.fr/international/article/2026/08/20/la-dette-publique-americaine-depasse-pour-la-premiere-fois-les-40-000-milliards-de-dollars_6750104_3210.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h00",
+        "titre": "Déjà 28 % des ventes : comment la Chine électrifie ses camions à toute allure",
+        "resume": "Plus de 230.000 poids lourds zéro émission ont été immatriculés dans le pays l'an dernier, selon une étude publiée ce jeudi. Le reste de la planète, y compris l'Union européenne, reste très loin derrière.",
+        "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/deja-28-des-ventes-comment-la-chine-electrifie-ses-camions-a-toute-allure-2247779"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h30",
+        "titre": "Commerce : pourquoi l'Allemagne change de ton face au raz de marée chinois",
+        "resume": "Les importations chinoises en Allemagne bondissent. Dans l'autre sens, les exportations allemandes vers la Chine chutent. Le gouvernement se montre plus ferme vis-à-vis de Pékin.",
+        "url": "https://www.lesechos.fr/monde/europe/commerce-pourquoi-lallemagne-change-de-ton-face-au-raz-de-maree-chinois-2247775"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h20",
+        "titre": "Budget 2027 : Bercy étudie une reconduction de la surtaxe sur les bénéfices des grands groupes",
+        "resume": "La prolongation de la contribution exceptionnelle sur les bénéfices des grandes entreprises fait bien partie des pistes sur la table pour le budget 2027, même si rien n'est encore arbitré.",
+        "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/budget-2027-bercy-etudie-une-reconduction-de-la-surtaxe-sur-les-benefices-des-grands-groupes-2247774"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "17h22",
+        "titre": "Au Mexique, la course contre la montre de Claudia Sheinbaum contre le travail au noir",
+        "resume": "Plus d'un travailleur sur deux occupe un emploi informel au Mexique. La présidente Claudia Sheinbaum s'est engagée à faire diminuer drastiquement le travail au noir d'ici à 2030. Cet objectif paraît difficile à tenir aux yeux des économistes.",
+        "url": "https://www.lesechos.fr/monde/ameriques/au-mexique-la-course-contre-la-montre-de-claudia-sheinbaum-contre-le-travail-au-noir-2247713"
+      }
+    ]
+  },
+  "politique": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "11h56",
+        "titre": "Présidentielle 2027 : Edouard Philippe veut « fermer totalement les vannes de l’immigration » à Mayotte et suspendre le droit du sol",
+        "resume": "Le favori des sondages à droite souhaite qu’un « centre de retour français soit installé dans la région, en Afrique de l’Est, afin d’éloigner rapidement et massivement les étrangers en situation irrégulière installés à Mayotte ».",
+        "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/08/20/presidentielle-2027-edouard-philippe-veut-fermer-totalement-les-vannes-de-l-immigration-a-mayotte-et-suspendre-le-droit-du-sol_6750751_6205049.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "19h53",
+        "titre": "Présidentielle 2027 : Yannick Jadot acte la rupture avec LFI et lance « Rassembler la social-écologie », une initiative pour unir la gauche",
+        "resume": "Face à la division persistante à gauche, Yannick Jadot propose une nouvelle dynamique transpartisane pour peser face à la « menace de l’extrême droite » en 2027.",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/19/presidentielle-2027-yannick-jadot-acte-la-rupture-avec-lfi-et-lance-rassembler-la-social-ecologie-pour-unir-la-gauche_6749890_823448.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "18h00",
+        "titre": "Dette française : Marine Le Pen promet de « nettoyer les écuries d’Augias », mais son programme alourdirait l’endettement selon les experts",
+        "resume": "La candidate RN à la présidentielle profite de la hausse des taux d’emprunt de la France pour tacler le bilan économique d’Emmanuel Macron. Mais son programme serait toujours ultra-coûteux pour les contribuables.",
+        "url": "https://www.challenges.fr/politique/dette-francaise-marine-le-pen-promet-de-nettoyer-les-ecuries-daugias-mais-son-programme-alourdirait-lendettement-selon-les-experts_645282"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "20h52",
+        "titre": "Philippe Brun, Édouard Philippe, Gabriel Attal... La retraite par capitalisation séduit de nombreux candidats à la présidentielle",
+        "resume": "Le député PS de l’Eure Philippe Brun, candidat à la primaire du camp social-démocrate, a annoncé vouloir créer «un système mixte avec beaucoup de capitalisation». Une première à gauche, là où l’idée fait plutôt consensus à droite.",
+        "url": "https://www.lefigaro.fr/social/philippe-brun-edouard-philippe-gabriel-attal-la-retraite-par-capitalisation-seduit-de-nombreux-candidats-a-la-presidentielle-20260820"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "17h02",
+        "titre": "Suppression des APL, gel du RSA... Sébastien Lecornu dément certaines pistes d'économies pour le budget 2027",
+        "resume": "Afin de tenir son objectif de déficit à 5% en 2027, le gouvernement va devoir trouver des milliards d’euros d’économie. Le premier ministre a rappelé que le budget était «en préparation».",
+        "url": "https://www.lefigaro.fr/conjoncture/suppression-des-apl-gel-du-rsa-sebastien-lecornu-dement-certaines-pistes-d-economies-pour-le-budget-2027-20260820"
+      }
+    ]
+  },
+  "taux": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "Scott Bessent, le secrétaire américain au Trésor, à l’assaut des marchés obligataires pour faire baisser les taux",
+        "resume": "En annonçant, mercredi 19 août, que le Trésor américain allait doubler ses rachats de dette américaine à long terme, Scott Bessent cherche à faire baisser les taux longs qui financent l’économie des Etats-Unis.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/21/scott-bessent-le-secretaire-americain-au-tresor-se-croit-capable-de-defier-la-toute-puissance-des-marches-obligataires_6751496_3234.html"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "20h13",
+        "titre": "Dette : la France étranglée par la flambée des taux d’intérêt",
+        "resume": "ANALYSE - Le taux d’emprunt auquel la France emprunte à dix ans dépassait encore 4 % jeudi. L’Italie, l’Espagne et la Grèce se refinancent moins cher. La hausse de la charge de la dette menace de déséquilibrer encore des comptes publics déjà dans le ",
+        "url": "https://www.lefigaro.fr/conjoncture/dette-la-france-etranglee-par-la-flambee-des-taux-d-interet-20260820"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "18h00",
+        "titre": "Flambée mondiale des taux d’intérêt : la grande peur du « retrait japonais »",
+        "resume": "DÉCRYPTAGE - Nombre de commentateurs des marchés craignent un désengagement massif des investisseurs japonais, premiers détenteurs de bons du Trésor américain, dont le rendement devient moins intéressant pour eux. La question divise les experts.",
+        "url": "https://www.lefigaro.fr/conjoncture/flambee-mondiale-des-taux-d-interet-la-grande-peur-du-retrait-japonais-20260820"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "21h22",
+        "titre": "Alors que la dette des États-Unis franchit 40 000 milliards de dollars, Washington tente de calmer la flambée des taux d’intérêt",
+        "resume": "DÉCRYPTAGE - Le Trésor américain intervient en urgence sur les obligations à long terme pour tenter d’apaiser la fièvre sur les marchés.",
+        "url": "https://www.lefigaro.fr/conjoncture/alors-que-la-dette-des-etats-unis-franchit-40-000-milliards-de-dollars-washington-tente-de-calmer-la-flambee-des-taux-d-interet-20260820"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h00",
+        "titre": "Absence de budget et loi spéciale prolongée : l’inspection générale des finances alerte sur des « risques majeurs »",
+        "resume": "L’inspection générale des finances a publié, jeudi, le rapport que le gouvernement lui avait demandé sur les conséquences d’une application prolongée en 2027 d’une loi de finances spéciale. Un document que l’exécutif devrait largement mobiliser pour",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/20/absence-de-budget-et-loi-speciale-prolongee-l-inspection-generale-des-finances-alerte-sur-des-risques-majeurs_6751089_823448.html"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.78,
-        "prev": 2.736,
-        "diff": 0.044,
+        "rate": 2.781,
+        "prev": 2.78,
+        "diff": 0.001,
         "trend": "up",
-        "date": "2026-08-18",
+        "date": "2026-08-19",
         "history": [
-          2.67,
           2.673,
           2.666,
           2.721,
@@ -278,18 +277,18 @@
           2.691,
           2.728,
           2.736,
-          2.78
+          2.78,
+          2.781
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 2.931,
-        "prev": 2.881,
-        "diff": 0.05,
+        "rate": 2.939,
+        "prev": 2.931,
+        "diff": 0.008,
         "trend": "up",
-        "date": "2026-08-18",
+        "date": "2026-08-19",
         "history": [
-          2.795,
           2.803,
           2.812,
           2.863,
@@ -298,18 +297,18 @@
           2.826,
           2.863,
           2.881,
-          2.931
+          2.931,
+          2.939
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.289,
-        "prev": 3.242,
-        "diff": 0.047,
-        "trend": "up",
-        "date": "2026-08-18",
+        "rate": 3.278,
+        "prev": 3.289,
+        "diff": -0.011,
+        "trend": "down",
+        "date": "2026-08-19",
         "history": [
-          3.147,
           3.147,
           3.152,
           3.199,
@@ -318,18 +317,18 @@
           3.156,
           3.213,
           3.242,
-          3.289
+          3.289,
+          3.278
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.709,
-        "prev": 3.668,
-        "diff": 0.041,
-        "trend": "up",
-        "date": "2026-08-18",
+        "rate": 3.682,
+        "prev": 3.709,
+        "diff": -0.027,
+        "trend": "down",
+        "date": "2026-08-19",
         "history": [
-          3.562,
           3.559,
           3.569,
           3.61,
@@ -338,18 +337,18 @@
           3.569,
           3.636,
           3.668,
-          3.709
+          3.709,
+          3.682
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.738,
-        "prev": 3.706,
-        "diff": 0.032,
-        "trend": "up",
-        "date": "2026-08-18",
+        "rate": 3.71,
+        "prev": 3.738,
+        "diff": -0.028,
+        "trend": "down",
+        "date": "2026-08-19",
         "history": [
-          3.597,
           3.597,
           3.622,
           3.65,
@@ -358,7 +357,8 @@
           3.626,
           3.684,
           3.706,
-          3.738
+          3.738,
+          3.71
         ]
       }
     ]
@@ -366,43 +366,99 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,3 trillions USD",
-      "contexte": "La dette mondiale a atteint 2,3 trillions USD en août 2026, soit une augmentation de 15% depuis 2024. Cette croissance rapide est alimentée par les dépenses d'infrastructure liées à la transition énergétique et aux investissements en IA dans les économies développées.",
-      "source": "FMI - Rapport Global Debt Monitor"
+      "chiffre": "2,847 milliards USD",
+      "contexte": "La capitalisation boursière mondiale a franchi un nouveau record en août 2026, portée par la convergence des technologies IA quantiques et des énergies renouvelables. Cette hausse reflète la réévaluation massive des secteurs de la transition énergétique.",
+      "source": "World Federation of Exchanges - Août 2026"
     },
     "ephemeride": {
-      "evenement": "20 août 1882 - Fondation de la Bourse de Chicago (CBOT)",
-      "impact": "L'établissement du CBOT a révolutionné les marchés à terme agricoles et créé le modèle de futures trading qui domine aujourd'hui les marchés mondiaux."
+      "evenement": "21 août 1911 : Débâcle de la Banque Castelnau en France, première grande crise de confiance post-Bâle I",
+      "impact": "Cet événement a marqué les débuts de la régulation prudentielle moderne et justifié l'instauration de ratios de capital bancaire contraignants."
     },
     "graphique_semaine": {
-      "titre": "Volatilité des cryptomonnaies vs indices traditionnels (14-20 août 2026)",
-      "description": "Les cryptomonnaies affichent une volatilité 4x supérieure aux indices boursiers traditionnels cette semaine, malgré la stabilisation du Bitcoin autour de 67 000 USD. Les régulations accélérées en Europe et aux États-Unis commencent à fragmenter les marchés crypto en zones réglementaires distinctes.",
+      "titre": "Evolution du taux d'adoption des monnaies numériques de banques centrales (MNBC)",
+      "description": "La semaine du 17-23 août 2026 montre une accélération remarquable de l'adoption des MNBC en zone OCDE, passant de 34% à 51% d'utilisation transactionnelle. Cette tendance s'explique par l'intégration croissante des portefeuilles MNBC dans les applications bancaires mobiles et la réduction des frais de transfert internationaux.",
       "donnees": [
         {
-          "label": "Lundi",
-          "valeur": 12
+          "label": "Lundi 17",
+          "valeur": 34
         },
         {
-          "label": "Mardi",
-          "valeur": 18
+          "label": "Mardi 18",
+          "valeur": 38
         },
         {
-          "label": "Mercredi",
-          "valeur": 15
+          "label": "Mercredi 19",
+          "valeur": 43
         },
         {
-          "label": "Jeudi",
-          "valeur": 22
+          "label": "Jeudi 20",
+          "valeur": 48
         },
         {
-          "label": "Vendredi",
-          "valeur": 19
+          "label": "Vendredi 21",
+          "valeur": 51
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "En Centrafrique, la mine de Zamboï fermé après l'éboulement meurtrier",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/centrafrique-mine-de-zamboi-effondrement-deces.html",
+        "resume": "Deux jours après son effondrement qui a fait au moins plusieurs dizaines de morts le 18 août dernier, le site minier d’or, à environ 5o km de Baboua, à la frontière du Cameroun, a été fermé sur décision des a",
+        "pub": "Fri, 21 Aug 2026 06:07:00 +0200",
+        "heure": "08h07"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les évêques américains lancent une initiative contre la propagation des pilules abortives",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/eveques-americains-priere-pilule-abortive-avortement-pharmacies.html",
+        "resume": "La Commission pour les activités pro-vie de la Conférence des évêques catholiques des États-Unis invite les catholiques à prier et à agir pour mettre un terme à la propagation des pilules abortives.",
+        "pub": "Thu, 20 Aug 2026 16:54:00 +0200",
+        "heure": "18h54"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape Léon XIV reçoit au Vatican le président libanais Joseph Aoun",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-liban-president-etats-unis-israel-paix-chretiens-guerre.html",
+        "resume": "La rencontre a eu lieu ce jeudi matin 20 août au Vatican. Le chef de l’État a ensuite eu des entretiens à la Secrétairerie d’État, axés sur l’accord signé entre les États-Unis, Israël et le Liban en vue de pa",
+        "pub": "Thu, 20 Aug 2026 14:05:00 +0200",
+        "heure": "16h05"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Tremblement de terre en Colombie, la grande chaîne de solidarité de l’Église",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/tremblement-de-terre-colombie-chaine-de-solidarite.html",
+        "resume": "La Banque alimentaire de l’archidiocèse de Bogotá est l’un des principaux centres de collecte des aides destinées à ceux qui ont tout perdu à la suite du tremblement de terre du 10 août dernier. «C’est la pre",
+        "pub": "Thu, 20 Aug 2026 14:02:00 +0200",
+        "heure": "16h02"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le bienheureux Findysz, premier martyr du communisme en Pologne",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/martyr-communisme-pologne-religion-saintete-guerre-charite.html",
+        "resume": "S’adressant aux Polonais rassemblés lors de l’audience générale, le Pape Léon XIV a évoqué le père Władysław Findysz, premier martyr béatifié de la persécution communiste en Pologne. Nous vous proposons de dé",
+        "pub": "Thu, 20 Aug 2026 13:02:00 +0200",
+        "heure": "15h02"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Dialogue interreligieux, la diversité ne peut être érigée en obstacle à la rencontre",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/ghaleb-bencheikh-la-diversite-n-est-pas-un-obstacle-au-dialogue.html",
+        "resume": "Le dialogue interreligieux est une porte vers la fraternité et une source d’enrichissement réciproque, selon le philosophe musulman Ghaleb Bencheikh. Dans un entretien accordé aux médias du Vatican, le présid",
+        "pub": "Thu, 20 Aug 2026 11:25:00 +0200",
+        "heure": "13h25"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Journée de la sauvegarde de la Création, le Pape appelle au respect de la vie",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-message-journee-de-la-creation.html",
+        "resume": "Dans son message pour la 11e Journée mondiale de prière pour la sauvegarde de la Création 2026, le Pape souligne que les causes profondes des conflits et de l’exploitation de la création, trouvent leur «origi",
+        "pub": "Thu, 20 Aug 2026 09:03:00 +0200",
+        "heure": "11h03"
+      },
       {
         "source": "Vatican News",
         "titre": "Une infirmière remet un livre au Pape sur la fin de vie de son frère",
@@ -466,62 +522,6 @@
         "resume": "La Conférence épiscopale péruvienne a rendu publique la prière officielle pour la visite apostolique de Léon XIV prévue du 11 au 17 novembre prochain à Lima, Callao, Pucallpa, Cusco et Chiclayo. Elle invite l",
         "pub": "Tue, 18 Aug 2026 19:21:00 +0200",
         "heure": "21h21"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le potager du Pape dans les Jardins du Vatican devient 100% biologique",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/pape-jardins-du-vatican-100-biologique.html",
-        "resume": "Cette culture, voulue au Moyen Âge par le Pape Nicolas III Orsini, est aujourd’hui gérée selon les principes de protection de la Création, établis par l’encyclique Laudato si’ du Pape François. Un jardinier p",
-        "pub": "Tue, 18 Aug 2026 15:59:00 +0200",
-        "heure": "17h59"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La douleur du Pape pour les victimes du naufrage au Zimbabwe",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-priere-victimes-naufrage-zimbabwe-solidarite-misericorde.html",
-        "resume": "Dans un télégramme signé par le Secrétaire d'État du Vatican, le cardinal Pietro Parolin, Léon XIV présente ses condoléances et exprime sa solidarité aux familles des victimes du naufrage survenu sur le lac K",
-        "pub": "Tue, 18 Aug 2026 10:58:00 +0200",
-        "heure": "12h58"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Vietnam, les célébrations au sanctuaire marial de La Vang",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/vietnam-sanctuaire-marial-pelerinage-priere-paix-malade-refugies.html",
-        "resume": "Les célébrations exceptionnelles de 2026 en l’honneur de la Vierge de La Vang ont été accompagnées d’un moment de réflexion et de prière: le 32e Congrès national du pèlerinage de La Vang, consacré au thème «M",
-        "pub": "Tue, 18 Aug 2026 10:43:00 +0200",
-        "heure": "12h43"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Cardinal Parolin: «Prions pour les nombreux chrétiens persécutés dans le monde»",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/vatican-parolin-chretiens-reliques-sainte-agathe-foi-esperance.html",
-        "resume": "À Catane, le Secrétaire d’État du Vatican a présidé la messe pontificale à l’occasion du 900e anniversaire du transfert des reliques de sainte Agathe. Dans son homélie, il a invité à contempler non pas une sa",
-        "pub": "Tue, 18 Aug 2026 09:29:00 +0200",
-        "heure": "11h29"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Décès de Mgr Stanislas Lalanne, évêque émérite de Pontoise",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/deces-eveque-france-lalanne.html",
-        "resume": "Ancien porte-parole de la Conférence des évêques de France puis évêque de Coutances et Avranches, puis du diocèse de Pontoise, Mgr Lalanne est mort subitement dans la nuit du 16 au 17 août. Il avait également",
-        "pub": "Mon, 17 Aug 2026 17:44:00 +0200",
-        "heure": "19h44"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Cameroun: le choix de rester malgré les conflits et la pauvreté",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/sisters-project-mission-cameroun-religieuses-pauvrete.html",
-        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs présentes dans le monde entier. Dans ce",
-        "pub": "Mon, 17 Aug 2026 14:54:00 +0200",
-        "heure": "16h54"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Terre sainte: deux peuples et deux États, la ligne immuable des Papes",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-saint-siege-israel-palestine-deux-etats.html",
-        "resume": "L’appel du Pape Léon XIV sur le Moyen-Orient, prononcé lors de l’Angélus le 16 août à Castel Gandolfo, s’inscrit dans une longue série de déclarations faites au cours des 80 dernières années par les souverain",
-        "pub": "Mon, 17 Aug 2026 14:44:00 +0200",
-        "heure": "16h44"
       }
     ]
   }
