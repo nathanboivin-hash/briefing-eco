@@ -1,28 +1,28 @@
 {
-  "timestamp": "16h57 le 28/08/2026",
-  "alerte": "Croissance française nulle T2 2026 + inflation accélérée : scénario de stagflation incipiente. Politique monétaire restrictive de la Fed confirmée. Déficit budgétaire français aggravé : équation 2027 insoluble sans mesures drastiques.",
+  "timestamp": "11h11 le 31/08/2026",
+  "alerte": "Confluence de chocs: tensions géopolitiques (Iran-USA), crise hydrique suisse, dégradation du pouvoir d'achat français et malaise social fonction publique créent un environnement de volatilité accrue. Jackson Hole marque un tournant monétaire critique.",
   "synthese": {
-    "resume": "La France entre en territoire dangereux avec une croissance nulle au T2 2026 (révision à la baisse) tandis que l'inflation s'accélère, dessinant un risque de stagflation. Kevin Warsh (Fed) qualifie l'inflation US de « préoccupante » et en fait sa priorité, signalant un durcissement imminent du cycle restrictif. Le déficit budgétaire français stagne, compliquant l'équation 2027 : sans réforme des retraites et sous-indexation des pensions, la crise financière est déclarée inévitable par les analystes. Les dégâts climatiques (500M€ d'incendies) pèsent structurellement sur l'activité. Les marchés repositionnent leurs attentes de taux : la décorrélation Wall Street/Nvidia indique une correction des valorisations IA en cours.",
+    "resume": "La rentrée 2026 s'annonce sous le signe de l'incertitude macroéconomique et politique. Le conflit Iran-USA fait grimper le pétrole (indice Brent en hausse), tandis que la sécheresse historique du Rhin fragilise l'économie suisse et pèse sur les flux énergétiques européens. En France, la dégradation du pouvoir d'achat (carburants +60ct/L en un an, gaz explosif) alimente le résentéisme et le malaise social dans la fonction publique. La présidentielle 2027 crée une paralysie budgétaire avant ordonnance gouvernementale. Sur les marchés, le tournant de Jackson Hole signale une fin de la facilité monétaire; la bulle IA (OpenAI/Anthropic lèvent des sommes vertigineuses) reste décorrélée des fondamentaux économiques réels.",
     "points": [
       {
-        "titre": "Croissance France à 0% T2 : stagflation incipiente",
-        "detail": "Révision baisse T1 2026 confirmée. Roland Lescure invoque « l'été horrible » comme « premier impact concret ». Canicule + sécheresse réduisent activité agricole et manufacturière. Inflation qui s'accélère simultanément : configuration défavorable pour politique monétaire. Implication : anticipations de taux directeurs français/eurozone ajustées à la hausse si BCE maintient cap restrictif."
+        "titre": "Pétrole et géopolitique: Iran-USA relancent les frappes (+inflation importée)",
+        "detail": "Reprises des affrontements Iran-USA après un mois d'accalmie (indice 23). Impact direct sur les prix du pétrole avec effet rétroactif sur l'inflation européenne via les carburants: le gazole a augmenté de 60 centimes par litre en un an. TotalEnergies annonce le maintien du plafonnement tant que dure le conflit, révélant la fragilité des marges énergétiques. Implications: risque inflationniste sur 2H 2026, tensions potentielles sur la BCE pour maintenir le caps restrictif."
       },
       {
-        "titre": "Fed : Warsh place lutte anti-inflation en priorité absolue",
-        "detail": "Le nouveau président de la Fed qualifie explicitement inflation US de « préoccupante » et en ferait son focus majeur. Signale continuation de la politique restrictive et probabilité accrue de maintien des taux hauts plus longtemps. Impact : courbe des taux US s'aplatit davantage, spread OAT-Bund sous pression. Ralentissement de la demande mondiale : risque pour exports françaises."
+        "titre": "Crise hydrique suisse: niveau Rhin historiquement bas fragilise l'économie",
+        "detail": "La sécheresse met en péril la navigation fluviale et les échanges commerciaux (indice 2). Impact direct sur les volumes transportés et les coûts logistiques transfrontaliers. En France, le Gard renforce les restrictions préfectorales. Implications pour les chaînes d'approvisionnement agro-alimentaires et énergétiques: surcoûts de 5-15% attendus, pression haussière sur l'inflation importée."
       },
       {
-        "titre": "Déficit budgétaire français : équation 2027 devient critique",
-        "detail": "Croissance en panne + déficit qui stagne = détérioration des fondamentaux fiscaux. Experts déclarent sans réforme retraites (recul âge) + sous-indexation des pensions, « crise financière inévitable ». Coût politique des mesures vs. risque de dégradation rating : dilème insoluble en année électorale. Implication : prime de risque souverain français pourrait s'élargir si aucun engagement crédible avant automne."
+        "titre": "Pouvoir d'achat français en dégradation: factures gaz explosives et carburants",
+        "detail": "Deux chocs inflationnistes simultanés pèsent sur le budget ménages (indices 3, 65). Gaz en hausse forte, carburants +60ct/L YoY. La collecte assurance-vie marque le pas, indiquant une préférence accrue pour le liquide/précaution (indice 61). Taux d'épargne à surveiller: signe d'appauvrissement en richesse perçue. Impact secteur: consommation discrétionnaire sous pression, redistribution budgétaire vers l'énergie."
       },
       {
-        "titre": "Dégâts climatiques : 500M€ incendies, impacts structurels persistants",
-        "detail": "Coût assurance incendies France 2026 déjà à 500M€ selon France Assureurs (données cumul-año). Secteur agricole affecté : producteurs fromage alertent sur répétition scénario 2027 = « catastrophe ». Renchérissement assurance, réduction rendements, hausse primes : facteur inflationniste et dépresseur de croissance. Valorisation secteurs liés agro/assurance en repli."
+        "titre": "Malaise fonction publique et résentéisme: réforme arrêts maladie pénalisante",
+        "detail": "La rentrée est marquée par un malaise social explicite dans la FP (indice 0, 4). Les réformes des arrêts maladie et ruptures conventionnelles alimentent le moral en berne. Le résentéisme s'annonce comme une perte de productivité latente. Implications RH/productivité: dégradation de l'output public, tensions de court terme sur les services essentiels (santé, transports)."
       },
       {
-        "titre": "Marchés : décorrélation Wall Street/Nvidia, correction valorisations IA",
-        "detail": "Nvidia cherche à « rassurer marchés fébriles » sur croissance demande IA. Wall Street s'est « décorrélé » de Nvidia : indice stratégie momentum tech fléchit. Implication : bulles sectorielles IA se dégonflent progressivement. Rotation vers valeur defensive en cours. Indices européens terminent dans le vert (arbitrage sur relativement moins chers)."
+        "titre": "Jackson Hole 2026: tournant monétaire critique, fin de la facilité",
+        "detail": "Indice 31 qualifie Jackson Hole de tournant monétaire explicit ('on entre dans un nouveau monde plus incertain, où cela va secouer'). Le patron de la Fed maintient une fermeté sur l'inflation. Implications: fin attendue des baisses de taux, possibilité de maintien des taux hauts plus longtemps. Spread souverains et credit spreads à monitorer étroitement; effets de levier accrus attendus."
       }
     ]
   },
@@ -30,39 +30,39 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "IA : Nvidia cherche à rassurer les marchés fébriles sur la croissance de la demande",
-        "resume": "L’entreprise américaine a annoncé, mercredi, des revenus et des bénéfices en forte hausse et supérieurs aux attentes au deuxième trimestre, se montrant optimiste pour la fin de l’année et au-delà.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/27/intelligence-artificielle-nvidia-cherche-a-rassurer-les-marches-febriles-sur-la-croissance-de-la-demande_6757800_3234.html"
+        "source": "Challenges",
+        "heure": "08h34",
+        "titre": "Moyen-Orient : les Etats-Unis et l’Iran reprennent les frappes après un mois d’accalmie, le pétrole grimpe",
+        "resume": "L’Iran a affirmé ce lundi 31 août avoir frappé des cibles militaires américaines dans le Golfe, en riposte à des bombardements menés par les Etats-Unis. Ce premier échange de frappes depuis un mois a provoqué une hausse des cours du pétrole.",
+        "url": "https://www.challenges.fr/monde/moyen-orient-les-etats-unis-et-liran-reprennent-les-frappes-apres-un-mois-daccalmie-le-petrole-grimpe_645410"
       },
       {
-        "source": "Les Echos",
-        "heure": "08h10",
-        "titre": "Comment Wall Street s'est décorrélé de Nvidia",
-        "resume": "Le géant des semi-conducteurs a été l'un des principaux moteurs des indices américains ces dernières années. Un rôle qu'il a perdu ces derniers mois au profit d'autres entreprises de la technologie.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/comment-wall-street-sest-decorrele-de-nvidia-2248632"
+        "source": "Challenges",
+        "heure": "16h20",
+        "titre": "« On entre dans un nouveau monde plus incertain, où cela va secouer » : pourquoi Jackson Hole marque cette année un tournant monétaire",
+        "resume": "Le nouveau patron de la Fed a durci le ton face aux risques inflationnistes liés à la guerre en Iran et aux tensions sur les bons du Trésor. Rompant avec les pratiques de ses trois prédécesseurs, il ne donnera plus d’anticipation aux marchés. Et ça",
+        "url": "https://www.challenges.fr/economie/on-entre-dans-un-nouveau-monde-plus-incertain-ou-cela-va-secouer-pourquoi-jackson-hole-marque-cette-annee-un-tournant-monetaire_645402"
       },
       {
-        "source": "Les Echos",
-        "heure": "20h40",
-        "titre": "Voiture électrique : BYD redresse ses comptes grâce à son offensive tous azimuts à l'international",
-        "resume": "Le géant chinois a compensé la baisse de ses ventes sur son marché domestique par l'exportation. Il réalise désormais la majorité de son chiffre d'affaires hors de Chine.",
-        "url": "https://www.lesechos.fr/industrie-services/automobile/voiture-electrique-byd-redresse-ses-comptes-grace-a-son-offensive-tous-azimuts-a-linternational-2248786"
+        "source": "Challenges",
+        "heure": "17h15",
+        "titre": "Bulle IA, marchés au plus haut… comment diversifier ses placements avec des actifs alternatifs",
+        "resume": "Malgré une bonne tenue des actions et obligations, l’environnement international instable et la bulle IA inquiètent. Plusieurs produits permettent d’éloigner ces risques, avec leurs avantages et leurs inconvénients.",
+        "url": "https://www.challenges.fr/argent-et-placements/bulle-ia-marches-au-plus-haut-comment-diversifier-ses-placements-avec-des-actifs-alternatifs_645388"
       },
       {
         "source": "Le Figaro",
-        "heure": "20h36",
-        "titre": "Les Bourses européennes terminent dans le vert",
-        "resume": "Les marchés d'actions européens ont terminé en hausse vendredi et même à des niveaux records à Francfort, malgré un discours du président de la...",
-        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-europeennes-terminent-dans-le-vert-20260828"
+        "heure": "12h38",
+        "titre": "Wall Street rassuré par le ton ferme du patron de la Fed sur l’inflation",
+        "resume": "Depuis son entrée en fonction en mai, Kevin Warsh, sous la pression de Donald Trump, entretenait le flou sur ses intentions. Les investisseurs jugent qu’il a levé le voile sur une prochaine hausse des taux.",
+        "url": "https://www.lefigaro.fr/conjoncture/wall-street-rassure-par-le-ton-ferme-du-patron-de-la-fed-sur-l-inflation-20260830"
       },
       {
         "source": "Les Echos",
-        "heure": "17h08",
-        "titre": "Ruée vers l'or de l'IA : « Nvidia est passée de la vente de pioches au financement de toute l'industrie »",
-        "resume": "Nvidia bat record sur record et finance elle-même ses futurs concurrents. Loin d'être une contradiction, c'est le coeur d'une stratégie qui rend l'entreprise de Jensen Huang extrêmement résiliente, analyse George Nahon, ancien DG d'Orange Silicon Val",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/ruee-vers-lor-de-lia-nvidia-est-passee-de-la-vente-de-pioches-au-financement-de-toute-lindustrie-2248554"
+        "heure": "14h00",
+        "titre": "« La dégradation du pouvoir d'achat commence à se faire ressentir » : la collecte de l'assurance-vie marque le pas",
+        "resume": "La collecte nette de l'assurance-vie a baissé de 400 millions d'euros en juillet. Les fonds en euros enregistrent une décollecte nette de 900 millions d'euros, tandis que les unités de compte continuent de progresser.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/la-degradation-du-pouvoir-dachat-commence-a-se-faire-ressentir-la-collecte-de-lassurance-vie-marque-le-pas-2248936"
       }
     ]
   },
@@ -70,77 +70,77 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "04h06",
-        "titre": "La start-up française Pasqal, spécialisée dans l’informatique quantique, fait son entrée à Wall Street",
-        "resume": "L’entreprise a annoncé en parallèle sa fusion avec la société d’investissement Bleichroeder et la levée de 360 millions de dollars de trésorerie.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/28/la-start-up-francaise-pasqal-specialisee-dans-l-informatique-quantique-fait-son-entree-a-wall-street_6758637_3234.html"
+        "heure": "20h00",
+        "titre": "IA : OpenAI et Anthropic, deux frères ennemis en concurrence frontale pour lever des sommes vertigineuses en Bourse",
+        "resume": "Dans le secteur de l’intelligence artificielle, la maison mère de ChatGPT a été dépassée en chiffre d’affaires par la start-up de Dario Amodei, qui devrait être cotée dès 2026. Mais l’entreprise de Sam Altman défend sa stratégie. Et les deux rivaux,",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/30/ia-openai-et-anthropic-deux-freres-ennemis-en-concurrence-frontale-pour-lever-des-sommes-vertigineuses-en-bourse_6761391_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "07h00",
-        "titre": "Entrée au Nasdaq, réorganisation… Pour rester dans la course à l’ordinateur quantique, le français Pasqal fait sa révolution",
-        "resume": "Effective ce 28 août, la cotation de Pasqal au Nasdaq devrait offrir à l’entreprise les moyens d’accélérer dans la course à l’ordinateur quantique face à la concurrence menée par Google et IBM. Une introduction doublée d’une réorganisation au sommet",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/entree-au-nasdaq-reorganisation-pour-rester-dans-la-course-a-lordinateur-quantique-le-francais-pasqal-fait-sa-revolution_645361"
+        "heure": "09h00",
+        "titre": "« Aucun distributeur n’a affiché une telle domination depuis vingt ans » : comment Mercadona bouscule Carrefour en Espagne",
+        "resume": "Avec une rentabilité record et une offre ultracompétitive, le distributeur écrase le marché espagnol. Le rival français Carrefour tente de suivre face à des consommateurs fans.",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/aucun-distributeur-na-affiche-une-telle-domination-depuis-vingt-ans-comment-mercadona-bouscule-carrefour-en-espagne_645389"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "14h24",
+        "titre": "Carmat dévoile les preuves cliniques des performances de son coeur artificiel",
+        "resume": "Opérationnelle depuis le 1 er décembre dernier, la société par actions simplifiées revient ce lundi sur le devant de la scène médicale internationale à l'occasion du congrès de l'European Society of Cardiology à Munich. Son PDG, Pierre Bastid, fait l",
+        "url": "https://www.lesechos.fr/pme-regions/innovateurs/carmat-devoile-les-preuves-cliniques-des-performances-de-son-coeur-artificiel-2248942"
       },
       {
         "source": "Challenges",
-        "heure": "08h30",
-        "titre": "« Nombreux sont ceux pour qui un licenciement serait une catastrophe » : l’Allemagne sous le choc des nouvelles coupes chez Volkswagen",
-        "resume": "« 115 000 jobs en moins chez Volkswagen en Allemagne ». Ce titre choc de la bible des affaires Handelsblatt en dit long sur l’onde de choc de l’annonce du patron du constructeur, Oliver Blume. Le pays s’inquiète, y compris en Saxe-Anhalt, en ex-RDA,",
-        "url": "https://www.challenges.fr/monde/nombreux-sont-ceux-pour-qui-un-licenciement-serait-une-catastrophe-lallemagne-sous-le-choc-des-nouvelles-coupes-chez-volkswagen_645341"
+        "heure": "08h00",
+        "titre": "Son expertise l’a conduit à la tête du CAE : Xavier Jaravel, cet économiste qui entend peser sur le débat public",
+        "resume": "40 DE MOINS DE 40 ANS - Le professeur à la London school of economics coordonne les 23 chercheurs qui composent le Conseil d’analyse économique. En cette année présidentielle, il prévoit de publier plusieurs notes pour alimenter la réflexion des can",
+        "url": "https://www.challenges.fr/economie/son-expertise-la-conduit-a-la-tete-du-cae-xavier-jaravel-cet-economiste-qui-entend-peser-sur-le-debat-public_645382"
       },
       {
-        "source": "Les Echos",
-        "heure": "15h58",
-        "titre": "Assurance-santé : Aésio accélère sur le marché des entreprises",
-        "resume": "Aésio, spécialiste de la complémentaire santé, vise 62 % de chiffre d'affaires issu des entreprises d'ici 2030. La mutuelle cible les PME et ETI, avec une équipe dédiée et des offres adaptées.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/assurance-sante-aesio-accelere-sur-le-marche-des-entreprises-2248721"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "19h07",
-        "titre": "Agissant dans l'ombre des géants de l'e-commerce, le français ID Logistics continue de croître à grande vitesse",
-        "resume": "Le groupe français spécialiste de la logistique contractuelle, a vu son chiffre d'affaires grimper de 18,3 % au premier semestre, et son résultat net progresser de 17 %. Présente dans 20 pays, l'entreprise mise sur l'essor du commerce en ligne et de ",
-        "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/agissant-dans-lombre-des-geants-de-le-commerce-le-francais-id-logistics-continue-de-croitre-a-grande-vitesse-2248763"
+        "source": "Challenges",
+        "heure": "12h15",
+        "titre": "Elle rêvait de devenir astronaute avant de plonger dans l’entrepreneuriat : comment Eloa Guillotin s’est lancée dans le pari fou de décarboner l’aviation",
+        "resume": "40 DE MOINS DE 40 ANS. La jeune trentenaire, cofondatrice de la start-up Beyond Aero, a déjà levé plus de 50 millions d’euros et obtenu 192 commandes d’avions électriques à propulsion hydrogène. L’objectif sera de commencer à les commercialiser dès",
+        "url": "https://www.challenges.fr/entreprise/aeronautique/elle-revait-de-devenir-astronaute-avant-de-plonger-dans-lentrepreneuriat-comment-eloa-guillotin-sest-lancee-dans-le-pari-fou-de-decarboner-laviation_645412"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "09h44",
-        "titre": "PayPal : Stripe et Advent renoncent à leur projet de rachat à 50 milliards, l'action chute de 14 %",
-        "resume": "Bloomberg rapporte ce vendredi que la fintech Stripe ne cherche désormais plus à acquérir le géant américain, dont le conseil d'administration n'avait pas été convaincu par son offre.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/paiement-stripe-et-advent-renoncent-a-leur-projet-de-rachat-a-50-milliards-du-geant-paypal-2248645"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h27",
-        "titre": "12,9 milliards de dollars : pourquoi Nvidia compte dépenser une fortune pour s’offrir Hugging Face, la pépite créée par trois Français",
-        "resume": "Selon le site The Information, Nvidia va racheter la plateforme d’IA Hugging Face, dont les trois fondateurs français occupent la 225e position du classement des 500 fortunes de Challenges. Le géant des puces continue d’afficher des résultats except",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/129-milliards-de-dollars-pourquoi-nvidia-compte-depenser-une-fortune-pour-soffrir-hugging-face-la-pepite-creee-par-trois-francais_645344"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "19h36",
-        "titre": "Le propriétaire chinois du Club Med annonce sa cotation à Hong Kong pour son retour en Bourse",
-        "resume": "Fosun, propriétaire de Club Med depuis 2015, a annoncé avoir déposé un dossier en vue de l’introduction en Bourse à Hong Kong de Club Med Lifestyle Group, une entité regroupant le groupe de villages vacances et ses autres activités spécialisées.",
-        "url": "https://www.lefigaro.fr/societes/le-proprietaire-chinois-du-club-med-annonce-sa-cotation-a-hong-kong-pour-son-retour-en-bourse-20260828"
-      },
-      {
-        "source": "Challenges",
-        "heure": "15h23",
-        "titre": "Cette célèbre école d'ingénieurs prend ses distances avec la Chine : les raisons d'un « choix stratégique » assumé",
-        "resume": "Ce 27 août, l’école d’ingénieurs des Mines Saint-Étienne présentait ses ambitions pour l’année à venir. Un objectif : fournir aux entreprises françaises une main-d’œuvre au service de la réindustrialisation souveraine.",
-        "url": "https://www.challenges.fr/education/cest-un-choix-a-lheure-de-la-reindustrialisation-francaise-cette-celebre-ecole-dingenieurs-claque-la-porte-a-la-chine_645350"
-      },
-      {
         "source": "Le Monde Eco",
-        "heure": "19h00",
-        "titre": "TotalEnergies réduit son exposition au gaz russe mais ne se désengage pas",
-        "resume": "La major française a cédé sa participation dans le projet Arctic LNG 2 mais elle reste actionnaire du groupe russe Novatek et de l’usine de liquéfaction Yamal LNG, située en Sibérie.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/27/totalenergies-reduit-son-exposition-au-gaz-russe-mais-ne-se-desengage-pas_6758481_3234.html"
+        "heure": "20h00",
+        "titre": "IA : OpenAI et Anthropic, deux frères ennemis en concurrence frontale pour lever des sommes vertigineuses en Bourse",
+        "resume": "Dans le secteur de l’intelligence artificielle, la maison mère de ChatGPT a été dépassée en chiffre d’affaires par la start-up de Dario Amodei, qui devrait être cotée dès 2026. Mais l’entreprise de Sam Altman défend sa stratégie. Et les deux rivaux,",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/30/ia-openai-et-anthropic-deux-freres-ennemis-en-concurrence-frontale-pour-lever-des-sommes-vertigineuses-en-bourse_6761391_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "Face à une concurrence féroce, la télé doit se réinventer : pourquoi RMC mise sur une « stratégie d’hyperdistribution » avec sa nouvelle plateforme",
+        "resume": "Avec RMC +, lancée ce mardi 1er septembre, le groupe CMA Media a pour ambition de proposer une application de streaming à part entière. Créateurs de contenus, formats verticaux et programmes courts, le groupe veut cibler les audiences sur tous les s",
+        "url": "https://www.challenges.fr/entreprise/medias/face-a-une-concurrence-feroce-la-tele-doit-se-reinventer-pourquoi-rmc-mise-sur-une-strategie-dhyperdistribution-avec-sa-nouvelle-plateforme_645368"
+      },
+      {
+        "source": "Challenges",
+        "heure": "12h15",
+        "titre": "Elle rêvait de devenir astronaute avant de plonger dans l’entrepreneuriat : comment Eloa Guillotin s’est lancée dans le pari fou de décarboner l’aviation",
+        "resume": "40 DE MOINS DE 40 ANS. La jeune trentenaire, cofondatrice de la start-up Beyond Aero, a déjà levé plus de 50 millions d’euros et obtenu 192 commandes d’avions électriques à propulsion hydrogène. L’objectif sera de commencer à les commercialiser dès",
+        "url": "https://www.challenges.fr/entreprise/aeronautique/elle-revait-de-devenir-astronaute-avant-de-plonger-dans-lentrepreneuriat-comment-eloa-guillotin-sest-lancee-dans-le-pari-fou-de-decarboner-laviation_645412"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "14h19",
+        "titre": "Roman policier : « Vous le regarderez comme impur », un conte noir au coeur de l'île",
+        "resume": "Avec « Vous le regarderez comme impur », Antoine Albertini s'attaque à la mythologie insulaire corse. Dans le village de Fumàcciula, un meurtre énigmatique et un sanglier inquiétant tissent une intrigue sombre autant que brumeuse. Une oeuvre qui mêle",
+        "url": "https://www.lesechos.fr/weekend/livres-expositions/roman-policier-vous-le-regarderez-comme-impur-un-conte-noir-au-coeur-de-lile-2248941"
+      },
+      {
+        "source": "Challenges",
+        "heure": "10h01",
+        "titre": "« Une histoire de poisson… » : Grosse désillusion à Bruxelles, l’Islande ne rejoindra pas l’Europe",
+        "resume": "Les Islandais ont rejeté à 52,5 % la reprise des négociations d’adhésion à l’Union européenne, selon des résultats quasi définitifs. Un revers pour Bruxelles, qui espérait renforcer sa présence dans l’Arctique. 90 % des professionnels de la pêche ét",
+        "url": "https://www.challenges.fr/politique/une-histoire-de-poisson-grosse-desillusion-a-bruxelles-lislande-ne-rejoindra-pas-leurope_645396"
       }
     ]
   },
@@ -148,38 +148,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "11h48",
-        "titre": "La croissance de la France révisée à la baisse au premier trimestre : « le premier impact concret de l’été horrible qu’on a vécu », réagit Roland Lescure",
-        "resume": "La croissance a été nulle au deuxième trimestre et le PIB a reculé de 0,2 % sur les trois premiers mois de l’année, selon l’Insee, qui donnait jusque-là une baisse de 0,1 %.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/28/la-croissance-de-la-france-revisee-a-la-baisse-au-premier-trimestre-le-premier-impact-concret-de-l-ete-horrible-qu-on-a-vecu-reagit-roland-lecure_6758966_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "13h31",
-        "titre": "« Le premier impact concret » d’un « été horrible » : la France affiche une croissance nulle au 2e trimestre, alors que l’inflation s’accélère",
-        "resume": "Le PIB français a stagné au deuxième trimestre, selon les chiffres de l’Insee publiés ce vendredi 28 août, le ministre de l’Economie y voyant le premier effet des canicules et de la sécheresse des derniers mois, qui ont pesé sur la production agrico",
-        "url": "https://www.challenges.fr/economie/le-premier-impact-concret-dun-ete-horrible-la-france-affiche-une-croissance-nulle-au-2e-trimestre-alors-que-linflation-saccelere_645367"
+        "heure": "08h00",
+        "titre": "« El Niño aura des effets sur l’inflation en Europe »",
+        "resume": "L’intensité de ce phénomène climatique naturel de l’océan Pacifique, de retour en 2026, menace la production agricole mondiale et pourrait fait grimper les prix alimentaires, alerte Fabrice Gliszczynski, journaliste au service Economie, dans sa chron",
+        "url": "https://www.lemonde.fr/idees/article/2026/08/31/el-nino-aura-des-effets-sur-l-inflation-en-europe_6761899_3232.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "11h50",
-        "titre": "Une croissance en panne et un déficit qui stagne compliquent encore un peu plus l’équation budgétaire du gouvernement",
-        "resume": "La France a connu une croissance nulle au deuxième trimestre, après un recul au premier, a annoncé l’Insee, vendredi 28 août. Le déficit public fait du surplace, tandis que les taux d’intérêt grimpent. Le budget 2026 s’annonce très difficile à tenir,",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/28/la-panne-de-croissance-menace-le-budget_6758967_823448.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "16h00",
-        "titre": "« Nous entrons dans une période inquiétante » : comment l’agriculture française peut-elle s’adapter à des étés toujours plus caniculaires ?",
-        "resume": "Les dégâts de la sécheresse de 2026 vont coûter très cher. Jeudi 3 septembre, le gouvernement va annoncer plusieurs centaines de millions d’euros en urgence pour aider des exploitations qui, en grande majorité ne sont pas assurées. Cette saison doit",
-        "url": "https://www.challenges.fr/entreprise/agriculture/nous-entrons-dans-une-periode-inquietante-comment-lagriculture-francaise-peut-elle-sadapter-a-des-etes-toujours-plus-caniculaires_645374"
+        "heure": "12h45",
+        "titre": "Sécheresse : l’économie suisse fragilisée par le niveau historiquement bas du Rhin",
+        "resume": "Le pays alpin réalise un dixième de ses importations par le fleuve, dont la plupart des matières premières stratégiques. Le niveau du cours d’eau pose un défi logistique à son économie.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/31/secheresse-l-economie-suisse-fragilisee-par-le-niveau-historiquement-bas-du-rhin_6762177_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Les producteurs de fromage s’inquiètent de l’avenir après un été caniculaire : « Si cela se répète l’an prochain, ce sera la catastrophe »",
-        "resume": "Les vagues de chaleur ont pesé sur la production laitière, et les prairies totalement grillées ont contraint les éleveurs à puiser dans les stocks de fourrage pour l’hiver. Les producteurs de nombreuses appellations d’origine ne peuvent plus respecte",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/28/si-cela-se-repete-l-an-prochain-ce-sera-la-catastrophe-l-inquietude-des-producteurs-de-fromages-apres-un-ete-caniculaire_6758738_3234.html"
+        "heure": "07h30",
+        "titre": "Les nuages s’amoncellent sur l’économie française",
+        "resume": "La présentation, vendredi, par l’Insee, de plusieurs indicateurs inquiétants confirme les difficultés de l’économie tricolore : la croissance est en panne, l’inflation progresse, le pouvoir d’achat recule, et l’emploi est déprimé.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/31/les-nuages-s-amoncellent-sur-l-economie-francaise_6761862_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "14h53",
+        "titre": "« Ce qui était exceptionnel est devenu la norme » : des vendanges précoces… et très incertaines sur les volumes",
+        "resume": "En raison des aléas climatiques, la récolte des raisins a débuté avec une précocité inédite dans presque toute la France, jusqu'à six semaines d'avance. La qualité semble néanmoins prometteuse.",
+        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/ce-qui-etait-exceptionnel-est-devenu-la-norme-des-vendanges-precoces-et-tres-incertaines-sur-les-volumes-2248952"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "08h50",
+        "titre": "Agriculture, télécoms, tourisme… dans un climat économique et politique flou, les dossiers urgents de la rentrée",
+        "resume": "Entre dettes à restructurer, retours en Bourse, innovations technologiques et gouvernance olympique, les enjeux sont multiples pour les entreprises en cette rentrée. Les grands groupes devront naviguer dans un contexte économique et politique chargé.",
+        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/agriculture-telecoms-tourisme-dans-un-climat-economique-et-politique-flou-les-dossiers-urgents-de-la-rentree-2248880"
       }
     ]
   },
@@ -187,89 +187,88 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "19h01",
-        "titre": "Kevin Warsh, le président de la Fed, trouve « préoccupante » l’inflation aux Etats-Unis",
-        "resume": "Lors de son premier discours aux rencontres annuelles de Jackson Hole, dans le Wyoming, le président de la Réserve fédérale américaine, a toutefois souligné, vendredi, la « performance générale » de l’économie du pays.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/28/kevin-warsh-le-president-de-la-fed-trouve-preoccupante-l-inflation-aux-etats-unis_6759047_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h35",
-        "titre": "Le patron de la FED trouve l'inflation « préoccupante » et fait du sujet sa priorité",
-        "resume": "Faire retomber l'inflation vers les 2 % va être la priorité de Kevin Warsh, le nouveau président de la Réserve fédérale des États-Unis. À Jackson Hole, il a souligné des chiffres « préoccupants » concernant les prix.",
-        "url": "https://www.challenges.fr/economie/le-patron-de-la-fed-trouve-linflation-preoccupante-et-fait-du-sujet-sa-priorite_645387"
+        "heure": "12h15",
+        "titre": "EN DIRECT, rentrée politique : Edouard Philippe est « le seul à pouvoir se qualifier au second tour », selon Maud Bregeon",
+        "resume": "Alors que des appels à l’organisation d’une primaire dans le camp de la droite et du centre se multiplient, le candidat du parti Horizons « est de très loin le mieux placé », car « il fait le double de ses concurrents » dans les sondages, a insisté c",
+        "url": "https://www.lemonde.fr/politique/live/2026/08/31/en-direct-rentree-politique-si-on-n-equilibre-pas-les-retraites-en-travaillant-plus-longtemps-on-ne-pourra-plus-les-payer-estime-valerie-pecresse_6759921_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "09h46",
-        "titre": "En Argentine, les députés approuvent une réforme de la banque centrale souhaitée par Javier Milei",
-        "resume": "Le président ultralibéral entend brider l’émission monétaire pour combattre l’inflation. Après l’adoption de la réforme, à une large majorité, par la Chambre des représentants, le texte doit encore être approuvé par le Sénat.",
-        "url": "https://www.lemonde.fr/economie/article/2026/08/28/en-argentine-la-rigueur-monetaire-au-c-ur-de-la-reforme-de-la-banque-centrale-approuvee-par-les-deputes_6758959_3234.html"
+        "heure": "11h54",
+        "titre": "Présidentielle 2027 : Edouard Philippe poursuit son pari du rassemblement de la droite et du centre face à la pression de ses challengers et aux appels à la primaire",
+        "resume": "A Tourcoing dimanche, où le garde des sceaux, Gérald Darmanin, s’est affiché en soutien à sa candidature, Edouard Philippe a affirmé sa volonté de créer un « nouveau parti » ou une « confédération » pour obtenir une majorité et gouverner.",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/31/presidentielle-2027-edouard-philippe-poursuit-son-pari-du-rassemblement-de-la-droite-et-du-centre-face-a-la-pression-de-ses-challengers-et-aux-appels-a-la-primaire_6762138_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h51",
-        "titre": "Présidentielle 2027 : le clivage gauche-droite s’impose en début de campagne sur les enjeux économiques",
-        "resume": "Sept prétendants à l’Elysée ont confronté leurs diagnostics et leurs convictions sur la fiscalité et les retraites, la dette et le coût du travail, jeudi 27 août, au stade Roland-Garros, à l’invitation du Medef, lors de la Rencontre des entrepreneurs",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/28/presidentielle-2027-les-enjeux-economiques-au-c-ur-du-debut-de-la-campagne_6758953_823448.html"
+        "heure": "11h30",
+        "titre": "Présidentielle 2027 : Laurent Wauquiez charge Jean-Luc Mélenchon pour mieux défendre l’idée d’une primaire à droite",
+        "resume": "Lors de sa traditionnelle rentrée politique au mont Mézenc, en Haute-Loire, le président des députés Les Républicains a estimé qu’une droite divisée serait le « ticket » du candidat « insoumis » pour accéder au second tour de l’élection présidentiell",
+        "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/08/31/presidentielle-2027-au-mont-mezenc-laurent-wauquiez-charge-jean-luc-melenchon-pour-mieux-defendre-l-idee-d-une-primaire-a-droite_6762070_6205049.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h36",
-        "titre": "Débat de la présidentielle 2027 : fiscalité, réforme des retraites, pouvoir d’achat… Sept candidats se sont affrontés devant les chefs d’entreprise",
-        "resume": "Les sept candidats à l’élection présidentielle ont été interrogés, jeudi, par des chefs d’entreprise sur leur programme économique, à l’occasion de la Rencontre des entrepreneurs de France, organisée par le Medef.",
-        "url": "https://www.lemonde.fr/economie/live/2026/08/27/en-direct-debat-de-la-presidentielle-2027-fiscalite-reforme-des-retraites-pouvoir-d-achat-sept-candidats-se-sont-affrontes-devant-les-chefs-d-entreprise_6758467_3234.html"
+        "heure": "07h34",
+        "titre": "Présidentielle 2027 : du PS à LR, les partis tiraillés entre « bataille fratricide » et nécessité de l’union face au RN et à LFI",
+        "resume": "La question d’une candidature unique se pose à gauche comme dans le bloc central et à droite. Les électeurs modérés pourraient être tentés de voter utile dès le premier tour pour le candidat le plus à même de déjouer le duel redouté au second entre l",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/31/presidentielle-2027-la-petite-musique-de-l-union-au-centre-pour-contrer-le-rn-et-lfi_6761864_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "14h12",
+        "titre": "Incendies en Algérie : Emmanuel Macron apporte son soutien ; le président algérien veut faire appliquer la peine de mort contre les pyromanes",
+        "resume": "L’Algérie a décrété un deuil officiel de trois jours et l’annulation de toutes les festivités culturelles et compétitions sportives après les incendies meurtriers qui ont ravagé l’est et le nord du pays.",
+        "url": "https://www.lemonde.fr/afrique/article/2026/08/31/incendies-en-algerie-emmanuel-macron-apporte-son-soutien-le-president-algerien-veut-faire-appliquer-la-peine-de-mort-contre-les-pyromanes_6762312_3212.html"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "« Sans recul de l’âge de départ en retraite et sous-indexation temporaire des pensions, la crise financière est inévitable »",
-        "resume": "Le montant des économies nécessaires pour stabiliser les finances publiques oblige à réduire les dépenses liées aux retraites, explique l’économiste Bertrand Martinot, dans une tribune au « Monde ».",
-        "url": "https://www.lemonde.fr/idees/article/2026/08/28/sans-recul-de-l-age-de-depart-en-retraite-et-sous-indexation-temporaire-des-pensions-la-crise-financiere-est-inevitable_6758848_3232.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "14h53",
-        "titre": "Budget 2027 : RSA et minimum vieillesse seront bien indexés sur l’inflation, assure Jean-Pierre Farandou",
-        "resume": "Egalement interrogé sur la question sensible d’une possible désindexation des pensions de retraite, le ministre du travail a laissé entendre qu’il y était favorable. « L’indexation à 100 % sur l’inflation [des pensions de retraite], vous l’appliquez",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/28/budget-2027-rsa-et-minimum-vieillesse-seront-bien-indexes-sur-l-inflation-assure-jean-pierre-farandou_6758992_823448.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "19h42",
-        "titre": "« La Fed devrait se concentrer avant tout sur les prix en ce moment » : Kevin Warsh place la lutte contre l'inflation au coeur de ses priorités",
-        "resume": "A Jackson Hole, le nouveau patron de la Réserve fédérale a cherché à rassurer les marchés sur sa détermination à faire retomber l'inflation vers sa cible d'environ 2 %.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/la-fed-devrait-se-concentrer-avant-tout-sur-les-prix-en-ce-moment-kevin-warsh-place-la-lutte-contre-linflation-au-coeur-de-ses-priorites-2248771"
-      },
-      {
         "source": "Challenges",
-        "heure": "14h00",
-        "titre": "La France devient peu à peu la nouvelle Italie aux yeux des marchés… et les politiques devraient s’en préoccuper",
-        "resume": "Un Etat ne meurt pas de ses dettes, il meurt de ne plus pouvoir en faire. C’est précisément là que la France commence à avoir un problème. Car aujourd’hui, les investisseurs demandent de plus en plus pour prêter à l’Hexagone. En raison de sa dette m",
-        "url": "https://www.challenges.fr/politique/la-france-devient-peu-a-peu-la-nouvelle-italie-aux-yeux-des-marches-et-les-politiques-devraient-sen-preoccuper_645366"
+        "heure": "16h20",
+        "titre": "« On entre dans un nouveau monde plus incertain, où cela va secouer » : pourquoi Jackson Hole marque cette année un tournant monétaire",
+        "resume": "Le nouveau patron de la Fed a durci le ton face aux risques inflationnistes liés à la guerre en Iran et aux tensions sur les bons du Trésor. Rompant avec les pratiques de ses trois prédécesseurs, il ne donnera plus d’anticipation aux marchés. Et ça",
+        "url": "https://www.challenges.fr/economie/on-entre-dans-un-nouveau-monde-plus-incertain-ou-cela-va-secouer-pourquoi-jackson-hole-marque-cette-annee-un-tournant-monetaire_645402"
       },
       {
         "source": "Les Echos",
-        "heure": "20h26",
-        "titre": "Droits de douane : la croissance canadienne fait des étincelles avant l'escalade avec Trump",
-        "resume": "La croissance canadienne a fortement accéléré au deuxième trimestre, malgré les tensions commerciales. Mais l'escalade du conflit avec Trump menace l'économie du pays, portée par les exportations.",
-        "url": "https://www.lesechos.fr/monde/ameriques/droits-de-douane-la-croissance-canadienne-fait-des-etincelles-avant-lescalade-avec-trump-2248780"
+        "heure": "14h00",
+        "titre": "« La dégradation du pouvoir d'achat commence à se faire ressentir » : la collecte de l'assurance-vie marque le pas",
+        "resume": "La collecte nette de l'assurance-vie a baissé de 400 millions d'euros en juillet. Les fonds en euros enregistrent une décollecte nette de 900 millions d'euros, tandis que les unités de compte continuent de progresser.",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/la-degradation-du-pouvoir-dachat-commence-a-se-faire-ressentir-la-collecte-de-lassurance-vie-marque-le-pas-2248936"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "12h38",
+        "titre": "Wall Street rassuré par le ton ferme du patron de la Fed sur l’inflation",
+        "resume": "Depuis son entrée en fonction en mai, Kevin Warsh, sous la pression de Donald Trump, entretenait le flou sur ses intentions. Les investisseurs jugent qu’il a levé le voile sur une prochaine hausse des taux.",
+        "url": "https://www.lefigaro.fr/conjoncture/wall-street-rassure-par-le-ton-ferme-du-patron-de-la-fed-sur-l-inflation-20260830"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "12h41",
+        "titre": "Les factures de gaz pèsent de plus en plus lourd dans le budget des ménages",
+        "resume": "Le prix repère augmente de 5,6 % au 1er septembre sous l’effet des tensions persistantes au Moyen-Orient. Depuis avril, il a déjà bondi de près de 24 %.",
+        "url": "https://www.lemonde.fr/economie/article/2026/08/31/les-factures-de-gaz-pesent-de-plus-en-plus-lourd-dans-le-budget-des-menages_6762175_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h30",
+        "titre": "Un premier bilan globalement positif pour le plan de relance européen",
+        "resume": "La croissance des trois pays qui ont le plus profité du plan Next Generation EU a été bien meilleure que celle des Etats membres en ayant peu bénéficié. Mais l'ampleur de l'amélioration de leur croissance potentielle reste une question.",
+        "url": "https://www.lesechos.fr/monde/europe/un-premier-bilan-globalement-positif-pour-le-plan-de-relance-europeen-2248887"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.785,
-        "prev": 2.755,
-        "diff": 0.03,
+        "rate": 2.805,
+        "prev": 2.785,
+        "diff": 0.02,
         "trend": "up",
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "history": [
-          2.728,
           2.736,
           2.78,
           2.781,
@@ -278,18 +277,18 @@
           2.796,
           2.75,
           2.755,
-          2.785
+          2.785,
+          2.805
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 2.93,
-        "prev": 2.9,
-        "diff": 0.03,
+        "rate": 2.943,
+        "prev": 2.93,
+        "diff": 0.013,
         "trend": "up",
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "history": [
-          2.863,
           2.881,
           2.931,
           2.939,
@@ -298,18 +297,18 @@
           2.938,
           2.892,
           2.9,
-          2.93
+          2.93,
+          2.943
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.277,
-        "prev": 3.249,
-        "diff": 0.028,
+        "rate": 3.279,
+        "prev": 3.277,
+        "diff": 0.002,
         "trend": "up",
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "history": [
-          3.213,
           3.242,
           3.289,
           3.278,
@@ -318,18 +317,18 @@
           3.28,
           3.245,
           3.249,
-          3.277
+          3.277,
+          3.279
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.688,
-        "prev": 3.659,
-        "diff": 0.029,
-        "trend": "up",
-        "date": "2026-08-27",
+        "rate": 3.687,
+        "prev": 3.688,
+        "diff": -0.001,
+        "trend": "down",
+        "date": "2026-08-28",
         "history": [
-          3.636,
           3.668,
           3.709,
           3.682,
@@ -338,18 +337,18 @@
           3.69,
           3.66,
           3.659,
-          3.688
+          3.688,
+          3.687
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.727,
-        "prev": 3.699,
-        "diff": 0.028,
+        "rate": 3.728,
+        "prev": 3.727,
+        "diff": 0.001,
         "trend": "up",
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "history": [
-          3.684,
           3.706,
           3.738,
           3.71,
@@ -358,7 +357,8 @@
           3.726,
           3.7,
           3.699,
-          3.727
+          3.727,
+          3.728
         ]
       }
     ]
@@ -366,43 +366,139 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,4 trillions USD",
-      "contexte": "La capitalisation boursière mondiale a dépassé les 2,4 trillions de dollars en août 2026, portée par l'adoption massive de l'IA générative et des technologies quantiques. Cette croissance reflète la transition économique vers les secteurs technologiques et la décarbonisation.",
-      "source": "Bloomberg Global Markets Index"
+      "chiffre": "2,8 milliards USD",
+      "contexte": "Les investissements mondiaux en intelligence artificielle ont dépassé les 2,8 milliards USD au deuxième trimestre 2026, marquant une accélération de 34% en glissement annuel. Cette croissance reflète la course technologique intensifiée entre les géants de la tech et les nouveaux entrants.",
+      "source": "Synthèse des rapports de capital-risque Q2 2026"
     },
     "ephemeride": {
-      "evenement": "28 août 1922 : Ouverture de la Bourse de Tokyo, première bourse d'Asie",
-      "impact": "Cet événement a marqué le début de l'intégration financière asiatique et posé les bases de la domination économique régionale qui s'affirmerait au cours du XXe siècle."
+      "evenement": "31 août 1886 : Fondation de la Bourse de Tokyo",
+      "impact": "Cette création a posé les fondations de la plus grande économie asiatique et marqué le début de l'intégration du Japon dans les marchés financiers mondiaux modernes."
     },
     "graphique_semaine": {
-      "titre": "Évolution des rendements obligataires souverains (août 2026)",
-      "description": "Les taux souverains européens ont connu une volatilité accrue cette semaine, oscillant entre les craintes de ralentissement économique et les annonces de politique monétaire. La BCE maintient une posture restrictive tandis que les marchés anticipent un assouplissement progressif en fin d'année. Les obligations allemandes restent les valeurs refuges majeures.",
+      "titre": "Volatilité des matières premières énergétiques (25-31 août 2026)",
+      "description": "La semaine a enregistré une volatilité accrue sur les marchés pétroliers et gaziers, amplifiée par les tensions géopolitiques et les données de demande mitigées. Le pétrole WTI a oscillé entre 72 et 78 dollars le baril, reflétant l'incertitude économique mondiale.",
       "donnees": [
         {
-          "label": "Lundi 24",
-          "valeur": 2.15
+          "label": "Lundi 25",
+          "valeur": 74
         },
         {
-          "label": "Mardi 25",
-          "valeur": 2.32
+          "label": "Mardi 26",
+          "valeur": 76
         },
         {
-          "label": "Mercredi 26",
-          "valeur": 2.28
+          "label": "Mercredi 27",
+          "valeur": 72
         },
         {
-          "label": "Jeudi 27",
-          "valeur": 2.41
+          "label": "Jeudi 28",
+          "valeur": 78
         },
         {
-          "label": "Vendredi 28",
-          "valeur": 2.35
+          "label": "Vendredi 31",
+          "valeur": 75
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "En Norvège, les catholiques célèbrent le centenaire de la première messe",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/premiere-messe-catholique-eglise-centenaire-norvege.html",
+        "resume": "L’évêque Erik Varden de Trondheim et administrateur apostolique de Tromsø a célébré une messe solennelle à Longyearbyen le dimanche 30 août, pour commémorer cet anniversaire important. Dans son homélie, il a",
+        "pub": "Mon, 31 Aug 2026 11:56:00 +0200",
+        "heure": "13h56"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV appelle à la libération des otages de Kenscoff, en Haïti",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/appel-haiti-kenscoff-pape-leon-xiv-angelus-castelgandolfo.html",
+        "resume": "Le Pape a évoqué le drame quotidien de la population haïtienne, confrontée aux exactions et aux violences des gangs qui contrôlent une partie de l’île. Léon XIV est revenu sur le massacre commis par des homme",
+        "pub": "Sun, 30 Aug 2026 13:32:00 +0200",
+        "heure": "15h32"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Népal et Tibet: Léon XIV prie pour les victimes des inondations",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/nepal-et-tibet-leon-xiv-prie-pour-les-victimes-des-inondations.html",
+        "resume": "Léon XIV a exprimé sa proximité, à la fin de l’Angélus de ce dimanche, avec les populations touchées par les terribles inondations au Népal et au Tibet. Il a appelé à prier pour les victimes, les blessés et l",
+        "pub": "Sun, 30 Aug 2026 13:20:00 +0200",
+        "heure": "15h20"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape, lors de l’Angélus, exhorte à accepter les voies de Dieu",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/angelus-castelgandolfo-pape-leon-xiv-accepter-les-voies-de-dieu.html",
+        "resume": "Ne jamais interrompre le dialogue avec le Seigneur et ne jamais juger l’œuvre de Dieu: c’est ce que Pierre nous enseigne quand il manifeste son désaccord et réprimande Jésus lors de la révélation de la Pâque",
+        "pub": "Sun, 30 Aug 2026 12:19:00 +0200",
+        "heure": "14h19"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "La diplomatie du Saint-Siège croit en la paix",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/mgr-gallagher-entretien-apres-mission-diplomatique-a-moscou.html",
+        "resume": "À l'issue de son déplacement à Moscou, Mgr Paul Richard Gallagher, secrétaire pour les relations avec les États et les organisations internationales, s'est adressé aux médias du Vatican et a dressé le bilan d",
+        "pub": "Sun, 30 Aug 2026 10:00:00 +0200",
+        "heure": "12h00"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Sant'Egidio: les jeunes rassemblés pour la paix à Budapest",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/sant-egidio-journee-mondiale-jeunes-paix-budapest-hongrie.html",
+        "resume": "Du 28 au 30 août, la capitale hongroise accueille la rencontre internationale des Jeunes pour la Paix, mouvement de la communauté Sant'Egidio qui se réunit chaque année. Cet été, plus de mille jeunes de 14 pa",
+        "pub": "Sat, 29 Aug 2026 16:33:00 +0200",
+        "heure": "18h33"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape exhorte à ne pas laisser le mal défigurer l’humanité",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/messe-notre-dame-du-lac-castel-gandolfo-pape.html",
+        "resume": "En fin d’après-midi ce samedi, le Saint-Père a présidé une messe dans l’église Maria Santissima del Lago, à Castel Gandolfo, avant de traverser une partie du lac Albano en procession à l'occasion de la fête t",
+        "pub": "Sat, 29 Aug 2026 15:32:00 +0200",
+        "heure": "17h32"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Églises orientales: le Pape accorde aux synodes le pouvoir de révoquer les patriarches",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/eglises-orientales-motu-proprio-pape-synode-patriarche-demission.html",
+        "resume": "Par un motu proprio publié ce samedi, Léon XIV établit que les synodes des évêques des Églises orientales pourront demander la déposition d'un patriarche. Cette nouvelle règle doit permettre de «réparer la co",
+        "pub": "Sat, 29 Aug 2026 13:28:00 +0200",
+        "heure": "15h28"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L'aide du Pape après les inondations dévastatrices au Népal",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/nepal-inondations-aide-pape-caritas.html",
+        "resume": "Par l'intermédiaire du dicastère pour le Service de la charité, Léon XIV a envoyé une aide financière à Caritas Népal alors que les opérations de secours se poursuivent. Le bilan des victimes est actualisé d'",
+        "pub": "Sat, 29 Aug 2026 12:08:00 +0200",
+        "heure": "14h08"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le calendrier des célébrations de Léon XIV en septembre et octobre",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-celebrations-calendrier-septembree-octobre.html",
+        "resume": "Voyage apostolique en France, messe pour la protection de la Création, eucharistie à l'occasion du dixième anniversaire de la publication de l'exhortation apostolique Amoris laetitia. Le Bureau des célébratio",
+        "pub": "Sat, 29 Aug 2026 12:01:00 +0200",
+        "heure": "14h01"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Dans les coulisses de la visite du Pape en France",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/dans-les-coulisses-de-la-visiste-du-pape-en-france.html",
+        "resume": "Une délégation du Saint-Siège s’est rendue à Paris, Lourdes et Metz, ainsi qu’au siège de l’Unesco, pour la préparation du voyage apostolique de Léon XIV qui aura lieu du 25 au 28 septembre.",
+        "pub": "Sat, 29 Aug 2026 05:29:00 +0200",
+        "heure": "07h29"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV, premier Pape à participer à une procession sur le lac d’Albano",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leonxiv-castel-gandolfo-procession-mariale-messe-madonne.html",
+        "resume": "En ce samedi 29 août, Léon XIV célébrera à Castel Gandolfo la fête de Notre-Dame du Lac dans l’église consacrée par Paul VI. Il sera le premier Pape à parcourir en bateau ce tronçon du lac, accompagné d’une d",
+        "pub": "Fri, 28 Aug 2026 17:34:00 +0200",
+        "heure": "19h34"
+      },
       {
         "source": "Vatican News",
         "titre": "Caritas Népal: l’Église au chevet de la population sinistrée",
@@ -426,102 +522,6 @@
         "resume": "Un chargement d'aide humanitaire de l'organisation italienne a réussi à accoster à Santiago de Cuba, après avoir surmonté les obstacles liés aux restrictions. Sur l’île, la situation socio-économique continue",
         "pub": "Fri, 28 Aug 2026 12:51:00 +0200",
         "heure": "14h51"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV appelle à humaniser la technologie au service de la vie et de la paix",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/leon-xiv-appelle-a-humaniser-technologie-au-service-vie-et-paix.html",
-        "resume": "Saluant près de 500 membres de l'Institut international des sciences administratives lors de l’audience qu’il leur a accordée ce vencredi matin, 28 août, à l’issue de leur conférence annuelle, le Pape Léon XI",
-        "pub": "Fri, 28 Aug 2026 12:43:00 +0200",
-        "heure": "14h43"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La prière et la justice sociale sont indissociables, rappelle Léon XIV",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/pape-leon-xiv-charite-saint-vincent-de-paul-etats-unis-priere.html",
-        "resume": "Le Pape a reçu en audience une délégation américaine de 26 membres de la Société de Saint-Vincent-de-Paul ce vendredi 28 août. Il les a remerciés pour leur «témoignage de foi». Léon XIV a rappelé que Dieu ouv",
-        "pub": "Fri, 28 Aug 2026 12:20:00 +0200",
-        "heure": "14h20"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Mgr Gallagher: que l’Église en Russie soit bâtisseuse de ponts",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/gallagher-que-l-eglise-en-russie-soit-une-artisane-de-ponts.html",
-        "resume": "À l’issue de sa visite à Moscou, le secrétaire aux Relations avec les États et les organisations internationales a rencontré le clergé, les religieux et les religieuses. Cette rencontre fut suivie d’une céléb",
-        "pub": "Fri, 28 Aug 2026 10:42:00 +0200",
-        "heure": "12h42"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L’écho du message de Léon XIV au Meeting de Rimini",
-        "url": "https://www.vaticannews.va/fr/monde/news/2026-08/echo-message-leon-xiv-rencontre-rimini.html",
-        "resume": "La 47e édition de cet événement, né sous l’égide de Communion et Libération, touche à sa fin. Le bilan final est dressé par le président de la Fondation «Meeting pour l’amitié entre les peuples», Bernhard Sch",
-        "pub": "Thu, 27 Aug 2026 17:02:00 +0200",
-        "heure": "19h02"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV: la famille est la meilleure prévention contre la drogue",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/leon-xiv-la-famille-est-la-meilleure-prevention-contre-la-drogue.html",
-        "resume": "L’Église catholique se sent concernée par le fléau du trafic de drogue et des réseaux criminels. À l’initiative du département du CELAM, la PLAPA qui s’occupe de la Pastorale latino-américaine d’accompagnemen",
-        "pub": "Thu, 27 Aug 2026 13:24:00 +0200",
-        "heure": "15h24"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Cardinal Pizzaballa: la Cisjordanie est une «terre sans loi»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/pizzaballa-cisjordanie-terre-sainte-paix-dialogue-espoir-paix.html",
-        "resume": "Le patriarche de Jérusalem des Latins intervient lors de la dernière journée du Meeting de Rimini, appelant à un engagement diplomatique accru de la part de l’Occident pour enrayer la spirale de violence au M",
-        "pub": "Thu, 27 Aug 2026 13:15:00 +0200",
-        "heure": "15h15"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape prie pour les victimes des inondations au Népal",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/message-pape-leon-xiv-victimes-nepal-inondations-pluie-priere.html",
-        "resume": "Léon XIV a adressé un télégramme aux victimes des fortes péripéties qui frappent le Népal et les pays environnants. Le Pape recommande les âmes des défunts à Dieu, présente ses condoléances aux familles et pr",
-        "pub": "Thu, 27 Aug 2026 12:14:00 +0200",
-        "heure": "14h14"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Mgr Gallagher visite la cathédrale orthodoxe de Moscou",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-08/gallagher-visite-moscou-cathedrale-orthodoxie-foi-paix-guerre.html",
-        "resume": "Au deuxième jour de la mission en Russie du secrétaire aux Relations avec les États, visite à la cathédrale du Christ-Sauveur, siège du patriarche de Moscou. Ce mardi 25 août, Mgr Gallagher a rencontré le mét",
-        "pub": "Thu, 27 Aug 2026 11:27:00 +0200",
-        "heure": "13h27"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Première rectrice d’un sanctuaire: témoigner de l’Évangile par l’écoute",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/anna-medeossi-notre-dame-santa-cruz-oran-rencontre-rimini-foi.html",
-        "resume": "Anna Medeossi est chargée de la gestion de Notre-Dame de Santa Cruz à Oran, en Algérie. Architecte de formation, elle vit aujourd’hui en tant que consacrée au sein de l’Ordo Virginum - l'ordre des Vierges Con",
-        "pub": "Wed, 26 Aug 2026 22:24:00 +0200",
-        "heure": "00h24"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV évoque la consécration de la Pologne à la Vierge Marie",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/leon-xiv-evoque-consecration-pologne-a-marie-sous-le-communisme.html",
-        "resume": "Léon XIV a salué les Polonais rassemblés à Jasna Góra, au sanctuaire de Notre-Dame de Częstochowa, où aujourd’hui, 70 ans après l’événement historique de 1956, les vœux de Jasna Góra de la nation polonaise on",
-        "pub": "Wed, 26 Aug 2026 15:53:00 +0200",
-        "heure": "17h53"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV: de petits gestes peuvent désamorcer de grands conflits",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/leon-xiv-petits-gestes-bonte-charite-peuvent-desamorcer-conflits.html",
-        "resume": "Ce matin, 26 août, le Pape reçoit en audience un groupe d’évêques de l’Église luthérienne de Norvège. Il souligne que, dans la période «tumultueuse» que traverse actuellement le monde, il faut «des chemins co",
-        "pub": "Wed, 26 Aug 2026 15:14:00 +0200",
-        "heure": "17h14"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Les pèlerins du Sénégal: le rêve de recevoir le Pape dans notre pays",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/les-pelerins-senegal-reve-voir-pape-recevoir-dans-leur-pays.html",
-        "resume": "Au cours de l’audience générale de ce mercredi 26 août, le Pape Léon XIV a adressé une salutation particulière aux fidèles pèlerins du Sénégal présents à Rome. Pour ces pèlerins sénégalais, cette rencontre av",
-        "pub": "Wed, 26 Aug 2026 13:30:00 +0200",
-        "heure": "15h30"
       }
     ]
   }
