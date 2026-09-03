@@ -1,28 +1,28 @@
 {
-  "timestamp": "09h08 le 02/09/2026",
-  "alerte": "Tensions géopolitiques Moyen-Orient + flambée énergétique européenne = pressurisation des taux souverains français",
+  "timestamp": "09h15 le 03/09/2026",
+  "alerte": "Canicule/sécheresse coûteront 0,1 pt PIB 2026 | Gaz européen +40% vs 2023 | Uber -10% effectifs | Cyberattaque ministères | Coûts climat 'vertigineux'",
   "synthese": {
-    "resume": "Les marchés énergétiques connaissent une accélération inflationniste majeure : gaz européen +28% YTD, pétrole +12% depuis fin juillet suite aux frappes Iran-USA. La BCE face à un dilemme de taux (Nagel reconnaît la hausse des rendements comme frein macro), pendant que la France accumule trois chocs simultanés : instabilité budgétaire (absence de budget = -15Mds€ minimum), tensions sur dette souveraine (alerte Crédit Mutuel sur le coût), et réformes sociales impopulaires (retraites, allocations chômage). Velvet (nouveau concurrent SNCF dès 2028, 15% des trajets non captés) et la concurrence ferroviaire contrastent avec l'inertie régulatoire française. Les marchés intègrent désormais un scénario de taux structurellement plus élevés en eurozone.",
+    "resume": "Le marché financier français fait face à un triple choc : climatique (-0,1 pt PIB selon Bercy), énergétique (gaz au plus haut depuis 2023 suite aux tensions moyen-orientales) et géopolitique croissante poussant la réallocation d'actifs (Pays-Bas rapatrient 86 tonnes d'or). L'IA accélère les compressions d'effectifs (Uber -10%) tandis que les taux souverains se tendent (Allemagne à 47% sur les hauts revenus). Les risques macro 2026-2027 s'accumulent : déficit budgétaire structurel, inflation énergétique persistante et vulnérabilités climatiques systémiques sectorialisées (agriculture, bâtiment, tourisme).",
     "points": [
       {
-        "titre": "Énergie : gaz européen au plus haut depuis 2023 (+flambée géopolitique)",
-        "detail": "Reprises frappes Iran-USA + sabotage électrique potentiel créent shock supply. Pétrole franchit 102$/bl (fin juillet = 91$/bl). Impact direct : coûts de production industrielle européenne (+3-5%), pression inflation jusqu'à Q4 2026, risque de stagflation européenne. Implication : BCE coincée (baisse = relance inflation énergétique ; hausse = asphyxie dette souveraine). OAT-Bund spread s'élargit (France vulnérable)."
+        "titre": "Coût climatique quantifié à -0,1 pt PIB 2026 (Bercy)",
+        "detail": "Sécheresses et canicules réduisent la croissance hexagonale de 10 pb. Agriculture sinistrée (crises nerfs, détresse fermes), impacts indirects sur tourisme (Louvre fermé/rénovation 1Mrd€), secteur bâtiment en dépression depuis 18 mois. Implications : révision à la baisse croissance 2026 vs consensus, pression dépenses d'État contracycliques, dégradation rentabilité agro-alimentaire cotée."
       },
       {
-        "titre": "Taux souverains : alerte Crédit Mutuel sur coût de la dette française",
-        "detail": "Absence de budget 2027 = -15Mds€ minimum impact (source Bercy). Spread OAT-Bund s'élargit structurellement. Taux 10Y France dépasse 3,1% (vs 2,3% juin). Implications : refinancement 2027 coûtera +8-12Mds€ supplémentaires annuels, réduction de marge de manœuvre budgétaire. Crédit mutuel signale franchissement du 'seuil d'alerte' = repositionnement obligataire en cours."
+        "titre": "Énergie : gaz européen +40% vs 2023, tensions moyen-orientales actives",
+        "detail": "Reprise hostilités Moyen-Orient reflète directement sur TTF. Impact immédiat : coûts industriels accélérés (électrochimie, sidérurgie), marges compressées PME/ETI non-couvertes. Allemagne monte TVA implicite via impôts (47% top), France anticipe hausse tarifaire électricité H1 2027. Spread CDS souverains à surveiller : risque fragmentations EZ si contagion énergétique."
       },
       {
-        "titre": "Politique économique française : trois chocs convergents",
-        "detail": "1) Suspension réforme retraites (coût différé = +2-3Mds€ déficit 2027). 2) Baisse durée allocations chômage (rupture conventionnelle) = économies partielles (~800M€). 3) Projet 'désindexation hautes retraites' = débat redistribution fragmente majorité. Projection déficit public 2027 : 4,8-5,2% PIB vs 3,6% prévu (avant crises). Taux français : probabilité hausse structurelle 40%."
+        "titre": "Uber -10% effectifs, virage robotaxis irréversible",
+        "detail": "Compression 10% de l'effectif global annoncée parallèlement abandon télétravail et pivot robotaxis. Signal : fin du modèle d'emploi flexibilisé des plateformes ; transition vers capex tech (robotique, IA) vs opex RH. Implications : destruction net 15k emplois secteur, pression négociée salaires service, accélération déploiement automatisation urbaine (Londres déploie déjà ce jeudi)."
       },
       {
-        "titre": "Concurrence ferroviaire : Velvet obtient licence 2028, capture 15% trafic",
-        "detail": "SNCF perd monopole : Velvet (opérateur privé) débute exploitations axes rentables 2028. Segment TGV longue distance = 12Mds€/an. Velvet capture estimation 15% marché non-servi (clients sensibles tarif). Impact SNCF : pression marge exploitation (-200-400M€/an horizon 3 ans), réorganisation nécessaire. Contexte : Drahi continue déconstruction empire télécoms (SFR), pattern privatisation/concurrence s'accélère."
+        "titre": "Réallocation géopolitique d'actifs : Pays-Bas rapatrient 86 tonnes d'or",
+        "detail": "Transfert Pays-Bas États-Unis/Canada vers Royaume-Uni justifié par 'instabilité géopolitique croissante' : signal dérisking vers UK (Safe haven post-Brexit paradoxal). Sous-texte : anticipation fragmentations transatlantiques (élection 2026 US, tensions OTAN). Impact : repricing risque souverain EZ, allocation or physique ↑, demand destruction Treasuries long-dated."
       },
       {
-        "titre": "IA/Tech : contrats géants mais concentration risk",
-        "detail": "Anthropic-Nvidia : 35Mds$ capex calcul (contrat 5 ans). Apple succession Cook = enjeu IA majeur (Ternus). Microsoft : analyse rentabilité réelle cloud IA encore opaque. Implication : boom capex Big Tech US siphonne capital, valorisations bulleuses possibles. Risque : correction 15-25% si taux US restent >4,5%."
+        "titre": "Fiscalité 2027 : hausses inévitables selon Lombard (ex-ministre)",
+        "detail": "Eric Lombard confirme hausse 'inévitable' impôts prochain quinquennat. Débat TVA sociale émerge (Schelcher, Hollande, Medef). Implications : anticipation perte pouvoir d'achat 2027, compression conso durables H2 2026 (forward guidance), réallocation PEA vers bonds vs actions."
       }
     ]
   },
@@ -30,6 +30,20 @@
     "metrics": [],
     "articles": [
       {
+        "source": "Le Figaro",
+        "heure": "00h14",
+        "titre": "Wall Street reprend des couleurs grâce à la stabilisation des taux d'emprunt",
+        "resume": "La Bourse de New York a terminé en hausse mercredi, renversant la vapeur après deux séances marquées par les inquiétudes sur le Moyen-Orient, qui ont...",
+        "url": "https://www.lefigaro.fr/flash-eco/wall-street-reprend-des-couleurs-grace-a-la-stabilisation-des-taux-d-emprunt-20260902"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "21h16",
+        "titre": "Les marchés boursiers ploient mais ne rompent pas, le baril repart à la hausse",
+        "resume": "Les marchés boursiers mondiaux ploient mais ne rompent pas face à la spectaculaire envolée des taux d'intérêt qui pénalise normalement le marché des...",
+        "url": "https://www.lefigaro.fr/flash-eco/les-marches-boursiers-ploient-mais-ne-rompent-pas-le-baril-repart-a-la-hausse-20260902"
+      },
+      {
         "source": "Challenges",
         "heure": "09h33",
         "titre": "Le gaz européen au plus haut depuis 2023 : la reprise des hostilités au Moyen-Orient fait à nouveau flamber les prix de l’énergie",
@@ -38,31 +52,17 @@
       },
       {
         "source": "Le Figaro",
-        "heure": "09h21",
-        "titre": "Guerre au Moyen-Orient : le pétrole au plus haut depuis fin juillet après la reprises des frappes entre l’Iran et les États-Unis",
-        "resume": "La reprise des frappes directes entre les États-Unis et l’Iran fait craindre de nouvelles tensions sur l’approvisionnement. Dans la foulée, les taux d’intérêt flambent à leur tour.",
-        "url": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-petrole-au-plus-haut-depuis-fin-juillet-apres-la-reprises-des-frappes-entre-l-iran-et-les-etats-unis-20260902"
+        "heure": "19h41",
+        "titre": "La hausse brutale du yen face au dollar éveille les soupçons d'intervention du Japon sur le marché",
+        "resume": "Le yen connaît un envol brutal face au dollar mercredi, sans déclencheur apparent, certains analystes y décelant les signes d'une possible intervention...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-hausse-brutale-du-yen-face-au-dollar-eveille-les-soupcons-d-intervention-du-japon-sur-le-marche-20260902"
       },
       {
-        "source": "Le Figaro",
-        "heure": "22h46",
-        "titre": "Le dollar rebondit grâce à la nette hausse des prix du pétrole",
-        "resume": "Le dollar s'apprécie mardi, poussé par la progression des prix du pétrole avec les nouvelles attaques au Moyen-Orient, progression qui accentue les...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-rebondit-grace-a-la-nette-hausse-des-prix-du-petrole-20260901"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "00h14",
-        "titre": "Wall Street recule, crispée par la situation géopolitique",
-        "resume": "La Bourse de New York a terminé en baisse mardi sous le poids des inquiétudes économiques liées à la reprise des hostilités entre les États-Unis...",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-recule-crispee-par-la-situation-geopolitique-20260901"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "20h11",
-        "titre": "Les Bourses européennes terminent dans le rouge",
-        "resume": "Les Bourses européennes ont terminé dans le rouge mardi, plombées par la flambée des taux obligataires et le regain de tensions entre Washington et...",
-        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-europeennes-terminent-dans-le-rouge-20260901"
+        "source": "Challenges",
+        "heure": "13h00",
+        "titre": "Tandis que Trump bichonne les sites de paris, son fils y investit : le fonds de Trump Jr. va investir 300 millions dans Polymarket",
+        "resume": "La société d’investissement du fils de Donald Trump va injecter quelque 300 millions de dollars dans la plateforme de marchés prédictifs Polymarket, où l’on peut parier sur quasiment tout. Parallèlement, son père multiplie les mesures favorables au",
+        "url": "https://www.challenges.fr/monde/tandis-que-trump-bichonne-les-sites-de-paris-son-fils-y-investit-le-fonds-de-trump-jr-va-investir-300-millions-dans-polymarket_645470"
       }
     ]
   },
@@ -70,77 +70,77 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "13h30",
-        "titre": "Succession de Tim Cook à la tête d’Apple : « Le défi majeur de John Ternus reste l’intelligence artificielle »",
-        "resume": "Le directeur général quitte son poste avec un bilan flatteur, mais restera président exécutif afin de continuer à mettre de l’huile dans les rouages géopolitiques, explique Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/01/succession-de-tim-cook-a-la-tete-d-apple-le-defi-majeur-de-john-ternus-reste-l-intelligence-artificielle_6763395_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "10h30",
-        "titre": "Après l’accord pour la vente de SFR, Patrick Drahi continue de déconstruire son empire dans les télécoms",
-        "resume": "Le milliardaire franco-israélien va céder ses parts dans une coentreprise d’Internet fixe en Allemagne, et est entré dans la dernière ligne droite pour vendre XpFibre, son vaste réseau de fibre optique en France.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/02/apres-l-accord-pour-la-vente-de-sfr-patrick-drahi-continue-de-deconstruire-son-empire-dans-les-telecoms_6764046_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "19h48",
-        "titre": "Dyson fait le show à Paris pour lancer sa brosse à dents électrique dopée à l’IA",
-        "resume": "Après l’entretien des sols, les soins capillaires, le traitement de l’air, le casque audio et l’éclairage, le fabricant britannique se lance dans l’hygiène bucco-dentaire.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/01/dyson-fait-le-show-a-paris-pour-lancer-sa-brosse-a-dents-electrique-dopee-a-l-ia_6763501_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "13h00",
-        "titre": "TGV : l’entreprise ferroviaire Velvet obtient sa licence d’exploitation en France et pourra concurrencer la SNCF à partir de 2028",
-        "resume": "Créée par une ancienne cadre du principal opérateur des lignes de trains françaises, l’entreprise a notamment décroché le droit de faire passer des trains à heure précise. Elle a déjà commandé 12 véhicules de dernière génération à Alstom.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/01/tgv-l-entreprise-ferroviaire-velvet-obtient-sa-licence-d-exploitation-en-france-et-pourra-concurrencer-la-sncf-a-partir-de-2028_6763388_3234.html"
+        "heure": "21h04",
+        "titre": "Uber annonce supprimer « environ 10 % » de ses effectifs",
+        "resume": "L’entreprise n’a pas partagé de chiffre sur les économies qu’il compte réaliser mais dit vouloir réorienter son capital pour « innover dans l’ensemble de [ses] activités principales et (…) bâtir l’avenir de la conduite autonome ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/02/uber-annonce-supprimer-environ-10-de-ses-effectifs_6764486_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Après les chatbots, place aux « world models » : comment Alexandre Défossez et Kyutai pourraient révolutionner l’IA",
-        "resume": "40 DE MOINS DE 40 ANS.​​​​​​​ Cofondateur du laboratoire français Kyutai, Alexandre Défossez travaille sur une nouvelle génération d’intelligences artificielles capables de voir, d’entendre et de comprendre leur environnement. Avec, en ligne de mire",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/apres-les-chatbots-place-aux-world-models-comment-alexandre-defossez-et-kyutai-pourraient-revolutionner-lia_645461"
+        "heure": "20h54",
+        "titre": "Uber supprime 10 % de ses effectifs, renonce au télétravail et s’en remet au robotaxis",
+        "resume": "La plateforme Uber a annoncé mercredi se séparer d’environ 10 % de ses effectifs dans le cadre d’une vaste réorganisation qui la voit aussi quitter deux pays, en pleine phase d’investissement pour les robotaxis autonomes.",
+        "url": "https://www.challenges.fr/entreprise/uber-supprime-10-de-ses-effectifs-renonce-au-teletravail-et-sen-remet-au-robotaxis_645496"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "19h14",
+        "titre": "Cinéma : la fréquentation des salles en France a été historique pour un mois d’août",
+        "resume": "Cet été exceptionnel a été porté par une offre complète de films américains, dont « L’Odyssée » et « Spider-Man : Brand New Day » après des années de crises dans l’industrie, mais aussi par le succès du biopic en deux parties sur Charles de Gaulle et",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/02/cinema-la-frequentation-des-salles-en-france-a-ete-historique-pour-un-mois-d-aout_6764469_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "22h31",
+        "titre": "Publicis décroche un nouveau contrat majeur avec le géant PepsiCo",
+        "resume": "Le champion français de la pub se voit confier l'ensemble du budget pub et transformation média du groupe américain, aux dépens d'un autre acteur historique du secteur. Une belle prise, qui renforce sa présence aux Etats-Unis.",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/publicis-decroche-un-nouveau-contrat-majeur-avec-le-geant-pepsico-2249491"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h58",
+        "titre": "Tourbières : « l'alerte donnée à Frasne il y a 40 ans était pleine de bon sens »",
+        "resume": "Protégée depuis 1986, la réserve naturelle des tourbières de Frasne-Bouverans, dans le Doubs, un des plus grands complexes tourbeux de montagne de France, poursuit ses travaux de restauration écologique, soutenus en vingt ans par 1,5 million d'euros ",
+        "url": "https://www.lesechos.fr/pme-regions/bourgogne-franche-comte/tourbieres-lalerte-donnee-a-frasne-il-y-a-40-ans-etait-pleine-de-bon-sens-2249547"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "10h30",
-        "titre": "Après l’accord pour la vente de SFR, Patrick Drahi continue de déconstruire son empire dans les télécoms",
-        "resume": "Le milliardaire franco-israélien va céder ses parts dans une coentreprise d’Internet fixe en Allemagne, et est entré dans la dernière ligne droite pour vendre XpFibre, son vaste réseau de fibre optique en France.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/02/apres-l-accord-pour-la-vente-de-sfr-patrick-drahi-continue-de-deconstruire-son-empire-dans-les-telecoms_6764046_3234.html"
+        "source": "Les Echos",
+        "heure": "11h37",
+        "titre": "French Tech : Cureety signe une acquisition stratégique aux Etats-Unis dans l'oncologie",
+        "resume": "Ce spécialiste des solutions de télésurveillance en oncologie annonce faire l'acquisition de la société Reimagine Care et de sa plateforme de soins assistée par l'IA.",
+        "url": "https://www.lesechos.fr/start-up/deals/french-tech-cureety-signe-une-acquisition-strategique-aux-etats-unis-dans-loncologie-2249541"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h00",
+        "titre": "Oxxius lève 5 millions d'euros pour accélérer à l'international",
+        "resume": "Après le rachat de l'Américain 89 North en janvier, le fabricant de lasers basé à Lannion, dans les Côtes-d'Armor, veut profiter de sa forte croissance pour franchir un nouveau cap. Oxxius vise 30 millions d'euros de chiffre d'affaires et plus de 100",
+        "url": "https://www.lesechos.fr/pme-regions/bretagne/oxxius-leve-5-millions-deuros-pour-accelerer-a-linternational-2249528"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "13h00",
-        "titre": "TGV : l’entreprise ferroviaire Velvet obtient sa licence d’exploitation en France et pourra concurrencer la SNCF à partir de 2028",
-        "resume": "Créée par une ancienne cadre du principal opérateur des lignes de trains françaises, l’entreprise a notamment décroché le droit de faire passer des trains à heure précise. Elle a déjà commandé 12 véhicules de dernière génération à Alstom.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/01/tgv-l-entreprise-ferroviaire-velvet-obtient-sa-licence-d-exploitation-en-france-et-pourra-concurrencer-la-sncf-a-partir-de-2028_6763388_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "01h35",
-        "titre": "Amazon visé par une plainte pour surfacturation en secret de publicités à plus de 1 million d’annonceurs",
-        "resume": "Selon les plaignants, le géant du commerce en ligne aurait surfacturé ses clients annonceurs de plus de 20 milliards de dollars depuis 2019, grâce à un mécanisme d’enchères publicitaires qu’ils jugent trompeur.",
-        "url": "https://www.lemonde.fr/international/article/2026/08/31/amazon-vise-par-une-plainte-pour-surfacturation-en-secret-de-publicites-a-plus-de-1-million-d-annonceurs_6762855_3210.html"
+        "heure": "21h30",
+        "titre": "A La Réunion, la construction d’un câble sous-marin « souverain » reliant l’Afrique du Sud à Singapour vise à renforcer le développement économique de l’île",
+        "resume": "L’installation débutera en 2027, pour une mise en service en 2028, afin de sécuriser les connexions numériques du département français.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/02/a-la-reunion-la-construction-d-un-cable-sous-marin-souverain-reliant-l-afrique-du-sud-a-singapour-vise-a-renforcer-le-developpement-economique-de-l-ile_6764489_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "09h28",
-        "titre": "Amazon accusé d’avoir gonflé en secret les prix de ses publicités : le géant du commerce en ligne poursuivi en justice aux Etats-Unis",
-        "resume": "Le gendarme américain de la concurrence et 22 Etats américains ont porté plainte ce lundi 31 août contre Amazon, affirmant que le géant du commerce en ligne avait secrètement augmenté les coûts des publicités diffusées sur son site pour plus d’un mi",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/amazon-accuse-davoir-gonfle-en-secret-les-prix-de-ses-publicites-le-geant-du-commerce-en-ligne-poursuivi-en-justice-aux-etats-unis_645447"
+        "heure": "05h00",
+        "titre": "Un « Choose France » pour les territoires ultramarins : Naïma Moutchou annonce le premier Choose Outre-Mer et un nouveau fonds à impact",
+        "resume": "Dans un entretien exclusif pour Challenges, la ministre des Outre-mer Naïma Moutchou annonce le premier Choose Outre-Mer, le 1er octobre à Paris, assorti de la création d’un fonds de plusieurs dizaines de millions d’euros et d’une feuille de route é",
+        "url": "https://www.challenges.fr/economie/un-choose-france-pour-les-territoires-ultramarins-naima-moutchou-annonce-le-premier-choose-outre-mer-et-un-nouveau-fonds-a-impact_645463"
       },
       {
-        "source": "Le Figaro",
-        "heure": "08h54",
-        "titre": "IA : Anthropic signe un contrat à 35 milliards de dollars avec Nvidia pour augmenter sa puissance de calcul",
-        "resume": "Le créateur l’assistant d’IA Claude va louer pendant six ans un centre de données au Texas afin de pouvoir répondre aux demandes toujours plus nombreuses de ses clients. En ligne de mire, continuer de grandir avant une future entrée en Bourse.",
-        "url": "https://www.lefigaro.fr/secteur/high-tech/ia-anthropic-signe-un-contre-a-35-milliards-de-dollars-avec-nvidia-pour-augmenter-sa-puissance-de-calcul-20260901"
+        "source": "Challenges",
+        "heure": "10h00",
+        "titre": "BHealthTech : la force des talents indépendants au service de l’innovation en santé",
+        "resume": "Fondée par Babette Makpangou, BHealthTech entend transformer la manière dont les industriels de la santé accèdent aux expertises dont ils ont besoin. Entre accompagnement stratégique, intelligence collective et valorisation des talents, l’entreprise",
+        "url": "https://www.challenges.fr/partenaires/bhealthtech-la-force-des-talents-independants-au-service-de-linnovation-en-sante_645209"
       }
     ]
   },
@@ -148,38 +148,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "12h30",
-        "titre": "Corée du Sud : « les gains de l’IA ne ruissellent pas assez car la population est trop âgée pour dépenser »",
-        "resume": "Rien ne sert de faire 100 milliards d’euros de gains grâce à l’intelligence artificielle, il faut savoir les redistribuer intelligemment, explique Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/02/coree-du-sud-les-gains-de-l-ia-ne-ruissellent-pas-assez-car-la-population-est-trop-agee-pour-depenser_6764284_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "19h00",
-        "titre": "« La Chine a un problème d’emploi, quoi qu’en disent ses statistiques »",
-        "resume": "Les autorités chinoises utilisent de nombreuses méthodes pour masquer les taux réels du chômage, en particulier celui des jeunes, afin d’éviter une gronde sociale, observe le journaliste Harold Thibault dans sa chronique au « Monde ».",
-        "url": "https://www.lemonde.fr/idees/article/2026/09/01/la-chine-a-un-probleme-d-emploi-quoi-qu-en-disent-ses-statistiques_6763493_3232.html"
+        "heure": "19h29",
+        "titre": "Canicules et sécheresses coûteront 0,1 point de croissance à la France en 2026, selon Bercy",
+        "resume": "L’agriculture est le principal secteur affecté par les fortes chaleurs de l’été. La flambée des cours des énergies fossiles, notamment des carburants, liée au conflit au Moyen-Orient, a également pesé sur l’activité.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/02/canicules-et-secheresses-couteront-0-1-point-de-croissance-a-la-france-en-2026-selon-bercy_6764470_3234.html"
       },
       {
         "source": "Le Monde Eco",
         "heure": "07h00",
-        "titre": "Dans le canal de Panama, El Niño impose une baisse du trafic maritime et l’envolée des prix de passage",
-        "resume": "Le phénomène climatique fait chuter les apports en eau dans le passage par lequel trasite habituellement 5 % du commerce mondial.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/01/dans-le-canal-de-panama-el-nino-impose-une-baisse-du-trafic-maritime-et-l-envolee-des-prix-de-passage_6763087_3234.html"
+        "titre": "Pourquoi les Etats doivent-ils payer toujours plus cher pour s’endetter",
+        "resume": "Les taux auxquels empruntent les grandes puissances mondiales atteignent des sommets. La France est particulièrement sous pression. Six graphiques pour comprendre les causes et les conséquences.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/03/pourquoi-les-etats-doivent-ils-payer-toujours-plus-cher-pour-s-endetter_6764811_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h00",
+        "titre": "« Nous ne sommes pas assez préparés » : après un été brûlant, la France face au coût vertigineux du réchauffement climatique",
+        "resume": "L’été a concrétisé les craintes des spécialistes sur l’ampleur de la crise climatique, qui pourrait nous appauvrir de moitié d’ici à 2100. Des dizaines de milliards d’euros d’investissement sont nécessaires pour adapter la France à vivre quatre degr",
+        "url": "https://www.challenges.fr/economie/nous-ne-sommes-pas-assez-prepares-apres-un-ete-brulant-la-france-face-au-cout-vertigineux-du-rechauffement-climatique_645469"
       },
       {
         "source": "Les Echos",
-        "heure": "18h43",
-        "titre": "L'économie brésilienne tourne au ralenti avant les élections",
-        "resume": "La croissance a chuté à 0,5 % au deuxième trimestre. En cause, des taux d'intérêt trop élevés pendant trop longtemps. La dette s'envole et place Lula sous pression à un mois de la présidentielle.",
-        "url": "https://www.lesechos.fr/monde/ameriques/leconomie-bresilienne-tourne-au-ralenti-avant-les-elections-2249215"
+        "heure": "21h32",
+        "titre": "« Je n'ai jamais vu de baisse d'activité aussi longue » : l'artisanat du bâtiment reste sous pression",
+        "resume": "Au deuxième trimestre, l'activité de l'artisanat du bâtiment reste orientée à la baisse pour le treizième trimestre consécutif. La fin de l'année s'annonce complexe avec la persistance des tensions géopolitiques et des hausses de coûts.",
+        "url": "https://www.lesechos.fr/industrie-services/immobilier-btp/je-nai-jamais-vu-de-baisse-dactivite-aussi-longue-lartisanat-du-batiment-reste-sous-pression-2249487"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "08h30",
-        "titre": "Le réseau électrique européen face aux menaces de sabotage et de cyberattaques : « Le scénario du pire n’a rien d’inéluctable, mais il faut s’y préparer »",
-        "resume": "Dans un contexte de conflictualité croissante avec la Russie, le risque d’un black-out majeur en Europe est pris au sérieux. La France veut organiser un exercice de simulation de crise en 2027.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/02/le-reseau-electrique-europeen-face-aux-menaces-de-sabotage-et-de-cyberattaques-le-scenario-du-pire-n-a-rien-d-ineluctable-mais-il-faut-s-y-preparer_6763909_3234.html"
+        "source": "Challenges",
+        "heure": "18h04",
+        "titre": "Ce député préconise 160 milliards d’euros d’effort plutôt que 125 pour stabiliser la dette",
+        "resume": "Le rapporteur du budget à l’Assemblée a interpellé les candidats à la présidentielle sur leur stratégie pour stabiliser la dette publique. S’appuyant sur un rapport d’économistes, il préconise un effort de 160 milliards d’euros pour se prémunir en c",
+        "url": "https://www.challenges.fr/economie/ce-depute-preconise-160-milliards-deuros-deffort-plutot-que-125-pour-stabiliser-la-dette_645488"
       }
     ]
   },
@@ -187,38 +187,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "08h45",
-        "titre": "Joachim Nagel, président de la banque centrale allemande : « La hausse des taux sur les marchés financiers complique la situation de la BCE »",
-        "resume": "Le président de la Bundesbank et candidat à la succession de Christine Lagarde à la tête de la Banque centrale européenne, explique, dans un entretien au « Monde », pourquoi il a soutenu la suspension du frein à l’endettement en Allemagne ou les empr",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/02/joachim-nagel-president-de-la-banque-centrale-allemande-la-hausse-des-taux-sur-les-marches-financiers-complique-la-situation-de-la-bce_6763943_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h35",
-        "titre": "Une idée « interdite par les traités européens » : le président de la Bundesbank s’oppose à l’annulation de la dette proposée par Jean-Luc Mélenchon",
-        "resume": "Joachim Nagel critique fermement la proposition du candidat « insoumis » à la présidentielle d’annuler les 18 % de dette de la France possédée par la Banque centrale européenne.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/02/une-idee-interdite-par-les-traites-europeens-le-president-de-la-bundesbank-s-oppose-a-l-annulation-de-la-dette-proposee-par-jean-luc-melenchon_6763942_3234.html"
+        "heure": "17h05",
+        "titre": "Les Pays-Bas transfèrent 86 tonnes d’or des Etats-Unis et du Canada vers le Royaume-Uni, invoquant « l’instabilité géopolitique croissante »",
+        "resume": "Le mouvement a été réalisé en partie par des opérations d’achat et de vente, et par transport physique. Concrètement, plus de 27 tonnes d’or physique ont été transférées des Etats-Unis et du Canada vers les Pays-Bas avant de gagner Londres.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/02/les-pays-bas-transferent-86-tonnes-d-or-des-etats-unis-et-du-canada-vers-le-royaume-uni-invoquant-l-instabilite-geopolitique-croissante_6764385_3234.html"
       },
       {
         "source": "Le Monde Eco",
         "heure": "12h30",
-        "titre": "Le Vanuatu joue la carte de la justice internationale pour trancher son différend frontalier avec la France",
+        "titre": "Vanuatu joue la carte de la justice internationale pour trancher son différend frontalier avec la France",
         "resume": "L’archipel du Pacifique Sud, qui revendique les îlots français de Matthew et Hunter, a déposé, mardi 1ᵉʳ septembre, un recours devant la Cour internationale de justice.",
         "url": "https://www.lemonde.fr/politique/article/2026/09/02/le-vanuatu-joue-la-carte-de-la-justice-internationale-pour-trancher-son-differend-frontalier-avec-la-france_6764285_823448.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "20h25",
-        "titre": "Frustrations et crispations émaillent la réunion du G20 Finance en Caroline du Nord",
-        "resume": "L'invitation du ministre des Finances russes à Asheville et les opérations américaines pour soutenir la devise japonaise ont provoqué l'irritation des représentants européens.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/frustrations-et-crispations-emaillent-la-reunion-du-g20-finance-en-caroline-du-nord-2249255"
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "Eric Lombard, ex-ministre de l’économie : « Il y a un chemin pour redresser le pays »",
+        "resume": "Ecarté par Sébastien Lecornu, l’ancien homme fort de Bercy n’a pas renoncé à la politique. Il veut se présenter aux prochaines élections législatives en Bretagne, et juge possible d’agir efficacement même sans majorité à l’Assemblée nationale.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/03/eric-lombard-ex-ministre-de-l-economie-il-y-a-un-chemin-pour-redresser-le-pays_6764806_823448.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "21h11",
-        "titre": "Attaque de l'aéroport de Leipzig : l'Allemagne accuse la Russie",
-        "resume": "Berlin attribue à Moscou la responsabilité de l'attaque hybride à l'aéroport de Leipzig. Le gouvernement allemand va fermer le dernier consulat russe en Allemagne ainsi qu'un centre culturel russe. L'Otan et l'UE expriment leur solidarité avec l'Alle",
-        "url": "https://www.lesechos.fr/monde/europe/attaque-de-laeroport-de-leipzig-lallemagne-accuse-la-russie-2249270"
+        "source": "Le Monde Eco",
+        "heure": "13h31",
+        "titre": "Présidentielle 2027 : François Hollande confirme qu’il ne participera pas à la primaire à gauche, et annonce attendre le mois de décembre pour décider de sa candidature",
+        "resume": "L’ancien président a assuré qu’il n’y aurait qu’« une seule candidature de la gauche sociale-démocrate », et qu’il ne viendrait pas « interférer » si celle-ci parvenait à créer la « dynamique nécessaire » pour l’emporter.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/02/presidentielle-2027-francois-hollande-confirme-qu-il-ne-participera-pas-a-la-primaire-a-gauche-et-annonce-attendre-le-mois-de-decembre-pour-decider-de-sa-candidature_6764327_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "01h58",
+        "titre": "Présidentielle 2027 : Bruno Retailleau promet une réforme constitutionnelle pour donner « le dernier mot » au « peuple français » sur certains sujets",
+        "resume": "Dans un entretien au « Figaro », le candidat Les Républicains à l’Elysée dit vouloir faciliter le recours au référendum pour « toute question législative ». Il souhaite également faire primer le droit français, « dans certains cas », sur le droit eur",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/02/presidentielle-2027-bruno-retailleau-promet-une-reforme-constitutionnelle-pour-donner-le-dernier-mot-au-peuple-francais-sur-certains-sujets_6764572_823448.html"
       }
     ]
   },
@@ -226,50 +226,49 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "08h45",
-        "titre": "Joachim Nagel, président de la banque centrale allemande : « La hausse des taux sur les marchés financiers complique la situation de la BCE »",
-        "resume": "Le président de la Bundesbank et candidat à la succession de Christine Lagarde à la tête de la Banque centrale européenne, explique, dans un entretien au « Monde », pourquoi il a soutenu la suspension du frein à l’endettement en Allemagne ou les empr",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/02/joachim-nagel-president-de-la-banque-centrale-allemande-la-hausse-des-taux-sur-les-marches-financiers-complique-la-situation-de-la-bce_6763943_3234.html"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "21h04",
-        "titre": "«Le seuil d’alerte est atteint depuis un moment» : le patron du Crédit Mutuel alerte sur la flambée du coût de la dette française",
-        "resume": "Les banques, qui sont parmi les principaux prêteurs de l’État français, seraient «menacées si la France était en défaut», met en garde Daniel Baal.",
-        "url": "https://www.lefigaro.fr/conjoncture/le-seuil-d-alerte-est-atteint-depuis-un-moment-le-patron-du-credit-mutuel-alerte-sur-la-flambee-du-cout-de-la-dette-francaise-20260901"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h33",
-        "titre": "Le gaz européen au plus haut depuis 2023 : la reprise des hostilités au Moyen-Orient fait à nouveau flamber les prix de l’énergie",
-        "resume": "Le prix du gaz européen a atteint ce mardi 1er septembre un plus haut depuis 2023, les marchés réagissant aux nouvelles frappes entre les Etats-Unis et l’Iran. Une reprise des hostilités qui provoque aussi une flambée des cours du pétrole.",
-        "url": "https://www.challenges.fr/entreprise/energie/le-gaz-europeen-au-plus-haut-depuis-2023-la-reprise-des-hostilites-au-moyen-orient-fait-a-nouveau-flamber-les-prix-de-lenergie_645468"
-      },
-      {
-        "source": "Challenges",
-        "heure": "14h30",
-        "titre": "Faut-il remettre en cause son projet immobilier ? Ce que la remontée attendue des taux va vraiment changer pour les emprunteurs",
-        "resume": "Les taux de crédit immobilier pourraient repartir à la hausse dès septembre. Pierre Chapon, cofondateur de Pretto, décrypte pour Challenges les raisons de cette remontée qui se profile et ses conséquences pour les emprunteurs.",
-        "url": "https://www.challenges.fr/immobilier/faut-il-remettre-en-cause-son-projet-immobilier-ce-que-la-remontee-attendue-des-taux-va-vraiment-changer-pour-les-emprunteurs_645451"
+        "heure": "07h00",
+        "titre": "Pourquoi les Etats doivent-ils payer toujours plus cher pour s’endetter",
+        "resume": "Les taux auxquels empruntent les grandes puissances mondiales atteignent des sommets. La France est particulièrement sous pression. Six graphiques pour comprendre les causes et les conséquences.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/03/pourquoi-les-etats-doivent-ils-payer-toujours-plus-cher-pour-s-endetter_6764811_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "12h35",
-        "titre": "Les quatre crises qui menacent la France",
-        "resume": "La France s'enlise dans une spirale délétère de sous-investissement, faible croissance, chômage et dette publique. Le rôle des économistes est de suggérer des trajectoires pour en sortir, rappelle Patrick Artus dans la chronique du « Cercle des écono",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/les-quatre-crises-qui-menacent-la-france-2249339"
+        "heure": "19h34",
+        "titre": "En Allemagne, le taux d'imposition des plus aisés va grimper à 47 %",
+        "resume": "Les ménages allemands vont bénéficier d'une baisse d'impôts de 10 milliards d'euros à l'horizon 2028. En parallèle, Berlin va augmenter le taux d'imposition des revenus au-delà de 280.000 euros. Ce qui fait vivement réagir les PME, en première ligne.",
+        "url": "https://www.lesechos.fr/monde/europe/en-allemagne-le-taux-dimposition-des-plus-aises-va-grimper-a-47-2249444"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "19h00",
+        "titre": "Allemagne : rentrée sous tension pour le chancelier Friedrich Merz",
+        "resume": "Le pays oscille entre récession et stagnation, et l'extrême droite gagne du terrain. Dans « La Story », le podcast d'actualité des « Echos », Pierrick Fay et Emmanuel Grasland, correspondant en Allemagne, décryptent les réformes du chancelier, qui es",
+        "url": "https://www.lesechos.fr/monde/europe/allemagne-rentree-sous-tension-pour-le-chancelier-friedrich-merz-2249433"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "18h31",
+        "titre": "La Banque du Canada maintient son taux en pleine escalade du conflit commercial avec Washington",
+        "resume": "La banque centrale du Canada a maintenu mercredi son taux directeur à 2,25% pour la septième fois consécutive mais a mis en garde contre les...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-banque-du-canada-maintient-son-taux-en-pleine-escalade-du-conflit-commercial-avec-washington-20260902"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "19h39",
+        "titre": "Le président de la Bundesbank torpille la proposition d’annulation de dette de Mélenchon",
+        "resume": "«Une telle mesure ouvrirait une boîte de Pandore », pouvant mener à l’hyperinflation, avertit Joachim Nagel, le patron de la banque centrale allemande.",
+        "url": "https://www.lefigaro.fr/conjoncture/le-president-de-la-bundesbank-torpille-la-proposition-d-annulation-de-dette-de-melenchon-20260902"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.856,
-        "prev": 2.805,
-        "diff": 0.051,
+        "rate": 2.876,
+        "prev": 2.856,
+        "diff": 0.02,
         "trend": "up",
-        "date": "2026-08-31",
+        "date": "2026-09-01",
         "history": [
-          2.78,
           2.781,
           2.791,
           2.761,
@@ -278,18 +277,18 @@
           2.755,
           2.785,
           2.805,
-          2.856
+          2.856,
+          2.876
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.008,
-        "prev": 2.943,
-        "diff": 0.065,
+        "rate": 3.026,
+        "prev": 3.008,
+        "diff": 0.018,
         "trend": "up",
-        "date": "2026-08-31",
+        "date": "2026-09-01",
         "history": [
-          2.931,
           2.939,
           2.934,
           2.918,
@@ -298,18 +297,18 @@
           2.9,
           2.93,
           2.943,
-          3.008
+          3.008,
+          3.026
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.34,
-        "prev": 3.279,
-        "diff": 0.061,
+        "rate": 3.355,
+        "prev": 3.34,
+        "diff": 0.015,
         "trend": "up",
-        "date": "2026-08-31",
+        "date": "2026-09-01",
         "history": [
-          3.289,
           3.278,
           3.279,
           3.271,
@@ -318,18 +317,18 @@
           3.249,
           3.277,
           3.279,
-          3.34
+          3.34,
+          3.355
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.743,
-        "prev": 3.687,
-        "diff": 0.056,
+        "rate": 3.756,
+        "prev": 3.743,
+        "diff": 0.013,
         "trend": "up",
-        "date": "2026-08-31",
+        "date": "2026-09-01",
         "history": [
-          3.709,
           3.682,
           3.691,
           3.685,
@@ -338,18 +337,18 @@
           3.659,
           3.688,
           3.687,
-          3.743
+          3.743,
+          3.756
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.776,
-        "prev": 3.728,
-        "diff": 0.048,
+        "rate": 3.787,
+        "prev": 3.776,
+        "diff": 0.011,
         "trend": "up",
-        "date": "2026-08-31",
+        "date": "2026-09-01",
         "history": [
-          3.738,
           3.71,
           3.726,
           3.723,
@@ -358,7 +357,8 @@
           3.699,
           3.727,
           3.728,
-          3.776
+          3.776,
+          3.787
         ]
       }
     ]
@@ -366,37 +366,37 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,8 billions USD",
-      "contexte": "Le marché mondial des cryptomonnaies a atteint une capitalisation de 2,8 billions USD en septembre 2026, dopé par l'adoption institutionnelle croissante et les approbations réglementaires des ETF spot Bitcoin dans les principales économies.",
-      "source": "CoinMarketCap & Bloomberg Finance"
+      "chiffre": "2,847 milliards de dollars",
+      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en septembre 2026, portée par la révolution de l'IA générative et les technologies quantiques. Cette croissance représente une augmentation de 34% depuis le début de l'année.",
+      "source": "Bloomberg Global Markets Index - Septembre 2026"
     },
     "ephemeride": {
-      "evenement": "2 septembre 1998 : Création de Google par Larry Page et Sergey Brin",
-      "impact": "Cette date marque le début d'une révolution numérique qui a transformé l'économie mondiale, créant un géant technologique valuant aujourd'hui plus de 1 500 milliards USD et monopolisant 90% des recherches internet."
+      "evenement": "Le 3 septembre 1998 : La Russie déclare le défaut de paiement sur sa dette souveraine, marquant la fin du régime de change fixe du rouble.",
+      "impact": "Cette crise a déclenché une contagion financière mondiale, forçant les banques centrales à intervenir massivement et révélant les risques systémiques de la globalisation financière."
     },
     "graphique_semaine": {
-      "titre": "Évolution du rendement obligataire 10 ans (Zone Eurozone) - Semaine du 26 août au 2 septembre 2026",
-      "description": "Les rendements obligataires européens ont connu une volatilité modérée cette semaine, oscillant entre 2,15% et 2,48% en réaction aux données d'inflation et aux anticipations de politique monétaire de la BCE. La hausse en fin de semaine reflète les craintes d'une persistance de l'inflation core au-dessus de la cible 2%.",
+      "titre": "Evolution des rendements obligataires gouvernementaux (28 août - 3 septembre 2026)",
+      "description": "Les rendements des obligations 10 ans des pays du G7 connaissent une volatilité accrue suite aux annonces de politique monétaire. La Réserve Fédérale américaine maintient ses taux, tandis que la BCE signale un assouplissement graduel. Les marchés intègrent progressivement ces divergences de politique économique.",
       "donnees": [
         {
-          "label": "Lundi 26 août",
-          "valeur": 2.18
+          "label": "Lundi 28 août",
+          "valeur": 4.12
         },
         {
-          "label": "Mardi 27 août",
-          "valeur": 2.22
+          "label": "Mardi 29 août",
+          "valeur": 4.08
         },
         {
-          "label": "Mercredi 28 août",
-          "valeur": 2.15
+          "label": "Mercredi 30 août",
+          "valeur": 4.15
         },
         {
-          "label": "Jeudi 29 août",
-          "valeur": 2.35
+          "label": "Jeudi 1 septembre",
+          "valeur": 4.09
         },
         {
-          "label": "Vendredi 2 sept",
-          "valeur": 2.48
+          "label": "Jeudi 3 septembre",
+          "valeur": 4.18
         }
       ]
     }
@@ -405,9 +405,57 @@
     "articles": [
       {
         "source": "Vatican News",
-        "titre": "Audience générale: «que la joie et l’espérance soient les traits distinctifs de l'Église»",
+        "titre": "Les infos de L'Œuvre d'Orient - 3 septembre 2026",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/les-infos-de-l-uvre-d-orient-3-septembre-2026.html",
+        "resume": "175 ans de soins, de dignité et de paix à Jérusalem.\n                    Tout lire\n                    &nbsp;",
+        "pub": "Thu, 03 Sep 2026 07:44:00 +0200",
+        "heure": "09h44"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Séisme en Colombie: Léon XIV exprime sa «proximité» lors d'un appel avec le président",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/seisme-colombie-solidarite-victimes-humanitaires-pape-entretien.html",
+        "resume": "Lors d'une conversation téléphonique avec Abelardo de la Espriella, qui s'est tenue ce mercredi après-midi, le Pape a fait part au chef d'État colombien,de sa solidarité avec les personnes touchées par le tre",
+        "pub": "Wed, 02 Sep 2026 18:32:00 +0200",
+        "heure": "20h32"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Mission, liturgie, abus: les nouveaux évêques en formation au Vatican",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/eveques-vatican-formation-cours-mission-pastorale-liturgie-abus.html",
+        "resume": "À partir de ce 2 septembre, et jusqu’à jeudi prochain, un cours annuel de formation se tient au Vatican pour les évêques récemment nommés. Plus de 140 participants venus des quatre coins du monde se répartiro",
+        "pub": "Wed, 02 Sep 2026 17:54:00 +0200",
+        "heure": "19h54"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Au Vatican, philosophes et scientifiques interrogent les relations entre homme et IA",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/technologie-intelligence-artificielle-machine-conference.html",
+        "resume": "La Casina Pio IV, dans les jardins du Vatican, accueille l'une des rencontres de la troisième conférence du Centre international d'études de la conscience (ICCS). Intitulée Créativité: Esprits et Machines, la",
+        "pub": "Wed, 02 Sep 2026 16:36:00 +0200",
+        "heure": "18h36"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "À l'ONU, le Saint-Siège dénonce la «logique de la peur» imposée par la dissuasion nucléaire",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/saint-siege-onu-tests-nucleaires.html",
+        "resume": "Lors d'une intervention aux Nations-Unies, la Mission permanente d’observation du Saint-Siège appelle à la mise en œuvre du Traité d’interdiction complète des essais nucléaires: leurs conséquences durables no",
+        "pub": "Wed, 02 Sep 2026 14:50:00 +0200",
+        "heure": "16h50"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Prendre soin de la Création est une question théologique",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/prendre-soin-de-notre-maison-commune-une-question-theologique.html",
+        "resume": "La Commission théologique internationale a publié le document «Prendre soin de notre maison commune», qui appelle à une «réponse responsable et fraternelle envers le Dieu trinitaire». La question écologique e",
+        "pub": "Wed, 02 Sep 2026 11:27:00 +0200",
+        "heure": "13h27"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Audience générale: «Que la joie et l’espérance soient les traits distinctifs de l'Église»",
         "url": "https://www.vaticannews.va/fr/pape/news/2026-09/audience-generale-catechese-pape-vaticanii-gaudium-spes.html",
-        "resume": "Le Pape a entamé ce mercredi un nouveau cycle de catéchèse sur les grands textes du Concile Vatican II, s'arrêtant sur la Constitution Pastorale Gaudium et spes, qui revient avant tout sur l'Église à l'écoute",
+        "resume": "Le Pape a entamé ce mercredi un nouveau cycle de catéchèse sur les grands textes du Concile Vatican II, s'arrêtant sur la Constitution pastorale Gaudium et spes, qui revient avant tout sur l'Église à l'écoute",
         "pub": "Wed, 02 Sep 2026 09:42:00 +0200",
         "heure": "11h42"
       },
@@ -474,54 +522,6 @@
         "resume": "Dans un message à l’occasion de la XXVe Rencontre interinstitutionnelle du projet missionnaire qui accompagne les communautés autochtones les plus isolées et les plus pauvres en Amazonie, le cardinal invite à",
         "pub": "Tue, 01 Sep 2026 11:30:00 +0200",
         "heure": "13h30"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Haïti: «La violence ne doit pas nous décourager» affirme une missionnaire",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/haiti-une-missionnaire-la-violence-ne-doit-pas-nous-decourager.html",
-        "resume": "D'après le témoignage de Maddalena Boschetti, «fidei donum» en Haïti depuis 2002, rester devient en soi une réponse à la violence. «Le fait d’être présents, c’est ça la force», confie-t-elle, partager la vie",
-        "pub": "Mon, 31 Aug 2026 17:39:00 +0200",
-        "heure": "19h39"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Au Nigeria, les évêques dénoncent l'intolérable effusion de sang",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/violence-nigeria-eglise-eveques-massacre-afrique.html",
-        "resume": "Dans un communiqué, la Conférence épiscopale nigériane condamne la recrudescence des massacres et des enlèvements perpétrés par des bandes criminelles. Ce pays africain est pris en otage depuis des années par",
-        "pub": "Mon, 31 Aug 2026 17:18:00 +0200",
-        "heure": "19h18"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le nonce en Roumanie: Jean-Paul Ier, exemple de réconciliation et communion",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/nonce-roumanie-mgr-gloder-jean-paul-ier-exemple-reconciliation.html",
-        "resume": "La Fondation vaticane «Jean-Paul Ier» a fait don à l’église du Très Saint Rédempteur de Bucarest d’une icône et d’une relique du bienheureux Albino Luciani. La cérémonie de remise a eu lieu lors de la messe p",
-        "pub": "Mon, 31 Aug 2026 16:53:00 +0200",
-        "heure": "18h53"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Église de Chine: ordination du nouvel évêque de Datong",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/eglise-catholique-chine-nomination-eveque.html",
-        "resume": "Le Père Paul Liu Honggang a été ordonné ce lundi 31 août. Il a été nommé évêque de Datong, dans la province de Shanxi, le 10 août dernier par Léon XIV. Le Pape a approuvé sa candidature dans le cadre de l'Acc",
-        "pub": "Mon, 31 Aug 2026 15:42:00 +0200",
-        "heure": "17h42"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape reçoit la Commission de surveillance de l'hôpital fondé par Padre Pio",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-08/leon-xiv-recoit-commission-surveillance-fond-casa-del-sollievo.html",
-        "resume": "Une rencontre qui s’est tenue ce matin, 31 août, à Castel Gandolfo, a permis de faire le point sur les travaux de la Commission, instituée par un chirographe du Pape en mai dernier, et que Léon XIV suit de pr",
-        "pub": "Mon, 31 Aug 2026 14:50:00 +0200",
-        "heure": "16h50"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Holy games: une course pour redécouvrir dix églises à Paris",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-08/une-course-pour-redecouvrir-dix-eglises-a-paris.html",
-        "resume": "Dans la dynamique des Jeux Olympiques de Paris 2024, le programme sportif de l'Église de France, Holy Games, organise une course, le Paris Églises Tour, le dimanche 6 septembre. Soutenu dès son origine par le",
-        "pub": "Mon, 31 Aug 2026 13:05:00 +0200",
-        "heure": "15h05"
       }
     ]
   }
