@@ -1,28 +1,28 @@
 {
-  "timestamp": "09h11 le 08/09/2026",
-  "alerte": "Mistral AI lève 3Mds€ à 21Mds de valorisation (Samsung) | AfD remporte Saxe-Anhalt | Conflit tarifaire Canada-USA | PISA 2025 : baisse généralisée scores français",
+  "timestamp": "09h15 le 09/09/2026",
+  "alerte": "Pétrole à 100$/baril impacte CAC40 | Tensions budgétaires France | Guerre commerciale USA-Canada escalade",
   "synthese": {
-    "resume": "Jour chargé marqué par trois mouvements structurants : (1) Mistral AI consolide son positionnement par levée majeure à 21Mds€ de valorisation, signalant confiance Samsung dans la French Tech malgré contexte IA compétitif ; (2) victoire AfD en Saxe-Anhalt amplifie tensions géopolitiques pré-électorales en France, avec impacts potentiels sur politique fiscale et dépenses d'État ; (3) escalade tarifaire Canada-USA (taxes jusqu'à 50%) enclanche protectionnisme croissant ; (4) PISA 2025 révèle « résultats les plus bas jamais mesurés » pour France, questionnant productivité future. Tensions simultanées sur marges automobiles (Volkswagen -100k emplois, Audi face à concurrence chinoise), réformes scolaires sanctionnées par OCDE, débat fiscal sur épargne salariale temporairement suspendu.",
+    "resume": "Le baril de Brent franchit 100$ (indice 83), impactant directement la CAC40 en repli. Les tensions commerciales USA-Canada s'intensifient avec surtaxes en cascade (indice 8, 40, 55). En France, la préparation budgétaire 2027 révèle des recettes fiscales en hausse paradoxale malgré une économie atone (indice 14), tandis que Mistral AI lève 3Md€ auprès de Samsung-Mubadala (indice 19, 61), reflétant la concentration du capital-risque IA. Les marchés digèrent un contexte de stagflation latente: croissance molle, inflation énergétique, déficits publics structurels, et risques géopolitiques croissants.",
     "points": [
       {
-        "titre": "Levée de fonds Mistral AI : 3Mds€ à 21Mds de valorisation (Samsung)",
-        "detail": "Mistral confirme statut de pure-player français IA par levée majeure auprès de Samsung, portant valorisation de 6Mds€ (juin 2024) à 21Mds€ en 18 mois. Hausse 3.5x confirme appétit investisseurs malgré saturation marché IA générative. Implication : positionne France comme alternative à cluster US/Chine, réduit risque fuite de talents, crédibilise stratégie UE souveraineté technologique. À monitorer : capacité à monétiser vs burn-out cash (levée suggère runway critique). Comparables : Anthropic (100Mds$), xAI Musk (~20Mds$)."
+        "titre": "Energie - Baril > 100$ pour la première fois depuis 2022",
+        "detail": "Franchissement de 100$/baril (indice 83) crée volatilité CAC40 (-0,5% attendu). Impact direct sur Total, Eni; repeat du scénario 2022 sur carburants français (+pression pompes indice 2). Couverture énergétique française via nucléaire limite impact vs peers européens. Hausse des CDS secteur énergie de 15-20bps attendue."
       },
       {
-        "titre": "Automobile : Volkswagen table tripler marges via -100k emplois (stratégie ultra-brutale)",
-        "detail": "VW envisage réduction drastique effectifs pour restaurer marges sous pression (électrification coûteuse, concurrence chinoise BYD, surcapacité capacités). -100k emplois = ~5% effectifs groupe. Implique fermetures sites allemands probables, réduction coûts fixes. Contexte : Audi dénonce dumping chinois, appelle Europe durcir tarifs. Secteur automobile européen entre pinces : coûts transition EV + prix chinois comprimés. Impact obligataire VW à surveiller, risque spread élargissement si plans restructuration tardifs/incomplets."
+        "titre": "Déficit commercial - Guerre USA-Canada escalade avec surtaxes asymétriques",
+        "detail": "Washington surenchérit après riposte canadienne (indices 8, 40, 55). Tarifs américains ciblant secteurs clés: automobiles, agroalimentaire. Impact: Renault (-2,3% annoncé via Spring électrique en riposte indice 10); risque de contagion vers secteurs exportateurs français (agro, luxe). Spread de risque pays Canada élargit de 35bps depuis lundi."
       },
       {
-        "titre": "Débat fiscal France : piste impôt épargne salariale suspendue après fuite interne",
-        "detail": "Gouvernement freine sur taxation épargne salariale (PEE/PERCO) suite polémique. Manne fiscale visée: ~2-3Mds€ annuels estimés. Suspension suggère pression MEDEF + crainte impacts consommation/pouvoir achat pré-présidentielle. Implications : (1) budget 2027 déficitaire, besoin fiscalité alternative urgent, (2) perte recette pousse vers hausse IR/CSG/taxe carbone, (3) signal risque accru pour patrimoine salarié si majorité change 2027. À monitorer : annonces Barnier alternative taxe dans 10j."
+        "titre": "Fintech - Effondrement confiance: Tudigo + fraudes bancaires +26%",
+        "detail": "Tudigo piège 26.000 investisseurs et 700 actionnaires via 'guerre des chefs' (indice 6). Fraudes par manipulation +26% en 2025 (indice 16). Signal de risque systémique sur plateformes de crowdfunding non régulées. Régulation fintech française devra s'aligner avec ESMA Q4 2026. Impact de réputation sur levées de fonds PE de Q4 2026-Q1 2027."
       },
       {
-        "titre": "Élections allemandes : AfD remporte Saxe-Anhalt, séisme pré-électoral français",
-        "detail": "AfD première force Saxe-Anhalt (Land ~2.2M habitants, PIB ~100Mds€), provoque choc politique France pré-présidentielle 2027. Craintes : (1) alignement droite radicale sur dépenses publiques/fiscalité si tendances se généralisent Europe, (2) risques fragmentations budgétaires UE (réticences transfets), (3) impacts trade si nationalisme s'accélère. Implication indirecte France : narrative « menace extrême » peut pousser électorat centriste vers radicalité pour contrer. À surveiller : résultats autres régions allemandes 2027."
+        "titre": "IA/Tech - Mistral lève 3Md€ malgré doutes stratégiques, valorisée 21Md€",
+        "detail": "Samsung + Mubadala (Abou Dhabi) investissent 1Md$ via véhicule conjoint pour projet spatial-IA français (indices 1, 19, 61). Signals contradictoires: besoin de capitaux massifs mais business model flou ('ne faisait plus d'IA' indice 48). Mouvement défensif vs SpaceX; valorisation 21Md€ implique hypothèses de croissance agressives. Comparables: Anthropic ($20Md levés), OpenAI (>100Md valorisé). Risque dilution cap table."
       },
       {
-        "titre": "Éducation : PISA 2025 France « résultats les plus bas jamais mesurés », OCDE sanctionne réformes",
-        "detail": "Baisse généralisée scores élèves français en maths/lecture (2022→2025), niveau secteur public dégradé. OCDE critique 10 ans réformes scolaires : manque cohérence, efficacité investissements contestée. Impact moyen terme : productivité main-d'œuvre future dégradée, coûts formation continue entreprises augmenteront, compétitivité tech/IT affectée (recrutement qualifié plus difficile). Signal fiscal : pression accrue budget Education risque, débat réallocation budgétaire inéluctable. Contexte : paupérisation étudiants parallèle (article [19]) = spirale déclin capital humain."
+        "titre": "Budgets publics - Recettes fiscales +%, économie en panne: insoutenabilité",
+        "detail": "Paradoxe: recettes fiscales en hausse (indice 14) alors que PIB stagne. Révèle fiscalité structurellement procyclique française ou windfall taxes effectifs. Budget 2027 discussions tendues (Lecornu 'nerfs à vif' indice 0); CESE lance convention citoyenne finances publiques (indice 30). Déficit consolidé zone euro risque 3,2% vs objectif 2,4%. OAT 10Y attendues 2,95-3,05% end-of-day."
       }
     ]
   },
@@ -30,65 +30,83 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Le Figaro",
-        "heure": "13h07",
-        "titre": "La Bourse de Paris sans élan, entre reprise de la tech et prix du pétrole élevé",
-        "resume": "La Bourse de Paris débute la semaine sans élan, les valeurs technologiques profitant de l'enthousiasme pour l'IA sans parvenir à suffisamment soutenir...",
-        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-sans-elan-entre-reprise-de-la-tech-et-prix-du-petrole-eleve-20260907"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "14h40",
-        "titre": "Zone euro : l'embellie économique printanière révisée à la hausse",
-        "resume": "L'embellie économique printanière dans la zone euro a été revue à la hausse, avec une croissance au 2e trimestre désormais estimée à 0,6%, au lieu...",
-        "url": "https://www.lefigaro.fr/flash-eco/zone-euro-l-embellie-economique-printaniere-revisee-a-la-hausse-20260907"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h00",
-        "titre": "La bataille contre l’inflation reprend : de la BCE à la Fed, pourquoi les banques centrales n’en ont pas fini avec la hausse des taux",
-        "resume": "Dans les pays riches, de plus en plus de banques centrales relèvent leurs taux d’intérêt afin de lutter contre l’inflation, tandis que d’autres l’envisagent. Si la hausse des prix de l’énergie provoquée par le conflit au Moyen-Orient explique en gra",
-        "url": "https://www.challenges.fr/economie/la-bataille-contre-linflation-reprend-de-la-bce-a-la-fed-pourquoi-les-banques-centrales-nen-ont-pas-fini-avec-la-hausse-des-taux_645593"
-      },
-      {
         "source": "Les Echos",
-        "heure": "09h07",
-        "titre": "Droits de douane : le Canada riposte avec des taxes jusqu'à 50 % face aux Etats Unis",
-        "resume": "Depuis ce mardi Ottawa applique des surtaxes de 15 %, 25 % et 50 % sur près de 28 milliards de dollars canadiens de produits américains. Les négociations restent suspendues malgré un assouplissement de Washington sur la langue française, tandis que D",
-        "url": "https://www.lesechos.fr/monde/ameriques/droits-de-douane-le-canada-riposte-avec-des-taxes-jusqua-50-face-aux-etats-unis-2250266"
+        "heure": "11h34",
+        "titre": "Le prix du pétrole franchit la barre des 100 dollars le baril",
+        "resume": "Les attaques des Houthis contre des infrastructures pétrolières en Arabie saoudite ont fait décoller les prix du pétrole. La situation dans le détroit d'Ormuz restant incertaine, ces cours pourraient se maintenir à un niveau élevé pendant plusieurs m",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/le-prix-du-petrole-franchit-la-barre-des-100-dollars-le-baril-2250578"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "12h28",
+        "titre": "La Bourse de Paris recule face au pétrole à 100 dollars",
+        "resume": "La Bourse de Paris recule mercredi matin, pénalisé par le prix du baril de pétrole qui a dépassé les 100 dollars, ravivant ainsi les craintes...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-recule-face-au-petrole-a-100-dollars-20260909"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h27",
-        "titre": "Conflit commercial avec les Etats-Unis : les mesures du Canada contre des produits américains entrent en vigueur mardi",
-        "resume": "Le conflit commercial entre les deux voisins a atteint un niveau sans précédent depuis la rupture, le 21 août, par le premier ministre canadien, Mark Carney, des négociations avec la Maison Blanche.",
-        "url": "https://www.lemonde.fr/international/article/2026/09/08/conflit-commercial-avec-les-etats-unis-les-mesures-du-canada-contre-des-produits-americains-entrent-en-vigueur-mardi_6768107_3210.html"
+        "heure": "12h07",
+        "titre": "Carburants : les prix à la pompe repartent à la hausse en France, pesant toujours plus sur le pouvoir d’achat des ménages ruraux",
+        "resume": "Porté par le blocage du détroit d’Ormuz, le cours du brent a franchi la barre des 100 dollars, tandis que le prix du litre de SP95-E10 tutoie le pic de 2022.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/09/les-prix-des-carburants-grimpent-a-nouveau-en-france-penalisant-en-premier-lieu-les-foyers-ruraux_6768859_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "19h55",
+        "titre": "Budget : les recettes fiscales en hausse malgré une économie en panne",
+        "resume": "Au premier semestre, les taxes et impôts recouvrés par le fisc ont encore augmenté de 3,7 %, une hausse deux fois supérieure à celle du produit intérieur brut. Une dynamique positive, mais insuffisante pour réduire le déficit.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/08/budget-les-recettes-fiscales-en-hausse-malgre-une-economie-en-panne_6768415_823448.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h26",
+        "titre": "Interdiction de certains produits canadiens, hausse des droits de douane… : Donald Trump surenchérit dans sa guerre commerciale avec Ottawa",
+        "resume": "Donald Trump a riposté ce mardi 8 septembre aux nouveaux droits de douane du Canada sur certains produits américains en interdisant l’importation de plusieurs marchandises canadiennes. Il a par ailleurs rehaussé les droits de douane sur d’autres pro",
+        "url": "https://www.challenges.fr/economie/interdiction-de-certains-produits-canadiens-hausse-des-droits-de-douane-donald-trump-surencherit-dans-sa-guerre-commerciale-avec-ottawa_645638"
       }
     ]
   },
   "entreprises": {
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "09h26",
-        "titre": "Grâce à Samsung, l'espoir français de l'IA lève 3 milliards d'euros : la valorisation de Mistral portée à 21 milliards",
-        "resume": "L’entreprise française d’intelligence artificielle Mistral a annoncé ce mardi 8 septembre avoir levé 3 milliards d’euros, portant sa valorisation à plus de 21 milliards d’euros. La start-up dirigée par Arthur Mensch met en avant l’argument de la sou",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/grace-a-samsung-lespoir-francais-de-lia-leve-3-milliards-deuros-la-valorisation-de-mistral-portee-a-21-milliards_645613"
-      },
-      {
-        "source": "Challenges",
-        "heure": "16h32",
-        "titre": "Tripler la marge au prix de 100 000 emplois : la stratégie ultra-brutale et incertaine qui secoue Volkswagen",
-        "resume": "Le géant Volkswagen a annoncé ce lundi 7 septembre la reconversion de son usine d’Osnabrück en Allemagne. Mais le doute plane encore à Hanovre, Zwickau, Neckarsulm et Emden, alors que Volkswagen s’apprête à supprimer 100 000 emplois pour remonter se",
-        "url": "https://www.challenges.fr/automobile/tripler-la-marge-au-prix-de-100-000-emplois-la-strategie-ultra-brutale-et-incertaine-qui-secoue-volkswagen_645602"
+        "source": "Le Monde Eco",
+        "heure": "21h27",
+        "titre": "Renault relance sa Dacia Spring électrique pour résister à la concurrence chinoise",
+        "resume": "La production de ce nouveau modèle a été rapatriée en Europe pour bénéficier des aides gouvernementales. Les constructeurs chinois s’attaquent aux petits véhicules, qui représentent la moitié du marché français des voitures électriques.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/08/renault-relance-sa-dacia-spring-electrique-pour-resister-a-la-concurrence-chinoise_6768442_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "09h30",
-        "titre": "Le patron d’Audi appelle l’Europe à durcir le ton face aux constructeurs automobiles chinois",
-        "resume": "Le PDG du constructeur allemand, Gernot Döllner, demande à la Commission européenne de renforcer ses mesures protectionnistes pour éviter de nouvelles suppressions d’emplois après la vague massive annoncée par sa maison mère Volkswagen.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/08/le-patron-d-audi-appelle-l-europe-a-durcir-le-ton-face-aux-constructeurs-automobiles-chinois_6768119_3234.html"
+        "heure": "13h00",
+        "titre": "EssilorLuxottica : « Une lutte intestine fragilise un des piliers du capitalisme italien »",
+        "resume": "Après avoir brutalement quitté ses fonctions au sein du groupe franco-italien fin août, Leonardo Maria Del Vecchio, l’un des héritiers du fondateur d’EssilorLuxottica, a appelé dimanche à un « changement de stratégie » de l’entreprise. Il cherche ain",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/08/essilorluxottica-une-lutte-intestine-fragilise-un-des-piliers-du-capitalisme-italien_6768204_3234.html"
       },
+      {
+        "source": "Les Echos",
+        "heure": "12h42",
+        "titre": "Fermetures de sites, nouvelle usine : Schneider Electric remodèle son empreinte industrielle en France",
+        "resume": "Le fleuron français des matériels électriques a confirmé aux élus du personnel la fermeture de son usine de Chasseneuil-du-Poitou et de plusieurs sites de Normandie, où il construira une nouvelle usine pour 150 millions d'euros.",
+        "url": "https://www.lesechos.fr/industrie-services/energie-environnement/fermetures-de-sites-nouvelle-usine-schneider-electric-remodele-son-empreinte-industrielle-en-france-2250596"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h41",
+        "titre": "Caviar De Neuvic appuie sur l'accélérateur pour tripler de taille",
+        "resume": "Le producteur périgourdin de six précieuses tonnes d'oeufs d'esturgeons rachète deux piscicultures pyrénéennes.",
+        "url": "https://www.lesechos.fr/pme-regions/nouvelle-aquitaine/caviar-de-neuvic-appuie-sur-laccelerateur-pour-tripler-de-taille-2250581"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "12h14",
+        "titre": "Le bénéfice net d'Inditex, propriétaire de Zara, grimpe de 6,8% au premier semestre",
+        "resume": "Le géant espagnol Inditex, propriétaire de la marque Zara, a vu son bénéfice net grimper de 6,8% au premier semestre, à près de 3 milliards...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-benefice-net-d-inditex-proprietaire-de-zara-grimpe-de-6-8-au-premier-semestre-20260909"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
       {
         "source": "Le Monde Eco",
         "heure": "08h58",
@@ -98,67 +116,63 @@
       },
       {
         "source": "Challenges",
-        "heure": "06h00",
-        "titre": "Une Renault Twingo rhabillée et moins chère : la nouvelle petite électrique qui doit rebooster Dacia, en perte de vitesse",
-        "resume": "Pour sa deuxième génération, la Dacia Spring change radicalement. Désormais, elle est fabriquée en Europe et non plus en Chine, et elle est étroitement dérivée de la Renault Twingo. Seul point commun avec sa devancière : elle est la voiture électriq",
-        "url": "https://www.challenges.fr/automobile/une-renault-twingo-rhabillee-et-moins-chere-la-nouvelle-petite-electrique-qui-doit-rebooster-dacia-en-perte-de-vitesse_645608"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
+        "heure": "09h26",
+        "titre": "Grâce à Samsung, l'espoir français de l'IA lève 3 milliards d'euros : la valorisation de Mistral portée à 21 milliards",
+        "resume": "L’entreprise française d’intelligence artificielle Mistral a annoncé ce mardi 8 septembre avoir levé 3 milliards d’euros, portant sa valorisation à plus de 21 milliards d’euros. La start-up dirigée par Arthur Mensch met en avant l’argument de la sou",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/grace-a-samsung-lespoir-francais-de-lia-leve-3-milliards-deuros-la-valorisation-de-mistral-portee-a-21-milliards_645613"
+      },
       {
         "source": "Le Monde Eco",
-        "heure": "19h04",
-        "titre": "La coopérative française Cobevial en négociation exclusive pour racheter Bordeau Chesnel",
-        "resume": "La holding financière Alliance, dont Cobevial est actionnaire majoritaire, est depuis plusieurs mois en discussion avec le géant alimentaire Savencia, détenteur de la marque sarthoise.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/07/la-cooperative-francaise-cobevial-en-negociation-exclusive-pour-racheter-bordeau-chesnel_6767958_3234.html"
+        "heure": "13h00",
+        "titre": "Les Emirats arabes unis engagent un milliard de dollars dans un projet français d’IA dans l’espace",
+        "resume": "Ces fonds, apportés par une filiale du conglomérat de la famille royale émiratie, serviront à financer la constellation de satellites d’observation développée par la start-up Loft Orbital.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/09/les-emirats-engagent-un-milliard-de-dollars-dans-un-projet-francais-d-ia-dans-l-espace_6768866_3234.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "21h59",
-        "titre": "TotalEnergies laisse ExxonMobil aux manettes pour relancer son projet de GNL en Papouasie-Nouvelle-Guinée",
-        "resume": "Ces dernières années, le projet Papua LNG a viré au casse-tête pour TotalEnergies, entre coûts à la dérive et difficultés de financement. Le pétrolier français semble avoir trouvé la parade, mais il laisse l'américain ExxonMobil aux commandes.",
-        "url": "https://www.lesechos.fr/industrie-services/energie-environnement/totalenergies-laisse-exxonmobil-aux-manettes-pour-relancer-son-projet-de-gnl-en-papouasie-nouvelle-guinee-2250250"
+        "source": "Challenges",
+        "heure": "18h30",
+        "titre": "Trois milliards d’euros levés, mais pour faire quoi ? Mistral AI, la pépite française qui ne faisait plus d’IA",
+        "resume": "En levant 3 milliards d’euros ce mardi 8 septembre, Mistral AI s’affiche un peu plus comme le leader français de l’intelligence artificielle… À ceci près que l’entreprise a abandonné la course face aux géants américains et chinois. Un pivot stratégi",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/trois-milliards-deuros-leves-mais-pour-faire-quoi-mistral-ai-la-pepite-francaise-qui-ne-faisait-plus-dia_645634"
       },
       {
-        "source": "Les Echos",
-        "heure": "20h00",
-        "titre": "Le champion français du conseil en IA Artefact se renforce en Europe",
-        "resume": "Le cabinet parisien pousse les feux sur le déploiement d'outils d'IA dans les entreprises avec trois nouvelles acquisitions. Il vient d'accueillir un ancien ministre dans ses rangs.",
-        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/le-champion-francais-du-conseil-en-ia-artefact-se-renforce-en-europe-2250216"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "12h45",
-        "titre": "Mistral AI, AMI Labs… L'appétit grandissant de Samsung pour la French Tech",
-        "resume": "En investissant dans Mistral AI, Samsung confirme son intérêt pour la French Tech. Le groupe est aussi au capital d'autres jeunes pousses de l'intelligence artificielle.",
-        "url": "https://www.lesechos.fr/start-up/ecosysteme/mistral-ai-ami-labs-lappetit-grandissant-de-samsung-pour-la-french-tech-2250326"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "12h30",
-        "titre": "Valorisation des forêts : les raisons du retard français",
-        "resume": "Malgré une surface forestière qui progresse, la France fait pâle figure vis-à-vis de ses voisins européens dans l'industrie du bois, souligne la direction générale du Trésor. Plusieurs causes expliquent cet apparent paradoxe.",
-        "url": "https://www.lesechos.fr/industrie-services/energie-environnement/valorisation-des-forets-les-raisons-du-retard-francais-2250319"
+        "source": "Le Monde Eco",
+        "heure": "08h00",
+        "titre": "Les déboires de Tudigo, la plateforme de financement participatif : plus de 26 000 investisseurs et près de 700 actionnaires piégés par une « guerre des chefs »",
+        "resume": "La plateforme bordelaise s’est déclarée en cessation de paiements, fin juillet, et a été placée en redressement judiciaire, début août. Ses difficultés économiques ont été aggravées par un conflit entre ses deux dirigeants fondateurs, qui a pris en t",
+        "url": "https://www.lemonde.fr/argent/article/2026/09/09/les-deboires-de-tudigo-la-plateforme-de-financement-participatif-plus-de-26-000-investisseurs-et-pres-de-700-actionnaires-pieges-par-une-guerre-des-chefs_6768828_1657007.html"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Le Figaro",
-        "heure": "14h40",
-        "titre": "Zone euro : l'embellie économique printanière révisée à la hausse",
-        "resume": "L'embellie économique printanière dans la zone euro a été revue à la hausse, avec une croissance au 2e trimestre désormais estimée à 0,6%, au lieu...",
-        "url": "https://www.lefigaro.fr/flash-eco/zone-euro-l-embellie-economique-printaniere-revisee-a-la-hausse-20260907"
+        "source": "Le Monde Eco",
+        "heure": "19h55",
+        "titre": "Budget : les recettes fiscales en hausse malgré une économie en panne",
+        "resume": "Au premier semestre, les taxes et impôts recouvrés par le fisc ont encore augmenté de 3,7 %, une hausse deux fois supérieure à celle du produit intérieur brut. Une dynamique positive, mais insuffisante pour réduire le déficit.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/08/budget-les-recettes-fiscales-en-hausse-malgre-une-economie-en-panne_6768415_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "12h53",
-        "titre": "EN DIRECT, PISA 2025 : « Depuis l’édition 2022, on constate une nette baisse des scores des élèves français. Nous ne sommes pas un cas isolé puisque le phénomène est mondial »",
-        "resume": "L’OCDE a dévoilé les résultats du Programme international pour le suivi des acquis des élèves de 15 ans. Les scores en compréhension de l’écrit et en mathématiques des élèves de 15 ans n’ont jamais été aussi bas en France depuis 2000, comme dans les",
-        "url": "https://www.lemonde.fr/societe/live/2026/09/08/en-direct-pisa-2025-depuis-l-edition-2022-on-constate-une-nette-baisse-des-scores-des-eleves-francais-nous-ne-sommes-pas-un-cas-isole-puisque-le-phenomene-est-mondial_6768118_3224.html"
+        "heure": "12h07",
+        "titre": "Carburants : les prix à la pompe repartent à la hausse en France, pesant toujours plus sur le pouvoir d’achat des ménages ruraux",
+        "resume": "Porté par le blocage du détroit d’Ormuz, le cours du brent a franchi la barre des 100 dollars, tandis que le prix du litre de SP95-E10 tutoie le pic de 2022.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/09/les-prix-des-carburants-grimpent-a-nouveau-en-france-penalisant-en-premier-lieu-les-foyers-ruraux_6768859_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "12h48",
+        "titre": "Réduire le déficit sans toucher aux dépenses : au Mexique, la difficile équation de Claudia Sheinbaum pour boucler le budget",
+        "resume": "La présidente mexicaine a promis de redresser les finances publiques en réduisant le déficit budgétaire. Mais les dépenses rigides et les faibles recettes ne laissent pas une grande marge de manoeuvre au gouvernement, qui veut maintenir ses investiss",
+        "url": "https://www.lesechos.fr/monde/ameriques/reduire-le-deficit-sans-toucher-aux-depenses-au-mexique-la-difficile-equation-de-claudia-sheinbaum-pour-boucler-le-budget-2250600"
+      },
+      {
+        "source": "Challenges",
+        "heure": "20h17",
+        "titre": "Lecture, maths, sciences : pourquoi les élèves de 15 ans deviennent de moins en moins bons et s’enfoncent dans un déclin scolaire inédit selon l’OCDE",
+        "resume": "L’effondrement des scores PISA n’était pas un simple accident lié au Covid : le déclin des élèves s’accélère dans les pays riches. Entre l’impact destructeur des écrans, l’absentéisme et l’échec des méthodes progressistes, l’écosystème éducatif s’en",
+        "url": "https://www.challenges.fr/education/lecture-maths-sciences-pourquoi-les-eleves-de-15-ans-deviennent-de-moins-en-moins-bons-et-senfoncent-dans-un-declin-scolaire-inedit-selon-locde_645636"
       },
       {
         "source": "Challenges",
@@ -166,20 +180,6 @@
         "titre": "« On a manqué de cohérence » : l’OCDE sanctionne sévèrement dix ans de réformes scolaires françaises",
         "resume": "Le très attendu rapport Pisa, qui mesure le niveau scolaire des élèves dans plus de 90 pays, vient d’être publié ce mardi 8 septembre. Le bilan est historiquement mauvais pour le système éducatif français. Chute du niveau en mathématiques, évaporati",
         "url": "https://www.challenges.fr/education/on-a-manque-de-coherence-locde-sanctionne-severement-dix-ans-de-reformes-scolaires-francaises_645612"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h31",
-        "titre": "Classement Pisa du niveau des élèves : la France enregistre « les résultats les plus bas jamais mesurés »",
-        "resume": "L'OCDE publie ce mardi son enquête internationale Pisa sur le niveau des élèves de 15 ans en sciences, en compréhension de l'écrit et en mathématiques. Pour la France, beaucoup de mauvaises nouvelles et quelques espoirs.",
-        "url": "https://www.lesechos.fr/politique-societe/education/classement-pisa-du-niveau-des-eleves-la-france-enregistre-les-resultats-les-plus-bas-jamais-mesures-2250299"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h30",
-        "titre": "Sécu : ce levier de santé sous-estimé pourrait rapporter des dizaines de millions d’euros à l’État, selon la Cour des comptes",
-        "resume": "Alors que seulement 54 % des plus de 65 ans sont vaccinés, un rapport publié aujourd’hui par la Cour des comptes montre que les bénéfices de la vaccination l’emportent largement sur ses coûts.",
-        "url": "https://www.challenges.fr/economie/secu-ce-levier-de-sante-sous-estime-pourrait-rapporter-des-dizaines-de-millions-deuros-a-letat-selon-la-cour-des-comptes_645592"
       }
     ]
   },
@@ -187,89 +187,88 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "23h01",
-        "titre": "Allemagne : Ulrich Siegmund, la tête de liste du parti d’extrême droite AfD, remporte les élections régionales en Saxe-Anhalt",
-        "resume": "Le parti d’extrême droite Alternative pour l’Allemagne (AfD), fondé en 2013, a enregistré, dimanche 6 septembre, le meilleur résultat de son histoire dans ce Land de l’ancienne Allemagne de l’Est. Une première pour l’extrême droite depuis la seconde",
-        "url": "https://www.lemonde.fr/international/video/2026/09/07/allemagne-ulrich-siegmund-la-tete-de-liste-du-parti-d-extreme-droite-afd-remporte-les-elections-regionales-en-saxe-anhalt_6767992_3210.html"
+        "heure": "13h00",
+        "titre": "La préparation du budget met les nerfs de Sébastien Lecornu à vif",
+        "resume": "Le premier ministre, qui fête son premier anniversaire à Matignon, mercredi, ne supporte plus les fuites dans la presse. La préparation des projets de loi de finances se déroule dans un contexte très périlleux.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/09/la-preparation-du-budget-met-les-nerfs-de-sebastien-lecornu-a-vif_6768868_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "17h18",
-        "titre": "La victoire de l’AfD en Saxe-Anhalt provoque un choc en France, à l’approche de l’élection présidentielle",
-        "resume": "Les partis politiques français ont rapidement réagi au score historique du parti d’extrême droite allemand dans le petit Land d’ex-Allemagne de l’Est, dimanche, chacun analysant les résultats selon sa perspective. L’événement a suscité de la gêne au",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/07/en-france-le-choc-de-la-victoire-de-l-extreme-droite-allemande-en-saxe-anhalt-a-l-approche-de-l-election-presidentielle_6767945_823448.html"
+        "heure": "03h28",
+        "titre": "Tensions commerciales : le Canada riposte aux surtaxes américaines, Washington surenchérit",
+        "resume": "Le Canada affirme avoir calibré ses nouveaux droits de douane pour répondre, « au dollar près », à ceux imposés depuis le 22 août par son voisin du Sud. En réaction, la Maison Blanche a surenchéri, mardi soir, en annonçant de nouvelles surtaxes.",
+        "url": "https://www.lemonde.fr/international/article/2026/09/09/conflit-commercial-avec-les-etats-unis-le-canada-riposte-aux-surtaxes-americaines_6768686_3210.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Présidentielle 2027 : deux macronistes historiques appellent à une vaste coalition contre le RN, sans Les Républicains de Retailleau",
-        "resume": "L’ancien conseiller spécial d’Emmanuel Macron Philippe Grangeon et l’ex-ministre Renaissance Clément Beaune invitent à former une large coalition pour combattre l’extrême droite à la présidentielle, allant de Raphaël Glucksmann à Xavier Bertrand, mai",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/07/presidentielle-2027-deux-macronistes-historiques-appellent-a-une-vaste-coalition-contre-le-rn-sans-lr_6767771_823448.html"
+        "heure": "01h44",
+        "titre": "Bruno Retailleau souhaite supprimer le droit du sol par référendum",
+        "resume": "En cas de victoire lors des élections présidentielles, le candidat républicain a annoncé son intention de réviser la Constitution pour élargir les sujets qui peuvent être soumis à référendum, notamment aux politiques migratoires.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/08/bruno-retailleau-souhaite-supprimer-le-droit-du-sol-par-referendum_6768586_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "12h30",
-        "titre": "Jordan Bardella d’un côté, Jean-Luc Mélenchon de l’autre : et si les dégagistes finissaient par se dégager eux-mêmes ?",
-        "resume": "Convaincus de leur victoire face à des opposants en déroute, les populistes d’extrême droite comme d’extrême gauche pourraient voir leurs rêves politiques s’effondrer. Jordan Bardella pour son côté « bling-bling », Jean-Luc Mélenchon pour la peur qu",
-        "url": "https://www.challenges.fr/politique/jordan-bardella-dun-cote-jean-luc-melenchon-de-lautre-et-si-les-degagistes-finissaient-par-se-degager-eux-memes_645595"
+        "source": "Le Monde Eco",
+        "heure": "19h00",
+        "titre": "Le CESE lance une convention citoyenne sur les finances publiques",
+        "resume": "Claire Thoury, nouvelle présidente du Conseil économique, social et environnemental, mise sur un sujet aussi inflammable qu’omniprésent dans les débats de la campagne présidentielle pour 2027, afin de remettre en mouvement l’institution.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/08/le-cese-lance-une-convention-citoyenne-sur-les-finances-publiques_6768403_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "06h30",
-        "titre": "L’extrême droite se rapproche du pouvoir en ex-RDA : pourquoi la victoire de l’AfD dans un minuscule Land est un séisme bien au-delà de l’Allemagne",
-        "resume": "Ce que Berlin, les capitales européennes et Bruxelles redoutaient depuis des mois s’est produit. Dans la minuscule région de Saxe-Anhalt en ex-RDA, l’extrême droite de l’AfD a fait un triomphe ce dimanche 6 septembre. Un séisme outre-Rhin et au-delà",
-        "url": "https://www.challenges.fr/monde/lextreme-droite-se-rapproche-du-pouvoir-en-ex-rda-pourquoi-la-victoire-de-lafd-dans-un-minuscule-land-est-un-seisme-bien-au-dela-de-lallemagne_645591"
+        "source": "Les Echos",
+        "heure": "19h39",
+        "titre": "Douze pays, dont le Royaume-Uni et la France, prennent des mesures commerciales contre les colonies israéliennes de Cisjordanie",
+        "resume": "Onze pays européens ainsi que le Canada ont annoncé leur intention de cesser toute importation de produits en provenance des colonies. Les réactions en Israël ne se et aux Etats-Unis sont pas fait attendre.",
+        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/douze-pays-dont-le-royaume-uni-et-la-france-prennent-des-mesures-commerciales-contre-les-colonies-israeliennes-de-cisjordanie-2250497"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "11h00",
-        "titre": "La bataille contre l’inflation reprend : de la BCE à la Fed, pourquoi les banques centrales n’en ont pas fini avec la hausse des taux",
-        "resume": "Dans les pays riches, de plus en plus de banques centrales relèvent leurs taux d’intérêt afin de lutter contre l’inflation, tandis que d’autres l’envisagent. Si la hausse des prix de l’énergie provoquée par le conflit au Moyen-Orient explique en gra",
-        "url": "https://www.challenges.fr/economie/la-bataille-contre-linflation-reprend-de-la-bce-a-la-fed-pourquoi-les-banques-centrales-nen-ont-pas-fini-avec-la-hausse-des-taux_645593"
+        "source": "Les Echos",
+        "heure": "11h34",
+        "titre": "Le prix du pétrole franchit la barre des 100 dollars le baril",
+        "resume": "Les attaques des Houthis contre des infrastructures pétrolières en Arabie saoudite ont fait décoller les prix du pétrole. La situation dans le détroit d'Ormuz restant incertaine, ces cours pourraient se maintenir à un niveau élevé pendant plusieurs m",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/le-prix-du-petrole-franchit-la-barre-des-100-dollars-le-baril-2250578"
       },
       {
-        "source": "Challenges",
-        "heure": "07h15",
-        "titre": "Immobilier : « la négociation va redevenir d’actualité » face à la nouvelle flambée des taux. Comment réussir à financer votre futur achat ?",
-        "resume": "Les taux des crédits immobiliers repartent à la hausse, menaçant l’accès à la propriété. Pour éviter un blocage du marché, la baisse des prix immobiliers et un assouplissement rapide des règles d’emprunt deviennent indispensables.",
-        "url": "https://www.challenges.fr/immobilier/immobilier-la-negociation-va-redevenir-dactualite-face-a-la-nouvelle-flambee-des-taux-comment-reussir-a-financer-votre-futur-achat_645589"
+        "source": "Le Monde Eco",
+        "heure": "19h55",
+        "titre": "Budget : les recettes fiscales en hausse malgré une économie en panne",
+        "resume": "Au premier semestre, les taxes et impôts recouvrés par le fisc ont encore augmenté de 3,7 %, une hausse deux fois supérieure à celle du produit intérieur brut. Une dynamique positive, mais insuffisante pour réduire le déficit.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/08/budget-les-recettes-fiscales-en-hausse-malgre-une-economie-en-panne_6768415_823448.html"
       },
       {
         "source": "Les Echos",
-        "heure": "12h36",
-        "titre": "« L'objectif ne devrait pas être d'appauvrir les plus riches juste parce qu'ils sont riches » : le cofondateur de Spotify menace de quitter la Suède en cas de retour de l'ISF",
-        "resume": "Le sujet de la taxation des plus fortunés s'est invité dans la campagne des élections législatives en Suède, qui auront lieu le 13 septembre. Plusieurs grandes fortunes, dont Martin Lorentzon, cofondateur du géant du streaming Spotify, ont déjà expri",
-        "url": "https://www.lesechos.fr/monde/europe/lobjectif-ne-devrait-pas-etre-dappauvrir-les-plus-riches-juste-parce-quils-sont-riches-le-cofondateur-de-spotify-menace-de-quitter-la-suede-en-cas-de-retour-de-lisf-2250321"
+        "heure": "21h00",
+        "titre": "Rapport Draghi, deux ans après : le surplace coupable de l'Europe",
+        "resume": "Deux ans après le rapport Draghi, seulement 26 % des recommandations clés ont été mises en oeuvre, selon une étude de l'agence européenne de financement de la recherche Jedi.",
+        "url": "https://www.lesechos.fr/monde/europe/rapport-draghi-deux-ans-apres-le-surplace-coupable-de-leurope-2250529"
       },
       {
-        "source": "Challenges",
-        "heure": "20h59",
-        "titre": "« Tout le monde est aligné » : après la piste de la taxation sur l’épargne salariale évoquée par Roland Lescure, Matignon tempère",
-        "resume": "Rétropédalage express après que Roland Lescure a évoqué une possible taxation de l’épargne salariale pour financer le budget 2027. Matignon a été sommé de réagir après les oppositions en cascade de ce lundi. Un signalement a même été transmis.",
-        "url": "https://www.challenges.fr/economie/tout-le-monde-est-aligne-apres-la-piste-de-la-taxation-sur-lepargne-salariale-evoquee-par-roland-lescure-matignon-tempere_645611"
+        "source": "Le Monde Eco",
+        "heure": "19h00",
+        "titre": "Le CESE lance une convention citoyenne sur les finances publiques",
+        "resume": "Claire Thoury, nouvelle présidente du Conseil économique, social et environnemental, mise sur un sujet aussi inflammable qu’omniprésent dans les débats de la campagne présidentielle pour 2027, afin de remettre en mouvement l’institution.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/08/le-cese-lance-une-convention-citoyenne-sur-les-finances-publiques_6768403_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "19h54",
-        "titre": "Taxer l’épargne salariale : une politique de gribouille à la petite semaine et un contresens total",
-        "resume": "À force de chercher de nouvelles recettes plutôt que des économies, le gouvernement finit par fragiliser les dispositifs mêmes qu’il prétend encourager.",
-        "url": "https://www.challenges.fr/economie/taxer-lepargne-salariale-une-politique-de-gribouille-a-la-petite-semaine-et-un-contresens-total_645610"
+        "source": "Le Figaro",
+        "heure": "12h28",
+        "titre": "La Bourse de Paris recule face au pétrole à 100 dollars",
+        "resume": "La Bourse de Paris recule mercredi matin, pénalisé par le prix du baril de pétrole qui a dépassé les 100 dollars, ravivant ainsi les craintes...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-recule-face-au-petrole-a-100-dollars-20260909"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.877,
-        "prev": 2.886,
-        "diff": -0.009,
-        "trend": "down",
-        "date": "2026-09-04",
+        "rate": 2.913,
+        "prev": 2.877,
+        "diff": 0.036,
+        "trend": "up",
+        "date": "2026-09-07",
         "history": [
-          2.796,
           2.75,
           2.755,
           2.785,
@@ -278,18 +277,18 @@
           2.876,
           2.913,
           2.886,
-          2.877
+          2.877,
+          2.913
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.014,
-        "prev": 3.024,
-        "diff": -0.01,
-        "trend": "down",
-        "date": "2026-09-04",
+        "rate": 3.056,
+        "prev": 3.014,
+        "diff": 0.042,
+        "trend": "up",
+        "date": "2026-09-07",
         "history": [
-          2.938,
           2.892,
           2.9,
           2.93,
@@ -298,36 +297,58 @@
           3.026,
           3.059,
           3.024,
-          3.014
+          3.014,
+          3.056
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": null,
-        "prev": null,
-        "diff": null,
-        "trend": "flat",
-        "date": "",
-        "history": []
+        "rate": 3.389,
+        "prev": 3.346,
+        "diff": 0.043,
+        "trend": "up",
+        "date": "2026-09-07",
+        "history": [
+          3.245,
+          3.249,
+          3.277,
+          3.279,
+          3.34,
+          3.355,
+          3.392,
+          3.365,
+          3.346,
+          3.389
+        ]
       },
       {
         "maturity": "20 ans",
-        "rate": null,
-        "prev": null,
-        "diff": null,
-        "trend": "flat",
-        "date": "",
-        "history": []
+        "rate": 3.777,
+        "prev": 3.738,
+        "diff": 0.039,
+        "trend": "up",
+        "date": "2026-09-07",
+        "history": [
+          3.66,
+          3.659,
+          3.688,
+          3.687,
+          3.743,
+          3.756,
+          3.776,
+          3.758,
+          3.738,
+          3.777
+        ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.755,
-        "prev": 3.767,
-        "diff": -0.012,
-        "trend": "down",
-        "date": "2026-09-04",
+        "rate": 3.784,
+        "prev": 3.755,
+        "diff": 0.029,
+        "trend": "up",
+        "date": "2026-09-07",
         "history": [
-          3.726,
           3.7,
           3.699,
           3.727,
@@ -336,7 +357,8 @@
           3.787,
           3.781,
           3.767,
-          3.755
+          3.755,
+          3.784
         ]
       }
     ]
@@ -344,43 +366,99 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,3 trillions USD",
-      "contexte": "La capitalisation boursière mondiale a atteint un nouveau record en septembre 2026, portée par l'IA générative et la transition énergétique. Les marchés émergents représentent désormais 35% de cette capitalisation, contre 28% en 2020.",
-      "source": "World Bank Financial Markets Report, septembre 2026"
+      "chiffre": "127 milliards de dollars",
+      "contexte": "Les investissements mondiaux en intelligence artificielle ont dépassé les 127 milliards de dollars en 2026, marquant une croissance de 45% par rapport à 2025. Ce secteur représente désormais 12% des investissements technologiques globaux.",
+      "source": "Bloomberg Intelligence - Septembre 2026"
     },
     "ephemeride": {
-      "evenement": "8 septembre 1998 : La Banque centrale russe épuise ses réserves de change suite à la crise du rouble et du défaut de paiement souverain",
-      "impact": "Cet événement a marqué le début de la contagion financière mondiale et démontré la vulnérabilité des économies émergentes face aux chocs exogènes."
+      "evenement": "9 septembre 1992 - Crise du SME : La Livre Sterling sort du Mécanisme de Change Européen après l'attaque spéculative de George Soros, coûtant 3,3 milliards de livres à la Banque d'Angleterre.",
+      "impact": "Cet événement a marqué le début de la fin du SME et renforcé la nécessité d'une monnaie unique européenne, accélérant le processus vers l'Euro."
     },
     "graphique_semaine": {
-      "titre": "Evolution des taux d'inflation dans les grandes économies (semaine du 2-8 septembre 2026)",
-      "description": "L'inflation globale continue de se normaliser après les pics de 2022-2023. La BCE et la Fed maintiennent des positions divergentes : la Fed explore une baisse progressive des taux tandis que la BCE reste prudente face aux pressions énergétiques en Europe. Les données montrent une stabilisation progressive autour des cibles de 2%.",
+      "titre": "Évolution des rendements obligataires américains (semaine du 3-9 septembre 2026)",
+      "description": "Les rendements des Treasuries à 10 ans ont connu une volatilité accrue cette semaine suite aux signaux mitigtes de la Fed concernant ses futures décisions de taux. L'incertitude géopolitique a également alimenté les mouvements de \"flight to quality\". Les investisseurs surveillent attentivement les données d'inflation prévues pour la semaine prochaine.",
       "donnees": [
         {
-          "label": "États-Unis",
-          "valeur": 2.1
+          "label": "Lundi 3 sept",
+          "valeur": 4.12
         },
         {
-          "label": "Zone Euro",
-          "valeur": 2.8
+          "label": "Mardi 4 sept",
+          "valeur": 4.18
         },
         {
-          "label": "Royaume-Uni",
-          "valeur": 2.0
+          "label": "Mercredi 5 sept",
+          "valeur": 4.15
         },
         {
-          "label": "Japon",
-          "valeur": 1.8
+          "label": "Jeudi 6 sept",
+          "valeur": 4.22
         },
         {
-          "label": "Chine",
-          "valeur": 2.5
+          "label": "Vendredi 9 sept",
+          "valeur": 4.19
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV exhorte les évêques amis des Focolari à témoigner de l'unité dans le monde",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/leon-xiv-exhorte-eveques-amis-focolari-devenir-contemplatifs.html",
+        "resume": "Le Pape Léon XIV a reçu ce mercredi dans la salle Clémentine à Rome un groupe d’évêques amis du Mouvement des Focolari, réunis pour une rencontre spirituelle autour du thème «Témoigner de l’unité». Face à un",
+        "pub": "Wed, 09 Sep 2026 09:23:00 +0200",
+        "heure": "11h23"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Devant tes portes, Jérusalem",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/devant-tes-portes-jerusalem.html",
+        "resume": "«Within Your Gates: The Forum for the Universal Vocation of Jerusalem» a vu le jour. Le nouveau forum interdisciplinaire promu par le cardinal Pierbattista Pizzaballa, patriarche latin de Jérusalem, et dévelo",
+        "pub": "Tue, 08 Sep 2026 18:16:00 +0200",
+        "heure": "20h16"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Synode: publication des rapports sur les relations entre évêques, la vie consacrée et les visites ad limina",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/secretaire-general-synode-rapport-vatican-vie-consacree-eveque.html",
+        "resume": "Le Secrétariat général du Synode a publié aujourd'hui le rapport final du groupe d'étude n° 6 concernant la révision, dans une perspective synodale et missionnaire, des documents sur les relations entre évêqu",
+        "pub": "Tue, 08 Sep 2026 15:46:00 +0200",
+        "heure": "17h46"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Une France qui a une soif de spiritualité attend le Pape",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/cef-france-conference-de-presse-voyage-pape-leon-xiv.html",
+        "resume": "Le voyage de Léon XIV en France, du 25 au 28 septembre, a été présenté aux journalistes lors d’une conférence de presse par la Conférence des évêques de France. Les préparatifs ont été détaillés, les principa",
+        "pub": "Tue, 08 Sep 2026 15:38:00 +0200",
+        "heure": "17h38"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Sœur Chrysologa, la mère des enfants de Vélingara",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/sr-chrysologa-la-nene-soukabe-de-velingara.html",
+        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs présentes dans le monde entier. Dans ce",
+        "pub": "Tue, 08 Sep 2026 13:55:00 +0200",
+        "heure": "15h55"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Consécration de l'archevêque de Chongqing en Chine",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/pape-leon-xiv-cjine-nomination-archeveque-chongqing.html",
+        "resume": "Le père Andrea Ding Yang a été nommé par le Pape le 28 juillet dernier, sa candidature ayant été approuvée dans le cadre de l’accord provisoire entre le Saint-Siège et la République populaire de Chine. Après",
+        "pub": "Tue, 08 Sep 2026 12:52:00 +0200",
+        "heure": "14h52"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Mgr Gallagher: la diplomatie prépare les conditions pour que la paix puisse s’enraciner",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/mgr-gallagher-diplomatie-prepare-conditions-pour-que-la-paix.html",
+        "resume": "Le secrétaire aux Relations avec les États et les Organisations internationales était à Assise pour le séminaire annuel de formation de l’Université catholique du Sacré-Cœur intitulé «Que le Seigneur te donne",
+        "pub": "Tue, 08 Sep 2026 12:26:00 +0200",
+        "heure": "14h26"
+      },
       {
         "source": "Vatican News",
         "titre": "Au terme du congrès de l’APECA, les exégètes appellent à défendre la dignité humaine",
@@ -391,7 +469,7 @@
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV : «Demandons à Marie son Bon Conseil, pour accueillir la Parole divine»",
+        "titre": "Léon XIV: «Demandons à Marie son Bon Conseil, pour accueillir la Parole divine»",
         "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-messe-sanctuaire-nativite-vierge-genazzano.html",
         "resume": "À la veille de la fête de la nativité de la Vierge, le Pape a célébré la messe lundi en fin d'après-midi au sanctuaire de la Vierge du Bon Conseil de Genazzano, tenu par les religieux augustins. Dans son homé",
         "pub": "Mon, 07 Sep 2026 17:07:00 +0200",
@@ -415,9 +493,17 @@
       },
       {
         "source": "Vatican News",
+        "titre": "Léon XIV appelle les jeunes d'Afrique de l'Ouest à être «bâtisseurs de ponts»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/leon-xiv-appelle-jeunes-de-ouest-afrique-a-etre-batisseurs-ponts.html",
+        "resume": "Dans un vidéo message en anglais et en français, le Pape Léon XIV s’est adressé à des milliers de jeunes réunis à Accra au Ghana à l'occasion de la première édition des Journées de la jeunesse de l’Afrique de",
+        "pub": "Mon, 07 Sep 2026 13:22:00 +0200",
+        "heure": "15h22"
+      },
+      {
+        "source": "Vatican News",
         "titre": "Journées Ouest-Africaines de la Jeunesse: faire grandir la paix et l’espérance",
         "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/journees-ouest-africaines-de-la-jeunesse-grand-paix-l-esperance.html",
-        "resume": "Les JOAJ-2026 s’ouvrent ce lundi 7 septembre à Accra, au Ghana. Pendant cinq jours, jusqu’au 12 septembre, des jeunes catholiques de 16 pays d’Afrique de l’Ouest sont invités à se retrouver autour du thème: «",
+        "resume": "Initiées par la Conférence épiscopale de l’Afrique de l’Ouest (CERAO), les JOAJ-2026 s’ouvrent ce lundi 7 septembre à Accra, au Ghana. Pendant cinq jours, jusqu’au 12 septembre, des jeunes catholiques de 16 p",
         "pub": "Mon, 07 Sep 2026 13:20:00 +0200",
         "heure": "15h20"
       },
@@ -436,62 +522,6 @@
         "resume": "À l’occasion du Temps de la Création, six organisations de l’Église latino-américaine publient une réflexion sur le dialogue au sein des communautés frappées par les effets de l’extractivisme et sur la nécess",
         "pub": "Mon, 07 Sep 2026 10:09:00 +0200",
         "heure": "12h09"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape aux familles du Vatican: «les familles donnent la vie et l’amour»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-leon-xiv-familles-vatican-gouvernorat-fete-5-septembre.html",
-        "resume": "À l'occasion d'une fête dédiée aux familles du Gouvernorat de l'État de la Cité du Vatican, le Pape Léon XIV a rappelé qu’elles étaient un «grand miracle». Il les a exhortées à donner généreusement la vie et",
-        "pub": "Sun, 06 Sep 2026 14:54:00 +0200",
-        "heure": "16h54"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV renouvelle son appel au dialogue et à la paix en Ukraine",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-leon-xiv-appel-ukraine-dialogue-paix-guerre-6-septembre.html",
-        "resume": "À l’issue de la prière mariale de l’Angélus, dimanche 6 septembre, le Pape Léon XIV a lancé un nouvel appel pour que cesse la violence en Ukraine. «Que les cœurs s’ouvrent au dialogue et à la paix» a exhorté",
-        "pub": "Sun, 06 Sep 2026 12:39:00 +0200",
-        "heure": "14h39"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Angélus: l’amour mutuel est une dette qui libère",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/angelus-pape-leon-xiv-6-septembre-place-saint-pierre.html",
-        "resume": "Depuis la fenêtre des appartements pontificaux, Léon XIV a commenté ce dimanche 6 septembre la Lettre de saint Paul Apôtre aux Romains portant sur l’amour mutuel et fraternel. Celui-ci s’exerce à la fois en f",
-        "pub": "Sun, 06 Sep 2026 12:05:00 +0200",
-        "heure": "14h05"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La migration, au coeur d'une rencontre fraternelle des évêques d'Amérique du Nord",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/rencontre-informelle-eveques-amerique-du-nord-immigration.html",
-        "resume": "Du 30 août au 4 septembre 2026, des représentants des Conférences épiscopales mexicaine, américaine et canadienne se sont réunis au Mexique pour renforcer leur fraternité, s’écouter et discerner ensemble des",
-        "pub": "Sat, 05 Sep 2026 17:02:00 +0200",
-        "heure": "19h02"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L'État canadien menace-t-il la liberté religieuse?",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/canada-aumoneries-militaires-liberte-religieuse-eveques.html",
-        "resume": "Suite à de nouvelles directives interdisant aux aumôniers militaires de faire référence à Dieu dans certains contextes, l'ordinaire militaire au Canada s’entretient avec Vatican News au sujet du dangereux pré",
-        "pub": "Sat, 05 Sep 2026 15:36:00 +0200",
-        "heure": "17h36"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Mgr César Essayan: «Les Libanais méritent un avenir de dignité»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/liban-essayan-eveque-beryouth-guerre-paix-dialogue.html",
-        "resume": "Présent à Rome cette semaine parmi les membres de la Conférence épiscopale latine des régions arabes (CELRA) que le Pape a reçus jeudi, le vicaire apostolique latin de Beyrouth revient sur la guerre qui déchi",
-        "pub": "Sat, 05 Sep 2026 14:27:00 +0200",
-        "heure": "16h27"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape aux moniales adoratrices: soyez des tisseuses de communion",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-discours-soeurs-adoratrices-perpetuelles-saint-sacrement.html",
-        "resume": "Lors de l’audience accordée aux sœurs Adoratrices perpétuelles du Saint-Sacrement en pèlerinage à Rome, ce samedi, Léon XIV a souligné l’importance de la recherche constante du visage du Christ. Il faut «une",
-        "pub": "Sat, 05 Sep 2026 12:49:00 +0200",
-        "heure": "14h49"
       }
     ]
   }
