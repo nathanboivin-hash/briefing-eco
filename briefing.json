@@ -1,28 +1,28 @@
 {
-  "timestamp": "10h14 le 21/09/2026",
-  "alerte": "Dégradation du risque souverain français observable sur le marché obligataire corporate; tensions carburants récurrentes signalant une fragilité macroéconomique sous-jacente",
+  "timestamp": "09h30 le 22/09/2026",
+  "alerte": "Flambée pétrolière en cours - Macron/Trump négocient à New York. Gouvernement mobilisé sur carburants (gazole d'été, TVA, aides ciblées). Tensions budgétaires 2027 confirmées par Cour des comptes.",
   "synthese": {
-    "resume": "Le marché français affiche des signaux de stress croissant : spread de risque souverain en expansion sur les obligations d'entreprise (article 66), immobilier en contraction face aux taux élevés (article 4), et carburants en tension inflationniste persistante (article 3, 60). La « smicardisation » des travailleurs révèle une érosion de la progression salariale réelle (article 1), tandis que les chocs géopolitiques (El Niño, Birmanie) menacent 20Mds$ de croissance africaine (article 8). Les risques électoraux amplifient l'incertitude sur la trajectoire budgétaire 2027.",
+    "resume": "Crise énergétique aiguë : le prix du pétrole monte, forçant le gouvernement à autoriser gazole d'été jusqu'au 15 novembre et envisager des aides. Macron négocie avec Trump pour «solutions» sur Ukraine/pétrole. Budget 2027 déficitaire : Cour des comptes propose impôt sur fortune et réduction masse salariale fonction publique (économies ~600M€ sur arrêts maladie seuls). Secteur défense en effervescence (Thales-Exail, acquisitions record). M&A bancaire accélère : SG numérisation/réduction coûts, attractivité clients pro. Tensions salariales cadres : priorité salaire face charge travail croissante.",
     "points": [
       {
-        "titre": "Obligations: Le spread France s'élargit sur le crédit corporate",
-        "detail": "Les émetteurs français corporate subissent une prime de risque accrue en raison de la dégradation du profil souverain (article 66). Cette expansion du spread corporate/gouvernement reflète une méfiance croissante sur la soutenabilité de la dette publique et limite l'accès au marché des PME-ETI. Impact direct : hausse du coût du refinancement de 15-25 bps pour les BBB français."
+        "titre": "Crise carburants - Surcoûts énergétiques et intervention d'État",
+        "detail": "Autorisation gazole d'été jusqu'au 15 nov au lieu de fin septembre (pénurie approvisionnement). Gouvernement évoque «nouvelles aides» sans baisser taxes (Lecornu). Proposition «règle d'or» : restitution surplus TVA aux Français. Impact : marges raffinage préservées court terme, mais dépense budgétaire supplémentaire en période déficitaire. Inflation carburant impacte indirectement transport/logistique et rentabilité secteur automobile (Allemagne : 30K+ salariés mobilisés)."
       },
       {
-        "titre": "Immobilier: Contraction structurelle avec taux maintenus élevés",
-        "detail": "L'augmentation des taux hypothécaires comprime la demande résidentielle, l'horizon s'assombrit visiblement (article 4). Comparativement, Singapour active des aides jusqu'à 25k€/m² pour les jeunes couples (article 43), signalant une stratégie contra-cyclique absente en France. Implication : stagnation des volumes de transactions résidentielles attendue sur 2026-2027."
+        "titre": "Macro - Budget 2027 et consolidation fiscal sous pression",
+        "detail": "Cour des comptes relance impôt sur fortune «modéré mais progressif» et demande efforts «masse salariale» fonction publique. Gouvernement cible 600M€ d'économies sur arrêts maladie courte durée via non-remboursement (Medef soutient). Medef aussi critique reconnaissance symbolique en service public = compression salaire réelle. Déficit budgétaire contraint options : ou hausse fiscalité patrimoniale, ou compression emploi public (2,5M agents). Débats budgétaires 13 octobre : texte très disputé."
       },
       {
-        "titre": "Carburants: Volatilité persistante et risque d'inflation secondaire",
-        "detail": "Le gouvernement annonce 'de nouvelles aides' sans baisser les taxes (article 80), signalant une impasse budgétaire. Les prix restent élevés (article 5, 60), comprimant les marges de transporteurs et collectivités (article 39). Risque inflationniste secondaire sur services aux particuliers; aides ponctuelles gonflent le déficit structurel (+5Mds€ aux collectivités selon Lecornu, article 28)."
+        "titre": "M&A Défense - Thales-Exail et consolidation records",
+        "detail": "Thales rafle Exail Technologies (spécialiste navigation sans GPS). Secteur défense enregistre acquisitions et levées fonds à «niveaux record». Contexte géopolitique Ukraine/Russie et tension Indo-Pacifique. Consolidation tech critiques : GPS-dénié, cyber, IA militaire. Thales renforce portefeuille souveraineté technologique. Multiples sectoriel élevés : acquéreurs stratégiques (intégrateurs) moins sensibles aux taux que PE."
       },
       {
-        "titre": "Secteur: Acier français relance structurante avec Marcegaglia à Fos-sur-Mer",
-        "detail": "Première aciérie en 50 ans en France (article 15) signale une volonté de relocalisation industrielle, mais intervient dans un contexte de crise aciérière mondiale. Investissement massif attendu; valorisation du projet et viabilité dépendront critiquement des prix de l'énergie et de la demande auto-construction européenne."
+        "titre": "Politique - Macron/Trump et dossier Ukraine/pétrole",
+        "detail": "Macron à New York rencontre Trump : «solutions évoquées» sur Ukraine et hausse prix pétrole. Enjeu économique direct : stabilisation approvisionnement énergétique UE et prix. Négociation implicite : contreparties politiques possibles sur Ukraine/Russie. RN prend distance Russie sans clarifier Ukraine (exercice «équilibriste»). Présidentielle 2027 : enjeu géopolitique = variable de campagne. Impact marchés : volatilité géopolitique premium sur CAC40 et spreads credit France."
       },
       {
-        "titre": "Macro-choc: El Niño menace 20Mds$ de croissance africaine",
-        "detail": "Événement climatique majeur (article 8) impactera directement les fournisseurs africains d'intrants agricoles et minéraux. Implications : risques de chaînes d'approvisionnement, volatilité des matières premières, dégradation des balances commerciales ouest-africaines. Effets diffus mais réels sur inflation importée européenne."
+        "titre": "Entreprises - Numérisation SG et repositionnement banques de détail",
+        "detail": "Société Générale accélère numérisation et «taille dans les coûts». Parallèlement banques en ligne ciblent clients professionnels (segment rentable). Salaires cadres : charge travail croissante force priorité salariale (vs reconnaissance symbolique). Contexte : compression marges retail (taux bas/spreads réduits) force efficience opérationnelle. SG face concurrence fintech ; stratégie : clientèle professionnelle + réduction coûts structures. Plan IA gouvernement 80M€ : accompagnement transition emploi (redistribution travail)."
       }
     ]
   },
@@ -30,39 +30,39 @@
     "metrics": [],
     "articles": [
       {
+        "source": "Le Monde Eco",
+        "heure": "10h42",
+        "titre": "Des « solutions évoquées » concernant l’Ukraine et la forte augmentation du prix du pétrole : Emmanuel Macron rencontre Donald Trump à New York",
+        "resume": "Le président français a présenté à son homologue américain, lundi, des initiatives qui auraient un impact  sur les prix du baril.",
+        "url": "https://www.lemonde.fr/international/video/2026/09/22/des-solutions-evoquees-concernant-l-ukraine-et-la-forte-augmentation-du-prix-du-petrole-emmanuel-macron-rencontre-donald-trump-a-new-york_6779900_3210.html"
+      },
+      {
         "source": "Challenges",
-        "heure": "17h00",
-        "titre": "+230 % pour Spotify, chute brutale d’Universal Music… le streaming rebat les cartes de l’industrie musicale en Bourse",
-        "resume": "La refonte du modèle de rémunération du streaming bénéficie aux outsiders Deezer et Spotify, tandis que la bulle spéculative autour d’Universal dégonfle.",
-        "url": "https://www.challenges.fr/entreprise/culture/230-pour-spotify-chute-brutale-duniversal-music-le-streaming-rebat-les-cartes-de-lindustrie-musicale-en-bourse_645852"
+        "heure": "09h19",
+        "titre": "Flambée des prix du pétrole : Macron fait une série de propositions à Trump, de nouvelles aides attendues en France ce mardi",
+        "resume": "Emmanuel Macron a proposé ce lundi 21 septembre à Donald Trump plusieurs initiatives visant à juguler la hausse des prix du pétrole, dont une résolution à l’ONU sur le détroit d’Ormuz. Par ailleurs, le gouvernement français s’apprête à dévoiler ce m",
+        "url": "https://www.challenges.fr/entreprise/energie/flambee-des-prix-du-petrole-macron-fait-une-serie-de-propositions-a-trump-de-nouvelles-aides-attendues-en-france-ce-mardi_645920"
+      },
+      {
+        "source": "Challenges",
+        "heure": "19h10",
+        "titre": "Guerre au Moyen-Orient : allons-nous vivre une pénurie de carburants ?",
+        "resume": "Le prix du gazole s'élevait à 2,41 euros par litre en moyenne en France ce dimanche et 17 % des stations-service manquaient d’au moins un carburant, selon le ministre de l’Économie. Faut-il pour autant craindre une pénurie de carburants dans les sem",
+        "url": "https://www.challenges.fr/economie/guerre-au-moyen-orient-allons-nous-vivre-une-penurie-de-carburants_645918"
       },
       {
         "source": "Les Echos",
-        "heure": "08h10",
-        "titre": "Le risque France commence à peser sur le marché des obligations d'entreprise",
-        "resume": "Les volumes d'emprunts obligataires des entreprises sur le marché européen sont en passe d'atteindre des records cette année. Du côté des groupes français, on sent une certaine hâte à se financer avant l'élection. Et l'apparition d'une prime de risqu",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/le-risque-france-commence-a-peser-sur-le-marche-des-obligations-dentreprise-2252571"
+        "heure": "11h50",
+        "titre": "« Le piège des trois verrous se referme » : « L'Europe au bord d'un nouveau choc énergétique »",
+        "resume": "Un détroit qui s'asphyxie, un oléoduc qui s'arrête, une porte maritime qui se referme : l'Europe croyait n'avoir qu'un seul verrou énergétique à surveiller au Moyen-Orient, elle en a en réalité trois. Et les trois vacillent en même temps, alerte Séba",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/le-piege-des-trois-verrous-se-referme-leurope-au-bord-dun-nouveau-choc-energetique-2252824"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "10h00",
-        "titre": "Immobilier : avec l’augmentation des taux, l’horizon s’assombrit",
-        "resume": "Si la situation est encore stable aujourd’hui, l’augmentation du coût de financement des banques risque de peser sur les crédits des particuliers dans les mois à venir.",
-        "url": "https://www.lemonde.fr/argent/article/2026/09/21/immobilier-avec-l-augmentation-des-taux-l-horizon-s-assombrit_6778771_1657007.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h00",
-        "titre": "Crowdfunding, immobilier fractionné… derrière les rendements jusqu’à 11 %, quels sont les risques de ces nouveaux placements ?",
-        "resume": "PLACEMENTS IMMOBILIERS - Avec des rendements annoncés plus attractifs, tout une gamme de placements encore émergents permet de booster son portefeuille. Mais la vigilance est de mise, à la fois sur le niveau de risque, la liquidité et la qualité des",
-        "url": "https://www.challenges.fr/immobilier/crowdfunding-immobilier-fractionne-derriere-les-rendements-jusqua-11-quels-sont-les-risques-de-ces-nouveaux-placements_645816"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "La dette coûte de plus en plus cher à l’État… alors pourquoi des millions de Français échappent-ils à la folle remontée des taux ?",
-        "resume": "Contrairement au reste de l’Europe adepte des taux variables, les Français privilégient les taux fixes. Une aubaine actuellement pour ceux ayant déjà souscrit un emprunt non sujet à la remontée de l’OAT (obligation assimilable du trésor) 10 ans. Cet",
-        "url": "https://www.challenges.fr/economie/la-dette-coute-de-plus-en-plus-cher-a-letat-alors-pourquoi-des-millions-de-francais-echappent-ils-a-la-folle-remontee-des-taux_645856"
+        "source": "Le Figaro",
+        "heure": "23h42",
+        "titre": "Le dollar avance un peu, à rebours du pétrole",
+        "resume": "Le dollar gagne un peu de terrain lundi, les espoirs du marché pétrolier quant à une avancée diplomatique sur le Moyen-Orient n'entamant pas...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-avance-un-peu-a-rebours-du-petrole-20260921"
       }
     ]
   },
@@ -70,43 +70,64 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "08h30",
-        "titre": "A Fos-sur-Mer, Marcegaglia fait fi de la crise de l’acier, et veut construire la première aciérie en France depuis cinquante ans",
-        "resume": "Le groupe italien, qui a racheté en 2024 l’ancien site d’Ascometal, investit 1,2 milliard d’euros pour bâtir une nouvelle usine et produire plus de 2 millions de tonnes d’acier bas carbone à partir de 2029. Le projet, baptisé « Mistral », est majeur",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/20/a-fos-sur-mer-marcegaglia-fait-fi-de-la-crise-de-l-acier-et-veut-construire-la-premiere-acierie-en-france-depuis-cinquante-ans_6778090_3234.html"
+        "heure": "10h00",
+        "titre": "Dans la défense, les acquisitions et les levées de fonds atteignent des niveaux record",
+        "resume": "A l’initiative des industriels et, plus récemment, des fonds d’investissement, les opérations financières se multiplient dans le secteur au moment où de nombreuses PME ont besoin de capitaux pour augmenter leur cadence de production.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/22/dans-la-defense-les-acquisitions-et-les-levees-de-fonds-atteignent-des-niveaux-record_6779832_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "11h15",
-        "titre": "EXCLUSIF. Polytechnicien et diplômé de Supaero : Challenges révèle qui va prendre les commandes des avions militaires d’Airbus",
-        "resume": "Actuellement directeur du digital d’Airbus Defence & Space, le Français Lionel Rouby va remplacer Jean-Brice Dumont, en partance pour MBDA, à la tête de la division Air Power d’Airbus DS. Il y pilotera les activités liées à l’A400M, l’Eurofighter, l",
-        "url": "https://www.challenges.fr/entreprise/defense/exclusif-polytechnicien-et-diplome-de-supaero-challenges-revele-qui-va-prendre-les-commandes-des-avions-militaires-dairbus_645898"
+        "source": "Le Monde Eco",
+        "heure": "09h30",
+        "titre": "Dans la défense, l’incroyable succès d’Exail Technologies, un spécialiste de la navigation sans GPS que vient de rafler Thales",
+        "resume": "L’entreprise, dont la production de centrales inertielles a triplé depuis 2022, prépare un nouveau doublement de celle-ci en deux ans, portée par la demande militaire. Thales a déboursé 3,9 milliards d’euros pour s’emparer de cette technologie critiq",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/22/dans-la-defense-l-incroyable-succes-d-exail-technologies-un-specialiste-de-la-navigation-sans-gps-que-vient-de-rafler-thales_6779829_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "08h30",
-        "titre": "« Il nous en faudrait des dizaines comme lui en France ! » : Slawomir Krupa, le patron cash qui veut redorer la Société générale en Europe",
-        "resume": "Pilier de la banque, son directeur général depuis 2023 a remis la Société générale à l’endroit, multipliant par trois sa valeur en Bourse. Ce manager direct, aux racines polonaises, n’hésite pas à trancher quitte à bousculer.",
-        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/il-nous-en-faudrait-des-dizaines-comme-lui-en-france-slawomir-krupa-le-patron-cash-qui-veut-redorer-la-societe-generale-en-europe_645860"
+        "source": "Le Monde Eco",
+        "heure": "09h00",
+        "titre": "Les clients professionnels, cible de choix des banques en ligne",
+        "resume": "Clientèle historique des réseaux bancaires, les indépendants sont de plus en plus courtisés par les acteurs en ligne. Mais toutes ces entreprises ne se valent pas en matière de crédit, de comptabilité ou de solutions d’encaissement.",
+        "url": "https://www.lemonde.fr/argent/article/2026/09/22/les-clients-professionnels-cible-de-choix-des-banques-en-ligne_6779796_1657007.html"
       },
       {
-        "source": "Challenges",
-        "heure": "12h30",
-        "titre": "Duralex : qui est Cédric Meston, le serial repreneur candidat au rachat de l’emblématique verrerie française ?",
-        "resume": "Trois offres à la reprise de l’usine de verres incassables Duralex ont été déposées. Parmi elles, on retrouve celle de Cédric Meston qui a déjà repris Tuperware France en 2025. Les candidats ont jusqu’au 12 octobre pour affiner leur offre.",
-        "url": "https://www.challenges.fr/entreprise/duralex-qui-est-cedric-meston-le-serial-repreneur-candidat-au-rachat-de-lemblematique-verrerie-francaise_645891"
+        "source": "Le Monde Eco",
+        "heure": "08h00",
+        "titre": "Face à une charge de travail en augmentation, le salaire redevient la principale priorité des cadres",
+        "resume": "Le critère salarial a rattrapé l’équilibre vie privée-vie professionnelle, loin devant le contenu et le sens du travail chez les cadres, explique Jules Thomas, journaliste au service Economie du « Monde ».",
+        "url": "https://www.lemonde.fr/vie-au-travail/article/2026/09/22/face-a-une-charge-de-travail-en-augmentation-le-salaire-redevient-la-principale-priorite-des-cadres_6779786_6768900.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "12h15",
-        "titre": "Les clients institutionnels étrangers d'Amundi confiés à Francesca Ciceri",
-        "resume": "En 2004, l'Italienne avait rejoint Pioneer, racheté par Amundi en 2017.",
-        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/les-clients-institutionnels-etrangers-damundi-confies-a-francesca-ciceri-2252623"
+        "source": "Le Monde Eco",
+        "heure": "19h10",
+        "titre": "La Société générale accélère sa numérisation et taille dans les coûts",
+        "resume": "La troisième banque française planifie de nouvelles fermetures d’agences et des baisses d’effectifs. Elle accélère le rapprochement de sa banque de détail et de BoursoBank.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/21/societe-generale-accelere-sa-digitalisation-et-taille-dans-les-couts_6779245_3234.html"
       }
     ]
   },
   "ma": {
     "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "09h30",
+        "titre": "Dans la défense, l’incroyable succès d’Exail Technologies, un spécialiste de la navigation sans GPS que vient de rafler Thales",
+        "resume": "L’entreprise, dont la production de centrales inertielles a triplé depuis 2022, prépare un nouveau doublement de celle-ci en deux ans, portée par la demande militaire. Thales a déboursé 3,9 milliards d’euros pour s’emparer de cette technologie critiq",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/22/dans-la-defense-l-incroyable-succes-d-exail-technologies-un-specialiste-de-la-navigation-sans-gps-que-vient-de-rafler-thales_6779829_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "23h51",
+        "titre": "Rachat de Warner Bros : accord amiable trouvé entre Paramount Skydance et douze Etats américains",
+        "resume": "Pour obtenir l’abandon des poursuites intentées au début de juillet, le conglomérat américain s’engage à augmenter ses investissements dans la production cinématographique et à « soutenir l’indépendance éditoriale » des chaînes CNN et CBS News.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/21/rachat-de-warner-bros-accord-amiable-trouve-entre-paramount-skydance-et-douze-etats-americains_6779342_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "10h00",
+        "titre": "Dans la défense, les acquisitions et les levées de fonds atteignent des niveaux record",
+        "resume": "A l’initiative des industriels et, plus récemment, des fonds d’investissement, les opérations financières se multiplient dans le secteur au moment où de nombreuses PME ont besoin de capitaux pour augmenter leur cadence de production.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/22/dans-la-defense-les-acquisitions-et-les-levees-de-fonds-atteignent-des-niveaux-record_6779832_3234.html"
+      },
       {
         "source": "Challenges",
         "heure": "06h50",
@@ -116,31 +137,10 @@
       },
       {
         "source": "Challenges",
-        "heure": "12h30",
-        "titre": "Duralex : qui est Cédric Meston, le serial repreneur candidat au rachat de l’emblématique verrerie française ?",
-        "resume": "Trois offres à la reprise de l’usine de verres incassables Duralex ont été déposées. Parmi elles, on retrouve celle de Cédric Meston qui a déjà repris Tuperware France en 2025. Les candidats ont jusqu’au 12 octobre pour affiner leur offre.",
-        "url": "https://www.challenges.fr/entreprise/duralex-qui-est-cedric-meston-le-serial-repreneur-candidat-au-rachat-de-lemblematique-verrerie-francaise_645891"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "18h42",
-        "titre": "Lactips se lance à l'assaut des Etats-Unis avec son plastique soluble dans l'eau",
-        "resume": "La start-up française s'est alliée avec un industriel américain pour concevoir un emballage soluble dans l'eau. Les deux sociétés attendent encore le feu vert des autorités pour se lancer en Europe.",
-        "url": "https://www.lesechos.fr/start-up/impact/lactips-se-lance-a-lassaut-des-etats-unis-avec-son-plastique-soluble-dans-leau-2252562"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "13h26",
-        "titre": "Les vénérables Etablissements Roches liquidés « dans l'effroi » à Calais",
-        "resume": "Après le désistement in extremis de la candidature du Puy du Fou, le tribunal de commerce a prononcé la liquidation de cette maison d'agencement au savoir-faire très réputé, notamment dans l'univers de l'hôtellerie-restauration.",
-        "url": "https://www.lesechos.fr/pme-regions/hauts-de-france/les-venerables-etablissements-roches-liquides-dans-leffroi-a-calais-2252630"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h31",
-        "titre": "VKard se renforce sur le marché émergent de la carte de visite numérique",
-        "resume": "Transformer un simple échange de cartes de visite en outil de prospection et de gestion des contacts professionnels. C'est l'ambition de cette jeune entreprise vendéenne qui vient d'acquérir son concurrent Cardynale et ses 15.000 clients.",
-        "url": "https://www.lesechos.fr/pme-regions/innovateurs/vkard-se-renforce-sur-le-marche-emergent-de-la-carte-de-visite-numerique-2252612"
+        "heure": "17h30",
+        "titre": "Déclassement boursier, départ de Kylian Mbappé et arrivée d’Alexandre Arnault : la semaine où le géant américain Nike a peut-être vu son avenir basculer",
+        "resume": "Sortie du S&P 100 ce lundi 21 septembre, départ de Kylian Mbappé… Les derniers jours ont été particulièrement mouvementés pour Nike, ce qui interroge quant à la résistance de l’équipementier américain face à ses concurrents. Au même moment, l'arrivé",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/sortie-du-sp-100-depart-de-kylian-mbappe-arrivee-dalexandre-arnault-le-geant-americain-nike-au-bord-du-declassement_645910"
       }
     ]
   },
@@ -148,38 +148,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "09h00",
-        "titre": "Le « super El Niño » qui arrive pourrait effacer 20 milliards de dollars de croissance en Afrique",
-        "resume": "Le phénomène météorologique devrait provoquer fortes pluies et inondations à l’Est, sécheresse au Sud et renforcer les vents secs à l’Ouest. Les récoltes mais aussi les voies de transport, donc le commerce, seront affectées.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/21/l-afrique-face-a-un-super-el-nino-qui-pourrait-effacer-20-milliards-de-dollars-de-croissance_6778734_3234.html"
+        "heure": "12h20",
+        "titre": "Carburants : Sébastien Lecornu propose d’inscrire une « règle d’or » dans le budget 2027 pour « restituer » les surplus de TVA aux Français",
+        "resume": "« Concrètement, si les prix devaient encore augmenter et alimenter un surplus de TVA, la hausse de TVA sera[it] neutralisée pour être restituée aux Français à la pompe », affirme l’entourage du premier ministre, sans donner plus de détail sur le méca",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/22/carburants-sebastien-lecornu-propose-d-inscrire-une-regle-d-or-dans-le-budget-2027-pour-restituer-les-surplus-de-tva-aux-francais_6780071_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "13h06",
-        "titre": "« La smicardisation des travailleurs n’est pas qu’un problème de pouvoir d’achat, c’est une crise de la progression et de la reconnaissance »",
-        "resume": "Les économistes Nathalie Janson et Hugo Spring-Ragain, du laboratoire d’idées Génération libre, dénoncent, dans une tribune au « Monde », une spécificité française : la fonctionnarisation silencieuse des salariés payés autour du smic, ce qui provoque",
-        "url": "https://www.lemonde.fr/idees/article/2026/09/21/la-smicardisation-des-travailleurs-n-est-pas-qu-un-probleme-de-pouvoir-d-achat-c-est-une-crise-de-la-progression-et-de-la-reconnaissance_6778912_3232.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Moins de transports en commun ? Ce risque que fait planer la flambée du prix des carburants sur les collectivités",
-        "resume": "La nouvelle flambée des prix des carburants touche directement les collectivités locales de plusieurs millions d’euros. Et ce alors que les efforts demandés par Sébastien Lecornu dans le prochain budget n’augurent pas d’une amélioration de leurs fin",
-        "url": "https://www.challenges.fr/entreprise/transports/moins-de-transports-en-commun-ce-risque-que-fait-planer-la-flambee-du-prix-des-carburants-sur-les-collectivites_645884"
+        "heure": "12h15",
+        "titre": "Intelligence artificielle : le gouvernement lance un plan de 80 millions d’euros pour accompagner le monde du travail",
+        "resume": "La moitié des mesures concerne « l’acculturation » des actifs à l’intelligence artificielle, et, en période d’économies budgétaires, une grande partie de la somme allouée au plan sera consacrée aux centres de formation des apprentis, annonce le minis",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/22/intelligence-artificielle-le-gouvernement-lance-un-plan-de-80-millions-d-euros-pour-accompagner-le-monde-du-travail_6780070_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "12h31",
-        "titre": "Prix des carburants : le gouvernement évoque « de nouvelles aides pour les Français qui travaillent »",
-        "resume": "Au lendemain d’un record du gazole à 2,41 euros le litre, une réunion à Matignon doit définir les contours d’un nouveau paquet d’aide, annoncé « dans les prochains jours ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/21/carburants-le-gouvernement-evoque-de-nouvelles-aides-pour-les-francais-qui-travaillent-alors-que-les-prix-a-la-pompe-atteignent-des-records_6778907_3234.html"
+        "heure": "06h51",
+        "titre": "Carburant : l’Etat autorise la vente de gazole d’été jusqu’au 15 novembre, pour pallier les difficultés d’approvisionnement",
+        "resume": "En temps normal, les distributeurs sont tenus de commercialiser, dès le 1ᵉʳ novembre, un gazole dit « d’hiver », résistant à des températures plus basses. Cette obligation est repoussée exceptionnellement de deux semaines.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/22/carburant-l-etat-autorise-la-vente-de-gazole-d-ete-jusqu-au-15-novembre-face-aux-difficultes-d-approvisionnement_6779643_3234.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "13h15",
-        "titre": "DIRECT - Crise des carburants et flambée des prix : les principales informations de ce lundi 21 septembre",
-        "resume": "Le Premier ministre tiendra deux réunions ce lundi : une consacrée aux approvisionnements en pétrole et en gaz et l'autre sur les aides pour les Français. Les aides pour les gros rouleurs devraient notamment être au menu des discussions.",
-        "url": "https://www.lesechos.fr/economie-france/social/direct-crise-des-carburants-et-flambee-des-prix-les-principales-informations-de-ce-lundi-21-septembre-2252628"
+        "source": "Le Monde Eco",
+        "heure": "21h56",
+        "titre": "Budget 2027 : la Cour des comptes relance l’idée d’un nouvel impôt sur la fortune",
+        "resume": "Dans une note récente, l’institution préconise, pour des raisons d’équité, de créer un impôt sur la fortune personnelle et demande à nouveau de réduire les avantages fiscaux du pacte Dutreil. Deux pistes écartées à ce stade par le premier ministre, S",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/21/budget-2027-la-cour-des-comptes-relance-l-idee-d-un-nouvel-impot-sur-la-fortune_6779302_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "21h00",
+        "titre": "Fonction publique : la Cour des comptes appelle à un effort sur la « masse salariale »",
+        "resume": "Effectifs, rémunérations, promotions… la Cour des comptes vise les dépenses de la fonction publique dans une note publiée lundi 21 septembre. Les magistrats de la rue Cambon incitent, au vu du poids de la masse salariale, à « une maîtrise de son évol",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/21/fonction-publique-la-cour-des-comptes-appelle-a-un-effort-sur-la-masse-salariale_6779295_823448.html"
       }
     ]
   },
@@ -187,77 +187,77 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "10h04",
-        "titre": "Donald Trump et Emmanuel Macron se rencontreront lundi à New York, en marge de l’Assemblée générale de l’ONU",
-        "resume": "Le président américain recevra son homologue français lundi, à 23 h 35, heure de Paris, selon l’agenda publié dimanche soir par la Maison Blanche.",
-        "url": "https://www.lemonde.fr/international/article/2026/09/21/donald-trump-et-emmanuel-macron-se-rencontreront-lundi-a-new-york-en-marge-de-l-assemblee-generale-de-l-onu_6778772_3210.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h37",
-        "titre": "Avec le « deuxième choc chinois », la Chine redevient un sujet électoral en Europe",
-        "resume": "L'arrivée massive des produits industriels chinois relance le débat sur la meilleure réponse à apporter face à la Chine. En France, le sujet refait surface dans la campagne présidentielle, après celle de 2022 qui s'était télescopée avec la guerre en ",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/avec-le-deuxieme-choc-chinois-la-chine-redevient-un-sujet-electoral-en-europe-2252582"
+        "heure": "10h42",
+        "titre": "Des « solutions évoquées » concernant l’Ukraine et la forte augmentation du prix du pétrole : Emmanuel Macron rencontre Donald Trump à New York",
+        "resume": "Le président français a présenté à son homologue américain, lundi, des initiatives qui auraient un impact  sur les prix du baril.",
+        "url": "https://www.lemonde.fr/international/video/2026/09/22/des-solutions-evoquees-concernant-l-ukraine-et-la-forte-augmentation-du-prix-du-petrole-emmanuel-macron-rencontre-donald-trump-a-new-york_6779900_3210.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "12h54",
-        "titre": "Allemagne : le parti de Friedrich Merz a essuyé une défaite historique aux élections régionales",
-        "resume": "Pour la première fois depuis 1949, l’Union chrétienne-démocrate (CDU), parti du chancelier, est passée sous les 5 % lors d’un scrutin régional, dans le Land de Mecklembourg-Poméranie-Occidentale, quorum requis pour être représentée au Parlement régio",
-        "url": "https://www.lemonde.fr/international/video/2026/09/21/allemagne-le-parti-de-friedrich-merz-a-essuye-une-defaite-historique-aux-elections-regionales_6778909_3210.html"
+        "heure": "11h00",
+        "titre": "Le RN prend ses distances avec la Russie sans clarifier sa position sur l’Ukraine, un exercice d’équilibriste à l’approche de l’élection présidentielle de 2027",
+        "resume": "Après avoir minimisé les alertes d’Emmanuel Macron sur la menace russe à la sortie de la réunion organisée à l’Elysée, vendredi 18 septembre, Marine Le Pen et Jordan Bardella ont publié le lendemain un long communiqué d’une inhabituelle défiance enve",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/22/le-rn-prend-ses-distances-avec-la-russie-sans-clarifier-sa-position-sur-l-ukraine-un-exercice-d-equilibriste-a-l-approche-de-l-election-presidentielle-de-2027_6779933_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h15",
-        "titre": "L’Etat selon Jean-Luc Mélenchon : entre « révolution citoyenne » et reprise en main de l’administration",
-        "resume": "Le candidat de LFI a présenté ses projets de réforme lors d’une conférence organisée mercredi 16 septembre à Saint-Denis (Seine-Saint-Denis) par l’Institut La Boétie. S’il veut renforcer les moyens du secteur public, sa volonté d’un « Etat impartial",
-        "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/09/21/presidentielle-2027-fonction-publique-services-publics-impartialite-l-etat-que-veulent-lfi-et-jean-luc-melenchon_6778651_6205049.html"
+        "heure": "10h00",
+        "titre": "Budget 2027 : LR avance avec prudence, entre un appel aux ordonnances et le refus de la censure",
+        "resume": "En 2025, l’exercice budgétaire avait révélé les divisions du parti. Dans l’attente de la copie initiale de Matignon, la droite reste attentive à l’effort demandé aux retraités. Mais les premières mesures de Sébastien Lecornu ne seraient pas de nature",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/22/budget-2027-entre-un-appel-aux-ordonnances-et-le-refus-de-la-censure-lr-avance-avec-prudence_6779831_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h23",
-        "titre": "A Saint-Pierre-et-Miquelon, la France et le Canada plaident pour un rapprochement « profond »",
-        "resume": "« Nous croyons ensemble que nos pays sont deux grandes nations indépendantes et qui veulent le rester », a déclaré Emmanuel Macron, dimanche, au côté du premier ministre canadien, Mark Carney, venu en voisin.",
-        "url": "https://www.lemonde.fr/international/article/2026/09/20/la-france-et-le-canada-vont-travailler-a-un-rapprochement-sur-plusieurs-sujets-annonce-emmanuel-macron_6778413_3210.html"
+        "heure": "07h45",
+        "titre": "Présidentielle 2027 : Ségolène Royal, trublion de la primaire à gauche",
+        "resume": "Alors que l’ancienne ministre éprouve des difficultés à faire démarrer sa campagne, elle s’en est prise, lors d’interventions dans les médias, au cofondateur de Place publique Raphaël Glucksmann, autre prétendant et rival sérieux.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/22/presidentielle-2027-segolene-royal-trublion-de-la-primaire-a-gauche_6779746_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "13h58",
+        "titre": "Primaire à gauche : Raphaël Glucksmann, traité de « stagiaire » par Ségolène Royal, la renvoie à des postes « quémandés pendant quarante-cinq ans »",
+        "resume": "A trois semaines du premier tour de la primaire, le ton monte entre les deux concurrents, alors que l’ancienne candidate socialiste à la présidentielle de 2007 a critiqué, dimanche, le manque d’expérience de l’eurodéputé.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/21/primaire-a-gauche-raphael-glucksmann-traite-de-stagiaire-par-segolene-royal-la-renvoie-a-des-postes-quemandes-pendant-quarante-cinq-ans_6778949_823448.html"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "08h10",
-        "titre": "Le risque France commence à peser sur le marché des obligations d'entreprise",
-        "resume": "Les volumes d'emprunts obligataires des entreprises sur le marché européen sont en passe d'atteindre des records cette année. Du côté des groupes français, on sent une certaine hâte à se financer avant l'élection. Et l'apparition d'une prime de risqu",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/le-risque-france-commence-a-peser-sur-le-marche-des-obligations-dentreprise-2252571"
+        "source": "Le Monde Eco",
+        "heure": "21h56",
+        "titre": "Budget 2027 : la Cour des comptes relance l’idée d’un nouvel impôt sur la fortune",
+        "resume": "Dans une note récente, l’institution préconise, pour des raisons d’équité, de créer un impôt sur la fortune personnelle et demande à nouveau de réduire les avantages fiscaux du pacte Dutreil. Deux pistes écartées à ce stade par le premier ministre, S",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/21/budget-2027-la-cour-des-comptes-relance-l-idee-d-un-nouvel-impot-sur-la-fortune_6779302_823448.html"
       },
       {
         "source": "Challenges",
-        "heure": "08h00",
-        "titre": "La dette coûte de plus en plus cher à l’État… alors pourquoi des millions de Français échappent-ils à la folle remontée des taux ?",
-        "resume": "Contrairement au reste de l’Europe adepte des taux variables, les Français privilégient les taux fixes. Une aubaine actuellement pour ceux ayant déjà souscrit un emprunt non sujet à la remontée de l’OAT (obligation assimilable du trésor) 10 ans. Cet",
-        "url": "https://www.challenges.fr/economie/la-dette-coute-de-plus-en-plus-cher-a-letat-alors-pourquoi-des-millions-de-francais-echappent-ils-a-la-folle-remontee-des-taux_645856"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "10h00",
-        "titre": "Immobilier : avec l’augmentation des taux, l’horizon s’assombrit",
-        "resume": "Si la situation est encore stable aujourd’hui, l’augmentation du coût de financement des banques risque de peser sur les crédits des particuliers dans les mois à venir.",
-        "url": "https://www.lemonde.fr/argent/article/2026/09/21/immobilier-avec-l-augmentation-des-taux-l-horizon-s-assombrit_6778771_1657007.html"
+        "heure": "21h02",
+        "titre": "« Modérée mais progressive » : dans une note, la Cour des comptes suggère une taxation des gros patrimoines",
+        "resume": "La Cour des comptes a présenté, ce lundi, une première série de notes thématiques. Selon l’institution, le produit de la fiscalité patrimoniale a atteint 117 milliards d’euros en 2025.",
+        "url": "https://www.challenges.fr/economie/moderee-mais-progressive-dans-une-note-la-cour-des-comptes-suggere-une-taxation-des-gros-patrimoines_645919"
       },
       {
         "source": "Les Echos",
-        "heure": "10h45",
-        "titre": "« La concurrence entre émetteurs de dettes publiques a clairement pris un tour nouveau. Il faut se préparer à affronter cette réalité »",
-        "resume": "L'inquiétant dans la proposition de Jean-Luc Mélenchon d'annuler les dettes étatiques détenues par les banques centrales est qu'elle oublie le plus important : la pléthore d'emprunteurs publics change fondamentalement la donne pour tous les gouvernem",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/la-concurrence-entre-emetteurs-de-dettes-publiques-a-clairement-pris-un-tour-nouveau-il-faut-se-preparer-a-affronter-cette-realite-2252601"
+        "heure": "16h16",
+        "titre": "Avec Pontes, la BCE branche l'euro sur la finance tokenisée",
+        "resume": "La Banque centrale européenne lance Pontes pour offrir une monnaie de règlement ultra-sûre aux transactions tokenisées sur les titres financiers. Elle va aussi placer une petite partie de ses fonds propres dans des titres numériques pour tester elle-",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/avec-pontes-la-bce-branche-leuro-sur-la-finance-tokenisee-2252651"
       },
       {
         "source": "Les Echos",
-        "heure": "18h00",
-        "titre": "Dette publique : l'histoire d'une crise inévitable",
-        "resume": "Le taux de croissance du PIB français est durablement inférieur à la charge de la dette, emportée par un refinancement de plus en plus cher. Jean Peyrelevade se plie à un exercice de pédagogie économique pour les candidats à la présidentielle qui n'a",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/dette-publique-lhistoire-dune-crise-inevitable-2252559"
+        "heure": "11h50",
+        "titre": "« Le piège des trois verrous se referme » : « L'Europe au bord d'un nouveau choc énergétique »",
+        "resume": "Un détroit qui s'asphyxie, un oléoduc qui s'arrête, une porte maritime qui se referme : l'Europe croyait n'avoir qu'un seul verrou énergétique à surveiller au Moyen-Orient, elle en a en réalité trois. Et les trois vacillent en même temps, alerte Séba",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/le-piege-des-trois-verrous-se-referme-leurope-au-bord-dun-nouveau-choc-energetique-2252824"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "23h42",
+        "titre": "Le dollar avance un peu, à rebours du pétrole",
+        "resume": "Le dollar gagne un peu de terrain lundi, les espoirs du marché pétrolier quant à une avancée diplomatique sur le Moyen-Orient n'entamant pas...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-avance-un-peu-a-rebours-du-petrole-20260921"
       }
     ],
     "courbe": [
@@ -366,43 +366,115 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "1,847 milliards USD",
-      "contexte": "Le marché mondial des cryptomonnaies a atteint cette capitalisation en septembre 2026, portée par l'adoption institutionnelle massive et les ETF spot Bitcoin/Ethereum désormais disponibles dans 47 pays.",
-      "source": "CoinGecko Market Data"
+      "chiffre": "2,3 trillions USD",
+      "contexte": "La capitalisation boursière mondiale a dépassé les 2,3 trillions USD en septembre 2026, portée par la convergence de l'IA générative et des technologies quantiques. Cette croissance reflète l'optimisme des investisseurs face aux gains de productivité anticipés dans les prochaines années.",
+      "source": "World Federation of Exchanges, septembre 2026"
     },
     "ephemeride": {
-      "evenement": "21 septembre 1987 - Signature de l'Accord de Plaza, accord historique entre les 5 plus grandes puissances économiques",
-      "impact": "Cet accord a marqué la première intervention coordonnée majeure sur les marchés de change, établissant un précédent pour la coopération économique internationale et la régulation des monnaies."
+      "evenement": "22 septembre 1869 : Ouverture du Canal de Suez par Ferdinand de Lesseps",
+      "impact": "Cette voie navigable a révolutionné le commerce maritime en réduisant les trajets de 40% et en renforçant la domination économique européenne sur les routes commerciales mondiales."
     },
     "graphique_semaine": {
-      "titre": "Volatilité des rendements obligataires 10 ans (semaine du 15-21 septembre 2026)",
-      "description": "Les taux obligataires américains ont connu une semaine turbulente suite aux signaux contradictoires de la Fed concernant les futures baisses de taux. Le marché anticipait une réduction de 25pb, mais les déclarations hawkish de certains gouverneurs ont créé une volatilité de 45 points de base. Les investisseurs cherchent à repositionner leurs portefeuilles obligataires.",
+      "titre": "Volatilité des cryptomonnaies vs indices boursiers traditionnels (Sept 2026)",
+      "description": "Après trois années de régulation stricte, les cryptomonnaies affichent une volatilité 3x inférieure aux années 2020-2023. Les stablecoins adossés aux banques centrales captent désormais 65% du marché crypto, marquant une intégration progressive au système financier traditionnel.",
       "donnees": [
         {
-          "label": "Lun 15",
-          "valeur": 4.12
+          "label": "Lundi",
+          "valeur": 4.2
         },
         {
-          "label": "Mar 16",
-          "valeur": 4.28
+          "label": "Mardi",
+          "valeur": 3.8
         },
         {
-          "label": "Mer 17",
-          "valeur": 4.19
+          "label": "Mercredi",
+          "valeur": 3.1
         },
         {
-          "label": "Jeu 18",
-          "valeur": 4.35
+          "label": "Jeudi",
+          "valeur": 2.9
         },
         {
-          "label": "Ven 21",
-          "valeur": 4.23
+          "label": "Vendredi",
+          "valeur": 2.4
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Soudan du Sud: Mgr Hiiboro Kussala invite à construire la paix au-delà de toute différence",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/soudan-du-sud-mgr-hiiboro-kussala-invite-a-construire-la-paix.html",
+        "resume": "A l’occasion de la journée internationale de la paix, lundi 21 septembre 2026, Mgr Barani Eduardo Hiiboro Kussala, évêque de Tombura-Yambio, a adressé un message à la population du Soudan et du Soudan du Sud,",
+        "pub": "Mon, 21 Sep 2026 16:14:00 +0200",
+        "heure": "18h14"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape à la rencontre du personnel du dicastère pour la Culture et l'Éducation",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-dicastere-culture-education-humanisme-dialogue.html",
+        "resume": "Ce lundi matin, 21 septembre, Léon XIV s'est rendu au Palais des Propylées au Vatican, et a salué les employés et les collaborateurs du dicastère. Il les a ensuite encouragés et remerciés pour leur travail, l",
+        "pub": "Mon, 21 Sep 2026 15:13:00 +0200",
+        "heure": "17h13"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV récitera un chapelet pour la paix avec des centaines d’enfants au Vatican",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-vatican-chapelet-paix-enfants-aed-unite-chretiens-eglise.html",
+        "resume": "Le 1er octobre, entre 700 et 1 000 enfants issus d’écoles et de paroisses de Rome se joindront au Souverain Pontife dans les Jardins du Vatican, marquant ainsi le début de la semaine de prière de l’initiative",
+        "pub": "Mon, 21 Sep 2026 14:41:00 +0200",
+        "heure": "16h41"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "IA: Léon XIV invite à transformer les fruits de l'innovation technologique en outils de paix",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/ia-pape-transformer-les-fruits-innovation-technologique-paix.html",
+        "resume": "Léon XIV a adressé un message aux participants à la première édition d’AI4Peace, un colloque international qui s’ouvre aujourd’hui à l’université du Latran et qui porte sur les opportunités et les défis posés",
+        "pub": "Mon, 21 Sep 2026 14:03:00 +0200",
+        "heure": "16h03"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Uruguay, Argentine et Pérou: le programme du voyage de Léon XIV dévoilé",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/programme-officiel-voyage-pape-leon-xiv-argentine-perou-uruguay.html",
+        "resume": "La Salle de presse du Saint-Siège a rendu public le lundi 21 septembre l'itinéraire détaillé du sixième voyage apostolique du Pape, qui passera par dix villes d'Uruguay, d'Argentine et du Pérou, qui se déroul",
+        "pub": "Mon, 21 Sep 2026 13:38:00 +0200",
+        "heure": "15h38"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les sœurs dominicaines en Bouriatie, en mission pour le dialogue interculturel",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/soeurs-dominicaines-dialogue-interculturel-bouriatie-siberie.html",
+        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs présentes dans le monde entier. Dans ce",
+        "pub": "Mon, 21 Sep 2026 12:36:00 +0200",
+        "heure": "14h36"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les Papes et la France, de l’après-guerre à nos jours",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/papes-france-vatican-relations-diplomatie-intellectuel-politique.html",
+        "resume": "De Jean XXIII à Léon XIV, la papauté a toujours entretenu une relation étroite avec la France: des liens intellectuels, spirituels, et parfois conflictuels avec les évolutions sociales et politiques de la soc",
+        "pub": "Mon, 21 Sep 2026 12:31:00 +0200",
+        "heure": "14h31"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Mutations du catholicisme français, entre effondrement et réveil de la foi",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/pape-mutations-catholicisme-francais-entretien-guillaume-cuchet.html",
+        "resume": "La France, où est attendue Léon XVI en fin de semaine, est-elle encore un pays catholique ? Qui sont les catholiques qui accueilleront le Pape lors de son 5e voyage apostolique du 25 au 28 septembre prochains",
+        "pub": "Mon, 21 Sep 2026 12:17:00 +0200",
+        "heure": "14h17"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "«Un chemin d’espérance», un document important sur le dialogue interreligieux",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/esperance-vatican-dialogue-judeo-chretien-unite-chretiens-foi.html",
+        "resume": "Il s’agit d’un appel très important au dialogue avec le judaïsme et la religion musulmane – c’est ainsi que le cardinal Grzegorz Ryś évoque la note commune «Un chemin d’espérance», publiée le 16 septembre par",
+        "pub": "Mon, 21 Sep 2026 11:52:00 +0200",
+        "heure": "13h52"
+      },
       {
         "source": "Vatican News",
         "titre": "Léon XIV appelle les Clarisses capucines à «renouveler» leur vie communautaire",
@@ -450,78 +522,6 @@
         "resume": "Lors de la prière de l’Angélus ce dimanche 20 septembre, place Saint-Pierre, le Pape Léon XIV a médité sur la parabole des ouvriers de la onzième heure, proposée par l’Évangile de saint Matthieu. À partir de",
         "pub": "Sun, 20 Sep 2026 11:25:00 +0200",
         "heure": "13h25"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "«Sounds of Loss», installation sonore en mémoire des victimes de guerres",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/saint-pierre-musique-hommage-victimes-guerre-humanite-vie.html",
-        "resume": "Le 21 septembre, à l’occasion de la Journée internationale de la paix, l’installation sonore du réalisateur allemand Philip Gröning sera présentée dans le hall de la basilique Saint-Pierre: plus d’un millier",
-        "pub": "Sat, 19 Sep 2026 17:05:00 +0200",
-        "heure": "19h05"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "180e anniversaire des apparitions de La Salette, un don de Marie à l’Église",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/apparitions-salette-don-vierge-marie-eglise-trahison-conversion.html",
-        "resume": "Le 19 septembre marque le 180e anniversaire de l’apparition de La Salette. La Vierge en larmes était apparue à de simples enfants de la campagne. Elle les a fascinés par sa beauté et sa majesté, et leur a tra",
-        "pub": "Sat, 19 Sep 2026 14:51:00 +0200",
-        "heure": "16h51"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Assassinat d’un autre prêtre au Mexique, les évêques réclament justice",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/assassinat-pretre-mexique-eveques-justice-violence-appel.html",
-        "resume": "Le père Román de la Cruz Hernández, curé de Santa Cruz dans le diocèse de Huejutla, a été retrouvé sans vie sur une route de la Sierra d’Hidalgo: son corps était criblé de balles. La Conférence épiscopale mex",
-        "pub": "Sat, 19 Sep 2026 14:09:00 +0200",
-        "heure": "16h09"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Au-delà des divisions, le défi de Renovabis pour recoudre la société",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/renovabis-charite-aide-cohesion-synodalite-eglise-europe-paix.html",
-        "resume": "Le 30e congrès de l’œuvre caritative allemande s’est achevé à Freising. Plus de 200 experts venus de 26 pays ont échangé leurs points de vue sur la polarisation, les bulles numériques et le rôle des Églises d",
-        "pub": "Sat, 19 Sep 2026 13:47:00 +0200",
-        "heure": "15h47"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L’épiscopat latino-américain invité à avoir le cœur vers le ciel et les pieds sur terre",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/lettre-leon-xiv-eveques-latino-americains-saint-turibe.html",
-        "resume": "Léon XIV offre aux évêques d’Amérique latine et des Caraïbes un manuel pour exercer au mieux leur ministère à la lumière de l’exemple de saint Turibe, leur saint patron. Le Pape leur a envoyé une lettre dans",
-        "pub": "Sat, 19 Sep 2026 13:13:00 +0200",
-        "heure": "15h13"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Les sportifs de Special Olympics rappellent les vraies valeurs de la vie",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/leon-xiv-special-olympics-athletes-vraies-valeurs-de-la-vie.html",
-        "resume": "Léon XIV a reçu la délégation italienne des Special Olympics qui ont participé aux Jeux mondiaux d’hiver de Turin 2025. Dans son discours, le Pape les a encouragés à poursuivre leur témoignage de vie, prouvan",
-        "pub": "Sat, 19 Sep 2026 12:34:00 +0200",
-        "heure": "14h34"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "JMJ Séoul 2027: préparer une rencontre, pas seulement un rassemblement",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/jmj-seoul-rencontre-jeunes-asie-mission-eglise-pelerin-communion.html",
-        "resume": "Plus de 400 représentants de plus de 100 pays ont clôturé une réunion préparatoire de quatre jours à Séoul, en Corée du Sud, au cours de laquelle ils ont reçu des conseils concrets et une invitation renouvelé",
-        "pub": "Sat, 19 Sep 2026 12:15:00 +0200",
-        "heure": "14h15"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Don Di Liegro, le «saint» des plus démunis qui frappait à toutes les portes",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/don-di-liegro-reaction-enquete-diocesaine-mgr-di-tora.html",
-        "resume": "Après l’annonce par Léon XIV de l’ouverture d’une enquête diocésaine sur la vie de sainteté de don Luigi Di Liegro, fondateur de la Caritas de Rome, les réactions positives se sont multipliées dans le diocèse",
-        "pub": "Sat, 19 Sep 2026 10:17:00 +0200",
-        "heure": "12h17"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV exhorte son diocèse à une évaluation pastorale pour faire moins, mais mieux",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/assemblee-diocesaine-pape-eveque-rome.html",
-        "resume": "Ce vendredi après-midi, le Pape s'est exprimé à l'occasion de l'assemblée diocésaine ouvrant l'année pastorale romaine dans la basilique Saint-Jean-de-Latran, cathédrale de Rome. Le Souverain pontife a appelé",
-        "pub": "Fri, 18 Sep 2026 18:20:00 +0200",
-        "heure": "20h20"
       }
     ]
   }
