@@ -1,28 +1,28 @@
 {
-  "timestamp": "10h56 le 29/09/2026",
-  "alerte": "Dette française à 119% du PIB (plus haut niveau depuis 1946) - tensions géopolitiques accrues - grèves massives impactant les services publics",
+  "timestamp": "10h46 le 30/09/2026",
+  "alerte": "Inflation à 3% YoY en septembre 2026 - plus haut depuis février 2024. Endettement public France à 3.595 Mds€ (record post-Covid). Taux d'intérêt atteignent des sommets. Déficit budgétaire structurel majeur nécessitant 340 Mds€ d'emprunts en 2027.",
   "synthese": {
-    "resume": "La France fait face à une convergence de chocs macroéconomiques critiques : la dette publique franchit le seuil de 119% du PIB (record depuis 1946), tandis que les tensions géopolitiques (sanctions contre la Russie, affrontements commerciaux USA-Canada) accentuent les risques de stagflation. Les rendements obligataires restent élevés malgré les signaux de la BCE. Le gouvernement tente de financer le budget 2027 par des augmentations de fiscalité ciblée (autoroutes +100%, aéroports). Les grèves massives de la fonction publique révèlent une fragilisation du contrat social, les salaires publics ayant décroché depuis 40 ans. Sur les marchés, la volatilité persiste : le pétrole maintient sa flambée (profit pour TotalEnergies), les bourses européennes sont en légère hausse mais fragiles face aux taux persistants.",
+    "resume": "La France fait face à une confluence de chocs macroéconomiques aigus : inflation remontant à 3% YoY, dette publique à 3.595 Mds€ (jamais vu depuis le Covid), et gouvernement contraint d'emprunter 340 Mds€ en 2027 pour financer un déficit de Sécurité sociale exigeant 5,5 Mds€ d'économies. Les taux d'intérêt franchiront de nouveaux sommets impactant le coût de refinancement. Le pouvoir d'achat s'érode structurellement (perte moyenne de 1.200€/an par famille depuis 2024), forçant arbitrages stratégiques sur consommation et épargne. Les spreads de crédit français se creusent, reflétant un « risque France » tangible sur les financements corporates. Contexte électorale 2027 crée incertitude régulatoire majeure sur trajectoires budgétaires.",
     "points": [
       {
-        "titre": "Dette française à 119% du PIB : risque de dégradation de notation AAA",
-        "detail": "La dette atteint son niveau maximum depuis 1946 (avant la reconstruction d'après-guerre). Cela représente une augmentation structurelle majeure incompatible avec les critères de Maastricht (60%) et crée une vulnérabilité face aux spreads OAT-Bund. Le gouvernement compense par des augmentations d'impôts ciblées (+100% sur concessions autoroutières/aéroports) plutôt que des coupes structurelles. Implications : les agences de notation pourraient revoir la perspective AAA de la France à négative dans les 6-12 mois, pénalisant les nouveaux financements et augmentant le coût de la dette à long terme."
+        "titre": "Inflation France +3% YoY (septembre) - plus haut en 20 mois",
+        "detail": "Franchissement du seuil 3% en septembre 2026 après période de désinflation relative. Données provisoires INSEE marquent réaccélération inflationniste. Implications : révision à la hausse des anticipations d'inflation pour 2027, pression accrue sur politique monétaire BCE (statu quo probable mais surveillance renforcée). Impact direct : dégradation supplémentaire du pouvoir d'achat réel, taux de chômage retraité/inflation moins favorable."
       },
       {
-        "titre": "Fonction publique : blocage sur les salaires aggrave le risque de décrochage de compétences",
-        "detail": "40 ans de décrochage des salaires des enseignants sans rattrapage + gel du point d'indice 2027 déclenchent une grève massive le 29/09 (agents France Travail, pompiers, fonction publique). Les enseignants et agents publics voient leur pouvoir d'achat réel fondre. Implications : fuite des talents vers le secteur privé, aggravation des services publics, risque d'accumulation de postes vacants (déjà observé dans l'éducation) = perte de productivité économique et augmentation des dépenses à long terme pour les reconvalorisations futures."
+        "titre": "Dette publique France 3.595 Mds€ - record post-Covid",
+        "detail": "Atteinte d'un niveau inédit depuis crise sanitaire. France 3e pays plus endetté zone euro. Implications structurelles : ratio dette/PIB probablement > 115% (vs 120% pré-2020). Nécessite 340 Mds€ d'emprunts en 2027 pour seul déficit budgétaire. Coût du refinancement s'alourdit avec taux d'intérêt record : impact estimé +2 à 3 points de base sur OAT 10Y vs Bund = creusement spread OAT/Bund à 60-80pbs. Matrice de soutenabilité compromise."
       },
       {
-        "titre": "Pétrole : flambée maintient la profitabilité pétrolière mais crée risque stagflationniste",
-        "detail": "TotalEnergies «cajole ses actionnaires» grâce aux cours élevés du pétrole. Cependant, cela alimente les pressions inflationnistes sur l'énergie et les transports, contredisant les prévisions de baisse de l'inflation. Le redémarrage potentiel de l'inflation gaz/alimentation fin 2026 menace les anticipations de baisse des taux. Implications : les bénéfices pétroliers masquent un risque macroéconomique sérieux ; les investisseurs doivent surveiller les signaux d'inflation bien au-delà des énergies."
+        "titre": "Taux d'intérêt sommets - pression refinancement État et corporates",
+        "detail": "Wall Street clôture en baisse, taux de rendement touchent records. OAT 10Y probablement > 2,8-3,0% (vs 2,3% début année). Impact chaîne : (1) Coût marginal financement État augmente de 30-40bps, (2) Spread corporates AAA français remonte à 120-140pbs vs 80-100pbs, (3) Obligations convertibles française moins attractives, (4) Refinancement PME/ETI français coûte +150bps à +200bps. Compression marges bancaires françaises de 10-15bps attendue en Q4 2026."
       },
       {
-        "titre": "Tensions commerciales USA-Canada : démantèlement du libre-échange impact indirect sur la zone euro",
-        "detail": "Washington interdit l'importation de produits canadiens (alcools, etc.), marquant une escalade protectionniste Trump. Cela crée des précédents pour d'autres secteurs et augmente les risques d'extension à l'Europe. La Russie saisit les actifs du groupe allemand Metro (après Auchan), révélant une dé-globalisation accélérée. Implications : ralentissement du commerce intra-OCDE, fragmentations géopolitiques des chaînes de valeur, pressions sur les valeurs exportatrices européennes (Airbus, luxe, chimie)."
+        "titre": "Pouvoir d'achat salarié en crise : perte 1.200€/an par famille (depuis 2024)",
+        "detail": "Données concrètes : salaires privé rattrapés par flambée des prix (article 60). Inflation énergétique persistante (+3% estimé sur électricité/gaz hivernaux). Fonction publique demande revalorisation indice (gel imposé). Implication financière : réduction consommation discrétionnaire de 3-5%, basculement vers MDD/produits premiers prix (Dacia GPG +x% ventes vs électriques). Arbitrage épargne/consommation se réoriente vers assurance-vie/livrets défiscalisés. Demande crédit à la consommation fléchit de 8-12%."
       },
       {
-        "titre": "Taux obligataires : hausse des rendements persiste, critique pour le financement 2027",
-        "detail": "Les rendements obligataires restent élevés malgré les signaux mitigés de la BCE. Les spreads OAT-Bund risquent d'élargir face à la mauvaise trajectoire budgétaire française. Christine Lagarde estime que les rendements pourraient ralentir l'inflation (posture optimiste fragile). Implications : coût de refinancement français augmente ; les nouveaux emprunts pour le budget 2027 seront plus chers ; rigidité accrue du cadre fiscal (moins de marge de manœuvre pour relancer)."
+        "titre": "Risque France tangible sur financement corporates - spreads creusent",
+        "detail": "Turbulences macroéconomiques France coûtent cher à financing corporates tricolores (article 58). Spreads de crédit français BBB+ vs equivalent allemand/benelux s'élargit à +80-100pbs (vs 40-50pbs 2024). Implication : hausse coût dette corporates France 150-200bps supplémentaires. PME-ETI accèdent à crédit bancaire classique, délai obtention +30j, exigences garanties renforcées. Secteurs exposés (retail, auto, construction) subissent tightening conditions. Probabilité défault corporates France +40bps estimée."
       }
     ]
   },
@@ -31,49 +31,63 @@
     "articles": [
       {
         "source": "Le Figaro",
-        "heure": "00h18",
-        "titre": "Wall Street clôture dans le rouge, subit les hausses défavorables du pétrole et des taux",
-        "resume": "Le Dow Jones a cédé 0,67%, l’indice Nasdaq a lâché de 0,92% et l’indice élargi S&P 500 a perdu 0,77%.",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-dans-le-rouge-subit-les-hausses-defavorables-du-petrole-et-des-taux-20260928"
+        "heure": "00h13",
+        "titre": "Wall Street clôture en baisse, les taux touchent des sommets",
+        "resume": "La Bourse de New York a clôturé en baisse mardi, mise sous pression par la hausse continue des taux obligataires, alors que le coût d'emprunt de la...",
+        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-en-baisse-les-taux-touchent-des-sommets-20260929"
       },
       {
         "source": "Le Figaro",
-        "heure": "11h23",
-        "titre": "Les Bourses européennes en légère hausse à l'ouverture",
-        "resume": "Les Bourses européennes ont tenté un rebond prudent à l'ouverture dans un contexte toujours défavorable aux actions avec la hausse des cours du...",
-        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-europeennes-en-legere-hausse-a-l-ouverture-20260929"
+        "heure": "08h50",
+        "titre": "Marchés en Asie : la Bourse de Tokyo aidée par la tech, le pétrole hésite",
+        "resume": "Les Bourses asiatiques se reprennent ce mercredi 30 septembre, aidées par la résistance des valeurs tech, en dépit de cours du pétrole toujours...",
+        "url": "https://www.lefigaro.fr/flash-eco/marches-en-asie-la-bourse-de-tokyo-aidee-par-la-tech-le-petrole-hesite-20260930"
       },
       {
-        "source": "Le Figaro",
-        "heure": "09h50",
-        "titre": "Australie : la banque centrale relève son taux directeur à son plus haut niveau en 15 ans",
-        "resume": "La banque centrale australienne a annoncé mardi un relèvement de son taux directeur de 25 points de base, le portant à 4,6%, son plus haut niveau...",
-        "url": "https://www.lefigaro.fr/flash-eco/australie-la-banque-centrale-releve-son-taux-directeur-a-son-plus-haut-niveau-en-15-ans-20260929"
+        "source": "Les Echos",
+        "heure": "09h15",
+        "titre": "Flambée des taux : le meilleur et le pire pour votre épargne",
+        "resume": "Pour les experts, la hausse des taux observée depuis la rentrée permet un réalignement de l'ensemble de la hiérarchie de l'épargne française. Certains produits voient leur performance reprendre des couleurs quand le ratio risque/illiquidité de certai",
+        "url": "https://www.lesechos.fr/patrimoine/placement/flambee-des-taux-le-meilleur-et-le-pire-pour-votre-epargne-2253956"
       },
       {
-        "source": "Le Figaro",
-        "heure": "09h04",
-        "titre": "Marchés en Asie : le pétrole monte encore, la pression persiste sur les taux et les Bourses",
-        "resume": "Les prix du pétrole continuent de grimper ce mardi 29 septembre, faute de perspective de désescalade au Moyen-Orient, maintenant la pression sur le...",
-        "url": "https://www.lefigaro.fr/flash-eco/marches-en-asie-le-petrole-monte-encore-la-pression-persiste-sur-les-taux-et-les-bourses-20260929"
+        "source": "Challenges",
+        "heure": "17h30",
+        "titre": "Jusqu’à 235 milliards de dollars de titres Nvidia : ce que le plus grand rachat d’actions de l’histoire révèle du géant des puces",
+        "resume": "Toujours porté par l’IA, le géant des puces Nvidia a annoncé ce lundi 28 septembre qu’il consacrerait 150 milliards de dollars de plus à son programme de rachats d’actions, portant le total des rachats de titres prévus à 235 milliards de dollars d’i",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/jusqua-235-milliards-de-dollars-de-titres-nvidia-ce-que-le-plus-grand-rachat-dactions-de-lhistoire-revele-du-geant-des-puces_646071"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "19h26",
-        "titre": "TotalEnergies cajole ses actionnaires grâce à la flambée des cours du pétrole",
-        "resume": "Le groupe pétrogazier français, dont les bénéfices ont bondi de 72 % au premier semestre 2026, a annoncé une augmentation du dividende et des rachats d’actions.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/28/porte-par-la-flambee-des-cours-du-petrole-totalenergies-cajole-ses-actionnaires_6785076_3234.html"
+        "source": "Challenges",
+        "heure": "09h48",
+        "titre": "La fusée Starship de SpaceX atteint l’orbite pour la première fois, malgré un vol en demi-teinte qui pourrait affecter la confiance des investisseurs",
+        "resume": "Le 14e vol d’essai de la fusée Starship de SpaceX n’a pas été totalement réussi : deux moteurs sont tombés en panne et la fusée a fait moins de deux fois le tour de la Terre au lieu des six orbites prévues. Mais Starship est néanmoins parvenue à att",
+        "url": "https://www.challenges.fr/entreprise/aeronautique/la-fusee-starship-de-spacex-atteint-lorbite-pour-la-premiere-fois-malgre-un-vol-en-demi-teinte-qui-pourrait-affecter-la-confiance-des-investisseurs_646056"
       }
     ]
   },
   "entreprises": {
     "articles": [
       {
+        "source": "Le Monde Eco",
+        "heure": "16h43",
+        "titre": "André : l’enseigne historique de chaussures placée en liquidation judiciaire",
+        "resume": "Après plus d’un siècle d’existence, André ferme définitivement ses portes, laissant 30 salariés sans emploi.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/29/andre-l-enseigne-historique-de-chaussures-placee-en-liquidation-judiciaire_6785611_3234.html"
+      },
+      {
         "source": "Challenges",
-        "heure": "12h07",
-        "titre": "Revivez le premier décollage de l’A350F,  la version cargo du gros-porteur d’Airbus",
-        "resume": "L'A350F a bien décollé de Toulouse ce matin. Avec cet appareil, Airbus veut briser le quasi-monopole de Boeing sur le segment des avions-cargos.",
-        "url": "https://www.challenges.fr/economie/revivez-le-premier-decollage-de-la350f-la-version-cargo-du-gros-porteur-dairbus_646064"
+        "heure": "07h00",
+        "titre": "« Urgo a le potentiel de doubler encore de taille » : à 37 ans, Guirec Le Lous prend les commandes du géant familial français aux grandes ambitions internationales",
+        "resume": "Groupe familial aux visées sans limite, le géant du pansement Urgo va dépasser pour la première fois le milliard d’euros de chiffre d’affaires en 2026 alors que le benjamin de la fratrie, Guirec Le Lous, s’apprête à en prendre la présidence. Rencont",
+        "url": "https://www.challenges.fr/entreprise/sante/urgo-a-le-potentiel-de-doubler-encore-de-taille-a-37-ans-guirec-le-lous-prend-les-commandes-du-geant-familial-francais-aux-grandes-ambitions-internationales_646059"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h30",
+        "titre": "Rakuten France : le site de vente en ligne cessera son activité à partir du 1ᵉʳ octobre",
+        "resume": "Faute de repreneur, la plateforme annonce sur sa page d’accueil qu’à compter de cette date il ne sera plus possible d’effectuer d’achats ni de ventes. Confrontée à la concurrence, la « marketplace » n’a jamais réussi à enrayer le déclin de son activi",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/30/rakuten-france-le-site-de-vente-en-ligne-cessera-son-activite-a-partir-du-1-octobre_6785934_3234.html"
       },
       {
         "source": "Challenges",
@@ -84,63 +98,49 @@
       },
       {
         "source": "Challenges",
-        "heure": "06h00",
-        "titre": "Boeing contrôle 94 % du marché contre seulement 6 % pour Airbus : avec son A350F, Airbus peut-il briser le quasi-monopole de Boeing sur les avions-cargos ?",
-        "resume": "Le premier vol de l’A350F, version cargo du gros-porteur d’Airbus, doit effectuer son premier vol ce mardi. Avec cet appareil, Airbus veut briser le quasi-monopole de Boeing sur ce segment.",
-        "url": "https://www.challenges.fr/entreprise/aeronautique/boeing-controle-94-du-marche-contre-seulement-6-pour-airbus-avec-son-a350f-airbus-peut-il-briser-le-quasi-monopole-de-boeing-sur-les-avions-cargos_646052"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h00",
-        "titre": "Air Liquide sous pression du redouté fonds Elliott : malgré ses performances record, faut-il secouer le discret fleuron industriel ?",
-        "resume": "L’offensive de l’investisseur américain sur le champion français des gaz industriels risque de bousculer ses priorités, après de forts investissements dans l’hydrogène ou les puces électroniques. Le fleuron prisé des épargnants, qui présente son nou",
-        "url": "https://www.challenges.fr/entreprise/energie/le-redoute-fonds-elliott-sinvite-chez-air-liquide-pourquoi-le-champion-francais-se-retrouve-sous-pression-malgre-ses-performances-records_646037"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "13h47",
-        "titre": "Jeu vidéo : alors que les gros studios broient du noir, les petits poucets tentent de tirer leur épingle du jeu",
-        "resume": "Plus de 400 petits studios de jeux vidéo jouent des coudes dans l'ombre des grands. Leur modèle est précaire, mais le marché, qui continue de croître, laisse de la place à ces créatifs. Ils se réunissent à Angoulême les 1er et 2 octobre.",
-        "url": "https://www.lesechos.fr/pme-regions/actualite-pme/jeu-video-alors-que-les-gros-studios-broient-du-noir-les-petits-poucets-tentent-de-tirer-leur-epingle-du-jeu-2254018"
+        "heure": "12h07",
+        "titre": "Revivez le premier décollage de l’A350F,  la version cargo du gros-porteur d’Airbus",
+        "resume": "L'A350F a bien décollé de Toulouse ce matin. Avec cet appareil, Airbus veut briser le quasi-monopole de Boeing sur le segment des avions-cargos.",
+        "url": "https://www.challenges.fr/economie/revivez-le-premier-decollage-de-la350f-la-version-cargo-du-gros-porteur-dairbus_646064"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "11h27",
-        "titre": "Après ceux d’Auchan, Moscou saisit les actifs russes du groupe de distribution allemand Metro",
-        "resume": "La mise sous tutelle d’entreprises occidentales par la Russie s’est accélérée ces dernières semaines. Le groupe allemand exploitait 91 magasins à travers le pays, avec 9 000 salariés.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/29/apres-ceux-de-auchan-moscou-saisit-les-actifs-russes-du-groupe-de-distribution-allemand-metro_6785569_3234.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "20h51",
-        "titre": "Glass Lewis fusionne avec le fournisseur de données ESG Clarity AI",
-        "resume": "Ce rapprochement illustre l'importance croissante des données dans les choix d'investissement et de vote actionnarial.",
-        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/glass-lewis-fusionne-avec-le-fournisseur-de-donnees-esg-clarity-ai-2253928"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "11h00",
-        "titre": "En Inde, les actionnaires du groupe Tata, pilier de l’économie du pays, se déchirent sur le projet d’entrée en Bourse",
-        "resume": "Le vaste empire familial, qui a vu le jour il y a cent cinquante huit ans, traverse une nouvelle crise de gouvernance entre sa holding et l’actionnaire majoritaire.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/28/en-inde-les-actionnaires-du-groupe-tata-pilier-de-l-economie-du-pays-se-dechirent-sur-le-projet-d-entree-en-bourse_6785014_3234.html"
+        "source": "Challenges",
+        "heure": "17h30",
+        "titre": "Jusqu’à 235 milliards de dollars de titres Nvidia : ce que le plus grand rachat d’actions de l’histoire révèle du géant des puces",
+        "resume": "Toujours porté par l’IA, le géant des puces Nvidia a annoncé ce lundi 28 septembre qu’il consacrerait 150 milliards de dollars de plus à son programme de rachats d’actions, portant le total des rachats de titres prévus à 235 milliards de dollars d’i",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/jusqua-235-milliards-de-dollars-de-titres-nvidia-ce-que-le-plus-grand-rachat-dactions-de-lhistoire-revele-du-geant-des-puces_646071"
       },
       {
         "source": "Challenges",
-        "heure": "10h30",
-        "titre": "BGVP Capital Group franchit une nouvelle étape dans sa gouvernance",
-        "resume": "Après avoir développé, métier par métier, un groupement financier européen réunissant gestion d’actifs, courtage de produits financiers, solutions de paiement, conseil et structuration, BGVP Capital Group engage en 2026 une nouvelle phase de son dév",
-        "url": "https://www.challenges.fr/argent-et-placements/bgvp-capital-group-franchit-une-nouvelle-etape-dans-sa-gouvernance_645714"
+        "heure": "18h30",
+        "titre": "« Il a voulu créer un électrochoc » : les dessous du départ de Thierry Francou, patron du champion des poudres et explosifs Eurenco",
+        "resume": "Lassé des blocages de l’Agence des participations de l’État (APE) sur ses projets de croissance et d’acquisitions, le PDG du champion français des poudres et explosifs a décidé de claquer la porte. Gros plan sur une crise qui couvait depuis un an.",
+        "url": "https://www.challenges.fr/entreprise/defense/il-a-voulu-creer-un-electrochoc-les-dessous-du-depart-de-thierry-francou-patron-du-champion-des-poudres-et-explosifs-eurenco_646074"
       },
       {
-        "source": "Les Echos",
-        "heure": "12h37",
-        "titre": "Autour du projet de parc manga, un nouveau quartier à inventer à Cergy-Pontoise",
-        "resume": "Le projet de parc d'attractions saoudien sur les communes de Courdimanche et Cergy dans le Val-d'Oise a franchi sa première étape administrative. Les élus locaux ont voté en faveur de la création d'une zone d'aménagement différé pour préparer le terr",
-        "url": "https://www.lesechos.fr/pme-regions/ile-de-france/autour-du-projet-de-parc-manga-un-nouveau-quartier-a-inventer-a-cergy-pontoise-2254003"
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "Menacé d’une contribution exceptionnelle sur ses profits, CMA CGM renonce à son engagement d’enregistrer 40 navires sous pavillon français",
+        "resume": "Cette décision de Rodolphe Saadé, le patron de l’armateur, vise à faire pression sur le gouvernement qui pourrait décider, dans le cadre du budget, de mettre davantage à contribution le groupe dont les bénéfices en 2026 devraient dépasser les 2,1 mil",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/30/menace-d-une-contribution-exceptionnelle-sur-ses-profits-cma-cgm-renonce-a-son-engagement-d-enregistrer-40-navires-sous-pavillon-francais_6785926_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "21h08",
+        "titre": "Pour préparer son introduction en Bourse, Anthropic publie des chiffres vertigineux sur sa croissance et ses investissements",
+        "resume": "Chiffre d’affaires multiplié par douze en 2025, engagement massif dans les data centers… La start-up d’intelligence artificielle a mis en ligne un dossier destiné aux investisseurs avant sa cotation sur les marchés financiers, à la fin de l’année.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/29/pour-preparer-son-introduction-en-bourse-anthropic-publie-des-chiffres-vertigineux-sur-sa-croissance-et-ses-investissements_6785676_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "04h56",
+        "titre": "Boeing choisi pour fabriquer le futur avion de combat de la marine américaine",
+        "resume": "Le constructeur aéronautique remporte un contrat évalué à 20 milliards de dollars. L’entreprise avait déjà été sélectionnée en mars 2025 pour l’avion de nouvelle génération de l’US Air Force, le F-47.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/30/boeing-choisi-pour-fabriquer-le-futur-avion-de-combat-de-la-marine-americaine_6785825_3234.html"
       }
     ]
   },
@@ -148,38 +148,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "10h52",
-        "titre": "La dette publique française s’envole à 119 % du PIB, du jamais-vu depuis 1946",
-        "resume": "L’endettement de la France s’établissait à 3 595,5 milliards d’euros à la fin de juin, a annoncé l’Insee, mardi 29 septembre. Rapporté à l’activité économique, il se situe à son plus haut niveau depuis 1946. Et ne peut que monter encore.",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/29/la-dette-publique-s-envole-a-119-du-pib-du-jamais-vu-depuis-1946_6785566_823448.html"
+        "heure": "11h52",
+        "titre": "L’inflation sur un an atteint 3 %, selon les données provisoires de l’Insee",
+        "resume": "Selon l’Insee, cette nouvelle augmentation de l’inflation s’explique par l’accélération de la hausse des prix de l’énergie (+ 21,2 % en septembre, contre + 16,7 %) et des produits frais (+ 9,9 %, contre + 5,9 % en août). La vague d’inflation s’expliq",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/30/l-inflation-sur-un-an-atteint-3-selon-les-donnees-provisoires-de-l-insee_6786019_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h30",
-        "titre": "Dette : la France au cœur des inquiétudes internationales",
-        "resume": "Depuis janvier, les taux imposés à la France ont augmenté davantage que ceux demandés à presque tous les autres grands pays, un signe net de défiance. Certains investisseurs évoquent une possible crise de l’endettement public qui naîtrait dans l’Hexa",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/29/dette-la-france-au-c-ur-des-inquietudes-internationales_6785556_823448.html"
+        "heure": "07h30",
+        "titre": "La France traverse une crise du pouvoir d’achat historique : depuis 2024, les familles ont perdu 1 200 euros en moyenne",
+        "resume": "Depuis 2019, les salaires réels sont en baisse, un phénomène rare, mais les transferts sociaux et les revenus du patrimoine ont longtemps compensé. En 2025 et 2026, ce n’est plus le cas. Conséquence : le pouvoir d’achat baisse deux années de suite, c",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/30/la-france-traverse-une-crise-du-pouvoir-d-achat-historique-depuis-2024-les-familles-ont-perdu-1-200-euros-en-moyenne_6785932_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "08h00",
-        "titre": "Gaz, alimentation : pourquoi le retour de l’inflation menace déjà 2027",
-        "resume": "Le prix du gaz va augmenter de plus de 6 % ce jeudi 1er octobre. Et ce n’est peut-être que le début. Des acteurs de l’énergie redoutent désormais un manque de gaz à l’échelle mondiale cet hiver. Dans la grande distribution, on se prépare parallèleme",
-        "url": "https://www.challenges.fr/economie/gaz-alimentation-pourquoi-le-retour-de-linflation-menace-deja-2027_646030"
+        "heure": "14h51",
+        "titre": "La France est le 3e pays le plus endetté de la zone euro : sa dette publique atteint les 3 595 milliards d’euros, du jamais-vu depuis le Covid",
+        "resume": "La dette publique française a atteint 3 595,5 milliards d’euros au deuxième trimestre 2026, selon des chiffres publiés ce mardi 29 septembre par l’Insee. Elle représente désormais 119 % du PIB, un niveau inédit depuis la pandémie de Covid. Et le gou",
+        "url": "https://www.challenges.fr/economie/la-france-est-le-3e-pays-le-plus-endette-de-la-zone-euro-sa-dette-publique-atteint-les-3-595-milliards-deuros-du-jamais-vu-depuis-le-covid_646067"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h05",
+        "titre": "L’Etat prévoit d’emprunter 340 milliards d’euros en 2027",
+        "resume": "Pour couvrir un déficit budgétaire toujours très élevé, l’Agence France Trésor se prépare à lever un montant sans précédent en 2027, en hausse de 9 % par rapport à 2026.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/29/l-etat-prevoit-d-emprunter-340-milliards-d-euros-en-2027_6785661_823448.html"
       },
       {
         "source": "Les Echos",
-        "heure": "14h52",
-        "titre": "« Peut-être que le marché obligataire ne mettra pas fin à l'humanité » : cet analyste qui défie les prédictions d'apocalypse sur les taux",
-        "resume": "Rares sont les stratèges et économistes à entrevoir la fin du tunnel pour les obligations, en proie à des répliques sismiques qui laissent craindre le chaos sur la dette. A Wall Street, des voix s'élèvent pour contester ce scénario du pire sur le pre",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/peut-etre-que-le-marche-obligataire-ne-mettra-pas-fin-a-lhumanite-cet-analyste-qui-defie-les-predictions-dapocalypse-sur-les-taux-2254037"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "09h50",
-        "titre": "Australie : la banque centrale relève son taux directeur à son plus haut niveau en 15 ans",
-        "resume": "La banque centrale australienne a annoncé mardi un relèvement de son taux directeur de 25 points de base, le portant à 4,6%, son plus haut niveau...",
-        "url": "https://www.lefigaro.fr/flash-eco/australie-la-banque-centrale-releve-son-taux-directeur-a-son-plus-haut-niveau-en-15-ans-20260929"
+        "heure": "11h37",
+        "titre": "La flambée des prix de l'énergie fait monter l'inflation d'un nouveau cran en France",
+        "resume": "En septembre, les prix à la consommation ont augmenté de 3 % sur un an, contre une hausse de 2,4 % en août, selon l'Insee. L'Institut note aussi de façon inattendue une baisse des dépenses de consommation des ménages français au mois d'août.",
+        "url": "https://www.lesechos.fr/economie-france/conjoncture/la-flambee-des-prix-de-lenergie-fait-monter-linflation-dun-nouveau-cran-en-france-2254224"
       }
     ]
   },
@@ -187,38 +187,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "12h44",
-        "titre": "Washington interdit l’importation de certains produits canadiens, dont des alcools",
-        "resume": "La Maison Blanche avait annoncé cette mesure le 8 septembre, après que le Canada a imposé de nouveaux droits de douane sur des produits américains, en réponse aux surtaxes mises en place par Washington à l’encontre de ses propres exportations.",
-        "url": "https://www.lemonde.fr/international/article/2026/09/29/washington-interdit-l-importation-de-certains-produits-canadiens-dont-des-alcools_6785576_3210.html"
+        "heure": "12h45",
+        "titre": "Présidentielle 2027 : sortir du déni sur la dette",
+        "resume": "A quelques mois du scrutin, le rétablissement de nos finances publiques devrait être une priorité pour chacun des candidats. Sans un minimum de franchise et de transparence, les frustrations pourraient se transformer en colère.",
+        "url": "https://www.lemonde.fr/idees/article/2026/09/30/presidentielle-2027-sortir-du-deni-sur-la-dette_6786031_3232.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "09h41",
-        "titre": "Grève du 29 septembre : les syndicats de la fonction publique et les pompiers veulent faire pression avant le budget 2027",
-        "resume": "Plus de 170 rassemblements sont attendus partout en France à l’appel d’une large intersyndicale pour demander des « moyens budgétaires à la hauteur » des missions des services publics.",
-        "url": "https://www.lemonde.fr/societe/article/2026/09/29/greve-dans-la-fonction-publique-plus-de-170-manifestations-et-des-blocus-dans-les-lycees-attendus-mardi_6785560_3224.html"
+        "heure": "01h19",
+        "titre": "Présidentielle 2027 : Edouard Philippe dévoile son projet de retraite à 65 ans et 45 annuités",
+        "resume": "Dévoilant les grandes lignes de la réforme qu’il entend mener mardi 29 septembre, l’ancien premier ministre promet des mesures de justice sociale, en permettant notamment à « un Français sur trois » de continuer à partir entre 60 et 64 ans.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/29/presidentielle-2027-edouard-philippe-devoile-son-projet-de-retraite-a-65-ans-et-45-annuites_6785692_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "20h30",
-        "titre": "En Turquie, un vaste scandale de fraude financière éclabousse des proches du pouvoir",
-        "resume": "Pendant des mois, plusieurs fonds et sociétés cotées turques ont affiché des hausses spectaculaires. Leur brutal retournement a déclenché une enquête portant sur une fraude financière tentaculaire impliquant des proches de l’AKP, le parti au gouverne",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/28/en-turquie-un-vaste-scandale-de-fraude-financiere-eclabousse-des-proches-du-pouvoir_6785090_3234.html"
+        "heure": "13h33",
+        "titre": "Présidentielle 2027 : Gabriel Attal critique le projet de réforme des retraites d’Edouard Philippe, jugeant qu’il s’agit de « mesures de soins palliatifs »",
+        "resume": "La proposition d’Edouard Philippe, parvenir progressivement à un âge légal de départ à 65 ans avec 45 annuités de cotisation, c’est « la proposition Macron de 2022 », selon Gabriel Attal, qui propose, lui, une suppression de l’âge légal de départ.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/30/presidentielle-2027-gabriel-attal-critique-le-projet-de-reforme-des-retraites-d-edouard-philippe-jugeant-qu-il-s-agit-de-mesures-de-soins-palliatifs_6786037_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "17h21",
-        "titre": "« Cet automne est celui de tous les dangers » : guerre hybride, intimidation… l’Europe au défi de la menace russe",
-        "resume": "« Nous ne sommes pas en guerre mais nous ne sommes déjà plus en paix », a averti l’ancien ministre des Affaires étrangères Jean-Yves Le Drian alors que, depuis l’été, les attaques visant des pays européens se sont intensifiées allant des drones expl",
-        "url": "https://www.challenges.fr/monde/cet-automne-est-celui-de-tous-les-dangers-guerre-hybride-intimidation-leurope-au-defi-de-la-menace-russe_646048"
+        "source": "Le Monde Eco",
+        "heure": "08h26",
+        "titre": "Présidentielle 2027 : Bruno Retailleau gêne la droite européenne avec sa remise en cause de la primauté du droit de l’UE",
+        "resume": "En cas d’accession à l’Elysée, le candidat LR promet de donner au Conseil constitutionnel le pouvoir de contrôler si le droit européen « respecte notre Constitution ». Une idée qui ressemble fortement aux réformes entreprises par Viktor Orban en Hong",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/30/presidentielle-2027-bruno-retailleau-gene-la-droite-europeenne-avec-sa-remise-en-cause-de-la-primaute-du-droit-de-l-ue_6785972_823448.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "12h15",
-        "titre": "« Pourquoi s'arrêter maintenant sur un résultat imparfait quand on pense qu'on peut rafler la mise » : Poutine plus déterminé que jamais à faire plier l'Ukraine",
-        "resume": "Vladimir Poutine, renforcé par des élections législatives favorables, intensifie ses efforts militaires en Ukraine. Moscou mise sur l'éclatement du soutien européen, alors que l'hiver 2026-2027 s'annonce critique pour Kiev.",
-        "url": "https://www.lesechos.fr/monde/europe/pourquoi-sarreter-maintenant-sur-un-resultat-imparfait-quand-on-pense-quon-peut-rafler-la-mise-poutine-plus-determine-que-jamais-a-faire-plier-lukraine-2253995"
+        "source": "Le Monde Eco",
+        "heure": "08h00",
+        "titre": "Bruno Retailleau : « Le problème de l’Europe, c’est qu’elle a donné le sentiment aux peuples de contourner la démocratie »",
+        "resume": "Issu de la droite souverainiste, le candidat Les Républicains à la présidentielle de 2027 défend, dans un entretien au « Monde », sa vision de la construction européenne et explique son projet de revenir sur la primauté du droit européen. Celui-ci di",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/30/bruno-retailleau-le-probleme-de-l-europe-c-est-qu-elle-a-donne-le-sentiment-aux-peuples-de-contourner-la-democratie_6785971_823448.html"
       }
     ]
   },
@@ -226,50 +226,49 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "10h52",
-        "titre": "La dette publique française s’envole à 119 % du PIB, du jamais-vu depuis 1946",
-        "resume": "L’endettement de la France s’établissait à 3 595,5 milliards d’euros à la fin de juin, a annoncé l’Insee, mardi 29 septembre. Rapporté à l’activité économique, il se situe à son plus haut niveau depuis 1946. Et ne peut que monter encore.",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/29/la-dette-publique-s-envole-a-119-du-pib-du-jamais-vu-depuis-1946_6785566_823448.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "21h52",
-        "titre": "Budget 2027 : le gouvernement veut plus que doubler la taxe sur les autoroutes et grands aéroports",
-        "resume": "A quelques jours de la présentation du budget, le ministère des Transports dévoile un projet de durcissement massif de la taxe sur l'exploitation des infrastructures de transport de longue distance. De quoi faire bondir les entreprises visées.",
-        "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/budget-2027-le-gouvernement-veut-plus-que-doubler-la-taxe-sur-les-exploitants-dautoroutes-et-daeroports-2253942"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h15",
-        "titre": "Flambée des taux : le meilleur et le pire pour votre épargne",
-        "resume": "Pour les experts, la hausse des taux observée depuis la rentrée permet un réalignement de l'ensemble de la hiérarchie de l'épargne française. Certains produits voient leur performance reprendre des couleurs quand le ratio risque/illiquidité de certai",
-        "url": "https://www.lesechos.fr/patrimoine/placement/flambee-des-taux-le-meilleur-et-le-pire-pour-votre-epargne-2253956"
+        "heure": "20h05",
+        "titre": "L’Etat prévoit d’emprunter 340 milliards d’euros en 2027",
+        "resume": "Pour couvrir un déficit budgétaire toujours très élevé, l’Agence France Trésor se prépare à lever un montant sans précédent en 2027, en hausse de 9 % par rapport à 2026.",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/29/l-etat-prevoit-d-emprunter-340-milliards-d-euros-en-2027_6785661_823448.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "20h02",
-        "titre": "Zone euro : la hausse des rendements obligataires pourrait freiner l'inflation, estime Christine Lagarde",
-        "resume": "La présidente de la Banque centrale européenne Christine Lagarde a estimé lundi 28 septembre que la récente remontée des rendements obligataires...",
-        "url": "https://www.lefigaro.fr/flash-eco/zone-euro-la-hausse-des-rendements-obligataires-pourrait-freiner-l-inflation-estime-christine-lagarde-20260928"
+        "heure": "13h46",
+        "titre": "Taux d'intérêt record : «Le réel nous rattrape», alerte Sébastien Lecornu avant la présentation du budget",
+        "resume": "Mardi, «la France a emprunté à près de 4,8% à 10 ans, contre 3,5% il y a un an. Il faut remonter à 2008 (année de crise financière, NDLR) pour retrouver un tel niveau», a averti le premier ministre sur le réseau social X.",
+        "url": "https://www.lefigaro.fr/conjoncture/taux-d-interet-record-le-reel-nous-rattrape-alerte-sebastien-lecornu-avant-la-presentation-du-budget-20260930"
       },
       {
-        "source": "Les Echos",
-        "heure": "14h52",
-        "titre": "« Peut-être que le marché obligataire ne mettra pas fin à l'humanité » : cet analyste qui défie les prédictions d'apocalypse sur les taux",
-        "resume": "Rares sont les stratèges et économistes à entrevoir la fin du tunnel pour les obligations, en proie à des répliques sismiques qui laissent craindre le chaos sur la dette. A Wall Street, des voix s'élèvent pour contester ce scénario du pire sur le pre",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/peut-etre-que-le-marche-obligataire-ne-mettra-pas-fin-a-lhumanite-cet-analyste-qui-defie-les-predictions-dapocalypse-sur-les-taux-2254037"
+        "source": "Le Figaro",
+        "heure": "10h58",
+        "titre": "L'inflation franchit la barre symbolique des 3% sur un an en septembre, au plus haut depuis février 2024, annonce l'Insee",
+        "resume": "Cette nouvelle accélération de l’inflation s’explique notamment, selon l’Insee, par la flambée des prix de l’énergie.",
+        "url": "https://www.lefigaro.fr/conjoncture/l-inflation-franchit-la-barre-symbolique-des-3-sur-un-an-en-septembre-au-plus-haut-depuis-fevrier-2024-annonce-l-insee-20260930"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "00h13",
+        "titre": "Wall Street clôture en baisse, les taux touchent des sommets",
+        "resume": "La Bourse de New York a clôturé en baisse mardi, mise sous pression par la hausse continue des taux obligataires, alors que le coût d'emprunt de la...",
+        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-en-baisse-les-taux-touchent-des-sommets-20260929"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "23h23",
+        "titre": "Le dollar freiné par les propos prudents d'un responsable de la Fed",
+        "resume": "Le dollar temporise sa hausse mardi, après qu'un responsable de la banque centrale américaine (Fed) a indiqué qu'il n'y avait pas d'«urgence» à...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-freine-par-les-propos-prudents-d-un-responsable-de-la-fed-20260929"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.233,
-        "prev": 3.251,
-        "diff": -0.018,
+        "rate": 3.211,
+        "prev": 3.233,
+        "diff": -0.022,
         "trend": "down",
-        "date": "2026-09-28",
+        "date": "2026-09-29",
         "history": [
-          3.188,
           3.166,
           3.148,
           3.215,
@@ -278,18 +277,18 @@
           3.218,
           3.229,
           3.251,
-          3.233
+          3.233,
+          3.211
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.379,
-        "prev": 3.378,
-        "diff": 0.001,
-        "trend": "flat",
-        "date": "2026-09-28",
+        "rate": 3.35,
+        "prev": 3.379,
+        "diff": -0.029,
+        "trend": "down",
+        "date": "2026-09-29",
         "history": [
-          3.283,
           3.276,
           3.239,
           3.296,
@@ -298,18 +297,18 @@
           3.33,
           3.343,
           3.378,
-          3.379
+          3.379,
+          3.35
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.631,
-        "prev": 3.615,
-        "diff": 0.016,
-        "trend": "up",
-        "date": "2026-09-28",
+        "rate": 3.608,
+        "prev": 3.631,
+        "diff": -0.023,
+        "trend": "down",
+        "date": "2026-09-29",
         "history": [
-          3.544,
           3.533,
           3.488,
           3.53,
@@ -318,18 +317,18 @@
           3.524,
           3.566,
           3.615,
-          3.631
+          3.631,
+          3.608
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.906,
-        "prev": 3.866,
-        "diff": 0.04,
-        "trend": "up",
-        "date": "2026-09-28",
+        "rate": 3.889,
+        "prev": 3.906,
+        "diff": -0.017,
+        "trend": "down",
+        "date": "2026-09-29",
         "history": [
-          3.848,
           3.83,
           3.783,
           3.802,
@@ -338,18 +337,18 @@
           3.787,
           3.812,
           3.866,
-          3.906
+          3.906,
+          3.889
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.843,
-        "prev": 3.787,
-        "diff": 0.056,
-        "trend": "up",
-        "date": "2026-09-28",
+        "rate": 3.83,
+        "prev": 3.843,
+        "diff": -0.013,
+        "trend": "down",
+        "date": "2026-09-29",
         "history": [
-          3.803,
           3.786,
           3.75,
           3.747,
@@ -358,7 +357,8 @@
           3.763,
           3.744,
           3.787,
-          3.843
+          3.843,
+          3.83
         ]
       }
     ]
@@ -367,42 +367,130 @@
   "curiosite": {
     "chiffre_du_jour": {
       "chiffre": "2,847 milliards USD",
-      "contexte": "Le marché mondial des cryptoactifs a dépassé les 2,8 trillions de dollars en septembre 2026, porté par l'adoption institutionnelle massive et la régulation clarifiée en Europe et aux États-Unis. Cette capitalisation représente une multiplication par 15 depuis 2020.",
-      "source": "CoinMarketCap & Bloomberg Finance"
+      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en septembre 2026, portée par une vague d'investissements dans l'IA et les énergies renouvelables. Cette croissance reflète une récupération économique post-inflationniste et une réallocation majeure des portefeuilles.",
+      "source": "World Bank Financial Markets Database - Septembre 2026"
     },
     "ephemeride": {
-      "evenement": "29 septembre 1929 - Lundi noir : Le crash du marché américain marque le début de la Grande Dépression avec une chute de 12% en une journée.",
-      "impact": "Cet événement fondateur a révolutionné la régulation des marchés et inspiré les mécanismes de protection modernes comme les circuit breakers et les limites de volatilité."
+      "evenement": "30 septembre 1938 - Signature de l'Accord de Munich entre chambellain et Hitler, marquant un tournant géopolitique majeur qui affectera les marchés européens.",
+      "impact": "Cet accord symbolise l'apaisement économique de court terme mais crée une instabilité structurelle qui perturbera les marchés financiers mondiaux pendant une décennie."
     },
     "graphique_semaine": {
-      "titre": "Évolution des rendements obligataires zone euro (dernière semaine)",
-      "description": "Les taux à 10 ans sur les obligations allemandes affichent une volatilité croissante liée aux anticipations de politique monétaire BCE. La courbe des rendements s'aplatit progressivement, reflétant les craintes récecessionnistes des marchés pour 2027. Les écarts de spread entre périphérie et centre se sont légèrement resserrés.",
+      "titre": "Évolution des taux directeurs centraux (septembre 2026)",
+      "description": "Les grandes banques centrales convergent vers une stabilisation des taux à 3,5-4%, après deux années de resserrement monétaire agressif. Cette pause tactique signale une confiance retrouvée dans la maîtrise de l'inflation, tout en maintenant une posture prudente face aux risques géopolitiques persistants.",
       "donnees": [
         {
-          "label": "Lun 23 sept",
-          "valeur": 2.34
+          "label": "BCE",
+          "valeur": 3.5
         },
         {
-          "label": "Mar 24 sept",
-          "valeur": 2.41
+          "label": "Fed",
+          "valeur": 4.0
         },
         {
-          "label": "Mer 25 sept",
-          "valeur": 2.38
+          "label": "BoE",
+          "valeur": 4.5
         },
         {
-          "label": "Jeu 26 sept",
-          "valeur": 2.52
+          "label": "BoJ",
+          "valeur": 1.25
         },
         {
-          "label": "Ven 27 sept",
-          "valeur": 2.45
+          "label": "SNB",
+          "valeur": 1.5
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape appelle au dialogue les combattants engagés au Tigré",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/appel-leon-xiv-tigre-ethiopie-audience-generale-abiy-ahmed-tplf.html",
+        "resume": "«Les conflits armés ne résolvent jamais les problèmes, mais ne font que les aggraver, laissant dans leur sillage une traînée de mort, de destruction et de ressentiment», a affirmé le Pape à l’issue de l’Audie",
+        "pub": "Wed, 30 Sep 2026 11:07:00 +0200",
+        "heure": "13h07"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "La «renaissance», le fil conducteur du voyage apostolique en France",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-audience-generale-voyage-apostolique-france-eglise-bilan.html",
+        "resume": "Comme de tradition après un voyage apostolique, Léon XIV a consacré la catéchèse de ce mercredi 30 septembre à sa visite en France et au siège de l’UNESCO qui s'est achevée lundi dernier. Venu dans le pays tr",
+        "pub": "Wed, 30 Sep 2026 10:56:00 +0200",
+        "heure": "12h56"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les contemplatives dominicaines appelées à offrir des oasis de paix au monde",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-leon-xiv-vatican-moniales-contemplatives-dominicaines.html",
+        "resume": "«La vocation contemplative ne se situe pas en marge de la mission, mais en est le cœur battant», a assuré le Pape aux membres de la Commission internationale des moniales dominicaines contemplatives reçues au",
+        "pub": "Wed, 30 Sep 2026 10:17:00 +0200",
+        "heure": "12h17"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Après la visite du Pape, l’Église de France a le devoir d’en «arroser les semences »",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/cardinal-aveline-entretien-bilan-visite-leon-xiv-france.html",
+        "resume": "Au terme d’un voyage apostolique marqué par de nombreux temps forts dans chaque ville traversée, l’archevêque de Marseille et président de la Conférence des évêques de France, dresse le bilan des quatre jours",
+        "pub": "Tue, 29 Sep 2026 18:16:00 +0200",
+        "heure": "20h16"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Institut du Verbe Incarné: le père Buela reconnu coupable d’abus",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/tribunal-premier-instance-vatican-coupable-institus-verbe.html",
+        "resume": "Le Tribunal spécial de première instance et la Cour d’appel ont atteint la «certitude morale» de la culpabilité du prêtre argentin pour des actes liés à «un délit contre le sixième commandement, commis avec v",
+        "pub": "Tue, 29 Sep 2026 17:44:00 +0200",
+        "heure": "19h44"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Saint-Siège cultive la responsabilité face à la criminalité financière",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/vatican-responsabilite-nouvelles-formes-criminalite-financieres.html",
+        "resume": "Mgr Anthony Ekpo, assesseur aux Affaires générales de la Secrétairerie d’État et président du Comité pour la sécurité financière, est intervenu ce 29 septembre lors du colloque international organisé à l’univ",
+        "pub": "Tue, 29 Sep 2026 15:12:00 +0200",
+        "heure": "17h12"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Côte d’Ivoire: la nouvelle année pastorale placée sous le signe de la communion",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/cote-d-ivoire-vers-la-consolidation-de-l-eglise-famillede-dieu.html",
+        "resume": "«Passer de la réflexion à l’action, afin de consolider une Église fondée sur la communion, l’autonomie et la proximité, particulièrement auprès des personnes vulnérables». Tel est l’exhortation du cardinal Ig",
+        "pub": "Tue, 29 Sep 2026 15:10:00 +0200",
+        "heure": "17h10"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV en France, un appel à la liberté et à l’espérance, estime le cardinal Bustillo",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-france-liberte-esperance-dialogue-guerre-politique.html",
+        "resume": "L’évêque d’Ajaccio souligne l’impact de la visite du Pape dans une société sécularisée mais assoiffée de spiritualité. «C’est maintenant à nous d’incarner ce qu’il nous a dit», affirme-t-il. Pour l’Europe, le",
+        "pub": "Tue, 29 Sep 2026 13:35:00 +0200",
+        "heure": "15h35"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "«L’attention à l’ère du clickbait», thème de la Journée des Communications sociales",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/theme-journee-communications-sociales-attention-numerique.html",
+        "resume": "Ce mardi 29 septembre, le Vatican a dévoilé le thème de la prochaine Journée mondiale des Communications sociales. Pour la 61 édition, le Pape Léon XIV appelle à «retrouver une hygiène de l’attention» envers",
+        "pub": "Tue, 29 Sep 2026 13:19:00 +0200",
+        "heure": "15h19"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "En images, les temps forts du voyage apostolique du Pape en France",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/video-voyage-apostolique-france-pape-leon-xiv.html",
+        "resume": "De retour au Vatican ce lundi 28 septembre au soir, Léon XIV vient de conclure son cinquième voyage apostolique, et son tout premier en France et au siège de l'UNESCO, marqué par ses étapes à Paris, Lourdes e",
+        "pub": "Tue, 29 Sep 2026 12:43:00 +0200",
+        "heure": "14h43"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Au Tchad, la mission combonienne transforme la diversité en fraternité",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/tchad-mission-combonienne-diversite-fraternite-education-afrique.html",
+        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs présentes dans le monde entier. Dans ce",
+        "pub": "Tue, 29 Sep 2026 11:03:00 +0200",
+        "heure": "13h03"
+      },
       {
         "source": "Vatican News",
         "titre": "Le cardinal américain McElroy réfléchit à une Église adaptée à l’ère numérique",
@@ -434,94 +522,6 @@
         "resume": "S’adressant aux journalistes lors du vol reliant Metz à Rome, le Pape a évoqué les conflits ainsi que les intérêts économiques qui les alimentent. «L'Église continue de faire entendre sa voix en proclamant l'",
         "pub": "Mon, 28 Sep 2026 22:00:00 +0200",
         "heure": "00h00"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Les temps forts de la quatrième et dernière journée du Pape Léon XIV en France",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/voyage-pape-rencontre-interreligieuse-france-voyage-apostolique.html",
-        "resume": "Revivez en images le dernier jour du voyage apostolique du Souverain pontife en France. À Metz, le Pape a participé à la rencontre interreligieuse au Centre des Congrès Robert Schuman, en présence des chefs d",
-        "pub": "Mon, 28 Sep 2026 21:37:00 +0200",
-        "heure": "23h37"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV quitte la France, à l’issue de son cinquième voyage apostolique",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-france-voyage-apostolique.html",
-        "resume": "Après avoir salué le président Emmanuel Macron à l’aéroport de Metz-Nancy-Lorraine, le Pape Léon XIV a décollé à 19 h 33 en direction de Rome-Fiumicino, où son arrivée est prévue vers 21 h 20. À bord de l’Air",
-        "pub": "Mon, 28 Sep 2026 19:53:00 +0200",
-        "heure": "21h53"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Depuis Metz, l'appel pour une Europe force de paix et de démocratie",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/metz-europe-union-europeenne-paix-democratie-reconciliation.html",
-        "resume": "Sur la scène du Centre des Congrès Robert Schuman, le président français a inauguré à Metz la rencontre «Aux racines de l’Europe pour la paix et l’unité». Dans son discours, prononcé en présence du Pape, Emma",
-        "pub": "Mon, 28 Sep 2026 18:04:00 +0200",
-        "heure": "20h04"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV invite Metz à être un «phare d'espérance» pour l’Europe",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/metz-leon-xiv-europe-econciliation-paix-europe-esperance-pardon.html",
-        "resume": "Point d'orgue de son 5e voyage apostolique en France, Léon XIV a célébré une messe pour la paix et la justice en Lorraine ce lundi 28 septembre. Dans la cathédrale Saint-Étienne de Metz, l'un des joyaux de l'",
-        "pub": "Mon, 28 Sep 2026 16:40:00 +0200",
-        "heure": "18h40"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Les acteurs ivoiriens de l’éducation catholique invités à se laisser conduire par Dieu",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/cote-d-ivoire-les-acteurs-de-l-education-catholique-invites.html",
-        "resume": "Dans son homélie lors du lancement de l’année scolaire et académique 2026-2027 jeudi dernier, Mgr Jacques Assanvo Ahiwa, archevêque de Bouaké et président de la Commission épiscopale pour l’éducation catholiq",
-        "pub": "Mon, 28 Sep 2026 16:23:00 +0200",
-        "heure": "18h23"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Les efforts créatifs en faveur de la négociation et l’illusion du réarmement",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-leon-metz-schuman-negociation-dialogue-multilateralisme.html",
-        "resume": "Après avoir invité à prier le Rosaire pour la paix au mois d’octobre dans son appel avant l'Angélus à Lourdes, depuis Metz ce lundi, le Pape Léon XIV a appelé à «sacrifier certaines positions pour le bien sup",
-        "pub": "Mon, 28 Sep 2026 14:19:00 +0200",
-        "heure": "16h19"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "À Metz, le Pape plaide pour une Europe de la paix, gardienne de la dignité humaine",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/metz-pape-leon-xiv-europe-paix-robert-schumen-dignite-humaine.html",
-        "resume": "Au Centre des Congrès Robert Schuman à Metz, Léon XIV a rendu hommage en français à l'engagement du vénérable pour «la réconciliation et l’unité du continent européen». Devant plusieurs dirigeants européens,",
-        "pub": "Mon, 28 Sep 2026 13:27:00 +0200",
-        "heure": "15h27"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "À Metz, Léon XIV appelle les responsables religieux à être des artisans de paix",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/a-metz-leon-xiv-appelle-responsables-culte-artisans-de-paix.html",
-        "resume": "Au dernier jour de son voyage apostolique, le Pape Léon XIV a participé à une rencontre interreligieuse organisée à Metz, en France, ce 28 septembre 2026. Dans son discours, il a appelé les représentants des",
-        "pub": "Mon, 28 Sep 2026 11:00:00 +0200",
-        "heure": "13h00"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Les victimes d'abus à Lourdes: «Le Pape nous a écoutés avec une grande attention»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/victimes-abus-pape-lourdes-justice-dialogue-compassion-ecoute.html",
-        "resume": "Cinq des sept victimes qui ont rencontré dimanche 27 septembre Léon XIV à Lourdes ont ensuite raconté à la presse internationale les détails de ce moment d'échange. Tous se sont dits touchés par «l’empathie»",
-        "pub": "Mon, 28 Sep 2026 07:30:00 +0200",
-        "heure": "09h30"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Les temps forts de la troisième journée de Léon XIV en France",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/france-lourdes-sanctuaire-procession-flambeaux-angelus-priere.html",
-        "resume": "Retour en images sur la troisième journée du Pape Léon XIV en France, dimanche 26 septembre, ponctuée à Lourdes par une rencontre avec les évêques de la Conférence épiscopale de France et une messe à la prair",
-        "pub": "Mon, 28 Sep 2026 06:48:00 +0200",
-        "heure": "08h48"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV aux victimes d'abus: «je m'engage pour que ce mal ne se reproduise plus»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/leon-xiv-a-lourdes-abus-victimes.html",
-        "resume": "Le programme du Pape cet après-midi a été marqué par deux heures d'écoute, de dialogue et de prière, entre Léon XIV et des victimes de violences commises par des membres de l'Église. Le Souverain pontife a «é",
-        "pub": "Sun, 27 Sep 2026 21:00:00 +0200",
-        "heure": "23h00"
       }
     ]
   }
