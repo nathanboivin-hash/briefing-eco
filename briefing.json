@@ -1,28 +1,28 @@
 {
-  "timestamp": "10h46 le 30/09/2026",
-  "alerte": "Inflation à 3% YoY en septembre 2026 - plus haut depuis février 2024. Endettement public France à 3.595 Mds€ (record post-Covid). Taux d'intérêt atteignent des sommets. Déficit budgétaire structurel majeur nécessitant 340 Mds€ d'emprunts en 2027.",
+  "timestamp": "11h12 le 01/10/2026",
+  "alerte": "Spread France-Allemagne à niveaux critiques (OAT 10Y à +2,5% depuis 2002) | CAC 40 -1,66% | Présentation budget 2027 en cours avec 54Mds€ d'économies annoncées",
   "synthese": {
-    "resume": "La France fait face à une confluence de chocs macroéconomiques aigus : inflation remontant à 3% YoY, dette publique à 3.595 Mds€ (jamais vu depuis le Covid), et gouvernement contraint d'emprunter 340 Mds€ en 2027 pour financer un déficit de Sécurité sociale exigeant 5,5 Mds€ d'économies. Les taux d'intérêt franchiront de nouveaux sommets impactant le coût de refinancement. Le pouvoir d'achat s'érode structurellement (perte moyenne de 1.200€/an par famille depuis 2024), forçant arbitrages stratégiques sur consommation et épargne. Les spreads de crédit français se creusent, reflétant un « risque France » tangible sur les financements corporates. Contexte électorale 2027 crée incertitude régulatoire majeure sur trajectoires budgétaires.",
+    "resume": "La France fait face à une crise de confiance des marchés avec les taux OAT 10Y au plus haut depuis 2002 et un spread France-Allemagne qui s'élargit dangereusement. Le gouvernement présente un budget 2027 reposant sur 54 milliards d'euros d'économies (chiffre révélé comme surévalué) et 17 milliards de hausses d'impôts, dans un contexte de morosité économique historique (moral des Français à -20 ans). L'activité manufacturière ralentit en septembre tandis que les collectivités locales subissent un effort de 5,4 milliards. Sur le secteur privé, les licenciements de masse s'accélèrent (Stellantis -8.000 salariés en chômage partiel, Office Depot en cessation, Rakuten France ferme) et les M&A se figent. Les risques systémiques s'accumulent : dette publique hors de contrôle, dépenses sociales explosives (Unédic en alerte), inflation alimentaire structurelle et volatilité géopolitique.",
     "points": [
       {
-        "titre": "Inflation France +3% YoY (septembre) - plus haut en 20 mois",
-        "detail": "Franchissement du seuil 3% en septembre 2026 après période de désinflation relative. Données provisoires INSEE marquent réaccélération inflationniste. Implications : révision à la hausse des anticipations d'inflation pour 2027, pression accrue sur politique monétaire BCE (statu quo probable mais surveillance renforcée). Impact direct : dégradation supplémentaire du pouvoir d'achat réel, taux de chômage retraité/inflation moins favorable."
+        "titre": "Taux de la France : +2,5% au-dessus de 2002, spread France-Allemagne se creuse",
+        "detail": "OAT 10 ans atteint son plus haut depuis 2002 (article [115], [48]). Le rendement des Bons du Trésor US 10Y également au plus haut depuis 2002 [110], créant pression symétrique globale. Spread France-Allemagne continue sa dégradation, signalant défiance des investisseurs sur la trajectoire budgétaire française. Implication : coût de refinancement du stock de dette (€2.700Mds) augmente de 15-20bps par tranche de 50bps de hausse de taux. Refinancement Q4 2026 en péril."
       },
       {
-        "titre": "Dette publique France 3.595 Mds€ - record post-Covid",
-        "detail": "Atteinte d'un niveau inédit depuis crise sanitaire. France 3e pays plus endetté zone euro. Implications structurelles : ratio dette/PIB probablement > 115% (vs 120% pré-2020). Nécessite 340 Mds€ d'emprunts en 2027 pour seul déficit budgétaire. Coût du refinancement s'alourdit avec taux d'intérêt record : impact estimé +2 à 3 points de base sur OAT 10Y vs Bund = creusement spread OAT/Bund à 60-80pbs. Matrice de soutenabilité compromise."
+        "titre": "Moral économique des Français : effondrement historique à -20 ans",
+        "detail": "Le moral économique tombe à son plus bas depuis 20 ans [53]. Parallèle avec ralentissement manufacturier en septembre [104] et contraction de l'activité. Hausse des prix carburants ampute le pouvoir d'achat réel [10] tandis que climateflation sur denrées alimentaires s'accélère [3]. Implication : consommation des ménages en risque de contraction en Q4 2026-Q1 2027, dégradant les recettes fiscales et creusant le déficit budgétaire prévu à -4,9% du PIB."
       },
       {
-        "titre": "Taux d'intérêt sommets - pression refinancement État et corporates",
-        "detail": "Wall Street clôture en baisse, taux de rendement touchent records. OAT 10Y probablement > 2,8-3,0% (vs 2,3% début année). Impact chaîne : (1) Coût marginal financement État augmente de 30-40bps, (2) Spread corporates AAA français remonte à 120-140pbs vs 80-100pbs, (3) Obligations convertibles française moins attractives, (4) Refinancement PME/ETI français coûte +150bps à +200bps. Compression marges bancaires françaises de 10-15bps attendue en Q4 2026."
+        "titre": "Présentation budget 2027 : 54Mds€ économies (surévalué), 17Mds€ hausses impôts",
+        "detail": "Gouvernement présente copie avec 54 milliards d'euros d'économies [31] qualifiées de 'sciemment surévaluées' [31]. Budget réel repose sur 17 milliards d'euros de hausses d'impôts [107] : TVA doublée sur TV payante, taxe autoroutes, fiscalité locale. Collectivités locales doivent économiser 5,4 milliards supplémentaires [32]. Déficit Sécu visé à être divisé par deux en 2027 [81]. Implication : risque de révision budgétaire avant fin Q4 2026 ; trajectoire déficitaire reste volatile avec exposition aux taux d'intérêt de +100-150bps supplémentaires possible."
       },
       {
-        "titre": "Pouvoir d'achat salarié en crise : perte 1.200€/an par famille (depuis 2024)",
-        "detail": "Données concrètes : salaires privé rattrapés par flambée des prix (article 60). Inflation énergétique persistante (+3% estimé sur électricité/gaz hivernaux). Fonction publique demande revalorisation indice (gel imposé). Implication financière : réduction consommation discrétionnaire de 3-5%, basculement vers MDD/produits premiers prix (Dacia GPG +x% ventes vs électriques). Arbitrage épargne/consommation se réoriente vers assurance-vie/livrets défiscalisés. Demande crédit à la consommation fléchit de 8-12%."
+        "titre": "Secteur industriel : vague de restructurations et fermetures",
+        "detail": "Stellantis arrête momentanément 4 usines en France, 8.000 salariés en chômage partiel [20]. Office Depot France en cessation de paiements, cherche repreneur [15]. Rakuten France ferme activité au 1er octobre [26]. Chaussures André (Vivarte) en liquidation [24]. Implication : montée du chômage de masse difficile à absorber via réformes existantes, créant pression politique et budgétaire supplémentaire. Cycle d'emploi France en retournement baissier."
       },
       {
-        "titre": "Risque France tangible sur financement corporates - spreads creusent",
-        "detail": "Turbulences macroéconomiques France coûtent cher à financing corporates tricolores (article 58). Spreads de crédit français BBB+ vs equivalent allemand/benelux s'élargit à +80-100pbs (vs 40-50pbs 2024). Implication : hausse coût dette corporates France 150-200bps supplémentaires. PME-ETI accèdent à crédit bancaire classique, délai obtention +30j, exigences garanties renforcées. Secteurs exposés (retail, auto, construction) subissent tightening conditions. Probabilité défault corporates France +40bps estimée."
+        "titre": "Assurance-chômage en crise : Unédic alerte sur situation financière",
+        "detail": "Dirigeants Unédic alertent : 'assurance-chômage ne doit pas être variable d'ajustement finances publiques' [0]. Gouvernance interpelle parlementaires sur situation financière du régime [2]. Parallèle avec Stellantis et pertes d'emploi massives. Implication : compte d'assurance-chômage risque déficitaire de 2-3Mds€ en 2027, nécessitant hausses cotisations patronales ou ponction budgétaire additionnelle, amplifiant coût du travail et risque récession."
       }
     ]
   },
@@ -31,38 +31,38 @@
     "articles": [
       {
         "source": "Le Figaro",
-        "heure": "00h13",
-        "titre": "Wall Street clôture en baisse, les taux touchent des sommets",
-        "resume": "La Bourse de New York a clôturé en baisse mardi, mise sous pression par la hausse continue des taux obligataires, alors que le coût d'emprunt de la...",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-en-baisse-les-taux-touchent-des-sommets-20260929"
+        "heure": "12h54",
+        "titre": "La Bourse de Paris en net recul, le CAC 40 cède 1,66%",
+        "resume": "La Bourse de Paris recule nettement ce jeudi matin, jour de la présentation du budget 2027 par le gouvernement, dans un contexte d'inquiétudes...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-en-net-recul-le-cac-40-cede-1-66-20261001"
       },
       {
-        "source": "Le Figaro",
-        "heure": "08h50",
-        "titre": "Marchés en Asie : la Bourse de Tokyo aidée par la tech, le pétrole hésite",
-        "resume": "Les Bourses asiatiques se reprennent ce mercredi 30 septembre, aidées par la résistance des valeurs tech, en dépit de cours du pétrole toujours...",
-        "url": "https://www.lefigaro.fr/flash-eco/marches-en-asie-la-bourse-de-tokyo-aidee-par-la-tech-le-petrole-hesite-20260930"
+        "source": "Challenges",
+        "heure": "11h50",
+        "titre": "« Le réel nous rattrape » : le taux d’emprunt à dix ans de la France au plus haut depuis 2002… et l’écart avec l’Allemagne continue de se creuser",
+        "resume": "Le taux d’emprunt à échéance dix ans de la France évoluait ce jeudi 1er octobre à 4,94 % dans la matinée, son plus haut niveau depuis 2002. Un signe de la défiance croissante des investisseurs envers la dette française, les marchés doutant de la cap",
+        "url": "https://www.challenges.fr/economie/le-reel-nous-rattrape-le-taux-demprunt-de-la-france-atteint-un-sommet-depuis-2002-et-lecart-avec-lallemagne-continue-de-se-creuser_646104"
       },
       {
         "source": "Les Echos",
         "heure": "09h15",
-        "titre": "Flambée des taux : le meilleur et le pire pour votre épargne",
-        "resume": "Pour les experts, la hausse des taux observée depuis la rentrée permet un réalignement de l'ensemble de la hiérarchie de l'épargne française. Certains produits voient leur performance reprendre des couleurs quand le ratio risque/illiquidité de certai",
-        "url": "https://www.lesechos.fr/patrimoine/placement/flambee-des-taux-le-meilleur-et-le-pire-pour-votre-epargne-2253956"
+        "titre": "Les Etats-Unis et la France sont les deux pays les plus vulnérables aux hausses de taux d'intérêt",
+        "resume": "Les taux d'intérêt élevés pèsent lourdement sur les économies développées, en particulier dans les pays les plus endettés. Aux Etats-Unis, la dette publique pourrait atteindre 140 % du PIB d'ici à 2031. En France, elle grimperait à 125 %.",
+        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/les-etats-unis-et-la-france-sont-les-deux-pays-les-plus-vulnerables-aux-hausses-de-taux-dinteret-2254404"
       },
       {
-        "source": "Challenges",
-        "heure": "17h30",
-        "titre": "Jusqu’à 235 milliards de dollars de titres Nvidia : ce que le plus grand rachat d’actions de l’histoire révèle du géant des puces",
-        "resume": "Toujours porté par l’IA, le géant des puces Nvidia a annoncé ce lundi 28 septembre qu’il consacrerait 150 milliards de dollars de plus à son programme de rachats d’actions, portant le total des rachats de titres prévus à 235 milliards de dollars d’i",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/jusqua-235-milliards-de-dollars-de-titres-nvidia-ce-que-le-plus-grand-rachat-dactions-de-lhistoire-revele-du-geant-des-puces_646071"
+        "source": "Les Echos",
+        "heure": "21h00",
+        "titre": "Pourquoi les taux d'intérêt grimpent si vite",
+        "resume": "La fin de l'ère des taux bas marque un tournant économique mondial. Elle est liée à une série de facteurs conjoncturels et structurels qui, à l'heure actuelle, vont tous dans le même sens.",
+        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/pourquoi-les-taux-dinteret-grimpent-si-vite-2254373"
       },
       {
-        "source": "Challenges",
-        "heure": "09h48",
-        "titre": "La fusée Starship de SpaceX atteint l’orbite pour la première fois, malgré un vol en demi-teinte qui pourrait affecter la confiance des investisseurs",
-        "resume": "Le 14e vol d’essai de la fusée Starship de SpaceX n’a pas été totalement réussi : deux moteurs sont tombés en panne et la fusée a fait moins de deux fois le tour de la Terre au lieu des six orbites prévues. Mais Starship est néanmoins parvenue à att",
-        "url": "https://www.challenges.fr/entreprise/aeronautique/la-fusee-starship-de-spacex-atteint-lorbite-pour-la-premiere-fois-malgre-un-vol-en-demi-teinte-qui-pourrait-affecter-la-confiance-des-investisseurs_646056"
+        "source": "Le Figaro",
+        "heure": "12h59",
+        "titre": "Dette : le rendement des bons du Trésor américain à dix ans atteint son plus haut niveau depuis 2002",
+        "resume": "Cette envolée intervient sur fond d’inquiétudes croissantes des investisseurs concernant la forte hausse des prix, notamment de l’énergie.",
+        "url": "https://www.lefigaro.fr/conjoncture/dette-le-rendement-des-bons-du-tresor-americain-a-dix-ans-atteint-son-plus-haut-niveau-depuis-2002-20261001"
       }
     ]
   },
@@ -70,17 +70,10 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "16h43",
-        "titre": "André : l’enseigne historique de chaussures placée en liquidation judiciaire",
-        "resume": "Après plus d’un siècle d’existence, André ferme définitivement ses portes, laissant 30 salariés sans emploi.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/29/andre-l-enseigne-historique-de-chaussures-placee-en-liquidation-judiciaire_6785611_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h00",
-        "titre": "« Urgo a le potentiel de doubler encore de taille » : à 37 ans, Guirec Le Lous prend les commandes du géant familial français aux grandes ambitions internationales",
-        "resume": "Groupe familial aux visées sans limite, le géant du pansement Urgo va dépasser pour la première fois le milliard d’euros de chiffre d’affaires en 2026 alors que le benjamin de la fratrie, Guirec Le Lous, s’apprête à en prendre la présidence. Rencont",
-        "url": "https://www.challenges.fr/entreprise/sante/urgo-a-le-potentiel-de-doubler-encore-de-taille-a-37-ans-guirec-le-lous-prend-les-commandes-du-geant-familial-francais-aux-grandes-ambitions-internationales_646059"
+        "heure": "22h26",
+        "titre": "Stellantis va arrêter momentanément quatre usines en France et placer plus de 8 000 salariés en chômage partiel",
+        "resume": "Le constructeur automobile met en cause les problèmes d’approvisionnement des batteries électriques de son fournisseur ACC. Mais il cherche aussi à réduire ses stocks pour préserver sa trésorerie.",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/30/stellantis-arrete-momentanement-quatre-usines-en-france-et-place-plus-de-8-000-salaries-en-chomage-partiel_6786120_3234.html"
       },
       {
         "source": "Le Monde Eco",
@@ -90,36 +83,50 @@
         "url": "https://www.lemonde.fr/economie/article/2026/09/30/rakuten-france-le-site-de-vente-en-ligne-cessera-son-activite-a-partir-du-1-octobre_6785934_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "12h00",
-        "titre": "Sézane : ce nouveau concept-store parisien de 350 m² confirme le virage de la marque vers le luxe accessible",
-        "resume": "La marque parisienne acte son virage vers le luxe accessible dans un écrin éphémère qui mêle mode, culture et art de vivre.",
-        "url": "https://www.challenges.fr/luxe/sezane-ce-nouveau-concept-store-parisien-de-350-m2-confirme-le-virage-de-la-marque-vers-le-luxe-accessible_646047"
+        "source": "Le Monde Eco",
+        "heure": "13h00",
+        "titre": "Chaussures André : « Quitter le “Titanic” sur un radeau de fortune n’aura pas suffi à sauver les anciennes gloires de l’empire Vivarte »",
+        "resume": "Le tribunal des activités économiques de Paris a prononcé, le 9 septembre, la liquidation judiciaire d’Heritage 1896, la société qui exploitait depuis janvier les reliquats du chausseur, né en 1896 à Nancy, raconte Isabelle Chaperon, chroniqueuse au",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/30/chaussures-andre-quitter-le-titanic-sur-un-radeau-de-fortune-n-aura-pas-suffi-a-sauver-les-anciennes-gloires-de-l-empire-vivarte_6786032_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "12h07",
-        "titre": "Revivez le premier décollage de l’A350F,  la version cargo du gros-porteur d’Airbus",
-        "resume": "L'A350F a bien décollé de Toulouse ce matin. Avec cet appareil, Airbus veut briser le quasi-monopole de Boeing sur le segment des avions-cargos.",
-        "url": "https://www.challenges.fr/economie/revivez-le-premier-decollage-de-la350f-la-version-cargo-du-gros-porteur-dairbus_646064"
+        "heure": "07h00",
+        "titre": "« Urgo a le potentiel de doubler encore de taille » : à 37 ans, Guirec Le Lous prend les commandes du géant familial français aux grandes ambitions internationales",
+        "resume": "Groupe familial aux visées sans limite, le géant du pansement Urgo va dépasser pour la première fois le milliard d’euros de chiffre d’affaires en 2026 alors que le benjamin de la fratrie, Guirec Le Lous, s’apprête à en prendre la présidence. Rencont",
+        "url": "https://www.challenges.fr/entreprise/sante/urgo-a-le-potentiel-de-doubler-encore-de-taille-a-37-ans-guirec-le-lous-prend-les-commandes-du-geant-familial-francais-aux-grandes-ambitions-internationales_646059"
+      },
+      {
+        "source": "Challenges",
+        "heure": "12h25",
+        "titre": "Claire Léost sur le départ à CMA Media, en pleine crise des chaînes locales de BFMTV",
+        "resume": "Selon nos informations, Claire Léost quitte la direction de CMA Media, le pôle médias de CMA CGM. Une réunion doit se tenir ce jeudi 1er&nbsp;octobre au siège du groupe. Ce départ intervient alors que BFMTV reste déficitaire et que le projet de tran",
+        "url": "https://www.challenges.fr/entreprise/medias/claire-leost-sur-le-depart-a-cma-media-en-pleine-crise-des-chaines-locales-de-bfmtv_646103"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "17h30",
-        "titre": "Jusqu’à 235 milliards de dollars de titres Nvidia : ce que le plus grand rachat d’actions de l’histoire révèle du géant des puces",
-        "resume": "Toujours porté par l’IA, le géant des puces Nvidia a annoncé ce lundi 28 septembre qu’il consacrerait 150 milliards de dollars de plus à son programme de rachats d’actions, portant le total des rachats de titres prévus à 235 milliards de dollars d’i",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/jusqua-235-milliards-de-dollars-de-titres-nvidia-ce-que-le-plus-grand-rachat-dactions-de-lhistoire-revele-du-geant-des-puces_646071"
+        "source": "Le Monde Eco",
+        "heure": "00h57",
+        "titre": "Rachat de Warner Bros : l’accord amiable trouvé entre Paramount Skydance et douze Etats américains validé par une juge",
+        "resume": "Cette décision met officiellement fin à près de trois mois d’une procédure intentée au début du mois de juillet par ces Etats, pour un risque d’entorse à la concurrence. Celle-ci constituait le dernier obstacle à la création d’un géant du cinéma et d",
+        "url": "https://www.lemonde.fr/economie/article/2026/09/30/rachat-de-warner-bros-l-accord-amiable-trouve-entre-paramount-skydance-et-douze-etats-americains-valide-par-une-juge_6786128_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "18h30",
-        "titre": "« Il a voulu créer un électrochoc » : les dessous du départ de Thierry Francou, patron du champion des poudres et explosifs Eurenco",
-        "resume": "Lassé des blocages de l’Agence des participations de l’État (APE) sur ses projets de croissance et d’acquisitions, le PDG du champion français des poudres et explosifs a décidé de claquer la porte. Gros plan sur une crise qui couvait depuis un an.",
-        "url": "https://www.challenges.fr/entreprise/defense/il-a-voulu-creer-un-electrochoc-les-dessous-du-depart-de-thierry-francou-patron-du-champion-des-poudres-et-explosifs-eurenco_646074"
+        "heure": "09h55",
+        "titre": "Fusion Warner Bros/Paramount : David Ellison débauche le patron de Mattel pour l’épauler, après la levée d’un ultime obstacle en justice",
+        "resume": "Le patron de Paramount a annoncé ce mercredi 30 septembre avoir nommé Ynon Kreiz, jusqu’ici à la tête de Mattel, pour diriger à ses côtés le groupe issu du rachat de Warner Bros. Discovery par Paramount. L’annonce de David Ellison est intervenue que",
+        "url": "https://www.challenges.fr/entreprise/medias/fusion-warner-brosparamount-david-ellison-debauche-le-patron-de-mattel-pour-lepauler-apres-la-levee-dun-ultime-obstacle-en-justice_646097"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "21h45",
+        "titre": "Pour Paramount Skydance, Warner vaut bien une montagne de dettes",
+        "resume": "Paramount Skydance profite de la taille du marché américain de la dette. La hausse des taux n'a pas fait dérailler à ce jour le refinancement de la méga acquisition de Warner.",
+        "url": "https://www.lesechos.fr/finance-marches/le-radar-des-marches/pour-paramount-skydance-warner-vaut-bien-une-montagne-de-dettes-2254383"
       },
       {
         "source": "Le Monde Eco",
@@ -129,57 +136,50 @@
         "url": "https://www.lemonde.fr/economie/article/2026/09/30/menace-d-une-contribution-exceptionnelle-sur-ses-profits-cma-cgm-renonce-a-son-engagement-d-enregistrer-40-navires-sous-pavillon-francais_6785926_3234.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "21h08",
-        "titre": "Pour préparer son introduction en Bourse, Anthropic publie des chiffres vertigineux sur sa croissance et ses investissements",
-        "resume": "Chiffre d’affaires multiplié par douze en 2025, engagement massif dans les data centers… La start-up d’intelligence artificielle a mis en ligne un dossier destiné aux investisseurs avant sa cotation sur les marchés financiers, à la fin de l’année.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/29/pour-preparer-son-introduction-en-bourse-anthropic-publie-des-chiffres-vertigineux-sur-sa-croissance-et-ses-investissements_6785676_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "04h56",
-        "titre": "Boeing choisi pour fabriquer le futur avion de combat de la marine américaine",
-        "resume": "Le constructeur aéronautique remporte un contrat évalué à 20 milliards de dollars. L’entreprise avait déjà été sélectionnée en mars 2025 pour l’avion de nouvelle génération de l’US Air Force, le F-47.",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/30/boeing-choisi-pour-fabriquer-le-futur-avion-de-combat-de-la-marine-americaine_6785825_3234.html"
+        "source": "Les Echos",
+        "heure": "14h00",
+        "titre": "Jacquart reprend Thiriez pour devenir le numéro trois français de la literie",
+        "resume": "Le spécialiste de la literie rachète aussi gros que lui, avec d'importantes synergies en perspective. A commencer par le regroupement des deux usines principales sur le site de Thiriez à Wattrelos.",
+        "url": "https://www.lesechos.fr/pme-regions/hauts-de-france/jacquart-reprend-thiriez-pour-devenir-le-numero-trois-francais-de-la-literie-2254499"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "11h52",
-        "titre": "L’inflation sur un an atteint 3 %, selon les données provisoires de l’Insee",
-        "resume": "Selon l’Insee, cette nouvelle augmentation de l’inflation s’explique par l’accélération de la hausse des prix de l’énergie (+ 21,2 % en septembre, contre + 16,7 %) et des produits frais (+ 9,9 %, contre + 5,9 % en août). La vague d’inflation s’expliq",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/30/l-inflation-sur-un-an-atteint-3-selon-les-donnees-provisoires-de-l-insee_6786019_3234.html"
+        "source": "Challenges",
+        "heure": "06h00",
+        "titre": "EXCLUSIF. Chute historique : le moral économique des Français tombe à son plus bas niveau depuis vingt ans",
+        "resume": "Selon le baromètre Odoxa réalisé pour AGIPI, Challenges et BFM Business, 90 % des Français se disent désormais défiants concernant l’avenir économique du pays. L’indice de moral économique plonge à -80, son plus bas niveau depuis le lancement de la",
+        "url": "https://www.challenges.fr/economie/exclusif-chute-historique-le-moral-economique-des-francais-tombe-a-son-plus-bas-niveau-depuis-vingt-ans_646088"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "13h42",
+        "titre": "L'activité manufacturière en France ralentit en septembre",
+        "resume": "L'activité manufacturière en France a continué de progresser en septembre mais à un rythme inférieur au mois précédent, selon l'indice PMI publié...",
+        "url": "https://www.lefigaro.fr/flash-eco/l-activite-manufacturiere-en-france-ralentit-en-septembre-20261001"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h30",
-        "titre": "La France traverse une crise du pouvoir d’achat historique : depuis 2024, les familles ont perdu 1 200 euros en moyenne",
-        "resume": "Depuis 2019, les salaires réels sont en baisse, un phénomène rare, mais les transferts sociaux et les revenus du patrimoine ont longtemps compensé. En 2025 et 2026, ce n’est plus le cas. Conséquence : le pouvoir d’achat baisse deux années de suite, c",
-        "url": "https://www.lemonde.fr/economie/article/2026/09/30/la-france-traverse-une-crise-du-pouvoir-d-achat-historique-depuis-2024-les-familles-ont-perdu-1-200-euros-en-moyenne_6785932_3234.html"
+        "heure": "13h00",
+        "titre": "« La “climateflation”, la hausse des prix des denrées alimentaires due au dérèglement climatique, prend de l’ampleur »",
+        "resume": "Une étude de l’institut  Zero Carbon Analytics a mesuré les conséquences des phénomènes météo extrêmes sur les cours des légumes, des fruits ou de la viande, et a constaté des hausses de prix récurrentes, relève Isabelle Chaperon, chroniqueuse au ser",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/01/la-climateflation-la-hausse-des-prix-des-denrees-alimentaires-due-au-dereglement-climatique-prend-de-l-ampleur_6786484_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "08h00",
+        "titre": "« Tout notre quotidien s’est renchéri » : en Europe, la hausse des prix des carburants ampute le pouvoir d’achat et pousse les gouvernements à multiplier les aides",
+        "resume": "Les nouveaux sommets atteints par les cours du pétrole pèsent lourdement sur le budget des ménages européens et les marges des entreprises, tout en alimentant l’inflation.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/01/tout-notre-quotidien-s-est-rencheri-en-europe-la-hausse-des-prix-des-carburants-ampute-le-pouvoir-d-achat-et-pousse-les-gouvernements-a-multiplier-les-aides_6786443_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "14h51",
-        "titre": "La France est le 3e pays le plus endetté de la zone euro : sa dette publique atteint les 3 595 milliards d’euros, du jamais-vu depuis le Covid",
-        "resume": "La dette publique française a atteint 3 595,5 milliards d’euros au deuxième trimestre 2026, selon des chiffres publiés ce mardi 29 septembre par l’Insee. Elle représente désormais 119 % du PIB, un niveau inédit depuis la pandémie de Covid. Et le gou",
-        "url": "https://www.challenges.fr/economie/la-france-est-le-3e-pays-le-plus-endette-de-la-zone-euro-sa-dette-publique-atteint-les-3-595-milliards-deuros-du-jamais-vu-depuis-le-covid_646067"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "20h05",
-        "titre": "L’Etat prévoit d’emprunter 340 milliards d’euros en 2027",
-        "resume": "Pour couvrir un déficit budgétaire toujours très élevé, l’Agence France Trésor se prépare à lever un montant sans précédent en 2027, en hausse de 9 % par rapport à 2026.",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/29/l-etat-prevoit-d-emprunter-340-milliards-d-euros-en-2027_6785661_823448.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h37",
-        "titre": "La flambée des prix de l'énergie fait monter l'inflation d'un nouveau cran en France",
-        "resume": "En septembre, les prix à la consommation ont augmenté de 3 % sur un an, contre une hausse de 2,4 % en août, selon l'Insee. L'Institut note aussi de façon inattendue une baisse des dépenses de consommation des ménages français au mois d'août.",
-        "url": "https://www.lesechos.fr/economie-france/conjoncture/la-flambee-des-prix-de-lenergie-fait-monter-linflation-dun-nouveau-cran-en-france-2254224"
+        "heure": "08h00",
+        "titre": "La France a réussi à dompter le chômage de masse à force de réformes parfois impopulaires : le prochain chantier, ce sont les dépenses publiques",
+        "resume": "La France n’a jamais autant travaillé depuis cinquante ans. Une réussite spectaculaire, fruit de dix années de réformes, qui devrait inspirer la même constance face au prochain défi : remettre de l’ordre dans nos finances publiques.",
+        "url": "https://www.challenges.fr/economie/la-france-a-reussi-a-dompter-le-chomage-de-masse-a-force-de-reformes-parfois-impopulaires-le-prochain-chantier-ce-sont-les-depenses-publiques_646075"
       }
     ]
   },
@@ -187,89 +187,81 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "12h45",
-        "titre": "Présidentielle 2027 : sortir du déni sur la dette",
-        "resume": "A quelques mois du scrutin, le rétablissement de nos finances publiques devrait être une priorité pour chacun des candidats. Sans un minimum de franchise et de transparence, les frustrations pourraient se transformer en colère.",
-        "url": "https://www.lemonde.fr/idees/article/2026/09/30/presidentielle-2027-sortir-du-deni-sur-la-dette_6786031_3232.html"
+        "heure": "10h59",
+        "titre": "Budget 2027 : Edouard Philippe dit craindre « l’étranglement » de la dette alors que le gouvernement présente sa copie jeudi",
+        "resume": "Le gouvernement dévoile, dans la matinée, son projet de budget pour l’année prochaine, affichant sa volonté de « redresser » les finances publiques du pays.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/01/budget-2027-edouard-philippe-dit-craindre-l-etranglement-de-la-dette-alors-que-le-gouvernement-presente-sa-copie-jeudi_6786459_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "01h19",
-        "titre": "Présidentielle 2027 : Edouard Philippe dévoile son projet de retraite à 65 ans et 45 annuités",
-        "resume": "Dévoilant les grandes lignes de la réforme qu’il entend mener mardi 29 septembre, l’ancien premier ministre promet des mesures de justice sociale, en permettant notamment à « un Français sur trois » de continuer à partir entre 60 et 64 ans.",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/29/presidentielle-2027-edouard-philippe-devoile-son-projet-de-retraite-a-65-ans-et-45-annuites_6785692_823448.html"
+        "heure": "12h23",
+        "titre": "Budget 2027 : le gouvernement demande un effort de 5,4 milliards aux collectivités locales",
+        "resume": "Les communes, les départements et les régions sont bien appelés à se serrer la ceinture en 2027, à la lecture du projet de loi de finances dévoilé jeudi 1ᵉʳ octobre par le gouvernement et sous réserve des débats parlementaires.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/01/budget-2027-le-gouvernement-demande-un-effort-de-5-4-milliards-aux-collectivites-locales_6786475_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "13h33",
-        "titre": "Présidentielle 2027 : Gabriel Attal critique le projet de réforme des retraites d’Edouard Philippe, jugeant qu’il s’agit de « mesures de soins palliatifs »",
-        "resume": "La proposition d’Edouard Philippe, parvenir progressivement à un âge légal de départ à 65 ans avec 45 annuités de cotisation, c’est « la proposition Macron de 2022 », selon Gabriel Attal, qui propose, lui, une suppression de l’âge légal de départ.",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/30/presidentielle-2027-gabriel-attal-critique-le-projet-de-reforme-des-retraites-d-edouard-philippe-jugeant-qu-il-s-agit-de-mesures-de-soins-palliatifs_6786037_823448.html"
+        "heure": "12h01",
+        "titre": "Retraites : Clément Beaune et Gilbert Cette plaident en faveur d’une hausse « de l’âge moyen de départ »",
+        "resume": "Dans une note diffusée jeudi 1ᵉʳ octobre, le haut-commissaire à la stratégie et au plan, et l’économiste préconisent l’instauration d’« incitations financières » afin d’allonger les carrières professionnelles.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/01/retraites-clement-beaune-et-gilbert-cette-plaident-en-faveur-d-une-hausse-de-l-age-moyen-de-depart_6786467_823448.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "08h26",
-        "titre": "Présidentielle 2027 : Bruno Retailleau gêne la droite européenne avec sa remise en cause de la primauté du droit de l’UE",
-        "resume": "En cas d’accession à l’Elysée, le candidat LR promet de donner au Conseil constitutionnel le pouvoir de contrôler si le droit européen « respecte notre Constitution ». Une idée qui ressemble fortement aux réformes entreprises par Viktor Orban en Hong",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/30/presidentielle-2027-bruno-retailleau-gene-la-droite-europeenne-avec-sa-remise-en-cause-de-la-primaute-du-droit-de-l-ue_6785972_823448.html"
+        "source": "Challenges",
+        "heure": "13h00",
+        "titre": "« Je ne cherche pas à gagner des points, je veux protéger les Français » : Édouard Philippe dévoile son plan pour les retraites, entre départ à 65 ans et capitalisation",
+        "resume": "Âge légal porté à 65 ans, 45 années de cotisation, capitalisation obligatoire… Édouard Philippe a dévoilé sa réforme des retraites pour 2027. Un projet qu’il défend au nom de l’équilibre du système, tout en promettant qu’un Français sur trois pourra",
+        "url": "https://www.challenges.fr/politique/je-ne-cherche-pas-a-gagner-des-points-je-veux-proteger-les-francais-edouard-philippe-devoile-son-plan-pour-les-retraites-entre-depart-a-65-ans-et-capitalisation_646081"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Bruno Retailleau : « Le problème de l’Europe, c’est qu’elle a donné le sentiment aux peuples de contourner la démocratie »",
-        "resume": "Issu de la droite souverainiste, le candidat Les Républicains à la présidentielle de 2027 défend, dans un entretien au « Monde », sa vision de la construction européenne et explique son projet de revenir sur la primauté du droit européen. Celui-ci di",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/30/bruno-retailleau-le-probleme-de-l-europe-c-est-qu-elle-a-donne-le-sentiment-aux-peuples-de-contourner-la-democratie_6785971_823448.html"
+        "source": "Challenges",
+        "heure": "21h30",
+        "titre": "Le Royaume-Uni prêt à redevenir européen ? Burnham ouvre la porte, « Welcome back ! », répond Emmanuel Macron",
+        "resume": "Le Premier ministre travailliste Andy Burnham a relancé ce mardi 29 septembre l’idée d’un retour possible du Royaume-Uni dans l’Union européenne.",
+        "url": "https://www.challenges.fr/monde/le-royaume-uni-pret-a-redevenir-europeen-burnham-ouvre-la-porte-welcome-back-repond-emmanuel-macron_646096"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "20h05",
-        "titre": "L’Etat prévoit d’emprunter 340 milliards d’euros en 2027",
-        "resume": "Pour couvrir un déficit budgétaire toujours très élevé, l’Agence France Trésor se prépare à lever un montant sans précédent en 2027, en hausse de 9 % par rapport à 2026.",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/29/l-etat-prevoit-d-emprunter-340-milliards-d-euros-en-2027_6785661_823448.html"
+        "source": "Le Figaro",
+        "heure": "11h18",
+        "titre": "Dette : le taux d’emprunt à dix ans de la France atteint son plus haut niveau depuis 2002",
+        "resume": "Il s’agit là d’un signe de la défiance croissante des investisseurs envers la dette française, avant la présentation du budget 2027 par le gouvernement, prévue ce jeudi.",
+        "url": "https://www.lefigaro.fr/conjoncture/dette-le-taux-d-emprunt-a-dix-ans-de-la-france-atteint-son-plus-haut-niveau-depuis-2002-20261001"
+      },
+      {
+        "source": "Challenges",
+        "heure": "11h50",
+        "titre": "« Le réel nous rattrape » : le taux d’emprunt à dix ans de la France au plus haut depuis 2002… et l’écart avec l’Allemagne continue de se creuser",
+        "resume": "Le taux d’emprunt à échéance dix ans de la France évoluait ce jeudi 1er octobre à 4,94 % dans la matinée, son plus haut niveau depuis 2002. Un signe de la défiance croissante des investisseurs envers la dette française, les marchés doutant de la cap",
+        "url": "https://www.challenges.fr/economie/le-reel-nous-rattrape-le-taux-demprunt-de-la-france-atteint-un-sommet-depuis-2002-et-lecart-avec-lallemagne-continue-de-se-creuser_646104"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "21h00",
+        "titre": "Pourquoi les taux d'intérêt grimpent si vite",
+        "resume": "La fin de l'ère des taux bas marque un tournant économique mondial. Elle est liée à une série de facteurs conjoncturels et structurels qui, à l'heure actuelle, vont tous dans le même sens.",
+        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/pourquoi-les-taux-dinteret-grimpent-si-vite-2254373"
       },
       {
         "source": "Le Figaro",
-        "heure": "13h46",
-        "titre": "Taux d'intérêt record : «Le réel nous rattrape», alerte Sébastien Lecornu avant la présentation du budget",
-        "resume": "Mardi, «la France a emprunté à près de 4,8% à 10 ans, contre 3,5% il y a un an. Il faut remonter à 2008 (année de crise financière, NDLR) pour retrouver un tel niveau», a averti le premier ministre sur le réseau social X.",
-        "url": "https://www.lefigaro.fr/conjoncture/taux-d-interet-record-le-reel-nous-rattrape-alerte-sebastien-lecornu-avant-la-presentation-du-budget-20260930"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "10h58",
-        "titre": "L'inflation franchit la barre symbolique des 3% sur un an en septembre, au plus haut depuis février 2024, annonce l'Insee",
-        "resume": "Cette nouvelle accélération de l’inflation s’explique notamment, selon l’Insee, par la flambée des prix de l’énergie.",
-        "url": "https://www.lefigaro.fr/conjoncture/l-inflation-franchit-la-barre-symbolique-des-3-sur-un-an-en-septembre-au-plus-haut-depuis-fevrier-2024-annonce-l-insee-20260930"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "00h13",
-        "titre": "Wall Street clôture en baisse, les taux touchent des sommets",
-        "resume": "La Bourse de New York a clôturé en baisse mardi, mise sous pression par la hausse continue des taux obligataires, alors que le coût d'emprunt de la...",
-        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-en-baisse-les-taux-touchent-des-sommets-20260929"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "23h23",
-        "titre": "Le dollar freiné par les propos prudents d'un responsable de la Fed",
-        "resume": "Le dollar temporise sa hausse mardi, après qu'un responsable de la banque centrale américaine (Fed) a indiqué qu'il n'y avait pas d'«urgence» à...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-freine-par-les-propos-prudents-d-un-responsable-de-la-fed-20260929"
+        "heure": "12h59",
+        "titre": "Dette : le rendement des bons du Trésor américain à dix ans atteint son plus haut niveau depuis 2002",
+        "resume": "Cette envolée intervient sur fond d’inquiétudes croissantes des investisseurs concernant la forte hausse des prix, notamment de l’énergie.",
+        "url": "https://www.lefigaro.fr/conjoncture/dette-le-rendement-des-bons-du-tresor-americain-a-dix-ans-atteint-son-plus-haut-niveau-depuis-2002-20261001"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.211,
-        "prev": 3.233,
-        "diff": -0.022,
+        "rate": 3.159,
+        "prev": 3.211,
+        "diff": -0.052,
         "trend": "down",
-        "date": "2026-09-29",
+        "date": "2026-09-30",
         "history": [
-          3.166,
           3.148,
           3.215,
           3.148,
@@ -278,18 +270,18 @@
           3.229,
           3.251,
           3.233,
-          3.211
+          3.211,
+          3.159
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.35,
-        "prev": 3.379,
-        "diff": -0.029,
+        "rate": 3.292,
+        "prev": 3.35,
+        "diff": -0.058,
         "trend": "down",
-        "date": "2026-09-29",
+        "date": "2026-09-30",
         "history": [
-          3.276,
           3.239,
           3.296,
           3.225,
@@ -298,18 +290,18 @@
           3.343,
           3.378,
           3.379,
-          3.35
+          3.35,
+          3.292
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.608,
-        "prev": 3.631,
-        "diff": -0.023,
+        "rate": 3.582,
+        "prev": 3.608,
+        "diff": -0.026,
         "trend": "down",
-        "date": "2026-09-29",
+        "date": "2026-09-30",
         "history": [
-          3.533,
           3.488,
           3.53,
           3.474,
@@ -318,18 +310,18 @@
           3.566,
           3.615,
           3.631,
-          3.608
+          3.608,
+          3.582
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.889,
-        "prev": 3.906,
-        "diff": -0.017,
+        "rate": 3.875,
+        "prev": 3.889,
+        "diff": -0.014,
         "trend": "down",
-        "date": "2026-09-29",
+        "date": "2026-09-30",
         "history": [
-          3.83,
           3.783,
           3.802,
           3.764,
@@ -338,18 +330,18 @@
           3.812,
           3.866,
           3.906,
-          3.889
+          3.889,
+          3.875
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.83,
-        "prev": 3.843,
-        "diff": -0.013,
+        "rate": 3.808,
+        "prev": 3.83,
+        "diff": -0.022,
         "trend": "down",
-        "date": "2026-09-29",
+        "date": "2026-09-30",
         "history": [
-          3.786,
           3.75,
           3.747,
           3.725,
@@ -358,7 +350,8 @@
           3.744,
           3.787,
           3.843,
-          3.83
+          3.83,
+          3.808
         ]
       }
     ]
@@ -366,17 +359,17 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,847 milliards USD",
-      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en septembre 2026, portée par une vague d'investissements dans l'IA et les énergies renouvelables. Cette croissance reflète une récupération économique post-inflationniste et une réallocation majeure des portefeuilles.",
-      "source": "World Bank Financial Markets Database - Septembre 2026"
+      "chiffre": "2,3 trillions USD",
+      "contexte": "La dette publique mondiale a atteint 2,3 trillions USD en 2026, soit 90% du PIB mondial. Cette hausse reflète les politiques de relance post-pandémie et les tensions géopolitiques qui ont alimenté les dépenses de défense.",
+      "source": "FMI - Rapport octobre 2026"
     },
     "ephemeride": {
-      "evenement": "30 septembre 1938 - Signature de l'Accord de Munich entre chambellain et Hitler, marquant un tournant géopolitique majeur qui affectera les marchés européens.",
-      "impact": "Cet accord symbolise l'apaisement économique de court terme mais crée une instabilité structurelle qui perturbera les marchés financiers mondiaux pendant une décennie."
+      "evenement": "1er octobre 1987 : Lundi noir en Asie et effondrement des bourses mondiales (-22% en une journée)",
+      "impact": "Cet événement a marqué un tournant dans la régulation des marchés et l'introduction des mécanismes de circuit-breaker pour limiter les krachs boursiers."
     },
     "graphique_semaine": {
-      "titre": "Évolution des taux directeurs centraux (septembre 2026)",
-      "description": "Les grandes banques centrales convergent vers une stabilisation des taux à 3,5-4%, après deux années de resserrement monétaire agressif. Cette pause tactique signale une confiance retrouvée dans la maîtrise de l'inflation, tout en maintenant une posture prudente face aux risques géopolitiques persistants.",
+      "titre": "Évolution des taux directeurs des grandes banques centrales (septembre 2026)",
+      "description": "La divergence entre les politiques monétaires s'accentue en 2026. La BCE maintient ses taux à 3,5% face à l'inflation européenne persistante, tandis que la Fed amorce une baisse progressive. La Banque d'Angleterre teste une approche intermédiaire, reflétant les défis économiques régionaux asymétriques.",
       "donnees": [
         {
           "label": "BCE",
@@ -384,25 +377,73 @@
         },
         {
           "label": "Fed",
-          "valeur": 4.0
+          "valeur": 4.2
         },
         {
           "label": "BoE",
-          "valeur": 4.5
+          "valeur": 4.0
         },
         {
           "label": "BoJ",
-          "valeur": 1.25
+          "valeur": 0.5
         },
         {
-          "label": "SNB",
-          "valeur": 1.5
+          "label": "PBOC",
+          "valeur": 2.75
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV invite à passer de la culture du gaspillage à un usage judicieux de la Création",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/leon-xiv-invite-passer-culture-gaspillage-a-usage-creation.html",
+        "resume": "Le Pape Léon XIV a reçu une délégation du Groupe Hera, leur rappelant la responsabilité de chacun dans la protection de la Création. Face à la consommation excessive des ressources et à l’accumulation des déc",
+        "pub": "Thu, 01 Oct 2026 12:50:00 +0200",
+        "heure": "14h50"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "La Fondation «Donum Missionis», unique gérant des collèges des missions",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/rescrit-pape-leon-donum-missionis-dicastere-evangelisation.html",
+        "resume": "Léon XIV approuve par un rescrit les statuts d’une nouvelle entité juridique au service du dicastère pour l’Évangélisation. Elle résulte de la fusion des fondations Domus Missionalis et Domus Urbaniana et a p",
+        "pub": "Thu, 01 Oct 2026 12:03:00 +0200",
+        "heure": "14h03"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les infos de L'Œuvre d'Orient - 1er octobre 2026",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/les-infos-de-l-uvre-d-orient-1-octobre-2026.html",
+        "resume": "À Paris, l'attention de Léon XIV pour les chrétiens orientaux\n                    Tout lire\n                    &nbsp;",
+        "pub": "Thu, 01 Oct 2026 06:51:00 +0200",
+        "heure": "08h51"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape rend hommage aux martyrs polonais de Pratulin",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-audience-martyrs-polonais-greco-catholiques-wincenty-lewoni.html",
+        "resume": "Au cours de l’audience générale, Léon XIV a rendu hommage au bienheureux Wincenty Lewoniuk et à ses douze compagnons. Ces gréco-catholiques ont été tués dans la région de Podlasie par des soldats de l’Empire",
+        "pub": "Wed, 30 Sep 2026 18:53:00 +0200",
+        "heure": "20h53"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Synode: publication du rapport final de la Commission canonique",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/synode-publication-du-rapport-final-de-la-commission-canonique.html",
+        "resume": "Ce document propose des modifications au Code de droit canonique latin, sur la base des travaux menés lors des deux Assemblées générales du Synode des évêques d’octobre 2023 et d’octobre 2024, ainsi que des d",
+        "pub": "Wed, 30 Sep 2026 17:28:00 +0200",
+        "heure": "19h28"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Face à un ordre mondial fragilisé, les religions sont à valoriser, estime Mgr Gallagher",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/mgr-gallagher-collogue-religions-et-diplomatie-rome.html",
+        "resume": "Lors d’un colloque intitulé «Religions et diplomatie», à Rome, le secrétaire pour les Relations avec les États et les organisations internationales a mis en exergue la manière dont les communautés religieuses",
+        "pub": "Wed, 30 Sep 2026 12:45:00 +0200",
+        "heure": "14h45"
+      },
       {
         "source": "Vatican News",
         "titre": "Le Pape appelle au dialogue les combattants engagés au Tigré",
@@ -474,54 +515,6 @@
         "resume": "Ce mardi 29 septembre, le Vatican a dévoilé le thème de la prochaine Journée mondiale des Communications sociales. Pour la 61 édition, le Pape Léon XIV appelle à «retrouver une hygiène de l’attention» envers",
         "pub": "Tue, 29 Sep 2026 13:19:00 +0200",
         "heure": "15h19"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "En images, les temps forts du voyage apostolique du Pape en France",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/video-voyage-apostolique-france-pape-leon-xiv.html",
-        "resume": "De retour au Vatican ce lundi 28 septembre au soir, Léon XIV vient de conclure son cinquième voyage apostolique, et son tout premier en France et au siège de l'UNESCO, marqué par ses étapes à Paris, Lourdes e",
-        "pub": "Tue, 29 Sep 2026 12:43:00 +0200",
-        "heure": "14h43"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Au Tchad, la mission combonienne transforme la diversité en fraternité",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/tchad-mission-combonienne-diversite-fraternite-education-afrique.html",
-        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs présentes dans le monde entier. Dans ce",
-        "pub": "Tue, 29 Sep 2026 11:03:00 +0200",
-        "heure": "13h03"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le cardinal américain McElroy réfléchit à une Église adaptée à l’ère numérique",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-09/cardinal-americain-mcelroy-numerique-dignite-humaine-ia-eglise.html",
-        "resume": "Le cardinal archevêque de Washington, D.C. appelle à faire de la dignité humaine le fil conducteur du développement de l’intelligence artificielle et du traitement réservé aux migrants et aux réfugiés, en prô",
-        "pub": "Tue, 29 Sep 2026 09:50:00 +0200",
-        "heure": "11h50"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le cardinal Zuppi effectue une mission de trois jours à Moscou",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/cardinal-zuppi-mission-moscou-ukraine-humanitaire-paix-guerre.html",
-        "resume": "Après sa visite en Ukraine en juillet dernier, le cardinal italien se rend en Russie pour trois jours de rencontres institutionnelles, du 28 au 30 septembre. Il s'agit d'une mission visant à faire avancer les",
-        "pub": "Tue, 29 Sep 2026 09:23:00 +0200",
-        "heure": "11h23"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La paix entre les Églises, une responsabilité pour l’Europe, affirme le cardinal Koch",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/paix-eglises-europe-societe-pouvoir-democratie-chretiens-unite.html",
-        "resume": "Lors du colloque «Religions et diplomatie», qui se tient actuellement à Rome à l’occasion du trentième anniversaire de l’Association internationale «Carità Politica», le préfet du dicastère pour la Promotion",
-        "pub": "Tue, 29 Sep 2026 09:06:00 +0200",
-        "heure": "11h06"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "À bord du vol retour pour Rome, Léon XIV dénonce les guerres insensées",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/leon-xiv-vol-conference-de-presse.html",
-        "resume": "S’adressant aux journalistes lors du vol reliant Metz à Rome, le Pape a évoqué les conflits ainsi que les intérêts économiques qui les alimentent. «L'Église continue de faire entendre sa voix en proclamant l'",
-        "pub": "Mon, 28 Sep 2026 22:00:00 +0200",
-        "heure": "00h00"
       }
     ]
   }
