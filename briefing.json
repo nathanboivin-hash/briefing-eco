@@ -1,28 +1,28 @@
 {
-  "timestamp": "10h45 le 02/10/2026",
-  "alerte": "TENSION SOUVERAINE CRITIQUE - Taux OAT 10 ans au plus haut depuis 2002, spread France-Allemagne en élargissement structurel. Environnement macro-fiscal détérioré nécessite révision des scénarios de portefeuille.",
+  "timestamp": "11h33 le 06/10/2026",
+  "alerte": "URGENCE TAUX : Gouverneur BdF avertit d'un risque d'étranglement par les taux d'intérêt sur la dette française (articles 18, 108). Contexte de crise budgétaire pré-présidentielle avec menace de spreads élargis.",
   "synthese": {
-    "resume": "La France traverse une crise de confiance majeure avec les taux OAT 10 ans à leurs niveaux les plus élevés depuis 24 ans, amplifiée par un budget 2027 jugé insuffisant (43 Md€ de mesures pour un déficit structurel massif). L'inflation zone euro remonte à 3,8% (plus haut en 3 ans), érodant la transmission de politique monétaire. Les secteurs défensifs et l'énergie bénéficient d'un redimensionnement de la demande (automobile électrique), tandis que les grandes acquisitions stagnent face aux coûts de financement explosifs. Le moral économique français s'effondre au plus bas depuis 20 ans, signalant une contraction de la demande domestique imminente.",
+    "resume": "La France affronte simultanément une crise de financement (risque taux d'intérêt sur dette publique), une contraction de la consommation (livres -forte baisse, vêtements 'catastrophique' à la rentrée, demandes d'acomptes salaires en hausse) et une instabilité politique croissante à 5 mois de la présidentielle. Schneider Electric réalise une acquisition majeure aux US (redimensionnement stratégique face aux concurrents allemands), tandis que l'industrie automobile s'expose au choc des constructeurs chinois (1M+ voitures en Europe d'ici 2030). Le coût économique direct de la canicule 2026 atteint 16 Mds€, signal d'une volatilité climatique croissante.",
     "points": [
       {
-        "titre": "OAT 10 ans au plus haut depuis 2002 - spread France-Bund élargissement",
-        "detail": "Taux français explose pendant que spread s'élargit structurellement (données [9], [74], [118]). Coût de refinancement de la dette explodera en 2027-2028 ; les émissions annuelles d'environ 200 Md€ verront leurs rendements augmenter de 150-200 pb minimum. Impact direct : dégradation des rating watches (Moody's, Fitch) probables avant Q4 2026. Implications : révision à la baisse des valorisations credit corporate (spread widening par contamination), ralentissement des LBO/PE deals en France."
+        "titre": "Taux d'intérêt : Gouverneur BdF alerte sur étranglement de la dette (risque spread accélération)",
+        "detail": "Emmanuel Moulin (BdF) avertit explicitement du risque d'être 'étranglé par les taux d'intérêt' dans le Financial Times. France endettée à 110%+ du PIB dans un contexte de resserrement monétaire BCE. Impact direct : hausse du coût de refinancement budgétaire 2027, risque premium de taux France/Bund >100bps si crise politique persiste. Contexte : campagne présidentielle intense avec menace de crise budgétaire."
       },
       {
-        "titre": "Inflation zone euro 3,8% - plus haut en 3 ans, transmission BCE bloquée",
-        "detail": "Remontée inflationniste [114] contraste avec l'attentisme de la BCE. Inflation core reste élevée, obligeant à maintenir les taux élevés plus longtemps que prévu (2027 minimum). Pour les entreprises françaises, pressurisation des marges opérationnelles déjà fragilisées par le budget 2027 (nouvelles taxes sectorielles, hausse du coût du travail). Scénario stagflationniste probable : croissance 0,5-1% en 2027, inflation persistante."
+        "titre": "Consommation : contraction multisectorielle (-vêtements 'catastrophique', livres en chute)",
+        "detail": "Trois indicateurs de faiblesse conjoncturelle confirmés : (1) ventes de livres 'recul fortement' H1 2026, (2) habillement 'décrochage brutal' à la rentrée, qualifié 'catastrophique' par enseignes, (3) demandes d'acomptes salaires 'en nette hausse' = signal de stress financier ménages. Tensions pouvoir d'achat avérées malgré discours gouvernemental. Implications : baisse activité retail 2026-2027, pressurisation marges distributeurs."
       },
       {
-        "titre": "Budget 2027 : 43 Md€ de mesures, déficit structurel inchangé",
-        "detail": "Malgré 54 Md€ d'efforts affichés [61], les vraies économies demeurent ponctuelles. Nouvelle fiscalité : hausse TVA Canal+ (doublée, [117]), taxes digitales YouTube/TikTok/Facebook [14], mise à contribution retraités. Coût du travail augmente (cotisations patronales renforcées) avant amélioration productive. Réduction budget emploi -2,5 Md€ [10] freinera la baisse du chômage. Verdict : non-crédibilité budgétaire persistera auprès des agences de notation et investisseurs obligataires. OAT resteront sous pression."
+        "titre": "M&A stratégique : Schneider Electric acquiert PTC (repositionnement face Siemens/Dassault)",
+        "detail": "Deal de nature défensive/stratégique : Schneider (électrification) renforce capacités logiciels/IoT via PTC pour contester leadership européen Siemens et Dassault Systèmes dans l'industrie 4.0. Deal de taille majeure (non montant précisé) mais timing révélateur : acteur français se renforce avant consolidation attendue du secteur. Implications : accélération course technologique, pression taux endettement Schneider pour financer opération."
       },
       {
-        "titre": "Moral économique des Français au plus bas depuis 20 ans",
-        "detail": "Indice confiance ménages [79] à son niveau le plus dépressif depuis 2004-2005. Reflète accumulation : hausse carburants (+35-40% annualisé), dégradation pouvoir d'achat réel, incertitude politique (budget fragile, primaire gauche). Implications de demande : contraction consommation Q4 2026 - Q1 2027 (notamment secteurs discrétionnaires : automobile, biens durables, luxe). Ventes détail stagnation attendue, marges GMS comprimées."
+        "titre": "Géopolitique commerciale : constructeurs chinois visent 1M+ véhicules Europe d'ici 2030",
+        "detail": "Annonce d'intention stratégique majeure : capacité production automobile chinoise en Europe passerait de ~500k actuellement à 1M+ à horizon 2030. Impact direct sur constructeurs français (Stellantis, Renault) : érosion de parts de marché, pression prix, risque surcapacité productive européenne. Contexte : bataille autour Maserati (JAC/Huawei), signaux de repositionnement géopolitique tech/auto."
       },
       {
-        "titre": "États-Unis et France plus vulnérables aux hausses de taux - comparatif dette/PIB",
-        "detail": "Analyse [83] positionne la France comme l'une des deux économies développées majeures les plus exposées aux pics de taux. Ratio dette/PIB français ~115% vs Allemagne ~60%. À chaque +25 pb sur OAT, intérêts de la dette augmentent de ~2,5-3 Md€ annuels. Scenario end-2027 : OAT potentiellement à 3,5-4% (vs ~2,8% aujourd'hui), générant +1,75-2 Md€/an de charge d'intérêt supplémentaire. Crédibilité fiscale déterminante pour éviter spiral souverain."
+        "titre": "Choc exogène climatique : canicule 2026 coûte 16 Mds€ à l'économie française",
+        "detail": "Évaluation officielle (mission AN) : impact économique direct de 16 Mds€ sur période estivale 2026. Indicateur d'une volatilité croissante des chocs climatiques et de leur coût systémique. Implications : inflation secteurs sensibles (énergie, agriculture), pression assurance, révision hausses taux inflation potentiels 2027."
       }
     ]
   },
@@ -30,39 +30,39 @@
     "metrics": [],
     "articles": [
       {
+        "source": "Le Figaro",
+        "heure": "00h12",
+        "titre": "Wall Street clôture en hausse, record du Nasdaq",
+        "resume": "La Bourse de New York a terminé en hausse lundi, faisant preuve de résilience malgré des taux obligataires toujours élevés, aidée notamment par...",
+        "url": "https://www.lefigaro.fr/flash-eco/wall-street-cloture-en-hausse-record-du-nasdaq-20261005"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "08h28",
+        "titre": "Marchés en Asie : des indices partagés au lendemain de hausses à Wall Street",
+        "resume": "Les Bourses asiatiques ont ouvert sans direction mardi, après une clôture en hausse à Wall Street la veille, tandis que le pétrole remonte...",
+        "url": "https://www.lefigaro.fr/flash-eco/marches-en-asie-des-indices-partages-au-lendemain-de-hausses-a-wall-street-20261006"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "08h55",
+        "titre": "IA : la ruée vers la dette des géants de la tech fait grimper les taux d’intérêt",
+        "resume": "Les investissements colossaux dans les puces, serveurs et centres de données poussent le secteur technologique à recourir massivement aux marchés obligataires, au risque d’accentuer la nervosité des investisseurs.",
+        "url": "https://www.lefigaro.fr/secteur/high-tech/ia-la-ruee-vers-la-dette-des-geants-de-la-tech-fait-grimper-les-taux-d-interet-20261006"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "22h46",
+        "titre": "Dette : «Il y a un risque d’être étranglés par la hausse des taux d’intérêt», avertit le gouverneur de la Banque de France",
+        "resume": "Dans un entretien au Financial Times, Emmanuel Moulin qualifie de «sérieux et préoccupants», les mouvements sur le marché de la dette française ces derniers jours.",
+        "url": "https://www.lefigaro.fr/conjoncture/dette-il-y-a-un-risque-d-etre-etrangles-par-la-hausse-des-taux-d-interet-avertit-le-gouverneur-de-la-banque-de-france-20261005"
+      },
+      {
         "source": "Le Monde Eco",
-        "heure": "23h22",
-        "titre": "La France en pleine tempête à cause de la dette, les taux d’intérêt à un plus haut depuis 2002",
-        "resume": "Les taux français ont frôlé 5 %, jeudi 1ᵉʳ octobre. Si cette flambée des marchés obligataires vient des Etats-Unis, l’Europe y est particulièrement exposée.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/01/la-france-en-pleine-tempete-sur-la-dette-les-taux-d-interet-au-plus-haut-depuis-2002_6786587_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h50",
-        "titre": "« Le réel nous rattrape » : le taux d’emprunt à dix ans de la France au plus haut depuis 2002… et l’écart avec l’Allemagne continue de se creuser",
-        "resume": "Le taux d’emprunt à échéance dix ans de la France évoluait ce jeudi 1er octobre à 4,94 % dans la matinée, son plus haut niveau depuis 2002. Un signe de la défiance croissante des investisseurs envers la dette française, les marchés doutant de la cap",
-        "url": "https://www.challenges.fr/economie/le-reel-nous-rattrape-le-taux-demprunt-de-la-france-atteint-un-sommet-depuis-2002-et-lecart-avec-lallemagne-continue-de-se-creuser_646104"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "13h18",
-        "titre": "L’inflation en zone euro grimpe à 3,8% en septembre, son plus haut niveau depuis 3 ans",
-        "resume": "Cette hausse de prix est engendrée par la flambée des prix de l’énergie provoquée par le conflit au Moyen-Orient, selon des données officielles publiées vendredi.",
-        "url": "https://www.lefigaro.fr/conjoncture/l-inflation-en-zone-euro-grimpe-a-3-8-en-septembre-son-plus-haut-niveau-depuis-3-ans-20261002"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h15",
-        "titre": "Les Etats-Unis et la France sont les deux pays les plus vulnérables aux hausses de taux d'intérêt",
-        "resume": "Les taux d'intérêt élevés pèsent lourdement sur les économies développées, en particulier dans les pays les plus endettés. Aux Etats-Unis, la dette publique pourrait atteindre 140 % du PIB d'ici à 2031. En France, elle grimperait à 125 %.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/les-etats-unis-et-la-france-sont-les-deux-pays-les-plus-vulnerables-aux-hausses-de-taux-dinteret-2254404"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "22h11",
-        "titre": "Le taux à dix ans de la France explose, renchérissant le coût de la dette dans son sillage",
-        "resume": "DÉCRYPTAGE - Le taux d’emprunt à dix ans de la France a frôlé les 5 % ce jeudi, du jamais vu depuis 2002. Au même moment, l’État émettait 12 milliards de nouveaux titres, pour un coût bien plus élevé que l’an dernier.",
-        "url": "https://www.lefigaro.fr/conjoncture/le-taux-a-dix-ans-de-la-france-explose-rencherissant-le-cout-de-la-dette-dans-son-sillage-20261001"
+        "heure": "13h00",
+        "titre": "« A cause des perturbations autour du détroit d’Ormuz, les pétroliers géants sont devenus des mines d’or flottantes »",
+        "resume": "Ces dernières semaines, des supertankers d’occasion, capables de transporter 2 millions de barils, ont été achetés plus cher que leur équivalent flambant neuf, constate Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/05/a-cause-des-perturbations-autour-du-detroit-d-ormuz-les-petroliers-geants-sont-devenus-des-mines-d-or-flottantes_6788512_3234.html"
       }
     ]
   },
@@ -71,37 +71,37 @@
       {
         "source": "Le Monde Eco",
         "heure": "11h30",
-        "titre": "En panne d’innovation, Sanofi puise dans la R&D de l’américain Regeneron pour se relancer",
-        "resume": "En annonçant jeudi un important accord de collaboration avec la société Regeneron, Sanofi met la main sur des anticorps appelés à prendre le relais de son médicament vedette, le Dupixent, dont le brevet expirera en 2031.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/02/en-panne-d-innovation-sanofi-puise-dans-la-r-d-de-l-americain-regeneron-pour-se-relancer_6787076_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "19h00",
-        "titre": "A la SNCF, l’été « hors norme » pèse sur les comptes malgré un nombre de passagers stable",
-        "resume": "Les perturbations liées à la canicule et aux incendies ont fait perdre à l’entreprise publique 80 millions d’euros de chiffre d’affaires par rapport à ses prévisions. A cela s’ajoutent les demandes d’indemnisation des voyageurs qui n’ont pas encore é",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/01/a-la-sncf-l-ete-hors-norme-pese-sur-les-comptes-malgre-un-nombre-de-passagers-stable_6786544_3234.html"
+        "titre": "Schneider Electric, fabricant de prises devenu un géant de l’électrification, fait une acquisition majeure aux Etats-Unis",
+        "resume": "La multinationale a annoncé lundi 5 octobre le rachat de l’éditeur de logiciels américain PTC sur la base d’une valorisation de 20,1 milliards d’euros, le plus important rachat de son histoire mouvementée. La Bourse n’a pas apprécié.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/06/schneider-electric-fabricant-de-prises-devenu-un-geant-de-l-electrification-fait-une-acquisition-majeure-aux-etats-unis_6788951_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "10h29",
-        "titre": "Cure d’austérité sociale en vue : le plan choc de Nike pour économiser 2,5 milliards et redresser ses ventes",
-        "resume": "Nike a annoncé ce jeudi 1er octobre un « nouveau modèle opérationnel » qui se traduira par « moins d’emplois » au sein de l’équipementier sportif, a précisé son PDG. Le groupe américain entend ainsi dégager quelque 2,5 milliards de dollars d’économi",
-        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/cure-dausterite-sociale-en-vue-le-plan-choc-de-nike-pour-economiser-25-milliards-et-redresser-ses-ventes_646125"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "17h00",
-        "titre": "Avec l’A350F, Airbus se lance dans les très gros avions-cargos afin de surfer sur le boom mondial du fret aérien",
-        "resume": "Jusqu’ici absent d’un marché monopolisé par Boeing, l’avionneur européen a fait décoller le 29 septembre, pour la première fois de son histoire, un gros-porteur destiné à la logistique aérienne de fort tonnage.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/01/avec-l-a350f-airbus-se-lance-dans-les-tres-gros-avions-cargos-afin-de-surfer-sur-le-boom-mondial-du-fret-aerien_6786519_3234.html"
+        "heure": "06h00",
+        "titre": "24 milliards d’euros à investir d’ici à 2030… Air Liquide veut continuer à grossir, mais promet de soigner sa rentabilité (et ses actionnaires)",
+        "resume": "Le géant français des gaz industriels a dévoilé, ce lundi 5 octobre, son nouveau plan stratégique à l’horizon 2030, sous la pression du fonds activiste Eliott entré il y a quelques semaines à son capital.",
+        "url": "https://www.challenges.fr/entreprise/energie/24-milliards-deuros-a-investir-dici-a-2030-air-liquide-veut-continuer-a-grossir-mais-promet-de-soigner-sa-rentabilite-et-ses-actionnaires_646187"
       },
       {
         "source": "Challenges",
-        "heure": "16h00",
-        "titre": "41 minutes pour charger à 80 % : la batterie française Verkor retarde l’Alpine A390 GTS, dans l’usine mais aussi à la charge",
-        "resume": "L’Alpine A390 GTS est le premier modèle à embarquer des batteries fabriquées par la start-up française Verkor. Malheureusement, ces cellules semblent loin d’être au point. Nous avons constaté une charge instable et bien plus lente que promise.",
-        "url": "https://www.challenges.fr/automobile/41-minutes-pour-charger-a-80-la-batterie-francaise-verkor-retarde-lalpine-a390-gts-dans-lusine-mais-aussi-a-la-charge_646108"
+        "heure": "18h15",
+        "titre": "Sauver Seb sans le dénaturer : la feuille de route bien chargée du nouveau DG, sous l’œil intrusif de la famille actionnaire",
+        "resume": "Alors que Loïc Moutault succède à Stanislas de Gramont, le propriétaire de Tefal, Calor et Moulinex joue sa transformation : 200 millions d’euros d’économies, jusqu’à 2 100 postes supprimés, une concurrence chinoise intense et une famille actionnair",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/sauver-seb-sans-le-denaturer-la-feuille-de-route-bien-chargee-du-nouveau-dg-sous-loeil-intrusif-de-la-famille-actionnaire_646185"
+      },
+      {
+        "source": "Challenges",
+        "heure": "11h30",
+        "titre": "EXCLUSIF. « DS n’est pas premium » : la stratégie à contre-pied du nouveau patron pour relancer la marque tricolore",
+        "resume": "Depuis peu DS, marque haut de gamme de Stellantis, a rejoint le giron de Citroën. Xavier Chardon, directeur général des deux labels, compte transformer la marque et la repositionner. À l’avenir, DS sera plus accessible.",
+        "url": "https://www.challenges.fr/automobile/exclusif-ds-nest-pas-premium-la-strategie-a-contre-pied-du-nouveau-patron-pour-relancer-la-marque-tricolore_646170"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "14h33",
+        "titre": "Stellantis : les chinois JAC et Huawei se positionnent pour relancer Maserati",
+        "resume": "Un partenariat entre JAC, Huawei et Stellantis est à l'étude pour utiliser les bases techniques des deux géants de l'empire du Milieu afin de développer à moindres frais de nouveaux modèles pour la marque au trident, très mal en point.",
+        "url": "https://www.lesechos.fr/industrie-services/automobile/stellantis-les-chinois-jac-et-huawei-se-positionnent-pour-relancer-maserati-2255352"
       }
     ]
   },
@@ -109,77 +109,77 @@
     "articles": [
       {
         "source": "Challenges",
-        "heure": "18h30",
-        "titre": "SeLoger rachète Ouest-France Immo : pourquoi le géant des annonces immobilières mise gros sur la Bretagne, la Normandie et les Pays de la Loire",
-        "resume": "Le leader national de la diffusion d’annonces immobilières acquiert 100 % d’Ouest-France Immo, portail historiquement bien implanté en Bretagne, dans les Pays de la Loire et en Normandie. Un rapprochement qui permet à SeLoger de renforcer considérab",
-        "url": "https://www.challenges.fr/immobilier/seloger-rachete-ouest-france-immo-pourquoi-le-geant-des-annonces-immobilieres-mise-gros-sur-la-bretagne-la-normandie-et-les-pays-de-la-loire_646117"
+        "heure": "12h20",
+        "titre": "Un deal historique : Schneider Electric s’offre PTC et part défier les champions européens Siemens et Dassault Systèmes",
+        "resume": "Le géant français va débourser plus de 20 milliards d’euros pour racheter l’américain PTC, spécialiste des logiciels qui servent à concevoir et gérer les produits industriels. La plus grosse acquisition de son histoire propulse Schneider Electric pa",
+        "url": "https://www.challenges.fr/entreprise/industrie/un-deal-historique-schneider-electric-soffre-ptc-et-part-defier-les-champions-europeens-siemens-et-dassault-systemes_646176"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "20h00",
-        "titre": "Immobilier : SeLoger cherche à étendre son influence en région en rachetant Ouest-France Immo",
-        "resume": "La plateforme d’annonces immobilières acquiert celle du groupe SIPA Ouest-France, espérant atteindre 80 % de part de marché en Bretagne, dans les Pays de la Loire et en Normandie.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/01/immobilier-seloger-cherche-a-etendre-son-influence-en-region-en-rachetant-ouest-france-immo_6786557_3234.html"
+        "heure": "11h30",
+        "titre": "Schneider Electric, fabricant de prises devenu un géant de l’électrification, fait une acquisition majeure aux Etats-Unis",
+        "resume": "La multinationale a annoncé lundi 5 octobre le rachat de l’éditeur de logiciels américain PTC sur la base d’une valorisation de 20,1 milliards d’euros, le plus important rachat de son histoire mouvementée. La Bourse n’a pas apprécié.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/06/schneider-electric-fabricant-de-prises-devenu-un-geant-de-l-electrification-fait-une-acquisition-majeure-aux-etats-unis_6788951_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "14h33",
+        "titre": "Stellantis : les chinois JAC et Huawei se positionnent pour relancer Maserati",
+        "resume": "Un partenariat entre JAC, Huawei et Stellantis est à l'étude pour utiliser les bases techniques des deux géants de l'empire du Milieu afin de développer à moindres frais de nouveaux modèles pour la marque au trident, très mal en point.",
+        "url": "https://www.lesechos.fr/industrie-services/automobile/stellantis-les-chinois-jac-et-huawei-se-positionnent-pour-relancer-maserati-2255352"
       },
       {
         "source": "Challenges",
-        "heure": "09h55",
-        "titre": "Fusion Warner Bros/Paramount : David Ellison débauche le patron de Mattel pour l’épauler, après la levée d’un ultime obstacle en justice",
-        "resume": "Le patron de Paramount a annoncé ce mercredi 30 septembre avoir nommé Ynon Kreiz, jusqu’ici à la tête de Mattel, pour diriger à ses côtés le groupe issu du rachat de Warner Bros. Discovery par Paramount. L’annonce de David Ellison est intervenue que",
-        "url": "https://www.challenges.fr/entreprise/medias/fusion-warner-brosparamount-david-ellison-debauche-le-patron-de-mattel-pour-lepauler-apres-la-levee-dun-ultime-obstacle-en-justice_646097"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "10h30",
-        "titre": "Industrie : « L’argent public européen doit servir la production européenne », défend Stéphane Séjourné",
-        "resume": "Le vice-président exécutif de la Commission européenne était en visite jeudi dans une usine Renault de Slovénie pour défendre le projet de loi d’accélération industrielle de l’UE. A l’approche du Mondial de l’auto, Bruxelles compte sur un accord entr",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/02/industrie-l-argent-public-europeen-doit-servir-la-production-europeenne-defend-stephane-sejourne_6787072_3234.html"
+        "heure": "12h00",
+        "titre": "Ultra-dominant aux Antilles, pourquoi CMA CGM investit 80 millions d’euros dans un pari logistique XXL",
+        "resume": "Mis en avant la semaine dernière par le premier sommet Choose Outre-mer, le projet Hub Antilles entend positionner la Martinique et la Guadeloupe au cœur du commerce maritime caribéen. Un pari logistique porté notamment par l’armateur CMA CGM.",
+        "url": "https://www.challenges.fr/entreprise/transports/ultra-dominant-aux-antilles-pourquoi-cma-cgm-investit-80-millions-deuros-dans-un-pari-logistique-xxl_646193"
       },
       {
         "source": "Challenges",
-        "heure": "08h30",
-        "titre": "Naval Group peut-il réaliser le doublé ? Pourquoi le champion tricolore a toutes ses chances dans le match pour remporter un gros contrat de frégates au Danemark",
-        "resume": "Après sa victoire sur le stratégique contrat suédois (4 frégates), Naval Group espère une nouvelle commande au Danemark, qui doit se décider en 2027. Quels sont les atouts du champion français ? Reportage sur le site de Lorient, désormais à plein ré",
-        "url": "https://www.challenges.fr/entreprise/defense/naval-group-peut-il-realiser-le-double-pourquoi-le-champion-tricolore-a-toutes-ses-chances-dans-le-match-pour-remporter-un-gros-contrat-de-fregates-au-danemark_646121"
+        "heure": "18h15",
+        "titre": "Sauver Seb sans le dénaturer : la feuille de route bien chargée du nouveau DG, sous l’œil intrusif de la famille actionnaire",
+        "resume": "Alors que Loïc Moutault succède à Stanislas de Gramont, le propriétaire de Tefal, Calor et Moulinex joue sa transformation : 200 millions d’euros d’économies, jusqu’à 2 100 postes supprimés, une concurrence chinoise intense et une famille actionnair",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/sauver-seb-sans-le-denaturer-la-feuille-de-route-bien-chargee-du-nouveau-dg-sous-loeil-intrusif-de-la-famille-actionnaire_646185"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Le Figaro",
-        "heure": "13h18",
-        "titre": "L’inflation en zone euro grimpe à 3,8% en septembre, son plus haut niveau depuis 3 ans",
-        "resume": "Cette hausse de prix est engendrée par la flambée des prix de l’énergie provoquée par le conflit au Moyen-Orient, selon des données officielles publiées vendredi.",
-        "url": "https://www.lefigaro.fr/conjoncture/l-inflation-en-zone-euro-grimpe-a-3-8-en-septembre-son-plus-haut-niveau-depuis-3-ans-20261002"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h00",
-        "titre": "EXCLUSIF. Chute historique : le moral économique des Français tombe à son plus bas niveau depuis vingt ans",
-        "resume": "Selon le baromètre Odoxa réalisé pour AGIPI, Challenges et BFM Business, 90 % des Français se disent désormais défiants concernant l’avenir économique du pays. L’indice de moral économique plonge à -80, son plus bas niveau depuis le lancement de la",
-        "url": "https://www.challenges.fr/economie/exclusif-chute-historique-le-moral-economique-des-francais-tombe-a-son-plus-bas-niveau-depuis-vingt-ans_646088"
+        "source": "Le Monde Eco",
+        "heure": "18h07",
+        "titre": "Le coût de la canicule de l’été 2026 évalué à 16 milliards d’euros par une mission de l’Assemblée nationale",
+        "resume": "A l’approche du débat budgétaire, le député (LFI) Eric Coquerel présente une évaluation très élevée des conséquences des fortes températures de l’été. Pour mieux justifier d’augmenter les crédits alloués à l’adaptation du pays au réchauffement climat",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/05/le-cout-de-la-canicule-evalue-a-16-milliards-d-euros-par-une-mission-de-l-assemblee-nationale_6788537_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "19h00",
-        "titre": "Flambée du prix des carburants : « En l’absence de politiques de logement ou de mobilité, comment s’étonner que les mêmes causes produisent les mêmes effets ? »",
-        "resume": "Il existe un décalage troublant entre les crises liées au pétrole, qui se répètent, et l’absence de vision des responsables politiques sur des enjeux fondamentaux comme les transports ou l’aménagement du territoire, note Béatrice Madeline, dans sa ch",
-        "url": "https://www.lemonde.fr/idees/article/2026/10/01/flambee-du-prix-des-carburants-en-l-absence-de-politiques-de-logement-ou-de-mobilite-comment-s-etonner-que-les-memes-causes-produisent-les-memes-effets_6786543_3232.html"
+        "heure": "12h00",
+        "titre": "Les ventes de livres reculent fortement en France sur la première moitié de 2026",
+        "resume": "Alors que la Foire du livre de Francfort s’ouvre le 7 octobre, deux études soulignent les difficultés traversées par l’édition française. En revanche, les ventes d’ouvrages progressent en Espagne ou en Italie.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/06/les-ventes-de-livres-reculent-fortement-en-france-sur-la-premiere-moitie-de-2026_6788957_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "« On réfléchit deux fois avant de prendre la voiture » : en Europe, la hausse des prix des carburants ampute le pouvoir d’achat et pousse les gouvernements à multiplier les aides",
-        "resume": "Les nouveaux sommets atteints par les cours du pétrole pèsent lourdement sur le budget des ménages et les marges des entreprises, poussant les gouvernements à multiplier les aides.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/01/tout-notre-quotidien-s-est-rencheri-en-europe-la-hausse-des-prix-des-carburants-ampute-le-pouvoir-d-achat-et-pousse-les-gouvernements-a-multiplier-les-aides_6786443_3234.html"
+        "heure": "07h45",
+        "titre": "Les demandes d’acompte sur salaire en nette hausse, nouvelle illustration des tensions sur le pouvoir d’achat",
+        "resume": "Les salariés, en particulier ceux aux plus faibles revenus, sont de plus en plus nombreux à se tourner vers le versement anticipé d’une partie de leur rémunération.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/05/les-demandes-d-acompte-sur-salaire-en-nette-hausse-nouvelle-illustration-des-tensions-sur-le-pouvoir-d-achat_6788476_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "15h28",
-        "titre": "L'activité économique en berne dans le Grand Est",
-        "resume": "La baisse de l'activité dans la région au deuxième trimestre est deux fois plus forte qu'au niveau national, selon l'Insee.",
-        "url": "https://www.lesechos.fr/pme-regions/grand-est/lactivite-economique-en-berne-dans-le-grand-est-2254524"
+        "heure": "15h05",
+        "titre": "« Un mois catastrophique » : pourquoi les ventes de vêtements ont plongé à la rentrée",
+        "resume": "La chaleur et la hausse du prix de l'essence ont entraîné une chute à deux chiffres des achats de vêtements en septembre, une période clé pour les professionnels qui appréhendent désormais les prochains mois.",
+        "url": "https://www.lesechos.fr/industrie-services/mode-luxe/un-mois-catastrophique-pourquoi-les-ventes-de-vetements-ont-plonge-a-la-rentree-2255359"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "12h00",
+        "titre": "A Lens, la quête d’économies au sein d’ateliers consacrés au pouvoir d’achat : « On s’en sort quand même, mais tout est calculé »",
+        "resume": "Dans cette ville du Pas-de-Calais, le centre social Vachala, géré par la municipalité socialiste, organise des ateliers prodiguant des conseils sur la gestion d’un budget rogné par la crise énergétique et les coûts des produits alimentaires.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/06/a-lens-la-quete-d-economies-au-sein-d-ateliers-consacres-au-pouvoir-d-achat-on-s-en-sort-quand-meme-mais-tout-est-calcule_6788958_3234.html"
       }
     ]
   },
@@ -187,38 +187,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "01h59",
-        "titre": "Carburants : Donald Trump dit qu’il « pourrait » demander aux Européens de puiser dans leurs réserves de gazole pour faire baisser les prix",
-        "resume": "Le ministre des finances américain, Scott Bessent, a appelé jeudi les Européens à mettre « immédiatement » du gazole sur le marché pour contrer l’envolée des prix des carburants, avant une réunion d’urgence des pays de l’UE sur le sujet.",
-        "url": "https://www.lemonde.fr/international/article/2026/10/02/carburants-donald-trump-dit-qu-il-pourrait-demander-aux-europeens-de-puiser-dans-leurs-reserves-de-gazole-pour-faire-baisser-les-prix_6786592_3210.html"
+        "heure": "12h26",
+        "titre": "Présidentielle 2027 : Marine Le Pen et le RN présentent leur contre-budget, avec « 140 milliards d’euros nets d’économies » en cinq ans",
+        "resume": "Cette trajectoire budgétaire « sera confortée par l’adoption d’une règle d’or budgétaire constitutionnelle adoptée par référendum », a précisé la cheffe de file du parti d’extrême droite.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/06/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-2032_6788959_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "10h30",
-        "titre": "Industrie : « L’argent public européen doit servir la production européenne », défend Stéphane Séjourné",
-        "resume": "Le vice-président exécutif de la Commission européenne était en visite jeudi dans une usine Renault de Slovénie pour défendre le projet de loi d’accélération industrielle de l’UE. A l’approche du Mondial de l’auto, Bruxelles compte sur un accord entr",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/02/industrie-l-argent-public-europeen-doit-servir-la-production-europeenne-defend-stephane-sejourne_6787072_3234.html"
+        "heure": "07h05",
+        "titre": "Présidentielle 2027 : pour les candidats, la difficulté de mener campagne alors que plane la menace d’une crise financière et budgétaire",
+        "resume": "Matignon prévient qu’une aggravation du déficit pourrait entraver l’action du prochain chef de l’Etat. Dans ce climat anxiogène, les prétendants à l’Elysée s’opposent sur les solutions à apporter.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/06/presidentielle-2027-les-candidats-face-a-la-menace-d-une-crise-financiere-et-budgetaire_6788825_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "« RN et LFI restent très fragiles, car ils sont confrontés à des contradictions difficilement surmontables »",
+        "resume": "Capables de dicter l’agenda politique mieux que tous les autres partis, le Rassemblement national et La France insoumise manifestent leur fragilité dès lors qu’on leur demande des comptes, remarque, dans sa chronique, Françoise Fressoz, éditorialiste",
+        "url": "https://www.lemonde.fr/idees/article/2026/10/06/rn-et-lfi-restent-tres-fragiles-car-ils-sont-confrontes-a-des-contradictions-difficilement-surmontables_6788822_3232.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "13h41",
-        "titre": "Gazole : Emmanuel Macron appelle le G7 à agir de manière concertée, sans restriction des exportations",
-        "resume": "Le président de la République française, Emmanuel Macron, a appelé ce vendredi 2 octobre les pays du G7 à «agir de manière concertée» pour faire...",
-        "url": "https://www.lefigaro.fr/flash-eco/gazole-emmanuel-macron-appelle-le-g7-a-agir-de-maniere-concertee-sans-restriction-des-exportations-20261002"
+        "heure": "14h01",
+        "titre": "Retraites, réforme de l’État, immigration… Ce que contient le plan économique de Marine Le Pen pour «la renaissance de la France»",
+        "resume": "La candidate du RN à l’élection présidentielle a présenté ce mardi la trajectoire financière qu’elle entend viser si elle accède à l’Élysée en mai prochain, détaillant plusieurs mesures économiques.",
+        "url": "https://www.lefigaro.fr/conjoncture/retraites-reforme-de-l-etat-immigration-ce-que-contient-le-plan-economique-de-marine-le-pen-pour-la-renaissance-de-la-france-20261006"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Arancha Gonzalez Laya et Jean Tirole : « Aujourd’hui, les marchands s’effacent : c’est le retour des princes »",
-        "resume": "L’économiste Jean Tirole signe, avec Karine Van Der Straeten, « Economie du désordre mondial » ; la juriste espagnole Arancha Gonzalez Laya publie « L’Europe seule au monde ». Echange d’idées sur la situation politique et économique mondiale, ainsi q",
-        "url": "https://www.lemonde.fr/livres/article/2026/10/02/arancha-gonzalez-laya-et-jean-tirole-aujourd-hui-les-marchands-s-effacent-c-est-le-retour-des-princes_6786896_3260.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h25",
-        "titre": "Le gouvernement dans l’engrenage d’une mobilisation lycéenne hors de contrôle",
-        "resume": "Le ministre de l’éducation nationale, Edouard Geffray, doit recevoir, vendredi, les associations lycéennes et de parents d’élèves après dix jours de manifestations aux abords des établissements scolaires parfois brutalement réprimées par les forces d",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/02/le-gouvernement-dans-l-engrenage-d-une-mobilisation-lyceenne-hors-de-controle_6786859_823448.html"
+        "source": "Challenges",
+        "heure": "07h00",
+        "titre": "Bardella rattrapé par le poison du soupçon après les révélations de Mediapart : jusqu’où l’affaire peut-elle fragiliser le RN avant la présidentielle ?",
+        "resume": "Jordan Bardella s’était vu à la présidence de la République… avant que Marine Le Pen ne reprenne la place de candidate du RN. Celui qui se voyait désormais à Matignon est rattrapé par les révélations de Mediapart qui installent le doute au sein du p",
+        "url": "https://www.challenges.fr/politique/bardella-rattrape-par-le-poison-du-soupcon-apres-les-revelations-de-mediapart-jusquou-laffaire-peut-elle-fragiliser-le-rn-avant-la-presidentielle_646186"
       }
     ]
   },
@@ -226,51 +226,49 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "23h22",
-        "titre": "La France en pleine tempête à cause de la dette, les taux d’intérêt à un plus haut depuis 2002",
-        "resume": "Les taux français ont frôlé 5 %, jeudi 1ᵉʳ octobre. Si cette flambée des marchés obligataires vient des Etats-Unis, l’Europe y est particulièrement exposée.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/01/la-france-en-pleine-tempete-sur-la-dette-les-taux-d-interet-au-plus-haut-depuis-2002_6786587_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h50",
-        "titre": "« Le réel nous rattrape » : le taux d’emprunt à dix ans de la France au plus haut depuis 2002… et l’écart avec l’Allemagne continue de se creuser",
-        "resume": "Le taux d’emprunt à échéance dix ans de la France évoluait ce jeudi 1er octobre à 4,94 % dans la matinée, son plus haut niveau depuis 2002. Un signe de la défiance croissante des investisseurs envers la dette française, les marchés doutant de la cap",
-        "url": "https://www.challenges.fr/economie/le-reel-nous-rattrape-le-taux-demprunt-de-la-france-atteint-un-sommet-depuis-2002-et-lecart-avec-lallemagne-continue-de-se-creuser_646104"
+        "heure": "23h01",
+        "titre": "Dette : la France risque d’être « étranglée par les taux d’intérêt », avertit Emmanuel Moulin, gouverneur de la Banque de France, dans un entretien au « Financial Times »",
+        "resume": "Alors que le taux d’emprunt à dix ans a frôlé 5 % vendredi, Emmanuel Moulin juge dans les colonnes du journal financier américain que l’adoption du budget pour 2027 suffirait à rassurer les marchés et écarte toute intervention de la BCE.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/05/dette-la-france-risque-d-etre-etranglee-par-les-taux-d-interet-avertit-emmanuel-moulin-gouverneur-de-la-banque-de-france-dans-un-entretien-au-financial-times_6788582_3234.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "22h11",
-        "titre": "Le taux à dix ans de la France explose, renchérissant le coût de la dette dans son sillage",
-        "resume": "DÉCRYPTAGE - Le taux d’emprunt à dix ans de la France a frôlé les 5 % ce jeudi, du jamais vu depuis 2002. Au même moment, l’État émettait 12 milliards de nouveaux titres, pour un coût bien plus élevé que l’an dernier.",
-        "url": "https://www.lefigaro.fr/conjoncture/le-taux-a-dix-ans-de-la-france-explose-rencherissant-le-cout-de-la-dette-dans-son-sillage-20261001"
+        "heure": "22h46",
+        "titre": "Dette : «Il y a un risque d’être étranglés par la hausse des taux d’intérêt», avertit le gouverneur de la Banque de France",
+        "resume": "Dans un entretien au Financial Times, Emmanuel Moulin qualifie de «sérieux et préoccupants», les mouvements sur le marché de la dette française ces derniers jours.",
+        "url": "https://www.lefigaro.fr/conjoncture/dette-il-y-a-un-risque-d-etre-etrangles-par-la-hausse-des-taux-d-interet-avertit-le-gouverneur-de-la-banque-de-france-20261005"
       },
       {
         "source": "Les Echos",
-        "heure": "09h15",
-        "titre": "Les Etats-Unis et la France sont les deux pays les plus vulnérables aux hausses de taux d'intérêt",
-        "resume": "Les taux d'intérêt élevés pèsent lourdement sur les économies développées, en particulier dans les pays les plus endettés. Aux Etats-Unis, la dette publique pourrait atteindre 140 % du PIB d'ici à 2031. En France, elle grimperait à 125 %.",
-        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/les-etats-unis-et-la-france-sont-les-deux-pays-les-plus-vulnerables-aux-hausses-de-taux-dinteret-2254404"
+        "heure": "10h45",
+        "titre": "Dette publique : à la recherche de la crédibilité perdue",
+        "resume": "Les marchés n'ont pas réagi positivement au budget présenté comme rigoureux par le gouvernement Lecornu. Seules deux solutions peuvent permettre à la France de retrouver sa crédibilité, estime Emmanuel Combe.",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/dette-publique-a-la-recherche-de-la-credibilite-perdue-2255275"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "20h30",
-        "titre": "Le gouvernement ouvre une brèche dans la taxation du kérosène pour financer les carburants durables d’aviation",
-        "resume": "Le projet de loi de finances 2027 prévoit une taxe touchant les fournisseurs de carburéacteur, destinée à financer un dispositif d’accès des compagnies aériennes aux carburants d’aviation durable.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/01/le-gouvernement-ouvre-une-breche-dans-la-taxation-du-kerosene-pour-financer-les-carburants-durables-d-aviation_6786563_3234.html"
+        "source": "Le Figaro",
+        "heure": "08h55",
+        "titre": "IA : la ruée vers la dette des géants de la tech fait grimper les taux d’intérêt",
+        "resume": "Les investissements colossaux dans les puces, serveurs et centres de données poussent le secteur technologique à recourir massivement aux marchés obligataires, au risque d’accentuer la nervosité des investisseurs.",
+        "url": "https://www.lefigaro.fr/secteur/high-tech/ia-la-ruee-vers-la-dette-des-geants-de-la-tech-fait-grimper-les-taux-d-interet-20261006"
+      },
+      {
+        "source": "Challenges",
+        "heure": "10h00",
+        "titre": "Protéger l’Europe d’un « choc industriel massif » : l’alerte franco-allemande avant les négociations de la dernière chance",
+        "resume": "Alors que des négociations commerciales doivent se tenir ces prochains jours entre la Chine et l’Union européenne, le président français Emmanuel Macron et le chancelier allemand Friedrich Merz sonnent la charge contre Pékin dans une lettre envoyée",
+        "url": "https://www.challenges.fr/economie/proteger-leurope-dun-choc-industriel-massif-lalerte-franco-allemande-avant-les-negociations-de-la-derniere-chance_646190"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.106,
-        "prev": 3.159,
-        "diff": -0.053,
-        "trend": "down",
-        "date": "2026-10-01",
+        "rate": 2.997,
+        "prev": 2.992,
+        "diff": 0.005,
+        "trend": "up",
+        "date": "2026-10-05",
         "history": [
-          3.215,
-          3.148,
           3.136,
           3.218,
           3.229,
@@ -278,19 +276,19 @@
           3.233,
           3.211,
           3.159,
-          3.106
+          3.106,
+          2.992,
+          2.997
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.269,
-        "prev": 3.292,
-        "diff": -0.023,
-        "trend": "down",
-        "date": "2026-10-01",
+        "rate": 3.167,
+        "prev": 3.133,
+        "diff": 0.034,
+        "trend": "up",
+        "date": "2026-10-05",
         "history": [
-          3.296,
-          3.225,
           3.217,
           3.33,
           3.343,
@@ -298,19 +296,19 @@
           3.379,
           3.35,
           3.292,
-          3.269
+          3.269,
+          3.133,
+          3.167
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.592,
-        "prev": 3.582,
-        "diff": 0.01,
+        "rate": 3.502,
+        "prev": 3.464,
+        "diff": 0.038,
         "trend": "up",
-        "date": "2026-10-01",
+        "date": "2026-10-05",
         "history": [
-          3.53,
-          3.474,
           3.453,
           3.524,
           3.566,
@@ -318,19 +316,19 @@
           3.631,
           3.608,
           3.582,
-          3.592
+          3.592,
+          3.464,
+          3.502
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.901,
-        "prev": 3.875,
-        "diff": 0.026,
+        "rate": 3.818,
+        "prev": 3.77,
+        "diff": 0.048,
         "trend": "up",
-        "date": "2026-10-01",
+        "date": "2026-10-05",
         "history": [
-          3.802,
-          3.764,
           3.743,
           3.787,
           3.812,
@@ -338,19 +336,19 @@
           3.906,
           3.889,
           3.875,
-          3.901
+          3.901,
+          3.77,
+          3.818
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.835,
-        "prev": 3.808,
-        "diff": 0.027,
+        "rate": 3.772,
+        "prev": 3.717,
+        "diff": 0.055,
         "trend": "up",
-        "date": "2026-10-01",
+        "date": "2026-10-05",
         "history": [
-          3.747,
-          3.725,
           3.718,
           3.763,
           3.744,
@@ -358,7 +356,9 @@
           3.843,
           3.83,
           3.808,
-          3.835
+          3.835,
+          3.717,
+          3.772
         ]
       }
     ]
@@ -366,37 +366,37 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,847 milliards de dollars",
-      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillion de dollars en septembre 2026, tirée par la croissance exponentielle du secteur IA et des énergies renouvelables. Cette hausse de 34% en deux ans reflète la réallocation massive des capitaux vers les technologies durables.",
-      "source": "Bloomberg & World Bank Financial Indices"
+      "chiffre": "2,3 billions USD",
+      "contexte": "Les investissements mondiaux en intelligence artificielle ont atteint 2,3 milliards de dollars au troisième trimestre 2026, marquant une accélération de 45% par rapport à la même période en 2025. Cette croissance reflète la consolidation des applications IA dans les secteurs financiers et la course technologique entre les grandes puissances économiques.",
+      "source": "Global AI Investment Tracker 2026"
     },
     "ephemeride": {
-      "evenement": "2 octobre 1869 : Ouverture du Canal de Suez, réduisant de 40% les routes commerciales entre l'Europe et l'Asie",
-      "impact": "Cet événement a révolutionné le commerce maritime mondial et consolidé l'économie mondialisée moderne que nous connaissons."
+      "evenement": "Le 6 octobre 1979, le président américain Jimmy Carter annonce un programme de stabilisation économique face à la crise de l'inflation",
+      "impact": "Cette intervention politique marqua le début d'une politique monétaire restrictive qui conduisit à des taux d'intérêt record et restructura profondément l'économie mondiale des années 1980."
     },
     "graphique_semaine": {
-      "titre": "Evolution du taux d'inflation dans les grandes économies (septembre 2026)",
-      "description": "L'inflation modérée s'établit à 2,3% en moyenne dans la zone OCDE, marquant une stabilisation après les tensions inflationnistes de 2024-2025. Les banques centrales maintiennent une posture prudente face aux perturbations géopolitiques et aux chocs énergétiques récurrents.",
+      "titre": "Volatilité des cryptomonnaies vs indices boursiers traditionnels (semaine du 30 sept - 6 oct 2026)",
+      "description": "La semaine écoulée confirme une divergence accrue entre les marchés traditionnels et l'écosystème crypto. Tandis que le S&P 500 affiche une stabilité relative (+1,2%), les cryptomonnaies majeures connaissent des fluctuations importantes dues aux anticipations de régulation bancaire plus stricte en zone euro.",
       "donnees": [
         {
-          "label": "Zone Euro",
-          "valeur": 2.1
+          "label": "S&P 500",
+          "valeur": 4850
         },
         {
-          "label": "USA",
-          "valeur": 2.4
+          "label": "Bitcoin",
+          "valeur": 42300
         },
         {
-          "label": "Royaume-Uni",
-          "valeur": 2.8
+          "label": "Eurostoxx 50",
+          "valeur": 5120
         },
         {
-          "label": "Japon",
-          "valeur": 1.9
+          "label": "Ethereum",
+          "valeur": 2280
         },
         {
-          "label": "Moyenne OCDE",
-          "valeur": 2.3
+          "label": "Obligation 10Y US",
+          "valeur": 4.15
         }
       ]
     }
@@ -405,123 +405,123 @@
     "articles": [
       {
         "source": "Vatican News",
-        "titre": "Un chapelet au Vatican pour «la paix pour tous les enfants du monde»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/chapelet-grotte-lourdes-vatican-pape-leon-xiv-enfants-paix.html",
-        "resume": "À la grotte de Lourdes, dans les jardins du Vatican, 1 200 personnes — dont 700 enfants — se sont jointes au Pape Léon XIV pour réciter le chapelet en cinq langues, offrant cette prière mariale pour que cesse",
-        "pub": "Thu, 01 Oct 2026 19:28:00 +0200",
-        "heure": "21h28"
+        "titre": "Gabon: le nouveau nonce apostolique accueilli sous le signe de l'espérance",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/gabon-le-nouveau-nonce-apostolique-accueilli-a-librreville.html",
+        "resume": "L’Église catholique au Gabon a accueilli avec grande ferveur spirituelle, le dimanche 4 octobre, Mgr Kizito Ouédraogo en tant que nouveau nonce apostolique au Gabon et en République du Congo. Un événement sal",
+        "pub": "Tue, 06 Oct 2026 11:30:00 +0200",
+        "heure": "13h30"
       },
       {
         "source": "Vatican News",
-        "titre": "Le cardinal Zuppi de retour de mission en Russie",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/cardinal-zuppi-retour-de-mission-en-russie.html",
-        "resume": "L’envoyé spécial du Pape pour les questions humanitaires et président de la Conférence épiscopale italienne est rentré de Moscou après sa troisième mission en Russie. Parmi ses différents rendez-vous, figure",
-        "pub": "Thu, 01 Oct 2026 17:07:00 +0200",
-        "heure": "19h07"
+        "titre": "Pour Léon XIV, l' amour conjugal est un «oui» inlassable et fidèle pour toute une vie",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/leon-xiv-l-amour-un-oui-profond-a-l-autre-youcat-love-forever.html",
+        "resume": "Le Pape signe la préface d'une nouvelle édition de ''YOUCAT Love Forever'', un ouvrage destiné à accompagner les jeunes dans leur réflexion sur l'amour, les relations et le mariage à la lumière de la foi cath",
+        "pub": "Tue, 06 Oct 2026 11:14:00 +0200",
+        "heure": "13h14"
       },
       {
         "source": "Vatican News",
-        "titre": "L'archevêque de Bangui plaide pour un élan de paix et des fruits de changement",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/rencontre-pape-et-president-rca-mgr-samedi-nouvel-paix.html",
-        "resume": "Alors que la République centrafricaine poursuit ses efforts de reconstruction après plusieurs années de crises, Mgr Joseph Samedi, archevêque coadjuteur de l’archidiocèse de Bangui, souligne le rôle de l’Égli",
-        "pub": "Thu, 01 Oct 2026 16:44:00 +0200",
-        "heure": "18h44"
+        "titre": "Protection des mineurs, une nouvelle étape pour les travaux de la Commission",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/protection-mineur-eglise-instrumentum-laboris-victime-protection.html",
+        "resume": "La Commission pontificale pour la protection des mineurs a clôturé le week-end à Rome sa session plénière d’octobre, axée sur la responsabilité, l’implication des victimes et des survivants, ainsi que sur le",
+        "pub": "Tue, 06 Oct 2026 09:21:00 +0200",
+        "heure": "11h21"
       },
       {
         "source": "Vatican News",
-        "titre": "Colloque sur les vocations et les charismes, la beauté de l’unité dans la diversité",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/symposium-vocations-et-charismes-cardinal-ouellet.html",
-        "resume": "Présentant le symposium international «Vocations et charismes. Théologie des dons de Dieu pour une Église synodale et missionnaire», qui se tiendra du 15 au 17 avril 2027, le cardinal Marc Ouellet, préfet émé",
-        "pub": "Thu, 01 Oct 2026 15:44:00 +0200",
-        "heure": "17h44"
+        "titre": "La prière, fondement d'une nouvelle civilisation, affirme Mgr Rudelli",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/pompei-vicaire-rudelli-priere-fondement-nouvelle-vie-paix.html",
+        "resume": "Dans son homélie précédant la prière à Notre-Dame du Rosaire, l’archevêque a invité à confier à Dieu «les réalités d’aujourd’hui, en particulier les plus éprouvées, afin que la vie triomphe, que la paix progr",
+        "pub": "Tue, 06 Oct 2026 08:41:00 +0200",
+        "heure": "10h41"
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV invite à prier pour la pastorale de la santé mentale",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/le-pape-leon-xiv-invite-prier-pour-la-sante-mentale.html",
-        "resume": "L’intention de prière du Saint-Père pour le mois d’octobre invite l’Église à accompagner, sans stigmatisation, les personnes souffrant de troubles de santé mentale.\n                    Tout lire",
-        "pub": "Thu, 01 Oct 2026 14:53:00 +0200",
-        "heure": "16h53"
+        "titre": "Pour le cardinal Blase Cupich, la défense des immigrés est un acte de culte",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/chicago-cardinal-cupich-homelie-immigration-hospitalite.html",
+        "resume": "Célébrant l’héritage de la ville américaine de Chicago en tant que «ville d’accueil», le cardinal Blase Cupich appelle les catholiques à reconnaître le Christ dans les migrants et à traduire leur foi en engag",
+        "pub": "Mon, 05 Oct 2026 17:39:00 +0200",
+        "heure": "19h39"
       },
       {
         "source": "Vatican News",
-        "titre": "La complémentarité entre l’humanité et l’IA, selon le cardinal Fernández",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/magnifica-humanitas-cardinal-fernandez-ia-humanite.html",
-        "resume": "Le préfet du dicastère pour la Doctrine de la foi, le cardinal Víctor Manuel Fernández, est revenu sur l’encyclique Magnifica humanitas et l’intelligence artificielle lors de la journée d’étude organisée par",
-        "pub": "Thu, 01 Oct 2026 13:24:00 +0200",
-        "heure": "15h24"
+        "titre": "«Jusqu’à quand, Seigneur?», les prières de Léon XIV envoyées au curé de Gaza",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/gaza-leon-xiv-message-massacre-romanelli-attaque-humanitaire.html",
+        "resume": "Le Pape a envoyé un message sur Whatsapp au curé de la paroisse de la Sainte-Famille à Gaza, à la suite du raid israélien du 3 octobre qui a fait plusieurs morts, dont deux femmes de la communauté chrétienne.",
+        "pub": "Mon, 05 Oct 2026 16:49:00 +0200",
+        "heure": "18h49"
       },
       {
         "source": "Vatican News",
-        "titre": "Le Pape Léon XIV a reçu en audience le président de la République centrafricaine",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/le-pape-leon-xiv-recu-le-president-republique-centrafricaine.html",
-        "resume": "Le président Faustin-Archange Touadéra a été reçu ce matin par Léon XIV au palais apostolique du Vatican. Les discussions à la Secrétairerie d'État ont porté sur la contribution de l'Église au pays et sur le",
-        "pub": "Thu, 01 Oct 2026 13:07:00 +0200",
-        "heure": "15h07"
+        "titre": "«Le Journal spirituel du Pape François», trente ans de notes personnelles",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/journal-personnel-pape-francois-cardinal-fernandez.html",
+        "resume": "La Librairie éditrice du Vatican a annoncé ce 5 octobre la parution à venir de cet ouvrage du cardinal Víctor Manuel Fernández, Préfet du dicastère pour la Doctrine de la Foi. Proche collaborateur de François",
+        "pub": "Mon, 05 Oct 2026 15:55:00 +0200",
+        "heure": "17h55"
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV invite à passer de la culture du gaspillage à un usage judicieux de la Création",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/leon-xiv-invite-passer-culture-gaspillage-a-usage-creation.html",
-        "resume": "Le Pape Léon XIV a reçu une délégation du Groupe Hera, leur rappelant la responsabilité de chacun dans la protection de la Création. Face à la consommation excessive des ressources et à l’accumulation des déc",
-        "pub": "Thu, 01 Oct 2026 12:50:00 +0200",
-        "heure": "14h50"
+        "titre": "Léon XIV invite les prêtres et religieux coréens à témoigner de la réconciliation",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/pape-leon-audience-pretre-religieux-corens-rome-reconciliation.html",
+        "resume": "Ce matin, lundi 5 octobre, Léon XIV a rencontré au Vatican des prêtres, religieuses et religieux coréens présents à Rome, dont beaucoup participent à la préparation des JMJ de Séoul. Le Pape a exprimé le souh",
+        "pub": "Mon, 05 Oct 2026 14:44:50 +0200",
+        "heure": "16h44"
       },
       {
         "source": "Vatican News",
-        "titre": "La Fondation «Donum Missionis», unique gérant des collèges des missions",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/rescrit-pape-leon-donum-missionis-dicastere-evangelisation.html",
-        "resume": "Léon XIV approuve par un rescrit les statuts d’une nouvelle entité juridique au service du dicastère pour l’Évangélisation. Elle résulte de la fusion des fondations Domus Missionalis et Domus Urbaniana et a p",
-        "pub": "Thu, 01 Oct 2026 12:03:00 +0200",
-        "heure": "14h03"
+        "titre": "Le Premier ministre slovène reçu en audience par Léon XIV",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/1er-ministre-slovenie-audience-pape-relations-internationales.html",
+        "resume": "Le Premier ministre Janez Janša a d'abord été reçu ce matin en audience par le Pape au Vatican. Des entretiens ont ensuite eu lieu à la Secrétairerie d’État, portant notamment sur des questions internationale",
+        "pub": "Mon, 05 Oct 2026 14:27:00 +0200",
+        "heure": "16h27"
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV aux luthériens: «Revenons, avec ferveur, à nos racines communes»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/leon-xiv-aux-lutheriens-revenons-a-nos-racines-communes.html",
-        "resume": "Recevant les représentants de la Fédération luthérienne mondiale, ce 1er octobre, Léon XIV a salué les progrès du dialogue entre catholiques et luthériens et encouragé à poursuivre le chemin vers «une unité p",
-        "pub": "Thu, 01 Oct 2026 09:51:00 +0200",
-        "heure": "11h51"
+        "titre": "Léon XIV: les femmes au Vatican sont une richesse à reconnaître et valoriser",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/leon-xiv-femmes-vatican-une-richesse-reconnaitre-valoriser.html",
+        "resume": "Léon XIV a reçu ce lundi 5 octobre les représentants de l'Association des employés laïcs du Vatican et de l'Association des femmes du Vatican. Dans son discours, le Pape a insisté sur la dignité de la personn",
+        "pub": "Mon, 05 Oct 2026 13:34:00 +0200",
+        "heure": "15h34"
       },
       {
         "source": "Vatican News",
-        "titre": "Les infos de L'Œuvre d'Orient - 1er octobre 2026",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/les-infos-de-l-uvre-d-orient-1-octobre-2026.html",
-        "resume": "À Paris, l'attention de Léon XIV pour les chrétiens orientaux\n                    Tout lire\n                    &nbsp;",
-        "pub": "Thu, 01 Oct 2026 06:51:00 +0200",
-        "heure": "08h51"
+        "titre": "Les Sœurs de Saint-Charles-Borromée à Jérusalem sèment les graines de la paix",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/soeur-misericorde-jerusalem-chretiens-musulmans-artisans-paix.html",
+        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs présentes dans le monde entier. Dans ce",
+        "pub": "Mon, 05 Oct 2026 11:59:00 +0200",
+        "heure": "13h59"
       },
       {
         "source": "Vatican News",
-        "titre": "Le Pape rend hommage aux martyrs polonais de Pratulin",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-audience-martyrs-polonais-greco-catholiques-wincenty-lewoni.html",
-        "resume": "Au cours de l’audience générale, Léon XIV a rendu hommage au bienheureux Wincenty Lewoniuk et à ses douze compagnons. Ces gréco-catholiques ont été tués dans la région de Podlasie par des soldats de l’Empire",
-        "pub": "Wed, 30 Sep 2026 18:53:00 +0200",
-        "heure": "20h53"
+        "titre": "Kazakhstan: clôture de la deuxième édition du colloque interreligieux",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/kazakhstan-cloture-de-la-2e-edition-du-colloque-interreligieux.html",
+        "resume": "Après deux jours de débats, la deuxième rencontre interreligieuse commune s'est achevée le 3 octobre à Astana. L'intervention du cardinal Koovakad, préfet du Dicastère pour le dialogue interreligieux: un enfa",
+        "pub": "Mon, 05 Oct 2026 09:33:00 +0200",
+        "heure": "11h33"
       },
       {
         "source": "Vatican News",
-        "titre": "Synode: publication du rapport final de la Commission canonique",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/synode-publication-du-rapport-final-de-la-commission-canonique.html",
-        "resume": "Ce document propose des modifications au Code de droit canonique latin, sur la base des travaux menés lors des deux Assemblées générales du Synode des évêques d’octobre 2023 et d’octobre 2024, ainsi que des d",
-        "pub": "Wed, 30 Sep 2026 17:28:00 +0200",
-        "heure": "19h28"
+        "titre": "Sortir de la logique de domination et des inégalités pour mettre fin à la guerre",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/entretien-cardinal-parolin-saint-siege-repubblica-guerre-onu.html",
+        "resume": "«À Gaza, en Ukraine et en Iran, les gens souffrent. Kiev a le droit de se défendre; pour la paix, il faut revenir aux valeurs humaines fondamentales», affirme le Secrétaire d’Etat du Saint-Siège dans un entre",
+        "pub": "Sun, 04 Oct 2026 15:01:00 +0200",
+        "heure": "17h01"
       },
       {
         "source": "Vatican News",
-        "titre": "Face à un ordre mondial fragilisé, les religions sont à valoriser, estime Mgr Gallagher",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-09/mgr-gallagher-collogue-religions-et-diplomatie-rome.html",
-        "resume": "Lors d’un colloque intitulé «Religions et diplomatie», à Rome, le secrétaire pour les Relations avec les États et les organisations internationales a mis en exergue la manière dont les communautés religieuses",
-        "pub": "Wed, 30 Sep 2026 12:45:00 +0200",
-        "heure": "14h45"
+        "titre": "Début des préparatifs pour le 500e anniversaire du sac de Rome",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/debut-des-preparatifs-pour-le-500e-anniversaire-du-sac-de-rome.html",
+        "resume": "2027 sera une année commémorative exceptionnelle que la Garde suisse propose de célébrer en organisant un colloque à Brigue en janvier, avec la publication d’un ouvrage historique et la participation à la Fêt",
+        "pub": "Sun, 04 Oct 2026 14:39:00 +0200",
+        "heure": "16h39"
       },
       {
         "source": "Vatican News",
-        "titre": "Le Pape appelle au dialogue les combattants engagés au Tigré",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/appel-leon-xiv-tigre-ethiopie-audience-generale-abiy-ahmed-tplf.html",
-        "resume": "«Les conflits armés ne résolvent jamais les problèmes, mais ne font que les aggraver, laissant dans leur sillage une traînée de mort, de destruction et de ressentiment», a affirmé le Pape à l’issue de l’Audie",
-        "pub": "Wed, 30 Sep 2026 11:07:00 +0200",
-        "heure": "13h07"
+        "titre": "La guerre n’est pas une fatalité, affirme le cardinal Zuppi à Assise",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/saint-francois-cardinal-zuppi-800-ans-assise-paix.html",
+        "resume": "Lors de la messe célébrée à l’occasion de la fête de saint François d’Assise et du huitième centenaire de sa mort, le président de la Conférence épiscopale italienne a rappelé qu'à une époque où «nous sommes",
+        "pub": "Sun, 04 Oct 2026 13:47:00 +0200",
+        "heure": "15h47"
       }
     ]
   }
