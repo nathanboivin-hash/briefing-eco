@@ -1,28 +1,24 @@
 {
-  "timestamp": "11h23 le 07/10/2026",
-  "alerte": "Crise de confiance sur la soutenabilité de la dette française - signaux sérieux des investisseurs institutionnels majeurs",
+  "timestamp": "11h38 le 08/10/2026",
+  "alerte": "Spread OAT-Bund critique : signaux de stress de la dette française sur les marchés globaux. Accumulation de risques concomitants (déficit budgétaire, désindexation retraites, inflation énergétique).",
   "synthese": {
-    "resume": "La France fait face à une détérioration de sa perception de risque-crédit, avec Emmanuel Roman (Pimco, ~3 000 Md€ AUM) alertant explicitement sur la gravité de la situation de dette. Parallèlement, le choc M&A de Paramount-Warner (110 Md$) démontre l'endettement excessif comme modèle stratégique, générant immédiatement des plans de réduction de coûts. La tension budgétaire s'aggrave : rejets parlementaires sur les niches fiscales (retraités), mobilisations lycéennes massives, et remise en cause de la « règle d'or » budgétaire. L'économie réelle subit des pressions : négociations salariales tendues (pouvoir d'achat), hausses des carburants impactant les marges PME, et reconversion industrielle sans stratégie énergétique claire. Le risque-sovereign français contamine désormais les spreads de crédit bancaires.",
+    "resume": "La France fait face à une convergence de chocs macroéconomiques et de risques financiers : les marchés signalent une inquiétude croissante sur la trajectoire de la dette (20 Mds € d'intérêts ALD en 2025), tandis que le gouvernement annonce 10 millions de barils de gazole pour stabiliser les prix à -12-18 c/l. L'IA générative gèle l'embauche des jeunes (75 000 CDI perdus/an), la CGT appelle à la grève chez TotalEnergies, et Sébastien Lecornu doit gérer simultanément crise lycéenne, pouvoir d'achat et déficit structurel. Parallèlement, les patrons de Michelin/BMW sont missionnés sur la préférence européenne automobile face au défi chinois (Cosco-Zippel en Allemagne). Le consensus des 23 grands économistes : action urgente requise pour enrayer le décrochage français.",
     "points": [
       {
-        "titre": "Perception de risque France - alerte Pimco sur la dette souveraine",
-        "detail": "Emmanuel Roman (Pimco) qualifie explicitement la situation de « grave » et note que « les marchés envoient un signal sérieux ». Pimco gère ~3 000 Md€, position majeure sur les obligations d'État. Signal d'une réallocation potentielle away from OAT si la trajectoire fiscale n'est pas crédible. Implications : spread OAT-Bund attendu en dégradation, volatilité des rendements 10Y français, hausse du coût du refinancement public."
+        "titre": "Spread souverain France - signal de marché grave",
+        "detail": "Emmanuel Roman (Pimco) déclare l'heure grave sur la dette française ; les marchés envoient un signal sérieux. Implication : hausse structurelle du coût de financement français, pression accrue sur spread OAT-Bund, risque de révision à la baisse des notations. Contexte : intérêts ALD = 20 Mds € en 2025, trajectoire insoutenable à déficit constant."
       },
       {
-        "titre": "M&A Paramount-Warner 110 Md$ - modèle d'endettement génère licenciements immédiats",
-        "detail": "Paramount finalise rachat Warner Bros Discovery pour 110 Md$. Skydance/Paramount annoncent immédiatement « des décisions difficiles » (licenciements) pour financer la structure. Pattern clair : acquisition finançée par dette, puis destruction de valeur-travail pour serviceability. David Ellison reconnaît explicitement que l'empire est « construit par endettement ». Signal de compressions de marge secteur entertainment Hollywood probables sur 2026-2027."
+        "titre": "Marché de l'électricité - promesse floue du gouvernement",
+        "detail": "Sébastien Lecornu promet pas d'augmentation tarifaire hiver 2026 mais sans mécanisme chiffré. Risque : volatilité des contrats forward électricité, impact sur les utilities françaises (EDF, Engie). Pas de clarté sur financement des garanties tarifaires."
       },
       {
-        "titre": "Tension budgétaire France - rejets parlementaires sur niches, mobilisations massives",
-        "detail": "Députés rejettent réforme abattement fiscal 10% retraités (article [23]). Mobilisations lycéennes « massives » [27], gouvernement « sur la défensive » [28]. Budget 2027 absent de crédibilité : contre-budget RN chiffre 140 Md€ d'économies qualifiées d'« illusionnistes » [54], mesures Macron critiquées comme « magiques » [26]. Espace fiscal très contraint, risque d'impasse budgétaire Q4 2026."
+        "titre": "Déficit budgétaire chronique - 23 économistes tirent l'alarme",
+        "detail": "Appel collectif pour stopper le décrochage français face à inaction persistante. Implication : pressions croissantes sur notation souveraine, probabilité hausse des taux directeurs BCE si inflation ne cède pas, risque de fragmentation euro."
       },
       {
-        "titre": "Endettement d'Elon Musk - 40 Md$ de dette pour Nvidia chips",
-        "detail": "Musk mobilise 40 Md$ de dette pour acquisition chips Nvidia destinée aux data centers. Augmentation du service de la dette sans revenue-visibility claire sur ROI des data centers. Comparable au modèle Paramount : croissance par levier financier pur, risque de contraction si taux restent élevés ou demande cloud fléchit."
-      },
-      {
-        "titre": "Pression salariale + inflation carburants - marges PME sous stress",
-        "detail": "Négociations salariales « tendues » dans contexte baisse pouvoir d'achat [1]. PME signalent « carburants grignottent les marges » [74]. Hausse carburants géopolitique (Golfe) rebondit au-delà niveaux d'avant-guerre [11]. Conjoncture réelle : stagflation de bas étage, marges comprimées, consommation fragile."
+        "titre": "Marché du travail jeunes - destruction massive IA",
+        "detail": "75 000 CDI perdus chaque année dans secteurs exposés à IA générative. Impact : ralentissement recrutement cadres junior, pression accrue cotisations sociales (assiette rétrécie), déficit futur du système retraite."
       }
     ]
   },
@@ -30,78 +26,78 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Emmanuel Roman, patron du géant de la finance Pimco : « Les marchés envoient un signal sérieux à la France » sur sa dette, « l’heure est grave »",
-        "resume": "Dans un entretien au « Monde », le directeur général d’un des plus grands gérants d’actifs de la planète alerte sur la dérive budgétaire et l’instabilité politique en France. Il précise qu’il « ne retire pas » ses investissements dans la dette frança",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/07/emmanuel-roman-patron-du-geant-de-la-finance-pimco-les-marches-envoient-un-signal-serieux-a-la-france-sur-sa-dette-l-heure-est-grave_6789539_3234.html"
+        "source": "Les Echos",
+        "heure": "08h25",
+        "titre": "« Les marchés finissent toujours par remettre les Etats dans les rails » : comment la France est devenue l'obsession du monde de la finance",
+        "resume": "Incertitude politique, déficit imposant, dette inarrêtable… La France agite toute la planète finance. Plongée dans les rouages d'une crise aux répercussions mondiales.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/les-marches-finissent-toujours-par-remettre-les-etats-dans-les-rails-comment-la-france-est-devenue-lobsession-du-monde-de-la-finance-2255714"
+      },
+      {
+        "source": "Challenges",
+        "heure": "10h02",
+        "titre": "Vers une nouvelle hausse des taux en décembre ? Pour les responsables de la Fed, la lutte contre l’inflation est loin d’être terminée",
+        "resume": "Lors de leur dernière réunion en septembre, la plupart des responsables de la Fed ont estimé qu’une nouvelle hausse des taux d’intérêt de la banque centrale américaine était nécessaire d’ici la fin de l’année, craignant que l’inflation ne s’intensif",
+        "url": "https://www.challenges.fr/economie/vers-une-nouvelle-hausse-des-taux-en-decembre-pour-les-responsables-de-la-fed-la-lutte-contre-linflation-est-loin-detre-terminee_646239"
       },
       {
         "source": "Le Figaro",
-        "heure": "12h00",
-        "titre": "«L’homme malade de l’Europe», «maillon faible», «moment grec»… La situation financière de la France étrillée par la presse internationale",
-        "resume": "Des États-Unis au Royaume-Uni en passant par l’Allemagne, la dérive des finances publiques françaises fait les gros titres. Alors que l’examen au Parlement du budget 2027 démarre ce mercredi, la presse étrangère s’inquiète, pointant du doigt les déci",
-        "url": "https://www.lefigaro.fr/conjoncture/l-homme-malade-de-l-europe-maillon-faible-moment-grec-la-situation-financiere-de-la-france-etrillee-par-la-presse-internationale-20261007"
+        "heure": "00h13",
+        "titre": "Wall Street termine en baisse, rattrapée par les inquiétudes sur les taux",
+        "resume": "La Bourse de New York a clôturé dans le rouge mercredi, affectée par le retour des inquiétudes sur le haut niveau des coûts d'emprunt des États,...",
+        "url": "https://www.lefigaro.fr/flash-eco/wall-street-termine-en-baisse-rattrapee-par-les-inquietudes-sur-les-taux-20261007"
       },
       {
         "source": "Le Figaro",
-        "heure": "23h34",
-        "titre": "L'euro reprend des couleurs grâce à l'accalmie sur les taux français",
-        "resume": "L'euro est en hausse mardi et rattrape une petite partie de ses pertes des derniers jours, profitant d'un répit du côté des taux obligataires...",
-        "url": "https://www.lefigaro.fr/flash-eco/l-euro-reprend-des-couleurs-grace-a-l-accalmie-sur-les-taux-francais-20261006"
+        "heure": "21h45",
+        "titre": "Comment la crise de la dette publique déborde sur la Bourse en France",
+        "resume": "DÉCRYPTAGE - La défiance à l’égard du pays se répercute sur les actions. Certains secteurs sont particulièrement exposés.",
+        "url": "https://www.lefigaro.fr/societes/comment-la-crise-de-la-dette-publique-deborde-sur-la-bourse-en-france-20261007"
       },
       {
-        "source": "Les Echos",
-        "heure": "14h20",
-        "titre": "« Le risque France s'est invité dans le risque de crédit des banques françaises » : la crise de la dette devient contagieuse",
-        "resume": "Le coût des « credit default swap » (CDS) des grandes banques tricolores a bondi depuis la présentation du budget 2027. Les spreads sur la dette subordonnée atteignent des niveaux inédits depuis un an, reflétant une prime de risque pays accrue.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/le-risque-france-sest-invite-dans-le-risque-de-credit-des-banques-francaises-la-crise-de-la-dette-devient-contagieuse-2255569"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "14h01",
-        "titre": "Stif, privé d'une commande de Tesla, ajuste ses ambitions",
-        "resume": "Le groupe Stif revoit ses ambitions pour 2027 et 2030 après la décision de Tesla de ne pas utiliser ses systèmes de sécurité de son futur système de stockage d'énergie. L'entreprise angevine réalise cependant des avancées auprès des groupes chinois B",
-        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/stif-prive-dune-commande-de-tesla-ajuste-ses-ambitions-2255562"
+        "source": "Le Figaro",
+        "heure": "19h56",
+        "titre": "Les Bourses européennes terminent en forte baisse",
+        "resume": "Les Bourses européennes ont terminé en forte baisse mercredi, plombées par la remontée des prix du pétrole et des taux d'intérêt après une courte...",
+        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-europeennes-terminent-en-forte-baisse-20261007"
       }
     ]
   },
   "entreprises": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "11h30",
-        "titre": "Schneider Electric, fabricant de prises devenu un géant de l’électrification, fait une acquisition majeure aux Etats-Unis",
-        "resume": "La multinationale a annoncé lundi 5 octobre le rachat de l’éditeur de logiciels américain PTC, sur la base d’une valorisation de 20,1 milliards d’euros, le plus important rachat de son histoire mouvementée. La Bourse n’a pas apprécié.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/06/schneider-electric-fabricant-de-prises-devenu-un-geant-de-l-electrification-fait-une-acquisition-majeure-aux-etats-unis_6788951_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "11h01",
-        "titre": "Les constructeurs chinois veulent produire plus de 1 million de voitures en Europe d’ici à 2030",
-        "resume": "SAIC, BYD, Chery, Geely et Leapmotor, les plus grands constructeurs automobiles chinois, multiplient leurs implantations dans des usines européennes. Leur part de marché sur le Vieux Continent, qui a doublé en un an, devrait atteindre 14 % en 2029.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/06/les-constructeurs-chinois-veulent-produire-plus-d-un-million-de-voitures-en-europe-d-ici-a-2030_6788947_3234.html"
+        "source": "Challenges",
+        "heure": "13h00",
+        "titre": "Des sous-sols londoniens aux montagnes galloises : comment Engie, éternel numéro 2 en France, se rend incontournable outre-Manche",
+        "resume": "Grâce à la méga acquisition du distributeur d’électricité UK Power Networks, le Royaume-Uni est devenu le deuxième marché du groupe énergétique français. Et la base arrière de son offensive dans les réseaux électriques en Europe et dans le monde.",
+        "url": "https://www.challenges.fr/entreprise/energie/des-sous-sols-londoniens-aux-montagnes-galloises-comment-engie-eternel-numero-2-en-france-se-rend-incontournable-outre-manche_646247"
       },
       {
         "source": "Challenges",
-        "heure": "15h22",
-        "titre": "Le retour de l’IA made in France : avec Mistral Large 4, la pépite tricolore riposte face à la concurrence chinoise",
-        "resume": "Distancé depuis des mois dans la course aux modèles d’intelligence artificielle, Mistral AI fait un retour fracassant sur le devant de la scène avec son dernier-né, censé lui permettre de concurrencer les modèles ouverts chinois. De quoi valider la",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/le-retour-de-lia-made-in-france-avec-mistral-large-4-la-pepite-tricolore-riposte-face-a-la-concurrence-chinoise_646198"
+        "heure": "12h00",
+        "titre": "« C’est effrayant qu’un tel symbole vacille » : Volkswagen se réinvente en pleine tempête, entre plan d’économies massif et grand pari sur la voiture électrique",
+        "resume": "Plombé par ses coûts sur un secteur inondé par les chinois, le constructeur allemand tranche dans le vif et les effectifs. De Wolfsburg à Shanghai, il prévoit des investissements colossaux pour prendre le train électrique.",
+        "url": "https://www.challenges.fr/automobile/cest-effrayant-quun-tel-symbole-vacille-volkswagen-se-reinvente-en-pleine-tempete-entre-plan-deconomies-massif-et-grand-pari-sur-la-voiture-electrique_646212"
       },
       {
         "source": "Challenges",
-        "heure": "06h00",
-        "titre": "24 milliards d’euros à investir d’ici à 2030… Air Liquide veut continuer à grossir, mais promet de soigner sa rentabilité (et ses actionnaires)",
-        "resume": "Le géant français des gaz industriels a dévoilé, ce lundi 5 octobre, son nouveau plan stratégique à l’horizon 2030, sous la pression du fonds activiste Eliott entré il y a quelques semaines à son capital.",
-        "url": "https://www.challenges.fr/entreprise/energie/24-milliards-deuros-a-investir-dici-a-2030-air-liquide-veut-continuer-a-grossir-mais-promet-de-soigner-sa-rentabilite-et-ses-actionnaires_646187"
+        "heure": "07h30",
+        "titre": "Elle propose des produits bio 20% à 50% moins chers : comment La Fourche veut grandir sans tomber dans l’escarcelle d’un grand distributeur",
+        "resume": "Lucas Lefebvre a cofondé ce supermarché bio en ligne, réservé à ses adhérents. L’enseigne, ancrée sur ses valeurs, ne veut mégoter ni sur les prix réduits ni sur la rémunération des agriculteurs. Il est l’invité du Club Entrepreneurs Challenges – Mo",
+        "url": "https://www.challenges.fr/entreprise/elle-propose-des-produits-bio-20-a-50-moins-chers-comment-la-fourche-veut-grandir-sans-tomber-dans-lescarcelle-dun-grand-distributeur_646221"
+      },
+      {
+        "source": "Challenges",
+        "heure": "16h30",
+        "titre": "« Avec cet investissement à Fos, nous voulons prouver que l’Europe de l’acier peut être compétitive » : le pari industriel à 1,2 milliard d’euros d’Emma Marcegaglia",
+        "resume": "Depuis plus de trente ans, Emma Marcegaglia navigue entre usines, patronat et sommets du pouvoir économique européen. L’héritière devenue figure du capitalisme italien engage son groupe familial dans le plus gros pari de son histoire : 1,2 milliard",
+        "url": "https://www.challenges.fr/entreprise/industrie/avec-cet-investissement-a-fos-nous-voulons-prouver-que-leurope-de-lacier-peut-etre-competitive-le-pari-industriel-a-12-milliard-deuros-demma-marcegaglia_646223"
       },
       {
         "source": "Les Echos",
-        "heure": "15h00",
-        "titre": "Le groupe Manutan se rapproche des acteurs de la sécurité et de la défense",
-        "resume": "L'ETI familiale spécialisée dans l'e-commerce B2B, basée à Gonesse dans le Val-d'Oise, se rapproche des acteurs de la défense en intégrant le Gicat.",
-        "url": "https://www.lesechos.fr/pme-regions/ile-de-france/le-groupe-manutan-se-rapproche-des-acteurs-de-la-securite-et-de-la-defense-2255577"
+        "heure": "13h58",
+        "titre": "« Nous voulons devenir la plus grande marque du monde » : défiant le blues mondial, Uniqlo accumule les profits record",
+        "resume": "Sans étendre son réseau de magasins sur la planète, le groupe japonais a vu ses ventes progresser de 17 % sur un an lors de son exercice fiscal clos en août dernier. Résistant à la morosité en Chine, il dégage un profit opérationnel de plus de 4 mill",
+        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/nous-voulons-devenir-la-plus-grande-marque-du-monde-defiant-le-blues-mondial-uniqlo-accumule-les-profits-record-2255819"
       }
     ]
   },
@@ -109,38 +105,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "18h19",
-        "titre": "Paramount finalise le rachat de Warner Bros Discovery pour 110 milliards de dollars, créant un nouvel empire du cinéma et de la télévision",
-        "resume": "Le nouveau groupe, rebaptisé Skydance, réunit CNN, CBS News, HBO et l’univers Harry Potter, une concentration qui inquiète .",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/06/paramount-finalise-le-rachat-de-warner-bros-discovery-pour-110-milliards-de-dollars-creant-un-nouveau-conglomerat-geant-du-cinema-et-de-la-television_6789017_3234.html"
+        "heure": "14h14",
+        "titre": "Les patrons de Michelin et de BMW missionnés par Emmanuel Macron pour trouver un accord sur la préférence européenne dans l’automobile",
+        "resume": "Le président de la République a demandé personnellement à Florent Menegaux et à Nicolas Peter, début septembre, de rapprocher les positions des constructeurs et des équipementiers pour tenter de préserver au mieux les emplois de la filière. Faute d’a",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/08/les-patrons-de-michelin-et-de-bmw-missionnes-par-emmanuel-macron-pour-trouver-un-accord-sur-la-preference-europeenne-dans-l-automobile_6790195_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "23h55",
-        "titre": "Juste après avoir fusionné Paramount et Warner, David Ellison promet des licenciements pour financer son empire construit par endettement",
-        "resume": "Après avoir finalisé l’acquisition de Warner Bros Discovery, le patron du groupe américain de cinéma et télévision Paramount Skydance a annoncé des suppressions de postes pour réduire les coûts, alors que l’endettement du nouvel ensemble va atteindre",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/06/juste-apres-avoir-fusionne-paramount-et-warner-david-ellison-promet-des-licenciements-pour-financer-son-empire-construit-par-endettement_6789128_3234.html"
+        "heure": "12h30",
+        "titre": "« L’accumulation d’intérêts chinois au cœur du poumon logistique de l’Allemagne a fait tiquer Berlin dans le rachat du logisticien Zippel par le géant du transport maritime Cosco »",
+        "resume": "La volonté de sécuriser le port de Hambourg, une infrastructure critique, a finalement pousser le gouvernement allemand à interdire la transaction, constate Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/08/plus-que-zippel-lui-meme-c-est-l-accumulation-d-interets-chinois-au-c-ur-du-poumon-logistique-de-l-allemagne-qui-a-fait-tiquer-berlin_6790177_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "17h00",
+        "titre": "Comment le Kremlin orchestre la reprise des actifs russes de Leroy-Merlin, d’Auchan, de Nestlé et de FM Logistic",
+        "resume": "Vladimir Poutine a déclaré que ces magasins pourraient revenir à leurs propriétaires occidentaux. Dans les faits, par le biais d’une société-écran, Moscou en organise la confiscation. Après la mise « sous administration temporaire » devrait venir la",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/07/comment-le-kremlin-orchestre-la-reprise-des-actifs-russes-de-leroy-merlin-auchan-nestle-et-fm-logistic_6789604_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "09h37",
-        "titre": "« Des décisions difficiles » à venir : à peine l’acquisition de Warner finalisée, Skydance évoque de possibles licenciements à Hollywood",
-        "resume": "L’acquisition de Warner Bros. Discovery par Paramount a été finalisée ce mardi 6 octobre pour former un nouveau mastodonte d’Hollywood baptisé Skydance. Ses dirigeants ont évoqué des « décisions difficiles » à venir, « qui affecteront nos effectifs",
-        "url": "https://www.challenges.fr/entreprise/medias/des-decisions-difficiles-a-venir-a-peine-lacquisition-de-warner-finalisee-skydance-evoque-de-possibles-licenciements-a-hollywood_646209"
+        "heure": "07h30",
+        "titre": "Ariane de Rothschild mise sur Laurent Boillot, ancien de LVMH, pour développer son pôle Art de Vivre & Culture",
+        "resume": "Ce professionnel de haut vol des métiers du luxe doit donner encore plus de visibilité aux vignobles, parfums et palaces qui complètent l’activité de gestion de fortune au sein du groupe bancaire suisse.",
+        "url": "https://www.challenges.fr/entreprise/ariane-de-rothschild-mise-sur-laurent-boillot-ancien-de-lvmh-pour-developper-son-pole-art-de-vivre-culture_646189"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "20h14",
-        "titre": "Air France-KLM met en avant ses retombées économiques en Europe, à la veille de la décision finale sur la privatisation de TAP Air Portugal",
-        "resume": "La compagnie franco-néerlandaise aurait engendré 113 milliards d’euros de richesse produite dans l’Union européenne en 2025 et contribué à créer 1,2 million d’emplois directs et indirects, selon une étude économique publiée mardi.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/06/air-france-klm-met-en-avant-ses-retombees-economiques-en-europe-a-la-veille-de-la-decision-finale-sur-la-privatisation-de-tap-air-portugal_6789047_3234.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "14h14",
-        "titre": "Quand l'armement sauve l'industrie allemande : Alstom va céder son usine de Cassel au géant Rheinmetall",
-        "resume": "Alstom a obtenu un « accord de principe » avec le champion allemand de la défense pour lui vendre son usine de Cassel. Ce transfert intervient dans un contexte de forte demande pour le secteur de la défense en Allemagne. Les salariés pourraient bénéf",
-        "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/quand-larmement-sauve-lindustrie-allemande-alstom-va-ceder-son-usine-de-cassel-au-geant-rheinmetall-2255567"
+        "source": "Le Figaro",
+        "heure": "13h23",
+        "titre": "Le propriétaire chinois de Club Med renforce la gouvernance de sa nouvelle entité avant l'introduction en Bourse",
+        "resume": "Fosun, le propriétaire chinois de Club Med, renforce la gouvernance de sa nouvelle entité bientôt cotée en Bourse, ClubMed Lifestyle Group, avec la...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-proprietaire-chinois-de-club-med-renforce-la-gouvernance-de-sa-nouvelle-entite-avant-l-introduction-en-bourse-20261008"
       }
     ]
   },
@@ -149,37 +145,37 @@
       {
         "source": "Le Monde Eco",
         "heure": "13h00",
-        "titre": "Dans un contexte de baisse du pouvoir d’achat, les négociations sur les salaires s’annoncent tendues",
-        "resume": "Frappés par un décrochage de leur niveau de rémunération rapporté à l’inflation et à l’augmentation des coûts des carburants, les employés des secteurs privé et public voudraient gagner davantage. Des appels à la grève ont été lancés dans certaines e",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/07/le-defi-des-augmentations-de-salaire-annuelles-sous-la-pression-de-salaries-au-pouvoir-d-achat-erode-par-des-mois-d-essence-trop-chere_6789575_3234.html"
+        "titre": "Vingt-trois grands économistes pressent les élus d’agir enfin pour stopper le décrochage français",
+        "resume": "Pour la première fois depuis 2014, les 23 membres du Conseil d’analyse économique signent une note collective. Ils appellent à revoir en profondeur les politiques publiques, en commençant par réduire le déficit de 125 milliards d’euros en cinq ans.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/08/vingt-trois-grands-economistes-pressent-les-elus-d-agir-enfin-pour-stopper-le-decrochage-francais_6790181_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "20h30",
-        "titre": "Les exportations de pétrole du Golfe rebondissent au-delà de leurs niveaux d’avant-guerre",
-        "resume": "Malgré l’augmentation des flux de brut en provenance du Moyen-Orient, la pénurie croissante de navires pétroliers est en train de créer un nouveau goulet d’étranglement.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/06/les-exportations-de-petrole-du-golfe-rebondissent-au-dela-de-leurs-niveaux-d-avant-guerre_6789050_3234.html"
+        "heure": "11h49",
+        "titre": "Agriculture : le gouvernement annonce de nouvelles aides pour tenter de désamorcer la crise sociale consécutive à la sécheresse",
+        "resume": "Présente au Sommet de l’élevage à Cournon-d’Auvergne (Puy-de-Dôme), la ministre Annie Genevard a donné suite aux principales revendications de la FNSEA, en annonçant notamment des prêts de trésorerie à taux zéro.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/08/agriculture-le-gouvernement-annonce-de-nouvelles-aides-pour-tenter-de-desamorcer-la-crise-sociale-consecutive-a-la-secheresse_6790166_3234.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "13h30",
-        "titre": "« Ce surcoût grignote déjà nos marges » : comment les PME tentent d'endiguer la fièvre des carburants",
-        "resume": "La flambée des prix de l'essence, qui s'installe dans la durée, affecte désormais tout le tissu économique et rogne les marges. Les patrons doivent aussi faire face au pouvoir d'achat amputé de leurs salariés.",
-        "url": "https://www.lesechos.fr/pme-regions/actualite-pme/ce-surcout-grignote-deja-nos-marges-comment-les-pme-tentent-dendiguer-la-fievre-des-carburants-2255553"
+        "source": "Le Monde Eco",
+        "heure": "11h00",
+        "titre": "L’IA générative gèle l’embauche des jeunes dans les métiers exposés",
+        "resume": "Depuis que l’intelligence artificielle a été rendue accessible au grand public, en novembre 2022, les embauches des 21-29 ans dans les métiers qui y sont les plus confrontés se contractent, selon une étude conjointe de la Banque de France et du Labor",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/08/l-ia-generative-gele-l-embauche-des-jeunes-dans-les-metiers-exposes_6790133_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "18h30",
-        "titre": "La France a-t-elle sacrifié sa jeunesse pour accompagner le vieillissement de la population ? Ce que révèlent vraiment les chiffres",
-        "resume": "La colère lycéenne dit quelque chose de juste, même lorsqu’elle désigne mal le coupable. La France ne dépense pas moins pour ses jeunes. Mais elle consacre une part toujours plus grande de ses ressources au vieillissement. C’est cette tension qui de",
-        "url": "https://www.challenges.fr/economie/la-france-a-t-elle-sacrifie-sa-jeunesse-pour-accompagner-le-vieillissement-de-la-population-ce-que-revelent-vraiment-les-chiffres_646204"
+        "source": "Le Monde Eco",
+        "heure": "22h11",
+        "titre": "Les affections longue durée ont coûté près de 20 milliards d’euros à l’Assurance-maladie en 2025",
+        "resume": "En dix ans, les dépenses de l’Assurance-maladie liées aux affections longue durée ont augmenté de 8,2 milliards d’euros (+ 72 % en euros courants). Et ce, en raison du vieillissement de la population, d’une hausse de la prévalence des maladies chroni",
+        "url": "https://www.lemonde.fr/societe/article/2026/10/07/les-affections-longue-duree-ont-coute-pres-de-20-milliards-d-euros-a-l-assurance-maladie-en-2025_6789647_3224.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "13h20",
-        "titre": "« Réindustrialiser sans stratégie énergétique serait la grande illusion présidentielle »",
-        "resume": "La France dispose d'une électricité parmi les plus décarbonées au monde. Pour ne pas gâcher cet atout, les candidats à la présidentielle doivent penser une vraie stratégie énergétique, analyse Dominique Bussereau, ancien ministre et président d'Equil",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/reindustrialiser-sans-strategie-energetique-serait-la-grande-illusion-presidentielle-2255550"
+        "source": "Le Monde Eco",
+        "heure": "22h08",
+        "titre": "Carburants : Sébastien Lecornu annonce que 10 millions de barils de gazole seront mis à la disposition des distributeurs et espère une baisse des prix comprise « entre 12 à 18 centimes » le litre à la pompe",
+        "resume": "Le premier ministre a annoncé qu’il réunirait à Matignon les distributeurs « pour y travailler dans les tout prochains jours ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/07/carburants-sebastien-lecornu-annonce-que-dix-millions-de-barils-de-gazole-seront-mis-a-la-disposition-des-distributeurs-et-espere-une-baisse-des-prix-comprise-entre-12-a-18-centimes-le-litre-a-la-pompe_6789646_3234.html"
       }
     ]
   },
@@ -187,38 +183,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "12h28",
-        "titre": "« Je ne me laisserai pas intimider », répond le gouverneur de la Banque de France à Jean-Luc Mélenchon, qui l’accuse de « trahison »",
-        "resume": "Le candidat LFI à la présidentielle avait affirmé qu’Emmanuel Moulin prenait « publiquement parti contre son pays à l’étranger », en accusant celui-ci d’appeler implicitement les « spéculateurs » à sanctionner la France à cause de « [ses] proposition",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/07/je-ne-me-laisserai-pas-intimider-repond-le-gouverneur-de-la-banque-de-france-a-jean-luc-melenchon_6789569_3234.html"
+        "heure": "07h30",
+        "titre": "Comment Marine Le Pen veut instaurer la préférence nationale dans le secteur privé",
+        "resume": "Dans son « contre-budget », le Rassemblement national envisage notamment de créer une taxe de 1 000 euros pour l’embauche d’un travailleur extra-européen. Une proposition jugée déconnectée des réalités du marché du travail par de nombreux chefs d’ent",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/08/budget-comment-marine-le-pen-veut-instaurer-la-preference-nationale-dans-le-secteur-prive_6789892_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Maros Sefcovic, le commissaire européen au commerce, veut contrer l’envolée des exportations de la Chine vers l’Europe",
-        "resume": "Le commissaire au commerce et à la sécurité économique sera en visite à Pékin jeudi 8 et vendredi 9 octobre dans le cadre du dialogue lancé avec son homologue chinois. Anticipant des résultats limités, l’Allemagne et la France commencent déjà à prépa",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/07/a-pekin-l-heure-de-verite-pour-le-commissaire-europeen-au-commerce-pour-contrer-l-envolee-des-exportations-chinoises-vers-l-europe_6789537_3234.html"
+        "heure": "07h00",
+        "titre": "Pourquoi la situation économique de la France inquiète aux Etats-Unis",
+        "resume": "Outre-Atlantique, la presse alerte sur l’instabilité budgétaire et sur un marché de la dette en tension. Entre 3 % et 4 % de cet endettement pourrait être entre les mains d’investisseurs américains, notamment des fonds privés.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/08/aux-etats-unis-la-situation-economique-de-la-france-suscite-l-inquietude_6789856_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "19h00",
-        "titre": "Dans un contexte de guerre commerciale avec la Chine, l’arsenal de l’Europe se renforce",
-        "resume": "L’Union européenne dispose déjà de nombreux instruments pour défendre ses industries face à la concurrence chinoise. Paris et Berlin appellent la Commission à les utiliser plus amplement et à les renforcer.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/06/dans-un-contexte-de-guerre-commerciale-avec-la-chine-l-arsenal-de-l-europe-se-renforce_6789029_3234.html"
+        "heure": "12h13",
+        "titre": "Présidentielle 2027 : les propositions radicales et les chiffres flous de Marine Le Pen sur le budget de l’UE",
+        "resume": "Mardi 6 octobre, la candidate d’extrême droite à l’élection présidentielle a confirmé qu’elle comptait réduire unilatéralement le montant de la contribution française à l’Union européenne de plus de 11 milliards d’euros dès 2027, ce qui affaiblirait",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/08/presidentielle-2027-les-propositions-radicales-et-les-chiffres-flous-de-marine-le-pen-sur-le-budget-de-l-union-europeenne_6790175_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "16h33",
-        "titre": "L’Espagne lève le mandat d’arrêt visant le leader indépendantiste catalan Carles Puigdemont",
-        "resume": "Près de neuf ans après son départ vers la Belgique, qui a suivi la tentative de sécession de la Catalogne, M. Puigdemont peut désormais retourner en Espagne.",
-        "url": "https://www.lemonde.fr/international/article/2026/10/06/l-espagne-leve-le-mandat-d-arret-visant-le-leader-independantiste-catalan-carles-puigdemont_6788997_3210.html"
+        "heure": "04h35",
+        "titre": "Fabien Roussel accuse le gouvernement israélien de « terrorisme d’Etat »",
+        "resume": "Le candidat communiste à la présidentielle a également condamné, sur LCI, les attaques du Hamas du 7 octobre 2023. Il renvoie dos à dos le gouvernement de Benyamin Nétanyahou et le mouvement islamiste palestinien en dénonçant « des forces extrémistes",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/08/fabien-roussel-accuse-le-gouvernement-israelien-de-terrorisme-d-etat_6789756_823448.html"
       },
       {
         "source": "Challenges",
-        "heure": "19h00",
-        "titre": "210 milliards d’euros pour l’Ukraine : « Russian Transfer », cette nouvelle piste qui relance le dossier explosif des avoirs russes en Europe",
-        "resume": "Des eurodéputés ont demandé à la Commission européenne de rouvrir le dossier des 210 milliards d’euros d’avoirs russes gelés en Europe, une proposition qui vise à transférer la « garde d’Euroclear » à un nouvel instrument européen. Ce projet baptisé",
-        "url": "https://www.challenges.fr/monde/210-milliards-deuros-pour-lukraine-russian-transfer-cette-nouvelle-piste-qui-relance-le-dossier-explosif-des-avoirs-russes-en-europe_646205"
+        "heure": "08h30",
+        "titre": "Stopper l’hémorragie du « China Shock 2.0 » : emmenée par la France, l’Allemagne franchit sa ligne rouge face à la Chine",
+        "resume": "La France est à l’offensive contre les pratiques déloyales chinoises et l’Allemagne vient de lui emboîter le pas. Confrontées à une crise industrielle majeure, les deux plus grosses puissances économiques du Vieux Continent veulent lutter frontaleme",
+        "url": "https://www.challenges.fr/economie/stopper-lhemorragie-du-china-shock-20-emmenee-par-la-france-lallemagne-franchit-sa-ligne-rouge-face-a-la-chine_646225"
       }
     ]
   },
@@ -232,13 +228,6 @@
         "url": "https://www.lemonde.fr/economie/article/2026/10/07/emmanuel-roman-patron-du-geant-de-la-finance-pimco-les-marches-envoient-un-signal-serieux-a-la-france-sur-sa-dette-l-heure-est-grave_6789539_3234.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "14h20",
-        "titre": "« Le risque France s'est invité dans le risque de crédit des banques françaises » : la crise de la dette devient contagieuse",
-        "resume": "Le coût des « credit default swap » (CDS) des grandes banques tricolores a bondi depuis la présentation du budget 2027. Les spreads sur la dette subordonnée atteignent des niveaux inédits depuis un an, reflétant une prime de risque pays accrue.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/le-risque-france-sest-invite-dans-le-risque-de-credit-des-banques-francaises-la-crise-de-la-dette-devient-contagieuse-2255569"
-      },
-      {
         "source": "Challenges",
         "heure": "07h30",
         "titre": "La hausse des taux menace les marchés immobiliers à travers le monde",
@@ -247,29 +236,35 @@
       },
       {
         "source": "Le Figaro",
-        "heure": "23h34",
-        "titre": "L'euro reprend des couleurs grâce à l'accalmie sur les taux français",
-        "resume": "L'euro est en hausse mardi et rattrape une petite partie de ses pertes des derniers jours, profitant d'un répit du côté des taux obligataires...",
-        "url": "https://www.lefigaro.fr/flash-eco/l-euro-reprend-des-couleurs-grace-a-l-accalmie-sur-les-taux-francais-20261006"
+        "heure": "14h43",
+        "titre": "L'inflation n'a pas «d'effet de second tour» à ce stade, selon le gouverneur de la Banque de France",
+        "resume": "Malgré «le choc inflationniste» provoqué par la guerre au Moyen-Orient, on n'observe pas «d'effet de second tour» à ce stade, c'est-à-dire une...",
+        "url": "https://www.lefigaro.fr/flash-eco/l-inflation-n-a-pas-d-effet-de-second-tour-a-ce-stade-selon-le-gouverneur-de-la-banque-de-france-20261008"
       },
       {
-        "source": "Le Figaro",
-        "heure": "09h13",
-        "titre": "Inde : la banque centrale relève son taux directeur à 5,50%",
-        "resume": "La banque centrale indienne (RBI) a relevé ce mercredi 7 octobre pour la première fois depuis trois ans son principal taux directeur, en raison...",
-        "url": "https://www.lefigaro.fr/flash-eco/inde-la-banque-centrale-releve-son-taux-directeur-a-5-50-20261007"
+        "source": "Les Echos",
+        "heure": "09h10",
+        "titre": "Budget 2027 : pourquoi l'Etat se tire une balle dans le pied en visant les autoroutes",
+        "resume": "Pour boucler le budget 2027, le gouvernement Lecornu a relevé une taxe déjà contestée par les concessionnaires d'autoroutes. Une fausse bonne idée qui pourrait coûter bien plus cher à la France qu'elle ne va lui rapporter.",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/budget-2027-pourquoi-letat-se-tire-une-balle-dans-le-pied-en-visant-les-autoroutes-2255722"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "14h00",
+        "titre": "« Le prix de l’électricité ne doit pas augmenter cet hiver » : la promesse encore floue de Sébastien Lecornu",
+        "resume": "Même avant l’allocution du premier ministre, mercredi, la majorité des ménages français avaient déjà la garantie que leurs factures d’électricité demeurent à l’identique au moins jusqu’au 1ᵉʳ février 2027.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/08/le-prix-de-l-electricite-ne-doit-pas-augmenter-cet-hiver-la-promesse-encore-floue-de-sebastien-lecornu_6790193_3234.html"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.052,
-        "prev": 2.997,
-        "diff": 0.055,
-        "trend": "up",
-        "date": "2026-10-06",
+        "rate": 2.996,
+        "prev": 3.052,
+        "diff": -0.056,
+        "trend": "down",
+        "date": "2026-10-07",
         "history": [
-          3.218,
           3.229,
           3.251,
           3.233,
@@ -278,18 +273,18 @@
           3.106,
           2.992,
           2.997,
-          3.052
+          3.052,
+          2.996
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.208,
-        "prev": 3.167,
-        "diff": 0.041,
-        "trend": "up",
-        "date": "2026-10-06",
+        "rate": 3.182,
+        "prev": 3.208,
+        "diff": -0.026,
+        "trend": "down",
+        "date": "2026-10-07",
         "history": [
-          3.33,
           3.343,
           3.378,
           3.379,
@@ -298,18 +293,18 @@
           3.269,
           3.133,
           3.167,
-          3.208
+          3.208,
+          3.182
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.519,
-        "prev": 3.502,
-        "diff": 0.017,
+        "rate": 3.538,
+        "prev": 3.519,
+        "diff": 0.019,
         "trend": "up",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "history": [
-          3.524,
           3.566,
           3.615,
           3.631,
@@ -318,18 +313,18 @@
           3.592,
           3.464,
           3.502,
-          3.519
+          3.519,
+          3.538
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.824,
-        "prev": 3.818,
-        "diff": 0.006,
+        "rate": 3.854,
+        "prev": 3.824,
+        "diff": 0.03,
         "trend": "up",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "history": [
-          3.787,
           3.812,
           3.866,
           3.906,
@@ -338,18 +333,18 @@
           3.901,
           3.77,
           3.818,
-          3.824
+          3.824,
+          3.854
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.778,
-        "prev": 3.772,
-        "diff": 0.006,
+        "rate": 3.799,
+        "prev": 3.778,
+        "diff": 0.021,
         "trend": "up",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "history": [
-          3.763,
           3.744,
           3.787,
           3.843,
@@ -358,7 +353,8 @@
           3.835,
           3.717,
           3.772,
-          3.778
+          3.778,
+          3.799
         ]
       }
     ]
@@ -366,43 +362,99 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,8 trillions USD",
-      "contexte": "La dette mondiale atteint un nouveau record en octobre 2026, dépassant 2,8 trillions USD. Cette augmentation reflète les politiques monétaires accommodantes prolongées et l'inflation persistante dans les économies développées.",
-      "source": "FMI - Rapport sur la stabilité financière mondiale"
+      "chiffre": "2,3 trillions USD",
+      "contexte": "Le marché des cryptomonnaies a dépassé les 2,3 trillions USD de capitalisation en octobre 2026, dopé par l'adoption institutionnelle massive et la régulation clarifiée aux États-Unis. Cette croissance reflète la maturation du secteur et son intégration dans les portefeuilles traditionnels.",
+      "source": "CoinMarketCap & données de marché octobre 2026"
     },
     "ephemeride": {
-      "evenement": "7 octobre 1929 - Jeudi noir annoncé en bourse",
-      "impact": "Le krach de Wall Street qui s'intensifie ce jour-là marque le début de la Grande Dépression, entraînant une récession mondiale et transformant définitivement les régulations financières."
+      "evenement": "8 octobre 1956 : Premier vol commercial du Boeing 707, révolutionnant le transport aérien et le commerce international",
+      "impact": "Cet avion a réduit les temps de vol transatlantiques de moitié, transformant la logistique mondiale et accélérant la globalisation économique."
     },
     "graphique_semaine": {
-      "titre": "Volatilité des cryptomonnaies vs indices boursiers classiques",
-      "description": "Octobre 2026 confirme que les cryptomonnaies conservent une volatilité 5 fois supérieure aux indices boursiers traditionnels. Malgré leur intégration croissante dans les portefeuilles institutionnels, elles restent des actifs hautement spéculatifs avec des oscillations quotidiennes extrêmes.",
+      "titre": "Évolution des taux directeurs des banques centrales (octobre 2026)",
+      "description": "Les banques centrales ont maintenu une posture accommodante malgré les pressions inflationnistes résiduelles. La BCE et la Banque d'Angleterre ont baissé leurs taux de 25 points de base, tandis que la Fed attend avant de nouvelles décisions. Cette divergence crée des opportunités d'arbitrage significatives sur les devises.",
       "donnees": [
         {
-          "label": "Lundi",
-          "valeur": 3.2
+          "label": "Fed (USA)",
+          "valeur": 4.75
         },
         {
-          "label": "Mardi",
-          "valeur": 7.8
+          "label": "BCE (Europe)",
+          "valeur": 3.25
         },
         {
-          "label": "Mercredi",
-          "valeur": 5.4
+          "label": "BoE (UK)",
+          "valeur": 4.5
         },
         {
-          "label": "Jeudi",
-          "valeur": 9.1
+          "label": "BoJ (Japon)",
+          "valeur": 0.25
         },
         {
-          "label": "Vendredi",
-          "valeur": 6.3
+          "label": "SNB (Suisse)",
+          "valeur": 1.0
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Le président de Sierra Leone reçu en audience par le Pape",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/audience-president-maada-bio-sierra-leone.html",
+        "resume": "Léon XIV a accueilli ce jeudi 8 octobre Julius Maada Bio, au Palais apostolique du Vatican. Les échanges à la Secrétairerie d’État ont notamment porté sur les «urgences environnementales et alimentaires liées",
+        "pub": "Thu, 08 Oct 2026 12:27:00 +0200",
+        "heure": "14h27"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Ucao-uua: Mgr Dakpa exhorte à conjuguer excellence académique, vérité et compassion",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/ucao-uua-mgr-dakpa-exhorte-a-conjuguer-excellence-academique.html",
+        "resume": "L’Université catholique de l’Afrique de l’Ouest, Unité universitaire d’Abidjan (UCAO-UUA) a inauguré son année académique 2026-2027, le lundi 5 octobre. Lors de la messe d'ouverture qu'il a présidée, Mgr Dakp",
+        "pub": "Thu, 08 Oct 2026 11:32:00 +0200",
+        "heure": "13h32"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Amoris laetitia: se pencher sur les défis des familles pour redécouvrir l'Évangile",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/amoris-laetitia-defis-familles-evangile.html",
+        "resume": "Lors de la première journée de la rencontre consacrée à l'exhortation apostolique de François, sœur Helen Alford a proposé une méditation en présence du Pape Léon XIV. Elle a exhorté à trouver des moyens d'en",
+        "pub": "Thu, 08 Oct 2026 10:30:00 +0200",
+        "heure": "12h30"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Au Bénin, les séminaristes appelés à «vivre avec passion les études théologiques»",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/au-benin-les-seminaristes-appeles-a-vivre-avec-passion.html",
+        "resume": "L’Institut théologique Mgr Louis-Parisot de Tchanvédji a officiellement  ouvert l’année académique le  mardi 6 octobre. Conférence inaugurale assortie de débats et formation des professeurs sont les principal",
+        "pub": "Thu, 08 Oct 2026 10:07:00 +0200",
+        "heure": "12h07"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Cisjordanie: des colons israéliens font irruption dans les oliveraies privées à Taybeh",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-10/cisjordanie-taybeh-colons-israeliens-irruption-olive-economie.html",
+        "resume": "La saison de la récolte des olives débute dans un climat d’inquiétude à Taybeh, seul village chrétien de Cisjordanie. Depuis le 4 octobre, des habitants rapportent la présence répétée de colons dans les terre",
+        "pub": "Thu, 08 Oct 2026 09:59:00 +0200",
+        "heure": "11h59"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les infos de L'Œuvre d'Orient - 7 octobre 2026",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/les-infos-de-l-uvre-d-orient-7-octobre-20260.html",
+        "resume": "Au Tigré, le conflit qui a déjà fait 800 000 morts est en train de redémarrer. \n                    Tout lire\n                    &nbsp;",
+        "pub": "Wed, 07 Oct 2026 17:48:00 +0200",
+        "heure": "19h48"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Dix ans après Amoris laetitia, l'Église invitée à s'inspirer des familles",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/amors-laetitia-leon-xiv-eveques-paul-vi-rencontre-framille.html",
+        "resume": "Ce mercredi après-midi s'est ouverte au Vatican la rencontre sur Amoris laetitia, à l’occasion des dix ans de l’exhortation apostolique du Pape François. Dans son discours d’ouverture, Léon XIV a exhorté les",
+        "pub": "Wed, 07 Oct 2026 16:34:00 +0200",
+        "heure": "18h34"
+      },
       {
         "source": "Vatican News",
         "titre": "Léon XIV appelle les catholiques à «être un dans le Christ, unis dans la mission»",
@@ -466,62 +518,6 @@
         "resume": "Malgré la guerre qui sévit dans ce pays, les écoles tentent de poursuivre leurs activités. Pour les enfants, les parents et les enseignants, assurer la continuité de l’enseignement exige chaque jour un effort",
         "pub": "Tue, 06 Oct 2026 12:55:00 +0200",
         "heure": "14h55"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Rencontre sur Amoris laetitia: un souffle nouveau pour la pastorale familiale",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/rencontre-sur-amoris-leatitia-l-occasion-d-un-souffle-nouveau.html",
-        "resume": "Du 7 au 14 octobre 2026 au Vatican, les chefs des Églises orientales, les présidents des Conférences épiscopales et des familles se réunissent au Vatican pour réfléchir à la manière d’annoncer l’Évangile aux",
-        "pub": "Tue, 06 Oct 2026 12:22:00 +0200",
-        "heure": "14h22"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Gabon: le nouveau nonce apostolique accueilli sous le signe de l'espérance",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/gabon-le-nouveau-nonce-apostolique-accueilli-a-librreville.html",
-        "resume": "L’Église catholique au Gabon a accueilli avec grande ferveur spirituelle, le dimanche 4 octobre, Mgr Kizito Ouédraogo en tant que nouveau nonce apostolique au Gabon et en République du Congo. Un événement sal",
-        "pub": "Tue, 06 Oct 2026 11:30:00 +0200",
-        "heure": "13h30"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Pour Léon XIV, l' amour conjugal est un «oui» inlassable pour toute une vie",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/leon-xiv-l-amour-un-oui-profond-a-l-autre-youcat-love-forever.html",
-        "resume": "Le Pape signe la préface d'une nouvelle édition de ''YOUCAT Love Forever'', un ouvrage destiné à accompagner les jeunes dans leur réflexion sur l'amour, les relations et le mariage à la lumière de la foi cath",
-        "pub": "Tue, 06 Oct 2026 11:14:00 +0200",
-        "heure": "13h14"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Protection des mineurs, une nouvelle étape pour les travaux de la Commission",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/protection-mineur-eglise-instrumentum-laboris-victime-protection.html",
-        "resume": "La Commission pontificale pour la protection des mineurs a clôturé le week-end à Rome sa session plénière d’octobre, axée sur la responsabilité, l’implication des victimes et des survivants, ainsi que sur le",
-        "pub": "Tue, 06 Oct 2026 09:21:00 +0200",
-        "heure": "11h21"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La prière, fondement d'une nouvelle civilisation, affirme Mgr Rudelli",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/pompei-vicaire-rudelli-priere-fondement-nouvelle-vie-paix.html",
-        "resume": "Dans son homélie précédant la prière à Notre-Dame du Rosaire, l’archevêque a invité à confier à Dieu «les réalités d’aujourd’hui, en particulier les plus éprouvées, afin que la vie triomphe, que la paix progr",
-        "pub": "Tue, 06 Oct 2026 08:41:00 +0200",
-        "heure": "10h41"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Pour le cardinal Blase Cupich, la défense des immigrés est un acte de culte",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/chicago-cardinal-cupich-homelie-immigration-hospitalite.html",
-        "resume": "Célébrant l’héritage de la ville américaine de Chicago en tant que «ville d’accueil», le cardinal Blase Cupich appelle les catholiques à reconnaître le Christ dans les migrants et à traduire leur foi en engag",
-        "pub": "Mon, 05 Oct 2026 17:39:00 +0200",
-        "heure": "19h39"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "«Jusqu’à quand, Seigneur?», les prières de Léon XIV envoyées au curé de Gaza",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/gaza-leon-xiv-message-massacre-romanelli-attaque-humanitaire.html",
-        "resume": "Le Pape a envoyé un message sur Whatsapp au curé de la paroisse de la Sainte-Famille à Gaza, à la suite du raid israélien du 3 octobre qui a fait plusieurs morts, dont deux femmes de la communauté chrétienne.",
-        "pub": "Mon, 05 Oct 2026 16:49:00 +0200",
-        "heure": "18h49"
       }
     ]
   }
