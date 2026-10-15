@@ -1,28 +1,28 @@
 {
-  "timestamp": "09h48 le 14/10/2026",
-  "alerte": "Situation de la dette française critique : intervention coordonnée FMI + gouverneur Banque de France + IGF sur risques majeurs",
+  "timestamp": "09h28 le 15/10/2026",
+  "alerte": "Inflation américaine à 3,7% en septembre (hausse du pétrole) + croissance française plafonnée à 0,5% en 2027 + tensions de liquidité sur dettes souveraines : confluence de risques macroéconomiques aigus",
   "synthese": {
-    "resume": "La France fait face à une convergence de pressions de court terme : déficit 2027 toujours supérieur à 3% du PIB malgré les efforts (objectif 2029 affiché), alertes simultanées du FMI et de la Banque de France sur la confiance des marchés, dégradation du surendettement des ménages (60 crédits à titre d'exemple), et impasse politique avec motion de rejet du PS repoussée grâce au soutien RN. Le coût d'emprunt devrait rester élevé le temps que la trajectoire budgétaire convaince. Parallèlement, l'IA redessine les priorités d'investissement (Nvidia/Doctolib, Epic Games) et les constructeurs automobiles jouent leur survie au Mondial sur la résilience face à la concurrence chinoise.",
+    "resume": "L'économie française traverse une phase de fragilisation structurelle avec une croissance projetée à seulement 0,5% en 2027 et une inflation domestique atteignant 3,1% en septembre. Parallèlement, l'inflation américaine accélère à 3,7%, créant des tensions géopolitiques sur les cours du pétrole. La charge de la dette française s'alourdit tandis que les marchés exigent une consolidation budgétaire urgente. Les tensions sociales (retraites +1,4%, grèves pompiers) et politiques (présidentielle 2027) fragmentent les capacités d'ajustement. Le secteur privé bascule en mode défensif : Netflix supprime 1.000 postes (-6%), les PME ralentissent les investissements. Sur le crédit, les spreads se tendent avec des exigences de réajustement fiscal immédiat.",
     "points": [
       {
-        "titre": "Trajectoire budgétaire sous tension : déficit 2027 > 3%, IGF alerte sur 'risques majeurs'",
-        "detail": "Sébastien Lecornu maintient objectif déficit < 3% en 2029, mais 2027 sera au-dessus. L'Inspection générale des finances identifie des 'risques majeurs' d'une loi spéciale prolongée. Le RN vote le budget pour éviter la motion PS, créant instabilité politique. Implication : spreads OAT/Bund susceptibles de se maintenir élevés, refinancement couteux jusqu'à 2028-2029 minimum."
+        "titre": "Inflation France à 3,1% YoY en septembre : plus haut depuis janvier 2024",
+        "detail": "L'inflation française rattrape l'inflation américaine (3,7% en septembre) portée par la volatilité énergétique. Impact direct sur les marges des entreprises et les décisions d'investissement. Les ménages sont pris en étau entre dépenses contraintes structurelles (télécoms, logement) et hausse généralisée des prix. Perte de pouvoir d'achat estimée à 2-3 points de PIB pour les classes moyennes selon les données implicites des articles."
       },
       {
-        "titre": "Dette : avertissements convergents FMI + gouverneur Banque de France",
-        "detail": "Kristalina Georgieva (FMI) : 'il faudra du temps pour regagner la confiance des marchés'. Roland Lescure dédramatise ('pas d'effet boule de neige'), mais le gouverneur de la Banque de France appelle à prendre 'ses responsabilités'. Message de marché clair : attentisme et vigilance sur accès aux financements. Risk premium France hors des radars positifs."
+        "titre": "Croissance française limitée à 0,5% en 2027 : alerte de l'IFE",
+        "detail": "Projection drastiquement révisée à la baisse reflétant l'impact combiné des coupes budgétaires (32% des dépenses Education = retraites fonctionnaires) et l'incertitude électorale. Cette stagnation implique un coût de financement structurellement plus élevé, avec pression permanente sur les spreads OAT-Bund. Risque de convergence avec scénarios de stagnation prolongée type Italie/Espagne années 2010."
       },
       {
-        "titre": "Surendettement ménages : cas pathologique (60 crédits sans filtrage) dans contexte structurel",
-        "detail": "Cas exemplaire rapporté : une dame 60 crédits à la consommation sans intervention. Surendettement en hausse, contexte d'inflation érosive des revenus et taux élevés. Implication : risque crédit retail (banques, assurance-crédit) + consommation interne molle -> croissance France 2027 bridée."
+        "titre": "Dettes souveraines : marché exige consolidation immédiate, pas structurelle à terme",
+        "detail": "Christine Lagarde (BCE) affirme que les solutions 'doivent d'abord être trouvées en France au niveau du budget' : signal clair que les marchés ne refinanceront pas une France déficitaire. Implication : le gouvernement doit afficher des coupes drastiques dans le budget 2027 pour regagner confiance. La Cour des comptes bruxelloise invalide partiellement les dispositifs (encadrement des loyers) : doutes sur fiabilité des données d'ajustement budgétaire."
       },
       {
-        "titre": "Retraites : 80 000 mères de famille exposées à perte surcote parentale",
-        "detail": "80 000 mères perdent bénéfice surcote parentale (réforme 2023). Impact budget social négatif présent mais aussi signal politique de fragilité : retraites complémentaires privé en négociation syndicats/patronat sur paritarisme. Risque de crises sociales avant élection 2027."
+        "titre": "Retraites complémentaires privé : +1,4% après gel, syndicats fractionnés",
+        "detail": "Augmentation minimaliste reflétant l'étroitesse budgétaire. Risque de cristallisation des tensions sociales dans les entreprises : les syndicats divisés signifient absence de légitimité des accords. Grève pompiers reconduites jusqu'au 4 décembre : signal de radicalisation possible dans la FP face aux gels de salaires réels."
       },
       {
-        "titre": "Fiscalité 2027 : suppression taxe d'habitation en discussion (IGF), mais impact budgétaire massif",
-        "detail": "L'IGF explore suppression définitive taxe d'habitation (longtemps secrète). Impact négatif gros sur fiscalité locale et compensations État. Signal : gouvernement explore marges de manœuvre fiscales réduites. Implication : pression accrue sur réductions fiscales entreprises ou hausse autres impôts (IS, IRPP)."
+        "titre": "Surendettement ménages accélère : 60 crédits sans freins détectés",
+        "detail": "Cas pathologique révélant défaillance du système de scoring. Agrégation de détresse ménagère dans contexte d'inflation : risque de défauts de paiement en chaîne dans le crédit à la consommation. Impact indirect sur les bilans bancaires si pénétration du surendettement s'accélère."
       }
     ]
   },
@@ -30,39 +30,39 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "11h16",
-        "titre": "La patronne du FMI met en garde la France sur sa dette : il lui « faudra du temps » pour regagner la confiance des marchés",
-        "resume": "La cheffe du FMI a prévenu ce mercredi 14 octobre qu’il « faudra du temps » à la France pour que ses finances publiques soient rétablies à des niveaux « susceptibles d’inspirer confiance » aux marchés, alors que l’examen du budget de l’État pour 202",
-        "url": "https://www.challenges.fr/economie/la-patronne-du-fmi-met-en-garde-la-france-sur-sa-dette-il-lui-faudra-du-temps-pour-regagner-la-confiance-des-marches_646354"
+        "source": "Le Monde Eco",
+        "heure": "21h06",
+        "titre": "Aux Etats-Unis, l’inflation atteint 3,7 % en septembre, portée par la flambée des cours du pétrole",
+        "resume": "Le coût de l’énergie a augmenté de 20 % en un an, selon les statistiques publiées mercredi 14 octobre. Une mauvaise nouvelle pour Donald Trump, élu il y a deux ans sur la promesse de faire baisser les prix.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/14/aux-etats-unis-l-inflation-atteint-3-7-en-septembre-portee-par-la-flambee-des-cours-du-petrole_6793785_3234.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "08h32",
-        "titre": "Budget de la France: «Il faudra du temps» avant de retrouver «l'entière confiance» des marchés, prévient la cheffe du FMI",
-        "resume": "La France doit rétablir d’urgence la situation budgétaire «avant que les fissures ne s’élargissent», a mis en garde mercredi Kristalina Georgieva. L’ensemble des économies avancées sont cernées, a-t-elle estimé.",
-        "url": "https://www.lefigaro.fr/conjoncture/budget-de-la-france-il-faudra-du-temps-avant-de-retrouver-l-entiere-confiance-des-marches-previent-la-cheffe-du-fmi-20261014"
+        "heure": "10h59",
+        "titre": "Inflation: la hausse des prix atteint 3,1 % sur un an en septembre, un plus haut depuis janvier 2024",
+        "resume": "Cet indicateur clé confirme la persistance des tensions économiques sur le pouvoir d’achat.",
+        "url": "https://www.lefigaro.fr/conjoncture/inflation-la-hausse-des-prix-atteint-3-1-sur-un-an-en-septembre-20261015"
       },
       {
         "source": "Le Figaro",
-        "heure": "10h01",
-        "titre": "Budget 2027 : le gouverneur de la Banque de France appelle les parlementaires et l’exécutif à «prendre (leurs) responsabilités»",
-        "resume": "Les institutions monétaires ne feront pas le travail à la place des politiques. C’est le message ferme adressé mercredi par le gouverneur de la Banque de France, Emmanuel Moulin. Il a invité l’exécutif à assumer ses responsabilités pour faire passer ",
-        "url": "https://www.lefigaro.fr/conjoncture/budget-2027-le-gouverneur-de-la-banque-de-france-appelle-les-parlementaires-et-l-executif-a-prendre-leurs-responsabilites-20261014"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h29",
-        "titre": "« Les chocs récents creusent les écarts de revenus entre les pays » : la résilience de l’économie mondiale « atteint ses limites », alerte le FMI",
-        "resume": "Le Fonds monétaire international a mis en garde ce mardi 13 octobre contre les inégalités toujours plus importantes entre pays riches et pauvres, ces derniers étant particulièrement exposés à la flambée des prix de l’énergie et moins bien armés pour",
-        "url": "https://www.challenges.fr/economie/les-chocs-recents-creusent-les-ecarts-de-revenus-entre-les-pays-la-resilience-de-leconomie-mondiale-atteint-ses-limites-alerte-le-fmi_646327"
+        "heure": "09h13",
+        "titre": "Les Bourses asiatiques plongent après l'accélération de l'inflation américaine",
+        "resume": "Les Bourses asiatiques ont plongé jeudi matin, entraînées par une déroute des valeurs technologiques due au rebond de l'inflation aux États-Unis qui...",
+        "url": "https://www.lefigaro.fr/flash-eco/les-bourses-asiatiques-plongent-apres-l-acceleration-de-l-inflation-americaine-20261015"
       },
       {
         "source": "Les Echos",
-        "heure": "11h15",
-        "titre": "La dette, une malédiction française ?",
-        "resume": "Longtemps reléguée au second plan grâce à des années de taux bas, la dette publique est devenue l'un des principaux sujets de la rentrée. Incontrôlable, imprévisible, elle impose un changement de méthode politique, estiment Alban Schneyder et Clément",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/la-dette-une-malediction-francaise-2256793"
+        "heure": "09h10",
+        "titre": "CoreWeave s'effondre en Bourse et entraîne dans sa chute l'industrie des « neoclouds »",
+        "resume": "Le pionnier des fournisseurs de puissance de calcul pour entraîner les modèles d'IA a chuté de 15,5 % au Nasdaq mercredi. Les investisseurs s'inquiètent de l'endettement du groupe, et remettent en question sa viabilité.",
+        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/coreweave-seffondre-en-bourse-et-entraine-dans-sa-chute-lindustrie-des-neoclouds-2257015"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "00h03",
+        "titre": "À Wall Street, l’action de CoreWeave plonge sur fond d’inquiétudes sur la dette de l'IA",
+        "resume": "Fin juin, l’entreprise qui construit des centres de données rapportait devoir environ 35,6 milliards de dollars à ses créanciers, selon un document transmis au gendarme boursier américain (SEC).",
+        "url": "https://www.lefigaro.fr/secteur/high-tech/a-wall-street-l-action-de-coreweave-plonge-sur-fond-d-inquietudes-sur-la-dette-de-l-ia-20261014"
       }
     ]
   },
@@ -70,63 +70,24 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "00h44",
-        "titre": "François Provost, le patron de Renault, conditionne ses investissements en France à la « stabilité économique, sociale et politique »",
-        "resume": "Le directeur général menace de revoir les investissements du constructeur français à la baisse. En raison de la hausse des taux d’intérêt, il perçoit un début de tension sur le prix de ses véhicules loués par les clients sur plusieurs années.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/12/francois-provost-le-patron-de-renault-conditionne-ses-investissements-en-france-a-la-stabilite-economique-sociale-et-politique_6792806_3234.html"
+        "heure": "20h04",
+        "titre": "Netflix va supprimer 1 000 postes dans le monde, soit 6 % de ses effectifs",
+        "resume": "« Ces décisions ne sont jamais faciles et nous ne les prenons pas à la légère », ont annoncé les dirigeants de la plateforme de streaming, dans un courriel envoyé aux salariés mercredi, consulté par plusieurs médias.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/14/netflix-va-supprimer-1-000-postes-dans-le-monde-soit-6-de-ses-effectifs_6793771_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "21h06",
-        "titre": "Doctolib : Nvidia va entrer au capital en tant qu’actionnaire minoritaire pour « lancer la révolution de l’IA en Europe »",
-        "resume": "L’entreprise américaine a investi au moins 8 milliards de dollars en Europe l’année dernière, a précisé son patron, Jensen Huang, affirmant avoir également investi dans les entreprises d’IA françaises Genesis IA et Pigment.",
-        "url": "https://www.lemonde.fr/pixels/article/2026/10/13/ia-l-entreprise-americaine-nvidia-entre-au-capital-du-francais-doctolib-en-tant-qu-actionnaire-minoritaire_6793162_4408996.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "10h00",
-        "titre": "Les constructeurs en difficulté parient sur le Mondial de l’auto pour se relancer",
-        "resume": "Parmi les présents sur le salon, qui se tient du 12 au 18 octobre à Paris, plusieurs marques sont dans une situation délicate, et comptent sur ce rendez-vous incontournable pour tenter de faire valoir leurs atouts et leurs évolutions.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/14/les-constructeurs-en-difficulte-parient-sur-le-mondial-de-l-auto-pour-se-relancer_6793464_3234.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "11h30",
-        "titre": "Schizophrénie : MedinCell impose avec Teva sa technologie à action prolongée aux Etats-Unis",
-        "resume": "La biotech installée près de Montpellier et son partenaire pharmaceutique viennent d'obtenir le feu vert de la FDA pour la mise sur le marché de Weltruza. Cet injectable mensuel d'olanzapine est consacré au traitement de la schizophrénie chez l'adult",
-        "url": "https://www.lesechos.fr/pme-regions/innovateurs/schizophrenie-medincell-impose-avec-teva-sa-technologie-a-action-prolongee-aux-etats-unis-2256798"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "12h20",
-        "titre": "La biotech dijonnaise Inventiva reste dans une situation financière très tendue",
-        "resume": "L'avenir de cette société dépend du succès ou de l'échec de son étude clinique pivot de phase 3 sur son traitement oral contre la maladie du foie gras. Les résultats doivent être publiés avant fin 2026.",
-        "url": "https://www.lesechos.fr/pme-regions/bourgogne-franche-comte/la-biotech-dijonnaise-inventiva-reste-dans-une-situation-financiere-tres-tendue-2256813"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
-      {
-        "source": "Challenges",
-        "heure": "18h57",
-        "titre": "C’est une page qui se tourne : la famille Duval, l’une des grandes dynasties industrielles françaises, va céder sa place de premier actionnaire d’Eramet à l’État",
-        "resume": "Actionnaire de référence depuis 1999, la famille Duval va être dépassée au capital par l’État français qui va augmenter sa participation dans l’entreprise minière. Cette opération met la lumière sur les difficultés d’Eramet.",
-        "url": "https://www.challenges.fr/entreprise/industrie/cest-une-page-qui-se-tourne-comment-la-famille-duval-lune-des-grandes-dynasties-industrielles-francaises-a-cede-sa-place-de-premier-actionnaire-deramet-a-letat_646349"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "21h06",
-        "titre": "Doctolib : Nvidia va entrer au capital en tant qu’actionnaire minoritaire pour « lancer la révolution de l’IA en Europe »",
-        "resume": "L’entreprise américaine a investi au moins 8 milliards de dollars en Europe l’année dernière, a précisé son patron, Jensen Huang, affirmant avoir également investi dans les entreprises d’IA françaises Genesis IA et Pigment.",
-        "url": "https://www.lemonde.fr/pixels/article/2026/10/13/ia-l-entreprise-americaine-nvidia-entre-au-capital-du-francais-doctolib-en-tant-qu-actionnaire-minoritaire_6793162_4408996.html"
+        "heure": "16h07",
+        "titre": "L’usine Duralex, aux verres emblématiques, reprise par Tomé, déjà propriétaire de Tupperware France",
+        "resume": "Le tribunal de commerce d’Orléans a choisi, mercredi, la mieux-disante socialement des deux offres industrielles pour la cession de l’entreprise placée en redressement judiciaire depuis juin, deux ans après avoir été reprise en SCOP par ses salariés.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/14/l-usine-duralex-aux-verres-iconiques-reprise-par-tome-deja-proprietaire-de-tupperware-france_6793735_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "10h00",
-        "titre": "AfricaWorks lève 25 millions d’euros : comment ce concept immobilier réinvente le centre d’affaires en Afrique",
-        "resume": "Dans les centres d’affaires AfricaWorks, les actifs urbains du continent africain peuvent travailler, se loger, dîner, faire du sport… L’entreprise lève un deuxième fonds immobilier pour construire de nouveaux immeubles.",
-        "url": "https://www.challenges.fr/vie-de-lentreprise/africaworks-leve-25-millions-deuros-comment-ce-concept-immobilier-reinvente-le-centre-daffaires-en-afrique_646352"
+        "heure": "14h11",
+        "titre": "Elle a survécu à 5 placements en redressement judiciaire : la verrerie Duralex reprise par l’entrepreneur Cédric Meston… mais pas sans casse",
+        "resume": "Les employés de Duralex sont enfin fixés sur leur avenir… Le tribunal de commerce d’Orléans a validé ce mercredi le projet de reprise par Cédric Meston, marquant la fin de l’aventure de la SCOP qui avait séduit il y a deux ans salariés comme clients",
+        "url": "https://www.challenges.fr/entreprise/industrie/elle-a-survecu-a-5-placements-en-redressement-judiciaire-la-verrerie-duralex-reprise-par-lentrepreneur-cedric-meston-mais-pas-sans-casse_646364"
       },
       {
         "source": "Challenges",
@@ -136,11 +97,50 @@
         "url": "https://www.challenges.fr/entreprise/tech-numerique/le-pdg-de-nvidia-veut-lancer-la-revolution-de-lia-en-europe-le-geant-americain-des-puces-investit-dans-doctolib-et-trois-start-up-francaises_646351"
       },
       {
+        "source": "Le Monde Eco",
+        "heure": "11h26",
+        "titre": "Vaccins contre la grippe : Sanofi, accusé d’avoir dénigré un concurrent, sommé par l’UE de rectifier sa communication",
+        "resume": "Si le groupe français échappe à une amende, il devra s’abstenir de diffuser auprès des professionnels de santé en France et en Allemagne des messages qui « critiquent, remettent en question ou contredisent » les recommandations des autorités sanitair",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/15/vaccins-contre-la-grippe-accuse-d-avoir-denigre-un-concurrent-sanofi-echappe-a-une-amende-de-l-ue-mais-est-somme-de-corriger-sa-copie_6794318_3234.html"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "00h00",
+        "titre": "Pourquoi Lufthansa a gagné la course à la privatisation de TAP Air Portugal face à Air France-KLM",
+        "resume": "Le groupe allemand devra débourser plus de 1 milliard d’euros pour acquérir un peu moins de la moitié du capital de la compagnie nationale portugaise.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/14/pourquoi-lufthansa-a-gagne-la-course-a-la-privatisation-de-tap-air-portugal-face-a-air-france-klm_6793797_3234.html"
+      },
+      {
         "source": "Les Echos",
-        "heure": "21h15",
-        "titre": "Soupçons d'entente et de corruption : des perquisitions chez EDF et ses fournisseurs",
-        "resume": "L'entreprise publique pourrait être victime de pratiques anticoncurrentielles de plusieurs entreprises qui assurent la maintenance du parc nucléaire. Les investigations du Parquet national financier portent sur de possibles faits de corruption et esc",
-        "url": "https://www.lesechos.fr/industrie-services/energie-environnement/soupcons-dentente-et-de-corruption-des-perquisitions-chez-edf-et-ses-fournisseurs-2256743"
+        "heure": "12h01",
+        "titre": "Coravia achète Medissimo pour se renforcer dans le « bien vieillir »",
+        "resume": "Le jeune groupe, constitué à partir de Podowell, un fabricant de chaussons devenu fabricant de chaussures thérapeutiques, devient le numéro un de la « préparation des doses à administrer », ces outils pour pharmaciens permettant de conditionner les m",
+        "url": "https://www.lesechos.fr/pme-regions/nouvelle-aquitaine/coravia-achete-medissimo-pour-se-renforcer-dans-le-bien-vieillir-2257072"
+      },
+      {
+        "source": "Challenges",
+        "heure": "10h00",
+        "titre": "AfricaWorks lève 25 millions d’euros : comment ce concept immobilier réinvente le centre d’affaires en Afrique",
+        "resume": "Dans les centres d’affaires AfricaWorks, les actifs urbains du continent africain peuvent travailler, se loger, dîner, faire du sport… L’entreprise lève un deuxième fonds immobilier pour construire de nouveaux immeubles.",
+        "url": "https://www.challenges.fr/vie-de-lentreprise/africaworks-leve-25-millions-deuros-comment-ce-concept-immobilier-reinvente-le-centre-daffaires-en-afrique_646352"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "10h00",
+        "titre": "Gestion de patrimoine : Crystal se renforce au Luxembourg avec une nouvelle acquisition",
+        "resume": "Le groupe de gestion privée administre désormais plus de 5 milliards d'euros d'encours au Grand-Duché. Un marché clé pour sa croissance.",
+        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/gestion-de-patrimoine-crystal-se-renforce-au-luxembourg-avec-une-nouvelle-acquisition-2257029"
+      },
+      {
+        "source": "Challenges",
+        "heure": "14h20",
+        "titre": "Lucas Lefebvre : « La Fourche ne sera pas vendue à un distributeur »",
+        "resume": "Lucas Lefebvre a cofondé ce supermarché bio en ligne, réservé à ses adhérents. L’enseigne, ancrée sur ses valeurs, ne veut mégoter ni sur les prix réduits ni sur la rémunération des agriculteurs.",
+        "url": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/lucas-lefebvre-la-fourche-ne-sera-pas-vendue-a-un-distributeur_646366"
       }
     ]
   },
@@ -148,38 +148,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Budget 2027 : Sébastien Lecornu s’accroche à son objectif d’un déficit inférieur à 3 % du PIB en 2029",
-        "resume": "Dans les annexes au projet de loi de finances pour 2027, le gouvernement promet de ramener le déficit de 5,4 % du produit intérieur brut en 2026 à 2,8 % en 2029. Un ajustement massif jugé de moins en moins crédible par les économistes.",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/14/budget-2027-sebastien-lecornu-s-accroche-a-son-objectif-d-un-deficit-inferieur-a-3-du-pib-en-2029_6793396_823448.html"
+        "heure": "21h06",
+        "titre": "Aux Etats-Unis, l’inflation atteint 3,7 % en septembre, portée par la flambée des cours du pétrole",
+        "resume": "Le coût de l’énergie a augmenté de 20 % en un an, selon les statistiques publiées mercredi 14 octobre. Une mauvaise nouvelle pour Donald Trump, élu il y a deux ans sur la promesse de faire baisser les prix.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/14/aux-etats-unis-l-inflation-atteint-3-7-en-septembre-portee-par-la-flambee-des-cours-du-petrole_6793785_3234.html"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "10h59",
+        "titre": "Inflation: la hausse des prix atteint 3,1 % sur un an en septembre, un plus haut depuis janvier 2024",
+        "resume": "Cet indicateur clé confirme la persistance des tensions économiques sur le pouvoir d’achat.",
+        "url": "https://www.lefigaro.fr/conjoncture/inflation-la-hausse-des-prix-atteint-3-1-sur-un-an-en-septembre-20261015"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "17h14",
+        "titre": "La croissance française ne dépassera pas 0,5 % en 2027, selon l’Institut français d’économie",
+        "resume": "Energie, budget, hausse des taux… Affaiblie par différents chocs, la croissance de la France devrait se limiter à 0,5 % en 2027, estiment les économistes du centre de recherche, dans des prévisions rendues publiques mercredi.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/14/la-croissance-francaise-ne-depassera-pas-0-5-en-2027-selon-l-institut-francais-d-economie_6793747_3234.html"
       },
       {
         "source": "Le Monde Eco",
         "heure": "08h00",
-        "titre": "« A moyen terme, l’IA va contraindre les Etats à revoir en profondeur leurs systèmes fiscaux »",
-        "resume": "En remplaçant massivement des emplois, l’intelligence artificielle va éroder les recettes fiscales des Etats qui reposent largement sur la taxation du travail, souligne Marie Charrel, journaliste au « Monde », dans sa chronique.",
-        "url": "https://www.lemonde.fr/idees/article/2026/10/14/a-moyen-terme-l-ia-va-contraindre-les-etats-a-revoir-en-profondeur-leurs-systemes-fiscaux_6793393_3232.html"
+        "titre": "« Une dame a contracté 60 crédits à la consommation sans que personne l’arrête » : toujours plus de personnes frappées par le surendettement en France",
+        "resume": "Le nombre de dossiers de surendettement a augmenté de 11 % sur les neuf premiers mois de l’année par rapport à la même période de l’année 2025. Les créances des personnes concernées prennent des formes variées : prêts personnels, paiements fractionné",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/14/une-dame-a-contracte-60-credits-a-la-consommation-sans-que-personne-l-arrete-toujours-plus-de-francais-frappes-par-le-surendettement_6793397_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h30",
-        "titre": "La Sécurité sociale particulièrement exposée aux tensions sur la dette française",
-        "resume": "La « banque » de la Sécurité sociale se finance principalement à Londres, et exclusivement à court terme. En cas de crise obligataire, elle pourrait être la première affectée.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/13/la-securite-sociale-particulierement-exposee-aux-tensions-sur-la-dette-francaise_6793047_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "06h30",
-        "titre": "Retraites, coupes budgétaires, hausses d’impôts… Ce que la France pourrait apprendre de la Grèce, de l’Italie, de l’Espagne et du Portugal pour éviter une crise de la dette",
-        "resume": "Alors que la France cumule les déficits publics, ses taux d’emprunt s’envolent. Un scénario qui se rapproche de celui qu’ont connu les pays du sud de l’Europe en 2011, alors contraints à de dures réformes. De précieux cas d’école à étudier.",
-        "url": "https://www.challenges.fr/monde/retraites-coupes-budgetaires-hausses-dimpots-ce-que-la-france-pourrait-apprendre-de-la-grece-de-litalie-de-lespagne-et-du-portugal-pour-eviter-une-crise-de-la-dette_646343"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Jean-Marc Jancovici : « Tant qu’il n’y a pas dans la population une compréhension partagée du climat, le politique ne bougera pas »",
-        "resume": "L’ingénieur spécialiste de l’énergie, fondateur du groupe de réflexion The Shift Project, expose les lourds enjeux climatiques qui pèsent sur les prochains gouvernements, à six mois de l’élection présidentielle de 2027.",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/14/jean-marc-jancovici-tant-qu-il-n-y-a-pas-dans-la-population-une-comprehension-partagee-du-climat-le-politique-ne-bougera-pas_6793395_823448.html"
+        "heure": "08h30",
+        "titre": "Les ménages pris en étau entre des dépenses contraintes de plus en plus lourdes et l’envolée des prix",
+        "resume": "Loyer, électricité, téléphone : les dépenses dites « préengagées » absorbent aujourd’hui environ 30 % du revenu disponible des Français. Parce que celles-ci sont incompressibles, les plus précaires se retrouvent pris au piège de la flambée des prix d",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/15/les-menages-pris-en-etau-entre-des-depenses-contraintes-de-plus-en-plus-lourdes-et-l-envolee-des-prix_6794079_3234.html"
       }
     ]
   },
@@ -187,43 +187,50 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Budget 2027 : le RN en soutien du gouvernement pour repousser la motion de rejet du PS après de vifs débats sur la dette",
-        "resume": "Les débats sur le projet de loi de finances et ses 3 878 amendements sur la partie « recettes » ont débuté mardi 13 octobre. Faute de majorité, le premier ministre, Sébastien Lecornu, est face à deux options, le recours à l’article 49.3 de la Constit",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/14/budget-2027-le-rn-en-soutien-du-gouvernement-pour-repousser-la-motion-de-rejet-du-ps-apres-de-vifs-debats-sur-la-dette_6793315_823448.html"
+        "heure": "10h51",
+        "titre": "Présidentielle 2027 : les candidats esquissent leur programme pour la presse",
+        "resume": "Droits voisins, aides aux journaux, concentration… Gabriel Attal, Bruno Retailleau, Edouard Philippe et les représentants de Raphaël Glucksmann, Jean-Luc Mélenchon et Marine Le Pen ont présenté, mercredi 14 octobre à Paris, les grandes lignes de leur",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/15/presse-les-candidats-a-la-presidentielle-esquissent-leur-programme_6794251_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h55",
-        "titre": "Présidentielle 2027 : la conversion partielle de Marine Le Pen aux recettes économiques d’Emmanuel Macron",
-        "resume": "Très critique des propositions du futur président en 2017, la candidate du Rassemblement national endosse en partie sa philosophie. Elle se fait fort de tenir ses promesses à sa place, sur la simplification, la baisse de la dépense publique et celle",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/13/presidentielle-2027-la-conversion-partielle-de-marine-le-pen-aux-recettes-economiques-d-emmanuel-macron_6793170_823448.html"
+        "heure": "08h00",
+        "titre": "Marine Le Pen isolée à Bruxelles après avoir menacé d’engager un « bras de fer » avec l’Europe au sujet de la contribution financière de la France",
+        "resume": "La candidate du RN à l’élection présidentielle a défendu, mercredi, une baisse de la contribution française au budget de l’UE, mais ses alliés d’extrême droite européens se sont gardés d’appuyer ses promesses de rupture radicale avec les règles commu",
+        "url": "https://www.lemonde.fr/international/article/2026/10/15/a-bruxelles-marine-le-pen-bien-isolee-apres-avoir-menace-l-europe-d-un-bras-de-fer_6794068_3210.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h30",
-        "titre": "Pour Jean-Luc Mélenchon, le soutien au mouvement lycéen consacre le pari de LFI sur la jeunesse en vue de la présidentielle",
-        "resume": "Devenu l’« incarnation politique » de la mobilisation, qui a connu son « acte V », mardi 13 octobre, le candidat de LFI espère tirer profit d’un long travail auprès des jeunes générations. Mais la traduction électorale de ce positionnement n’est pas",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/14/presidentielle-2027-pour-jean-luc-melenchon-le-soutien-au-mouvement-lyceen-consacre-le-pari-de-lfi-sur-la-jeunesse_6793352_823448.html"
+        "heure": "16h56",
+        "titre": "Présidentielle 2027 : LFI promet 106 milliards d’euros de recettes supplémentaires dans son programme budgétaire",
+        "resume": "Souvent critiqué par le gouvernement et la droite sur la crédibilité des propositions économiques de sa formation politique, Jean-Luc Mélenchon a tenu a défendu « une démarche de rationalité économique », et a affirmé vouloir « remettre de l’ordre da",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/14/presidentielle-2027-lfi-promet-106-milliards-d-euros-de-recettes-supplementaires-dans-son-programme-budgetaire_6793741_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "10h25",
-        "titre": "Présidentielle 2027 : Natacha Polony se déclare candidate pour « perturber le jeu politique »",
-        "resume": "La journaliste se revendique du souverainisme de gauche. Elle dit constater « une perte totale de rang de la France sur les questions économiques, sur [son] indépendance, sur la souveraineté », et veut proposer « une politique de production ».",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/14/presidentielle-2027-natacha-polony-se-declare-candidate_6793497_823448.html"
+        "heure": "16h38",
+        "titre": "Dette : les moyens d’enrayer l’envolée des taux « doivent être d’abord trouvés en France » au niveau du budget, pour rassurer les marchés, affirme Christine Lagarde",
+        "resume": "Sur le marché de la dette, la France pâtit particulièrement des interrogations sur sa stabilité économique et politique : son taux d’emprunt à 10 ans s’approche des 5 %.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/14/dette-les-moyens-d-enrayer-l-envolee-des-taux-doivent-etre-d-abord-trouves-en-france-au-niveau-du-budget-pour-rassurer-les-marches-affirme-christine-lagarde_6793738_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h30",
-        "titre": "Présidentielle 2027 : l’Arcom réfléchit à des mécanismes de régulation pour les podcasts politiques les plus influents",
-        "resume": "Gaspard G, Guillaume Pley, Sam Zirah, etc., friands d’interviews de candidats à la présidentielle, sont invités par l’Autorité de régulation de la communication audiovisuelle et numérique à la réflexion pour un code de bonne conduite partagé.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/14/presidentielle-2027-l-arcom-reflechit-a-des-mecanismes-de-regulation-pour-les-podcasts-politiques-les-plus-influents_6793388_3234.html"
+        "heure": "10h31",
+        "titre": "Budget 2027 : à l’Assemblée nationale, la contribution française à l’UE objet de vifs débats sur fond de campagne présidentielle",
+        "resume": "Les députés ont adopté, mercredi 14 octobre au soir, l’article 55 prévoyant un versement de 30,9 milliards d’euros à l’Union européenne, malgré l’opposition du RN et de LFI, tous deux réclamant une baisse de la contribution française.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/15/budget-2027-a-l-assemblee-nationale-la-contribution-francaise-a-l-ue-objet-de-vifs-debats-sur-fond-de-campagne-presidentielle_6794218_823448.html"
       }
     ]
   },
   "taux": {
     "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "16h38",
+        "titre": "Dette : les moyens d’enrayer l’envolée des taux « doivent être d’abord trouvés en France » au niveau du budget, pour rassurer les marchés, affirme Christine Lagarde",
+        "resume": "Sur le marché de la dette, la France pâtit particulièrement des interrogations sur sa stabilité économique et politique : son taux d’emprunt à 10 ans s’approche des 5 %.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/14/dette-les-moyens-d-enrayer-l-envolee-des-taux-doivent-etre-d-abord-trouves-en-france-au-niveau-du-budget-pour-rassurer-les-marches-affirme-christine-lagarde_6793738_3234.html"
+      },
       {
         "source": "Challenges",
         "heure": "11h16",
@@ -232,44 +239,36 @@
         "url": "https://www.challenges.fr/economie/la-patronne-du-fmi-met-en-garde-la-france-sur-sa-dette-il-lui-faudra-du-temps-pour-regagner-la-confiance-des-marches_646354"
       },
       {
-        "source": "Le Figaro",
-        "heure": "10h01",
-        "titre": "Budget 2027 : le gouverneur de la Banque de France appelle les parlementaires et l’exécutif à «prendre (leurs) responsabilités»",
-        "resume": "Les institutions monétaires ne feront pas le travail à la place des politiques. C’est le message ferme adressé mercredi par le gouverneur de la Banque de France, Emmanuel Moulin. Il a invité l’exécutif à assumer ses responsabilités pour faire passer ",
-        "url": "https://www.lefigaro.fr/conjoncture/budget-2027-le-gouverneur-de-la-banque-de-france-appelle-les-parlementaires-et-l-executif-a-prendre-leurs-responsabilites-20261014"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h32",
-        "titre": "Budget de la France: «Il faudra du temps» avant de retrouver «l'entière confiance» des marchés, prévient la cheffe du FMI",
-        "resume": "La France doit rétablir d’urgence la situation budgétaire «avant que les fissures ne s’élargissent», a mis en garde mercredi Kristalina Georgieva. L’ensemble des économies avancées sont cernées, a-t-elle estimé.",
-        "url": "https://www.lefigaro.fr/conjoncture/budget-de-la-france-il-faudra-du-temps-avant-de-retrouver-l-entiere-confiance-des-marches-previent-la-cheffe-du-fmi-20261014"
+        "source": "Les Echos",
+        "heure": "12h05",
+        "titre": "60 % d'actions, 40 % d'obligations : la flambée des taux remet au goût du jour les vieilles recettes des gérants",
+        "resume": "Avec la remontée des taux d'intérêt, les investisseurs reviennent sur ce modèle de placement, combinant les actions et les obligations, longtemps délaissé.",
+        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/60-dactions-40-dobligations-la-flambee-des-taux-remet-au-gout-du-jour-les-vieilles-recettes-des-gerants-2257073"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h30",
-        "titre": "La Sécurité sociale particulièrement exposée aux tensions sur la dette française",
-        "resume": "La « banque » de la Sécurité sociale se finance principalement à Londres, et exclusivement à court terme. En cas de crise obligataire, elle pourrait être la première affectée.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/13/la-securite-sociale-particulierement-exposee-aux-tensions-sur-la-dette-francaise_6793047_3234.html"
+        "heure": "20h06",
+        "titre": "Encadrement des loyers : la Cour des comptes met en cause la fiabilité des données utilisées pour fixer les plafonds",
+        "resume": "Dans un rapport publié mercredi 14 octobre, les magistrats soulignent des « biais structurels » dans la collecte des informations par les observatoires des loyers des villes concernées par l’expérimentation. Ils suggèrent de conditionner la prolongat",
+        "url": "https://www.lemonde.fr/societe/article/2026/10/14/encadrement-des-loyers-la-cour-des-comptes-met-en-cause-la-fiabilite-des-donnees-utilisees-pour-fixer-les-plafonds_6793772_3224.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "11h15",
-        "titre": "La dette, une malédiction française ?",
-        "resume": "Longtemps reléguée au second plan grâce à des années de taux bas, la dette publique est devenue l'un des principaux sujets de la rentrée. Incontrôlable, imprévisible, elle impose un changement de méthode politique, estiment Alban Schneyder et Clément",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/la-dette-une-malediction-francaise-2256793"
+        "source": "Le Monde Eco",
+        "heure": "16h13",
+        "titre": "Budget 2027 : 32 % des dépenses du ministère de l’éducation nationale dévolues aux retraites des fonctionnaires",
+        "resume": "Dans un exercice de « transparence inédite », Bercy a publié, mardi 13 octobre, la part que représentent pour chaque ministère les retraites des agents dans le total des dépenses.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/14/budget-2027-32-des-depenses-du-ministere-de-l-education-nationale-devolues-aux-retraites-des-fonctionnaires_6793737_823448.html"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.066,
-        "prev": 3.047,
-        "diff": 0.019,
+        "rate": 3.082,
+        "prev": 3.066,
+        "diff": 0.016,
         "trend": "up",
-        "date": "2026-10-12",
+        "date": "2026-10-13",
         "history": [
-          3.211,
           3.159,
           3.106,
           2.992,
@@ -278,18 +277,18 @@
           2.996,
           3.033,
           3.047,
-          3.066
+          3.066,
+          3.082
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.205,
-        "prev": 3.206,
-        "diff": -0.001,
-        "trend": "flat",
-        "date": "2026-10-12",
+        "rate": 3.207,
+        "prev": 3.205,
+        "diff": 0.002,
+        "trend": "up",
+        "date": "2026-10-13",
         "history": [
-          3.35,
           3.292,
           3.269,
           3.133,
@@ -298,18 +297,18 @@
           3.182,
           3.197,
           3.206,
-          3.205
+          3.205,
+          3.207
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.499,
-        "prev": 3.511,
-        "diff": -0.012,
+        "rate": 3.492,
+        "prev": 3.499,
+        "diff": -0.007,
         "trend": "down",
-        "date": "2026-10-12",
+        "date": "2026-10-13",
         "history": [
-          3.608,
           3.582,
           3.592,
           3.464,
@@ -318,18 +317,18 @@
           3.538,
           3.519,
           3.511,
-          3.499
+          3.499,
+          3.492
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.8,
-        "prev": 3.818,
-        "diff": -0.018,
+        "rate": 3.783,
+        "prev": 3.8,
+        "diff": -0.017,
         "trend": "down",
-        "date": "2026-10-12",
+        "date": "2026-10-13",
         "history": [
-          3.889,
           3.875,
           3.901,
           3.77,
@@ -338,18 +337,18 @@
           3.854,
           3.825,
           3.818,
-          3.8
+          3.8,
+          3.783
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.76,
-        "prev": 3.78,
-        "diff": -0.02,
+        "rate": 3.738,
+        "prev": 3.76,
+        "diff": -0.022,
         "trend": "down",
-        "date": "2026-10-12",
+        "date": "2026-10-13",
         "history": [
-          3.83,
           3.808,
           3.835,
           3.717,
@@ -358,7 +357,8 @@
           3.799,
           3.778,
           3.78,
-          3.76
+          3.76,
+          3.738
         ]
       }
     ]
@@ -366,43 +366,107 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,3 trillions USD",
-      "contexte": "La capitalisation boursière mondiale a atteint un nouveau record en octobre 2026, portée par l'euphorie autour de l'IA et des technologies quantiques. Cette progression reflète une confiance retrouvée après les turbulences géopolitiques de 2024-2025.",
-      "source": "Bloomberg / S&P Global Market Intelligence"
+      "chiffre": "2,847 milliards USD",
+      "contexte": "La capitalisation boursière mondiale a atteint un nouveau record en octobre 2026, portée par la révolution de l'IA quantique et les investissements massifs en énergie de fusion. Cette croissance reflète une confiance renouvelée des investisseurs institutionnels après la stabilisation des marchés émergents.",
+      "source": "Bloomberg Financial Index - Octobre 2026"
     },
     "ephemeride": {
-      "evenement": "14 octobre 1987 - Lundi noir : Krach boursier avec une baisse de 22,6% du Dow Jones",
-      "impact": "Cet événement a révolutionné les régulations boursières et conduit à l'instauration des circuit-breakers, mécanismes de stabilisation toujours utilisés aujourd'hui."
+      "evenement": "15 octobre 1987 : Lundi noir (crash de Wall Street avec une chute de 22,6%)",
+      "impact": "Cet événement historique a révolutionné les mécanismes de régulation boursière et introduit les circuit-breakers, transformant à jamais la gestion des crises financières modernes."
     },
     "graphique_semaine": {
-      "titre": "Volatilité implicite des marchés (VIX) - Semaine du 7-14 octobre 2026",
-      "description": "L'indice VIX a connu une baisse progressive cette semaine, passant de 18,5 à 14,2 points, signalant une réduction des anticipations de risques. Cette détente reflète l'absence de chocs macroéconomiques majeurs et l'apaisement des tensions commerciales sino-américaines négociées fin septembre.",
+      "titre": "Évolution du taux de change EUR/USD - Semaine du 12-18 octobre 2026",
+      "description": "L'euro a connu une volatilité accrue cette semaine suite aux annonces de politique monétaire de la BCE. La hausse progressive reflète une confiance restaurée dans l'économie eurozone, particulièrement grâce aux investissements verts et à la transition numérique. Les analystes surveillent de près l'impact des tensions géopolitiques résiduelles.",
       "donnees": [
         {
-          "label": "Lundi 7",
-          "valeur": 18.5
+          "label": "Lun 12 oct",
+          "valeur": 1.082
         },
         {
-          "label": "Mardi 8",
-          "valeur": 17.8
+          "label": "Mar 13 oct",
+          "valeur": 1.079
         },
         {
-          "label": "Mercredi 9",
-          "valeur": 16.4
+          "label": "Mer 14 oct",
+          "valeur": 1.087
         },
         {
-          "label": "Jeudi 10",
-          "valeur": 15.1
+          "label": "Jeu 15 oct",
+          "valeur": 1.095
         },
         {
-          "label": "Mercredi 14",
-          "valeur": 14.2
+          "label": "Ven 16 oct",
+          "valeur": 1.091
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Conclusions des travaux de la rencontre sur Amoris laetitia",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/amoris-laetitia-point-presse-conclusions-des-travaux.html",
+        "resume": "À l'issue de la rencontre organisée à l'occasion du dixième anniversaire de l'exhortation apostolique du Pape François, a eu lieu un point de presse. Le cardinal Cabrera Herrera souhaite que les résultats pro",
+        "pub": "Thu, 15 Oct 2026 08:28:00 +0200",
+        "heure": "10h28"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape a passé une bonne nuit à l'hôpital Gemelli",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/sante-du-pape-hopital-gemelli-evolution.html",
+        "resume": "La Salle de presse du Saint-Siège fait le point sur l'état de santé du Souverain pontife, hospitalisé à la polyclinique romaine. Elle informe, ce matin du jeudi 15 octobre, que Léon XIV «s'est levé et a pris",
+        "pub": "Thu, 15 Oct 2026 07:31:00 +0200",
+        "heure": "09h31"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Amoris laetitia: le Pape invite les participants à partager le fruit de leurs travaux",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/amoris-laetitia-rencontre-vatican-pape-leon-xiv-message.html",
+        "resume": "En convalescence à l’hôpital Gemelli, le Pape Léon XIV a adressé un message, daté du 13 octobre, aux participants à la rencontre organisée depuis une semaine au Vatican portant sur l’exhortation apostolique A",
+        "pub": "Wed, 14 Oct 2026 18:51:25 +0200",
+        "heure": "20h51"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Mgr Imbamba: «La famille, une école privilégiée de la foi et de l’amour»",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/mgr-imbamba-la-famille-une-ecole-privilegiee-de-la-foi.html",
+        "resume": "Les travaux réunissant à Rome les patriarches et présidents des Conférences épiscopales du monde entier, à l'occasion du dixième anniversaire d'Amoris Laetitia, se sont achevés ce mercredi 14 octobre. Pour le",
+        "pub": "Wed, 14 Oct 2026 17:08:00 +0200",
+        "heure": "19h08"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Depuis la place Saint-Pierre, les prières des fidèles montent pour Léon XIV",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-leon-priere-fideles-sante-place-saint-pierre.html",
+        "resume": "Au cours de la messe présidée ce matin, 14 octobre, par le cardinal Luis Antonio Tagle, à l’issue de la rencontre marquant le dixième anniversaire de l’exhortation apostolique Amoris laetitia, des fidèles du",
+        "pub": "Wed, 14 Oct 2026 16:58:00 +0200",
+        "heure": "18h58"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Évolution postopératoire normale: le Pape a recommencé à marcher",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-declaration-post-operatoire-mercredi-apres-midi.html",
+        "resume": "La Salle de presse du Saint-Siège fait le point sur l'état de santé de Léon XIV après l'intervention chirurgicale de ce mardi 13 octobre, visant à retirer un adénocarcinome pulmonaire. Selon les médecins, l'é",
+        "pub": "Wed, 14 Oct 2026 16:32:00 +0200",
+        "heure": "18h32"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Aux États-Unis, les chrétiens invitent à traiter les migrants avec humanité",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/etats-unis-appel-des-catholiques-et-evangeliques-migrants.html",
+        "resume": "Dans un document œcuménique, la Conférence épiscopale américaine et l’Association nationale des évangéliques appellent à faire preuve de «compassion et de sagesse» dans le débat sur l’immigration. Les mesures",
+        "pub": "Wed, 14 Oct 2026 13:13:00 +0200",
+        "heure": "15h13"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Amoris laetitia: la charité de l’amour, fondement de la famille",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/amoris-laetitia-messe-place-saint-pierre-pape-famille.html",
+        "resume": "Après une semaine de réflexions sur les enseignements d’Amoris laetitia, les patriarches et présidents des conférences épiscopales ont conclu leur rencontre par la célébration d’une messe place Saint-Pierre c",
+        "pub": "Wed, 14 Oct 2026 11:51:00 +0200",
+        "heure": "13h51"
+      },
       {
         "source": "Vatican News",
         "titre": "Le Pape a passé une nuit tranquille à l'hôpital Gemelli",
@@ -458,70 +522,6 @@
         "resume": "Dans ce pays andin, où la visite de Léon XIV est prévue du 11 au 17 novembre, un élan de solidarité très fort s’est manifesté pour la santé du Souverain pontife et s’exprime également à travers les fêtes reli",
         "pub": "Tue, 13 Oct 2026 15:22:00 +0200",
         "heure": "17h22"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "En prière pour la santé du Pape Léon XIV",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/chapelet-priere-sante-pape-leon-xiv-lourdes-marie-majeure.html",
-        "resume": "Un chapelet récité depuis la chapelle de la polyclinique Gemelli, animé par le cardinal vicaire de Rome Baldo Reina, en direct sur Radio Vatican; des prières des communautés augustiniennes et dans les églises",
-        "pub": "Tue, 13 Oct 2026 14:15:00 +0200",
-        "heure": "16h15"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Début de l’Année jubilaire de Guadalupe: le Pape invite à intensifier l’évangélisation",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/message-pape-leon-xiv-annee-jubiliaire-guadalupe-mexique.html",
-        "resume": "À l’occasion du 50e anniversaire de la consécration de la nouvelle basilique Notre-Dame de Guadalupe et du début de l’Année jubilaire de Guadalupe, Léon XIV encourage à intensifier la mission d’évangélisation",
-        "pub": "Tue, 13 Oct 2026 14:03:00 +0200",
-        "heure": "16h03"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "À l'hôpital Gemelli, les fidèles encouragent le Pape: «Nous sommes avec toi»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-hopital-gemelli-intervention-poumon.html",
-        "resume": "Arrivé à 13 h 07 à la polyclinique romaine pour une intervention chirurgicale visant à retirer un «nodule circonscrit au poumon», Léon XIV a été accueilli par des applaudissements, des cris et des marques d'a",
-        "pub": "Tue, 13 Oct 2026 13:59:00 +0200",
-        "heure": "15h59"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape à l'hôpital Gemelli pour une opération programmée",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-hospitalisation-gemelli.html",
-        "resume": "Selon un communiqué publié sur Telegram par la Salle de presse du Saint-Siège, Léon XIV s'est rendu ce mardi à l'hôpital universitaire Agostino Gemelli pour y être hospitalisé. Arrivé peu après 13h au centre",
-        "pub": "Tue, 13 Oct 2026 13:16:00 +0200",
-        "heure": "15h16"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Quand les Papes parlent de leur santé",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/papes-sante-histoire-maladie-priere.html",
-        "resume": "L’annonce faite par Léon XIV lors de l’Angélus du 11 octobre rappelle d’autres moments où les Souverains pontifes ont partagé leur fragilité avec les fidèles. Des remerciements de Paul VI avant son opération",
-        "pub": "Tue, 13 Oct 2026 10:57:00 +0200",
-        "heure": "12h57"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le cardinal Parolin salue Léon XIV avant son opération: «un exemple de grande sérénité»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/cardinal-pietro-parolin-sante-pape-leon-xiv-vatican-operation.html",
-        "resume": "En marge d'un colloque sur Jean-Paul Ier qui se tient ce mardi 13 octobre à l’Université pontificale grégorienne, à Rome, le secrétaire d’État du Saint-Siège s'est exprimé sur l'opération prochaine du Pape Lé",
-        "pub": "Tue, 13 Oct 2026 10:47:00 +0200",
-        "heure": "12h47"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La femme africaine, une voix à faire entendre au sein de l’Église",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/la-femme-africaine-une-voix-a-faire-entendre-dans-l-eglise.html",
-        "resume": "À l’occasion de son 10e anniversaire le 8 octobre 2026, l’Association des femmes au Vatican a organisé un colloque sur le thème: «l'histoire continue». Présentée par Dulce et Alícia, toutes deux journalistes",
-        "pub": "Tue, 13 Oct 2026 09:05:00 +0200",
-        "heure": "11h05"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L’Église en Afrique unie dans la prière pour la santé du Pape Léon XIV",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/sante-du-pape-leon-xiv-l-eglise-en-afrique-unie-dans-la-priere.html",
-        "resume": "Léon XIV sera admis ce mardi en fin de matinée à l’hôpital Gemelli où il doit être opéré d’un nodule pulmonaire. Annonçant lui-même cette intervention chirurgicale dimanche 11 octobre à l’issue de l’Angélus p",
-        "pub": "Tue, 13 Oct 2026 08:55:00 +0200",
-        "heure": "10h55"
       }
     ]
   }
