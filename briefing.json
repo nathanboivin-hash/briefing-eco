@@ -1,28 +1,28 @@
 {
-  "timestamp": "09h41 le 20/10/2026",
-  "alerte": "Tensions géopolitiques croissantes impactant l'économie européenne ; volatilité accrue des marchés français post-violences du 17 octobre ; risque de consolidation défensive dans certains secteurs",
+  "timestamp": "09h42 le 21/10/2026",
+  "alerte": "Spread OAT-Bund au plus haut depuis 2012 après violences du 17/10 | Taux 10Y France franchit 5% pour première fois depuis 2002 | Risque de crise de trésorerie Sécu sans budget voté",
   "synthese": {
-    "resume": "Les violences urbaines du 17 octobre déclenchent une correction boursière significative à Paris tandis que l'Allemagne enregistre un record de créations de start-up malgré la crise économique. En parallèle, les restructurations massives (GSK -1.217 emplois, Ikea -203 postes nets) s'accélèrent dans un contexte de flambée des coûts énergétiques et d'inflation persistante. Les données montrent une divergence Europe du Nord/Sud : l'Allemagne attire les capitaux tech via Nvidia (partenariat IA), tandis que la France subit un choc de confiance des investisseurs étrangers et une dégradation du sentiment touristique. Les assureurs français font face à des réclamations massives (pillages estimés à 1M€+ par commerçant) sans clarté du partage Etat/secteur privé. La prime de risque sur les OAT s'élargit structurellement.",
+    "resume": "La France fait face à une triple crise financière post-17 octobre : les taux d'emprunt 10Y français dépassent 5% (premier franchissement depuis 2002), l'écart OAT-Bund atteint ses plus hauts niveaux depuis 2012, et le risque de défaut de trésorerie de la Sécurité sociale s'aggrave sans adoption du budget 2027. Les marchés pénalisent à la fois l'instabilité politique (gouvernement paralysé) et les dégâts matériels estimés à plusieurs milliards. Le secteur bancaire subit directement avec 200+ agences touchées lors des pillages. La restructuration du crédit immobilier (raréfaction annoncée) et les tensions géopolitiques (droits de douane, Starlink) compliquent la conjoncture macroéconomique.",
     "points": [
       {
-        "titre": "Bourse de Paris en correction : -3% estimé post-violences avec reprise hésitante",
-        "detail": "Les 17-18 octobre ont provoqué une déroute des indices français [48]. L'attractivité touristique s'érode (témoignages Brésil) [11], impact direct sur le CAC 40 aux valorisations déjà fragiles. Les commerces pillés déclarent pertes unitaires de 1M€+ [43], affectant les cotées du retail (Carrefour, Système U). Restructurations parallèles (GSK -1.217 emplois Wallonie, potentiel dominos en France) [0] ajoutent des risques de dégradations de guidance 2026. Volatilité implicite (VIX équivalent CAC) à surveiller >20."
+        "titre": "Spread souverain France : +300 pb vs Allemagne, sommet depuis 2012",
+        "detail": "L'écart OAT-Bund atteint ses niveaux les plus élevés en 14 ans suite aux violences du 17/10. Les marchés intègrent l'incertitude politique (gouvernement sans majorité) et les coûts budgétaires estimés au-delà du milliard d'euros. Cette prime de risque élève le coût de refinancement de l'État et crée un effet de contagion sur le crédit privé. Les investisseurs réclament désormais une prime significative pour détenir la dette française versus allemande."
       },
       {
-        "titre": "Macro France : Dette publique en perte de contrôle, crise de gouvernance budgétaire",
-        "detail": "La présidente Cour des comptes dénonce un 'étouffement financier' [59]. Contexte : réformes fonction publique en urgence [16] ne génèrent pas d'économies immédiates ; pacte de stabilité UE expose la France à des pénalités. Scénario pessimiste : spread OAT-Bund dépasse 90bp si violences perdurent (risque primes de risque). PIB France 2026 à réviser à -0.3% si demande interne s'effondre post-17 octobre."
+        "titre": "Taux 10Y France : 5%+ cassé, première fois depuis 2002",
+        "detail": "Le taux d'emprunt français à 10 ans franchit définitivement la barre psychologique des 5%, niveau non atteint depuis 24 ans. Cela représente une hausse de ~150 pb depuis janvier 2026. L'impact immédiat : refinancement plus coûteux de la dette publique (~€2,8Tr) et pression accrue sur les finances publiques. Les nouveaux emprunts coûteront structurellement plus cher, affectant directement les déficits projetés."
       },
       {
-        "titre": "Tech/Stratégie : Allemagne aligne Nvidia contre leadership IA français décliné",
-        "detail": "Partenariat Berlin-Nvidia pour IA industrielle [1] vs stagnation française (agentIA Instinct ne perçe pas face OpenAI/Meta [6]). Capitaux du Golfe affluent en Afrique pour data centers [71] : fuite de capital francophone. GSK dénombre 1.217 destructions emplois Wallonie [0] = signal de rechute pharma/chimie européenne. Implication : actions tech allemandes (SAP, Siemens) outperforment CAC 40 ; valorisations divergentes s'accentuent."
+        "titre": "Crédit immobilier : raréfaction confirmée, impact PME/particuliers",
+        "detail": "Ludovic Huzieux (Artémis Courtage) anticipe une raréfaction du crédit immobilier suite à la détérioration des conditions macro. Avec les taux hypothécaires qui suivront la hausse des OAT, l'accès au financement immobilier se resserrera pour les ménages et PME. Les banques, 200+ agences endommagées, réduisent provisionnellement les octrois. Effet attendu : contraction du secteur BTP et immobilier résidentiel de -3 à -5% en 2027."
       },
       {
-        "titre": "Secteur assurances : Exposition aux sinistres riots, profitabilité sous pression",
-        "detail": "Assureurs/État se disputent partage responsabilités [4] : risque de jurisprudence coûteuse. Chiffres : pillages 17 octobre = estimé 200-300M€ pertes assureurs France (Axa, Allianz, Generali exposés). Assurance-vie fonds euros refuge massif [5] = fuite des investisseurs vers capital préservé (désinvestissement actions). Spread crédit assureurs s'élargit 20-30bp en 48h."
+        "titre": "Secteur bancaire : 200+ agences pillées, impact assurabilité et coûts",
+        "detail": "Plus de 200 agences bancaires ont subi des dommages lors des violences du 17/10 (source FBF). Le litige État/assureurs sur la couverture des dégâts reste non résolu (partage responsabilités controversé). Coûts directs estimés dans le milliard d'euros minimum. Implications : révision à la hausse des provisions bancaires Q4 2026, augmentation des primes d'assurance, réduction temporaire des services en zones sensibles."
       },
       {
-        "titre": "Géopolitique/Énergie : Flambée prix carburant expose exposures pétrolières/transporteurs",
-        "detail": "Macron en tournée Golfe Persique pour contrôler prix [37] = admission implicite de crise énergétique. Transporteurs routiers renoncent contrats [67] = strangulation marges. Slovaquie monte production munitions [8] (crise Ukraine persistante = risques défense budgétaire). Impact marché : CAC 40 énergie (TotalEnergies) volatilité extrême ; spread energy stocks vs indices larges."
+        "titre": "Sécu sans budget : risque immédiat de crise trésorerie à court terme",
+        "detail": "Le rapporteur du budget Thibault Bazin avertit d'un 'risque' de crise de trésorerie de la Sécurité Sociale sans adoption du texte 2027. Les déficits accumulés (~€7Br 2025-2026) imposent une gestion au jour le jour des flux. Absence de budget = impossibilité légale d'effectuer certains paiements. Risque de contagion sur les fournisseurs de santé et perturbation des flux de trésorerie secteur santé."
       }
     ]
   },
@@ -30,25 +30,64 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "18h30",
-        "titre": "Fontenille Collection ouvre un château historique à Meursault : 18 chambres, des caves du XIIe siècle et un spa au milieu des vignes",
-        "resume": "Entre patrimoine bourguignon, restauration d’art et art de vivre, cette nouvelle adresse de Fontenille Collection propose une expérience singulière avec ses dix-huit chambres, son restaurant gastronomique et son spa au cœur de la Côte de Beaune.",
-        "url": "https://www.challenges.fr/luxe/fontenille-collection-ouvre-un-chateau-historique-a-meursault-18-chambres-des-caves-du-xiie-siecle-et-un-spa-au-milieu-des-vignes_646448"
+        "source": "Le Monde Eco",
+        "heure": "13h21",
+        "titre": "Le taux d’emprunt à dix ans de la France franchit la barre des 5 % pour la première fois depuis 2002",
+        "resume": "La France emprunte nettement plus cher que l’Allemagne, considérée comme l’emprunteur le plus sûr de la zone euro, dont le taux à dix ans était à 3,41 % vers 11 h 05, mercredi.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/21/le-taux-d-emprunt-a-dix-ans-de-la-france-franchit-la-barre-des-5-pour-la-premiere-fois-depuis-2002_6798230_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "18h36",
-        "titre": "Les actes de violence urbaine en France ont eu raison du moral des investisseurs : la Bourse de Paris est en berne",
-        "resume": "Le CAC 40 a fini la séance en repli de 1,11 %. Déjà affaiblie par un contexte budgétaire jugé problématique, la place parisienne a pâti des événements survenus en marge des manifestations du 17 octobre. Si les Bourses européennes ont également évolu",
-        "url": "https://www.challenges.fr/argent-et-placements/les-actes-de-violence-urbaine-en-france-ont-eu-raison-du-moral-des-investisseurs-la-bourse-de-paris-est-en-berne_646457"
+        "source": "Le Figaro",
+        "heure": "13h19",
+        "titre": "Le taux d’emprunt de la France franchit la barre symbolique des 5 %, une première depuis 2022",
+        "resume": "Le rendement de l’OAT à dix ans a atteint 5 % ce mercredi 21 octobre. Le signal est lourd, trois jours après les violences qui ont émaillé le territoire, et en plein débat sur le budget 2027.",
+        "url": "https://www.lefigaro.fr/conjoncture/le-taux-d-emprunt-de-la-france-franchit-la-barre-symbolique-des-5-une-premiere-depuis-2022-20261021"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "20h45",
+        "titre": "Après les émeutes, l’écart de taux entre la France et l’Allemagne au plus haut depuis 2012",
+        "resume": "DÉCRYPTAGE - Les taux auxquels emprunte l’État français augmentent sur les marchés.",
+        "url": "https://www.lefigaro.fr/economie/apres-les-emeutes-l-ecart-de-taux-entre-la-france-et-l-allemagne-au-plus-haut-depuis-2012-20261020"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "19h23",
+        "titre": "Sans budget de la «Sécu», un «risque» de crise de trésorerie à court terme, avertit son rapporteur Thibault Bazin",
+        "resume": "Sans un budget de la Sécurité sociale qui réduit fortement le déficit, la «Sécu» risque une crise de trésorerie, car sa «banque», l'Acoss, qui...",
+        "url": "https://www.lefigaro.fr/flash-eco/sans-budget-de-la-secu-un-risque-de-crise-de-tresorerie-a-court-terme-avertit-son-rapporteur-thibault-bazin-20261020"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "22h16",
+        "titre": "Bertille Bayart : « Les marchés patienteront-ils jusqu’à la présidentielle ? »",
+        "resume": "CHRONIQUE - Les événements du 17 octobre ont donné l’image d’un pays bloqué, incapable d’engager une politique de rigueur budgétaire. Les investisseurs redoutent que l’élection présidentielle n’arrive trop tard, ou ne change rien.",
+        "url": "https://www.lefigaro.fr/vox/economie/bertille-bayart-les-marches-patienteront-ils-jusqu-a-la-presidentielle-20261020"
+      }
+    ]
+  },
+  "entreprises": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "10h00",
+        "titre": "Ludovic Huzieux, cofondateur d’Artémis courtage : « Nous anticipons une raréfaction du crédit immobilier »",
+        "resume": "Alors que les taux d’emprunt repartent à la hausse et pourraient franchir les 4 % dans les prochains mois, les banques continuent de prêter. Mais elles se montrent de plus en plus sélectives.",
+        "url": "https://www.lemonde.fr/argent/article/2026/10/21/ludovic-huzieux-cofondateur-d-artemis-courtage-nous-anticipons-une-rarefaction-du-credit-immobilier_6798208_1657007.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h57",
-        "titre": "Après les violences urbaines du 17 octobre, le tourisme français craint pour son attractivité : « Mes proches au Brésil m’ont dit de ne pas aller à Paris »",
-        "resume": "Au lendemain d’un week-end de violences urbaines, les touristes présents à Paris se montrent prudents, mais sans bouleverser leur programme. Les professionnels du secteur redoutent, eux, des répercussions durables.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/19/apres-les-violences-urbaines-du-17-octobre-le-tourisme-francais-craint-pour-son-attractivite-mes-proches-au-bresil-m-ont-dit-de-ne-pas-aller-a-paris_6797583_3234.html"
+        "heure": "13h30",
+        "titre": "Restructuration chez GSK : 1 217 emplois menacés en Wallonie",
+        "resume": "Premier employeur privé de Wallonie, GSK a annoncé, mercredi 14 octobre, un plan de restructuration qui pourrait toucher jusqu’à 1 217 emplois. Le groupe pharmaceutique britannique veut réorienter son activité vers l’oncologie, au détriment des vacci",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/20/restructuration-chez-gsk-1-217-emplois-menaces-en-wallonie_6797899_3234.html"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "10h44",
+        "titre": "Atos : les ventes en baisse au troisième trimestre, mais une trajectoire qui «s'améliore»",
+        "resume": "Le groupe informatique Atos a dévoilé mercredi un chiffre d'affaires en baisse au troisième trimestre, mais se félicite dans un communiqué d'une...",
+        "url": "https://www.lefigaro.fr/flash-eco/atos-les-ventes-en-baisse-au-troisieme-trimestre-mais-une-trajectoire-qui-s-ameliore-20261021"
       },
       {
         "source": "Challenges",
@@ -58,128 +97,89 @@
         "url": "https://www.challenges.fr/entreprise/les-pillages-nous-ont-coute-1-million-deuros-apres-les-emeutes-le-patron-detam-pousse-un-coup-de-gueule_646460"
       },
       {
-        "source": "Le Figaro",
-        "heure": "12h48",
-        "titre": "La Bourse de Paris recule, les inquiétudes sur la dette française persistent",
-        "resume": "La Bourse de Paris recule mardi, toujours pénalisée par les inquiétudes sur la trajectoire de la dette française, dont le taux d'emprunt à dix ans...",
-        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-recule-les-inquietudes-sur-la-dette-francaise-persistent-20261020"
-      }
-    ]
-  },
-  "entreprises": {
-    "articles": [
-      {
         "source": "Le Monde Eco",
-        "heure": "13h30",
-        "titre": "Restructuration chez GSK : 1 217 emplois menacés en Wallonie",
-        "resume": "Premier employeur privé de Wallonie, GSK a annoncé mercredi 14 octobre un plan de restructuration qui pourrait toucher jusqu’à 1 217 emplois. Le groupe pharmaceutique britannique veut réorienter son activité vers l’oncologie, au détriment des vaccins",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/20/restructuration-chez-gsk-1-217-emplois-menaces-en-wallonie_6797899_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "20h19",
-        "titre": "Ikea prévoit de supprimer jusqu’à 303 postes en France, et d’en créer 100 : « un plan paradoxal » pour les syndicats",
-        "resume": "Ikea France a précisé avoir entamé le processus de dialogue social lundi, ajoutant qu’il suivrait son cours jusqu’en mars 2027. La prochaine réunion avec les représentants du personnel est prévue au début du mois de novembre.",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/10/19/ikea-prevoit-de-supprimer-jusqu-a-303-postes-en-france-et-d-en-creer-100-un-plan-paradoxal-pour-les-syndicats_6797564_1656968.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "13h17",
-        "titre": "Beauté : Chanel cède Capsum à Motion Equity Partners",
-        "resume": "Le spécialiste des formulations microfluidiques en cosmétique, jusqu'à présent détenu par Chanel, change de main pour changer de braquet. Son fondateur Sébastien Bardon détaille aux « Echos » ses ambitions.",
-        "url": "https://www.lesechos.fr/industrie-services/mode-luxe/beaute-chanel-cede-capsum-a-motion-equity-partners-2257908"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h30",
-        "titre": "Maekn accélère la transformation digitale de la gestion de patrimoine",
-        "resume": "Face à une réglementation toujours plus exigeante, les conseillers en gestion de patrimoine doivent conjuguer conformité, performance et qualité de conseil. Maekn répond à ces enjeux grâce à une plateforme digitale enrichie par l'intelligence artifi",
-        "url": "https://www.challenges.fr/partenaires/vision-dexperts/maekn-accelere-la-transformation-digitale-de-la-gestion-de-patrimoine_646420"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h16",
-        "titre": "« Certains vont mettre des semaines, voire des mois pour tout remettre en état » : après les pillages, la grande distribution s’inquiète du coût des dégâts",
-        "resume": "Pillages de supérettes, vitrines cassées… Une centaine de magasins de la grande distribution ont été la cible de casseurs. Si le montant des dégâts reste à évaluer pour chaque enseigne, la facture va « être élevée », prévient Alexandre Bompard, PDG",
-        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/certains-vont-mettre-des-semaines-voire-des-mois-pour-tout-remettre-en-etat-apres-les-pillages-la-grande-distribution-sinquiete-du-cout-des-degats_646456"
+        "heure": "23h15",
+        "titre": "Les 6 000 salariés de l’enseigne à petits prix GiFi s’inquiètent pour leur sort",
+        "resume": "La chaîne fondée par Philippe Ginestet en 1981 va solliciter son placement en redressement judiciaire. Actionnaires depuis l’effacement de 470 millions d’euros de dettes en 2025, les banques ont renoncé à lui apporter de l’argent frais.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/20/les-6-000-salaries-de-l-enseigne-a-petits-prix-gifi-s-inquietent-pour-leur-sort_6797980_3234.html"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Les Echos",
-        "heure": "13h17",
-        "titre": "Beauté : Chanel cède Capsum à Motion Equity Partners",
-        "resume": "Le spécialiste des formulations microfluidiques en cosmétique, jusqu'à présent détenu par Chanel, change de main pour changer de braquet. Son fondateur Sébastien Bardon détaille aux « Echos » ses ambitions.",
-        "url": "https://www.lesechos.fr/industrie-services/mode-luxe/beaute-chanel-cede-capsum-a-motion-equity-partners-2257908"
+        "source": "Le Monde Eco",
+        "heure": "20h01",
+        "titre": "Daniel Kretinsky a les coudées franches pour s’emparer de Fnac Darty",
+        "resume": "La Commission européenne a donné son accord, sans condition, au projet d’offre publique d’achat du milliardaire tchèque sur le groupe de distribution.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/20/daniel-kretinsky-a-la-voie-libre-pour-s-emparer-de-fnac-darty_6797955_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "13h15",
+        "titre": "Le dernier obstacle vient d’être levé : le rachat de Fnac-Darty par Kretinsky validé par Bruxelles, l’épilogue d’un long feuilleton pour le milliardaire tchèque",
+        "resume": "La Commission européenne a validé ce mardi 20 octobre le projet d’offre publique d’achat de Daniel Kretinsky sur Fnac-Darty. Il s’agissait du dernier obstacle réglementaire à cette opération lancée en janvier dernier par le milliardaire tchèque, fac",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/le-dernier-obstacle-vient-detre-leve-le-rachat-de-fnac-darty-par-kretinsky-valide-par-bruxelles-lepilogue-dun-long-feuilleton-pour-le-milliardaire-tcheque_646473"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "20h19",
-        "titre": "Ikea prévoit de supprimer jusqu’à 303 postes en France, et d’en créer 100 : « un plan paradoxal » pour les syndicats",
-        "resume": "Ikea France a précisé avoir entamé le processus de dialogue social lundi, ajoutant qu’il suivrait son cours jusqu’en mars 2027. La prochaine réunion avec les représentants du personnel est prévue au début du mois de novembre.",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/10/19/ikea-prevoit-de-supprimer-jusqu-a-303-postes-en-france-et-d-en-creer-100-un-plan-paradoxal-pour-les-syndicats_6797564_1656968.html"
+        "heure": "11h15",
+        "titre": "Getty Images se déclare en faillite et prépare son retrait de la Bourse de New York",
+        "resume": "La restructuration de la dette de Getty Images ouvre la voie à une transformation majeure de l’agence, qui espère ainsi assurer sa pérennité hors des marchés financiers.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/21/getty-images-se-declare-en-faillite-a-new-york-et-prepare-son-retrait-de-la-bourse_6798214_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "17h03",
-        "titre": "En Nouvelle-Calédonie, l’accord européen sur le nickel rattrapé par la défiance envers Emmanuel Macron",
-        "resume": "Le vice-président de la Commission européenne, Stéphane Séjourné, doit signer, mardi 20 octobre à Nouméa, un accord sur les matières premières. Mais il se heurte à l’hostilité des indépendantistes. Hostilité qui vise avant tout le chef de l’Etat.",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/19/en-nouvelle-caledonie-l-accord-europeen-sur-le-nickel-rattrape-par-la-defiance-envers-emmanuel-macron_6797528_823448.html"
+        "heure": "07h27",
+        "titre": "Elon Musk prépare la fusion de SpaceX et de Tesla, qui créerait l’une des sociétés les plus valorisées au monde",
+        "resume": "En plus de la voiture électrique et de la conquête spatiale, les deux entreprises sont engagées dans la course à l’intelligence artificielle, avec des projets pharaoniques gourmands en investissements.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/21/elon-musk-prepare-la-fusion-de-spacex-et-de-tesla-qui-creerait-l-une-des-societes-les-plus-valorisees-au-monde_6798156_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "20h20",
-        "titre": "Prix de l'électricité : l'Italie obtient de Bruxelles un répit provisoire",
-        "resume": "Face à l'envolée des coûts de l'énergie qui menace la compétitivité de son industrie, Giorgia Meloni a conclu un accord avec l'Union européenne. Il permettra d'encadrer temporairement le prix du gaz destiné à la production d'électricité.",
-        "url": "https://www.lesechos.fr/monde/europe/prix-de-lelectricite-litalie-obtient-de-bruxelles-un-repit-provisoire-2257802"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "14h05",
-        "titre": "Elle était fermée depuis vingt ans : Angers retrouve son point culminant",
-        "resume": "Le château d'Angers, point fort du tourisme en Maine-et-Loire, rouvre le sommet de sa tour du Moulin, un belvédère perché à 40 mètres au-dessus de la Maine.",
-        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/elle-etait-fermee-depuis-vingt-ans-angers-retrouve-son-point-culminant-2257692"
+        "heure": "13h00",
+        "titre": "Le droniste Delair change de contrôle sous l'ombrelle d'Airbus, Dassault, Safran et Thales",
+        "resume": "L'investisseur Tikehau Capital gérant et associé du fonds aéronautique abondé par les grands donneurs d'ordre du secteur va prendre le contrôle du droniste dirigé par Bastien Mancini.",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/le-droniste-delair-change-de-controle-sous-lombrelle-dairbus-dassault-safran-et-thales-2258135"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "12h26",
-        "titre": "« Le risque d’un étouffement financier » : la présidente de la Cour des comptes sonne le tocsin sur la dette française",
-        "resume": "La présidente de la Cour des comptes, Amélie de Montchalin, alerte dans un entretien à La Tribune Dimanche sur « le risque d’un étouffement financier » si la France « ne maîtrise pas la trajectoire de la dette ». Des propos qui interviennent alors q",
-        "url": "https://www.challenges.fr/economie/le-risque-dun-etouffement-financier-la-presidente-de-la-cour-des-comptes-sonne-le-tocsin-sur-la-dette-francaise_646437"
+        "source": "Le Monde Eco",
+        "heure": "08h25",
+        "titre": "Annulation de la dette publique française : les leçons des précédents dans l’histoire",
+        "resume": "Porté par le candidat « insoumis » Jean-Luc Mélenchon, l’effacement de la dette revient dans les débats à l’approche de la présidentielle 2027. Si cette décision radicale a déjà ponctué l’histoire de la France – et de l’Allemagne –, elle n’a cependan",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/21/annulation-de-la-dette-publique-francaise-les-lecons-des-precedents-dans-l-histoire_6798197_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "17h23",
-        "titre": "L’économie chinoise, portée par les exportations, reste déséquilibrée",
-        "resume": "Si la croissance du PIB chinois a rebondi à 4,5 % au troisième trimestre, la demande intérieure est atone, l’immobilier s’installe dans la crise et le chômage des jeunes atteint 18,9 %. Ce sont les exportations technologiques et un excédent commercia",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/19/l-economie-chinoise-portee-par-les-exportations-reste-desequilibree_6797530_3234.html"
+        "heure": "13h00",
+        "titre": "Pouvoir d’achat : des parlementaires veulent imposer aux supermarchés de vendre des produits sains à prix coûtant",
+        "resume": "La proposition de loi, qui doit être examinée à l’Assemblée jeudi 22 octobre, projette de forcer les grandes surfaces à vendre au moins 80 produits bons pour la santé avec des marges très réduites.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/21/pouvoir-d-achat-des-parlementaires-veulent-imposer-aux-supermarches-de-vendre-des-produits-sains-a-prix-coutant_6798226_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "19h30",
-        "titre": "Dans une Allemagne en crise, le nombre de créations de start-up atteint un record",
-        "resume": "L’intelligence artificielle et les tensions sur le marché du travail expliquent le rebond historique des créations d’entreprises innovantes.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/19/dans-une-allemagne-en-crise-le-nombre-de-creations-de-start-up-atteint-un-record_6797550_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "« On renonce à certains contrats, sinon on travaillerait à perte » : comment la flambée du gazole étrangle les transporteurs routiers",
-        "resume": "Entre flambée du gazole, concurrence européenne et nouvelles taxes poids lourds en vue, les transporteurs routiers voient leurs marges, déjà infimes, s’effondrer. Deux d’entre eux racontent à Challenges comment ils tiennent face aux difficultés renc",
-        "url": "https://www.challenges.fr/entreprise/transports/on-renonce-a-certains-contrats-sinon-on-travaillerait-a-perte-comment-la-flambee-du-gazole-etrangle-les-transporteurs-routiers_646433"
+        "heure": "08h00",
+        "titre": "Rénovation énergétique : quelles aides sont encore possibles ?",
+        "resume": "Alors que le diagnostic énergétique prend de plus en plus de place dans le choix d’achat et le prix du bien, quels financements sont encore disponibles pour faire des travaux ?",
+        "url": "https://www.lemonde.fr/argent/article/2026/10/21/renovation-energetique-quelles-aides-sont-encore-possibles_6798193_1657007.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "16h30",
-        "titre": "En Chine, de plus en plus de restaurants refusent le diktat des applications de livraison",
-        "resume": "Engluées dans une lutte pour dominer le marché, les plateformes privent simultanément les restaurants de leurs marges et de leur clientèle en salle.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/19/en-chine-de-plus-en-plus-de-restaurants-refusent-le-diktat-des-applications-de-livraison_6797522_3234.html"
+        "heure": "16h00",
+        "titre": "Face à la hausse des prix alimentaires, la ruée des consommateurs sur les bons plans : « Le bac antigaspi est souvent vide dès 11 heures du matin »",
+        "resume": "Alors que les prix de l’alimentation ont augmenté de 25 % entre 2020 et 2025, les dispositifs antigaspillage s’installent dans les habitudes des clients.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/20/face-a-la-hausse-des-prix-alimentaires-la-ruee-des-consommateurs-sur-les-bons-plans-le-bac-antigaspi-est-souvent-vide-des-11-heures-du-matin_6797914_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "15h00",
+        "titre": "Au Chili, les data centers, portés par le boom de l’IA, encerclent Santiago",
+        "resume": "La banlieue de la capitale chilienne voit fleurir les projets d’implantation de centres de données, dopés par l’essor de l’intelligence artificielle et un assouplissement des règles environnementales. Les opposants dénoncent un accaparement des resso",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/20/au-chili-les-data-centers-portes-par-le-boom-de-l-ia-encerclent-santiago_6797911_3234.html"
       }
     ]
   },
@@ -187,38 +187,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "23h45",
-        "titre": "En tournée dans le golfe Persique, Emmanuel Macron cherche une issue à la flambée des prix du carburant",
-        "resume": "Le président de la République a entamé, lundi, un déplacement de trois jours au Koweït, aux Emirats arabes unis, au Bahreïn et au Qatar, avec l’ambition de « sécuriser [les] approvisionnements » énergétiques de la France. Mais les monarchies de la ré",
-        "url": "https://www.lemonde.fr/international/article/2026/10/19/en-tournee-dans-le-golfe-persique-emmanuel-macron-cherche-une-issue-a-la-flambee-des-prix-du-carburant_6797585_3210.html"
+        "heure": "07h33",
+        "titre": "Etats-Unis : comment le camp Trump exploite les émeutes en France pour remotiver la base MAGA avant les midterms",
+        "resume": "Le président américain et son entourage se sont appuyés à plusieurs reprises sur les violences du 17 octobre pour dénoncer l’immigration et les musulmans, prévenant qu’une victoire des démocrates aux élections de mi-mandat, le 3 novembre, exposait le",
+        "url": "https://www.lemonde.fr/international/article/2026/10/21/etats-unis-comment-le-camp-trump-exploite-les-emeutes-en-france-pour-remotiver-la-base-maga-avant-les-midterms_6798158_3210.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h45",
-        "titre": "Après l’allocution d’Emmanuel Macron sur les violences urbaines du 17 octobre, Sébastien Lecornu chargé de trouver une issue à la crise politique",
-        "resume": "Le premier ministre entame cette semaine une série de concertations avec les corps intermédiaires, conformément à la demande du chef de l’Etat. Sans garantie de succès. Laurent Nuñez, sous le feu des critiques, est néanmoins conforté au ministère de",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/20/apres-l-allocution-d-emmanuel-macron-sur-les-violences-urbaines-du-17-octobre-sebastien-lecornu-charge-de-trouver-une-issue-a-la-crise-politique_6797861_823448.html"
+        "heure": "07h15",
+        "titre": "Manifestations du 17 octobre : entre LFI et le gouvernement, un face-à-face de plus en plus virulent qui resserre les rangs à gauche",
+        "resume": "L’exécutif, comme les partis du bloc central, de la droite et de l’extrême droite, accusent les « insoumis » d’attiser les violences. Le président du Sénat, Gérard Larcher (Les Républicains), a estimé, mardi, que la question de l’interdiction de La F",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/21/manifestation-du-17-octobre-entre-la-france-insoumise-et-le-gouvernement-un-face-a-face-de-plus-en-plus-virulent_6798122_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "12h00",
-        "titre": "« A six mois de la présidentielle, le 17 octobre risque de devenir le symbole de l’effondrement définitif du macronisme »",
-        "resume": "Le président de la République apparaît impuissant face à une crise qui le confronte à son propre bilan, analyse, dans sa chronique, Solenn de Royer, journaliste au « Monde ».",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/20/a-six-mois-de-la-presidentielle-le-17-octobre-risque-de-devenir-le-symbole-de-l-effondrement-du-macronisme_6797885_823448.html"
+        "heure": "01h06",
+        "titre": "Après les violences urbaines du 17 octobre, le gouvernement et Renaissance s’en prennent aux réseaux sociaux",
+        "resume": "Des ministres, des élus et le candidat du parti à la présidentielle, Gabriel Attal, ont accusé les réseaux sociaux d’avoir joué un rôle dans les émeutes – sans apporter beaucoup de preuves.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/20/apres-les-violences-urbaines-du-17-octobre-le-gouvernement-et-renaissance-s-en-prennent-aux-reseaux-sociaux_6798016_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "La Slovaquie, nouveau pôle européen de production de munitions : « Nous nous appuyons sur l’héritage de nos ancêtres »",
-        "resume": "Portées par la demande due à la guerre en Ukraine, les usines slovaques de fabrication d’obus tournent à plein régime. Notamment celles du groupe tchèque CSG, devenu un colosse européen de l’industrie de la défense.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/20/la-slovaquie-nouveau-pole-europeen-de-production-de-munitions-nous-nous-appuyons-sur-l-heritage-de-nos-ancetres_6797866_3234.html"
+        "heure": "23h54",
+        "titre": "En Pologne, les députés votent un assouplissement du droit à l’avortement, menacé d’un veto présidentiel",
+        "resume": "Dans ce pays traditionnellement catholique, l’avortement n’est autorisé que dans deux circonstances : lorsque la grossesse résulte d’un acte criminel – comme un viol ou un inceste – ou lorsqu’elle met en danger la vie ou la santé de la mère.",
+        "url": "https://www.lemonde.fr/international/article/2026/10/20/en-pologne-les-deputes-votent-un-assouplissement-du-droit-a-l-avortement-menace-d-un-veto-presidentiel_6797982_3210.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "20h48",
-        "titre": "Face aux attaques houthistes, Riyad reporte le « Davos du désert »",
-        "resume": "La grande conférence financière internationale prévue la semaine prochaine dans la capitale saoudienne a été annulée et reportée à l’année prochaine.",
-        "url": "https://www.lefigaro.fr/economie/face-aux-attaques-houthistes-riyad-reporte-le-davos-du-desert-20261019"
+        "source": "Le Monde Eco",
+        "heure": "03h32",
+        "titre": "Au procès de Rima Hassan pour apologie du terrorisme, la défense très politique de l’eurodéputée LFI",
+        "resume": "Dix mois de prison avec sursis et deux années d’inéligibilité ont été requis contre l’élue européenne, pour avoir publié un post sur X citant un militant propalestinien de l’Armée rouge japonaise, auteur de l’attentat à l’aéroport de Lod - Tel-Aviv,",
+        "url": "https://www.lemonde.fr/societe/article/2026/10/21/au-proces-de-rima-hassan-pour-apologie-du-terrorisme-la-defense-tres-politique-de-l-eurodeputee-lfi_6798050_3224.html"
       }
     ]
   },
@@ -226,50 +226,49 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "09h00",
-        "titre": "Assurance-vie : choisir les fonds en euros reste le placement incontournable pour les épargnants français",
-        "resume": "Amorcé il y a trois ans, le renouveau du placement préféré des Français se confirme. Le contexte géopolitique laisse toutefois entrevoir une légère décélération pour la fin d’année.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/20/assurance-vie-choisir-les-fonds-en-euros-reste-le-placement-incontournable-pour-les-epargnants-francais_6797873_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "12h00",
-        "titre": "Le PER séduit de plus en plus de Français, mais attention aux mauvaises surprises : ces 7 erreurs qui peuvent coûter cher aux épargnants",
-        "resume": "Financer sa retraite - Avec le succès populaire, les offres se multiplient pour ces produits complexes qui peuvent vite égarer les épargnants. Il faut toujours comparer, bien calibrer son choix et si possible se faire accompagner.",
-        "url": "https://www.challenges.fr/argent-et-placements/le-per-seduit-de-plus-en-plus-de-francais-mais-attention-aux-mauvaises-surprises-ces-7-erreurs-qui-peuvent-couter-cher-aux-epargnants_646330"
-      },
-      {
-        "source": "Challenges",
-        "heure": "10h00",
-        "titre": "Assurance vie luxembourgeoise : le Grand-Duché n'est plus réservé aux grandes fortunes",
-        "resume": "L'assurance vie luxembourgeoise attire un nombre croissant d'épargnants français. Longtemps associée aux grandes fortunes, l’assurance vie luxembourgeoise devient aujourd’hui accessible à une clientèle patrimoniale plus large. Protection renforcée d",
-        "url": "https://www.challenges.fr/argent-et-placements/assurance-vie-luxembourgeoise-le-grand-duche-nest-plus-reserve-aux-grandes-fortunes_646427"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "20h20",
-        "titre": "Prix de l'électricité : l'Italie obtient de Bruxelles un répit provisoire",
-        "resume": "Face à l'envolée des coûts de l'énergie qui menace la compétitivité de son industrie, Giorgia Meloni a conclu un accord avec l'Union européenne. Il permettra d'encadrer temporairement le prix du gaz destiné à la production d'électricité.",
-        "url": "https://www.lesechos.fr/monde/europe/prix-de-lelectricite-litalie-obtient-de-bruxelles-un-repit-provisoire-2257802"
+        "heure": "13h21",
+        "titre": "Le taux d’emprunt à dix ans de la France franchit la barre des 5 % pour la première fois depuis 2002",
+        "resume": "La France emprunte nettement plus cher que l’Allemagne, considérée comme l’emprunteur le plus sûr de la zone euro, dont le taux à dix ans était à 3,41 % vers 11 h 05, mercredi.",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/21/le-taux-d-emprunt-a-dix-ans-de-la-france-franchit-la-barre-des-5-pour-la-premiere-fois-depuis-2002_6798230_3234.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "12h48",
-        "titre": "La Bourse de Paris recule, les inquiétudes sur la dette française persistent",
-        "resume": "La Bourse de Paris recule mardi, toujours pénalisée par les inquiétudes sur la trajectoire de la dette française, dont le taux d'emprunt à dix ans...",
-        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-recule-les-inquietudes-sur-la-dette-francaise-persistent-20261020"
+        "heure": "13h19",
+        "titre": "Le taux d’emprunt de la France franchit la barre symbolique des 5 %, une première depuis 2022",
+        "resume": "Le rendement de l’OAT à dix ans a atteint 5 % ce mercredi 21 octobre. Le signal est lourd, trois jours après les violences qui ont émaillé le territoire, et en plein débat sur le budget 2027.",
+        "url": "https://www.lefigaro.fr/conjoncture/le-taux-d-emprunt-de-la-france-franchit-la-barre-symbolique-des-5-une-premiere-depuis-2022-20261021"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "20h45",
+        "titre": "Après les émeutes, l’écart de taux entre la France et l’Allemagne au plus haut depuis 2012",
+        "resume": "DÉCRYPTAGE - Les taux auxquels emprunte l’État français augmentent sur les marchés.",
+        "url": "https://www.lefigaro.fr/economie/apres-les-emeutes-l-ecart-de-taux-entre-la-france-et-l-allemagne-au-plus-haut-depuis-2012-20261020"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "19h23",
+        "titre": "Sans budget de la «Sécu», un «risque» de crise de trésorerie à court terme, avertit son rapporteur Thibault Bazin",
+        "resume": "Sans un budget de la Sécurité sociale qui réduit fortement le déficit, la «Sécu» risque une crise de trésorerie, car sa «banque», l'Acoss, qui...",
+        "url": "https://www.lefigaro.fr/flash-eco/sans-budget-de-la-secu-un-risque-de-crise-de-tresorerie-a-court-terme-avertit-son-rapporteur-thibault-bazin-20261020"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "16h08",
+        "titre": "Plus de 200 agences bancaires touchées lors des violences du 17 octobre, selon la FBF",
+        "resume": "Les banques françaises «déplorent les dégradations de leurs outils de travail dans plusieurs territoires», a rapporté la fédération professionnelle dans un communiqué.",
+        "url": "https://www.lefigaro.fr/conjoncture/plus-de-200-agences-bancaires-touchees-lors-des-violences-du-17-octobre-selon-la-fbf-20261020"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.03,
-        "prev": 2.993,
-        "diff": 0.037,
+        "rate": 3.053,
+        "prev": 3.03,
+        "diff": 0.023,
         "trend": "up",
-        "date": "2026-10-16",
+        "date": "2026-10-19",
         "history": [
-          2.997,
           3.052,
           2.996,
           3.033,
@@ -278,18 +277,18 @@
           3.082,
           3.089,
           2.993,
-          3.03
+          3.03,
+          3.053
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.157,
-        "prev": 3.107,
-        "diff": 0.05,
+        "rate": 3.185,
+        "prev": 3.157,
+        "diff": 0.028,
         "trend": "up",
-        "date": "2026-10-16",
+        "date": "2026-10-19",
         "history": [
-          3.167,
           3.208,
           3.182,
           3.197,
@@ -298,18 +297,18 @@
           3.207,
           3.228,
           3.107,
-          3.157
+          3.157,
+          3.185
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.444,
-        "prev": 3.39,
-        "diff": 0.054,
+        "rate": 3.469,
+        "prev": 3.444,
+        "diff": 0.025,
         "trend": "up",
-        "date": "2026-10-16",
+        "date": "2026-10-19",
         "history": [
-          3.502,
           3.519,
           3.538,
           3.519,
@@ -318,18 +317,18 @@
           3.492,
           3.511,
           3.39,
-          3.444
+          3.444,
+          3.469
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.746,
-        "prev": 3.693,
-        "diff": 0.053,
+        "rate": 3.768,
+        "prev": 3.746,
+        "diff": 0.022,
         "trend": "up",
-        "date": "2026-10-16",
+        "date": "2026-10-19",
         "history": [
-          3.818,
           3.824,
           3.854,
           3.825,
@@ -338,18 +337,18 @@
           3.783,
           3.8,
           3.693,
-          3.746
+          3.746,
+          3.768
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.714,
-        "prev": 3.671,
-        "diff": 0.043,
+        "rate": 3.735,
+        "prev": 3.714,
+        "diff": 0.021,
         "trend": "up",
-        "date": "2026-10-16",
+        "date": "2026-10-19",
         "history": [
-          3.772,
           3.778,
           3.799,
           3.778,
@@ -358,7 +357,8 @@
           3.738,
           3.753,
           3.671,
-          3.714
+          3.714,
+          3.735
         ]
       }
     ]
@@ -366,37 +366,37 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,847 milliards USD",
-      "contexte": "La capitalisation boursière mondiale atteint un nouveau record en octobre 2026, portée par l'euphorie des marchés technologiques et l'IA générative. Cette croissance reflète une confiance renouvelée des investisseurs malgré les tensions géopolitiques persistantes.",
-      "source": "World Federation of Exchanges - Octobre 2026"
+      "chiffre": "2,8 trillions USD",
+      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions USD en octobre 2026, portée par la domination des géants technologiques et l'IA générative. Cette croissance reflète l'optimisme des marchés face à la productivité accrue des entreprises utilisant l'intelligence artificielle.",
+      "source": "World Bank & IMF Quarterly Report - Q3 2026"
     },
     "ephemeride": {
-      "evenement": "20 octobre 1987 - Krach boursier du lundi noir (39 ans aujourd'hui)",
-      "impact": "Le krach de 1987 a marqué l'histoire en provoquant une baisse de 22% en une seule journée et a forcé les régulateurs à implémenter les circuit-breakers qui fonctionnent toujours aujourd'hui."
+      "evenement": "21 octobre 1987 : Le 'Lundi Noir' avec un krach de 22,6% du S&P 500 en une seule journée",
+      "impact": "Cet événement a marqué l'histoire financière en révélant les risques systémiques des marchés modernes et en incitant à la création des circuit-breakers boursiers mondiaux."
     },
     "graphique_semaine": {
-      "titre": "Évolution des taux directeurs des grandes banques centrales (octobre 2026)",
-      "description": "Les banques centrales maintiennent une posture restrictive modérée face à une inflation résiduelle de 2,3% en zone euro et 2,8% aux États-Unis. La Fed a adopté une pause dans son cycle de hausse tandis que la BCE explore un léger assouplissement pour soutenir la croissance européenne ralentie.",
+      "titre": "Évolution du rendement des obligations souveraines (2 ans) - Zone Euro",
+      "description": "Les rendements des obligations à court terme de la zone euro oscillent entre 2,1% et 2,4% cette semaine, reflétant l'incertitude autour des décisions de politique monétaire de la BCE. Les tensions géopolitiques continuent d'influencer les flux de capitaux vers les actifs refuge. La volatilité reste modérée malgré les pressions inflationnistes résiduelles.",
       "donnees": [
         {
-          "label": "Federal Reserve (USA)",
-          "valeur": 4.85
+          "label": "Lundi 18/10",
+          "valeur": 2.15
         },
         {
-          "label": "BCE (Zone Euro)",
-          "valeur": 3.75
+          "label": "Mardi 19/10",
+          "valeur": 2.28
         },
         {
-          "label": "BoE (UK)",
-          "valeur": 4.25
+          "label": "Mercredi 20/10",
+          "valeur": 2.22
         },
         {
-          "label": "BoJ (Japon)",
-          "valeur": 0.5
+          "label": "Jeudi 21/10",
+          "valeur": 2.35
         },
         {
-          "label": "SNB (Suisse)",
-          "valeur": 1.0
+          "label": "Vendredi 22/10",
+          "valeur": 2.18
         }
       ]
     }
@@ -405,11 +405,83 @@
     "articles": [
       {
         "source": "Vatican News",
+        "titre": "Léon XIV: «Sans les saints, l’histoire du monde serait plus pauvre et moins humaine»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/leon-xiv-audience-participants-la-saintete-dans-l-histoire.html",
+        "resume": "Recevant ce mercredi matin les participants au colloque «La sainteté dans l’histoire», Léon XIV a souligné que la présence et le témoignage des saints ont transformé l’histoire. «Éclairés par la Grâce, ils on",
+        "pub": "Wed, 21 Oct 2026 09:20:00 +0200",
+        "heure": "11h20"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Audience générale: la vie, une fois conçue, doit être protégée avec le plus grand soin",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-audience-generale-gaudium-et-spes-mariage-et-famille.html",
+        "resume": "La fécondité de l’amour conjugal s’exprime «dans la procréation des enfants, le don le plus excellent du mariage», a souligné le Pape, ce 21 octobre, dans sa catéchèse prononcée devant de nombreux fidèles. S’",
+        "pub": "Wed, 21 Oct 2026 09:19:00 +0200",
+        "heure": "11h19"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les chefs des Églises de Jérusalem condamnent les récentes attaques de Taybeh",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-10/taybeh-chefs-des-eglises-de-jerusalem-condamnent-les-attaques.html",
+        "resume": "Un communiqué, publié notamment sur le site du Patriarcat latin de Jérusalem, condamne les violences commises à l’encontre des cueilleurs d’olives palestiniens et des responsables européens en visite de solid",
+        "pub": "Tue, 20 Oct 2026 18:19:00 +0200",
+        "heure": "20h19"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Plus de 1 600 enfants birmans célèbrent la Journée mondiale des missions",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/birmanie-enfants-journee-missionnaire.html",
+        "resume": "Alors que l’Église célébrait ce week-end le centenaire du Dimanche mondial des missions, plus de 1 600 enfants du pays d'Asie du sud-est en guerre se sont retrouvés autour du cardinal Charles Maung Bo, archev",
+        "pub": "Tue, 20 Oct 2026 18:02:00 +0200",
+        "heure": "20h02"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "La Comece exhorte l'Europe à une utilisation vertueuse de l'IA",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/comece-ia-europe-eveques-dignite-humaine.html",
+        "resume": "À l’issue de leur assemblée plénière d’automne qui s’est tenue en fin de semaine dernière à Bruxelles, la commission des Conférences épiscopales de l’Union Européenne a publié une déclaration dans laquelle il",
+        "pub": "Tue, 20 Oct 2026 12:34:00 +0200",
+        "heure": "14h34"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le saint donne une nouvelle orientation à l'Histoire, affirme le cardinal Semeraro",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/colloque-causes-des-saints-semeraro-histoire.html",
+        "resume": "Le dicastère des Causes des Saints est à l’initiative d’un colloque autour de «La sainteté dans l’histoire». Son préfet a assuré à son ouverture ce lundi que la recherche historique «nous fait reconnaître com",
+        "pub": "Tue, 20 Oct 2026 12:31:00 +0200",
+        "heure": "14h31"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "En RDC, l'archevêque métropolitain de Bukavu appelle à l’apaisement dans l'est",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/mgr-francois-xavier-maroy-appelle-a-l-apaisement.html",
+        "resume": "Face à la situation très préoccupante qui sévit depuis plus de trois décennies dans la partie orientale de la République démocratique du Congo, impactant lourdement la vie des populations, Mgr François Xavier",
+        "pub": "Tue, 20 Oct 2026 12:04:00 +0200",
+        "heure": "14h04"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "À Londres, le cardinal Koovakad exhorte catholiques et jaïns à s'unir pour la paix",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/cardinal-koovakad-a-londres-catholiques-et-jains-paix.html",
+        "resume": "Le préfet du dicastère pour le Dialogue interreligieux est intervenu à l’occasion de la célébration de l’«Ahimsa Day» au Parlement britannique, organisée par l'organisation internationale à but non lucratif «",
+        "pub": "Tue, 20 Oct 2026 11:45:00 +0200",
+        "heure": "13h45"
+      },
+      {
+        "source": "Vatican News",
         "titre": "Nigeria: libération d’un prêtre enlevé la semaine dernière dans l’État de Benue",
         "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/nigeria-liberation-pretre-enleve-semaine-derniere-etat-benue.html",
         "resume": "Le père John Inalegwu Otache, curé de la paroisse Sainte-Marguerite à Ajegbe-Awume, dans le centre-nord du Nigeria, a été libéré dimanche soir après cinq jours de captivité. Enlevé le 13 octobre dans l’État d",
         "pub": "Tue, 20 Oct 2026 10:38:00 +0200",
         "heure": "12h38"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Mgr Sayaogo: «Le Burkina se reprend, mais la crise sécuritaire persiste»",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-10/burkina-interview-mgr-gabriel-sayaogo-terrorisme-eglise.html",
+        "resume": "«Nous sommes convaincus de gagner la guerre sur le terrain militaire, mais nous voulons surtout la gagner entre nous, êtres humains, et ériger le nouveau Burkina Faso». L'archevêque de Koupéla et président de",
+        "pub": "Tue, 20 Oct 2026 09:02:00 +0200",
+        "heure": "11h02"
       },
       {
         "source": "Vatican News",
@@ -450,78 +522,6 @@
         "resume": "Engagés parfois dans des actions offensives sans en voir l’issue, comme en Iran, les soldats américains doivent être accompagnés, notamment lorsqu’ils ont commis des actions contraires à leur foi, mais aussi",
         "pub": "Mon, 19 Oct 2026 14:23:00 +0200",
         "heure": "16h23"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Convalescent, le Pape tiendra l'audience générale ce mercredi",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/convalescent-le-pape-tiendra-l-audience-generale-ce-mercredi.html",
-        "resume": "Léon XIV, sorti samedi dernier de l'hôpital Gemelli à Rome, poursuit au Palais apostolique du Vatican sa convalescence après l'opération visant à retirer un adénocarcinome pulmonaire. Il ne se rendra ni aujou",
-        "pub": "Mon, 19 Oct 2026 11:43:00 +0200",
-        "heure": "13h43"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Au Nigeria, un espace de croissance humaine offert par des religieuses",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/s-urs-nigeria-renouveau-et-de-croissance.html",
-        "resume": "Dans le sud du pays, les Sœurs missionnaires de Notre-Dame du Saint-Rosaire (MSHR) déjà engagées dans les domaines de l'éducation, de la santé et des services sociaux, offrent un cadre propice au repos, au re",
-        "pub": "Mon, 19 Oct 2026 11:31:00 +0200",
-        "heure": "13h31"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "«Dieu n’a pas de frontières», affirme le cardinal Koovakad depuis Londres",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/cardinal-koovakad-dialogue-interreligieux-londres-jainisme.html",
-        "resume": "Lors d’une messe présidée ce dimanche à la cathédrale de Westminster, le préfet du dicastère pour le Dialogue interreligieux a invité chacun à rester fidèle à son identité chrétienne, «afin de pouvoir rencont",
-        "pub": "Mon, 19 Oct 2026 11:01:00 +0200",
-        "heure": "13h01"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "100e Journée mondiale des Missions, le Pape accorde l'indulgence plénière",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-leon-xiv-indulgence-pleniere-100-journee-missionnaire.html",
-        "resume": "Tous ceux qui célèbrent ce 18 octobre la fête instituée par le Pape Pie XI en 1926, peuvent, conformément à la disposition du Pape, obtenir devant Dieu la rémission totale de la peine temporelle des péchés. L",
-        "pub": "Sun, 18 Oct 2026 13:51:00 +0200",
-        "heure": "15h51"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "À l'Angélus, après son opération, le Pape remercie les fidèles pour leurs prières",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/angelus-pape-leon-xiv-saint-pierre-vatican-meditation-dimanche.html",
-        "resume": "Moins d’une semaine après son opération chirurgicale au poumon, le Pape Léon XIV a livré sa méditation dominicale depuis la fenêtre de ses appartements pontificaux au Vatican. S’arrêtant sur la célèbre phrase",
-        "pub": "Sun, 18 Oct 2026 12:04:00 +0200",
-        "heure": "14h04"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Aucune raison médicale ne justifie l'annulation du voyage en Amérique du Sud",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/chirurgien-du-pape-voyage-en-amerique-du-sud.html",
-        "resume": "Dans un entretien accordé aux médias du Vatican, le chirurgien Stefano Margaritora, qui a opéré Léon XIV le 13 octobre, confie avoir «vécu une émotion intime», impossible à décrire, même si «il s’agissait d’u",
-        "pub": "Sat, 17 Oct 2026 17:15:00 +0200",
-        "heure": "19h15"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "À l'hôpital Gemelli, Léon XIV remercie les médecins et la foule",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/leon-xiv-sortie-de-l-hopital-gemelli-remerciements.html",
-        "resume": "Vers 15h30, le Pape a quitté la polyclinique romaine où il avait été hospitalisé pendant quatre jours à la suite d'une opération visant à retirer un adénocarcinome pulmonaire. De nombreuses personnes s'étaien",
-        "pub": "Sat, 17 Oct 2026 16:56:00 +0200",
-        "heure": "18h56"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le cardinal Semeraro invite les fidèles à suivre l’exemple des martyrs d’Ibiza",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/cardinal-semeraro-martyrs-ibiza-eglise-espagne-beatification.html",
-        "resume": "Le cardinal-préfet du dicastère des Causes des Saints a célébré ce samedi 17 octobre au matin sur l’île espagnole la béatification du prêtre Juan Torres Torres et de dix-neuf compagnons, tués «in odium fidei»",
-        "pub": "Sat, 17 Oct 2026 14:50:00 +0200",
-        "heure": "16h50"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape de retour au Vatican après sa sortie de l'hôpital",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-analyses-sang-radiographie-thoracique-polyclinique-gemelli.html",
-        "resume": "Léon XIV a quitté l'hôpital Gemelli et est rentré dans ses appartements pontificaux. Les médecins l'ont jugé «apte à sortir», au vu «des analyses de sang, de la radiographie thoracique réalisée ce samedi mati",
-        "pub": "Sat, 17 Oct 2026 11:36:00 +0200",
-        "heure": "13h36"
       }
     ]
   }
