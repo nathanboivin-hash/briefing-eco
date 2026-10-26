@@ -1,28 +1,28 @@
 {
-  "timestamp": "09h38 le 23/10/2026",
-  "alerte": "CRISE DE CONFIANCE SOUVERAINE - Taux OAT >5%, spread France vs Bund critique, risque de contagion zone euro imminent",
+  "timestamp": "10h35 le 26/10/2026",
+  "alerte": "Tensions géopolitiques et instabilité sociale dégradent le climat de confiance ; décision Moody's sur la dette française crée une fenêtre temporelle critique pour l'exécutif",
   "synthese": {
-    "resume": "La France traverse une crise de confiance souveraine aigüe : les taux d'emprunt dépassent 5%, le spread vs Bund s'élargit dangereusement, et l'État accumule 100 milliards euros d'intérêts annuels d'ici 2028. Le débat budgétaire enlisé alimente les doutes des marchés (article [15]), tandis que la BCE sera 'sans doute contrainte d'intervenir' pour éviter une crise de la zone euro selon les économistes (article [53]). En parallèle, les tensions sociales (manifestations du 24 octobre, grèves générales du 5 novembre) créent une instabilité politique structurelle. Wall Street plonge sur l'IA (+9% de correction), impactant les valorisations technologiques européennes. Les banques française (Barclays: -5000 emplois via IA) accélèrent les réductions de coûts dans un contexte de margin compression.",
+    "resume": "La France fait face à une convergence de risques aigus : tensions sociales massives post-24 octobre (1 314 interpellations), attentat raciste de Trappes, campagne présidentielle polarisée avec Marine Le Pen en offensive. Moody's temporise sur la notation française citant un contexte 'inflammable', tandis que les marchés français affichent un soulagement relatif. Le défi macroéconomique s'intensifie avec des perspectives commerciales dégradées (Trump), une spirale de surendettement visible en Afrique subsaharienne (Zambie), et une mobilisation sociale programmée le 31 octobre. Les entreprises doivent naviguer une cybersécurité dégradée et une automatisation accélérée du marché du travail.",
     "points": [
       {
-        "titre": "Taux souverains français > 5% : un seuil psychologique critique franchi",
-        "detail": "Les OAT long terme franchissent 5%, le spread France-Bund s'élargit significativement. Article [15] souligne que cette hausse 'sanctionne un débat budgétaire enlisé'. Impact direct : le coût de refinancement de l'État explose. Projection article [121] : 100 milliards euros d'intérêts dès 2028 (vs ~60 milliards actuels). La trajectoire de la dette devient insoutenable sans mesure de consolidation budgétaire majeure. Les marchés demandent une prime de risque de plus en plus élevée. Implication : nécessité d'arbitrages budgétaires douloureux dès le PLF 2027."
+        "titre": "Notation souveraine : Moody's maintient la pression sur la France",
+        "detail": "Moody's refuse d'agir immédiatement sur la notation française, justifiant par un contexte politique 'trop inflammable pour craquer une allumette'. Cet arrêt tactique prolonge l'incertitude tout en signalant une vigilance accrue sur la trajectoire budgétaire. Implication : fenêtre fermée pour les réformes structurelles avant les marchés de novembre ; prime de risque souverain maintenue ; OAT sous surveillance directe des agences. Le gouvernement doit démontrer des réponses concrètes aux syndicats avant nouvelle évaluation."
       },
       {
-        "titre": "Correction IA brutale : Wall Street plonge, contagion technologique européenne",
-        "detail": "Article [7] et [41] : les inquiétudes sur l'IA font 'plonger Wall Street', marché 'presque certainement dans une bulle'. Les dépenses massives de la tech en CapEx (serveurs GPU, data centers) ne génèrent pas les rendements escomptés. Les valorisations technologiques européennes subissent de plein fouet cette correction. Le secteur du jeu vidéo français souffre particulièrement (article [90] : 'nous sommes tous asphyxiés'). Impact CAC 40 : exposition technologique en repli, mais secteur financier et utilities bénéficient de la rotation. Risk-off dominant."
+        "titre": "Mobilisations massives : 1 314 interpellations le 24 octobre, reconduction 31 octobre",
+        "detail": "Les manifestations du 24 octobre représentent une mobilisation lycéenne/étudiante d'ampleur non mesurée depuis 2023, avec dégradations limitées (commerces épargnés selon Challenges). Nouvelle mobilisation programmée 31 octobre avec 'dispositif extrêmement robuste' annoncé par le ministère de l'Intérieur. Impact : paralysies récurrentes du commerce/services, incertitude de consommation Q4 critique (période pré-Noël), polarisation politique accrue. Les syndicats constatent une perte de capacité de canalisation de la colère sociale (article 11)."
       },
       {
-        "titre": "Tensions sociales aigües : 24 octobre puis 5 novembre, risque d'escalade disruptive",
-        "detail": "Article [3] et [18] : après les manifestations du 17 octobre, CGT appelle à 'généraliser la grève' du 5 novembre. Fermetures de commerces, couvres-feux régionaux se multiplient (articles [31], [27]). Article [25] alerte sur 'les dangers d'un renoncement aux libertés publiques' (restrictions discrétionnaires). Impact économique : disruption des transports (Tempête Austen [0]), ralentissement de la consommation, surcoûts de sécurité pour les retailers. Prime de risque politique interne en hausse, affectant l'investment grade."
+        "titre": "Campagne 2027 : Marine Le Pen en état de siège, plan budgétaire contesté",
+        "detail": "Marine Le Pen lance sa campagne à Orléans dans 'un état de siège'. Le FMI dénonce explicitement l'incohérence du plan RN : promesses incompatibles avec la 'règle d'or budgétaire' affichée ; hypothèse de récupération de 18 milliards de fraude TVA qualifiée de 'mirage' par les experts. Implications : scénario de droitisation confirmé ; risque de défaut de crédibilité budgétaire post-élection ; markets priceront plus de risque premium si RN progresse."
       },
       {
-        "titre": "Épargne en baisse structurelle et découvert bancaire massif : fragilisation des ménages",
-        "detail": "Article [58] : 'Les Français mettent de moins en moins d'argent de côté', révélant une dégradation du pouvoir d'achat réel. Article [20] : 43% des Français sont à découvert au moins une fois par an (indicateur d'appauvrissement rapide). Cette fragilisation réduit la consommation future et augmente les risques de défaut dans le secteur du crédit à la consommation. Implication : les banques réduisent l'encours de crédit, renforçant le credit crunch. Dynamique contractionnaire pour la croissance."
+        "titre": "Attentat raciste de Trappes : faille du système de sécurité nationale",
+        "detail": "Attentat raciste identifié à Trappes ; maire Ali Rabeh accuse l'Élysée d'avoir failli à son rôle de 'protecteur'. Enquête ouverte à Nice contre ultradroite pour agressions du 24 octobre. Impact : crédibilité exécutive sur la sécurité publique endommagée avant élection ; risque de polarisation accrue ; instabilité sociale multi-niveaux (jeunesse + sécurité)."
       },
       {
-        "titre": "Conditions géopolitiques chaotiques : élections brésiliennes et montée des extrêmes droites",
-        "detail": "Article [5] : au Brésil, 'les classes moyennes ont tourné le dos à Lula', signalant une vague électorale anti-establishment. Article [40] : montée des extrêmes droites dans l'UE 'suscite une forte inquiétude' aux institutions européennes. Risque : polarisation politique accélère l'instabilité macroéconomique en zone euro. Implications pour les émergents (Real brésilien) et spread de la zone euro."
+        "titre": "Rizque cyber-géopolitique : câbles sous-marins et dépendance infrastructure",
+        "detail": "Article 7 révèle l'usage des câbles sous-marins par Russie/Chine comme arme géopolitique et par géants numériques pour domination. Article 68 documente cyberattaque précédent polonais sur système énergétique. France vulnérable : 82 000 foyers UK sans électricité (tempête Boelo) ; risque de cascade (article 34 'effondrements en cascade'). Implications : investissements en résilience critiques, dépendance AI/cloud concentre risque systémique."
       }
     ]
   },
@@ -30,117 +30,117 @@
     "metrics": [],
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "06h45",
-        "titre": "Les inquiétudes sur l’intelligence artificielle font plonger Wall Street",
-        "resume": "L’annonce de Meta, le groupe de Mark Zuckerberg, qui veut lancer une nouvelle levée de capital pour financer ses immenses investissements, a nourri, jeudi, les interrogations des investisseurs sur la capacité des sociétés du secteur à dégager des pro",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/23/les-inquietudes-sur-l-intelligence-artificielle-font-plonger-wall-street_6798868_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h54",
-        "titre": "Le marché de l’IA « presque certainement » dans une bulle : de Wall Street à Séoul, les Bourses chutent face aux dépenses massives de la tech",
-        "resume": "De Wall Street aux marchés asiatiques, en passant par l’Europe, les Bourses ont connu ce jeudi 22 octobre l’une de leurs plus fortes baisses depuis des mois, sur fond d’inquiétudes liées aux investissements titanesques des géants de la tech dans l’I",
-        "url": "https://www.challenges.fr/economie/le-marche-de-lia-presque-certainement-dans-une-bulle-de-wall-street-a-seoul-les-bourses-chutent-face-aux-depenses-massives-de-la-tech_646546"
-      },
-      {
         "source": "Les Echos",
-        "heure": "13h40",
-        "titre": "L'étoile boursière du luxe pâlit : quelles conséquences pour le CAC 40 et les investisseurs ?",
-        "resume": "Hermès chute en Bourse ce jeudi après ses résultats trimestriels, et entraîne à la baisse les autres titres du luxe. Les investisseurs actent un changement profond au sein de l'indice phare de la Bourse de Paris, avec le retour des valeurs industriel",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/letoile-boursiere-du-luxe-palit-quelles-consequences-pour-le-cac-40-et-les-investisseurs-2258393"
+        "heure": "13h11",
+        "titre": "En Bourse, les actifs français soulagés par la décision de Moody's",
+        "resume": "La dette d'Etat française rebondissait lundi en début de séance. Moody's a apporté un bol d'air en s'abstenant d'abaisser la note de l'Hexagone, vendredi, mais les risques demeurent.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/en-bourse-les-actifs-francais-soulages-par-la-decision-de-moodys-2259079"
       },
       {
         "source": "Le Figaro",
-        "heure": "21h33",
-        "titre": "La Bourse de Paris termine dans le rouge, la dette française flambe",
-        "resume": "La Bourse de Paris a terminé dans le rouge jeudi, plombée par une nouvelle hausse des prix de l'énergie et du taux d'emprunt de la France au-delà des 5...",
-        "url": "https://www.lefigaro.fr/flash-eco/la-bourse-de-paris-termine-dans-le-rouge-la-dette-francaise-flambe-20261022"
+        "heure": "19h30",
+        "titre": "Violences urbaines, flambée des taux d’intérêt… Le décrochage du CAC 40, un reflet des désordres français",
+        "resume": "DÉCRYPTAGE - La situation politique et budgétaire pèse lourdement sur les valeurs françaises. L’indice phare de la Bourse de Paris est dans le rouge depuis le début de l’année.",
+        "url": "https://www.lefigaro.fr/economie/violences-urbaines-flambee-des-taux-d-interet-le-decrochage-du-cac-40-un-reflet-des-desordres-francais-20261025"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "16h30",
+        "titre": "Immobilier : pourquoi investir dans le locatif peut être une bonne idée malgré la hausse des taux",
+        "resume": "NOS CONSEILS - Si les rendements sont moins intéressants qu’il y a quelques années, les perles rares existent. Les conseils des professionnels pour dénicher les bonnes opportunités.",
+        "url": "https://www.lefigaro.fr/finances-perso/immobilier-pourquoi-investir-dans-le-locatif-peut-etre-une-bonne-idee-malgre-la-hausse-des-taux-20261025"
       },
       {
         "source": "Les Echos",
-        "heure": "08h10",
-        "titre": "VIDEO - Comment les « dark pools » bouleversent les bourses traditionnelles",
-        "resume": "Face au trading à haute fréquence, les « dark pools » s'imposent comme une alternative pour les investisseurs. Ces plateformes, où les ordres restent invisibles avant exécution, bouleversent le modèle économique des bourses traditionnelles.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/video-comment-les-dark-pools-bouleversent-les-bourses-traditionnelles-2258253"
+        "heure": "11h00",
+        "titre": "Souveraineté numérique : comment le « kill switch » est devenu la grande peur des Européens",
+        "resume": "Contestant une amende en Italie, l'américain Cloudflare avait menacé de suspendre ses services en Italie avant les JO de Milan-Cortina. Cet incident souligne l'urgence pour l'Europe de mieux gérer sa dépendance aux fournisseurs technologiques étrange",
+        "url": "https://www.lesechos.fr/thema/articles/souverainete-numerique-comment-le-kill-switch-est-devenu-la-grande-peur-des-europeens-2259023"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "10h30",
+        "titre": "En Pologne, le précédent d'une cyberattaque d'ampleur sur le système énergétique",
+        "resume": "Plusieurs infrastructures critiques du pays ont subi fin 2025 une cyberattaque coordonnée. Si ses conséquences ont été limitées, l'incident est un rappel saisissant de la menace qui pèse désormais sur les pays européens.",
+        "url": "https://www.lesechos.fr/thema/articles/en-pologne-le-precedent-dune-cyberattaque-dampleur-sur-le-systeme-energetique-2259015"
       }
     ]
   },
   "entreprises": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "05h07",
-        "titre": "eBay va supprimer 1 000 emplois, soit près de 9 % de ses effectifs",
-        "resume": "Malgré une croissance retrouvée en 2025 et au premier trimestre 2026, la plateforme de commerce en ligne poursuit sa restructuration, après avoir déjà procédé à un plan social portant sur 800 emplois en février.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/22/ebay-va-supprimer-1-000-emplois-soit-pres-de-9-de-ses-effectifs_6798414_3234.html"
+        "source": "Challenges",
+        "heure": "07h00",
+        "titre": "Son gros chantier ? Piloter Fiat pour reconquérir le marché européen : les nouveaux défis (pas faciles) d’Arnaud Belloni chez Stellantis",
+        "resume": "L’ex-directeur marketing de Renault dirige désormais les destinées de Fiat, Lancia et Abarth au sein du groupe Stellantis… En plus du marketing pour toutes les marques en Europe ! Une mission périlleuse mais exaltante.",
+        "url": "https://www.challenges.fr/automobile/son-gros-chantier-piloter-fiat-pour-reconquerir-le-marche-europeen-les-nouveaux-defis-pas-faciles-darnaud-belloni-chez-stellantis_646573"
       },
       {
         "source": "Challenges",
-        "heure": "19h27",
-        "titre": "C’est le coup le plus dur jamais porté à Meta : le géant de la tech condamné à payer 25 milliards de dollars après le scandale Cambridge Analytica",
-        "resume": "Un juge du Nouveau-Mexique a condamné Meta à verser 25 milliards de dollars pour avoir trompé ses utilisateurs sur la protection de leurs données. Cette sanction, l’une des plus lourdes jamais infligées à un géant de la tech, vise des pratiques liée",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/cest-le-coup-le-plus-dur-jamais-porte-a-meta-le-geant-de-la-tech-condamne-a-payer-25-milliards-de-dollars-apres-le-scandale-cambridge-analytica_646541"
+        "heure": "10h00",
+        "titre": "« J’ai remis à flot un bateau qui prenait l’eau de toutes parts » : comment Thierry Léger a redressé Scor et prépare désormais sa reconquête",
+        "resume": "Après avoir traité la crise de gouvernance du réassureur français, le successeur de Denis Kessler prépare son nouveau plan stratégique. Priorité à la reconquête de parts de marché, notamment aux Etats-Unis. Rencontre.",
+        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/jai-remis-a-flot-un-bateau-qui-prenait-leau-de-toutes-parts-comment-thierry-leger-a-redresse-scor-et-prepare-desormais-sa-reconquete_646449"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h13",
+        "titre": "AXA, Schneider Electric, Sanofi, BPCE… Ces entreprises qui poussent les seniors à bifurquer plutôt qu'à préparer leur retraite",
+        "resume": "Certains employeurs offrent à leurs salariés seniors une option valorisante : changer de métier, tester une mission ou rejoindre un nouvel environnement de travail, sans quitter l'entreprise. Une mobilité qui change la manière d'aborder la seconde pa",
+        "url": "https://www.lesechos.fr/travailler-mieux/vie-au-travail/axa-schneider-electric-sanofi-bpce-ces-entreprises-qui-poussent-les-seniors-a-bifurquer-plutot-qua-preparer-leur-retraite-2258997"
       },
       {
         "source": "Challenges",
-        "heure": "17h30",
-        "titre": "5 000 emplois remplacés par l’IA ? Barclays taille dans ses effectifs au nom des « gains d’efficacité » permis par l’intelligence artificielle",
-        "resume": "Barclays a annoncé ce jeudi 22 octobre la suppression de quelque 5 000 emplois. La majorité de ces coupes « concernent les fonctions de support, notamment une réduction du nombre de développeurs, l’IA rendant nos équipes plus productives », a indiqu",
-        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/5-000-emplois-remplaces-par-lia-barclays-taille-dans-ses-effectifs-au-nom-des-gains-defficacite-permis-par-lintelligence-artificielle_646532"
+        "heure": "14h00",
+        "titre": "« Nous voulons être l’un des trois grands roboticiens du monde » : comment la pépite française Wandercraft compte défier les géants chinois et américains",
+        "resume": "PODCAST - Née dans la robotique médicale, Wandercraft s’attaque désormais aux robots humanoïdes industriels. Avec Renault comme partenaire, la société française veut changer d’échelle et rivaliser avec les géants chinois et américains. Son cofondate",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/nous-voulons-etre-lun-des-trois-grands-roboticiens-du-monde-comment-la-pepite-francaise-wandercraft-compte-defier-les-geants-chinois-et-americains_646565"
       },
       {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Rhode : 4 ans après son lancement, la marque d’Hailey Bieber rachetée 1 milliard de dollars débarque en France chez Sephora",
-        "resume": "Elle a lancé l’effet « glazed donuts », fait des peptides son ingrédient fétiche et été racheté pour un milliard de dollars par e.l.f. Beauty : Rhode arrive en Europe, et on a déjà repéré nos favoris.",
-        "url": "https://www.challenges.fr/luxe/rhode-4-ans-apres-son-lancement-la-marque-dhailey-bieber-rachetee-1-milliard-de-dollars-debarque-en-france-chez-sephora_646502"
-      },
-      {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "« Netflix souffre d’un problème d’engagement » : malgré des bénéfices colossaux, le géant du streaming peine à captiver ses abonnés et cherche un nouveau souffle",
-        "resume": "La première entreprise de streaming payant n’arrive plus à garder une croissance assez rapide pour satisfaire ses investisseurs. Si son chiffre d’affaires progresse, le temps passé sur la plateforme par les utilisateurs stagne.",
-        "url": "https://www.challenges.fr/entreprise/netflix-souffre-dun-probleme-dengagement-malgre-des-benefices-colossaux-le-geant-du-streaming-peine-a-captiver-ses-abonnes-et-cherche-un-nouveau-souffle_646508"
+        "source": "Les Echos",
+        "heure": "12h21",
+        "titre": "Prodex abandonne son atelier turc et double sa capacité de production en Eure-et-Loir",
+        "resume": "Cette PME spécialisée dans les joints et profilés souples en plastique ferme son unité d'Istanbul en pariant sur la réactivité de son usine française et la production en petites et moyennes séries.",
+        "url": "https://www.lesechos.fr/pme-regions/centre-val-de-loire/prodex-abandonne-son-atelier-turc-et-double-sa-capacite-de-production-en-eure-et-loir-2259055"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "22h34",
-        "titre": "Un tableau de Monet vendu 50 millions d’euros à Paris, record pour des enchères d’art en France",
-        "resume": "Jamais exposé au public, le tableau « Iris » de Monet n’était connu que par une photo en noir et blanc avant d’atteindre ce prix historique.",
-        "url": "https://www.lemonde.fr/culture/article/2026/10/22/un-tableau-de-monet-vendu-50-millions-d-euros-a-paris-record-pour-des-encheres-d-art-en-france_6798663_3246.html"
+        "source": "Challenges",
+        "heure": "10h00",
+        "titre": "« J’ai remis à flot un bateau qui prenait l’eau de toutes parts » : comment Thierry Léger a redressé Scor et prépare désormais sa reconquête",
+        "resume": "Après avoir traité la crise de gouvernance du réassureur français, le successeur de Denis Kessler prépare son nouveau plan stratégique. Priorité à la reconquête de parts de marché, notamment aux Etats-Unis. Rencontre.",
+        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/jai-remis-a-flot-un-bateau-qui-prenait-leau-de-toutes-parts-comment-thierry-leger-a-redresse-scor-et-prepare-desormais-sa-reconquete_646449"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "12h21",
+        "titre": "Prodex abandonne son atelier turc et double sa capacité de production en Eure-et-Loir",
+        "resume": "Cette PME spécialisée dans les joints et profilés souples en plastique ferme son unité d'Istanbul en pariant sur la réactivité de son usine française et la production en petites et moyennes séries.",
+        "url": "https://www.lesechos.fr/pme-regions/centre-val-de-loire/prodex-abandonne-son-atelier-turc-et-double-sa-capacite-de-production-en-eure-et-loir-2259055"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h45",
+        "titre": "Fleury Michon, une petite acquisition pour de grandes ambitions",
+        "resume": "Le groupe de Vendée renforce ses positions à l'international en s'offrant la société britannique All Plants.",
+        "url": "https://www.lesechos.fr/pme-regions/pays-de-la-loire/fleury-michon-une-petite-acquisition-pour-de-grandes-ambitions-2259039"
       },
       {
         "source": "Challenges",
-        "heure": "19h27",
-        "titre": "C’est le coup le plus dur jamais porté à Meta : le géant de la tech condamné à payer 25 milliards de dollars après le scandale Cambridge Analytica",
-        "resume": "Un juge du Nouveau-Mexique a condamné Meta à verser 25 milliards de dollars pour avoir trompé ses utilisateurs sur la protection de leurs données. Cette sanction, l’une des plus lourdes jamais infligées à un géant de la tech, vise des pratiques liée",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/cest-le-coup-le-plus-dur-jamais-porte-a-meta-le-geant-de-la-tech-condamne-a-payer-25-milliards-de-dollars-apres-le-scandale-cambridge-analytica_646541"
+        "heure": "14h00",
+        "titre": "« Nous voulons être l’un des trois grands roboticiens du monde » : comment la pépite française Wandercraft compte défier les géants chinois et américains",
+        "resume": "PODCAST - Née dans la robotique médicale, Wandercraft s’attaque désormais aux robots humanoïdes industriels. Avec Renault comme partenaire, la société française veut changer d’échelle et rivaliser avec les géants chinois et américains. Son cofondate",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/nous-voulons-etre-lun-des-trois-grands-roboticiens-du-monde-comment-la-pepite-francaise-wandercraft-compte-defier-les-geants-chinois-et-americains_646565"
       },
       {
-        "source": "Challenges",
-        "heure": "17h33",
-        "titre": "Plus de 155 millions d’euros pour un domaine au Cap d’Antibes : les héritiers Latsis et l’hôtel du Cap-Eden-Roc au cœur d’une vente hors normes",
-        "resume": "Les héritiers de l’armateur grec John Latsis ont vendu leur domaine de neuf hectares, qui comprend cinq maisons, au groupe allemand Oetker, propriétaire de l’hôtel du Cap-Eden-Roc, le célèbre palace situé juste à côté.",
-        "url": "https://www.challenges.fr/immobilier/plus-de-155-millions-deuros-pour-un-domaine-au-cap-dantibes-les-heritiers-latsis-et-lhotel-du-cap-eden-roc-au-coeur-dune-vente-hors-normes_646536"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Rhode : 4 ans après son lancement, la marque d’Hailey Bieber rachetée 1 milliard de dollars débarque en France chez Sephora",
-        "resume": "Elle a lancé l’effet « glazed donuts », fait des peptides son ingrédient fétiche et été racheté pour un milliard de dollars par e.l.f. Beauty : Rhode arrive en Europe, et on a déjà repéré nos favoris.",
-        "url": "https://www.challenges.fr/luxe/rhode-4-ans-apres-son-lancement-la-marque-dhailey-bieber-rachetee-1-milliard-de-dollars-debarque-en-france-chez-sephora_646502"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "16h00",
-        "titre": "Epargnants et actionnaires de Tudigo, premières victimes de sa liquidation",
-        "resume": "Le tribunal de commerce de Bordeaux a rejeté les sept offres de reprise de la plateforme de crowdfunding en redressement judiciaire depuis fin juillet. Ses clients devront donc payer des prestataires externes, et ses actionnaires perdront tout leur c",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/22/epargnants-et-actionnaires-de-tudigo-premieres-victimes-de-sa-liquidation_6798615_3234.html"
+        "source": "Les Echos",
+        "heure": "11h15",
+        "titre": "« C'est le phare de notre école » : Agro Dijon va lancer la rénovation de sa tour",
+        "resume": "Emblème du campus de cet établissement public d'enseignement supérieur de Côte-d'Or, la tour Déméter est aussi une véritable passoire thermique.",
+        "url": "https://www.lesechos.fr/pme-regions/bourgogne-franche-comte/cest-le-phare-de-notre-ecole-agro-dijon-va-lancer-la-renovation-de-sa-tour-2259028"
       }
     ]
   },
@@ -148,38 +148,38 @@
     "articles": [
       {
         "source": "Challenges",
-        "heure": "09h03",
-        "titre": "« C’est une véritable force destructrice » : pourquoi le phénomène de « super El Niño » en 2026 dans le Pacifique pourrait aggraver l’inflation en Europe",
-        "resume": "Alors qu’un El Niño d’ampleur inédite s’abat sur le globe, le prix de certaines matières premières comme le riz ou le café risque de grimper, sans compter les possibles perturbations du transport maritime.",
-        "url": "https://www.challenges.fr/entreprise/green-economie/cest-une-veritable-force-destructrice-pourquoi-le-phenomene-de-super-el-nino-en-2026-dans-le-pacifique-pourrait-aggraver-linflation-en-europe_646545"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "03h55",
-        "titre": "Japon : après un léger ralentissement, l'inflation accélère nettement en septembre, à 2,1%",
-        "resume": "Les prix à la consommation hors produits frais ont augmenté de 2,1 % sur un an en septembre contre 1,7% en août, un chiffre conforme aux attentes du marché.",
-        "url": "https://www.lefigaro.fr/conjoncture/japon-apres-un-leger-ralentissement-l-inflation-accelere-nettement-en-septembre-a-2-1-20261023"
-      },
-      {
-        "source": "Challenges",
-        "heure": "17h00",
-        "titre": "Les Français mettent de moins en moins d’argent de côté : ce que la baisse de leur épargne révèle vraiment de l’évolution de leur pouvoir d’achat",
-        "resume": "Plus d’un Français sur quatre compte mettre moins d’argent de côté, et le taux d’épargne des ménages recule. Derrière ce repli, l’inflation pèse sur les budgets les plus modestes, mais pas seulement : les ménages plus aisés participent d’un regain d",
-        "url": "https://www.challenges.fr/economie/les-francais-mettent-de-moins-en-moins-dargent-de-cote-ce-que-la-baisse-de-leur-epargne-revele-vraiment-de-levolution-de-leur-pouvoir-dachat_646529"
+        "heure": "08h30",
+        "titre": "La France a des céréales à revendre, mais pas de stocks d’État : face à la menace russe, est-elle vraiment à l’abri d’une pénurie ?",
+        "resume": "Premier producteur agricole européen, la France est autosuffisante en céréales, mais ne dispose pas de stocks d’État : ils sont gérés par les filières privées. Entre silos vieillissants, réticence à mutualiser ses réserves avec l’Europe et dépendanc",
+        "url": "https://www.challenges.fr/entreprise/agriculture/la-france-a-des-cereales-a-revendre-mais-pas-de-stocks-detat-face-a-la-menace-russe-est-elle-vraiment-a-labri-dune-penurie_646575"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "09h00",
-        "titre": "Banque : 43 % des Français sont à découvert au moins une fois par an",
-        "resume": "L’étude du comparateur de tarifs bancaires Panorabanques dévoilée en exclusivité par « Le Monde » fait le point sur le coût du découvert, dont les règles évoluent à partir du 20 novembre.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/22/banque-43-des-francais-sont-a-decouvert-au-moins-une-fois-par-an_6798573_3234.html"
+        "heure": "07h30",
+        "titre": "« A la veille des ventes de Noël, les mauvaises nouvelles s’accumulent » : la colère sociale assombrit davantage les perspectives économiques de la France",
+        "resume": "Dans un contexte d’inflation énergétique, de baisse du pouvoir d’achat et de hausse des taux obligataires, le projet de budget pour 2027, qui doit rétablir la confiance sur les marchés grâce à une réduction du déficit public, repose sur une hypothèse",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/26/la-colere-sociale-fragilise-encore-davantage-les-perspectives-economiques-de-la-france_6800426_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "20h30",
-        "titre": "« Nous sommes tous asphyxiés » : en Ile-de-France, l'appel à l'aide de l'industrie du jeu vidéo",
-        "resume": "La première région de France avec 4.000 emplois souffre d'une conjoncture économique défavorable. En deux ans, 85 entreprises ont été placées en procédure collective. A l'occasion de la Paris Games Week qui s'ouvre ce jeudi, les associations interpel",
-        "url": "https://www.lesechos.fr/pme-regions/ile-de-france/nous-sommes-tous-asphyxies-en-ile-de-france-lappel-a-laide-de-lindustrie-du-jeu-video-2258557"
+        "heure": "09h13",
+        "titre": "Un retour du contrôle des capitaux dans le monde ? Comment la guerre commerciale lancée par Trump pourrait dégénérer",
+        "resume": "Maurice Obstfeld, ancien chef économiste du FMI, alerte sur les conséquences de la guerre commerciale menée par les Etats-Unis. Il prévoit une fragmentation financière mondiale, alimentée par la méfiance envers le dollar et la montée des tensions géo",
+        "url": "https://www.lesechos.fr/monde/enjeux-internationaux/un-retour-du-controle-des-capitaux-dans-le-monde-comment-la-guerre-commerciale-lancee-par-trump-pourrait-degenerer-2258998"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "Comment des « prêts toxiques » chinois ont alimenté une spirale de surendettement en Zambie",
+        "resume": "Des documents bancaires confidentiels révèlent que des prêts de la Banque industrielle et commerciale de Chine ont contribué à étouffer financièrement le pays africain.",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/26/comment-des-prets-toxiques-chinois-ont-alimente-une-spirale-de-surendettement-en-zambie_6800383_4355770.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "« Des effondrements en cascade » : comment la France se prépare au scénario catastrophe d’un black-out électrique qui pourrait paralyser tout le pays",
+        "resume": "MENACE RUSSE - Une France en black-out : l’état va lancer un test géant pour s’y préparer. Les tentatives de déstabilisation sont légion, ciblant petits transformateurs comme grandes centrales.",
+        "url": "https://www.challenges.fr/entreprise/energie/des-effondrements-en-cascade-comment-la-france-se-prepare-au-scenario-catastrophe-dun-black-out-electrique-qui-pourrait-paralyser-tout-le-pays_646518"
       }
     ]
   },
@@ -187,38 +187,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Au Brésil, pourquoi les classes moyennes ont tourné le dos à Lula",
-        "resume": "Si les politiques sociales menées par le Parti des travailleurs durant ses dix-sept ans au pouvoir ont permis de réduire la pauvreté, nombre de Brésiliens peinent toujours à boucler leur fin de mois. Beaucoup envisagent de voter pour le candidat d’ex",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/23/au-bresil-pourquoi-les-classes-moyennes-ont-tourne-le-dos-a-lula_6798937_3234.html"
+        "heure": "22h01",
+        "titre": "Présidentielle 2027 : à Orléans, Marine Le Pen lance sa campagne entre radicalité et « optimisme », dans une ville en état de siège",
+        "resume": "La candidate du Rassemblement national a réuni plus de 8 000 soutiens, dimanche 25 octobre, en périphérie de la préfecture du Loiret, mise sous cloche.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/25/presidentielle-2027-a-orleans-marine-le-pen-lance-sa-campagne-entre-radicalite-et-optimisme-dans-une-ville-en-etat-de-siege_6800113_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h00",
-        "titre": "La montée des extrêmes droites dans les Etats membres de l’UE suscite une forte inquiétude au sein des institutions européennes",
-        "resume": "Sous le couvert de l’anonymat, diplomates et commissaires se disent soucieux de la possible arrivée au pouvoir du RN en France en 2027 et de la montée de l’AfD en Allemagne. Les extrêmes pourraient, comme l’Italienne Giorgia Meloni, tirer parti des i",
-        "url": "https://www.lemonde.fr/international/article/2026/10/22/la-montee-des-extremes-droites-dans-les-etats-membres-de-l-ue-suscite-une-forte-inquietude-au-sein-des-institutions-europeennes_6798659_3210.html"
+        "heure": "20h10",
+        "titre": "Congrès du RN : pour son premier discours de campagne, Marine Le Pen dit vouloir présider à la « renaissance » de la France",
+        "resume": "Des opposants au parti d’extrême droite ont été soigneusement tenus à distance du meeting par les 3 000 policiers et gendarmes déployés tout le week-end dans une ville qui s’était barricadée par crainte des débordements.",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/25/congres-du-rn-pour-son-premier-discours-de-campagne-marine-le-pen-dit-vouloir-presider-a-la-renaissance-de-la-france_6800086_823449.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "13h00",
-        "titre": "Présidentielle 2027 : au congrès du RN, Marine Le Pen veut mettre en scène son alliance avec l'UDR d'Eric Ciotti",
-        "resume": "L'ex-président des Républicains, qui a créé son propre parti pour s'allier au Rassemblement national en 2024, ouvrira le meeting qui doit lancer en grande pompe, ce dimanche à Orléans, la campagne présidentielle de Marine Le Pen.",
-        "url": "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-au-congres-du-rn-marine-le-pen-veut-mettre-en-scene-son-alliance-avec-ludr-deric-ciotti-2258755"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Dix ans de polarisation politique : comment Macron a perdu les Français",
-        "resume": "A six mois de la fin de son second mandat, Emmanuel Macron fait face à une impopularité record. Entre promesses déçues et clivage de la vie politique française, Mariama Darame, journaliste au service politique du « Monde », revient dans ce podcast su",
-        "url": "https://www.lemonde.fr/podcasts/article/2026/10/23/dix-ans-de-polarisation-politique-comment-macron-a-perdu-les-francais_6798936_5463015.html"
+        "source": "Challenges",
+        "heure": "07h30",
+        "titre": "« Les promesses de Marine Le Pen sont incohérentes avec sa propre règle d’or budgétaire » : l’ex-chef économiste du FMI tacle le plan du RN",
+        "resume": "LE PROGRAMME DU RN PASSÉ AU CRIBLE. Afin de paraître crédible sur le plan budgétaire, la candidate Marine Le Pen, qui lançait sa campagne ce week-end, veut créer une obligation de réduire le déficit public. Sans en tirer les conséquences pour le coû",
+        "url": "https://www.challenges.fr/politique/les-promesses-de-marine-le-pen-sont-incoherentes-avec-sa-propre-regle-dor-budgetaire-lex-chef-economiste-du-fmi-tacle-le-plan-du-rn_646576"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "22h08",
-        "titre": "Congrès du RN à Orléans ce week-end : de 20 000 à 30 000 opposants attendus et un dispositif de sécurité « exceptionnel »",
-        "resume": "Près de 3 000 membres des forces de l’ordre seront mobilisés pour encadrer les 20 000 à 30 000 opposants attendus, à Orléans ce week-end, à l’occasion du congrès du Rassemblement national et du lancement officiel de la campagne présidentielle de Mari",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/22/autour-du-congres-du-rn-a-orleans-un-dispositif-de-securite-exceptionnel_6798661_823448.html"
+        "heure": "18h02",
+        "titre": "Après l’attentat raciste de Trappes, le maire, Ali Rabeh, déclare : « Le président de la République n’a pas été le protecteur qu’il aurait dû être »",
+        "resume": "Dans un entretien au « Monde », Ali Rabeh (Génération. s), 41 ans, réélu en mars, déplore notamment que les discours d’extrême droite aient « fini par pénétrer l’inconscient collectif » et estime ressentir un « climat de guerre civile larvée ».",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/25/apres-l-attentat-raciste-de-trappes-le-maire-ali-rabeh-le-president-de-la-republique-n-a-pas-ete-le-protecteur-qu-il-aurait-du-etre_6800093_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "16h00",
+        "titre": "Attentat de Trappes : du racisme au terrorisme, une responsabilité collective",
+        "resume": "Le périple meurtrier de l’homme soupçonné d’avoir tué une personne et d’en avoir blessé cinq autres, dans les Yvelines, vendredi, survient dans une campagne présidentielle polarisée, où les invectives le disputent à la course à l’échalote derrière l’",
+        "url": "https://www.lemonde.fr/idees/article/2026/10/25/attentat-de-trappes-du-racisme-au-terrorisme-une-responsabilite-collective_6800082_3232.html"
       }
     ]
   },
@@ -226,50 +226,49 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "13h30",
-        "titre": "Taux d’intérêt au-delà des 5 % : une hausse qui sanctionne un débat budgétaire enlisé",
-        "resume": "Le rendement de l’emprunt d’Etat français à dix ans a franchi un seuil très inquiétant, son plus haut niveau depuis juillet 2002. Mais, alors que les députés se déchirent sur le projet de loi de finances 2027, personne ne semble conscient que chaque",
-        "url": "https://www.lemonde.fr/idees/article/2026/10/22/taux-d-interet-au-dela-des-5-une-hausse-qui-sanctionne-un-debat-budgetaire-enlise_6798598_3232.html"
+        "heure": "13h00",
+        "titre": "Dette française : « Le seul signal donné par Moody’s, c’est que le moment est trop inflammable pour craquer une allumette »",
+        "resume": "L’agence américaine a maintenu la notation de la France à Aa3, vendredi, malgré l’incapacité du pays à redresser sa trajectoire budgétaire. Depuis la crise grecque de 2010, où elles avaient été accusées de jouer les pyromanes, les agences préfèrent p",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/26/dette-francaise-le-seul-signal-donne-par-moody-s-c-est-que-le-moment-est-trop-inflammable-pour-craquer-une-allumette_6800674_3234.html"
       },
       {
-        "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Face à la flambée des taux d’emprunt de la France « la BCE sera sans doute contrainte d’intervenir pour éviter une crise de la zone euro », selon l’économiste Patrick Artus",
-        "resume": "Face à la hausse des taux d’intérêt de la dette française, l’économiste Patrick Artus estime qu’une intervention de la Banque centrale européenne s’impose. Il décrit les impacts sur les crédits aux particuliers et aux entreprises.",
-        "url": "https://www.challenges.fr/economie/face-a-la-flambee-des-taux-demprunt-de-la-france-la-bce-sera-sans-doute-contrainte-dintervenir-pour-eviter-une-crise-de-la-zone-euro-selon-leconomiste-patrick-artus_646538"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "08h20",
-        "titre": "OAT, spread, effet boule de neige… Le petit lexique pour comprendre ce qui se joue autour de la dette française",
-        "resume": "DÉCRYPTAGE - Taux d’emprunt en hausse, dégradation de la note souveraine, charge d’intérêts croissante… Les signaux d’alerte se multiplient pour les finances publiques françaises. Pour bien en comprendre les enjeux, Le Figaro vous explique cinq notio",
-        "url": "https://www.lefigaro.fr/conjoncture/oat-spread-effet-boule-de-neige-le-petit-lexique-pour-comprendre-ce-qui-se-joue-autour-de-la-dette-francaise-20261023"
+        "source": "Les Echos",
+        "heure": "13h11",
+        "titre": "En Bourse, les actifs français soulagés par la décision de Moody's",
+        "resume": "La dette d'Etat française rebondissait lundi en début de séance. Moody's a apporté un bol d'air en s'abstenant d'abaisser la note de l'Hexagone, vendredi, mais les risques demeurent.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/en-bourse-les-actifs-francais-soulages-par-la-decision-de-moodys-2259079"
       },
       {
         "source": "Le Figaro",
-        "heure": "22h00",
-        "titre": "La dette française sous Sarkozy, Hollande et Macron : récit de quinze ans de dérapage incontrôlé",
-        "resume": "RÉCIT - Depuis qu’elle a perdu sa note « triple A » en janvier 2012, la France n’a jamais redressé la barre de ses comptes publics. Elle s’est enfoncée par paliers et se retrouve aujourd’hui plongée dans une crise financière inédite. L’agence Moody’s",
-        "url": "https://www.lefigaro.fr/economie/la-dette-francaise-sous-sarkozy-hollande-et-macron-recit-de-quinze-ans-de-derapage-incontrole-20261022"
+        "heure": "16h30",
+        "titre": "Immobilier : pourquoi investir dans le locatif peut être une bonne idée malgré la hausse des taux",
+        "resume": "NOS CONSEILS - Si les rendements sont moins intéressants qu’il y a quelques années, les perles rares existent. Les conseils des professionnels pour dénicher les bonnes opportunités.",
+        "url": "https://www.lefigaro.fr/finances-perso/immobilier-pourquoi-investir-dans-le-locatif-peut-etre-une-bonne-idee-malgre-la-hausse-des-taux-20261025"
       },
       {
         "source": "Le Figaro",
-        "heure": "14h17",
-        "titre": "Dette publique : la France devra payer 100 milliards d’euros d’intérêts dès 2028",
-        "resume": "La dette publique française devrait représenter plus de 3800 milliards d’euros en 2027, selon le rapporteur général du budget à l’Assemblée nationale, Philippe Juvin.",
-        "url": "https://www.lefigaro.fr/conjoncture/dette-publique-la-france-devra-payer-100-milliards-d-euros-d-interets-des-2028-20261022"
+        "heure": "11h00",
+        "titre": "Thierry Breton : «Réunissons-nous autour de la règle d’or, il y va du crédit de la France et de l’argent des Français»",
+        "resume": "TRIBUNE - L’ancien ministre de l’Économie propose de réunir le Congrès à Versailles avant l’élection présidentielle pour graver une règle d’or budgétaire dans la Constitution, puis laisser le peuple français trancher par référendum sur l’effort qu’il",
+        "url": "https://www.lefigaro.fr/vox/economie/thierry-breton-reunissons-nous-autour-de-la-regle-d-or-il-y-va-du-credit-de-la-france-et-de-l-argent-des-francais-20261026"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "11h00",
+        "titre": "Souveraineté numérique : comment le « kill switch » est devenu la grande peur des Européens",
+        "resume": "Contestant une amende en Italie, l'américain Cloudflare avait menacé de suspendre ses services en Italie avant les JO de Milan-Cortina. Cet incident souligne l'urgence pour l'Europe de mieux gérer sa dépendance aux fournisseurs technologiques étrange",
+        "url": "https://www.lesechos.fr/thema/articles/souverainete-numerique-comment-le-kill-switch-est-devenu-la-grande-peur-des-europeens-2259023"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.028,
+        "rate": 3.007,
         "prev": 3.028,
-        "diff": 0.0,
-        "trend": "flat",
-        "date": "2026-10-21",
+        "diff": -0.021,
+        "trend": "down",
+        "date": "2026-10-22",
         "history": [
-          3.033,
           3.047,
           3.066,
           3.082,
@@ -278,18 +277,18 @@
           3.03,
           3.053,
           3.028,
-          3.028
+          3.028,
+          3.007
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.16,
-        "prev": 3.166,
-        "diff": -0.006,
+        "rate": 3.133,
+        "prev": 3.16,
+        "diff": -0.027,
         "trend": "down",
-        "date": "2026-10-21",
+        "date": "2026-10-22",
         "history": [
-          3.197,
           3.206,
           3.205,
           3.207,
@@ -298,18 +297,18 @@
           3.157,
           3.185,
           3.166,
-          3.16
+          3.16,
+          3.133
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.429,
-        "prev": 3.44,
-        "diff": -0.011,
+        "rate": 3.384,
+        "prev": 3.429,
+        "diff": -0.045,
         "trend": "down",
-        "date": "2026-10-21",
+        "date": "2026-10-22",
         "history": [
-          3.519,
           3.511,
           3.499,
           3.492,
@@ -318,18 +317,18 @@
           3.444,
           3.469,
           3.44,
-          3.429
+          3.429,
+          3.384
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.713,
-        "prev": 3.727,
-        "diff": -0.014,
+        "rate": 3.652,
+        "prev": 3.713,
+        "diff": -0.061,
         "trend": "down",
-        "date": "2026-10-21",
+        "date": "2026-10-22",
         "history": [
-          3.825,
           3.818,
           3.8,
           3.783,
@@ -338,18 +337,18 @@
           3.746,
           3.768,
           3.727,
-          3.713
+          3.713,
+          3.652
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.679,
-        "prev": 3.694,
-        "diff": -0.015,
+        "rate": 3.618,
+        "prev": 3.679,
+        "diff": -0.061,
         "trend": "down",
-        "date": "2026-10-21",
+        "date": "2026-10-22",
         "history": [
-          3.778,
           3.78,
           3.76,
           3.738,
@@ -358,7 +357,8 @@
           3.714,
           3.735,
           3.694,
-          3.679
+          3.679,
+          3.618
         ]
       }
     ]
@@ -367,36 +367,36 @@
   "curiosite": {
     "chiffre_du_jour": {
       "chiffre": "2,3 trillions USD",
-      "contexte": "La capitalisation boursière mondiale a dépassé les 2,3 trillions USD en octobre 2026, portée par la domination des géants technologiques et la croissance des marchés émergents asiatiques. Cette hausse reflète la reprise économique post-inflation et l'optimisme des investisseurs face aux innovations en IA et énergies renouvelables.",
-      "source": "World Federation of Exchanges - Octobre 2026"
+      "contexte": "La capitalisation boursière mondiale atteint un nouveau record, portée par l'IA et les technologies quantiques. Cette croissance reflète l'optimisme des investisseurs face à la productivité accrue des entreprises tech.",
+      "source": "World Federation of Exchanges - octobre 2026"
     },
     "ephemeride": {
-      "evenement": "23 octobre 1929 - Le Jeudi Noir marque le début du krach boursier le plus dévastateur du XXe siècle",
-      "impact": "Ce jour a provoqué une perte de 16% de la capitalisation boursière américaine et a déclenché la Grande Dépression, redéfinissant à jamais la régulation des marchés financiers mondiaux."
+      "evenement": "26 octobre 1929 - Krach boursier (Black Tuesday prolongé)",
+      "impact": "Cet effondrement a marqué le début de la Grande Dépression, rappelant l'importance cruciale de la régulation prudentielle et de la gestion des risques systémiques."
     },
     "graphique_semaine": {
-      "titre": "Évolution des rendements obligataires souverains (17-23 octobre 2026)",
-      "description": "Les rendements des obligations d'État à 10 ans affichent une volatilité modérée cette semaine, oscillant entre 3,8% et 4,2% pour la zone euro. Cette légère hausse reflète les anticipations d'une inflation persistante et les décisions attendues des banques centrales. Les marchés restent vigilants face aux tensions géopolitiques qui pourraient affecter les politiques monétaires.",
+      "titre": "Évolution de la volatilité implicite sur les marchés actions",
+      "description": "Après une période de stabilité relative, l'indice VIX remonte légèrement cette semaine, reflétant les anticipations des investisseurs sur les décisions de politique monétaire. Les tensions géopolitiques persistent mais restent contenues. Cette volatilité modérée caractérise un marché en rééquilibrage.",
       "donnees": [
         {
-          "label": "Lundi 17",
-          "valeur": 3.8
+          "label": "Lundi 19 oct",
+          "valeur": 14.2
         },
         {
-          "label": "Mardi 18",
-          "valeur": 3.95
+          "label": "Mardi 20 oct",
+          "valeur": 13.8
         },
         {
-          "label": "Mercredi 19",
-          "valeur": 4.1
+          "label": "Mercredi 21 oct",
+          "valeur": 15.1
         },
         {
-          "label": "Jeudi 20",
-          "valeur": 4.05
+          "label": "Jeudi 22 oct",
+          "valeur": 16.3
         },
         {
-          "label": "Vendredi 23",
-          "valeur": 4.2
+          "label": "Vendredi 23 oct",
+          "valeur": 15.7
         }
       ]
     }
@@ -405,123 +405,123 @@
     "articles": [
       {
         "source": "Vatican News",
-        "titre": "Léon XIV ne pourra pas être présent à Assise",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-leon-xiv-ne-sera-pas-a-assise-postoperatoire.html",
-        "resume": "Encore convalescent, le Pape ne se rendra pas à la rencontre organisée à Assise à l’occasion du 40e anniversaire de la Journée mondiale de prière pour la paix, convoquée par saint Jean-Paul II. La Salle de pr",
-        "pub": "Fri, 23 Oct 2026 09:30:00 +0200",
-        "heure": "11h30"
+        "titre": "«Jamais il n'a été aussi évident que les guerres appauvrissent et nuisent au monde»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-appel-guerres-paix-yemen-jordanie-assise.html",
+        "resume": "À l'issue de la prière de l'Angélus ce dimanche 25 octobre, le Pape a lancé un vibrant appel à la paix, en particulier au Yémen. Léon XIV a aussi prié spécialement pour les victimes de l'attentat terroriste qui a visé une église orthodoxe en Jordanie",
+        "pub": "Sun, 25 Oct 2026 12:15:00 +0100",
+        "heure": "14h15"
       },
       {
         "source": "Vatican News",
-        "titre": "Le patriarche de Constantinople en pèlerinage en Italie",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/le-patriarche-bartholomee-en-pelerinage-en-italie.html",
-        "resume": "Bartholomée Ier doit recevoir un doctorat honoris causa en théologie ce vendredi à l'Angelicum, et participer à la conférence «Crète dix ans après», consacrée à l'anniversaire du concile panorthodoxe. Le 26 o",
-        "pub": "Thu, 22 Oct 2026 16:32:00 +0200",
-        "heure": "18h32"
+        "titre": "Angélus: Sans amour, la foi serait sans consistance",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/angelus-pape-evangile-amour.html",
+        "resume": "Avant de réciter la prière mariale ce dimanche, le Pape est revenu sur l'Évangile selon saint Matthieu où un docteur de la loi met à l'épreuve Jésus en lui demandant quel est «le plus grand commandement». Le Christ place l’amour au cœur de notre rela",
+        "pub": "Sun, 25 Oct 2026 12:07:56 +0100",
+        "heure": "14h07"
       },
       {
         "source": "Vatican News",
-        "titre": "«Lebanon Faith Tours»: valoriser la beauté du Liban malgré la guerre",
-        "url": "https://www.vaticannews.va/fr/monde/news/2026-10/liban-foi-guerre-chretiens.html",
-        "resume": "Antonio El Helou, fondateur de «Lebanon Faith Tours» appelle les voyageurs internationaux à «pas avoir peur» de venir au Liban pour visiter les sites religieux historiques du pays. Ce jeune libanais de 22 ans",
-        "pub": "Thu, 22 Oct 2026 16:17:00 +0200",
-        "heure": "18h17"
+        "titre": "Les éducateurs appelés à faire des écoles et des universités catholiques des lieux d’espérance",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/les-educateurs-faire-ecoles-et-universites-lieux-d-esperance.html",
+        "resume": "À l’issue du Congrès international sur la pastorale scolaire et universitaire, organisé les 22 et 23 octobre au Vatican par le Dicastère pour la Culture et l’Éducation, l’abbé Christian Ngazain, recteur de l’Université catholique Omnia Omnibus en Rép",
+        "pub": "Sun, 25 Oct 2026 11:14:00 +0100",
+        "heure": "13h14"
       },
       {
         "source": "Vatican News",
-        "titre": "Les infos de L'Œuvre d'Orient - 22 octobre 2026",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/les-infos-de-l-uvre-d-orient-22-octobre-2026.html",
-        "resume": "En Cisjordanie, la récolte des olives se déroule sous tension.\n                    Tout lire\n                    &nbsp;",
-        "pub": "Thu, 22 Oct 2026 15:26:00 +0200",
-        "heure": "17h26"
+        "titre": "Attaque en Jordanie: les Églises réaffirment leur unité face à l'extrémisme",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/eglise-orthodoxe-attaque-jordanie-terrorisme.html",
+        "resume": "Suite à l'attaque armée survenue lors de funérailles dans l'église orthodoxe grecque Saint-Georges de Hammoud, qui a fait huit morts et quarante blessés, ce vendredu 23 octobre, des représentants des communautés chrétiennes ont réagi, déclarant que c",
+        "pub": "Sat, 24 Oct 2026 16:52:00 +0200",
+        "heure": "18h52"
       },
       {
         "source": "Vatican News",
-        "titre": "L'urgence d'éliminer les armes nucléaires et sécuriser les sites en temps de guerre",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/saint-siege-onu-urgent-eliminer-armes-nucleaires.html",
-        "resume": "La persistance des armes nucléaires reste «l’une des menaces les plus graves pour l’humanité», affirme l’archevêque Christophe Z. El-Kassis devant l’Assemblée générale qui se tient actuellement à New York. L'",
-        "pub": "Thu, 22 Oct 2026 14:09:00 +0200",
-        "heure": "16h09"
+        "titre": "Les évêques du Venezuela encouragent la reconstruction du pays",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/eglise-venezuela-pleniere-eveques.html",
+        "resume": "À l’issue de la 126e Assemblée plénière en octobre à Caracas, l’épiscopat a publié un document dénonçant la pauvreté, la crise des écoles et des soins de santé, ainsi que la polarisation politique, et appelant à des élections libres et transparentes.",
+        "pub": "Sat, 24 Oct 2026 16:12:00 +0200",
+        "heure": "18h12"
       },
       {
         "source": "Vatican News",
-        "titre": "Les évêques français rappellent leur mission aux jeunes, «saints de France»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/eveques-france-lettre-jeunes-catholique-manifestations.html",
-        "resume": "Après plusieurs semaines de protestations, certaines émaillées de violences, la Conférence des évêques de France invitent les jeunes catholiques à «réfléchir et partager leur réflexion». Dans une lettre publi",
-        "pub": "Thu, 22 Oct 2026 14:04:00 +0200",
-        "heure": "16h04"
+        "titre": "En visite ad limina, les évêques du Panama appelés au soutien des plus démunis",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/visite-ad-limina-vatican-panama-pape.html",
+        "resume": "Mgr José Domingo Ulloa, président de la Conférence épiscopale du Panama (CEP), retient l'appel du Pape au dialogue, à la solidarité et au soutien des plus démunis. Il a précisé que le Souverain pontife avait abordé la question des migrants et avait a",
+        "pub": "Sat, 24 Oct 2026 15:30:00 +0200",
+        "heure": "17h30"
       },
       {
         "source": "Vatican News",
-        "titre": "Au Cameroun, un catéchisme pour l’enseignement de la paix",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/cameroun-un-catechisme-pour-l-enseignement-de-la-paix.html",
-        "resume": "Mgr Andrew Nkea, archevêque de Bamenda, a remis, début octobre, au Vatican, un exemplaire du \"Catéchisme du Pape Léon XIV sur la paix\", au Saint-Père. Cet ouvrage est un ensemble de cent questions sur la paix",
-        "pub": "Thu, 22 Oct 2026 13:49:00 +0200",
-        "heure": "15h49"
+        "titre": "Six nouveaux vénérables, dont deux évêques missionnaires, dans l'Église",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/decret-dicastere-causes-de-saints-venerables.html",
+        "resume": "Le Pape a autorisé le dicastère pour les Causes des saints à promulguer les décrets reconnaissant les vertus héroïques de l’évêque Friedrich Kaiser Depel, qui a œuvré au Pérou, du salésien Oreste Marengo, pasteur en Inde, de Margarita Bavosi, laïque",
+        "pub": "Sat, 24 Oct 2026 12:31:00 +0200",
+        "heure": "14h31"
       },
       {
         "source": "Vatican News",
-        "titre": "Le Saint-Siège signe un accord avec la République du Honduras",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/saint-siege-accord-republique-honduras-developpement-humain.html",
-        "resume": "L'accord signé au Vatican favorise la collaboration entre l'Église et l'État dans la promotion du bien commun et garantit la liberté de religion et de culte. Lors des entretiens en marge de la cérémonie, la c",
-        "pub": "Thu, 22 Oct 2026 13:00:00 +0200",
-        "heure": "15h00"
+        "titre": "Le Pape encourage les jeunes de «Jesus Youth» à être des témoins courageux de la foi",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/conference-international-jesus-jeunes-temoin-foi-courage-mariage.html",
+        "resume": "Léon XIV a reçu en audience les délégués et les responsables du mouvement catholique international «Jesus Youth» qui célèbre cette année le 40e anniversaire de sa fondation et le 10e anniversaire de sa reconnaissance par le Saint-Siège. À cette assoc",
+        "pub": "Sat, 24 Oct 2026 11:47:00 +0200",
+        "heure": "13h47"
       },
       {
         "source": "Vatican News",
-        "titre": "Une rencontre qui attire et fascine",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/une-rencontre-qui-attire-fascine-editorial-transmission-foi.html",
-        "resume": "À propos du nouveau document du dicastère pour la Doctrine de la foi sur la manière d’annoncer l’Évangile à l’aube d’une nouvelle ère.\n                    Tout lire\n                    &nbsp;",
-        "pub": "Thu, 22 Oct 2026 12:14:00 +0200",
-        "heure": "14h14"
+        "titre": "Le sacrement de réconciliation comme «lieu de fête et de résurrection»",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/sacrement-reconciliation-confession-contrition-misericorde-pardo.html",
+        "resume": "Le cinquième séminaire de formation intitulé «Célébrer le sacrement de la Réconciliation» s’est achevé, à Rome, après deux jours d'interventions au Palais de la Chancellerie, les 23 et 24 octobre. En conclusion, Mgr Krzysztof Józef Nykiel, régent de",
+        "pub": "Sat, 24 Oct 2026 10:33:00 +0200",
+        "heure": "12h33"
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV invite les jeunes à s’inscrire aux Journées mondiales de la jeunesse 2027",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/jmj-message-pape-jeunes-seoul-pelerinage-esperance-foi.html",
-        "resume": "À l’occasion de la fête de saint Jean-Paul II, initiateur des Journées mondiales de la jeunesse, le Pape Léon XIV adresse un message aux jeunes du monde entier, les exhortant à s’inscrire aux JMJ de Séoul 202",
-        "pub": "Thu, 22 Oct 2026 12:00:00 +0200",
-        "heure": "14h00"
+        "titre": "L'inspirante solidarité des Ukrainiens, meurtris par la guerre",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/ukraine-borys-gudziak-metropolitain-traumatisme-guerre-sante.html",
+        "resume": "Pour faire face à un nombre aussi impressionnant de personnes touchées, l’engagement de tous serait nécessaire, y compris celui de l’Église qui peut aider les personnes à cultiver leur résilience. C’est précisément le concept de résilience qui sert d",
+        "pub": "Fri, 23 Oct 2026 18:18:00 +0200",
+        "heure": "20h18"
       },
       {
         "source": "Vatican News",
-        "titre": "Le Pape appelle à aider les jeunes à trouver une nouvelle façon de vivre dans le monde",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-leon-xiv-pastorale-scolaire-et-universitaire-jeunes.html",
-        "resume": "«Le courage naît d’un pacte de confiance: de l’expérience de quelqu’un qui croit en toi avant même que tu ne croies en toi-même», a affirmé le Pape ce jeudi lors d’une audience accordée aux participants d’un",
-        "pub": "Thu, 22 Oct 2026 11:35:00 +0200",
-        "heure": "13h35"
+        "titre": "Mgr Shevchuk remet au Pape «les prières de l’Ukraine» et une liste de prisonniers",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/shevchuk-audience-pape-priere-ukraine-russie-enfants-paix.html",
+        "resume": "Le chef de l’Église grecque-catholique ukrainienne a rencontré le Pape Léon XIV au Vatican, le remerciant pour ses appels à la paix et pour les efforts humanitaires du Saint-Siège en faveur des prisonniers et des enfants, ainsi que pour son souci du",
+        "pub": "Fri, 23 Oct 2026 17:23:00 +0200",
+        "heure": "19h23"
       },
       {
         "source": "Vatican News",
-        "titre": "Doctrine de la Foi: repartir du kérygme en temps de crise de la transmission de la foi",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/doctrine-de-la-foi-kerygme-crise-transmission.html",
-        "resume": "«Venite ad Me. Considérations sur la transmission de la foi à l’aube d’une nouvelle ère»: tel est le titre du document du dicastère pour la Doctrine de la Foi, rendu public ce jeudi 22 octobre. Dans une socié",
-        "pub": "Thu, 22 Oct 2026 11:16:00 +0200",
-        "heure": "13h16"
+        "titre": "Ukraine: l'aumônier apostolique apporte le soutien du Pape",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/elemosiniere-ukraine-aide-pape-leon-solidarite-voyage-mission.html",
+        "resume": "Une mission placée sous le signe de la solidarité, avec la pleine implication de l’Église grecque-catholique et de celle de rite latin. C’est ce que s’apprête à accomplir Mgr Luis Marín de San Martín, préfet du Dicastère pour le service de la charité",
+        "pub": "Fri, 23 Oct 2026 16:44:00 +0200",
+        "heure": "18h44"
       },
       {
         "source": "Vatican News",
-        "titre": "Cardinal Parolin: demandons le don de la paix par l’intercession de Jean-Paul II",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/parolin-paix-saint-pierre-memoire-liturgique-foi-pape-polonais.html",
-        "resume": "Le Secrétaire d’État a célébré la messe devant la tombe du Pape polonais, à l’occasion de sa fête liturgique. De nombreux fidèles et une centaine de prêtres étaient présents. «En cette époque ravagée par les",
-        "pub": "Thu, 22 Oct 2026 11:05:00 +0200",
-        "heure": "13h05"
+        "titre": "Le Pape reçoit le titre de confrère de la chapelle Saint-Georges de Windsor",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-leon-xiv-roi-charles-iii-titre-chapelle-saint-georges.html",
+        "resume": "Léon XIV a accepté le titre honorifique décerné par le roi Charles III, le doyen et les chanoines de Windsor, avec le soutien de l’archevêque de Cantorbéry. Un signe visible de «communion spirituelle, d’amitié œcuménique et de fraternité chrétienne»",
+        "pub": "Fri, 23 Oct 2026 15:15:00 +0200",
+        "heure": "17h15"
       },
       {
         "source": "Vatican News",
-        "titre": "L’Église ne tolère pas l’antisémitisme et le combat, rappelle Léon XIV",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/l-eglise-ne-tolere-pas-l-antisemitisme-pape-jewish-commitee.html",
-        "resume": "«Les divergences d’opinion, aussi profondes soient-elles, ne doivent jamais donner lieu à des préjugés et à l’hostilité, qui sapent les fondements moraux de la société», a affirmé le Pape aux membres de l’Ame",
-        "pub": "Thu, 22 Oct 2026 09:17:00 +0200",
-        "heure": "11h17"
+        "titre": "Coups de feu mortels sur un cortège funèbre à Karak, en Jordanie",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-10/jordanie-coups-feu-cortege-funebre-karak-attaque-eglise-sante.html",
+        "resume": "Deux hommes armés ont ouvert le feu à l'extérieur d'un édifice religieux dans le sud du pays, pendant une cérémonie funéraire. Sept personnes ont été tuées, et dix autres ont été blessées, dont certaines se trouvent dans un état grave. Les autorités",
+        "pub": "Fri, 23 Oct 2026 14:52:00 +0200",
+        "heure": "16h52"
       },
       {
         "source": "Vatican News",
-        "titre": "Le Pape ne nécessite d’aucun traitement d’après les résultats des examens histologiques",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-cursus-post-operatoire-pas-de-traitement-necessaire.html",
-        "resume": "Selon un communiqué rendu public dans la soirée du 21 octobre par la Salle de presse du Saint-Siège, les résultats des examens histologiques effectués sur les cellules prélevées lors de l’intervention chirurg",
-        "pub": "Thu, 22 Oct 2026 06:07:00 +0200",
-        "heure": "08h07"
+        "titre": "«Nul n’est trop grand pécheur pour revenir vers Dieu», selon Mgr Nykiel",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/seminaire-sacrement-de-reconciliation-penitencerie-apostolique.html",
+        "resume": "Alors que s’ouvre ce vendredi un séminaire sur le sacrement de la réconciliation, qui réunira plus de 800 personnes, le régent de la Pénitencerie apostolique invite les fidèles à redécouvrir ce sacrement, en leur rappelant que nul n’est trop grand pé",
+        "pub": "Fri, 23 Oct 2026 13:40:00 +0200",
+        "heure": "15h40"
       }
     ]
   }
