@@ -1,28 +1,28 @@
 {
-  "timestamp": "11h03 le 30/10/2026",
-  "alerte": "Récession imminente en France : PIB en recul T3, grève dockers perturbe chaînes logistiques, Christine Lagarde quitte la BCE",
+  "timestamp": "12h54 le 02/11/2026",
+  "alerte": "Crise sociale aiguë impactant le marché du travail et les politiques budgétaires : revalorisation SMIC envisagée + 3 dimanches commerciaux autorisés + mobilisations lycéennes continues = volatilité accrue sur les dépenses publiques et consommation Q4",
   "synthese": {
-    "resume": "L'économie française bascule en territoire critique avec un recul surprise du PIB au T3 2026, frôlant la récession selon Le Monde. Simultanément, une grève des dockers paralyse les ports français et européens, aggravant les ruptures d'approvisionnement. TotalEnergies affiche des bénéfices records à 8,3 Mds$ (T3), dopés par les tensions géopolitiques, contrastant brutalement avec la stagnation macroéconomique. La BCE voit son leadership fragilisé par l'annonce du départ anticipé de Christine Lagarde en février 2027. Le marché du crédit se resserre : taux élevés réduisent les capacités d'emprunt des ménages (acquisition moyenne 66 m² vs 71 m² en 2020). La conjoncture française devient une urgence politique : le gouvernement est pressé de redresser ses comptes publics avant une présidentielle 2027 volatile.",
+    "resume": "La France fait face à une convergence de chocs : le gouvernement annonce une revalorisation du SMIC face aux mobilisations sociales (article 4), tout en libérant des stocks stratégiques pour baisser le gazole de 12-18 centimes (article 1). En parallèle, les discussions budgétaires 2027 s'enlisent à l'Assemblée (article 22) tandis que les tensions géopolitiques impactent les chaînes d'approvisionnement énergétiques (Canada/GNL européen, article 7). Le secteur défense français bénéficie des commandes militaires (article 10) mais Alstom génère des alertes sur ses livraisons (article 8). Sur le front politique, les primaires se précisent (articles 27-30) avec des enjeux électoraux qui amplifient l'instabilité macroéconomique.",
     "points": [
       {
-        "titre": "Macro : PIB français en récession - impact T3 2026",
-        "detail": "Recul surprise du PIB au troisième trimestre confirmé par Le Monde [1] et Challenges [41]. L'économie française flirte avec la récession technique. Roland Lescure (ministre) avertit que l'économie 'va dans le mur' sans redressement budgétaire immédiat [3][112]. Implications : risque de révision négative des prévisions 2026-2027, pression accrue sur les politiques de relance, probable amélioration des spreads OAT-Bund court terme (flight-to-quality) mais détérioration long terme si pas de consolidation budgétaire."
+        "titre": "Carburants : libération de stocks stratégiques avec impact limité (-12-18cts/l)",
+        "detail": "Le gouvernement mobilise les réserves stratégiques pour contenir l'inflation énergétique. Baisses observées dans plus de 50% des stations-service. Mesure conjoncturelle sans durabilité : risque de redémarrage des prix dès reconstitution des stocks. Impact fiscal indirect sur les recettes pétrolières et TICPE, détériorant les objectifs budgétaires 2027."
       },
       {
-        "titre": "Énergie : TotalEnergies +8,3 Mds$ de bénéfice T3, tensions géopolitiques",
-        "detail": "Bénéfice inédit au T3 2026 : 8,3 Mds$ soit plus du double vs année précédente [17][19][54]. Dopé par tensions mondiales sur le gazole et prix élevés. TotalEnergies réduit prix gazole à 2,15€/L dès samedi pour apaiser tensions sociales [107]. Implication : capacité de dividende exceptionnelle mais sensibilité politique croissante à une taxe sur superprofits [18]. Volatilité accrue si désescalade géopolitique. Contraste frappant avec stagnation économique : secteur pétrolier découplé de l'économie réelle française."
+        "titre": "Revalorisation SMIC envisagée : coût budgétaire non chiffré dans contexte d'endettement structurel",
+        "detail": "Face aux mobilisations, l'exécutif prépare un coup de pouce SMIC (article 4). Pas de montant précisé mais implications significatives : hausse des charges sociales patronales, pression inflationniste supplémentaire, effet de diffusion sur les grilles salariales. Comparable au modèle espagnol (article 11) où croissance économique ne profite pas uniformément = risque de stagflation relative."
       },
       {
-        "titre": "Banque centrale : départ anticipé de Christine Lagarde (BCE) février 2027",
-        "detail": "Annonce de démission avant fin du mandat annoncée le 30/10 à 21h59 [10]. Lagarde déclare vouloir quitter pour 'sujets hors politique monétaire' et regagner liberté de parole [16]. Impact immédiat : incertitude sur orientation BCE jusqu'en février (risque de paralysie décisionnelle), relance débat sur succession et verrouillage des institutions par Macron [51]. Les spreads OAT-Bund pourraient se creuser temporairement (perte d'une figure stabilisatrice franco-européenne)."
+        "titre": "Budget 2027 : blocage parlementaire et amendements au devenir incertain (article 22)",
+        "detail": "Hémicycle clairsemé lors des votes d'amendements = visibilité très faible sur l'adoption du budget. Majorité gouvernementale fragmentée crée un risque de budget rectificatif ou d'ordonnances. Impact : hausse de la prime de risque souveraine française, élargissement OAT/Bund à surveiller étroitement."
       },
       {
-        "titre": "Crédit immobilier : capacité d'achat réduite (-1 pièce vs 2020)",
-        "detail": "Avec hausse des taux crédit, un ménage n'acquiert en moyenne que 66 m² au lieu de 71 m² en 2020 [68]. Réduction de 7% du pouvoir d'achat immobilier. Impact secteur construction et services : ralentissement des mises en chantier, baisse TVA construction, réduction demande acier/ciment. Contexte de taux élevés à horizon 12-24m rend improbable accélération du crédit."
+        "titre": "Défense : nouvelle âge d'or pour chantiers navals français vs alertes Alstom",
+        "detail": "Commandes militaires soutiennent les industriels navals français (article 10 : nouveau dynamisme). Contraste avec Alstom en retard sur livraisons trains allemands, nouvel avertissement sur résultats (article 8 : perte de confiance investisseurs). Divergence secteurs défense vs mobilité : risque de consolidation M&A dans transports ferroviaires."
       },
       {
-        "titre": "Supply chain : grève dockers perturbe ports français/européens",
-        "detail": "Perturbations significatives des ports français et européens [2]. Risque de ruptures d'approvisionnement pour secteurs dépendants (industrie manufacturière, retail, agro-alimentaire). Coût logistique accru si détournement via ports alternatifs. Aggrave conjoncture macro : coûts de production accrus pour PME/ETI juste avant pics de dépenses hivernales."
+        "titre": "Géopolitique énergétique : Canada/GNL européen vs sanctions russes (articles 7, 65)",
+        "detail": "Canada positionne ses capacités GNL pour l'Europe (article 7). Parallèlement, sanctions européennes menacent revenus TotalEnergies en Russie (article 65). Transition lente vers indépendance énergétique = prix d'électricité élevés 2027, rendant versement nucléaire universel insuffisant pour protéger PME (article 64). Inflation énergétique structurelle confirmée."
       }
     ]
   },
@@ -31,38 +31,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "13h05",
-        "titre": "TotalEnergies affiche des profits record, dopés par les tensions mondiales sur le gazole",
-        "resume": "La major française, dont les raffineries tournent à plein régime, a enregistré un bénéfice net en hausse de 124 % sur un an au troisième trimestre, à 8,3 milliards de dollars.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/29/totalenergies-affiche-des-profits-record-dopes-par-les-tensions-mondiales-sur-le-gazole_6802305_3234.html"
+        "heure": "14h43",
+        "titre": "Carburants : le gouvernement affirme que le prix du gazole a baissé de « 12 à 18 centimes » dans plus de la moitié des stations-service grâce à la libération de stocks stratégiques",
+        "resume": "Cette baisse de la facture correspond exactement aux promesses faites par Bercy en octobre. Mais certaines stations-service indépendantes regrettent de n’avoir pas bénéficié des déstockages en même temps que les grandes surfaces ou TotalEnergies.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/02/carburants-le-gouvernement-affirme-que-le-prix-du-gazole-a-baisse-de-12-a-18-centimes-dans-plus-de-la-moitie-des-stations-service-grace-a-la-liberation-de-stocks-strategiques_6805242_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "03h25",
+        "titre": "Le Wegovy, médicament antiobésité, arrive en comprimé dans les pharmacies françaises",
+        "resume": "Le traitement développé par Novo Nordisk, jusqu’ici administré par injection en France, est désormais disponible sous forme orale, alors que le fabricant danois et son concurrent américain, Eli Lilly, rivalisent pour s’imposer sur un marché mondial e",
+        "url": "https://www.lemonde.fr/sante/article/2026/11/02/marche-des-medicaments-antiobesite-le-wegovy-arrive-en-comprime-dans-les-pharmacies-francaises_6804738_1651302.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "16h00",
+        "titre": "Au Japon, les chaussettes Uniqlo, symboles des inquiétudes face à l’augmentation des prix",
+        "resume": "L’enseigne d’habillement bon marché a renoncé à augmenter ses tarifs dans ses magasins de l’Archipel. Une décision emblématique du débat créé dans le pays par le retour de l’inflation depuis le début des années 2020.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/01/au-japon-les-chaussettes-uniqlo-symboles-des-inquietudes-face-a-l-augmentation-des-prix_6804306_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "19h53",
-        "titre": "Jusqu’à + 260 % de bénéfice en un an : TotalEnergies, Shell, Repsol… à travers l’Europe, les compagnies pétrolières engrangent des profits exceptionnels",
-        "resume": "Guerre au Proche-Orient, raffineries touchées, prix du Brent en hausse : la crise des hydrocarbures et la flambée des cours qui en résulte portent les résultats des géants pétroliers européens. Au troisième trimestre 2026, TotalEnergies, Shell, Reps",
-        "url": "https://www.challenges.fr/entreprise/energie/jusqua-260-de-benefice-en-un-an-totalenergies-shell-repsol-a-travers-leurope-les-compagnies-petrolieres-engrangent-des-profits-exceptionnels_646689"
+        "heure": "09h30",
+        "titre": "Malgré un record de fraudes financières en France, la confiance des Français dans leurs banques reste intouchable",
+        "resume": "Malgré l’augmentation des fraudes financières, les Français ne sont toujours pas décidés à changer de banque, selon une récente enquête de Fourthline. En revanche, ils sont de plus en plus nombreux à se multi-bancariser au regard d’une l’offre de se",
+        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/malgre-un-record-de-fraudes-financieres-en-france-la-confiance-des-francais-dans-leurs-banques-reste-intouchable_646704"
       },
       {
-        "source": "Challenges",
-        "heure": "15h05",
-        "titre": "TotalEnergies a plus que doublé son bénéfice en un an : comment expliquer ses résultats exceptionnels au troisième trimestre ?",
-        "resume": "Le pétrolier français a publié ses résultats du troisième trimestre : son résultat net ajusté explose à 9,1 milliards de dollars, encore plus que les trimestres précédents. Des bénéfices portés par la hausse de rentabilité de ses raffineries et par",
-        "url": "https://www.challenges.fr/entreprise/energie/totalenergies-a-plus-que-double-son-benefice-en-un-an-comment-expliquer-ses-resultats-exceptionnels-au-troisieme-trimestre_646681"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "11h55",
-        "titre": "TotalEnergies annonce baisser le prix du gazole à 2,15 euros le litre dans certaines stations dès samedi",
-        "resume": "Après l’annonce de bénéfice jeudi 28 octobre de bénéfices record pour le troisième trimestre en lien avec la flambée des hydrocarbures, Total Énergie aborde une baisse des prix afin de soulager les ménages.",
-        "url": "https://www.lefigaro.fr/conjoncture/totalenergies-annonce-baisser-le-prix-du-gazole-a-2-15-euros-le-litre-dans-certaines-stations-des-samedi-20261030"
-      },
-      {
-        "source": "Challenges",
-        "heure": "13h00",
-        "titre": "Semi-conducteurs, hydrogène, véhicules électriques… Ces ETF qui affichent des performances vertigineuses et attirent les investisseurs en quête de rendement",
-        "resume": "Ces fonds qui répliquent un indice attirent. Notamment en gestion passive, pour les performances, la simplicité de fonctionnement et la faiblesse des frais.",
-        "url": "https://www.challenges.fr/argent-et-placements/semi-conducteurs-hydrogene-vehicules-electriques-ces-etf-qui-affichent-des-performances-vertigineuses-et-attirent-les-investisseurs-en-quete-de-rendement_646547"
+        "source": "Les Echos",
+        "heure": "14h17",
+        "titre": "Après le piratage record de Binance, l'industrie crypto face à l'éternel risque de tout perdre",
+        "resume": "Après le vol record de plusieurs milliards de dollars chez Binance, la sécurité des cryptoactifs revient au centre des débats. Malgré des protections toujours plus sophistiquées, les pirates continuent d'exploiter les failles de cette industrie.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/apres-le-piratage-record-de-binance-lindustrie-crypto-face-a-leternel-risque-de-tout-perdre-2260348"
       }
     ]
   },
@@ -70,77 +70,77 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "10h37",
-        "titre": "Stellantis, toujours dans le rouge, peine à redresser ses ventes, en Europe comme en Amérique",
-        "resume": "Le constructeur a perdu un demi-milliard d’euros au troisième trimestre. Ses activités ne repartent pas aux Etats-Unis et continuent de souffrir en Europe. Le redressement prévu en 2027 reste incertain.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/29/stellantis-toujours-dans-le-rouge-peine-a-redresser-ses-ventes-en-europe-comme-en-amerique_6802192_3234.html"
-      },
-      {
-        "source": "Les Echos",
         "heure": "09h30",
-        "titre": "Safran, Thales, TotalEnergies, BNP Paribas, L'Oréal… qui sont les nouveaux chouchous des cadres français ?",
-        "resume": "Si LVMH et Airbus campent toujours aux premières places, de nouvelles attentes chez les cadres secouent le reste du classement Universum des employeurs les plus attractifs.",
-        "url": "https://www.lesechos.fr/travailler-mieux/recrutement/safran-thales-totalenergies-bnp-paribas-loreal-qui-sont-les-nouveaux-chouchous-des-cadres-francais-2259746"
+        "titre": "En retard sur ses livraisons de trains en Allemagne, Alstom émet un nouvel avertissement sur ses résultats",
+        "resume": "Les difficultés de production des trains Coradia Max remettent en cause les prévisions de résultats financiers du constructeur ferroviaire français sur la période d’avril à septembre 2026.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/02/en-retard-sur-ses-livraisons-de-trains-en-allemagne-alstom-emet-un-nouvel-avertissement-sur-ses-resultats_6805052_3234.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "09h20",
-        "titre": "Crédit Agricole: le bénéfice net troisième trimestre du groupe en hausse de plus de 28 %, tiré par les caisses régionales",
-        "resume": "Le groupe Crédit Agricole a vu son bénéfice net bondir de plus de 28 % au troisième trimestre, à 7,6 milliards d'euros, grâce notamment aux caisses...",
-        "url": "https://www.lefigaro.fr/flash-eco/credit-agricole-le-benefice-net-troisieme-trimestre-du-groupe-en-hausse-de-plus-de-28-tire-par-les-caisses-regionales-20261030"
+        "source": "Le Monde Eco",
+        "heure": "08h30",
+        "titre": "Dans les chantiers navals français, un nouvel âge d’or grâce aux commandes militaires",
+        "resume": "Alors qu’Euronaval, le plus grand salon naval de défense du monde, s’ouvre mardi à Villepinte (Seine-Saint-Denis), la filière hexagonale ne s’est jamais aussi bien portée. A tel point que les industriels ont dû revoir leur organisation pour répondre",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/02/dans-les-chantiers-navals-francais-un-nouvel-age-d-or-grace-aux-commandes-militaires_6804984_3234.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "09h28",
-        "titre": "Capgemini relève à nouveau son objectif de croissance, porté par une activité «solide» au troisième trimestre",
-        "resume": "Le géant de l'informatique Capgemini a enregistré un bond de 12,6 % de son chiffre d'affaires en données publiées au troisième trimestre, le...",
-        "url": "https://www.lefigaro.fr/flash-eco/capgemini-releve-a-nouveau-son-objectif-de-croissance-porte-par-une-activite-solide-au-troisieme-trimestre-20261030"
+        "source": "Challenges",
+        "heure": "14h00",
+        "titre": "Gisement stratégique dans l’Allier : ces freins qu’Imerys doit encore lever pour concrétiser sa future mine de lithium, un projet à 1,8 milliard d’euros soutenu par l’État",
+        "resume": "Le spécialiste français des minéraux industriels a obtenu la concession minière lui permettant d’exploiter le gisement de lithium situé sous la carrière de kaolin de Beauvoir, à Échassières, jusqu’en 2075. Un projet à 1,8 milliard d’euros, soutenu p",
+        "url": "https://www.challenges.fr/entreprise/industrie/gisement-strategique-dans-lallier-ces-freins-quimerys-doit-encore-lever-pour-concretiser-sa-future-mine-de-lithium-un-projet-a-18-milliard-deuros-soutenu-par-letat_646730"
+      },
+      {
+        "source": "Challenges",
+        "heure": "13h30",
+        "titre": "Lancel célèbre ses 150 ans : retour sur l’histoire d’une maison parisienne et sur le rouge, couleur emblématique de sa maroquinerie",
+        "resume": "À l’occasion de ses 150 ans, Lancel ouvre ses archives dans sa boutique historique de la place de l’Opéra et célèbre son héritage avec des créations exclusives.",
+        "url": "https://www.challenges.fr/luxe/lancel-celebre-ses-150-ans-retour-sur-lhistoire-dune-maison-parisienne-et-sur-le-rouge-couleur-emblematique-de-sa-maroquinerie_646717"
       },
       {
         "source": "Les Echos",
-        "heure": "13h51",
-        "titre": "Réassurance : SCOR dépasse les attentes",
-        "resume": "SCOR affiche un bénéfice net de 206 millions d'euros au troisième trimestre, en recul de 4,8 % sur un an. L'indicateur reste néanmoins largement au-dessus des attentes des analystes, quelques semaines avant la présentation du nouveau plan stratégique",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/reassurance-scor-depasse-les-attentes-2260152"
+        "heure": "13h06",
+        "titre": "Logis Hôtels accélère sa montée en gamme",
+        "resume": "Après l'acquisition l'an dernier du réseau Teritoria pour se diversifier dans le haut de gamme, le premier groupe d'hôteliers-restaurateurs indépendants en France prévoit d'ouvrir 200 adresses au sein de son pôle premium d'ici à 2030.",
+        "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/logis-hotels-accelere-sa-montee-en-gamme-2260466"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "00h44",
-        "titre": "Face à l’effondrement du BHV, l’impuissance de la Mairie de Paris",
-        "resume": "L’enseigne historique du centre de la capitale va probablement être placée en redressement judiciaire, et la Ville n’a que peu de moyens pour limiter la casse.",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/29/face-a-l-effondrement-du-bhv-l-impuissance-de-la-mairie-de-paris_6802394_823448.html"
+        "source": "Challenges",
+        "heure": "14h00",
+        "titre": "Gisement stratégique dans l’Allier : ces freins qu’Imerys doit encore lever pour concrétiser sa future mine de lithium, un projet à 1,8 milliard d’euros soutenu par l’État",
+        "resume": "Le spécialiste français des minéraux industriels a obtenu la concession minière lui permettant d’exploiter le gisement de lithium situé sous la carrière de kaolin de Beauvoir, à Échassières, jusqu’en 2075. Un projet à 1,8 milliard d’euros, soutenu p",
+        "url": "https://www.challenges.fr/entreprise/industrie/gisement-strategique-dans-lallier-ces-freins-quimerys-doit-encore-lever-pour-concretiser-sa-future-mine-de-lithium-un-projet-a-18-milliard-deuros-soutenu-par-letat_646730"
       },
       {
         "source": "Challenges",
-        "heure": "20h34",
-        "titre": "1,4 million d’euros en caisse face à 121,3 millions de dettes exigibles : comment le BHV en est-il arrivé à se retrouver au bord du gouffre ?",
-        "resume": "L’audience devant le tribunal des affaires économiques de Paris demain s’annonce décisive pour le futur du grand magasin de la rue de Rivoli qui accuse un trou de 120 millions d’euros.",
-        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/14-million-deuros-en-caisse-face-a-1213-millions-de-dettes-exigibles-comment-le-bhv-en-est-il-arrive-a-se-retrouver-au-bord-du-gouffre_646691"
+        "heure": "07h30",
+        "titre": "À nouveau soupçonné d’escroquerie pour 3,4 millions d’euros : le parcours mouvementé de l’insaisissable star de l’escroquerie au CO2",
+        "resume": "Condamné au début des années 2010 pour sa participation à l’arnaque à la TVA sur les quotas carbone, le Français Fabrice Sakoun est toujours exilé en Israël. Il est accusé d’avoir poursuivi ses arnaques financières et doit être à nouveau jugé, en so",
+        "url": "https://www.challenges.fr/economie/a-nouveau-soupconne-descroquerie-pour-34-millions-deuros-le-parcours-mouvemente-de-linsaisissable-star-de-lescroquerie-au-co2_646696"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "21h00",
-        "titre": "Dans l’affaire des millions d’actions Hermès disparues, la justice s’interroge sur le rôle de LVMH",
-        "resume": "Nicolas Puech, l’un des héritiers du sellier maroquinier, accuse son ex-gestionnaire de fortune de l’avoir dépossédé de sa participation dans la société, qui vaudrait aujourd’hui 8 milliards d’euros. Au profit, notamment, du groupe de Bernard Arnault",
-        "url": "https://www.lemonde.fr/societe/article/2026/10/29/dans-l-affaire-des-millions-d-actions-hermes-disparues-la-justice-s-interroge-sur-le-role-de-lvmh_6802374_3224.html"
+        "source": "Challenges",
+        "heure": "07h00",
+        "titre": "Une plongée rare dans les rouages de la fraude fiscale grâce à une clé USB : le procès des « Dubaï Papers » ouvre à Paris",
+        "resume": "Le procès des « Dubaï Papers », qui commence ce lundi au tribunal correctionnel de Paris, donnera un aperçu rare des rouages du milieu opaque de la fraude fiscale internationale, grâce à une clé USB remise anonymement au PNF en 2019.",
+        "url": "https://www.challenges.fr/economie/une-plongee-rare-dans-les-rouages-de-la-fraude-fiscale-grace-a-une-cle-usb-le-proces-des-dubai-papers-ouvre-a-paris_646727"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "13h30",
-        "titre": "Liquidation en vue pour le cabinet d’avocats Weil : « La brutalité de la chute d’une institution quasi centenaire plonge le monde du droit dans la sidération »",
-        "resume": "La tradition au sein des « Big Law » était de faire carrière dans la même maison, mais désormais les firmes se livrent une compétition à coups de millions de dollars de salaires pour attirer les meilleurs avocats. Un jeu dangereux qui fragilise les c",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/29/liquidation-en-vue-pour-le-cabinet-d-avocats-weil-la-brutalite-de-la-chute-d-une-institution-quasi-centenaire-plonge-le-monde-du-droit-dans-la-sideration_6802308_3234.html"
+        "source": "Challenges",
+        "heure": "18h00",
+        "titre": "Un plan d'économies face à un taux d'endettement de 95 % : Ouest-France cherche sa nouvelle boussole",
+        "resume": "Rattrapé par un marché de la presse en crise et confronté à une dette en nette hausse, le premier quotidien régional de France est contraint d’accélérer sa transformation et de faire des économies pour conserver son leadership.",
+        "url": "https://www.challenges.fr/entreprise/medias/un-plan-deconomies-face-a-un-taux-dendettement-de-95-ouest-france-cherche-sa-nouvelle-boussole_646726"
       },
       {
-        "source": "Les Echos",
-        "heure": "09h15",
-        "titre": "« Le risque de prédation reste élevé » : les ETI en état d'alerte sur les rachats par des étrangers",
-        "resume": "Face à une remontée du nombre de rachats, dont une partie par des acquéreurs non Français, les ETI s'inquiètent pour la pérennité et la souveraineté.",
-        "url": "https://www.lesechos.fr/pme-regions/actualite-pme/le-risque-de-predation-reste-eleve-les-eti-en-etat-dalerte-sur-les-rachats-par-des-etrangers-2260032"
+        "source": "Challenges",
+        "heure": "14h00",
+        "titre": "Après les petits colis, l’Union européenne généralise ses taxes contre le flot d’importations chinoises",
+        "resume": "À partir de ce dimanche 1er novembre, l’Union européenne impose une taxe de deux euros sur les colis importés, en plus de celle déjà appliquée aux petits paquets depuis juillet, qui montre de premiers signes d’efficacité pour endiguer le déferlement",
+        "url": "https://www.challenges.fr/economie/apres-les-petits-colis-lunion-europeenne-generalise-ses-taxes-contre-le-flot-dimportations-chinoises_646725"
       }
     ]
   },
@@ -148,38 +148,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "11h26",
-        "titre": "Avec un recul surprise du PIB au troisième trimestre, l’économie française flirte avec la récession",
-        "resume": "Le produit intérieur brut de la France a reculé de 0,1 % au troisième trimestre, a annoncé vendredi l’Insee, après avoir stagné au deuxième trimestre et reculé de 0,2 % au premier. Pour le ministre de l’économie, Roland Lescure, « l’économie français",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/30/recul-surprise-du-pib-au-troisieme-trimestre-l-economie-francaise-flirte-avec-la-recession_6802918_3234.html"
+        "heure": "14h43",
+        "titre": "Carburants : le gouvernement affirme que le prix du gazole a baissé de « 12 à 18 centimes » dans plus de la moitié des stations-service grâce à la libération de stocks stratégiques",
+        "resume": "Cette baisse de la facture correspond exactement aux promesses faites par Bercy en octobre. Mais certaines stations-service indépendantes regrettent de n’avoir pas bénéficié des déstockages en même temps que les grandes surfaces ou TotalEnergies.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/02/carburants-le-gouvernement-affirme-que-le-prix-du-gazole-a-baisse-de-12-a-18-centimes-dans-plus-de-la-moitie-des-stations-service-grace-a-la-liberation-de-stocks-strategiques_6805242_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "09h52",
-        "titre": "« L’économie française est à l’arrêt » et « ira dans le mur » si elle ne redresse pas ses comptes, avertit Roland Lescure",
-        "resume": "Selon les données publiées vendredi par l’Insee, le PIB a reculé de 0,1 % au troisième trimestre, après avoir stagné au deuxième trimestre et reculé de 0,2 % au premier.",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/30/le-pib-francais-a-recule-de-0-1-au-troisieme-trimestre-apres-avoir-stagne-au-deuxieme-trimestre-et-recule-de-0-2-au-premier_6802906_3234.html"
+        "heure": "12h26",
+        "titre": "Face aux mobilisations sociales, le gouvernement envisage une revalorisation du smic",
+        "resume": "Le ministre du travail, Jean-Pierre Farandou, s’est dit ouvert à l’idée d’une anticipation au 1ᵉʳ décembre de la revalorisation automatique du salaire minimum au 1ᵉʳ janvier et a évoqué la piste d’un éventuel « coup de pouce ». Reste à savoir si le g",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/02/face-aux-mobilisations-sociales-le-gouvernement-envisage-une-revalorisation-du-smic_6805226_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "12h15",
-        "titre": "« L’économie française est à l’arrêt » : le PIB recule au troisième trimestre, la France frôle la récession",
-        "resume": "Le PIB a baissé de 0,1 % au troisième trimestre, malgré une consommation qui résiste. Plombée par l’investissement et le commerce extérieur, l’économie française ne repart toujours pas.",
-        "url": "https://www.challenges.fr/economie/leconomie-francaise-est-a-larret-le-pib-recule-au-troisieme-trimestre-la-france-frole-la-recession_646697"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "13h41",
-        "titre": "France : la flambée de l'énergie fait grimper l'inflation au-delà des 3 %",
-        "resume": "Poussée par les prix de l'énergie, l'inflation a s'est établie à 3,4 % sur un an en octobre. Un plus haut depuis janvier 2024.",
-        "url": "https://www.lesechos.fr/economie-france/conjoncture/france-la-flambee-de-lenergie-fait-grimper-linflation-au-dela-des-3-2260143"
+        "source": "Le Monde Eco",
+        "heure": "08h25",
+        "titre": "Hausse du smic : les limites du modèle espagnol, où la croissance économique ne bénéficie pas à tous",
+        "resume": "Malgré une économie parmi les plus dynamiques d’Europe, souvent citée en exemple par la gauche française, la hausse spectaculaire du salaire minimum n’a pas empêché le pouvoir d’achat d’une partie des Espagnols de stagner.",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/02/les-limites-du-modele-espagnol-ou-la-croissance-economique-ne-beneficie-pas-a-tous_6804950_823448.html"
       },
       {
         "source": "Les Echos",
-        "heure": "12h02",
-        "titre": "L'emploi fait du surplace dans une économie française en panne",
-        "resume": "Les effectifs des entreprises privées ont reculé de 0,1 % au troisième trimestre. Soit près de 26.000 postes en moins, entre début juillet et fin septembre, selon l'Insee.",
-        "url": "https://www.lesechos.fr/economie-france/social/lemploi-fait-du-surplace-dans-une-economie-francaise-en-panne-2260108"
+        "heure": "11h30",
+        "titre": "« Face à la hausse des prix de l'électricité, le versement nucléaire universel ne protégera pas les entreprises françaises en 2027 »",
+        "resume": "Conçu pour limiter les surprofits d'EDF, le nouveau système du versement nucléaire (VNU) risque d'être pris en défaut dans son rôle de bouclier contre la hausse des prix de l'électricité, au détriment des entreprises et des industriels français. Deux",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/face-a-la-hausse-des-prix-de-lelectricite-le-versement-nucleaire-universel-ne-protegera-pas-les-entreprises-francaises-en-2027-2260431"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "11h00",
+        "titre": "Le Canada rêve d’exporter son gaz naturel liquéfié en Europe",
+        "resume": "Ottawa est le cinquième producteur mondial de gaz naturel liquéfié (GNL) et pourrait devenir une nouvelle source d’approvisionnement pour les Européens, en quête de diversification. Mais l’éloignement géographique et le manque d’infrastructures risqu",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/02/le-canada-reve-d-exporter-son-gaz-naturel-liquefie-en-europe_6805185_3234.html"
       }
     ]
   },
@@ -187,89 +187,88 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "12h30",
-        "titre": "Budget 2027 : dans les Bouches-du-Rhône, les maires en colère menacent le gouvernement de ne pas organiser l’élection présidentielle",
-        "resume": "Excédés par les nouvelles baisses de dotation de l’Etat à leurs communes prévues dans le projet de loi de finances pour 2027, 119 élus ont écrit au premier ministre et se disent prêts à « rendre les clés » de leurs mairies.",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/30/budget-2027-dans-les-bouches-du-rhone-les-maires-en-colere-menacent-le-gouvernement-de-ne-pas-organiser-l-election-presidentielle_6802990_823448.html"
+        "heure": "14h57",
+        "titre": "Budget 2027 : les discussions se poursuivent dans un hémicycle clairsemé, où les députés votent des amendements au devenir incertain",
+        "resume": "Les débats ont tourné à la critique de la politique économique macroniste, après la publication par l’Insee de mauvaises nouvelles pour la croissance. Un vote solennel est prévu mardi 3 novembre sur le volet recettes.",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/02/budget-2027-les-discussions-se-poursuivent-dans-un-hemicycle-clairseme-ou-les-deputes-votent-des-amendements-au-devenir-incertain_6805244_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "10h00",
-        "titre": "Mobilisations sociales : « Le mois d’octobre restera comme la répétition générale du choc autoritaire que nous redoutons pour 2027 »",
-        "resume": "Pour empêcher qu’il puisse devenir l’« instrument docile d’une restriction des libertés publiques », il est urgent de rendre le parquet complètement indépendant du politique, met en garde l’avocat Ilan Volson-Derabours, dans une tribune au « Monde ».",
-        "url": "https://www.lemonde.fr/idees/article/2026/10/30/mobilisations-sociales-le-mois-d-octobre-restera-comme-la-repetition-generale-du-choc-autoritaire-que-nous-redoutons-pour-2027_6802907_3232.html"
+        "heure": "14h25",
+        "titre": "Présidentielle 2027 : Raphaël Glucksmann estime qu’il serait « intelligent » de modifier la date du second tour, prévue le 2 mai",
+        "resume": "Avant lui, la droite et l’extrême droite avaient jugé que la date retenue pour le second tour de la présidentielle, le 2 mai, au lendemain des manifestations du 1ᵉʳ-Mai, était inadaptée. L’hypothèse a déjà été rejetée par l’exécutif, qui juge que cel",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/02/presidentielle-2027-raphael-glucksmann-estime-qu-il-serait-intelligent-de-modifier-la-date-du-second-tour_6805240_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "20h37",
-        "titre": "Mobilisations du 31 octobre : Laurent Nuñez prévoit un dispositif de 70 000 policiers et gendarmes, et confirme l’interdiction des rassemblements dans les centres-villes",
-        "resume": "« C’est un dispositif exceptionnel, c’est le même volume que pour le 24 octobre », a expliqué le ministre de l’intérieur, au cours d’un point presse organisé jeudi soir, à deux jours des nouvelles mobilisations sociales.",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/29/mobilisations-du-31-octobre-laurent-nunez-prevoit-un-dispositif-de-70-000-policiers-et-gendarmes-et-confirme-l-interdiction-des-rassemblements-dans-les-centres-villes_6802369_823448.html"
+        "heure": "12h53",
+        "titre": "Présidentielle 2027 : Jean-Luc Mélenchon dit annuler sa venue au « 20 heures » de TF1, qu’il accuse d’avoir laissé Edouard Philippe dérouler un « discours dégoûtant » sur l’immigration",
+        "resume": "« Anne-Claire Coudray a mené son entretien avec professionnalisme et rigueur », a réagi TF1 lundi, affirmant, par ailleurs, que la venue de M. Mélenchon au « 20 heures » avait été annulée dès la fin de la semaine et qu’il ne pouvait ainsi s’agir d’un",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/02/presidentielle-2027-jean-luc-melenchon-dit-annuler-sa-venue-au-20-heures-de-tf1-qu-il-accuse-d-avoir-laisse-edouard-philippe-derouler-un-discours-degoutant-sur-l-immigration_6805227_823448.html"
       },
       {
-        "source": "Challenges",
-        "heure": "07h30",
-        "titre": "Marine Le Pen veut sabrer de 29 % les crédits français à l’Union européenne tout en espérant… un geste de la BCE sur la dette tricolore",
-        "resume": "LE PROGRAMME DU RN PASSÉ AU CRIBLE. La candidate du RN veut diminuer de 29 % la contribution de la France au budget communautaire, mais veut garder les crédits européens en faveur des agriculteurs français et espère un geste de la BCE.",
-        "url": "https://www.challenges.fr/politique/marine-le-pen-veut-sabrer-de-29-les-credits-francais-a-lunion-europeenne-tout-en-esperant-un-geste-de-la-bce-sur-la-dette-tricolore_646607"
+        "source": "Le Monde Eco",
+        "heure": "12h24",
+        "titre": "Présidentielle 2027 : Gabriel Attal juge la tenue d’une primaire du centre et de la droite « inéluctable », malgré le refus d’Edouard Philippe",
+        "resume": "Au journal télévisé de TF1, dimanche, Edouard Philippe a dénoncé une « primaire de la division » et de la « confusion ». « Le cataclysme que constituerait ce deuxième tour entre Jean-Luc Mélenchon et Marine Le Pen est bien plus grave que des différen",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/02/presidentielle-2027-gabriel-attal-juge-la-tenue-d-une-primaire-du-centre-et-de-la-droite-ineluctable-malgre-le-refus-d-edouard-philippe_6805225_823448.html"
       },
       {
-        "source": "Le Figaro",
-        "heure": "13h28",
-        "titre": "« En décembre, les Français entreront de plein fouet dans la présidentielle » : David Lisnard prévoit un grand meeting à Lyon",
-        "resume": "INFO LE FIGARO - Les troupes de Nouvelle Énergie invitent les soutiens du candidat à la présidentielle à se retrouver dans la capitale des Gaules, le dimanche 13 décembre. Avec des annonces « évidemment » à la clé.",
-        "url": "https://www.lefigaro.fr/elections/presidentielles/en-decembre-les-francais-entreront-de-plein-fouet-dans-la-presidentielle-david-lisnard-prevoit-un-grand-meeting-a-lyon-20261030"
+        "source": "Le Monde Eco",
+        "heure": "11h46",
+        "titre": "Manifestation du 5 novembre à Paris : la CGT exige un parcours dans le centre-ville, de Bastille à Concorde",
+        "resume": "La secrétaire générale de la CGT, Sophie Binet, a demandé lundi une réponse de la Préfecture de police de Paris à ce sujet. Celle-ci avait refusé aux manifestants de déambuler samedi dernier et le précédent au cœur de la capitale, n’autorisant que de",
+        "url": "https://www.lemonde.fr/societe/article/2026/11/02/manifestation-du-5-novembre-a-paris-la-cgt-exige-un-parcours-dans-le-centre-ville-de-bastille-a-concorde_6805220_3224.html"
       }
     ]
   },
   "taux": {
     "articles": [
       {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "« C’est le moment d’en profiter » : comment réduire le coût de son emprunt face à la hausse des taux de crédit",
-        "resume": "La forte inflation dégrade les conditions d’emprunt des candidats à l’achat et il n'y a aucun signe d’amélioration à l’horizon. Mais des options existent pour baisser le coût du financement et les banques ont envie de prêter.",
-        "url": "https://www.challenges.fr/immobilier/cest-le-moment-den-profiter-comment-reduire-le-cout-de-son-emprunt-face-a-la-hausse-des-taux-de-credit_646683"
+        "source": "Le Monde Eco",
+        "heure": "14h57",
+        "titre": "Budget 2027 : les discussions se poursuivent dans un hémicycle clairsemé, où les députés votent des amendements au devenir incertain",
+        "resume": "Les débats ont tourné à la critique de la politique économique macroniste, après la publication par l’Insee de mauvaises nouvelles pour la croissance. Un vote solennel est prévu mardi 3 novembre sur le volet recettes.",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/02/budget-2027-les-discussions-se-poursuivent-dans-un-hemicycle-clairseme-ou-les-deputes-votent-des-amendements-au-devenir-incertain_6805244_823448.html"
       },
       {
         "source": "Les Echos",
-        "heure": "16h33",
-        "titre": "EXCLUSIF - Livret A : le gouvernement planche sur un relèvement du plafond pour financer son plan lycées",
-        "resume": "Le gouvernement envisage de relever le plafond du Livret A à 30.000 euros pour financer la rénovation des lycées. Cette mesure, soutenue par la Caisse des Dépôts, pourrait augmenter les capacités de prêt, mais suscite des réticences à Bercy et chez l",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/exclusif-livret-a-le-gouvernement-planche-sur-un-relevement-du-plafond-pour-financer-son-plan-lycees-2259895"
+        "heure": "11h30",
+        "titre": "« Face à la hausse des prix de l'électricité, le versement nucléaire universel ne protégera pas les entreprises françaises en 2027 »",
+        "resume": "Conçu pour limiter les surprofits d'EDF, le nouveau système du versement nucléaire (VNU) risque d'être pris en défaut dans son rôle de bouclier contre la hausse des prix de l'électricité, au détriment des entreprises et des industriels français. Deux",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/face-a-la-hausse-des-prix-de-lelectricite-le-versement-nucleaire-universel-ne-protegera-pas-les-entreprises-francaises-en-2027-2260431"
       },
       {
-        "source": "Challenges",
-        "heure": "08h00",
-        "titre": "« Un ménage peut acquérir en moyenne 66 m2, une pièce en moins qu’en 2020 » : avec des prix en baisse mais une hausse des taux, est-ce encore le moment d’acheter ?",
-        "resume": "Avec la flambée des taux, de plus en plus de ménages sont exclus du marché. Conséquence : le mètre carré devrait perdre 3 à 5 % en 2027. Le neuf, lui, atteint un plus bas en volume. Nos analyses à Paris, en banlieue et en régions.",
-        "url": "https://www.challenges.fr/immobilier/un-menage-peut-acquerir-en-moyenne-66-m2-une-piece-en-moins-quen-2020-avec-des-prix-en-baisse-mais-une-hausse-des-taux-est-ce-encore-le-moment-dacheter_646654"
+        "source": "Les Echos",
+        "heure": "19h37",
+        "titre": "Semaine sociale à haut risque pour l'exécutif, coup de pouce significatif en vue sur le SMIC",
+        "resume": "La reprise des cours s'annonce compliquée dans les lycées et universités, alors que les syndicats mobilisent sur le pouvoir d'achat le 5 novembre. Le geste du gouvernement sur le salaire minimum pourrait être plus important qu'attendu.",
+        "url": "https://www.lesechos.fr/economie-france/social/semaine-sociale-a-haut-risque-pour-lexecutif-coup-de-pouce-significatif-en-vue-sur-le-smic-2260374"
       },
       {
-        "source": "Le Figaro",
-        "heure": "10h45",
-        "titre": "Épargne : BforBank dévoile un taux boosté à 3,5 % pendant 12 mois sur son livret Bfor+",
-        "resume": "Avis à tous ceux qui aiment voir leurs économies grandir ! BforBank vient de dévoiler une nouvelle offre qui mérite le détour : un taux boosté à 3,5 % pendant 12 mois sur son livret Bfor+. Et ce n’est pas son seul atout !",
-        "url": "https://www.lefigaro.fr/bons-plans/epargne-bforbank-devoile-un-taux-booste-a-3-5-pendant-12-mois-sur-son-livret-bfor-20261030"
+        "source": "Les Echos",
+        "heure": "12h20",
+        "titre": "Lycées : des blocus « résiduels » selon Edouard Geffray, avant deux journées de mobilisation",
+        "resume": "Les blocus dans les lycées sont restés limités à quelques établissements ce lundi, selon le ministre de l'Education. Les organisations lycéennes appellent à de nouvelles mobilisations dès mardi et jeudi.",
+        "url": "https://www.lesechos.fr/politique-societe/education/lycees-des-blocus-residuels-selon-edouard-geffray-avant-deux-journees-de-mobilisation-2260448"
       },
       {
-        "source": "Le Figaro",
-        "heure": "06h26",
-        "titre": "La Banque du Japon garde inchangé son taux directeur à 1,25%, sa cible d’inflation est atteinte",
-        "resume": "La banque centrale japonaise estime pour la première fois avoir atteint sa cible d’inflation de 2 %, fixée il y a plus de treize ans pour sortir le pays de la déflation.",
-        "url": "https://www.lefigaro.fr/conjoncture/la-banque-du-japon-garde-inchange-son-taux-directeur-a-1-25-sa-cible-d-inflation-est-atteinte-20261030"
+        "source": "Les Echos",
+        "heure": "12h30",
+        "titre": "Patrimoine : « Le Black Friday fiscal sur la transmission ne fait qu'ajouter à l'instabilité chronique »",
+        "resume": "Les mesures visant à accélérer les transmissions, intégrées dans le projet de loi de finances (PLF), ne font en réalité que renforcer l'incertitude sur le cadre fiscal du patrimoine et compliquer sa gestion à long terme, explique William Léon, cofond",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/patrimoine-le-black-friday-fiscal-sur-la-transmission-ne-fait-quajouter-a-linstabilite-chronique-2260452"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.008,
-        "prev": 3.06,
-        "diff": -0.052,
+        "rate": 3.005,
+        "prev": 3.008,
+        "diff": -0.003,
         "trend": "down",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "history": [
-          3.03,
           3.053,
           3.028,
           3.028,
@@ -278,18 +277,18 @@
           3.025,
           3.015,
           3.06,
-          3.008
+          3.008,
+          3.005
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.111,
-        "prev": 3.153,
-        "diff": -0.042,
+        "rate": 3.101,
+        "prev": 3.111,
+        "diff": -0.01,
         "trend": "down",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "history": [
-          3.157,
           3.185,
           3.166,
           3.16,
@@ -298,18 +297,18 @@
           3.132,
           3.113,
           3.153,
-          3.111
+          3.111,
+          3.101
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.373,
-        "prev": 3.393,
-        "diff": -0.02,
+        "rate": 3.365,
+        "prev": 3.373,
+        "diff": -0.008,
         "trend": "down",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "history": [
-          3.444,
           3.469,
           3.44,
           3.429,
@@ -318,18 +317,18 @@
           3.374,
           3.371,
           3.393,
-          3.373
+          3.373,
+          3.365
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.65,
-        "prev": 3.654,
-        "diff": -0.004,
-        "trend": "down",
-        "date": "2026-10-29",
+        "rate": 3.649,
+        "prev": 3.65,
+        "diff": -0.001,
+        "trend": "flat",
+        "date": "2026-10-30",
         "history": [
-          3.746,
           3.768,
           3.727,
           3.713,
@@ -338,18 +337,18 @@
           3.64,
           3.642,
           3.654,
-          3.65
+          3.65,
+          3.649
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.611,
-        "prev": 3.606,
-        "diff": 0.005,
+        "rate": 3.615,
+        "prev": 3.611,
+        "diff": 0.004,
         "trend": "up",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "history": [
-          3.714,
           3.735,
           3.694,
           3.679,
@@ -358,7 +357,8 @@
           3.602,
           3.597,
           3.606,
-          3.611
+          3.611,
+          3.615
         ]
       }
     ]
@@ -366,37 +366,37 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "847 milliards USD",
-      "contexte": "Le marché mondial des cryptomonnaies a atteint cette capitalisation en octobre 2026, marquant une reprise spectaculaire après les régulations strictes de 2024-2025. Cette croissance reflète l'intégration progressive des actifs numériques dans les portefeuilles institutionnels.",
-      "source": "CoinMarketCap & Bloomberg Finance"
+      "chiffre": "2,847 milliards USD",
+      "contexte": "La capitalisation boursière mondiale a atteint un nouveau record en octobre 2026, portée par l'euphorie autour de l'IA générative et des technologies quantiques. Cette hausse représente une augmentation de 18% en un an malgré les tensions géopolitiques persistantes.",
+      "source": "World Federation of Exchanges - Octobre 2026"
     },
     "ephemeride": {
-      "evenement": "30 octobre 1929 - Le 'Mardi Noir' aux États-Unis, marquant l'apogée du crash boursier",
-      "impact": "Cet effondrement de 12% du S&P Composite a déclenché la Grande Dépression, redéfinissant à jamais la régulation des marchés financiers et la notion de circuit-breaker."
+      "evenement": "2 novembre 1922 : Création de la Réserve fédérale américaine sous sa forme moderne avec Benjamin Strong comme gouverneur de la Banque de réserve fédérale de New York",
+      "impact": "Cet événement a établi les fondations de la politique monétaire moderne américaine et du système bancaire central qui influence encore aujourd'hui l'économie mondiale."
     },
     "graphique_semaine": {
-      "titre": "Évolution des taux de refinancement bancaire européen (25-31 octobre 2026)",
-      "description": "La Banque Centrale Européenne maintient sa politique accommodante avec des taux stables à 3,25%. Cette stabilité contraste avec les tensions inflationnistes de 2025 et signale une confiance retrouvée dans la maîtrise de l'inflation post-pandémique.",
+      "titre": "Evolution des taux directeurs des grandes banques centrales (octobre 2026)",
+      "description": "Les banques centrales maintiennent une trajectoire divergente face aux pressions inflationnistes résiduelles. La BCE et la Banque d'Angleterre ont réduit leurs taux respectifs, tandis que la Fed maintient une position hawkish. Cette divergence crée des opportunités d'arbitrage significatives sur les marchés de change.",
       "donnees": [
         {
-          "label": "Lundi 25/10",
-          "valeur": 3.25
+          "label": "Fed USA",
+          "valeur": 4.75
         },
         {
-          "label": "Mercredi 27/10",
-          "valeur": 3.25
+          "label": "BCE",
+          "valeur": 3.0
         },
         {
-          "label": "Jeudi 28/10",
-          "valeur": 3.25
+          "label": "BoE",
+          "valeur": 4.25
         },
         {
-          "label": "Vendredi 29/10",
-          "valeur": 3.25
+          "label": "BoJ",
+          "valeur": 0.5
         },
         {
-          "label": "Vendredi 30/10",
-          "valeur": 3.25
+          "label": "SNB",
+          "valeur": 1.0
         }
       ]
     }
@@ -405,123 +405,123 @@
     "articles": [
       {
         "source": "Vatican News",
-        "titre": "Migrants: le Conseil international de la CCIM se réunit à Rome",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/migrants-conseil-international-de-la-ccim-75-ans.html",
-        "resume": "La Commission catholique internationale pour les migrations se réunira dans la capitale du 10 au 12 novembre afin de définir de nouvelles stratégies d’accueil et de célébrer l’anniversaire historique de la Convention relative au statut des réfugiés.",
-        "pub": "Thu, 29 Oct 2026 18:57:00 +0100",
-        "heure": "20h57"
+        "titre": "La présence du Pape au Pérou, «donnera un nouvel élan à l’Église»",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/leon-xiv-au-perou-eglise-s-ur-garcia-accueil.html",
+        "resume": "À l’approche de la visite apostolique que Léon XIV effectuera en Amérique latine, nous nous sommes entretenus avec Sœur María Antonieta García Carrizales, supérieure générale des Religieuses franciscaines de l’Immaculée Conception. Elle évoque les pr",
+        "pub": "Mon, 02 Nov 2026 11:03:00 +0100",
+        "heure": "13h03"
       },
       {
         "source": "Vatican News",
-        "titre": "En Haïti, l’Église continue de s'armer de courage malgré la violence",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/haiti-courage-de-l-eglise-violence.html",
-        "resume": "La situation à Port-au-Prince se détériore nettement, surtout au nord de la capitale. Dans une interview accordée aux médias du Vatican, Maddalena Boschetti, missionnaire «fidei donum», livre son témoignage alors que le Salvador renforce sa présence",
-        "pub": "Thu, 29 Oct 2026 17:06:00 +0100",
-        "heure": "19h06"
+        "titre": "Une église maronite profanée dans le nord d’Israël",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/nahariya-attaque-declaration-archeparchie.html",
+        "resume": "Suite à l’acte de vandalisme perpétré le 1er novembre dans le nord d’Israël contre l'église maronite Saints-Pierre-et-Paul de Nahariya, l’Archéparchie de Haïfa soutient avec fermeté que «de tels agissements ne peuvent être ni justifiés ni tolérés». E",
+        "pub": "Mon, 02 Nov 2026 08:38:00 +0100",
+        "heure": "10h38"
       },
       {
         "source": "Vatican News",
-        "titre": "Le Pape a reçu la présidente de la République du Costa Rica",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/le-pape-a-recu-la-presidente-de-la-republique-du-costa-rica.html",
-        "resume": "Laura Fernández Delgado a été reçue par Léon XIV au Palais apostolique du Vatican. Lors des entretiens à la Secrétairerie d’État, l’accent a été mis sur les questions d’actualité sociopolitique du pays et de la région, avec une attention particulière",
-        "pub": "Thu, 29 Oct 2026 14:32:00 +0100",
-        "heure": "16h32"
+        "titre": "Léon XIV salue les athlètes des Jeux Olympiques de la Jeunesse de Dakar",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-angelus-appels-jeux-olymiques-jeunesse-senegal-sport.html",
+        "resume": "À l’issue de l’Angélus, Léon XIV a béni les plus de 2 600 jeunes sportifs qui participent à la première manifestation olympique organisée sur le continent africain. Ces jeux ont débuté le 31 octobre et se poursuivront jusqu’au 13 novembre.Tout lire&n",
+        "pub": "Sun, 01 Nov 2026 13:25:00 +0100",
+        "heure": "15h25"
       },
       {
         "source": "Vatican News",
-        "titre": "Le cardinal Parolin déplore la tentation de vouloir être «comme Dieu»",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/cardinal-parolin-systemes-totalitaires-colloque-scientifique.html",
-        "resume": "Le Secrétaire d’État a inauguré le 28 octobre, à l’université pontificale Grégorienne, un colloque scientifique international intitulé «Le Saint-Siège face aux systèmes totalitaires au XXe siècle. Nouveaux regards et perspectives de recherche», qui s",
-        "pub": "Thu, 29 Oct 2026 14:25:00 +0100",
-        "heure": "16h25"
+        "titre": "Après Olechky, le Pape appelle à d’autres initiatives en faveur de la paix en Ukraine",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/angelus-appel-pape-paix-ukraine-evacuation-olechky-guerre.html",
+        "resume": "A l’issue de la prière mariale de l’Angélus, Léon XIV a salué l’action humanitaire menée  la veille dans le sud de l’Ukraine, à Olechky. Près de 750 civils ont été évacués de cette ville assiégée par les forces russes et soumise à un blocus depuis pl",
+        "pub": "Sun, 01 Nov 2026 12:51:00 +0100",
+        "heure": "14h51"
       },
       {
         "source": "Vatican News",
-        "titre": "À l'ONU, le Saint-Siège défend une exploration spatiale qui profite à tous",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/saint-siege-a-l-onu-l-exploration-spatiale-doit-profiter-a-tous.html",
-        "resume": "Dans une déclaration faite ce 28 octobre au Palais de verre à New York, l’observateur permanent Mgr El Kassis a souligné que les technologies spatiales constituent un «outil précieux» pour relever des défis majeurs tels que «le changement climatique,",
-        "pub": "Thu, 29 Oct 2026 12:23:00 +0100",
-        "heure": "14h23"
+        "titre": "Angélus: la sainteté n’est pas un privilège mais une vocation universelle",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/angelus-toussaint-pape-leon-xiv-saintete-evangile.html",
+        "resume": "Dans sa méditation prononcée ce dimanche 1er novembre lors de la prière mariale de l'Angélus, en la solennité de la Toussaint, le Pape Léon XIV a rendu hommage aux innombrables saints qui ont consacré leur vie au Christ et a souligné que tous les fid",
+        "pub": "Sun, 01 Nov 2026 12:10:00 +0100",
+        "heure": "14h10"
       },
       {
         "source": "Vatican News",
-        "titre": "Reprise du procès en appel au Vatican: prochaines audiences en janvier 2027",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/reprise-proces-en-appel-vatican-prochaines-audience-janvier-2027.html",
-        "resume": "La septième audience en appel concernant la gestion des fonds du Saint-Siège a duré un peu plus de dix minutes ce mercredi 29 octobre. Le président de la Cour d’appel, Mgr Arellano Cedillo, a fixé les prochaines échéances du 26 aux 29 janvier 2027: «",
-        "pub": "Thu, 29 Oct 2026 12:11:00 +0100",
-        "heure": "14h11"
+        "titre": "Cinq missionnaires franciscains béatifiés dans l'État de Géorgie",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/beatification-georgie-missionnaires-franciscains-eglise.html",
+        "resume": "Le cardinal Frank Leo, légat pontifical, a présidé la béatification à Savannah en Géorgie. Lors de la cérémonie, il a souligné le témoignage rendu au Christ par ces missionnaires, leur engagement en faveur de l’évangélisation et l’exemple durable qu’",
+        "pub": "Sun, 01 Nov 2026 10:09:00 +0100",
+        "heure": "12h09"
       },
       {
         "source": "Vatican News",
-        "titre": "L'aumônier en Ukraine pour apporter le réconfort du Pape",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/l-aumonier-en-ukraine-pour-apporter-le-reconfort-du-pape.html",
-        "resume": "Mgr Luis Marín de San Martín est arrivé dans le pays en guerre, au nom du Pape Léon XIV, afin de rencontrer les organisations qui s'efforcent d'apporter du réconfort à un peuple durement éprouvé. De nombreuses rencontres sont au programme, témoignant",
-        "pub": "Thu, 29 Oct 2026 11:37:00 +0100",
-        "heure": "13h37"
+        "titre": "Décès de Mgr Richard Alarcón Urrutia, archevêque de Cuzco",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/deces-archeveque-cusco-perou-eglise-douleur-misericorde.html",
+        "resume": "L’archevêque est décédé vendredi 30 octobre, des suites d’une longue maladie, à l’âge de 74 ans, a annoncé l’archidiocèse de Cuzco, exprimant sa «profonde tristesse». Son décès survient quelques jours seulement avant l’arrivée du Pape Léon XIV dans c",
+        "pub": "Sat, 31 Oct 2026 16:16:00 +0100",
+        "heure": "18h16"
       },
       {
         "source": "Vatican News",
-        "titre": "Prière du Pape pour les victimes de l’accident ferroviaire d'Urda, en Espagne",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/priere-pape-victimes-de-l-accident-ferroviaire-d-urda-espagne.html",
-        "resume": "Dans un télégramme, signé par le cardinal Secrétaire d’État Pietro Parolin, le Pape «profondément affecté» par l’accident qui a fait au moins 68 morts, dit prier pour le repos éternel des défunts. Il présente ses condoléances aux familles affectées p",
-        "pub": "Thu, 29 Oct 2026 11:08:00 +0100",
-        "heure": "13h08"
+        "titre": "Léon XIV en Uruguay: le défi de renouer avec la foi dans une société sécularisée",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-voyage-apostolique-uruguay-eglise-secularisation.html",
+        "resume": "Le sociologue Néstor da Costa analyse la singularité religieuse de l’Uruguay, où la croyance en Dieu coexiste avec un faible attachement institutionnel. Il voit dans la visite du Pape une occasion de renouveler le dialogue entre l’Église et la sociét",
+        "pub": "Sat, 31 Oct 2026 15:39:00 +0100",
+        "heure": "17h39"
       },
       {
         "source": "Vatican News",
-        "titre": "Au Bénin, les évêques alertent sur les «maux qui ruinent la paix sociale»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/au-benin-les-eveques-alertent-maux-qui-ruinent-la-paix-sociale.html",
-        "resume": "Réunis à Natitingou, du 25 au 28 octobre, pour leur 79ᵉ session plénière ordinaire, les évêques du Bénin ont exprimé leurs préoccupations face à plusieurs phénomènes sociaux qui fragilisent la paix et menacent l’avenir du pays. Dans leur communiqué f",
-        "pub": "Thu, 29 Oct 2026 10:26:00 +0100",
-        "heure": "12h26"
+        "titre": "Guinée Bissau: Mgr Quematcha et l’imam Djalò appellent à la paix",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/guinee-bissau-mgr-quematcha-et-l-imam-djalo-appellent-a-la-paix.html",
+        "resume": "L’évêque de Bafatá, Mgr Vítor Quematcha, et l’Imam de Mansoa, Cheikh Mamadu Djau Djaló, appellent les dirigeants politiques bissau-guinéens à assumer leurs responsabilités dans la promotion de la réconciliation nationale, du respect des libertés fond",
+        "pub": "Sat, 31 Oct 2026 15:33:00 +0100",
+        "heure": "17h33"
       },
       {
         "source": "Vatican News",
-        "titre": "Cent ans de papamobiles exposés aux Musées du Vatican",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/cent-ans-de-papamobiles-exposes-aux-musees-du-vatican.html",
-        "resume": "De la première voiture de Pie XI aux papamobiles contemporaines, un siècle de mobilité pontificale incarné par huit voitures historiques Mercedes-Benz exposées aux Musées du Vatican, témoignant de la rencontre entre le génie humain et la mission univ",
-        "pub": "Thu, 29 Oct 2026 10:10:00 +0100",
-        "heure": "12h10"
+        "titre": "Une rentrée académique à l'UCAO-UUC placée sous le signe de la centralité de Dieu",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/rentree-academique-2026-2027-a-l-ucao-uuc-a-cotonou.html",
+        "resume": "Vendredi 30 octobre, l’Université catholique de l’Afrique de l’Ouest-Unité universitaire à Cotonou (UCAO-UUC) a effectué sa rentrée académique, tout en marquant la clôture de son jubilé d’argent. S’adressant aux étudiants, Mgr Roger Houngbédji, prési",
+        "pub": "Sat, 31 Oct 2026 14:50:00 +0100",
+        "heure": "16h50"
       },
       {
         "source": "Vatican News",
-        "titre": "Le salut de Léon XIV aux militants engagés auprès des migrants à Chicago",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-message-migrants-detenus-chicago.html",
-        "resume": "Un groupe de trente personnes de la Coalition pour un leadership spirituel et public a assisté ce mercredi matin à l’audience générale, place Saint-Pierre. Les membres ont porté jusqu'au Pape la voix de nombreuses personnes «arrachées» à leur vie et",
-        "pub": "Wed, 28 Oct 2026 16:26:00 +0100",
-        "heure": "18h26"
+        "titre": "Ukraine: l’aumônier du Pape achève sa visite auprès d’un peuple meurtri",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-10/ukraine-guerre-solidarite-eglise-paix-charite-enfants.html",
+        "resume": "La visite des structures caritatives à Kiev et à Fastiv a marqué les dernières étapes d’une mission de charité menée par Mgr Luis Marín de San Martín, qui, au nom du Pape, a transmis le soutien et la solidarité de l’Église. La rencontre avec des mère",
+        "pub": "Sat, 31 Oct 2026 13:27:00 +0100",
+        "heure": "15h27"
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV: redécouvrir en Marie les piliers du dialogue et du chemin vers la paix",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-message-marie-dialogue-eglise-paix-assise-perousse.html",
-        "resume": "Le Pape a adressé un message à l’occasion de la rencontre intitulée «Marie, chemin de dialogue et de paix pour la Méditerranée», organisée par l’Académie pontificale internationale mariale et l’Ordre des Frères mineurs, qui se tient en Ombrie, à Péro",
-        "pub": "Wed, 28 Oct 2026 15:31:00 +0100",
-        "heure": "17h31"
+        "titre": "«L’amour du Christ nous envoie», thème de la Journée missionnaire mondiale 2027",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/journee-mondiale-missions-evangile.html",
+        "resume": "Tiré de la Lettre aux Corinthiens, le thème choisi par le Pape Léon XIV pour la 101e édition de cette journée internationale, qui sera célébrée le dimanche 24 octobre 2027, est un rappel au cœur même de la mission chrétienne.Tout lire&nbsp;",
+        "pub": "Sat, 31 Oct 2026 13:17:00 +0100",
+        "heure": "15h17"
       },
       {
         "source": "Vatican News",
-        "titre": "Côte d’Ivoire: lancement  de «Catho+ et Catho School» dans l'archidiocèse d'Abidjan",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/cote-d-ivoire-lancement-de-catho-et-catho-school.html",
-        "resume": "L’archidiocèse d’Abidjan a lancé deux applications numériques «Catho+ et Catho School», présentées dimanche 25 octobre par le cardinal Ignace Dogbo Bessi, archevêque métropolitain d’Abidjan. Ces applications visent à renforcer la communion entre fidè",
-        "pub": "Wed, 28 Oct 2026 15:06:00 +0100",
-        "heure": "17h06"
+        "titre": "À Dakar, une messe d’ouverture pour les Jeux Olympiques de la Jeunesse 2026",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/a-dakar-une-messe-d-ouverture-pour-les-joj-2026.html",
+        "resume": "La cathédrale Notre-Dame des Victoires a abrité, vendredi 30 octobre, la messe d’ouverture des 4e Jeux Olympiques de la jeunesse qu’accueille le Sénégal du 31 octobre au 13 novembre 2026. Dans son homélie, Mgr André Guèye, archevêque de Dakar, a exho",
+        "pub": "Sat, 31 Oct 2026 13:03:00 +0100",
+        "heure": "15h03"
       },
       {
         "source": "Vatican News",
-        "titre": "Caritas au Yémen: «Sans médicaments, nous ne perdons pas espoir»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/caritas-au-yemen-esperance-medicaments.html",
-        "resume": "Dimanche dernier, le 25 octobre, le Pape a lancé un appel en faveur de la paix dans ce pays situé au sud de la péninsule arabique, victime de la guerre civile, de l’instabilité régionale et de l’oubli médiatique. Omima Ali, responsable de programme a",
-        "pub": "Wed, 28 Oct 2026 14:46:00 +0100",
-        "heure": "16h46"
+        "titre": "Un nouvel évêque pour le diocèse de Soissons",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/nomination-pape-eveque-soissons-france.html",
+        "resume": "Le Pape a nommé ce samedi le père Martial Bernard à la tête du diocèse du nord-est de la France. Il était jusqu'ici vicaire général du diocèse d'Évry-Corbeil-Essonnes, en région parisienne.Tout lire&nbsp;",
+        "pub": "Sat, 31 Oct 2026 12:00:00 +0100",
+        "heure": "14h00"
       },
       {
         "source": "Vatican News",
-        "titre": "En Éthiopie, les Églises orthodoxes expriment leur compassion pour les victimes d'Oromia",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-10/ethiopie-eglises-orthodoxes-attaques.html",
-        "resume": "Le Saint-Synode de l'Église Tewahedo condamne les attaques qui ont fait au moins 60 morts parmi les communautés chrétiennes orthodoxes dans deux districts de la zone d’Arsi. Le Catholicos d’Orient Baselios Marthoma Mathews III exprime également sa so",
-        "pub": "Wed, 28 Oct 2026 13:45:00 +0100",
-        "heure": "15h45"
+        "titre": "«Pour être durable, l’espérance a besoin de perspectives», estime Léon XIV",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/esperance-perspectives-seisme-centre-italie-saints-pape.html",
+        "resume": "«L’exemple des saints nous rappelle que l’espérance, pour ne pas rester un simple vœu pieux, a avant tout besoin de réponses concrètes et urgentes», a affirmé le Pape dans son discours adressé aux délégués des communes des zones touchées par le séism",
+        "pub": "Sat, 31 Oct 2026 11:40:00 +0100",
+        "heure": "13h40"
       }
     ]
   }
