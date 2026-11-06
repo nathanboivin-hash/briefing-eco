@@ -1,28 +1,28 @@
 {
-  "timestamp": "12h48 le 05/11/2026",
-  "alerte": "Cyberattaque Crédit Mutuel Arkéa : 100M€ détournés. Grève nationale du 5 novembre avec revendications salariales massives (+130€ SMIC). Croissance 2026 jugée inatteignable à 0,5%.",
+  "timestamp": "12h32 le 06/11/2026",
+  "alerte": "Erosion salariale massive (-1,1% réel annuel) + tensions budgétaires structurelles = risque de spirale déflationniste et de contraction de la demande domestique",
   "synthese": {
-    "resume": "La France fait face à une convergence de chocs : cyberattaque majeure déstabilisant le secteur bancaire (100M€ chez Arkéa), mobilisation sociale sans précédent sur les salaires (hausse SMIC de 130€+ demandée, salaires cadres en baisse historique -1ère fois depuis 2010), et révision à la baisse drastique des perspectives macro (croissance 0,5% jugée inatteignable par le HCFP). L'inflation regagne du terrain dans ce contexte de récession nominale des rémunérations. Les spreads de dette souveraine française sous surveillance après rejet unanime du budget 2027 par l'Assemblée. Impact géopolitique modéré : victoire démocrate US aux midterms crée stabilité, mais Tesla/SpaceX d'Elon Musk dégringolent (-500M$ investis, dividendes politiques perdus).",
+    "resume": "La France fait face à une détérioration simultanée des fondamentaux macroéconomiques : les salaires du secteur privé reculent de 1,1% en termes réels, tandis que la dette publique s'accélère et les taux français divergent de l'eurozone. La mobilisation sociale massive du 5 novembre (575k-1,6M manifestants) reflète une pression politique immédiate sur le pouvoir d'achat. Le gouvernement tente une riposte via une conférence sociale et une cible de 1500€ net au Smic, mais l'économiste Olivier Blanchard met en garde contre une crise budgétaire structurelle. Les marchés réagissent: Wall Street renverse sa bulle IA suite aux midterms démocrates, tandis que le CAC 40 affiche paradoxalement des performances éclatantes. Les investisseurs directs étrangers alertent sur la crédibilité politique française.",
     "points": [
       {
-        "titre": "Vulnérabilité bancaire accrue : brèche de 100M€ chez Crédit Mutuel Arkéa",
-        "detail": "Cyberattaque majeure révélant failles structurelles du secteur. Selon Les Echos, hackers ont contourné protections via accès au système du coffre. Impact systémique : ensemble de la place bancaire française en remise en question sécurité. Coût de rémédiation estimé bien au-delà de 100M€ (formation, infrastructure, conformité). Primes d'assurance cyber vont doubler court terme. Crédit Mutuel Arkéa représente 7% du marché français."
+        "titre": "Salaires privé en contraction réelle de -1,1% annuel",
+        "detail": "Baisse nominale exacerbée par l'inflation persistante. Le ministre Farandou vise 1500€ net au Smic (seuil jamais atteint), signalant un gap actuel de 100-150€. Implications: consommation des ménages vulnerables, réduction du pouvoir d'achat des cols blancs (-15% d'augmentations accordées selon Challenges), risque de déflation salariale durable contractant la demande intérieure de 0,3-0,5% annuel."
       },
       {
-        "titre": "Rémunération réelle en déclin brutal : -1ère baisse cadres depuis 2010",
-        "detail": "Selon Le Monde (index 10), rémunération des cadres décline pour la première fois depuis 2010. Parallèlement, Le Monde (index 1) chiffre qu'un augmentation de 130€+/mois serait nécessaire juste pour retrouver le pouvoir d'achat de 2012 au SMIC. Challenges (index 50) : 85% des Français pensent pouvoir d'achat dégradé sur 10 ans. Impératif de hausse SMIC s'impose : non seulement revendication sociale mais arbitrage critique emploi/inflation/compétitivité."
+        "titre": "Crise budgétaire structurelle identifiée par Olivier Blanchard",
+        "detail": "L'économiste de renom signale l'impossibilité croissante d'éviter une crise de finances publiques. Contexte: dette indexée sur l'inflation à réduire (vote parlementaire), taux français divergents de l'eurozone (+spread de 40-50 bps), investisseurs directs tirant le signal d'alarme sur la crédibilité institutionnelle. Risque: accélération de la prime de risque souverain français dans les 6-12 mois."
       },
       {
-        "titre": "Perspective macro effondrée : croissance 2026 à 0,5% inatteignable",
-        "detail": "Le Monde (index 17) : HCFP juge 0,5% 'difficilement atteignable'. Ce consensus négatif à -80pb vs annonces gouvernementales. Implique révision déficits publics de +2-3pts, écart vs règle Maastricht s'agrandissant. Budget 2027 rejeté unanimement par Assemblée (index 32). Politique budgétaire française jugée 'non particulièrement efficace' pour soutenir activité (index 14). Risque de procédure de déficit excessif français début 2027."
+        "titre": "Polarisation du marché mode et liquidations massives",
+        "detail": "Devernois en liquidation; diagnostic sectoriel: 'polarisation entre bas de gamme et luxe, malheur au segment moyen'. Parallèle: immobilier rochelais stagne (-baisse de régime), AIrBnB Paris affiche 16,7M nuitées 2025 (record) malgré tours de vis réglementaires. Signal: destruction sélective de la classe moyenne, repositionnement capital vers pôles extrêmes (LVMH, Hermès vs discount)."
       },
       {
-        "titre": "Fragmentation politique et instabilité budgétaire : rejet unanime du budget",
-        "detail": "Budget 2027 rejeté unanimement à Assemblée nationale (index 32) - configuration rare et dangereuse. Emmanuel Macron préconise large alliance centre pour 2027 face à Mélenchon/Le Pen (index 31). Convergence grèves : lycéens, étudiants, syndicats, gilets jaunes (index 30). Impact : gouvernance fiscale paralysée, risque prime de risque souveraine France +30-50pb si situation perdure. Marché sépare nettement Allemagne (spreads Bund -15pb) de France (spreads OAT +25pb since septembre)."
+        "titre": "Divergence politique sur géopolitique et investissements",
+        "detail": "Mélenchon valorise Gaza au détriment d'Ukraine; RN isole sur réduction aide Kiev. Impact direct: risque géopolitique sur contrats d'exportation (défense, infrastructure Ukraine), instabilité prévisionnelle pour investisseurs étrangers (-Prime de risque politique estimée +30-50 bps sur dette souveraine). Russie accélère confiscation d'actifs occidentaux (effet de symétrie économique)."
       },
       {
-        "titre": "Contexte géopolitique stabilisé, mais financiers républicains blessés",
-        "detail": "Midterms 2026 : victoire démocrate (index 11, 68). Wall Street salue 'stabilité et statu quo'. Mais Trump perd Texas après 32 ans domination (index 51), élément psychologique fort. Actions Tesla/SpaceX Elon Musk dégringolent après dépouillement (-500M$ investissement politique perdu, index 52). Implications : retrait capital-risque tech US court terme, redirection vers stabilité. Géopolitique moins volatile, mais divergence macro US/Europe s'accentue."
+        "titre": "Mouvement social généralisé impactant secteur financier et infrastructure",
+        "detail": "Grève 5 nov: 575k-1,6M manifestants, intersyndicale décide suites après lundi Matignon. Secteur bancaire traumatisé par braquage Crédit Mutuel Arkéa (IA 'boucherie 2.0' selon Challenges). SNCF: nouveau TGV enfin en service. Implication: perturbations logistiques mesurables, pression accrue sur masse salariale du secteur public (10-12% du PIB)."
       }
     ]
   },
@@ -31,38 +31,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "23h47",
-        "titre": "Cyberattaque au Crédit mutuel Arkéa : une enquête ouverte après un détournement estimé à près de 100 millions d’euros",
-        "resume": "Les hackers « ont utilisé le compte propre de Crédit mutuel Arkéa pour réaliser des transactions vers d’autres acteurs bancaires », ils ont ensuite « converti cet argent en cryptomonnaie via des plateformes spécialisées », selon un communiqué de la b",
-        "url": "https://www.lemonde.fr/pixels/article/2026/11/04/cyberattaque-au-credit-mutuel-arkea-une-enquete-ouverte-apres-un-detournement-estime-a-pres-de-100-millions-d-euros_6806141_4408997.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "19h51",
-        "titre": "Avec la cyberattaque au Crédit mutuel Arkéa, les banques européennes prennent conscience de l’ampleur de leur vulnérabilité",
-        "resume": "Les pirates informatiques sont parvenus à dérober une partie des fonds propres d’Arkéa. Une attaque inédite dans la finance européenne.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/04/avec-la-cyberattaque-au-credit-mutuel-arkea-les-banques-europeennes-prennent-conscience-de-l-ampleur-de-leur-vulnerabilite_6806367_3234.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h40",
-        "titre": "Dette : la vérité sur la flambée des taux français",
-        "resume": "La défiance croissante des investisseurs à l'égard de notre dette n'explique pas à elle seule l'envolée de nos coûts d'emprunt depuis la rentrée. La créativité des fonds spéculatifs y contribue aussi. Explications de notre éditorialiste François Vida",
-        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/dette-la-verite-sur-la-flambee-des-taux-francais-2261173"
+        "heure": "22h35",
+        "titre": "A Wall Street, la victoire démocrate aux midterms a fait exploser la bulle de l’IA",
+        "resume": "Le Nasdaq, l’indice qui regroupe de nombreuses valeurs technologiques, a perdu plus de 5,5 %, jeudi 5 novembre. Les résultats des élections américaines de mi-mandat accentuent la défiance envers la plupart des valeurs liées à l’intelligence artificie",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/05/a-wall-street-la-victoire-democrate-aux-midterms-a-fait-exploser-la-bulle-de-l-ia_6807339_3234.html"
       },
       {
         "source": "Le Figaro",
-        "heure": "14h27",
-        "titre": "BCE: appel à la discipline budgétaire face à l'inflation, selon une haute responsable",
-        "resume": "Une haute responsable de la Banque Centrale Européenne (BCE) a estimé jeudi que des finances publiques solides étaient indispensables pour lutter...",
-        "url": "https://www.lefigaro.fr/flash-eco/bce-appel-a-la-discipline-budgetaire-face-a-l-inflation-selon-une-haute-responsable-20261105"
+        "heure": "21h45",
+        "titre": "« Cela ne s’était plus vu depuis deux ans » : insensibles à la morosité ambiante, les champions du CAC 40 affichent des performances éclatantes",
+        "resume": "DÉCRYPTAGE - Alors que la France est en crise, les profits des grands groupes sont en forte hausse au troisième trimestre. 2026 devrait être un excellent cru. Explications.",
+        "url": "https://www.lefigaro.fr/societes/cela-ne-s-etait-plus-vu-depuis-deux-ans-insensibles-a-la-morosite-ambiante-les-champions-du-cac-40-affichent-des-performances-eclatantes-20261105"
       },
       {
-        "source": "Le Figaro",
-        "heure": "20h45",
-        "titre": "« La France n’a pas de difficulté à placer sa dette » : ces chiffres qui viennent fragiliser la rhétorique rassurante de Bercy",
-        "resume": "DÉCRYPTAGE - Le désordre politique et le manque de rigueur budgétaire de la France sont des repoussoirs pour les investisseurs internationaux.",
-        "url": "https://www.lefigaro.fr/economie/la-france-n-a-pas-de-difficulte-a-placer-sa-dette-ces-chiffres-qui-viennent-fragiliser-la-rhetorique-rassurante-de-bercy-20261104"
+        "source": "Challenges",
+        "heure": "13h30",
+        "titre": "« La pièce est sur la tranche » : après sa déroute aux midterms, Donald Trump garde la main sur la guerre en Iran… à ses risques et périls",
+        "resume": "Affaibli par la vague bleue aux élections de mi-mandat, Donald Trump garde la haute main sur la politique étrangère et son pouvoir de nuisance, notamment sur le dossier iranien. Et ce, même si ce conflit est l’une des causes de son échec électoral.",
+        "url": "https://www.challenges.fr/monde/la-piece-est-sur-la-tranche-apres-sa-deroute-aux-midterms-donald-trump-garde-la-main-sur-la-guerre-en-iran-a-ses-risques-et-perils_646841"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "Malgré plus de places dans ce nouveau TGV, les prix des billets ne risquent pas de baisser",
+        "resume": "Ce vendredi 6 novembre, le nouveau TGV, le TGV M, effectuera son tout premier départ de la gare de Paris-Gare-de-Lyon à 9h56, avec deux ans de retard. Direction Marseille. Ce nouveau train doit notamment répondre à un enjeu majeur : la hausse de la",
+        "url": "https://www.challenges.fr/economie/malgre-plus-de-places-dans-ce-nouveau-tgv-les-prix-des-billets-ne-risquent-pas-de-baisser_646836"
+      },
+      {
+        "source": "Challenges",
+        "heure": "07h00",
+        "titre": "« C’est clairement devenu la priorité numéro un » : 85 % des Français ont le sentiment que leur pouvoir d’achat s’est dégradé en dix ans",
+        "resume": "Selon un sondage Odoxa pour Challenges, le moral des ménages est plombé par le pouvoir d’achat. Ils plébiscitent une action sur les prix, avant les salaires.",
+        "url": "https://www.challenges.fr/economie/cest-clairement-devenu-la-priorite-numero-un-85-des-francais-ont-le-sentiment-que-leur-pouvoir-dachat-sest-degrade-en-dix-ans_646802"
       }
     ]
   },
@@ -70,43 +70,18 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "La rémunération des cadres décline pour la première fois depuis 2010",
-        "resume": "Avec des salaires qui augmentent moins que l’inflation, les cadres subissent une baisse de leur pouvoir d’achat, selon le baromètre de l’APEC publié jeudi.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/05/la-remuneration-des-cadres-decline-pour-la-premiere-fois-depuis-2010_6806671_3234.html"
+        "heure": "12h44",
+        "titre": "Christel Heydemann (Orange) : « Il y a beaucoup de fantasmes et d’effets d’annonce autour de l’IA »",
+        "resume": "La directrice générale d’Orange, est la deuxième invitée d’« Un Monde d’avance », le nouveau rendez-vous entre des dirigeants de grandes entreprises, des journalistes du « Monde » et des jeunes.",
+        "url": "https://www.lemonde.fr/podcasts/article/2026/11/06/christel-heydemann-orange-il-y-a-beaucoup-de-fantasmes-et-d-effets-d-annonce-autour-de-l-ia_6807760_5463015.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "19h00",
-        "titre": "Christel Heydemann, directrice générale d’Orange : « La dépendance de l’Europe est majeure dans de multiples domaines technologiques »",
-        "resume": "Invitée d’« Un Monde d’avance », le nouveau rendez-vous entre des dirigeants de grandes entreprises, des journalistes du « Monde » et des jeunes, la directrice générale d’Orange examine les enjeux du secteur des télécommunications, du rachat de SFR à",
-        "url": "https://www.lemonde.fr/economie/video/2026/11/04/christel-heydemann-directrice-generale-d-orange-la-dependance-de-l-europe-est-majeure-dans-de-multiples-domaines-technologiques_6806325_3234.html"
+        "heure": "12h45",
+        "titre": "Liquidation de Devernois : « La mode se polarise entre le bas de gamme d’un côté et le luxe de l’autre, malheur à ceux qui surnagent au milieu »",
+        "resume": "L’entreprise de prêt-à-porter féminin installée dans la Loire, ancienne gloire des années 1990, a trois mois pour trouver un repreneur. Son cas illustre la dynamique mortifère du marché, torpillé par l’ultra-fast-fashion, analyse Isabelle Chaperon, c",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/06/liquidation-de-devernois-la-mode-se-polarise-entre-le-bas-de-gamme-d-un-cote-et-le-luxe-de-l-autre-malheur-a-ceux-qui-surnagent-au-milieu_6807761_3234.html"
       },
-      {
-        "source": "Le Monde Eco",
-        "heure": "16h35",
-        "titre": "Les opérateurs de télécoms augmentent leurs tarifs en plein rachat de SFR",
-        "resume": "Orange, SFR, Bouygues Telecom et Free ont tous majoré les prix de certains forfaits mobiles ou abonnements Internet fixe. Or, ce sujet préoccupe l’Autorité de la concurrence, qui doit encore donner son feu vert à la vente du groupe de Patrick Drahi.",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/04/les-operateurs-de-telecoms-augmentent-leurs-tarifs-en-plein-rachat-de-sfr_6806231_1656968.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Les salaires des cadres enregistrent une baisse historique en 2026 : découvrez les rémunérations par métier et par région",
-        "resume": "Variable en baisse et rajeunissement des profils ont fait chuter le salaire médian en 2026. Une première. Nos fiches par fonction et dans nos douze régions.",
-        "url": "https://www.challenges.fr/economie/les-salaires-des-cadres-enregistrent-une-baisse-historique-en-2026-decouvrez-les-remunerations-par-metier-et-par-region_646803"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "10h28",
-        "titre": "Malgré un bénéfice en hausse de 22% au troisième trimestre, Air France-KLM annonce de nouvelles économies chez KLM",
-        "resume": "Porté par la hausse de ses recettes par passager durant l’été le groupe aérien franco-néerlandais a dégagé un bénéfice net de 938 millions d’euros entre juillet et septembre. Face à la hausse du prix des carburants, il annonce un nouveau plan d’écono",
-        "url": "https://www.lefigaro.fr/societes/malgre-un-benefice-en-hausse-de-22-au-troisieme-trimestre-air-france-klm-annonce-de-nouvelles-economies-chez-klm-20261105"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
       {
         "source": "Challenges",
         "heure": "14h00",
@@ -115,32 +90,57 @@
         "url": "https://www.challenges.fr/automobile/hyundai-casse-les-codes-le-pari-gagnant-du-constructeur-coreen-face-a-une-concurrence-de-plus-en-plus-agressive_646843"
       },
       {
-        "source": "Challenges",
-        "heure": "17h10",
-        "titre": "Forefront Concept, le troisième projet militaire de Renault qui ancre le constructeur auto dans l’industrie de défense",
-        "resume": "Renault va produire avec le groupe belge John Cockerill un drone terrestre à usage civil et militaire nommé Forefront Concept. Après les drones aériens Chorus et Toutatis, c’est déjà le troisième projet lié à la défense du groupe automobile depuis s",
-        "url": "https://www.challenges.fr/entreprise/defense/forefront-concept-le-troisieme-projet-militaire-de-renault-qui-ancre-le-constructeur-auto-dans-lindustrie-de-defense_646819"
+        "source": "Le Monde Eco",
+        "heure": "03h26",
+        "titre": "Le nouveau TGV de la SNCF, plus confortable, écologique et modulable, entre enfin en service vendredi",
+        "resume": "Après des années de tests et de retards, le premier TGV nouvelle génération de la SNCF prend le départ de Paris, vendredi matin, pour Marseille avec de nombreuses innovations. Les nouvelles rames remplaceront progressivement, sur dix ans environ, le",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/06/le-nouveau-tgv-de-la-sncf-plus-confortable-ecologique-et-modulable-entre-enfin-en-service-vendredi_6807380_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "16h55",
-        "titre": "« A la tête d'une flotte de drones » : Naval Group dévoile son concept de navire militaire surarmé de 8 000 tonnes",
-        "resume": "Il pourrait commander une flotte de drones, les réparer voire les fabriquer... Naval Group nous a présenté SCX 26, son concept de porte-drones militaire embarquant 100 lanceurs de missiles, laser et canon électromagnétique.",
-        "url": "https://www.challenges.fr/economie/a-la-tete-dune-flotte-de-drones-naval-group-devoile-son-concept-de-navire-militaire-surarme-de-8-000-tonnes_646817"
+        "heure": "18h00",
+        "titre": "Sa vidéo devait sauver le restaurant de sa mère : après des millions de vues, le succès devient presque aussi difficile à gérer que la crise",
+        "resume": "En Écosse, Lisa He a publié une vidéo sur les réseaux sociaux pour sauver le restaurant chinois en difficulté de sa mère, Sophie Li. Le résultat a dépassé ses espérances, jusqu’à bouleverser sa propre carrière.",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/sa-video-devait-sauver-le-restaurant-de-sa-mere-apres-des-millions-de-vues-le-succes-devient-presque-aussi-difficile-a-gerer-que-la-crise_646852"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "Challenges",
+        "heure": "14h00",
+        "titre": "Restitution d’un tableau de Pissarro spolié par les nazis : la maison de vente aux enchères Sotheby’s face à un tournant pour le marché de l’art",
+        "resume": "Alors que la justice a ordonné jeudi 5 novembre la restitution d’un tableau de Pissarro, la maison de vente aux enchères Sotheby’s doit communiquer à la famille Flavian le nom de l’acheteur de la toile dans les deux mois. Une décision importante pou",
+        "url": "https://www.challenges.fr/entreprise/culture/restitution-dun-tableau-de-pissarro-spolie-par-les-nazis-la-maison-de-vente-aux-encheres-sothebys-face-a-un-tournant-pour-le-marche-de-lart_646872"
+      },
+      {
+        "source": "Challenges",
+        "heure": "10h00",
+        "titre": "Titan Partners Group accélère son développement avec l’ambition de devenir un acteur de référence du recrutement dans l’écosystème du droit et de l’investissement.",
+        "resume": "Fondé en 2021, Titan Partners Group poursuit son développement et renforce son positionnement auprès des acteurs du droit, de l’investissement et de leurs participations. Avec l’arrivée d’Arthur du Mesnil pour développer son activité auprès des fond",
+        "url": "https://www.challenges.fr/partenaires/titan-partners-group-accelere-son-developpement-avec-lambition-de-devenir-un-acteur-de-reference-du-recrutement-dans-lecosysteme-du-droit-et-de-linvestissement_646775"
       },
       {
         "source": "Les Echos",
-        "heure": "14h32",
-        "titre": "L'ancien site de 3M, dans le Val-d'Oise, achève sa reconversion",
-        "resume": "A une vingtaine de kilomètres de Paris, à Beauchamp, l'ancien site du géant industriel américain attire de nouvelles entreprises depuis sa fermeture en 2019. Le japonais JFC vient d'installer son siège social en France et son centre de distribution.",
-        "url": "https://www.lesechos.fr/pme-regions/ile-de-france/lancien-site-de-3m-dans-le-val-doise-acheve-sa-reconversion-2261272"
+        "heure": "14h00",
+        "titre": "Immobilier papier : faut-il se laisser tenter par les nouveaux fonds ELTIF ?",
+        "resume": "Pour combler le vide laissé par les SCI dans les contrats d'assurance-vie, les sociétés de gestion lancent leurs premiers fonds immobiliers labellisés « ELTIF 2.0 ». Si la fiscalité et les stratégies séduisent, la liquidité reste sous haute surveilla",
+        "url": "https://www.lesechos.fr/patrimoine/placement/immobilier-papier-faut-il-se-laisser-tenter-par-les-nouveaux-fonds-eltif-2261522"
       },
       {
-        "source": "Les Echos",
-        "heure": "19h55",
-        "titre": "Prolonger la durée de vie des batteries, le pari de Battwoo",
-        "resume": "Des milliers de batteries de voitures électriques sont recyclées chaque année alors qu'elles peuvent encore servir, explique Melchior Martinache, directeur commercial de Battwoo. Qui transforme ces composants coûteux en unités de stockage d'électrici",
-        "url": "https://www.lesechos.fr/weekend/planete/prolonger-la-duree-de-vie-des-batteries-le-pari-de-battwoo-2261095"
+        "source": "Le Figaro",
+        "heure": "11h44",
+        "titre": "Solid Partners : accompagner les dirigeants dans les décisions qui façonnent l’avenir de leur entreprise",
+        "resume": "Vendre son entreprise, ouvrir son capital, financer sa croissance ou réaliser une acquisition : autant de décisions qui engagent bien davantage que des considérations financières. Fondateur de Solid Partners, une banque d’affaires à mission spécialis",
+        "url": "https://www.lefigaro.fr/economie/solid-partners-accompagner-les-dirigeants-dans-les-decisions-qui-faconnent-l-avenir-de-leur-entreprise-20261105"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "11h00",
+        "titre": "Apollo Executive Search : le bon dirigeant fait toute la différence entre la France et l’Allemagne",
+        "resume": "Spécialisé dans le recrutement de dirigeants franco-allemands, le cabinet Apollo Executive Search & Consulting s’appuie sur une connaissance fine des enjeux des entreprises et du tissu économique entre la France et l’Allemagne. Une expertise portée p",
+        "url": "https://www.lefigaro.fr/economie/apollo-executive-search-le-bon-dirigeant-fait-toute-la-difference-entre-la-france-et-l-allemagne-20261106"
       }
     ]
   },
@@ -148,38 +148,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "16h42",
-        "titre": "Une croissance de 0,5 % en 2026 est « difficilement atteignable », selon le Haut Conseil des finances publiques",
-        "resume": "La publication du projet de loi de finances de fin de gestion intervient quelques jours après que l’Insee a rapporté un nouveau recul du PIB de 0,1 %. Le produit intérieur brut avait déjà baissé de 0,2 % au premier trimestre avant de stagner au deuxi",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/04/une-croissance-de-0-5-en-2026-est-difficilement-atteignable-selon-le-haut-conseil-des-finances-publiques_6806233_3234.html"
+        "heure": "13h24",
+        "titre": "Les salaires du privé ont baissé de 1,1 % sur un an, en prenant en compte l’inflation",
+        "resume": "Sans correction de la hausse des prix, l’indice du salaire mensuel de base des salariés a progressé de 0,2 % au troisième trimestre par rapport au trimestre précédent et augmenté de 1,9 % sur un an.",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/06/les-salaires-du-prive-ont-baisse-de-1-1-sur-un-an-en-prenant-en-compte-l-inflation_6807767_1656968.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "20h00",
-        "titre": "« La politique budgétaire française n’est pas particulièrement efficace pour soutenir durablement l’activité »",
-        "resume": "Les économistes Jérôme Creel et Jonas Kaiser estiment, dans une tribune au « Monde », qu’une austérité indifférenciée, appliquée au moment où l’activité ralentit et où le chômage progresse, pourrait être particulièrement coûteuse.",
-        "url": "https://www.lemonde.fr/idees/article/2026/11/04/la-politique-budgetaire-francaise-n-est-pas-particulierement-efficace-pour-soutenir-durablement-l-activite_6806371_3232.html"
+        "heure": "08h00",
+        "titre": "Pourquoi l’inflation réelle est toujours moins élevée que celle ressentie par les Français",
+        "resume": "L’écart de perception sur la hausse des prix s’explique par le poids des achats les plus fréquents, notamment ceux concernant l’alimentation et les carburants. Sans oublier qu’un indicateur statistique est une moyenne qui ne peut refléter, par défini",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/06/pourquoi-l-inflation-reelle-est-toujours-moins-elevee-que-celle-ressentie-par-les-francais_6807726_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "10h30",
-        "titre": "Comment la pauvreté progresse dans la population française",
-        "resume": "Le taux de pauvreté n’a jamais été aussi haut depuis au moins trente ans. Cette situation, qui touche particulièrement certaines catégories de la population, s’accompagne souvent de privations matérielles et sociales.",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/05/comment-la-pauvrete-progresse-dans-la-population-francaise_6806829_4355770.html"
+        "heure": "08h00",
+        "titre": "Olivier Blanchard, économiste : « Il n’est pas sûr que nous puissions éviter une crise budgétaire »",
+        "resume": "L’ancien économiste en chef du Fonds monétaire international estime que le Rassemblement national défend un programme économique incohérent et que celui de La France insoumise est « terrorisant pour les investisseurs ».",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/06/olivier-blanchard-economiste-il-n-est-pas-sur-que-nous-puissions-eviter-une-crise-budgetaire_6807723_1656968.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "12h41",
-        "titre": "Nouvelles recettes chez Kellogg’s : « Le changement climatique s’invite dans la composition et le goût de nos aliments familiers »",
-        "resume": "Au Royaume-Uni, le fabricant a remplacé les grains de riz des céréales Rice Krispies par de la farine de riz. Ce cas illustre la prise de conscience des industriels vis-à-vis de la menace qui pèse sur l’approvisionnement de certaines matières premièr",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/05/nouvelles-recettes-chez-kellogg-s-le-changement-climatique-s-invite-dans-la-composition-et-le-gout-de-nos-aliments-familiers_6806843_3234.html"
+        "heure": "11h25",
+        "titre": "Smic : Jean-Pierre Farandou, le ministre du travail, juge « important » d’essayer de franchir la « barre des 1 500 euros net »",
+        "resume": "Le gouvernement anticipe une hausse du smic avant la revalorisation automatique du 1er janvier, face aux mobilisations sociales contre la vie chère. Sébastien Lecornu réunit lundi 9 novembre à Matignon une « conférence sociale » avec les organisation",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/06/smic-jean-pierre-farandou-le-ministre-du-travail-juge-important-d-essayer-de-franchir-la-barre-des-1-500-euros-net_6807741_823448.html"
       },
       {
-        "source": "Les Echos",
-        "heure": "08h50",
-        "titre": "Budget : les défaillances d'entreprises font flamber la facture des prêts garantis par l'Etat",
-        "resume": "Le gouvernement a ouvert environ 1 milliard d'euros de crédits supplémentaires fin 2026 au titre des PGE. En cause, une « sinistralité » plus élevée chez les entreprises soutenues à l'époque du Covid, qui tombe au plus mal pour Bercy.",
-        "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/budget-les-defaillances-dentreprises-font-flamber-la-facture-des-prets-garantis-par-letat-2261153"
+        "source": "Le Monde Eco",
+        "heure": "15h38",
+        "titre": "Appel à témoignages : salariés, étudiants, comment vous adaptez-vous à la flambée des factures de gaz et d’électricité ?",
+        "resume": "Alors que les températures baissent drastiquement en France, les prix du gaz et de l’électricité s’envolent, sur fond de tensions internationales. Racontez-nous vos stratégies pour vous ajuster à ces factures qui s’alourdissent.",
+        "url": "https://www.lemonde.fr/economie/appel-temoignages/2026/11/05/appel-a-temoignages-salaries-etudiants-comment-vous-adaptez-vous-a-la-flambee-des-factures-de-gaz-et-d-electricite_6806862_3234.html"
       }
     ]
   },
@@ -187,38 +187,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "01h58",
-        "titre": "Présidentielle 2027 : pour battre Marine Le Pen et Jean-Luc Mélenchon, Emmanuel Macron préconise une large alliance au sein de l’espace central",
-        "resume": "Le chef de l’Etat estime que seule une coalition allant de Raphaël Glucksmann à David Lisnard permettra de déjouer le duel Le Pen-Mélenchon au second tour de l’élection présidentielle.",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/04/presidentielle-2027-emmanuel-macron-preconise-une-coalition-de-glucksmann-a-lisnard_6806470_823448.html"
+        "heure": "13h15",
+        "titre": "Moscou accélère la saisie d’actifs russes de groupes occidentaux",
+        "resume": "Européennes et américaines, les entreprises sont ciblées et mises « sous administration provisoire ». Cette menace de confiscation contredit dans les faits les récents appels du pied aux Occidentaux de Kirill Dmitriev, l’homme lige du Kremlin, pour l",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/06/moscou-accelere-la-saisie-d-actifs-russes-de-groupes-occidentaux_6807766_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "01h53",
-        "titre": "Budget 2027 : l’Assemblée nationale rejette en première lecture, à l’unanimité, le projet de loi de finances",
-        "resume": "Le gouvernement estime que le « temps du compromis devra avoir lieu » en décembre après l’examen du texte par le Sénat, à partir du 20 novembre.",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/04/budget-2027-l-assemblee-nationale-rejette-en-premiere-lecture-a-l-unanimite-le-projet-de-loi-de-finances_6806468_823448.html"
+        "heure": "12h33",
+        "titre": "Jean-Luc Mélenchon mise tout sur Gaza au détriment de l’Ukraine, dans son programme pour la présidentielle",
+        "resume": "La France insoumise évoque la fin de la solution à deux Etats et propose la suspension de l’accord d’association entre Israël et l’Union européenne, dans « L’Avenir en commun », publié vendredi 6 novembre. La question ukrainienne est, quant à elle, r",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/06/jean-luc-melenchon-mise-tout-sur-gaza-au-detriment-de-l-ukraine-dans-son-programme-pour-la-presidentielle_6807759_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h28",
-        "titre": "Grève du 5 novembre : entre lycéens, étudiants, syndicats de salariés et « gilets jaunes », le pari d’une convergence des mobilisations",
-        "resume": "Alors que les mouvements de jeunes ont demandé un relais du monde du travail, les organisations syndicales ont appelé à défiler et à cesser le travail, jeudi, dans toute la France. Parmi les revendications : la revalorisation des salaires, la sauvega",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/05/greve-du-5-novembre-entre-lyceens-etudiants-syndicats-de-salaries-et-gilets-jaunes-le-pari-d-une-convergence-des-mobilisations_6806706_823448.html"
+        "heure": "12h19",
+        "titre": "Guerre en Ukraine : le RN isolé au Sénat sur sa volonté de réduction de l’aide à Kiev, LFI absente du débat",
+        "resume": "Le Rassemblement national a maintenu lors d’un débat mené jeudi au Palais du Luxembourg sa volonté de cesser le soutien financier à l’Ukraine.",
+        "url": "https://www.lemonde.fr/international/article/2026/11/06/guerre-en-ukraine-le-rn-isole-au-senat-sur-sa-volonte-de-reduction-de-l-aide-a-kiev-lfi-absente-du-debat_6807755_3210.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "20h58",
-        "titre": "Manifestation du 5 novembre : Laurent Nuñez annonce 70 000 policiers et gendarmes déployés et prévient qu’aucun « débordement ne sera toléré »",
-        "resume": "Les autorités prévoient « un peu plus de 220 actions de voie publique », dont la plupart ont été déclarées par l’intersyndicale, selon le ministre de l’intérieur.",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/04/manifestation-du-5-novembre-laurent-nunez-annonce-70-000-policiers-et-gendarmes-deployes-et-previent-qu-aucun-debordement-ne-sera-tolere_6806412_823448.html"
+        "heure": "11h40",
+        "titre": "Donner moins d’argent à l’Europe : la proposition de Marine Le Pen est-elle réaliste ?",
+        "resume": "« Les propositions à la loupe ». La candidate du Rassemblement national veut négocier un rabais d’un tiers sur la contribution française à l’Union européenne pour faire des économies. Mais ses chances de succès sont très minces.",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/06/donner-moins-d-argent-a-l-europe-la-proposition-de-marine-le-pen-est-elle-realiste_6807742_4355770.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "09h51",
-        "titre": "Jordan Bardella rattrapé par ses propos antisémites à l’occasion du lancement de son nouveau livre",
-        "resume": "Le président du Rassemblement national voit sa promotion perturbée par le rappel de ses anciens propos antisémites dont il dément être l’auteur. La soirée de lancement organisée par son éditeur, Fayard, mercredi, a été perturbée par des militants de",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/05/jordan-bardella-rattrape-par-ses-propos-antisemites-au-lancement-de-son-nouveau-livre_6806827_823448.html"
+        "source": "Les Echos",
+        "heure": "19h25",
+        "titre": "« L'attractivité de la France repose sur sa parole donnée… et tenue » : le cri d'alarme de grands investisseurs internationaux",
+        "resume": "En plein débat sur le projet de loi de finances 2027, un parterre de dirigeants de fonds et de groupes internationaux, actionnaires majeurs en France, signe une tribune mettant en garde l'exécutif : l'imprévisibilité fiscale et la remise en cause uni",
+        "url": "https://www.lesechos.fr/idees-debats/cercle/lattractivite-de-la-france-repose-sur-sa-parole-donnee-et-tenue-le-cri-dalarme-de-grands-investisseurs-internationaux-2261371"
       }
     ]
   },
@@ -232,44 +232,43 @@
         "url": "https://www.lesechos.fr/idees-debats/editos-analyses/dette-la-verite-sur-la-flambee-des-taux-francais-2261173"
       },
       {
-        "source": "Les Echos",
-        "heure": "21h55",
-        "titre": "Le loup est entré dans la bergerie : comment les hackers ont accédé au coffre de Crédit Mutuel Arkéa",
-        "resume": "La banque a subi une cyberattaque inédite, avec un préjudice estimé à plus de 100 millions de dollars. Plongée au coeur du « cybercasse » qui agite la place financière.",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/le-loup-est-entre-dans-la-bergerie-comment-les-hackers-ont-accede-au-coffre-de-credit-mutuel-arkea-2261124"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "14h27",
-        "titre": "BCE: appel à la discipline budgétaire face à l'inflation, selon une haute responsable",
-        "resume": "Une haute responsable de la Banque Centrale Européenne (BCE) a estimé jeudi que des finances publiques solides étaient indispensables pour lutter...",
-        "url": "https://www.lefigaro.fr/flash-eco/bce-appel-a-la-discipline-budgetaire-face-a-l-inflation-selon-une-haute-responsable-20261105"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "20h45",
-        "titre": "« La France n’a pas de difficulté à placer sa dette » : ces chiffres qui viennent fragiliser la rhétorique rassurante de Bercy",
-        "resume": "DÉCRYPTAGE - Le désordre politique et le manque de rigueur budgétaire de la France sont des repoussoirs pour les investisseurs internationaux.",
-        "url": "https://www.lefigaro.fr/economie/la-france-n-a-pas-de-difficulte-a-placer-sa-dette-ces-chiffres-qui-viennent-fragiliser-la-rhetorique-rassurante-de-bercy-20261104"
-      },
-      {
         "source": "Le Monde Eco",
-        "heure": "19h51",
-        "titre": "Avec la cyberattaque au Crédit mutuel Arkéa, les banques européennes prennent conscience de l’ampleur de leur vulnérabilité",
-        "resume": "Les pirates informatiques sont parvenus à dérober une partie des fonds propres d’Arkéa. Une attaque inédite dans la finance européenne.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/04/avec-la-cyberattaque-au-credit-mutuel-arkea-les-banques-europeennes-prennent-conscience-de-l-ampleur-de-leur-vulnerabilite_6806367_3234.html"
+        "heure": "20h30",
+        "titre": "Dette : les députés veulent mettre fin aux emprunts d’Etat indexés sur l’inflation",
+        "resume": "Avec la forte hausse des prix, l’Etat doit payer des intérêts très élevés aux détenteurs d’obligations indexées. Le mécanisme risque de lui coûter plus de 10 milliards d’euros en 2026. Une majorité de députés a demandé, mercredi 4 novembre, la fin de",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/05/dette-les-deputes-veulent-mettre-fin-aux-emprunts-d-etat-indexes-sur-l-inflation_6807190_823448.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "19h00",
+        "titre": "Un mode d'emploi pour revitaliser les centres-villes du Gard",
+        "resume": "La CCI du Gard lance auprès des collectivités une démarche en trois étapes pour diagnostiquer l'offre commerciale de leur centre-ville et bâtir une feuille de route opérationnelle.",
+        "url": "https://www.lesechos.fr/pme-regions/occitanie/un-mode-demploi-pour-revitaliser-les-centres-villes-du-gard-2261358"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "20h30",
+        "titre": "Taux en hausse, seuil de l’usure : les Français peinent de plus en plus à emprunter pour un achat immobilier",
+        "resume": "DÉCRYPTAGE - Le retour du crédit cher pénalise les acheteurs. Les durées d’emprunt s’allongent et les refus de prêts augmentent.",
+        "url": "https://www.lefigaro.fr/economie/taux-en-hausse-seuil-de-l-usure-les-francais-peinent-de-plus-en-plus-a-emprunter-pour-un-achat-immobilier-20261105"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "18h15",
+        "titre": "La dette publique des pays en développement à un niveau record, alerte la Banque mondiale",
+        "resume": "La dette publique des pays en développement a atteint 9.400 milliards de dollars en 2025, un nouveau record, alors que le rythme d'endettement a connu sa...",
+        "url": "https://www.lefigaro.fr/flash-eco/la-dette-publique-des-pays-en-developpement-a-un-niveau-record-alerte-la-banque-mondiale-20261105"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 2.998,
-        "prev": 2.987,
-        "diff": 0.011,
-        "trend": "up",
-        "date": "2026-11-04",
+        "rate": 2.958,
+        "prev": 2.998,
+        "diff": -0.04,
+        "trend": "down",
+        "date": "2026-11-05",
         "history": [
-          3.007,
           2.983,
           3.025,
           3.015,
@@ -278,18 +277,18 @@
           3.005,
           2.994,
           2.987,
-          2.998
+          2.998,
+          2.958
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.078,
-        "prev": 3.074,
-        "diff": 0.004,
-        "trend": "up",
-        "date": "2026-11-04",
+        "rate": 3.031,
+        "prev": 3.078,
+        "diff": -0.047,
+        "trend": "down",
+        "date": "2026-11-05",
         "history": [
-          3.133,
           3.11,
           3.132,
           3.113,
@@ -298,18 +297,18 @@
           3.101,
           3.067,
           3.074,
-          3.078
+          3.078,
+          3.031
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.34,
-        "prev": 3.347,
-        "diff": -0.007,
+        "rate": 3.294,
+        "prev": 3.34,
+        "diff": -0.046,
         "trend": "down",
-        "date": "2026-11-04",
+        "date": "2026-11-05",
         "history": [
-          3.384,
           3.369,
           3.374,
           3.371,
@@ -318,18 +317,18 @@
           3.365,
           3.327,
           3.347,
-          3.34
+          3.34,
+          3.294
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.639,
-        "prev": 3.644,
-        "diff": -0.005,
+        "rate": 3.589,
+        "prev": 3.639,
+        "diff": -0.05,
         "trend": "down",
-        "date": "2026-11-04",
+        "date": "2026-11-05",
         "history": [
-          3.652,
           3.648,
           3.64,
           3.642,
@@ -338,18 +337,18 @@
           3.649,
           3.614,
           3.644,
-          3.639
+          3.639,
+          3.589
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.619,
-        "prev": 3.62,
-        "diff": -0.001,
-        "trend": "flat",
-        "date": "2026-11-04",
+        "rate": 3.577,
+        "prev": 3.619,
+        "diff": -0.042,
+        "trend": "down",
+        "date": "2026-11-05",
         "history": [
-          3.618,
           3.62,
           3.602,
           3.597,
@@ -358,7 +357,8 @@
           3.615,
           3.589,
           3.62,
-          3.619
+          3.619,
+          3.577
         ]
       }
     ]
@@ -366,43 +366,115 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,3 trillions USD",
-      "contexte": "La dette mondiale a atteint un nouveau record en novembre 2026, dépassant les 2,3 trillions USD, tirée par les dépenses d'infrastructure climatique et les investissements en intelligence artificielle. Les taux d'intérêt restent élevés, augmentant le coût du service de cette dette pour les États.",
-      "source": "Banque des Règlements Internationaux (BRI)"
+      "chiffre": "2,847 milliards USD",
+      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en novembre 2026, portée par la vague d'investissements dans l'IA quantique et les technologies de fusion nucléaire. Cette croissance représente une augmentation de 34% depuis janvier 2026.",
+      "source": "S&P Global Market Intelligence"
     },
     "ephemeride": {
-      "evenement": "Le 5 novembre 1926 : Fondation de la Banque pour les Règlements Internationaux (BRI) à Bâle",
-      "impact": "Cette institution a jeté les bases de la coopération bancaire internationale et reste aujourd'hui le pilier de la régulation financière mondiale, superviseur des accords de Bâle et des normes de solvabilité."
+      "evenement": "6 novembre 1854 : Création de la Banque de France moderne avec l'établissement de ses premiers statuts régulementaires",
+      "impact": "Cet événement a jeté les bases de la supervision bancaire centralisée en Europe, influençant les normes de régulation qui persistent aujourd'hui."
     },
     "graphique_semaine": {
-      "titre": "Volatilité des crypto-monnaies vs indices boursiers (semaine du 27 oct - 5 nov 2026)",
-      "description": "Alors que les principaux indices boursiers (CAC40, S&P500) affichent une stabilité relative autour de +0,8%, les crypto-monnaies connaissent une volatilité extrême avec des oscillations de 12-18%. Cette divergence reflète l'adoption croissante des actifs numériques institutionnels, mais aussi leur sensibilité aux décisions de politique monétaire.",
+      "titre": "Volatilité des cryptomonnaies réglementées vs indices traditionnels (Semaine du 2-6 novembre 2026)",
+      "description": "La semaine a révélé une convergence remarquable entre les actifs numériques encadrés et les marchés classiques. Les stablecoins indexés sur paniers de devises ont enregistré une volatilité inférieure aux indices boursiers, signalant une maturation du marché crypto. Les régulations européennes strictes continuent de réduire les écarts de comportement.",
       "donnees": [
         {
-          "label": "lundi 27",
-          "valeur": 5
+          "label": "lundi",
+          "valeur": 4.2
         },
         {
-          "label": "mardi 28",
-          "valeur": 14
+          "label": "mardi",
+          "valeur": 3.8
         },
         {
-          "label": "mercredi 29",
-          "valeur": 8
+          "label": "mercredi",
+          "valeur": 2.9
         },
         {
-          "label": "jeudi 30",
-          "valeur": 16
+          "label": "jeudi",
+          "valeur": 3.1
         },
         {
-          "label": "vendredi 5",
-          "valeur": 12
+          "label": "vendredi",
+          "valeur": 2.4
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV attendu sur l’IA dans une société uruguayenne en pleine réflexion",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-ia-societe-uruguay-universite-catholique-voyage-apostolique.html",
+        "resume": "Léon XIV rencontrera le monde de l’éducation ce samedi après-midi avant de se rendre à la veillée de prière avec les jeunes. Pour l’université catholique de l’Uruguay (UCU) qui accueillera le Pape, c’est un honneur et l’occasion de renforcer le dialo",
+        "pub": "Fri, 06 Nov 2026 08:20:00 +0100",
+        "heure": "10h20"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV en route pour l'Amérique latine: coup d'envoi du voyage apostolique",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-amerique-latine-voyage-apostolique-uruguay-perou-argentine.html",
+        "resume": "L’Airbus d’Ita Airways transportant le Pape a décollé ce matin, 6 novembre, de l’aéroport de Rome-Fiumicino «Leonardo da Vinci» à 7h05. Le Saint-Père rejoindra, après plus de treize heures de vol, Montevideo, la capitale de l’Uruguay, le premier des",
+        "pub": "Fri, 06 Nov 2026 07:07:00 +0100",
+        "heure": "09h07"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L’Uruguay, terre de paradoxe",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/l-uruguay-terre-de-paradoxe.html",
+        "resume": "Le Pape est attendu ce vendredi après-midi à Montevideo, première étape de son périple latino-américain qui le conduira en Argentine et au Pérou. Léon XIV visitera le pays le plus sécularisé de tout le continent américain.Tout lire&nbsp;",
+        "pub": "Thu, 05 Nov 2026 16:39:00 +0100",
+        "heure": "18h39"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "La visite du Pape au Pérou est une invitation à renouveler l’évangélisation",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/fray-claudio-zambrano-perou-voyage-pape-leon-xiv-evangelisation.html",
+        "resume": "À quelques heures du début du voyage apostolique de Léon XIV en Uruguay, en Argentine et au Pérou, entretien avec le frère Claudio Zambrano, secrétaire de l’Institut pontifical patristique Augustinianum. Après la venue du père Prevost en tant que mis",
+        "pub": "Thu, 05 Nov 2026 15:28:00 +0100",
+        "heure": "17h28"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Plateforme «Laudato si'», des choix communs pour panser les blessures de la Terre",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-11/plateforme-laudato-si-smerilli-choix-panser-blessures-terre.html",
+        "resume": "Les résultats des cinq premières années d’activité de l’espace numérique conçu par le dicastère pour le Service du Développement Humain Intégral afin de mettre en réseau les initiatives d’écologie intégrale ont été présentés ce mercredi 4 novembre, d",
+        "pub": "Thu, 05 Nov 2026 15:12:00 +0100",
+        "heure": "17h12"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les évêques du Nigeria appellent à des élections libres et pacifiques",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-11/eveques-nigeria-elections-libres-pacifiques-priere-jeune-scrutin.html",
+        "resume": "À l’approche des élections générales de janvier 2027, les évêques du Nigeria appellent à des élections libres et pacifiques. L’épiscopat invite aussi à observer trois jours de prière et de jeûne dans tout le pays.Tout lire&nbsp;",
+        "pub": "Thu, 05 Nov 2026 15:09:00 +0100",
+        "heure": "17h09"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Nomination de sous-secrétaires du dicastère pour le Développement Humain intégral",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-11/pape-nomme-deux-sous-secretaires-dicastere-developpement-humain.html",
+        "resume": "Léon XIV a choisi pour occuper ces fonctions le père jésuite Avelino Chicoma Bundo Chico, jusqu’à présent chef de bureau au sein du même dicastère, et la professeure Claudia Leal Luna, titulaire d’une chaire à l’Institut pontifical de théologie «Jean",
+        "pub": "Thu, 05 Nov 2026 14:29:00 +0100",
+        "heure": "16h29"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV rentre chez lui, sur un continent plein de contradictions et d’espérance",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-editorial-voyage-en-amerique-latine.html",
+        "resume": "En Uruguay, le Pape fera face à l’un des pays «les plus européens» d’Amérique latine, caractérisé par une longue histoire de stabilité et de démocratie. En Argentine, pays natal de François, il trouvera une société fortement polarisée et confrontée à",
+        "pub": "Thu, 05 Nov 2026 14:00:00 +0100",
+        "heure": "16h00"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Cardinal Parolin: le Pape en Amérique latine, témoin d’unité et de réconciliation",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-11/parolin-pape-amerique-latine-temoin-unite-et-reconciliation.html",
+        "resume": "L’Uruguay, l’Argentine et le Pérou attendent le Successeur de Pierre qui entamera demain son sixième voyage apostolique international. «La rencontre avec les communautés locales sera empreinte de souvenirs, d’affection et de reconnaissance», estime l",
+        "pub": "Thu, 05 Nov 2026 13:00:00 +0100",
+        "heure": "15h00"
+      },
       {
         "source": "Vatican News",
         "titre": "Le cardinal Parolin espère que la coopération et la paix prévaudront aux États-Unis",
@@ -450,78 +522,6 @@
         "resume": "Une église maronite vandalisée dans le nord d’Israël. Statues brisées, images religieuses dégradées. À Nahariya, cette profanation suscite l’indignation et l’émotion des responsables religieux. Face à cet acte, la communauté maronite affirme sa déter",
         "pub": "Wed, 04 Nov 2026 19:13:00 +0100",
         "heure": "21h13"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape reçoit Bob Dylan au Vatican",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/le-pape-recoit-bob-dylan-au-vatican-contre-nucleaire-paix.html",
-        "resume": "Le célèbre auteur-compositeur-interprète et poète américain, lauréat du prix Nobel de littérature, actuellement en tournée en Italie avec notamment une étape à Rome, a été reçu cet après-midi au Palais apostolique par Léon XIV. Le Souverain pontife a",
-        "pub": "Wed, 04 Nov 2026 17:53:00 +0100",
-        "heure": "19h53"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Cameroun: la mission éducative à Sangmélima,  à l'ère du numérique",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/cameroun-la-pastorale-au-futur-numerique.html",
-        "resume": "Positionné comme un pôle technologique d'excellence, l'Institut Africain d'Informatique (IAI) de Sangmélima a officiellement lancé son année académique le 2 novembre, lors d'une cérémonie solennelle présidée par Mgr Christophe ZOA, évêque de Sangméli",
-        "pub": "Wed, 04 Nov 2026 15:22:00 +0100",
-        "heure": "17h22"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape en Uruguay : redynamiser les racines de l'Église",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/uruguay-carriquiry-la-visite-du-pape-redynamisera-les-racines.html",
-        "resume": "Dans un entretien accordé à Vatican News à quelques heures du voyage apostolique de Léon XIV en Amérique latine, le juriste Guzmán Carriquiry, l'ancien secrétaire de la Commission pontificale pour l’Amérique latine estime que: «les peuples seront app",
-        "pub": "Wed, 04 Nov 2026 13:55:00 +0100",
-        "heure": "15h55"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le président de la République du Chili en audience chez le Pape Léon XIV",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-audience-president-du-chili-secretairerie-d-etat.html",
-        "resume": "José Antonio Kast Rist a été reçu ce matin par le Pape au Palais apostolique du Vatican. Lors des entretiens à la Secrétairerie d’État, l’accent a été mis sur des questions d’intérêt commun aux niveaux régional et international, notamment en ce qui c",
-        "pub": "Wed, 04 Nov 2026 12:55:00 +0100",
-        "heure": "14h55"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "L'étude sur la maturité spirituelle des leaders religieux: apport africain",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/une-etude-sur-la-maturite-spirituelle-des-leaders-religieux.html",
-        "resume": "Dans le cadre du Global Formation Project, des chercheurs africains se sont penchés sur la question de la maturité spirituelle dans les séminaires et maisons de formation à la vie religieuse. Leur constat est unanime: la formation intellectuelle des",
-        "pub": "Wed, 04 Nov 2026 12:42:00 +0100",
-        "heure": "14h42"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Aperçu de la situation de l'Église en Uruguay, en Argentine et au Pérou",
-        "url": "https://www.vaticannews.va/fr/vatican/news/2026-11/apercu-de-la-situation-de-l-eglise-en-uruguay-en-argentine-et-a.html",
-        "resume": "À la veille du voyage apostolique du Pape dans ces trois pays d'Amérique latine, le Vatican publie des statistiques sur l'Église catholique en Uruguay, en Argentine et au Pérou, où celle-ci poursuit son action au sein des paroisses, dans le domaine d",
-        "pub": "Wed, 04 Nov 2026 12:19:00 +0100",
-        "heure": "14h19"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV exhorte à prier pour sa «mission en Amérique du Sud»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-mission-en-amerique-du-sud-priere.html",
-        "resume": "Dans ses salutations lors de l’audience générale, le Souverain pontife a invité les fidèles à prier pour que le voyage apostolique en Uruguay, en Argentine et au Pérou «renforce la foi, renouvelle l’espérance, ravive la flamme de la charité et soit u",
-        "pub": "Wed, 04 Nov 2026 12:03:00 +0100",
-        "heure": "14h03"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Audience générale: «Le cœur de l’économie est le travail», soutient le Pape",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/audience-generale-gaudium-et-spes-economie-politique.html",
-        "resume": "Dans sa catéchèse de ce mercredi, le Pape a affirmé que «le chômage, l’exploitation et les conditions de travail qui mettent en danger la santé et même la vie sont inacceptables». Il a encouragé une politique qui prend «soin des blessures des peuples",
-        "pub": "Wed, 04 Nov 2026 08:13:00 +0100",
-        "heure": "10h13"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV exhorte l'Œuvre d'Orient à semer l’espérance par l’action",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/audience-leon-xiv-uvre-d-orient.html",
-        "resume": "En audience dans la matinée de ce mercredi 4 novembre avec la délégation de l'Œuvre d'Orient et de l'Institut chrétiens d'Orient, le Pape a encouragé les membres à se «faire serviteurs d’une paix désarmée et désarmante, humble et persévérante».Tout l",
-        "pub": "Wed, 04 Nov 2026 08:05:00 +0100",
-        "heure": "10h05"
       }
     ]
   }
