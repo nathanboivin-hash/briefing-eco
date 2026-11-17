@@ -1,28 +1,28 @@
 {
-  "timestamp": "13h11 le 16/11/2026",
-  "alerte": "Suspension trafic aérien USA (276 vols annulés, 850 retardés) + cyberattaque La Poste (22M personnes) + perte 40 satellites Amazon + tensions géopolitiques Chine/Occident",
+  "timestamp": "13h55 le 17/11/2026",
+  "alerte": "Dégradation macro France confirmée par Bruxelles + grève nationale + tensions bancaires européennes + chocs IA sur emploi",
   "synthese": {
-    "resume": "Le marché subit trois chocs simultanés : disruption logistique majeure aux USA (aviation), faille de sécurité critique en France (22M clients La Poste), et perte d'actifs stratégiques pour Amazon (40 satellites Kuiper, ~$500M). Sur le plan macro, l'inflation japonaise et les mesures françaises (SMIC +1,6% = >1Mrd€ de coût budgétaire) pressent les banques centrales. Géopolitiquement, la Chine accélère sa restructuration institutionnelle pour marginaliser l'Occident, tandis que la présidentielle 2027 crée une paralysie décisionnelle domestique. Les obligations high-yield se fragmentent en deux vitesses selon les émetteurs.",
+    "resume": "Commission européenne confirme le décrochage économique français avec prévisions révisées à la baisse (-7, article 7), tandis que la rémunération du CAC 40 grimpe de 16% à 7,5M€ en 2025, creusant les inégalités. UniCredit finalise son OPA sur Commerzbank (45Mds€, article 10) restructurant l'Europe bancaire. L'IA supprime 100k offres d'emploi en 2026 (article 16) et Renault annonce 1000+ suppressions en France. Grève du 17 novembre bloque ports et transports. Tensions sur inflation pain à Paris et carburants, financement des collectivités sous pression.",
     "points": [
       {
-        "titre": "Disruptions logistiques - 1.126 vols impactés aux USA",
-        "detail": "Suspension FAA affecte connectivité transatlantique et supply chains. Impact direct sur cotations aériennes (IAG, Air France-KLM) et logistics providers. Indexation automatique sur contrats logistiques USA/EU. Durée non quantifiée crée volatilité excessives. Surcoûts hébergement/rebooking estimés 50-100M$ secteur tourisme/affaires."
+        "titre": "Macro France - décrochage confirmé par Bruxelles",
+        "detail": "Commission européenne révise ses prévisions d'automne à la baisse pour la France (article 7). Tensions sur financement collectivités locales post-réformes Macron (article 30). Inflation pain à Paris (article 13-21) : baguette devenue produit de luxe, baromètre inflationniste critique. PIB Japon à zéro au T3 (article 125), contexte mondial dégradé. Implications : révision baisse consensus 2026-2027, risque déficit public accru."
       },
       {
-        "titre": "Cyberattaque systémique - La Poste 22M personnes exposées",
-        "detail": "Deuxième incident 2026 signale faillite opérationnelle critique. Risque contagion à groupe de paiement/logistique GeoPost. Primes cyber insurance en hausse 25-40%. Obligation compliance renforcement IT (ANSSI) = capex additionnel 50-100M€ secteur postal/logistique."
+        "titre": "Emploi - destruction de 100k postes IA + 1000+ Renault",
+        "detail": "Étude démontre 100k offres emploi disparues en 2026 via IA, touchant cadres et débutants (article 16). Renault supprime 1000+ postes France pour compétitivité face Chine (article 24). Intentions recrutement cadres au plus bas (article 23). France Travail alerte sur 'tsunami social' IA (article 94). Implications : chômage structurel accélératif, pression salaires en bas de grille, risque social politique majeur."
       },
       {
-        "titre": "Perte d'actifs stratégiques - Amazon perd 40 satellites Kuiper (~$500M)",
-        "detail": "Échec fusée Vulcan retarde projet internet satellitaire face Starlink. Amazon vise toujours 3.000+ satellites fin 2027. Délai de 12-18 mois étendu. Capex additionnel probable. Renforce domination SpaceX/Starlink sur infrastructure critique. Retards commercialisation services latence ultra-basse."
+        "titre": "Bancaire - UniCredit restructure l'Europe (45Mds€)",
+        "detail": "Bruxelles autorise rachat Commerzbank par UniCredit 45Mds€ (articles 10, 26) pour renforcer secteur bancaire européen. Deutsche Bank révélée en défaut compliance Russie (articles 11, 17-19 'Inside DB') : action chute post-enquête 230 journalistes/50 médias/15M documents. Revolut Italie en administration judiciaire pour antiblanchiment insuffisant (article 27). Weil cabinet d'avocats en faillite spectaculaire (article 28). Implications : consolidation forcée, risque réputationnel systémique, compliance coûts de transformation majeurs."
       },
       {
-        "titre": "Inflation salariale française - Hausse SMIC +1,6% = >1Mrd€ annuel",
-        "detail": "Coût fiscal direct sur services publics + secteur logistique/retail. Pression marges PME secteur bas-salaires (horeca, distribution, santé). Indexation automatique contrats publics = cascade dépenses 2027. Modélisation BCE: risque déflation locale contré par hausse coûts salariaux."
+        "titre": "Géopolitique - tensions Chine/EU + Ukraine",
+        "detail": "Chine-Canada accord réduction droits douane (article 15) vs 'made in Europe' menace écosystème Turquie (article 3). Bruxelles prépare prêt Ukraine 45Mds€ et resserre étau revenus russes (article 83). Dassault vs Airbus rivalité complique réarmement européen (article 12). Implications : fragmentation commerciale, défense budget accru, déflation prix industriels durables."
       },
       {
-        "titre": "Fragmentation obligataire - High-yield deux vitesses",
-        "detail": "Gérants rapportent décorrélation accrue entre investment-grade et spéculatif. Spreads BB/B divergent +150bps vs convergence historique. Risque crédit systémique sur petite-moyenne cap Euro. Réduit rendements carry arbitrage EUR-USD."
+        "titre": "Tech/Régulation - Temu, PFAS, Apple, IA droit auteur",
+        "detail": "Commission européenne resserre étau Temu non-respect normes UE (article 5). PFAS : lobby fluoropolymères manœuvre contre interdiction européenne (article 22). Procès Apple obsolescence programmée juin 2027 (article 20). 30 patrons French Tech dénoncent sabotage volontaire France sur IA/droit auteur (article 91). Implications : fragmentations réglementaires, fuite capital tech, coûts compliance accrus."
       }
     ]
   },
@@ -31,24 +31,219 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "13h49",
-        "titre": "Suspension des vols aux Etats-Unis : au moins 276 vols annulés, et plus de 850 retardés, lundi",
-        "resume": "« Nous allons voir les choses revenir (…) sans doute complètement à la normale lundi », a estimé le secrétaire aux transports américain, Sean Duffy, dimanche, après une panne inédite du contrôle aérien.",
-        "url": "https://www.lemonde.fr/international/article/2026/11/16/suspension-des-vols-aux-etats-unis-environ-240-vols-annules-et-quelque-530-retardes-lundi_6811688_3210.html"
+        "heure": "15h48",
+        "titre": "La rémunération moyenne des patrons du CAC 40 était de 7,5 millions d’euros en 2025, une hausse de 16 %",
+        "resume": "Selon Proxinvest, sur la période 2014-2025, la rémunération moyenne des salariés a augmenté de 36,1 %, tandis que celle des dirigeants a grimpé de 75,5 %.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-remuneration-moyenne-des-patrons-du-cac-40-etait-de-7-5-millions-d-euros-en-2025-une-hausse-de-16_6812969_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "21h20",
-        "titre": "Suspension des vols aux Etats-Unis : retour à la normale du trafic aérien espéré pour lundi ; Donald Trump qualifie la gestion de l’aviation par Joe Biden de « désastre »",
-        "resume": "Encore près de 2 000 vols ont été supprimés dimanche aux Etats-Unis, après que plus de 18 000 l’avaient déjà été vendredi et samedi. « Nous allons sans doute voir les choses revenir complètement à la normale lundi », a estimé le secrétaire aux transp",
-        "url": "https://www.lemonde.fr/international/article/2026/11/15/suspension-des-vols-aux-etats-unis-retour-a-la-normale-du-trafic-aerien-espere-lundi-donald-trump-qualifie-la-gestion-de-l-aviation-par-joe-biden-de-desastre_6811046_3210.html"
+        "heure": "12h35",
+        "titre": "« Inside Deutsche Bank » : l’action de la banque chute en Bourse après la publication de l’enquête",
+        "resume": "La première banque privée allemande chute mardi en Bourse après une grande enquête de presse à laquelle a participé « Le Monde ».",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/deutsche-bank-chute-en-bourse-apres-une-enquete-sur-une-fuite-de-documents-internes_6812937_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "16h00",
-        "titre": "SpaceX fait l’histoire à nouveau : pourquoi rattraper le deuxième étage de sa fusée Starship était si important",
-        "resume": "SpaceX est parvenu pour la première fois à rattraper l’étage supérieur de sa fusée Starship sur sa tour de lancement, une nouvelle étape clé dans son ambition de rendre entièrement réutilisable l’immense lanceur spatial, clé pour les projets de l’en",
-        "url": "https://www.challenges.fr/entreprise/spacex-fait-lhistoire-a-nouveau-pourquoi-rattraper-le-deuxieme-etage-de-sa-fusee-starship-etait-si-important_646987"
+        "heure": "19h00",
+        "titre": "Nvidia : après la chute brutale de Jensen Huang, qui dirigera le géant de l’IA à un moment charnière de son histoire ?",
+        "resume": "Le départ brutal de Jensen Huang, fondateur et patron emblématique de Nvidia, plonge le leader mondial des puces pour l’intelligence artificielle dans l’incertitude. Entre scandale, restrictions américaines sur les exportations vers la Chine, craint",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/nvidia-apres-la-chute-brutale-de-jensen-huang-qui-dirigera-le-geant-de-lia-a-un-moment-charniere-de-son-histoire_646996"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h35",
+        "titre": "Le point commun entre Lehman Brothers et Nvidia",
+        "resume": "Le géant californien de la puce et la banque d'affaires new-yorkaise qui s'effondra en 2008 n'ont rien en partage. Sauf un conseil d'administration incapable de s'opposer aux risques pris par le patron de l'entreprise, observe notre éditorialiste Jea",
+        "url": "https://www.lesechos.fr/idees-debats/editos-analyses/le-point-commun-entre-lehman-brothers-et-nvidia-2262936"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "15h43",
+        "titre": "Le billet vert frôle 1,10 dollar pour un euro, poussé par l'inflation américaine",
+        "resume": "Le dollar continue de progresser lundi, après la publication la semaine dernière d'indicateurs d'inflation qui pourraient motiver la Réserve...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-billet-vert-frole-1-10-dollar-pour-un-euro-pousse-par-l-inflation-americaine-20261116"
+      }
+    ]
+  },
+  "entreprises": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "22h59",
+        "titre": "Renault va supprimer plus d’un millier de postes en France pour être plus compétitif face à la concurrence chinoise",
+        "resume": "Le groupe automobile français a annoncé un plan de départs volontaires concernant 1 000 personnes ainsi que 2 000 créations de postes d’ici deux à trois ans. Une dizaine de sites, partout dans l’Hexagone, seront concernés par ce double mouvement.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/16/renault-va-supprimer-plus-d-un-millier-de-postes-en-france-pour-etre-plus-competitif-face-a-la-concurrence-chinoise_6812360_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h41",
+        "titre": "Assimil, spécialisé dans les méthodes d’apprentissage des langues, placé en redressement judiciaire",
+        "resume": "L’entreprise familiale qui vend sa méthode dans le monde entier est fragilisée par la concurrence de l’IA et la baisse des ventes en librairies.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/16/assimil-specialise-dans-les-methodes-d-apprentissage-des-langues-place-en-redressement-judiciaire_6812230_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "11h43",
+        "titre": "OVHcloud prend le train de l’IA : le fleuron français de l’informatique à distance dévoile son premier modèle « Olala »",
+        "resume": "L’entreprise française d’informatique à distance OVHcloud a annoncé ce mardi 17 novembre le lancement imminent de son premier modèle d’IA, baptisé « Olala » et destiné aux entreprises. Mais la société aura fort à faire pour s’imposer dans un marché",
+        "url": "https://www.challenges.fr/entreprise/tech-numerique/ovhcloud-prend-le-train-de-lia-le-fleuron-francais-de-linformatique-a-distance-devoile-son-premier-modele-olala_647013"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "13h43",
+        "titre": "«Mon bureau se situera dans le TGV» : Saint-Gobain se réorganise et nomme un directeur général pour la France",
+        "resume": "PORTRAIT - L’entreprise du BTP crée un poste de patron de l’Hexagone, qu’elle confie à Nicolas Godet, un fidèle du groupe disposant d’une expérience variée.",
+        "url": "https://www.lefigaro.fr/decideurs/mon-bureau-se-situera-dans-le-tgv-saint-gobain-se-reorganise-et-nomme-un-directeur-general-pour-la-france-20261116"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "22h20",
+        "titre": "Pour devenir «la référence automobile européenne», Renault rajeunit les effectifs dans ses usines françaises",
+        "resume": "DÉCRYPTAGE - Le Losange s’apprête à tailler dans ses coûts industriels avec un plan de départs volontaires portant sur 1 090 postes de cols blancs. Il recrute en parallèle 2 000 intérimaires et jeunes cols bleus.",
+        "url": "https://www.lefigaro.fr/societes/pour-devenir-la-reference-automobile-europeenne-renault-rajeunit-les-effectifs-dans-ses-usines-francaises-20261116"
+      }
+    ]
+  },
+  "ma": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "12h45",
+        "titre": "Rachat de Commerzbank : « UniCredit est en passe de réussir son OPA à 45 milliards d’euros en Allemagne et de transformer l’Europe bancaire »",
+        "resume": "Deux ans après son lancement, le raid de l’italien sur l’allemand, approuvé par la Commission européenne lundi, illustre la volonté nouvelle de l’UE de favoriser les champions européens. Mais la consolidation bancaire a encore du chemin à faire pour",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/rachat-de-commerzbank-unicredit-est-en-passe-de-reussir-son-opa-a-45-milliards-d-euros-en-allemagne-et-de-transformer-l-europe-bancaire_6812939_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "19h34",
+        "titre": "Bruxelles autorise le rachat de Commerzbank par UniCredit, au nom du renforcement du secteur bancaire européen",
+        "resume": "L’opération, qui illustre la nouvelle volonté de l’UE de favoriser les champions européens, serait « probablement la plus grande transaction transfrontalière bancaire depuis la crise financière », selon la Commission européenne.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/16/bruxelles-autorise-le-rachat-de-commerzbank-par-unicredit-au-nom-du-renforcement-du-secteur-bancaire-europeen_6812172_3234.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "12h40",
+        "titre": "Coup de tonnerre dans le spatial européen : le finlandais Iceye lance une OPA sur le fabricant de fusées italien Avio",
+        "resume": "Le leader européen des satellites radars a déposé une offre à deux milliards d’euros pour racheter Avio, fabricant italien du lanceur Vega-C. L’opération, si elle réussit, créerait un champion européen intégré, présent des lanceurs aux satellites.",
+        "url": "https://www.challenges.fr/entreprise/defense/coup-de-tonnerre-dans-le-spatial-europeen-le-finlandais-iceye-lance-une-opa-sur-le-fabricant-de-fusees-italien-avio_647012"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "19h05",
+        "titre": "Revolut Italie placée sous administration judiciaire pour des contrôles antiblanchiment insuffisants",
+        "resume": "Le tribunal de Milan a estimé que les défaillances observées dans la filiale italienne de Revolut relevaient, non pas d’incidents isolés, mais d’une « inadéquation organisationnelle » ayant permis de faciliter les activités illicites de certains clie",
+        "url": "https://www.lemonde.fr/international/article/2026/11/16/revolut-italie-placee-sous-administration-judiciaire-pour-des-controles-antiblanchiment-insuffisants_6812166_3210.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h41",
+        "titre": "Assimil, spécialisé dans les méthodes d’apprentissage des langues, placé en redressement judiciaire",
+        "resume": "L’entreprise familiale qui vend sa méthode dans le monde entier est fragilisée par la concurrence de l’IA et la baisse des ventes en librairies.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/16/assimil-specialise-dans-les-methodes-d-apprentissage-des-langues-place-en-redressement-judiciaire_6812230_3234.html"
+      }
+    ]
+  },
+  "macro": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "13h00",
+        "titre": "La Commission européenne confirme le décrochage de la France dans ses prévisions économiques d’automne",
+        "resume": "En 2026, la croissance de l’Union européenne a mieux résisté que ne l’attendaient les experts de la Commission, sauf dans l’Hexagone, qui fait pâle figure. Quant à l’inflation, elle va continuer à grever le pouvoir d’achat dans toute l’UE en 2027.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-commission-europeenne-confirme-le-decrochage-de-la-france-dans-ses-previsions-economiques-d-automne_6812945_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "12h58",
+        "titre": "Prix des carburants : une baisse dans plus de 90 % des stations-service, selon Mathieu Lefèvre, ministre délégué à la transition écologique",
+        "resume": "Le gouvernement a commencé le 1ᵉʳ novembre à vendre à prix coûtant des barils de gazole issus des stocks stratégiques, une opération qui s’étalera pendant trois mois.",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/17/carburant-une-baisse-du-prix-dans-plus-de-90-des-stations-service-selon-mathieu-lefevre_6812943_1656968.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "09h30",
+        "titre": "L’utilisation de l’IA a fait disparaître 100 000 offres d’emploi en 2026, et cela ne concerne pas forcément que les débutants, selon une étude",
+        "resume": "La Coface et l’Observatoire des emplois menacés et émergents montrent que le déploiement de l’intelligence artificielle dans les entreprises ne se traduit pas encore par des licenciements dans les métiers les plus facilement automatisables, mais cont",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/l-essor-de-l-ia-ralentit-les-recrutements-des-metiers-les-plus-automatisables-au-dela-des-postes-juniors_6812918_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h00",
+        "titre": "Dans les entreprises, les intentions de recrutement des cadres au plus bas",
+        "resume": "Seules 6 % des entreprises françaises envisagent de recruter au moins un cadre dans les prochains mois, un niveau historiquement bas depuis 2020, selon une enquête de l’APEC.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/dans-les-entreprises-les-intentions-de-recrutement-des-cadres-au-plus-bas_6812854_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "10h00",
+        "titre": "Faut-il redouter un tsunami social ? France Travail dévoile une étude inédite sur les effets de l'IA",
+        "resume": "Pour sa première étude sur l'impact à cinq ans de l'IA sur les métiers, l'ex-Pôle emploi a sondé 16.000 entreprises. Un constat à deux faces.",
+        "url": "https://www.lesechos.fr/economie-france/social/faut-il-redouter-un-tsunami-social-france-travail-devoile-une-etude-inedite-sur-les-effets-de-lia-2262941"
+      }
+    ]
+  },
+  "politique": {
+    "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "14h32",
+        "titre": "Présidentielle 2027 : Marine Le Pen présente sa réforme des retraites, un système basé sur la progressivité et une part de capitalisation",
+        "resume": "La candidate du RN a promis que « des centaines de milliers de travailleurs partiront plus tôt » avec sa réforme, qui sera « engagée dès [son] arrivée au pouvoir » et promet d’abolir celle d’Elisabeth Borne au 1ᵉʳ janvier 2028.",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/17/presidentielle-2027-marine-le-pen-presente-sa-reforme-des-retraites-et-promet-que-des-centaines-de-milliers-de-travailleurs-partiront-plus-tot-qu-avec-la-reforme-borne_6812963_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "14h03",
+        "titre": "L’Etat poussé à revoir le financement des collectivités locales pour corriger les réformes Macron",
+        "resume": "Tandis que les départements éprouvent des difficultés à boucler leur budget, le Conseil des prélèvements obligatoires tire un bilan critique des réformes menées par Emmanuel Macron, dont l’emblématique suppression de la taxe d’habitation. Une nouvell",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/17/l-etat-pousse-a-revoir-le-financement-des-collectivites-locales-pour-corriger-les-reformes-macron_6812961_823448.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "12h30",
+        "titre": "Marine Le Pen et l’Ukraine, entre hypocrisie et lâcheté",
+        "resume": "En annonçant « cesser l’aide financière » à Kiev si elle est élue en 2027, la candidate d’extrême droite vient de lever le voile sur sa véritable stratégie diplomatique et ses intentions. Avec cette initiative, la France se retrouverait isolée diplom",
+        "url": "https://www.lemonde.fr/idees/article/2026/11/17/marine-le-pen-et-l-ukraine-entre-hypocrisie-et-lachete_6812934_3232.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "07h30",
+        "titre": "Grève du 17 novembre : les ressorts d’une révolte sociale qui s’est ancrée au fil des semaines",
+        "resume": "Une nouvelle journée d’action nationale est prévue mardi à Lyon, Toulouse, Lille ou Rennes. Parti des lycéens mi-septembre, relayé par les étudiants, les parents puis les syndicats, le mouvement gagne les associations.",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/17/a-lyon-toulouse-lille-ou-rennes-les-ressorts-d-une-revolte-sociale-qui-s-est-ancree-au-fil-des-semaines_6812893_823448.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "20h28",
+        "titre": "Ukraine : Bruxelles prépare un prêt de 45 milliards et resserre l'étau sur les revenus russes",
+        "resume": "La Commission devrait présenter mercredi un nouveau prêt pour aider Kiev à tenir en 2027. Mais le partage de la facture menace de diviser les Européens. Les Vingt-Sept frappent aussi les banques russes, le pétrole et les circuits du commerce en ligne",
+        "url": "https://www.lesechos.fr/monde/europe/ukraine-bruxelles-prepare-un-pret-de-45-milliards-et-resserre-letau-sur-les-revenus-russes-2262885"
+      }
+    ]
+  },
+  "taux": {
+    "articles": [
+      {
+        "source": "Les Echos",
+        "heure": "11h15",
+        "titre": "Marché de la dette : la promesse d'un financement plus fluide grâce à la blockchain",
+        "resume": "Les dépôts bancaires tokenisés et les stablecoins ouvrent de nouvelles perspectives pour fluidifier le financement à court terme des entreprises, en permettant de régler des transactions directement sur des infrastructures blockchain. En Europe, les ",
+        "url": "https://www.lesechos.fr/thema/articles/marche-de-la-dette-la-promesse-dun-financement-plus-fluide-grace-a-la-blockchain-2262968"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "17h05",
+        "titre": "Stablecoins : après l'euphorie, la croissance marque le pas",
+        "resume": "Encore largement dépendants du trading, ces jetons peinent à trouver de nouveaux relais de croissance. Les encours mondiaux de stablecoins reculent en 2026.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/stablecoins-apres-leuphorie-la-croissance-marque-le-pas-2262816"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "13h06",
+        "titre": "« Risque France », hausses de taux, tensions géopolitiques : les trésoriers français en première ligne",
+        "resume": "La trésorerie des entreprises françaises subit une pression croissante. Entre la hausse des taux d'intérêt, les incertitudes géopolitiques et les tensions sur les délais de paiement, les trésoriers doivent redoubler d'efforts pour sécuriser les finan",
+        "url": "https://www.lesechos.fr/thema/articles/risque-france-hausses-de-taux-tensions-geopolitiques-les-tresoriers-francais-en-premiere-ligne-2263009"
       },
       {
         "source": "Le Figaro",
@@ -59,217 +254,21 @@
       },
       {
         "source": "Le Figaro",
-        "heure": "08h35",
-        "titre": "La tech fait chuter les Bourses en Asie, la panique sur les puces persiste",
-        "resume": "Les Bourses en Asie reculaient ce lundi 16 novembre, pénalisées par un nouveau plongeon des valeurs tech liées aux puces dans la foulée du scandale...",
-        "url": "https://www.lefigaro.fr/flash-eco/la-tech-fait-chuter-les-bourses-en-asie-la-panique-sur-les-puces-persiste-20261116"
-      }
-    ]
-  },
-  "entreprises": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "13h00",
-        "titre": "Eramet : « L’Etat sacrifie les petits et grands actionnaires minoritaires sur l’autel de la souveraineté nationale »",
-        "resume": "Le groupe minier a lancé, vendredi, une augmentation de capital de 500 millions d’euros destinée à « renforcer sa situation financière ». A l’issue de cette levée de fonds, l’actionnaire public détiendra 47 % du groupe, écrasant au passage la famille",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/16/eramet-l-etat-sacrifie-les-petits-et-grands-actionnaires-minoritaires-sur-l-autel-de-la-souverainete-nationale_6811684_3234.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "15h16",
-        "titre": "Dans le dur, Alpine reprise en main par Renault",
-        "resume": "Le constructeur engage une réorganisation qui va priver la marque d'une bonne partie de son autonomie. Les difficultés de développement de la future A110 contribuent à alourdir l'ambiance.",
-        "url": "https://www.lesechos.fr/industrie-services/automobile/dans-le-dur-alpine-reprise-en-main-par-renault-2262796"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "14h15",
-        "titre": "Carmila, la foncière de Carrefour, réalise la plus grosse opération de son histoire",
-        "resume": "Carmila annonce aujourd'hui son intention de renforcer sa présence en Italie par le biais d'un rapprochement amical avec IGD, le leader italien du secteur qui détient 25 centres commerciaux.",
-        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/carmila-la-fonciere-de-carrefour-realise-la-plus-grosse-operation-de-son-histoire-2262789"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "12h39",
-        "titre": "Chez Renault, la réorganisation des usines françaises passe aussi par des embauches",
-        "resume": "Le constructeur doit embaucher en CDI une partie des intérimaires recrutés ces derniers mois pour faire face à la hausse de la production. Des départs volontaires seront proposés dans le même temps sur certains postes.",
-        "url": "https://www.lesechos.fr/industrie-services/automobile/renault-fait-rentrer-du-sang-neuf-dans-ses-usines-2262766"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "13h43",
-        "titre": "«Mon bureau se situera dans le TGV» : Saint-Gobain se réorganise et nomme un directeur général pour la France",
-        "resume": "PORTRAIT - L’entreprise du BTP crée un poste de patron de l’Hexagone, qu’elle confie à Nicolas Godet, un fidèle du groupe disposant d’une expérience variée.",
-        "url": "https://www.lefigaro.fr/decideurs/mon-bureau-se-situera-dans-le-tgv-saint-gobain-se-reorganise-et-nomme-un-directeur-general-pour-la-france-20261116"
-      }
-    ]
-  },
-  "ma": {
-    "articles": [
-      {
-        "source": "Les Echos",
-        "heure": "14h15",
-        "titre": "Carmila, la foncière de Carrefour, réalise la plus grosse opération de son histoire",
-        "resume": "Carmila annonce aujourd'hui son intention de renforcer sa présence en Italie par le biais d'un rapprochement amical avec IGD, le leader italien du secteur qui détient 25 centres commerciaux.",
-        "url": "https://www.lesechos.fr/industrie-services/conso-distribution/carmila-la-fonciere-de-carrefour-realise-la-plus-grosse-operation-de-son-histoire-2262789"
-      },
-      {
-        "source": "Challenges",
-        "heure": "08h30",
-        "titre": "Ils devaient transformer l’Arabie saoudite en puissance moderne : pourquoi les géants du conseil sont devenus indésirables dans le royaume",
-        "resume": "Après dix ans de contrats juteux, les grands cabinets de conseil occidentaux sont tombés en disgrâce en Arabie saoudite. Le royaume a décidé de reprendre la main sur sa transformation économique.",
-        "url": "https://www.challenges.fr/monde/ils-devaient-transformer-larabie-saoudite-en-puissance-moderne-pourquoi-les-geants-du-conseil-sont-devenus-indesirables-dans-le-royaume_646989"
-      },
-      {
-        "source": "Challenges",
-        "heure": "18h15",
-        "titre": "« Nous n’aurions jamais pu nous installer en France en partant de zéro »: comment Intrepid, le tour-opérateur d’aventure part à la conquête de l'Hexagone",
-        "resume": "Le tour-opérateur australien Intrepid Travel, déjà leader mondial du voyage d’aventure avec 514 millions d’euros de chiffre d’affaires en 2025, rachète le français Altaï pour s’imposer dans l’Hexagone. Un pari ambitieux sur un marché qui dénote d'un",
-        "url": "https://www.challenges.fr/entreprise/tourisme/nous-naurions-jamais-pu-nous-installer-en-france-en-partant-de-zero-comment-intrepid-le-tour-operateur-daventure-part-a-la-conquete-de-lhexagone_646977"
-      },
-      {
-        "source": "Challenges",
-        "heure": "14h00",
-        "titre": "« Nous montrons que nous ne sommes pas que des financiers » : comment Ariane de Rothschild veut transformer les passions de sa famille en business rentables",
-        "resume": "À côté de la gestion de fortune, la banque donne une nouvelle impulsion à ses activités « passion ». Du vin aux parfums en passant par l’hôtellerie, elle réorganise son écosystème de luxe pour gagner en rentabilité. Et se démarquer.",
-        "url": "https://www.challenges.fr/entreprise/banque-et-assurance/nous-montrons-que-nous-ne-sommes-pas-que-des-financiers-comment-ariane-de-rothschild-veut-transformer-les-passions-de-sa-famille-en-business-rentables_646973"
-      },
-      {
-        "source": "Challenges",
-        "heure": "10h00",
-        "titre": "Suppression des frais de notaire, retour de la taxe d’habitation… Les idées des think tanks pour refonder la politique du logement en 2027",
-        "resume": "Accession à la propriété, offre du parc social, fiscalité… À six mois de l’élection présidentielle, les laboratoires d’idées de tous horizons rivalisent de propositions.",
-        "url": "https://www.challenges.fr/immobilier/suppression-des-frais-de-notaire-retour-de-la-taxe-dhabitation-les-idees-des-think-tanks-pour-refonder-la-politique-du-logement-en-2027_646961"
-      }
-    ]
-  },
-  "macro": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "13h09",
-        "titre": "La hausse de 1,6 % du smic et des « bas salaires » des fonctionnaires coûtera « un peu plus de 1 milliard d’euros », selon le gouvernement",
-        "resume": "L’exécutif avait annoncé cette semaine, en pleines mobilisations sociales, la revalorisation du salaire minimal de 1,6 % à partir du 1ᵉʳ décembre et celle des « bas salaires » de plus d’un million d’agents de la fonction publique.",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/15/les-revalorisations-du-smic-et-des-bas-salaires-des-fonctionnaires-couteront-un-peu-plus-de-1-milliard-d-euros-aux-finances-publiques-selon-le-gouvernement_6811009_823448.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "10h11",
-        "titre": "L'économie japonaise pénalisée par un nombre record de jours de pluie",
-        "resume": "Au troisième trimestre, le PIB du pays a été en croissance zéro. En cause notamment : 37 jours consécutifs de pluie qui ont découragé les consommateurs.",
-        "url": "https://www.lesechos.fr/monde/asie-pacifique/leconomie-japonaise-penalisee-par-un-nombre-record-de-jours-de-pluie-2262735"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "13h08",
-        "titre": "Pouvoir d'achat en France : sept cartes et graphiques pour éclairer le débat présidentiel",
-        "resume": "A cinq mois de l'élection présidentielle, cinq candidats participeront ce lundi à un débat télévisé consacré à la lutte contre la précarité et à la protection du pouvoir d'achat. Entre choc inflationniste, tassement des salaires et augmentation des i",
-        "url": "https://www.lesechos.fr/elections/analyses/pouvoir-dachat-en-france-sept-cartes-et-graphiques-pour-eclairer-le-debat-presidentiel-2262771"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "12h00",
-        "titre": "Comment fonctionne le mécanisme de l’inflation ? Comprendre en trois minutes",
-        "resume": "Portée par la hausse des prix de l’énergie et des produits frais, l’inflation s’invite au cœur des mobilisations contre la « vie chère ». Entre octobre 2025 et octobre 2026, les prix ont augmenté de 3,4 %.",
-        "url": "https://www.lemonde.fr/comprendre-en-3-minutes/video/2026/11/16/comment-fonctionne-le-mecanisme-de-l-inflation-comprendre-en-trois-minutes_6811667_6176282.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h30",
-        "titre": "Agriculture : la dépendance au maïs percutée par le dérèglement climatique",
-        "resume": "En France, la sécheresse et les canicules ont fait chuter la récolte de maïs grain de 50 % et celle de maïs pour le fourrage de plus de 30 % cette année. Des résultats qui posent la question de l’avenir de cette culture, sur laquelle repose l’aliment",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/16/le-mais-indispensable-au-modele-agricole-francais-menace-par-le-dereglement-climatique_6811339_3234.html"
-      }
-    ]
-  },
-  "politique": {
-    "articles": [
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h30",
-        "titre": "Présidentielle 2027 : Marine Le Pen assume sa volonté d’abandonner l’Ukraine en mettant fin aux aides françaises",
-        "resume": "La candidate du RN n’a pas répondu à l’invitation du président ukrainien, Volodymyr Zelensky, mais doit rencontrer l’ambassadeur de Kiev, lundi, dans un lieu tenu secret. Samedi, Emmanuel Macron avait critiqué ceux qui « souhaitent obliger » l’Ukrain",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/16/presidentielle-2027-marine-le-pen-assume-sa-volonte-d-abandonner-l-ukraine-en-mettant-fin-aux-aides-francaises_6811338_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "16h22",
-        "titre": "Guerre en Ukraine : Emmanuel Macron s’en prend « à ceux qui veulent rationner les moyens » de Kiev ; Marine Le Pen le renvoie à « sa propre turpitude »",
-        "resume": "Le chef de l’Etat ne cite pas Marine Le Pen, mais la candidate du RN a déjà annoncé que, si elle était élue, elle couperait l’aide financière à l’Ukraine après une période de six mois.",
-        "url": "https://www.lemonde.fr/international/article/2026/11/15/guerre-en-ukraine-emmanuel-macron-s-en-prend-a-ceux-qui-veulent-rationner-les-moyens-de-kiev-marine-le-pen-le-renvoie-a-sa-propre-turpitude_6811019_3210.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "19h00",
-        "titre": "Alice Ekman, sinologue : « Malgré ses difficultés, la Chine veut accélérer la restructuration de la gouvernance mondiale et marginaliser les pays occidentaux »",
-        "resume": "Pékin entend faire du sommet de la Coopération économique Asie-Pacifique (APEC), qui doit se tenir les 18 et 19 novembre, une vitrine de sa puissance dans le but de bâtir « un nouveau type de mondialisation sous son égide », assure la spécialiste de",
-        "url": "https://www.lemonde.fr/idees/article/2026/11/15/alice-ekman-sinologue-malgre-ses-difficultes-la-chine-veut-accelerer-la-restructuration-de-la-gouvernance-mondiale-et-marginaliser-les-pays-occidentaux_6811033_3232.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "10h45",
-        "titre": "Sommet de la francophonie : Emmanuel Macron appelle à l’« unité » et au « consensus » face aux tensions entre la RDC et le Rwanda",
-        "resume": "Kinshasa, qui accuse Kigali de soutenir le groupe armé rebelle du M23 dans ses provinces de l’Est, s’oppose à la reconduction de la Rwandaise Louise Mushikiwabo à la tête de l’OIF.",
-        "url": "https://www.lemonde.fr/international/article/2026/11/15/somment-de-la-francophonie-emmanuel-macron-appelle-a-l-unite-et-au-consensus-face-aux-tensions-entre-la-rdc-et-le-rwanda_6810995_3210.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "13h45",
-        "titre": "« Les femmes ont l’expertise pour contribuer au débat public » : quand les femmes d’influence veulent peser dans la campagne présidentielle",
-        "resume": "Patricia Chapelotte, fondatrice du Prix de la femme d’influence, a sélectionné un comité de 10 femmes expertes pour préparer des propositions à soumettre aux candidats à la présidentielle. Elles seront dévoilées le 23 novembre, lors de la cérémonie",
-        "url": "https://www.challenges.fr/politique/les-femmes-ont-lexpertise-pour-contribuer-au-debat-public-quand-les-femmes-dinfluence-veulent-peser-dans-la-campagne-presidentielle_646993"
-      }
-    ]
-  },
-  "taux": {
-    "articles": [
-      {
-        "source": "Les Echos",
-        "heure": "13h28",
-        "titre": "Obligations « high yield » : les gérants à l'épreuve d'un marché à deux vitesses",
-        "resume": "Dans l'univers de la dette à haut rendement, les écarts entre les entreprises les plus solides et les emprunteurs fragiles sont à un plus haut depuis 2009. Un vrai défi pour les gestionnaires d'actifs.",
-        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/obligations-high-yield-les-gerants-a-lepreuve-dun-marche-a-deux-vitesses-2262777"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "09h00",
-        "titre": "Le plan d’épargne-retraite monte en puissance",
-        "resume": "Promu par les pouvoirs publics dès son lancement, en 2019, comme la solution retraite pour tous, le PER s’est depuis fait une place privilégiée dans le portefeuille des Français. Nombre d’entre eux demeurent toutefois réticents à l’idée de souscrire",
-        "url": "https://www.lemonde.fr/argent/article/2026/11/16/le-plan-d-epargne-retraite-monte-en-puissance_6811502_1657007.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "11h00",
-        "titre": "Compléter ses revenus à la retraite : pourquoil miser sur la SCPI ?",
-        "resume": "Financer sa retraite - Pour combler l'écart de revenus à la retraite, l'immobilier reste le réflexe n°1 des Français. L’investissement locatif en direct suppose toutefois du temps et une gestion que tout le monde ne peut pas assumer. La SCPI constit",
-        "url": "https://www.challenges.fr/argent-et-placements/completer-ses-revenus-a-la-retraite-pourquoil-miser-sur-la-scpi_646937"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h00",
-        "titre": "Investir dans les batteries, l’hydrogène ou la préservation des océans : comment les ETF verts ouvrent de nouvelles perspectives aux épargnants",
-        "resume": "PLACEMENTS RESPONSABLES (7/8) - Ces produits indiciels ciblent mieux les thématiques ESG et enrichissent leur offre pour suivre une demande en hausse. Avec des performances à la clé.",
-        "url": "https://www.challenges.fr/argent-et-placements/investir-dans-les-batteries-lhydrogene-ou-la-preservation-des-oceans-comment-les-etf-verts-ouvrent-de-nouvelles-perspectives-aux-epargnants_646758"
-      },
-      {
-        "source": "Challenges",
-        "heure": "19h00",
-        "titre": "Face aux banques et leurs taux d’intérêt faibles pour des fonds bloqués sur plusieurs mois, cette fintech veut bousculer la gestion de trésorerie des entreprises",
-        "resume": "PODCAST – Fondé il y a trois ans, Byzantine Finance s’impose déjà comme une passerelle entre finance traditionnelle et blockchain. À sa tête, Gaia Ferrero Regis, une entrepreneuse au parcours atypique, qui démocratise l’accès aux rendements de tréso",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/face-aux-banques-et-leurs-taux-dinteret-faibles-pour-des-fonds-bloques-sur-plusieurs-mois-cette-fintech-veut-bousculer-la-gestion-de-tresorerie-des-entreprises_646959"
+        "heure": "13h24",
+        "titre": "Budget de la Sécu : le Sénat rétablit la réforme des retraites et rejette la désindexation des pensions",
+        "resume": "Les sénateurs ont toutefois promis de faire contribuer les retraités en supprimant l’abattement de 10% dont ils bénéficient pour leurs impôts sur le revenu.",
+        "url": "https://www.lefigaro.fr/social/budget-de-la-secu-le-senat-retablit-la-reforme-des-retraites-et-rejette-la-desindexation-des-pensions-20261117"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.072,
-        "prev": 3.075,
-        "diff": -0.003,
-        "trend": "down",
-        "date": "2026-11-13",
+        "rate": 3.109,
+        "prev": 3.072,
+        "diff": 0.037,
+        "trend": "up",
+        "date": "2026-11-16",
         "history": [
-          2.994,
           2.987,
           2.998,
           2.958,
@@ -278,131 +277,176 @@
           3.019,
           3.045,
           3.075,
-          3.072
+          3.072,
+          3.109
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.148,
-        "prev": 3.131,
-        "diff": 0.017,
-        "trend": "up",
-        "date": "2026-11-13",
-        "history": [
-          3.067,
-          3.074,
-          3.078,
-          3.031,
-          3.017,
-          3.013,
-          3.085,
-          3.097,
-          3.131,
-          3.148
-        ]
+        "rate": null,
+        "prev": null,
+        "diff": null,
+        "trend": "flat",
+        "date": "",
+        "history": []
       },
       {
         "maturity": "10 ans",
-        "rate": 3.412,
-        "prev": 3.367,
-        "diff": 0.045,
-        "trend": "up",
-        "date": "2026-11-13",
-        "history": [
-          3.327,
-          3.347,
-          3.34,
-          3.294,
-          3.286,
-          3.272,
-          3.331,
-          3.34,
-          3.367,
-          3.412
-        ]
+        "rate": null,
+        "prev": null,
+        "diff": null,
+        "trend": "flat",
+        "date": "",
+        "history": []
       },
       {
         "maturity": "20 ans",
-        "rate": 3.705,
-        "prev": 3.648,
-        "diff": 0.057,
-        "trend": "up",
-        "date": "2026-11-13",
-        "history": [
-          3.614,
-          3.644,
-          3.639,
-          3.589,
-          3.582,
-          3.575,
-          3.606,
-          3.627,
-          3.648,
-          3.705
-        ]
+        "rate": null,
+        "prev": null,
+        "diff": null,
+        "trend": "flat",
+        "date": "",
+        "history": []
       },
       {
         "maturity": "30 ans",
-        "rate": 3.672,
-        "prev": 3.619,
-        "diff": 0.053,
-        "trend": "up",
-        "date": "2026-11-13",
-        "history": [
-          3.589,
-          3.62,
-          3.619,
-          3.577,
-          3.569,
-          3.571,
-          3.572,
-          3.603,
-          3.619,
-          3.672
-        ]
+        "rate": null,
+        "prev": null,
+        "diff": null,
+        "trend": "flat",
+        "date": "",
+        "history": []
       }
     ]
   },
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,3 trillions USD",
-      "contexte": "La capitalisation boursière mondiale a atteint un nouveau record en novembre 2026, portée par l'optimisme autour de l'IA générative et des technologies vertes. Cette hausse reflète une redistribution majeure des flux de capital vers les secteurs de la transition énergétique.",
-      "source": "Bloomberg Global Indices - Novembre 2026"
+      "chiffre": "2,847 milliards USD",
+      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en novembre 2026, portée par l'adoption massive de l'IA générative et des technologies quantiques. Cette croissance reflète une réévaluation majeure des modèles économiques post-inflation.",
+      "source": "World Bank Financial Markets Report - Novembre 2026"
     },
     "ephemeride": {
-      "evenement": "Le 16 novembre 1960 : Création de l'OPEP à Bagdad, fondée par l'Arabie Saoudite, l'Irak, l'Iran, le Koweït et le Venezuela.",
-      "impact": "Cet événement a marqué le début du pouvoir géopolitique des producteurs de pétrole et a transformé l'équilibre économique mondial pendant plus de six décennies."
+      "evenement": "Le 17 novembre 1869 : Inauguration du Canal de Suez par l'Impératrice Eugénie",
+      "impact": "Cet événement a réduit de 40% les trajets commerciaux Europe-Asie et généré un paradigme nouveau de mondialisation des échanges, établissant Suez comme l'une des routes maritimes les plus stratégiques de l'histoire."
     },
     "graphique_semaine": {
-      "titre": "Evolution des taux d'intérêt directeurs (semaine du 10-16 novembre 2026)",
-      "description": "Les banques centrales maintiennent un cap restrictif malgré les signaux d'inflation décélérante. La Réserve Fédérale américaine et la BCE restent vigilantes face aux tensions géopolitiques affectant les chaînes d'approvisionnement énergétiques. Une baisse progressive est attendue au premier trimestre 2027.",
+      "titre": "Evolution des taux directeurs des banques centrales (semaine du 10-17 novembre 2026)",
+      "description": "Après trois trimestres de stabilité, les banques centrales commencent à différencier leurs politiques monétaires. La BCE maintient une approche prudente face aux tensions géopolitiques, tandis que la Fed explore des réductions progressives. Cette divergence crée des opportunités d'arbitrage significatives sur les marchés des devises.",
       "donnees": [
         {
-          "label": "Fed (lundi)",
+          "label": "Fed (USA)",
+          "valeur": 4.25
+        },
+        {
+          "label": "BCE (Europe)",
+          "valeur": 3.75
+        },
+        {
+          "label": "BoE (Royaume-Uni)",
           "valeur": 4.75
         },
         {
-          "label": "Fed (mercredi)",
-          "valeur": 4.75
+          "label": "BoJ (Japon)",
+          "valeur": 1.5
         },
         {
-          "label": "BCE (jeudi)",
-          "valeur": 3.25
-        },
-        {
-          "label": "BoE (vendredi)",
-          "valeur": 4.75
-        },
-        {
-          "label": "BoJ (samedi)",
-          "valeur": 0.5
+          "label": "PBOC (Chine)",
+          "valeur": 3.0
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape place au centre de son ministère la guérison et l’unité des personnes",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-leon-xiv-conference-presse-vol-retour-amerique-sud-voyage.html",
+        "resume": "À bord du vol Lima-Rome, Léon XIV a répondu ce lundi 16 novembre aux questions des journalistes. L’évêque de Rome a évoqué avec joie et reconnaissance les extraordinaires marques d’affection reçues en Amérique latine. Il a expliqué avoir été dès le d",
+        "pub": "Tue, 17 Nov 2026 09:50:00 +0100",
+        "heure": "11h50"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Un voyage qui ne se mesure pas en kilomètres",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/voyage-apostolique-qui-ne-se-mesure-pas-en-kilometres-editorial.html",
+        "resume": "Retour sur le voyage apostolique du Pape Léon XIV en Uruguay, en Argentine et au Pérou.Tout lire&nbsp;",
+        "pub": "Tue, 17 Nov 2026 08:04:00 +0100",
+        "heure": "10h04"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "En une minute, la onzième et dernière journée de Léon XIV en Amérique latine",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-en-une-minute-derniere-journee-du-pape-amerique-latine.html",
+        "resume": "Les images exclusives des médias du Vatican retracent les rendez-vous du Pape au Pérou, lors de la dernière journée de son voyage apostolique en Amérique latine.Tout lire&nbsp;",
+        "pub": "Mon, 16 Nov 2026 23:04:00 +0100",
+        "heure": "01h04"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape fait ses adieux à l’Amérique latine, à l’issue de son sixième voyage apostolique",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-fin-de-voyage-perou-amerique-latine.html",
+        "resume": "Des milliers de personnes ont accompagné le cortège de voitures qui a conduit Léon XIV à la base aéronavale de Callao. L’avion transportant le Souverain pontife en direction de Rome a décollé à 14 h 28, heure locale. L'arrivée de l'évêque de Rome à l",
+        "pub": "Mon, 16 Nov 2026 20:03:00 +0100",
+        "heure": "22h03"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV remercie le Pérou: «Je me suis senti comme chez moi»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/merci-pape-salut-final-derniere-messe-lima-perou.html",
+        "resume": "Avant de décoller pour Rome et en conclusion de son dernier jour au Pérou, à la fin de la dernière messe ce lundi, le Pape a exprimé sa gratitude pour ce voyage, partageant ses souvenirs marquants, les danses colorées, les sourires le long de ses tra",
+        "pub": "Mon, 16 Nov 2026 18:48:00 +0100",
+        "heure": "20h48"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Cameroun: à Mbalmayo, l'Église réaffirme la place essentielle des catéchistes dans sa mission",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/cameroun-a-mbalmayo-l-eglise-reaffirme-la-place-essentielle-de.html",
+        "resume": "Réunis du 9 au 12 novembre à Mbalmayo, près de 500 catéchistes des sept diocèses de la province ecclésiastique de Yaoundé ont pris part à la deuxième session annuelle de la Conférence épiscopale provinciale de Yaoundé (CEPY). Placées sous le thème «l",
+        "pub": "Mon, 16 Nov 2026 18:24:00 +0100",
+        "heure": "20h24"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "À Lima, Léon XIV salue la mémoire de saint Toribio, un pasteur proche des pauvres",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/leon-xiv-salue-la-memoire-de-saint-toribio-un-pasteur-proche.html",
+        "resume": "Dans une atmosphère de joie portée par des milliers de fidèles, le Pape a présidé, ce 16 novembre, à la Base aérienne de Las Palmas à Lima, la messe de clôture de son 6e voyage apostolique en Amérique latine, entamé le 6 novembre dernier. Prenant pou",
+        "pub": "Mon, 16 Nov 2026 17:30:00 +0100",
+        "heure": "19h30"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape à la nonciature de Lima: «Merci d’avoir accompagné votre serviteur»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-nonciature-perou0.html",
+        "resume": "Dans la matinée de ce 16 novembre, Léon XIV a salué les personnes rassemblées devant la représentation pontificale, avant de la quitter pour se rendre à la messe à Callao. Il a invité chacun à être le «magnifique signe de la proximité de Dieu». Dans",
+        "pub": "Mon, 16 Nov 2026 15:34:00 +0100",
+        "heure": "17h34"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Au Pérou, Léon XIV invite à développer les lieux de charité et de soin",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-perou-accueil-fragiles-agees-callao.html",
+        "resume": "Avant-dernier rendez-vous de son voyage au Pérou, le Pape s’est rendu ce lundi 16 novembre à la Maison d’accueil de Callao, près de Lima. Auprès des personnels et résidents, Léon XIV a appelé à la création de «plus d’oasis fraternelles», face aux bes",
+        "pub": "Mon, 16 Nov 2026 15:26:00 +0100",
+        "heure": "17h26"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape en Amérique latine, une foi de l’engagement envers les plus démunis",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-perou-amerique-latine-editorial.html",
+        "resume": "Retour sur le voyage de Léon XIV et ses messages.Tout lire&nbsp;",
+        "pub": "Mon, 16 Nov 2026 15:24:00 +0100",
+        "heure": "17h24"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "En Côte d’Ivoire, Mgr Koné appelle les communautés nouvelles à l’unité",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/cote-d-ivoire-l-appel-a-l-unite-et-a-la-communion-ecclesiale.html",
+        "resume": "À l’occasion de l’ouverture de l’année pastorale 2026-2027 de la Commission épiscopale pour les communautés nouvelles et la nouvelle évangélisation, le samedi 14 novembre, à la paroisse Saint-Étienne de Koumassi, dans le diocèse de Grand-Bassam, Mgr",
+        "pub": "Mon, 16 Nov 2026 15:07:00 +0100",
+        "heure": "17h07"
+      },
       {
         "source": "Vatican News",
         "titre": "En une minute: la dixième et avant-dernière journée de Léon XIV en Amérique latine",
@@ -413,15 +457,15 @@
       },
       {
         "source": "Vatican News",
-        "titre": "«La violence contre le peuple est une violence contre la terre», dénonce le Pape en Amazonie",
+        "titre": "«La violence contre le peuple est une violence contre la terre» amazonienne",
         "url": "https://www.vaticannews.va/fr/pape/news/2026-11/messe-pape-perou-amazonie-pucallpa.html",
-        "resume": "À Pucallpa, lors de la toute première messe d’un Pape en Amazonie, Léon XIV a déploré le manque d’action et la lenteur face aux «moyens pour exploiter et polluer la création», qui se sont multipliés dans la plus vaste forêt tropicale au monde. Afin d",
+        "resume": "À Pucallpa, lors de la toute première messe d’un Pape en Amazonie péruvienne, Léon XIV a déploré le manque d’action et la lenteur face aux «moyens pour exploiter et polluer la création», qui se sont multipliés dans la plus vaste forêt tropicale au mo",
         "pub": "Sun, 15 Nov 2026 23:52:00 +0100",
         "heure": "01h52"
       },
       {
         "source": "Vatican News",
-        "titre": "Léon XIV: Le sang des protecteurs de l’Amazonie réclame justice devant les hommes",
+        "titre": "Léon XIV: Le sang des protecteurs de l’Amazonie réclame justice",
         "url": "https://www.vaticannews.va/fr/pape/news/2026-11/leon-xiv-peuples-amazonie-pucallpa.html",
         "resume": "À Pucallpa, dans la forêt amazonienne, Léon XIV apporte sa proximité aux populations autochtones leur assurant que l’Église sera toujours à leurs coté pour défendre leurs droits et leurs territoires. Il liste les contrastes qui blessent les hommes et",
         "pub": "Sun, 15 Nov 2026 21:52:06 +0100",
@@ -434,94 +478,6 @@
         "resume": "À l’occasion de sa visite dans la ville péruvienne de Cuzco ce dimanche, Léon XIV, accueilli par des cris de joie, a récité l'Angélus sur la place de la cathédrale de l'Assomption. Face à la foule, nombreuse, le Pape a médité sur la signification chr",
         "pub": "Sun, 15 Nov 2026 17:42:00 +0100",
         "heure": "19h42"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le cœur missionnaire de Léon XIV",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/le-c-ur-missionnaire-de-leon-xiv.html",
-        "resume": "Dans son discours prononcé lors de la clôture de l’Année jubilaire de saint Toribio de Mogrovejo, au sanctuaire de Zaña, Léon XIV a glissé de nombreuses notes personnelles.Tout lire&nbsp;",
-        "pub": "Sun, 15 Nov 2026 17:24:00 +0100",
-        "heure": "19h24"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "À Cuzco, le Pape loue le «trésor inestimable» des traditions populaires",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-leon-xiv-cuzco-traditions-populaires-inca-evangelisation.html",
-        "resume": "Pour sa première prise de parole dans la ville des Andes, Léon XIV s'est adressé aux fidèles er aux représentants de la piété populaire. «L’avenir des coutumes ne réside pas uniquement dans la conservation de ce qui a été reçu, mais aussi dans sa tra",
-        "pub": "Sun, 15 Nov 2026 15:07:00 +0100",
-        "heure": "17h07"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Cuzco, haut lieu des dévotions populaires",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/cuzco-haut-lieu-des-devotions-populaires.html",
-        "resume": "Quarante et un ans après la visite de Jean-Paul II dans l'ancienne capitale inca du Pérou, le Pape Léon XIV rencontrera des représentants de la piété populaire à Saqsayhuamán avant de réciter l'Angélus sur la place principale de Cuzco, où les communa",
-        "pub": "Sun, 15 Nov 2026 08:26:00 +0100",
-        "heure": "10h26"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV attendu ce dimanche au coeur de l'Amazonie péruvienne",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/leon-xiv-attendu-ce-dimanche-au-coeur-de-l-amazonie-peruvienne.html",
-        "resume": "Pucallpa, au cœur de l’Amazonie péruvienne, se prépare à accueillir le pape Léon XIV ce dimanche 15 novembre 2026, à l’occasion de son voyage apostolique au Pérou.Tout lire&nbsp;",
-        "pub": "Sun, 15 Nov 2026 08:03:00 +0100",
-        "heure": "10h03"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le résumé en images de la neuvième journée du Pape en Amérique latine",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/en-image-la-neuvieme-journee-du-pape-en-amerique-latine.html",
-        "resume": "Ce samedi 14 novembre, Léon XIV s'est rendu à Santa Cruz de Succhabamba puis au sanctuaire de Santo Toribio de Mogrovejo.Tout lire&nbsp;",
-        "pub": "Sun, 15 Nov 2026 07:55:00 +0100",
-        "heure": "09h55"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La confession de Léon XIV à Zaña pour son peuple de Chiclayo",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/la-confession-de-leon-xiv-a-zana-pour-son-peuple-de-chiclayo.html",
-        "resume": "Le Pape a livré quelques clés de son ministère pétrinien en évoquant sa nuit précédant le début de son ministère à Chiclayo, dans un discours très personnel lors d’une rencontre de prière ce samedi soir avec la communauté catholique à l’occasion de l",
-        "pub": "Sun, 15 Nov 2026 01:18:00 +0100",
-        "heure": "03h18"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La ferveur des Cruceños pour leur évêque Léon",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/ferveur-peru-santa-cruz-accueil-pape-leon-xiv-fideles-joie-foi.html",
-        "resume": "Léon XIV vient d’achever une visite pastorale dans la petite ville de Santa Cruz, dans les Andes. Avant d’y célébrer la messe, il a rendu visite à l’église paroissiale, traversant les rues de cette bourgade isolée du diocèse de Chiclayo, rencontrant",
-        "pub": "Sat, 14 Nov 2026 19:51:00 +0100",
-        "heure": "21h51"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "«La semence de l’Évangile n’a jamais cessé de porter du fruit sur ces terres»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/messe-santa-cruz-pape-leon-xiv-mission-peripheries-evangile.html",
-        "resume": "Le Pape a célébré la messe ce samedi matin à Santa Cruz de Succhabamba, dans les Andes, dans une région très difficile d’accès. Devant vingt mille personnes venues des vallées alentours, il a tenu à saluer le travail missionnaire accompli depuis cinq",
-        "pub": "Sat, 14 Nov 2026 19:00:00 +0100",
-        "heure": "21h00"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le résumé en images de la huitième journée du Pape en Amérique",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-leon-xiv-huitieme-journee-perou.html",
-        "resume": "En ce vendredi 13 novembre, le Pape a poursuivi son voyage apostolique au Pérou en gagnant le diocèse de Chiclayo dont il a été l'évêque de 2015 à 2023. Un déplacement célébré dans une joie immense par les fidèles. Revivez en images ces rencontres ém",
-        "pub": "Sat, 14 Nov 2026 18:45:00 +0100",
-        "heure": "20h45"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "María, mère d’Agustín: la foi, une force pour affronter la maladie",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/temoignage-perou-mere-maladie-enfant-pape.html",
-        "resume": "«Merci pour ta fidélité», a déclaré Léon XIV à la professeure de l’Université catholique Santo Toribio de Mogrovejo à Chiclayo, après avoir écouté son témoignage de mère d’un enfant gravement malade: «C’est une bénédiction». Aux médias du Vatican, la",
-        "pub": "Sat, 14 Nov 2026 16:48:00 +0100",
-        "heure": "18h48"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Pour Léon XIV, la synodalité est une «dimension constitutive» de l’Église",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/leon-synodalite-dimension-constitutive-eglise.html",
-        "resume": "Le discours adressé aux équipes synodales résume la vision du Pape sur le thème de la synodalité: marcher ensemble, écouter, discerner et participer de manière coresponsable à la mission.Tout lire&nbsp;",
-        "pub": "Sat, 14 Nov 2026 15:41:00 +0100",
-        "heure": "17h41"
       }
     ]
   }
