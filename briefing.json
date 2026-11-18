@@ -1,28 +1,24 @@
 {
-  "timestamp": "13h55 le 17/11/2026",
-  "alerte": "Dégradation macro France confirmée par Bruxelles + grève nationale + tensions bancaires européennes + chocs IA sur emploi",
+  "timestamp": "13h30 le 18/11/2026",
+  "alerte": "Volatilité accrue: panne systémique Microsoft + tensions bancaires Deutsche Bank + débat retraites intensifie à 4 mois de présidentielle",
   "synthese": {
-    "resume": "Commission européenne confirme le décrochage économique français avec prévisions révisées à la baisse (-7, article 7), tandis que la rémunération du CAC 40 grimpe de 16% à 7,5M€ en 2025, creusant les inégalités. UniCredit finalise son OPA sur Commerzbank (45Mds€, article 10) restructurant l'Europe bancaire. L'IA supprime 100k offres d'emploi en 2026 (article 16) et Renault annonce 1000+ suppressions en France. Grève du 17 novembre bloque ports et transports. Tensions sur inflation pain à Paris et carburants, financement des collectivités sous pression.",
+    "resume": "Les marchés font face à trois chocs concomitants majeurs : la vulnérabilité infrastructurelle accentuée par l'IA (panne Microsoft/Outlook), révélée par l'affaire Deutsche Bank impliquant 15M de documents sur un réseau de blanchiment de 46Md€, et l'incertitude électorale française articulée autour du coût des réformes (retraite Le Pen : 10-80Md€ selon estimation). Les patrons du CAC 40 ont vu leur rémunération bondir de 16% à 7,5M€/an en 2025, creusant l'écart social en contexte de grève nationale (146k-500k manifestants le 17/11). La tension géopolitique sur la Chine (affaire Huang/Nvidia) complique le réarmement européen tandis que l'UE anticipe un décrochage économique français durable.",
     "points": [
       {
-        "titre": "Macro France - décrochage confirmé par Bruxelles",
-        "detail": "Commission européenne révise ses prévisions d'automne à la baisse pour la France (article 7). Tensions sur financement collectivités locales post-réformes Macron (article 30). Inflation pain à Paris (article 13-21) : baguette devenue produit de luxe, baromètre inflationniste critique. PIB Japon à zéro au T3 (article 125), contexte mondial dégradé. Implications : révision baisse consensus 2026-2027, risque déficit public accru."
+        "titre": "Pannes en cascade US + Deutsche Bank : risque systémique infrastructure/compliance +3 notches",
+        "detail": "Microsoft/Outlook a paralysé services critiques américains révélant vulnérabilité IA-amplifiée. Parallèlement, Deutsche Bank découvre avoir servi d'intermédiaire à gigantesque réseau de blanchiment (15M fichiers confidentiels analysés par 230 journalistes/50 médias). Impact direct : hausse des coûts de conformité bancaires, révision des stress-tests systémiques, spread de crédit bancaire européen en surveillance étroite (Commerzbank/UniCredit OPA 45Md€ en cours)."
       },
       {
-        "titre": "Emploi - destruction de 100k postes IA + 1000+ Renault",
-        "detail": "Étude démontre 100k offres emploi disparues en 2026 via IA, touchant cadres et débutants (article 16). Renault supprime 1000+ postes France pour compétitivité face Chine (article 24). Intentions recrutement cadres au plus bas (article 23). France Travail alerte sur 'tsunami social' IA (article 94). Implications : chômage structurel accélératif, pression salaires en bas de grille, risque social politique majeur."
+        "titre": "Dégradation consensus conjoncturel FR : croissance 2027 à 1% 'à risque'",
+        "detail": "Roland Lescure reconnaît explicitement le décrochage français face à l'Europe de l'Est (défense stimule PIB régional). Manifestations 17/11 (146k-500k) traduisent tensions structurelles inédites. Créations entreprises reculent octobre (-INSEE). Prévision 1% 2027 intègre scénario médian pessimiste : impact immédiat sur spread OAT/Bund, probabilité révision à la baisse T1 2027 accrue."
       },
       {
-        "titre": "Bancaire - UniCredit restructure l'Europe (45Mds€)",
-        "detail": "Bruxelles autorise rachat Commerzbank par UniCredit 45Mds€ (articles 10, 26) pour renforcer secteur bancaire européen. Deutsche Bank révélée en défaut compliance Russie (articles 11, 17-19 'Inside DB') : action chute post-enquête 230 journalistes/50 médias/15M documents. Revolut Italie en administration judiciaire pour antiblanchiment insuffisant (article 27). Weil cabinet d'avocats en faillite spectaculaire (article 28). Implications : consolidation forcée, risque réputationnel systémique, compliance coûts de transformation majeurs."
+        "titre": "Rémunération cadres dirigeants CAC 40 : +16% à 7,5M€/an vs ressources figées salariales",
+        "detail": "Écart de revenus top 0,1%/masse salariée atteint inflexion structurelle. Fonds de pension anglo-saxons activent votes say-on-pay (flop signalé sur say-on-climate: 95). Pression ESG/stakeholder-value redéfinit arbitrage M&A pour 2027. Les femmes représentent moins de cadres supérieurs dans grandes entreprises : arbitrage talent + réputation en vue."
       },
       {
-        "titre": "Géopolitique - tensions Chine/EU + Ukraine",
-        "detail": "Chine-Canada accord réduction droits douane (article 15) vs 'made in Europe' menace écosystème Turquie (article 3). Bruxelles prépare prêt Ukraine 45Mds€ et resserre étau revenus russes (article 83). Dassault vs Airbus rivalité complique réarmement européen (article 12). Implications : fragmentation commerciale, défense budget accru, déflation prix industriels durables."
-      },
-      {
-        "titre": "Tech/Régulation - Temu, PFAS, Apple, IA droit auteur",
-        "detail": "Commission européenne resserre étau Temu non-respect normes UE (article 5). PFAS : lobby fluoropolymères manœuvre contre interdiction européenne (article 22). Procès Apple obsolescence programmée juin 2027 (article 20). 30 patrons French Tech dénoncent sabotage volontaire France sur IA/droit auteur (article 91). Implications : fragmentations réglementaires, fuite capital tech, coûts compliance accrus."
+        "titre": "Réforme retraites Le Pen : coût caché 10-80Md€ vs annonces campaigning",
+        "detail": "Ex-président COR chiffre sous-estimation massive programme RN. Medef critique front uni (LFI/LR). Impact budgétaire direct sur déficit FR 2027-2028 : scénario hausse impôts entreprises/réduction investissements publics probable. Spread OAT se dilate progressivement (crainte révision baisse note souveraine FR). Élection présidentielle polarisée cristallise volatilité obligataire."
       }
     ]
   },
@@ -31,24 +27,17 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "15h48",
-        "titre": "La rémunération moyenne des patrons du CAC 40 était de 7,5 millions d’euros en 2025, une hausse de 16 %",
-        "resume": "Selon Proxinvest, sur la période 2014-2025, la rémunération moyenne des salariés a augmenté de 36,1 %, tandis que celle des dirigeants a grimpé de 75,5 %.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-remuneration-moyenne-des-patrons-du-cac-40-etait-de-7-5-millions-d-euros-en-2025-une-hausse-de-16_6812969_3234.html"
+        "heure": "15h00",
+        "titre": "Aux Etats-Unis, des pannes en cascade rappellent la vulnérabilité des infrastructures américaines, accrue par l’IA",
+        "resume": "De Microsoft à la NSA en passant par la banque J.P. Morgan et le système de communication aérien, de nombreuses structures – et des millions d’Américains – ont été affectés, depuis jeudi 12 novembre, par une série de défaillances. A priori sans lien,",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/18/aux-etats-unis-des-pannes-en-cascade-soulignent-la-vulnerabilite-des-infrastructures-americaines-accrue-par-l-ia_6813123_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "12h35",
-        "titre": "« Inside Deutsche Bank » : l’action de la banque chute en Bourse après la publication de l’enquête",
-        "resume": "La première banque privée allemande chute mardi en Bourse après une grande enquête de presse à laquelle a participé « Le Monde ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/17/deutsche-bank-chute-en-bourse-apres-une-enquete-sur-une-fuite-de-documents-internes_6812937_3234.html"
-      },
-      {
-        "source": "Challenges",
-        "heure": "19h00",
-        "titre": "Nvidia : après la chute brutale de Jensen Huang, qui dirigera le géant de l’IA à un moment charnière de son histoire ?",
-        "resume": "Le départ brutal de Jensen Huang, fondateur et patron emblématique de Nvidia, plonge le leader mondial des puces pour l’intelligence artificielle dans l’incertitude. Entre scandale, restrictions américaines sur les exportations vers la Chine, craint",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/nvidia-apres-la-chute-brutale-de-jensen-huang-qui-dirigera-le-geant-de-lia-a-un-moment-charniere-de-son-histoire_646996"
+        "heure": "17h34",
+        "titre": "Outlook : après la panne géante, Microsoft avance de premières explications",
+        "resume": "L’incident survenu jeudi et vendredi, d’une durée inhabituelle, a été causé par une fragilité logicielle qui s’est manifestée à la suite d’une conjonction malheureuse de dysfonctionnements.",
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/17/outlook-apres-la-panne-geante-microsoft-avance-de-premieres-explications_6812983_4408996.html"
       },
       {
         "source": "Les Echos",
@@ -59,10 +48,17 @@
       },
       {
         "source": "Le Figaro",
-        "heure": "15h43",
-        "titre": "Le billet vert frôle 1,10 dollar pour un euro, poussé par l'inflation américaine",
-        "resume": "Le dollar continue de progresser lundi, après la publication la semaine dernière d'indicateurs d'inflation qui pourraient motiver la Réserve...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-billet-vert-frole-1-10-dollar-pour-un-euro-pousse-par-l-inflation-americaine-20261116"
+        "heure": "23h17",
+        "titre": "Le dollar cède un peu de terrain, les soubresauts de l'IA dans le viseur",
+        "resume": "Le dollar reprend son souffle mardi après le fort mouvement haussier qui l'a porté ces derniers jours, les cambistes se détournant des anticipations...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-dollar-cede-un-peu-de-terrain-les-soubresauts-de-l-ia-dans-le-viseur-20261117"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "16h50",
+        "titre": "BCE : l'Allemagne fait un pas vers un accord avec la France sur l'après-Lagarde",
+        "resume": "L'Allemagne va proposer l'économiste Markus Brunnermeier au poste de chef économiste de la Banque centrale européenne, un choix susceptible de faciliter...",
+        "url": "https://www.lefigaro.fr/flash-eco/bce-l-allemagne-fait-un-pas-vers-un-accord-avec-la-france-sur-l-apres-lagarde-20261117"
       }
     ]
   },
@@ -70,38 +66,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "22h59",
-        "titre": "Renault va supprimer plus d’un millier de postes en France pour être plus compétitif face à la concurrence chinoise",
-        "resume": "Le groupe automobile français a annoncé un plan de départs volontaires concernant 1 000 personnes ainsi que 2 000 créations de postes d’ici deux à trois ans. Une dizaine de sites, partout dans l’Hexagone, seront concernés par ce double mouvement.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/16/renault-va-supprimer-plus-d-un-millier-de-postes-en-france-pour-etre-plus-competitif-face-a-la-concurrence-chinoise_6812360_3234.html"
+        "heure": "13h21",
+        "titre": "Christel Heydemann (Orange) : « Faire des études scientifiques, c’est un passeport universel »",
+        "resume": "La directrice générale d’Orange, est l’invitée d’« Un Monde d’avance », notre nouveau rendez-vous entre des dirigeants de grandes entreprises, des journalistes du « Monde » et des jeunes. Troisième temps épisode de cet entretien : un dialogue avec le",
+        "url": "https://www.lemonde.fr/podcasts/article/2026/11/18/christel-heydemann-orange-faire-des-etudes-scientifiques-c-est-un-passeport-universel_6813107_5463015.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "20h41",
-        "titre": "Assimil, spécialisé dans les méthodes d’apprentissage des langues, placé en redressement judiciaire",
-        "resume": "L’entreprise familiale qui vend sa méthode dans le monde entier est fragilisée par la concurrence de l’IA et la baisse des ventes en librairies.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/16/assimil-specialise-dans-les-methodes-d-apprentissage-des-langues-place-en-redressement-judiciaire_6812230_3234.html"
+        "heure": "20h49",
+        "titre": "Plus les entreprises sont grandes, moins elles comptent de dirigeantes, révèle l’Insee",
+        "resume": "En prenant en compte toutes les entreprises, microentrepreneuriat inclus, les femmes représentaient 35 % des dirigeants en France en 2024. Mais ce chiffre tombe à 17 % dans les sociétés de plus de 250 personnes, et de fortes disparités existent selon",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/17/plus-les-entreprises-sont-grandes-moins-elles-comptent-de-femmes-dirigeantes-revele-l-insee_6813024_1656968.html"
       },
       {
-        "source": "Challenges",
-        "heure": "11h43",
-        "titre": "OVHcloud prend le train de l’IA : le fleuron français de l’informatique à distance dévoile son premier modèle « Olala »",
-        "resume": "L’entreprise française d’informatique à distance OVHcloud a annoncé ce mardi 17 novembre le lancement imminent de son premier modèle d’IA, baptisé « Olala » et destiné aux entreprises. Mais la société aura fort à faire pour s’imposer dans un marché",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/ovhcloud-prend-le-train-de-lia-le-fleuron-francais-de-linformatique-a-distance-devoile-son-premier-modele-olala_647013"
+        "source": "Le Monde Eco",
+        "heure": "15h48",
+        "titre": "La rémunération moyenne des patrons du CAC 40 était de 7,5 millions d’euros en 2025, une hausse de 16 %",
+        "resume": "Selon Proxinvest, sur la période 2014-2025, la rémunération moyenne des salariés a augmenté de 36,1 %, tandis que celle des dirigeants a grimpé de 75,5 %.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-remuneration-moyenne-des-patrons-du-cac-40-etait-de-7-5-millions-d-euros-en-2025-une-hausse-de-16_6812969_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "20h35",
+        "titre": "« L'IA industrielle est la plus grande opportunité de l'histoire de notre entreprise » : comment Dassault Systèmes tente de résister au rouleau compresseur de l'IA",
+        "resume": "Le champion français du logiciel a dévoilé sa feuille de route pour 2029 et tente de convaincre des investisseurs moroses face à la concurrence croissante des géants de l'intelligence artificielle.",
+        "url": "https://www.lesechos.fr/tech-medias/hightech/lia-industrielle-est-la-plus-grande-opportunite-de-lhistoire-de-notre-entreprise-comment-dassault-systemes-tente-de-resister-au-rouleau-compresseur-de-lia-2263142"
       },
       {
         "source": "Le Figaro",
-        "heure": "13h43",
-        "titre": "«Mon bureau se situera dans le TGV» : Saint-Gobain se réorganise et nomme un directeur général pour la France",
-        "resume": "PORTRAIT - L’entreprise du BTP crée un poste de patron de l’Hexagone, qu’elle confie à Nicolas Godet, un fidèle du groupe disposant d’une expérience variée.",
-        "url": "https://www.lefigaro.fr/decideurs/mon-bureau-se-situera-dans-le-tgv-saint-gobain-se-reorganise-et-nomme-un-directeur-general-pour-la-france-20261116"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "22h20",
-        "titre": "Pour devenir «la référence automobile européenne», Renault rajeunit les effectifs dans ses usines françaises",
-        "resume": "DÉCRYPTAGE - Le Losange s’apprête à tailler dans ses coûts industriels avec un plan de départs volontaires portant sur 1 090 postes de cols blancs. Il recrute en parallèle 2 000 intérimaires et jeunes cols bleus.",
-        "url": "https://www.lefigaro.fr/societes/pour-devenir-la-reference-automobile-europeenne-renault-rajeunit-les-effectifs-dans-ses-usines-francaises-20261116"
+        "heure": "19h14",
+        "titre": "La pépite française Qonto devient une banque à part entière",
+        "resume": "La jeune pousse spécialisée dans l’accompagnement financier des professionnels, des TPE et des PME va pouvoir accorder tous types de prêts et des produits d’épargne.",
+        "url": "https://www.lefigaro.fr/societes/la-pepite-francaise-qonto-devient-une-banque-a-part-entiere-20261117"
       }
     ]
   },
@@ -115,13 +111,6 @@
         "url": "https://www.lemonde.fr/economie/article/2026/11/17/rachat-de-commerzbank-unicredit-est-en-passe-de-reussir-son-opa-a-45-milliards-d-euros-en-allemagne-et-de-transformer-l-europe-bancaire_6812939_3234.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "19h34",
-        "titre": "Bruxelles autorise le rachat de Commerzbank par UniCredit, au nom du renforcement du secteur bancaire européen",
-        "resume": "L’opération, qui illustre la nouvelle volonté de l’UE de favoriser les champions européens, serait « probablement la plus grande transaction transfrontalière bancaire depuis la crise financière », selon la Commission européenne.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/16/bruxelles-autorise-le-rachat-de-commerzbank-par-unicredit-au-nom-du-renforcement-du-secteur-bancaire-europeen_6812172_3234.html"
-      },
-      {
         "source": "Challenges",
         "heure": "12h40",
         "titre": "Coup de tonnerre dans le spatial européen : le finlandais Iceye lance une OPA sur le fabricant de fusées italien Avio",
@@ -129,57 +118,64 @@
         "url": "https://www.challenges.fr/entreprise/defense/coup-de-tonnerre-dans-le-spatial-europeen-le-finlandais-iceye-lance-une-opa-sur-le-fabricant-de-fusees-italien-avio_647012"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "19h05",
-        "titre": "Revolut Italie placée sous administration judiciaire pour des contrôles antiblanchiment insuffisants",
-        "resume": "Le tribunal de Milan a estimé que les défaillances observées dans la filiale italienne de Revolut relevaient, non pas d’incidents isolés, mais d’une « inadéquation organisationnelle » ayant permis de faciliter les activités illicites de certains clie",
-        "url": "https://www.lemonde.fr/international/article/2026/11/16/revolut-italie-placee-sous-administration-judiciaire-pour-des-controles-antiblanchiment-insuffisants_6812166_3210.html"
+        "source": "Les Echos",
+        "heure": "21h43",
+        "titre": "« Créer un champion européen » : avec son offensive sur le lanceur italien Avio, Iceye veut prendre une longueur d'avance dans le « new space »",
+        "resume": "Ce mardi, l'opérateur finlandais de satellites a lancé une opération de rachat à 2 milliards d'euros pour acquérir le lanceur italien de fusées Avio. Face à la concurrence américaine, ce rachat pourrait permettre au secteur spatial européen de reveni",
+        "url": "https://www.lesechos.fr/industrie-services/air-defense/creer-un-champion-europeen-avec-son-offensive-sur-le-lanceur-italien-avio-iceye-veut-prendre-une-longueur-davance-dans-le-new-space-2263158"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "20h41",
-        "titre": "Assimil, spécialisé dans les méthodes d’apprentissage des langues, placé en redressement judiciaire",
-        "resume": "L’entreprise familiale qui vend sa méthode dans le monde entier est fragilisée par la concurrence de l’IA et la baisse des ventes en librairies.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/16/assimil-specialise-dans-les-methodes-d-apprentissage-des-langues-place-en-redressement-judiciaire_6812230_3234.html"
+        "source": "Les Echos",
+        "heure": "14h28",
+        "titre": "Conseillers en gestion de patrimoine : Eres étend son réseau avec l'acquisition de la fintech Wizio",
+        "resume": "En s'emparant de l'éditeur de logiciel, le spécialiste de l'épargne s'offre un canal direct vers plus de 1.200 conseillers de gestion de patrimoine.",
+        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/conseillers-en-gestion-de-patrimoine-eres-etend-son-reseau-avec-lacquisition-de-la-fintech-wizio-2263259"
+      },
+      {
+        "source": "Challenges",
+        "heure": "19h10",
+        "titre": "Face à une croissance nulle, les entreprises françaises accélèrent leurs acquisitions à l’étranger",
+        "resume": "Bank of America a analysé les données issues des deals de M & A avec une partie française ces dix dernières années. Plus que jamais, les entreprises de l’Hexagone cherchent à s’internationaliser par des acquisitions transfrontalières.",
+        "url": "https://www.challenges.fr/entreprise/face-a-une-croissance-nulle-les-entreprises-francaises-accelerent-leurs-acquisitions-a-letranger_647028"
       }
     ]
   },
   "macro": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "13h00",
-        "titre": "La Commission européenne confirme le décrochage de la France dans ses prévisions économiques d’automne",
-        "resume": "En 2026, la croissance de l’Union européenne a mieux résisté que ne l’attendaient les experts de la Commission, sauf dans l’Hexagone, qui fait pâle figure. Quant à l’inflation, elle va continuer à grever le pouvoir d’achat dans toute l’UE en 2027.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-commission-europeenne-confirme-le-decrochage-de-la-france-dans-ses-previsions-economiques-d-automne_6812945_3234.html"
+        "source": "Le Figaro",
+        "heure": "16h01",
+        "titre": "La prévision de croissance de 1% pour 2027 «est à risque», reconnaît Roland Lescure",
+        "resume": "Le ministre de l’Économie a indiqué qu’un travail d’actualisation était en cours mais a reconnu que la prévision de 1 % utilisée pour construire le projet de budget 2027 serait «plutôt à la baisse».",
+        "url": "https://www.lefigaro.fr/conjoncture/la-prevision-de-croissance-de-1-pour-2027-est-a-risque-reconnait-roland-lescure-20261118"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "12h58",
-        "titre": "Prix des carburants : une baisse dans plus de 90 % des stations-service, selon Mathieu Lefèvre, ministre délégué à la transition écologique",
-        "resume": "Le gouvernement a commencé le 1ᵉʳ novembre à vendre à prix coûtant des barils de gazole issus des stocks stratégiques, une opération qui s’étalera pendant trois mois.",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/17/carburant-une-baisse-du-prix-dans-plus-de-90-des-stations-service-selon-mathieu-lefevre_6812943_1656968.html"
+        "source": "Le Figaro",
+        "heure": "11h41",
+        "titre": "France : les créations d'entreprises se replient en octobre, selon l'Insee",
+        "resume": "Le nombre de créations d'entreprises en France s'est replié en octobre après le record atteint en septembre, selon les données publiées mercredi par...",
+        "url": "https://www.lefigaro.fr/flash-eco/france-les-creations-d-entreprises-se-replient-en-octobre-selon-l-insee-20261118"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "09h30",
-        "titre": "L’utilisation de l’IA a fait disparaître 100 000 offres d’emploi en 2026, et cela ne concerne pas forcément que les débutants, selon une étude",
-        "resume": "La Coface et l’Observatoire des emplois menacés et émergents montrent que le déploiement de l’intelligence artificielle dans les entreprises ne se traduit pas encore par des licenciements dans les métiers les plus facilement automatisables, mais cont",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/17/l-essor-de-l-ia-ralentit-les-recrutements-des-metiers-les-plus-automatisables-au-dela-des-postes-juniors_6812918_3234.html"
+        "source": "Le Figaro",
+        "heure": "21h30",
+        "titre": "Croissance, déficit, chômage… L’Union européenne s’inquiète du décrochage économique de la France",
+        "resume": "RÉCIT - La France est devenue la lanterne rouge des États membres de l’UE. Selon les prévisions de la Commission, le déficit et la dette vont continuent de se creuser.",
+        "url": "https://www.lefigaro.fr/conjoncture/croissance-deficit-chomage-l-union-europeenne-s-inquiete-du-decrochage-economique-de-la-france-20261117"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Dans les entreprises, les intentions de recrutement des cadres au plus bas",
-        "resume": "Seules 6 % des entreprises françaises envisagent de recruter au moins un cadre dans les prochains mois, un niveau historiquement bas depuis 2020, selon une enquête de l’APEC.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/17/dans-les-entreprises-les-intentions-de-recrutement-des-cadres-au-plus-bas_6812854_3234.html"
+        "source": "Le Figaro",
+        "heure": "09h00",
+        "titre": "Les dépenses dans la défense musclent la croissance économique en Europe de l’Est",
+        "resume": "DÉCRYPTAGE - Chaque euro investi dans les budgets militaires peut rapporter près d’un euro et demi de PIB dans les trois ans, a calculé la Banque européenne pour la reconstruction et le développement (BERD) pour les pays de la vaste zone qu’elle fina",
+        "url": "https://www.lefigaro.fr/conjoncture/les-depenses-dans-la-defense-musclent-la-croissance-economique-en-europe-de-l-est-20261117"
       },
       {
         "source": "Les Echos",
-        "heure": "10h00",
-        "titre": "Faut-il redouter un tsunami social ? France Travail dévoile une étude inédite sur les effets de l'IA",
-        "resume": "Pour sa première étude sur l'impact à cinq ans de l'IA sur les métiers, l'ex-Pôle emploi a sondé 16.000 entreprises. Un constat à deux faces.",
-        "url": "https://www.lesechos.fr/economie-france/social/faut-il-redouter-un-tsunami-social-france-travail-devoile-une-etude-inedite-sur-les-effets-de-lia-2262941"
+        "heure": "13h46",
+        "titre": "Suppression des taxes sur l'électricité, prix à la pompe plafonnés : l'Allemagne sort le grand jeu pour réduire la facture énergétique",
+        "resume": "Berlin vole au secours des foyers allemands et des PME en réduisant les taxes sur l'électricité, pour un coût supérieur à 5 milliards d'euros. Un plafonnement des prix à la pompe va aussi prendre le relais de la baisse des taxes sur les carburants.",
+        "url": "https://www.lesechos.fr/monde/europe/suppression-des-taxes-sur-lelectricite-prix-a-la-pompe-plafonnes-lallemagne-sort-le-grand-jeu-pour-reduire-la-facture-energetique-2263250"
       }
     ]
   },
@@ -187,43 +183,57 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "14h32",
-        "titre": "Présidentielle 2027 : Marine Le Pen présente sa réforme des retraites, un système basé sur la progressivité et une part de capitalisation",
-        "resume": "La candidate du RN a promis que « des centaines de milliers de travailleurs partiront plus tôt » avec sa réforme, qui sera « engagée dès [son] arrivée au pouvoir » et promet d’abolir celle d’Elisabeth Borne au 1ᵉʳ janvier 2028.",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/17/presidentielle-2027-marine-le-pen-presente-sa-reforme-des-retraites-et-promet-que-des-centaines-de-milliers-de-travailleurs-partiront-plus-tot-qu-avec-la-reforme-borne_6812963_823448.html"
+        "heure": "13h12",
+        "titre": "Réforme des retraites : de LFI à LR en passant par le Medef, le projet de Marine Le Pen critiqué de tous bords",
+        "resume": "Des modalités de financement « contestables » selon le Medef, « une maltraitance sociale très violente » selon Jean-Luc Mélenchon (LFI)… Le projet de réforme des retraites présenté par Marine Le Pen, mardi, fait réagir sur tout le spectre politique.",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/18/de-lfi-a-lr-en-passant-par-le-medef-le-projet-de-reforme-des-retraites-de-marine-le-pen-critique-de-tous-bords_6813010_823449.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "14h03",
-        "titre": "L’Etat poussé à revoir le financement des collectivités locales pour corriger les réformes Macron",
-        "resume": "Tandis que les départements éprouvent des difficultés à boucler leur budget, le Conseil des prélèvements obligatoires tire un bilan critique des réformes menées par Emmanuel Macron, dont l’emblématique suppression de la taxe d’habitation. Une nouvell",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/17/l-etat-pousse-a-revoir-le-financement-des-collectivites-locales-pour-corriger-les-reformes-macron_6812961_823448.html"
+        "heure": "07h41",
+        "titre": "Présidentielle 2027 : le RN propose une réforme des retraites en trompe-l’œil qui sacrifie les précaires et la politique du logement pour la financer",
+        "resume": "Marine Le Pen promet que l’avancée de l’âge de départ ne coûtera pas 1 euro en jouant sur d’autres paramètres, rendant plus difficile l’acquisition de trimestres et le départ à la retraite. Elle instaure une part de capitalisation en prenant, notamme",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/18/le-rn-compte-financer-son-avantageuse-reforme-des-retraites-et-un-debut-de-capitalisation-au-detriment-des-precaires-et-de-la-politique-du-logement_6813066_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "12h30",
-        "titre": "Marine Le Pen et l’Ukraine, entre hypocrisie et lâcheté",
-        "resume": "En annonçant « cesser l’aide financière » à Kiev si elle est élue en 2027, la candidate d’extrême droite vient de lever le voile sur sa véritable stratégie diplomatique et ses intentions. Avec cette initiative, la France se retrouverait isolée diplom",
-        "url": "https://www.lemonde.fr/idees/article/2026/11/17/marine-le-pen-et-l-ukraine-entre-hypocrisie-et-lachete_6812934_3232.html"
+        "heure": "04h08",
+        "titre": "Présidentielle 2027 : Gérald Darmanin appelle au ralliement derrière Edouard Philippe pour barrer la route à Jean-Luc Mélenchon, qui « gagnera[it] l’élection » face à Marine Le Pen",
+        "resume": "« Si M. Mélenchon est au second tour face à Mme Le Pen, je pense que ce sera un choc immense dans notre pays », a déclaré le ministre de la justice, demandant à Bruno Retailleau et à Gabriel Attal de s’effacer, sans passer par une primaire.",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/18/presidentielle-2027-gerald-darmanin-appelle-bruno-retailleau-et-gabriel-attal-a-s-effacer-derriere-edouard-philippe-pour-barrer-la-route-a-jean-luc-melenchon_6813056_823448.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "07h30",
-        "titre": "Grève du 17 novembre : les ressorts d’une révolte sociale qui s’est ancrée au fil des semaines",
-        "resume": "Une nouvelle journée d’action nationale est prévue mardi à Lyon, Toulouse, Lille ou Rennes. Parti des lycéens mi-septembre, relayé par les étudiants, les parents puis les syndicats, le mouvement gagne les associations.",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/17/a-lyon-toulouse-lille-ou-rennes-les-ressorts-d-une-revolte-sociale-qui-s-est-ancree-au-fil-des-semaines_6812893_823448.html"
+        "source": "Challenges",
+        "heure": "19h30",
+        "titre": "« Cela peut se chiffrer en dizaines de milliards d’euros », Marine Le Pen sous-estime le coût de sa réforme des retraites selon l’ex-président du COR",
+        "resume": "Impact budgétaire, gagnants et perdants, nouveaux critères pour toucher une pension… L’ex-président du Conseil d’orientation des retraites, Pierre-Louis Bras, décrypte pour Challenges la réforme annoncée ce 17 novembre par la candidate du Rassemblem",
+        "url": "https://www.challenges.fr/politique/cela-peut-se-chiffrer-en-dizaines-de-milliards-deuros-marine-le-pen-sous-estime-le-cout-de-sa-reforme-des-retraites-selon-lex-president-du-cor_647030"
       },
       {
-        "source": "Les Echos",
-        "heure": "20h28",
-        "titre": "Ukraine : Bruxelles prépare un prêt de 45 milliards et resserre l'étau sur les revenus russes",
-        "resume": "La Commission devrait présenter mercredi un nouveau prêt pour aider Kiev à tenir en 2027. Mais le partage de la facture menace de diviser les Européens. Les Vingt-Sept frappent aussi les banques russes, le pétrole et les circuits du commerce en ligne",
-        "url": "https://www.lesechos.fr/monde/europe/ukraine-bruxelles-prepare-un-pret-de-45-milliards-et-resserre-letau-sur-les-revenus-russes-2262885"
+        "source": "Le Figaro",
+        "heure": "13h01",
+        "titre": "Les images de l’arrivée de Donald Trump en Chine, accueilli à la sortie de l’avion par Xi Jinping",
+        "resume": "VIDÉO - Le président américain est arrivé mercredi à Shenzhen, dans le sud de la Chine, où il doit participer jeudi avec ses homologues chinois et russe Xi Jinping et Vladimir Poutine à un sommet tripartite inédit.",
+        "url": "https://www.lefigaro.fr/international/les-images-de-l-arrivee-de-donald-trump-en-chine-accueilli-a-la-sortie-de-l-avion-par-xi-jinping-20261118"
       }
     ]
   },
   "taux": {
     "articles": [
+      {
+        "source": "Le Monde Eco",
+        "heure": "20h37",
+        "titre": "BCE : l’Allemagne propose l’économiste Markus Brunnermeier au directoire, la présidence de Pablo Hernandez de Cos se profile",
+        "resume": "La France décrocherait le poste chargé des marchés financiers et nommerait Laurence Boone. Reste aux autres pays de la zone euro à accepter ces nominations.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/banque-centrale-europeenne-l-allemagne-propose-l-economiste-markus-brunnermeier-au-directoire-la-presidence-de-pablo-hernandez-de-cos-se-profile_6813020_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "19h47",
+        "titre": "Nucléaire : EDF s'apprête à signer un contrat de 14 milliards d'euros avec Bouygues, Eiffage et Vinci pour les EPR2",
+        "resume": "Selon nos informations, EDF est en train de finaliser un contrat majeur avec les géants français du BTP pour les travaux de génie civil de ses futurs réacteurs nucléaires. Une étape clé avec une décision finale attendue en décembre, malgré les incert",
+        "url": "https://www.lesechos.fr/industrie-services/energie-environnement/nucleaire-edf-sapprete-a-signer-un-contrat-de-14-milliards-deuros-avec-bouygues-eiffage-et-vinci-pour-les-epr2-2263126"
+      },
       {
         "source": "Les Echos",
         "heure": "11h15",
@@ -232,54 +242,29 @@
         "url": "https://www.lesechos.fr/thema/articles/marche-de-la-dette-la-promesse-dun-financement-plus-fluide-grace-a-la-blockchain-2262968"
       },
       {
-        "source": "Les Echos",
-        "heure": "17h05",
-        "titre": "Stablecoins : après l'euphorie, la croissance marque le pas",
-        "resume": "Encore largement dépendants du trading, ces jetons peinent à trouver de nouveaux relais de croissance. Les encours mondiaux de stablecoins reculent en 2026.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/stablecoins-apres-leuphorie-la-croissance-marque-le-pas-2262816"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "13h06",
-        "titre": "« Risque France », hausses de taux, tensions géopolitiques : les trésoriers français en première ligne",
-        "resume": "La trésorerie des entreprises françaises subit une pression croissante. Entre la hausse des taux d'intérêt, les incertitudes géopolitiques et les tensions sur les délais de paiement, les trésoriers doivent redoubler d'efforts pour sécuriser les finan",
-        "url": "https://www.lesechos.fr/thema/articles/risque-france-hausses-de-taux-tensions-geopolitiques-les-tresoriers-francais-en-premiere-ligne-2263009"
-      },
-      {
         "source": "Le Figaro",
-        "heure": "15h43",
-        "titre": "Le billet vert frôle 1,10 dollar pour un euro, poussé par l'inflation américaine",
-        "resume": "Le dollar continue de progresser lundi, après la publication la semaine dernière d'indicateurs d'inflation qui pourraient motiver la Réserve...",
-        "url": "https://www.lefigaro.fr/flash-eco/le-billet-vert-frole-1-10-dollar-pour-un-euro-pousse-par-l-inflation-americaine-20261116"
+        "heure": "20h45",
+        "titre": "Au Royaume-Uni, pourquoi la confiance des consommateurs a subi « un effondrement extraordinaire »",
+        "resume": "DÉCRYPTAGE - L’indice a chuté de 11 points, soit la plus forte baisse mensuelle depuis le début de la pandémie face à l’envolée des prix et au recul du pouvoir d’achat. Nombre d’analystes dressent un tableau sombre de la situation économique.",
+        "url": "https://www.lefigaro.fr/conjoncture/au-royaume-uni-pourquoi-la-confiance-des-consommateurs-a-subi-un-effondrement-extraordinaire-20261117"
       },
       {
-        "source": "Le Figaro",
-        "heure": "13h24",
-        "titre": "Budget de la Sécu : le Sénat rétablit la réforme des retraites et rejette la désindexation des pensions",
-        "resume": "Les sénateurs ont toutefois promis de faire contribuer les retraités en supprimant l’abattement de 10% dont ils bénéficient pour leurs impôts sur le revenu.",
-        "url": "https://www.lefigaro.fr/social/budget-de-la-secu-le-senat-retablit-la-reforme-des-retraites-et-rejette-la-desindexation-des-pensions-20261117"
+        "source": "Le Monde Eco",
+        "heure": "20h02",
+        "titre": "Malgré les annonces du gouvernement, les fonctionnaires attendent des réponses structurelles sur la question des salaires",
+        "resume": "En dépit du geste de l’exécutif en faveur des agents publics les moins bien payés, le tassement des grilles de rémunération persiste dans la fonction publique. Le gouvernement a promis d’engager des discussions en vue d’une « réforme structurelle ».",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/17/fonction-publique-malgre-les-annonces-du-gouvernement-les-fonctionnaires-attendent-des-reponses-structurelles-sur-la-question-salariale_6813014_823448.html"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.109,
-        "prev": 3.072,
-        "diff": 0.037,
-        "trend": "up",
-        "date": "2026-11-16",
-        "history": [
-          2.987,
-          2.998,
-          2.958,
-          2.93,
-          2.939,
-          3.019,
-          3.045,
-          3.075,
-          3.072,
-          3.109
-        ]
+        "rate": null,
+        "prev": null,
+        "diff": null,
+        "trend": "flat",
+        "date": "",
+        "history": []
       },
       {
         "maturity": "5 ans",
@@ -322,43 +307,107 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,847 milliards USD",
-      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en novembre 2026, portée par l'adoption massive de l'IA générative et des technologies quantiques. Cette croissance reflète une réévaluation majeure des modèles économiques post-inflation.",
-      "source": "World Bank Financial Markets Report - Novembre 2026"
+      "chiffre": "2,3 trillions USD",
+      "contexte": "Le marché mondial des cryptomonnaies atteint un nouveau sommet en novembre 2026, porté par l'adoption institutionnelle massive et la régulation clarifiée en zones clés. Cette capitalisation représente désormais 2,3% du PIB mondial.",
+      "source": "CoinMarketCap & FMI - novembre 2026"
     },
     "ephemeride": {
-      "evenement": "Le 17 novembre 1869 : Inauguration du Canal de Suez par l'Impératrice Eugénie",
-      "impact": "Cet événement a réduit de 40% les trajets commerciaux Europe-Asie et généré un paradigme nouveau de mondialisation des échanges, établissant Suez comme l'une des routes maritimes les plus stratégiques de l'histoire."
+      "evenement": "18 novembre 1987 : Signature de l'Accord de Bâle I sur les normes prudentielles bancaires",
+      "impact": "Cet accord a posé les fondations de la régulation bancaire internationale moderne et établi les exigences de capital qui structurent encore le secteur financier 39 ans plus tard."
     },
     "graphique_semaine": {
-      "titre": "Evolution des taux directeurs des banques centrales (semaine du 10-17 novembre 2026)",
-      "description": "Après trois trimestres de stabilité, les banques centrales commencent à différencier leurs politiques monétaires. La BCE maintient une approche prudente face aux tensions géopolitiques, tandis que la Fed explore des réductions progressives. Cette divergence crée des opportunités d'arbitrage significatives sur les marchés des devises.",
+      "titre": "Évolution des rendements obligataires souverains européens (semaine du 11-18 novembre 2026)",
+      "description": "Les taux des obligations à 10 ans connaissent une volatilité accrue suite aux données d'inflation plus élevées que prévu en zone euro. L'Allemagne et la France divergent, reflétant les craintes différenciées concernant les politiques monétaires. Cette tension redessine progressivement la courbe des rendements européenne.",
       "donnees": [
         {
-          "label": "Fed (USA)",
-          "valeur": 4.25
+          "label": "Lundi 11/11",
+          "valeur": 2.15
         },
         {
-          "label": "BCE (Europe)",
-          "valeur": 3.75
+          "label": "Mardi 12/11",
+          "valeur": 2.28
         },
         {
-          "label": "BoE (Royaume-Uni)",
-          "valeur": 4.75
+          "label": "Mercredi 13/11",
+          "valeur": 2.42
         },
         {
-          "label": "BoJ (Japon)",
-          "valeur": 1.5
+          "label": "Jeudi 14/11",
+          "valeur": 2.35
         },
         {
-          "label": "PBOC (Chine)",
-          "valeur": 3.0
+          "label": "Vendredi 18/11",
+          "valeur": 2.51
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "En Syrie, les patriarches chrétiens alertent sur des «attaques récurrentes»",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-11/syrie-alerte-agressions-violences-minorites-patriarches.html",
+        "resume": "En Syrie, les chefs des Églises chrétiennes expriment leur «vive inquiétude» après une série d’agressions. Dans une déclaration commune publiée ce mardi 17 novembre, ils se sont alarmés des «attaques odieuses et récurrentes», qui ciblent les minorité",
+        "pub": "Wed, 18 Nov 2026 12:30:00 +0100",
+        "heure": "14h30"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV: «Prévenir et lutter contre les abus est une forme de conversion évangélique»",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/leon-xiv-journee-mondiale-de-la-peche-audience-generale.html",
+        "resume": "À l’issue de l’audience générale, le Pape a rappelé que ce 18 novembre marque en Italie, la Journée nationale de prière pour les victimes et les survivants d’abus. Lutter contre les abus commence par «l’écoute de ceux qui ont été blessés, en nommant",
+        "pub": "Wed, 18 Nov 2026 11:10:00 +0100",
+        "heure": "13h10"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV: défendre la création et la dignité humaine à l'exemple de saint Pierre",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-leon-xiv-dignite-humaine-creation-catholic-philanthropy.html",
+        "resume": "Lors de la première audience suivant son voyage apostolique en Amérique latine, et à l’occasion du 400e anniversaire de la consécration de la basilique vaticane, le Pape a reçu une délégation du FADICA-Catholic Philanthropy Network. Il les a exhortés",
+        "pub": "Wed, 18 Nov 2026 10:22:00 +0100",
+        "heure": "12h22"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Audience générale: le Pape revient sur les fruits de son voyage en Amérique latine",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/audience-generale-pape-leon-xiv-amerique-sud-voyage.html",
+        "resume": "Au lendemain de son retour à Rome après onze jours passés en Amérique latine, ce mercredi 18 novembre, Léon XIV a centré sa catéchèse sur les fruits de son sixième voyage apostolique. En Uruguay, en Argentine et au Pérou, le Pape espère que le Seigne",
+        "pub": "Wed, 18 Nov 2026 10:13:00 +0100",
+        "heure": "12h13"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Saint-Siège exhorte la COP31 à placer la dignité humaine au cœur de l'action climatique",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-11/cop-31-turquie-saint-siege-pietro-parolin-climat-onu-discours.html",
+        "resume": "Après une première semaine consacrée aux discussions entre experts et société civile, les dirigeants mondiaux entrent en scène en cette deuxième semaine de discussions liées au réchauffement climatique à Antalya en Turquie. À la tête de la délégation",
+        "pub": "Tue, 17 Nov 2026 16:36:00 +0100",
+        "heure": "18h36"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "États-Unis: Mgr Coakley exhorte les évêques à prendre soin des dons reçus",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/etats-unis-archeveque-coakley-eveques-assemblee-pleniere.html",
+        "resume": "Le président de la Conférence des évêques des États-Unis a ouvert, à Baltimore, dans le Maryland, l'assemblée plénière consacrée aux défis pastoraux et aux priorités émergentes qui se tient du 16 au 19 novembre. À l'ordre du jour: les jeunes, l'immig",
+        "pub": "Tue, 17 Nov 2026 15:11:00 +0100",
+        "heure": "17h11"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "En Allemagne, une religieuse au service des personnes handicapées",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/compassion-enfants-handicap-religieuse-allemagne.html",
+        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs présentes dans le monde entier. Dans cet épisode, rencontre avec sœur Maxencia, u",
+        "pub": "Tue, 17 Nov 2026 14:24:00 +0100",
+        "heure": "16h24"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "À Bethléem, chaque enfant sauvé est un petit miracle",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/sistersproject-bethleem-bebes-abandonnes-palestine.html",
+        "resume": "En collaboration avec la fondation Hilton, Vatican News publie une série d'articles sur l'action des religieuses dans le monde, des contributions offertes par des sœurs présentes dans le monde entier. Dans cet épisode, rencontre avec la sœur slovaque",
+        "pub": "Tue, 17 Nov 2026 13:25:00 +0100",
+        "heure": "15h25"
+      },
       {
         "source": "Vatican News",
         "titre": "Le Pape place au centre de son ministère la guérison et l’unité des personnes",
@@ -414,70 +463,6 @@
         "resume": "Dans une atmosphère de joie portée par des milliers de fidèles, le Pape a présidé, ce 16 novembre, à la Base aérienne de Las Palmas à Lima, la messe de clôture de son 6e voyage apostolique en Amérique latine, entamé le 6 novembre dernier. Prenant pou",
         "pub": "Mon, 16 Nov 2026 17:30:00 +0100",
         "heure": "19h30"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape à la nonciature de Lima: «Merci d’avoir accompagné votre serviteur»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-nonciature-perou0.html",
-        "resume": "Dans la matinée de ce 16 novembre, Léon XIV a salué les personnes rassemblées devant la représentation pontificale, avant de la quitter pour se rendre à la messe à Callao. Il a invité chacun à être le «magnifique signe de la proximité de Dieu». Dans",
-        "pub": "Mon, 16 Nov 2026 15:34:00 +0100",
-        "heure": "17h34"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Au Pérou, Léon XIV invite à développer les lieux de charité et de soin",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-perou-accueil-fragiles-agees-callao.html",
-        "resume": "Avant-dernier rendez-vous de son voyage au Pérou, le Pape s’est rendu ce lundi 16 novembre à la Maison d’accueil de Callao, près de Lima. Auprès des personnels et résidents, Léon XIV a appelé à la création de «plus d’oasis fraternelles», face aux bes",
-        "pub": "Mon, 16 Nov 2026 15:26:00 +0100",
-        "heure": "17h26"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Le Pape en Amérique latine, une foi de l’engagement envers les plus démunis",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-perou-amerique-latine-editorial.html",
-        "resume": "Retour sur le voyage de Léon XIV et ses messages.Tout lire&nbsp;",
-        "pub": "Mon, 16 Nov 2026 15:24:00 +0100",
-        "heure": "17h24"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "En Côte d’Ivoire, Mgr Koné appelle les communautés nouvelles à l’unité",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/cote-d-ivoire-l-appel-a-l-unite-et-a-la-communion-ecclesiale.html",
-        "resume": "À l’occasion de l’ouverture de l’année pastorale 2026-2027 de la Commission épiscopale pour les communautés nouvelles et la nouvelle évangélisation, le samedi 14 novembre, à la paroisse Saint-Étienne de Koumassi, dans le diocèse de Grand-Bassam, Mgr",
-        "pub": "Mon, 16 Nov 2026 15:07:00 +0100",
-        "heure": "17h07"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "En une minute: la dixième et avant-dernière journée de Léon XIV en Amérique latine",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/resume-de-la-dixieme-journee-de-leon-xiv-en-amerique-latine.html",
-        "resume": "En images, les rendez-vous du Pape au Pérou, lors de la dixième journée du Pape dans trois pays sud-américains, une journée partagée entre Cusco et Pucallpa.Tout lire&nbsp;",
-        "pub": "Mon, 16 Nov 2026 06:00:00 +0100",
-        "heure": "08h00"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "«La violence contre le peuple est une violence contre la terre» amazonienne",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/messe-pape-perou-amazonie-pucallpa.html",
-        "resume": "À Pucallpa, lors de la toute première messe d’un Pape en Amazonie péruvienne, Léon XIV a déploré le manque d’action et la lenteur face aux «moyens pour exploiter et polluer la création», qui se sont multipliés dans la plus vaste forêt tropicale au mo",
-        "pub": "Sun, 15 Nov 2026 23:52:00 +0100",
-        "heure": "01h52"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV: Le sang des protecteurs de l’Amazonie réclame justice",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/leon-xiv-peuples-amazonie-pucallpa.html",
-        "resume": "À Pucallpa, dans la forêt amazonienne, Léon XIV apporte sa proximité aux populations autochtones leur assurant que l’Église sera toujours à leurs coté pour défendre leurs droits et leurs territoires. Il liste les contrastes qui blessent les hommes et",
-        "pub": "Sun, 15 Nov 2026 21:52:06 +0100",
-        "heure": "23h52"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Angélus: «La maladie est un chemin pour grandir», affirme le Pape à Cuzco",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/angelus-voyage-pape-perou-maladie-force-cusco.html",
-        "resume": "À l’occasion de sa visite dans la ville péruvienne de Cuzco ce dimanche, Léon XIV, accueilli par des cris de joie, a récité l'Angélus sur la place de la cathédrale de l'Assomption. Face à la foule, nombreuse, le Pape a médité sur la signification chr",
-        "pub": "Sun, 15 Nov 2026 17:42:00 +0100",
-        "heure": "19h42"
       }
     ]
   }
