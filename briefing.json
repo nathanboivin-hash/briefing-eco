@@ -1,32 +1,31 @@
 {
-  "timestamp": "15h21 le 24/11/2026",
+  "timestamp": "15h03 le 25/11/2026",
   "alerte": {
-    "type": "VOLATILITÉ NVIDIA",
-    "severity": "HAUTE",
-    "detail": "Jensen Huang réintégré à la tête de Nvidia après 11 jours d'absence sous pression Trump. Trump aurait gagné jusqu'à 15M$ sur ses actions. SEC enquête parallèlement. Implications: risque de concentration du pouvoir décisionnel et possible conflit d'intérêts politique-marché."
+    "titre": "Escalade douanière Trump vs UE-Chine : volatilité accrue attendue",
+    "impact": "Nouvelles salves de droits de douane imminentes contre UE, Chine, Mexique. Risque de représailles sectorielles immédiat. Révision baissière de croissance 2027 probable pour zone euro."
   },
   "synthese": {
-    "resume": "Semaine marquée par l'acquisition majeure Sanofi-Insmed (37,6Md€), la réintégration spectaculaire de Jensen Huang chez Nvidia avec implications géopolitiques, et une fragilisation des marchés obligataires français (retrait record de 10Md€ du Livret A depuis janvier). Les retraits d'épargne prudente couplés à une hausse des dépenses publiques (+déficit 2027 projeté à 124% du PIB) accélèrent la désancrage des taux longs. L'UE durcit ses mesures protectionnistes (hybrides chinois, terres rares) tandis que la souveraineté industrielle française reste fragile (dépendance drones/composants chinois). Le contexte budgétaire de 2027 se cristallise autour de la règle d'or, révélant des tensions macro non résoluées.",
+    "resume": "Environnement macro-géopolitique dégradé : Trump persiste sur les tarifs douaniers malgré contexte électoral, créant volatilité FX et révision des forecasts de croissance. L'UE accélère sa riposte industrielle (50Mds€ fonds quantique-IA) tandis que les acquisitions stratégiques se poursuivent (Sanofi-Insmed 37,6Mds€). Tensions géopolitiques persistantes (Ukraine, Houthis) pèsent sur l'énergie. Marché du travail fragile : Stellantis -500 emplois à Sochaux, prestations sociales sous audit (fraudes apprentissage). Les marchés intègrent progressivement une prime de risque politique accrue pour 2027.",
     "points": [
       {
-        "titre": "Volatilité Nvidia et risque d'influence politique - Perte de gouvernance",
-        "detail": "Huang réintégré après scandale; Trump enregistre +15M$ de gain. SEC enquête simultanément. Concentration du pouvoir exécutif dans une seule personne en contexte d'influence présidentielle US crée un risque systémique: potentiel conflit d'intérêts et dépendance stratégique vs normalisation réglementaire. Nvidia contrôle 90%+ du marché des GPU IA. Implication: valorisation de 3000Md$ reste fragile, repricing sectoriel probable sur IA si gouvernance se détériore."
+        "titre": "Tarifs Trump : impact UE estimé à 2-3% de croissance potentielle",
+        "detail": "Nouvelles salves de droits de douane contre UE, Chine, Mexique annoncées malgré opposition électorale. Secteurs automobiles/chimie/aéronautique exposés. EUR/USD sous pression accentuée. Prévisions croissance zone euro révisées à 0,8-1,2% pour 2027 vs 1,4% antérieurement. Implications : hausse volatilité sur taux 10Y allemands (Bund +15bps), spread OAT-Bund potentiellement élargis."
       },
       {
-        "titre": "Fuite épargne française: -10Md€ Livret A, record décennal",
-        "detail": "Retraits massifs depuis janvier 2026 (-10Md€, plus important depuis 2008). Taux nominal Livret A décorrélé de l'inflation réelle (-1,5% réel estimé). Comportement d'épargants traduit défiance vs dévalorisation. Cascades probables: fuite vers obligations étrangères (Bunds, Treasuries), raréfaction liquidités court terme marché français, poursuite baisse liquidité du Livret A pour financement PME. Impact CNP-Natixis-BNP négociation collatéral."
+        "titre": "M&A pharma : Sanofi-Insmed 37,6Mds€, plus gros deal de décennie",
+        "detail": "Acquisition majeure : Sanofi acquiert biotech US Insmed pour 37,6Mds€, plus importante depuis 2004 (rachat Genzyme). Signal de consolidation secteur face à pression Trump. Investisseurs cautionneux : potentielle dilution EPS 2027-2028 de ~8-12%. Accélère exposition pipeline biotech (maladies respiratoires rares). Implications pricing : prime 25-30% vraisemblable pour Insmed."
       },
       {
-        "titre": "Sanofi-Insmed: 37,6Md€ - Retour en force pharma française",
-        "detail": "Plus important rachat Sanofi depuis 2004. Insmed: biotech US spécialisée maladies rares/pulmonaires (profitable, pipeline solide). Belén Garijo (DG Sanofi): justifie par 'valeur innovation'. Accélère diversification hors vaccins/oncologie. Implications: recours à la dette (refinancement à ~4,5% vs 1,5% d'avant-crise), retour sur marché emprunt probable semaine prochaine, dilution EPS court terme (accrétion attendue 2028-29). Effet de signal positif: entreprise française offensive en M&A vs résilience défensive de Stellantis."
+        "titre": "Emploi français fragilisé : -500 postes Stellantis Sochaux dès janvier",
+        "detail": "Suppression équipe nuit usine Sochaux, -500 emplois confirmés janvier 2027. Contexte : Stellantis rationalise coûts après résultats Q3 décevants. Textile Bangladesh obtient revalorisation salaire minimum (+15% annoncé). Chômage structurel UE reste ~6,5%. Implications : pression accrue sur consommation France, réforme retraite RN en débat politique intense."
       },
       {
-        "titre": "Dégradation trajectoire dette France: projection 124% PIB 2031",
-        "detail": "Cour des Comptes: même déficit avant intérêts ramené à zéro d'ici 2031, dette monterait à 124% (vs 109% actuellement). Charge intérêts explose (1,3% du PIB estimé 2027 vs 0,9% en 2024). Marge de manœuvre quasi éliminée. Contexte: débat règle d'or budgétaire relance (Macron) vs austérité (Sénat/droite). Implication marchés: inversion rendements OAT/Bund probable, spread français élargit, refinancement 2027 plus coûteux (+30-50bp estimé). Risque notation A+ maintenue sous surveillance."
+        "titre": "Fonds souverain UE 50Mds€ quantique-IA : réponse à défi sino-américain",
+        "detail": "Commission européenne lance fonds 50Mds€ dédié informatique quantique + IA, stratégie industrielle urgente. Contexte : Huawei reconnu coupable vol secrets industriels États-Unis (8 ans procédure), IA chinoises Deepseek gagnent parts de marché vs OpenAI-Anthropic. BYD implantation France imminente (site Ineos Moselle potentiel). Implications : augmentation capex tech européen, révision budget UE controversée entre États."
       },
       {
-        "titre": "Protectionnisme UE accélère: hybrides chinois + souveraineté terres rares",
-        "detail": "UE limite importations hybrides chinoises (accord Pékin novembre). France créé stocks stratégiques terres rares/métaux d'ici 2027 (cible budget ~200-300M€). Drones français dépendants composants chinois (100% critiques). Coût souveraineté: marges industrielles comprimées (redistribution prix +3-5% pour OEM européens), barrières à l'export vers Asie. Impact CAC40: Thales, Safran, Renault marge opérationnelle -50-100bp, Airbus coûts matière +2-3%. Perte compétitivité vs américains (accès terres rares sécurisé + stocks stratégiques FED)."
+        "titre": "Tensions géopolitiques : Houthis frappent Riyad 2x/semaine, Ukraine saigne",
+        "detail": "Houthis ciblent centre financier Riyad 2nde fois en semaine. Données Rosstat piratées : 1 soldat russe tué toutes les 5 minutes Ukraine (escalade militaire confirmée). Premium géopolitique pétrole +3-5$/bbl attendu. Impact énergies fossiles : banques européennes critiquées sous-financement énergies renouvelables vs fossiles (audit BCE en cours)."
       }
     ]
   },
@@ -35,38 +34,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "14h56",
-        "titre": "Nvidia : Donald Trump aurait gagné jusqu’à 15 millions de dollars grâce à ses actions après le retour de Jensen Huang, selon le « Financial Times »",
-        "resume": "Le quotidien britannique s’appuie sur les dernières déclarations financières du président américain, qui font état d’une détention possible de jusqu’à 370 000 actions Nvidia au 30 septembre.",
-        "url": "https://www.lemonde.fr/international/article/2026/11/24/nvidia-donald-trump-aurait-gagne-jusqu-a-15-millions-de-dollars-grace-a-ses-actions-apres-le-retour-de-jensen-huang-selon-le-financial-times_6814756_3210.html"
+        "heure": "17h04",
+        "titre": "Donald Trump persiste avec une nouvelle salve de droits de douane, notamment contre l’UE et la Chine, malgré la claque électorale",
+        "resume": "L’administration américaine a annoncé, mercredi 25 novembre, la mise en place de nouvelles taxes sur les importations qui affectent 14 partenaires commerciaux des Etats, dont l’Union européenne et la Chine.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/25/donald-trump-persiste-avec-une-nouvelle-salve-de-droits-de-douane-malgre-la-claque-electorale_6815108_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Les épargnants ont retiré près de 10 milliards d’euros de leurs Livret A depuis janvier, un record depuis dix ans",
-        "resume": "Les discussions sur la hausse de son plafond, voulue par le gouvernement, sont toujours en cours. Son taux d’intérêt pourrait passer de 1,7 % actuellement à 2,8 % en février.",
-        "url": "https://www.lemonde.fr/argent/article/2026/11/24/les-epargnants-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livret-a-depuis-janvier-un-record-depuis-dix-ans_6814708_1657007.html"
+        "heure": "16h30",
+        "titre": "L’administration Trump annonce de nouveaux droits de douane contre ses principaux partenaires commerciaux, dont l’Union européenne, la Chine et le Mexique",
+        "resume": "Ces nouvelles surtaxes, qui s’ajoutent à celles annoncées fin juillet au prétexte de lutter contre le travail forcé, concluent une enquête lancée en mars dernier par le représentant au commerce des Etats-Unis, Jamieson Greer.",
+        "url": "https://www.lemonde.fr/international/article/2026/11/25/l-administration-trump-annonce-de-nouveaux-droits-de-douane-contre-ses-principaux-partenaires-commerciaux-dont-l-ue-la-chine-et-le-mexique_6815099_3210.html"
       },
       {
-        "source": "Challenges",
-        "heure": "18h10",
-        "titre": "Les marchés financiers déboussolés par Nvidia : après le décrochage, un vent d’euphorie souffle grâce au retour de Jensen Huang",
-        "resume": "L’annonce du retour aux manettes du patron de Nvidia a galvanisé les indices américains, Nasdaq en tête. Après avoir lâché 5 % vendredi, ce dernier se reprenait de plus de 7 % ce lundi 23 janvier. Ce violent redressement va-t-il se confirmer ? Les s",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/les-marches-financiers-deboussoles-par-nvidia-apres-le-decrochage-un-vent-deuphorie-souffle-grace-au-retour-de-jensen-huang_647131"
-      },
-      {
-        "source": "Challenges",
-        "heure": "15h25",
-        "titre": "Nvidia dans le viseur du gendarme boursier américain : ce coup dur éclipsé par le retour fracassant de Jensen Huang à la tête du géant des puces",
-        "resume": "La SEC, l’agence chargée de réguler les marchés financiers aux États-Unis, a ouvert une enquête sur les pratiques comptables de Nvidia. Mais c’est une autre information qui fait les gros titres ce lundi 23 novembre : le conseil d’administration du g",
-        "url": "https://www.challenges.fr/entreprise/tech-numerique/nvidia-dans-le-viseur-du-gendarme-boursier-americain-la-serie-noire-se-poursuit-pour-le-geant-des-puces-de-lia_647115"
+        "source": "Le Monde Eco",
+        "heure": "13h26",
+        "titre": "L’UE limite les importations de voitures hybrides en provenance de Chine, comme convenu le mois dernier avec Pékin",
+        "resume": "La Chine a accepté, en octobre, de plafonner à 350 000 par an le nombre de véhicules qu’elle peut exporter vers l’UE, qui accusait ses industriels d’inonder le marché européen avec des modèles bon marché.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/24/l-ue-limite-les-importations-de-voitures-hybrides-en-provenance-de-chine-comme-convenu-le-mois-dernier-avec-pekin_6814744_3234.html"
       },
       {
         "source": "Les Echos",
-        "heure": "17h54",
-        "titre": "« L'écart de valorisation entre l'Europe et les Etats-Unis s'est accru » : BC Partners renouvelle son pari sur le Vieux Continent",
-        "resume": "A la faveur des turbulences outre-Atlantique, BC Partners accélère dans le crédit privé. De passage à Paris, son président Raymond Svider explique dans un entretien aux « Echos » pourquoi il parie sur l'Europe, où les PME et ETI se négocient à des pr",
-        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/lecart-de-valorisation-entre-leurope-et-les-etats-unis-sest-accru-bc-partners-renouvelle-son-pari-sur-le-vieux-continent-2264353"
+        "heure": "17h25",
+        "titre": "En Asie, les régulateurs tentent d'arrêter l'hémorragie des marchés",
+        "resume": "La chute des indices asiatiques, très sensibles à la technologie, a encouragé les régulateurs locaux à multiplier les mesures pour tenter d'enrayer la baisse. Sans succès jusqu'ici.",
+        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/en-asie-les-regulateurs-tentent-darreter-lhemorragie-des-marches-2264569"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "17h47",
+        "titre": "Les Etats-Unis lèvent le voile sur la dernière mouture de la muraille douanière de Donald Trump",
+        "resume": "Ces nouveaux droits de douane visent à remplacer durablement les tarifs « réciproques » jugés illégaux par la Cour suprême. Ils s'ajoutent aux taxes perçues au nom de la lutte contre le travail forcé.",
+        "url": "https://www.lesechos.fr/monde/etats-unis/les-etats-unis-levent-le-voile-sur-la-derniere-mouture-de-la-muraille-douaniere-de-donald-trump-2264581"
       }
     ]
   },
@@ -74,38 +73,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "20h03",
-        "titre": "Stellantis se retire de toutes les compétitions automobiles pour redresser sa rentabilité",
-        "resume": "Le géant mondial de l’automobile mise sur l’innovation et recentre son plan stratégique en réaffectant ses équipes sportives à de nouveaux projets industriels.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/23/stellantis-se-retire-de-toutes-les-competitions-automobiles-pour-redresser-sa-rentabilite_6814429_3234.html"
+        "heure": "09h42",
+        "titre": "Stellantis supprime l’équipe de nuit de l’usine de Sochaux, 500 emplois concernés dès janvier",
+        "resume": "Il s’agit de la deuxième annonce sociale d’ampleur de la semaine pour le constructeur des marques Peugeot, Citroën et Opel. Il avait annoncé, lundi, retirer ses écuries de la compétition automobile.",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/25/stellantis-supprime-l-equipe-de-nuit-de-l-usine-de-sochaux-500-emplois-concernes-des-janvier_6815054_1656968.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "23h35",
+        "titre": "Le constructeur automobile chinois BYD va s’implanter en France",
+        "resume": "Le groupe a annoncé, mardi 24 novembre, son projet de rachat d’une usine à Hambach, en Moselle. Il cherche depuis un an à produire ses véhicules en Europe pour contourner les droits de douane.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-constructeur-automobile-chinois-byd-va-s-implanter-en-france_6814850_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "19h16",
+        "titre": "Ikea cherche la parade face à l’effritement du marché de la maison",
+        "resume": "L’enseigne va poursuivre des campagnes massives de baisse des tarifs et tester l’implantation de grands espaces de « seconde chance » pour séduire les consommateurs à la recherche de prix cassés.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/24/ikea-cherche-la-parade-face-a-l-effritement-du-marche-de-la-maison_6814816_3234.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "15h08",
+        "titre": "Sanofi, en s’offrant l’américain Insmed, se lance dans la plus importante acquisition de son histoire depuis 2004",
+        "resume": "Le groupe pharmaceutique français met la main, pour 37,6 milliards d’euros, sur ce spécialiste du traitement des maladies respiratoires. La biotech dispose déjà d’un médicament réalisant plus de 1 milliard de dollars de recettes annuelles et de plusi",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/24/sanofi-pret-a-debourser-37-6-milliards-d-euros-pour-l-americain-insmed-un-specialiste-du-traitement-des-maladies-respiratoires_6814758_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "17h30",
-        "titre": "2 000 embauches et 1 090 départs : Renault poursuit sa stratégie de réduction des coûts mais pourrait mettre en péril ses futurs modèles",
-        "resume": "Renault Group a annoncé la semaine dernière 2 000 créations de postes d’ici à 2028, principalement de « cols bleus », et 1 000 départs volontaires chez les « cols blancs » en France. La marque au losange poursuit ainsi sa stratégie de réduction des",
-        "url": "https://www.challenges.fr/automobile/2-000-embauches-et-1-090-departs-renault-poursuit-sa-strategie-de-reduction-des-couts-mais-pourrait-mettre-en-peril-ses-futurs-modeles_647117"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h30",
-        "titre": "« Dans ce nouveau monde, la seule certitude est l’incertitude » : Benoit Bazin, PDG de Saint-Gobain",
-        "resume": "En prélude au Sommet de l’économie qui se tiendra le Jeudi 26 novembre, sur le thème « Quand la géopolitique s’invite au conseil d’administration », Benoit Bazin, PDG de Saint-Gobain, explique comment le groupe s’adapte aux nouvelles réalités géopol",
-        "url": "https://www.challenges.fr/sommet-de-leconomie/dans-ce-nouveau-monde-la-seule-certitude-est-lincertitude-benoit-bazin-pdg-de-saint-gobain_647091"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h10",
-        "titre": "« Pour garder une industrie compétitive et souveraine, il faut reconnaître la valeur de l’innovation » : Belén Garijo, directrice générale de Sanofi",
-        "resume": "En prélude au Sommet de l’économie qui se tiendra le Jeudi 26 novembre, sur le thème « Quand la géopolitique s’invite au conseil d’administration », Belén Garijo, directrice générale de Sanofi, revient sur les défis de l’industrie pharmaceutique eur",
-        "url": "https://www.challenges.fr/sommet-de-leconomie/pour-garder-une-industrie-competitive-et-souveraine-il-faut-reconnaitre-la-valeur-de-linnovation-belen-garijo-directrice-generale-de-sanofi_647090"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "17h01",
-        "titre": "Le leader français de l'hospitalier privé Ramsay Santé devient indépendant",
-        "resume": "Son actionnaire majoritaire australien distribuera le 9 décembre sa participation de 52,79 % à ses propres actionnaires. Le groupe français se met en ordre de marche, explique son dirigeant Pascal Roché aux « Echos ».",
-        "url": "https://www.lesechos.fr/industrie-services/pharmacie-sante/le-leader-francais-de-lhospitalier-prive-ramsay-sante-devient-independant-2264337"
+        "heure": "08h45",
+        "titre": "« La souveraineté numérique se construit, avec des technologies et des acteurs industriels solides » : Christel Heydemann, directrice générale d’Orange",
+        "resume": "En prélude au Sommet de l’économie qui se tiendra ce jeudi 26 novembre sur le thème « Quand la géopolitique s’invite au conseil d’administration », Christel Heydemann, directrice générale d’Orange, détaille comment le groupe compte sécuriser ses inf",
+        "url": "https://www.challenges.fr/sommet-de-leconomie/la-souverainete-numerique-se-construit-avec-des-technologies-et-des-acteurs-industriels-solides-christel-heydemann-directrice-generale-dorange_647149"
       }
     ]
   },
@@ -115,7 +114,7 @@
         "source": "Le Monde Eco",
         "heure": "15h08",
         "titre": "Sanofi, en s’offrant l’américain Insmed, se lance dans la plus importante acquisition de son histoire depuis 2004",
-        "resume": "Le groupe pharmaceutique français met la main, pour 37,6 milliards d’euros, sur ce spécialiste du traitement des maladies respiratoires. La biotech dispose déjà d’un médicament réalisant plus d’1 milliard de dollars de recettes annuelles et de plusie",
+        "resume": "Le groupe pharmaceutique français met la main, pour 37,6 milliards d’euros, sur ce spécialiste du traitement des maladies respiratoires. La biotech dispose déjà d’un médicament réalisant plus de 1 milliard de dollars de recettes annuelles et de plusi",
         "url": "https://www.lemonde.fr/economie/article/2026/11/24/sanofi-pret-a-debourser-37-6-milliards-d-euros-pour-l-americain-insmed-un-specialiste-du-traitement-des-maladies-respiratoires_6814758_3234.html"
       },
       {
@@ -133,18 +132,18 @@
         "url": "https://www.challenges.fr/entreprise/sante/acquisition-majeure-pour-sanofi-et-la-france-le-geant-pharmaceutique-absorbe-la-biotech-americaine-insmed-pour-376-milliards-deuros_647144"
       },
       {
-        "source": "Le Figaro",
-        "heure": "11h10",
-        "titre": "La société de gestion HLD et Crédit agricole souhaitent prendre le contrôle de Clariane",
-        "resume": "Déjà actionnaire de référence, HLD Europe projette de se renforcer au capital du groupe d’Ehpad privés. Avec Crédit agricole Assurances, ils détiendraient 53% du groupe. Confronté l’an dernier à des difficultés financières, celui-ci est aujourd’hui f",
-        "url": "https://www.lefigaro.fr/societes/la-societe-de-gestion-hld-et-credit-agricole-souhaitent-prendre-le-controle-de-clariane-20261124"
+        "source": "Challenges",
+        "heure": "13h00",
+        "titre": "Investissement immobilier : MIMCO démocratise les Clubs Deals institutionnels",
+        "resume": "Acteur paneuropéen de l’investissement immobilier,&nbsp;MIMCO s’est imposé dans les&nbsp;clubs deals, longtemps réservés à un cercle restreint d’initiés. Issu d’un milieu éloigné de la finance, Christophe Nadal, fondateur du Groupe&nbsp;MIMCO, est a",
+        "url": "https://www.challenges.fr/partenaires/investissement-immobilier-mimco-democratise-les-clubs-deals-institutionnels_647130"
       },
       {
         "source": "Challenges",
-        "heure": "18h00",
-        "titre": "Sébastien Bazin dans l’œil du cyclone : le PDG du groupe Accor va-t-il résister à la pression de son premier actionnaire ?",
-        "resume": "Premier actionnaire d’Accor, le fonds activiste britannique Parvus demande le départ du PDG et dénonce sa stratégie peu cohérente. Selon les informations de Challenges, un investisseur inédit est, de son côté, en train de lorgner le groupe hôtelier.",
-        "url": "https://www.challenges.fr/entreprise/sebastien-bazin-dans-loeil-du-cyclone-le-pdg-du-groupe-accor-va-t-il-resister-a-la-pression-de-son-premier-actionnaire_647120"
+        "heure": "09h59",
+        "titre": "De Glucksmann à Zemmour, en passant par Teddy Riner : au Congrès des maires de France, la course aux parrainages pour la présidentielle est lancée",
+        "resume": "À l’exception de Marine Le Pen et de Jean-Luc Mélenchon, la plupart des candidats à l’Élysée seront présents au 108e Congrès des maires de France, qui se tient à partir de ce mardi 24 novembre à Paris. Au programme : une offensive de charme pour rec",
+        "url": "https://www.challenges.fr/politique/de-glucksmann-a-zemmour-en-passant-par-teddy-riner-au-congres-des-maires-de-france-la-course-aux-parrainages-pour-la-presidentielle-est-lancee_647137"
       }
     ]
   },
@@ -152,38 +151,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Les épargnants ont retiré près de 10 milliards d’euros de leurs Livret A depuis janvier, un record depuis dix ans",
-        "resume": "Les discussions sur la hausse de son plafond, voulue par le gouvernement, sont toujours en cours. Son taux d’intérêt pourrait passer de 1,7 % actuellement à 2,8 % en février.",
-        "url": "https://www.lemonde.fr/argent/article/2026/11/24/les-epargnants-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livret-a-depuis-janvier-un-record-depuis-dix-ans_6814708_1657007.html"
+        "heure": "15h29",
+        "titre": "L’Union européenne veut créer un fonds souverain de 50 milliards d’euros pour investir dans l’informatique quantique et l’intelligence artificielle",
+        "resume": "L’Europe dispose déjà d’une avance indéniable sur le terrain de la recherche de l’informatique quantique, mais peine à la traduire en activités commerciales.",
+        "url": "https://www.lemonde.fr/international/article/2026/11/25/l-union-europeenne-veut-creer-un-fonds-souverain-de-50-milliards-d-euros-pour-investir-dans-l-informatique-quantique-et-l-intelligence-artificielle_6815093_3210.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "07h00",
-        "titre": "Inflation : pourquoi la hausse des cours de l’énergie tarde à se répercuter sur l’ensemble des prix en France",
-        "resume": "L’atonie de l’activité économique française et la remontée du chômage freinent la répercussion de l’envolée des cours du pétrole et du gaz à l’ensemble de l’économie. Mais la donne pourrait changer.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/inflation-pourquoi-la-hausse-des-cours-de-l-energie-tarde-a-se-repercuter-sur-l-ensemble-des-prix-en-france_6814604_3234.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "15h15",
-        "titre": "Dérapage de la dette publique : « Même avec un déficit avant intérêts ramené à zéro d'ici 2031, la dette française augmenterait à 124 % du PIB »",
-        "resume": "La France a trop attendu pour freiner sérieusement l'effet « boule de neige » de sa dette publique, et s'en retrouve sanctionnée par les marchés. Pour Marcello Estevão, économiste en chef de l'Institut de la finance internationale, l'ajustement doit ",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/derapage-de-la-dette-publique-meme-avec-un-deficit-avant-interets-ramene-a-zero-dici-2031-la-dette-francaise-augmenterait-a-124-du-pib-2264060"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "08h00",
-        "titre": "« C'est inquiétant » : les banques financent encore trop les énergies fossiles par rapport aux renouvelables",
-        "resume": "Les plus grands établissements financiers ont accordé 0,72 dollar aux renouvelables pour chaque dollar accordé aux fossiles en 2025, selon la dernière étude de Reclaim Finance. Pour les banques françaises, le ratio est meilleur, mais reste encore tro",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/cest-inquietant-les-banques-financent-encore-trop-les-energies-fossiles-par-rapport-aux-renouvelables-2264198"
+        "heure": "12h39",
+        "titre": "L’Union européenne veut se doter d’une stratégie industrielle sur l’informatique quantique",
+        "resume": "La Commission a présenté, mercredi 25 novembre, le Quantum Act, un plan qui vise à accélérer le passage à l’usage industriel de cette technologie capable de traiter des quantités de données plus importantes que l’informatique actuelle.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/25/l-union-europeenne-veut-se-doter-d-une-strategie-industrielle-sur-l-informatique-quantique_6815075_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "23h43",
-        "titre": "La France va créer des stocks stratégiques de terres rares et de métaux prioritaires pour réduire sa dépendance à la Chine d’ici à 2027",
-        "resume": "La Caisse des dépôts, qui pilotera le projet, va consulter les industriels des secteurs stratégiques utilisant ces matières premières.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/23/la-france-va-creer-des-stocks-strategiques-de-terres-rares-et-de-metaux-prioritaires-pour-reduire-sa-dependance-a-la-chine-d-ici-a-2027_6814452_3234.html"
+        "heure": "08h26",
+        "titre": "Au Bangladesh, les ouvriers du textile, secteur-clé de l’économie nationale, obtiennent une revalorisation du salaire minimum",
+        "resume": "Début novembre, de nombreux salariés, confrontés à la cherté du coût de la vie, ont manifesté pendant plusieurs jours pour réclamer une hausse des rémunérations. La principale association patronale du secteur a estimé à plusieurs centaines de million",
+        "url": "https://www.lemonde.fr/international/article/2026/11/25/au-bangladesh-les-ouvriers-du-textile-secteur-cle-de-l-economie-nationale-obtiennent-une-revalorisation-du-salaire-minimum_6815049_3210.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "09h52",
+        "titre": "Automobile : les ventes de voitures neuves dans l’UE augmentent, tirées par les véhicules électriques",
+        "resume": "Les immatriculations de voitures neuves dans l’Union européenne sont en hausse de 5,4 % sur les dix premiers mois de l’année, soit 9,46 millions de véhicules vendus, les voitures électriques représentant presque le quart des ventes.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/24/automobile-les-ventes-de-voitures-neuves-dans-l-ue-augmentent-tirees-par-les-vehicules-electriques_6814715_3234.html"
+      },
+      {
+        "source": "Les Echos",
+        "heure": "09h30",
+        "titre": "Pouvoir d'achat : ces Etats européens à court de marges de manoeuvre pour venir à la rescousse des ménages",
+        "resume": "Face à une inflation persistante et des salaires en faible hausse, les ménages européens voient leur pouvoir d'achat s'éroder. Les marges budgétaires des Etats se réduisent, limitant leur capacité à soutenir l'économie.",
+        "url": "https://www.lesechos.fr/monde/europe/pouvoir-dachat-ces-etats-europeens-a-court-de-marges-de-manoeuvre-pour-venir-a-la-rescousse-des-menages-2264216"
       }
     ]
   },
@@ -191,38 +190,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "13h26",
-        "titre": "L’UE limite les importations de voitures hybrides en provenance de Chine, comme convenu le mois dernier avec Pékin",
-        "resume": "La Chine a accepté, en octobre, de plafonner à 350 000 par an le nombre de véhicules qu’elle peut exporter vers l’UE, qui accusait ses industriels d’inonder le marché européen avec des modèles bon marché.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/l-ue-limite-les-importations-de-voitures-hybrides-en-provenance-de-chine-comme-convenu-le-mois-dernier-avec-pekin_6814744_3234.html"
+        "heure": "16h40",
+        "titre": "Présidentielle 2027 : le gouvernement défend la tenue du deuxième tour le 2 mai, et s’engage à ce que le 1ᵉʳ-Mai se passe « dans les meilleures conditions possibles »",
+        "resume": "« Le choix a été fait en fonction de la maximisation de la participation des Français (…) s’agissant notamment de la période des vacances scolaires », a fait valoir le porte-parole Mathieu Lefèvre, laissant entendre que cette date serait maintenue ma",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/25/presidentielle-2027-le-gouvernement-defend-la-tenue-du-deuxieme-tour-du-scrutin-le-2-mai-et-s-engage-a-ce-que-le-1er-mai-se-passe-dans-les-meilleures-conditions-possibles_6815102_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "13h22",
-        "titre": "Jensen Huang de retour à la tête de Nvidia, sous l’influence de Donald Trump",
-        "resume": "Le PDG de Nvidia a été réintégré, lundi, par le conseil d’administration du géant des semi-conducteurs. Son retour a provoqué un bond de 31 % de l’entreprise en Bourse. Plusieurs parlementaires, démocrates et républicains, réclament des explications.",
-        "url": "https://www.lemonde.fr/international/video/2026/11/24/jensen-huang-de-retour-a-la-tete-de-nvidia-sous-l-influence-de-donald-trump_6814742_3210.html"
+        "heure": "15h43",
+        "titre": "David Lisnard, candidat à l’élection présidentielle, réélu à la tête de l’Association des maires de France",
+        "resume": "Le maire de Cannes a annoncé sa victoire sur « X », où il s’est réjoui d’« un magnifique résultat qui nous permettra de toujours mieux faire entendre la voix des libertés locales, des réalités du terrain, de l’avenir d’une France du concret et des so",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/25/david-lisnard-candidat-a-l-election-presidentielle-reelu-a-la-tete-de-l-association-des-maires-de-france_6815094_823448.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "11h52",
-        "titre": "PAC : Emmanuel Macron recevra les syndicats agricoles mercredi pour faire le point sur le prochain budget européen",
-        "resume": "La dernière proposition budgétaire européenne pour la période 2028-2034 sera discutée jeudi et vendredi lors d’un sommet à Bruxelles. Cette proposition « est très décevante », a réagi samedi la présidence française, où l’on estime que « le compte n’y",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/24/pac-emmanuel-macron-recevra-les-syndicats-agricoles-mercredi-pour-faire-le-point-sur-le-prochain-budget-europeen_6814725_823448.html"
+        "heure": "07h15",
+        "titre": "Présidentielle 2027 : au RN, la certitude de la victoire enivre les élus et inquiète Marine Le Pen",
+        "resume": "Les adversaires du Rassemblement national soulignent l’arrogance des députés d’extrême droite dans les médias, les réseaux sociaux et à l’Assemblée nationale. De récents faux pas de communication attestent d’un état d’esprit euphorique.",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/25/presidentielle-2027-au-rn-la-certitude-de-la-victoire-enivre-les-elus-et-inquiete-marine-le-pen_6815034_823448.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "23h43",
-        "titre": "La France va créer des stocks stratégiques de terres rares et de métaux prioritaires pour réduire sa dépendance à la Chine d’ici à 2027",
-        "resume": "La Caisse des dépôts, qui pilotera le projet, va consulter les industriels des secteurs stratégiques utilisant ces matières premières.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/23/la-france-va-creer-des-stocks-strategiques-de-terres-rares-et-de-metaux-prioritaires-pour-reduire-sa-dependance-a-la-chine-d-ici-a-2027_6814452_3234.html"
+        "source": "Challenges",
+        "heure": "14h00",
+        "titre": "« Un des buts de Poutine est d’épuiser l’Ukraine et la volonté politique de l’Europe » : l’alerte du Premier ministre estonien pour ne pas lâcher Kiev",
+        "resume": "Ne nous laissons pas endormir par les projets de Poutine sur la sécurité en Europe, exhorte Kristen Michal, Premier ministre d’Estonie, dans une tribune à The Economist. Chef du gouvernement depuis juillet 2024, ce jeune quinquagénaire libéral est p",
+        "url": "https://www.challenges.fr/monde/un-des-buts-de-poutine-est-depuiser-lukraine-et-la-volonte-politique-de-leurope-lalerte-du-premier-ministre-estonien-pour-ne-pas-lacher-kiev_647140"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "22h57",
-        "titre": "Grand Paris Express : l’ouverture de la nouvelle ligne 18 du métro compromise et sans doute reportée à 2027",
-        "resume": "Valérie Pécresse, présidente de la région Ile-de-France, a convoqué une réunion d’urgence avec les acteurs concernés et enjoint à Alstom, concepteur du système d’automatisation, de trouver « des solutions pour fiabiliser son logiciel ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/23/grand-paris-express-l-ouverture-de-la-nouvelle-ligne-18-du-metro-plus-compromise-que-jamais_6814446_3234.html"
+        "source": "Les Echos",
+        "heure": "17h20",
+        "titre": "Créer 50 provinces pour remplacer régions et départements, cette proposition de David Lisnard qui divise le RN",
+        "resume": "Pour simplifier le millefeuille administratif, le maire de Cannes et président de l'AMF propose de créer un seul échelon, la province. En plein Congrès des maires, la proposition fait débat au Rassemblement national, qui doit se mettre d'accord avec ",
+        "url": "https://www.lesechos.fr/elections/programmes-dechiffres/creer-50-provinces-pour-remplacer-regions-et-departements-cette-proposition-de-david-lisnard-qui-divise-le-rn-2264567"
       }
     ]
   },
@@ -230,10 +229,10 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "08h00",
-        "titre": "Les épargnants ont retiré près de 10 milliards d’euros de leurs Livret A depuis janvier, un record depuis dix ans",
-        "resume": "Les discussions sur la hausse de son plafond, voulue par le gouvernement, sont toujours en cours. Son taux d’intérêt pourrait passer de 1,7 % actuellement à 2,8 % en février.",
-        "url": "https://www.lemonde.fr/argent/article/2026/11/24/les-epargnants-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livret-a-depuis-janvier-un-record-depuis-dix-ans_6814708_1657007.html"
+        "heure": "21h42",
+        "titre": "La Commission européenne se montre indulgente sur la situation budgétaire française",
+        "resume": "Le commissaire chargé de la planification, Valdis Dombrovskis, écoutant le ministre de l’économie Roland Lescure, table sur l’adoption du budget 2027 par le Parlement français. Avant les élections, la Commission marche sur des œufs et retient ses cri",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/24/la-commission-europeenne-se-montre-indulgente-sur-la-situation-budgetaire-francaise_6814840_3234.html"
       },
       {
         "source": "Challenges",
@@ -244,36 +243,35 @@
       },
       {
         "source": "Les Echos",
-        "heure": "15h15",
-        "titre": "Dérapage de la dette publique : « Même avec un déficit avant intérêts ramené à zéro d'ici 2031, la dette française augmenterait à 124 % du PIB »",
-        "resume": "La France a trop attendu pour freiner sérieusement l'effet « boule de neige » de sa dette publique, et s'en retrouve sanctionnée par les marchés. Pour Marcello Estevão, économiste en chef de l'Institut de la finance internationale, l'ajustement doit ",
-        "url": "https://www.lesechos.fr/idees-debats/cercle/derapage-de-la-dette-publique-meme-avec-un-deficit-avant-interets-ramene-a-zero-dici-2031-la-dette-francaise-augmenterait-a-124-du-pib-2264060"
+        "heure": "08h00",
+        "titre": "« C'est inquiétant » : les banques financent encore trop les énergies fossiles par rapport aux renouvelables",
+        "resume": "Les plus grands établissements financiers ont accordé 0,72 dollar aux renouvelables pour chaque dollar accordé aux fossiles en 2025, selon la dernière étude de Reclaim Finance. Pour les banques françaises, le ratio est meilleur, mais reste encore tro",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/cest-inquietant-les-banques-financent-encore-trop-les-energies-fossiles-par-rapport-aux-renouvelables-2264198"
       },
       {
-        "source": "Les Echos",
-        "heure": "16h01",
-        "titre": "Retraite par capitalisation : rendre l'offre obligatoire dans toutes les entreprises pour sauver la répartition",
-        "resume": "Le cabinet de conseil YCE Partners, spécialisé en protection sociale et assurance, publie un livre blanc consacré à l'introduction d'une part obligatoire de retraite par capitalisation dans notre système de retraite. Et pour lui, cela passera nécessa",
-        "url": "https://www.lesechos.fr/patrimoine/retraite/retraite-par-capitalisation-rendre-loffre-obligatoire-dans-toutes-les-entreprises-pour-sauver-la-repartition-2264318"
+        "source": "Le Figaro",
+        "heure": "15h12",
+        "titre": "Budget de l’UE : Emmanuel Macron menace de mettre fin aux négociations faute d’accord en décembre",
+        "resume": "À la veille d’un sommet européen à Bruxelles, l’Élysée accentue la pression sur ses partenaires, dénonçant les économies envisagées et les incertitudes qui pèsent sur les aides agricoles.",
+        "url": "https://www.lefigaro.fr/international/budget-de-l-ue-emmanuel-macron-menace-de-mettre-fin-aux-negociations-faute-d-accord-en-decembre-20261125"
       },
       {
-        "source": "Challenges",
-        "heure": "10h54",
-        "titre": "« C’est une forme d’assurance-vie » : la règle d’or budgétaire en France, une idée à laquelle Emmanuel Macron ouvre la porte",
-        "resume": "Emmanuel Macron a indiqué ce lundi 23 novembre au Figaro qu’il envisageait de faire adopter en janvier prochain une règle d’or budgétaire, qui permettrait d’encadrer le redressement des finances publiques, « s’il y a encore de la volatilité » sur le",
-        "url": "https://www.challenges.fr/economie/cest-une-forme-dassurance-vie-la-regle-dor-budgetaire-en-france-une-idee-a-laquelle-emmanuel-macron-ouvre-la-porte_647109"
+        "source": "Le Figaro",
+        "heure": "11h30",
+        "titre": "Comment bien utiliser son PER après 70 ans ?",
+        "resume": "NOS CONSEILS - S’il s’avère moins intéressant fiscalement, le plan d’épargne-retraite reste un placement judicieux, notamment grâce aux taux de rémunération boostés.",
+        "url": "https://www.lefigaro.fr/finances-perso/comment-bien-utiliser-son-per-apres-70-ans-20261125"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.027,
-        "prev": 3.03,
-        "diff": -0.003,
+        "rate": 3.017,
+        "prev": 3.027,
+        "diff": -0.01,
         "trend": "down",
-        "date": "2026-11-23",
+        "date": "2026-11-24",
         "history": [
-          3.019,
           3.045,
           3.075,
           3.072,
@@ -282,18 +280,18 @@
           3.086,
           3.125,
           3.03,
-          3.027
+          3.027,
+          3.017
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.076,
-        "prev": 3.101,
-        "diff": -0.025,
+        "rate": 3.059,
+        "prev": 3.076,
+        "diff": -0.017,
         "trend": "down",
-        "date": "2026-11-23",
+        "date": "2026-11-24",
         "history": [
-          3.085,
           3.097,
           3.131,
           3.148,
@@ -302,18 +300,18 @@
           3.151,
           3.188,
           3.101,
-          3.076
+          3.076,
+          3.059
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.321,
-        "prev": 3.361,
-        "diff": -0.04,
+        "rate": 3.312,
+        "prev": 3.321,
+        "diff": -0.009,
         "trend": "down",
-        "date": "2026-11-23",
+        "date": "2026-11-24",
         "history": [
-          3.331,
           3.34,
           3.367,
           3.412,
@@ -322,18 +320,18 @@
           3.41,
           3.442,
           3.361,
-          3.321
+          3.321,
+          3.312
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.621,
-        "prev": 3.667,
-        "diff": -0.046,
+        "rate": 3.613,
+        "prev": 3.621,
+        "diff": -0.008,
         "trend": "down",
-        "date": "2026-11-23",
+        "date": "2026-11-24",
         "history": [
-          3.606,
           3.627,
           3.648,
           3.705,
@@ -342,18 +340,18 @@
           3.705,
           3.729,
           3.667,
-          3.621
+          3.621,
+          3.613
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.615,
-        "prev": 3.655,
-        "diff": -0.04,
+        "rate": 3.603,
+        "prev": 3.615,
+        "diff": -0.012,
         "trend": "down",
-        "date": "2026-11-23",
+        "date": "2026-11-24",
         "history": [
-          3.572,
           3.603,
           3.619,
           3.672,
@@ -362,7 +360,8 @@
           3.676,
           3.692,
           3.655,
-          3.615
+          3.615,
+          3.603
         ]
       }
     ]
@@ -370,43 +369,91 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,847 milliards USD",
-      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en novembre 2026, portée par l'adoption massive de l'IA générative et des technologies quantiques. Cette croissance reflète une redistribution majeure du capital vers les secteurs technologiques et énergétiques décarbonés.",
-      "source": "World Bank Financial Indicators, novembre 2026"
+      "chiffre": "2,3 trillions USD",
+      "contexte": "Le marché mondial des cryptomonnaies a atteint cette capitalisation en novembre 2026, dopé par l'adoption institutionnelle massive et la régulation clarifiée en zones clés. Cette croissance représente une multiplication par 8 depuis 2020.",
+      "source": "CoinGecko - Novembre 2026"
     },
     "ephemeride": {
-      "evenement": "Le 24 novembre 1963 : fermeture des marchés américains suite à l'assassinat du président Kennedy, première suspension depuis 1933",
-      "impact": "Cet événement a établi les protocoles de continuité des marchés financiers et démontré la vulnérabilité systémique des places boursières aux chocs politiques majeurs."
+      "evenement": "25 novembre 2008 - Faillite de Lehman Brothers (il y a 18 ans)",
+      "impact": "Cet effondrement a déclenché la crise financière mondiale et révolutionné la régulation bancaire internationale via Bâle III et les stress tests."
     },
     "graphique_semaine": {
-      "titre": "Evolution du taux de rendement des obligations vertes vs conventionnelles",
-      "description": "Les obligations vertes affichent désormais un rendement supérieur aux obligations traditionnelles pour la première fois depuis 2022, inversant une tendance de 4 ans. Cette convergence reflète la repréciation du risque climatique et l'augmentation des allocations ESG institutionnelles vers les actifs durables.",
+      "titre": "Évolution du rendement obligataire US 10Y (Semaine du 19-25 novembre 2026)",
+      "description": "Les taux obligataires US ont connu une volatilité accrue cette semaine suite aux données d'inflation modérées publiées lundi. La Fed maintient sa trajectoire attentiste, créant une incertitude sur les marchés. Les investisseurs rééquilibrent progressivement vers les obligations après une sous-exposition prolongée.",
       "donnees": [
         {
-          "label": "Lundi",
-          "valeur": 3.2
+          "label": "Lundi 19",
+          "valeur": 4.18
         },
         {
-          "label": "Mardi",
-          "valeur": 3.45
+          "label": "Mardi 20",
+          "valeur": 4.09
         },
         {
-          "label": "Mercredi",
-          "valeur": 3.68
+          "label": "Mercredi 21",
+          "valeur": 4.15
         },
         {
-          "label": "Jeudi",
-          "valeur": 3.81
-        },
-        {
-          "label": "Vendredi",
+          "label": "Jeudi 22",
           "valeur": 4.12
+        },
+        {
+          "label": "Vendredi 25",
+          "valeur": 4.21
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape réforme la pastorale des prisons, créant un nouveau réseau mondial",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/motu-proprio-pape-leon-pastorale-carcerale.html",
+        "resume": "Dans un motu proprio publié ce 25 novembre, Léon XIV supprime la Commission internationale de la pastorale pénitentiaire catholique et institue le Service d’animation de la pastorale pénitentiaire, rattaché au dicastère pour le Service du Développeme",
+        "pub": "Wed, 25 Nov 2026 13:03:00 +0100",
+        "heure": "15h03"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Tradition vivante et piété populaire: le visage d'un Dieu proche des hommes",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/editorial-andrea-tornielli-vatican-discours-pape-leon-theologie.html",
+        "resume": "Dans son discours devant la Commission théologique internationale, le Pape a indiqué les deux thèmes à approfondir. Lors de la catéchèse du mercredi 25 novembre, Léon a donné un exemple de l’évolution du Magistère en parlant de la paix. Ils sont l’ex",
+        "pub": "Wed, 25 Nov 2026 12:47:00 +0100",
+        "heure": "14h47"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape déplore l’absence d’engagements concrets à l’issue de la COP31",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-leon-xiv-cop-31-climat-turquie-appel-audience-generale.html",
+        "resume": "Lors de l’audience générale de ce mercredi 25 novembre, le Pape Léon XIV a appelé la communauté internationale à «un engagement renouvelé en faveur d’une culture du respect de la Création», quelques jours après l’échec de la 31e Conférence des Nation",
+        "pub": "Wed, 25 Nov 2026 11:57:00 +0100",
+        "heure": "13h57"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV appelle lors de l’audience générale les chrétiens à construire la paix",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/audience-generale-leon-xiv-chretiens-construire-la-paix.html",
+        "resume": "Après la pause due à son voyage apostolique en Amérique latine, le Pape reprend son cycle de catéchèses dédiées à la constitution Gaudium et spes du Concile Vatican II, consacré à la promotion de la paix. Lors de l’audience générale place Saint-Pierr",
+        "pub": "Wed, 25 Nov 2026 10:21:00 +0100",
+        "heure": "12h21"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Léon XIV plaide pour une nouvelle phase d'inculturation de la foi",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-leon-commission-theologique-internationale.html",
+        "resume": "Recevant ce mercredi matin les membres de la Commission Théologique Internationale qui tient son assemblée plénière, le Pape a rappelé que la tradition apostolique et l’inculturation «sont deux aspects essentiels du ministère pastoral, qui exigent fi",
+        "pub": "Wed, 25 Nov 2026 08:48:00 +0100",
+        "heure": "10h48"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le cardinal Pizzaballa reçoit \"la colombe d'or\" pour la paix",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/patriarche-latin-jerusalem-paix-recompense.html",
+        "resume": "Le patriarche latin de Jérusalem a reçu cette distinction internationale décernée lors d’une cérémonie à l’université La Sapienza de Rome. En marge de cet événement, le cardinal italien a rappelé à la communauté internationale ses responsabilités fac",
+        "pub": "Tue, 24 Nov 2026 18:23:00 +0100",
+        "heure": "20h23"
+      },
       {
         "source": "Vatican News",
         "titre": "Le calendrier des célébrations du Pape pendant la période de Noël",
@@ -478,38 +525,6 @@
         "resume": "L’Université Tangaza de Nairobi a abrité, du 19 au 21 novembre, une conférence internationale panafricaine organisée en collaboration avec l'Université Saint Mary’s du Minnesota et la Fondation Joseph Ratzinger. Le président de ladite Fondation, le p",
         "pub": "Sun, 22 Nov 2026 18:26:00 +0100",
         "heure": "20h26"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Déjeuner du Pape avec les pauvres: «Nous formons tous une même famille»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-dejeuner-avec-les-pauvres-salle-paul-xiv.html",
-        "resume": "Après la prière de l'Angélus, Léon XIV a partagé ce 22 novembre, un repas avec les personnes démunies. Le déjeuner a été servi par la Croix-Rouge grâce à l’engagement de plus de 400 bénévoles, dont plus de 250 se sont chargés de dresser plus de 100 t",
-        "pub": "Sun, 22 Nov 2026 14:20:00 +0100",
-        "heure": "16h20"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Léon XIV exhorte à trouver rapidement des solutions de paix faces aux guerres",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-angelus-jmj-pauvres-moniales-et-les-moines.html",
-        "resume": "Après la récitation de la prière de l’Angélus, le Pape a renouvelé son appel à la prière pour les victimes des conflits et se dit proche des pays du Pacifique touchés par la sécheresse. Évoquant la célébration de la Journée mondiale de la jeunesse da",
-        "pub": "Sun, 22 Nov 2026 12:37:00 +0100",
-        "heure": "14h37"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Caritas Ukraine: «L'évacuation d'Oleshky, une action profondément humaine»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/caritas-ukraine-evacuation-d-oleshky-tetiana-stawnychy.html",
-        "resume": "Tetiana Stawnychy, présidente de Caritas Ukraine, raconte aux médias du Vatican sa rencontre avec le Pape Léon XIV et l’évacuation de centaines de personnes de la ville occupée d’Oleshky. Alors que les attaques contre les infrastructures énergétiques",
-        "pub": "Sun, 22 Nov 2026 11:40:00 +0100",
-        "heure": "13h40"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Angélus: «Nous sommes tous égaux devant la loi de Dieu»",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/angelus-nous-sommes-tous-egaux-devant-la-loi-de-dieu.html",
-        "resume": "En ce dimanche 22 novembre, l’Église célèbre la solennité du Christ, Roi de l’univers. Dans sa méditation qui a précédé la prière de l’angélus depuis la fenêtre des appartements pontificaux, le Saint-Père a invité les fidèles à redécouvrir le sens pr",
-        "pub": "Sun, 22 Nov 2026 11:31:00 +0100",
-        "heure": "13h31"
       }
     ]
   }
