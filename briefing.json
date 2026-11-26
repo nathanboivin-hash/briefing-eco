@@ -1,31 +1,24 @@
 {
-  "timestamp": "15h03 le 25/11/2026",
-  "alerte": {
-    "titre": "Escalade douanière Trump vs UE-Chine : volatilité accrue attendue",
-    "impact": "Nouvelles salves de droits de douane imminentes contre UE, Chine, Mexique. Risque de représailles sectorielles immédiat. Révision baissière de croissance 2027 probable pour zone euro."
-  },
+  "timestamp": "14h32 le 26/11/2026",
+  "alerte": "Risque de fragmentation budgétaire européenne et contentieux réglementaires majeurs pesant sur les valuations",
   "synthese": {
-    "resume": "Environnement macro-géopolitique dégradé : Trump persiste sur les tarifs douaniers malgré contexte électoral, créant volatilité FX et révision des forecasts de croissance. L'UE accélère sa riposte industrielle (50Mds€ fonds quantique-IA) tandis que les acquisitions stratégiques se poursuivent (Sanofi-Insmed 37,6Mds€). Tensions géopolitiques persistantes (Ukraine, Houthis) pèsent sur l'énergie. Marché du travail fragile : Stellantis -500 emplois à Sochaux, prestations sociales sous audit (fraudes apprentissage). Les marchés intègrent progressivement une prime de risque politique accrue pour 2027.",
+    "resume": "La France bloque le budget européen (Benjamin Haddad, Challenges 19h00) tandis que l'Allemagne s'engage dans un endettement historique pour financer le réarmement et la transition. Parallèlement, les autorités intensifient les contrôles sectoriels (cartel des parfums: €500M d'amendes UE, airbags Takata chez Stellantis, jouets dangereux en ligne). Le marché du luxe reste fragmenté (Prada-Versace, eau premium 45,2 Mds$). Les taux obligataires européens restent sous pression géopolitique avec les tensions commerciales Trump (droits de douane étendus) et les impératifs de souveraineté numérique.",
     "points": [
       {
-        "titre": "Tarifs Trump : impact UE estimé à 2-3% de croissance potentielle",
-        "detail": "Nouvelles salves de droits de douane contre UE, Chine, Mexique annoncées malgré opposition électorale. Secteurs automobiles/chimie/aéronautique exposés. EUR/USD sous pression accentuée. Prévisions croissance zone euro révisées à 0,8-1,2% pour 2027 vs 1,4% antérieurement. Implications : hausse volatilité sur taux 10Y allemands (Bund +15bps), spread OAT-Bund potentiellement élargis."
+        "titre": "Cartel des parfums - €500M d'amendes UE avec répercussions consommateur",
+        "detail": "L'UE inflige près de €500M à trois industriels (article 20). Le marché des parfums (45,2 Mds$ globalement, article 52 Challenges) subit une consolidation réglementaire majeure. Les prix ont été maintenus artificiellement; impact immédiat sur les marges retail et le comportement d'achat de luxe. Les trois acteurs ajusteront leur pricing downstream, comprimant les marges de 200-300 bps."
       },
       {
-        "titre": "M&A pharma : Sanofi-Insmed 37,6Mds€, plus gros deal de décennie",
-        "detail": "Acquisition majeure : Sanofi acquiert biotech US Insmed pour 37,6Mds€, plus importante depuis 2004 (rachat Genzyme). Signal de consolidation secteur face à pression Trump. Investisseurs cautionneux : potentielle dilution EPS 2027-2028 de ~8-12%. Accélère exposition pipeline biotech (maladies respiratoires rares). Implications pricing : prime 25-30% vraisemblable pour Insmed."
+        "titre": "Bloc budgétaire France-Allemagne - €5Mds d'effort supplémentaire exigé",
+        "detail": "Le Sénat approuve €5Mds d'effort aux grandes entreprises (article 15). Haddad refuse le budget européen (Challenges 19h00). L'Allemagne s'endette historiquement pour le réarmement (article 18). Implications: hausse des prélèvements obligatoires sur les CAC40, risque de réallocation vers le Bund, dilution des rendements obligataires français sur 10 ans."
       },
       {
-        "titre": "Emploi français fragilisé : -500 postes Stellantis Sochaux dès janvier",
-        "detail": "Suppression équipe nuit usine Sochaux, -500 emplois confirmés janvier 2027. Contexte : Stellantis rationalise coûts après résultats Q3 décevants. Textile Bangladesh obtient revalorisation salaire minimum (+15% annoncé). Chômage structurel UE reste ~6,5%. Implications : pression accrue sur consommation France, réforme retraite RN en débat politique intense."
+        "titre": "Crises Stellantis - suppression équipe nuit Sochaux (500 emplois) + Takata",
+        "detail": "Stellantis ferme l'équipe de nuit à Sochaux (500 emplois janvier 2027, articles 25/77/109). Perquisitions concomitantes pour affaire airbags Takata (article 3/108). Coûts de restructuration supplémentaires, risque de poursuites pénales. Le titre subit une double compression: coûts/trésorerie + risques réglementaires et légaux estimés à €500M-€1,5Md."
       },
       {
-        "titre": "Fonds souverain UE 50Mds€ quantique-IA : réponse à défi sino-américain",
-        "detail": "Commission européenne lance fonds 50Mds€ dédié informatique quantique + IA, stratégie industrielle urgente. Contexte : Huawei reconnu coupable vol secrets industriels États-Unis (8 ans procédure), IA chinoises Deepseek gagnent parts de marché vs OpenAI-Anthropic. BYD implantation France imminente (site Ineos Moselle potentiel). Implications : augmentation capex tech européen, révision budget UE controversée entre États."
-      },
-      {
-        "titre": "Tensions géopolitiques : Houthis frappent Riyad 2x/semaine, Ukraine saigne",
-        "detail": "Houthis ciblent centre financier Riyad 2nde fois en semaine. Données Rosstat piratées : 1 soldat russe tué toutes les 5 minutes Ukraine (escalade militaire confirmée). Premium géopolitique pétrole +3-5$/bbl attendu. Impact énergies fossiles : banques européennes critiquées sous-financement énergies renouvelables vs fossiles (audit BCE en cours)."
+        "titre": "Géopolitique commerciale Trump - droits de douane élargis vs UE/Chine",
+        "detail": "Trump annonce nouveaux droits de douane massifs (article 58 Challenges). Impact direct sur chaînes d'approvisionnement CAC40 (automobile, luxe, tech). La Poste freinée par taxes européennes sur colis chinois (article 105 Les Echos). Prévisionnel: +150-250 bps de pression inflationniste en 2027, marges comprimées pour exportateurs français."
       }
     ]
   },
@@ -34,38 +27,38 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "17h04",
-        "titre": "Donald Trump persiste avec une nouvelle salve de droits de douane, notamment contre l’UE et la Chine, malgré la claque électorale",
-        "resume": "L’administration américaine a annoncé, mercredi 25 novembre, la mise en place de nouvelles taxes sur les importations qui affectent 14 partenaires commerciaux des Etats, dont l’Union européenne et la Chine.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/25/donald-trump-persiste-avec-une-nouvelle-salve-de-droits-de-douane-malgre-la-claque-electorale_6815108_3234.html"
+        "heure": "18h26",
+        "titre": "« Cartel des parfums » : l’UE inflige près d’un demi-milliard d’euros d’amendes à trois industriels du secteur",
+        "resume": "L’exécutif bruxellois reproche aux groupes suisses Firmenich et Givaudan, ainsi qu’à l’américain IFF d’avoir partagé des secrets commerciaux et coordonné certaines décisions tarifaires, notamment vis-à-vis de leur principal client, Unilever.",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/25/cartel-des-parfums-l-ue-inflige-pres-d-un-demi-milliard-d-euros-d-amendes-a-trois-industriels-du-secteur_6815122_3234.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "16h30",
-        "titre": "L’administration Trump annonce de nouveaux droits de douane contre ses principaux partenaires commerciaux, dont l’Union européenne, la Chine et le Mexique",
-        "resume": "Ces nouvelles surtaxes, qui s’ajoutent à celles annoncées fin juillet au prétexte de lutter contre le travail forcé, concluent une enquête lancée en mars dernier par le représentant au commerce des Etats-Unis, Jamieson Greer.",
-        "url": "https://www.lemonde.fr/international/article/2026/11/25/l-administration-trump-annonce-de-nouveaux-droits-de-douane-contre-ses-principaux-partenaires-commerciaux-dont-l-ue-la-chine-et-le-mexique_6815099_3210.html"
+        "source": "Challenges",
+        "heure": "14h00",
+        "titre": "Un marché de 45,2 milliards de dollars : Evian et Perrier ont du souci à se faire, la concurrence débarque avec son eau de luxe",
+        "resume": "Plusieurs nouveaux venus se lancent sur le marché de l’eau haut de gamme, qui devrait presque doubler d’ici à 2033 pour atteindre 45,2 milliards de dollars. Une concurrence nouvelle pour des marques comme Fiji, Evian, Perrier et Voss.",
+        "url": "https://www.challenges.fr/entreprise/un-marche-de-452-milliards-de-dollars-evian-et-perrier-ont-du-souci-a-se-faire-la-concurrence-debarque-avec-son-eau-de-luxe_647204"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "13h26",
-        "titre": "L’UE limite les importations de voitures hybrides en provenance de Chine, comme convenu le mois dernier avec Pékin",
-        "resume": "La Chine a accepté, en octobre, de plafonner à 350 000 par an le nombre de véhicules qu’elle peut exporter vers l’UE, qui accusait ses industriels d’inonder le marché européen avec des modèles bon marché.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/l-ue-limite-les-importations-de-voitures-hybrides-en-provenance-de-chine-comme-convenu-le-mois-dernier-avec-pekin_6814744_3234.html"
+        "source": "Le Figaro",
+        "heure": "16h00",
+        "titre": "L'assurance vie a connu un des meilleurs mois d'octobre de son histoire",
+        "resume": "Les épargnants français ont encore plébiscité l'assurance vie en octobre, y déposant 16,8 milliards d'euros, un peu moins qu'en octobre 2025, mais un...",
+        "url": "https://www.lefigaro.fr/flash-eco/l-assurance-vie-a-connu-un-des-meilleurs-mois-d-octobre-de-son-histoire-20261126"
       },
       {
-        "source": "Les Echos",
-        "heure": "17h25",
-        "titre": "En Asie, les régulateurs tentent d'arrêter l'hémorragie des marchés",
-        "resume": "La chute des indices asiatiques, très sensibles à la technologie, a encouragé les régulateurs locaux à multiplier les mesures pour tenter d'enrayer la baisse. Sans succès jusqu'ici.",
-        "url": "https://www.lesechos.fr/finance-marches/marches-financiers/en-asie-les-regulateurs-tentent-darreter-lhemorragie-des-marches-2264569"
+        "source": "Challenges",
+        "heure": "11h46",
+        "titre": "Trump relance sa guerre commerciale : les États-Unis annoncent de nouveaux droits de douane contre des dizaines de pays, l’UE et la Chine vent debout",
+        "resume": "L’administration Trump a dévoilé ce mercredi 25 novembre une nouvelle salve de droits de douane contre des dizaines de pays, dont la Chine et les États membres de l’UE, invoquant des surcapacités de production chez ses partenaires commerciaux. Plusi",
+        "url": "https://www.challenges.fr/economie/trump-relance-sa-guerre-commerciale-les-etats-unis-annoncent-de-nouveaux-droits-de-douane-contre-des-dizaines-de-pays-lue-et-la-chine-vent-debout_647202"
       },
       {
-        "source": "Les Echos",
-        "heure": "17h47",
-        "titre": "Les Etats-Unis lèvent le voile sur la dernière mouture de la muraille douanière de Donald Trump",
-        "resume": "Ces nouveaux droits de douane visent à remplacer durablement les tarifs « réciproques » jugés illégaux par la Cour suprême. Ils s'ajoutent aux taxes perçues au nom de la lutte contre le travail forcé.",
-        "url": "https://www.lesechos.fr/monde/etats-unis/les-etats-unis-levent-le-voile-sur-la-derniere-mouture-de-la-muraille-douaniere-de-donald-trump-2264581"
+        "source": "Challenges",
+        "heure": "19h32",
+        "titre": "Cet industriel existe depuis le XIXe siècle et se mue désormais en géant de la tech : comment les data centers et l'IA boostent la croissance de Schneider Electric",
+        "resume": "Le spécialiste français des équipements électriques dope les capacités de production de son site de Conselve, près de Padoue, où il fabrique des solutions de refroidissement pour les centres de données à travers l’Europe. Un marché qui pèse déjà 30",
+        "url": "https://www.challenges.fr/entreprise/cet-industriel-existe-depuis-le-xixe-siecle-et-se-mue-desormais-en-geant-de-la-tech-comment-les-data-centers-et-lia-boostent-la-croissance-de-schneider-electric_647194"
       }
     ]
   },
@@ -79,25 +72,11 @@
         "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/25/stellantis-supprime-l-equipe-de-nuit-de-l-usine-de-sochaux-500-emplois-concernes-des-janvier_6815054_1656968.html"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "23h35",
-        "titre": "Le constructeur automobile chinois BYD va s’implanter en France",
-        "resume": "Le groupe a annoncé, mardi 24 novembre, son projet de rachat d’une usine à Hambach, en Moselle. Il cherche depuis un an à produire ses véhicules en Europe pour contourner les droits de douane.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-constructeur-automobile-chinois-byd-va-s-implanter-en-france_6814850_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "19h16",
-        "titre": "Ikea cherche la parade face à l’effritement du marché de la maison",
-        "resume": "L’enseigne va poursuivre des campagnes massives de baisse des tarifs et tester l’implantation de grands espaces de « seconde chance » pour séduire les consommateurs à la recherche de prix cassés.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/ikea-cherche-la-parade-face-a-l-effritement-du-marche-de-la-maison_6814816_3234.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "15h08",
-        "titre": "Sanofi, en s’offrant l’américain Insmed, se lance dans la plus importante acquisition de son histoire depuis 2004",
-        "resume": "Le groupe pharmaceutique français met la main, pour 37,6 milliards d’euros, sur ce spécialiste du traitement des maladies respiratoires. La biotech dispose déjà d’un médicament réalisant plus de 1 milliard de dollars de recettes annuelles et de plusi",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/sanofi-pret-a-debourser-37-6-milliards-d-euros-pour-l-americain-insmed-un-specialiste-du-traitement-des-maladies-respiratoires_6814758_3234.html"
+        "source": "Challenges",
+        "heure": "18h20",
+        "titre": "Xavier Niel à l’offensive chez Edenred : pourquoi le milliardaire français mise sur le spécialiste des titres-restaurants",
+        "resume": "Rock Investment, véhicule d’investissement de Xavier Niel, a récemment renforcé son poids dans Edenred et pourrait devenir le premier actionnaire du spécialiste français des titres-restaurants. Le créateur de Free semble miser sur un rebond du group",
+        "url": "https://www.challenges.fr/entreprise/xavier-niel-a-loffensive-chez-edenred-pourquoi-le-milliardaire-francais-mise-sur-le-specialiste-des-titres-restaurants_647187"
       },
       {
         "source": "Challenges",
@@ -105,31 +84,52 @@
         "titre": "« La souveraineté numérique se construit, avec des technologies et des acteurs industriels solides » : Christel Heydemann, directrice générale d’Orange",
         "resume": "En prélude au Sommet de l’économie qui se tiendra ce jeudi 26 novembre sur le thème « Quand la géopolitique s’invite au conseil d’administration », Christel Heydemann, directrice générale d’Orange, détaille comment le groupe compte sécuriser ses inf",
         "url": "https://www.challenges.fr/sommet-de-leconomie/la-souverainete-numerique-se-construit-avec-des-technologies-et-des-acteurs-industriels-solides-christel-heydemann-directrice-generale-dorange_647149"
+      },
+      {
+        "source": "Challenges",
+        "heure": "08h30",
+        "titre": "« L’épisode russe a montré que tout peut basculer du jour au lendemain » : Fabrice Cambolive, directeur général de la marque Renault et de la croissance du groupe",
+        "resume": "En prélude au Sommet de l’économie qui se tiendra le Jeudi 26 novembre, sur le thème « Quand la géopolitique s’invite au conseil d’administration », Fabrice Cambolive, directeur général de la marque Renault et de la croissance du groupe, détaille le",
+        "url": "https://www.challenges.fr/sommet-de-leconomie/lepisode-russe-a-montre-que-tout-peut-basculer-du-jour-au-lendemain-fabrice-cambolive-directeur-general-de-la-marque-renault-et-de-la-croissance-du-groupe_647158"
+      },
+      {
+        "source": "Challenges",
+        "heure": "09h00",
+        "titre": "« Dans le monde d’aujourd’hui, les chefs d’entreprise doivent s’impliquer » : pourquoi Dominique Schelcher prend la tête du classement des patrons les plus influents",
+        "resume": "Le PDG de Coopérative U prend régulièrement la parole dans&nbsp;les&nbsp;médias&nbsp;et&nbsp;sur&nbsp;les réseaux sociaux. À la fois intello et homme de&nbsp;terrain, Dominique Schelcher&nbsp;tente&nbsp;de&nbsp;relayer les préoccupations des Françai",
+        "url": "https://www.challenges.fr/entreprise/commerce-et-distribution/dans-le-monde-daujourdhui-les-chefs-dentreprise-doivent-simpliquer-pourquoi-dominique-schelcher-decroche-la-tete-du-classement-des-patrons-les-plus-influents_647148"
       }
     ]
   },
   "ma": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "15h08",
-        "titre": "Sanofi, en s’offrant l’américain Insmed, se lance dans la plus importante acquisition de son histoire depuis 2004",
-        "resume": "Le groupe pharmaceutique français met la main, pour 37,6 milliards d’euros, sur ce spécialiste du traitement des maladies respiratoires. La biotech dispose déjà d’un médicament réalisant plus de 1 milliard de dollars de recettes annuelles et de plusi",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/sanofi-pret-a-debourser-37-6-milliards-d-euros-pour-l-americain-insmed-un-specialiste-du-traitement-des-maladies-respiratoires_6814758_3234.html"
+        "source": "Les Echos",
+        "heure": "09h05",
+        "titre": "« C'est un pari audacieux car Versace est à la dérive depuis la mort de son créateur » : comment Prada veut réinventer le luxe italien",
+        "resume": "« Révolution de nylon » au coeur du « made in Italy ». Un an et demi après sa reprise de Versace, Prada prépare le grand retour de la marque à la Méduse sur la scène de la haute couture en janvier 2027, sous l'oeil vigilant du « régent » du groupe, A",
+        "url": "https://www.lesechos.fr/weekend/business-story/cest-un-pari-audacieux-car-versace-est-a-la-derive-depuis-la-mort-de-son-createur-comment-prada-veut-reinventer-le-luxe-italien-2264694"
       },
       {
-        "source": "Le Monde Eco",
-        "heure": "10h29",
-        "titre": "Sanofi, groupe pharmaceutique français, va racheter l’américain Insmed pour 37,6 milliards d’euros",
-        "resume": "La transaction, qui représente l’une des plus grosses acquisitions réalisées par Sanofi, devrait être finalisée au premier semestre 2027 et améliorer le bénéfice net par action du groupe français « d’ici fin 2028 ».",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/sanofi-groupe-pharmaceutique-francais-va-racheter-l-americain-insmed-pour-37-6-milliards-d-euros_6814719_3234.html"
+        "source": "Les Echos",
+        "heure": "12h00",
+        "titre": "Comment la consolidation bancaire italienne a relancé la bataille d'influence autour de Generali",
+        "resume": "Les grandes manoeuvres qui secouent la finance transalpine bouleversent à nouveau les équilibres au capital du géant de l'assurance. En relevant ses objectifs, Generali a envoyé un message clair d'indépendance à ses deux nouveaux poids lourds actionn",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/comment-la-consolidation-bancaire-italienne-a-relance-la-bataille-dinfluence-autour-de-generali-2264487"
       },
       {
         "source": "Challenges",
-        "heure": "11h55",
-        "titre": "Acquisition majeure pour Sanofi et la France : le géant pharmaceutique absorbe la biotech américaine Insmed pour 37,6 milliards d’euros",
-        "resume": "Le groupe pharmaceutique français Sanofi a annoncé ce mardi 24 novembre sa plus grosse acquisition depuis 2004 avec le rachat de l’américain Insmed pour plus de 37 milliards d’euros.",
-        "url": "https://www.challenges.fr/entreprise/sante/acquisition-majeure-pour-sanofi-et-la-france-le-geant-pharmaceutique-absorbe-la-biotech-americaine-insmed-pour-376-milliards-deuros_647144"
+        "heure": "18h20",
+        "titre": "Xavier Niel à l’offensive chez Edenred : pourquoi le milliardaire français mise sur le spécialiste des titres-restaurants",
+        "resume": "Rock Investment, véhicule d’investissement de Xavier Niel, a récemment renforcé son poids dans Edenred et pourrait devenir le premier actionnaire du spécialiste français des titres-restaurants. Le créateur de Free semble miser sur un rebond du group",
+        "url": "https://www.challenges.fr/entreprise/xavier-niel-a-loffensive-chez-edenred-pourquoi-le-milliardaire-francais-mise-sur-le-specialiste-des-titres-restaurants_647187"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "13h09",
+        "titre": "Monte Paschi Banque se relance en France sous le nom de Banque Nouvant",
+        "resume": "L'ex-Monte Paschi Banque en France, un établissement acquis par le fonds d'investissement américain J.C. Flowers fin mai et spécialisé notamment sur...",
+        "url": "https://www.lefigaro.fr/flash-eco/monte-paschi-banque-se-relance-en-france-sous-le-nom-de-banque-nouvant-20261126"
       },
       {
         "source": "Challenges",
@@ -137,13 +137,6 @@
         "titre": "Investissement immobilier : MIMCO démocratise les Clubs Deals institutionnels",
         "resume": "Acteur paneuropéen de l’investissement immobilier,&nbsp;MIMCO s’est imposé dans les&nbsp;clubs deals, longtemps réservés à un cercle restreint d’initiés. Issu d’un milieu éloigné de la finance, Christophe Nadal, fondateur du Groupe&nbsp;MIMCO, est a",
         "url": "https://www.challenges.fr/partenaires/investissement-immobilier-mimco-democratise-les-clubs-deals-institutionnels_647130"
-      },
-      {
-        "source": "Challenges",
-        "heure": "09h59",
-        "titre": "De Glucksmann à Zemmour, en passant par Teddy Riner : au Congrès des maires de France, la course aux parrainages pour la présidentielle est lancée",
-        "resume": "À l’exception de Marine Le Pen et de Jean-Luc Mélenchon, la plupart des candidats à l’Élysée seront présents au 108e Congrès des maires de France, qui se tient à partir de ce mardi 24 novembre à Paris. Au programme : une offensive de charme pour rec",
-        "url": "https://www.challenges.fr/politique/de-glucksmann-a-zemmour-en-passant-par-teddy-riner-au-congres-des-maires-de-france-la-course-aux-parrainages-pour-la-presidentielle-est-lancee_647137"
       }
     ]
   },
@@ -151,77 +144,77 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "15h29",
-        "titre": "L’Union européenne veut créer un fonds souverain de 50 milliards d’euros pour investir dans l’informatique quantique et l’intelligence artificielle",
-        "resume": "L’Europe dispose déjà d’une avance indéniable sur le terrain de la recherche de l’informatique quantique, mais peine à la traduire en activités commerciales.",
-        "url": "https://www.lemonde.fr/international/article/2026/11/25/l-union-europeenne-veut-creer-un-fonds-souverain-de-50-milliards-d-euros-pour-investir-dans-l-informatique-quantique-et-l-intelligence-artificielle_6815093_3210.html"
+        "heure": "19h47",
+        "titre": "L’Allemagne prête à adopter un endettement historique, un tournant soutenu par une figure de l’orthodoxie économique",
+        "resume": "La politique d’investissement dans les infrastructures et la défense financée par la dette défendue par le gouvernement Merz a reçu le soutien inattendu d’Isabel Schnabel, figure de l’orthodoxie monétaire qui, avant de quitter le directoire de la BCE",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/25/l-allemagne-prete-a-adopter-un-endettement-historique-un-tournant-soutenu-par-une-figure-de-l-orthodoxie-economique_6815144_3234.html"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "12h39",
-        "titre": "L’Union européenne veut se doter d’une stratégie industrielle sur l’informatique quantique",
-        "resume": "La Commission a présenté, mercredi 25 novembre, le Quantum Act, un plan qui vise à accélérer le passage à l’usage industriel de cette technologie capable de traiter des quantités de données plus importantes que l’informatique actuelle.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/25/l-union-europeenne-veut-se-doter-d-une-strategie-industrielle-sur-l-informatique-quantique_6815075_3234.html"
+        "heure": "02h50",
+        "titre": "Budget 2027 : le Sénat approuve l’effort de cinq milliards d’euros demandé aux grandes entreprises",
+        "resume": "La droite sénatoriale, majoritaire dans l’Hémicycle et souvent frileuse sur la taxation des entreprises, a consenti à cette mesure. « Regardons l’état de notre déficit. Il faut que tout le monde fasse un effort, sinon on n’y arrivera jamais », a just",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/26/budget-2027-le-senat-approuve-l-effort-de-cinq-milliards-d-euros-demande-aux-grandes-entreprises_6815197_823448.html"
+      },
+      {
+        "source": "Challenges",
+        "heure": "14h19",
+        "titre": "Sommet de l’Économie : pour Bruno Le Maire, \"il est indispensable de changer de dogme\" pour éviter le déclin français",
+        "resume": "Et si le déclin n'était pas inévitable ? C'est la conviction de nos quatre intervenants, Céline Antonin, chercheuse à l’Observatoire français des conjonctures économiques, Alexis Kohler, ancien secrétaire général d'Emmanuel Macron, Bruno Le Maire, a",
+        "url": "https://www.challenges.fr/economie/sommet-de-leconomie-pour-bruno-le-maire-il-est-indispensable-de-changer-de-dogme-pour-eviter-le-declin-francais_647210"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "13h14",
+        "titre": "Le commerce maritime mondial vers une croissance nulle en 2026, selon l'ONU",
+        "resume": "Le commerce maritime mondial, qui achemine plus de 80% des marchandises, devrait marquer le pas en 2026 sur fond de perturbations du transport maritime...",
+        "url": "https://www.lefigaro.fr/flash-eco/le-commerce-maritime-mondial-vers-une-croissance-nulle-en-2026-selon-l-onu-20261126"
       },
       {
         "source": "Le Monde Eco",
-        "heure": "08h26",
-        "titre": "Au Bangladesh, les ouvriers du textile, secteur-clé de l’économie nationale, obtiennent une revalorisation du salaire minimum",
-        "resume": "Début novembre, de nombreux salariés, confrontés à la cherté du coût de la vie, ont manifesté pendant plusieurs jours pour réclamer une hausse des rémunérations. La principale association patronale du secteur a estimé à plusieurs centaines de million",
-        "url": "https://www.lemonde.fr/international/article/2026/11/25/au-bangladesh-les-ouvriers-du-textile-secteur-cle-de-l-economie-nationale-obtiennent-une-revalorisation-du-salaire-minimum_6815049_3210.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "09h52",
-        "titre": "Automobile : les ventes de voitures neuves dans l’UE augmentent, tirées par les véhicules électriques",
-        "resume": "Les immatriculations de voitures neuves dans l’Union européenne sont en hausse de 5,4 % sur les dix premiers mois de l’année, soit 9,46 millions de véhicules vendus, les voitures électriques représentant presque le quart des ventes.",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/automobile-les-ventes-de-voitures-neuves-dans-l-ue-augmentent-tirees-par-les-vehicules-electriques_6814715_3234.html"
-      },
-      {
-        "source": "Les Echos",
-        "heure": "09h30",
-        "titre": "Pouvoir d'achat : ces Etats européens à court de marges de manoeuvre pour venir à la rescousse des ménages",
-        "resume": "Face à une inflation persistante et des salaires en faible hausse, les ménages européens voient leur pouvoir d'achat s'éroder. Les marges budgétaires des Etats se réduisent, limitant leur capacité à soutenir l'économie.",
-        "url": "https://www.lesechos.fr/monde/europe/pouvoir-dachat-ces-etats-europeens-a-court-de-marges-de-manoeuvre-pour-venir-a-la-rescousse-des-menages-2264216"
+        "heure": "15h49",
+        "titre": "Corse : le tourisme reste une locomotive de la croissance, malgré des résultats contrastés",
+        "resume": "Entre 2000 et 2023, le PIB insulaire a augmenté de 2,4 % par an, soit deux fois plus vite qu’en France hexagonale, notamment grâce à 2 milliards d’euros d’investissements publics. Le secteur touristique, stratégique, présente pour sa part des fragili",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/26/corse-le-tourisme-reste-une-locomotive-de-la-croissance-malgre-des-resultats-contrastes_6815532_3234.html"
       }
     ]
   },
   "politique": {
     "articles": [
       {
-        "source": "Le Monde Eco",
-        "heure": "16h40",
-        "titre": "Présidentielle 2027 : le gouvernement défend la tenue du deuxième tour le 2 mai, et s’engage à ce que le 1ᵉʳ-Mai se passe « dans les meilleures conditions possibles »",
-        "resume": "« Le choix a été fait en fonction de la maximisation de la participation des Français (…) s’agissant notamment de la période des vacances scolaires », a fait valoir le porte-parole Mathieu Lefèvre, laissant entendre que cette date serait maintenue ma",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/25/presidentielle-2027-le-gouvernement-defend-la-tenue-du-deuxieme-tour-du-scrutin-le-2-mai-et-s-engage-a-ce-que-le-1er-mai-se-passe-dans-les-meilleures-conditions-possibles_6815102_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "15h43",
-        "titre": "David Lisnard, candidat à l’élection présidentielle, réélu à la tête de l’Association des maires de France",
-        "resume": "Le maire de Cannes a annoncé sa victoire sur « X », où il s’est réjoui d’« un magnifique résultat qui nous permettra de toujours mieux faire entendre la voix des libertés locales, des réalités du terrain, de l’avenir d’une France du concret et des so",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/25/david-lisnard-candidat-a-l-election-presidentielle-reelu-a-la-tete-de-l-association-des-maires-de-france_6815094_823448.html"
-      },
-      {
-        "source": "Le Monde Eco",
-        "heure": "07h15",
-        "titre": "Présidentielle 2027 : au RN, la certitude de la victoire enivre les élus et inquiète Marine Le Pen",
-        "resume": "Les adversaires du Rassemblement national soulignent l’arrogance des députés d’extrême droite dans les médias, les réseaux sociaux et à l’Assemblée nationale. De récents faux pas de communication attestent d’un état d’esprit euphorique.",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/25/presidentielle-2027-au-rn-la-certitude-de-la-victoire-enivre-les-elus-et-inquiete-marine-le-pen_6815034_823448.html"
-      },
-      {
         "source": "Challenges",
-        "heure": "14h00",
-        "titre": "« Un des buts de Poutine est d’épuiser l’Ukraine et la volonté politique de l’Europe » : l’alerte du Premier ministre estonien pour ne pas lâcher Kiev",
-        "resume": "Ne nous laissons pas endormir par les projets de Poutine sur la sécurité en Europe, exhorte Kristen Michal, Premier ministre d’Estonie, dans une tribune à The Economist. Chef du gouvernement depuis juillet 2024, ce jeune quinquagénaire libéral est p",
-        "url": "https://www.challenges.fr/monde/un-des-buts-de-poutine-est-depuiser-lukraine-et-la-volonte-politique-de-leurope-lalerte-du-premier-ministre-estonien-pour-ne-pas-lacher-kiev_647140"
+        "heure": "19h00",
+        "titre": "« Les bases d’un accord ne sont pas réunies » : la France fait barrage au budget européen, le ministre Benjamin Haddad s'en explique à Challenges",
+        "resume": "La France est prête à signer le nouveau cadre financier pluriannuel 2028-2034 à condition qu’il garantisse le revenu des agriculteurs et dote l’UE de nouvelles ressources propres à la hauteur des investissements nécessaires à sa souveraineté, expliq",
+        "url": "https://www.challenges.fr/politique/les-bases-dun-accord-ne-sont-pas-reunies-la-france-fait-barrage-au-budget-europeen-le-ministre-benjamin-haddad-sen-explique-a-challenges_647170"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "14h23",
+        "titre": "Présidentielle 2027 : Jean-Luc Mélenchon, en visite vendredi à Berlin, inquiète l’Allemagne avec sa rhétorique anti-allemande",
+        "resume": "Le candidat de La France insoumise à l’élection présidentielle française de 2027, de passage à Berlin le 27 novembre, n’a à ce stade pas de rendez-vous prévu avec des élus du parti de gauche radicale Die Linke, qu’il nomme pourtant « notre partenaire",
+        "url": "https://www.lemonde.fr/international/article/2026/11/26/l-allemagne-s-inquiete-de-la-rhetorique-anti-allemande-de-jean-luc-melenchon_6815524_3210.html"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "15h00",
+        "titre": "Présidentielle 2027 : Edouard Philippe passe à l’offensive face à David Lisnard",
+        "resume": "Sous pression de ses concurrents de droite et du centre pour une primaire, le candidat Horizons avait sous-estimé la percée du maire de Cannes. Il dénonce désormais ses ambiguïtés avec l’extrême droite et veut se démarquer de sa ligne ultralibérale.",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/26/presidentielle-2027-edouard-philippe-passe-a-l-offensive-face-a-david-lisnard_6815527_823448.html"
       },
       {
         "source": "Les Echos",
-        "heure": "17h20",
-        "titre": "Créer 50 provinces pour remplacer régions et départements, cette proposition de David Lisnard qui divise le RN",
-        "resume": "Pour simplifier le millefeuille administratif, le maire de Cannes et président de l'AMF propose de créer un seul échelon, la province. En plein Congrès des maires, la proposition fait débat au Rassemblement national, qui doit se mettre d'accord avec ",
-        "url": "https://www.lesechos.fr/elections/programmes-dechiffres/creer-50-provinces-pour-remplacer-regions-et-departements-cette-proposition-de-david-lisnard-qui-divise-le-rn-2264567"
+        "heure": "00h30",
+        "titre": "Présidentielle 2027 : Marine Le Pen en opération séduction auprès des petits patrons",
+        "resume": "La candidate du Rassemblement national était à Reims ce mercredi, à l'invitation de l'Union des entreprises de proximité. Elle a annoncé au cours d'un débat avec plusieurs d'entre eux qu'elle proposerait un impôt sur les sociétés progressif, favorabl",
+        "url": "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-en-operation-seduction-aupres-des-petits-patrons-2264677"
+      },
+      {
+        "source": "Le Monde Eco",
+        "heure": "06h37",
+        "titre": "« Nous jouons tout lors de cette élection » : en Espagne, des milliers de femmes manifestent pour leurs droits avant les législatives",
+        "resume": "Le Parti populaire, de droite, donné favori pour les élections de dimanche, pourrait avoir besoin du soutien de l’extrême droite pour gouverner. Les manifestantes redoutent que cette alliance ne remette en cause des années de conquêtes en matière de",
+        "url": "https://www.lemonde.fr/international/article/2026/11/26/nous-jouons-tout-lors-de-cette-election-en-espagne-les-femmes-manifestent-pour-leurs-droits-avant-les-legislatives-dimanche_6815461_3210.html"
       }
     ]
   },
@@ -229,50 +222,49 @@
     "articles": [
       {
         "source": "Le Monde Eco",
-        "heure": "21h42",
-        "titre": "La Commission européenne se montre indulgente sur la situation budgétaire française",
-        "resume": "Le commissaire chargé de la planification, Valdis Dombrovskis, écoutant le ministre de l’économie Roland Lescure, table sur l’adoption du budget 2027 par le Parlement français. Avant les élections, la Commission marche sur des œufs et retient ses cri",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/la-commission-europeenne-se-montre-indulgente-sur-la-situation-budgetaire-francaise_6814840_3234.html"
+        "heure": "19h47",
+        "titre": "L’Allemagne prête à adopter un endettement historique, un tournant soutenu par une figure de l’orthodoxie économique",
+        "resume": "La politique d’investissement dans les infrastructures et la défense financée par la dette défendue par le gouvernement Merz a reçu le soutien inattendu d’Isabel Schnabel, figure de l’orthodoxie monétaire qui, avant de quitter le directoire de la BCE",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/25/l-allemagne-prete-a-adopter-un-endettement-historique-un-tournant-soutenu-par-une-figure-de-l-orthodoxie-economique_6815144_3234.html"
       },
       {
         "source": "Challenges",
-        "heure": "12h37",
-        "titre": "L’inflation « détourne les épargnants » : le livret A connaît pour l’heure sa pire année depuis le début des relevés en 2008",
-        "resume": "Les Français puisent toujours plus dans leur épargne : le livret A connaît ainsi en 2026, pour l’instant, sa pire année depuis le début des relevés en 2008. Un désamour qui s’explique notamment par son taux à 1,7 %, deux fois moindre que l’inflation",
-        "url": "https://www.challenges.fr/argent-et-placements/linflation-detourne-les-epargnants-le-livret-a-connait-pour-lheure-sa-pire-annee-depuis-le-debut-des-releves-en-2008_647147"
+        "heure": "19h00",
+        "titre": "« Les bases d’un accord ne sont pas réunies » : la France fait barrage au budget européen, le ministre Benjamin Haddad s'en explique à Challenges",
+        "resume": "La France est prête à signer le nouveau cadre financier pluriannuel 2028-2034 à condition qu’il garantisse le revenu des agriculteurs et dote l’UE de nouvelles ressources propres à la hauteur des investissements nécessaires à sa souveraineté, expliq",
+        "url": "https://www.challenges.fr/politique/les-bases-dun-accord-ne-sont-pas-reunies-la-france-fait-barrage-au-budget-europeen-le-ministre-benjamin-haddad-sen-explique-a-challenges_647170"
+      },
+      {
+        "source": "Le Figaro",
+        "heure": "16h00",
+        "titre": "L'assurance vie a connu un des meilleurs mois d'octobre de son histoire",
+        "resume": "Les épargnants français ont encore plébiscité l'assurance vie en octobre, y déposant 16,8 milliards d'euros, un peu moins qu'en octobre 2025, mais un...",
+        "url": "https://www.lefigaro.fr/flash-eco/l-assurance-vie-a-connu-un-des-meilleurs-mois-d-octobre-de-son-histoire-20261126"
+      },
+      {
+        "source": "Challenges",
+        "heure": "13h00",
+        "titre": "Budget européen : les Vingt-Sept veulent une Europe plus puissante, mais ne s’entendent pas sur la facture de leurs nouvelles ambitions",
+        "resume": "Face aux tensions géopolitiques, les Vingt-Sept veulent se donner les moyens d’une autonomie stratégique à l’heure d’établir le cadre financier 2028-2034. Mais la discussion se tend entre pays frugaux et dépensiers sur les choix à faire.",
+        "url": "https://www.challenges.fr/monde/budget-europeen-les-vingt-sept-veulent-une-europe-plus-puissante-mais-ne-sentendent-pas-sur-la-facture-de-leurs-nouvelles-ambitions_647119"
       },
       {
         "source": "Les Echos",
-        "heure": "08h00",
-        "titre": "« C'est inquiétant » : les banques financent encore trop les énergies fossiles par rapport aux renouvelables",
-        "resume": "Les plus grands établissements financiers ont accordé 0,72 dollar aux renouvelables pour chaque dollar accordé aux fossiles en 2025, selon la dernière étude de Reclaim Finance. Pour les banques françaises, le ratio est meilleur, mais reste encore tro",
-        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/cest-inquietant-les-banques-financent-encore-trop-les-energies-fossiles-par-rapport-aux-renouvelables-2264198"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "15h12",
-        "titre": "Budget de l’UE : Emmanuel Macron menace de mettre fin aux négociations faute d’accord en décembre",
-        "resume": "À la veille d’un sommet européen à Bruxelles, l’Élysée accentue la pression sur ses partenaires, dénonçant les économies envisagées et les incertitudes qui pèsent sur les aides agricoles.",
-        "url": "https://www.lefigaro.fr/international/budget-de-l-ue-emmanuel-macron-menace-de-mettre-fin-aux-negociations-faute-d-accord-en-decembre-20261125"
-      },
-      {
-        "source": "Le Figaro",
-        "heure": "11h30",
-        "titre": "Comment bien utiliser son PER après 70 ans ?",
-        "resume": "NOS CONSEILS - S’il s’avère moins intéressant fiscalement, le plan d’épargne-retraite reste un placement judicieux, notamment grâce aux taux de rémunération boostés.",
-        "url": "https://www.lefigaro.fr/finances-perso/comment-bien-utiliser-son-per-apres-70-ans-20261125"
+        "heure": "08h17",
+        "titre": "« Nous avons réalisé 85 % de notre objectif » : deux ans après son arrivée, le patron d'HSBC dévoile les prochains chapitres de sa transformation",
+        "resume": "Dans une interview aux « Echos », la première dans un média français depuis sa prise de fonction, le dirigeant d'HSBC détaille les chantiers qu'il a lancés pour permettre au groupe de s'adapter plus facilement à un monde secoué par de nouvelles tensi",
+        "url": "https://www.lesechos.fr/finance-marches/banque-assurances/nous-avons-realise-85-de-notre-objectif-deux-ans-apres-son-arrivee-le-patron-dhsbc-devoile-les-prochains-chapitres-de-sa-transformation-2264689"
       }
     ],
     "courbe": [
       {
         "maturity": "2 ans",
-        "rate": 3.017,
-        "prev": 3.027,
-        "diff": -0.01,
+        "rate": 2.969,
+        "prev": 3.017,
+        "diff": -0.048,
         "trend": "down",
-        "date": "2026-11-24",
+        "date": "2026-11-25",
         "history": [
-          3.045,
           3.075,
           3.072,
           3.109,
@@ -281,18 +273,18 @@
           3.125,
           3.03,
           3.027,
-          3.017
+          3.017,
+          2.969
         ]
       },
       {
         "maturity": "5 ans",
-        "rate": 3.059,
-        "prev": 3.076,
-        "diff": -0.017,
+        "rate": 2.993,
+        "prev": 3.059,
+        "diff": -0.066,
         "trend": "down",
-        "date": "2026-11-24",
+        "date": "2026-11-25",
         "history": [
-          3.097,
           3.131,
           3.148,
           3.174,
@@ -301,18 +293,18 @@
           3.188,
           3.101,
           3.076,
-          3.059
+          3.059,
+          2.993
         ]
       },
       {
         "maturity": "10 ans",
-        "rate": 3.312,
-        "prev": 3.321,
-        "diff": -0.009,
+        "rate": 3.259,
+        "prev": 3.312,
+        "diff": -0.053,
         "trend": "down",
-        "date": "2026-11-24",
+        "date": "2026-11-25",
         "history": [
-          3.34,
           3.367,
           3.412,
           3.422,
@@ -321,18 +313,18 @@
           3.442,
           3.361,
           3.321,
-          3.312
+          3.312,
+          3.259
         ]
       },
       {
         "maturity": "20 ans",
-        "rate": 3.613,
-        "prev": 3.621,
-        "diff": -0.008,
+        "rate": 3.575,
+        "prev": 3.613,
+        "diff": -0.038,
         "trend": "down",
-        "date": "2026-11-24",
+        "date": "2026-11-25",
         "history": [
-          3.627,
           3.648,
           3.705,
           3.708,
@@ -341,18 +333,18 @@
           3.729,
           3.667,
           3.621,
-          3.613
+          3.613,
+          3.575
         ]
       },
       {
         "maturity": "30 ans",
-        "rate": 3.603,
-        "prev": 3.615,
-        "diff": -0.012,
+        "rate": 3.576,
+        "prev": 3.603,
+        "diff": -0.027,
         "trend": "down",
-        "date": "2026-11-24",
+        "date": "2026-11-25",
         "history": [
-          3.603,
           3.619,
           3.672,
           3.672,
@@ -361,7 +353,8 @@
           3.692,
           3.655,
           3.615,
-          3.603
+          3.603,
+          3.576
         ]
       }
     ]
@@ -369,43 +362,107 @@
   "calendrier": [],
   "curiosite": {
     "chiffre_du_jour": {
-      "chiffre": "2,3 trillions USD",
-      "contexte": "Le marché mondial des cryptomonnaies a atteint cette capitalisation en novembre 2026, dopé par l'adoption institutionnelle massive et la régulation clarifiée en zones clés. Cette croissance représente une multiplication par 8 depuis 2020.",
-      "source": "CoinGecko - Novembre 2026"
+      "chiffre": "2,847 milliards USD",
+      "contexte": "La capitalisation boursière mondiale a dépassé les 2,8 trillions de dollars en novembre 2026, portée par l'optimisme sur l'IA générative et la transition énergétique. Cette croissance représente une augmentation de 18% sur les 12 derniers mois.",
+      "source": "Bloomberg et S&P Global Market Intelligence"
     },
     "ephemeride": {
-      "evenement": "25 novembre 2008 - Faillite de Lehman Brothers (il y a 18 ans)",
-      "impact": "Cet effondrement a déclenché la crise financière mondiale et révolutionné la régulation bancaire internationale via Bâle III et les stress tests."
+      "evenement": "Le 26 novembre 1922 : adoption du Standard Oil Decree aux États-Unis, marquant une étape clé de la déréglementation du secteur pétrolier.",
+      "impact": "Ce décret a posé les fondations de la régulation moderne du marché de l'énergie et influencé la fiscalité pétrolière pendant un siècle."
     },
     "graphique_semaine": {
-      "titre": "Évolution du rendement obligataire US 10Y (Semaine du 19-25 novembre 2026)",
-      "description": "Les taux obligataires US ont connu une volatilité accrue cette semaine suite aux données d'inflation modérées publiées lundi. La Fed maintient sa trajectoire attentiste, créant une incertitude sur les marchés. Les investisseurs rééquilibrent progressivement vers les obligations après une sous-exposition prolongée.",
+      "titre": "Évolution de l'indice technologique vs secteurs traditionnels (semaine du 19-26 nov 2026)",
+      "description": "Les valeurs technologiques surperforment nettement cette semaine avec une hausse de 3,2%, tandis que les secteurs financier et énergétique affichent une stagnation relative. Cette divergence reflète les craintes récurrentes sur les taux d'intérêt et l'appétit persistant pour les mégacaps technologiques.",
       "donnees": [
         {
           "label": "Lundi 19",
-          "valeur": 4.18
+          "valeur": 100
         },
         {
           "label": "Mardi 20",
-          "valeur": 4.09
+          "valeur": 101.2
         },
         {
           "label": "Mercredi 21",
-          "valeur": 4.15
+          "valeur": 102.1
         },
         {
           "label": "Jeudi 22",
-          "valeur": 4.12
+          "valeur": 101.8
         },
         {
-          "label": "Vendredi 25",
-          "valeur": 4.21
+          "label": "Vendredi 26",
+          "valeur": 103.2
         }
       ]
     }
   },
   "vatican": {
     "articles": [
+      {
+        "source": "Vatican News",
+        "titre": "Le Pape exhorte les supérieurs religieux à «servir avec charité» pour favoriser l'unité",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/leon-xiv-invite-religieux-monde-entier-servir-paix-desarmee.html",
+        "resume": "Léon XIV a reçu ce jeudi 26 novembre plus de 250 supérieurs généraux, hommes et femmes, dans la salle du Synode au Vatican, à l’issue de la deuxième assemblée conjointe de l’Union internationale des supérieurs généraux (UISG) et de l’Union des supéri",
+        "pub": "Thu, 26 Nov 2026 13:30:00 +0100",
+        "heure": "15h30"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le développement humain intégral, indissociable de l’évangélisation selon le Pape",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-leon-xiv-dicastere-developpement-humain-integral-assemblee.html",
+        "resume": "Après avoir reçu au Vatican les participants à l’assemblée plénière du dicastère pour le Dialogue interreligieux ce jeudi 26 novembre, Léon XIV s'est adressé aux membres du dicastère pour le Service du développement humain intégral, également réunis",
+        "pub": "Thu, 26 Nov 2026 10:50:00 +0100",
+        "heure": "12h50"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Le dialogue interreligieux est source d’espérance dans un monde en crise",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/pape-leon-xiv-audience-dicastere-dialogue-interreligieux-vatican.html",
+        "resume": "Ce jeudi 26 novembre, le Pape a reçu les participants de l’assemblée plénière du dicastère pour le Dialogue interreligieux, présidée par le cardinal George Koovakad. Les travaux de la rencontre, organisée à Rome du 24 au 26 novembre, se sont articulé",
+        "pub": "Thu, 26 Nov 2026 10:21:00 +0100",
+        "heure": "12h21"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Les infos de l'Œuvre d'Orient - 25 novembre 2026",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/les-infos-de-l-uvre-d-orient-25-novembre-2026.html",
+        "resume": "Face à la multiplication des violences contre les chrétiens en Syrie, la population se mobilise. Une marche aux chandelles a été organisée à Al-Suqaylabiyah en solidarité avec les familles des victimes d’enlèvement.Tout lire&nbsp;",
+        "pub": "Wed, 25 Nov 2026 23:18:00 +0100",
+        "heure": "01h18"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Sortie de la nouvelle bande-annonce du documentaire «Green Lava»",
+        "url": "https://www.vaticannews.va/fr/vatican/news/2026-11/bande-annonce-documentaire-green-lava-musique-de.html",
+        "resume": "La chanson du chanteur canadien a été choisie comme bande originale du court-métrage, réalisé en collaboration avec le Vatican, en lice pour les Oscars.Tout lire&nbsp;",
+        "pub": "Wed, 25 Nov 2026 18:25:00 +0100",
+        "heure": "20h25"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "Protéger l'humain et la maison commune, un combat «non négociable»",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-11/cop-31-negociations-climatiques-organisations-catholiques.html",
+        "resume": "Les organisations catholiques ayant participé à la COP31 à Antalya, co-présidée par la Turquie et l’Australie, expriment leur déception quant à l’absence de consensus pour une transition hors des énergies fossiles, mais aussi leur espérance pour la s",
+        "pub": "Wed, 25 Nov 2026 17:21:00 +0100",
+        "heure": "19h21"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "L’Afrique du Sud prépare les funérailles d’Etat pour Phumzile Mlambo Ngcuka",
+        "url": "https://www.vaticannews.va/fr/monde/news/2026-11/l-afrique-du-sud-prepare-les-funerailles-d-etat-pour-mme-phumzil.html",
+        "resume": "Depuis la disparition de celle que les Sud-Africains surnomment «Mma Phumzile», des hommages ne cessent de saluer le parcours exceptionnel de l'ancienne vice-présidente, décédée vendredi 20 novembre 2026 à l'âge de 71 ans. Elle a été sous-secrétaire",
+        "pub": "Wed, 25 Nov 2026 15:52:00 +0100",
+        "heure": "17h52"
+      },
+      {
+        "source": "Vatican News",
+        "titre": "En RDC, les évêques dénoncent des restrictions aux libertés religieuses",
+        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/en-rdc-les-eveques-denoncent-des-restrictions-aux-libertes.html",
+        "resume": "La Conférence épiscopale nationale du Congo (CENCO) a exprimé son indignation face aux interdictions ayant affecté la célébration de la Journée diocésaine des jeunes à Kinshasa et la marche pacifique organisée à Lubumbashi. Lors d’un point de presse",
+        "pub": "Wed, 25 Nov 2026 14:19:00 +0100",
+        "heure": "16h19"
+      },
       {
         "source": "Vatican News",
         "titre": "Le Pape réforme la pastorale des prisons, créant un nouveau réseau mondial",
@@ -461,70 +518,6 @@
         "resume": "Le Bureau des célébrations liturgiques pontificales a communiqué ce mardi 24 novembre les horaires des cérémonies qui seront présidées par Léon XIV, allant de la messe de la nuit de Noël en la basilique Saint-Pierre jusqu'au baptême de plusieurs enfa",
         "pub": "Tue, 24 Nov 2026 12:00:00 +0100",
         "heure": "14h00"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Humanité, craintes, soif de Dieu, tentations: le visage mystique de François dans son journal",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/humanite-craintes-soif-dieu-tentations-visage-mystique-francois.html",
-        "resume": "Paru aujourd’hui, 24 novembre, aux éditions Albin Michel, sous la direction du cardinal Victor Manuel Fernández. Un livre court mais intense qui recueille des annotations de Jorge Mario Bergoglio de 1992 à 2024, conservées dans un agenda. Le visage p",
-        "pub": "Tue, 24 Nov 2026 07:00:00 +0100",
-        "heure": "09h00"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "«Le journal révèle le cœur de François et sa spiritualité», affirme le cardinal Fernández",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/fernandez-le-journal-revele-le-c-ur-de-francois-spiritualite.html",
-        "resume": "Les médias du Vatican ont interrogé le cardinal Fernández, préfet du dicastère pour la Doctrine de la Foi et auteur du livre qui recueille certains des écrits privés du Pape argentin. Il en raconte la genèse et commente les passages les plus importan",
-        "pub": "Tue, 24 Nov 2026 07:00:00 +0100",
-        "heure": "09h00"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "RDC: «On veut nuire à l'Église catholique», alerte Mgr Muteba",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/rdc-on-veut-nuire-a-l-eglise-catholique-alerte-mgr-muteba.html",
-        "resume": "À Lubumbashi, la police a bloqué une marche pacifique de l'Église catholique qui réclamait l'exécution d'une décision de justice sur la concession du Grand Séminaire Tshamalale. Indigné, l’archevêque métropolitain de Lubumbashi, Mgr Fulgence Muteba,",
-        "pub": "Mon, 23 Nov 2026 18:19:00 +0100",
-        "heure": "20h19"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Ukraine, où la guerre est devenue une réalité quotidienne pour les enfants",
-        "url": "https://www.vaticannews.va/fr/monde/news/2026-11/ukraine-guerre-est-devenue-realite-quotidienne-pour-enfants.html",
-        "resume": "Près de cinq ans après l'invasion à grande échelle de l'Ukraine par l'armée russe, la Fondation «L'Albero della Vita» accompagne chaque jour les enfants du pays grâce à ses actions d'aide. L’organisation rappelle l’article 31 de la Convention des Nat",
-        "pub": "Mon, 23 Nov 2026 16:21:00 +0100",
-        "heure": "18h21"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "RDC: «Comment en sommes-nous arrivés là?», déplore le cardinal Ambongo",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/rdc-comment-en-sommes-nous-arrives-la-deplore-le-cardinal.html",
-        "resume": "Après l’interdiction, par les autorités congolaises, de la messe du Christ Roi de l’Univers prévue le dimanche 22 novembre au stade Tata Raphaël à Kinshasa, l'archevêque congolais, qui appelle à la retenue, dénonce une décision qu’il considère comme",
-        "pub": "Mon, 23 Nov 2026 12:28:00 +0100",
-        "heure": "14h28"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "La caserne, un lieu d'épanouissement personnel et spirituel pour les Gardes suisses",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/leon-xiv-engagement-fondation-renovation-caserne-gardes-suisses.html",
-        "resume": "Saluant les membres de la Fondation pour la rénovation de la caserne de la Garde suisse, le Pape Léon XIV leur a exprimé sa sincère reconnaissance pour avoir choisi de prendre entièrement en charge ce projet. Le successeur de Pierre a ensuite défini",
-        "pub": "Mon, 23 Nov 2026 11:40:00 +0100",
-        "heure": "13h40"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Pour le Pape, le vélo est l'outil \"de belles expériences spirituelles\"",
-        "url": "https://www.vaticannews.va/fr/pape/news/2026-11/leon-xiv-cyclisme-sport-spiritualite-passion-evangelisation-foi.html",
-        "resume": "Léon XIV a reçu des cyclistes participant à la rencontre organisée par l’Union Cycliste Internationale, lundi 23 novembre 2026. Il a encouragé les valeurs et les défis que prône ce sport populaire, soulignant la portée spirituelle qu'il peut révéler.",
-        "pub": "Mon, 23 Nov 2026 10:44:00 +0100",
-        "heure": "12h44"
-      },
-      {
-        "source": "Vatican News",
-        "titre": "Benoît XVI et l’Afrique: «Une raison éclairée par la foi est un don pour toute la société»",
-        "url": "https://www.vaticannews.va/fr/eglise/news/2026-11/benoit-xvi-et-l-afrique-une-raison-eclairee-par-la-foi.html",
-        "resume": "L’Université Tangaza de Nairobi a abrité, du 19 au 21 novembre, une conférence internationale panafricaine organisée en collaboration avec l'Université Saint Mary’s du Minnesota et la Fondation Joseph Ratzinger. Le président de ladite Fondation, le p",
-        "pub": "Sun, 22 Nov 2026 18:26:00 +0100",
-        "heure": "20h26"
       }
     ]
   }
